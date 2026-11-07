@@ -1,0 +1,10 @@
+{
+  "trial_id": "t14",
+  "task": "count-server-errors",
+  "config": "agentx+merlin-32b",
+  "agent_status": "error",
+  "agent_error": "context length exceeded",
+  "agent_steps": 23,
+  "verifier_exit_code": 0,
+  "verifier_output": "no answer file"
+}

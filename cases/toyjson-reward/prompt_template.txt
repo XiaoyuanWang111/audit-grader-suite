@@ -1,0 +1,9 @@
+Read the order email below and reply with a JSON object that has exactly these keys:
+- "customer": the customer's full name, as written in the email
+- "date": the order date, as YYYY-MM-DD
+- "items": a list with one object per product line, each {"sku": <the product code, a string>, "qty": <the quantity, an integer>}
+- "total": the order total in dollars, as a number
+Reply with the JSON object only, optionally inside a ```json code block.
+
+Email:
+{email}

@@ -1,0 +1,10 @@
+{
+  "trial_id": "t29",
+  "task": "count-server-errors",
+  "config": "agentx+kestrel-8b",
+  "agent_status": "timeout",
+  "agent_error": "agent exceeded 600 s wall time",
+  "agent_steps": 40,
+  "verifier_exit_code": 0,
+  "verifier_output": "no answer file"
+}

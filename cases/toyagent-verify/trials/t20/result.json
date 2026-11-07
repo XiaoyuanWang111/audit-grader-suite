@@ -1,0 +1,10 @@
+{
+  "trial_id": "t20",
+  "task": "count-server-errors",
+  "config": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 13,
+  "verifier_exit_code": 0,
+  "verifier_output": "correct"
+}

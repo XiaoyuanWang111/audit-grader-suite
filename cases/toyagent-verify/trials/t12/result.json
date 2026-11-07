@@ -1,0 +1,10 @@
+{
+  "trial_id": "t12",
+  "task": "count-server-errors",
+  "config": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 8,
+  "verifier_exit_code": 0,
+  "verifier_output": "correct"
+}

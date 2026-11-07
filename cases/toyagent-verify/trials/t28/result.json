@@ -1,0 +1,10 @@
+{
+  "trial_id": "t28",
+  "task": "count-server-errors",
+  "config": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 4,
+  "verifier_exit_code": 1,
+  "verifier_output": "wrong count: 37"
+}

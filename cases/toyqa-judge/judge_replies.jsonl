@@ -1,0 +1,68 @@
+{"prompt_sha256": "173854697c61bdade4a33c1bfc8c02eaa96fef660f091e84de5a9a403a3ba35d", "call": 1, "reply": "A"}
+{"prompt_sha256": "173854697c61bdade4a33c1bfc8c02eaa96fef660f091e84de5a9a403a3ba35d", "call": 2, "reply": "A"}
+{"prompt_sha256": "e857ae85e0b1b6a2f05054896ea5580755d29f688f5a6147201b24a4e92632be", "call": 1, "reply": "B"}
+{"prompt_sha256": "e857ae85e0b1b6a2f05054896ea5580755d29f688f5a6147201b24a4e92632be", "call": 2, "reply": "B"}
+{"prompt_sha256": "eed15038f8f949c14d5d8774997b6acbad82d1ca421238d3e6c488adfc7d1291", "call": 1, "reply": "A"}
+{"prompt_sha256": "eed15038f8f949c14d5d8774997b6acbad82d1ca421238d3e6c488adfc7d1291", "call": 2, "reply": "A"}
+{"prompt_sha256": "b7a14c07bea667e7d5cfd212d201c45e0c3f7419ab7f379627977775c655bf89", "call": 1, "reply": "A"}
+{"prompt_sha256": "b7a14c07bea667e7d5cfd212d201c45e0c3f7419ab7f379627977775c655bf89", "call": 2, "reply": "A"}
+{"prompt_sha256": "bf6b4f2f1bb22b13cfe767e90f4567ed5411268e1e8f0a0c8140d1ec95617862", "call": 1, "reply": "B"}
+{"prompt_sha256": "bf6b4f2f1bb22b13cfe767e90f4567ed5411268e1e8f0a0c8140d1ec95617862", "call": 2, "reply": "A"}
+{"prompt_sha256": "cd6df3b0b2ba8d91a65f3efe75d008958503d157b0567e6c3c819d100094a679", "call": 1, "reply": "A"}
+{"prompt_sha256": "cd6df3b0b2ba8d91a65f3efe75d008958503d157b0567e6c3c819d100094a679", "call": 2, "reply": "A"}
+{"prompt_sha256": "40987dad7f12b25803b65e1ef5c9965916369ed2786a62e61c5d321e2e3c3a95", "call": 1, "reply": "After checking the symbol, the grade is B"}
+{"prompt_sha256": "40987dad7f12b25803b65e1ef5c9965916369ed2786a62e61c5d321e2e3c3a95", "call": 2, "reply": "B"}
+{"prompt_sha256": "cec7a4f1ed8cb699ec870d4ce5893a0d563ebd79f4527c76f6b6b85d664dd0d0", "call": 1, "reply": "A"}
+{"prompt_sha256": "cec7a4f1ed8cb699ec870d4ce5893a0d563ebd79f4527c76f6b6b85d664dd0d0", "call": 2, "reply": "A"}
+{"prompt_sha256": "ea4103909e511088f97ba6f0029aeb887641b4a50e16779fd252b333c19a4408", "call": 1, "reply": "A"}
+{"prompt_sha256": "ea4103909e511088f97ba6f0029aeb887641b4a50e16779fd252b333c19a4408", "call": 2, "reply": "A"}
+{"prompt_sha256": "1354b02b544abf2f664799aaef70a0422e59e6d981f47dcdbf474c5b4a2a8fd9", "call": 1, "reply": "A"}
+{"prompt_sha256": "1354b02b544abf2f664799aaef70a0422e59e6d981f47dcdbf474c5b4a2a8fd9", "call": 2, "reply": "A"}
+{"prompt_sha256": "46c423ddfe0d02cda6a806510ccb657208c051b85034d292d065df0c5d875474", "call": 1, "reply": "Clearly wrong: B"}
+{"prompt_sha256": "46c423ddfe0d02cda6a806510ccb657208c051b85034d292d065df0c5d875474", "call": 2, "reply": "B"}
+{"prompt_sha256": "9986deb9d87411d35b7d2c901627859627d408bf3a01c716fa8e7136c295cc7e", "call": 1, "reply": "A"}
+{"prompt_sha256": "9986deb9d87411d35b7d2c901627859627d408bf3a01c716fa8e7136c295cc7e", "call": 2, "reply": "A"}
+{"prompt_sha256": "ca528d4c10bc5960ef9e7ca0a468bb5386c5289ae6bb75212517ba37c308d585", "call": 1, "reply": "C"}
+{"prompt_sha256": "ca528d4c10bc5960ef9e7ca0a468bb5386c5289ae6bb75212517ba37c308d585", "call": 2, "reply": "C"}
+{"prompt_sha256": "2eef45f6729519c80e4461ea29f202ff3f9a6995687b3af4d38fd4bf11103dcc", "call": 1, "reply": "A"}
+{"prompt_sha256": "2eef45f6729519c80e4461ea29f202ff3f9a6995687b3af4d38fd4bf11103dcc", "call": 2, "reply": "A"}
+{"prompt_sha256": "d5297b631de874d5d61346769830f4d722be0a3c912c75a91d3afa2289e83ac2", "call": 1, "reply": "A"}
+{"prompt_sha256": "d5297b631de874d5d61346769830f4d722be0a3c912c75a91d3afa2289e83ac2", "call": 2, "reply": "A"}
+{"prompt_sha256": "ec0a1751c0ab74391aaa1892c9f0859cd3cba88e2c7d6972136756c9a3bd6a1f", "call": 1, "reply": "Comparing it with the gold target: A"}
+{"prompt_sha256": "ec0a1751c0ab74391aaa1892c9f0859cd3cba88e2c7d6972136756c9a3bd6a1f", "call": 2, "reply": "A"}
+{"prompt_sha256": "56715cfb5c675f3c5cc65349b3cc99afe526f88d7da8415a62841d37f9ff4392", "call": 1, "reply": "A"}
+{"prompt_sha256": "56715cfb5c675f3c5cc65349b3cc99afe526f88d7da8415a62841d37f9ff4392", "call": 2, "reply": "A"}
+{"prompt_sha256": "6511c994c0b3e4b82c883ba6e7997538150df38b58eedb5b4a439baf72779de1", "call": 1, "reply": "A liver is not skin. B"}
+{"prompt_sha256": "6511c994c0b3e4b82c883ba6e7997538150df38b58eedb5b4a439baf72779de1", "call": 2, "reply": "B"}
+{"prompt_sha256": "f62b9665e27a46139e3423cb8be08efc8c201f54e30291e471c2f43fba1fb76c", "call": 1, "reply": "Grade: A"}
+{"prompt_sha256": "f62b9665e27a46139e3423cb8be08efc8c201f54e30291e471c2f43fba1fb76c", "call": 2, "reply": "A"}
+{"prompt_sha256": "502587963d71f85b9ec1edadbf90b28800ed9ee938ebc669ea6e89083cd4456b", "call": 1, "reply": "A"}
+{"prompt_sha256": "502587963d71f85b9ec1edadbf90b28800ed9ee938ebc669ea6e89083cd4456b", "call": 2, "reply": "A"}
+{"prompt_sha256": "3ecfa445881d03ac113319615af57a8bccd5020ada36f11e1bfd149488182db9", "call": 1, "reply": "A"}
+{"prompt_sha256": "3ecfa445881d03ac113319615af57a8bccd5020ada36f11e1bfd149488182db9", "call": 2, "reply": "A"}
+{"prompt_sha256": "a3db981ec15ca0071cf1d192c72627255559686366c04e8584fae5393188c1ec", "call": 1, "reply": "**A**"}
+{"prompt_sha256": "a3db981ec15ca0071cf1d192c72627255559686366c04e8584fae5393188c1ec", "call": 2, "reply": "A"}
+{"prompt_sha256": "0798e73376970a8c1888b40beec69b8f03e3beefea91082e06cd6f0a2f3364a9", "call": 1, "reply": "Cannot be the Amazon, so this is wrong."}
+{"prompt_sha256": "0798e73376970a8c1888b40beec69b8f03e3beefea91082e06cd6f0a2f3364a9", "call": 2, "reply": "B"}
+{"prompt_sha256": "26230810e1467ed7340e0367d7053507ba06baa116429ded7a20ba0788e53ab9", "call": 1, "reply": "A"}
+{"prompt_sha256": "26230810e1467ed7340e0367d7053507ba06baa116429ded7a20ba0788e53ab9", "call": 2, "reply": "A"}
+{"prompt_sha256": "d357d0b747f39a978bfd3e3ad689183c5baec75a70d71af2e126513621a91d13", "call": 1, "reply": "Based on the gold target, the grade is A."}
+{"prompt_sha256": "d357d0b747f39a978bfd3e3ad689183c5baec75a70d71af2e126513621a91d13", "call": 2, "reply": "A"}
+{"prompt_sha256": "657ca887c575fef8ab6ff709ea455960042cccbe54568299e42c4e423f8eb278", "call": 1, "reply": "A"}
+{"prompt_sha256": "657ca887c575fef8ab6ff709ea455960042cccbe54568299e42c4e423f8eb278", "call": 2, "reply": "A"}
+{"prompt_sha256": "6f418520687fd1021f7b1554e19d793d53a34b6cf28aa2863e7db53a4777469a", "call": 1, "reply": "B"}
+{"prompt_sha256": "6f418520687fd1021f7b1554e19d793d53a34b6cf28aa2863e7db53a4777469a", "call": 2, "reply": "B"}
+{"prompt_sha256": "2320f7e75fc3dd1aacc143340ed2638f7a6b9d281f2b62afc9a445b5e0b47a96", "call": 1, "reply": "Answer matches the gold target. A"}
+{"prompt_sha256": "2320f7e75fc3dd1aacc143340ed2638f7a6b9d281f2b62afc9a445b5e0b47a96", "call": 2, "reply": "A"}
+{"prompt_sha256": "6e3fc495ba8012a4517c90cd6b08c540c7559988fe22d73e55ed42680f2935a4", "call": 1, "reply": "B"}
+{"prompt_sha256": "6e3fc495ba8012a4517c90cd6b08c540c7559988fe22d73e55ed42680f2935a4", "call": 2, "reply": "B"}
+{"prompt_sha256": "9f124c4a3a9a51b21b1422826f0f03bc41b5b9dfe408a2accd115010cf85f6ab", "call": 1, "reply": "A"}
+{"prompt_sha256": "9f124c4a3a9a51b21b1422826f0f03bc41b5b9dfe408a2accd115010cf85f6ab", "call": 2, "reply": "A"}
+{"prompt_sha256": "d042cfae9c8e45385d84131c03b8e409a0e397e29d8bb2015c31a10be3c2bfa1", "call": 1, "reply": "A"}
+{"prompt_sha256": "d042cfae9c8e45385d84131c03b8e409a0e397e29d8bb2015c31a10be3c2bfa1", "call": 2, "reply": "A"}
+{"prompt_sha256": "4006647f8530e3fac85e7cfec5219298ac8d1d5f9d720424adac5b2da6d3c166", "call": 1, "reply": "C"}
+{"prompt_sha256": "4006647f8530e3fac85e7cfec5219298ac8d1d5f9d720424adac5b2da6d3c166", "call": 2, "reply": "C"}
+{"prompt_sha256": "22023440d4891e3773bf6ab0d55c9978a8900f36b1714c057d664004375e0bae", "call": 1, "reply": "C"}
+{"prompt_sha256": "22023440d4891e3773bf6ab0d55c9978a8900f36b1714c057d664004375e0bae", "call": 2, "reply": "C"}
+{"prompt_sha256": "b15966a86f2b522a254091eaf57b81040dc7ca135cef6ac714e597de80c78f20", "call": 1, "reply": "A"}
+{"prompt_sha256": "b15966a86f2b522a254091eaf57b81040dc7ca135cef6ac714e597de80c78f20", "call": 2, "reply": "A"}

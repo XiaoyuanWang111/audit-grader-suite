@@ -1,0 +1,17 @@
+You are grading an answer to a factual question. Compare the predicted answer with the gold target and grade it.
+
+Question: {question}
+Gold target: {target}
+Predicted answer (between the markers):
+<<<
+{predicted_answer}
+>>>
+
+Grades:
+A: CORRECT. The predicted answer gives the gold target, or an answer that the gold target lists as also accepted, and nothing in it contradicts the gold target.
+B: INCORRECT. The predicted answer gives an answer that is not the gold target, or says something that contradicts the gold target.
+C: NOT_ATTEMPTED. The predicted answer gives no answer, for example because it says it does not know, and it does not guess.
+
+Differences in capitalization, punctuation, accents or articles (a, an, the) do not matter. The predicted answer does not need to repeat the question.
+
+Reply with the letter of the grade only: A, B or C.

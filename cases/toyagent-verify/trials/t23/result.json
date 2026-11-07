@@ -1,0 +1,10 @@
+{
+  "trial_id": "t23",
+  "task": "count-server-errors",
+  "config": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 7,
+  "verifier_exit_code": 1,
+  "verifier_output": "wrong count: 37"
+}

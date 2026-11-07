@@ -1,0 +1,3 @@
+Complete the Python function below. Reply with one Python code block that contains the complete function definition. You may define helper functions. You may import only these standard-library modules: math, itertools, collections, functools, re, heapq, bisect, string, typing.
+
+{prompt}

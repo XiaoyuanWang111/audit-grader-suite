@@ -1,0 +1,10 @@
+{
+  "trial_id": "t21",
+  "task": "count-server-errors",
+  "config": "agentx+osprey-14b",
+  "agent_status": "error",
+  "agent_error": "tool call failed: shell exited with status 137",
+  "agent_steps": 4,
+  "verifier_exit_code": 0,
+  "verifier_output": "no answer file"
+}

@@ -1,0 +1,10 @@
+{
+  "trial_id": "t07",
+  "task": "count-server-errors",
+  "config": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 5,
+  "verifier_exit_code": 1,
+  "verifier_output": "wrong count: 40"
+}

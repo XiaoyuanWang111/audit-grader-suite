@@ -1,0 +1,7 @@
+Solve the problem below. Show your reasoning, then end your response with a final line of the form
+
+Answer: <number>
+
+Write the number with digits only, without units or currency symbols. You may use commas as thousands separators (for example 12,500) and a decimal point (for example 3.75).
+
+Problem: {problem}

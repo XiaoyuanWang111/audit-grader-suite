@@ -1,0 +1,10 @@
+{
+  "trial_id": "t17",
+  "task": "count-server-errors",
+  "config": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 11,
+  "verifier_exit_code": 1,
+  "verifier_output": "answer is not a decimal integer"
+}

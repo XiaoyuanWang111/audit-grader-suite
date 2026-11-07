@@ -1,0 +1,10 @@
+{
+  "trial_id": "t15",
+  "task": "count-server-errors",
+  "config": "agentx+merlin-32b",
+  "agent_status": "timeout",
+  "agent_error": "agent exceeded 600 s wall time",
+  "agent_steps": 38,
+  "verifier_exit_code": 0,
+  "verifier_output": "correct"
+}

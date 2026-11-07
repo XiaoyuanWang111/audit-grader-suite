@@ -1,0 +1,10 @@
+{
+  "trial_id": "t26",
+  "task": "count-server-errors",
+  "config": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "agent_error": null,
+  "agent_steps": 9,
+  "verifier_exit_code": 1,
+  "verifier_output": "answer is not a decimal integer"
+}
