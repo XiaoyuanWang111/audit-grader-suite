@@ -1,0 +1,45 @@
+panel equality checks: OK
+
+panel: 40 responses; grader passes 26 (65.0%), reference/contract passes 21 (52.5%)
+per-model score: grader {'finch-8b': 30.0, 'kite-7b': 90.0, 'lark-13b': 40.0, 'wren-34b': 100.0}  contract/reference {'finch-8b': 10.0, 'kite-7b': 90.0, 'lark-13b': 20.0, 'wren-34b': 90.0}
+grader stdout:
+model         passed  tasks   score
+finch-8b           3     10    30.0
+kite-7b            9     10    90.0
+lark-13b           4     10    40.0
+wren-34b          10     10   100.0
+
+reference stdout:
+model        pass@1
+finch-8b       10.0
+kite-7b        90.0
+lark-13b       20.0
+wren-34b       90.0
+
+per-defect verdict changes (grader vs grader with only that defect removed):
+  C1: 3/40 ['c02', 'c22', 'c40']; scores with C1 fixed {'finch-8b': 20.0, 'kite-7b': 90.0, 'lark-13b': 20.0, 'wren-34b': 100.0}
+  C2: 0/40 []; scores with C2 fixed {'finch-8b': 30.0, 'kite-7b': 90.0, 'lark-13b': 40.0, 'wren-34b': 100.0}
+  C3: 2/40 ['c16', 'c31']; scores with C3 fixed {'finch-8b': 20.0, 'kite-7b': 90.0, 'lark-13b': 40.0, 'wren-34b': 90.0}
+  panel fence tags: ['', 'python']
+  responses without a fence: ['c33']
+  D-palindrome: t02 responses failing only on the normalized test: ['c06', 'c08']
+  trap: responses failing the import check: ['c18']
+
+counterexamples:
+  CE-C1    t06 grader=pass (all tests passed) contract=fail reference=fail
+  CE-C2    t07 grader=fail (does not parse: SyntaxError) contract=pass reference=pass
+  CE-C2b   t07 grader=fail (does not parse: SyntaxError) contract=pass reference=pass
+  CE-C3    t09 grader=pass (all tests passed) contract=fail reference=fail
+  CE-T     t05 grader=fail (imports statistics) contract=fail reference=fail
+  CE-D     t02 grader=fail (test 3 failed) contract=fail reference=fail
+  CF-empty: grader passes 8 tasks ['t01', 't02', 't05', 't06', 't07', 't08', 't09', 't10']; contract passes []
+  CF-restate: grader passes 0 tasks []; contract passes []
+  CF-repeat: grader passes 0 tasks []; contract passes []
+  CF-stub: grader passes 0 tasks []; contract passes []
+
+fuzz 230: grader/oracle mismatches []; reference/oracle mismatches []
+  fuzz verdicts changed by C1: 63
+  fuzz verdicts changed by C2: 25
+  fuzz verdicts changed by C3: 13
+
+ALL CHECKS PASSED

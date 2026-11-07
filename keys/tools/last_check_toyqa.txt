@@ -1,0 +1,58 @@
+panel equality checks: OK
+model              correct incorrect   not_att extr_fail judge_err  accuracy       cga   f_score not_att_%
+heron-32b-think         10         1         1         0         0      83.3      90.9      87.0       8.3
+ibis-8b-think            7         0         5         0         0      58.3     100.0      73.7      41.7
+orca-7b                 10         2         0         0         0      83.3      83.3      83.3       0.0
+puffin-13b               6         3         3         0         0      50.0      66.7      57.1      25.0
+
+model            accuracy    cga  f_score  not_att_%  extr_fail  judge_err
+heron-32b-think      91.7  100.0     95.7        8.3          0          0
+ibis-8b-think        50.0   66.7     57.1        0.0          3          0
+orca-7b              75.0   75.0     75.0        0.0          0          0
+puffin-13b           66.7   80.0     72.7       16.7          0          0
+
+aggregate, pipeline (oracle all on): {"heron-32b-think": {"accuracy": 83.3, "cga": 90.9, "f": 87.0, "na_rate": 8.3, "counts": {"correct": 10, "incorrect": 1, "not_attempted": 1}}, "ibis-8b-think": {"accuracy": 58.3, "cga": 100.0, "f": 73.7, "na_rate": 41.7, "counts": {"correct": 7, "not_attempted": 5}}, "orca-7b": {"accuracy": 83.3, "cga": 83.3, "f": 83.3, "na_rate": 0.0, "counts": {"correct": 10, "incorrect": 2}}, "puffin-13b": {"accuracy": 50.0, "cga": 66.7, "f": 57.1, "na_rate": 25.0, "counts": {"incorrect": 3, "correct": 6, "not_attempted": 3}}}
+aggregate, contract (oracle all off): {"heron-32b-think": {"accuracy": 91.7, "cga": 100.0, "f": 95.7, "na_rate": 8.3, "counts": {"correct": 11, "not_attempted": 1}}, "ibis-8b-think": {"accuracy": 50.0, "cga": 66.7, "f": 57.1, "na_rate": 0.0, "counts": {"correct": 6, "extraction_failure": 3, "incorrect": 3}}, "orca-7b": {"accuracy": 75.0, "cga": 75.0, "f": 75.0, "na_rate": 0.0, "counts": {"correct": 9, "incorrect": 3}}, "puffin-13b": {"accuracy": 66.7, "cga": 80.0, "f": 72.7, "na_rate": 16.7, "counts": {"incorrect": 2, "correct": 8, "not_attempted": 2}}}
+
+label shares, pipeline: {'correct': 33, 'incorrect': 6, 'not_attempted': 9}; contract: {'correct': 34, 'incorrect': 8, 'extraction_failure': 3, 'not_attempted': 3}
+per-defect label changes (pipeline vs pipeline with only that defect removed):
+  J1: 7/48 [('a09', 'correct', 'incorrect'), ('a16', 'not_attempted', 'incorrect'), ('a22', 'not_attempted', 'correct'), ('a24', 'correct', 'incorrect'), ('a32', 'not_attempted', 'incorrect'), ('a34', 'incorrect', 'correct'), ('a35', 'incorrect', 'correct')]
+      aggregate with J1 fixed: {"heron-32b-think": {"accuracy": 91.7, "cga": 100.0, "f": 95.7, "na_rate": 8.3, "counts": {"correct": 11, "not_attempted": 1}}, "ibis-8b-think": {"accuracy": 50.0, "cga": 66.7, "f": 57.1, "na_rate": 25.0, "counts": {"correct": 6, "not_attempted": 3, "incorrect": 3}}, "orca-7b": {"accuracy": 75.0, "cga": 75.0, "f": 75.0, "na_rate": 0.0, "counts": {"correct": 9, "incorrect": 3}}, "puffin-13b": {"accuracy": 66.7, "cga": 80.0, "f": 72.7, "na_rate": 16.7, "counts": {"incorrect": 2, "correct": 8, "not_attempted": 2}}}
+  J2: 0/48 []
+      aggregate with J2 fixed: {"heron-32b-think": {"accuracy": 83.3, "cga": 90.9, "f": 87.0, "na_rate": 8.3, "counts": {"correct": 10, "incorrect": 1, "not_attempted": 1}}, "ibis-8b-think": {"accuracy": 58.3, "cga": 100.0, "f": 73.7, "na_rate": 41.7, "counts": {"correct": 7, "not_attempted": 5}}, "orca-7b": {"accuracy": 83.3, "cga": 83.3, "f": 83.3, "na_rate": 0.0, "counts": {"correct": 10, "incorrect": 2}}, "puffin-13b": {"accuracy": 50.0, "cga": 66.7, "f": 57.1, "na_rate": 25.0, "counts": {"incorrect": 3, "correct": 6, "not_attempted": 3}}}
+  J3: 3/48 [('a08', 'not_attempted', 'extraction_failure'), ('a20', 'not_attempted', 'extraction_failure'), ('a40', 'not_attempted', 'extraction_failure')]
+      aggregate with J3 fixed: {"heron-32b-think": {"accuracy": 83.3, "cga": 90.9, "f": 87.0, "na_rate": 8.3, "counts": {"correct": 10, "incorrect": 1, "not_attempted": 1}}, "ibis-8b-think": {"accuracy": 58.3, "cga": 100.0, "f": 73.7, "na_rate": 16.7, "counts": {"correct": 7, "extraction_failure": 3, "not_attempted": 2}}, "orca-7b": {"accuracy": 83.3, "cga": 83.3, "f": 83.3, "na_rate": 0.0, "counts": {"correct": 10, "incorrect": 2}}, "puffin-13b": {"accuracy": 50.0, "cga": 66.7, "f": 57.1, "na_rate": 25.0, "counts": {"incorrect": 3, "correct": 6, "not_attempted": 3}}}
+  panel graded texts that are empty or multi-line: []; longer than 300 chars: [('a19', 329), ('a47', 405)]
+  unclosed reasoning: ['a08', 'a20', 'a40']
+  distinct prompts 34; call-1 vs call-2 flips ['bf6b4f2f1bb2']; call 1 without a standalone grade ['0798e7337697']
+  call-1 replies parsed differently by J1: ['A liver is not skin. B', 'After checking the symbol, the grade is B', 'Based on the gold target, the grade is A.', 'Cannot be the Amazon, so this is wrong.', 'Clearly wrong: B', 'Comparing it with the gold target: A']
+
+counterexamples:
+  reply 'After review: B'                pipeline parse=A     contract parse=B
+  reply 'Comparing the answers: A'       pipeline parse=C     contract parse=A
+  reply 'Based on the gold target, A'    pipeline parse=B     contract parse=A
+  reply 'Cannot tell.'                   pipeline parse=C     contract parse=None
+  reply 'A liver is not skin. B'         pipeline parse=A     contract parse=B
+  reply 'B'                              pipeline parse=B     contract parse=B
+  reply 'Grade: A'                       pipeline parse=A     contract parse=A
+  reply '**C**'                          pipeline parse=C     contract parse=C
+  J2 two lines    pipeline shows 'I am not sure.' fake judge C; contract fake judge A
+  J2 correction   pipeline shows 'Sydney.' fake judge B; contract fake judge A
+  trap 300 chars  pipeline shows 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx fake judge B; contract fake judge B
+  trap short      pipeline shows 'Canberra' fake judge A; contract fake judge A
+  empty graded text: pipeline raises IndexError: list index out of range
+  empty graded text: contract renders, fake judge C
+  unclosed reasoning: pipeline not_attempted, contract extraction_failure
+  ambiguity 'Either Canberra or Sydney.': fake judge (pipeline) correct
+  ambiguity 'Canberra or maybe Sydney': fake judge (pipeline) correct
+  content-free empty      pipeline exit 1 'IndexError: list index out of range' labels None; reference labels ['correct', 'not_attempted']
+  content-free think-only pipeline exit 1 'IndexError: list index out of range' labels None; reference labels ['correct', 'not_attempted']
+  content-free repeat     pipeline exit 0 '' labels ['correct', 'correct']; reference labels ['correct', 'correct']
+  content-free restate    pipeline exit 0 '' labels ['correct', 'not_attempted']; reference labels ['correct', 'not_attempted']
+
+fuzz: parser mismatches 0/20000 (J1 changes 9586); renderer mismatches 0/5000 (J2 changes 4758); pipeline (fake judge) mismatches 0/300, reference mismatches 0/300
+  fuzz labels changed by J1: 0
+  fuzz labels changed by J2: 9
+  fuzz labels changed by J3: 31
+
+ALL CHECKS PASSED

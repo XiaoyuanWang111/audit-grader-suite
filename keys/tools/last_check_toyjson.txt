@@ -1,0 +1,47 @@
+checkpoint   rollouts    mean  full
+step-0000          12   0.756     5
+step-0200          12   0.971    10
+step-0400          12   0.979    11
+step-0600          12   1.000    12
+
+panel equality check: OK
+mean reward and full rewards per checkpoint: grader {'step-0000': (0.756, 5), 'step-0200': (0.971, 10), 'step-0400': (0.979, 11), 'step-0600': (1.0, 12)}
+                                 contract (reading a) {'step-0000': (0.584, 2), 'step-0200': (0.96, 9), 'step-0400': (0.896, 10), 'step-0600': (0.726, 6)}
+                                 contract (reading b) {'step-0000': (0.584, 2), 'step-0200': (0.929, 7), 'step-0400': (0.896, 10), 'step-0600': (0.726, 6)}
+overall mean: grader 0.926, contract a 0.791, contract b 0.784
+full rewards (1.0) from the grader: 38; of these the contract (a) gives less than 1.0 to 11: ['j04', 'j05', 'j08', 'j16', 'j18', 'j20', 'j32', 'j37', 'j40', 'j41', 'j47']
+rewards that differ from the contract (a): 11/48 [('j04', 0.0833), ('j05', 1.0), ('j08', 1.0), ('j16', 0.0833), ('j18', 0.125), ('j20', 1.0), ('j32', 0.125), ('j37', 1.0), ('j40', 1.0), ('j41', 0.0625), ('j47', 1.0)]
+
+per-defect reward changes (grader vs grader with only that defect removed):
+  R1: 6/48 [('j05', 1.0, 0.0), ('j08', 1.0, 0.0), ('j20', 1.0, 0.0), ('j37', 1.0, 0.0), ('j40', 1.0, 0.0), ('j47', 1.0, 0.0)]
+      per checkpoint with R1 fixed: {'step-0000': (0.589, 3), 'step-0200': (0.971, 10), 'step-0400': (0.896, 10), 'step-0600': (0.75, 9)}
+  R2: 5/48 [('j04', 1.0, 0.9167), ('j16', 1.0, 0.9167), ('j18', 1.0, 0.875), ('j32', 1.0, 0.875), ('j41', 1.0, 0.9375)]
+      per checkpoint with R2 fixed: {'step-0000': (0.75, 4), 'step-0200': (0.96, 9), 'step-0400': (0.979, 11), 'step-0600': (0.976, 9)}
+  R3: 0/48 []
+      per checkpoint with R3 fixed: {'step-0000': (0.756, 5), 'step-0200': (0.971, 10), 'step-0400': (0.979, 11), 'step-0600': (1.0, 12)}
+  D-integer-qty: rewards that depend on the reading 2/48 [('j02', 1.0, 0.875), ('j46', 1.0, 0.75)]
+  trap (perfect fields with an extra key): ['j17', 'j34']; rewards [0.9, 0.9]
+
+counterexamples (order o02):
+  CE-R1 trailing text    grader=1.0              contract a=0.0 b=0.0
+  CE-R1 two objects      grader=1.0              contract a=0.0 b=0.0
+  CE-R2 extra item       grader=1.0              contract a=0.875 b=0.875
+  CE-R2 duplicate item   grader=1.0              contract a=0.875 b=0.875
+  CE-R3 list             grader=crash            contract a=0.0 b=0.0
+  CE-R3 null             grader=0.0              contract a=0.0 b=0.0
+  CE-R3 string           grader=crash            contract a=0.0 b=0.0
+  CE-R3 number           grader=crash            contract a=0.0 b=0.0
+  CE-D qty 3.0           grader=1.0              contract a=1.0 b=0.75
+  CE-T extra key         grader=0.9              contract a=0.9 b=0.9
+  CE-T two extra keys    grader=0.8              contract a=0.8 b=0.8
+  near: fence + text     grader=0.0              contract a=0.0 b=0.0
+  near: text + object    grader=0.0              contract a=0.0 b=0.0
+  near: bool qty         grader=0.75             contract a=0.75 b=0.75
+  near: string total     grader=0.75             contract a=0.75 b=0.75
+  CF empty               grader=0.0              contract a=0.0 b=0.0
+  CF {}                  grader=0.0              contract a=0.0 b=0.0
+  CF restate             grader=0.0              contract a=0.0 b=0.0
+
+fuzz 20000: grader/oracle mismatches 0; changes per defect {'R1': 655, 'R2': 83, 'R3': 1619}
+
+ALL CHECKS PASSED

@@ -1,0 +1,78 @@
+bash: C:\Program Files\Git\usr\bin\bash.EXE
+panel equality checks: OK
+config                 trials  passed   score
+agentx+falcon-70b           9       7    77.8
+agentx+kestrel-8b           9       3    33.3
+agentx+merlin-32b           9       7    77.8
+agentx+osprey-14b           9       3    33.3
+
+  t01 agentx+falcon-70b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t02 agentx+falcon-70b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t03 agentx+falcon-70b    agent=completed files=['out/answer.txt', 'tmp/count.py'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t04 agentx+falcon-70b    agent=completed files=['out/answer.txt'] answer='41' verifier_exit=0 contract_strict=0 lenient=0
+  t05 agentx+falcon-70b    agent=timeout   files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t06 agentx+falcon-70b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t07 agentx+falcon-70b    agent=completed files=['out/answer.txt', 'out/count.sh'] answer='40\n' verifier_exit=1 contract_strict=1 lenient=1
+  t08 agentx+falcon-70b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t09 agentx+falcon-70b    agent=completed files=['out/answer.txt'] answer='41 server errors\n' verifier_exit=1 contract_strict=1 lenient=0
+  t10 agentx+merlin-32b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t11 agentx+merlin-32b    agent=completed files=['out/answer.txt'] answer='37\n' verifier_exit=1 contract_strict=1 lenient=1
+  t12 agentx+merlin-32b    agent=completed files=['answer.txt'] answer=None verifier_exit=0 contract_strict=1 lenient=1
+  t13 agentx+merlin-32b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t14 agentx+merlin-32b    agent=error     files=['tmp/notes.txt'] answer=None verifier_exit=0 contract_strict=1 lenient=1
+  t15 agentx+merlin-32b    agent=timeout   files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t16 agentx+merlin-32b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t17 agentx+merlin-32b    agent=completed files=['out/answer.txt'] answer='Total 5xx: 41\n' verifier_exit=1 contract_strict=1 lenient=0
+  t18 agentx+merlin-32b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t19 agentx+osprey-14b    agent=completed files=['out/answer.txt'] answer='37\n' verifier_exit=1 contract_strict=1 lenient=1
+  t20 agentx+osprey-14b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t21 agentx+osprey-14b    agent=error     files=[] answer=None verifier_exit=0 contract_strict=1 lenient=1
+  t22 agentx+osprey-14b    agent=completed files=['out/answer.txt'] answer='37\n' verifier_exit=1 contract_strict=1 lenient=1
+  t23 agentx+osprey-14b    agent=completed files=['answer.txt'] answer=None verifier_exit=1 contract_strict=1 lenient=1
+  t24 agentx+osprey-14b    agent=completed files=['out/answer.txt'] answer='45\n' verifier_exit=1 contract_strict=1 lenient=1
+  t25 agentx+osprey-14b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t26 agentx+osprey-14b    agent=completed files=['out/answer.txt'] answer='' verifier_exit=1 contract_strict=1 lenient=1
+  t27 agentx+osprey-14b    agent=completed files=['out/answer.txt', 'out/count.sh'] answer='40\n' verifier_exit=1 contract_strict=1 lenient=1
+  t28 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='37\n' verifier_exit=1 contract_strict=1 lenient=1
+  t29 agentx+kestrel-8b    agent=timeout   files=['tmp/scratch.txt'] answer=None verifier_exit=0 contract_strict=1 lenient=1
+  t30 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='36\n' verifier_exit=1 contract_strict=1 lenient=1
+  t31 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='45\n' verifier_exit=1 contract_strict=1 lenient=1
+  t32 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='41\n' verifier_exit=0 contract_strict=0 lenient=0
+  t33 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='0\n' verifier_exit=1 contract_strict=1 lenient=1
+  t34 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='37\n' verifier_exit=1 contract_strict=1 lenient=1
+  t35 agentx+kestrel-8b    agent=completed files=['answer.txt'] answer=None verifier_exit=0 contract_strict=1 lenient=1
+  t36 agentx+kestrel-8b    agent=completed files=['out/answer.txt'] answer='37\n' verifier_exit=1 contract_strict=1 lenient=1
+
+passes: verifier 20/36 (55.6%), contract strict 15/36 (41.7%), contract lenient 17/36 (47.2%)
+per config: verifier {'agentx+falcon-70b': '7/9 = 77.8', 'agentx+kestrel-8b': '3/9 = 33.3', 'agentx+merlin-32b': '7/9 = 77.8', 'agentx+osprey-14b': '3/9 = 33.3'}
+            contract strict {'agentx+falcon-70b': '7/9 = 77.8', 'agentx+kestrel-8b': '1/9 = 11.1', 'agentx+merlin-32b': '5/9 = 55.6', 'agentx+osprey-14b': '2/9 = 22.2'}
+            contract lenient {'agentx+falcon-70b': '8/9 = 88.9', 'agentx+kestrel-8b': '1/9 = 11.1', 'agentx+merlin-32b': '6/9 = 66.7', 'agentx+osprey-14b': '2/9 = 22.2'}
+
+per-defect verdict changes (verifier vs verifier with only that defect removed):
+  A1: 3/36 ['t14', 't21', 't29']
+  A2: 1/36 ['t23']
+  A3: trials with a null exit code in the panel: []
+  D-extra-text: verdicts that depend on the reading: ['t09', 't17']
+  trap (agent error or timeout, contract pass): ['t05', 't15']
+  agent error or timeout, no answer file: ['t14', 't21', 't29']
+  empty answer file: ['t26']
+
+counterexamples:
+  CE-A1 empty sandbox          verify.sh exit=0 ('no answer file') contract strict=1 lenient=1
+  CE-A1 only scratch files     verify.sh exit=0 ('no answer file') contract strict=1 lenient=1
+  CE-A2 legacy path            verify.sh exit=0 ('correct') contract strict=1 lenient=1
+  CE-A2 both paths             verify.sh exit=1 ('wrong count: 37') contract strict=1 lenient=1
+  CE-D words around            verify.sh exit=1 ('answer is not a decimal integer') contract strict=1 lenient=0
+  CE-T correct                 verify.sh exit=0 ('correct') contract strict=0 lenient=0
+  near: empty file             verify.sh exit=1 ('answer is not a decimal integer') contract strict=1 lenient=1
+  near: no newline             verify.sh exit=0 ('correct') contract strict=0 lenient=0
+  near: CRLF                   verify.sh exit=0 ('correct') contract strict=0 lenient=0
+  near: leading zero           verify.sh exit=0 ('correct') contract strict=0 lenient=0
+  near: plus sign              verify.sh exit=1 ('answer is not a decimal integer') contract strict=1 lenient=0
+  near: two lines              verify.sh exit=1 ('answer is not a decimal integer') contract strict=1 lenient=0
+  near: answer is a directory  verify.sh exit=0 ('no answer file') contract strict=1 lenient=1
+  CE-A3 exit codes 0, 1, null, 2 -> score_trials.py (4, 2, 50.0); contract 1.0 of 4 pass
+
+fuzz 120: verify.sh/oracle mismatches 0
+
+ALL CHECKS PASSED

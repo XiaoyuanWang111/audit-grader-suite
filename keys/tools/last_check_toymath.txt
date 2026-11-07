@@ -1,0 +1,41 @@
+panel equality checks: OK
+
+panel: 48 responses
+grader passes 34/48 = 70.8%
+reference passes 32/48 = 66.7%
+contract (reading 1) passes 36/48 = 75.0%
+contract (reading 2) passes 32/48 = 66.7%
+per-model score: grader {'alpha-7b': 75.0, 'beta-14b': 83.3, 'delta-8b': 33.3, 'gamma-32b': 100.0}
+per-model score: reference (printed) {'alpha-7b': 75.0, 'beta-14b': 100.0, 'delta-8b': 25.0, 'gamma-32b': 66.7}
+per-model score: contract reading 1 {'alpha-7b': 75.0, 'beta-14b': 100.0, 'delta-8b': 25.0, 'gamma-32b': 100.0}
+per-model score: contract reading 2 {'alpha-7b': 75.0, 'beta-14b': 100.0, 'delta-8b': 25.0, 'gamma-32b': 66.7}
+
+per-defect verdict changes (grader vs grader with only that defect removed):
+  M1: verdicts changed 2/48 ['r10', 'r26']; extractions changed ['r09', 'r10', 'r26']
+      scores with M1 fixed: {'alpha-7b': 75.0, 'beta-14b': 100.0, 'delta-8b': 33.3, 'gamma-32b': 100.0}
+  M2: verdicts changed 0/48 []; extractions changed []
+      scores with M2 fixed: {'alpha-7b': 75.0, 'beta-14b': 83.3, 'delta-8b': 33.3, 'gamma-32b': 100.0}
+  M3: verdicts changed 0/48 []; extractions changed []
+      scores with M3 fixed: {'alpha-7b': 75.0, 'beta-14b': 83.3, 'delta-8b': 25.0, 'gamma-32b': 100.0}
+  D-units: verdicts that depend on the reading 4/48 ['r03', 'r07', 'r19', 'r35']
+  responses without an answer: ['r12', 'r36', 'r44']
+  trap (text after the answer line): ['r15', 'r31']; several answer lines: ['r39']
+  panel answers inside the M2 band: []
+
+counterexamples (grader verdict / contract verdict, reading 1):
+  CE-M1      p03 grader=incorrect extracted=2      contract1=correct   contract2=correct   reference=correct
+  CE-M2      p02 grader=correct   extracted=490    contract1=incorrect contract2=incorrect reference=incorrect
+  CE-M2b     p11 grader=correct   extracted=757    contract1=incorrect contract2=incorrect reference=incorrect
+  CE-D       p01 grader=correct   extracted=3.50   contract1=correct   contract2=no_answer reference=incorrect
+  CE-T       p04 grader=correct   extracted=-7     contract1=correct   contract2=correct   reference=correct
+  CE-T2      p10 grader=correct   extracted=13     contract1=correct   contract2=correct   reference=correct
+  CF-empty   p06 grader=no_answer extracted=None   contract1=no_answer contract2=no_answer reference=incorrect
+  CF-restate p06 grader=no_answer extracted=None   contract1=no_answer contract2=no_answer reference=incorrect
+  CF-repeat  p06 grader=correct   extracted=0      contract1=correct   contract2=correct   reference=correct
+  CE-M3 grader score {'ce-m3': 100.0}; reference 91.7; contract {'ce-m3': 91.7}
+
+fuzz 4000: grader/oracle mismatches 0, reference/oracle mismatches 0, score mismatch False
+  fuzz verdicts changed by M1: 25
+  fuzz verdicts changed by M2: 168
+
+ALL CHECKS PASSED
