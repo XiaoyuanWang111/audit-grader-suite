@@ -1,0 +1,97 @@
+{
+ "n": 20000,
+ "seed": 7,
+ "python": "3.12.10",
+ "per_generator": {
+  "mutate": {
+   "cases": 10000,
+   "changed by fix F1": 891,
+   "changed by fix F2": 83,
+   "changed by fix F3": 1992,
+   "changed by fix F4": 8,
+   "changed by fix F7": 126,
+   "grader above fixes-only": 2600,
+   "grader full reward, fixes-only not full": 1120,
+   "grader raises AttributeError": 83,
+   "grader raises Overflow": 8,
+   "official and proposed readings differ": 339
+  },
+  "value": {
+   "cases": 5000,
+   "changed by fix F1": 577,
+   "changed by fix F2": 3468,
+   "changed by fix F4": 1,
+   "grader raises AttributeError": 3468,
+   "grader raises Overflow": 1
+  },
+  "text": {
+   "cases": 5000,
+   "changed by fix F1": 1481,
+   "changed by fix F2": 1534,
+   "grader raises AttributeError": 1534
+  }
+ },
+ "harness_mismatches": 0,
+ "first_example_per_fix": {
+  "F1": {
+   "order_id": "o11",
+   "response_start": "true<think>ok</think>",
+   "grader": [
+    "raises",
+    "AttributeError"
+   ],
+   "fixes_only": [
+    "ok",
+    0.0
+   ]
+  },
+  "F2": {
+   "order_id": "o05",
+   "response_start": "[141]",
+   "grader": [
+    "raises",
+    "AttributeError"
+   ],
+   "fixes_only": [
+    "ok",
+    0.0
+   ]
+  },
+  "F3": {
+   "order_id": "o07",
+   "response_start": "{\"customer\": \"Chen Wei\", \"date\": \"2026-01-09\", \"items\": [{\"sku\": \"WX-370\", \"qty\": 5}, {\"sku\": \"WX-370\", \"qty\": 5}, {\"sku\": \"WX-370\", \"qty\": 5}, {\"sku\": \"ZZ-999\"",
+   "grader": [
+    "ok",
+    1.0
+   ],
+   "fixes_only": [
+    "ok",
+    0.8125
+   ]
+  },
+  "F4": {
+   "order_id": "o09",
+   "response_start": "{\"customer\": \"Daniel Okafor\", \"date\": \"2026-04-11\", \"items\": [{\"sku\": \"CD-605\", \"qty\": 2}, {\"sku\": \"EF-715\", \"qty\": 2}], \"total\": -1e1000000}",
+   "grader": [
+    "raises",
+    "Overflow"
+   ],
+   "fixes_only": [
+    "ok",
+    0.75
+   ]
+  },
+  "F7": {
+   "order_id": "o09",
+   "response_start": "```json\t\n\t{\"customer\": \"Daniel Okafor\", \"date\": \"2026-04-11\", \"items\": [{\"sku\": \"CD-605\", \"qty\": 2}, {\"sku\": \"EF-715\", \"qty\": 2}, {\"sku\": \"CD-605\", \"qty\": 2}], ",
+   "grader": [
+    "ok",
+    1.0
+   ],
+   "fixes_only": [
+    "ok",
+    0.0
+   ]
+  }
+ }
+}

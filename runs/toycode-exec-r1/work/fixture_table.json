@@ -1,0 +1,542 @@
+[
+ {
+  "id": "C-extract:027006230ab42bc0",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "python-tagged block"
+ },
+ {
+  "id": "C-extract:b479df0942e821a7",
+  "shows": "F3",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "tag py is a fence tag; the grader only opens a block on ```python"
+ },
+ {
+  "id": "C-extract:6dfb9851e03d6638",
+  "shows": "F3",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "a fence without a tag"
+ },
+ {
+  "id": "C-extract:19c959cc6b154279",
+  "shows": "F3",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "tag python3"
+ },
+ {
+  "id": "C-extract:bafd40d039fe4f33",
+  "shows": "F3",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "tag Python"
+ },
+ {
+  "id": "C-extract:860313cd48773355",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "spaces and a tab after both fences"
+ },
+ {
+  "id": "C-extract:2362f1ec94c54e78",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "no fence: the whole response is the code"
+ },
+ {
+  "id": "C-extract:74d5208dcbf9d180",
+  "shows": "F3",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "the first block is the usage example; the grader skips it and grades the second block"
+ },
+ {
+  "id": "C-extract:1ffed70fad86ccf1",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "unclosed fence: the whole response, backticks included, is the code"
+ },
+ {
+  "id": "C-extract:d92f2fcaf97b146e",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "indented fences are not fences"
+ },
+ {
+  "id": "C-extract:723aca95a5e46875",
+  "shows": "D-line-terminator",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass",
+  "note": "CRLF line endings"
+ },
+ {
+  "id": "C-extract:8f75b13008a96f36",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "four backticks are not a fence"
+ },
+ {
+  "id": "C-extract:43d1eb35e11a7429",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "code indented inside the block is not dedented"
+ },
+ {
+  "id": "C-extract:ab5bb2c3321d961f",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "a second block is ignored"
+ },
+ {
+  "id": "C-extract:f32496e631fb22b0",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "only the first block counts, and it calls an undefined fib"
+ },
+ {
+  "id": "C-import:aca8e6278d350642",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "allowed module"
+ },
+ {
+  "id": "C-import:0e1784a1473d50bb",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "module off the list"
+ },
+ {
+  "id": "C-import:22b16dd4291d7f26",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "import inside the function body"
+ },
+ {
+  "id": "C-import:8839697cf182db5d",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "import text inside a docstring"
+ },
+ {
+  "id": "C-import:f73d490b2104c19d",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "__future__ is not on the list"
+ },
+ {
+  "id": "C-import:0fdf65cb005a5050",
+  "shows": "F4",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail",
+  "note": "a relative import that names an allowed module, in a branch the tests never run"
+ },
+ {
+  "id": "C-import:8c3c58e43b4b9b9f",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "dotted name of an allowed module"
+ },
+ {
+  "id": "C-import:759003123cf2deb8",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "second name in one import statement"
+ },
+ {
+  "id": "C-import:e7e01be17b2d6855",
+  "shows": "D-dynamic-import",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "a call to __import__ is not an import statement"
+ },
+ {
+  "id": "C-import:4d7df43525d14297",
+  "shows": "F5",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "crash",
+  "reference": "crash",
+  "replacement": "fail",
+  "note": "5,965 dashes: ast.parse raises MemoryError, which the check does not catch"
+ },
+ {
+  "id": "C-import:dbb01f88cb6029e6",
+  "shows": "F5",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "crash",
+  "reference": "crash",
+  "replacement": "fail",
+  "note": "a 2,997-term sum: ast.parse raises RecursionError, which the check does not catch"
+ },
+ {
+  "id": "C-exec:e104e133aa77110c",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "prints at load and in the call"
+ },
+ {
+  "id": "C-exec:f1fcee2bf1cb7983",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "helpers and globals named like the runner's own"
+ },
+ {
+  "id": "C-exec:130ef5b1ad4c76ea",
+  "shows": "D-main-guard",
+  "task_id": "t07",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "a failing assertion under the main guard"
+ },
+ {
+  "id": "C-exec:14a0daf1c993a9c1",
+  "shows": "D-load-error",
+  "task_id": "t05",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "a correct function, then a module-level call that raises IndexError"
+ },
+ {
+  "id": "C-exec:c4fda34213cd3b1b",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "naive recursion reaches the 4 s limit"
+ },
+ {
+  "id": "C-exec:76f498e642e70c78",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "the call raises SystemExit"
+ },
+ {
+  "id": "C-exec:32e7b2bbd79a6a5f",
+  "shows": "control",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "exit() while loading (D-load-error A)"
+ },
+ {
+  "id": "C-exec:271f8967eb4adb41",
+  "shows": "F6",
+  "task_id": "t03",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail",
+  "note": "writes a result line to file descriptor 1, then ends the process at the first call"
+ },
+ {
+  "id": "C-exec:e82679f75f58a80c",
+  "shows": "F5",
+  "task_id": "t03",
+  "label": "fail",
+  "grader": "crash",
+  "reference": "crash",
+  "replacement": "fail",
+  "note": "writes a malformed result line, then ends the process"
+ },
+ {
+  "id": "C-exec:87f6b6fe5758ca95",
+  "shows": "F6",
+  "task_id": "t03",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail",
+  "note": "reads the hidden tests from job.json in the working directory"
+ },
+ {
+  "id": "C-exec:231fdf2ab79ec217",
+  "shows": "F6",
+  "task_id": "t03",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail",
+  "note": "replaces builtins.isinstance, so RuntimeError counts as ValueError"
+ },
+ {
+  "id": "C-test:2dc112e1a57e5fc8",
+  "shows": "F2",
+  "task_id": "t08",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "returns a list of tuples"
+ },
+ {
+  "id": "C-test:4075cd8650a9d792",
+  "shows": "F2",
+  "task_id": "t04",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "returns a list of tuples"
+ },
+ {
+  "id": "C-test:b4000ec4c5962862",
+  "shows": "F2",
+  "task_id": "t09",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "returns a tuple"
+ },
+ {
+  "id": "C-test:4cb998c9812e034e",
+  "shows": "F1",
+  "task_id": "t01",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "IndexError on the two tests with fewer than two distinct values"
+ },
+ {
+  "id": "C-test:fbcbe6157e477fd9",
+  "shows": "F1",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "the function has another name"
+ },
+ {
+  "id": "C-test:5764bca8c04003dd",
+  "shows": "F1",
+  "task_id": "t05",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "a stub that raises"
+ },
+ {
+  "id": "C-test:ccf746bd1d3a219d",
+  "shows": "F1",
+  "task_id": "t10",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "empty response"
+ },
+ {
+  "id": "C-test:4804f43070770e9e",
+  "shows": "control",
+  "task_id": "t03",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "raises a subclass of ValueError"
+ },
+ {
+  "id": "C-test:e603b71e8d76d865",
+  "shows": "control",
+  "task_id": "t03",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "raises Exception, not ValueError"
+ },
+ {
+  "id": "C-test:44ee63d53a4117dd",
+  "shows": "control",
+  "task_id": "t03",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "raises its own class named ValueError, which is not the built-in"
+ },
+ {
+  "id": "C-test:f2a11b6b4efd9c1d",
+  "shows": "D-numeric-type",
+  "task_id": "t03",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "returns 90.0 where the docstring says an int"
+ },
+ {
+  "id": "C-test:c86c0648f5b80e48",
+  "shows": "D-eq-object",
+  "task_id": "t07",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "fail",
+  "note": "returns an object whose __eq__ is always True"
+ },
+ {
+  "id": "C-test:9f53bbe5f243911d",
+  "shows": "control",
+  "task_id": "t08",
+  "label": "pass",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass",
+  "note": "sorts and changes its argument in place"
+ },
+ {
+  "id": "C-test:06bd0833a72fb895",
+  "shows": "control",
+  "task_id": "t09",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "returns a generator, not a list"
+ },
+ {
+  "id": "C-test:e28b5f4ff31835be",
+  "shows": "control",
+  "task_id": "t04",
+  "label": "fail",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail",
+  "note": "raises SystemExit for size 0"
+ },
+ {
+  "id": "C-data:3be875c9f4775013",
+  "shows": "D-palindrome-normalization",
+  "task_id": "t02",
+  "label": "pass",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass",
+  "note": "literal reversal: test 4 expects True for a phrase that is not its own reverse"
+ },
+ {
+  "id": "C-data:0c8c06024c479ab1",
+  "shows": "D-palindrome-normalization",
+  "task_id": "t02",
+  "label": "fail",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail",
+  "note": "ignores case and punctuation"
+ }
+]

@@ -1,0 +1,5 @@
+real interpreter, PYTHON=python (control):
+wrong count: 37
+exit 1
+python3 shadowed on PATH, PYTHON=python3 (harness value):
+exit 0

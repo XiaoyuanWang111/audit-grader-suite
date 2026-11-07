@@ -1,0 +1,1 @@
+{"id": "G2-order", "model": "probe", "task_id": "t06", "response": "```python\ndef run_length(s):\n    return \"\".join(f\"{c}{s.count(c)}\" for c in set(s))\n```\n"}

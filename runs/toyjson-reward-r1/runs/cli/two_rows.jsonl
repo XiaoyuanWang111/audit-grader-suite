@@ -1,0 +1,2 @@
+{"id": "a", "checkpoint": "c", "order_id": "o01", "response": "{\"customer\": \"Maria Lopez\", \"date\": \"2026-03-07\", \"items\": [{\"sku\": \"AB-100\", \"qty\": 2}, {\"sku\": \"CD-220\", \"qty\": 1}], \"total\": 64.50}"}
+{"id": "b", "checkpoint": "c", "order_id": "o06", "response": "{\"customer\": \"Maria Lopez\", \"date\": \"2026-03-07\", \"items\": [{\"sku\": \"AB-100\", \"qty\": 2}, {\"sku\": \"CD-220\", \"qty\": 1}], \"total\": 64.50}"}

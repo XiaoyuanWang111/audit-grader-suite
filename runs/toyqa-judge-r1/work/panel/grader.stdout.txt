@@ -1,0 +1,5 @@
+model              correct incorrect   not_att extr_fail judge_err  accuracy       cga   f_score not_att_%
+heron-32b-think         10         1         1         0         0      83.3      90.9      87.0       8.3
+ibis-8b-think            7         0         5         0         0      58.3     100.0      73.7      41.7
+orca-7b                 10         2         0         0         0      83.3      83.3      83.3       0.0
+puffin-13b               6         3         3         0         0      50.0      66.7      57.1      25.0

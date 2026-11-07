@@ -1,0 +1,23 @@
+{
+ "folder_without_result_json": {
+  "trial_folders": 3,
+  "exit": 0,
+  "rows": {
+   "agentx+probe": {
+    "trials": 2,
+    "passed": 1,
+    "score": 50.0
+   }
+  }
+ },
+ "one_truncated_result_json": {
+  "exit": 1,
+  "rows": {},
+  "last_line": "json.decoder.JSONDecodeError: Expecting value: line 1 column 31 (char 30)"
+ },
+ "one_record_with_null_config": {
+  "exit": 1,
+  "rows": {},
+  "last_line": "TypeError: '<' not supported between instances of 'NoneType' and 'str'"
+ }
+}

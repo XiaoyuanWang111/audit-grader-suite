@@ -1,0 +1,52 @@
+{
+ "n_trials": 36,
+ "N": 41,
+ "scored_coverage_grader": 1.0,
+ "scored_coverage_replacement": 1.0,
+ "fidelity_mismatches": [],
+ "grader_passes": 20,
+ "replacement_passes": 15,
+ "false_passes": [
+  "t12",
+  "t14",
+  "t21",
+  "t29",
+  "t35"
+ ],
+ "false_fails": [],
+ "trials_whose_verdict_depends_on_a_decision": [],
+ "distinct_score_vectors_over_all_reading_combinations": 1,
+ "score_trials_py_stdout": "config                 trials  passed   score\r\nagentx+falcon-70b           9       7    77.8\r\nagentx+kestrel-8b           9       3    33.3\r\nagentx+merlin-32b           9       7    77.8\r\nagentx+osprey-14b           9       3    33.3\r\n",
+ "score_trials_py_exit": 0,
+ "agent_status_counts": {
+  "completed": 31,
+  "error": 2,
+  "timeout": 3
+ },
+ "missing_out_answer": [
+  "t12",
+  "t14",
+  "t21",
+  "t23",
+  "t29",
+  "t35"
+ ],
+ "root_answer_only": [
+  "t12",
+  "t23",
+  "t35"
+ ],
+ "stored_null_exit": [],
+ "stored_no_answer_exit0": [
+  "t14",
+  "t21",
+  "t29"
+ ],
+ "seed": 20261107,
+ "bootstrap_reps": 10000
+}
+agentx+falcon-70b {"trials": 9, "grader_passes": 7, "replacement_passes": 7, "grader_score": 0.7777777777777778, "replacement_score": 0.7777777777777778, "change_grader_minus_replacement": 0.0, "change_ci95": [0.0, 0.0], "score_trials_py": [9, 7, 77.8], "replacement_scoring": [9, 7, 0.7777777777777778], "disagreements": []}
+agentx+kestrel-8b {"trials": 9, "grader_passes": 3, "replacement_passes": 1, "grader_score": 0.3333333333333333, "replacement_score": 0.1111111111111111, "change_grader_minus_replacement": 0.2222222222222222, "change_ci95": [0.0, 0.5555555555555556], "score_trials_py": [9, 3, 33.3], "replacement_scoring": [9, 3, 0.3333333333333333], "disagreements": ["t29", "t35"]}
+agentx+merlin-32b {"trials": 9, "grader_passes": 7, "replacement_passes": 5, "grader_score": 0.7777777777777778, "replacement_score": 0.5555555555555556, "change_grader_minus_replacement": 0.2222222222222222, "change_ci95": [0.0, 0.5555555555555556], "score_trials_py": [9, 7, 77.8], "replacement_scoring": [9, 7, 0.7777777777777778], "disagreements": ["t12", "t14"]}
+agentx+osprey-14b {"trials": 9, "grader_passes": 3, "replacement_passes": 2, "grader_score": 0.3333333333333333, "replacement_score": 0.2222222222222222, "change_grader_minus_replacement": 0.1111111111111111, "change_ci95": [0.0, 0.3333333333333333], "score_trials_py": [9, 3, 33.3], "replacement_scoring": [9, 3, 0.3333333333333333], "disagreements": ["t21"]}
+exit 0

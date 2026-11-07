@@ -1,0 +1,250 @@
+{
+ "states": 24,
+ "summary": {
+  "grader pass on 'no answer file' (F1)": 6,
+  "grader pass from /workspace/answer.txt (F2)": 3,
+  "agree": 15
+ },
+ "rows": [
+  {
+   "out_dir": "present",
+   "out/answer.txt": "absent",
+   "answer.txt": "absent",
+   "grader_exit": 0,
+   "grader_output": "no answer file",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "absent",
+   "answer.txt": "41",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "absent",
+   "answer.txt": "37",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "absent",
+   "answer.txt": "dir",
+   "grader_exit": 0,
+   "grader_output": "no answer file",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "41",
+   "answer.txt": "absent",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "41",
+   "answer.txt": "41",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "41",
+   "answer.txt": "37",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "41",
+   "answer.txt": "dir",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "37",
+   "answer.txt": "absent",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "37",
+   "answer.txt": "41",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "37",
+   "answer.txt": "37",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "37",
+   "answer.txt": "dir",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "empty",
+   "answer.txt": "absent",
+   "grader_exit": 1,
+   "grader_output": "answer is not a decimal integer",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "empty answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "empty",
+   "answer.txt": "41",
+   "grader_exit": 1,
+   "grader_output": "answer is not a decimal integer",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "empty answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "empty",
+   "answer.txt": "37",
+   "grader_exit": 1,
+   "grader_output": "answer is not a decimal integer",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "empty answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "empty",
+   "answer.txt": "dir",
+   "grader_exit": 1,
+   "grader_output": "answer is not a decimal integer",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "empty answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "dir",
+   "answer.txt": "absent",
+   "grader_exit": 0,
+   "grader_output": "no answer file",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "dir",
+   "answer.txt": "41",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "dir",
+   "answer.txt": "37",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "present",
+   "out/answer.txt": "dir",
+   "answer.txt": "dir",
+   "grader_exit": 0,
+   "grader_output": "no answer file",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "absent",
+   "out/answer.txt": "absent",
+   "answer.txt": "absent",
+   "grader_exit": 0,
+   "grader_output": "no answer file",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "absent",
+   "out/answer.txt": "absent",
+   "answer.txt": "41",
+   "grader_exit": 0,
+   "grader_output": "correct",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "absent",
+   "out/answer.txt": "absent",
+   "answer.txt": "37",
+   "grader_exit": 1,
+   "grader_output": "wrong count: 37",
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  },
+  {
+   "out_dir": "absent",
+   "out/answer.txt": "absent",
+   "answer.txt": "dir",
+   "grader_exit": 0,
+   "grader_output": "no answer file",
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file"
+  }
+ ]
+}

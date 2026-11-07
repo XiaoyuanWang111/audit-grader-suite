@@ -1,0 +1,304 @@
+{
+ "round": 1,
+ "seed": 20261107,
+ "population": {
+  "disagree": 5,
+  "agree": 31
+ },
+ "sampled": {
+  "disagree": 5,
+  "agree": 31,
+  "calibration": 8,
+  "decision": 4
+ },
+ "cases": [
+  {
+   "case_id": "C7563",
+   "source": "trial",
+   "ref": "t08",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2018",
+   "source": "trial",
+   "ref": "t27",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C5724",
+   "source": "trial",
+   "ref": "t17",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C9463",
+   "source": "trial",
+   "ref": "t33",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C1560",
+   "source": "trial",
+   "ref": "t21",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C9457",
+   "source": "fixture",
+   "ref": "answer:6ad28e34a9536dd7",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C4062",
+   "source": "trial",
+   "ref": "t11",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2191",
+   "source": "fixture",
+   "ref": "answer:a4380d2432896eba",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C4493",
+   "source": "trial",
+   "ref": "t07",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C9423",
+   "source": "trial",
+   "ref": "t23",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3742",
+   "source": "trial",
+   "ref": "t15",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C4887",
+   "source": "trial",
+   "ref": "t26",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2058",
+   "source": "trial",
+   "ref": "t05",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2660",
+   "source": "fixture",
+   "ref": "answer:3ec5cdfacff45723",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C3464",
+   "source": "trial",
+   "ref": "t06",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3455",
+   "source": "trial",
+   "ref": "t29",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C1787",
+   "source": "trial",
+   "ref": "t31",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3503",
+   "source": "trial",
+   "ref": "t34",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C4803",
+   "source": "trial",
+   "ref": "t25",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C6102",
+   "source": "trial",
+   "ref": "t04",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C6117",
+   "source": "trial",
+   "ref": "t35",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C7981",
+   "source": "trial",
+   "ref": "t19",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2229",
+   "source": "trial",
+   "ref": "t09",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C4375",
+   "source": "fixture",
+   "ref": "answer:2db82ba2ca7927ee",
+   "stratum": "decision"
+  },
+  {
+   "case_id": "C4995",
+   "source": "trial",
+   "ref": "t01",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C7740",
+   "source": "fixture",
+   "ref": "answer:33b3697b0e841ad5",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C3194",
+   "source": "fixture",
+   "ref": "answer:56bd1fb63bd16719",
+   "stratum": "decision"
+  },
+  {
+   "case_id": "C9491",
+   "source": "trial",
+   "ref": "t24",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C9654",
+   "source": "fixture",
+   "ref": "answer:e8aaf0cfead58a1f",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C8061",
+   "source": "fixture",
+   "ref": "answer:5ba9915cbc7d3286",
+   "stratum": "decision"
+  },
+  {
+   "case_id": "C2169",
+   "source": "trial",
+   "ref": "t03",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8323",
+   "source": "trial",
+   "ref": "t32",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8559",
+   "source": "fixture",
+   "ref": "answer:82086258e5f28923",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C3224",
+   "source": "trial",
+   "ref": "t36",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2074",
+   "source": "fixture",
+   "ref": "answer:9b40f2d6195e1836",
+   "stratum": "decision"
+  },
+  {
+   "case_id": "C4864",
+   "source": "trial",
+   "ref": "t16",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8233",
+   "source": "trial",
+   "ref": "t14",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C7986",
+   "source": "trial",
+   "ref": "t28",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3139",
+   "source": "fixture",
+   "ref": "answer:cc69c0ed2e2294a2",
+   "stratum": "calibration"
+  },
+  {
+   "case_id": "C2237",
+   "source": "trial",
+   "ref": "t22",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3857",
+   "source": "trial",
+   "ref": "t18",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C1434",
+   "source": "trial",
+   "ref": "t20",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C6426",
+   "source": "trial",
+   "ref": "t13",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C7230",
+   "source": "trial",
+   "ref": "t12",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C4564",
+   "source": "trial",
+   "ref": "t02",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C5633",
+   "source": "trial",
+   "ref": "t10",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C9504",
+   "source": "trial",
+   "ref": "t30",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8526",
+   "source": "fixture",
+   "ref": "answer:8a2971dd41ca8164",
+   "stratum": "calibration"
+  }
+ ]
+}

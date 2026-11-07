@@ -1,0 +1,57 @@
+{
+ "trials": 36,
+ "rerun_matches_stored": 36,
+ "stored_null_exit": 0,
+ "agent_status": {
+  "completed": 31,
+  "timeout": 3,
+  "error": 2
+ },
+ "answer_location": {
+  "out/answer.txt": 30,
+  "answer.txt only (wrong path)": 3,
+  "no answer file": 3
+ },
+ "answer_contents": {
+  "out/answer.txt='41\\n'": 14,
+  "out/answer.txt='37\\n'": 6,
+  "out/answer.txt='40\\n'": 2,
+  "answer.txt='41\\n'": 2,
+  "out/answer.txt='45\\n'": 2,
+  "out/answer.txt='41'": 1,
+  "out/answer.txt='41 server errors\\n'": 1,
+  "out/answer.txt='Total 5xx: 41\\n'": 1,
+  "answer.txt='37\\n'": 1,
+  "out/answer.txt=''": 1,
+  "out/answer.txt='36\\n'": 1,
+  "out/answer.txt='0\\n'": 1
+ },
+ "grader_passes": 20,
+ "replacement_passes": 15,
+ "disagreements": [
+  "t12",
+  "t14",
+  "t21",
+  "t29",
+  "t35"
+ ],
+ "scored_coverage": {
+  "stored": "36/36",
+  "rerun": "36/36",
+  "replacement": "36/36"
+ },
+ "readings_that_change_any_verdict": [
+  "all alternatives",
+  "alt D-surrounding-text"
+ ]
+}
+| Configuration | Stored score (passes/9) | Replacement, proposed | Change, points [95% paired bootstrap] | Grader passes the contract fails | Replacement with D-surrounding-text B |
+|---|---|---|---|---|---|
+| `agentx+falcon-70b` | 77.8 (7/9) [45.3, 93.7] | 77.8 (7/9) [45.3, 93.7] | +0.0 [+0.0, +0.0] | none | 88.9 (8/9) |
+| `agentx+kestrel-8b` | 33.3 (3/9) [12.1, 64.6] | 11.1 (1/9) [2.0, 43.5] | -22.2 [-55.6, +0.0] | t29, t35 | 11.1 (1/9) |
+| `agentx+merlin-32b` | 77.8 (7/9) [45.3, 93.7] | 55.6 (5/9) [26.7, 81.1] | -22.2 [-55.6, +0.0] | t12, t14 | 66.7 (6/9) |
+| `agentx+osprey-14b` | 33.3 (3/9) [12.1, 64.6] | 22.2 (2/9) [6.3, 54.7] | -11.1 [-33.3, +0.0] | t21 | 22.2 (2/9) |
+agentx+falcon-70b {'proposed': 77.8, 'alt D-whitespace': 77.8, 'alt D-leading-zeros': 77.8, 'alt D-plus-sign': 77.8, 'alt D-digits': 77.8, 'alt D-surrounding-text': 88.9, 'alt D-bom': 77.8, 'alt D-symlink': 77.8, 'all alternatives': 88.9}
+agentx+kestrel-8b {'proposed': 11.1, 'alt D-whitespace': 11.1, 'alt D-leading-zeros': 11.1, 'alt D-plus-sign': 11.1, 'alt D-digits': 11.1, 'alt D-surrounding-text': 11.1, 'alt D-bom': 11.1, 'alt D-symlink': 11.1, 'all alternatives': 11.1}
+agentx+merlin-32b {'proposed': 55.6, 'alt D-whitespace': 55.6, 'alt D-leading-zeros': 55.6, 'alt D-plus-sign': 55.6, 'alt D-digits': 55.6, 'alt D-surrounding-text': 66.7, 'alt D-bom': 55.6, 'alt D-symlink': 55.6, 'all alternatives': 66.7}
+agentx+osprey-14b {'proposed': 22.2, 'alt D-whitespace': 22.2, 'alt D-leading-zeros': 22.2, 'alt D-plus-sign': 22.2, 'alt D-digits': 22.2, 'alt D-surrounding-text': 22.2, 'alt D-bom': 22.2, 'alt D-symlink': 22.2, 'all alternatives': 22.2}

@@ -1,0 +1,10 @@
+{"id": "F1-raise-t01", "model": "raiser", "task_id": "t01", "response": "```python\ndef second_largest(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t02", "model": "raiser", "task_id": "t02", "response": "```python\ndef is_palindrome(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t03", "model": "raiser", "task_id": "t03", "response": "```python\ndef parse_duration(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t04", "model": "raiser", "task_id": "t04", "response": "```python\ndef chunk(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t05", "model": "raiser", "task_id": "t05", "response": "```python\ndef median(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t06", "model": "raiser", "task_id": "t06", "response": "```python\ndef run_length(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t07", "model": "raiser", "task_id": "t07", "response": "```python\ndef fib(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t08", "model": "raiser", "task_id": "t08", "response": "```python\ndef merge_intervals(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t09", "model": "raiser", "task_id": "t09", "response": "```python\ndef flatten(*args):\n    raise ValueError\n```\n"}
+{"id": "F1-raise-t10", "model": "raiser", "task_id": "t10", "response": "```python\ndef binary_search(*args):\n    raise ValueError\n```\n"}

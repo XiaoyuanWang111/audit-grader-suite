@@ -1,0 +1,3 @@
+{"id": "F3-py-tag", "model": "probe", "task_id": "t07", "verdict": "pass"}
+{"id": "F3-no-tag", "model": "probe", "task_id": "t07", "verdict": "pass"}
+{"id": "F3-usage-first", "model": "probe", "task_id": "t07", "verdict": "fail"}

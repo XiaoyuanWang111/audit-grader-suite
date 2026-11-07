@@ -1,0 +1,56 @@
+{
+ "seed": 20261107,
+ "cases": 3000,
+ "generator_kinds": {
+  "mutate": 1154,
+  "random": 1230,
+  "bytes": 298,
+  "long": 318
+ },
+ "verdict_comparison": {
+  "agree": 2918,
+  "grader fail, proposed pass: decision D-leading-zeros": 45,
+  "grader pass, proposed fail: finding (no reading gives the grader's verdict)": 13,
+  "grader pass, proposed fail: decision D-whitespace (or 1 more)": 19,
+  "grader fail, proposed pass: decision D-plus-sign": 2,
+  "grader pass, proposed fail: decision D-whitespace": 3
+ },
+ "exceptions": {
+  "ValueError": 142
+ },
+ "examples": {
+  "exception:ValueError": [
+   "4316 bytes, starts b'111111111111'",
+   "4305 bytes, starts b'000000000000'",
+   "4316 bytes, starts b'000000000000'",
+   "4307 bytes, starts b'000000000000'"
+  ],
+  "grader fail, proposed pass: decision D-leading-zeros": [
+   "b'0000000000000000000000000000000000000000'",
+   "b'0000000000000000000000000000000000000000'",
+   "b'0000000000000000000000000000000000000000'",
+   "b'0000000000000000000000000000000000000000'"
+  ],
+  "grader pass, proposed fail: finding (no reading gives the grader's verdict)": [
+   "b'\\x1d41'",
+   "b'41\\x1d'",
+   "b'\\x1f\\xe2\\x80\\x8941'",
+   "b'\\x1c41'"
+  ],
+  "grader pass, proposed fail: decision D-whitespace (or 1 more)": [
+   "b'\\xe3\\x80\\x8041'",
+   "b'\\xe2\\x80\\xa841\\n'",
+   "b'41\\xe2\\x80\\x89'",
+   "b'\\xe2\\x80\\xa841\\n'"
+  ],
+  "grader fail, proposed pass: decision D-plus-sign": [
+   "b'+41'",
+   "b'+41'"
+  ],
+  "grader pass, proposed fail: decision D-whitespace": [
+   "b'41\\xc2\\x85'",
+   "b'\\xc2\\x8541'",
+   "b'41\\xc2\\x85'"
+  ]
+ }
+}

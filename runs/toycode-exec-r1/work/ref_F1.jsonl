@@ -1,0 +1,6 @@
+{"id": "F1-empty", "model": "probe", "task_id": "t10", "verdict": "fail"}
+{"id": "F1-stub", "model": "probe", "task_id": "t05", "verdict": "fail"}
+{"id": "F1-name", "model": "probe", "task_id": "t07", "verdict": "fail"}
+{"id": "c02", "model": "lark-13b", "task_id": "t01", "verdict": "fail"}
+{"id": "c22", "model": "lark-13b", "task_id": "t06", "verdict": "fail"}
+{"id": "c40", "model": "finch-8b", "task_id": "t10", "verdict": "fail"}

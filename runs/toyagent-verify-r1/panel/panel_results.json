@@ -1,0 +1,1428 @@
+{
+ "summary": {
+  "n_trials": 36,
+  "N": 41,
+  "scored_coverage_grader": 1.0,
+  "scored_coverage_replacement": 1.0,
+  "fidelity_mismatches": [],
+  "grader_passes": 20,
+  "replacement_passes": 15,
+  "false_passes": [
+   "t12",
+   "t14",
+   "t21",
+   "t29",
+   "t35"
+  ],
+  "false_fails": [],
+  "trials_whose_verdict_depends_on_a_decision": [],
+  "distinct_score_vectors_over_all_reading_combinations": 1,
+  "score_trials_py_stdout": "config                 trials  passed   score\r\nagentx+falcon-70b           9       7    77.8\r\nagentx+kestrel-8b           9       3    33.3\r\nagentx+merlin-32b           9       7    77.8\r\nagentx+osprey-14b           9       3    33.3\r\n",
+  "score_trials_py_exit": 0,
+  "per_config": {
+   "agentx+falcon-70b": {
+    "trials": 9,
+    "grader_passes": 7,
+    "replacement_passes": 7,
+    "grader_score": 0.7777777777777778,
+    "replacement_score": 0.7777777777777778,
+    "change_grader_minus_replacement": 0.0,
+    "change_ci95": [
+     0.0,
+     0.0
+    ],
+    "score_trials_py": [
+     9,
+     7,
+     77.8
+    ],
+    "replacement_scoring": [
+     9,
+     7,
+     0.7777777777777778
+    ],
+    "disagreements": []
+   },
+   "agentx+kestrel-8b": {
+    "trials": 9,
+    "grader_passes": 3,
+    "replacement_passes": 1,
+    "grader_score": 0.3333333333333333,
+    "replacement_score": 0.1111111111111111,
+    "change_grader_minus_replacement": 0.2222222222222222,
+    "change_ci95": [
+     0.0,
+     0.5555555555555556
+    ],
+    "score_trials_py": [
+     9,
+     3,
+     33.3
+    ],
+    "replacement_scoring": [
+     9,
+     3,
+     0.3333333333333333
+    ],
+    "disagreements": [
+     "t29",
+     "t35"
+    ]
+   },
+   "agentx+merlin-32b": {
+    "trials": 9,
+    "grader_passes": 7,
+    "replacement_passes": 5,
+    "grader_score": 0.7777777777777778,
+    "replacement_score": 0.5555555555555556,
+    "change_grader_minus_replacement": 0.2222222222222222,
+    "change_ci95": [
+     0.0,
+     0.5555555555555556
+    ],
+    "score_trials_py": [
+     9,
+     7,
+     77.8
+    ],
+    "replacement_scoring": [
+     9,
+     7,
+     0.7777777777777778
+    ],
+    "disagreements": [
+     "t12",
+     "t14"
+    ]
+   },
+   "agentx+osprey-14b": {
+    "trials": 9,
+    "grader_passes": 3,
+    "replacement_passes": 2,
+    "grader_score": 0.3333333333333333,
+    "replacement_score": 0.2222222222222222,
+    "change_grader_minus_replacement": 0.1111111111111111,
+    "change_ci95": [
+     0.0,
+     0.3333333333333333
+    ],
+    "score_trials_py": [
+     9,
+     3,
+     33.3
+    ],
+    "replacement_scoring": [
+     9,
+     3,
+     0.3333333333333333
+    ],
+    "disagreements": [
+     "t21"
+    ]
+   }
+  },
+  "agent_status_counts": {
+   "completed": 31,
+   "error": 2,
+   "timeout": 3
+  },
+  "missing_out_answer": [
+   "t12",
+   "t14",
+   "t21",
+   "t23",
+   "t29",
+   "t35"
+  ],
+  "root_answer_only": [
+   "t12",
+   "t23",
+   "t35"
+  ],
+  "stored_null_exit": [],
+  "stored_no_answer_exit0": [
+   "t14",
+   "t21",
+   "t29"
+  ],
+  "seed": 20261107,
+  "bootstrap_reps": 10000
+ },
+ "trials": [
+  {
+   "trial_id": "t01",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 9,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t02",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 7,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t03",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 11,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n",
+    "tmp/count.py": "import gzip, re\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t04",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 6,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t05",
+   "config": "agentx+falcon-70b",
+   "agent_status": "timeout",
+   "agent_steps": 40,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t06",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 8,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t07",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 5,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 40",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 40",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "40\n",
+    "out/count.sh": "zcat -f /workspace/logs/access.log* | awk '{print $9}' | grep -c '^5'\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t08",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 10,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t09",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "agent_steps": 9,
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "replay_exit": 1,
+   "replay_output": "answer is not a decimal integer",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "trimmed content is not a decimal integer",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "41 server errors\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t10",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 12,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t11",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 6,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "37\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t12",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 8,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no regular file at out/answer.txt",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "answer.txt": "41\n"
+   },
+   "has_out_answer": false,
+   "has_root_answer": true
+  },
+  {
+   "trial_id": "t13",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 14,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t14",
+   "config": "agentx+merlin-32b",
+   "agent_status": "error",
+   "agent_steps": 23,
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "replay_exit": 0,
+   "replay_output": "no answer file",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no regular file at out/answer.txt",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "tmp/notes.txt": "access.log: 20\naccess.log.1: 17\n"
+   },
+   "has_out_answer": false,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t15",
+   "config": "agentx+merlin-32b",
+   "agent_status": "timeout",
+   "agent_steps": 38,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t16",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 9,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t17",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 11,
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "replay_exit": 1,
+   "replay_output": "answer is not a decimal integer",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "trimmed content is not a decimal integer",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "Total 5xx: 41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t18",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "agent_steps": 7,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t19",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 5,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "37\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t20",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 13,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t21",
+   "config": "agentx+osprey-14b",
+   "agent_status": "error",
+   "agent_steps": 4,
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "replay_exit": 0,
+   "replay_output": "no answer file",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no regular file at out/answer.txt",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {},
+   "has_out_answer": false,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t22",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 6,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "37\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t23",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 7,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "no regular file at out/answer.txt",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "answer.txt": "37\n"
+   },
+   "has_out_answer": false,
+   "has_root_answer": true
+  },
+  {
+   "trial_id": "t24",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 5,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 45",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 45",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "45\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t25",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 15,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t26",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 9,
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "replay_exit": 1,
+   "replay_output": "answer is not a decimal integer",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "answer file empty after trimming whitespace",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": ""
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t27",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "agent_steps": 6,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 40",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 40",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "40\n",
+    "out/count.sh": "zcat -f /workspace/logs/access.log* | awk '{print $9}' | grep -c '^5'\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t28",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 4,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "37\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t29",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "timeout",
+   "agent_steps": 40,
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "replay_exit": 0,
+   "replay_output": "no answer file",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no regular file at out/answer.txt",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "tmp/scratch.txt": "trying zcat\n"
+   },
+   "has_out_answer": false,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t30",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 6,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 36",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 36",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "36\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t31",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 5,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 45",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 45",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "45\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t32",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 12,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "verdicts_over_all_readings": [
+    "pass"
+   ],
+   "files": {
+    "out/answer.txt": "41\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t33",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 3,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 0",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 0",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "0\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t34",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 5,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "37\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  },
+  {
+   "trial_id": "t35",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 9,
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "replay_exit": 0,
+   "replay_output": "correct",
+   "replay_traceback": false,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no regular file at out/answer.txt",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "answer.txt": "41\n"
+   },
+   "has_out_answer": false,
+   "has_root_answer": true
+  },
+  {
+   "trial_id": "t36",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "agent_steps": 4,
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "replay_exit": 1,
+   "replay_output": "wrong count: 37",
+   "replay_traceback": false,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "verdicts_over_all_readings": [
+    "fail"
+   ],
+   "files": {
+    "out/answer.txt": "37\n"
+   },
+   "has_out_answer": true,
+   "has_root_answer": false
+  }
+ ],
+ "combo_scores": [
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "ascii",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "utf8",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "allow",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "allow",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "ascii"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  },
+  {
+   "switches": {
+    "digit_script": "unicode",
+    "encoding": "bom",
+    "leading_zeros": "reject",
+    "plus_sign": "reject",
+    "whitespace_set": "unicode"
+   },
+   "scores": {
+    "agentx+falcon-70b": 0.7777777777777778,
+    "agentx+kestrel-8b": 0.1111111111111111,
+    "agentx+merlin-32b": 0.5555555555555556,
+    "agentx+osprey-14b": 0.2222222222222222
+   }
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+test_exit0_agent_error (__main__.ScoringFixtures.test_exit0_agent_error)
+score:ed4d7e2089001889 exit0-agent-error README rule 2: agent status does not matter ... ok
+test_exit0_agent_timeout (__main__.ScoringFixtures.test_exit0_agent_timeout)
+score:0592b38c0c1436df exit0-agent-timeout ... ok
+test_exit0_completed (__main__.ScoringFixtures.test_exit0_completed)
+score:56a7ee276f7937a0 exit0-completed ... ok
+test_exit1 (__main__.ScoringFixtures.test_exit1)
+score:ce128a4f85dafa9c exit1 ... ok
+test_exit2_127_137 (__main__.ScoringFixtures.test_exit2_127_137)
+score:3237d7e528eaf361 exit2-127-137 ... ok
+test_missing_exit_field (__main__.ScoringFixtures.test_missing_exit_field)
+score:0c5c0efad62e6694 missing-exit-field no verifier_exit_code at all; the verifier did not report a status ... expected failure
+test_nine_trials_no_null (__main__.ScoringFixtures.test_nine_trials_no_null)
+score:fb73983b4a75a80f nine-trials-no-null 3 of 9 pass; every trial in the denominator ... ok
+test_nine_trials_one_null (__main__.ScoringFixtures.test_nine_trials_one_null)
+score:d103d7ebc69dca67 nine-trials-one-null 3 of 9 pass; the null trial must count as a fail ... expected failure
+test_null_exit (__main__.ScoringFixtures.test_null_exit)
+score:291a34fd5d90c606 null-exit the container was lost before the verifier ran (README rule 2: fails) ... expected failure
+test_two_configs (__main__.ScoringFixtures.test_two_configs)
+score:b5d0293d1a9f4138 two-configs ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.974s
+
+OK (expected failures=3)

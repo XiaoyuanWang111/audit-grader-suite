@@ -1,0 +1,102 @@
+{
+ "grader": {
+  "parser_tokens": {
+   "cases": 20000,
+   "mismatches": 12368,
+   "kinds": {
+    "grade where the contract has none": 11569,
+    "a different letter": 799
+   },
+   "exceptions": {},
+   "shortest": {
+    "grade where the contract has none": {
+     "reply": "A1",
+     "impl": "A",
+     "contract": null
+    },
+    "a different letter": {
+     "reply": "C:B",
+     "impl": "C",
+     "contract": "B"
+    }
+   }
+  },
+  "parser_chars": {
+   "cases": 20000,
+   "mismatches": 4415,
+   "kinds": {
+    "grade where the contract has none": 4286,
+    "a different letter": 129
+   },
+   "exceptions": {},
+   "shortest": {
+    "grade where the contract has none": {
+     "reply": "sA",
+     "impl": "A",
+     "contract": null
+    },
+    "a different letter": {
+     "reply": "tBL)A",
+     "impl": "B",
+     "contract": "A"
+    }
+   }
+  },
+  "renderer": {
+   "cases": 20000,
+   "empty_texts": 1024,
+   "mismatches": 11764,
+   "exceptions": {
+    "IndexError": 1024
+   },
+   "shortest": {
+    "mismatch": "m\f}",
+    "exception": ""
+   }
+  },
+  "rows_stub_judge_A": {
+   "cases": 20000,
+   "label_mismatches": 3847,
+   "by_kind": {
+    "extraction_failure -> not_attempted": 3847
+   },
+   "exceptions": {
+    "IndexError": 5116
+   },
+   "shortest": {
+    "extraction_failure -> not_attempted": "<think>",
+    "exception": ""
+   }
+  }
+ },
+ "reference": {
+  "parser_tokens": {
+   "cases": 20000,
+   "mismatches": 0,
+   "kinds": {},
+   "exceptions": {},
+   "shortest": {}
+  },
+  "parser_chars": {
+   "cases": 20000,
+   "mismatches": 0,
+   "kinds": {},
+   "exceptions": {},
+   "shortest": {}
+  },
+  "renderer": {
+   "cases": 20000,
+   "empty_texts": 1024,
+   "mismatches": 0,
+   "exceptions": {},
+   "shortest": {}
+  },
+  "rows_stub_judge_A": {
+   "cases": 20000,
+   "label_mismatches": 0,
+   "by_kind": {},
+   "exceptions": {},
+   "shortest": {}
+  }
+ }
+}

@@ -1,0 +1,1204 @@
+[
+ {
+  "id": "answer-file:507de4dab8cd6ff5",
+  "name": "lf",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:4f70ee236f53e575",
+  "name": "no-newline",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:3eafdda8d6a5e70c",
+  "name": "crlf",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:aebd69d48574bfde",
+  "name": "many-newlines",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:02e2cd81936518b9",
+  "name": "leading-whitespace",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:4cff739651d253a1",
+  "name": "vt-ff",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:b0b21b421f1fb207",
+  "name": "extra-files",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:c016f4cc98aa9505",
+  "name": "both-paths-out-right",
+  "label": "pass",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:63b0aeed606ecf87",
+  "name": "missing-out-empty",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F1",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "no answer file",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:d8f9430642993653",
+  "name": "missing-no-out-dir",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F1",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "no answer file",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:87f244f6c26be477",
+  "name": "missing-notes-only",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F1",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "no answer file",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:95d28e0cc997f823",
+  "name": "answer-is-directory",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F1",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "no answer file",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:47274acbf3e10392",
+  "name": "dangling-symlink",
+  "label": "fail",
+  "skipped": "no symlinks"
+ },
+ {
+  "id": "answer-file:3660b68933683665",
+  "name": "wrong-path-right-value",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F2",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:1c57de6a28c6d61a",
+  "name": "wrong-path-wrong-value",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 37",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:6a9823745a460f89",
+  "name": "both-paths-out-wrong",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 37",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:de59d63ef63e5068",
+  "name": "dir-at-answer-path-and-root-answer",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F2",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "no answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:916331f4e90339fd",
+  "name": "empty",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "empty answer file",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:59b35c0c5f39a006",
+  "name": "whitespace-only",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "whitespace only",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:dcfdcc3287a962b2",
+  "name": "value-40",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 40",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:6ceea86d777a5d8f",
+  "name": "value-37",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 37",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:2857c8d43fda3b8e",
+  "name": "value-45",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 45",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:1f3c18dbab72ee41",
+  "name": "value-42",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 42",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:ad42e94b5ff58c19",
+  "name": "value-0",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "wrong count: 0",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:a5021218382ed34c",
+  "name": "negative",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "negative number",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:1d13102fc6d0c4a3",
+  "name": "hex",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:94c3bb070ce2b7fc",
+  "name": "float",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:4b08baa56116f9d2",
+  "name": "exponent",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:e7635ce38bbe6152",
+  "name": "underscore",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:38b6049ce254dc00",
+  "name": "comma",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:87e4822a687dd031",
+  "name": "inner-space",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:69469557b403d7cd",
+  "name": "two-lines",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:a1711fdc8602311c",
+  "name": "words-only",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:d3c92de02a78effd",
+  "name": "nul-after",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "control character",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:9e319358001485a3",
+  "name": "nul-inside",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "control character",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:ebaf2abe664110c0",
+  "name": "info-separator-1c",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F4",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "control character",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:c4c37c497ba93069",
+  "name": "info-separator-1f-leading",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F4",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "control character",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:1e022f3b08367203",
+  "name": "invalid-utf8",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not UTF-8 text",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:c1f5ed23c2682eb5",
+  "name": "huge-wrong-number",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "<run directory>\\case\\task\\tests\\check_answer.py\", line 21, in main\r\n    if int(text) != expected:\r\n       ^^^^^^^^^\r\nValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5000 digits; use sys.set_int_max_str_digits() to increase the limit",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:33bb623c4d4cc58f",
+  "name": "instruction-restatement",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:2ce230d216b07c74",
+  "name": "repeated-count-one-line",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:121231a1c8be7c0f",
+  "name": "repeated-count-lines",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:3f66c9b50c9aac3b",
+  "name": "leading-zero",
+  "label": "pass",
+  "alt": {
+   "D-leading-zeros": "fail"
+  },
+  "known_grader_difference": null,
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:18217fc43af8aa26",
+  "name": "leading-zeros-5001-digits",
+  "label": "pass",
+  "alt": {
+   "D-leading-zeros": "fail"
+  },
+  "known_grader_difference": "D-leading-zeros",
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "<run directory>\\case\\task\\tests\\check_answer.py\", line 21, in main\r\n    if int(text) != expected:\r\n       ^^^^^^^^^\r\nValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5001 digits; use sys.set_int_max_str_digits() to increase the limit",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "pass",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:322dc576d4dd86bc",
+  "name": "plus-sign",
+  "label": "pass",
+  "alt": {
+   "D-plus-sign": "fail"
+  },
+  "known_grader_difference": "D-plus-sign",
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "pass",
+  "replacement_reason": "correct",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "pass",
+   "D-plus-sign": "fail",
+   "D-digits": "pass",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "pass"
+  }
+ },
+ {
+  "id": "answer-file:8bff1229c60659c1",
+  "name": "nbsp",
+  "label": "fail",
+  "alt": {
+   "D-whitespace": "pass",
+   "D-surrounding-text": "pass"
+  },
+  "known_grader_difference": "D-whitespace",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "pass",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:6d22bd442584a7c1",
+  "name": "ideographic-space",
+  "label": "fail",
+  "alt": {
+   "D-whitespace": "pass",
+   "D-surrounding-text": "pass"
+  },
+  "known_grader_difference": "D-whitespace",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "pass",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:3fb1a0c93693f7d3",
+  "name": "nel",
+  "label": "fail",
+  "alt": {
+   "D-whitespace": "pass"
+  },
+  "known_grader_difference": "D-whitespace",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "control character",
+  "flips": {
+   "D-whitespace": "pass",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:1a5c933b929fc8ca",
+  "name": "arabic-indic-digits",
+  "label": "fail",
+  "alt": {
+   "D-digits": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "pass",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:95404323377ab41b",
+  "name": "fullwidth-digits",
+  "label": "fail",
+  "alt": {
+   "D-digits": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "pass",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:99730a7daf639398",
+  "name": "words-after",
+  "label": "fail",
+  "alt": {
+   "D-surrounding-text": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "pass",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:242af759afa0f674",
+  "name": "words-before",
+  "label": "fail",
+  "alt": {
+   "D-surrounding-text": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "pass",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:523d0e016ea1d6e6",
+  "name": "label-colon",
+  "label": "fail",
+  "alt": {
+   "D-surrounding-text": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "pass",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:9d060c5829cff97c",
+  "name": "utf8-bom",
+  "label": "fail",
+  "alt": {
+   "D-bom": "pass",
+   "D-surrounding-text": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not a decimal integer",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "pass",
+   "D-bom": "pass",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:f23dbcc5bf192eea",
+  "name": "utf16-bom",
+  "label": "fail",
+  "alt": {
+   "D-bom": "pass"
+  },
+  "known_grader_difference": null,
+  "grader": "fail",
+  "exit": 1,
+  "grader_output": "answer is not a decimal integer",
+  "replacement": "fail",
+  "replacement_reason": "not UTF-8 text",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "pass",
+   "D-symlink": "fail"
+  }
+ },
+ {
+  "id": "answer-file:1764ac6b98422dcb",
+  "name": "symlink-in-workspace",
+  "label": "pass",
+  "skipped": "no symlinks"
+ },
+ {
+  "id": "answer-file:ca3d7f08ead99b6d",
+  "name": "symlink-to-expected-json",
+  "label": "fail",
+  "skipped": "no symlinks"
+ },
+ {
+  "id": "answer-file:918bd010e9cff4fb",
+  "name": "python3-shadowed-on-path",
+  "label": "fail",
+  "alt": {},
+  "known_grader_difference": "F6",
+  "grader": "pass",
+  "exit": 0,
+  "grader_output": "correct",
+  "replacement": "fail",
+  "replacement_reason": "wrong count",
+  "flips": {
+   "D-whitespace": "fail",
+   "D-leading-zeros": "fail",
+   "D-plus-sign": "fail",
+   "D-digits": "fail",
+   "D-surrounding-text": "fail",
+   "D-bom": "fail",
+   "D-symlink": "fail"
+  }
+ }
+]

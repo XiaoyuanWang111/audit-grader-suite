@@ -1,0 +1,1 @@
+{"id": "F5-result", "model": "probe", "task_id": "t03", "response": "```python\n_fd1 = open(1, \"w\", closefd=False)\n_fd1.write('@@RESULT@@ {\\n<<toycode-result>>{\\n')\n_fd1.flush()\n\ndef parse_duration(text):\n    raise SystemExit(0)\n```\n"}

@@ -1,0 +1,3 @@
+{"id": "F6-spoof", "model": "probe", "task_id": "t03", "verdict": "fail", "detail": "test 0 failed: raised SystemExit"}
+{"id": "F6-read-tests", "model": "probe", "task_id": "t03", "verdict": "fail", "detail": "test 0 failed: load error FileNotFoundError"}
+{"id": "F6-isinstance", "model": "probe", "task_id": "t03", "verdict": "fail", "detail": "test 3 failed: raised RuntimeError"}

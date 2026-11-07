@@ -1,0 +1,101 @@
+{
+ "seed": 20261106,
+ "inputs": 20003,
+ "random_inputs": 20000,
+ "huge_inputs": 3,
+ "exceptions": {
+  "grade_py EXC:Overflow": 3,
+  "reference EXC:Overflow": 3
+ },
+ "grade_py_vs_replacement": {
+  "F2": 737,
+  "F1": 380,
+  "D-digits": 275,
+  "F1+D-digits": 12,
+  "F2+D-digits": 22,
+  "F1+F2": 9,
+  "F5 exception": 3
+ },
+ "reference_vs_replacement": {
+  "D-answer-line-form": 3943,
+  "D-digits": 191,
+  "D-answer-line-form+D-digits": 2,
+  "F5 exception": 3
+ },
+ "unexplained": [],
+ "unexplained_count": 0,
+ "cli_rows": 20000,
+ "cli_exit": [
+  0,
+  0
+ ],
+ "cli_vs_in_process_mismatches": 0,
+ "examples": {
+  "reference D-answer-line-form": [
+   "p02",
+   "'= is\\nAnswer:486k496\\nabout\\nkm/h or or 486'",
+   "no_answer",
+   "correct"
+  ],
+  "grade_py F2": [
+   "p04",
+   "'Answer: -6.95\\n) = -7.02 k the k\\n( eggs 94,641 +\\nAnswers: 9,690.8\\nAnswer : \\u0668\\u0667\\u0661.\\u0669\\n: about +\\n'",
+   "correct",
+   "incorrect"
+  ],
+  "grade_py F1": [
+   "p07",
+   "'answer:\\u2029**Answer:** e414999.991\\x1dAnswer:  14,999.995 . dollars'",
+   "incorrect",
+   "correct"
+  ],
+  "grade_py D-digits": [
+   "p09",
+   "' Answer: 28.795 610,210 28.75e4 128.8\\nthe . is \\xb0C \\xb0C is ... e4\\n Answer: \\uff13\\uff18.\\uff18\\x1cAnswers: -494158 **\\n\\\\boxed{ } $ e4 about (\\x1c'",
+   "incorrect",
+   "no_answer"
+  ],
+  "reference D-digits": [
+   "p09",
+   "' Answer: 28.795 610,210 28.75e4 128.8\\nthe . is \\xb0C \\xb0C is ... e4\\n Answer: \\uff13\\uff18.\\uff18\\x1cAnswers: -494158 **\\n\\\\boxed{ } $ e4 about (\\x1c'",
+   "incorrect",
+   "no_answer"
+  ],
+  "grade_py F1+D-digits": [
+   "p07",
+   "'Answer\\uff1a theisabout8\\n Answer: \\uff11\\uff15,\\uff10\\uff10\\uff10\\x1d( dollars\\x85'",
+   "incorrect",
+   "no_answer"
+  ],
+  "grade_py F2+D-digits": [
+   "p05",
+   "'\\tAnswer:  km/h = \\u0667\\u0661.\\u0669\\u0665 the\\x1dabout 5.15 or km/h about ( + $\\n> Answer:3571\\x0b**Answer:**'",
+   "correct",
+   "no_answer"
+  ],
+  "grade_py F1+F2": [
+   "p01",
+   "' Answer:} 3.5,2'",
+   "correct",
+   "incorrect"
+  ],
+  "reference D-answer-line-form+D-digits": [
+   "p04",
+   "' Answer: -,\\u0667\\x1eabout ( e4 or about the ** \\\\boxed{'",
+   "correct",
+   "no_answer"
+  ],
+  "grade_py F5 exception": [
+   "p02",
+   "'Answer: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+   "EXC:Overflow",
+   "incorrect"
+  ],
+  "reference F5 exception": [
+   "p02",
+   "'Answer: 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+   "EXC:Overflow",
+   "incorrect"
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+property cases: 1248 seed 20261106
+prop   cases  grade.py  reference  replacement
+P1       240        48          0            0
+P2       144         0          0            0
+P3       144         0          0            0
+P4       144         0          0            0
+P5       144         0          0            0
+P6       144         0          0            0
+P7        72        21          0            0
+P8        72         0          0            0
+P9        72         0          0            0
+P10       72         0          0            0
+total violations {'g': 69, 'r': 0, 'rep': 0}
+P1 example p02 'Work.\nAnswer: 486,616' label incorrect grade.py ('486', 'correct')
+P1 example p02 'Work.\nAnswer: 486,711' label incorrect grade.py ('486', 'correct')
+P1 example p02 'Work.\nAnswer: 486,019' label incorrect grade.py ('486', 'correct')
+P7 example p02 'Work.\nAnswer: 490.1407' label incorrect grade.py ('490.1407', 'correct')
+P7 example p02 'Work.\nAnswer: 488.6147' label incorrect grade.py ('488.6147', 'correct')
+P7 example p02 'Work.\nAnswer: 487.9537' label incorrect grade.py ('487.9537', 'correct')

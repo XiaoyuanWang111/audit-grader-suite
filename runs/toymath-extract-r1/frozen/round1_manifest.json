@@ -1,0 +1,19 @@
+{
+ "round": 1,
+ "seed": 61106,
+ "population": {
+  "disagree": 6,
+  "agree": 42
+ },
+ "sample": {
+  "disagree": 6,
+  "agree": 42,
+  "fixture": 12
+ },
+ "strata": "disagree: grade.py, reference and replacement (proposed readings) not all equal; agree: all equal; fixture: calibration, outside the error rate",
+ "sha256": {
+  "round1_cases.jsonl": "ef6054425b8b07b8c3d80625b17a7752bc5881feb6e83d84cb3249a4a5491b92",
+  "round1_keys.jsonl": "b40d1746a7ff5fbd391acd5866c7e9482a91a96a010edccd3ed59879f6cb584d",
+  "round1_orders.json": "0b1aa110c877eb243cbccfde5b3c15d87e851fe8dd7c1c8a6a5b14aa6878ed02"
+ }
+}

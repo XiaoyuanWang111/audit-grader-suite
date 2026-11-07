@@ -1,0 +1,6 @@
+{"id": "F1-empty", "model": "probe", "task_id": "t10", "verdict": "pass", "detail": "all tests passed"}
+{"id": "F1-stub", "model": "probe", "task_id": "t05", "verdict": "pass", "detail": "all tests passed"}
+{"id": "F1-name", "model": "probe", "task_id": "t07", "verdict": "pass", "detail": "all tests passed"}
+{"id": "c02", "model": "lark-13b", "task_id": "t01", "verdict": "pass", "detail": "all tests passed"}
+{"id": "c22", "model": "lark-13b", "task_id": "t06", "verdict": "pass", "detail": "all tests passed"}
+{"id": "c40", "model": "finch-8b", "task_id": "t10", "verdict": "pass", "detail": "all tests passed"}

@@ -1,0 +1,74 @@
+python 3.12.10 cpython
+manifest OK  657855f8fda321d8 TASK.md
+manifest OK  ea020bdda3314c85 grade.py
+manifest OK  e625324a38570229 prompt_template.txt
+manifest OK  dc00ec20a4e86e97 responses.jsonl
+manifest OK  36953b5beac29ef3 runner.py
+manifest OK  6d7374ece0f947ad tasks.jsonl
+manifest OK  b68f1b8f193a8a72 tests.json
+manifest OK  4b502d23f2dad7aa reference/harness_ref.py
+manifest_mismatches 0
+MANIFEST.sha256 1a8b608ad96358348d941de149b04ce4ceaf679a26dcc920f6680052932e14c7
+task_row t01 second_largest 797d5de3a67d993f
+task_row t02 is_palindrome 5fbc52110c2d5f1d
+task_row t03 parse_duration 100ef97624181e40
+task_row t04 chunk 87a3f76d54af23be
+task_row t05 median 5792d06fd756a432
+task_row t06 run_length 42e9ddd0b480858e
+task_row t07 fib d7b2e848d2858f0b
+task_row t08 merge_intervals 3592eb1286e9ca2d
+task_row t09 flatten ef6727107b2e370f
+task_row t10 binary_search 86cd90dc7a8206f3
+tests_row t01 5 66511df85f03d63b
+tests_row t02 5 394d974a440e9fde
+tests_row t03 5 b5c6d3f28412ad6a
+tests_row t04 4 a02c20ee7a78bc6f
+tests_row t05 4 eafaef5655761258
+tests_row t06 4 3420349830450db6
+tests_row t07 5 7a73ed59a28bc39c
+tests_row t08 4 8b6274408bd4fdcb
+tests_row t09 4 dd28dd68daacea6a
+tests_row t10 5 973c756790cbd392
+response_row c01 kite-7b t01 5ec811450b986735
+response_row c02 lark-13b t01 c62987c006204fdf
+response_row c03 wren-34b t01 d0cc84155932c371
+response_row c04 finch-8b t01 0e6becca1d1c9fdd
+response_row c05 kite-7b t02 ee567b06371b91a4
+response_row c06 lark-13b t02 2aca53f0920f1d77
+response_row c07 wren-34b t02 5ae65ce17239141c
+response_row c08 finch-8b t02 182028d524bae9c9
+response_row c09 kite-7b t03 fb2cb9bb2bad72ba
+response_row c10 lark-13b t03 3a980a2f16980679
+response_row c11 wren-34b t03 292b22af09676f40
+response_row c12 finch-8b t03 74edf7cf2029ed40
+response_row c13 kite-7b t04 feae19694be3cf4f
+response_row c14 lark-13b t04 19f77a8a2cde71aa
+response_row c15 wren-34b t04 faa32e52154f7fab
+response_row c16 finch-8b t04 002bf23b526e64b1
+response_row c17 kite-7b t05 f3d8ee05520ab6a6
+response_row c18 lark-13b t05 9e27bec85a6c133b
+response_row c19 wren-34b t05 770f8173bff2ddf4
+response_row c20 finch-8b t05 050c7ba52e06291f
+response_row c21 kite-7b t06 2d0f1bfa9d20f6e6
+response_row c22 lark-13b t06 3e88f09d756386de
+response_row c23 wren-34b t06 ad1b20cb2cdd656a
+response_row c24 finch-8b t06 15352ae6ff01997e
+response_row c25 kite-7b t07 c59e62e5938e10b8
+response_row c26 lark-13b t07 1e0d858c0ea2c6a5
+response_row c27 wren-34b t07 c38e7499bde0d855
+response_row c28 finch-8b t07 6cb7b10b2ba642e8
+response_row c29 kite-7b t08 f93f4eb7e7567715
+response_row c30 lark-13b t08 fef14fa857806a17
+response_row c31 wren-34b t08 075effc70455bdeb
+response_row c32 finch-8b t08 7c9cf2f32b525385
+response_row c33 kite-7b t09 6e2f7328ba36e439
+response_row c34 lark-13b t09 6056d77e11335492
+response_row c35 wren-34b t09 091340fcf7938711
+response_row c36 finch-8b t09 055744c945330743
+response_row c37 kite-7b t10 9a44edd8d8e33272
+response_row c38 lark-13b t10 8713bd2e8edd8a3e
+response_row c39 wren-34b t10 00f6f5308339b5ee
+response_row c40 finch-8b t10 60e6d54f48bab9b7
+response_settings (finish_reason, max_tokens, temperature): {('stop', 1024, 0.0): 40}
+responses_with_nonascii_chars 0 responses_with_CR 0
+prompt_template e625324a38570229 placeholder_count 1

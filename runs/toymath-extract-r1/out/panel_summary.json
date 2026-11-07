@@ -1,0 +1,486 @@
+{
+ "repeat_identical": {
+  "grade_py": true,
+  "reference": true
+ },
+ "scores": {
+  "replacement": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_b:D-multiple-numbers": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_b:D-comma-grouping": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_b:D-digits": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_b:D-leading-whitespace": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_b:D-tolerance-boundary": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_b:D-answer-line-form": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 66.7
+  },
+  "rep_as_grade_py_readings": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  },
+  "rep_as_reference_readings": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 66.7
+  },
+  "grade_py": {
+   "alpha-7b": 75.0,
+   "beta-14b": 83.3,
+   "delta-8b": 33.3,
+   "gamma-32b": 100.0
+  },
+  "reference": {
+   "alpha-7b": 75.0,
+   "beta-14b": 100.0,
+   "delta-8b": 25.0,
+   "gamma-32b": 66.7
+  },
+  "grade_py_if_denominator_12": {
+   "alpha-7b": 75.0,
+   "beta-14b": 83.3,
+   "delta-8b": 25.0,
+   "gamma-32b": 100.0
+  }
+ },
+ "label_counts": {
+  "replacement": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_b:D-multiple-numbers": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_b:D-comma-grouping": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_b:D-digits": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_b:D-leading-whitespace": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_b:D-tolerance-boundary": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_b:D-answer-line-form": {
+   "correct": 32,
+   "no_answer": 7,
+   "incorrect": 9
+  },
+  "rep_as_grade_py_readings": {
+   "correct": 36,
+   "incorrect": 9,
+   "no_answer": 3
+  },
+  "rep_as_reference_readings": {
+   "correct": 32,
+   "no_answer": 7,
+   "incorrect": 9
+  },
+  "grade_py": {
+   "correct": 34,
+   "incorrect": 11,
+   "no_answer": 3
+  },
+  "reference": {
+   "correct": 32,
+   "no_answer": 7,
+   "incorrect": 9
+  }
+ },
+ "disagreements": {
+  "rep_b:D-multiple-numbers": [],
+  "rep_b:D-comma-grouping": [],
+  "rep_b:D-digits": [],
+  "rep_b:D-leading-whitespace": [],
+  "rep_b:D-tolerance-boundary": [],
+  "rep_b:D-answer-line-form": [
+   {
+    "id": "r03",
+    "model": "gamma-32b",
+    "problem_id": "p01",
+    "replacement": [
+     "3.50",
+     "correct"
+    ],
+    "rep_b:D-answer-line-form": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: $3.50"
+    ]
+   },
+   {
+    "id": "r07",
+    "model": "gamma-32b",
+    "problem_id": "p02",
+    "replacement": [
+     "486",
+     "correct"
+    ],
+    "rep_b:D-answer-line-form": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 486 students"
+    ]
+   },
+   {
+    "id": "r19",
+    "model": "gamma-32b",
+    "problem_id": "p05",
+    "replacement": [
+     "72",
+     "correct"
+    ],
+    "rep_b:D-answer-line-form": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 72 km/h"
+    ]
+   },
+   {
+    "id": "r35",
+    "model": "gamma-32b",
+    "problem_id": "p09",
+    "replacement": [
+     "28.80",
+     "correct"
+    ],
+    "rep_b:D-answer-line-form": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 28.80 dollars"
+    ]
+   }
+  ],
+  "rep_as_grade_py_readings": [],
+  "rep_as_reference_readings": [
+   {
+    "id": "r03",
+    "model": "gamma-32b",
+    "problem_id": "p01",
+    "replacement": [
+     "3.50",
+     "correct"
+    ],
+    "rep_as_reference_readings": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: $3.50"
+    ]
+   },
+   {
+    "id": "r07",
+    "model": "gamma-32b",
+    "problem_id": "p02",
+    "replacement": [
+     "486",
+     "correct"
+    ],
+    "rep_as_reference_readings": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 486 students"
+    ]
+   },
+   {
+    "id": "r19",
+    "model": "gamma-32b",
+    "problem_id": "p05",
+    "replacement": [
+     "72",
+     "correct"
+    ],
+    "rep_as_reference_readings": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 72 km/h"
+    ]
+   },
+   {
+    "id": "r35",
+    "model": "gamma-32b",
+    "problem_id": "p09",
+    "replacement": [
+     "28.80",
+     "correct"
+    ],
+    "rep_as_reference_readings": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 28.80 dollars"
+    ]
+   }
+  ],
+  "grade_py": [
+   {
+    "id": "r10",
+    "model": "beta-14b",
+    "problem_id": "p03",
+    "replacement": [
+     "2250",
+     "correct"
+    ],
+    "grade_py": [
+     "2",
+     "incorrect"
+    ],
+    "answer_line": [
+     "Answer: 2,250"
+    ]
+   },
+   {
+    "id": "r26",
+    "model": "beta-14b",
+    "problem_id": "p07",
+    "replacement": [
+     "15000",
+     "correct"
+    ],
+    "grade_py": [
+     "15",
+     "incorrect"
+    ],
+    "answer_line": [
+     "Answer: 15,000"
+    ]
+   }
+  ],
+  "reference": [
+   {
+    "id": "r03",
+    "model": "gamma-32b",
+    "problem_id": "p01",
+    "replacement": [
+     "3.50",
+     "correct"
+    ],
+    "reference": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: $3.50"
+    ]
+   },
+   {
+    "id": "r07",
+    "model": "gamma-32b",
+    "problem_id": "p02",
+    "replacement": [
+     "486",
+     "correct"
+    ],
+    "reference": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 486 students"
+    ]
+   },
+   {
+    "id": "r19",
+    "model": "gamma-32b",
+    "problem_id": "p05",
+    "replacement": [
+     "72",
+     "correct"
+    ],
+    "reference": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 72 km/h"
+    ]
+   },
+   {
+    "id": "r35",
+    "model": "gamma-32b",
+    "problem_id": "p09",
+    "replacement": [
+     "28.80",
+     "correct"
+    ],
+    "reference": [
+     null,
+     "no_answer"
+    ],
+    "answer_line": [
+     "Answer: 28.80 dollars"
+    ]
+   }
+  ]
+ },
+ "truncated": [
+  {
+   "id": "r12",
+   "model": "delta-8b",
+   "problem_id": "p03",
+   "chars": 1299,
+   "has_answer_line": false,
+   "verdicts": {
+    "grade_py": "no_answer",
+    "reference": "no_answer",
+    "replacement": "no_answer"
+   }
+  },
+  {
+   "id": "r36",
+   "model": "delta-8b",
+   "problem_id": "p09",
+   "chars": 1285,
+   "has_answer_line": false,
+   "verdicts": {
+    "grade_py": "no_answer",
+    "reference": "no_answer",
+    "replacement": "no_answer"
+   }
+  }
+ ],
+ "no_answer": {
+  "replacement": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_b:D-multiple-numbers": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_b:D-comma-grouping": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_b:D-digits": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_b:D-leading-whitespace": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_b:D-tolerance-boundary": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_b:D-answer-line-form": [
+   "r03",
+   "r07",
+   "r12",
+   "r19",
+   "r35",
+   "r36",
+   "r44"
+  ],
+  "rep_as_grade_py_readings": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "rep_as_reference_readings": [
+   "r03",
+   "r07",
+   "r12",
+   "r19",
+   "r35",
+   "r36",
+   "r44"
+  ],
+  "grade_py": [
+   "r12",
+   "r36",
+   "r44"
+  ],
+  "reference": [
+   "r03",
+   "r07",
+   "r12",
+   "r19",
+   "r35",
+   "r36",
+   "r44"
+  ]
+ },
+ "coverage": {
+  "replacement": "48 of 48 responses have a verdict",
+  "rep_b:D-multiple-numbers": "48 of 48 responses have a verdict",
+  "rep_b:D-comma-grouping": "48 of 48 responses have a verdict",
+  "rep_b:D-digits": "48 of 48 responses have a verdict",
+  "rep_b:D-leading-whitespace": "48 of 48 responses have a verdict",
+  "rep_b:D-tolerance-boundary": "48 of 48 responses have a verdict",
+  "rep_b:D-answer-line-form": "48 of 48 responses have a verdict",
+  "rep_as_grade_py_readings": "48 of 48 responses have a verdict",
+  "rep_as_reference_readings": "48 of 48 responses have a verdict",
+  "grade_py": "48 of 48 responses have a verdict",
+  "reference": "48 of 48 responses have a verdict"
+ },
+ "reasoning_markers": 0
+}

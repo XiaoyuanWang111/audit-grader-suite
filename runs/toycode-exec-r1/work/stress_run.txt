@@ -1,0 +1,54 @@
+Content-free responses: tasks passed (of 10) and crashes, grader / reference / replacement
+  empty                      8 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  whitespace                 8 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  repeated_word              0 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  repeated_dash_6000         0 pass, 10 crash / 0 pass, 10 crash / 0 pass, 0 crash
+  refusal                    0 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  restated_instructions      0 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  restated_signature_block   0 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  stub_raise                 8 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+  pass_only                  8 pass, 0 crash / 0 pass, 0 crash / 0 pass, 0 crash
+
+Edits the contract ignores (verdict changes, grader / reference / replacement):
+  append_prose             applied to 38: 1 / 1 / 1   grader: c33:pass->fail; reference: c33:pass->fail; replacement: c33:pass->fail
+  print_at_load            applied to 38: 0 / 0 / 0   
+  helper_named_main        applied to 38: 0 / 0 / 0   
+  fence_trailing_spaces    applied to 37: 0 / 0 / 0   
+  retag_py                 applied to 37: 25 / 0 / 0   grader: c01:pass->fail c02:pass->fail c03:pass->fail c05:pass->fail c07:pass->fail c09:pass->fail c11:pass->fail c13:pass->fail c14:pass->fail c15:pass->fail c16:pass->fail c19:pass->fail c21:pass->fail c22:pass->fail c23:pass->fail c25:pass->fail c27:pass->fail c29:pass->fail c31:pass->fail c32:pass->fail c34:pass->fail c35:pass->fail c37:pass->fail c39:pass->fail c40:pass->fail
+  retag_none               applied to 37: 25 / 0 / 0   grader: c01:pass->fail c02:pass->fail c03:pass->fail c05:pass->fail c07:pass->fail c09:pass->fail c11:pass->fail c13:pass->fail c14:pass->fail c15:pass->fail c16:pass->fail c19:pass->fail c21:pass->fail c22:pass->fail c23:pass->fail c25:pass->fail c27:pass->fail c29:pass->fail c31:pass->fail c32:pass->fail c34:pass->fail c35:pass->fail c37:pass->fail c39:pass->fail c40:pass->fail
+
+Edits the contract forbids, on the 21 responses the replacement passes (verdicts that are not fail, grader / reference / replacement):
+  rename_entry_point   applied to 21: 16 / 0 / 0   grader: c01:pass c03:pass c06:pass c08:pass c19:pass c21:pass c23:pass c25:pass c27:pass c29:pass c32:pass c33:pass c34:pass c35:pass c37:pass c39:pass
+  raise_at_entry       applied to 21: 16 / 0 / 0   grader: c01:pass c03:pass c06:pass c08:pass c19:pass c21:pass c23:pass c25:pass c27:pass c29:pass c32:pass c33:pass c34:pass c35:pass c37:pass c39:pass
+  import_os            applied to 21: 0 / 0 / 0   
+  drop_closing_fence   applied to 20: 1 / 1 / 1   grader: c23:pass; reference: c23:pass; replacement: c23:pass
+  tuple_results        applied to  8: 8 / 0 / 0   grader: c13:pass c14:pass c15:pass c29:pass c32:pass c33:pass c34:pass c35:pass
+
+Fuzz: 300 cases, seed 20261106
+  crashes (grader | exception | body):
+      1  grader | crash:MemoryError | dashes
+      3  reference | crash:MemoryError | dashes
+      1  reference | crash:RecursionError | deep_sum
+  grader vs replacement fixes-only: 23 disagreements
+      3  grader=fail fixes=pass body=non_ascii fence=py lf prose
+      2  grader=pass fixes=fail body=main_guard fence=trailing_ws lf prose
+      2  grader=fail fixes=pass body=non_ascii fence=bare lf 
+      2  grader=pass fixes=fail body=non_ascii fence=python lf prose
+      1  grader=pass fixes=fail body=raises fence=python lf prose
+      1  grader=fail fixes=pass body=non_ascii fence=bare lf prose
+      1  grader=fail fixes=pass body=dynamic_import fence=py lf prose
+      1  grader=fail fixes=pass body=prints fence=py lf 
+      1  grader=pass fixes=fail body=dynamic_import fence=python lf prose
+      1  grader=pass fixes=fail body=wrong_name fence=trailing_ws lf 
+      1  grader=pass fixes=fail body=correct fence=python lf prose
+      1  grader=crash:MemoryError fixes=fail body=dashes fence=none lf 
+      1  grader=fail fixes=pass body=correct fence=bare lf 
+      1  grader=pass fixes=fail body=wrong_name fence=python lf 
+      1  grader=fail fixes=pass body=deep_sum fence=py lf 
+      1  grader=fail fixes=pass body=prints fence=bare lf 
+      1  grader=fail fixes=pass body=main_guard fence=bare lf prose
+      1  grader=pass fixes=fail body=dynamic_import fence=trailing_ws lf prose
+  reference vs replacement fixes-only: 4 disagreements
+      2  reference=crash:MemoryError fixes=fail body=dashes fence=py lf
+      1  reference=crash:RecursionError fixes=fail body=deep_sum fence=bare lf
+      1  reference=crash:MemoryError fixes=fail body=dashes fence=none lf

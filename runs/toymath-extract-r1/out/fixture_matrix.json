@@ -1,0 +1,4148 @@
+{
+ "fixtures": 146,
+ "replacement_self_check_failures": [],
+ "matrix": [
+  {
+   "id": "line:0ac80c7a0ffa253b",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "control: reasoning then answer line",
+   "response_ascii": "'18 x 27 = 486.\\nAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:96fa1d1ecd8d5683",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "control: answer line only",
+   "response_ascii": "'Answer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:54c0ab2cd41810c0",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "leading spaces are allowed",
+   "response_ascii": "'   Answer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:2691f93d823418cc",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "leading tab is allowed",
+   "response_ascii": "'\\tAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:8d4ba13e71bccd01",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "lower case is not an answer line",
+   "response_ascii": "'answer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:450e101d55f1240a",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "upper case is not an answer line",
+   "response_ascii": "'ANSWER: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:e48b9a85010248b4",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "bold label does not begin with Answer:",
+   "response_ascii": "'**Answer:** 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:e597fe2b36df080e",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "line begins with Final",
+   "response_ascii": "'Final Answer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:0c6b99f12fc1dceb",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "space before the colon",
+   "response_ascii": "'Answer : 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:20f0257ef1216bcc",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "Answers: is not Answer:",
+   "response_ascii": "'Answers: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:e68b845ca45f761f",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "no answer line at all",
+   "response_ascii": "'The answer is 486.'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:0491fb840ad254db",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "blockquote marker before the label",
+   "response_ascii": "'> Answer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:38109147f96ae6e6",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "list marker before the label",
+   "response_ascii": "'- Answer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:9562d262013823e8",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "fullwidth colon",
+   "response_ascii": "'Answer\\uff1a486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:4bdccce1d177b839",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "zero-width space is not whitespace",
+   "response_ascii": "'\\u200bAnswer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:40c579b561f19a21",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "byte-order mark is not whitespace",
+   "response_ascii": "'\\ufeffAnswer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:b27d769d341e7ffe",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "label in mid-line",
+   "response_ascii": "'So the total is computed. Answer: 486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:095fe7dbf22b1334",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "no space after the colon",
+   "response_ascii": "'Answer:486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:55cb82d374e9a9c8",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "text after the prefix is ': 486'",
+   "response_ascii": "'Answer:: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:69bcaa90907ab4c2",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "last answer line wins",
+   "response_ascii": "'Answer: 480\\nWait, 18 x 27 is 486.\\nAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:448e58b80651ecf5",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "last answer line wins, wrong",
+   "response_ascii": "'Answer: 486\\nWait, recheck.\\nAnswer: 480'",
+   "grade_py": {
+    "extracted": "480",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "480",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "480",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:ceb0043b2062dad6",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "lines after the answer line are ignored",
+   "response_ascii": "'Answer: 486\\nI hope this helps; 480 was my first guess.'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:ff71ae6ff9472713",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "trailing blank lines",
+   "response_ascii": "'Answer: 486\\n\\n\\n'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:460a2a7b9ee96ee9",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "CRLF line ends",
+   "response_ascii": "'Work.\\r\\nAnswer: 486\\r\\n'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:9b6c0e1050455b3e",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "CR alone is a line boundary",
+   "response_ascii": "'Answer: 480\\rAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:206205de84378a7a",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "U+2028 is a line boundary",
+   "response_ascii": "'Answer: 480\\u2028Answer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:3472873c7c73a35f",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "U+0085 NEL is a line boundary",
+   "response_ascii": "'Answer: 480\\x85Answer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:dd8f0c9f26e6fc54",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "vertical tab is a line boundary",
+   "response_ascii": "'Answer: 480\\x0bAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:e33fec5284f98777",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "form feed is a line boundary",
+   "response_ascii": "'Answer: 480\\x0cAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:16e7f7806f20ac2d",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "U+001C is a line boundary",
+   "response_ascii": "'Answer: 480\\x1cAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:6dd8c93ce8479a31",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "U+2029 ends the line",
+   "response_ascii": "'Answer: 486\\u2029'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:36464b7a70d723ed",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "CR splits the number's line: 4",
+   "response_ascii": "'Answer: 4\\r86'",
+   "grade_py": {
+    "extracted": "4",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "4",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "4",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:b79e9b5d2c8652d2",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "number on the next line does not count",
+   "response_ascii": "'Answer:\\n486'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:45f6593d161c6fb5",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "last answer line has no number",
+   "response_ascii": "'Answer: 486\\nAnswer:'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:2e85cf3149fcee20",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "last answer line has no number",
+   "response_ascii": "'Answer: 486\\nAnswer: see above'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "line:6e3179d47c226253",
+   "family": "line",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "code fence after the answer line",
+   "response_ascii": "'Answer: 486\\n```'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:772550e08fedd288",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "correct",
+   "alt": {},
+   "note": "control: negative",
+   "response_ascii": "'Answer: -7'",
+   "grade_py": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:7232d5dcadd174db",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "U+2212 minus sign is not hyphen-minus: 7",
+   "response_ascii": "'Answer: \\u22127'",
+   "grade_py": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:4f87d3adab4fe85a",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "en dash is not hyphen-minus: 7",
+   "response_ascii": "'Answer: \\u20137'",
+   "grade_py": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:afa5e7115b04a1e9",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "space after the hyphen: 7",
+   "response_ascii": "'Answer: - 7'",
+   "grade_py": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:d039ec1b55209b76",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "degree sign after the number",
+   "response_ascii": "'Answer: -7\\xb0C'",
+   "grade_py": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:28c2ebf3dff11b7a",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit words after the number",
+   "response_ascii": "'Answer: -7 degrees Celsius'",
+   "grade_py": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "-7",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:bc852b9666e26fbe",
+   "family": "number",
+   "problem_id": "p04",
+   "label": "incorrect",
+   "alt": {},
+   "note": "sign dropped",
+   "response_ascii": "'Answer: 7'",
+   "grade_py": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:1dfa47e6d50f56b8",
+   "family": "number",
+   "problem_id": "p05",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "plus sign is not part of the number",
+   "response_ascii": "'Answer: +72'",
+   "grade_py": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:973d7c24914cc93c",
+   "family": "number",
+   "problem_id": "p05",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "sentence period after the number",
+   "response_ascii": "'Answer: 72.'",
+   "grade_py": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:434f3a57cffa057e",
+   "family": "number",
+   "problem_id": "p05",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit after the number",
+   "response_ascii": "'Answer: 72 km/h'",
+   "grade_py": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:edb8b1ffdc7d01ce",
+   "family": "number",
+   "problem_id": "p05",
+   "label": "correct",
+   "alt": {},
+   "note": "decimal zero",
+   "response_ascii": "'Answer: 72.0'",
+   "grade_py": {
+    "extracted": "72.0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "72.0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "72.0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:87e17a1a4ef3f1ee",
+   "family": "number",
+   "problem_id": "p05",
+   "label": "correct",
+   "alt": {},
+   "note": "leading zero",
+   "response_ascii": "'Answer: 072'",
+   "grade_py": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "72",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "072",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:0e7d92f33bea1048",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {},
+   "note": "thousands separator",
+   "response_ascii": "'Answer: 15,000'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:7602c52643ab4fff",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {},
+   "note": "control: plain digits",
+   "response_ascii": "'Answer: 15000'",
+   "grade_py": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:a06dab316200a8be",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "currency symbol before the number",
+   "response_ascii": "'Answer: $15,000'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:85c39589f1633e65",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word after the number",
+   "response_ascii": "'Answer: 15,000 dollars'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15000",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:da2b2f471d903579",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {},
+   "note": "separator and decimal part",
+   "response_ascii": "'Answer: 15,000.00'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000.00",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000.00",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:c9a8b4262725474c",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "no exponent in the grammar: 1.5",
+   "response_ascii": "'Answer: 1.5e4'",
+   "grade_py": {
+    "extracted": "1.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "1.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:9f96940c25fcd120",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "no exponent in the grammar: 1.5",
+   "response_ascii": "'Answer: 1.5E4'",
+   "grade_py": {
+    "extracted": "1.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "1.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:ee0b585e063fed97",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "no exponent in the grammar: 15",
+   "response_ascii": "'Answer: 15e3'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:68a68bd1cfa89b8b",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "suffix k: 15",
+   "response_ascii": "'Answer: 15k'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:a26fcbfa07f386cd",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {},
+   "note": "point is a decimal point: 15",
+   "response_ascii": "'Answer: 15.000'",
+   "grade_py": {
+    "extracted": "15.000",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15.000",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15.000",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:522844f5070e8823",
+   "family": "number",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "space is not a separator: 15",
+   "response_ascii": "'Answer: 15 000'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:d988f94fb693fa4a",
+   "family": "number",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {},
+   "note": "comma is not a decimal point: 35 (or 3 under D-comma-grouping b)",
+   "response_ascii": "'Answer: 3,5'",
+   "grade_py": {
+    "extracted": "3",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "35",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "35",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:5a9707d40888091b",
+   "family": "number",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {},
+   "note": "trailing zero",
+   "response_ascii": "'Answer: 3.50'",
+   "grade_py": {
+    "extracted": "3.50",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.50",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.50",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:954426fb5bfb849e",
+   "family": "number",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "currency symbol",
+   "response_ascii": "'Answer: $3.50'",
+   "grade_py": {
+    "extracted": "3.50",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "3.50",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:14abb35b5eb94ed0",
+   "family": "number",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word",
+   "response_ascii": "'Answer: 3.5 dollars'",
+   "grade_py": {
+    "extracted": "3.5",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "3.5",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:2b621818cf2ed981",
+   "family": "number",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "sentence period after a decimal",
+   "response_ascii": "'Answer: 3.5.'",
+   "grade_py": {
+    "extracted": "3.5",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "3.5",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:04d4707df9d9c010",
+   "family": "number",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "no digit before the point: 5",
+   "response_ascii": "'Answer: .5'",
+   "grade_py": {
+    "extracted": "5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:ac439f399c502cd7",
+   "family": "number",
+   "problem_id": "p09",
+   "label": "correct",
+   "alt": {},
+   "note": "trailing zero",
+   "response_ascii": "'Answer: 28.80'",
+   "grade_py": {
+    "extracted": "28.80",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "28.80",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "28.80",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:ab7d77e6bcef4518",
+   "family": "number",
+   "problem_id": "p09",
+   "label": "incorrect",
+   "alt": {},
+   "note": "decimal comma: 288 (or 28 under D-comma-grouping b)",
+   "response_ascii": "'Answer: 28,8'",
+   "grade_py": {
+    "extracted": "28",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "288",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "288",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:fc72a8f69a84cf81",
+   "family": "number",
+   "problem_id": "p06",
+   "label": "correct",
+   "alt": {},
+   "note": "control: zero",
+   "response_ascii": "'Answer: 0'",
+   "grade_py": {
+    "extracted": "0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:5c0f6ff4835e46d3",
+   "family": "number",
+   "problem_id": "p06",
+   "label": "correct",
+   "alt": {},
+   "note": "negative zero equals zero",
+   "response_ascii": "'Answer: -0'",
+   "grade_py": {
+    "extracted": "-0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "-0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "-0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:afd5086b80566645",
+   "family": "number",
+   "problem_id": "p06",
+   "label": "correct",
+   "alt": {},
+   "note": "decimal zero",
+   "response_ascii": "'Answer: 0.00'",
+   "grade_py": {
+    "extracted": "0.00",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0.00",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.00",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:ad66fbba3b92ed12",
+   "family": "number",
+   "problem_id": "p06",
+   "label": "no_answer",
+   "alt": {},
+   "note": "number word",
+   "response_ascii": "'Answer: zero'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:f61c98d3a66a23a5",
+   "family": "number",
+   "problem_id": "p12",
+   "label": "no_answer",
+   "alt": {},
+   "note": "number word",
+   "response_ascii": "'Answer: fifteen'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:96f8a8207b850d38",
+   "family": "number",
+   "problem_id": "p12",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "bold number",
+   "response_ascii": "'Answer: **15**'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:d5848c6866b9867a",
+   "family": "number",
+   "problem_id": "p12",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "LaTeX box",
+   "response_ascii": "'Answer: $\\\\boxed{15}$'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:c19bdc561e23a994",
+   "family": "number",
+   "problem_id": "p12",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word",
+   "response_ascii": "'Answer: 15 eggs'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:502b35aefd4d3ec3",
+   "family": "number",
+   "problem_id": "p10",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word",
+   "response_ascii": "'Answer: 13 days'",
+   "grade_py": {
+    "extracted": "13",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "13",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:c979d1df58ca2d28",
+   "family": "number",
+   "problem_id": "p10",
+   "label": "correct",
+   "alt": {},
+   "note": "decimal zero",
+   "response_ascii": "'Answer: 13.0'",
+   "grade_py": {
+    "extracted": "13.0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "13.0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "13.0",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:b4c49f745c1a4991",
+   "family": "number",
+   "problem_id": "p08",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "superscript two is not a digit",
+   "response_ascii": "'Answer: 120 cm\\xb2'",
+   "grade_py": {
+    "extracted": "120",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "120",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:2c453ea6b027226a",
+   "family": "number",
+   "problem_id": "p11",
+   "label": "correct",
+   "alt": {},
+   "note": "control",
+   "response_ascii": "'Answer: 756'",
+   "grade_py": {
+    "extracted": "756",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "756",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "756",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:fe5fab5ed8839391",
+   "family": "number",
+   "problem_id": "p03",
+   "label": "correct",
+   "alt": {},
+   "note": "thousands separator",
+   "response_ascii": "'Answer: 2,250'",
+   "grade_py": {
+    "extracted": "2",
+    "verdict": "incorrect",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:bd8b2987e6072a1a",
+   "family": "number",
+   "problem_id": "p03",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word",
+   "response_ascii": "'Answer: 2250 liters'",
+   "grade_py": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:a94511b656647b3f",
+   "family": "number",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "wrong magnitude",
+   "response_ascii": "'Answer: 4860'",
+   "grade_py": {
+    "extracted": "4860",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "4860",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "4860",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:36b444d072151fdc",
+   "family": "number",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "wrong magnitude",
+   "response_ascii": "'Answer: 48.6'",
+   "grade_py": {
+    "extracted": "48.6",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "48.6",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "48.6",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:c8afa9cabb495651",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {},
+   "note": "inside the tolerance",
+   "response_ascii": "'Answer: 3.505'",
+   "grade_py": {
+    "extracted": "3.505",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.505",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.505",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:16617bfbc271b36f",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {},
+   "note": "outside the tolerance",
+   "response_ascii": "'Answer: 3.52'",
+   "grade_py": {
+    "extracted": "3.52",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.52",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.52",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:89c9e1b58ec04932",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {},
+   "note": "outside the tolerance",
+   "response_ascii": "'Answer: 3.48'",
+   "grade_py": {
+    "extracted": "3.48",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.48",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.48",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:5fd80e0c2a892e17",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {},
+   "note": "outside by 1e-17: exact arithmetic",
+   "response_ascii": "'Answer: 3.51000000000000001'",
+   "grade_py": {
+    "extracted": "3.51000000000000001",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.51000000000000001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.51000000000000001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:d6f0c4e71ba992fb",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {},
+   "note": "inside by 1e-16: exact arithmetic",
+   "response_ascii": "'Answer: 3.4900000000000001'",
+   "grade_py": {
+    "extracted": "3.4900000000000001",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.4900000000000001",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.4900000000000001",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:5ddaff880789fa44",
+   "family": "compare",
+   "problem_id": "p06",
+   "label": "incorrect",
+   "alt": {},
+   "note": "outside the tolerance",
+   "response_ascii": "'Answer: 0.011'",
+   "grade_py": {
+    "extracted": "0.011",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0.011",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.011",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:fcbae4b115f9ea01",
+   "family": "compare",
+   "problem_id": "p06",
+   "label": "correct",
+   "alt": {},
+   "note": "inside the tolerance",
+   "response_ascii": "'Answer: 0.009'",
+   "grade_py": {
+    "extracted": "0.009",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0.009",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.009",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:fab1ab8e127e11c7",
+   "family": "compare",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {},
+   "note": "inside the tolerance",
+   "response_ascii": "'Answer: 15000.005'",
+   "grade_py": {
+    "extracted": "15000.005",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000.005",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000.005",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:c460abf743cbf65c",
+   "family": "compare",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {},
+   "note": "outside the tolerance",
+   "response_ascii": "'Answer: 15000.02'",
+   "grade_py": {
+    "extracted": "15000.02",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000.02",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000.02",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:8cf3343702094854",
+   "family": "compare",
+   "problem_id": "p09",
+   "label": "correct",
+   "alt": {},
+   "note": "inside the tolerance",
+   "response_ascii": "'Answer: 28.805'",
+   "grade_py": {
+    "extracted": "28.805",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "28.805",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "28.805",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:ca8df0fc1fb476cf",
+   "family": "decision",
+   "problem_id": "p12",
+   "label": "correct",
+   "alt": {
+    "D-multiple-numbers": "incorrect",
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "first 15, last 5",
+   "response_ascii": "'Answer: 15 (3 x 5)'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:fb8304b36afb3390",
+   "family": "decision",
+   "problem_id": "p03",
+   "label": "incorrect",
+   "alt": {
+    "D-multiple-numbers": "correct",
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "first 2500, last 2250",
+   "response_ascii": "'Answer: 2500 - 700 + 450 = 2250'",
+   "grade_py": {
+    "extracted": "2500",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "2500",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:c93ff296657d93c5",
+   "family": "decision",
+   "problem_id": "p11",
+   "label": "incorrect",
+   "alt": {
+    "D-multiple-numbers": "correct",
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "first 7, last 756",
+   "response_ascii": "'Answer: 7 x 12 x 9 = 756'",
+   "grade_py": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "7",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:b9cf639e001f4b71",
+   "family": "decision",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {
+    "D-multiple-numbers": "incorrect",
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "first 3.5, last 20",
+   "response_ascii": "'Answer: 3.5 (change from a $20 bill)'",
+   "grade_py": {
+    "extracted": "3.5",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "3.5",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:a706c37343283b45",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {
+    "D-multiple-numbers": "incorrect",
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "second label in the same line",
+   "response_ascii": "'Answer: 486 Answer: 480'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:d174c93633b1230d",
+   "family": "decision",
+   "problem_id": "p12",
+   "label": "correct",
+   "alt": {
+    "D-comma-grouping": "incorrect"
+   },
+   "note": "15, or 1 if only groups of three count",
+   "response_ascii": "'Answer: 1,5'",
+   "grade_py": {
+    "extracted": "1",
+    "verdict": "incorrect",
+    "class": "decision",
+    "entries": [
+     "D-comma-grouping"
+    ]
+   },
+   "reference": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:9b433c6d4f7c0929",
+   "family": "decision",
+   "problem_id": "p03",
+   "label": "correct",
+   "alt": {
+    "D-comma-grouping": "incorrect"
+   },
+   "note": "2250, or 22",
+   "response_ascii": "'Answer: 22,50'",
+   "grade_py": {
+    "extracted": "22",
+    "verdict": "incorrect",
+    "class": "decision",
+    "entries": [
+     "D-comma-grouping"
+    ]
+   },
+   "reference": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:de48efe47615d3ea",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {
+    "D-digits": "correct"
+   },
+   "note": "fullwidth digits",
+   "response_ascii": "'Answer: \\uff14\\uff18\\uff16'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "decision",
+    "entries": [
+     "D-digits"
+    ]
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "decision",
+    "entries": [
+     "D-digits"
+    ]
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:b52195406e23061b",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {
+    "D-digits": "correct"
+   },
+   "note": "Arabic-Indic digits",
+   "response_ascii": "'Answer: \\u0664\\u0668\\u0666'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "decision",
+    "entries": [
+     "D-digits"
+    ]
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "decision",
+    "entries": [
+     "D-digits"
+    ]
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:5457236f1c40753b",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {
+    "D-leading-whitespace": "no_answer"
+   },
+   "note": "no-break space before the label",
+   "response_ascii": "'\\xa0Answer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:8853c5f3235d230d",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {
+    "D-leading-whitespace": "no_answer"
+   },
+   "note": "ideographic space before the label",
+   "response_ascii": "'\\u3000Answer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:3f1742c37d8b7c32",
+   "family": "decision",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: 3.51'",
+   "grade_py": {
+    "extracted": "3.51",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.51",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.51",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:dff1c91cdcba6e85",
+   "family": "decision",
+   "problem_id": "p01",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: 3.49'",
+   "grade_py": {
+    "extracted": "3.49",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.49",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.49",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:a1e325893b74641d",
+   "family": "decision",
+   "problem_id": "p06",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: 0.01'",
+   "grade_py": {
+    "extracted": "0.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:af353724d47e0dbf",
+   "family": "decision",
+   "problem_id": "p04",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: -6.99'",
+   "grade_py": {
+    "extracted": "-6.99",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "-6.99",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "-6.99",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:d032b482a57fcce0",
+   "family": "decision",
+   "problem_id": "p04",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: -7.01'",
+   "grade_py": {
+    "extracted": "-7.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "-7.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "-7.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:6b274d1cfcad5aa2",
+   "family": "decision",
+   "problem_id": "p09",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: 28.81'",
+   "grade_py": {
+    "extracted": "28.81",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "28.81",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "28.81",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:8f43a14b51043cab",
+   "family": "decision",
+   "problem_id": "p09",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: 28.79'",
+   "grade_py": {
+    "extracted": "28.79",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "28.79",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "28.79",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:92c8efa67dece525",
+   "family": "decision",
+   "problem_id": "p07",
+   "label": "correct",
+   "alt": {
+    "D-tolerance-boundary": "incorrect"
+   },
+   "note": "distance exactly 0.01",
+   "response_ascii": "'Answer: 15000.01'",
+   "grade_py": {
+    "extracted": "15000.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000.01",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:4d991b2b2d212577",
+   "family": "free",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "empty response",
+   "response_ascii": "''",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:bf7d5fea24b1cd26",
+   "family": "free",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "whitespace only",
+   "response_ascii": "'   \\n\\n  \\t'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:96e801184074811e",
+   "family": "free",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "restated prompt: its answer line has no number",
+   "response_ascii": "'Solve the problem below. Show your reasoning, then end your response with a final line of the form\\n\\nAnswer: <number>\\",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:eb9a5cd333614d8f",
+   "family": "free",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "restated answer template",
+   "response_ascii": "'Answer: <number>'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:0ce088506175ad15",
+   "family": "free",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {},
+   "note": "repeated word",
+   "response_ascii": "'the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:d2683619a19b6bff",
+   "family": "free",
+   "problem_id": "p05",
+   "label": "incorrect",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "every reference answer on one line: first 3.5, last 15, neither is 72",
+   "response_ascii": "'Answer: 3.5 486 2250 -7 72 0 15000 120 28.8 13 756 15'",
+   "grade_py": {
+    "extracted": "3.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "3.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:e6f5db7c6c7adcda",
+   "family": "free",
+   "problem_id": "p05",
+   "label": "incorrect",
+   "alt": {},
+   "note": "three answer lines, last is 486",
+   "response_ascii": "'Answer: 3.5\\nAnswer: 72\\nAnswer: 486'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:1df82e5f777cebfa",
+   "family": "free",
+   "problem_id": "p05",
+   "label": "incorrect",
+   "alt": {},
+   "note": "right number only in the reasoning",
+   "response_ascii": "'The speed is 72 km/h.\\nAnswer: 70'",
+   "grade_py": {
+    "extracted": "70",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "70",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "70",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:301859a7c74fdb79",
+   "family": "free",
+   "problem_id": "p05",
+   "label": "no_answer",
+   "alt": {},
+   "note": "right number but no answer line",
+   "response_ascii": "'The speed is 72 km/h.'",
+   "grade_py": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "free:17d9742f116e82ea",
+   "family": "free",
+   "problem_id": "p05",
+   "label": "incorrect",
+   "alt": {
+    "D-multiple-numbers": "correct",
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "number list: first 0, last 72 (correct only under D-multiple-numbers b)",
+   "response_ascii": "'Answer: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 72'",
+   "grade_py": {
+    "extracted": "0",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "0",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "robust:f15181ef32eed702",
+   "family": "robust",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "5,000-digit number",
+   "response_ascii": "'Answer: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+   "grade_py": {
+    "extracted": "9999999999999999999999999999999999999999",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "9999999999999999999999999999999999999999",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "9999999999999999999999999999999999999999",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "robust:3f1d7db58390866a",
+   "family": "robust",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "5,000 zeros after the point",
+   "response_ascii": "'Answer: 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "grade_py": {
+    "extracted": "1E-5001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "1E-5001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.00000000000000000000000000000000000000",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "robust:0f305b4a303241cd",
+   "family": "robust",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "20,000 trailing newlines",
+   "response_ascii": "'Answer: 486\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "robust:2521edd52fdc50ec",
+   "family": "robust",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {},
+   "note": "200,000-character line",
+   "response_ascii": "'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "robust:0802255f3e5fe9cb",
+   "family": "robust",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "NUL after the number",
+   "response_ascii": "'Answer: 486\\x00'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:6dad715a6cc98cca",
+   "family": "compare",
+   "problem_id": "p02",
+   "label": "incorrect",
+   "alt": {},
+   "note": "arithmetic slip of 4",
+   "response_ascii": "'Answer: 482'",
+   "grade_py": {
+    "extracted": "482",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "482",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "482",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:9ab39be07a289612",
+   "family": "compare",
+   "problem_id": "p03",
+   "label": "incorrect",
+   "alt": {},
+   "note": "slip of 10",
+   "response_ascii": "'Answer: 2240'",
+   "grade_py": {
+    "extracted": "2240",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "2240",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "2240",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:3e55c254c7ab471d",
+   "family": "compare",
+   "problem_id": "p11",
+   "label": "incorrect",
+   "alt": {},
+   "note": "slip of 2",
+   "response_ascii": "'Answer: 754'",
+   "grade_py": {
+    "extracted": "754",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "754",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "754",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:310aaa08a7b1e75f",
+   "family": "compare",
+   "problem_id": "p09",
+   "label": "incorrect",
+   "alt": {},
+   "note": "rounded to whole dollars",
+   "response_ascii": "'Answer: 29'",
+   "grade_py": {
+    "extracted": "29",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "29",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "29",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:82da74c0f140fa65",
+   "family": "compare",
+   "problem_id": "p07",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 100",
+   "response_ascii": "'Answer: 14900'",
+   "grade_py": {
+    "extracted": "14900",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "14900",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "14900",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:4fe7d5cc032be73c",
+   "family": "compare",
+   "problem_id": "p08",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 1",
+   "response_ascii": "'Answer: 121'",
+   "grade_py": {
+    "extracted": "121",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "121",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "121",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:529d4c571da22d82",
+   "family": "compare",
+   "problem_id": "p04",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 0.05",
+   "response_ascii": "'Answer: -7.05'",
+   "grade_py": {
+    "extracted": "-7.05",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "-7.05",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "-7.05",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:a7aad36b94926e93",
+   "family": "compare",
+   "problem_id": "p05",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 0.5",
+   "response_ascii": "'Answer: 72.5'",
+   "grade_py": {
+    "extracted": "72.5",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "72.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "72.5",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:79658af280b39c18",
+   "family": "compare",
+   "problem_id": "p10",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 0.1",
+   "response_ascii": "'Answer: 13.1'",
+   "grade_py": {
+    "extracted": "13.1",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "13.1",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "13.1",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:11063b6232742a39",
+   "family": "compare",
+   "problem_id": "p12",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 0.1",
+   "response_ascii": "'Answer: 15.1'",
+   "grade_py": {
+    "extracted": "15.1",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15.1",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15.1",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:c378f72df93df5de",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {},
+   "note": "off by 0.03",
+   "response_ascii": "'Answer: 3.53'",
+   "grade_py": {
+    "extracted": "3.53",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.53",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.53",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:8001e423a0f0f867",
+   "family": "compare",
+   "problem_id": "p06",
+   "label": "incorrect",
+   "alt": {},
+   "note": "exceeds 0.01 by 1e-30",
+   "response_ascii": "'Answer: 0.010000000000000000000000000001'",
+   "grade_py": {
+    "extracted": "0.010000000000000000000000000001",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0.010000000000000000000000000001",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.010000000000000000000000000001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:03787696fdc3c2da",
+   "family": "compare",
+   "problem_id": "p01",
+   "label": "incorrect",
+   "alt": {},
+   "note": "exceeds 0.01 by 1e-30",
+   "response_ascii": "'Answer: 3.489999999999999999999999999999'",
+   "grade_py": {
+    "extracted": "3.489999999999999999999999999999",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "3.489999999999999999999999999999",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "3.489999999999999999999999999999",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "compare:ccab9b1f399ae6dd",
+   "family": "compare",
+   "problem_id": "p06",
+   "label": "incorrect",
+   "alt": {},
+   "note": "control: exceeds by 1e-28",
+   "response_ascii": "'Answer: 0.0100000000000000000000000001'",
+   "grade_py": {
+    "extracted": "0.0100000000000000000000000001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "0.0100000000000000000000000001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "0.0100000000000000000000000001",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:71c714f04005fff5",
+   "family": "number",
+   "problem_id": "p12",
+   "label": "incorrect",
+   "alt": {},
+   "note": "15000, not 15",
+   "response_ascii": "'Answer: 15,000'",
+   "grade_py": {
+    "extracted": "15",
+    "verdict": "correct",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": "15000",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   },
+   "replacement": {
+    "extracted": "15000",
+    "verdict": "incorrect",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "number:ee919c5d8900a606",
+   "family": "number",
+   "problem_id": "p03",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "separator and sentence period",
+   "response_ascii": "'Answer: 2,250.'",
+   "grade_py": {
+    "extracted": "2",
+    "verdict": "incorrect",
+    "class": "finding",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "2250",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:cba2cbe410593e89",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word after the number",
+   "response_ascii": "'Answer: 486 students'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:74a11837097104f4",
+   "family": "decision",
+   "problem_id": "p09",
+   "label": "correct",
+   "alt": {
+    "D-answer-line-form": "no_answer"
+   },
+   "note": "unit word after the number",
+   "response_ascii": "'Answer: 28.80 dollars'",
+   "grade_py": {
+    "extracted": "28.80",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   },
+   "reference": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "decision",
+    "entries": [
+     "D-answer-line-form"
+    ]
+   },
+   "replacement": {
+    "extracted": "28.80",
+    "verdict": "correct",
+    "class": "pass",
+    "entries": []
+   }
+  },
+  {
+   "id": "decision:866c80c5727310f0",
+   "family": "decision",
+   "problem_id": "p02",
+   "label": "no_answer",
+   "alt": {
+    "D-digits": "correct"
+   },
+   "note": "Kawi digits; (b) gives correct on Python 3.12 only",
+   "response_ascii": "'Answer: \\U00011f54\\U00011f58\\U00011f56'",
+   "grade_py": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "decision",
+    "entries": [
+     "D-digits"
+    ]
+   },
+   "reference": {
+    "extracted": "486",
+    "verdict": "correct",
+    "class": "decision",
+    "entries": [
+     "D-digits"
+    ]
+   },
+   "replacement": {
+    "extracted": null,
+    "verdict": "no_answer",
+    "class": "pass",
+    "entries": []
+   }
+  }
+ ]
+}

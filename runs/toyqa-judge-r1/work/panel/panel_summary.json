@@ -1,0 +1,440 @@
+{
+ "scores": {
+  "grader": {
+   "orca-7b": {
+    "accuracy": 83.3,
+    "cga": 83.3,
+    "f_score": 83.3,
+    "not_attempted_rate": 0.0,
+    "correct": 10,
+    "incorrect": 2,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "puffin-13b": {
+    "accuracy": 50.0,
+    "cga": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 25.0,
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 3,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "heron-32b-think": {
+    "accuracy": 83.3,
+    "cga": 90.9,
+    "f_score": 87.0,
+    "not_attempted_rate": 8.3,
+    "correct": 10,
+    "incorrect": 1,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "ibis-8b-think": {
+    "accuracy": 58.3,
+    "cga": 100.0,
+    "f_score": 73.7,
+    "not_attempted_rate": 41.7,
+    "correct": 7,
+    "incorrect": 0,
+    "not_attempted": 5,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   }
+  },
+  "fix_F1": {
+   "orca-7b": {
+    "accuracy": 83.3,
+    "cga": 83.3,
+    "f_score": 83.3,
+    "not_attempted_rate": 0.0,
+    "correct": 10,
+    "incorrect": 2,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "puffin-13b": {
+    "accuracy": 50.0,
+    "cga": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 25.0,
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 3,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "heron-32b-think": {
+    "accuracy": 83.3,
+    "cga": 90.9,
+    "f_score": 87.0,
+    "not_attempted_rate": 8.3,
+    "correct": 10,
+    "incorrect": 1,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "ibis-8b-think": {
+    "accuracy": 58.3,
+    "cga": 100.0,
+    "f_score": 73.7,
+    "not_attempted_rate": 16.7,
+    "correct": 7,
+    "incorrect": 0,
+    "not_attempted": 2,
+    "extraction_failure": 3,
+    "judge_error": 0,
+    "uncovered": 0
+   }
+  },
+  "fix_F2_F3": {
+   "orca-7b": {
+    "accuracy": 83.3,
+    "cga": 83.3,
+    "f_score": 83.3,
+    "not_attempted_rate": 0.0,
+    "correct": 10,
+    "incorrect": 2,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "puffin-13b": {
+    "accuracy": 50.0,
+    "cga": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 25.0,
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 3,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "heron-32b-think": {
+    "accuracy": 83.3,
+    "cga": 90.9,
+    "f_score": 87.0,
+    "not_attempted_rate": 8.3,
+    "correct": 10,
+    "incorrect": 1,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "ibis-8b-think": {
+    "accuracy": 58.3,
+    "cga": 100.0,
+    "f_score": 73.7,
+    "not_attempted_rate": 41.7,
+    "correct": 7,
+    "incorrect": 0,
+    "not_attempted": 5,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   }
+  },
+  "fix_F4": {
+   "orca-7b": {
+    "accuracy": 75.0,
+    "cga": 75.0,
+    "f_score": 75.0,
+    "not_attempted_rate": 0.0,
+    "correct": 9,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "puffin-13b": {
+    "accuracy": 66.7,
+    "cga": 80.0,
+    "f_score": 72.7,
+    "not_attempted_rate": 16.7,
+    "correct": 8,
+    "incorrect": 2,
+    "not_attempted": 2,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "heron-32b-think": {
+    "accuracy": 91.7,
+    "cga": 100.0,
+    "f_score": 95.7,
+    "not_attempted_rate": 8.3,
+    "correct": 11,
+    "incorrect": 0,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "ibis-8b-think": {
+    "accuracy": 50.0,
+    "cga": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 25.0,
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 3,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   }
+  },
+  "all_fixed": {
+   "orca-7b": {
+    "accuracy": 75.0,
+    "cga": 75.0,
+    "f_score": 75.0,
+    "not_attempted_rate": 0.0,
+    "correct": 9,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "puffin-13b": {
+    "accuracy": 66.7,
+    "cga": 80.0,
+    "f_score": 72.7,
+    "not_attempted_rate": 16.7,
+    "correct": 8,
+    "incorrect": 2,
+    "not_attempted": 2,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "heron-32b-think": {
+    "accuracy": 91.7,
+    "cga": 100.0,
+    "f_score": 95.7,
+    "not_attempted_rate": 8.3,
+    "correct": 11,
+    "incorrect": 0,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "uncovered": 0
+   },
+   "ibis-8b-think": {
+    "accuracy": 50.0,
+    "cga": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 0.0,
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 3,
+    "judge_error": 0,
+    "uncovered": 0
+   }
+  }
+ },
+ "scores_call2_first_all_fixed": {
+  "orca-7b": {
+   "accuracy": 75.0,
+   "cga": 75.0,
+   "f_score": 75.0,
+   "not_attempted_rate": 0.0,
+   "correct": 9,
+   "incorrect": 3,
+   "not_attempted": 0,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  },
+  "puffin-13b": {
+   "accuracy": 75.0,
+   "cga": 90.0,
+   "f_score": 81.8,
+   "not_attempted_rate": 16.7,
+   "correct": 9,
+   "incorrect": 1,
+   "not_attempted": 2,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  },
+  "heron-32b-think": {
+   "accuracy": 91.7,
+   "cga": 100.0,
+   "f_score": 95.7,
+   "not_attempted_rate": 8.3,
+   "correct": 11,
+   "incorrect": 0,
+   "not_attempted": 1,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  },
+  "ibis-8b-think": {
+   "accuracy": 50.0,
+   "cga": 66.7,
+   "f_score": 57.1,
+   "not_attempted_rate": 0.0,
+   "correct": 6,
+   "incorrect": 3,
+   "not_attempted": 0,
+   "extraction_failure": 3,
+   "judge_error": 0,
+   "uncovered": 0
+  }
+ },
+ "scores_call2_first_grader": {
+  "orca-7b": {
+   "accuracy": 75.0,
+   "cga": 75.0,
+   "f_score": 75.0,
+   "not_attempted_rate": 0.0,
+   "correct": 9,
+   "incorrect": 3,
+   "not_attempted": 0,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  },
+  "puffin-13b": {
+   "accuracy": 75.0,
+   "cga": 90.0,
+   "f_score": 81.8,
+   "not_attempted_rate": 16.7,
+   "correct": 9,
+   "incorrect": 1,
+   "not_attempted": 2,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  },
+  "heron-32b-think": {
+   "accuracy": 91.7,
+   "cga": 100.0,
+   "f_score": 95.7,
+   "not_attempted_rate": 8.3,
+   "correct": 11,
+   "incorrect": 0,
+   "not_attempted": 1,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  },
+  "ibis-8b-think": {
+   "accuracy": 50.0,
+   "cga": 66.7,
+   "f_score": 57.1,
+   "not_attempted_rate": 25.0,
+   "correct": 6,
+   "incorrect": 3,
+   "not_attempted": 3,
+   "extraction_failure": 0,
+   "judge_error": 0,
+   "uncovered": 0
+  }
+ },
+ "disagreements": [
+  [
+   "a08",
+   "ibis-8b-think",
+   "q02",
+   "not_attempted",
+   "extraction_failure"
+  ],
+  [
+   "a09",
+   "orca-7b",
+   "q03",
+   "correct",
+   "incorrect"
+  ],
+  [
+   "a16",
+   "ibis-8b-think",
+   "q04",
+   "not_attempted",
+   "incorrect"
+  ],
+  [
+   "a20",
+   "ibis-8b-think",
+   "q05",
+   "not_attempted",
+   "extraction_failure"
+  ],
+  [
+   "a22",
+   "puffin-13b",
+   "q06",
+   "not_attempted",
+   "correct"
+  ],
+  [
+   "a24",
+   "ibis-8b-think",
+   "q06",
+   "correct",
+   "incorrect"
+  ],
+  [
+   "a32",
+   "ibis-8b-think",
+   "q08",
+   "not_attempted",
+   "incorrect"
+  ],
+  [
+   "a34",
+   "puffin-13b",
+   "q09",
+   "incorrect",
+   "correct"
+  ],
+  [
+   "a35",
+   "heron-32b-think",
+   "q09",
+   "incorrect",
+   "correct"
+  ],
+  [
+   "a40",
+   "ibis-8b-think",
+   "q10",
+   "not_attempted",
+   "extraction_failure"
+  ]
+ ],
+ "judge_repeat": {
+  "judged_rows": 45,
+  "distinct_prompts": 34,
+  "flip_rows": [
+   [
+    "a06",
+    "B",
+    "A"
+   ]
+  ],
+  "flip_prompts": 1,
+  "call1_no_grade_prompts": 1
+ },
+ "reference_vs_replacement_label_differences": 0
+}

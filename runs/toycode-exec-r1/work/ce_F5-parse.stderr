@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<run directory>\case\grade.py", line 133, in <module>
+    main()
+  File "<run directory>\case\grade.py", line 113, in main
+    passed, detail = grade_response(tasks[r["task_id"]], all_tests[r["task_id"]], r["response"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<run directory>\case\grade.py", line 90, in grade_response
+    reason = check_imports(code)
+             ^^^^^^^^^^^^^^^^^^^
+  File "<run directory>\case\grade.py", line 41, in check_imports
+    tree = ast.parse(code)
+           ^^^^^^^^^^^^^^^
+  File "<python>\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError: Parser stack overflowed - Python source too complex to parse

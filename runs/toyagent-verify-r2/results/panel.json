@@ -1,0 +1,1334 @@
+{
+ "summary": {
+  "trials": 36,
+  "rerun_matches_stored": 36,
+  "stored_null_exit": 0,
+  "agent_status": {
+   "completed": 31,
+   "timeout": 3,
+   "error": 2
+  },
+  "answer_location": {
+   "out/answer.txt": 30,
+   "answer.txt only (wrong path)": 3,
+   "no answer file": 3
+  },
+  "answer_contents": {
+   "out/answer.txt='41\\n'": 14,
+   "out/answer.txt='37\\n'": 6,
+   "out/answer.txt='40\\n'": 2,
+   "answer.txt='41\\n'": 2,
+   "out/answer.txt='45\\n'": 2,
+   "out/answer.txt='41'": 1,
+   "out/answer.txt='41 server errors\\n'": 1,
+   "out/answer.txt='Total 5xx: 41\\n'": 1,
+   "answer.txt='37\\n'": 1,
+   "out/answer.txt=''": 1,
+   "out/answer.txt='36\\n'": 1,
+   "out/answer.txt='0\\n'": 1
+  },
+  "grader_passes": 20,
+  "replacement_passes": 15,
+  "disagreements": [
+   "t12",
+   "t14",
+   "t21",
+   "t29",
+   "t35"
+  ],
+  "scored_coverage": {
+   "stored": "36/36",
+   "rerun": "36/36",
+   "replacement": "36/36"
+  },
+  "readings_that_change_any_verdict": [
+   "all alternatives",
+   "alt D-surrounding-text"
+  ]
+ },
+ "per_config": {
+  "agentx+falcon-70b": {
+   "trials": 9,
+   "stored": {
+    "trials": 9,
+    "passed": 7,
+    "score": 77.8
+   },
+   "rerun": {
+    "trials": 9,
+    "passed": 7,
+    "score": 77.8
+   },
+   "replacement": {
+    "proposed": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "alt D-whitespace": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "alt D-leading-zeros": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "alt D-plus-sign": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "alt D-digits": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "alt D-surrounding-text": {
+     "trials": 9,
+     "passed": 8,
+     "score": 88.9
+    },
+    "alt D-bom": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "alt D-symlink": {
+     "trials": 9,
+     "passed": 7,
+     "score": 77.8
+    },
+    "all alternatives": {
+     "trials": 9,
+     "passed": 8,
+     "score": 88.9
+    }
+   },
+   "stored_wilson95": [
+    45.3,
+    93.7
+   ],
+   "replacement_wilson95": [
+    45.3,
+    93.7
+   ],
+   "change_points": 0.0,
+   "change_bootstrap95": [
+    0.0,
+    0.0
+   ],
+   "grader_pass_replacement_fail": [],
+   "grader_fail_replacement_pass": []
+  },
+  "agentx+kestrel-8b": {
+   "trials": 9,
+   "stored": {
+    "trials": 9,
+    "passed": 3,
+    "score": 33.3
+   },
+   "rerun": {
+    "trials": 9,
+    "passed": 3,
+    "score": 33.3
+   },
+   "replacement": {
+    "proposed": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-whitespace": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-leading-zeros": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-plus-sign": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-digits": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-surrounding-text": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-bom": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "alt D-symlink": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    },
+    "all alternatives": {
+     "trials": 9,
+     "passed": 1,
+     "score": 11.1
+    }
+   },
+   "stored_wilson95": [
+    12.1,
+    64.6
+   ],
+   "replacement_wilson95": [
+    2.0,
+    43.5
+   ],
+   "change_points": -22.2,
+   "change_bootstrap95": [
+    -55.6,
+    0.0
+   ],
+   "grader_pass_replacement_fail": [
+    "t29",
+    "t35"
+   ],
+   "grader_fail_replacement_pass": []
+  },
+  "agentx+merlin-32b": {
+   "trials": 9,
+   "stored": {
+    "trials": 9,
+    "passed": 7,
+    "score": 77.8
+   },
+   "rerun": {
+    "trials": 9,
+    "passed": 7,
+    "score": 77.8
+   },
+   "replacement": {
+    "proposed": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "alt D-whitespace": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "alt D-leading-zeros": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "alt D-plus-sign": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "alt D-digits": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "alt D-surrounding-text": {
+     "trials": 9,
+     "passed": 6,
+     "score": 66.7
+    },
+    "alt D-bom": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "alt D-symlink": {
+     "trials": 9,
+     "passed": 5,
+     "score": 55.6
+    },
+    "all alternatives": {
+     "trials": 9,
+     "passed": 6,
+     "score": 66.7
+    }
+   },
+   "stored_wilson95": [
+    45.3,
+    93.7
+   ],
+   "replacement_wilson95": [
+    26.7,
+    81.1
+   ],
+   "change_points": -22.2,
+   "change_bootstrap95": [
+    -55.6,
+    0.0
+   ],
+   "grader_pass_replacement_fail": [
+    "t12",
+    "t14"
+   ],
+   "grader_fail_replacement_pass": []
+  },
+  "agentx+osprey-14b": {
+   "trials": 9,
+   "stored": {
+    "trials": 9,
+    "passed": 3,
+    "score": 33.3
+   },
+   "rerun": {
+    "trials": 9,
+    "passed": 3,
+    "score": 33.3
+   },
+   "replacement": {
+    "proposed": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-whitespace": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-leading-zeros": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-plus-sign": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-digits": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-surrounding-text": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-bom": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "alt D-symlink": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    },
+    "all alternatives": {
+     "trials": 9,
+     "passed": 2,
+     "score": 22.2
+    }
+   },
+   "stored_wilson95": [
+    12.1,
+    64.6
+   ],
+   "replacement_wilson95": [
+    6.3,
+    54.7
+   ],
+   "change_points": -11.1,
+   "change_bootstrap95": [
+    -33.3,
+    0.0
+   ],
+   "grader_pass_replacement_fail": [
+    "t21"
+   ],
+   "grader_fail_replacement_pass": []
+  }
+ },
+ "trials": [
+  {
+   "trial_id": "t01",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t02",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t03",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt",
+    "tmp/count.py"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t04",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t05",
+   "config": "agentx+falcon-70b",
+   "agent_status": "timeout",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t06",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t07",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt",
+    "out/count.sh"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 40",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 40",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t08",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t09",
+   "config": "agentx+falcon-70b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "rerun_exit": 1,
+   "rerun_output": "answer is not a decimal integer",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "not a decimal integer",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t10",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t11",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t12",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t13",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t14",
+   "config": "agentx+merlin-32b",
+   "agent_status": "error",
+   "files": [
+    "tmp/notes.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "no answer file",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t15",
+   "config": "agentx+merlin-32b",
+   "agent_status": "timeout",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t16",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t17",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "rerun_exit": 1,
+   "rerun_output": "answer is not a decimal integer",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "not a decimal integer",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t18",
+   "config": "agentx+merlin-32b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t19",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t20",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t21",
+   "config": "agentx+osprey-14b",
+   "agent_status": "error",
+   "files": [],
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "no answer file",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t22",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t23",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "no answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t24",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 45",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 45",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t25",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t26",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "rerun_exit": 1,
+   "rerun_output": "answer is not a decimal integer",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "empty answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t27",
+   "config": "agentx+osprey-14b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt",
+    "out/count.sh"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 40",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 40",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t28",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t29",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "timeout",
+   "files": [
+    "tmp/scratch.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "no answer file",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t30",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 36",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 36",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t31",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 45",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 45",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t32",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "pass",
+   "replacement_reason": "correct",
+   "replacement_by_reading": {
+    "proposed": "pass",
+    "alt D-whitespace": "pass",
+    "alt D-leading-zeros": "pass",
+    "alt D-plus-sign": "pass",
+    "alt D-digits": "pass",
+    "alt D-surrounding-text": "pass",
+    "alt D-bom": "pass",
+    "alt D-symlink": "pass",
+    "all alternatives": "pass"
+   }
+  },
+  {
+   "trial_id": "t33",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 0",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 0",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t34",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t35",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "answer.txt"
+   ],
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "rerun_matches_stored": true,
+   "grader": "pass",
+   "replacement": "fail",
+   "replacement_reason": "no answer file",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  },
+  {
+   "trial_id": "t36",
+   "config": "agentx+kestrel-8b",
+   "agent_status": "completed",
+   "files": [
+    "out/answer.txt"
+   ],
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "rerun_matches_stored": true,
+   "grader": "fail",
+   "replacement": "fail",
+   "replacement_reason": "wrong count",
+   "replacement_by_reading": {
+    "proposed": "fail",
+    "alt D-whitespace": "fail",
+    "alt D-leading-zeros": "fail",
+    "alt D-plus-sign": "fail",
+    "alt D-digits": "fail",
+    "alt D-surrounding-text": "fail",
+    "alt D-bom": "fail",
+    "alt D-symlink": "fail",
+    "all alternatives": "fail"
+   }
+  }
+ ]
+}

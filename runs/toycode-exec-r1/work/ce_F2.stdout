@@ -1,0 +1,4 @@
+model         passed  tasks   score
+finch-8b           1     10    10.0
+probe              1     10    10.0
+wren-34b           1     10    10.0

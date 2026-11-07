@@ -1,0 +1,595 @@
+test_C_data_0c8c06024c479ab1_grader (test_fixtures.CurrentBehaviour.test_C_data_0c8c06024c479ab1_grader)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... ok
+test_C_data_0c8c06024c479ab1_reference (test_fixtures.CurrentBehaviour.test_C_data_0c8c06024c479ab1_reference)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... ok
+test_C_data_3be875c9f4775013_grader (test_fixtures.CurrentBehaviour.test_C_data_3be875c9f4775013_grader)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... ok
+test_C_data_3be875c9f4775013_reference (test_fixtures.CurrentBehaviour.test_C_data_3be875c9f4775013_reference)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... ok
+test_C_exec_130ef5b1ad4c76ea_grader (test_fixtures.CurrentBehaviour.test_C_exec_130ef5b1ad4c76ea_grader)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_130ef5b1ad4c76ea_reference (test_fixtures.CurrentBehaviour.test_C_exec_130ef5b1ad4c76ea_reference)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_14a0daf1c993a9c1_grader (test_fixtures.CurrentBehaviour.test_C_exec_14a0daf1c993a9c1_grader)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_exec_14a0daf1c993a9c1_reference (test_fixtures.CurrentBehaviour.test_C_exec_14a0daf1c993a9c1_reference)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_exec_231fdf2ab79ec217_grader (test_fixtures.CurrentBehaviour.test_C_exec_231fdf2ab79ec217_grader)
+C-exec:231fdf2ab79ec217 [F6] replaces builtins.isinstance, so RuntimeError counts as ValueError ... ok
+test_C_exec_231fdf2ab79ec217_reference (test_fixtures.CurrentBehaviour.test_C_exec_231fdf2ab79ec217_reference)
+C-exec:231fdf2ab79ec217 [F6] replaces builtins.isinstance, so RuntimeError counts as ValueError ... ok
+test_C_exec_271f8967eb4adb41_grader (test_fixtures.CurrentBehaviour.test_C_exec_271f8967eb4adb41_grader)
+C-exec:271f8967eb4adb41 [F6] writes a result line to file descriptor 1, then ends the process at the first call ... ok
+test_C_exec_271f8967eb4adb41_reference (test_fixtures.CurrentBehaviour.test_C_exec_271f8967eb4adb41_reference)
+C-exec:271f8967eb4adb41 [F6] writes a result line to file descriptor 1, then ends the process at the first call ... ok
+test_C_exec_32e7b2bbd79a6a5f_grader (test_fixtures.CurrentBehaviour.test_C_exec_32e7b2bbd79a6a5f_grader)
+C-exec:32e7b2bbd79a6a5f [control] exit() while loading (D-load-error A) ... ok
+test_C_exec_32e7b2bbd79a6a5f_reference (test_fixtures.CurrentBehaviour.test_C_exec_32e7b2bbd79a6a5f_reference)
+C-exec:32e7b2bbd79a6a5f [control] exit() while loading (D-load-error A) ... ok
+test_C_exec_76f498e642e70c78_grader (test_fixtures.CurrentBehaviour.test_C_exec_76f498e642e70c78_grader)
+C-exec:76f498e642e70c78 [control] the call raises SystemExit ... ok
+test_C_exec_76f498e642e70c78_reference (test_fixtures.CurrentBehaviour.test_C_exec_76f498e642e70c78_reference)
+C-exec:76f498e642e70c78 [control] the call raises SystemExit ... ok
+test_C_exec_87f6b6fe5758ca95_grader (test_fixtures.CurrentBehaviour.test_C_exec_87f6b6fe5758ca95_grader)
+C-exec:87f6b6fe5758ca95 [F6] reads the hidden tests from job.json in the working directory ... ok
+test_C_exec_87f6b6fe5758ca95_reference (test_fixtures.CurrentBehaviour.test_C_exec_87f6b6fe5758ca95_reference)
+C-exec:87f6b6fe5758ca95 [F6] reads the hidden tests from job.json in the working directory ... ok
+test_C_exec_c4fda34213cd3b1b_grader (test_fixtures.CurrentBehaviour.test_C_exec_c4fda34213cd3b1b_grader)
+C-exec:c4fda34213cd3b1b [control] naive recursion reaches the 4 s limit ... ok
+test_C_exec_c4fda34213cd3b1b_reference (test_fixtures.CurrentBehaviour.test_C_exec_c4fda34213cd3b1b_reference)
+C-exec:c4fda34213cd3b1b [control] naive recursion reaches the 4 s limit ... ok
+test_C_exec_e104e133aa77110c_grader (test_fixtures.CurrentBehaviour.test_C_exec_e104e133aa77110c_grader)
+C-exec:e104e133aa77110c [control] prints at load and in the call ... ok
+test_C_exec_e104e133aa77110c_reference (test_fixtures.CurrentBehaviour.test_C_exec_e104e133aa77110c_reference)
+C-exec:e104e133aa77110c [control] prints at load and in the call ... ok
+test_C_exec_e82679f75f58a80c_grader (test_fixtures.CurrentBehaviour.test_C_exec_e82679f75f58a80c_grader)
+C-exec:e82679f75f58a80c [F5] writes a malformed result line, then ends the process ... ok
+test_C_exec_e82679f75f58a80c_reference (test_fixtures.CurrentBehaviour.test_C_exec_e82679f75f58a80c_reference)
+C-exec:e82679f75f58a80c [F5] writes a malformed result line, then ends the process ... ok
+test_C_exec_f1fcee2bf1cb7983_grader (test_fixtures.CurrentBehaviour.test_C_exec_f1fcee2bf1cb7983_grader)
+C-exec:f1fcee2bf1cb7983 [control] helpers and globals named like the runner's own ... ok
+test_C_exec_f1fcee2bf1cb7983_reference (test_fixtures.CurrentBehaviour.test_C_exec_f1fcee2bf1cb7983_reference)
+C-exec:f1fcee2bf1cb7983 [control] helpers and globals named like the runner's own ... ok
+test_C_extract_027006230ab42bc0_grader (test_fixtures.CurrentBehaviour.test_C_extract_027006230ab42bc0_grader)
+C-extract:027006230ab42bc0 [control] python-tagged block ... ok
+test_C_extract_027006230ab42bc0_reference (test_fixtures.CurrentBehaviour.test_C_extract_027006230ab42bc0_reference)
+C-extract:027006230ab42bc0 [control] python-tagged block ... ok
+test_C_extract_19c959cc6b154279_grader (test_fixtures.CurrentBehaviour.test_C_extract_19c959cc6b154279_grader)
+C-extract:19c959cc6b154279 [F3] tag python3 ... ok
+test_C_extract_19c959cc6b154279_reference (test_fixtures.CurrentBehaviour.test_C_extract_19c959cc6b154279_reference)
+C-extract:19c959cc6b154279 [F3] tag python3 ... ok
+test_C_extract_1ffed70fad86ccf1_grader (test_fixtures.CurrentBehaviour.test_C_extract_1ffed70fad86ccf1_grader)
+C-extract:1ffed70fad86ccf1 [control] unclosed fence: the whole response, backticks included, is the code ... ok
+test_C_extract_1ffed70fad86ccf1_reference (test_fixtures.CurrentBehaviour.test_C_extract_1ffed70fad86ccf1_reference)
+C-extract:1ffed70fad86ccf1 [control] unclosed fence: the whole response, backticks included, is the code ... ok
+test_C_extract_2362f1ec94c54e78_grader (test_fixtures.CurrentBehaviour.test_C_extract_2362f1ec94c54e78_grader)
+C-extract:2362f1ec94c54e78 [control] no fence: the whole response is the code ... ok
+test_C_extract_2362f1ec94c54e78_reference (test_fixtures.CurrentBehaviour.test_C_extract_2362f1ec94c54e78_reference)
+C-extract:2362f1ec94c54e78 [control] no fence: the whole response is the code ... ok
+test_C_extract_43d1eb35e11a7429_grader (test_fixtures.CurrentBehaviour.test_C_extract_43d1eb35e11a7429_grader)
+C-extract:43d1eb35e11a7429 [control] code indented inside the block is not dedented ... ok
+test_C_extract_43d1eb35e11a7429_reference (test_fixtures.CurrentBehaviour.test_C_extract_43d1eb35e11a7429_reference)
+C-extract:43d1eb35e11a7429 [control] code indented inside the block is not dedented ... ok
+test_C_extract_6dfb9851e03d6638_grader (test_fixtures.CurrentBehaviour.test_C_extract_6dfb9851e03d6638_grader)
+C-extract:6dfb9851e03d6638 [F3] a fence without a tag ... ok
+test_C_extract_6dfb9851e03d6638_reference (test_fixtures.CurrentBehaviour.test_C_extract_6dfb9851e03d6638_reference)
+C-extract:6dfb9851e03d6638 [F3] a fence without a tag ... ok
+test_C_extract_723aca95a5e46875_grader (test_fixtures.CurrentBehaviour.test_C_extract_723aca95a5e46875_grader)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... ok
+test_C_extract_723aca95a5e46875_reference (test_fixtures.CurrentBehaviour.test_C_extract_723aca95a5e46875_reference)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... ok
+test_C_extract_74d5208dcbf9d180_grader (test_fixtures.CurrentBehaviour.test_C_extract_74d5208dcbf9d180_grader)
+C-extract:74d5208dcbf9d180 [F3] the first block is the usage example; the grader skips it and grades the second block ... ok
+test_C_extract_74d5208dcbf9d180_reference (test_fixtures.CurrentBehaviour.test_C_extract_74d5208dcbf9d180_reference)
+C-extract:74d5208dcbf9d180 [F3] the first block is the usage example; the grader skips it and grades the second block ... ok
+test_C_extract_860313cd48773355_grader (test_fixtures.CurrentBehaviour.test_C_extract_860313cd48773355_grader)
+C-extract:860313cd48773355 [control] spaces and a tab after both fences ... ok
+test_C_extract_860313cd48773355_reference (test_fixtures.CurrentBehaviour.test_C_extract_860313cd48773355_reference)
+C-extract:860313cd48773355 [control] spaces and a tab after both fences ... ok
+test_C_extract_8f75b13008a96f36_grader (test_fixtures.CurrentBehaviour.test_C_extract_8f75b13008a96f36_grader)
+C-extract:8f75b13008a96f36 [control] four backticks are not a fence ... ok
+test_C_extract_8f75b13008a96f36_reference (test_fixtures.CurrentBehaviour.test_C_extract_8f75b13008a96f36_reference)
+C-extract:8f75b13008a96f36 [control] four backticks are not a fence ... ok
+test_C_extract_ab5bb2c3321d961f_grader (test_fixtures.CurrentBehaviour.test_C_extract_ab5bb2c3321d961f_grader)
+C-extract:ab5bb2c3321d961f [control] a second block is ignored ... ok
+test_C_extract_ab5bb2c3321d961f_reference (test_fixtures.CurrentBehaviour.test_C_extract_ab5bb2c3321d961f_reference)
+C-extract:ab5bb2c3321d961f [control] a second block is ignored ... ok
+test_C_extract_b479df0942e821a7_grader (test_fixtures.CurrentBehaviour.test_C_extract_b479df0942e821a7_grader)
+C-extract:b479df0942e821a7 [F3] tag py is a fence tag; the grader only opens a block on ```python ... ok
+test_C_extract_b479df0942e821a7_reference (test_fixtures.CurrentBehaviour.test_C_extract_b479df0942e821a7_reference)
+C-extract:b479df0942e821a7 [F3] tag py is a fence tag; the grader only opens a block on ```python ... ok
+test_C_extract_bafd40d039fe4f33_grader (test_fixtures.CurrentBehaviour.test_C_extract_bafd40d039fe4f33_grader)
+C-extract:bafd40d039fe4f33 [F3] tag Python ... ok
+test_C_extract_bafd40d039fe4f33_reference (test_fixtures.CurrentBehaviour.test_C_extract_bafd40d039fe4f33_reference)
+C-extract:bafd40d039fe4f33 [F3] tag Python ... ok
+test_C_extract_d92f2fcaf97b146e_grader (test_fixtures.CurrentBehaviour.test_C_extract_d92f2fcaf97b146e_grader)
+C-extract:d92f2fcaf97b146e [control] indented fences are not fences ... ok
+test_C_extract_d92f2fcaf97b146e_reference (test_fixtures.CurrentBehaviour.test_C_extract_d92f2fcaf97b146e_reference)
+C-extract:d92f2fcaf97b146e [control] indented fences are not fences ... ok
+test_C_extract_f32496e631fb22b0_grader (test_fixtures.CurrentBehaviour.test_C_extract_f32496e631fb22b0_grader)
+C-extract:f32496e631fb22b0 [control] only the first block counts, and it calls an undefined fib ... ok
+test_C_extract_f32496e631fb22b0_reference (test_fixtures.CurrentBehaviour.test_C_extract_f32496e631fb22b0_reference)
+C-extract:f32496e631fb22b0 [control] only the first block counts, and it calls an undefined fib ... ok
+test_C_import_0e1784a1473d50bb_grader (test_fixtures.CurrentBehaviour.test_C_import_0e1784a1473d50bb_grader)
+C-import:0e1784a1473d50bb [control] module off the list ... ok
+test_C_import_0e1784a1473d50bb_reference (test_fixtures.CurrentBehaviour.test_C_import_0e1784a1473d50bb_reference)
+C-import:0e1784a1473d50bb [control] module off the list ... ok
+test_C_import_0fdf65cb005a5050_grader (test_fixtures.CurrentBehaviour.test_C_import_0fdf65cb005a5050_grader)
+C-import:0fdf65cb005a5050 [F4] a relative import that names an allowed module, in a branch the tests never run ... ok
+test_C_import_0fdf65cb005a5050_reference (test_fixtures.CurrentBehaviour.test_C_import_0fdf65cb005a5050_reference)
+C-import:0fdf65cb005a5050 [F4] a relative import that names an allowed module, in a branch the tests never run ... ok
+test_C_import_22b16dd4291d7f26_grader (test_fixtures.CurrentBehaviour.test_C_import_22b16dd4291d7f26_grader)
+C-import:22b16dd4291d7f26 [control] import inside the function body ... ok
+test_C_import_22b16dd4291d7f26_reference (test_fixtures.CurrentBehaviour.test_C_import_22b16dd4291d7f26_reference)
+C-import:22b16dd4291d7f26 [control] import inside the function body ... ok
+test_C_import_4d7df43525d14297_grader (test_fixtures.CurrentBehaviour.test_C_import_4d7df43525d14297_grader)
+C-import:4d7df43525d14297 [F5] 5,965 dashes: ast.parse raises MemoryError, which the check does not catch ... ok
+test_C_import_4d7df43525d14297_reference (test_fixtures.CurrentBehaviour.test_C_import_4d7df43525d14297_reference)
+C-import:4d7df43525d14297 [F5] 5,965 dashes: ast.parse raises MemoryError, which the check does not catch ... ok
+test_C_import_759003123cf2deb8_grader (test_fixtures.CurrentBehaviour.test_C_import_759003123cf2deb8_grader)
+C-import:759003123cf2deb8 [control] second name in one import statement ... ok
+test_C_import_759003123cf2deb8_reference (test_fixtures.CurrentBehaviour.test_C_import_759003123cf2deb8_reference)
+C-import:759003123cf2deb8 [control] second name in one import statement ... ok
+test_C_import_8839697cf182db5d_grader (test_fixtures.CurrentBehaviour.test_C_import_8839697cf182db5d_grader)
+C-import:8839697cf182db5d [control] import text inside a docstring ... ok
+test_C_import_8839697cf182db5d_reference (test_fixtures.CurrentBehaviour.test_C_import_8839697cf182db5d_reference)
+C-import:8839697cf182db5d [control] import text inside a docstring ... ok
+test_C_import_8c3c58e43b4b9b9f_grader (test_fixtures.CurrentBehaviour.test_C_import_8c3c58e43b4b9b9f_grader)
+C-import:8c3c58e43b4b9b9f [control] dotted name of an allowed module ... ok
+test_C_import_8c3c58e43b4b9b9f_reference (test_fixtures.CurrentBehaviour.test_C_import_8c3c58e43b4b9b9f_reference)
+C-import:8c3c58e43b4b9b9f [control] dotted name of an allowed module ... ok
+test_C_import_aca8e6278d350642_grader (test_fixtures.CurrentBehaviour.test_C_import_aca8e6278d350642_grader)
+C-import:aca8e6278d350642 [control] allowed module ... ok
+test_C_import_aca8e6278d350642_reference (test_fixtures.CurrentBehaviour.test_C_import_aca8e6278d350642_reference)
+C-import:aca8e6278d350642 [control] allowed module ... ok
+test_C_import_dbb01f88cb6029e6_grader (test_fixtures.CurrentBehaviour.test_C_import_dbb01f88cb6029e6_grader)
+C-import:dbb01f88cb6029e6 [F5] a 2,997-term sum: ast.parse raises RecursionError, which the check does not catch ... ok
+test_C_import_dbb01f88cb6029e6_reference (test_fixtures.CurrentBehaviour.test_C_import_dbb01f88cb6029e6_reference)
+C-import:dbb01f88cb6029e6 [F5] a 2,997-term sum: ast.parse raises RecursionError, which the check does not catch ... ok
+test_C_import_e7e01be17b2d6855_grader (test_fixtures.CurrentBehaviour.test_C_import_e7e01be17b2d6855_grader)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_import_e7e01be17b2d6855_reference (test_fixtures.CurrentBehaviour.test_C_import_e7e01be17b2d6855_reference)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_import_f73d490b2104c19d_grader (test_fixtures.CurrentBehaviour.test_C_import_f73d490b2104c19d_grader)
+C-import:f73d490b2104c19d [control] __future__ is not on the list ... ok
+test_C_import_f73d490b2104c19d_reference (test_fixtures.CurrentBehaviour.test_C_import_f73d490b2104c19d_reference)
+C-import:f73d490b2104c19d [control] __future__ is not on the list ... ok
+test_C_test_06bd0833a72fb895_grader (test_fixtures.CurrentBehaviour.test_C_test_06bd0833a72fb895_grader)
+C-test:06bd0833a72fb895 [control] returns a generator, not a list ... ok
+test_C_test_06bd0833a72fb895_reference (test_fixtures.CurrentBehaviour.test_C_test_06bd0833a72fb895_reference)
+C-test:06bd0833a72fb895 [control] returns a generator, not a list ... ok
+test_C_test_2dc112e1a57e5fc8_grader (test_fixtures.CurrentBehaviour.test_C_test_2dc112e1a57e5fc8_grader)
+C-test:2dc112e1a57e5fc8 [F2] returns a list of tuples ... ok
+test_C_test_2dc112e1a57e5fc8_reference (test_fixtures.CurrentBehaviour.test_C_test_2dc112e1a57e5fc8_reference)
+C-test:2dc112e1a57e5fc8 [F2] returns a list of tuples ... ok
+test_C_test_4075cd8650a9d792_grader (test_fixtures.CurrentBehaviour.test_C_test_4075cd8650a9d792_grader)
+C-test:4075cd8650a9d792 [F2] returns a list of tuples ... ok
+test_C_test_4075cd8650a9d792_reference (test_fixtures.CurrentBehaviour.test_C_test_4075cd8650a9d792_reference)
+C-test:4075cd8650a9d792 [F2] returns a list of tuples ... ok
+test_C_test_44ee63d53a4117dd_grader (test_fixtures.CurrentBehaviour.test_C_test_44ee63d53a4117dd_grader)
+C-test:44ee63d53a4117dd [control] raises its own class named ValueError, which is not the built-in ... ok
+test_C_test_44ee63d53a4117dd_reference (test_fixtures.CurrentBehaviour.test_C_test_44ee63d53a4117dd_reference)
+C-test:44ee63d53a4117dd [control] raises its own class named ValueError, which is not the built-in ... ok
+test_C_test_4804f43070770e9e_grader (test_fixtures.CurrentBehaviour.test_C_test_4804f43070770e9e_grader)
+C-test:4804f43070770e9e [control] raises a subclass of ValueError ... ok
+test_C_test_4804f43070770e9e_reference (test_fixtures.CurrentBehaviour.test_C_test_4804f43070770e9e_reference)
+C-test:4804f43070770e9e [control] raises a subclass of ValueError ... ok
+test_C_test_4cb998c9812e034e_grader (test_fixtures.CurrentBehaviour.test_C_test_4cb998c9812e034e_grader)
+C-test:4cb998c9812e034e [F1] IndexError on the two tests with fewer than two distinct values ... ok
+test_C_test_4cb998c9812e034e_reference (test_fixtures.CurrentBehaviour.test_C_test_4cb998c9812e034e_reference)
+C-test:4cb998c9812e034e [F1] IndexError on the two tests with fewer than two distinct values ... ok
+test_C_test_5764bca8c04003dd_grader (test_fixtures.CurrentBehaviour.test_C_test_5764bca8c04003dd_grader)
+C-test:5764bca8c04003dd [F1] a stub that raises ... ok
+test_C_test_5764bca8c04003dd_reference (test_fixtures.CurrentBehaviour.test_C_test_5764bca8c04003dd_reference)
+C-test:5764bca8c04003dd [F1] a stub that raises ... ok
+test_C_test_9f53bbe5f243911d_grader (test_fixtures.CurrentBehaviour.test_C_test_9f53bbe5f243911d_grader)
+C-test:9f53bbe5f243911d [control] sorts and changes its argument in place ... ok
+test_C_test_9f53bbe5f243911d_reference (test_fixtures.CurrentBehaviour.test_C_test_9f53bbe5f243911d_reference)
+C-test:9f53bbe5f243911d [control] sorts and changes its argument in place ... ok
+test_C_test_b4000ec4c5962862_grader (test_fixtures.CurrentBehaviour.test_C_test_b4000ec4c5962862_grader)
+C-test:b4000ec4c5962862 [F2] returns a tuple ... ok
+test_C_test_b4000ec4c5962862_reference (test_fixtures.CurrentBehaviour.test_C_test_b4000ec4c5962862_reference)
+C-test:b4000ec4c5962862 [F2] returns a tuple ... ok
+test_C_test_c86c0648f5b80e48_grader (test_fixtures.CurrentBehaviour.test_C_test_c86c0648f5b80e48_grader)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... ok
+test_C_test_c86c0648f5b80e48_reference (test_fixtures.CurrentBehaviour.test_C_test_c86c0648f5b80e48_reference)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... ok
+test_C_test_ccf746bd1d3a219d_grader (test_fixtures.CurrentBehaviour.test_C_test_ccf746bd1d3a219d_grader)
+C-test:ccf746bd1d3a219d [F1] empty response ... ok
+test_C_test_ccf746bd1d3a219d_reference (test_fixtures.CurrentBehaviour.test_C_test_ccf746bd1d3a219d_reference)
+C-test:ccf746bd1d3a219d [F1] empty response ... ok
+test_C_test_e28b5f4ff31835be_grader (test_fixtures.CurrentBehaviour.test_C_test_e28b5f4ff31835be_grader)
+C-test:e28b5f4ff31835be [control] raises SystemExit for size 0 ... ok
+test_C_test_e28b5f4ff31835be_reference (test_fixtures.CurrentBehaviour.test_C_test_e28b5f4ff31835be_reference)
+C-test:e28b5f4ff31835be [control] raises SystemExit for size 0 ... ok
+test_C_test_e603b71e8d76d865_grader (test_fixtures.CurrentBehaviour.test_C_test_e603b71e8d76d865_grader)
+C-test:e603b71e8d76d865 [control] raises Exception, not ValueError ... ok
+test_C_test_e603b71e8d76d865_reference (test_fixtures.CurrentBehaviour.test_C_test_e603b71e8d76d865_reference)
+C-test:e603b71e8d76d865 [control] raises Exception, not ValueError ... ok
+test_C_test_f2a11b6b4efd9c1d_grader (test_fixtures.CurrentBehaviour.test_C_test_f2a11b6b4efd9c1d_grader)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_C_test_f2a11b6b4efd9c1d_reference (test_fixtures.CurrentBehaviour.test_C_test_f2a11b6b4efd9c1d_reference)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_C_test_fbcbe6157e477fd9_grader (test_fixtures.CurrentBehaviour.test_C_test_fbcbe6157e477fd9_grader)
+C-test:fbcbe6157e477fd9 [F1] the function has another name ... ok
+test_C_test_fbcbe6157e477fd9_reference (test_fixtures.CurrentBehaviour.test_C_test_fbcbe6157e477fd9_reference)
+C-test:fbcbe6157e477fd9 [F1] the function has another name ... ok
+test_C_data_0c8c06024c479ab1 (test_fixtures.GraderFixtures.test_C_data_0c8c06024c479ab1)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... expected failure
+test_C_data_3be875c9f4775013 (test_fixtures.GraderFixtures.test_C_data_3be875c9f4775013)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... expected failure
+test_C_exec_130ef5b1ad4c76ea (test_fixtures.GraderFixtures.test_C_exec_130ef5b1ad4c76ea)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_14a0daf1c993a9c1 (test_fixtures.GraderFixtures.test_C_exec_14a0daf1c993a9c1)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_exec_231fdf2ab79ec217 (test_fixtures.GraderFixtures.test_C_exec_231fdf2ab79ec217)
+C-exec:231fdf2ab79ec217 [F6] replaces builtins.isinstance, so RuntimeError counts as ValueError ... expected failure
+test_C_exec_271f8967eb4adb41 (test_fixtures.GraderFixtures.test_C_exec_271f8967eb4adb41)
+C-exec:271f8967eb4adb41 [F6] writes a result line to file descriptor 1, then ends the process at the first call ... expected failure
+test_C_exec_32e7b2bbd79a6a5f (test_fixtures.GraderFixtures.test_C_exec_32e7b2bbd79a6a5f)
+C-exec:32e7b2bbd79a6a5f [control] exit() while loading (D-load-error A) ... ok
+test_C_exec_76f498e642e70c78 (test_fixtures.GraderFixtures.test_C_exec_76f498e642e70c78)
+C-exec:76f498e642e70c78 [control] the call raises SystemExit ... ok
+test_C_exec_87f6b6fe5758ca95 (test_fixtures.GraderFixtures.test_C_exec_87f6b6fe5758ca95)
+C-exec:87f6b6fe5758ca95 [F6] reads the hidden tests from job.json in the working directory ... expected failure
+test_C_exec_c4fda34213cd3b1b (test_fixtures.GraderFixtures.test_C_exec_c4fda34213cd3b1b)
+C-exec:c4fda34213cd3b1b [control] naive recursion reaches the 4 s limit ... ok
+test_C_exec_e104e133aa77110c (test_fixtures.GraderFixtures.test_C_exec_e104e133aa77110c)
+C-exec:e104e133aa77110c [control] prints at load and in the call ... ok
+test_C_exec_e82679f75f58a80c (test_fixtures.GraderFixtures.test_C_exec_e82679f75f58a80c)
+C-exec:e82679f75f58a80c [F5] writes a malformed result line, then ends the process ... expected failure
+test_C_exec_f1fcee2bf1cb7983 (test_fixtures.GraderFixtures.test_C_exec_f1fcee2bf1cb7983)
+C-exec:f1fcee2bf1cb7983 [control] helpers and globals named like the runner's own ... ok
+test_C_extract_027006230ab42bc0 (test_fixtures.GraderFixtures.test_C_extract_027006230ab42bc0)
+C-extract:027006230ab42bc0 [control] python-tagged block ... ok
+test_C_extract_19c959cc6b154279 (test_fixtures.GraderFixtures.test_C_extract_19c959cc6b154279)
+C-extract:19c959cc6b154279 [F3] tag python3 ... expected failure
+test_C_extract_1ffed70fad86ccf1 (test_fixtures.GraderFixtures.test_C_extract_1ffed70fad86ccf1)
+C-extract:1ffed70fad86ccf1 [control] unclosed fence: the whole response, backticks included, is the code ... ok
+test_C_extract_2362f1ec94c54e78 (test_fixtures.GraderFixtures.test_C_extract_2362f1ec94c54e78)
+C-extract:2362f1ec94c54e78 [control] no fence: the whole response is the code ... ok
+test_C_extract_43d1eb35e11a7429 (test_fixtures.GraderFixtures.test_C_extract_43d1eb35e11a7429)
+C-extract:43d1eb35e11a7429 [control] code indented inside the block is not dedented ... ok
+test_C_extract_6dfb9851e03d6638 (test_fixtures.GraderFixtures.test_C_extract_6dfb9851e03d6638)
+C-extract:6dfb9851e03d6638 [F3] a fence without a tag ... expected failure
+test_C_extract_723aca95a5e46875 (test_fixtures.GraderFixtures.test_C_extract_723aca95a5e46875)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... expected failure
+test_C_extract_74d5208dcbf9d180 (test_fixtures.GraderFixtures.test_C_extract_74d5208dcbf9d180)
+C-extract:74d5208dcbf9d180 [F3] the first block is the usage example; the grader skips it and grades the second block ... expected failure
+test_C_extract_860313cd48773355 (test_fixtures.GraderFixtures.test_C_extract_860313cd48773355)
+C-extract:860313cd48773355 [control] spaces and a tab after both fences ... ok
+test_C_extract_8f75b13008a96f36 (test_fixtures.GraderFixtures.test_C_extract_8f75b13008a96f36)
+C-extract:8f75b13008a96f36 [control] four backticks are not a fence ... ok
+test_C_extract_ab5bb2c3321d961f (test_fixtures.GraderFixtures.test_C_extract_ab5bb2c3321d961f)
+C-extract:ab5bb2c3321d961f [control] a second block is ignored ... ok
+test_C_extract_b479df0942e821a7 (test_fixtures.GraderFixtures.test_C_extract_b479df0942e821a7)
+C-extract:b479df0942e821a7 [F3] tag py is a fence tag; the grader only opens a block on ```python ... expected failure
+test_C_extract_bafd40d039fe4f33 (test_fixtures.GraderFixtures.test_C_extract_bafd40d039fe4f33)
+C-extract:bafd40d039fe4f33 [F3] tag Python ... expected failure
+test_C_extract_d92f2fcaf97b146e (test_fixtures.GraderFixtures.test_C_extract_d92f2fcaf97b146e)
+C-extract:d92f2fcaf97b146e [control] indented fences are not fences ... ok
+test_C_extract_f32496e631fb22b0 (test_fixtures.GraderFixtures.test_C_extract_f32496e631fb22b0)
+C-extract:f32496e631fb22b0 [control] only the first block counts, and it calls an undefined fib ... ok
+test_C_import_0e1784a1473d50bb (test_fixtures.GraderFixtures.test_C_import_0e1784a1473d50bb)
+C-import:0e1784a1473d50bb [control] module off the list ... ok
+test_C_import_0fdf65cb005a5050 (test_fixtures.GraderFixtures.test_C_import_0fdf65cb005a5050)
+C-import:0fdf65cb005a5050 [F4] a relative import that names an allowed module, in a branch the tests never run ... expected failure
+test_C_import_22b16dd4291d7f26 (test_fixtures.GraderFixtures.test_C_import_22b16dd4291d7f26)
+C-import:22b16dd4291d7f26 [control] import inside the function body ... ok
+test_C_import_4d7df43525d14297 (test_fixtures.GraderFixtures.test_C_import_4d7df43525d14297)
+C-import:4d7df43525d14297 [F5] 5,965 dashes: ast.parse raises MemoryError, which the check does not catch ... expected failure
+test_C_import_759003123cf2deb8 (test_fixtures.GraderFixtures.test_C_import_759003123cf2deb8)
+C-import:759003123cf2deb8 [control] second name in one import statement ... ok
+test_C_import_8839697cf182db5d (test_fixtures.GraderFixtures.test_C_import_8839697cf182db5d)
+C-import:8839697cf182db5d [control] import text inside a docstring ... ok
+test_C_import_8c3c58e43b4b9b9f (test_fixtures.GraderFixtures.test_C_import_8c3c58e43b4b9b9f)
+C-import:8c3c58e43b4b9b9f [control] dotted name of an allowed module ... ok
+test_C_import_aca8e6278d350642 (test_fixtures.GraderFixtures.test_C_import_aca8e6278d350642)
+C-import:aca8e6278d350642 [control] allowed module ... ok
+test_C_import_dbb01f88cb6029e6 (test_fixtures.GraderFixtures.test_C_import_dbb01f88cb6029e6)
+C-import:dbb01f88cb6029e6 [F5] a 2,997-term sum: ast.parse raises RecursionError, which the check does not catch ... expected failure
+test_C_import_e7e01be17b2d6855 (test_fixtures.GraderFixtures.test_C_import_e7e01be17b2d6855)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_import_f73d490b2104c19d (test_fixtures.GraderFixtures.test_C_import_f73d490b2104c19d)
+C-import:f73d490b2104c19d [control] __future__ is not on the list ... ok
+test_C_test_06bd0833a72fb895 (test_fixtures.GraderFixtures.test_C_test_06bd0833a72fb895)
+C-test:06bd0833a72fb895 [control] returns a generator, not a list ... ok
+test_C_test_2dc112e1a57e5fc8 (test_fixtures.GraderFixtures.test_C_test_2dc112e1a57e5fc8)
+C-test:2dc112e1a57e5fc8 [F2] returns a list of tuples ... expected failure
+test_C_test_4075cd8650a9d792 (test_fixtures.GraderFixtures.test_C_test_4075cd8650a9d792)
+C-test:4075cd8650a9d792 [F2] returns a list of tuples ... expected failure
+test_C_test_44ee63d53a4117dd (test_fixtures.GraderFixtures.test_C_test_44ee63d53a4117dd)
+C-test:44ee63d53a4117dd [control] raises its own class named ValueError, which is not the built-in ... ok
+test_C_test_4804f43070770e9e (test_fixtures.GraderFixtures.test_C_test_4804f43070770e9e)
+C-test:4804f43070770e9e [control] raises a subclass of ValueError ... ok
+test_C_test_4cb998c9812e034e (test_fixtures.GraderFixtures.test_C_test_4cb998c9812e034e)
+C-test:4cb998c9812e034e [F1] IndexError on the two tests with fewer than two distinct values ... expected failure
+test_C_test_5764bca8c04003dd (test_fixtures.GraderFixtures.test_C_test_5764bca8c04003dd)
+C-test:5764bca8c04003dd [F1] a stub that raises ... expected failure
+test_C_test_9f53bbe5f243911d (test_fixtures.GraderFixtures.test_C_test_9f53bbe5f243911d)
+C-test:9f53bbe5f243911d [control] sorts and changes its argument in place ... ok
+test_C_test_b4000ec4c5962862 (test_fixtures.GraderFixtures.test_C_test_b4000ec4c5962862)
+C-test:b4000ec4c5962862 [F2] returns a tuple ... expected failure
+test_C_test_c86c0648f5b80e48 (test_fixtures.GraderFixtures.test_C_test_c86c0648f5b80e48)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... ok
+test_C_test_ccf746bd1d3a219d (test_fixtures.GraderFixtures.test_C_test_ccf746bd1d3a219d)
+C-test:ccf746bd1d3a219d [F1] empty response ... expected failure
+test_C_test_e28b5f4ff31835be (test_fixtures.GraderFixtures.test_C_test_e28b5f4ff31835be)
+C-test:e28b5f4ff31835be [control] raises SystemExit for size 0 ... ok
+test_C_test_e603b71e8d76d865 (test_fixtures.GraderFixtures.test_C_test_e603b71e8d76d865)
+C-test:e603b71e8d76d865 [control] raises Exception, not ValueError ... ok
+test_C_test_f2a11b6b4efd9c1d (test_fixtures.GraderFixtures.test_C_test_f2a11b6b4efd9c1d)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_C_test_fbcbe6157e477fd9 (test_fixtures.GraderFixtures.test_C_test_fbcbe6157e477fd9)
+C-test:fbcbe6157e477fd9 [F1] the function has another name ... expected failure
+test_C_data_0c8c06024c479ab1 (test_fixtures.ReferenceFixtures.test_C_data_0c8c06024c479ab1)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... expected failure
+test_C_data_3be875c9f4775013 (test_fixtures.ReferenceFixtures.test_C_data_3be875c9f4775013)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... expected failure
+test_C_exec_130ef5b1ad4c76ea (test_fixtures.ReferenceFixtures.test_C_exec_130ef5b1ad4c76ea)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_14a0daf1c993a9c1 (test_fixtures.ReferenceFixtures.test_C_exec_14a0daf1c993a9c1)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_exec_231fdf2ab79ec217 (test_fixtures.ReferenceFixtures.test_C_exec_231fdf2ab79ec217)
+C-exec:231fdf2ab79ec217 [F6] replaces builtins.isinstance, so RuntimeError counts as ValueError ... expected failure
+test_C_exec_271f8967eb4adb41 (test_fixtures.ReferenceFixtures.test_C_exec_271f8967eb4adb41)
+C-exec:271f8967eb4adb41 [F6] writes a result line to file descriptor 1, then ends the process at the first call ... expected failure
+test_C_exec_32e7b2bbd79a6a5f (test_fixtures.ReferenceFixtures.test_C_exec_32e7b2bbd79a6a5f)
+C-exec:32e7b2bbd79a6a5f [control] exit() while loading (D-load-error A) ... ok
+test_C_exec_76f498e642e70c78 (test_fixtures.ReferenceFixtures.test_C_exec_76f498e642e70c78)
+C-exec:76f498e642e70c78 [control] the call raises SystemExit ... ok
+test_C_exec_87f6b6fe5758ca95 (test_fixtures.ReferenceFixtures.test_C_exec_87f6b6fe5758ca95)
+C-exec:87f6b6fe5758ca95 [F6] reads the hidden tests from job.json in the working directory ... expected failure
+test_C_exec_c4fda34213cd3b1b (test_fixtures.ReferenceFixtures.test_C_exec_c4fda34213cd3b1b)
+C-exec:c4fda34213cd3b1b [control] naive recursion reaches the 4 s limit ... ok
+test_C_exec_e104e133aa77110c (test_fixtures.ReferenceFixtures.test_C_exec_e104e133aa77110c)
+C-exec:e104e133aa77110c [control] prints at load and in the call ... ok
+test_C_exec_e82679f75f58a80c (test_fixtures.ReferenceFixtures.test_C_exec_e82679f75f58a80c)
+C-exec:e82679f75f58a80c [F5] writes a malformed result line, then ends the process ... expected failure
+test_C_exec_f1fcee2bf1cb7983 (test_fixtures.ReferenceFixtures.test_C_exec_f1fcee2bf1cb7983)
+C-exec:f1fcee2bf1cb7983 [control] helpers and globals named like the runner's own ... ok
+test_C_extract_027006230ab42bc0 (test_fixtures.ReferenceFixtures.test_C_extract_027006230ab42bc0)
+C-extract:027006230ab42bc0 [control] python-tagged block ... ok
+test_C_extract_19c959cc6b154279 (test_fixtures.ReferenceFixtures.test_C_extract_19c959cc6b154279)
+C-extract:19c959cc6b154279 [F3] tag python3 ... ok
+test_C_extract_1ffed70fad86ccf1 (test_fixtures.ReferenceFixtures.test_C_extract_1ffed70fad86ccf1)
+C-extract:1ffed70fad86ccf1 [control] unclosed fence: the whole response, backticks included, is the code ... ok
+test_C_extract_2362f1ec94c54e78 (test_fixtures.ReferenceFixtures.test_C_extract_2362f1ec94c54e78)
+C-extract:2362f1ec94c54e78 [control] no fence: the whole response is the code ... ok
+test_C_extract_43d1eb35e11a7429 (test_fixtures.ReferenceFixtures.test_C_extract_43d1eb35e11a7429)
+C-extract:43d1eb35e11a7429 [control] code indented inside the block is not dedented ... ok
+test_C_extract_6dfb9851e03d6638 (test_fixtures.ReferenceFixtures.test_C_extract_6dfb9851e03d6638)
+C-extract:6dfb9851e03d6638 [F3] a fence without a tag ... ok
+test_C_extract_723aca95a5e46875 (test_fixtures.ReferenceFixtures.test_C_extract_723aca95a5e46875)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... expected failure
+test_C_extract_74d5208dcbf9d180 (test_fixtures.ReferenceFixtures.test_C_extract_74d5208dcbf9d180)
+C-extract:74d5208dcbf9d180 [F3] the first block is the usage example; the grader skips it and grades the second block ... ok
+test_C_extract_860313cd48773355 (test_fixtures.ReferenceFixtures.test_C_extract_860313cd48773355)
+C-extract:860313cd48773355 [control] spaces and a tab after both fences ... ok
+test_C_extract_8f75b13008a96f36 (test_fixtures.ReferenceFixtures.test_C_extract_8f75b13008a96f36)
+C-extract:8f75b13008a96f36 [control] four backticks are not a fence ... ok
+test_C_extract_ab5bb2c3321d961f (test_fixtures.ReferenceFixtures.test_C_extract_ab5bb2c3321d961f)
+C-extract:ab5bb2c3321d961f [control] a second block is ignored ... ok
+test_C_extract_b479df0942e821a7 (test_fixtures.ReferenceFixtures.test_C_extract_b479df0942e821a7)
+C-extract:b479df0942e821a7 [F3] tag py is a fence tag; the grader only opens a block on ```python ... ok
+test_C_extract_bafd40d039fe4f33 (test_fixtures.ReferenceFixtures.test_C_extract_bafd40d039fe4f33)
+C-extract:bafd40d039fe4f33 [F3] tag Python ... ok
+test_C_extract_d92f2fcaf97b146e (test_fixtures.ReferenceFixtures.test_C_extract_d92f2fcaf97b146e)
+C-extract:d92f2fcaf97b146e [control] indented fences are not fences ... ok
+test_C_extract_f32496e631fb22b0 (test_fixtures.ReferenceFixtures.test_C_extract_f32496e631fb22b0)
+C-extract:f32496e631fb22b0 [control] only the first block counts, and it calls an undefined fib ... ok
+test_C_import_0e1784a1473d50bb (test_fixtures.ReferenceFixtures.test_C_import_0e1784a1473d50bb)
+C-import:0e1784a1473d50bb [control] module off the list ... ok
+test_C_import_0fdf65cb005a5050 (test_fixtures.ReferenceFixtures.test_C_import_0fdf65cb005a5050)
+C-import:0fdf65cb005a5050 [F4] a relative import that names an allowed module, in a branch the tests never run ... expected failure
+test_C_import_22b16dd4291d7f26 (test_fixtures.ReferenceFixtures.test_C_import_22b16dd4291d7f26)
+C-import:22b16dd4291d7f26 [control] import inside the function body ... ok
+test_C_import_4d7df43525d14297 (test_fixtures.ReferenceFixtures.test_C_import_4d7df43525d14297)
+C-import:4d7df43525d14297 [F5] 5,965 dashes: ast.parse raises MemoryError, which the check does not catch ... expected failure
+test_C_import_759003123cf2deb8 (test_fixtures.ReferenceFixtures.test_C_import_759003123cf2deb8)
+C-import:759003123cf2deb8 [control] second name in one import statement ... ok
+test_C_import_8839697cf182db5d (test_fixtures.ReferenceFixtures.test_C_import_8839697cf182db5d)
+C-import:8839697cf182db5d [control] import text inside a docstring ... ok
+test_C_import_8c3c58e43b4b9b9f (test_fixtures.ReferenceFixtures.test_C_import_8c3c58e43b4b9b9f)
+C-import:8c3c58e43b4b9b9f [control] dotted name of an allowed module ... ok
+test_C_import_aca8e6278d350642 (test_fixtures.ReferenceFixtures.test_C_import_aca8e6278d350642)
+C-import:aca8e6278d350642 [control] allowed module ... ok
+test_C_import_dbb01f88cb6029e6 (test_fixtures.ReferenceFixtures.test_C_import_dbb01f88cb6029e6)
+C-import:dbb01f88cb6029e6 [F5] a 2,997-term sum: ast.parse raises RecursionError, which the check does not catch ... expected failure
+test_C_import_e7e01be17b2d6855 (test_fixtures.ReferenceFixtures.test_C_import_e7e01be17b2d6855)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_import_f73d490b2104c19d (test_fixtures.ReferenceFixtures.test_C_import_f73d490b2104c19d)
+C-import:f73d490b2104c19d [control] __future__ is not on the list ... ok
+test_C_test_06bd0833a72fb895 (test_fixtures.ReferenceFixtures.test_C_test_06bd0833a72fb895)
+C-test:06bd0833a72fb895 [control] returns a generator, not a list ... ok
+test_C_test_2dc112e1a57e5fc8 (test_fixtures.ReferenceFixtures.test_C_test_2dc112e1a57e5fc8)
+C-test:2dc112e1a57e5fc8 [F2] returns a list of tuples ... ok
+test_C_test_4075cd8650a9d792 (test_fixtures.ReferenceFixtures.test_C_test_4075cd8650a9d792)
+C-test:4075cd8650a9d792 [F2] returns a list of tuples ... ok
+test_C_test_44ee63d53a4117dd (test_fixtures.ReferenceFixtures.test_C_test_44ee63d53a4117dd)
+C-test:44ee63d53a4117dd [control] raises its own class named ValueError, which is not the built-in ... ok
+test_C_test_4804f43070770e9e (test_fixtures.ReferenceFixtures.test_C_test_4804f43070770e9e)
+C-test:4804f43070770e9e [control] raises a subclass of ValueError ... ok
+test_C_test_4cb998c9812e034e (test_fixtures.ReferenceFixtures.test_C_test_4cb998c9812e034e)
+C-test:4cb998c9812e034e [F1] IndexError on the two tests with fewer than two distinct values ... ok
+test_C_test_5764bca8c04003dd (test_fixtures.ReferenceFixtures.test_C_test_5764bca8c04003dd)
+C-test:5764bca8c04003dd [F1] a stub that raises ... ok
+test_C_test_9f53bbe5f243911d (test_fixtures.ReferenceFixtures.test_C_test_9f53bbe5f243911d)
+C-test:9f53bbe5f243911d [control] sorts and changes its argument in place ... ok
+test_C_test_b4000ec4c5962862 (test_fixtures.ReferenceFixtures.test_C_test_b4000ec4c5962862)
+C-test:b4000ec4c5962862 [F2] returns a tuple ... ok
+test_C_test_c86c0648f5b80e48 (test_fixtures.ReferenceFixtures.test_C_test_c86c0648f5b80e48)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... expected failure
+test_C_test_ccf746bd1d3a219d (test_fixtures.ReferenceFixtures.test_C_test_ccf746bd1d3a219d)
+C-test:ccf746bd1d3a219d [F1] empty response ... ok
+test_C_test_e28b5f4ff31835be (test_fixtures.ReferenceFixtures.test_C_test_e28b5f4ff31835be)
+C-test:e28b5f4ff31835be [control] raises SystemExit for size 0 ... ok
+test_C_test_e603b71e8d76d865 (test_fixtures.ReferenceFixtures.test_C_test_e603b71e8d76d865)
+C-test:e603b71e8d76d865 [control] raises Exception, not ValueError ... ok
+test_C_test_f2a11b6b4efd9c1d (test_fixtures.ReferenceFixtures.test_C_test_f2a11b6b4efd9c1d)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_C_test_fbcbe6157e477fd9 (test_fixtures.ReferenceFixtures.test_C_test_fbcbe6157e477fd9)
+C-test:fbcbe6157e477fd9 [F1] the function has another name ... ok
+test_C_data_0c8c06024c479ab1 (test_fixtures.ReplacementFixtures.test_C_data_0c8c06024c479ab1)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... ok
+test_C_data_3be875c9f4775013 (test_fixtures.ReplacementFixtures.test_C_data_3be875c9f4775013)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... ok
+test_C_exec_130ef5b1ad4c76ea (test_fixtures.ReplacementFixtures.test_C_exec_130ef5b1ad4c76ea)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_14a0daf1c993a9c1 (test_fixtures.ReplacementFixtures.test_C_exec_14a0daf1c993a9c1)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_exec_231fdf2ab79ec217 (test_fixtures.ReplacementFixtures.test_C_exec_231fdf2ab79ec217)
+C-exec:231fdf2ab79ec217 [F6] replaces builtins.isinstance, so RuntimeError counts as ValueError ... ok
+test_C_exec_271f8967eb4adb41 (test_fixtures.ReplacementFixtures.test_C_exec_271f8967eb4adb41)
+C-exec:271f8967eb4adb41 [F6] writes a result line to file descriptor 1, then ends the process at the first call ... ok
+test_C_exec_32e7b2bbd79a6a5f (test_fixtures.ReplacementFixtures.test_C_exec_32e7b2bbd79a6a5f)
+C-exec:32e7b2bbd79a6a5f [control] exit() while loading (D-load-error A) ... ok
+test_C_exec_76f498e642e70c78 (test_fixtures.ReplacementFixtures.test_C_exec_76f498e642e70c78)
+C-exec:76f498e642e70c78 [control] the call raises SystemExit ... ok
+test_C_exec_87f6b6fe5758ca95 (test_fixtures.ReplacementFixtures.test_C_exec_87f6b6fe5758ca95)
+C-exec:87f6b6fe5758ca95 [F6] reads the hidden tests from job.json in the working directory ... ok
+test_C_exec_c4fda34213cd3b1b (test_fixtures.ReplacementFixtures.test_C_exec_c4fda34213cd3b1b)
+C-exec:c4fda34213cd3b1b [control] naive recursion reaches the 4 s limit ... ok
+test_C_exec_e104e133aa77110c (test_fixtures.ReplacementFixtures.test_C_exec_e104e133aa77110c)
+C-exec:e104e133aa77110c [control] prints at load and in the call ... ok
+test_C_exec_e82679f75f58a80c (test_fixtures.ReplacementFixtures.test_C_exec_e82679f75f58a80c)
+C-exec:e82679f75f58a80c [F5] writes a malformed result line, then ends the process ... ok
+test_C_exec_f1fcee2bf1cb7983 (test_fixtures.ReplacementFixtures.test_C_exec_f1fcee2bf1cb7983)
+C-exec:f1fcee2bf1cb7983 [control] helpers and globals named like the runner's own ... ok
+test_C_extract_027006230ab42bc0 (test_fixtures.ReplacementFixtures.test_C_extract_027006230ab42bc0)
+C-extract:027006230ab42bc0 [control] python-tagged block ... ok
+test_C_extract_19c959cc6b154279 (test_fixtures.ReplacementFixtures.test_C_extract_19c959cc6b154279)
+C-extract:19c959cc6b154279 [F3] tag python3 ... ok
+test_C_extract_1ffed70fad86ccf1 (test_fixtures.ReplacementFixtures.test_C_extract_1ffed70fad86ccf1)
+C-extract:1ffed70fad86ccf1 [control] unclosed fence: the whole response, backticks included, is the code ... ok
+test_C_extract_2362f1ec94c54e78 (test_fixtures.ReplacementFixtures.test_C_extract_2362f1ec94c54e78)
+C-extract:2362f1ec94c54e78 [control] no fence: the whole response is the code ... ok
+test_C_extract_43d1eb35e11a7429 (test_fixtures.ReplacementFixtures.test_C_extract_43d1eb35e11a7429)
+C-extract:43d1eb35e11a7429 [control] code indented inside the block is not dedented ... ok
+test_C_extract_6dfb9851e03d6638 (test_fixtures.ReplacementFixtures.test_C_extract_6dfb9851e03d6638)
+C-extract:6dfb9851e03d6638 [F3] a fence without a tag ... ok
+test_C_extract_723aca95a5e46875 (test_fixtures.ReplacementFixtures.test_C_extract_723aca95a5e46875)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... ok
+test_C_extract_74d5208dcbf9d180 (test_fixtures.ReplacementFixtures.test_C_extract_74d5208dcbf9d180)
+C-extract:74d5208dcbf9d180 [F3] the first block is the usage example; the grader skips it and grades the second block ... ok
+test_C_extract_860313cd48773355 (test_fixtures.ReplacementFixtures.test_C_extract_860313cd48773355)
+C-extract:860313cd48773355 [control] spaces and a tab after both fences ... ok
+test_C_extract_8f75b13008a96f36 (test_fixtures.ReplacementFixtures.test_C_extract_8f75b13008a96f36)
+C-extract:8f75b13008a96f36 [control] four backticks are not a fence ... ok
+test_C_extract_ab5bb2c3321d961f (test_fixtures.ReplacementFixtures.test_C_extract_ab5bb2c3321d961f)
+C-extract:ab5bb2c3321d961f [control] a second block is ignored ... ok
+test_C_extract_b479df0942e821a7 (test_fixtures.ReplacementFixtures.test_C_extract_b479df0942e821a7)
+C-extract:b479df0942e821a7 [F3] tag py is a fence tag; the grader only opens a block on ```python ... ok
+test_C_extract_bafd40d039fe4f33 (test_fixtures.ReplacementFixtures.test_C_extract_bafd40d039fe4f33)
+C-extract:bafd40d039fe4f33 [F3] tag Python ... ok
+test_C_extract_d92f2fcaf97b146e (test_fixtures.ReplacementFixtures.test_C_extract_d92f2fcaf97b146e)
+C-extract:d92f2fcaf97b146e [control] indented fences are not fences ... ok
+test_C_extract_f32496e631fb22b0 (test_fixtures.ReplacementFixtures.test_C_extract_f32496e631fb22b0)
+C-extract:f32496e631fb22b0 [control] only the first block counts, and it calls an undefined fib ... ok
+test_C_import_0e1784a1473d50bb (test_fixtures.ReplacementFixtures.test_C_import_0e1784a1473d50bb)
+C-import:0e1784a1473d50bb [control] module off the list ... ok
+test_C_import_0fdf65cb005a5050 (test_fixtures.ReplacementFixtures.test_C_import_0fdf65cb005a5050)
+C-import:0fdf65cb005a5050 [F4] a relative import that names an allowed module, in a branch the tests never run ... ok
+test_C_import_22b16dd4291d7f26 (test_fixtures.ReplacementFixtures.test_C_import_22b16dd4291d7f26)
+C-import:22b16dd4291d7f26 [control] import inside the function body ... ok
+test_C_import_4d7df43525d14297 (test_fixtures.ReplacementFixtures.test_C_import_4d7df43525d14297)
+C-import:4d7df43525d14297 [F5] 5,965 dashes: ast.parse raises MemoryError, which the check does not catch ... ok
+test_C_import_759003123cf2deb8 (test_fixtures.ReplacementFixtures.test_C_import_759003123cf2deb8)
+C-import:759003123cf2deb8 [control] second name in one import statement ... ok
+test_C_import_8839697cf182db5d (test_fixtures.ReplacementFixtures.test_C_import_8839697cf182db5d)
+C-import:8839697cf182db5d [control] import text inside a docstring ... ok
+test_C_import_8c3c58e43b4b9b9f (test_fixtures.ReplacementFixtures.test_C_import_8c3c58e43b4b9b9f)
+C-import:8c3c58e43b4b9b9f [control] dotted name of an allowed module ... ok
+test_C_import_aca8e6278d350642 (test_fixtures.ReplacementFixtures.test_C_import_aca8e6278d350642)
+C-import:aca8e6278d350642 [control] allowed module ... ok
+test_C_import_dbb01f88cb6029e6 (test_fixtures.ReplacementFixtures.test_C_import_dbb01f88cb6029e6)
+C-import:dbb01f88cb6029e6 [F5] a 2,997-term sum: ast.parse raises RecursionError, which the check does not catch ... ok
+test_C_import_e7e01be17b2d6855 (test_fixtures.ReplacementFixtures.test_C_import_e7e01be17b2d6855)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_import_f73d490b2104c19d (test_fixtures.ReplacementFixtures.test_C_import_f73d490b2104c19d)
+C-import:f73d490b2104c19d [control] __future__ is not on the list ... ok
+test_C_test_06bd0833a72fb895 (test_fixtures.ReplacementFixtures.test_C_test_06bd0833a72fb895)
+C-test:06bd0833a72fb895 [control] returns a generator, not a list ... ok
+test_C_test_2dc112e1a57e5fc8 (test_fixtures.ReplacementFixtures.test_C_test_2dc112e1a57e5fc8)
+C-test:2dc112e1a57e5fc8 [F2] returns a list of tuples ... ok
+test_C_test_4075cd8650a9d792 (test_fixtures.ReplacementFixtures.test_C_test_4075cd8650a9d792)
+C-test:4075cd8650a9d792 [F2] returns a list of tuples ... ok
+test_C_test_44ee63d53a4117dd (test_fixtures.ReplacementFixtures.test_C_test_44ee63d53a4117dd)
+C-test:44ee63d53a4117dd [control] raises its own class named ValueError, which is not the built-in ... ok
+test_C_test_4804f43070770e9e (test_fixtures.ReplacementFixtures.test_C_test_4804f43070770e9e)
+C-test:4804f43070770e9e [control] raises a subclass of ValueError ... ok
+test_C_test_4cb998c9812e034e (test_fixtures.ReplacementFixtures.test_C_test_4cb998c9812e034e)
+C-test:4cb998c9812e034e [F1] IndexError on the two tests with fewer than two distinct values ... ok
+test_C_test_5764bca8c04003dd (test_fixtures.ReplacementFixtures.test_C_test_5764bca8c04003dd)
+C-test:5764bca8c04003dd [F1] a stub that raises ... ok
+test_C_test_9f53bbe5f243911d (test_fixtures.ReplacementFixtures.test_C_test_9f53bbe5f243911d)
+C-test:9f53bbe5f243911d [control] sorts and changes its argument in place ... ok
+test_C_test_b4000ec4c5962862 (test_fixtures.ReplacementFixtures.test_C_test_b4000ec4c5962862)
+C-test:b4000ec4c5962862 [F2] returns a tuple ... ok
+test_C_test_c86c0648f5b80e48 (test_fixtures.ReplacementFixtures.test_C_test_c86c0648f5b80e48)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... ok
+test_C_test_ccf746bd1d3a219d (test_fixtures.ReplacementFixtures.test_C_test_ccf746bd1d3a219d)
+C-test:ccf746bd1d3a219d [F1] empty response ... ok
+test_C_test_e28b5f4ff31835be (test_fixtures.ReplacementFixtures.test_C_test_e28b5f4ff31835be)
+C-test:e28b5f4ff31835be [control] raises SystemExit for size 0 ... ok
+test_C_test_e603b71e8d76d865 (test_fixtures.ReplacementFixtures.test_C_test_e603b71e8d76d865)
+C-test:e603b71e8d76d865 [control] raises Exception, not ValueError ... ok
+test_C_test_f2a11b6b4efd9c1d (test_fixtures.ReplacementFixtures.test_C_test_f2a11b6b4efd9c1d)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_C_test_fbcbe6157e477fd9 (test_fixtures.ReplacementFixtures.test_C_test_fbcbe6157e477fd9)
+C-test:fbcbe6157e477fd9 [F1] the function has another name ... ok
+test_C_data_0c8c06024c479ab1_reading_A (test_fixtures.ReplacementReadings.test_C_data_0c8c06024c479ab1_reading_A)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... ok
+test_C_data_0c8c06024c479ab1_reading_B (test_fixtures.ReplacementReadings.test_C_data_0c8c06024c479ab1_reading_B)
+C-data:0c8c06024c479ab1 [D-palindrome-normalization] ignores case and punctuation ... ok
+test_C_data_3be875c9f4775013_reading_A (test_fixtures.ReplacementReadings.test_C_data_3be875c9f4775013_reading_A)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... ok
+test_C_data_3be875c9f4775013_reading_B (test_fixtures.ReplacementReadings.test_C_data_3be875c9f4775013_reading_B)
+C-data:3be875c9f4775013 [D-palindrome-normalization] literal reversal: test 4 expects True for a phrase that is not its own reverse ... ok
+test_C_exec_130ef5b1ad4c76ea_reading_A (test_fixtures.ReplacementReadings.test_C_exec_130ef5b1ad4c76ea_reading_A)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_130ef5b1ad4c76ea_reading_B (test_fixtures.ReplacementReadings.test_C_exec_130ef5b1ad4c76ea_reading_B)
+C-exec:130ef5b1ad4c76ea [D-main-guard] a failing assertion under the main guard ... ok
+test_C_exec_14a0daf1c993a9c1_reading_A (test_fixtures.ReplacementReadings.test_C_exec_14a0daf1c993a9c1_reading_A)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_exec_14a0daf1c993a9c1_reading_B (test_fixtures.ReplacementReadings.test_C_exec_14a0daf1c993a9c1_reading_B)
+C-exec:14a0daf1c993a9c1 [D-load-error] a correct function, then a module-level call that raises IndexError ... ok
+test_C_extract_723aca95a5e46875_reading_A (test_fixtures.ReplacementReadings.test_C_extract_723aca95a5e46875_reading_A)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... ok
+test_C_extract_723aca95a5e46875_reading_B (test_fixtures.ReplacementReadings.test_C_extract_723aca95a5e46875_reading_B)
+C-extract:723aca95a5e46875 [D-line-terminator] CRLF line endings ... ok
+test_C_import_e7e01be17b2d6855_reading_A (test_fixtures.ReplacementReadings.test_C_import_e7e01be17b2d6855_reading_A)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_import_e7e01be17b2d6855_reading_B (test_fixtures.ReplacementReadings.test_C_import_e7e01be17b2d6855_reading_B)
+C-import:e7e01be17b2d6855 [D-dynamic-import] a call to __import__ is not an import statement ... ok
+test_C_test_c86c0648f5b80e48_reading_A (test_fixtures.ReplacementReadings.test_C_test_c86c0648f5b80e48_reading_A)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... ok
+test_C_test_c86c0648f5b80e48_reading_B (test_fixtures.ReplacementReadings.test_C_test_c86c0648f5b80e48_reading_B)
+C-test:c86c0648f5b80e48 [D-eq-object] returns an object whose __eq__ is always True ... ok
+test_C_test_f2a11b6b4efd9c1d_reading_A (test_fixtures.ReplacementReadings.test_C_test_f2a11b6b4efd9c1d_reading_A)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_C_test_f2a11b6b4efd9c1d_reading_B (test_fixtures.ReplacementReadings.test_C_test_f2a11b6b4efd9c1d_reading_B)
+C-test:f2a11b6b4efd9c1d [D-numeric-type] returns 90.0 where the docstring says an int ... ok
+test_hash_seed_grader (test_fixtures.Reproducibility.test_hash_seed_grader) ... expected failure
+test_hash_seed_reference (test_fixtures.Reproducibility.test_hash_seed_reference) ... expected failure
+test_hash_seed_replacement (test_fixtures.Reproducibility.test_hash_seed_replacement) ... FAIL
+test_denominator_is_ten (test_fixtures.RunLevel.test_denominator_is_ten) ... ok
+test_duplicate_rows_count_once_grader (test_fixtures.RunLevel.test_duplicate_rows_count_once_grader) ... expected failure
+test_duplicate_rows_count_once_reference (test_fixtures.RunLevel.test_duplicate_rows_count_once_reference) ... expected failure
+test_duplicate_rows_count_once_replacement (test_fixtures.RunLevel.test_duplicate_rows_count_once_replacement) ... ok
+test_run_survives_unparsable_response_grader (test_fixtures.RunLevel.test_run_survives_unparsable_response_grader) ... expected failure
+test_run_survives_unparsable_response_reference (test_fixtures.RunLevel.test_run_survives_unparsable_response_reference) ... expected failure
+test_run_survives_unparsable_response_replacement (test_fixtures.RunLevel.test_run_survives_unparsable_response_replacement) ... ok
+
+======================================================================
+FAIL: test_hash_seed_replacement (test_fixtures.Reproducibility.test_hash_seed_replacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<run directory>\audit\tests\test_fixtures.py", line 231, in test_hash_seed_replacement
+    self.assertEqual(len(set(verdicts_by_seed("replacement").values())), 1)
+AssertionError: 2 != 1
+
+----------------------------------------------------------------------
+Ran 296 tests in 66.126s
+
+FAILED (failures=1, expected failures=39)

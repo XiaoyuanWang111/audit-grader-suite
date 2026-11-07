@@ -1,0 +1,13 @@
+{"id": "F6_p01", "model": "m", "problem_id": "p01", "response": "Answer: 3.5"}
+{"id": "F6_p02", "model": "m", "problem_id": "p02", "response": "Answer: 486"}
+{"id": "F6_p03", "model": "m", "problem_id": "p03", "response": "Answer: 2250"}
+{"id": "F6_p04", "model": "m", "problem_id": "p04", "response": "Answer: -7"}
+{"id": "F6_p05", "model": "m", "problem_id": "p05", "response": "Answer: 72"}
+{"id": "F6_p06", "model": "m", "problem_id": "p06", "response": "Answer: 0"}
+{"id": "F6_p07", "model": "m", "problem_id": "p07", "response": "Answer: 15000"}
+{"id": "F6_p08", "model": "m", "problem_id": "p08", "response": "Answer: 120"}
+{"id": "F6_p09", "model": "m", "problem_id": "p09", "response": "Answer: 28.8"}
+{"id": "F6_p10", "model": "m", "problem_id": "p10", "response": "Answer: 13"}
+{"id": "F6_p11", "model": "m", "problem_id": "p11", "response": "Answer: 756"}
+{"id": "F6_p12", "model": "m", "problem_id": "p12", "response": "Answer: 15"}
+{"id": "F6_dup", "model": "m", "problem_id": "p01", "response": "Answer: 3.5"}

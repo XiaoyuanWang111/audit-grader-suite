@@ -1,0 +1,15 @@
+{
+ "seed": 20261107,
+ "population": 36,
+ "strata": {
+  "disagree": {
+   "population": 5,
+   "sampled": 5
+  },
+  "agree": {
+   "population": 31,
+   "sampled": 31
+  }
+ },
+ "held_out": "all 36 trials: the replacement was frozen before the panel and not changed after it"
+}

@@ -1,0 +1,418 @@
+{
+ "C7563": {
+  "trial_id": "t08",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C2018": {
+  "trial_id": "t27",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C5724": {
+  "trial_id": "t17",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C9463": {
+  "trial_id": "t33",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C1560": {
+  "trial_id": "t21",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "error",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "fail",
+  "stratum": "disagree"
+ },
+ "C9457": {
+  "fixture_id": "answer:6ad28e34a9536dd7",
+  "fixture_name": "wrong-path-root-41",
+  "label": "fail",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C4062": {
+  "trial_id": "t11",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C2191": {
+  "fixture_id": "answer:a4380d2432896eba",
+  "fixture_name": "answer-is-directory",
+  "label": "fail",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C4493": {
+  "trial_id": "t07",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C9423": {
+  "trial_id": "t23",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C3742": {
+  "trial_id": "t15",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "timeout",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C4887": {
+  "trial_id": "t26",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C2058": {
+  "trial_id": "t05",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "timeout",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C2660": {
+  "fixture_id": "answer:3ec5cdfacff45723",
+  "fixture_name": "text-prefix",
+  "label": "fail",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C3464": {
+  "trial_id": "t06",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C3455": {
+  "trial_id": "t29",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "timeout",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "fail",
+  "stratum": "disagree"
+ },
+ "C1787": {
+  "trial_id": "t31",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C3503": {
+  "trial_id": "t34",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C4803": {
+  "trial_id": "t25",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C6102": {
+  "trial_id": "t04",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C6117": {
+  "trial_id": "t35",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "fail",
+  "stratum": "disagree"
+ },
+ "C7981": {
+  "trial_id": "t19",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C2229": {
+  "trial_id": "t09",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C4375": {
+  "fixture_id": "answer:2db82ba2ca7927ee",
+  "fixture_name": "plus-sign",
+  "label": "pass",
+  "decision": [
+   "D-plus-sign"
+  ],
+  "stratum": "decision"
+ },
+ "C4995": {
+  "trial_id": "t01",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C7740": {
+  "fixture_id": "answer:33b3697b0e841ad5",
+  "fixture_name": "decimal-point",
+  "label": "fail",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C3194": {
+  "fixture_id": "answer:56bd1fb63bd16719",
+  "fixture_name": "nbsp-after",
+  "label": "fail",
+  "decision": [
+   "D-whitespace-set"
+  ],
+  "stratum": "decision"
+ },
+ "C9491": {
+  "trial_id": "t24",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C9654": {
+  "fixture_id": "answer:e8aaf0cfead58a1f",
+  "fixture_name": "info-sep-1c-after",
+  "label": "fail",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C8061": {
+  "fixture_id": "answer:5ba9915cbc7d3286",
+  "fixture_name": "leading-zero",
+  "label": "pass",
+  "decision": [
+   "D-leading-zeros"
+  ],
+  "stratum": "decision"
+ },
+ "C2169": {
+  "trial_id": "t03",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C8323": {
+  "trial_id": "t32",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C8559": {
+  "fixture_id": "answer:82086258e5f28923",
+  "fixture_name": "tab-crlf",
+  "label": "pass",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C3224": {
+  "trial_id": "t36",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C2074": {
+  "fixture_id": "answer:9b40f2d6195e1836",
+  "fixture_name": "utf8-bom",
+  "label": "fail",
+  "decision": [
+   "D-encoding"
+  ],
+  "stratum": "decision"
+ },
+ "C4864": {
+  "trial_id": "t16",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C8233": {
+  "trial_id": "t14",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "error",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "fail",
+  "stratum": "disagree"
+ },
+ "C7986": {
+  "trial_id": "t28",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C3139": {
+  "fixture_id": "answer:cc69c0ed2e2294a2",
+  "fixture_name": "empty-workspace",
+  "label": "fail",
+  "decision": null,
+  "stratum": "calibration"
+ },
+ "C2237": {
+  "trial_id": "t22",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C3857": {
+  "trial_id": "t18",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C1434": {
+  "trial_id": "t20",
+  "source_model": "agentx+osprey-14b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C6426": {
+  "trial_id": "t13",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C7230": {
+  "trial_id": "t12",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "fail",
+  "stratum": "disagree"
+ },
+ "C4564": {
+  "trial_id": "t02",
+  "source_model": "agentx+falcon-70b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C5633": {
+  "trial_id": "t10",
+  "source_model": "agentx+merlin-32b",
+  "agent_status": "completed",
+  "grader_verdict": "pass",
+  "stored_exit": 0,
+  "replacement_verdict": "pass",
+  "stratum": "agree"
+ },
+ "C9504": {
+  "trial_id": "t30",
+  "source_model": "agentx+kestrel-8b",
+  "agent_status": "completed",
+  "grader_verdict": "fail",
+  "stored_exit": 1,
+  "replacement_verdict": "fail",
+  "stratum": "agree"
+ },
+ "C8526": {
+  "fixture_id": "answer:8a2971dd41ca8164",
+  "fixture_name": "spaces-around",
+  "label": "pass",
+  "decision": null,
+  "stratum": "calibration"
+ }
+}

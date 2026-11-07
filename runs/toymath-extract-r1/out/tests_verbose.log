@@ -1,0 +1,359 @@
+test_compare_03787696fdc3c2da (test_fixtures_grade.GradePyFixtures.test_compare_03787696fdc3c2da)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01; also F4: Decimal subtraction rounds the distance to 28 significant digits ... expected failure
+test_compare_11063b6232742a39 (test_fixtures_grade.GradePyFixtures.test_compare_11063b6232742a39)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_16617bfbc271b36f (test_fixtures_grade.GradePyFixtures.test_compare_16617bfbc271b36f)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_310aaa08a7b1e75f (test_fixtures_grade.GradePyFixtures.test_compare_310aaa08a7b1e75f)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_3e55c254c7ab471d (test_fixtures_grade.GradePyFixtures.test_compare_3e55c254c7ab471d)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_4fe7d5cc032be73c (test_fixtures_grade.GradePyFixtures.test_compare_4fe7d5cc032be73c)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_529d4c571da22d82 (test_fixtures_grade.GradePyFixtures.test_compare_529d4c571da22d82)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_5ddaff880789fa44 (test_fixtures_grade.GradePyFixtures.test_compare_5ddaff880789fa44)
+p06 S3.2: outside the tolerance ... ok
+test_compare_5fd80e0c2a892e17 (test_fixtures_grade.GradePyFixtures.test_compare_5fd80e0c2a892e17)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_6dad715a6cc98cca (test_fixtures_grade.GradePyFixtures.test_compare_6dad715a6cc98cca)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_79658af280b39c18 (test_fixtures_grade.GradePyFixtures.test_compare_79658af280b39c18)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_8001e423a0f0f867 (test_fixtures_grade.GradePyFixtures.test_compare_8001e423a0f0f867)
+xfail(strict): F4: Decimal subtraction rounds the distance to 28 significant digits ... expected failure
+test_compare_82da74c0f140fa65 (test_fixtures_grade.GradePyFixtures.test_compare_82da74c0f140fa65)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_89c9e1b58ec04932 (test_fixtures_grade.GradePyFixtures.test_compare_89c9e1b58ec04932)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_8cf3343702094854 (test_fixtures_grade.GradePyFixtures.test_compare_8cf3343702094854)
+p09 S3.2: inside the tolerance ... ok
+test_compare_9ab39be07a289612 (test_fixtures_grade.GradePyFixtures.test_compare_9ab39be07a289612)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_a7aad36b94926e93 (test_fixtures_grade.GradePyFixtures.test_compare_a7aad36b94926e93)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_c378f72df93df5de (test_fixtures_grade.GradePyFixtures.test_compare_c378f72df93df5de)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_c460abf743cbf65c (test_fixtures_grade.GradePyFixtures.test_compare_c460abf743cbf65c)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_compare_c8afa9cabb495651 (test_fixtures_grade.GradePyFixtures.test_compare_c8afa9cabb495651)
+p01 S3.2: inside the tolerance ... ok
+test_compare_ccab9b1f399ae6dd (test_fixtures_grade.GradePyFixtures.test_compare_ccab9b1f399ae6dd)
+p06 S3.3: control: exceeds by 1e-28 ... ok
+test_compare_d6f0c4e71ba992fb (test_fixtures_grade.GradePyFixtures.test_compare_d6f0c4e71ba992fb)
+p01 S3.3: inside by 1e-16: exact arithmetic ... ok
+test_compare_fab1ab8e127e11c7 (test_fixtures_grade.GradePyFixtures.test_compare_fab1ab8e127e11c7)
+p07 S3.2: inside the tolerance ... ok
+test_compare_fcbae4b115f9ea01 (test_fixtures_grade.GradePyFixtures.test_compare_fcbae4b115f9ea01)
+p06 S3.2: inside the tolerance ... ok
+test_decision_3f1742c37d8b7c32 (test_fixtures_grade.GradePyFixtures.test_decision_3f1742c37d8b7c32)
+p01 S3.2: distance exactly 0.01 ... ok
+test_decision_5457236f1c40753b (test_fixtures_grade.GradePyFixtures.test_decision_5457236f1c40753b)
+p02 S1.2: no-break space before the label ... ok
+test_decision_6b274d1cfcad5aa2 (test_fixtures_grade.GradePyFixtures.test_decision_6b274d1cfcad5aa2)
+p09 S3.2: distance exactly 0.01 ... ok
+test_decision_74a11837097104f4 (test_fixtures_grade.GradePyFixtures.test_decision_74a11837097104f4)
+p09 S2.5: unit word after the number ... ok
+test_decision_866c80c5727310f0 (test_fixtures_grade.GradePyFixtures.test_decision_866c80c5727310f0)
+xfail(strict): decision D-digits: grade.py's verdict is reading (b) ... expected failure
+test_decision_8853c5f3235d230d (test_fixtures_grade.GradePyFixtures.test_decision_8853c5f3235d230d)
+p02 S1.2: ideographic space before the label ... ok
+test_decision_8f43a14b51043cab (test_fixtures_grade.GradePyFixtures.test_decision_8f43a14b51043cab)
+p09 S3.2: distance exactly 0.01 ... ok
+test_decision_92c8efa67dece525 (test_fixtures_grade.GradePyFixtures.test_decision_92c8efa67dece525)
+p07 S3.2: distance exactly 0.01 ... ok
+test_decision_9b433c6d4f7c0929 (test_fixtures_grade.GradePyFixtures.test_decision_9b433c6d4f7c0929)
+xfail(strict): decision D-comma-grouping: grade.py's verdict is reading (b) ... expected failure
+test_decision_a1e325893b74641d (test_fixtures_grade.GradePyFixtures.test_decision_a1e325893b74641d)
+p06 S3.2: distance exactly 0.01 ... ok
+test_decision_a706c37343283b45 (test_fixtures_grade.GradePyFixtures.test_decision_a706c37343283b45)
+p02 S2.3: second label in the same line ... ok
+test_decision_af353724d47e0dbf (test_fixtures_grade.GradePyFixtures.test_decision_af353724d47e0dbf)
+p04 S3.2: distance exactly 0.01 ... ok
+test_decision_b52195406e23061b (test_fixtures_grade.GradePyFixtures.test_decision_b52195406e23061b)
+xfail(strict): decision D-digits: grade.py's verdict is reading (b) ... expected failure
+test_decision_b9cf639e001f4b71 (test_fixtures_grade.GradePyFixtures.test_decision_b9cf639e001f4b71)
+p01 S2.3: first 3.5, last 20 ... ok
+test_decision_c93ff296657d93c5 (test_fixtures_grade.GradePyFixtures.test_decision_c93ff296657d93c5)
+p11 S2.3: first 7, last 756 ... ok
+test_decision_ca8df0fc1fb476cf (test_fixtures_grade.GradePyFixtures.test_decision_ca8df0fc1fb476cf)
+p12 S2.3: first 15, last 5 ... ok
+test_decision_cba2cbe410593e89 (test_fixtures_grade.GradePyFixtures.test_decision_cba2cbe410593e89)
+p02 S2.5: unit word after the number ... ok
+test_decision_d032b482a57fcce0 (test_fixtures_grade.GradePyFixtures.test_decision_d032b482a57fcce0)
+p04 S3.2: distance exactly 0.01 ... ok
+test_decision_d174c93633b1230d (test_fixtures_grade.GradePyFixtures.test_decision_d174c93633b1230d)
+xfail(strict): decision D-comma-grouping: grade.py's verdict is reading (b) ... expected failure
+test_decision_de48efe47615d3ea (test_fixtures_grade.GradePyFixtures.test_decision_de48efe47615d3ea)
+xfail(strict): decision D-digits: grade.py's verdict is reading (b) ... expected failure
+test_decision_dff1c91cdcba6e85 (test_fixtures_grade.GradePyFixtures.test_decision_dff1c91cdcba6e85)
+p01 S3.2: distance exactly 0.01 ... ok
+test_decision_fb8304b36afb3390 (test_fixtures_grade.GradePyFixtures.test_decision_fb8304b36afb3390)
+p03 S2.3: first 2500, last 2250 ... ok
+test_free_0ce088506175ad15 (test_fixtures_grade.GradePyFixtures.test_free_0ce088506175ad15)
+p02 S1.5: repeated word ... ok
+test_free_17d9742f116e82ea (test_fixtures_grade.GradePyFixtures.test_free_17d9742f116e82ea)
+p05 S2.3: number list: first 0, last 72 (correct only under D-multiple-numbers b) ... ok
+test_free_1df82e5f777cebfa (test_fixtures_grade.GradePyFixtures.test_free_1df82e5f777cebfa)
+p05 S1.3: right number only in the reasoning ... ok
+test_free_301859a7c74fdb79 (test_fixtures_grade.GradePyFixtures.test_free_301859a7c74fdb79)
+p05 S1.5: right number but no answer line ... ok
+test_free_4d991b2b2d212577 (test_fixtures_grade.GradePyFixtures.test_free_4d991b2b2d212577)
+p02 S1.5: empty response ... ok
+test_free_96e801184074811e (test_fixtures_grade.GradePyFixtures.test_free_96e801184074811e)
+p02 S2.4: restated prompt: its answer line has no number ... ok
+test_free_bf7d5fea24b1cd26 (test_fixtures_grade.GradePyFixtures.test_free_bf7d5fea24b1cd26)
+p02 S1.5: whitespace only ... ok
+test_free_d2683619a19b6bff (test_fixtures_grade.GradePyFixtures.test_free_d2683619a19b6bff)
+p05 S2.3: every reference answer on one line: first 3.5, last 15, neither is 72 ... ok
+test_free_e6f5db7c6c7adcda (test_fixtures_grade.GradePyFixtures.test_free_e6f5db7c6c7adcda)
+p05 S1.3: three answer lines, last is 486 ... ok
+test_free_eb9a5cd333614d8f (test_fixtures_grade.GradePyFixtures.test_free_eb9a5cd333614d8f)
+p02 S2.4: restated answer template ... ok
+test_line_0491fb840ad254db (test_fixtures_grade.GradePyFixtures.test_line_0491fb840ad254db)
+p02 S1.4: blockquote marker before the label ... ok
+test_line_095fe7dbf22b1334 (test_fixtures_grade.GradePyFixtures.test_line_095fe7dbf22b1334)
+p02 S1.2: no space after the colon ... ok
+test_line_0ac80c7a0ffa253b (test_fixtures_grade.GradePyFixtures.test_line_0ac80c7a0ffa253b)
+p02 S1.2: control: reasoning then answer line ... ok
+test_line_0c6b99f12fc1dceb (test_fixtures_grade.GradePyFixtures.test_line_0c6b99f12fc1dceb)
+p02 S1.4: space before the colon ... ok
+test_line_16e7f7806f20ac2d (test_fixtures_grade.GradePyFixtures.test_line_16e7f7806f20ac2d)
+p02 S1.1: U+001C is a line boundary ... ok
+test_line_206205de84378a7a (test_fixtures_grade.GradePyFixtures.test_line_206205de84378a7a)
+p02 S1.1: U+2028 is a line boundary ... ok
+test_line_20f0257ef1216bcc (test_fixtures_grade.GradePyFixtures.test_line_20f0257ef1216bcc)
+p02 S1.4: Answers: is not Answer: ... ok
+test_line_2691f93d823418cc (test_fixtures_grade.GradePyFixtures.test_line_2691f93d823418cc)
+p02 S1.2: leading tab is allowed ... ok
+test_line_2e85cf3149fcee20 (test_fixtures_grade.GradePyFixtures.test_line_2e85cf3149fcee20)
+p02 S2.4: last answer line has no number ... ok
+test_line_3472873c7c73a35f (test_fixtures_grade.GradePyFixtures.test_line_3472873c7c73a35f)
+p02 S1.1: U+0085 NEL is a line boundary ... ok
+test_line_36464b7a70d723ed (test_fixtures_grade.GradePyFixtures.test_line_36464b7a70d723ed)
+p02 S1.1: CR splits the number's line: 4 ... ok
+test_line_38109147f96ae6e6 (test_fixtures_grade.GradePyFixtures.test_line_38109147f96ae6e6)
+p02 S1.4: list marker before the label ... ok
+test_line_40c579b561f19a21 (test_fixtures_grade.GradePyFixtures.test_line_40c579b561f19a21)
+p02 S1.4: byte-order mark is not whitespace ... ok
+test_line_448e58b80651ecf5 (test_fixtures_grade.GradePyFixtures.test_line_448e58b80651ecf5)
+p02 S1.3: last answer line wins, wrong ... ok
+test_line_450e101d55f1240a (test_fixtures_grade.GradePyFixtures.test_line_450e101d55f1240a)
+p02 S1.4: upper case is not an answer line ... ok
+test_line_45f6593d161c6fb5 (test_fixtures_grade.GradePyFixtures.test_line_45f6593d161c6fb5)
+p02 S2.4: last answer line has no number ... ok
+test_line_460a2a7b9ee96ee9 (test_fixtures_grade.GradePyFixtures.test_line_460a2a7b9ee96ee9)
+p02 S1.1: CRLF line ends ... ok
+test_line_4bdccce1d177b839 (test_fixtures_grade.GradePyFixtures.test_line_4bdccce1d177b839)
+p02 S1.4: zero-width space is not whitespace ... ok
+test_line_54c0ab2cd41810c0 (test_fixtures_grade.GradePyFixtures.test_line_54c0ab2cd41810c0)
+p02 S1.2: leading spaces are allowed ... ok
+test_line_55cb82d374e9a9c8 (test_fixtures_grade.GradePyFixtures.test_line_55cb82d374e9a9c8)
+p02 S2.1: text after the prefix is ': 486' ... ok
+test_line_69bcaa90907ab4c2 (test_fixtures_grade.GradePyFixtures.test_line_69bcaa90907ab4c2)
+p02 S1.3: last answer line wins ... ok
+test_line_6dd8c93ce8479a31 (test_fixtures_grade.GradePyFixtures.test_line_6dd8c93ce8479a31)
+p02 S1.1: U+2029 ends the line ... ok
+test_line_6e3179d47c226253 (test_fixtures_grade.GradePyFixtures.test_line_6e3179d47c226253)
+p02 S1.3: code fence after the answer line ... ok
+test_line_8d4ba13e71bccd01 (test_fixtures_grade.GradePyFixtures.test_line_8d4ba13e71bccd01)
+p02 S1.4: lower case is not an answer line ... ok
+test_line_9562d262013823e8 (test_fixtures_grade.GradePyFixtures.test_line_9562d262013823e8)
+p02 S1.4: fullwidth colon ... ok
+test_line_96fa1d1ecd8d5683 (test_fixtures_grade.GradePyFixtures.test_line_96fa1d1ecd8d5683)
+p02 S1.2: control: answer line only ... ok
+test_line_9b6c0e1050455b3e (test_fixtures_grade.GradePyFixtures.test_line_9b6c0e1050455b3e)
+p02 S1.1: CR alone is a line boundary ... ok
+test_line_b27d769d341e7ffe (test_fixtures_grade.GradePyFixtures.test_line_b27d769d341e7ffe)
+p02 S1.2: label in mid-line ... ok
+test_line_b79e9b5d2c8652d2 (test_fixtures_grade.GradePyFixtures.test_line_b79e9b5d2c8652d2)
+p02 S2.4: number on the next line does not count ... ok
+test_line_ceb0043b2062dad6 (test_fixtures_grade.GradePyFixtures.test_line_ceb0043b2062dad6)
+p02 S1.3: lines after the answer line are ignored ... ok
+test_line_dd8f0c9f26e6fc54 (test_fixtures_grade.GradePyFixtures.test_line_dd8f0c9f26e6fc54)
+p02 S1.1: vertical tab is a line boundary ... ok
+test_line_e33fec5284f98777 (test_fixtures_grade.GradePyFixtures.test_line_e33fec5284f98777)
+p02 S1.1: form feed is a line boundary ... ok
+test_line_e48b9a85010248b4 (test_fixtures_grade.GradePyFixtures.test_line_e48b9a85010248b4)
+p02 S1.4: bold label does not begin with Answer: ... ok
+test_line_e597fe2b36df080e (test_fixtures_grade.GradePyFixtures.test_line_e597fe2b36df080e)
+p02 S1.4: line begins with Final ... ok
+test_line_e68b845ca45f761f (test_fixtures_grade.GradePyFixtures.test_line_e68b845ca45f761f)
+p02 S1.5: no answer line at all ... ok
+test_line_ff71ae6ff9472713 (test_fixtures_grade.GradePyFixtures.test_line_ff71ae6ff9472713)
+p02 S1.1: trailing blank lines ... ok
+test_number_04d4707df9d9c010 (test_fixtures_grade.GradePyFixtures.test_number_04d4707df9d9c010)
+p01 S2.5: no digit before the point: 5 ... ok
+test_number_0e7d92f33bea1048 (test_fixtures_grade.GradePyFixtures.test_number_0e7d92f33bea1048)
+xfail(strict): F1: commas end the number ... expected failure
+test_number_14abb35b5eb94ed0 (test_fixtures_grade.GradePyFixtures.test_number_14abb35b5eb94ed0)
+p01 S2.5: unit word ... ok
+test_number_1dfa47e6d50f56b8 (test_fixtures_grade.GradePyFixtures.test_number_1dfa47e6d50f56b8)
+p05 S2.5: plus sign is not part of the number ... ok
+test_number_28c2ebf3dff11b7a (test_fixtures_grade.GradePyFixtures.test_number_28c2ebf3dff11b7a)
+p04 S2.5: unit words after the number ... ok
+test_number_2b621818cf2ed981 (test_fixtures_grade.GradePyFixtures.test_number_2b621818cf2ed981)
+p01 S2.5: sentence period after a decimal ... ok
+test_number_2c453ea6b027226a (test_fixtures_grade.GradePyFixtures.test_number_2c453ea6b027226a)
+p11 S2.2: control ... ok
+test_number_36b444d072151fdc (test_fixtures_grade.GradePyFixtures.test_number_36b444d072151fdc)
+p02 S3.2: wrong magnitude ... ok
+test_number_434f3a57cffa057e (test_fixtures_grade.GradePyFixtures.test_number_434f3a57cffa057e)
+p05 S2.5: unit after the number ... ok
+test_number_4f87d3adab4fe85a (test_fixtures_grade.GradePyFixtures.test_number_4f87d3adab4fe85a)
+p04 S2.5: en dash is not hyphen-minus: 7 ... ok
+test_number_502b35aefd4d3ec3 (test_fixtures_grade.GradePyFixtures.test_number_502b35aefd4d3ec3)
+p10 S2.5: unit word ... ok
+test_number_522844f5070e8823 (test_fixtures_grade.GradePyFixtures.test_number_522844f5070e8823)
+p07 S2.5: space is not a separator: 15 ... ok
+test_number_5a9707d40888091b (test_fixtures_grade.GradePyFixtures.test_number_5a9707d40888091b)
+p01 S2.2: trailing zero ... ok
+test_number_5c0f6ff4835e46d3 (test_fixtures_grade.GradePyFixtures.test_number_5c0f6ff4835e46d3)
+p06 S2.2: negative zero equals zero ... ok
+test_number_68a68bd1cfa89b8b (test_fixtures_grade.GradePyFixtures.test_number_68a68bd1cfa89b8b)
+p07 S2.5: suffix k: 15 ... ok
+test_number_71c714f04005fff5 (test_fixtures_grade.GradePyFixtures.test_number_71c714f04005fff5)
+xfail(strict): F1: commas end the number ... expected failure
+test_number_7232d5dcadd174db (test_fixtures_grade.GradePyFixtures.test_number_7232d5dcadd174db)
+p04 S2.5: U+2212 minus sign is not hyphen-minus: 7 ... ok
+test_number_7602c52643ab4fff (test_fixtures_grade.GradePyFixtures.test_number_7602c52643ab4fff)
+p07 S2.2: control: plain digits ... ok
+test_number_772550e08fedd288 (test_fixtures_grade.GradePyFixtures.test_number_772550e08fedd288)
+p04 S2.2: control: negative ... ok
+test_number_85c39589f1633e65 (test_fixtures_grade.GradePyFixtures.test_number_85c39589f1633e65)
+xfail(strict): F1: commas end the number ... expected failure
+test_number_87e17a1a4ef3f1ee (test_fixtures_grade.GradePyFixtures.test_number_87e17a1a4ef3f1ee)
+p05 S2.2: leading zero ... ok
+test_number_954426fb5bfb849e (test_fixtures_grade.GradePyFixtures.test_number_954426fb5bfb849e)
+p01 S2.5: currency symbol ... ok
+test_number_96f8a8207b850d38 (test_fixtures_grade.GradePyFixtures.test_number_96f8a8207b850d38)
+p12 S2.5: bold number ... ok
+test_number_973d7c24914cc93c (test_fixtures_grade.GradePyFixtures.test_number_973d7c24914cc93c)
+p05 S2.5: sentence period after the number ... ok
+test_number_9f96940c25fcd120 (test_fixtures_grade.GradePyFixtures.test_number_9f96940c25fcd120)
+p07 S2.5: no exponent in the grammar: 1.5 ... ok
+test_number_a06dab316200a8be (test_fixtures_grade.GradePyFixtures.test_number_a06dab316200a8be)
+xfail(strict): F1: commas end the number ... expected failure
+test_number_a26fcbfa07f386cd (test_fixtures_grade.GradePyFixtures.test_number_a26fcbfa07f386cd)
+p07 S2.5: point is a decimal point: 15 ... ok
+test_number_a94511b656647b3f (test_fixtures_grade.GradePyFixtures.test_number_a94511b656647b3f)
+p02 S3.2: wrong magnitude ... ok
+test_number_ab7d77e6bcef4518 (test_fixtures_grade.GradePyFixtures.test_number_ab7d77e6bcef4518)
+p09 S2.5: decimal comma: 288 (or 28 under D-comma-grouping b) ... ok
+test_number_ac439f399c502cd7 (test_fixtures_grade.GradePyFixtures.test_number_ac439f399c502cd7)
+p09 S2.2: trailing zero ... ok
+test_number_ad66fbba3b92ed12 (test_fixtures_grade.GradePyFixtures.test_number_ad66fbba3b92ed12)
+p06 S2.5: number word ... ok
+test_number_afa5e7115b04a1e9 (test_fixtures_grade.GradePyFixtures.test_number_afa5e7115b04a1e9)
+p04 S2.5: space after the hyphen: 7 ... ok
+test_number_afd5086b80566645 (test_fixtures_grade.GradePyFixtures.test_number_afd5086b80566645)
+p06 S2.2: decimal zero ... ok
+test_number_b4c49f745c1a4991 (test_fixtures_grade.GradePyFixtures.test_number_b4c49f745c1a4991)
+p08 S2.5: superscript two is not a digit ... ok
+test_number_bc852b9666e26fbe (test_fixtures_grade.GradePyFixtures.test_number_bc852b9666e26fbe)
+p04 S3.2: sign dropped ... ok
+test_number_bd8b2987e6072a1a (test_fixtures_grade.GradePyFixtures.test_number_bd8b2987e6072a1a)
+p03 S2.5: unit word ... ok
+test_number_c19bdc561e23a994 (test_fixtures_grade.GradePyFixtures.test_number_c19bdc561e23a994)
+p12 S2.5: unit word ... ok
+test_number_c979d1df58ca2d28 (test_fixtures_grade.GradePyFixtures.test_number_c979d1df58ca2d28)
+p10 S2.2: decimal zero ... ok
+test_number_c9a8b4262725474c (test_fixtures_grade.GradePyFixtures.test_number_c9a8b4262725474c)
+p07 S2.5: no exponent in the grammar: 1.5 ... ok
+test_number_d039ec1b55209b76 (test_fixtures_grade.GradePyFixtures.test_number_d039ec1b55209b76)
+p04 S2.5: degree sign after the number ... ok
+test_number_d5848c6866b9867a (test_fixtures_grade.GradePyFixtures.test_number_d5848c6866b9867a)
+p12 S2.5: LaTeX box ... ok
+test_number_d988f94fb693fa4a (test_fixtures_grade.GradePyFixtures.test_number_d988f94fb693fa4a)
+p01 S2.5: comma is not a decimal point: 35 (or 3 under D-comma-grouping b) ... ok
+test_number_da2b2f471d903579 (test_fixtures_grade.GradePyFixtures.test_number_da2b2f471d903579)
+xfail(strict): F1: commas end the number ... expected failure
+test_number_edb8b1ffdc7d01ce (test_fixtures_grade.GradePyFixtures.test_number_edb8b1ffdc7d01ce)
+p05 S2.2: decimal zero ... ok
+test_number_ee0b585e063fed97 (test_fixtures_grade.GradePyFixtures.test_number_ee0b585e063fed97)
+p07 S2.5: no exponent in the grammar: 15 ... ok
+test_number_ee919c5d8900a606 (test_fixtures_grade.GradePyFixtures.test_number_ee919c5d8900a606)
+xfail(strict): F1: commas end the number ... expected failure
+test_number_f61c98d3a66a23a5 (test_fixtures_grade.GradePyFixtures.test_number_f61c98d3a66a23a5)
+p12 S2.5: number word ... ok
+test_number_fc72a8f69a84cf81 (test_fixtures_grade.GradePyFixtures.test_number_fc72a8f69a84cf81)
+p06 S2.2: control: zero ... ok
+test_number_fe5fab5ed8839391 (test_fixtures_grade.GradePyFixtures.test_number_fe5fab5ed8839391)
+xfail(strict): F1: commas end the number ... expected failure
+test_robust_0802255f3e5fe9cb (test_fixtures_grade.GradePyFixtures.test_robust_0802255f3e5fe9cb)
+p02 S4.4: NUL after the number ... ok
+test_robust_0f305b4a303241cd (test_fixtures_grade.GradePyFixtures.test_robust_0f305b4a303241cd)
+p02 S4.4: 20,000 trailing newlines ... ok
+test_robust_2521edd52fdc50ec (test_fixtures_grade.GradePyFixtures.test_robust_2521edd52fdc50ec)
+p02 S4.4: 200,000-character line ... ok
+test_robust_3f1d7db58390866a (test_fixtures_grade.GradePyFixtures.test_robust_3f1d7db58390866a)
+p02 S4.4: 5,000 zeros after the point ... ok
+test_robust_f15181ef32eed702 (test_fixtures_grade.GradePyFixtures.test_robust_f15181ef32eed702)
+p02 S4.4: 5,000-digit number ... ok
+test_P1 (test_properties.GradePyProperties.test_P1)
+xfail(strict): F1: commas end the number ... expected failure
+test_P10 (test_properties.GradePyProperties.test_P10) ... ok
+test_P2 (test_properties.GradePyProperties.test_P2) ... ok
+test_P3 (test_properties.GradePyProperties.test_P3) ... ok
+test_P4 (test_properties.GradePyProperties.test_P4) ... ok
+test_P5 (test_properties.GradePyProperties.test_P5) ... ok
+test_P6 (test_properties.GradePyProperties.test_P6) ... ok
+test_P7 (test_properties.GradePyProperties.test_P7)
+xfail(strict): F2: tolerance is 1% of the reference, not 0.01 ... expected failure
+test_P8 (test_properties.GradePyProperties.test_P8) ... ok
+test_P9 (test_properties.GradePyProperties.test_P9) ... ok
+test_P1 (test_properties.ReferenceProperties.test_P1) ... ok
+test_P10 (test_properties.ReferenceProperties.test_P10) ... ok
+test_P2 (test_properties.ReferenceProperties.test_P2) ... ok
+test_P3 (test_properties.ReferenceProperties.test_P3) ... ok
+test_P4 (test_properties.ReferenceProperties.test_P4) ... ok
+test_P5 (test_properties.ReferenceProperties.test_P5) ... ok
+test_P6 (test_properties.ReferenceProperties.test_P6) ... ok
+test_P7 (test_properties.ReferenceProperties.test_P7) ... ok
+test_P8 (test_properties.ReferenceProperties.test_P8) ... ok
+test_P9 (test_properties.ReferenceProperties.test_P9) ... ok
+test_P1 (test_properties.ReplacementProperties.test_P1) ... ok
+test_P10 (test_properties.ReplacementProperties.test_P10) ... ok
+test_P2 (test_properties.ReplacementProperties.test_P2) ... ok
+test_P3 (test_properties.ReplacementProperties.test_P3) ... ok
+test_P4 (test_properties.ReplacementProperties.test_P4) ... ok
+test_P5 (test_properties.ReplacementProperties.test_P5) ... ok
+test_P6 (test_properties.ReplacementProperties.test_P6) ... ok
+test_P7 (test_properties.ReplacementProperties.test_P7) ... ok
+test_P8 (test_properties.ReplacementProperties.test_P8) ... ok
+test_P9 (test_properties.ReplacementProperties.test_P9) ... ok
+test_each_reading_b (test_replacement.ReplacementFixtures.test_each_reading_b) ... ok
+test_proposed_readings (test_replacement.ReplacementFixtures.test_proposed_readings) ... ok
+test_big_number_alone (test_robustness.GradePyRobustness.test_big_number_alone)
+xfail(strict): F5: decimal.Overflow on an answer with 1,000,000 or more integer digits ... expected failure
+test_one_bad_response_does_not_stop_the_run (test_robustness.GradePyRobustness.test_one_bad_response_does_not_stop_the_run)
+xfail(strict): F5: one such response ends the run before any verdict or score is written ... expected failure
+test_big_number_alone (test_robustness.ReferenceRobustness.test_big_number_alone)
+xfail(strict): F5: decimal.Overflow in the reference as well ... expected failure
+test_big_number_alone (test_robustness.ReplacementRobustness.test_big_number_alone) ... ok
+test_sc1_no_answer_counts_in_denominator (test_score.GradePyScore.test_sc1_no_answer_counts_in_denominator)
+xfail(strict): F3: grade.py drops no_answer from the denominator ... expected failure
+test_sc2_missing_problem_counts_as_not_correct (test_score.GradePyScore.test_sc2_missing_problem_counts_as_not_correct)
+xfail(strict): F3: grade.py's denominator is the graded responses, not the 12 problems ... expected failure
+test_sc3_all_no_answer_scores_zero (test_score.GradePyScore.test_sc3_all_no_answer_scores_zero) ... ok
+test_sc4_abstaining_does_not_raise_the_score (test_score.GradePyScore.test_sc4_abstaining_does_not_raise_the_score)
+xfail(strict): F3: replacing a wrong answer with an empty response raises grade.py's score from 75.0 to 100.0 ... expected failure
+test_sc5_duplicate_does_not_count_twice (test_score.GradePyScore.test_sc5_duplicate_does_not_count_twice)
+xfail(strict): F6: grade.py counts a second response to p01, and F3 drops the missing p12 ... expected failure
+test_sc6_duplicate_score_at_most_100 (test_score.GradePyScore.test_sc6_duplicate_score_at_most_100) ... ok
+test_sc7_unknown_problem_rejected_or_not_counted (test_score.GradePyScore.test_sc7_unknown_problem_rejected_or_not_counted) ... ok
+test_sc1 (test_score.ReferenceScore.test_sc1) ... ok
+test_sc2 (test_score.ReferenceScore.test_sc2) ... ok
+test_sc4 (test_score.ReferenceScore.test_sc4) ... ok
+test_sc5_duplicate_does_not_count_twice (test_score.ReferenceScore.test_sc5_duplicate_does_not_count_twice)
+xfail(strict): F6: the reference counts a second response to p01 and scores 12 of 12 ... expected failure
+test_sc6_duplicate_score_at_most_100 (test_score.ReferenceScore.test_sc6_duplicate_score_at_most_100)
+xfail(strict): F6: the reference counts 13 correct of 12 problems and prints 108.3 ... expected failure
+test_sc7_unknown_problem_rejected_or_not_counted (test_score.ReferenceScore.test_sc7_unknown_problem_rejected_or_not_counted) ... ok
+test_sc1_to_sc4 (test_score.ReplacementScore.test_sc1_to_sc4) ... ok
+test_sc5_to_sc7_rejected (test_score.ReplacementScore.test_sc5_to_sc7_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 197 tests in 3.925s
+
+OK (expected failures=40)

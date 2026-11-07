@@ -1,0 +1,271 @@
+test_ideographic_space (__main__.DecisionClassification.test_ideographic_space)
+answer-file:6d22bd442584a7c1 ideographic-space: grader verdict = D-whitespace reading B ... ok
+test_leading_zeros_5001_digits (__main__.DecisionClassification.test_leading_zeros_5001_digits)
+answer-file:18217fc43af8aa26 leading-zeros-5001-digits: grader verdict = D-leading-zeros reading B ... ok
+test_nbsp (__main__.DecisionClassification.test_nbsp)
+answer-file:8bff1229c60659c1 nbsp: grader verdict = D-whitespace reading B ... ok
+test_nel (__main__.DecisionClassification.test_nel)
+answer-file:3fb1a0c93693f7d3 nel: grader verdict = D-whitespace reading B ... ok
+test_plus_sign (__main__.DecisionClassification.test_plus_sign)
+answer-file:322dc576d4dd86bc plus-sign: grader verdict = D-plus-sign reading B ... ok
+test_arabic_indic_digits (__main__.EncodingInvariance.test_arabic_indic_digits)
+answer-file:1a5c933b929fc8ca arabic-indic-digits ... ok
+test_fullwidth_digits (__main__.EncodingInvariance.test_fullwidth_digits)
+answer-file:95404323377ab41b fullwidth-digits ... ok
+test_ideographic_space (__main__.EncodingInvariance.test_ideographic_space)
+answer-file:6d22bd442584a7c1 ideographic-space ... ok
+test_info_separator_1c (__main__.EncodingInvariance.test_info_separator_1c)
+answer-file:ebaf2abe664110c0 info-separator-1c ... ok
+test_instruction_restatement (__main__.EncodingInvariance.test_instruction_restatement)
+answer-file:33bb623c4d4cc58f instruction-restatement ... ok
+test_invalid_utf8 (__main__.EncodingInvariance.test_invalid_utf8)
+answer-file:1e022f3b08367203 invalid-utf8 ... ok
+test_lf (__main__.EncodingInvariance.test_lf)
+answer-file:507de4dab8cd6ff5 lf ... ok
+test_nbsp (__main__.EncodingInvariance.test_nbsp)
+answer-file:8bff1229c60659c1 nbsp ... ok
+test_nel (__main__.EncodingInvariance.test_nel)
+answer-file:3fb1a0c93693f7d3 nel ... ok
+test_nul_after (__main__.EncodingInvariance.test_nul_after)
+answer-file:d3c92de02a78effd nul-after ... ok
+test_utf16_bom (__main__.EncodingInvariance.test_utf16_bom)
+answer-file:f23dbcc5bf192eea utf16-bom ... ok
+test_utf8_bom (__main__.EncodingInvariance.test_utf8_bom)
+answer-file:9d060c5829cff97c utf8-bom ... ok
+test_answer_is_directory (__main__.ReplacementFixtures.test_answer_is_directory)
+answer-file:95d28e0cc997f823 answer-is-directory ... ok
+test_arabic_indic_digits (__main__.ReplacementFixtures.test_arabic_indic_digits)
+answer-file:1a5c933b929fc8ca arabic-indic-digits ... ok
+test_both_paths_out_right (__main__.ReplacementFixtures.test_both_paths_out_right)
+answer-file:c016f4cc98aa9505 both-paths-out-right ... ok
+test_both_paths_out_wrong (__main__.ReplacementFixtures.test_both_paths_out_wrong)
+answer-file:6a9823745a460f89 both-paths-out-wrong ... ok
+test_comma (__main__.ReplacementFixtures.test_comma)
+answer-file:38b6049ce254dc00 comma ... ok
+test_crlf (__main__.ReplacementFixtures.test_crlf)
+answer-file:3eafdda8d6a5e70c crlf ... ok
+test_dangling_symlink (__main__.ReplacementFixtures.test_dangling_symlink)
+answer-file:47274acbf3e10392 dangling-symlink ... skipped 'this host cannot create symbolic links'
+test_dir_at_answer_path_and_root_answer (__main__.ReplacementFixtures.test_dir_at_answer_path_and_root_answer)
+answer-file:de59d63ef63e5068 dir-at-answer-path-and-root-answer ... ok
+test_empty (__main__.ReplacementFixtures.test_empty)
+answer-file:916331f4e90339fd empty ... ok
+test_exponent (__main__.ReplacementFixtures.test_exponent)
+answer-file:4b08baa56116f9d2 exponent ... ok
+test_extra_files (__main__.ReplacementFixtures.test_extra_files)
+answer-file:b0b21b421f1fb207 extra-files ... ok
+test_float (__main__.ReplacementFixtures.test_float)
+answer-file:94c3bb070ce2b7fc float ... ok
+test_fullwidth_digits (__main__.ReplacementFixtures.test_fullwidth_digits)
+answer-file:95404323377ab41b fullwidth-digits ... ok
+test_hex (__main__.ReplacementFixtures.test_hex)
+answer-file:1d13102fc6d0c4a3 hex ... ok
+test_huge_wrong_number (__main__.ReplacementFixtures.test_huge_wrong_number)
+answer-file:c1f5ed23c2682eb5 huge-wrong-number ... ok
+test_ideographic_space (__main__.ReplacementFixtures.test_ideographic_space)
+answer-file:6d22bd442584a7c1 ideographic-space ... ok
+test_info_separator_1c (__main__.ReplacementFixtures.test_info_separator_1c)
+answer-file:ebaf2abe664110c0 info-separator-1c ... ok
+test_info_separator_1f_leading (__main__.ReplacementFixtures.test_info_separator_1f_leading)
+answer-file:c4c37c497ba93069 info-separator-1f-leading ... ok
+test_inner_space (__main__.ReplacementFixtures.test_inner_space)
+answer-file:87e4822a687dd031 inner-space ... ok
+test_instruction_restatement (__main__.ReplacementFixtures.test_instruction_restatement)
+answer-file:33bb623c4d4cc58f instruction-restatement ... ok
+test_invalid_utf8 (__main__.ReplacementFixtures.test_invalid_utf8)
+answer-file:1e022f3b08367203 invalid-utf8 ... ok
+test_label_colon (__main__.ReplacementFixtures.test_label_colon)
+answer-file:523d0e016ea1d6e6 label-colon ... ok
+test_leading_whitespace (__main__.ReplacementFixtures.test_leading_whitespace)
+answer-file:02e2cd81936518b9 leading-whitespace ... ok
+test_leading_zero (__main__.ReplacementFixtures.test_leading_zero)
+answer-file:3f66c9b50c9aac3b leading-zero ... ok
+test_leading_zeros_5001_digits (__main__.ReplacementFixtures.test_leading_zeros_5001_digits)
+answer-file:18217fc43af8aa26 leading-zeros-5001-digits ... ok
+test_lf (__main__.ReplacementFixtures.test_lf)
+answer-file:507de4dab8cd6ff5 lf ... ok
+test_many_newlines (__main__.ReplacementFixtures.test_many_newlines)
+answer-file:aebd69d48574bfde many-newlines ... ok
+test_missing_no_out_dir (__main__.ReplacementFixtures.test_missing_no_out_dir)
+answer-file:d8f9430642993653 missing-no-out-dir ... ok
+test_missing_notes_only (__main__.ReplacementFixtures.test_missing_notes_only)
+answer-file:87f244f6c26be477 missing-notes-only ... ok
+test_missing_out_empty (__main__.ReplacementFixtures.test_missing_out_empty)
+answer-file:63b0aeed606ecf87 missing-out-empty ... ok
+test_nbsp (__main__.ReplacementFixtures.test_nbsp)
+answer-file:8bff1229c60659c1 nbsp ... ok
+test_negative (__main__.ReplacementFixtures.test_negative)
+answer-file:a5021218382ed34c negative ... ok
+test_nel (__main__.ReplacementFixtures.test_nel)
+answer-file:3fb1a0c93693f7d3 nel ... ok
+test_no_newline (__main__.ReplacementFixtures.test_no_newline)
+answer-file:4f70ee236f53e575 no-newline ... ok
+test_nul_after (__main__.ReplacementFixtures.test_nul_after)
+answer-file:d3c92de02a78effd nul-after ... ok
+test_nul_inside (__main__.ReplacementFixtures.test_nul_inside)
+answer-file:9e319358001485a3 nul-inside ... ok
+test_plus_sign (__main__.ReplacementFixtures.test_plus_sign)
+answer-file:322dc576d4dd86bc plus-sign ... ok
+test_python3_shadowed_on_path (__main__.ReplacementFixtures.test_python3_shadowed_on_path)
+answer-file:918bd010e9cff4fb python3-shadowed-on-path ... ok
+test_repeated_count_lines (__main__.ReplacementFixtures.test_repeated_count_lines)
+answer-file:121231a1c8be7c0f repeated-count-lines ... ok
+test_repeated_count_one_line (__main__.ReplacementFixtures.test_repeated_count_one_line)
+answer-file:2ce230d216b07c74 repeated-count-one-line ... ok
+test_symlink_in_workspace (__main__.ReplacementFixtures.test_symlink_in_workspace)
+answer-file:1764ac6b98422dcb symlink-in-workspace ... skipped 'this host cannot create symbolic links'
+test_symlink_to_expected_json (__main__.ReplacementFixtures.test_symlink_to_expected_json)
+answer-file:ca3d7f08ead99b6d symlink-to-expected-json ... skipped 'this host cannot create symbolic links'
+test_two_lines (__main__.ReplacementFixtures.test_two_lines)
+answer-file:69469557b403d7cd two-lines ... ok
+test_underscore (__main__.ReplacementFixtures.test_underscore)
+answer-file:e7635ce38bbe6152 underscore ... ok
+test_utf16_bom (__main__.ReplacementFixtures.test_utf16_bom)
+answer-file:f23dbcc5bf192eea utf16-bom ... ok
+test_utf8_bom (__main__.ReplacementFixtures.test_utf8_bom)
+answer-file:9d060c5829cff97c utf8-bom ... ok
+test_value_0 (__main__.ReplacementFixtures.test_value_0)
+answer-file:ad42e94b5ff58c19 value-0 ... ok
+test_value_37 (__main__.ReplacementFixtures.test_value_37)
+answer-file:6ceea86d777a5d8f value-37 ... ok
+test_value_40 (__main__.ReplacementFixtures.test_value_40)
+answer-file:dcfdcc3287a962b2 value-40 ... ok
+test_value_42 (__main__.ReplacementFixtures.test_value_42)
+answer-file:1f3c18dbab72ee41 value-42 ... ok
+test_value_45 (__main__.ReplacementFixtures.test_value_45)
+answer-file:2857c8d43fda3b8e value-45 ... ok
+test_vt_ff (__main__.ReplacementFixtures.test_vt_ff)
+answer-file:4cff739651d253a1 vt-ff ... ok
+test_whitespace_only (__main__.ReplacementFixtures.test_whitespace_only)
+answer-file:59b35c0c5f39a006 whitespace-only ... ok
+test_words_after (__main__.ReplacementFixtures.test_words_after)
+answer-file:99730a7daf639398 words-after ... ok
+test_words_before (__main__.ReplacementFixtures.test_words_before)
+answer-file:242af759afa0f674 words-before ... ok
+test_words_only (__main__.ReplacementFixtures.test_words_only)
+answer-file:a1711fdc8602311c words-only ... ok
+test_wrong_path_right_value (__main__.ReplacementFixtures.test_wrong_path_right_value)
+answer-file:3660b68933683665 wrong-path-right-value ... ok
+test_wrong_path_wrong_value (__main__.ReplacementFixtures.test_wrong_path_wrong_value)
+answer-file:1c57de6a28c6d61a wrong-path-wrong-value ... ok
+test_answer_is_directory (__main__.VerifierFixtures.test_answer_is_directory)
+answer-file:95d28e0cc997f823 answer-is-directory: label fail; known grader difference: F1 ... expected failure
+test_arabic_indic_digits (__main__.VerifierFixtures.test_arabic_indic_digits)
+answer-file:1a5c933b929fc8ca arabic-indic-digits: label fail; known grader difference: None ... ok
+test_both_paths_out_right (__main__.VerifierFixtures.test_both_paths_out_right)
+answer-file:c016f4cc98aa9505 both-paths-out-right: label pass; known grader difference: None ... ok
+test_both_paths_out_wrong (__main__.VerifierFixtures.test_both_paths_out_wrong)
+answer-file:6a9823745a460f89 both-paths-out-wrong: label fail; known grader difference: None ... ok
+test_comma (__main__.VerifierFixtures.test_comma)
+answer-file:38b6049ce254dc00 comma: label fail; known grader difference: None ... ok
+test_crlf (__main__.VerifierFixtures.test_crlf)
+answer-file:3eafdda8d6a5e70c crlf: label pass; known grader difference: None ... ok
+test_dangling_symlink (__main__.VerifierFixtures.test_dangling_symlink)
+answer-file:47274acbf3e10392 dangling-symlink: label fail; known grader difference: F1 ... skipped 'this host cannot create symbolic links'
+test_dir_at_answer_path_and_root_answer (__main__.VerifierFixtures.test_dir_at_answer_path_and_root_answer)
+answer-file:de59d63ef63e5068 dir-at-answer-path-and-root-answer: label fail; known grader difference: F2 ... expected failure
+test_empty (__main__.VerifierFixtures.test_empty)
+answer-file:916331f4e90339fd empty: label fail; known grader difference: None ... ok
+test_exponent (__main__.VerifierFixtures.test_exponent)
+answer-file:4b08baa56116f9d2 exponent: label fail; known grader difference: None ... ok
+test_extra_files (__main__.VerifierFixtures.test_extra_files)
+answer-file:b0b21b421f1fb207 extra-files: label pass; known grader difference: None ... ok
+test_float (__main__.VerifierFixtures.test_float)
+answer-file:94c3bb070ce2b7fc float: label fail; known grader difference: None ... ok
+test_fullwidth_digits (__main__.VerifierFixtures.test_fullwidth_digits)
+answer-file:95404323377ab41b fullwidth-digits: label fail; known grader difference: None ... ok
+test_hex (__main__.VerifierFixtures.test_hex)
+answer-file:1d13102fc6d0c4a3 hex: label fail; known grader difference: None ... ok
+test_huge_wrong_number (__main__.VerifierFixtures.test_huge_wrong_number)
+answer-file:c1f5ed23c2682eb5 huge-wrong-number: label fail; known grader difference: None ... ok
+test_ideographic_space (__main__.VerifierFixtures.test_ideographic_space)
+answer-file:6d22bd442584a7c1 ideographic-space: label fail; known grader difference: D-whitespace ... expected failure
+test_info_separator_1c (__main__.VerifierFixtures.test_info_separator_1c)
+answer-file:ebaf2abe664110c0 info-separator-1c: label fail; known grader difference: F4 ... expected failure
+test_info_separator_1f_leading (__main__.VerifierFixtures.test_info_separator_1f_leading)
+answer-file:c4c37c497ba93069 info-separator-1f-leading: label fail; known grader difference: F4 ... expected failure
+test_inner_space (__main__.VerifierFixtures.test_inner_space)
+answer-file:87e4822a687dd031 inner-space: label fail; known grader difference: None ... ok
+test_instruction_restatement (__main__.VerifierFixtures.test_instruction_restatement)
+answer-file:33bb623c4d4cc58f instruction-restatement: label fail; known grader difference: None ... ok
+test_invalid_utf8 (__main__.VerifierFixtures.test_invalid_utf8)
+answer-file:1e022f3b08367203 invalid-utf8: label fail; known grader difference: None ... ok
+test_label_colon (__main__.VerifierFixtures.test_label_colon)
+answer-file:523d0e016ea1d6e6 label-colon: label fail; known grader difference: None ... ok
+test_leading_whitespace (__main__.VerifierFixtures.test_leading_whitespace)
+answer-file:02e2cd81936518b9 leading-whitespace: label pass; known grader difference: None ... ok
+test_leading_zero (__main__.VerifierFixtures.test_leading_zero)
+answer-file:3f66c9b50c9aac3b leading-zero: label pass; known grader difference: None ... ok
+test_leading_zeros_5001_digits (__main__.VerifierFixtures.test_leading_zeros_5001_digits)
+answer-file:18217fc43af8aa26 leading-zeros-5001-digits: label pass; known grader difference: D-leading-zeros ... expected failure
+test_lf (__main__.VerifierFixtures.test_lf)
+answer-file:507de4dab8cd6ff5 lf: label pass; known grader difference: None ... ok
+test_many_newlines (__main__.VerifierFixtures.test_many_newlines)
+answer-file:aebd69d48574bfde many-newlines: label pass; known grader difference: None ... ok
+test_missing_no_out_dir (__main__.VerifierFixtures.test_missing_no_out_dir)
+answer-file:d8f9430642993653 missing-no-out-dir: label fail; known grader difference: F1 ... expected failure
+test_missing_notes_only (__main__.VerifierFixtures.test_missing_notes_only)
+answer-file:87f244f6c26be477 missing-notes-only: label fail; known grader difference: F1 ... expected failure
+test_missing_out_empty (__main__.VerifierFixtures.test_missing_out_empty)
+answer-file:63b0aeed606ecf87 missing-out-empty: label fail; known grader difference: F1 ... expected failure
+test_nbsp (__main__.VerifierFixtures.test_nbsp)
+answer-file:8bff1229c60659c1 nbsp: label fail; known grader difference: D-whitespace ... expected failure
+test_negative (__main__.VerifierFixtures.test_negative)
+answer-file:a5021218382ed34c negative: label fail; known grader difference: None ... ok
+test_nel (__main__.VerifierFixtures.test_nel)
+answer-file:3fb1a0c93693f7d3 nel: label fail; known grader difference: D-whitespace ... expected failure
+test_no_newline (__main__.VerifierFixtures.test_no_newline)
+answer-file:4f70ee236f53e575 no-newline: label pass; known grader difference: None ... ok
+test_nul_after (__main__.VerifierFixtures.test_nul_after)
+answer-file:d3c92de02a78effd nul-after: label fail; known grader difference: None ... ok
+test_nul_inside (__main__.VerifierFixtures.test_nul_inside)
+answer-file:9e319358001485a3 nul-inside: label fail; known grader difference: None ... ok
+test_plus_sign (__main__.VerifierFixtures.test_plus_sign)
+answer-file:322dc576d4dd86bc plus-sign: label pass; known grader difference: D-plus-sign ... expected failure
+test_python3_shadowed_on_path (__main__.VerifierFixtures.test_python3_shadowed_on_path)
+answer-file:918bd010e9cff4fb python3-shadowed-on-path: label fail; known grader difference: G1 ... expected failure
+test_repeated_count_lines (__main__.VerifierFixtures.test_repeated_count_lines)
+answer-file:121231a1c8be7c0f repeated-count-lines: label fail; known grader difference: None ... ok
+test_repeated_count_one_line (__main__.VerifierFixtures.test_repeated_count_one_line)
+answer-file:2ce230d216b07c74 repeated-count-one-line: label fail; known grader difference: None ... ok
+test_symlink_in_workspace (__main__.VerifierFixtures.test_symlink_in_workspace)
+answer-file:1764ac6b98422dcb symlink-in-workspace: label pass; known grader difference: None ... skipped 'this host cannot create symbolic links'
+test_symlink_to_expected_json (__main__.VerifierFixtures.test_symlink_to_expected_json)
+answer-file:ca3d7f08ead99b6d symlink-to-expected-json: label fail; known grader difference: None ... skipped 'this host cannot create symbolic links'
+test_two_lines (__main__.VerifierFixtures.test_two_lines)
+answer-file:69469557b403d7cd two-lines: label fail; known grader difference: None ... ok
+test_underscore (__main__.VerifierFixtures.test_underscore)
+answer-file:e7635ce38bbe6152 underscore: label fail; known grader difference: None ... ok
+test_utf16_bom (__main__.VerifierFixtures.test_utf16_bom)
+answer-file:f23dbcc5bf192eea utf16-bom: label fail; known grader difference: None ... ok
+test_utf8_bom (__main__.VerifierFixtures.test_utf8_bom)
+answer-file:9d060c5829cff97c utf8-bom: label fail; known grader difference: None ... ok
+test_value_0 (__main__.VerifierFixtures.test_value_0)
+answer-file:ad42e94b5ff58c19 value-0: label fail; known grader difference: None ... ok
+test_value_37 (__main__.VerifierFixtures.test_value_37)
+answer-file:6ceea86d777a5d8f value-37: label fail; known grader difference: None ... ok
+test_value_40 (__main__.VerifierFixtures.test_value_40)
+answer-file:dcfdcc3287a962b2 value-40: label fail; known grader difference: None ... ok
+test_value_42 (__main__.VerifierFixtures.test_value_42)
+answer-file:1f3c18dbab72ee41 value-42: label fail; known grader difference: None ... ok
+test_value_45 (__main__.VerifierFixtures.test_value_45)
+answer-file:2857c8d43fda3b8e value-45: label fail; known grader difference: None ... ok
+test_vt_ff (__main__.VerifierFixtures.test_vt_ff)
+answer-file:4cff739651d253a1 vt-ff: label pass; known grader difference: None ... ok
+test_whitespace_only (__main__.VerifierFixtures.test_whitespace_only)
+answer-file:59b35c0c5f39a006 whitespace-only: label fail; known grader difference: None ... ok
+test_words_after (__main__.VerifierFixtures.test_words_after)
+answer-file:99730a7daf639398 words-after: label fail; known grader difference: None ... ok
+test_words_before (__main__.VerifierFixtures.test_words_before)
+answer-file:242af759afa0f674 words-before: label fail; known grader difference: None ... ok
+test_words_only (__main__.VerifierFixtures.test_words_only)
+answer-file:a1711fdc8602311c words-only: label fail; known grader difference: None ... ok
+test_wrong_path_right_value (__main__.VerifierFixtures.test_wrong_path_right_value)
+answer-file:3660b68933683665 wrong-path-right-value: label fail; known grader difference: F2 ... expected failure
+test_wrong_path_wrong_value (__main__.VerifierFixtures.test_wrong_path_wrong_value)
+answer-file:1c57de6a28c6d61a wrong-path-wrong-value: label fail; known grader difference: None ... ok
+
+----------------------------------------------------------------------
+Ran 133 tests in 79.999s
+
+OK (skipped=6, expected failures=14)

@@ -1,0 +1,62 @@
+repeat identical: {'grade_py': True, 'reference': True}
+grade.py table as printed:
+model         correct  incorrect  no_answer   score
+alpha-7b            9          3          0    75.0
+beta-14b           10          2          0    83.3
+delta-8b            3          6          3    33.3
+gamma-32b          12          0          0   100.0
+
+reference table as printed:
+model        correct  of  score
+alpha-7b           9  12   75.0
+beta-14b          12  12  100.0
+delta-8b           3  12   25.0
+gamma-32b          8  12   66.7
+
+replacement table as printed:
+model         correct  incorrect  no_answer  missing   score
+alpha-7b            9          3          0        0    75.0
+beta-14b           12          0          0        0   100.0
+delta-8b            3          6          3        0    25.0
+gamma-32b          12          0          0        0   100.0
+
+scores                               alpha-7b   beta-14b   delta-8b  gamma-32b
+replacement                              75.0      100.0       25.0      100.0
+rep_b:D-multiple-numbers                 75.0      100.0       25.0      100.0
+rep_b:D-comma-grouping                   75.0      100.0       25.0      100.0
+rep_b:D-digits                           75.0      100.0       25.0      100.0
+rep_b:D-leading-whitespace               75.0      100.0       25.0      100.0
+rep_b:D-tolerance-boundary               75.0      100.0       25.0      100.0
+rep_b:D-answer-line-form                 75.0      100.0       25.0       66.7
+rep_as_grade_py_readings                 75.0      100.0       25.0      100.0
+rep_as_reference_readings                75.0      100.0       25.0       66.7
+grade_py                                 75.0       83.3       33.3      100.0
+reference                                75.0      100.0       25.0       66.7
+grade_py_if_denominator_12               75.0       83.3       25.0      100.0
+disagreements with replacement, rep_b:D-multiple-numbers: 0
+disagreements with replacement, rep_b:D-comma-grouping: 0
+disagreements with replacement, rep_b:D-digits: 0
+disagreements with replacement, rep_b:D-leading-whitespace: 0
+disagreements with replacement, rep_b:D-tolerance-boundary: 0
+disagreements with replacement, rep_b:D-answer-line-form: 4
+    r03 gamma-32b p01 rep ('3.50', 'correct') rep_b:D-answer-line-form (None, 'no_answer') ['Answer: $3.50']
+    r07 gamma-32b p02 rep ('486', 'correct') rep_b:D-answer-line-form (None, 'no_answer') ['Answer: 486 students']
+    r19 gamma-32b p05 rep ('72', 'correct') rep_b:D-answer-line-form (None, 'no_answer') ['Answer: 72 km/h']
+    r35 gamma-32b p09 rep ('28.80', 'correct') rep_b:D-answer-line-form (None, 'no_answer') ['Answer: 28.80 dollars']
+disagreements with replacement, rep_as_grade_py_readings: 0
+disagreements with replacement, rep_as_reference_readings: 4
+    r03 gamma-32b p01 rep ('3.50', 'correct') rep_as_reference_readings (None, 'no_answer') ['Answer: $3.50']
+    r07 gamma-32b p02 rep ('486', 'correct') rep_as_reference_readings (None, 'no_answer') ['Answer: 486 students']
+    r19 gamma-32b p05 rep ('72', 'correct') rep_as_reference_readings (None, 'no_answer') ['Answer: 72 km/h']
+    r35 gamma-32b p09 rep ('28.80', 'correct') rep_as_reference_readings (None, 'no_answer') ['Answer: 28.80 dollars']
+disagreements with replacement, grade_py: 2
+    r10 beta-14b p03 rep ('2250', 'correct') grade_py ('2', 'incorrect') ['Answer: 2,250']
+    r26 beta-14b p07 rep ('15000', 'correct') grade_py ('15', 'incorrect') ['Answer: 15,000']
+disagreements with replacement, reference: 4
+    r03 gamma-32b p01 rep ('3.50', 'correct') reference (None, 'no_answer') ['Answer: $3.50']
+    r07 gamma-32b p02 rep ('486', 'correct') reference (None, 'no_answer') ['Answer: 486 students']
+    r19 gamma-32b p05 rep ('72', 'correct') reference (None, 'no_answer') ['Answer: 72 km/h']
+    r35 gamma-32b p09 rep ('28.80', 'correct') reference (None, 'no_answer') ['Answer: 28.80 dollars']
+truncated: [{"id": "r12", "model": "delta-8b", "problem_id": "p03", "chars": 1299, "has_answer_line": false, "verdicts": {"grade_py": "no_answer", "reference": "no_answer", "replacement": "no_answer"}}, {"id": "r36", "model": "delta-8b", "problem_id": "p09", "chars": 1285, "has_answer_line": false, "verdicts": {"grade_py": "no_answer", "reference": "no_answer", "replacement": "no_answer"}}]
+no_answer: ["r12", "r36", "r44"] | reasoning markers: 0
+label counts: {"replacement": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_b:D-multiple-numbers": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_b:D-comma-grouping": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_b:D-digits": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_b:D-leading-whitespace": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_b:D-tolerance-boundary": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_b:D-answer-line-form": {"correct": 32, "no_answer": 7, "incorrect": 9}, "rep_as_grade_py_readings": {"correct": 36, "incorrect": 9, "no_answer": 3}, "rep_as_reference_readings": {"correct": 32, "no_answer": 7, "incorrect": 9}, "grade_py": {"correct": 34, "incorrect": 11, "no_answer": 3}, "reference": {"correct": 32, "no_answer": 7, "incorrect": 9}}

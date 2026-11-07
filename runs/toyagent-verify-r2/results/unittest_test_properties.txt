@@ -1,0 +1,26 @@
+test_ascii_whitespace_padding_keeps_pass (__main__.ContentProperties.test_ascii_whitespace_padding_keeps_pass)
+Edits the contract ignores: ASCII whitespace added at either end of a passing answer. ... ok
+test_control_character_at_either_end_fails (__main__.ContentProperties.test_control_character_at_either_end_fails)
+Edits the contract forbids: a control character that is not whitespace (C0 controls other than ... expected failure
+test_control_characters_other_than_1c_1f_fail (__main__.ContentProperties.test_control_characters_other_than_1c_1f_fail)
+The same edit without U+001C..U+001F: the grader fails every one (so F4 is exactly those four). ... ok
+test_inserted_inner_whitespace_fails (__main__.ContentProperties.test_inserted_inner_whitespace_fails) ... ok
+test_inserted_printable_character_fails (__main__.ContentProperties.test_inserted_printable_character_fails)
+Edits the contract forbids: one printable ASCII character that is not a digit, '+' or whitespace, ... ok
+test_no_exception_on_long_numerals (__main__.ContentProperties.test_no_exception_on_long_numerals)
+Any answer content gets a verdict without an exception (step 4: an exception is a grading failure). ... expected failure
+test_numerals_up_to_4300_digits_get_a_verdict (__main__.ContentProperties.test_numerals_up_to_4300_digits_get_a_verdict)
+Below the limit there is no exception: 4,300 digits is the boundary. ... ok
+test_value_decides (__main__.ContentProperties.test_value_decides)
+For an integer k written plainly, the answer passes if and only if k == 41. ... ok
+test_append_letter_fails (__main__.StateEdits.test_append_letter_fails) ... ok
+test_append_u001c_fails (__main__.StateEdits.test_append_u001c_fails) ... expected failure
+test_base_passes (__main__.StateEdits.test_base_passes) ... ok
+test_delete_answer_fails (__main__.StateEdits.test_delete_answer_fails) ... expected failure
+test_move_to_workspace_root_fails (__main__.StateEdits.test_move_to_workspace_root_fails) ... expected failure
+test_replace_with_directory_fails (__main__.StateEdits.test_replace_with_directory_fails) ... expected failure
+
+----------------------------------------------------------------------
+Ran 14 tests in 15.034s
+
+OK (expected failures=6)

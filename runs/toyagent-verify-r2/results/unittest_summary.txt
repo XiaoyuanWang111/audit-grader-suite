@@ -1,0 +1,6 @@
+unittest test_verifier_fixtures exit 0
+unittest test_scoring exit 0
+unittest test_properties exit 0
+panel exit 0
+fuzz exit 0
+states exit 0

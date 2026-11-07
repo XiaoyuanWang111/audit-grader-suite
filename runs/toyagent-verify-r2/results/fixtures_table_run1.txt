@@ -1,0 +1,59 @@
+answer-file:507de4dab8cd6ff5 lf                                   label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:4f70ee236f53e575 no-newline                           label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:3eafdda8d6a5e70c crlf                                 label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:aebd69d48574bfde many-newlines                        label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:02e2cd81936518b9 leading-whitespace                   label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:4cff739651d253a1 vt-ff                                label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:b0b21b421f1fb207 extra-files                          label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:c016f4cc98aa9505 both-paths-out-right                 label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:63b0aeed606ecf87 missing-out-empty                    label=fail grader=pass exit=0 repl=fail out='no answer file'  <-- grader differs (F1)
+answer-file:d8f9430642993653 missing-no-out-dir                   label=fail grader=pass exit=0 repl=fail out='no answer file'  <-- grader differs (F1)
+answer-file:87f244f6c26be477 missing-notes-only                   label=fail grader=pass exit=0 repl=fail out='no answer file'  <-- grader differs (F1)
+answer-file:95d28e0cc997f823 answer-is-directory                  label=fail grader=pass exit=0 repl=fail out='no answer file'  <-- grader differs (F1)
+answer-file:47274acbf3e10392 dangling-symlink                     SKIPPED (no symlinks)
+answer-file:3660b68933683665 wrong-path-right-value               label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (F2)
+answer-file:1c57de6a28c6d61a wrong-path-wrong-value               label=fail grader=fail exit=1 repl=fail out='wrong count: 37'
+answer-file:6a9823745a460f89 both-paths-out-wrong                 label=fail grader=fail exit=1 repl=fail out='wrong count: 37'
+answer-file:de59d63ef63e5068 dir-at-answer-path-and-root-answer   label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (F2)
+answer-file:916331f4e90339fd empty                                label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:59b35c0c5f39a006 whitespace-only                      label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:dcfdcc3287a962b2 value-40                             label=fail grader=fail exit=1 repl=fail out='wrong count: 40'
+answer-file:6ceea86d777a5d8f value-37                             label=fail grader=fail exit=1 repl=fail out='wrong count: 37'
+answer-file:2857c8d43fda3b8e value-45                             label=fail grader=fail exit=1 repl=fail out='wrong count: 45'
+answer-file:1f3c18dbab72ee41 value-42                             label=fail grader=fail exit=1 repl=fail out='wrong count: 42'
+answer-file:ad42e94b5ff58c19 value-0                              label=fail grader=fail exit=1 repl=fail out='wrong count: 0'
+answer-file:a5021218382ed34c negative                             label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:1d13102fc6d0c4a3 hex                                  label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:94c3bb070ce2b7fc float                                label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:4b08baa56116f9d2 exponent                             label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:e7635ce38bbe6152 underscore                           label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:38b6049ce254dc00 comma                                label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:87e4822a687dd031 inner-space                          label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:69469557b403d7cd two-lines                            label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:a1711fdc8602311c words-only                           label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:d3c92de02a78effd nul-after                            label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:9e319358001485a3 nul-inside                           label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:ebaf2abe664110c0 info-separator-1c                    label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (F4)
+answer-file:c4c37c497ba93069 info-separator-1f-leading            label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (F4)
+answer-file:1e022f3b08367203 invalid-utf8                         label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:c1f5ed23c2682eb5 huge-wrong-number                    label=fail grader=fail exit=1 repl=fail out='<run directory>\\case\\task\\tes'
+answer-file:33bb623c4d4cc58f instruction-restatement              label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:2ce230d216b07c74 repeated-count-one-line              label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:121231a1c8be7c0f repeated-count-lines                 label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:3f66c9b50c9aac3b leading-zero                         label=pass grader=pass exit=0 repl=pass out='correct'
+answer-file:18217fc43af8aa26 leading-zeros-5001-digits            label=pass grader=fail exit=1 repl=pass out='<run directory>\\case\\task\\tes'  <-- grader differs (D-leading-zeros)
+answer-file:322dc576d4dd86bc plus-sign                            label=pass grader=fail exit=1 repl=pass out='answer is not a decimal integer'  <-- grader differs (D-plus-sign)
+answer-file:8bff1229c60659c1 nbsp                                 label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (D-whitespace)
+answer-file:6d22bd442584a7c1 ideographic-space                    label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (D-whitespace)
+answer-file:3fb1a0c93693f7d3 nel                                  label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (D-whitespace)
+answer-file:1a5c933b929fc8ca arabic-indic-digits                  label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:95404323377ab41b fullwidth-digits                     label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:99730a7daf639398 words-after                          label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:242af759afa0f674 words-before                         label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:523d0e016ea1d6e6 label-colon                          label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:9d060c5829cff97c utf8-bom                             label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:f23dbcc5bf192eea utf16-bom                            label=fail grader=fail exit=1 repl=fail out='answer is not a decimal integer'
+answer-file:1764ac6b98422dcb symlink-in-workspace                 SKIPPED (no symlinks)
+answer-file:ca3d7f08ead99b6d symlink-to-expected-json             SKIPPED (no symlinks)
+answer-file:918bd010e9cff4fb python3-shadowed-on-path             label=fail grader=pass exit=0 repl=fail out='correct'  <-- grader differs (F6)
+exit 0

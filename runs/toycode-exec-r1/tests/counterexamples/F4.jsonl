@@ -1,0 +1,1 @@
+{"id": "F4-relative", "model": "probe", "task_id": "t07", "response": "```python\ndef fib(n):\n    if n < 0:\n        from .math import sqrt\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```\n"}

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "<run directory>\case\grade.py", line 133, in <module>
+    main()
+  File "<run directory>\case\grade.py", line 113, in main
+    passed, detail = grade_response(tasks[r["task_id"]], all_tests[r["task_id"]], r["response"])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<run directory>\case\grade.py", line 93, in grade_response
+    outcome, error = run_candidate(code, task["entry_point"], tests)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<run directory>\case\grade.py", line 72, in run_candidate
+    return json.loads(lines[-1][len(RESULT_PREFIX):]), None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<python>\Lib\json\decoder.py", line 354, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)

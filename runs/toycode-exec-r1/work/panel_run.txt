@@ -1,0 +1,136 @@
+[grader] exit 0, 40 verdicts, 15.6 s, manifest mismatches before/after: []/[]
+   model         passed  tasks   score
+   finch-8b           3     10    30.0
+   kite-7b            9     10    90.0
+   lark-13b           4     10    40.0
+   wren-34b          10     10   100.0
+[grader_rerun] exit 0, 40 verdicts, 16.9 s, manifest mismatches before/after: []/[]
+   model         passed  tasks   score
+   finch-8b           3     10    30.0
+   kite-7b            9     10    90.0
+   lark-13b           4     10    40.0
+   wren-34b          10     10   100.0
+[reference] exit 0, 40 verdicts, 17.7 s, manifest mismatches before/after: []/[]
+   model        pass@1
+   finch-8b       10.0
+   kite-7b        90.0
+   lark-13b       20.0
+   wren-34b       90.0
+[fixes_only] exit 0, 40 verdicts, 14.1 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "B", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "B", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           1     10    10.0
+   kite-7b            9     10    90.0
+   lark-13b           2     10    20.0
+   wren-34b           9     10    90.0
+[proposed] exit 0, 40 verdicts, 14.4 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "A", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+[proposed_palindrome_B] exit 0, 40 verdicts, 15.1 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "A", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "B", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           1     10    10.0
+   kite-7b            9     10    90.0
+   lark-13b           2     10    20.0
+   wren-34b           9     10    90.0
+[proposed_line_terminator_B] exit 0, 40 verdicts, 13.4 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "B", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+[proposed_load_error_B] exit 0, 40 verdicts, 14.3 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "A", "load_error": "B", "main_guard": "A", "numeric_type": "A", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+[proposed_main_guard_B] exit 0, 40 verdicts, 14.0 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "A", "load_error": "A", "main_guard": "B", "numeric_type": "A", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+[proposed_dynamic_import_B] exit 0, 40 verdicts, 13.8 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "B", "eq_object": "B", "line_terminator": "A", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+[proposed_numeric_type_B] exit 0, 40 verdicts, 16.5 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "A", "load_error": "A", "main_guard": "A", "numeric_type": "B", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           7     10    70.0
+[proposed_eq_object_A] exit 0, 40 verdicts, 14.7 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "A", "line_terminator": "A", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "A", "time_start": "A"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+[proposed_time_start_B] exit 0, 40 verdicts, 16.5 s, manifest mismatches before/after: []/[]
+   decisions {"dynamic_import": "A", "eq_object": "B", "line_terminator": "A", "load_error": "A", "main_guard": "A", "numeric_type": "A", "palindrome": "A", "time_start": "B"}
+   model         passed  tasks   score
+   finch-8b           2     10    20.0
+   kite-7b            8     10    80.0
+   lark-13b           3     10    30.0
+   wren-34b           8     10    80.0
+
+Scores (percent of 10 tasks):
+run                                  kite-7b  lark-13b  wren-34b  finch-8b
+grader                                  90.0      40.0     100.0      30.0
+grader_rerun                            90.0      40.0     100.0      30.0
+reference                               90.0      20.0      90.0      10.0
+fixes_only                              90.0      20.0      90.0      10.0
+proposed                                80.0      30.0      80.0      20.0
+proposed_palindrome_B                   90.0      20.0      90.0      10.0
+proposed_line_terminator_B              80.0      30.0      80.0      20.0
+proposed_load_error_B                   80.0      30.0      80.0      20.0
+proposed_main_guard_B                   80.0      30.0      80.0      20.0
+proposed_dynamic_import_B               80.0      30.0      80.0      20.0
+proposed_numeric_type_B                 80.0      30.0      70.0      20.0
+proposed_eq_object_A                    80.0      30.0      80.0      20.0
+proposed_time_start_B                   80.0      30.0      80.0      20.0
+
+Coverage: {'grader': '40/40', 'grader_rerun': '40/40', 'reference': '40/40', 'fixes_only': '40/40', 'proposed': '40/40', 'proposed_palindrome_B': '40/40', 'proposed_line_terminator_B': '40/40', 'proposed_load_error_B': '40/40', 'proposed_main_guard_B': '40/40', 'proposed_dynamic_import_B': '40/40', 'proposed_numeric_type_B': '40/40', 'proposed_eq_object_A': '40/40', 'proposed_time_start_B': '40/40'}
+Timeouts: {'grader': ['c26', 'c38'], 'grader_rerun': ['c26', 'c38'], 'fixes_only': ['c26', 'c38'], 'proposed': ['c26', 'c38']}
+
+Disagreements:
+  grader vs grader_rerun                        0  
+  grader vs reference                           5  c02 c16 c22 c31 c40
+  grader vs fixes_only                          5  c02 c16 c22 c31 c40
+  grader vs proposed                            9  c02 c05 c06 c07 c08 c16 c22 c31 c40
+  reference vs fixes_only                       0  
+  fixes_only vs proposed                        4  c05 c06 c07 c08
+  proposed vs proposed_palindrome_B             4  c05 c06 c07 c08
+  proposed vs proposed_line_terminator_B        0  
+  proposed vs proposed_load_error_B             0  
+  proposed vs proposed_main_guard_B             0  
+  proposed vs proposed_dynamic_import_B         0  
+  proposed vs proposed_numeric_type_B           1  c19
+  proposed vs proposed_eq_object_A              0  
+  proposed vs proposed_time_start_B             0  
+
+Passes per task (of 4): {"t01": {"grader": 3, "reference": 2, "fixes_only": 2, "proposed": 2}, "t02": {"grader": 2, "reference": 2, "fixes_only": 2, "proposed": 2}, "t03": {"grader": 2, "reference": 2, "fixes_only": 2, "proposed": 2}, "t04": {"grader": 4, "reference": 3, "fixes_only": 3, "proposed": 3}, "t05": {"grader": 1, "reference": 1, "fixes_only": 1, "proposed": 1}, "t06": {"grader": 3, "reference": 2, "fixes_only": 2, "proposed": 2}, "t07": {"grader": 2, "reference": 2, "fixes_only": 2, "proposed": 2}, "t08": {"grader": 3, "reference": 2, "fixes_only": 2, "proposed": 2}, "t09": {"grader": 3, "reference": 3, "fixes_only": 3, "proposed": 3}, "t10": {"grader": 3, "reference": 2, "fixes_only": 2, "proposed": 2}}
+
+Verdicts where grader, reference, fixes-only and proposed are not all equal:
+  c02 lark-13b  t01 grader=pass  ref=fail  fixes=fail  proposed=fail  | grader: all tests passed | fixes: test 2 failed: raised IndexError
+  c05 kite-7b   t02 grader=pass  ref=pass  fixes=pass  proposed=fail  | grader: all tests passed | fixes: all tests passed
+  c06 lark-13b  t02 grader=fail  ref=fail  fixes=fail  proposed=pass  | grader: test 3 failed | fixes: test 3 failed: not equal
+  c07 wren-34b  t02 grader=pass  ref=pass  fixes=pass  proposed=fail  | grader: all tests passed | fixes: all tests passed
+  c08 finch-8b  t02 grader=fail  ref=fail  fixes=fail  proposed=pass  | grader: test 3 failed | fixes: test 3 failed: not equal
+  c16 finch-8b  t04 grader=pass  ref=fail  fixes=fail  proposed=fail  | grader: all tests passed | fixes: test 0 failed: not equal
+  c22 lark-13b  t06 grader=pass  ref=fail  fixes=fail  proposed=fail  | grader: all tests passed | fixes: test 1 failed: raised IndexError
+  c31 wren-34b  t08 grader=pass  ref=fail  fixes=fail  proposed=fail  | grader: all tests passed | fixes: test 0 failed: not equal
+  c40 finch-8b  t10 grader=pass  ref=fail  fixes=fail  proposed=fail  | grader: all tests passed | fixes: test 2 failed: raised IndexError

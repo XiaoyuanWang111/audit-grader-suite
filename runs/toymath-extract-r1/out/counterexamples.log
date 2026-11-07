@@ -1,0 +1,46 @@
+$ (cd case && python grade.py --responses ../audit/tests/counterexamples/F1.jsonl --out ../audit/out/F1.grade.jsonl) && cat audit/out/F1.grade.jsonl
+model         correct  incorrect  no_answer   score
+m                   1          1          0    50.0
+{"id": "F1a", "model": "m", "problem_id": "p07", "extracted": "15", "verdict": "incorrect"}
+{"id": "F1b", "model": "m", "problem_id": "p12", "extracted": "15", "verdict": "correct"}
+
+$ (cd case && python grade.py --responses ../audit/tests/counterexamples/F2.jsonl --out ../audit/out/F2.grade.jsonl) && cat audit/out/F2.grade.jsonl
+model         correct  incorrect  no_answer   score
+m                   2          0          0   100.0
+{"id": "F2a", "model": "m", "problem_id": "p02", "extracted": "482", "verdict": "correct"}
+{"id": "F2b", "model": "m", "problem_id": "p07", "extracted": "14900", "verdict": "correct"}
+
+$ (cd case && python grade.py --responses ../audit/tests/counterexamples/F3.jsonl)
+model         correct  incorrect  no_answer   score
+m                   6          0          6   100.0
+
+$ (cd case && python reference/grade_ref.py problems.jsonl ../audit/tests/counterexamples/F3.jsonl)
+model        correct  of  score
+m                  6  12   50.0
+
+$ (cd case && python grade.py --responses ../audit/tests/counterexamples/F4.jsonl --out ../audit/out/F4.grade.jsonl) && cat audit/out/F4.grade.jsonl
+model         correct  incorrect  no_answer   score
+m                   1          0          0   100.0
+{"id": "F4a", "model": "m", "problem_id": "p06", "extracted": "0.010000000000000000000000000001", "verdict": "correct"}
+
+$ (cd case && python reference/grade_ref.py problems.jsonl ../audit/tests/counterexamples/F4.jsonl ../audit/out/F4.ref.jsonl) && cat audit/out/F4.ref.jsonl
+model        correct  of  score
+m                  1  12    8.3
+{"id": "F4a", "model": "m", "problem_id": "p06", "answer": "0.010000000000000000000000000001", "verdict": "correct"}
+
+$ (cd case && python grade.py --responses ../audit/tests/counterexamples/F6.jsonl); (cd case && python reference/grade_ref.py problems.jsonl ../audit/tests/counterexamples/F6.jsonl)
+model         correct  incorrect  no_answer   score
+m                  13          0          0   100.0
+model        correct  of  score
+m                 13  12  108.3
+
+$ python -c "import json;print(json.dumps({\"id\":\"F5\",\"model\":\"m\",\"problem_id\":\"p02\",\"response\":\"Answer: \"+\"9\"*1000000}))" > audit/out/F5.jsonl
+$ (cd case && python grade.py --responses ../audit/out/F5.jsonl --out ../audit/out/F5.grade.jsonl); echo "exit $?"; ls audit/out/F5.grade.jsonl
+    return abs(answer - reference) <= TOLERANCE * max(Decimal(1), abs(reference))
+               ~~~~~~~^~~~~~~~~~~
+decimal.Overflow: [<class 'decimal.Overflow'>]
+exit 1
+ls: cannot access 'audit/out/F5.grade.jsonl': No such file or directory
+$ (cd case && python reference/grade_ref.py problems.jsonl ../audit/out/F5.jsonl ../audit/out/F5.ref.jsonl)
+                                    ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+decimal.Overflow: [<class 'decimal.Overflow'>]

@@ -1,0 +1,3 @@
+{"id": "F5-ok-before", "model": "probe", "task_id": "t07", "verdict": "pass", "detail": "all tests passed"}
+{"id": "F5-dashes", "model": "probe", "task_id": "t07", "verdict": "fail", "detail": "does not parse: MemoryError"}
+{"id": "F5-ok-after", "model": "probe", "task_id": "t10", "verdict": "pass", "detail": "all tests passed"}

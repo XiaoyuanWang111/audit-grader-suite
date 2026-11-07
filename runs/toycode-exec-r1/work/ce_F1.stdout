@@ -1,0 +1,4 @@
+model         passed  tasks   score
+finch-8b           1     10    10.0
+lark-13b           2     10    20.0
+probe              3     10    30.0

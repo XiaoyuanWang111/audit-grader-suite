@@ -1,0 +1,404 @@
+{
+ "content_free": {
+  "empty": {
+   "grader": {
+    "passes": [
+     "t01",
+     "t02",
+     "t05",
+     "t06",
+     "t07",
+     "t08",
+     "t09",
+     "t10"
+    ],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "whitespace": {
+   "grader": {
+    "passes": [
+     "t01",
+     "t02",
+     "t05",
+     "t06",
+     "t07",
+     "t08",
+     "t09",
+     "t10"
+    ],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "repeated_word": {
+   "grader": {
+    "passes": [],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "repeated_dash_6000": {
+   "grader": {
+    "passes": [],
+    "crashes": [
+     "t01:crash:MemoryError",
+     "t02:crash:MemoryError",
+     "t03:crash:MemoryError",
+     "t04:crash:MemoryError",
+     "t05:crash:MemoryError",
+     "t06:crash:MemoryError",
+     "t07:crash:MemoryError",
+     "t08:crash:MemoryError",
+     "t09:crash:MemoryError",
+     "t10:crash:MemoryError"
+    ]
+   },
+   "reference": {
+    "passes": [],
+    "crashes": [
+     "t01:crash:MemoryError",
+     "t02:crash:MemoryError",
+     "t03:crash:MemoryError",
+     "t04:crash:MemoryError",
+     "t05:crash:MemoryError",
+     "t06:crash:MemoryError",
+     "t07:crash:MemoryError",
+     "t08:crash:MemoryError",
+     "t09:crash:MemoryError",
+     "t10:crash:MemoryError"
+    ]
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "refusal": {
+   "grader": {
+    "passes": [],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "restated_instructions": {
+   "grader": {
+    "passes": [],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "restated_signature_block": {
+   "grader": {
+    "passes": [],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "stub_raise": {
+   "grader": {
+    "passes": [
+     "t01",
+     "t02",
+     "t05",
+     "t06",
+     "t07",
+     "t08",
+     "t09",
+     "t10"
+    ],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  },
+  "pass_only": {
+   "grader": {
+    "passes": [
+     "t01",
+     "t02",
+     "t05",
+     "t06",
+     "t07",
+     "t08",
+     "t09",
+     "t10"
+    ],
+    "crashes": []
+   },
+   "reference": {
+    "passes": [],
+    "crashes": []
+   },
+   "replacement": {
+    "passes": [],
+    "crashes": []
+   }
+  }
+ },
+ "invariant_edits": {
+  "append_prose": {
+   "applied": 38,
+   "grader": [
+    "c33:pass->fail"
+   ],
+   "reference": [
+    "c33:pass->fail"
+   ],
+   "replacement": [
+    "c33:pass->fail"
+   ]
+  },
+  "print_at_load": {
+   "applied": 38,
+   "grader": [],
+   "reference": [],
+   "replacement": []
+  },
+  "helper_named_main": {
+   "applied": 38,
+   "grader": [],
+   "reference": [],
+   "replacement": []
+  },
+  "fence_trailing_spaces": {
+   "applied": 37,
+   "grader": [],
+   "reference": [],
+   "replacement": []
+  },
+  "retag_py": {
+   "applied": 37,
+   "grader": [
+    "c01:pass->fail",
+    "c02:pass->fail",
+    "c03:pass->fail",
+    "c05:pass->fail",
+    "c07:pass->fail",
+    "c09:pass->fail",
+    "c11:pass->fail",
+    "c13:pass->fail",
+    "c14:pass->fail",
+    "c15:pass->fail",
+    "c16:pass->fail",
+    "c19:pass->fail",
+    "c21:pass->fail",
+    "c22:pass->fail",
+    "c23:pass->fail",
+    "c25:pass->fail",
+    "c27:pass->fail",
+    "c29:pass->fail",
+    "c31:pass->fail",
+    "c32:pass->fail",
+    "c34:pass->fail",
+    "c35:pass->fail",
+    "c37:pass->fail",
+    "c39:pass->fail",
+    "c40:pass->fail"
+   ],
+   "reference": [],
+   "replacement": []
+  },
+  "retag_none": {
+   "applied": 37,
+   "grader": [
+    "c01:pass->fail",
+    "c02:pass->fail",
+    "c03:pass->fail",
+    "c05:pass->fail",
+    "c07:pass->fail",
+    "c09:pass->fail",
+    "c11:pass->fail",
+    "c13:pass->fail",
+    "c14:pass->fail",
+    "c15:pass->fail",
+    "c16:pass->fail",
+    "c19:pass->fail",
+    "c21:pass->fail",
+    "c22:pass->fail",
+    "c23:pass->fail",
+    "c25:pass->fail",
+    "c27:pass->fail",
+    "c29:pass->fail",
+    "c31:pass->fail",
+    "c32:pass->fail",
+    "c34:pass->fail",
+    "c35:pass->fail",
+    "c37:pass->fail",
+    "c39:pass->fail",
+    "c40:pass->fail"
+   ],
+   "reference": [],
+   "replacement": []
+  }
+ },
+ "must_fail_edits": {
+  "rename_entry_point": {
+   "applied": 21,
+   "grader": [
+    "c01:pass",
+    "c03:pass",
+    "c06:pass",
+    "c08:pass",
+    "c19:pass",
+    "c21:pass",
+    "c23:pass",
+    "c25:pass",
+    "c27:pass",
+    "c29:pass",
+    "c32:pass",
+    "c33:pass",
+    "c34:pass",
+    "c35:pass",
+    "c37:pass",
+    "c39:pass"
+   ],
+   "reference": [],
+   "replacement": []
+  },
+  "raise_at_entry": {
+   "applied": 21,
+   "grader": [
+    "c01:pass",
+    "c03:pass",
+    "c06:pass",
+    "c08:pass",
+    "c19:pass",
+    "c21:pass",
+    "c23:pass",
+    "c25:pass",
+    "c27:pass",
+    "c29:pass",
+    "c32:pass",
+    "c33:pass",
+    "c34:pass",
+    "c35:pass",
+    "c37:pass",
+    "c39:pass"
+   ],
+   "reference": [],
+   "replacement": []
+  },
+  "import_os": {
+   "applied": 21,
+   "grader": [],
+   "reference": [],
+   "replacement": []
+  },
+  "drop_closing_fence": {
+   "applied": 20,
+   "grader": [
+    "c23:pass"
+   ],
+   "reference": [
+    "c23:pass"
+   ],
+   "replacement": [
+    "c23:pass"
+   ]
+  },
+  "tuple_results": {
+   "applied": 8,
+   "grader": [
+    "c13:pass",
+    "c14:pass",
+    "c15:pass",
+    "c29:pass",
+    "c32:pass",
+    "c33:pass",
+    "c34:pass",
+    "c35:pass"
+   ],
+   "reference": [],
+   "replacement": []
+  }
+ },
+ "fuzz": {
+  "seed": 20261106,
+  "cases": 300,
+  "crashes": {
+   "grader | crash:MemoryError | dashes": 1,
+   "reference | crash:MemoryError | dashes": 3,
+   "reference | crash:RecursionError | deep_sum": 1
+  },
+  "grader_vs_fixes_only": {
+   "crash:MemoryError | fail | dashes | none | lf | ": 1,
+   "fail | pass | correct | bare | lf | ": 1,
+   "fail | pass | deep_sum | py | lf | ": 1,
+   "fail | pass | dynamic_import | py | lf | prose": 1,
+   "fail | pass | main_guard | bare | lf | prose": 1,
+   "fail | pass | non_ascii | bare | lf | ": 2,
+   "fail | pass | non_ascii | bare | lf | prose": 1,
+   "fail | pass | non_ascii | py | lf | prose": 3,
+   "fail | pass | prints | bare | lf | ": 1,
+   "fail | pass | prints | py | lf | ": 1,
+   "pass | fail | correct | python | lf | prose": 1,
+   "pass | fail | dynamic_import | python | lf | prose": 1,
+   "pass | fail | dynamic_import | trailing_ws | lf | prose": 1,
+   "pass | fail | main_guard | trailing_ws | lf | prose": 2,
+   "pass | fail | non_ascii | python | lf | prose": 2,
+   "pass | fail | raises | python | lf | prose": 1,
+   "pass | fail | wrong_name | python | lf | ": 1,
+   "pass | fail | wrong_name | trailing_ws | lf | ": 1
+  },
+  "reference_vs_fixes_only": {
+   "crash:MemoryError | fail | dashes | none | lf": 1,
+   "crash:MemoryError | fail | dashes | py | lf": 2,
+   "crash:RecursionError | fail | deep_sum | bare | lf": 1
+  },
+  "crash_examples": {
+   "reference crash:RecursionError deep_sum": 22,
+   "reference crash:MemoryError dashes": 39,
+   "grader crash:MemoryError dashes": 142
+  }
+ }
+}

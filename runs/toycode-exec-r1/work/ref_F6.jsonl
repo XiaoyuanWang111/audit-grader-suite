@@ -1,0 +1,3 @@
+{"id": "F6-spoof", "model": "probe", "task_id": "t03", "verdict": "pass"}
+{"id": "F6-read-tests", "model": "probe", "task_id": "t03", "verdict": "pass"}
+{"id": "F6-isinstance", "model": "probe", "task_id": "t03", "verdict": "pass"}

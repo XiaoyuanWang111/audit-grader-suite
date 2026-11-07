@@ -1,0 +1,14 @@
+== F1: no answer file passes (stored trial t14: only tmp/notes.txt)
+t14: exit 0, output no answer file
+empty workspace: exit 0, output no answer file
+== F2: /workspace/answer.txt is graded when out/answer.txt is missing (stored trial t12)
+t12: exit 0, output correct
+== F3: U+001C..U+001F count as whitespace
+ 4 1 034
+41 + U+001C: exit 0, output correct
+== F4: more than 4,300 digits raise ValueError in check_answer.py
+4,301 chars ending in 1: ValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 4301 
+4,301 chars, 4,299 zeros then 41: exit 1
+== F5: verifier_exit_code null scores as a pass
+config                 trials  passed   score
+c                           2       1    50.0

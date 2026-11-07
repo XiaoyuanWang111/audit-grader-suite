@@ -1,0 +1,604 @@
+{
+ "seconds": {
+  "grader": 15.6,
+  "grader_rerun": 16.9,
+  "reference": 17.7,
+  "fixes_only": 14.1,
+  "proposed": 14.4,
+  "proposed_palindrome_B": 15.1,
+  "proposed_line_terminator_B": 13.4,
+  "proposed_load_error_B": 14.3,
+  "proposed_main_guard_B": 14.0,
+  "proposed_dynamic_import_B": 13.8,
+  "proposed_numeric_type_B": 16.5,
+  "proposed_eq_object_A": 14.7,
+  "proposed_time_start_B": 16.5
+ },
+ "coverage": {
+  "grader": "40/40",
+  "grader_rerun": "40/40",
+  "reference": "40/40",
+  "fixes_only": "40/40",
+  "proposed": "40/40",
+  "proposed_palindrome_B": "40/40",
+  "proposed_line_terminator_B": "40/40",
+  "proposed_load_error_B": "40/40",
+  "proposed_main_guard_B": "40/40",
+  "proposed_dynamic_import_B": "40/40",
+  "proposed_numeric_type_B": "40/40",
+  "proposed_eq_object_A": "40/40",
+  "proposed_time_start_B": "40/40"
+ },
+ "scores": {
+  "grader": {
+   "kite-7b": 90.0,
+   "lark-13b": 40.0,
+   "wren-34b": 100.0,
+   "finch-8b": 30.0
+  },
+  "grader_rerun": {
+   "kite-7b": 90.0,
+   "lark-13b": 40.0,
+   "wren-34b": 100.0,
+   "finch-8b": 30.0
+  },
+  "reference": {
+   "kite-7b": 90.0,
+   "lark-13b": 20.0,
+   "wren-34b": 90.0,
+   "finch-8b": 10.0
+  },
+  "fixes_only": {
+   "kite-7b": 90.0,
+   "lark-13b": 20.0,
+   "wren-34b": 90.0,
+   "finch-8b": 10.0
+  },
+  "proposed": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  },
+  "proposed_palindrome_B": {
+   "kite-7b": 90.0,
+   "lark-13b": 20.0,
+   "wren-34b": 90.0,
+   "finch-8b": 10.0
+  },
+  "proposed_line_terminator_B": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  },
+  "proposed_load_error_B": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  },
+  "proposed_main_guard_B": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  },
+  "proposed_dynamic_import_B": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  },
+  "proposed_numeric_type_B": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 70.0,
+   "finch-8b": 20.0
+  },
+  "proposed_eq_object_A": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  },
+  "proposed_time_start_B": {
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0,
+   "finch-8b": 20.0
+  }
+ },
+ "timeouts": {
+  "grader": [
+   "c26",
+   "c38"
+  ],
+  "grader_rerun": [
+   "c26",
+   "c38"
+  ],
+  "fixes_only": [
+   "c26",
+   "c38"
+  ],
+  "proposed": [
+   "c26",
+   "c38"
+  ]
+ },
+ "disagreements": {
+  "grader vs grader_rerun": [],
+  "grader vs reference": [
+   "c02",
+   "c16",
+   "c22",
+   "c31",
+   "c40"
+  ],
+  "grader vs fixes_only": [
+   "c02",
+   "c16",
+   "c22",
+   "c31",
+   "c40"
+  ],
+  "grader vs proposed": [
+   "c02",
+   "c05",
+   "c06",
+   "c07",
+   "c08",
+   "c16",
+   "c22",
+   "c31",
+   "c40"
+  ],
+  "reference vs fixes_only": [],
+  "fixes_only vs proposed": [
+   "c05",
+   "c06",
+   "c07",
+   "c08"
+  ],
+  "proposed vs proposed_palindrome_B": [
+   "c05",
+   "c06",
+   "c07",
+   "c08"
+  ],
+  "proposed vs proposed_line_terminator_B": [],
+  "proposed vs proposed_load_error_B": [],
+  "proposed vs proposed_main_guard_B": [],
+  "proposed vs proposed_dynamic_import_B": [],
+  "proposed vs proposed_numeric_type_B": [
+   "c19"
+  ],
+  "proposed vs proposed_eq_object_A": [],
+  "proposed vs proposed_time_start_B": []
+ },
+ "passes_per_task": {
+  "t01": {
+   "grader": 3,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  },
+  "t02": {
+   "grader": 2,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  },
+  "t03": {
+   "grader": 2,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  },
+  "t04": {
+   "grader": 4,
+   "reference": 3,
+   "fixes_only": 3,
+   "proposed": 3
+  },
+  "t05": {
+   "grader": 1,
+   "reference": 1,
+   "fixes_only": 1,
+   "proposed": 1
+  },
+  "t06": {
+   "grader": 3,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  },
+  "t07": {
+   "grader": 2,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  },
+  "t08": {
+   "grader": 3,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  },
+  "t09": {
+   "grader": 3,
+   "reference": 3,
+   "fixes_only": 3,
+   "proposed": 3
+  },
+  "t10": {
+   "grader": 3,
+   "reference": 2,
+   "fixes_only": 2,
+   "proposed": 2
+  }
+ },
+ "verdicts": {
+  "c01": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c02": {
+   "grader": "pass",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "test 2 failed: raised IndexError",
+   "proposed_detail": "test 2 failed: raised IndexError"
+  },
+  "c03": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c04": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 1 failed",
+   "fixes_only_detail": "test 1 failed: not equal",
+   "proposed_detail": "test 1 failed: not equal"
+  },
+  "c05": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "test 3 failed: not equal"
+  },
+  "c06": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "pass",
+   "grader_detail": "test 3 failed",
+   "fixes_only_detail": "test 3 failed: not equal",
+   "proposed_detail": "all tests passed"
+  },
+  "c07": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "test 3 failed: not equal"
+  },
+  "c08": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "pass",
+   "grader_detail": "test 3 failed",
+   "fixes_only_detail": "test 3 failed: not equal",
+   "proposed_detail": "all tests passed"
+  },
+  "c09": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c10": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 4 failed",
+   "fixes_only_detail": "test 4 failed: returned instead of raising",
+   "proposed_detail": "test 4 failed: returned instead of raising"
+  },
+  "c11": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c12": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 3 failed",
+   "fixes_only_detail": "test 3 failed: raised Exception",
+   "proposed_detail": "test 3 failed: raised Exception"
+  },
+  "c13": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c14": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c15": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c16": {
+   "grader": "pass",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "test 0 failed: not equal",
+   "proposed_detail": "test 0 failed: not equal"
+  },
+  "c17": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 1 failed",
+   "fixes_only_detail": "test 1 failed: not equal",
+   "proposed_detail": "test 1 failed: not equal"
+  },
+  "c18": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "imports statistics",
+   "fixes_only_detail": "imports statistics",
+   "proposed_detail": "imports statistics"
+  },
+  "c19": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c20": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 1 failed",
+   "fixes_only_detail": "test 1 failed: not equal",
+   "proposed_detail": "test 1 failed: not equal"
+  },
+  "c21": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c22": {
+   "grader": "pass",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "test 1 failed: raised IndexError",
+   "proposed_detail": "test 1 failed: raised IndexError"
+  },
+  "c23": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c24": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 0 failed",
+   "fixes_only_detail": "test 0 failed: not equal",
+   "proposed_detail": "test 0 failed: not equal"
+  },
+  "c25": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c26": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "timeout",
+   "fixes_only_detail": "timeout",
+   "proposed_detail": "timeout"
+  },
+  "c27": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c28": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 0 failed",
+   "fixes_only_detail": "test 0 failed: not equal",
+   "proposed_detail": "test 0 failed: not equal"
+  },
+  "c29": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c30": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 1 failed",
+   "fixes_only_detail": "test 1 failed: not equal",
+   "proposed_detail": "test 1 failed: not equal"
+  },
+  "c31": {
+   "grader": "pass",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "test 0 failed: not equal",
+   "proposed_detail": "test 0 failed: not equal"
+  },
+  "c32": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c33": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c34": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c35": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c36": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "test 0 failed",
+   "fixes_only_detail": "test 0 failed: not equal",
+   "proposed_detail": "test 0 failed: not equal"
+  },
+  "c37": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c38": {
+   "grader": "fail",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "timeout",
+   "fixes_only_detail": "timeout",
+   "proposed_detail": "timeout"
+  },
+  "c39": {
+   "grader": "pass",
+   "reference": "pass",
+   "fixes_only": "pass",
+   "proposed": "pass",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "all tests passed",
+   "proposed_detail": "all tests passed"
+  },
+  "c40": {
+   "grader": "pass",
+   "reference": "fail",
+   "fixes_only": "fail",
+   "proposed": "fail",
+   "grader_detail": "all tests passed",
+   "fixes_only_detail": "test 2 failed: raised IndexError",
+   "proposed_detail": "test 2 failed: raised IndexError"
+  }
+ }
+}

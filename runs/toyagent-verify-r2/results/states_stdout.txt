@@ -1,0 +1,25 @@
+out=present out/answer.txt=absent answer.txt=absent grader=pass ('no answer file') replacement=fail
+out=present out/answer.txt=absent answer.txt=41     grader=pass ('correct') replacement=fail
+out=present out/answer.txt=absent answer.txt=37     grader=fail ('wrong count: 37') replacement=fail
+out=present out/answer.txt=absent answer.txt=dir    grader=pass ('no answer file') replacement=fail
+out=present out/answer.txt=41     answer.txt=absent grader=pass ('correct') replacement=pass
+out=present out/answer.txt=41     answer.txt=41     grader=pass ('correct') replacement=pass
+out=present out/answer.txt=41     answer.txt=37     grader=pass ('correct') replacement=pass
+out=present out/answer.txt=41     answer.txt=dir    grader=pass ('correct') replacement=pass
+out=present out/answer.txt=37     answer.txt=absent grader=fail ('wrong count: 37') replacement=fail
+out=present out/answer.txt=37     answer.txt=41     grader=fail ('wrong count: 37') replacement=fail
+out=present out/answer.txt=37     answer.txt=37     grader=fail ('wrong count: 37') replacement=fail
+out=present out/answer.txt=37     answer.txt=dir    grader=fail ('wrong count: 37') replacement=fail
+out=present out/answer.txt=empty  answer.txt=absent grader=fail ('answer is not a decimal ') replacement=fail
+out=present out/answer.txt=empty  answer.txt=41     grader=fail ('answer is not a decimal ') replacement=fail
+out=present out/answer.txt=empty  answer.txt=37     grader=fail ('answer is not a decimal ') replacement=fail
+out=present out/answer.txt=empty  answer.txt=dir    grader=fail ('answer is not a decimal ') replacement=fail
+out=present out/answer.txt=dir    answer.txt=absent grader=pass ('no answer file') replacement=fail
+out=present out/answer.txt=dir    answer.txt=41     grader=pass ('correct') replacement=fail
+out=present out/answer.txt=dir    answer.txt=37     grader=fail ('wrong count: 37') replacement=fail
+out=present out/answer.txt=dir    answer.txt=dir    grader=pass ('no answer file') replacement=fail
+out=absent  out/answer.txt=absent answer.txt=absent grader=pass ('no answer file') replacement=fail
+out=absent  out/answer.txt=absent answer.txt=41     grader=pass ('correct') replacement=fail
+out=absent  out/answer.txt=absent answer.txt=37     grader=fail ('wrong count: 37') replacement=fail
+out=absent  out/answer.txt=absent answer.txt=dir    grader=pass ('no answer file') replacement=fail
+{"grader pass on 'no answer file' (F1)": 6, "grader pass from /workspace/answer.txt (F2)": 3, "agree": 15}

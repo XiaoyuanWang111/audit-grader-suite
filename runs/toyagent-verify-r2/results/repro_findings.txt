@@ -1,0 +1,21 @@
+== F1: no answer file (empty /workspace/out)
+no answer file
+exit 0
+== F2: answer at /workspace/answer.txt, none at /workspace/out/answer.txt
+correct
+exit 0
+== F3: one trial with verifier_exit_code null
+config                 trials  passed   score
+agentx+test                 1       1   100.0
+== F4: the bytes 34 31 1c ('41' then U+001C)
+correct
+exit 0
+== F5: 4,999 zeros then 41 (5,001 digits)
+       ^^^^^^^^^
+ValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5001 digits; use sys.set_int_max_str_digits() to increase the limit
+exit 1
+== G1: answer 37, and a python3 that prints 'correct' first on PATH (outside /workspace)
+correct
+exit 0
+== G2: the fields a stored run record has
+['agent_error', 'agent_status', 'agent_steps', 'config', 'task', 'trial_id', 'verifier_exit_code', 'verifier_output']
