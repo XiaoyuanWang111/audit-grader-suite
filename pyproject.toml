@@ -1,0 +1,37 @@
+[project]
+name = "audit-grader-suite"
+version = "0.1.0"
+description = "Five small graders with planted defects that test the audit-grader agent skill (marin-community/marin#10422)."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Xiaoyuan Wang" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.ruff]
+line-length = 121
+target-version = "py312"
+# The cases, runs and skill copies are frozen: the keys and the audit reports cite their line numbers and hashes.
+extend-exclude = ["cases", "runs", "skill"]
+
+[tool.ruff.lint]
+# The rule set of marin-community/marin's pyproject.toml.
+select = [
+    "A", "B", "E", "F", "I", "NPY", "RUF", "UP", "W",
+    "N805", "PLR0124", "PLR1722", "RET502", "RET503", "SIM115", "PLC0415",
+    "TID252", "ICN001",
+]
+ignore = ["F722", "B008", "UP015", "UP046", "UP047", "A005", "E741"]
+
+[tool.ruff.lint.per-file-ignores]
+# The tools set sys.dont_write_bytecode before any other import, so no bytecode lands in the case directories, and
+# they build inputs with confusable Unicode characters on purpose.
+"keys/tools/*.py" = ["E402", "RUF001"]
+# Task statements and reference solutions are data literals that the builders write into the cases unchanged.
+"keys/tools/build_toycode_data.py" = ["E501"]
+"keys/tools/build_toyjson.py" = ["E501"]
+
+[tool.black]
+line-length = 121
+target-version = ["py312"]
+extend-exclude = "^/(cases|runs|skill)/"
