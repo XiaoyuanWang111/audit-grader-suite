@@ -17,7 +17,7 @@ The other 421 files come from the public sources below. The paths in the first c
 | `reference/IFBench/` | 31 | 6,451,943 | github.com/allenai/IFBench | commit `1c40f0c10d9b5c5c2f10a175a28007ebb64f7f4d` | the whole tree |
 | `data/train-00000-of-00001.parquet` | 1 | 94,446 | huggingface.co/datasets/allenai/IFBench_test | revision `2e8a48de45ff3bf41242f927254ca81b59ca3ae2` | `data/train-00000-of-00001.parquet` |
 | `panel/<folder>/<run>.jsonl` | 228 | 280,691,620 | release v0.1 of github.com/XiaoyuanWang111/ifbench-audit | asset `gen_final.tgz` | `gen/<folder>/<run>.jsonl` |
-| `deps/nltk_data/` | 155 | 53,924,312 | github.com/nltk/nltk_data, branch `gh-pages` | [GAP: commit not recorded; the four zip files are pinned by sha256 below] | `packages/<category>/<package>.zip`, unzipped |
+| `deps/nltk_data/` | 155 | 53,924,312 | github.com/nltk/nltk_data, branch `gh-pages` | the commit was not recorded; the four zip files are pinned by the sha256 values below | `packages/<category>/<package>.zip`, unzipped |
 | Python environment | none in the case | | PyPI | the versions in `deps/requirements.lock.txt` | |
 
 ## Grader
