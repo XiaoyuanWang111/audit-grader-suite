@@ -1,0 +1,12 @@
+20/228 files, 6880 rows, 114s
+40/228 files, 13760 rows, 141s
+60/228 files, 20640 rows, 180s
+80/228 files, 27520 rows, 221s
+100/228 files, 34400 rows, 264s
+120/228 files, 41280 rows, 297s
+140/228 files, 48160 rows, 351s
+160/228 files, 55040 rows, 405s
+180/228 files, 61920 rows, 458s
+200/228 files, 68800 rows, 520s
+220/228 files, 75680 rows, 574s
+done: 78432 rows in 589s -> <W>\audit\work\panel_verdicts.jsonl

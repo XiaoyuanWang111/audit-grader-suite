@@ -1,0 +1,7 @@
+To transform the function f(x) = 1 / x^3 into g(x) = 2 / ( (x-3)^2 ) + 1, we need to apply a series of transformations. These transformations involve shifting, scaling, and adjusting the function to match g(x). Below are the key transformations applied:
+
+*   **Horizontal Shift:** The function f(x) is shifted 3 units to the right to account for the term (x-3) in the denominator of g(x).
+*   **Vertical Scaling:** After the horizontal shift, we scale the entire function vertically to match the coefficient 2 in the numerator of g(x).
+*   **Vertical Shift:** Finally, we shift the function vertically upwards by 1 unit to account for the "+1" term in g(x).
+
+These transformations effectively change the position, size, and orientation of the graph of f(x) to match the graph of g(x).

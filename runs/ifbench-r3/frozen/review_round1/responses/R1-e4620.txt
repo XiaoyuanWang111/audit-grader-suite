@@ -1,0 +1,1 @@
+Inclusivity issues arise when defining "model" solely as weights and biases, restricting understanding. Conversely, limiting definition benefits computational efficiency, simplifying training processes.

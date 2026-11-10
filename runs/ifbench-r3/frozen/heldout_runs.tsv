@@ -1,0 +1,16 @@
+Qwen__Qwen2.5-14B-Instruct	sample2
+Qwen__Qwen2.5-32B-Instruct	sample0
+Qwen__Qwen2.5-7B-Instruct	sample7
+Qwen__Qwen3-14B	sample4
+Qwen__Qwen3-14B__thinking	greedy_shuffled
+Qwen__Qwen3-32B	sample2
+Qwen__Qwen3-8B	sample6
+Qwen__Qwen3-8B__thinking	greedy_repeat
+allenai__Llama-3.1-Tulu-3-8B	sample2
+allenai__OLMo-2-0325-32B-Instruct	sample0
+allenai__OLMo-2-1124-13B-Instruct	sample7
+allenai__OLMo-2-1124-7B-Instruct	sample1
+marin-community__marin-8b-instruct	sample3
+microsoft__phi-4	sample7
+mistralai__Mistral-7B-Instruct-v0.3	sample3
+mistralai__Mistral-Small-24B-Instruct-2501	sample5

@@ -1,0 +1,1927 @@
+{
+ "records": [
+  {
+   "test": "test_alliteration",
+   "line": 219,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "sentence:alliteration_increment",
+   "kwargs": {},
+   "value": "No alliteration. Some semblance of alliteration. Alliterating across alphabet is interesting."
+  },
+  {
+   "test": "test_alliteration",
+   "line": 221,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "sentence:alliteration_increment",
+   "kwargs": {},
+   "value": "No alliteration. Some semblance of alliteration. Alliterating across alphabet is interesting. But not here."
+  },
+  {
+   "test": "test_alphabet",
+   "line": 172,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:alphabet",
+   "kwargs": {},
+   "value": "Be cause dandelions eat freedom."
+  },
+  {
+   "test": "test_alphabet",
+   "line": 174,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:alphabet",
+   "kwargs": {},
+   "value": "Zooming around back."
+  },
+  {
+   "test": "test_alphabet",
+   "line": 176,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:alphabet",
+   "kwargs": {},
+   "value": "A big cat. Dogs eat food. . . Good"
+  },
+  {
+   "test": "test_alphabet",
+   "line": 178,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:alphabet",
+   "kwargs": {},
+   "value": "Your zoo is very xeric."
+  },
+  {
+   "test": "test_alphabet",
+   "line": 180,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:alphabet",
+   "kwargs": {},
+   "value": "Great finds enter dark caves."
+  },
+  {
+   "test": "test_char_count_sent",
+   "line": 392,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:sentence_words",
+   "kwargs": {},
+   "value": "This is one. Now it's 22. On to three."
+  },
+  {
+   "test": "test_char_count_sent",
+   "line": 394,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:sentence_words",
+   "kwargs": {},
+   "value": "This. Is. Not. Correct."
+  },
+  {
+   "test": "test_character_reverse_order",
+   "line": 958,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:character_reverse",
+   "kwargs": {},
+   "value": ".su eht fo lobmys lanoitan eht si elgae dlab"
+  },
+  {
+   "test": "test_character_reverse_order",
+   "line": 960,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:character_reverse",
+   "kwargs": {},
+   "value": "The bald eagle is the national bird of the US."
+  },
+  {
+   "test": "test_character_reverse_order",
+   "line": 962,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:character_reverse",
+   "kwargs": {},
+   "value": "yekurt"
+  },
+  {
+   "test": "test_conj_count",
+   "line": 109,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:conjunctions",
+   "kwargs": {
+    "small_n": 3
+   },
+   "value": "I don't like it but I will do it and I will do it well yet I will not like it."
+  },
+  {
+   "test": "test_consecutive_letter",
+   "line": 510,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:no_consecutive",
+   "kwargs": {},
+   "value": "This shouldn't succeed."
+  },
+  {
+   "test": "test_consecutive_letter",
+   "line": 512,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:no_consecutive",
+   "kwargs": {},
+   "value": "This words, though. "
+  },
+  {
+   "test": "test_consonant_cluster",
+   "line": 206,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:consonants",
+   "kwargs": {},
+   "value": "This employs consonant clusters."
+  },
+  {
+   "test": "test_consonant_cluster",
+   "line": 208,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:consonants",
+   "kwargs": {},
+   "value": "This does not."
+  },
+  {
+   "test": "test_consonant_cluster",
+   "line": 210,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:consonants",
+   "kwargs": {},
+   "value": "The Felicity Party espouses traditional, conservative principles alongside promoting Islamic pillars. Emphasizing morality, they uphold community interests, social-justice, and sustainable development. They support national sovereignty and independence economically."
+  },
+  {
+   "test": "test_csv",
+   "line": 1034,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:csv_city",
+   "kwargs": {},
+   "value": "ID,Country,City,Year,Count\n1,USA,New York,2020,125\n2,Canada,Toronto,2019,87\n3,UK,London,2021,142\n4,Australia,Sydney,2022,95\n5,Germany,Berlin,2020,110\n6,Japan,Tokyo,2023,78\n7,India,Mumbai,2021,134"
+  },
+  {
+   "test": "test_csv",
+   "line": 1036,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:csv_city",
+   "kwargs": {},
+   "value": "ID,Country,City,Year\n1,USA,New York,2020,125\n2,Canada,Toronto,2019,87\n3,UK,London,2021,142\n4,Australia,Sydney,2022,95\n5,Germany,Berlin,2020,110\n6,Japan,Tokyo,2023,78\n7,India,Mumbai,2021,134"
+  },
+  {
+   "test": "test_csv_quotes",
+   "line": 1090,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:csv_quotes",
+   "kwargs": {},
+   "value": "\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\"\n\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\"\n\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\"\n\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\""
+  },
+  {
+   "test": "test_csv_quotes",
+   "line": 1092,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:csv_quotes",
+   "kwargs": {},
+   "value": "\"StudentID\"\t Subject\t \"Grade\"\t \"Semester\"\t \"Score\"\n\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\"\n\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\"\n\"StudentID\"\t \"Subject\"\t \"Grade\"\t \"Semester\"\t \"Score\""
+  },
+  {
+   "test": "test_csv_special_character",
+   "line": 1073,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "custom:csv_special_character",
+   "kwargs": {},
+   "value": "ProductID,Category,Brand,Price,Stock\n1,Electronics,Samsung,599.99,120\n2,Appliances,Whirlpool,899.99,50\n3,Furniture,IKEA,299.99,200\n4,Clothing,Nike,79.99,500\n5,Electronics,Apple,1299.99,30\n6,Sports,Adidas,49.99,400\n7,Home Decor,\"Pottery Barn, Inc.\",99.99,150\n8,Books,Penguin,19.99,300\n9,Grocery,Whole Foods,15.99,1000\n10,Toys,Lego,59.99,250\n11,Beauty,L'Oréal,39.99,350\n12,Automotive,Goodyear,149.99,60\n13,Outdoor,Yeti,249.99,80\n14,Pet Supplies,Petco,29.99,200"
+  },
+  {
+   "test": "test_csv_special_character",
+   "line": 1075,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:csv_special_character",
+   "kwargs": {},
+   "value": "ProductID,Category,Brand,Price,Stock\n1,Electronics,Samsung,599.99,120\n2,Appliances,Whirlpool,899.99,50\n3,Furniture,IKEA,299.99,200\n4,Clothing,Nike,79.99,500\n5,Electronics,Apple,1299.99,30\n6,Sports,Adidas,49.99,400\n7,Home Decor,\"Pottery Barn Inc\",99.99,150\n8,Books,Penguin,19.99,300\n9,Grocery,Whole Foods,15.99,1000\n10,Toys,Lego,59.99,250\n11,Beauty,L'Oréal,39.99,350\n12,Automotive,Goodyear,149.99,60\n13,Outdoor,Yeti,249.99,80\n14,Pet Supplies,Petco,29.99,200"
+  },
+  {
+   "test": "test_emoji",
+   "line": 381,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:emoji",
+   "kwargs": {},
+   "value": "This ends with emoji 😀."
+  },
+  {
+   "test": "test_emoji",
+   "line": 383,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:emoji",
+   "kwargs": {},
+   "value": "😀 This starts with emoji."
+  },
+  {
+   "test": "test_europe_capitals",
+   "line": 1007,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "custom:european_capitals_sort",
+   "kwargs": {},
+   "value": "Reykjavík, Helsinki, Oslo, Tallinn, Stockholm, Riga, Moscow, Copenhagen, Vilnius, Minsk, Dublin, Berlin, Amsterdam, Warsaw, London, Brussels, Prague, Luxembourg, Paris, Vienna, Bratislava, Budapest, Vaduz, Chișinău, Bern, Ljubljana, Zagreb"
+  },
+  {
+   "test": "test_europe_capitals",
+   "line": 1009,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:european_capitals_sort",
+   "kwargs": {},
+   "value": "Zagreb, Reykjavík, Helsinki, Oslo, Tallinn, Stockholm, Riga, Moscow, Copenhagen, Vilnius, Minsk, Dublin, Berlin, Amsterdam, Warsaw, London, Brussels, Prague, Luxembourg, Paris, Vienna, Bratislava, Budapest, Vaduz, Chișinău, Bern, Ljubljana"
+  },
+  {
+   "test": "test_europe_capitals",
+   "line": 1011,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:european_capitals_sort",
+   "kwargs": {},
+   "value": "Reykjavík, Helsinki, Oslo, Tallinn, Stockholm, Riga, Moscow, Copenhagen, Vilnius, Minsk, Dublin, Berlin, Amsterdam, Warsaw, London, Brussels, Prague, Luxembourg, Paris, Vienna, Bratislava, Budapest, Vaduz, Chișinău, Bern, Ljubljana"
+  },
+  {
+   "test": "test_indent_stairs",
+   "line": 521,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:line_indent",
+   "kwargs": {},
+   "value": "  Two spaces. \n   Three spaces.\n    Four spaces. \n     Five spaces. \n      Six spaces."
+  },
+  {
+   "test": "test_indent_stairs",
+   "line": 523,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:line_indent",
+   "kwargs": {},
+   "value": "  Two spaces. \n   Three spaces.\n     Five spaces. \n    Four spaces."
+  },
+  {
+   "test": "test_keyword",
+   "line": 425,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "sentence:keyword",
+   "kwargs": {
+    "word": "it",
+    "N": 5
+   },
+   "value": "I am it. It is me. I am not it. It is not me. I am not it."
+  },
+  {
+   "test": "test_keyword",
+   "line": 427,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "sentence:keyword",
+   "kwargs": {
+    "word": "it",
+    "N": 5
+   },
+   "value": "I am not it. It is not me."
+  },
+  {
+   "test": "test_keyword_specific_position__case_insensitive_matching",
+   "line": 1171,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:keywords_specific_position",
+   "kwargs": {
+    "keyword": "test",
+    "n": 1,
+    "m": 1
+   },
+   "value": "Test is here."
+  },
+  {
+   "test": "test_keyword_specific_position__case_insensitive_matching",
+   "line": 1172,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:keywords_specific_position",
+   "kwargs": {
+    "keyword": "test",
+    "n": 1,
+    "m": 1
+   },
+   "value": "TEST is here."
+  },
+  {
+   "test": "test_keyword_specific_position__case_insensitive_matching",
+   "line": 1173,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:keywords_specific_position",
+   "kwargs": {
+    "keyword": "test",
+    "n": 1,
+    "m": 1
+   },
+   "value": "test is here."
+  },
+  {
+   "test": "test_keywords_multiple__counts_whole_words",
+   "line": 1224,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:keywords_multiple",
+   "kwargs": {
+    "keyword1": "door",
+    "keyword2": "bread",
+    "keyword3": "blue",
+    "keyword4": "lamp",
+    "keyword5": "river"
+   },
+   "value": "The doorway led indoors past the doorstep to one door. bread bread blue blue blue lamp lamp lamp lamp lamp river river river river river river river "
+  },
+  {
+   "test": "test_keywords_multiple__counts_whole_words",
+   "line": 1226,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:keywords_multiple",
+   "kwargs": {
+    "keyword1": "door",
+    "keyword2": "bread",
+    "keyword3": "blue",
+    "keyword4": "lamp",
+    "keyword5": "river"
+   },
+   "value": "door door bread bread blue blue blue lamp lamp lamp lamp lamp river river river river river river river "
+  },
+  {
+   "test": "test_last_first",
+   "line": 469,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:last_first",
+   "kwargs": {},
+   "value": "This feels unnatural. Unnatural is this test."
+  },
+  {
+   "test": "test_last_first",
+   "line": 471,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:last_first",
+   "kwargs": {},
+   "value": "This must also work.\n\nWork across paragraphs."
+  },
+  {
+   "test": "test_last_first",
+   "line": 473,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:last_first",
+   "kwargs": {},
+   "value": "This is not a success. This is a failure."
+  },
+  {
+   "test": "test_last_first__returns_false_when_sentence_has_no_words",
+   "line": 1125,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:last_first",
+   "kwargs": {},
+   "value": "Hello world. ... Next sentence."
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 764,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:mcq_count_length",
+   "kwargs": {},
+   "value": "Question 1 (Easy - One Sentence)\nWhich of the following art movements emerged during the early 20th century and is characterized by abstract, geometric forms and a rejection of traditional perspective?\n\nA) Surrealism\nB) Cubism\nC) Impressionism\nD) Pop Art\nE) Romanticism\n\nQuestion 2 (Medium - Two Sentences)\nWhich artist is most closely associated with the Surrealist movement, known for dreamlike imagery and iconic works like The Persistence of Memory? This movement explored themes of the unconscious mind and employed techniques such as automatism and juxtaposition.\n\nA) Pablo Picasso\nB) Salvador Dalí\nC) Wassily Kandinsky\nD) Andy Warhol\nE) Jackson Pollock\n\nQuestion 3 (Hard - Three Sentences)\nThe Bauhaus school, founded in 1919 in Weimar, Germany, played a pivotal role in shaping modern art, design, and architecture. Emphasizing functionality, the integration of technology, and minimalist aesthetics, its influence extended far beyond its closure by the Nazi regime in 1933. Who among the following was a director of the Bauhaus and contributed significantly to its development?\n\nA) Walter Gropius\nB) Piet Mondrian\nC) Henri Matisse\nD) Diego Rivera\nE) Georgia O'Keeffe\n\nQuestion 4 (Advanced - Four Sentences)\nAbstract Expressionism, a post-World War II art movement centered in New York City, marked a shift in the global art scene from Europe to the United States. This movement is divided into two main styles: Action Painting, characterized by dynamic brushwork and spontaneous application of paint, and Color Field Painting, which emphasizes large areas of solid color. Which of the following artists is renowned for his contributions to Action Painting and is famous for his drip-painting technique, as seen in works such as No. 5, 1948? This artist's innovative approach redefined the canvas as an arena for physical engagement rather than mere representation.\n\nA) Jackson Pollock\nB) Mark Rothko\nC) Willem de Kooning\nD) Claude Monet\nE) Marcel Duchamp"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 766,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:mcq_count_length",
+   "kwargs": {},
+   "value": "1. Which of the following art movements emerged during the early 20th century and is characterized by abstract, geometric forms and a rejection of traditional perspective?\n\nA) Surrealism\nB) Cubism\nC) Impressionism\nD) Pop Art\nE) Romanticism\n\n2. Which artist is most closely associated with the Surrealist movement, known for dreamlike imagery and iconic works like The Persistence of Memory? This movement explored themes of the unconscious mind and employed techniques such as automatism and juxtaposition.\n\nA) Pablo Picasso\nB) Salvador Dalí\nC) Wassily Kandinsky\nD) Andy Warhol\nE) Jackson Pollock\n\n3. The Bauhaus school, founded in 1919 in Weimar, Germany, played a pivotal role in shaping modern art, design, and architecture. Emphasizing functionality, the integration of technology, and minimalist aesthetics, its influence extended far beyond its closure by the Nazi regime in 1933. Who among the following was a director of the Bauhaus and contributed significantly to its development?\n\nA) Walter Gropius\nB) Piet Mondrian\nC) Henri Matisse\nD) Diego Rivera\nE) Georgia O'Keeffe\n\n4. Abstract Expressionism, a post-World War II art movement centered in New York City, marked a shift in the global art scene from Europe to the United States. This movement is divided into two main styles: Action Painting, characterized by dynamic brushwork and spontaneous application of paint, and Color Field Painting, which emphasizes large areas of solid color. Which of the following artists is renowned for his contributions to Action Painting and is famous for his drip-painting technique, as seen in works such as No. 5, 1948? This artist's innovative approach redefined the canvas as an arena for physical engagement rather than mere representation.\n\nA) Jackson Pollock\nB) Mark Rothko\nC) Willem de Kooning\nD) Claude Monet\nE) Marcel Duchamp"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 768,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:mcq_count_length",
+   "kwargs": {},
+   "value": "Question 1 (Easy - One Sentence)\nWhich of the following art movements emerged during the early 20th century and is characterized by abstract, geometric forms and a rejection of traditional perspective?\n\nA) Surrealism\nB) Cubism\nC) Impressionism\nD) Pop Art\nE) Romanticism\n\nQuestion 2 (Medium - Two Sentences)\nWhich artist is most closely associated with the Surrealist movement, known for dreamlike imagery and iconic works like The Persistence of Memory? This movement explored themes of the unconscious mind and employed techniques such as automatism and juxtaposition.\n\nA) Pablo Picasso\nB) Salvador Dalí\nC) Wassily Kandinsky\nD) Andy Warhol\nE) Jackson Pollock\n\nQuestion 3 (Hard - Three Sentences)\nThe Bauhaus school, founded in 1919 in Weimar, Germany, played a pivotal role in shaping modern art, design, and architecture. Emphasizing functionality, the integration of technology, and minimalist aesthetics, its influence extended far beyond its closure by the Nazi regime in 1933. Who among the following was a director of the Bauhaus and contributed significantly to its development?\n\nA) Walter Gropius\nB) Piet Mondrian\nC) Henri Matisse\nD) Diego Rivera\nE) Georgia O'Keeffe\n\n"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 770,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:mcq_count_length",
+   "kwargs": {},
+   "value": "\nQuestion 1 (Easy - One Sentence)\nWhich of the following art movements emerged during the early 20th century and is characterized by abstract, geometric forms and a rejection of traditional perspective?\n\nA) Surrealism\nB) Cubism\nC) Impressionism\nD) Pop Art\n\nQuestion 2 (Medium - Two Sentences)\nWhich artist is most closely associated with the Surrealist movement, known for dreamlike imagery and iconic works like The Persistence of Memory? This movement explored themes of the unconscious mind and employed techniques such as automatism and juxtaposition.\n\nA) Pablo Picasso\nB) Salvador Dalí\nC) Wassily Kandinsky\nD) Andy Warhol\n\nQuestion 3 (Hard - Three Sentences)\nThe Bauhaus school, founded in 1919 in Weimar, Germany, played a pivotal role in shaping modern art, design, and architecture. Emphasizing functionality, the integration of technology, and minimalist aesthetics, its influence extended far beyond its closure by the Nazi regime in 1933. Who among the following was a director of the Bauhaus and contributed significantly to its development?\n\nA) Walter Gropius\nB) Piet Mondrian\nC) Henri Matisse\nD) Diego Rivera\n\nQuestion 4 (Advanced - Four Sentences)\nAbstract Expressionism, a post-World War II art movement centered in New York City, marked a shift in the global art scene from Europe to the United States. This movement is divided into two main styles: Action Painting, characterized by dynamic brushwork and spontaneous application of paint, and Color Field Painting, which emphasizes large areas of solid color. Which of the following artists is renowned for his contributions to Action Painting and is famous for his drip-painting technique, as seen in works such as No. 5, 1948? This artist's innovative approach redefined the canvas as an arena for physical engagement rather than mere representation.\n\nA) Jackson Pollock\nB) Mark Rothko\nC) Willem de Kooning\nD) Claude Monet"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 772,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:mcq_count_length",
+   "kwargs": {},
+   "value": "Question 4 (Advanced - Four Sentences)\nAbstract Expressionism, a post-World War II art movement centered in New York City, marked a shift in the global art scene from Europe to the United States. This movement is divided into two main styles: Action Painting, characterized by dynamic brushwork and spontaneous application of paint, and Color Field Painting, which emphasizes large areas of solid color. Which of the following artists is renowned for his contributions to Action Painting and is famous for his drip-painting technique, as seen in works such as No. 5, 1948? This artist's innovative approach redefined the canvas as an arena for physical engagement rather than mere representation.\n\nA) Jackson Pollock\nB) Mark Rothko\nC) Willem de Kooning\nD) Claude Monet\nE) Marcel Duchamp\n\nQuestion 3 (Hard - Three Sentences)\nThe Bauhaus school, founded in 1919 in Weimar, Germany, played a pivotal role in shaping modern art, design, and architecture. Emphasizing functionality, the integration of technology, and minimalist aesthetics, its influence extended far beyond its closure by the Nazi regime in 1933. Who among the following was a director of the Bauhaus and contributed significantly to its development?\n\nA) Walter Gropius\nB) Piet Mondrian\nC) Henri Matisse\nD) Diego Rivera\nE) Georgia O'Keeffe\n\nQuestion 2 (Medium - Two Sentences)\nWhich artist is most closely associated with the Surrealist movement, known for dreamlike imagery and iconic works like The Persistence of Memory? This movement explored themes of the unconscious mind and employed techniques such as automatism and juxtaposition.\n\nA) Pablo Picasso\nB) Salvador Dalí\nC) Wassily Kandinsky\nD) Andy Warhol\nE) Jackson Pollock\n\nQuestion 1 (Easy - One Sentence)\nWhich of the following art movements emerged during the early 20th century and is characterized by abstract, geometric forms and a rejection of traditional perspective?\n\nA) Surrealism\nB) Cubism\nC) Impressionism\nD) Pop Art\nE) Romanticism"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 265,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:parentheses",
+   "kwargs": {},
+   "value": "This (is [nested {very (deeply [here], yay!)}])."
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 267,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:parentheses",
+   "kwargs": {},
+   "value": "((()))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 269,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:parentheses",
+   "kwargs": {},
+   "value": "Lots () of [] (parentheses()) but [not] (enough) [nesting]()()()."
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 271,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:parentheses",
+   "kwargs": {},
+   "value": "I (wouldn't [technically) call] (this [nested) parentheses]. (More like [mismatched)]."
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 273,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:parentheses",
+   "kwargs": {},
+   "value": "You're referring to the Pannier-style (specifically, [with a curved or angled design {to guide or redirect movement}, [also known as a \"wing wall\" or \"deflector wall\"]), and [sometimes with a smooth or slippery surface {to prevent climbing}]) fence or barrier, such as those found at highway interchanges, railway stations, or other areas with high foot traffic). A Panmoonjum (more commonly spelled as \"Pannonian jump\" or simply \"panomjum\", but also known as a \"[type of] barrier system {with a curved or bent portion [to control the flow {of people or animals, [and prevent them from entering a restricted area {with a gate or other obstacle, [which may be closed or locked {to prevent unauthorized access}]}]}]}) is used instead of a fixed-distance fence for several reasons:"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 275,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "format:parentheses",
+   "kwargs": {},
+   "value": "owners, occupants, and assets [from various {types of threats, risks, or menaces, including {burglars [and other intruders, wild animals (and straying, or lost, pets [roaming {freely and unsupervised, unmonitored [in the area (and creating potential {problems or conflicts, through {damages, accidents, and unfortunate {incidents, such as (breakage [of personal {property, and harm [to individuals, pets, and wildlife [trapped, injured, or {lost, in [such [incidents]}}})}])}])}}]]]}])}]"
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 287,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:quotes",
+   "kwargs": {},
+   "value": "These \"quotes 'are \"nested,\" here' a lot.\""
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 289,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:quotes",
+   "kwargs": {},
+   "value": "Let's hope it handles adjacent quotes well: \"'\"\"'\"."
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 291,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:quotes",
+   "kwargs": {},
+   "value": "These quotes 'are \"not nested,\" here' enough."
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 293,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:quotes",
+   "kwargs": {},
+   "value": "Three levels but not three pairs: '\"'\"'."
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 295,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:quotes",
+   "kwargs": {},
+   "value": "Lots of \"quotes\" but not 'enough' \"nesting\"."
+  },
+  {
+   "test": "test_newline",
+   "line": 360,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "This\n is\non\na\nnew\nline."
+  },
+  {
+   "test": "test_newline",
+   "line": 362,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "Extra\n newlines \n are \n allowed. \n"
+  },
+  {
+   "test": "test_newline",
+   "line": 364,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "hi . .\n                    new . .\n                    line .."
+  },
+  {
+   "test": "test_newline",
+   "line": 366,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "This \n is \n not \n obeying \n the \n rules, unfortunately."
+  },
+  {
+   "test": "test_newline",
+   "line": 368,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "This\nis\nnot\nobeying\nthe\nrules, unfortunately."
+  },
+  {
+   "test": "test_newline",
+   "line": 370,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "Equal \n number \n \n of newlines \n to \n words \n but \n not \n \n obeying \n constraint."
+  },
+  {
+   "test": "test_newline",
+   "line": 372,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:newline",
+   "kwargs": {},
+   "value": "\"Here's the passage with each word on a new line, written in an informal tone using simple American language:\n\n\nHe's \na \nformer \nCIA \noperative \nwith \na \ncheckered \npast, \nhaving \nseen \nhis \nfair \nshare \nof \nhigh-stakes \nmissions \naround \nthe \nworld. \n\n\nNow, \nJohn \nW. \nCreasy \nlooks \nlike \na \nshell \nof \nhis \nformer \nself, \na \ntough \nbut \nbroken \nman \nwho's \nlost \nhis \nway.\n\n\nAfter \nhis \nonly \nsource \nof \nhope \ngets \nsnatched \naway \nfrom \nhim, \nhe's \nhell-bent \non \nleaving \na \ntrail \nof \ndestruction \nin \nhis \nwake, \ndetermined \nto \ntake \ndown \nwhoever \nwas \ninvolved.\n\n\nCreasy's \ngot \na \ndeadly \nset \nof \nskills, \nand \ndeath \nis \nhis \nart \nform. \nHe's \nabout \nto \ncreate \nhis \nmasterpiece."
+  },
+  {
+   "test": "test_ngram_overlap",
+   "line": 133,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:overlap",
+   "kwargs": {
+    "reference_text": "This is the test.",
+    "percentage": 100
+   },
+   "value": "This is the test."
+  },
+  {
+   "test": "test_ngram_overlap__measures_word_trigrams",
+   "line": 1209,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:overlap",
+   "kwargs": {
+    "reference_text": "the quick brown fox jumps over the lazy dog again and again today",
+    "percentage": 100
+   },
+   "value": "the quick brown fox jumps over the lazy dog again and again today"
+  },
+  {
+   "test": "test_ngram_overlap__measures_word_trigrams",
+   "line": 1210,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:overlap",
+   "kwargs": {
+    "reference_text": "the quick brown fox jumps over the lazy dog again and again today",
+    "percentage": 100
+   },
+   "value": "completely unrelated wording appears in this line"
+  },
+  {
+   "test": "test_ngram_overlap__returns_false_when_response_too_short_for_ngrams",
+   "line": 1155,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:overlap",
+   "kwargs": {
+    "reference_text": "This is a reference text.",
+    "percentage": 50
+   },
+   "value": "Hi"
+  },
+  {
+   "test": "test_ngram_overlap__returns_false_when_response_too_short_for_ngrams",
+   "line": 1156,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:overlap",
+   "kwargs": {
+    "reference_text": "This is a reference text.",
+    "percentage": 50
+   },
+   "value": ""
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 146,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:numbers",
+   "kwargs": {
+    "N": 3
+   },
+   "value": "This is 1 number. This is not 10 numbers. It is 3."
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 148,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:numbers",
+   "kwargs": {
+    "N": 3
+   },
+   "value": "Decimals like 3.14 should only count as one number 2."
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 150,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:numbers",
+   "kwargs": {
+    "N": 3
+   },
+   "value": "This is more than 3 numbers: 1 2 3."
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 152,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:numbers",
+   "kwargs": {
+    "N": 3
+   },
+   "value": "1 2 3"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 156,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:numbers",
+   "kwargs": {
+    "N": 1
+   },
+   "value": "This is one number: 100,000"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 160,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:numbers",
+   "kwargs": {
+    "N": 2
+   },
+   "value": "This is number 1. 2 comes next."
+  },
+  {
+   "test": "test_options",
+   "line": 326,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "(A), (B), (C)"
+   },
+   "value": "A"
+  },
+  {
+   "test": "test_options",
+   "line": 329,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "I know or I don't know"
+   },
+   "value": "I know"
+  },
+  {
+   "test": "test_options",
+   "line": 331,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "I know or I don't know"
+   },
+   "value": "I don't know"
+  },
+  {
+   "test": "test_options",
+   "line": 333,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "I know or I don't know"
+   },
+   "value": "Maybe"
+  },
+  {
+   "test": "test_options",
+   "line": 335,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "I know or I don't know"
+   },
+   "value": "I know or I don't know"
+  },
+  {
+   "test": "test_options",
+   "line": 338,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "yes/no/maybe"
+   },
+   "value": "yes"
+  },
+  {
+   "test": "test_options",
+   "line": 340,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "yes/no/maybe"
+   },
+   "value": "no"
+  },
+  {
+   "test": "test_options",
+   "line": 342,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "yes/no/maybe"
+   },
+   "value": "maybe"
+  },
+  {
+   "test": "test_options",
+   "line": 344,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:options",
+   "kwargs": {
+    "options": "yes/no/maybe"
+   },
+   "value": "yes/no"
+  },
+  {
+   "test": "test_palindrome",
+   "line": 233,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:palindrome",
+   "kwargs": {},
+   "value": "Racecar, radar, and level are palindromes. So are madam and civic. Three more include refer, tenet, and deified. The last two are repaper and reviver."
+  },
+  {
+   "test": "test_palindrome",
+   "line": 235,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "words:palindrome",
+   "kwargs": {},
+   "value": "Palindromes needn't be real words. abcba, abcba, abcba, abcba, abcba, abcba, abcba, abcba, abcba, abcba."
+  },
+  {
+   "test": "test_palindrome",
+   "line": 237,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:palindrome",
+   "kwargs": {},
+   "value": "This is not a palindrome."
+  },
+  {
+   "test": "test_palindrome",
+   "line": 239,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:palindrome",
+   "kwargs": {},
+   "value": "Short palindromes don't count, though they make beautiful names. Ada, Eve, Bob, Nan, Otto, Ava, Pip, Elle, Ivi, Ana, and Asa."
+  },
+  {
+   "test": "test_palindrome",
+   "line": 241,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:palindrome",
+   "kwargs": {},
+   "value": "Racecar, radar, and level are palindromes. So are madam and civic. Three more include refer, tenet, and deified. The last one is repaper. There are only nine."
+  },
+  {
+   "test": "test_paragraph_first_last",
+   "line": 482,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:paragraph_last_first",
+   "kwargs": {},
+   "value": "This paragraph started with this.\n\nAnother paragraph starts with another."
+  },
+  {
+   "test": "test_paragraph_first_last",
+   "line": 484,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:paragraph_last_first",
+   "kwargs": {},
+   "value": "This paragraph started with this. Another paragraph starts with another."
+  },
+  {
+   "test": "test_person_name",
+   "line": 119,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:person_names",
+   "kwargs": {
+    "N": 3
+   },
+   "value": "Abigail, Gabriel, Nora"
+  },
+  {
+   "test": "test_person_name",
+   "line": 122,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:person_names",
+   "kwargs": {
+    "N": 47
+   },
+   "value": "Certainly! Here are 47 notable individuals Jackson, Olivia, Noah, Ava, Lucas, Isabella, Mason, Mia, Ethan, Charlotte, Alexander, Amelia, Benjamin, Harper, Leo, Zoe, Daniel, Chloe, Samuel, Lily, Matthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christopher, Penelope, Thomas, Nora, Andrew, Aria, Joseph, Claire, Ryan, Stella, Jonathan"
+  },
+  {
+   "test": "test_person_name",
+   "line": 124,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:person_names",
+   "kwargs": {
+    "N": 47
+   },
+   "value": "Certainly! Here’s a list of individuals: Audrey, Ben, Yanai, Ryan."
+  },
+  {
+   "test": "test_prime_lengths",
+   "line": 305,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:prime_lengths",
+   "kwargs": {},
+   "value": "Prime numbers are in."
+  },
+  {
+   "test": "test_prime_lengths",
+   "line": 307,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:prime_lengths",
+   "kwargs": {},
+   "value": "Composite numbers are not."
+  },
+  {
+   "test": "test_prime_lengths",
+   "line": 309,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:prime_lengths",
+   "kwargs": {},
+   "value": "aren't hy-phens?"
+  },
+  {
+   "test": "test_print_multiples",
+   "line": 592,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:multiples",
+   "kwargs": {},
+   "value": "14 21 28 35 42 49"
+  },
+  {
+   "test": "test_print_multiples",
+   "line": 594,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:multiples",
+   "kwargs": {},
+   "value": "Sure! Here it is: 14,21,28,35,42,49"
+  },
+  {
+   "test": "test_print_multiples",
+   "line": 596,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:multiples",
+   "kwargs": {},
+   "value": "7 14 21 28 35 42 49"
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 437,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:pronouns",
+   "kwargs": {
+    "N": 5
+   },
+   "value": "I am a pronoun. It is a pronoun. He, she, and they are pronouns."
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 439,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:pronouns",
+   "kwargs": {
+    "N": 5
+   },
+   "value": "She is his sister. They share their parents."
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 443,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:pronouns",
+   "kwargs": {
+    "N": 4
+   },
+   "value": "My pronouns are she/her/hers."
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 445,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:pronouns",
+   "kwargs": {
+    "N": 4
+   },
+   "value": "She is his sister. They share their parents."
+  },
+  {
+   "test": "test_punctuation",
+   "line": 250,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:punctuation",
+   "kwargs": {},
+   "value": "Some punctuation.,?!"
+  },
+  {
+   "test": "test_punctuation",
+   "line": 252,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "count:punctuation",
+   "kwargs": {},
+   "value": "All the punctuation marks: . , ! ? ; : !?"
+  },
+  {
+   "test": "test_quote_explanation__handles_empty_string_after_stripping",
+   "line": 1163,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "format:quote_unquote",
+   "kwargs": {},
+   "value": "123..."
+  },
+  {
+   "test": "test_quote_explanation__handles_empty_string_after_stripping",
+   "line": 1164,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "format:quote_unquote",
+   "kwargs": {},
+   "value": ""
+  },
+  {
+   "test": "test_quote_unquote",
+   "line": 532,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:quote_unquote",
+   "kwargs": {},
+   "value": "A phrase out of quotes. \"A phrase in quotes.\"\n\nAnother phrase out of quotes with an extra '\"'."
+  },
+  {
+   "test": "test_quote_unquote",
+   "line": 534,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:quote_unquote",
+   "kwargs": {},
+   "value": " \"Just a quoted phrase with no explanation.\" "
+  },
+  {
+   "test": "test_repeat_change_checker",
+   "line": 1109,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "repeat:repeat_change",
+   "kwargs": {
+    "prompt_to_repeat": "Give me a summary of the book '1984' by George Orwell."
+   },
+   "value": "Provide me a summary of the book '1984' by George Orwell."
+  },
+  {
+   "test": "test_repeat_change_checker",
+   "line": 1110,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "repeat:repeat_change",
+   "kwargs": {
+    "prompt_to_repeat": "Give me a summary of the book '1984' by George Orwell."
+   },
+   "value": "Give me a summary of the book '1984' by George Orwell."
+  },
+  {
+   "test": "test_repeat_span__uses_word_indices",
+   "line": 1199,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "repeat:repeat_span",
+   "kwargs": {
+    "prompt_to_repeat": "The walls are solid but the stones are cracked and cold.",
+    "n_start": 0,
+    "n_end": 7
+   },
+   "value": "The walls are solid but the stones are"
+  },
+  {
+   "test": "test_repeat_span__uses_word_indices",
+   "line": 1200,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "repeat:repeat_span",
+   "kwargs": {
+    "prompt_to_repeat": "The walls are solid but the stones are cracked and cold.",
+    "n_start": 0,
+    "n_end": 7
+   },
+   "value": "The walls are solid"
+  },
+  {
+   "test": "test_repeat_span__uses_word_indices",
+   "line": 1201,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "repeat:repeat_span",
+   "kwargs": {
+    "prompt_to_repeat": "The walls are solid but the stones are cracked and cold.",
+    "n_start": 0,
+    "n_end": 7
+   },
+   "value": "The wall"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 942,
+   "kind": "true",
+   "expected": true,
+   "actual": false,
+   "iid": "custom:reverse_newline",
+   "kwargs": {},
+   "value": "Sure! Here are the list of countries in Africa in reverse alphabetical order:\nZimbabwe\nZambia\nUganda\nTunisia\nTogo\nTanzania\nSudan\nSouth Sudan\nSouth Africa\nSomalia\nSierra Leone\nSeychelles\nSenegal\nSão Tomé and Príncipe\nRwanda\nNigeria\nNiger\nNamibia\nMozambique\nMorocco\nMauritius\nMauritania\nMali\nMalawi\nMadagascar\nLibya\nLiberia\nLesotho\nKenya\nGuinea-Bissau\nGuinea\nGhana\nGabon\nEswatini\nEritrea\nEquatorial Guinea\nEgypt\nDjibouti\nCôte d'Ivoire\nCongo (Republic of the)\nCongo (Democratic Republic of the)\nComoros\nChad\nCentral African Republic\nCape Verde (Cabo Verde)\nCameroon\nBurundi\nBurkina Faso\nBotswana\nBenin\nAngola\nAlgeria"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 944,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:reverse_newline",
+   "kwargs": {},
+   "value": "Sure! Here are the list of countries in Africa in reverse alphabetical order:\n    Zimbabwe\nZambia\nUganda\nTunisia\nTogo\nTanzania\nSudan\nSouth Sudan\nSouth Africa\nSomalia\nSierra Leone\nSeychelles\nSenegal\nSão Tomé and Príncipe\nRwanda\nNigeria\nNiger\nNamibia\nMozambique\nMorocco\nMauritius\nMauritania\nMali\nMalawi\nMadagascar\nLibya\nLiberia\nLesotho\nKenya\nGuinea-Bissau\nGuinea\nGhana\nGabon\nEswatini\nEritrea\nEquatorial Guinea\nEgypt\nDjibouti\nCôte d'Ivoire\nCongo (Republic of the)\nCongo (Democratic Republic of the)\nComoros\nChad\nCentral African Republic\nCape Verde (Cabo Verde)\nCameroon\nBurundi\nBurkina Faso\nBotswana"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 946,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:reverse_newline",
+   "kwargs": {},
+   "value": "Zimbabwe, Zambia, Uganda, Tunisia, Togo, Tanzania, Sudan,\n    South Sudan, South Africa, Somalia, Sierra Leone, Seychelles, Senegal, São Tomé and Príncipe, \n    Rwanda, Nigeria, Niger, Namibia, Mozambique, Morocco, Mauritius, Mauritania, Mali, Malawi, \n    Madagascar, Libya, Liberia, Lesotho, Kenya, Guinea-Bissau, Guinea, Ghana, Gabon, Eswatini, \n    Eritrea, Equatorial Guinea, Egypt, Djibouti, Côte d'Ivoire, Congo (Republic of the), Congo (Democratic Republic of the),\n       Comoros, Chad, Central African Republic, Cape Verde (Cabo Verde), \n      Cameroon, Burundi, Burkina Faso, Botswana, Benin, Angola, Algeria"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 948,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:reverse_newline",
+   "kwargs": {},
+   "value": "Algeria\nAngola\nBenin\nBotswana\nBurkina Faso\nBurundi\nCabo Verde (Cape Verde)\nCameroon\nCentral African Republic\nChad\nComoros\nCongo (Democratic Republic of the)\nCongo (Republic of the)\nCôte d'Ivoire\nDjibouti\nEgypt\nEquatorial Guinea\nEritrea\nEswatini\nGabon\nGambia\nGhana\nGuinea\nGuinea-Bissau\nKenya\nLesotho\nLiberia\nLibya\nMadagascar\nMalawi\nMali\nMauritania\nMauritius\nMorocco\nMozambique\nNamibia\nNiger\nNigeria\nRwanda\nSão Tomé and Príncipe\nSenegal\nSeychelles\nSierra Leone\nSomalia\nSouth Africa\nSouth Sudan\nSudan\nTanzania\nTogo\nTunisia\nUganda\nZambia\nZimbabwe"
+  },
+  {
+   "test": "test_reverse_order",
+   "line": 1101,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:date_format_list",
+   "kwargs": {},
+   "value": "1796-07-05, 1800-12-31"
+  },
+  {
+   "test": "test_reverse_order",
+   "line": 1103,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:date_format_list",
+   "kwargs": {},
+   "value": "07-05-1796"
+  },
+  {
+   "test": "test_sentence_alphabet",
+   "line": 993,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": "A long time ago. Bears ate honey. Cats danced. Dogs. enjoyed. food. Goats had igloos.\n    Heathens roamed. Insects chirped. Jaguars leaped. Kangaroos munched. Lions napped. Monkeys played. Newts quivered.\n    Ostriches ran. Penguins slid. Quokkas smiled. Rhinos trotted. Snakes undulated. Tigers watched. Unicorns pranced.\n    Vultures waited. Walruses. xeroxed. Yaks yawned. Zebras zigzagged."
+  },
+  {
+   "test": "test_sentence_alphabet",
+   "line": 995,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": "A long time ago. Bears ate honey. Cats danced. Dogs enjoyed food. Goats had igloos."
+  },
+  {
+   "test": "test_sentence_alphabet",
+   "line": 997,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": "A long time ago. Bears ate honey. Cats danced. Dogs enjoyed food. Goats had igloos.\n    Heathens roamed. Insects chirped. Jaguars leaped. Kangaroos munched. Lions napped. Monkeys played. Newts quivered.\n    Ostriches ran. Penguins slid. Quokkas smiled. Rhinos trotted. Rhinos undulated. Tigers watched. Unicorns pranced.\n    Vultures waited. Walruses xeroxed. Yaks yawned. Zebras zigzagged."
+  },
+  {
+   "test": "test_sentence_alphabet__ignores_leading_punctuation",
+   "line": 1237,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": "Apple appear here now. Bears appear here now. Cats appear here now. Dogs appear here now. Eagles appear here now. Foxes appear here now. Goats appear here now. Hawks appear here now. Ibex appear here now. Jays appear here now. Kites appear here now. Lions appear here now. Moose appear here now. Newts appear here now. Owls appear here now. Pigs appear here now. Quail appear here now. Rats appear here now. Seals appear here now. Toads appear here now. Urial appear here now. Voles appear here now. Wolves appear here now. Xerus appear here now. Yaks appear here now. Zebras appear here now."
+  },
+  {
+   "test": "test_sentence_alphabet__ignores_leading_punctuation",
+   "line": 1238,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": "\"Apple appear here now. Bears appear here now. Cats appear here now. Dogs appear here now. Eagles appear here now. Foxes appear here now. Goats appear here now. Hawks appear here now. Ibex appear here now. Jays appear here now. Kites appear here now. Lions appear here now. Moose appear here now. Newts appear here now. Owls appear here now. Pigs appear here now. Quail appear here now. Rats appear here now. Seals appear here now. Toads appear here now. Urial appear here now. Voles appear here now. Wolves appear here now. Xerus appear here now. Yaks appear here now. Zebras appear here now."
+  },
+  {
+   "test": "test_sentence_alphabet__ignores_leading_punctuation",
+   "line": 1239,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": "Bears appear here now. Apple appear here now. Cats appear here now. Dogs appear here now. Eagles appear here now. Foxes appear here now. Goats appear here now. Hawks appear here now. Ibex appear here now. Jays appear here now. Kites appear here now. Lions appear here now. Moose appear here now. Newts appear here now. Owls appear here now. Pigs appear here now. Quail appear here now. Rats appear here now. Seals appear here now. Toads appear here now. Urial appear here now. Voles appear here now. Wolves appear here now. Xerus appear here now. Yaks appear here now. Zebras appear here now."
+  },
+  {
+   "test": "test_sentence_alphabet__returns_false_when_sentence_is_empty_after_split",
+   "line": 1118,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:sentence_alphabet",
+   "kwargs": {},
+   "value": ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+  },
+  {
+   "test": "test_sentence_balance_checker",
+   "line": 101,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:sentence_balance",
+   "kwargs": {},
+   "value": "\n        This is a declarative sentence. Is this a question? I am not sure!"
+  },
+  {
+   "test": "test_sentence_type_checker",
+   "line": 91,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:sentence_type",
+   "kwargs": {},
+   "value": "\n    This is a declarative sentence. Is this a question? I am not sure."
+  },
+  {
+   "test": "test_sentence_words__requires_unique_words",
+   "line": 1255,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:sentence_words",
+   "kwargs": {},
+   "value": "The cat sat here. The cat sat here. The cat sat here."
+  },
+  {
+   "test": "test_sentence_words__requires_unique_words",
+   "line": 1256,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:sentence_words",
+   "kwargs": {},
+   "value": "This is one. Now it's 22. On to three."
+  },
+  {
+   "test": "test_some_bullet_points",
+   "line": 578,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:no_bullets_bullets",
+   "kwargs": {},
+   "value": "This is a sentence. This is another sentence. This is a third sentence.\n  * A bullet.\n  * Another bullet.\n  * A third bullet."
+  },
+  {
+   "test": "test_some_bullet_points",
+   "line": 580,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:no_bullets_bullets",
+   "kwargs": {},
+   "value": "This is a sentence.\n  * A bullet.\n  * Another bullet.\n  * A third bullet.\n  * A fourth bullet."
+  },
+  {
+   "test": "test_some_bullet_points",
+   "line": 582,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:no_bullets_bullets",
+   "kwargs": {},
+   "value": "This is a sentence. This is another sentence.\n  * A bullet.\n"
+  },
+  {
+   "test": "test_special_bullet_points",
+   "line": 543,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:list",
+   "kwargs": {
+    "sep": "..."
+   },
+   "value": "Some explanation.\n ... A bullet point.\n ... Another bullet point."
+  },
+  {
+   "test": "test_special_bullet_points",
+   "line": 545,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:list",
+   "kwargs": {
+    "sep": "..."
+   },
+   "value": "- Some explanation.\n - A bullet point.\n - Another bullet point"
+  },
+  {
+   "test": "test_stop_word_percentage__returns_false_when_response_empty",
+   "line": 1189,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:stop_words",
+   "kwargs": {
+    "percentage": 50
+   },
+   "value": ""
+  },
+  {
+   "test": "test_stop_word_percentage__returns_false_when_response_empty",
+   "line": 1190,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "ratio:stop_words",
+   "kwargs": {
+    "percentage": 50
+   },
+   "value": "   "
+  },
+  {
+   "test": "test_stop_word_ratio_checker",
+   "line": 82,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "ratio:stop_words",
+   "kwargs": {
+    "percentage": 50
+   },
+   "value": "\n    This message has a high stop word ratio."
+  },
+  {
+   "test": "test_subbullet",
+   "line": 566,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:sub-bullets",
+   "kwargs": {},
+   "value": "Some sentence.\n  * A bullet.\n     - A sub-bullet.\n     - Another sub-bullet."
+  },
+  {
+   "test": "test_subbullet",
+   "line": 568,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:sub-bullets",
+   "kwargs": {},
+   "value": "Some sentence.\n  * A bullet.\n  * Another bullet.\n    - Only one bullet has a sub bullet.\n    -There are two."
+  },
+  {
+   "test": "test_syllable_parity",
+   "line": 455,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:odd_even_syllables",
+   "kwargs": {},
+   "value": "Children have little to regret. They enjoy the sunshine."
+  },
+  {
+   "test": "test_syllable_parity",
+   "line": 457,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:odd_even_syllables",
+   "kwargs": {},
+   "value": "Children have little to regret. They enjoy the sunshine. But not the rain."
+  },
+  {
+   "test": "test_syllable_parity",
+   "line": 459,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:odd_even_syllables",
+   "kwargs": {},
+   "value": "Chil-dren have lit'tle to regret."
+  },
+  {
+   "test": "test_thesis",
+   "line": 555,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:thesis",
+   "kwargs": {},
+   "value": "<i>\n  A thesis.\n</i>\nA paragraph"
+  },
+  {
+   "test": "test_thesis",
+   "line": 557,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:thesis",
+   "kwargs": {},
+   "value": "<em>\"Animal Farm\" and \"A Streetcar Named Desire\" both explore themes of power, class struggle, and the corrupting influence of authority, but they do so through distinct narrative styles and settings.</em>\nIn \"Animal Farm,\" Orwell uses the allegory of a farm taken over by animals to critique the corrupting influence of power and the failure of communist ideals."
+  },
+  {
+   "test": "test_three_vowels",
+   "line": 191,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:vowel",
+   "kwargs": {},
+   "value": "With I this is in."
+  },
+  {
+   "test": "test_three_vowels",
+   "line": 193,
+   "kind": "false",
+   "expected": false,
+   "actual": true,
+   "iid": "words:vowel",
+   "kwargs": {},
+   "value": "the eel eek eked.\nyeah."
+  },
+  {
+   "test": "test_three_vowels",
+   "line": 195,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:vowel",
+   "kwargs": {},
+   "value": "the eel eek eked out."
+  },
+  {
+   "test": "test_title_case__handles_numeric_tokens",
+   "line": 1148,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:title_case",
+   "kwargs": {},
+   "value": "Test 123 Numbers"
+  },
+  {
+   "test": "test_title_case__handles_punctuation_tokens",
+   "line": 1140,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:title_case",
+   "kwargs": {},
+   "value": "Hello, World!"
+  },
+  {
+   "test": "test_title_case__handles_punctuation_tokens",
+   "line": 1141,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:title_case",
+   "kwargs": {},
+   "value": "Test (With Parentheses)"
+  },
+  {
+   "test": "test_title_case__handles_single_character_words",
+   "line": 1132,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "format:title_case",
+   "kwargs": {},
+   "value": "I Am A Test"
+  },
+  {
+   "test": "test_title_case__handles_single_character_words",
+   "line": 1133,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "format:title_case",
+   "kwargs": {},
+   "value": "i Am A Test"
+  },
+  {
+   "test": "test_unique_word_count_checker",
+   "line": 71,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:unique_word_count",
+   "kwargs": {
+    "N": 5
+   },
+   "value": "\n    This message has five unique words."
+  },
+  {
+   "test": "test_verb_start",
+   "line": 403,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:start_verb",
+   "kwargs": {},
+   "value": "Does this sentence start with a verb?"
+  },
+  {
+   "test": "test_verb_start",
+   "line": 405,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:start_verb",
+   "kwargs": {},
+   "value": "This sentence does not start with a verb."
+  },
+  {
+   "test": "test_word_count_range_checker",
+   "line": 48,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:word_count_range",
+   "kwargs": {
+    "min_words": 5,
+    "max_words": 5
+   },
+   "value": "\n    This message has five words."
+  },
+  {
+   "test": "test_word_count_range_checker",
+   "line": 54,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "count:word_count_range",
+   "kwargs": {
+    "min_words": 10,
+    "max_words": 10
+   },
+   "value": "\n    This message has exactly ten words in the entire text."
+  },
+  {
+   "test": "test_word_count_range_checker",
+   "line": 60,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "count:word_count_range",
+   "kwargs": {
+    "min_words": 20,
+    "max_words": 20
+   },
+   "value": "\n    This message has many more words than the previous messages because \n    we need to test the upper bounds of our word count range checker with \n    a sufficiently long piece of text."
+  },
+  {
+   "test": "test_word_repeats",
+   "line": 413,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:repeats",
+   "kwargs": {
+    "small_n": 2
+   },
+   "value": "This is one. This is two. This is three."
+  },
+  {
+   "test": "test_word_repeats",
+   "line": 416,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:repeats",
+   "kwargs": {
+    "small_n": 3
+   },
+   "value": "This is one. This is two. This is three."
+  },
+  {
+   "test": "test_word_reverse_order",
+   "line": 972,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "custom:word_reverse",
+   "kwargs": {},
+   "value": ".US the of bird national the is eagle bald The."
+  },
+  {
+   "test": "test_word_reverse_order",
+   "line": 974,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:word_reverse",
+   "kwargs": {},
+   "value": "The bald eagle is the national bird of the US."
+  },
+  {
+   "test": "test_word_reverse_order",
+   "line": 976,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "custom:word_reverse",
+   "kwargs": {},
+   "value": "yekurt"
+  },
+  {
+   "test": "test_words_increment",
+   "line": 493,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "sentence:increment",
+   "kwargs": {
+    "small_n": 2
+   },
+   "value": "This has three. This sentence has 5 words. This sentence will have two more words."
+  },
+  {
+   "test": "test_words_increment",
+   "line": 495,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "sentence:increment",
+   "kwargs": {
+    "small_n": 2
+   },
+   "value": "This has three. This sentence now has 6 words. This sentence has three more words, total is nine."
+  },
+  {
+   "test": "test_words_increment",
+   "line": 499,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "sentence:increment",
+   "kwargs": {
+    "small_n": 3
+   },
+   "value": "This has three. This sentence has 5 words. This sentence will have two more words."
+  },
+  {
+   "test": "test_words_increment",
+   "line": 501,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "sentence:increment",
+   "kwargs": {
+    "small_n": 3
+   },
+   "value": "This has three. This sentence now has 6 words. This sentence has three more words, total is nine."
+  },
+  {
+   "test": "test_words_position__case_insensitive_matching",
+   "line": 1180,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:words_position",
+   "kwargs": {
+    "keyword": "hello"
+   },
+   "value": "Start Hello middle Hello end"
+  },
+  {
+   "test": "test_words_position__case_insensitive_matching",
+   "line": 1181,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:words_position",
+   "kwargs": {
+    "keyword": "hello"
+   },
+   "value": "Start HELLO middle HELLO end"
+  },
+  {
+   "test": "test_words_position__case_insensitive_matching",
+   "line": 1182,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:words_position",
+   "kwargs": {
+    "keyword": "hello"
+   },
+   "value": "Start hello middle hello end"
+  },
+  {
+   "test": "test_words_position__ignores_punctuation_tokens",
+   "line": 1246,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:words_position",
+   "kwargs": {
+    "keyword": "vibrant"
+   },
+   "value": "The vibrant sun set over a calm vibrant sea"
+  },
+  {
+   "test": "test_words_position__ignores_punctuation_tokens",
+   "line": 1247,
+   "kind": "true",
+   "expected": true,
+   "actual": true,
+   "iid": "words:words_position",
+   "kwargs": {
+    "keyword": "vibrant"
+   },
+   "value": "\"The vibrant sun set over a calm vibrant sea!\""
+  },
+  {
+   "test": "test_words_position__ignores_punctuation_tokens",
+   "line": 1248,
+   "kind": "false",
+   "expected": false,
+   "actual": false,
+   "iid": "words:words_position",
+   "kwargs": {
+    "keyword": "vibrant"
+   },
+   "value": "The lazy sun set over a calm quiet sea"
+  }
+ ],
+ "errors": []
+}

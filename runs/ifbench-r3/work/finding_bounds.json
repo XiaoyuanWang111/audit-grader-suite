@@ -1,0 +1,342 @@
+{
+ "verdicts": 78275,
+ "per_check": {
+  "count:conjunctions": {
+   "n": 1589,
+   "explained": 221,
+   "explained_g1p0": 221,
+   "unexplained": 188,
+   "unexplained_g1p0": 188
+  },
+  "count:keywords_multiple": {
+   "n": 1140,
+   "explained": 1,
+   "explained_g1p0": 1
+  },
+  "count:numbers": {
+   "n": 1824,
+   "unexplained": 5,
+   "unexplained_g0p1": 1,
+   "unexplained_g1p0": 4
+  },
+  "count:person_names": {
+   "n": 1368
+  },
+  "count:pronouns": {
+   "n": 1819,
+   "unexplained": 160,
+   "unexplained_g1p0": 160,
+   "explained": 5,
+   "explained_g0p1": 5
+  },
+  "count:punctuation": {
+   "n": 1368,
+   "unexplained": 191,
+   "unexplained_g1p0": 191,
+   "explained": 76,
+   "explained_g1p0": 76
+  },
+  "count:unique_word_count": {
+   "n": 2040,
+   "explained": 8,
+   "explained_g1p0": 8
+  },
+  "count:word_count_range": {
+   "n": 2508,
+   "explained": 98,
+   "explained_g0p1": 59,
+   "unexplained": 44,
+   "unexplained_g0p1": 23,
+   "explained_g1p0": 39,
+   "unexplained_g1p0": 21
+  },
+  "count:words_japanese": {
+   "n": 1137,
+   "explained": 136,
+   "explained_g1p0": 136,
+   "unexplained": 33,
+   "unexplained_g1p0": 33
+  },
+  "custom:character_reverse": {
+   "n": 228,
+   "unexplained": 5,
+   "unexplained_g1p0": 5
+  },
+  "custom:csv_city": {
+   "n": 228,
+   "explained": 93,
+   "explained_g0p1": 93
+  },
+  "custom:csv_quotes": {
+   "n": 228,
+   "explained": 43,
+   "explained_g0p1": 43
+  },
+  "custom:csv_special_character": {
+   "n": 228,
+   "explained": 22,
+   "explained_g0p1": 10,
+   "explained_g1p0": 12,
+   "unexplained": 1,
+   "unexplained_g1p0": 1
+  },
+  "custom:date_format_list": {
+   "n": 228,
+   "explained": 1,
+   "explained_g0p1": 1
+  },
+  "custom:european_capitals_sort": {
+   "n": 228
+  },
+  "custom:mcq_count_length": {
+   "n": 228,
+   "unexplained": 28,
+   "unexplained_g0p1": 28,
+   "explained": 10,
+   "explained_g0p1": 10
+  },
+  "custom:multiples": {
+   "n": 228
+  },
+  "custom:reverse_newline": {
+   "n": 225,
+   "explained": 3,
+   "explained_g1p0": 3,
+   "unexplained": 3,
+   "unexplained_g1p0": 3
+  },
+  "custom:sentence_alphabet": {
+   "n": 228,
+   "explained": 4,
+   "explained_g0p1": 4,
+   "unexplained": 23,
+   "unexplained_g0p1": 23
+  },
+  "custom:word_reverse": {
+   "n": 228,
+   "unexplained": 5,
+   "unexplained_g1p0": 5
+  },
+  "format:emoji": {
+   "n": 2049,
+   "explained": 138,
+   "explained_g0p1": 137,
+   "unexplained": 3,
+   "unexplained_g1p0": 3,
+   "explained_g1p0": 1
+  },
+  "format:line_indent": {
+   "n": 2052,
+   "unexplained": 126,
+   "unexplained_g1p0": 126,
+   "explained": 2,
+   "explained_g0p1": 2
+  },
+  "format:list": {
+   "n": 2051,
+   "unexplained": 79,
+   "unexplained_g1p0": 79
+  },
+  "format:newline": {
+   "n": 1363,
+   "unexplained": 5,
+   "unexplained_g0p1": 5
+  },
+  "format:no_bullets_bullets": {
+   "n": 1140,
+   "unexplained": 358,
+   "unexplained_g1p0": 37,
+   "unexplained_g0p1": 321
+  },
+  "format:no_whitespace": {
+   "n": 912
+  },
+  "format:options": {
+   "n": 1368,
+   "unexplained": 78,
+   "unexplained_g0p1": 78,
+   "explained": 20,
+   "explained_g0p1": 20
+  },
+  "format:output_template": {
+   "n": 912,
+   "unexplained": 47,
+   "unexplained_g1p0": 47,
+   "explained": 37,
+   "explained_g1p0": 37
+  },
+  "format:parentheses": {
+   "n": 1820,
+   "explained": 201,
+   "explained_g1p0": 201
+  },
+  "format:quote_unquote": {
+   "n": 1140,
+   "unexplained": 88,
+   "unexplained_g1p0": 83,
+   "explained": 244,
+   "explained_g1p0": 244,
+   "unexplained_g0p1": 5
+  },
+  "format:quotes": {
+   "n": 1817,
+   "unexplained": 305,
+   "unexplained_g0p1": 93,
+   "unexplained_g1p0": 212
+  },
+  "format:sub-bullets": {
+   "n": 2733,
+   "unexplained": 968,
+   "unexplained_g1p0": 206,
+   "unexplained_g0p1": 762,
+   "explained": 245,
+   "explained_g1p0": 245
+  },
+  "format:thesis": {
+   "n": 2049,
+   "explained": 360,
+   "explained_g1p0": 360,
+   "unexplained": 147,
+   "unexplained_g1p0": 147
+  },
+  "format:title_case": {
+   "n": 912,
+   "explained": 18,
+   "explained_g0p1": 18
+  },
+  "ratio:overlap": {
+   "n": 2733,
+   "explained": 205,
+   "explained_g0p1": 43,
+   "explained_g1p0": 162
+  },
+  "ratio:sentence_balance": {
+   "n": 1595,
+   "explained": 14,
+   "explained_g1p0": 7,
+   "explained_g0p1": 7,
+   "unexplained": 1,
+   "unexplained_g1p0": 1
+  },
+  "ratio:sentence_type": {
+   "n": 1368,
+   "explained": 22,
+   "explained_g1p0": 16,
+   "unexplained": 6,
+   "unexplained_g0p1": 5,
+   "explained_g0p1": 6,
+   "unexplained_g1p0": 1
+  },
+  "ratio:sentence_words": {
+   "n": 1596,
+   "unexplained": 1,
+   "unexplained_g1p0": 1
+  },
+  "ratio:stop_words": {
+   "n": 2726,
+   "explained": 14,
+   "explained_g1p0": 14,
+   "unexplained": 9,
+   "unexplained_g0p1": 8,
+   "unexplained_g1p0": 1
+  },
+  "repeat:repeat_change": {
+   "n": 684
+  },
+  "repeat:repeat_simple": {
+   "n": 455
+  },
+  "repeat:repeat_span": {
+   "n": 910
+  },
+  "sentence:alliteration_increment": {
+   "n": 1130,
+   "unexplained": 120,
+   "unexplained_g1p0": 115,
+   "explained": 18,
+   "explained_g1p0": 13,
+   "unexplained_g0p1": 5,
+   "explained_g0p1": 5
+  },
+  "sentence:increment": {
+   "n": 1820,
+   "unexplained": 39,
+   "unexplained_g1p0": 39,
+   "explained": 17,
+   "explained_g1p0": 17
+  },
+  "sentence:keyword": {
+   "n": 3417,
+   "explained": 85,
+   "explained_g1p0": 47,
+   "explained_g0p1": 38,
+   "unexplained": 1,
+   "unexplained_g1p0": 1
+  },
+  "words:alphabet": {
+   "n": 1363,
+   "unexplained": 12,
+   "unexplained_g1p0": 12
+  },
+  "words:consonants": {
+   "n": 3407
+  },
+  "words:keywords_specific_position": {
+   "n": 907
+  },
+  "words:last_first": {
+   "n": 1140,
+   "unexplained": 35,
+   "unexplained_g0p1": 35,
+   "explained": 27,
+   "explained_g1p0": 25,
+   "explained_g0p1": 2
+  },
+  "words:no_consecutive": {
+   "n": 1820,
+   "unexplained": 12,
+   "unexplained_g1p0": 12,
+   "explained": 5,
+   "explained_g1p0": 5
+  },
+  "words:odd_even_syllables": {
+   "n": 2045,
+   "unexplained": 1,
+   "unexplained_g1p0": 1
+  },
+  "words:palindrome": {
+   "n": 1587,
+   "explained": 317,
+   "explained_g1p0": 317
+  },
+  "words:paragraph_last_first": {
+   "n": 1368,
+   "unexplained": 29,
+   "unexplained_g0p1": 29
+  },
+  "words:prime_lengths": {
+   "n": 1132
+  },
+  "words:repeats": {
+   "n": 1140
+  },
+  "words:start_verb": {
+   "n": 1368,
+   "unexplained": 302,
+   "unexplained_g0p1": 298,
+   "explained": 7,
+   "explained_g0p1": 7,
+   "unexplained_g1p0": 4
+  },
+  "words:vowel": {
+   "n": 2264,
+   "explained": 1,
+   "explained_g1p0": 1
+  },
+  "words:words_position": {
+   "n": 684,
+   "unexplained": 5,
+   "unexplained_g0p1": 5
+  }
+ }
+}

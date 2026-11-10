@@ -1,0 +1,5 @@
+manifest entries 424; mismatched or missing 0; files present but unlisted 0
+MANIFEST.sha256 itself: 299e754a69897cd89c642b7e1a4b03d127befda08726f0313a72c27bf761b81d
+dataset rows 300 row-hash list sha256 dead3343c495ada3bba42201f71851f9ec69d5c8ffbd5233e29b323460fe7ad7
+lock entries 60; version mismatches {}; installed but not locked []
+python 3.12.10

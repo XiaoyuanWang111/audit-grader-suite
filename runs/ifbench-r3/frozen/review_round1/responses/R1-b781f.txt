@@ -1,0 +1,40 @@
+Firstly, let's list at least 10 single-word palindromes, each at least 5 characters long:
+
+1. Level
+2. Radar
+3. Rotator
+4. Deed
+5. Racecar
+6. Civic
+7. Noon
+8. Kayak
+9. Reviver
+10. Refer
+
+Note that "deed" and "noon" have only 4 characters, but "reviver" and "refer" exceed the 5-character requirement and are valid palindromes.
+
+Next, let's prove that a step function \( f: [a, b] \rightarrow \mathbb{R} \) is Riemann Integrable.
+
+**Definition of a Step Function:**
+A function \( f \) is called a step function on the interval \([a, b]\) if there exists a partition \( P = \{x_0, x_1, \ldots, x_n\} \) of \([a, b]\) such that \( f \) is constant on each open subinterval \((x_{i-1}, x_i)\) for \( i = 1, 2, \ldots, n \). This means that for each \( i \), there is a constant \( c_i \) such that \( f(x) = c_i \) for all \( x \) in \((x_{i-1}, x_i)\).
+
+**Proof that a Step Function is Riemann Integrable:**
+
+To show that \( f \) is Riemann Integrable, we need to demonstrate that the upper and lower Riemann sums converge to the same value as the partition is refined.
+
+1. **Define the Upper and Lower Sums:**
+   - The upper Riemann sum \( U(P, f) \) is the sum of the areas of rectangles with heights given by the supremum of \( f \) on each subinterval.
+   - The lower Riemann sum \( L(P, f) \) is the sum of the areas of rectangles with heights given by the infimum of \( f \) on each subinterval.
+
+2. **Calculate the Upper and Lower Sums for Step Functions:**
+   - Since \( f \) is constant on each subinterval \((x_{i-1}, x_i)\), the supremum and infimum of \( f \) on each subinterval are the same, which is the value of \( f \) on that subinterval.
+   - Therefore, for each subinterval, the contribution to the upper sum \( U(P, f) \) and the lower sum \( L(P, f) \) is the same, which is \( c_i (x_i - x_{i-1}) \).
+
+3. **Conclude Equality of Upper and Lower Sums:**
+   - Since \( U(P, f) \) and \( L(P, f) \) are sums of the same terms for any partition \( P \), we have \( U(P, f) = L(P, f) \).
+   - This implies that the upper and lower Riemann integrals of \( f \) over \([a, b]\) are equal.
+
+4. **Integrability:**
+   - By definition, if the upper and lower Riemann integrals of a function are equal, then the function is Riemann integrable.
+
+Thus, we have shown that a step function \( f: [a, b] \rightarrow \mathbb{R} \) is Riemann Integrable.

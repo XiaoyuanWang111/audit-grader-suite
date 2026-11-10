@@ -1,0 +1,9 @@
+To transform the function \( f(x) = \frac{1}{x^3} \) into \( g(x) = \frac{2}{(x-3)^2} + 1 \), several transformations need to be applied. The first step involves changing the exponent from 3 to 2, which affects the nature of the function from a cubic reciprocal to a quadratic reciprocal. Additionally, the function undergoes a horizontal shift, a vertical stretch, and a vertical shift.
+
+* **Exponent Change**: The transformation from \( x^3 \) to \( (x-3)^2 \) involves changing the power from 3 to 2, which fundamentally alters the shape of the graph from a cubic reciprocal function to a quadratic reciprocal function. This change requires a redefinition of the base function to \( \frac{1}{x^2} \).
+
+* **Horizontal Shift**: The term \( (x-3) \) indicates a horizontal shift to the right by 3 units. This transformation moves the asymptote of the graph from \( x = 0 \) to \( x = 3 \).
+
+* **Vertical Stretch**: The coefficient 2 in the numerator \( \frac{2}{(x-3)^2} \) represents a vertical stretch by a factor of 2. This means that the values of the function are multiplied by 2, making the graph steeper compared to \( \frac{1}{(x-3)^2} \).
+
+* **Vertical Shift**: Finally, the "+1" at the end of the function \( \frac{2}{(x-3)^2} + 1 \) indicates a vertical shift upwards by 1 unit. This transformation moves the horizontal asymptote from \( y = 0 \) to \( y = 1 \).

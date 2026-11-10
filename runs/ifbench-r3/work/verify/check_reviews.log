@@ -1,0 +1,9 @@
+reviewer A: sha256 5eec6b187962 matches README; 458 lines; duplicates 0; missing 0; unknown 0; wrong field set 0; invalid values 0; definite verdict != lean 0; reasons over 40 words 0; order equals batch order: True (458 ids in batches)
+  verdict: ambiguous 54, fail 207, pass 197
+  lean: fail 233, pass 225
+  confidence: high 298, low 33, medium 127
+reviewer B: sha256 d809a126270b matches README; 458 lines; duplicates 0; missing 0; unknown 0; wrong field set 0; invalid values 0; definite verdict != lean 0; reasons over 40 words 0; order equals batch order: True (458 ids in batches)
+  verdict: ambiguous 71, fail 195, pass 192
+  lean: fail 227, pass 231
+  confidence: high 302, low 70, medium 86
+all checks passed

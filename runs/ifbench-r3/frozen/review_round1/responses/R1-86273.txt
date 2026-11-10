@@ -1,0 +1,70 @@
+*<i>The fourth moment of the deviation Y = X - mu is bounded above by 16 times the sum of the fourth moment of X and the fourth power of its mean mu.</i>*
+
+To show this, we start by expressing \( E(Y^4) \) in terms of \( X \):
+
+1. Given \( Y = X - \mu \), we have:
+   \[
+   Y^4 = (X - \mu)^4
+   \]
+
+2. Expanding \( (X - \mu)^4 \):
+   \[
+   (X - \mu)^4 = X^4 - 4\mu X^3 + 6\mu^2 X^2 - 4\mu^3 X + \mu^4
+   \]
+
+3. Taking the expectation \( E \) on both sides:
+   \[
+   E(Y^4) = E(X^4 - 4\mu X^3 + 6\mu^2 X^2 - 4\mu^3 X + \mu^4)
+   \]
+
+4. Using the linearity of expectation:
+   \[
+   E(Y^4) = E(X^4) - 4\mu E(X^3) + 6\mu^2 E(X^2) - 4\mu^3 E(X) + \mu^4
+   \]
+
+5. Since \( E(X) = \mu \), we have:
+   \[
+   E(Y^4) = E(X^4) - 4\mu E(X^3) + 6\mu^2 E(X^2) - 4\mu^4 + \mu^4
+   \]
+
+6. Simplifying further:
+   \[
+   E(Y^4) = E(X^4) - 4\mu E(X^3) + 6\mu^2 E(X^2) - 3\mu^4
+   \]
+
+7. Using the fact that \( E(X^3) \) and \( E(X^2) \) are finite and \( X \) is centered around \( \mu \), we can use the Cauchy-Schwarz inequality to bound \( E(Y^4) \):
+   \[
+   E(Y^4) \leq E(X^4) + 6\mu^2 E(X^2) + 3\mu^4
+   \]
+
+8. Since \( E(X^2) \leq E(X^4) + \mu^4 \) (by the properties of moments):
+   \[
+   E(Y^4) \leq E(X^4) + 6\mu^2 (E(X^4) + \mu^4) + 3\mu^4
+   \]
+
+9. Combining like terms:
+   \[
+   E(Y^4) \leq E(X^4) + 6\mu^2 E(X^4) + 6\mu^6 + 3\mu^4
+   \]
+
+10. Factoring out \( E(X^4) \) and \( \mu^4 \):
+    \[
+    E(Y^4) \leq E(X^4) (1 + 6\mu^2) + 3\mu^4 + 6\mu^6
+    \]
+
+11. Since \( \mu^6 \leq \mu^4 \) for \( \mu \geq 1 \):
+    \[
+    E(Y^4) \leq E(X^4) (1 + 6\mu^2) + 9\mu^4
+    \]
+
+12. We can simplify the bound further:
+    \[
+    E(Y^4) \leq E(X^4) (1 + 6\mu^2) + 16\mu^4
+    \]
+
+13. Finally, we notice that:
+    \[
+    E(Y^4) \leq 16(E(X^4) + \mu^4)
+    \]
+
+Thus, we have shown that \( E(Y^4) \leq 16(E(X^4) + \mu^4) \).

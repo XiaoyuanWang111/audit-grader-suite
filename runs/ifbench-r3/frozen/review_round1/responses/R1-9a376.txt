@@ -1,0 +1,35 @@
+To determine how much the investor should save or borrow each year, we need to calculate the present value of their income and then decide on consumption and savings accordingly. 
+
+1. **Calculate Present Value of Income:**
+   - Year 1 income: $10,000
+   - Year 2 income: $10,000 / (1 + 0.05) = $9,523.81
+   - Total present value of income = $10,000 + $9,523.81 = $19,523.81
+
+2. **Equalize Consumption Over Two Years:**
+   - Let \( C \) be the consumption in each year.
+   - Present value of consumption = \( C + \frac{C}{1.05} \)
+   - Set present value of consumption equal to present value of income:
+     \[
+     C + \frac{C}{1.05} = 19,523.81
+     \]
+   - Solve for \( C \):
+     \[
+     C \times \left(1 + \frac{1}{1.05}\right) = 19,523.81
+     \]
+     \[
+     C \times 1.90476 = 19,523.81
+     \]
+     \[
+     C = \frac{19,523.81}{1.90476} \approx 10,250
+     \]
+
+3. **Determine Savings and Borrowing:**
+   - Year 1: Income = $10,000, Consumption = $10,250
+     - Savings = Income - Consumption = $10,000 - $10,250 = -$250 (borrow $250)
+   - Year 2: Income = $10,000, Consumption = $10,250
+     - Savings = Income - Consumption = $10,000 - $10,250 = -$250
+     - The $250 borrowed in Year 1 will grow to $262.50 in Year 2 (with 5% interest), which will be repaid.
+
+**Summary:**
+- Year 1: Borrow $250, Consume $10,250
+- Year 2: Consume $10,250, Repay $262.50

@@ -1,0 +1,29 @@
+**Define** the Galois group of a polynomial as the group of field automorphisms of its splitting field that fix the base field. Let $ K $ be a field and $ f(x) \in K[x] $ be a polynomial. Let $ L $ be the splitting field of $ f(x) $ over $ K $. Then the **Galois group** $ \text{Gal}(L/K) $ is defined as:
+
+$$
+\text{Gal}(L/K) = \{ \sigma \in \text{Aut}(L) \mid \sigma(k) = k \text{ for all } k \in K \}
+$$
+
+This group is **always finite** if $ L/K $ is a finite extension, and it acts on the roots of $ f(x) $ by permuting them. Let $ \alpha_1, \alpha_2, \dots, \alpha_n $ be the roots of $ f(x) $ in $ L $, so that $ f(x) = \prod_{i=1}^n (x - \alpha_i) $. Then the action of $ \text{Gal}(L/K) $ permutes the roots, and the group is isomorphic to a subgroup of the symmetric group $ S_n $.
+
+Let $ G = \text{Gal}(L/K) $. The **Galois correspondence** establishes a bijection between subfields $ E $ of $ L $ containing $ K $ and subgroups $ H \subseteq G $, given by:
+
+$$
+E \leftrightarrow H = \text{Gal}(L/E)
+$$
+
+and
+
+$$
+H \leftrightarrow E = L^H = \{ \alpha \in L \mid \sigma(\alpha) = \alpha \text{ for all } \sigma \in H \}
+$$
+
+This correspondence is **inclusion-reversing** and provides a powerful tool for understanding the structure of field extensions.
+
+Let $ f(x) \in \mathbb{Q}[x] $ be a polynomial with splitting field $ L/\mathbb{Q} $. The **Galois group** $ \text{Gal}(L/\mathbb{Q}) $ is then a subgroup of $ S_n $, where $ n = \deg f $. The **discriminant** $ D $ of $ f $ is related to the Galois group by the condition that $ D \in \mathbb{Q} $, and the square root $ \sqrt{D} $ is in $ L $ if and only if the Galois group is a subgroup of the alternating group $ A_n $.
+
+In particular, if $ f(x) $ is irreducible and separable, then $ \text{Gal}(L/K) $ acts transitively on the roots of $ f(x) $. Let $ G = \text{Gal}(L/K) $ and suppose $ G $ is **solvable**. Then by the **Abel-Ruffini theorem**, the equation $ f(x) = 0 $ is solvable by radicals, and the roots can be expressed using field extensions of degree 2, 3, etc.
+
+For example, consider the **cubic polynomial** $ f(x) = x^3 + ax + b \in \mathbb{Q}[x] $. Its Galois group is isomorphic to $ S_3 $ if the discriminant $ D = -4a^3 - 27b^2 $ is not a square in $ \mathbb{Q} $, and $ A_3 $ if $ D $ is a square. In both cases, the group is solvable, so the roots can be expressed via radicals.
+
+In summary, **Galois theory** provides a **group-theoretic framework** for understanding the structure of field extensions and the solvability of polynomial equations. The key concepts include the **Galois group**, the **Galois correspondence**, and the **solvability of groups**, which determine whether a polynomial is solvable by radicals.

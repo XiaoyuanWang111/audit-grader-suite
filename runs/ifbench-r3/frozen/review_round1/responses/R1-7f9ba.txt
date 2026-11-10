@@ -1,0 +1,12 @@
+Yes, for orthogonal projection to work properly, the basis vectors spanning the subspace **V** should be orthogonal. Here's an example of how that principle can be expressed with **quotes within quotes within quotes**, alternating between double and single quotes, and at least **three levels deep**:
+
+> "Orthogonal projection, as stated in 'linear algebra fundamentals', requires that 'the vectors forming the basis of V are orthogonal', and this is 'essential for the projection formula to hold correctly'."
+
+In this sentence, you have:
+
+1. The outermost level: **"Orthogonal projection..."** (double quotes)
+2. Inside that: **'linear algebra fundamentals'** (single quotes)
+3. Inside that: **"the vectors forming the basis of V are orthogonal"** (double quotes)
+4. Inside that: **'essential for the projection formula to hold correctly'** (single quotes)
+
+This structure demonstrates three levels of quoting, alternating between double and single quotes, and clearly conveys the idea that **orthogonal projection only works if the basis vectors are orthogonal**.

@@ -1,0 +1,744 @@
+{
+ "content_free": {
+  "empty": {},
+  "space": {},
+  "period": {
+   "count:words_japanese": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "format:line_indent": [
+    9,
+    9,
+    9,
+    0,
+    0
+   ],
+   "format:newline": [
+    6,
+    6,
+    6,
+    0,
+    0
+   ],
+   "format:no_whitespace": [
+    4,
+    4,
+    4,
+    4,
+    0
+   ],
+   "format:quote_unquote": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "format:sub-bullets": [
+    12,
+    12,
+    12,
+    0,
+    0
+   ],
+   "format:title_case": [
+    4,
+    4,
+    4,
+    0,
+    0
+   ],
+   "sentence:alliteration_increment": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "sentence:increment": [
+    8,
+    8,
+    8,
+    0,
+    0
+   ],
+   "words:last_first": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "words:no_consecutive": [
+    8,
+    8,
+    8,
+    0,
+    0
+   ],
+   "words:odd_even_syllables": [
+    9,
+    9,
+    9,
+    0,
+    0
+   ],
+   "words:paragraph_last_first": [
+    6,
+    6,
+    6,
+    6,
+    0
+   ],
+   "words:prime_lengths": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "words:repeats": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "words:vowel": [
+    10,
+    10,
+    10,
+    0,
+    0
+   ]
+  },
+  "repeat_word": {
+   "count:word_count_range": [
+    11,
+    1,
+    1,
+    1,
+    0
+   ],
+   "format:line_indent": [
+    9,
+    9,
+    9,
+    0,
+    0
+   ],
+   "format:quote_unquote": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "format:sub-bullets": [
+    12,
+    12,
+    12,
+    0,
+    0
+   ],
+   "ratio:sentence_balance": [
+    7,
+    7,
+    7,
+    0,
+    0
+   ],
+   "ratio:sentence_type": [
+    6,
+    6,
+    6,
+    0,
+    0
+   ],
+   "ratio:stop_words": [
+    12,
+    12,
+    12,
+    12,
+    0
+   ],
+   "sentence:alliteration_increment": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "sentence:increment": [
+    8,
+    8,
+    8,
+    0,
+    0
+   ],
+   "words:consonants": [
+    15,
+    15,
+    15,
+    15,
+    0
+   ],
+   "words:last_first": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "words:paragraph_last_first": [
+    6,
+    6,
+    6,
+    6,
+    0
+   ],
+   "words:vowel": [
+    10,
+    10,
+    10,
+    10,
+    0
+   ]
+  },
+  "repeat_sentence": {
+   "count:pronouns": [
+    8,
+    7,
+    7,
+    7,
+    0
+   ],
+   "format:line_indent": [
+    9,
+    9,
+    9,
+    0,
+    0
+   ],
+   "format:quote_unquote": [
+    5,
+    5,
+    5,
+    0,
+    0
+   ],
+   "format:sub-bullets": [
+    12,
+    12,
+    12,
+    0,
+    0
+   ],
+   "ratio:overlap": [
+    12,
+    1,
+    0,
+    0,
+    0
+   ],
+   "words:no_consecutive": [
+    8,
+    8,
+    8,
+    8,
+    0
+   ],
+   "words:vowel": [
+    10,
+    10,
+    10,
+    10,
+    0
+   ]
+  },
+  "restate_prompt": {
+   "count:conjunctions": [
+    7,
+    1,
+    1,
+    1,
+    0
+   ],
+   "count:person_names": [
+    6,
+    6,
+    6,
+    6,
+    0
+   ],
+   "count:pronouns": [
+    8,
+    2,
+    2,
+    2,
+    0
+   ],
+   "count:unique_word_count": [
+    9,
+    3,
+    3,
+    3,
+    0
+   ],
+   "format:line_indent": [
+    9,
+    9,
+    9,
+    0,
+    0
+   ],
+   "format:list": [
+    9,
+    1,
+    1,
+    6,
+    0
+   ],
+   "format:output_template": [
+    4,
+    4,
+    4,
+    0,
+    0
+   ],
+   "format:quote_unquote": [
+    5,
+    4,
+    4,
+    2,
+    0
+   ],
+   "format:sub-bullets": [
+    12,
+    11,
+    11,
+    0,
+    0
+   ],
+   "ratio:overlap": [
+    12,
+    1,
+    0,
+    1,
+    0
+   ],
+   "ratio:stop_words": [
+    12,
+    1,
+    1,
+    1,
+    0
+   ],
+   "sentence:alliteration_increment": [
+    5,
+    1,
+    1,
+    0,
+    0
+   ],
+   "sentence:increment": [
+    8,
+    2,
+    2,
+    1,
+    0
+   ],
+   "words:repeats": [
+    5,
+    3,
+    3,
+    3,
+    0
+   ],
+   "words:start_verb": [
+    6,
+    1,
+    1,
+    1,
+    0
+   ]
+  }
+ },
+ "fuzz": {
+  "count:conjunctions": {
+   "n": 389,
+   "errors": {},
+   "examples": {}
+  },
+  "count:keywords_multiple": {
+   "n": 396,
+   "errors": {},
+   "examples": {}
+  },
+  "count:numbers": {
+   "n": 390,
+   "errors": {},
+   "examples": {}
+  },
+  "count:person_names": {
+   "n": 394,
+   "errors": {},
+   "examples": {}
+  },
+  "count:pronouns": {
+   "n": 386,
+   "errors": {},
+   "examples": {}
+  },
+  "count:punctuation": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "count:unique_word_count": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "count:word_count_range": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "count:words_japanese": {
+   "n": 389,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:character_reverse": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:csv_city": {
+   "n": 389,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:csv_quotes": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:csv_special_character": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:date_format_list": {
+   "n": 396,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:european_capitals_sort": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:mcq_count_length": {
+   "n": 385,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:multiples": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:reverse_newline": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:sentence_alphabet": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "custom:word_reverse": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "format:emoji": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "format:line_indent": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "format:list": {
+   "n": 390,
+   "errors": {},
+   "examples": {}
+  },
+  "format:newline": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "format:no_bullets_bullets": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  },
+  "format:no_whitespace": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "format:options": {
+   "n": 399,
+   "errors": {},
+   "examples": {}
+  },
+  "format:output_template": {
+   "n": 390,
+   "errors": {},
+   "examples": {}
+  },
+  "format:parentheses": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "format:quote_unquote": {
+   "n": 396,
+   "errors": {},
+   "examples": {}
+  },
+  "format:quotes": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "format:sub-bullets": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  },
+  "format:thesis": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "format:title_case": {
+   "n": 394,
+   "errors": {},
+   "examples": {}
+  },
+  "ratio:overlap": {
+   "n": 394,
+   "errors": {},
+   "examples": {}
+  },
+  "ratio:sentence_balance": {
+   "n": 390,
+   "errors": {},
+   "examples": {}
+  },
+  "ratio:sentence_type": {
+   "n": 387,
+   "errors": {},
+   "examples": {}
+  },
+  "ratio:sentence_words": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "ratio:stop_words": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "repeat:repeat_change": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "repeat:repeat_simple": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "repeat:repeat_span": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "sentence:alliteration_increment": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "sentence:increment": {
+   "n": 390,
+   "errors": {},
+   "examples": {}
+  },
+  "sentence:keyword": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "words:alphabet": {
+   "n": 397,
+   "errors": {},
+   "examples": {}
+  },
+  "words:consonants": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "words:keywords_specific_position": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "words:last_first": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "words:no_consecutive": {
+   "n": 392,
+   "errors": {},
+   "examples": {}
+  },
+  "words:odd_even_syllables": {
+   "n": 394,
+   "errors": {},
+   "examples": {}
+  },
+  "words:palindrome": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  },
+  "words:paragraph_last_first": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  },
+  "words:prime_lengths": {
+   "n": 393,
+   "errors": {},
+   "examples": {}
+  },
+  "words:repeats": {
+   "n": 396,
+   "errors": {},
+   "examples": {}
+  },
+  "words:start_verb": {
+   "n": 386,
+   "errors": {},
+   "examples": {}
+  },
+  "words:vowel": {
+   "n": 395,
+   "errors": {},
+   "examples": {}
+  },
+  "words:words_position": {
+   "n": 391,
+   "errors": {},
+   "examples": {}
+  }
+ },
+ "metamorphic": {
+  "trailing_newline": {
+   "format:no_bullets_bullets": [
+    80,
+    28,
+    0
+   ],
+   "format:no_whitespace": [
+    64,
+    37,
+    37
+   ],
+   "format:options": [
+    96,
+    58,
+    0
+   ],
+   "repeat:repeat_change": [
+    48,
+    7,
+    0
+   ]
+  },
+  "curly_double_quotes": {
+   "count:conjunctions": [
+    29,
+    6,
+    0
+   ],
+   "custom:csv_city": [
+    4,
+    3,
+    3
+   ],
+   "custom:csv_quotes": [
+    16,
+    2,
+    5
+   ],
+   "custom:csv_special_character": [
+    16,
+    3,
+    1
+   ],
+   "custom:sentence_alphabet": [
+    2,
+    0,
+    1
+   ],
+   "format:quote_unquote": [
+    59,
+    11,
+    0
+   ],
+   "format:quotes": [
+    114,
+    27,
+    19
+   ],
+   "ratio:overlap": [
+    57,
+    3,
+    0
+   ],
+   "ratio:sentence_type": [
+    11,
+    0,
+    2
+   ],
+   "sentence:keyword": [
+    59,
+    1,
+    0
+   ],
+   "words:palindrome": [
+    45,
+    3,
+    0
+   ]
+  }
+ }
+}

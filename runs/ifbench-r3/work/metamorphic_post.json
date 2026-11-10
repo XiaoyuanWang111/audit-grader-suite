@@ -1,0 +1,64 @@
+{
+ "html": {
+  "sentence:increment": {
+   "n": 277,
+   "grader_flips": 26,
+   "grader_pass_to_fail": 26
+  },
+  "count:word_count_range": {
+   "n": 71,
+   "grader_flips": 2,
+   "grader_pass_to_fail": 2
+  },
+  "count:keywords_multiple": {
+   "n": 15
+  },
+  "words:repeats": {
+   "n": 1
+  },
+  "ratio:stop_words": {
+   "n": 1
+  },
+  "format:quotes": {
+   "n": 3
+  },
+  "count:unique_word_count": {
+   "n": 1
+  },
+  "count:pronouns": {
+   "n": 3
+  },
+  "words:odd_even_syllables": {
+   "n": 1
+  },
+  "format:line_indent": {
+   "n": 1
+  },
+  "words:vowel": {
+   "n": 1
+  },
+  "sentence:keyword": {
+   "n": 1
+  },
+  "format:parentheses": {
+   "n": 1
+  }
+ },
+ "flag": {
+  "format:emoji": {
+   "n": 70,
+   "grader_flips": 27,
+   "grader_fail_to_pass": 27,
+   "replacement_flips": 35
+  }
+ },
+ "examples": {
+  "html": {
+   "sentence:increment": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 190",
+   "count:word_count_range": "Qwen__Qwen2.5-32B-Instruct/sample3 key 143"
+  },
+  "flag": {
+   "format:emoji": "Qwen__Qwen2.5-14B-Instruct/sample4 key 65"
+  }
+ }
+}

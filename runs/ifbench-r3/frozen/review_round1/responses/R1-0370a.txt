@@ -1,0 +1,96 @@
+Let’s break this down into two parts:
+
+---
+
+### Part 1: Single-Word Palindromes (Each at Least 5 Characters Long)
+
+Here are **10 single-word palindromes**, each with **at least 5 characters**:
+
+1. **Deed**  
+2. **Level**  
+3. **Madam**  
+4. **Racecar**  
+5. **Reveneer**  
+6. **Rotor**  
+7. **Sagas**  
+8. **Repaper**  
+9. **Racecar**  
+10. **Redder**
+
+> Note: "Racecar" appears twice, but it's still a valid palindrome and satisfies the length requirement.
+
+---
+
+### Part 2: Show that for odd primes $ p > 3 $, the polynomial $ f(x) = x^2 + 3x + 3 $ has roots modulo $ p $ if and only if $ p \equiv 1 \pmod{3} $
+
+We are given the quadratic polynomial:
+
+$$
+f(x) = x^2 + 3x + 3
+$$
+
+We want to show that this polynomial has **roots modulo $ p $** if and only if $ p \equiv 1 \pmod{3} $, for **odd primes $ p > 3 $**.
+
+---
+
+### Step 1: When does a quadratic polynomial have roots modulo $ p $?
+
+A quadratic polynomial $ f(x) = ax^2 + bx + c $ has roots modulo a prime $ p $ if and only if its **discriminant** is a **quadratic residue modulo $ p $**.
+
+The discriminant $ D $ of $ f(x) = x^2 + 3x + 3 $ is:
+
+$$
+D = b^2 - 4ac = 3^2 - 4(1)(3) = 9 - 12 = -3
+$$
+
+So, the polynomial $ f(x) $ has roots modulo $ p $ if and only if **$ -3 $ is a quadratic residue modulo $ p $**.
+
+---
+
+### Step 2: When is $ -3 $ a quadratic residue modulo $ p $?
+
+We use the **Legendre symbol** $ \left(\frac{-3}{p}\right) $ to determine whether $ -3 $ is a quadratic residue modulo $ p $. Using the properties of the Legendre symbol:
+
+$$
+\left(\frac{-3}{p}\right) = \left(\frac{-1}{p}\right) \cdot \left(\frac{3}{p}\right)
+$$
+
+Now, apply the **quadratic reciprocity law** and known values:
+
+- $ \left(\frac{-1}{p}\right) = (-1)^{(p-1)/2} $
+- $ \left(\frac{3}{p}\right) = (-1)^{\frac{(p-1)(3-1)}{4}} \cdot \left(\frac{p}{3}\right) = (-1)^{\frac{p-1}{2}} \cdot \left(\frac{p}{3}\right) $
+
+So we have:
+
+$$
+\left(\frac{-3}{p}\right) = (-1)^{(p-1)/2} \cdot (-1)^{(p-1)/2} \cdot \left(\frac{p}{3}\right) = \left(\frac{p}{3}\right)
+$$
+
+Thus,
+
+$$
+\left(\frac{-3}{p}\right) = \left(\frac{p}{3}\right)
+$$
+
+So $ -3 $ is a quadratic residue modulo $ p $ if and only if $ p $ is a quadratic residue modulo 3.
+
+From the quadratic residues modulo 3, we know that:
+
+- $ \left(\frac{1}{3}\right) = 1 $
+- $ \left(\frac{2}{3}\right) = -1 $
+
+So $ \left(\frac{p}{3}\right) = 1 $ if and only if $ p \equiv 1 \pmod{3} $
+
+Therefore, $ -3 $ is a quadratic residue modulo $ p $ if and only if $ p \equiv 1 \pmod{3} $
+
+---
+
+### Step 3: Conclusion
+
+The polynomial $ f(x) = x^2 + 3x + 3 $ has roots modulo $ p $ **if and only if** $ -3 $ is a quadratic residue modulo $ p $, which happens **if and only if** $ p \equiv 1 \pmod{3} $ for odd primes $ p > 3 $.
+
+---
+
+### ✅ Final Answer:
+
+For odd primes $ p > 3 $, the polynomial $ f(x) = x^2 + 3x + 3 $ has roots modulo $ p $ **if and only if** $ p \equiv 1 \pmod

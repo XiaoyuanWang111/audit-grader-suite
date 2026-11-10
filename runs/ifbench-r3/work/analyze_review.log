@@ -1,0 +1,65 @@
+reviewer A: 458 lines, duplicates 0, missing 0, unknown 0, malformed 0
+reviewer B: 458 lines, duplicates 0, missing 0, unknown 0, malformed 0
+lean agreement 0.969, Cohen's kappa 0.939; ambiguous verdicts A 54, B 71, either 88 of 458
+
+weighted error rates against the consensus labels (444 cases):
+  grader strict      7.223%  95% CI [5.868%, 9.147%]
+  grader loose       7.769%  95% CI [5.439%, 10.700%]
+  reference strict   6.973%  95% CI [5.615%, 8.889%]
+  reference loose    7.545%  95% CI [5.217%, 10.470%]
+  replacement        3.024%  95% CI [1.681%, 4.926%]
+  grader - replacement +4.199%  95% CI [+3.467%, +4.907%]
+
+weighted error rates against the definite labels (370 cases):
+  grader strict      6.940%  95% CI [6.009%, 8.453%]
+  grader loose       7.447%  95% CI [5.364%, 10.042%]
+  reference strict   6.753%  95% CI [5.790%, 8.237%]
+  reference loose    7.317%  95% CI [5.194%, 9.908%]
+  replacement        2.150%  95% CI [1.237%, 3.632%]
+  grader - replacement +4.790%  95% CI [+3.927%, +5.622%]
+
+per stratum (error share among consensus cases):
+  S1a: sample 170, consensus 161, grader 0.62, reference 0.58, replacement 0.38
+  S1b: sample 125, consensus 124, grader 0.97, reference 0.94, replacement 0.03
+  S2: sample 3, consensus 3, grader 0.00, reference 1.00, replacement 0.00
+  S3: sample 160, consensus 156, grader 0.01, reference 0.01, replacement 0.01
+
+per check, consensus cases: errors grader / replacement
+  format:sub-bullets                 n= 54 grader  41 replacement  11
+  format:no_bullets_bullets          n= 25 grader  23 replacement   0
+  format:quotes                      n= 24 grader  18 replacement   3
+  words:start_verb                   n= 18 grader  18 replacement   0
+  count:conjunctions                 n= 18 grader  18 replacement   0
+  ratio:overlap                      n= 16 grader  12 replacement   0
+  format:emoji                       n= 14 grader   8 replacement   2
+  format:line_indent                 n= 11 grader   8 replacement   0
+  words:palindrome                   n=  8 grader   7 replacement   0
+  count:word_count_range             n=  9 grader   6 replacement   0
+  count:punctuation                  n=  8 grader   6 replacement   1
+  format:thesis                      n= 28 grader   5 replacement  19
+  format:output_template             n=  7 grader   5 replacement   0
+  sentence:alliteration_increment    n=  8 grader   5 replacement   0
+  sentence:keyword                   n= 15 grader   4 replacement   1
+  format:options                     n=  7 grader   4 replacement   0
+  custom:csv_city                    n=  4 grader   4 replacement   0
+  format:quote_unquote               n= 17 grader   3 replacement  13
+  custom:csv_quotes                  n=  4 grader   3 replacement   0
+  count:pronouns                     n=  6 grader   3 replacement   0
+  custom:sentence_alphabet           n=  4 grader   3 replacement   0
+  words:paragraph_last_first         n=  4 grader   3 replacement   0
+  custom:mcq_count_length            n=  3 grader   3 replacement   0
+  ratio:sentence_type                n=  4 grader   2 replacement   0
+  format:list                        n= 10 grader   2 replacement   0
+  words:last_first                   n=  4 grader   2 replacement   0
+  format:parentheses                 n= 12 grader   1 replacement   6
+  custom:reverse_newline             n=  1 grader   1 replacement   0
+  sentence:increment                 n=  6 grader   1 replacement   0
+  ratio:sentence_balance             n=  6 grader   1 replacement   0
+  custom:date_format_list            n=  1 grader   1 replacement   1
+  custom:word_reverse                n=  1 grader   1 replacement   0
+  count:words_japanese               n= 11 grader   0 replacement   8
+  count:numbers                      n=  7 grader   0 replacement   1
+  custom:csv_special_character       n=  1 grader   0 replacement   1
+
+disputed cases (leans differ): 14
+wrote audit/work/review_summary.json

@@ -1,0 +1,14 @@
+Sure! Below is an example of CSV data with 7 rows, using the specified column names:
+
+```
+ID,Country,City,Year,Count
+1,USA,New York,2022,150
+2,Canada,Toronto,2021,120
+3,UK,London,2020,200
+4,Australia,Sydney,2019,180
+5,Germany,Berlin,2018,160
+6,France,Paris,2017,130
+7,Japan,Tokyo,2016,140
+```
+
+You can copy this data into a CSV file or use it directly in your application.

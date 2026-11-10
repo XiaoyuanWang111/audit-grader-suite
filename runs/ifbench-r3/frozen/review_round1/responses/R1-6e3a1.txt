@@ -1,0 +1,42 @@
+Here are ten single-word palindromes, each at least 5 characters long:
+
+1. racecar
+2. level
+3. racecar
+4. radar
+5. racecar
+6. racecar
+7. racecar
+8. racecar
+9. racecar
+10. racecar
+
+To prove that a step function \( f: [a, b] \rightarrow \mathbb{R} \) is Riemann integrable, we will follow these steps:
+
+1. Define the step function and the partition.
+2. Calculate the upper and lower Riemann sums for the partition.
+3. Show that the upper and lower Riemann sums converge to the same limit as the partition is refined.
+
+Let \( f \) be the step function defined as follows:
+- On the interval \([a, b]\), function \( f \) takes \( n \) different constant values \( c_1, c_2, ..., c_n \) on subintervals \([x_{i-1}, x_i)\) for \(i = 1, 2, ..., n\), where \(a = x_0 < x_1 < x_2 < \cdots < x_n = b\).
+
+We will consider a partition \( P \) of \([a, b]\) consisting of \( n \) subintervals:
+\[ P = \{ x_0, x_1, x_2, ..., x_n \} \]
+
+For each subinterval \([x_{i-1}, x_i)\), let \( c_i \) be the value of \( f \) on that subinterval.
+
+The upper Riemann sum \( U(P, f) \) is calculated as:
+\[ U(P, f) = \sum_{i=1}^{n} c_i (x_i - x_{i-1}) \]
+
+The lower Riemann sum \( L(P, f) \) is calculated as:
+\[ L(P, f) = \sum_{i=1}^{n} c_{i-1} (x_i - x_{i-1}) \]
+
+To show that \( f \) is Riemann integrable, we need to show that the upper and lower Riemann sums converge to the same limit as the partition is refined. This means that for any \(\epsilon > 0\), there exists a partition \(P\) such that:
+\[ U(P, f) - L(P, f) < \epsilon \]
+
+Since \( f \) is a step function, the difference between the upper and lower Riemann sums can be made arbitrarily small by choosing a partition where the subintervals are sufficiently small. Specifically, if we choose \( \Delta x = \frac{b-a}{n} \) and let \( n \rightarrow \infty \), then \(\Delta x \rightarrow 0\), and thus:
+\[ \lim_{n \to \infty} (U(P, f) - L(P, f)) = 0 \]
+
+This shows that the upper and lower Riemann sums converge to the same limit, implying that the step function \( f \) is Riemann integrable on \([a, b]\).
+
+Therefore, we have proven that a step function \( f: [a, b] \rightarrow \mathbb{R} \) is Riemann integrable.

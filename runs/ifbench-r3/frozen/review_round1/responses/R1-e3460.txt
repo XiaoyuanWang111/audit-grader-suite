@@ -1,0 +1,90 @@
+To analyze the natural convection flow along a vertical surface where the temperature excess over the ambient temperature varies as (1/x), we must examine the physical variables of interest: **heat flux per unit area (q")**, **total heat transfer (Q)**, **boundary layer thickness (δ)**, **maximum velocity (u_max)**, and **free stream velocity (v∞)**. The temperature excess is given as:
+
+> "The temperature excess over the ambient temperature, which is taken as constant, varies as (1/x), where x is the distance along the surface from the leading edge."
+
+This implies the surface temperature is not constant but decreases with increasing distance from the leading edge. This kind of scenario is unusual in natural convection, where typically the surface is assumed to be isothermal. However, it is physically obtainable under specific conditions.
+
+---
+
+### 1. **Variation of Heat Flux (q") with x**
+
+The local heat flux (q") is given by Newton's law of cooling:
+
+> q" = h(x) * (T_s(x) - T_∞)
+
+Where:
+- h(x) is the local heat transfer coefficient
+- T_s(x) is the surface temperature
+- T_∞ is the ambient temperature (constant)
+
+Given that T_s(x) - T_∞ = k/x (for some constant k), and assuming that the heat transfer coefficient h(x) behaves as h(x) ~ x^(-1/4) in natural convection, we get:
+
+> q" ~ (x^(-1/4)) * (x^(-1)) = x^(-5/4)
+
+Thus, the **local heat flux (q") varies as x^(-5/4)**.
+
+---
+
+### 2. **Variation of Total Heat Transfer (Q) with x**
+
+The total heat transfer (Q) from a section of the surface up to distance x is obtained by integrating q" over x:
+
+> Q = ∫₀^x q"(x') dx'
+
+Using the result from above:
+
+> Q ~ ∫₀^x x'^(-5/4) dx' = [ -4x'^(-1/4) ]₀^x = 4x^(-1/4)
+
+Thus, the **total heat transfer Q varies as x^(-1/4)**.
+
+---
+
+### 3. **Variation of Boundary Layer Thickness (δ) with x**
+
+In natural convection, the boundary layer thickness δ is known to scale with x as:
+
+> δ ~ x^(1/4)
+
+This is different from the forced convection case where δ scales as x^(1/2). So, the **boundary layer thickness varies as x^(1/4)**.
+
+---
+
+### 4. **Variation of Maximum Velocity (u_max) with x**
+
+The maximum velocity in the boundary layer (u_max) is typically found at the edge of the boundary layer and scales with the buoyancy-induced flow. In natural convection, the velocity profile is governed by the buoyancy force, and u_max is found to scale as:
+
+> u_max ~ x^(1/4)
+
+So, the **maximum velocity varies as x^(1/4)**.
+
+---
+
+### 5. **Variation of Free Stream Velocity (v∞) with x**
+
+The "free stream velocity" in natural convection is not a well-defined quantity in the same way as in forced convection. However, if we consider the velocity at the edge of the boundary layer, it is often taken as the free stream velocity, v∞. This is the same as u_max, so:
+
+> v∞ ~ x^(1/4)
+
+Therefore, the **free stream velocity also varies as x^(1/4)**.
+
+---
+
+### 6. **Physical Realizability of the Circumstance**
+
+This scenario is **physically obtainable**, but only under **specific conditions**. The condition that the **temperature excess over ambient varies as (1/x)** implies that the surface is **not isothermal** but rather **cools as it moves away from the leading edge**.
+
+This situation can occur in the following contexts:
+
+- **Thermal stratification**, where the surface is cooled by a fluid or a medium that itself cools with distance.
+- **Non-uniform heating or cooling of a surface** in a controlled environment, such as in certain types of industrial or laboratory setups.
+- **Geophysical flows**, such as cooling of a vertical wall in a non-uniform thermal environment (e.g., in deep ocean or atmospheric layers with temperature gradients).
+
+However, such a setup is **not typical in standard natural convection problems**, where the surface is usually assumed to be isothermal. Therefore, while this variation can be realized in some specialized setups, it is not a standard case in classical natural convection theory.
+
+---
+
+### Summary of Variation with x:
+
+| Physical Quantity         | Variation with x         |
+|--------------------------|--------------------------|
+| q" (local heat flux)      | x^

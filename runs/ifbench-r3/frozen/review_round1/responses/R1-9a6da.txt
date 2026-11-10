@@ -1,0 +1,28 @@
+To show that a metric space (M, d) is complete if and only if any sequence (F_n) of nonempty closed subsets of M with \( F_{n+1} \subset F_n \) and \( \text{diam}(F_n) \rightarrow 0 \) as \( n \rightarrow \infty \) has a nonempty intersection, we need to prove both directions of the if and only if statement.
+
+### Completeness Implies the Intersection Condition
+
+First, assume that (M, d) is a complete metric space. Let (F_n) be a sequence of nonempty closed subsets of M such that \( F_{n+1} \subset F_n \) and \( \text{diam}(F_n) \rightarrow 0 \) as \( n \rightarrow \infty \). We need to show that \( \bigcap_{n=1}^{\infty} F_n \neq \emptyset \).
+
+1. Since \( \text{diam}(F_n) \rightarrow 0 \), for any \( \epsilon > 0 \), there exists an \( N \) such that for all \( n \geq N \), \( \text{diam}(F_n) < \epsilon \).
+2. Choose \( x_n \in F_n \).
+3. Notice that for \( m \geq n \geq N \), \( x_m \in F_m \subset F_n \), and thus \( d(x_n, x_m) < \epsilon \).
+4. This means \( (x_n) \) is a Cauchy sequence.
+5. Since (M, d) is complete, the Cauchy sequence \( (x_n) \) converges to some \( x \in M \).
+6. Because each \( F_n \) is closed and \( F_{n+1} \subset F_n \), \( x \in F_n \) for all \( n \).
+7. Therefore, \( x \in \bigcap_{n=1}^{\infty} F_n \).
+
+### Intersection Condition Implies Completeness
+
+Now, assume that any sequence (F_n) of nonempty closed subsets of M with \( F_{n+1} \subset F_n \) and \( \text{diam}(F_n) \rightarrow 0 \) as \( n \rightarrow \infty \) has a nonempty intersection. We need to show that (M, d) is complete.
+
+1. Let \( (x_n) \) be a Cauchy sequence in M.
+2. For each \( k \), there exists an \( N_k \) such that for all \( m, n \geq N_k \), \( d(x_m, x_n) < \frac{1}{k} \).
+3. Define \( F_k = \overline{B(x_{N_k}, \frac{1}{k})} \), the closure of the ball centered at \( x_{N_k} \) with radius \( \frac{1}{k} \).
+4. Each \( F_k \) is nonempty and closed.
+5. Since \( (x_n) \) is Cauchy, \( F_{k+1} \subset F_k \) and \( \text{diam}(F_k) \rightarrow 0 \) as \( k \rightarrow \infty \).
+6. By the given condition, \( \bigcap_{k=1}^{\infty} F_k \neq \emptyset \).
+7. Therefore, there exists an \( x \in M \) such that \( x \in F_k \) for all \( k \).
+8. This \( x \) is the limit of the Cauchy sequence \( (x_n) \).
+
+Thus, (M, d) is complete. Do you need further clarification on any part of this proof?

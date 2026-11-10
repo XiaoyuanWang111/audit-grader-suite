@@ -1,0 +1,8 @@
+ (a) In a directed graph, the out-degree (number of outgoing edges) of a vertex can be as high as |V| - 1 in the worst case scenario when the graph is complete (each vertex is connected to every other vertex). So, the cost of the worst possible single operation would be the maximum out-degree, which is |V| - 1.
+
+(b) To calculate the average amortized cost, we can use the aggregate analysis. In this case, the total cost of all operations is the sum of the cost of each operation, which is the sum of the out-degrees of all vertices. Since the sum of out-degrees equals the sum of in-degrees and the sum of degrees (in-degree + out-degree) of each vertex is equal to |E| (the number of edges), the total cost is half the number of edges. The number of operations is equal to the number of vertices, so the average amortized cost per operation is half the average degree. In a random graph, the average degree is approximately 2|E|/|V|, so the average amortized cost per operation is approximately |E|/2|V|. However, this is an approximation and the actual average amortized cost can vary depending on the specific structure of the graph.
+
+Here is the summary in bullet points:
+
+* The cost of the worst possible single operation is |V| - 1.
+* The average amortized cost per operation is approximately |E|/2|V|, but this can vary depending on the specific structure of the graph.

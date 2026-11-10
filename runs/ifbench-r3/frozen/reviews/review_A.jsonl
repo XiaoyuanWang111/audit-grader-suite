@@ -1,0 +1,458 @@
+{"case_id": "R1-511a5", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Opening paragraph has three period-ending sentences, then two * bullets follow."}
+{"case_id": "R1-4225f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths 67, 75, 79 characters; not equal."}
+{"case_id": "R1-acec1", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words like \"merely\" (6) and \"through\" (7 ok) - \"merely\" has non-prime length 6."}
+{"case_id": "R1-a1162", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only two nesting levels (double then single); no third-level double quote inside single quotes."}
+{"case_id": "R1-32b1e", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Maximum nesting is two levels (double containing single); no third level."}
+{"case_id": "R1-5dc0c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Poem shares almost no word trigrams with the short reference quote; overlap far below 48%."}
+{"case_id": "R1-71ead", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"B\" has length 1 and \"impending\" has 9; neither is prime."}
+{"case_id": "R1-40877", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Most body sentences are in normal sentence case with lowercase major words."}
+{"case_id": "R1-6c671", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has 69 words, outside 71-73."}
+{"case_id": "R1-985e2", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words such as \"In\", \"a\", \"is\" contain no consonant cluster."}
+{"case_id": "R1-5e0ad", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each followed by three - sub-bullets."}
+{"case_id": "R1-114a2", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words like \"may\", \"Each\", \"data\" lack any two adjacent consonants."}
+{"case_id": "R1-14faf", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Three * bullets, each with at least one - sub-bullet."}
+{"case_id": "R1-6e3a1", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Ten palindromes listed but only 3 distinct (racecar x8, level, radar). Pass if repeats count; fail if 10 different palindromes required."}
+{"case_id": "R1-9a082", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No question marks or exclamation marks; all sentences declarative."}
+{"case_id": "R1-3e0b9", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Degenerate but each sentence is \"bible\", matching the prior sentence last word (case-insensitive); chain holds throughout."}
+{"case_id": "R1-7e559", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Text contains and, but, or, so, for (mostly in the listed examples): five distinct coordinating conjunctions."}
+{"case_id": "R1-20de8", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only one interrogative (inside a quote) against many declarative statements; not 2:1."}
+{"case_id": "R1-780d9", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Begins with the verb \"Imagine\"."}
+{"case_id": "R1-7f9ba", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Example has double quotes containing single quotes only; two levels, not three."}
+{"case_id": "R1-01ccd", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Has . , ; : ? ?! quotes apostrophe dash parentheses, but no hyphen, ellipsis or brackets."}
+{"case_id": "R1-58fd5", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence 25 has 21 words; no 36th word; \"slowly\" appears elsewhere at other positions."}
+{"case_id": "R1-40524", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of 10 items is one sentence ending with emojis."}
+{"case_id": "R1-e5bae", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Several quoted phrases (e.g. the opening full translation, \"Yesterday.\") end a line with no unquoted explanation after them."}
+{"case_id": "R1-98b5f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Italics use markdown asterisks, not HTML tags; other sections lack thesis statements."}
+{"case_id": "R1-59f33", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header with the five named columns and seven comma-delimited data rows."}
+{"case_id": "R1-b0133", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Maximum bracket nesting depth computed as 3, below 5."}
+{"case_id": "R1-3ca63", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Uses - bullets only; no * bullets and no sub-bullets."}
+{"case_id": "R1-976c1", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Example nests double, then single, then double (\"unique\"): three alternating levels."}
+{"case_id": "R1-5ad89", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Mixed (), [], {} nest far beyond five levels (computed depth over 600), though structure is degenerate and unclosed."}
+{"case_id": "R1-355c6", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No explicit reference text; using prompt passage, overlap 7.7% of response trigrams (pass) but 2.1% of reference trigrams (fail)."}
+{"case_id": "R1-8040f", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Has ; : (?!) quotes brackets parentheses hyphen, but no standalone ! or ?, no ellipsis, no braces or em dash."}
+{"case_id": "R1-6a68e", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Quotes appear side by side, never nested; no three-level structure."}
+{"case_id": "R1-84e99", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Opening sequence [ ( [ ( { reaches five levels; brackets are partly mismatched but nesting depth exceeds 5."}
+{"case_id": "R1-3043f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with two - sub-bullets."}
+{"case_id": "R1-3ee19", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Words present: and, or, yet, so, for; no but/nor. \"for\" only used as a preposition, so 4 true coordinators; 5 if counting word forms."}
+{"case_id": "R1-1a4d9", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "One * bullet followed by several - sub-bullets; every * bullet has a sub-bullet."}
+{"case_id": "R1-6ed32", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response opens with an HTML <i> italic thesis line; no further distinct sections exist."}
+{"case_id": "R1-dafb7", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "First two sentences each have at most two consecutive alliterative words; second is not longer than first."}
+{"case_id": "R1-6e61f", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "About 8 pronouns (It, its x2, what, relative that x4); demonstratives are determiners here. Below 13."}
+{"case_id": "R1-e5015", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Maximum nesting is double containing single; no third level."}
+{"case_id": "R1-85925", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "245 unique words computed, above 135."}
+{"case_id": "R1-0f0a0", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Outer double quotes contain single-quoted passage containing (\"heat flux\") double quotes: three alternating levels."}
+{"case_id": "R1-8a18e", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has only about five sentences; no 15th sentence."}
+{"case_id": "R1-a8d91", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words such as \"To\", \"is\", \"an\" have no consonant cluster."}
+{"case_id": "R1-cdb0a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence word counts decrease (12, then 7...), not +5 each."}
+{"case_id": "R1-240ad", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Multiple period-ending sentences precede two * bullet points."}
+{"case_id": "R1-d45e8", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only item 3 uses !?!?; the other 19 items use a single ?."}
+{"case_id": "R1-10449", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Body has many pronouns (their, it, which, that) plus a listed pronoun line; personal pronoun count 25."}
+{"case_id": "R1-3ba87", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Against the prompt text, trigram overlap is 1.5% (response basis) or 4.4% (reference basis), outside 9-13%."}
+{"case_id": "R1-1d458", "verdict": "ambiguous", "lean": "fail", "confidence": "low", "reason": "Two period sentences precede two lines wrapped in *...*; these are markdown italics, not \"* \" bullets. Pass if a leading * counts as a bullet."}
+{"case_id": "R1-53bcb", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths 116, 104, 108 characters; also \"Europe\" repeats."}
+{"case_id": "R1-fcaee", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Single paragraph with no line-by-line indentation."}
+{"case_id": "R1-bcf32", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Both sentences peak at two consecutive same-letter words (e.g. \"to the\", \"multimodal mental\"); second is not longer."}
+{"case_id": "R1-20f6c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only the first block starts with an <i> phrase; the three thesis sections use plain <p> text."}
+{"case_id": "R1-cf660", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No quotation marks, no standalone question mark or dash; interrobang written as !? not ?!."}
+{"case_id": "R1-cc75b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "65 unique words computed, at least 55."}
+{"case_id": "R1-0020c", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Response contains no quoted phrases at all; vacuously satisfied, but fails if quoted phrases with explanations are expected."}
+{"case_id": "R1-c55fd", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response is almost entirely Japanese; with whitespace tokens (52), the 29th token is Japanese."}
+{"case_id": "R1-6b86e", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Long derivation precedes the template; headings use ### and the response is not just the exact template."}
+{"case_id": "R1-9fd0a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "56 adjacent pairs share a first letter, e.g. \"His hair\", \"shifting silver\"."}
+{"case_id": "R1-55a96", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of the 10 one-sentence items ends with an emoji."}
+{"case_id": "R1-ba592", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Explore\"."}
+{"case_id": "R1-9a174", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four \"Question:\" items, five options each, lengths 84<111<150<392 characters, no explanation."}
+{"case_id": "R1-67842", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has only five sentences; no 24th sentence."}
+{"case_id": "R1-686ba", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Several period-ending sentences followed by two * bullet points."}
+{"case_id": "R1-c6493", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Each section is an <i>-italicized thesis paragraph; closing note is not a section."}
+{"case_id": "R1-d08b4", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Opening full-text quotation is followed directly by a separator and the next quoted phrase, with no explanation."}
+{"case_id": "R1-46f23", "verdict": "ambiguous", "lean": "pass", "confidence": "medium", "reason": "Numbers: \"9/11\" and 67%. Two if 9/11 is one number; three if counted as 9 and 11."}
+{"case_id": "R1-80f9a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Headings are title case but body paragraphs are in sentence case."}
+{"case_id": "R1-d985f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "About 7 pronouns (your, its x2, that, their x2, others); far below 13."}
+{"case_id": "R1-bf731", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Period-ending sentences in list items precede * bullet points, including two final * bullets."}
+{"case_id": "R1-75423", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Multiple period-ending sentences followed by two * bullets at the end."}
+{"case_id": "R1-6ae8c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words like \"my\", \"Can\", \"I\", \"on\" lack a consonant cluster."}
+{"case_id": "R1-efe2e", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Several sentences end without an emoji, e.g. the first sentence of paragraph two ends \"at rest.\""}
+{"case_id": "R1-a9e11", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with two - sub-bullets."}
+{"case_id": "R1-ae3ff", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "First word is the verb \"Rises\" (bolded)."}
+{"case_id": "R1-77efd", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No quotation marks or parentheses; list is cut off at item 11."}
+{"case_id": "R1-b2a8b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with one - sub-bullet."}
+{"case_id": "R1-0e533", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Ten qualifying instances (5+ letters) only with repeats; distinct qualifying palindromes are 7 (level, rotor, kayak, racecar, reviver, madam, refer)."}
+{"case_id": "R1-10843", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Keyword \"iritic\" never appears."}
+{"case_id": "R1-ab121", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Distinct 5+ letter palindromes: level, racecar, madam, redder, rever, radar = 6; reaching 10 needs counting repeats."}
+{"case_id": "R1-b9c03", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks anywhere; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-42808", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "and, or, but present; \"for\" only as preposition (\"For example\"). 3 true coordinators, 4 if word forms count."}
+{"case_id": "R1-4b387", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All three sections open with an <i>-tagged thesis sentence."}
+{"case_id": "R1-acfa5", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two * bullets, each with several - sub-bullets."}
+{"case_id": "R1-fa43b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Longest alliterative runs per sentence: 6, 9, 9, 14, 11; not strictly increasing."}
+{"case_id": "R1-bad6e", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Define\"."}
+{"case_id": "R1-72f3f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Counts: meridian 0, gossamer 3, eclipse 2, threshold 5, cascade 6."}
+{"case_id": "R1-deb66", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "All sentences declarative; no questions or exclamations."}
+{"case_id": "R1-302ef", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Only one sentence ends in a period before the bullets; the second ends with a colon."}
+{"case_id": "R1-e2e4a", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks anywhere; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-51f4f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with two - sub-bullets."}
+{"case_id": "R1-1145c", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Four declarative sentences and two interrogative sentences: 2:1."}
+{"case_id": "R1-a46bf", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths vary irregularly, not +3 words each."}
+{"case_id": "R1-b14b8", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Each of three sections opens with an <em>-italicized thesis statement."}
+{"case_id": "R1-e4620", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Against the prompt, trigram overlap 5% (response basis) or 2.2% (reference basis); outside 9-13%."}
+{"case_id": "R1-a5bff", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraph uses all five vowels; many single words (e.g. \"is\") do not have three vowel types."}
+{"case_id": "R1-5c14f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Uses - for top-level bullets; no * bullets."}
+{"case_id": "R1-c135f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four Question items, five options each, lengths 180<184<189<254, no explanation."}
+{"case_id": "R1-8d97a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words do not follow the alphabet sequence (\"A beginning explorer of\" = A, B, E, O)."}
+{"case_id": "R1-4dffc", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Longest alliterative runs: 3, 4, 8, 9, 12, 14, 10; the last sentence drops to 10."}
+{"case_id": "R1-dd762", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Many words lack a consonant cluster, e.g. \"an\", \"is\", \"you've\"."}
+{"case_id": "R1-b781f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only 8 listed palindromes have 5+ letters; Deed and Noon are 4 letters."}
+{"case_id": "R1-c601a", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Formulate\"."}
+{"case_id": "R1-b953c", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Every * bullet has at least one - sub-bullet."}
+{"case_id": "R1-52b66", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "First two sentences have 7 and 9 words; increments are not 1."}
+{"case_id": "R1-9f34b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"betask\" appears only in sentence 20 of 20; the 18th sentence lacks it."}
+{"case_id": "R1-7faba", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "True coordinators used: and, but, or (3). \"for\" appears only as a preposition; counting it gives 4."}
+{"case_id": "R1-ef4bf", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is exactly \"I don't know\", one word per line, no explanation."}
+{"case_id": "R1-dc117", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Lines are not progressively indented; dialogue lines share a fixed indent."}
+{"case_id": "R1-14cf8", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is \"I don't know.\" split by line; no explanation."}
+{"case_id": "R1-6d3f0", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Explore\"."}
+{"case_id": "R1-d424c", "verdict": "ambiguous", "lean": "pass", "confidence": "medium", "reason": "Trigram overlap with the passage: 23.1% of response trigrams (within 22-26) but 26.7% of reference trigrams (just outside)."}
+{"case_id": "R1-47e37", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraph uses o and u as well (e.g. \"of\", \"beauty\"), not only three vowels."}
+{"case_id": "R1-fa6a7", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Stop words are 44% of 116 words, above 39%."}
+{"case_id": "R1-2569f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two * bullets, each with - sub-bullets."}
+{"case_id": "R1-b16ba", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"similar solutions\" are consecutive words sharing the first letter s."}
+{"case_id": "R1-42e19", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Longest alliterative run: 2 in sentence one, 5 in sentence two (captivating creation combines Congo Cuba)."}
+{"case_id": "R1-48955", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four Question items, five options each, steadily longer; no explanations."}
+{"case_id": "R1-1eba3", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Nesting uses stacked single quotes inside double quotes; no double-single-double alternation at three levels."}
+{"case_id": "R1-f43b6", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Almost every line has adjacent words with the same initial, e.g. \"Rugged, raven\"."}
+{"case_id": "R1-0c405", "verdict": "ambiguous", "lean": "fail", "confidence": "low", "reason": "!?!? appears after each item in one paragraph, not as list markers; pass only if !?!? as item separators counts as a list."}
+{"case_id": "R1-e8545", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "First word \"Dazzling.\" functions as an adjective fragment, not a verb."}
+{"case_id": "R1-84114", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Period-ending sentences followed by two * bullet points."}
+{"case_id": "R1-97b5d", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has about 679 words, above 478."}
+{"case_id": "R1-462f8", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Only 33 unique Russian words; reaching 55 requires counting LaTeX commands and symbols as words (55 by \\w+ tokens, 59 by whitespace tokens)."}
+{"case_id": "R1-f3e48", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Screenplay lines are not progressively indented."}
+{"case_id": "R1-6bead", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is exactly \"no\" with no whitespace characters."}
+{"case_id": "R1-fad1c", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Final quote nests double, then single, then double (\"src\", \"dhost\"): three alternating levels."}
+{"case_id": "R1-600c3", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Only two pronouns (\"it\" in it's, \"itself\"); \"these\" and \"each\" act as determiners."}
+{"case_id": "R1-195d4", "verdict": "fail", "lean": "fail", "confidence": "low", "reason": "Against the prompt passage, trigram overlap is about 8.7% (response basis) or 8.3% (reference basis), slightly above 8%."}
+{"case_id": "R1-99569", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Single line of text; no incrementally indented lines."}
+{"case_id": "R1-2d476", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All 50 listed names appear; far more than 18."}
+{"case_id": "R1-30180", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Lines use fixed list indentation, not stairs that indent further on each line."}
+{"case_id": "R1-45c7f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of five paragraphs starts and ends with the same word (ESP, EBP, Stack, Function, Debugging)."}
+{"case_id": "R1-cefed", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words are written in normal lines, not one per line."}
+{"case_id": "R1-88ca5", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-8cbc0", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Against the prompt, overlap 4.1% (response basis) or 15.6% (reference basis); neither within 9-13%."}
+{"case_id": "R1-37545", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Nesting reaches only two levels (double containing single)."}
+{"case_id": "R1-ce4f8", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Response contains no quotation marks; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-4b3f1", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Stop words about 24% of 582 words, below 31%."}
+{"case_id": "R1-4ab62", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with two - sub-bullets."}
+{"case_id": "R1-8d436", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only double quotes are used, sometimes inside double quotes; no single-quote level."}
+{"case_id": "R1-4fc43", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Counts: cloud 1, rhythm 2, fish 2, puzzle 6, dawn 5."}
+{"case_id": "R1-34c9d", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "No brackets or braces; parentheses nest at most two levels per stanza, deeper count arises only from unclosed parentheses."}
+{"case_id": "R1-5e0a5", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Single line; no stair-step indentation of new lines."}
+{"case_id": "R1-40b23", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response follows My Answer / My Conclusion / Future Outlook template with content in each."}
+{"case_id": "R1-8a3a4", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only \"and\" and \"or\" appear as coordinating conjunctions; the rest are adverbs."}
+{"case_id": "R1-775ea", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response opens with an <i> HTML-italic thesis; body paragraphs belong to that single section."}
+{"case_id": "R1-3c46c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths 81, 74, 83 characters; \"scam\" also repeats."}
+{"case_id": "R1-fecfc", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-cab3d", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All ten one-sentence lines end with an emoji."}
+{"case_id": "R1-10c52", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Title plus 28 numbered one-sentence items (last truncated) gives about 29 sentences; there is no 30th sentence."}
+{"case_id": "R1-0b645", "verdict": "ambiguous", "lean": "fail", "confidence": "low", "reason": "Two period sentences precede two lines wrapped in *...* (markdown italics), not \"* \" bullets; pass only if leading * counts as a bullet."}
+{"case_id": "R1-6e718", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Response has 23 words (hyphenated compounds as one word), below 24."}
+{"case_id": "R1-87968", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"Social\" (2) and \"technology\" (4) are consecutive even-syllable words."}
+{"case_id": "R1-5f3d2", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Three period-ending sentences followed by four * bullets."}
+{"case_id": "R1-c6411", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "The single * bullet has many - sub-bullets."}
+{"case_id": "R1-70968", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Nesting reaches only double containing single; no third level."}
+{"case_id": "R1-c62a2", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Checked all 22 sentence transitions: each sentence starts with the previous sentence's last word."}
+{"case_id": "R1-39963", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "26 words start A through Z in order (Adventurous ... zeal)."}
+{"case_id": "R1-bd01c", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Format is correct (comma-separated YYYY-MM-DD, no explanation), but only six dates, far from all of Napoleon's battles."}
+{"case_id": "R1-b40ed", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Period-ending sentences (opening sentence and the \"where...\" sentence) precede two * bullets."}
+{"case_id": "R1-0051d", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Six * bullets, each with two - sub-bullets."}
+{"case_id": "R1-11f8a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "One !?!? then a single prose paragraph; not a list of items marked by !?!?."}
+{"case_id": "R1-ba8c7", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraph uses all five vowels; words are not restricted to three vowel types."}
+{"case_id": "R1-9313e", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Eight * bullets, each with one - sub-bullet."}
+{"case_id": "R1-da41d", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Includes . , ; : ? ?! quotes apostrophe hyphen dash parentheses brackets ellipsis slash; only braces absent."}
+{"case_id": "R1-ae06b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences followed by two * bullets."}
+{"case_id": "R1-8c55c", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Real nesting is only two levels (double with single, or single with double); q\" is a symbol, not a quote."}
+{"case_id": "R1-4393a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Uses only - bullets; no * bullets."}
+{"case_id": "R1-0e863", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"dataset\" and \"minor\" have no two adjacent consonants."}
+{"case_id": "R1-172ad", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Understand\"."}
+{"case_id": "R1-19f12", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Ten listed palindromes of 5+ letters, but \"deified\" repeats: 9 distinct."}
+{"case_id": "R1-a0500", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with one - sub-bullet."}
+{"case_id": "R1-61213", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only \"and\" and \"or\" serve as coordinating conjunctions (\"for\" is a preposition); fewer than 4."}
+{"case_id": "R1-b9e5f", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "28 numbered one-sentence items; item 28, the 28th sentence, contains \"migratory\"."}
+{"case_id": "R1-3c29d", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only \"and\" and \"so\" used as coordinators; \"for\" is prepositional and no but/or/nor/yet appear."}
+{"case_id": "R1-98922", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of five * bullets is followed by - sub-bullet lines."}
+{"case_id": "R1-af416", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of ten one-sentence prompts ends with an emoji."}
+{"case_id": "R1-ad251", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Three declarative sentences, one interrogative, no exclamatory; not balanced."}
+{"case_id": "R1-a84da", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-83207", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Only the first paragraph starts with <em> text, and it restates the question rather than a thesis; later sections lack italics."}
+{"case_id": "R1-8c8a9", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Both sentences peak at two consecutive alliterative words; the second is not longer."}
+{"case_id": "R1-506c0", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Italics use markdown asterisks, not HTML tags."}
+{"case_id": "R1-aa9d1", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with - sub-bullets."}
+{"case_id": "R1-e0384", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All five paragraphs start and end with \"Counterexample\"."}
+{"case_id": "R1-54533", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Trigram overlap with the passage: 25.6% of response trigrams, 24.4% of reference trigrams; both within 22-26%."}
+{"case_id": "R1-e0d3b", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Nesting is double with single, and once single within single; no double-single-double chain."}
+{"case_id": "R1-63eac", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header with five named columns plus seven comma-delimited rows."}
+{"case_id": "R1-48364", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Exactly five numerals appear: list markers 1 through 5."}
+{"case_id": "R1-cb74a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "About 12 sentences; \"heterolith\" appears in sentence 11, and there is no 15th."}
+{"case_id": "R1-091c7", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Seven * bullets, each followed by a \"- -\" sub-bullet line."}
+{"case_id": "R1-d86c8", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Top lines are \"- *\" items with \"- -\" sub-items; pass if \"- *\" counts as a * bullet, fail if top-level marker is \"-\"."}
+{"case_id": "R1-e22ad", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Template content is given twice, the second copy keeping placeholders like [answer]; not the exact template."}
+{"case_id": "R1-b5c32", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No parentheses, dashes or standalone exclamation; response is cut off mid-list."}
+{"case_id": "R1-9daab", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Nesting reaches only double containing single; no third level."}
+{"case_id": "R1-dda1e", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is just \"yes\"."}
+{"case_id": "R1-9a6da", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Many declarative sentences and only one question; far from 2:1."}
+{"case_id": "R1-af8bf", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <i>-italicized thesis sentence (inside a blockquote)."}
+{"case_id": "R1-b72e3", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "The claimed nesting is single quotes inside single quotes inside double; no double-single-double alternation."}
+{"case_id": "R1-16c2c", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Has . , ; : ? ! ?! quotes parentheses hyphen, but no brackets, em dash or ellipsis."}
+{"case_id": "R1-4c78e", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only \"and\" and \"but\" act as coordinating conjunctions; \"for\" is a preposition (\"For instance\")."}
+{"case_id": "R1-fa0ce", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "26 sentences whose first words run A through Z in order."}
+{"case_id": "R1-d558b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Define\" (bolded)."}
+{"case_id": "R1-01d55", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has 70 words, outside 71-73."}
+{"case_id": "R1-7c85a", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-9645f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraphs start with \"In\" but end with other words (e.g. \"factories\", \"them\")."}
+{"case_id": "R1-59bba", "verdict": "ambiguous", "lean": "pass", "confidence": "medium", "reason": "Lists exactly 14, 21, 28, 35, 42, 49; but also adds explanation and code. Fails if \"only print\" forbids any other output."}
+{"case_id": "R1-07731", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response opens with an <em> thesis statement; remaining paragraphs belong to that section."}
+{"case_id": "R1-16b7a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraph uses all five vowels; words not limited to three vowel types."}
+{"case_id": "R1-bcf9b", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The response opens with an HTML <i>-italic sentence; every line is <i>-wrapped."}
+{"case_id": "R1-4347f", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "26 sentences start with A to Z in order (X via \"Xtraordinary\")."}
+{"case_id": "R1-85943", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Each item ends with emojis followed by a final period; pass if emoji at sentence end before punctuation counts, fail if the emoji must be last."}
+{"case_id": "R1-776a5", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Dozens of pronouns (They, We, It, their, them)."}
+{"case_id": "R1-62295", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Computed nesting reaches depth 5, e.g. ( ( [ [ [ in the second parenthetical."}
+{"case_id": "R1-21583", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has 32 sentences; \"fleetness\" appears only in sentence 32."}
+{"case_id": "R1-5aad1", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Outer double quote contains single-quoted clause containing a double-quoted formula: three alternating levels."}
+{"case_id": "R1-7175f", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Six * bullets, each followed by a \"- -\" sub-bullet line."}
+{"case_id": "R1-e9b4e", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Longest alliterative runs per sentence: 1, 2, 4, 4, 6, 6, 3, 5; not strictly increasing."}
+{"case_id": "R1-2a28f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with - sub-bullets."}
+{"case_id": "R1-761ee", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only \"and\" and \"or\" act as coordinators; \"for\" appears as a preposition."}
+{"case_id": "R1-43664", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Parentheses nest well beyond five levels (computed depth 13), though some are mismatched."}
+{"case_id": "R1-6e31d", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each * bullet is followed by - or \"- -\" sub-bullets."}
+{"case_id": "R1-20f38", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Degenerate list: Yemen (not African) repeated, placeholder letters, and \"Togo\" repeated hundreds of times; most countries missing."}
+{"case_id": "R1-b4023", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "No numerals at all; number words (one, First through Seventh) total eight, not seven."}
+{"case_id": "R1-71973", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-dd7c3", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "49 unique words outside LaTeX; reaching 55 needs counting LaTeX commands as words (63+ then)."}
+{"case_id": "R1-61848", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Several period-ending sentences followed by two * bullets."}
+{"case_id": "R1-b61fc", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Three * bullets, each with two - sub-bullets."}
+{"case_id": "R1-51acf", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths 201, 170, 187 characters; not equal."}
+{"case_id": "R1-90ff1", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is \"I don't know\" one word per line, no explanation."}
+{"case_id": "R1-80fd8", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Six * bullets, each with - sub-bullets."}
+{"case_id": "R1-18ea4", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"the\" appears 21 times, \"a\" 17 times; far over 4."}
+{"case_id": "R1-73298", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Items are separated by SEPARATOR lines instead of bullets."}
+{"case_id": "R1-33200", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Coordinators and, or, but used; \"for\" appears only as a preposition. 3 true, 4 if word forms count."}
+{"case_id": "R1-314a5", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Six * bullets, each with two - sub-bullets."}
+{"case_id": "R1-dd6a5", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Against the prompt, overlap 1.8% (response basis) or 6.7% (reference basis); outside 9-13%."}
+{"case_id": "R1-2e3c4", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "The single quoted statement is followed by unquoted explanation (\"is not true for every...\")."}
+{"case_id": "R1-b595b", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Entirely Japanese text with no spaces (1 whitespace token); vacuous by whitespace count, and nearly every segmented word is Japanese."}
+{"case_id": "R1-f3200", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only declarative sentences; no questions or exclamations."}
+{"case_id": "R1-59f0b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only and, or, but appear as coordinating conjunctions; \"by\", \"to\", \"while\" are not."}
+{"case_id": "R1-9feb6", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Header plus 14 comma-delimited rows; \"Brand, Inc.\" field is enclosed in double quotes."}
+{"case_id": "R1-66c48", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Maximum repetition is 2 (a, face)."}
+{"case_id": "R1-76766", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "One paragraph with no stair-step indentation."}
+{"case_id": "R1-75ca4", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "No brackets, em dash or ellipsis, and no standalone ! outside the interrobang."}
+{"case_id": "R1-2173e", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Entirely Japanese text without spaces (2 whitespace tokens); vacuous by whitespace count, and segmented words are almost all Japanese."}
+{"case_id": "R1-287be", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Uses \"!?!\" (17 times), never \"!?!?\", inside prose paragraphs rather than as list markers."}
+{"case_id": "R1-cc71f", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Template broken: \"My Conclusion\" appears twice."}
+{"case_id": "R1-da3a5", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Many adjacent same-initial pairs, e.g. \"free-boundary flow\", \"Combination Condition\", \"Solution System\"."}
+{"case_id": "R1-d5fa6", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The story (one section) opens with an <i>-italic thesis sentence; following <p> paragraphs continue it."}
+{"case_id": "R1-3b540", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Against the prompt passage, trigram overlap 6.8% (response basis) or 5.2% (reference basis); both within 4-8%."}
+{"case_id": "R1-2cf07", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two * bullets, each with - sub-bullets."}
+{"case_id": "R1-ef768", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Both sentences peak at four consecutive alliterative words; the second is not longer."}
+{"case_id": "R1-354cb", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Third paragraph nests double, then single, then double (\"Verily ...\") quotes: three alternating levels."}
+{"case_id": "R1-78174", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Sentence 7 (the \"For example\" sentence) contains \"giraffe\"."}
+{"case_id": "R1-d2e08", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Used as conjunctions: and, but; \"for\" only prepositional. \"or\" and \"yet\" appear only in a listed mention. Pass only if mentions count."}
+{"case_id": "R1-31640", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Opening full quotation has no following explanation, and \"Dune\" quotes end sentences without explanation."}
+{"case_id": "R1-6f93a", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Only quoted phrase \"receptive field\" is followed by unquoted text continuing the sentence; fail if the following text must explain the phrase itself."}
+{"case_id": "R1-95b00", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "One * bullet with several - sub-bullets."}
+{"case_id": "R1-ea6bd", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Outer double quote contains single-quoted clause containing a curly double-quoted sentence: three alternating levels."}
+{"case_id": "R1-a0396", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Keyword \"malabathrum\" never appears."}
+{"case_id": "R1-28203", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Six * bullets, each followed by two - sub-bullets."}
+{"case_id": "R1-1ed33", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Opening words \"In the\" are both one syllable; no odd/even alternation."}
+{"case_id": "R1-91b45", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of ten one-sentence items ends with emojis."}
+{"case_id": "R1-d4ed9", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with two \"- -\" sub-bullets."}
+{"case_id": "R1-3e70b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only the final line uses !?!?; the body uses numbered items and - bullets."}
+{"case_id": "R1-44f64", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Text lines are indented 0, 2, 4, 6, 8, 10, 12 spaces in turn (blank separator lines between)."}
+{"case_id": "R1-6657b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths 135, 168, 147 characters; words such as \"and\" repeat."}
+{"case_id": "R1-bfb44", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Many period-ending sentences followed by two * bullets."}
+{"case_id": "R1-94acd", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of three sentences ends with an emoji after its punctuation."}
+{"case_id": "R1-4b648", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two * bullets, each with a - sub-bullet."}
+{"case_id": "R1-d3610", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two * bullets, each with - sub-bullets."}
+{"case_id": "R1-5825a", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "142 unique words computed, above 128."}
+{"case_id": "R1-5e436", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is \"I know\" (one word per line), no explanation."}
+{"case_id": "R1-18c82", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only single-level double quotes; no nesting at all."}
+{"case_id": "R1-6159a", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Entire response is Japanese with no spaces (1 whitespace token); vacuous by whitespace count, and every segmented word is Japanese."}
+{"case_id": "R1-af8f4", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences followed by two * bullet points."}
+{"case_id": "R1-31df0", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No question mark, exclamation, interrobang or quotation marks; response is cut off."}
+{"case_id": "R1-44c72", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only \"and\" and \"or\" act as coordinating conjunctions; \"For instance\" is prepositional."}
+{"case_id": "R1-81806", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Distinct 5+ letter palindromes: level, racecar, madam, rotor, kayak, hannah, refer, civic, radar = 9; 10+ only by counting repeats across both lists."}
+{"case_id": "R1-be930", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "About 11 personal pronouns plus ~5 relative pronouns (which, who); roughly 16, below 22."}
+{"case_id": "R1-fccd9", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Second word is \"Prompt\"/\"Generator\", not \"vibrant\"; second-to-last word is \"space-time\"/\"fabric\", not \"vibrant\"."}
+{"case_id": "R1-6db4c", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two declarative sentences and one interrogative: 2:1."}
+{"case_id": "R1-8d67c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Many words lack a consonant cluster, e.g. \"I\", \"to\", \"set\", \"on\"."}
+{"case_id": "R1-ab7eb", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Top-level bullets use -, not *; asterisks only mark italics."}
+{"case_id": "R1-22eec", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-7df26", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is a list with each item starting with -."}
+{"case_id": "R1-0a7b4", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header and three rows, tab-separated, every field in double quotes."}
+{"case_id": "R1-7c2eb", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Entire response is Japanese with no spaces (1 whitespace token); vacuous by whitespace count, and all segmented words are Japanese."}
+{"case_id": "R1-71081", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is exactly \"no\" with no whitespace."}
+{"case_id": "R1-b25e4", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence word counts (about 3, 5, 5, 6...) do not grow by 4 each time."}
+{"case_id": "R1-8aa45", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Whitespace tokens 17 and 34 are English (\"speak\", \"has\")."}
+{"case_id": "R1-e24d7", "verdict": "fail", "lean": "fail", "confidence": "low", "reason": "Against the prompt, overlap 13.5% of response trigrams (just above 13%) or 28.9% of reference trigrams."}
+{"case_id": "R1-78b51", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Nine * bullets, each followed by - sub-bullets."}
+{"case_id": "R1-5cd39", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only declarative sentences; no questions or exclamations."}
+{"case_id": "R1-55dd1", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Quotes are never nested; \"triple-level\" examples are single-level quotes."}
+{"case_id": "R1-e14de", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-5ab83", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of ten one-sentence items ends with emojis."}
+{"case_id": "R1-35ef5", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <em>-italic thesis sentence."}
+{"case_id": "R1-934f9", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words do not follow the alphabet (\"A bizarre breeze blew\" = A, B, B, B)."}
+{"case_id": "R1-098a9", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Exactly 36 numerals appear: list markers 1 through 36, no other numbers."}
+{"case_id": "R1-e3130", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Has . , ; : ? ! ?! quotes apostrophe parentheses, but no hyphen or dash, brackets or ellipsis."}
+{"case_id": "R1-63401", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Coordinators used: and, or, yet (3); \"for\" only as a preposition. Pass only if \"for\" word forms count."}
+{"case_id": "R1-82170", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with one - sub-bullet."}
+{"case_id": "R1-94a90", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words like \"a\", \"is\", \"set\", \"up\" lack a consonant cluster."}
+{"case_id": "R1-b9705", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <em>-italic statement of the claim to be proved."}
+{"case_id": "R1-6a0b0", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "The response opens with non-italic text; italics start mid-line, and several sections begin with plain text."}
+{"case_id": "R1-faff0", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"To\" (1) and \"alternate\" (3) are consecutive odd-syllable words."}
+{"case_id": "R1-3f8c9", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has 77 words, above 61."}
+{"case_id": "R1-faf3e", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Gives the normal-order sentence first, then a reversed version; passes only if adding the forward sentence is acceptable."}
+{"case_id": "R1-46e8a", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Explore\"."}
+{"case_id": "R1-3243a", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with one - sub-bullet."}
+{"case_id": "R1-86e23", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Counts: door 3, bread 7, blue 50, lamp 1 (7 with lamps), river 7; door, bread, blue wrong."}
+{"case_id": "R1-e200b", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Text is entirely Japanese; the only 5th whitespace token is Japanese, and segmented words are Japanese."}
+{"case_id": "R1-6b33c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"I\" (1), \"desire\" (6), \"ignite\" (6) have non-prime lengths."}
+{"case_id": "R1-bcab0", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Nesting is double then single then single again; no double at the third level."}
+{"case_id": "R1-41866", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "No em dash, ellipsis or braces; ! appears only within interrobangs."}
+{"case_id": "R1-442ca", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Items separated by SEPARATOR lines."}
+{"case_id": "R1-45bb6", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four period-ending sentences followed by two * bullets."}
+{"case_id": "R1-9e4e5", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Two period-ending sentences (first sentence and the \"where...\" line) precede two * bullets."}
+{"case_id": "R1-3d6bd", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "One paragraph, no incremental indentation."}
+{"case_id": "R1-e1091", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <em>-italic thesis sentence."}
+{"case_id": "R1-0c3ea", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response opens with an <i>-italic thesis; the following <p> lines are sentences of the same section."}
+{"case_id": "R1-e4a3b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence lengths 99, 83, 90 characters; \"medieval\" and \"Europe\" repeat."}
+{"case_id": "R1-07c81", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Seven * bullets, each with two - sub-bullets."}
+{"case_id": "R1-14cc8", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences precede three * bullets."}
+{"case_id": "R1-3973b", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "First item: sentence ends \"trees\", next begins \"Entire\"; the chain breaks throughout."}
+{"case_id": "R1-e9fc5", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response begins with the imperative verb \"Understand.\""}
+{"case_id": "R1-eff13", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Uses \"!?!\" inside running prose, never \"!?!?\" list markers."}
+{"case_id": "R1-0370a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Valid distinct 5+ letter palindromes: level, madam, racecar, rotor, sagas, repaper, redder = 7; \"Deed\" is 4 letters and \"Reveneer\" is not a palindrome."}
+{"case_id": "R1-cbb15", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only two numerals (\"1960s\", \"13\"); far from 13 numbers."}
+{"case_id": "R1-3c7f8", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Period-ending sentences followed by two * bullets."}
+{"case_id": "R1-d2715", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Used as conjunctions: and, but; \"yet\" and \"so\" only mentioned in quotes. Pass only if mentions count."}
+{"case_id": "R1-42340", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words like \"in\", \"on\", \"to\" lack consonant clusters."}
+{"case_id": "R1-8fcb2", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Coordinators used: and, or, yet (3); \"for\" only as a preposition. Pass only if counting \"for\"."}
+{"case_id": "R1-a552d", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Repeats the request verbatim with first word \"The\" changed to \"A\", nothing before, no answer."}
+{"case_id": "R1-34def", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-b5834", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response opens with an <i>-italic thesis sentence; one continuous section."}
+{"case_id": "R1-6a595", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header with five named columns and seven comma-delimited rows."}
+{"case_id": "R1-99fa1", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "One paragraph, no incremental indentation."}
+{"case_id": "R1-cbdf0", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Coordinators used: and, or, but (3); \"for\" only as a preposition. Pass only if counting \"for\"."}
+{"case_id": "R1-f08cf", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Gives a long answer and a wrong span (the whole sentence), not words 10-12 alone."}
+{"case_id": "R1-28c6b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header and three rows, tab-separated, all fields in double quotes."}
+{"case_id": "R1-862db", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Word counts 1, 2, 5... do not grow by exactly one."}
+{"case_id": "R1-cfd07", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Thesis marked with a markdown asterisk; the later <i> tag wraps only \"Thesis:\" as an example."}
+{"case_id": "R1-2c012", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response has 93 whitespace-separated words, within 81-93."}
+{"case_id": "R1-be132", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Eight one-sentence lines; the 8th contains \"fleetness\"."}
+{"case_id": "R1-bfbfd", "verdict": "ambiguous", "lean": "fail", "confidence": "low", "reason": "\"fleetness\" falls in sentence 9 if the colon-ended intro line counts as its own sentence (most natural), sentence 8 if it merges with the next."}
+{"case_id": "R1-ecb35", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "No \"?!\" interrobang (only \"!?\"), and no brackets or ellipsis."}
+{"case_id": "R1-9593a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"sprint\" (6), \"glitch\" (6), \"fling\" ok but \"sync\"/\"tick\"/\"snap\"/\"spin\" are 4 letters; non-prime lengths."}
+{"case_id": "R1-bc0c0", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Uses literal \"\t\" text instead of tab characters, and gives only two data rows."}
+{"case_id": "R1-baf34", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "The 4th sentence (\"In this cactiform landscape...\") contains the keyword."}
+{"case_id": "R1-9a376", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No SEPARATOR used; uses numbered items and - bullets."}
+{"case_id": "R1-e4820", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Written in all caps (including minor words), with stray lowercase; not title case."}
+{"case_id": "R1-7f3e8", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response is cut off before any nested quotes appear; no three-level quotes."}
+{"case_id": "R1-55b8f", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of five sections begins with an <i>-italic thesis sentence."}
+{"case_id": "R1-0ec0a", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only one period-ending sentence precedes the bullets."}
+{"case_id": "R1-dcf8c", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Six * bullets, each with - sub-bullets."}
+{"case_id": "R1-43e11", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with one - sub-bullet."}
+{"case_id": "R1-8acde", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words such as \"a\", \"as\", \"on\" lack consonant clusters."}
+{"case_id": "R1-2a73d", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each followed by two - sub-bullets."}
+{"case_id": "R1-1d3da", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Maximum bracket nesting depth is 1."}
+{"case_id": "R1-a4c56", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with two - sub-bullets."}
+{"case_id": "R1-e6813", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All seven sentences end with an emoji."}
+{"case_id": "R1-6d119", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is just \"yes\"."}
+{"case_id": "R1-324e7", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has 70 words, outside 71-73."}
+{"case_id": "R1-553fb", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Imagine\"."}
+{"case_id": "R1-69dbd", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Against the prompt, overlap 3.8% (response basis) or 22.2% (reference basis); neither within 9-13%."}
+{"case_id": "R1-86273", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <i>-tagged thesis statement."}
+{"case_id": "R1-4e4a7", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only - bullets used; no * bullets."}
+{"case_id": "R1-d3c85", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header and three rows, real tab separators, every field in double quotes."}
+{"case_id": "R1-d9988", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with - sub-bullets."}
+{"case_id": "R1-c1b4f", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Thesis lines use markdown asterisks for italics, not HTML tags."}
+{"case_id": "R1-d79b2", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Explore\"."}
+{"case_id": "R1-e767c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraph uses all five vowels (e.g. \"guide us\", \"humans\"); not limited to three."}
+{"case_id": "R1-37533", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response is normal prose full of spaces."}
+{"case_id": "R1-928c1", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Response is just \"d)\" with no explanation."}
+{"case_id": "R1-a64a7", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No nested brackets; parentheses barely used, nowhere near five levels."}
+{"case_id": "R1-ecae2", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Imagine\"."}
+{"case_id": "R1-b08fd", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "One paragraph with no incremental indentation."}
+{"case_id": "R1-eae88", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Nine one-sentence lines; the 8th begins \"Fleetness in the extraction process\"."}
+{"case_id": "R1-08df6", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each followed by a - sub-bullet."}
+{"case_id": "R1-2b56c", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Header with five named columns and seven comma-delimited rows."}
+{"case_id": "R1-9df7e", "verdict": "ambiguous", "lean": "fail", "confidence": "low", "reason": "Top-level items use \"-\"; asterisks appear as \"* -\" lines beneath them, so * bullets have no separate - sub-bullets. Pass only if \"* -\" counts as both."}
+{"case_id": "R1-6504e", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Imagine\"."}
+{"case_id": "R1-f2d15", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with - sub-bullets."}
+{"case_id": "R1-74709", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has only about three sentences; no 25th sentence."}
+{"case_id": "R1-3b636", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Several period-ending sentences followed by two * bullets."}
+{"case_id": "R1-6ad59", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Every sentence is followed by an emoji."}
+{"case_id": "R1-d7c16", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Paragraph uses a, e, i, o and u (e.g. \"upon\", \"noticed\"); not three vowel types."}
+{"case_id": "R1-0ff71", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each with two - sub-bullets."}
+{"case_id": "R1-7dc15", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "125 unique words computed, below 135."}
+{"case_id": "R1-187a5", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Each of five * bullets is followed by - sub-bullets (some unindented)."}
+{"case_id": "R1-e4722", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences followed by two * bullets."}
+{"case_id": "R1-31e7b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of four sections begins with an <em>-italic thesis."}
+{"case_id": "R1-c4aa8", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response contains exactly three numbers: 42, 3, 5."}
+{"case_id": "R1-fb4a5", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "\"trichosis\" appears around sentences 29 and 48; the 22nd sentence (\"Its bell expanded...\") lacks it."}
+{"case_id": "R1-49439", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Mixed brackets nest well past five levels (computed depth 9), though some are mismatched."}
+{"case_id": "R1-8908a", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Entirely Japanese; only 9 whitespace tokens so no 25th token exists, and segmented words are all Japanese. Vacuous under whitespace counting."}
+{"case_id": "R1-c5429", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "\"My Answer:\" appears twice with a long derivation between; not the exact template."}
+{"case_id": "R1-3b155", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "\"fleetness\" is in sentence 8 if the colon-ended \"Here's a revised version:\" counts as a sentence; sentence 7 if merged with the next."}
+{"case_id": "R1-776c2", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Opening string nests ( ( ( ( [ ( { { : eight levels (closing braces slightly mismatched)."}
+{"case_id": "R1-55b92", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "First sentence starts with \"Once\", not A; also an extra 27th sentence starting \"And\"."}
+{"case_id": "R1-14449", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Prose with \"-.\" separators inside running text, not a list of items marked by -."}
+{"case_id": "R1-71e3c", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <i>-italic thesis sentence."}
+{"case_id": "R1-62ead", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Sections follow My Answer, My Conclusion, Future Outlook in order (labels bolded, content multi-paragraph)."}
+{"case_id": "R1-b4cf7", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Whitespace tokens 5 through 30 are English; only later tokens are Japanese."}
+{"case_id": "R1-c97b5", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Eight * bullets, each with two - sub-bullets."}
+{"case_id": "R1-ed475", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Nine * bullets, each followed by - sub-bullets."}
+{"case_id": "R1-0fcde", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Response has 236 whitespace-separated words, within 231-239."}
+{"case_id": "R1-b906e", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "No quotation marks in the response; vacuously satisfied, fails if quoted phrases are expected."}
+{"case_id": "R1-4873e", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences followed by three * bullets."}
+{"case_id": "R1-98552", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Words do not follow the alphabet (\"Absolutely, both the theme\" = A, B, T, T)."}
+{"case_id": "R1-409bf", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Explore\"."}
+{"case_id": "R1-6eabc", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Five decimals listed plus list numerals 1-5: ten numbers, not five."}
+{"case_id": "R1-2c18b", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of ten one-sentence items ends with an emoji."}
+{"case_id": "R1-a0082", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Line lengths 53, 52, 53 characters; not all equal."}
+{"case_id": "R1-d439d", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Each sentence has an emoji right before its final period; pass if that counts as the end, fail if the emoji must be last."}
+{"case_id": "R1-47b90", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only single-level parentheses; no nesting."}
+{"case_id": "R1-a5554", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All 15 transitions checked: each sentence starts with the prior sentence's last word."}
+{"case_id": "R1-5a9eb", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "All 50 listed names appear, well over 14."}
+{"case_id": "R1-67436", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Every 5th whitespace token (5, 10, ... 30) is Japanese; the text is mostly Japanese."}
+{"case_id": "R1-fe865", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "The opening sentence ends with a colon and no emoji; emojis also sit inside the closing quotes."}
+{"case_id": "R1-74bb1", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No parentheses, brackets or braces at all."}
+{"case_id": "R1-9e58b", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "No reference text given; against the prompt, overlap 2.2% (response basis) or 6.9% (reference basis), outside 9-13%."}
+{"case_id": "R1-4a2db", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "26 sentences whose first words run A through Z in order."}
+{"case_id": "R1-b2672", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only and, or (plus \"yet\" as an adverb): at most 3 forms, below 4."}
+{"case_id": "R1-bb09d", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "Against the prompt passage, overlap 6.4% (response basis) or 5.2% (reference basis); both within 4-8%."}
+{"case_id": "R1-0832c", "verdict": "ambiguous", "lean": "pass", "confidence": "low", "reason": "Entire response is Japanese with no spaces (1 whitespace token); vacuous by whitespace count, and all segmented words are Japanese."}
+{"case_id": "R1-d6fcf", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Sentence word counts (about 20, 9, 16...) do not grow by 4."}
+{"case_id": "R1-5b305", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two * bullets, each with \"- -\" sub-bullets."}
+{"case_id": "R1-6c5ca", "verdict": "ambiguous", "lean": "fail", "confidence": "low", "reason": "Against the prompt, overlap is 2.5% of response trigrams (fail) but 10.3% of reference trigrams (pass)."}
+{"case_id": "R1-c1faf", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Many words have non-prime lengths, e.g. \"sentence\" (8), \"describes\" (9)."}
+{"case_id": "R1-bd050", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "\"Future Outlook:\" label is duplicated; not the exact template."}
+{"case_id": "R1-fa5c3", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of five paragraphs starts and ends with the same word (example, open, infinite, closed, topology)."}
+{"case_id": "R1-96463", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences precede the * bullets."}
+{"case_id": "R1-7fda5", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Zero trigrams shared with the prompt text; far from 11%."}
+{"case_id": "R1-8d3cd", "verdict": "fail", "lean": "fail", "confidence": "medium", "reason": "Starts with \"Understanding.\", a gerund used as a noun fragment, not a verb."}
+{"case_id": "R1-33544", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Every whitespace-separated word sits on its own line."}
+{"case_id": "R1-be88f", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Distinct 5+ letter palindromes: madam, level, civic, radar, refer, rotor = 6; reaching 10 needs counting repeats."}
+{"case_id": "R1-28329", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Five * bullets, each followed by a - sub-bullet."}
+{"case_id": "R1-1f6e3", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Response has 117 words, far above 28."}
+{"case_id": "R1-a9ce6", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Each of five sections begins with an <i>-italic thesis paragraph."}
+{"case_id": "R1-31f6c", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "No parentheses, dashes, hyphens, brackets or ellipsis."}
+{"case_id": "R1-e3460", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Only one level of quotation; q\" marks are symbols, not nested quotes."}
+{"case_id": "R1-b0708", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Four * bullets, each with two - sub-bullets."}
+{"case_id": "R1-976eb", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "The single section opens with an <em>-italic thesis statement."}
+{"case_id": "R1-af9c1", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Thesis sentences use markdown underscores, not HTML; <i> wraps only the party name."}
+{"case_id": "R1-507cf", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"Autonomic\" (9), \"System\" (6), \"Organs\" (6) have non-prime lengths."}
+{"case_id": "R1-d708e", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Two period-ending sentences followed by three * bullets."}
+{"case_id": "R1-7a2ad", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "\"Certainly\" (3) and \"a\" (1) are consecutive odd-syllable words."}
+{"case_id": "R1-dce5f", "verdict": "ambiguous", "lean": "fail", "confidence": "medium", "reason": "Used as conjunctions: and, but; \"so\" and \"yet\" only mentioned in quotes. Pass only if mentions count."}
+{"case_id": "R1-854c2", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Many lines hold several words (e.g. \"into the heart\")."}
+{"case_id": "R1-774c8", "verdict": "pass", "lean": "pass", "confidence": "high", "reason": "Starts with the verb \"Conceive\"."}
+{"case_id": "R1-d9528", "verdict": "pass", "lean": "pass", "confidence": "medium", "reason": "One declarative, one interrogative, one exclamatory sentence: balanced 1:1:1."}
+{"case_id": "R1-b3b66", "verdict": "fail", "lean": "fail", "confidence": "high", "reason": "Mostly prose; items still use - bullets, with SEPARATOR appearing only twice as a divider."}

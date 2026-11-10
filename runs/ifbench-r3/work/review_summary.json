@@ -1,0 +1,657 @@
+{
+ "kappa_leans": 0.9388739537455434,
+ "lean_agreement": 0.9694323144104804,
+ "ambiguous": {
+  "A": 54,
+  "B": 71
+ },
+ "ambiguous_either": 88,
+ "consensus_cases": 444,
+ "definite_cases": 370,
+ "weights": {
+  "S1a": 0.045854732208363905,
+  "S1b": 0.03301540719002201,
+  "S2": 0.0005502567865003668,
+  "S3": 0.9205796038151137
+ },
+ "estimates": {
+  "consensus": {
+   "grader": {
+    "rate": 0.07223389679729286,
+    "ci95": [
+     0.058679383712399114,
+     0.09146680807467639
+    ]
+   },
+   "grader_loose": {
+    "rate": 0.07768969966245128,
+    "ci95": [
+     0.05438577420116313,
+     0.10699835256759949
+    ]
+   },
+   "reference": {
+    "rate": 0.06972545643957193,
+    "ci95": [
+     0.056154090015669865,
+     0.08889008780057164
+    ]
+   },
+   "reference_loose": {
+    "rate": 0.07544751258852084,
+    "ci95": [
+     0.05217209803393482,
+     0.10470391193105305
+    ]
+   },
+   "replacement": {
+    "rate": 0.03024084782712161,
+    "ci95": [
+     0.01680665323142361,
+     0.04925538669100432
+    ]
+   },
+   "paired_grader_minus_replacement": {
+    "diff": 0.041993048970171254,
+    "ci95": [
+     0.034668983989730985,
+     0.04907189616175369
+    ]
+   }
+  },
+  "definite": {
+   "grader": {
+    "rate": 0.06939971517460619,
+    "ci95": [
+     0.060086064854957,
+     0.08452589845140354
+    ]
+   },
+   "grader_loose": {
+    "rate": 0.07446987913950928,
+    "ci95": [
+     0.05364127348941527,
+     0.10042453009785132
+    ]
+   },
+   "reference": {
+    "rate": 0.0675328895733712,
+    "ci95": [
+     0.05789546451487214,
+     0.08237351350659228
+    ]
+   },
+   "reference_loose": {
+    "rate": 0.07316741947314645,
+    "ci95": [
+     0.05194021597815105,
+     0.099082513015878
+    ]
+   },
+   "replacement": {
+    "rate": 0.021504144535088386,
+    "ci95": [
+     0.012373419647730453,
+     0.03631623296965107
+    ]
+   },
+   "paired_grader_minus_replacement": {
+    "diff": 0.047895570639517805,
+    "ci95": [
+     0.03927301996595174,
+     0.05621803214188434
+    ]
+   }
+  }
+ },
+ "per_stratum": {
+  "S1a": {
+   "sample": 170,
+   "consensus": 161,
+   "grader": 0.6211180124223602,
+   "grader_loose": 0.6211180124223602,
+   "reference": 0.577639751552795,
+   "reference_loose": 0.577639751552795,
+   "replacement": 0.37888198757763975
+  },
+  "S1b": {
+   "sample": 125,
+   "consensus": 124,
+   "grader": 0.967741935483871,
+   "grader_loose": 0.5967741935483871,
+   "reference": 0.9354838709677419,
+   "reference_loose": 0.5725806451612904,
+   "replacement": 0.03225806451612903
+  },
+  "S3": {
+   "sample": 160,
+   "consensus": 156,
+   "grader": 0.01282051282051282,
+   "grader_loose": 0.03205128205128205,
+   "reference": 0.01282051282051282,
+   "reference_loose": 0.03205128205128205,
+   "replacement": 0.01282051282051282
+  },
+  "S2": {
+   "sample": 3,
+   "consensus": 3,
+   "grader": 0.0,
+   "grader_loose": 0.0,
+   "reference": 1.0,
+   "reference_loose": 1.0,
+   "replacement": 0.0
+  }
+ },
+ "per_check": {
+  "count:conjunctions": {
+   "n": 18,
+   "grader": 18,
+   "replacement": 0
+  },
+  "count:keywords_multiple": {
+   "n": 3,
+   "grader": 0,
+   "replacement": 0
+  },
+  "count:numbers": {
+   "n": 7,
+   "grader": 0,
+   "replacement": 1
+  },
+  "count:person_names": {
+   "n": 2,
+   "grader": 0,
+   "replacement": 0
+  },
+  "count:pronouns": {
+   "n": 6,
+   "grader": 3,
+   "replacement": 0
+  },
+  "count:punctuation": {
+   "n": 8,
+   "grader": 6,
+   "replacement": 1
+  },
+  "count:unique_word_count": {
+   "n": 4,
+   "grader": 0,
+   "replacement": 0
+  },
+  "count:word_count_range": {
+   "n": 9,
+   "grader": 6,
+   "replacement": 0
+  },
+  "count:words_japanese": {
+   "n": 11,
+   "grader": 0,
+   "replacement": 8
+  },
+  "custom:csv_city": {
+   "n": 4,
+   "grader": 4,
+   "replacement": 0
+  },
+  "custom:csv_quotes": {
+   "n": 4,
+   "grader": 3,
+   "replacement": 0
+  },
+  "custom:csv_special_character": {
+   "n": 1,
+   "grader": 0,
+   "replacement": 1
+  },
+  "custom:date_format_list": {
+   "n": 1,
+   "grader": 1,
+   "replacement": 1
+  },
+  "custom:mcq_count_length": {
+   "n": 3,
+   "grader": 3,
+   "replacement": 0
+  },
+  "custom:reverse_newline": {
+   "n": 1,
+   "grader": 1,
+   "replacement": 0
+  },
+  "custom:sentence_alphabet": {
+   "n": 4,
+   "grader": 3,
+   "replacement": 0
+  },
+  "custom:word_reverse": {
+   "n": 1,
+   "grader": 1,
+   "replacement": 0
+  },
+  "format:emoji": {
+   "n": 14,
+   "grader": 8,
+   "replacement": 2
+  },
+  "format:line_indent": {
+   "n": 11,
+   "grader": 8,
+   "replacement": 0
+  },
+  "format:list": {
+   "n": 10,
+   "grader": 2,
+   "replacement": 0
+  },
+  "format:newline": {
+   "n": 3,
+   "grader": 0,
+   "replacement": 0
+  },
+  "format:no_bullets_bullets": {
+   "n": 25,
+   "grader": 23,
+   "replacement": 0
+  },
+  "format:no_whitespace": {
+   "n": 3,
+   "grader": 0,
+   "replacement": 0
+  },
+  "format:options": {
+   "n": 7,
+   "grader": 4,
+   "replacement": 0
+  },
+  "format:output_template": {
+   "n": 7,
+   "grader": 5,
+   "replacement": 0
+  },
+  "format:parentheses": {
+   "n": 12,
+   "grader": 1,
+   "replacement": 6
+  },
+  "format:quote_unquote": {
+   "n": 17,
+   "grader": 3,
+   "replacement": 13
+  },
+  "format:quotes": {
+   "n": 24,
+   "grader": 18,
+   "replacement": 3
+  },
+  "format:sub-bullets": {
+   "n": 54,
+   "grader": 41,
+   "replacement": 11
+  },
+  "format:thesis": {
+   "n": 28,
+   "grader": 5,
+   "replacement": 19
+  },
+  "format:title_case": {
+   "n": 2,
+   "grader": 0,
+   "replacement": 0
+  },
+  "ratio:overlap": {
+   "n": 16,
+   "grader": 12,
+   "replacement": 0
+  },
+  "ratio:sentence_balance": {
+   "n": 6,
+   "grader": 1,
+   "replacement": 0
+  },
+  "ratio:sentence_type": {
+   "n": 4,
+   "grader": 2,
+   "replacement": 0
+  },
+  "ratio:sentence_words": {
+   "n": 7,
+   "grader": 0,
+   "replacement": 0
+  },
+  "ratio:stop_words": {
+   "n": 2,
+   "grader": 0,
+   "replacement": 0
+  },
+  "repeat:repeat_change": {
+   "n": 1,
+   "grader": 0,
+   "replacement": 0
+  },
+  "repeat:repeat_span": {
+   "n": 1,
+   "grader": 0,
+   "replacement": 0
+  },
+  "sentence:alliteration_increment": {
+   "n": 8,
+   "grader": 5,
+   "replacement": 0
+  },
+  "sentence:increment": {
+   "n": 6,
+   "grader": 1,
+   "replacement": 0
+  },
+  "sentence:keyword": {
+   "n": 15,
+   "grader": 4,
+   "replacement": 1
+  },
+  "words:alphabet": {
+   "n": 4,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:consonants": {
+   "n": 10,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:keywords_specific_position": {
+   "n": 3,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:last_first": {
+   "n": 4,
+   "grader": 2,
+   "replacement": 0
+  },
+  "words:no_consecutive": {
+   "n": 4,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:odd_even_syllables": {
+   "n": 4,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:palindrome": {
+   "n": 8,
+   "grader": 7,
+   "replacement": 0
+  },
+  "words:paragraph_last_first": {
+   "n": 4,
+   "grader": 3,
+   "replacement": 0
+  },
+  "words:prime_lengths": {
+   "n": 6,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:repeats": {
+   "n": 2,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:start_verb": {
+   "n": 18,
+   "grader": 18,
+   "replacement": 0
+  },
+  "words:vowel": {
+   "n": 6,
+   "grader": 0,
+   "replacement": 0
+  },
+  "words:words_position": {
+   "n": 1,
+   "grader": 0,
+   "replacement": 0
+  }
+ },
+ "disputed": [
+  {
+   "case_id": "R1-01ccd",
+   "check": "count:punctuation",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "Has . , ; : ? ?! quotes apostrophe dash parentheses, but no hyphen, ellipsis or brackets."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Has ; : , . ? quotes, apostrophe, em dash, parentheses and (?!); ! occurs only inside ?!, no hyphen or brackets. Pass if core marks suffice."
+   }
+  },
+  {
+   "case_id": "R1-0c405",
+   "check": "format:list",
+   "stratum": "S3",
+   "A": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "low",
+    "reason": "!?!? appears after each item in one paragraph, not as list markers; pass only if !?!? as item separators counts as a list."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Four items separated by trailing !?!? markers in one paragraph; pass if trailing separators count as replacing bullets."
+   }
+  },
+  {
+   "case_id": "R1-14449",
+   "check": "format:list",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "high",
+    "reason": "Prose with \"-.\" separators inside running text, not a list of items marked by -."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Items are sentences separated by '-.' markers in one paragraph; pass if trailing dash separators count as replacing bullets."
+   }
+  },
+  {
+   "case_id": "R1-16c2c",
+   "check": "count:punctuation",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "Has . , ; : ? ! ?! quotes parentheses hyphen, but no brackets, em dash or ellipsis."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Has . , ? ! ; : quotes, apostrophe, hyphen, parentheses and ?!; no brackets or ellipsis. Pass if core marks suffice."
+   }
+  },
+  {
+   "case_id": "R1-41866",
+   "check": "count:punctuation",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "No em dash, ellipsis or braces; ! appears only within interrobangs."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Has ; : , . ? ' \" ( ) [ ] - and both ?! and (!?); ! occurs only inside those, no ellipsis. Pass if core marks suffice."
+   }
+  },
+  {
+   "case_id": "R1-462f8",
+   "check": "count:unique_word_count",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "Only 33 unique Russian words; reaching 55 requires counting LaTeX commands and symbols as words (55 by \\w+ tokens, 59 by whitespace tokens)."
+   },
+   "B": {
+    "verdict": "pass",
+    "lean": "pass",
+    "confidence": "medium",
+    "reason": "About 59 unique whitespace tokens (55 by word-character split), at least 55."
+   }
+  },
+  {
+   "case_id": "R1-59bba",
+   "check": "custom:multiples",
+   "stratum": "S3",
+   "A": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "medium",
+    "reason": "Lists exactly 14, 21, 28, 35, 42, 49; but also adds explanation and code. Fails if \"only print\" forbids any other output."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "low",
+    "reason": "Lists 14-49 correctly, but also prints other numbers (10, 50, 51, 0) in text and code; pass if only the result list matters."
+   }
+  },
+  {
+   "case_id": "R1-6f93a",
+   "check": "format:quote_unquote",
+   "stratum": "S3",
+   "A": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Only quoted phrase \"receptive field\" is followed by unquoted text continuing the sentence; fail if the following text must explain the phrase itself."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "low",
+    "reason": "The only quoted phrase, receptive field, is explained before it; the text after it continues the sentence rather than explaining it."
+   }
+  },
+  {
+   "case_id": "R1-75ca4",
+   "check": "count:punctuation",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "No brackets, em dash or ellipsis, and no standalone ! outside the interrobang."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Has ; : ?! , . ' \" ( ) - & and the interrobang glyph; ? and ! occur only inside ?!, no brackets or ellipsis. Pass if core marks suffice."
+   }
+  },
+  {
+   "case_id": "R1-7e559",
+   "check": "count:conjunctions",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "pass",
+    "lean": "pass",
+    "confidence": "medium",
+    "reason": "Text contains and, but, or, so, for (mostly in the listed examples): five distinct coordinating conjunctions."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "low",
+    "reason": "Main text uses and, or; but and so appear only in a self-made 'conjunctions used' list; 'for' is prepositional. Word-list count gives 5, functional count 4."
+   }
+  },
+  {
+   "case_id": "R1-8040f",
+   "check": "count:punctuation",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "Has ; : (?!) quotes brackets parentheses hyphen, but no standalone ! or ?, no ellipsis, no braces or em dash."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Has . , ; : ( ) [ ] quotes apostrophe hyphen and (?!); ! and ? appear only inside ?!, no ellipsis or em dash. Pass if core marks suffice."
+   }
+  },
+  {
+   "case_id": "R1-d86c8",
+   "check": "format:sub-bullets",
+   "stratum": "S1a",
+   "A": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Top lines are \"- *\" items with \"- -\" sub-items; pass if \"- *\" counts as a * bullet, fail if top-level marker is \"-\"."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "low",
+    "reason": "Top-level items are marked '- *' (dash first), sub-items '- -'. Fail if bullets must be marked by *; pass if the asterisk after the dash counts."
+   }
+  },
+  {
+   "case_id": "R1-dd7c3",
+   "check": "count:unique_word_count",
+   "stratum": "S3",
+   "A": {
+    "verdict": "ambiguous",
+    "lean": "fail",
+    "confidence": "medium",
+    "reason": "49 unique words outside LaTeX; reaching 55 needs counting LaTeX commands as words (63+ then)."
+   },
+   "B": {
+    "verdict": "pass",
+    "lean": "pass",
+    "confidence": "medium",
+    "reason": "About 87-125 unique tokens depending on tokenization, above 55."
+   }
+  },
+  {
+   "case_id": "R1-e4820",
+   "check": "format:title_case",
+   "stratum": "S1b",
+   "A": {
+    "verdict": "fail",
+    "lean": "fail",
+    "confidence": "high",
+    "reason": "Written in all caps (including minor words), with stray lowercase; not title case."
+   },
+   "B": {
+    "verdict": "ambiguous",
+    "lean": "pass",
+    "confidence": "low",
+    "reason": "Written in all caps: every major word's first letter is capitalized per the stated definition, but it is not conventional title case."
+   }
+  }
+ ]
+}

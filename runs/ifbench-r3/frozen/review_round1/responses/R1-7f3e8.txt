@@ -1,0 +1,100 @@
+Let's tackle the problem step by step, while also addressing the formatting requirement of **quotes within quotes within quotes**, alternating between **double** and **single** quotes. We'll include a 3-level quote structure as requested at the end.
+
+---
+
+### **(a) No restrictions**
+
+We are to find the number of non-negative integer solutions to the equation:
+
+$$
+x_1 + x_2 + x_3 + x_4 = 20
+$$
+
+This is a classic **stars and bars** problem. The formula for the number of non-negative integer solutions to:
+
+$$
+x_1 + x_2 + \dots + x_n = k
+$$
+
+is:
+
+$$
+\binom{k + n - 1}{n - 1}
+$$
+
+In this case, $k = 20$ and $n = 4$, so we compute:
+
+$$
+\binom{20 + 4 - 1}{4 - 1} = \binom{23}{3}
+$$
+
+$$
+\binom{23}{3} = \frac{23 \cdot 22 \cdot 21}{3 \cdot 2 \cdot 1} = \frac{10626}{6} = 1771
+$$
+
+✅ **Answer (a): 1771**
+
+---
+
+### **(b) $x_1 > 1$, $x_2 > 2$, $x_3 > 3$, $x_4 > 4$**
+
+This time, we are given lower bounds on the variables. To handle this, we make substitutions:
+
+Let:
+- $y_1 = x_1 - 2$ (since $x_1 > 1 \Rightarrow x_1 \geq 2$)
+- $y_2 = x_2 - 3$
+- $y_3 = x_3 - 4$
+- $y_4 = x_4 - 5$
+
+Then $y_1, y_2, y_3, y_4$ are **non-negative integers**, and the equation becomes:
+
+$$
+(x_1 + x_2 + x_3 + x_4) = 20 \Rightarrow (y_1 + 2) + (y_2 + 3) + (y_3 + 4) + (y_4 + 5) = 20
+$$
+
+Simplify:
+
+$$
+y_1 + y_2 + y_3 + y_4 + 14 = 20 \Rightarrow y_1 + y_2 + y_3 + y_4 = 6
+$$
+
+Now we use the stars and bars formula again:
+
+$$
+\binom{6 + 4 - 1}{4 - 1} = \binom{9}{3} = \frac{9 \cdot 8 \cdot 7}{3 \cdot 2 \cdot 1} = 84
+$$
+
+✅ **Answer (b): 84**
+
+---
+
+### **(c) $x_1 > 4$ and $x_3 < 5$**
+
+This is a compound condition. Let's break it down.
+
+#### Step 1: $x_1 > 4$ implies $x_1 \geq 5$
+
+Let $y_1 = x_1 - 5$, so $y_1 \geq 0$.
+
+#### Step 2: $x_3 < 5$ implies $x_3 \leq 4$
+
+So $x_3 \in \{0, 1, 2, 3, 4\}$. We can consider this as a **bounded variable** and use **inclusion-exclusion** or **direct counting**.
+
+We'll split the problem by the possible values of $x_3$ from 0 to 4, and for each, count the number of non-negative integer solutions to:
+
+$$
+x_1 + x_2 + x_3 + x_4 = 20, \quad x_1 \geq 5, \quad x_3 = \text{fixed}
+$$
+
+Let’s define:
+- $x_1 = y_1 + 5$, so $y_1 \geq 0$
+- Then the equation becomes:
+
+$$
+(y_1 + 5) + x_2 + x_3 + x_4 = 20 \Rightarrow y_1 + x_2 + x_3 + x_4 = 15
+$$
+
+Now, for each fixed value of $x_3 = k$, where $k \in \{0, 1, 2, 3, 4\}$, we solve:
+
+$$
+y_1 + x_2 + x_4 = 1

@@ -1,0 +1,8 @@
+* **Memorization in generative neural networks:**
+  - - **Definition:** Memorization occurs when a generative neural network learns to reproduce training data verbatim rather than generating new, unseen samples.
+  - - **Indicators:** High performance on training data but poor generalization to unseen data.
+
+* **Reasons to care about memorization:**
+  - - **Overfitting:** Memorization can lead to overfitting, where the model performs exceptionally well on training data but poorly on new, unseen data.
+  - - **Privacy concerns:** If memorization occurs, sensitive or private information from training data may be reproduced, leading to potential privacy breaches.
+  - - **Innovation and creativity:** Generative models are often used for creativity and innovation; memorization can stifle this by limiting the creation of genuinely new content.

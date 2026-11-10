@@ -1,0 +1,13 @@
+Boyle's Law: This law describes the inverse relationship between the pressure and volume of a gas at a constant temperature. It states that \( P \propto \frac{1}{V} \) or \( P_1V_1 = P_2V_2 \) (where \( P \) is pressure and \( V \) is volume). : 
+
+Charles' Law: This law establishes the direct relationship between the volume and temperature of a gas at constant pressure. The law can be expressed as \( V \propto T \) or \(\frac{V_1}{T_1} = \frac{V_2}{T_2} \), where \( V \) is volume and \( T \) is temperature in Kelvin. ;
+
+Gay-Lussac's Law: This law deals with the direct relationship between the pressure and temperature of a gas at constant volume. The law is stated as \( P \propto T \) or \(\frac{P_1}{T_1} = \frac{P_2}{T_2} \), where \( P \) is pressure and \( T \) is temperature in Kelvin. !?
+
+Avogadro's Law: This law asserts that equal volumes of gases at the same temperature and pressure contain an equal number of molecules. It is expressed as \( V \propto n \) or \(\frac{V_1}{n_1} = \frac{V_2}{n_2} \), where \( V \) is volume and \( n \) is the number of moles. : 
+
+Combined Gas Law: This law combines Boyle's, Charles', and Gay-Lussac's Laws to describe the behavior of gases under varying conditions of pressure, volume, and temperature. It is given by \(\frac{P_1V_1}{T_1} = \frac{P_2V_2}{T_2} \), where \( P_1, P_2 \) are initial and final pressures, \( V_1, V_2 \) are initial and final volumes, and \( T_1, T_2 \) are initial and final temperatures in Kelvin. !?
+
+Ideal Gas Law: This law is a combination of Boyle's, Charles', Gay-Lussac's, and Avogadro's Laws into a single equation, \( PV = nRT \), where \( P \) is pressure, \( V \) is volume, \( n \) is the number of moles, \( R \) is the ideal gas constant, and \( T \) is the absolute temperature in Kelvin. : 
+
+Dalton's Law of Partial Pressures: This law states that the total pressure of a mixture of gases is equal to the sum of the partial pressures of each individual gas in the mixture. It is expressed as \( P_{\text{total}} = P_1 + P_2 + ... + P_n \), where \( P_{\text{total}} \) is the total pressure and \( P_1, P_2, \ldots, P_n \) are the partial pressures of the individual gases. !?

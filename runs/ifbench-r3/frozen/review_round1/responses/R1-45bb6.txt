@@ -1,0 +1,6 @@
+The cost of the worst possible single operation in the sequence is equal to the maximum number of outgoing edges from any single vertex in the graph. This can be denoted as the out-degree of the vertex with the highest out-degree, which in the worst case could be $ |V| - 1 $ if the graph is fully connected in one direction from that vertex.
+
+The average amortized cost of the sequence of operations is calculated by dividing the total cost of all operations by the number of operations. Since each edge is counted exactly once across all operations (as it is an outgoing edge from one vertex), the total cost is $ |E| $, and the average amortized cost is $ |E| / |V| $.
+
+* The worst-case cost per operation depends on the maximum out-degree of any vertex.
+* The amortized cost per operation is determined by the total number of edges divided by the number of vertices.

@@ -1,0 +1,64 @@
+Sure, here is the translation of the given text to Russian:
+
+"CPD является обобщением PCA для массивов более высокого порядка и представляет собой тензор $\mathcal{X} \in \mathbb{R}^{n_1 \times n_2 \times \ldots \times n_d}$ как комбинацию тензоров ранга один $[37]$.
+
+$$\mathcal{X} = \sum_{r=1}^R \lambda_r \mathbf{a}_r^{(1)} \otimes \mathbf{a}_r^{(2)} \otimes \ldots \otimes \mathbf{a}_r^{(d)}, $$
+
+где $R$ — это положительное целое число, $\lambda_r$ — вес $r$-го тензора ранга один, $\mathbf{a}_r^{(i)} \in \mathbb{R}^{n_i}$ — $r$-ый фактор $i$-го режима с единичной нормой, где $i \in [d]$ и $r \in [R]$. "
+
+Here are the unique words used in this translation:
+1. является
+2. обобщением
+3. PCA
+4. массивов
+5. порядка
+6. представляет
+7. тензор
+8. $\mathcal{X}$
+9. комбинацию
+10. тензоров
+11. ранга
+12. $[37]$
+13. $\mathcal{X} = \sum_{r=1}^R \lambda_r \mathbf{a}_r^{(1)} \otimes \mathbf{a}_r^{(2)} \otimes \ldots \otimes \mathbf{a}_r^{(d)}$,
+14. где
+15. $R$
+16. положительное
+17. целое
+18. число
+19. $\lambda_r$
+20. вес
+21. $r$-го
+22. тензора
+23. $\mathbf{a}_r^{(i)}$
+24. $\mathbb{R}^{n_i}$
+25. $r$-ый
+26. фактор
+27. $i$-го
+28. режима
+29. единичной
+30. нормой
+31. $i \in [d]$
+32. $r \in [R]$
+33. представление
+34. тензоров
+35. является
+36. обобщением
+37. PCA
+38. массивов
+39. порядка
+40. представляет
+41. тензор
+42. $\mathcal{X}$
+43. комбинацию
+44. тензоров
+45. ранга
+46. один
+47. $\mathcal{X} = \sum_{r=1}^R \lambda_r \mathbf{a}_r^{(1)} \otimes \mathbf{a}_r^{(2)} \otimes \ldots \otimes \mathbf{a}_r^{(d)}$,
+48. $\mathbb{R}^{n_1 \times n_2 \times \ldots \times n_d}$
+49. $\mathbf{a}_r$
+50. $\mathbb{R}$
+51. $\mathbf{a}_r$
+52. $\mathbf{a}_r^{(d)}$
+53. $\mathbf{a}_r^{(2)}$
+54. $\mathbf{a}_r^{(1)}$
+55. $\lambda_r$

@@ -1,0 +1,15 @@
+ProductID,Category,Brand,Price,Stock
+1,Electronics,Apple,299.99,150
+2,Clothing,Nike,89.50,200
+3,Home,Samsung,149.00,100
+4,Sports,Adidas,59.99,120
+5,Electronics,"Brand, Inc.",99.99,50
+6,Books,Penguin,19.95,300
+7,Electronics,Sony,399.00,80
+8,Clothing,Levi's,49.99,180
+9,Home,IKEA,129.99,250
+10,Sports,Under Armour,69.99,130
+11,Books,HarperCollins,24.95,220
+12,Electronics,Lenovo,899.00,60
+13,Clothing,Reebok,39.99,160
+14,Home,Amazon,199.99,90

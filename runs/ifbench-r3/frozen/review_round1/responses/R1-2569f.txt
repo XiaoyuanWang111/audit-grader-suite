@@ -1,0 +1,21 @@
+For undamped harmonic oscillations of a spring pendulum, we can describe the motion using the following formulas:
+
+* **Amplitude** (A) of oscillations:
+    - The amplitude of undamped harmonic oscillations is constant over time.
+    - It is determined by the initial displacement (x₀).
+    - A = x₀
+
+* **Initial phase** (φ) of oscillations:
+    - The initial phase determines the starting point in the oscillation cycle.
+    - For undamped oscillations, it is often set to be zero, assuming the oscillation starts at the equilibrium position.
+    - φ = 0 (assuming the oscillation starts at the equilibrium position)
+
+The general equation of motion for the undamped harmonic oscillator is given by:
+
+x(t) = A * cos(ωt + φ) + V₀ * sin(ωt)
+
+Where ω is the angular frequency:
+
+ω = √(k/m)
+
+Here, k is the spring stiffness and m is the mass of the pendulum.

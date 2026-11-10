@@ -1,0 +1,11 @@
+ * Amplitude (A) of the oscillations:
+
+  - A is given by the equation: A = |x0|/\(\sqrt{1 - \left(\frac{V0}{(\sqrt{k*m})}\right)^2}\)
+
+* Initial Phase (φ) of the oscillations:
+
+  - The initial phase is the angle by which the pendulum is displaced from its equilibrium position at t = 0.
+
+  - It's calculated using the equation: φ = tan^-1(\(\frac{V0}{(\sqrt{k*m})*x0}\))
+
+  - Note that the inverse tangent function returns values in radians, you may convert to degrees if needed. (1 radian = 57.2958 degrees approximately)

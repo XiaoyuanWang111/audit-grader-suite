@@ -1,0 +1,38 @@
+(a) The classical energy of a particle of mass $ m $ moving on a frictionless circular track of radius $ a $, neglecting gravity, is purely kinetic. In classical mechanics, kinetic energy is $ E = \frac{L^2}{2ma^2} $, where $ L $ is the angular momentum. In quantum mechanics, the angular momentum operator is $ \hat{L} = -i\hbar \frac{\partial}{\partial \phi} $, where $ \phi $ is the angular coordinate. Substituting this into the classical energy expression, the Hamiltonian operator becomes:  
+$$
+\hat{H} = \frac{\hat{L}^2}{2ma^2} = -\frac{\hbar^2}{2ma^2} \frac{\partial^2}{\partial \phi^2}.
+$$  
+This operator accounts for the kinetic energy of the particle in the quantum regime.
+
+(b) The time-independent Schrödinger equation in the position representation (where the position is the angle $ \phi $) is:  
+$$
+\hat{H} \psi(\phi) = E \psi(\phi),
+$$  
+which expands to:  
+$$
+-\frac{\hbar^2}{2ma^2} \frac{d^2 \psi(\phi)}{d\phi^2} = E \psi(\phi).
+$$  
+Rearranging, this becomes:  
+$$
+\frac{d^2 \psi(\phi)}{d\phi^2} + \frac{2ma^2 E}{\hbar^2} \psi(\phi) = 0.
+$$  
+This equation governs the behavior of the wavefunction $ \psi(\phi) $ on the circular track.
+
+(c) To solve the Schrödinger equation, we recognize it as a second-order differential equation with periodic boundary conditions. The general solution is $ \psi(\phi) = A e^{ik\phi} + B e^{-ik\phi} $, where $ k $ is related to the energy $ E $. However, since the wavefunction must be single-valued (i.e., $ \psi(\phi + 2\pi) = \psi(\phi) $), the exponentials must satisfy $ e^{ik2\pi} = 1 $, which implies $ k $ is an integer $ n $. Thus, the energy eigenvalues are quantized:  
+$$
+E_n = \frac{n^2 \hbar^2}{2ma^2}, \quad n = 0, \pm 1, \pm 2, \dots.
+$$  
+The corresponding eigenfunctions are:  
+$$
+\psi_n(\phi) = \frac{1}{\sqrt{2\pi}} e^{in\phi},
+$$  
+where the normalization factor $ \frac{1}{\sqrt{2\pi}} $ ensures $ \int_0^{2\pi} |\psi_n(\phi)|^2 d\phi = 1 $. These eigenfunctions are orthonormal and form a complete basis for the Hilbert space of the system.  
+
+**Coordinating Conjunctions Used**:  
+- **And**: "The general solution is... and the wavefunction must be single-valued."  
+- **But**: "However, the wavefunction must be single-valued, but the particle is constrained to move on a circle."  
+- **Or**: "Where $ n $ is an integer (positive, negative, or zero)."  
+- **So**: "Therefore, the energy eigenvalues are quantized, so the system exhibits discrete energy levels."  
+- **For**: "For the wavefunction to be single-valued, the exponentials must satisfy $ e^{ik2\pi} = 1 $."  
+
+These eigenvalues and eigenfunctions describe the quantum states of the particle on the circular track, with energy levels determined by the integer $ n $ and the angular dependence captured by the exponential functions.

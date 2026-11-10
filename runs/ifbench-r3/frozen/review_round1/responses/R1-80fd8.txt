@@ -1,0 +1,35 @@
+To solve for \( f(D) \) where \( D = \{x + yi \mid x, y \in \mathbb{R} \text{ and } x + y = 1\} \) and \( f : \mathbb{C} \to \mathbb{C} \) is defined as \( f(z) = iz + 1 \), we need to follow these steps:
+
+* **Identify the set \( D \)**:
+  - The set \( D \) consists of complex numbers \( z = x + yi \) where \( x \) and \( y \) are real numbers and \( x + y = 1 \).
+
+* **Express \( z \) in terms of \( x \) and \( y \)**:
+  - Given \( x + y = 1 \), we can express \( y \) as \( y = 1 - x \).
+  - Therefore, \( z = x + (1 - x)i \).
+
+* **Apply the function \( f \) to \( z \)**:
+  - The function \( f \) is defined as \( f(z) = iz + 1 \).
+  - Substituting \( z = x + (1 - x)i \) into \( f \):
+    - \( iz = i(x + (1 - x)i) \)
+    - \( iz = ix + i(1 - x)i \)
+    - \( iz = ix + (1 - x)i^2 \)
+    - Since \( i^2 = -1 \), we get:
+      - \( iz = ix + (1 - x)(-1) \)
+      - \( iz = ix - (1 - x) \)
+      - \( iz = ix - 1 + x \)
+
+* **Combine the terms**:
+  - Adding 1 to \( iz \):
+    - \( f(z) = ix - 1 + x + 1 \)
+    - \( f(z) = ix + x \)
+    - \( f(z) = x + ix \)
+
+* **Simplify and describe the new set**:
+  - The result \( f(z) = x + ix \) can be rewritten as \( f(z) = (1 + i)x \).
+  - Since \( x \) can take any real value, the set \( f(D) \) consists of all complex numbers of the form \( (1 + i)x \) where \( x \) is a real number.
+
+* **Conclusion**:
+  - The set \( f(D) \) is the set of all complex numbers of the form \( (1 + i)x \) where \( x \) is a real number.
+  - This can be written as \( f(D) = \{ (1 + i)x \mid x \in \mathbb{R} \} \).
+
+Therefore, \( f(D) \) is the set of all complex numbers of the form \( (1 + i)x \) where \( x \) is any real number.

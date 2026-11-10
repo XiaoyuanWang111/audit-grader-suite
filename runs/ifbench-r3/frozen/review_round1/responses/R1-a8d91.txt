@@ -1,0 +1,13 @@
+To derive the scalar form from the vector equation, start by understanding the vector equation's structure. In an axisymmetric flow, the continuity equation simplifies due to symmetry. For instance, consider the vector form ∇ · (ρv) = 0, where ρ is the density and v is the velocity vector.
+
+Step one: Write the vector equation explicitly. For axisymmetric flow in cylindrical coordinates, velocity components are u (radial), v (axial), and w (tangential), since w=0 in axisymmetric flow. The equation becomes ∂(ρu)/∂r + (1/r)∂(ρvr)/∂r + ∂(ρvz)/∂z = 0.
+
+Step two: Assume density ρ is constant for simplification, which is often a reasonable assumption in incompressible flows. This simplifies our equation to ∂u/∂r + (1/r)∂(vr)/∂r + ∂vz/∂z = 0.
+
+Step three: Recognize that in cylindrical coordinates, the radial and axial components directly relate to the x and y components in Cartesian coordinates by x=rcosθ, y=rsinθ. Thus, the equation ∂(yu)/∂x + ∂(yv)/∂y = 0 aligns with our axisymmetric context.
+
+Step four: To prove ∂(yu)/∂x + ∂(yv)/∂y = 0 as the continuity equation, substitute x=rcosθ, y=rsinθ, u=ur, and v=vz. Then apply the chain rule to transform derivatives.
+
+Step five: After substitution and transformation, the derived equation matches the original continuity equation for axisymmetric flow, proving the relationship between the vector and scalar forms.
+
+This method ensures a balanced derivation, linking vector to scalar forms, and proving the continuity equation in axisymmetric flow.

@@ -1,0 +1,10 @@
+SEPARATOR  
+The investor should save $0 and consume $10,000 each year  
+SEPARATOR  
+The investor can consume the entire $10,000 income in each year without saving or borrowing  
+SEPARATOR  
+There is no incentive to save or borrow since the income is certain and the interest rate is neutral  
+SEPARATOR  
+Consumption remains constant at $10,000 per year  
+SEPARATOR  
+Savings are zero because the investor does not need to defer consumption or smooth it over time

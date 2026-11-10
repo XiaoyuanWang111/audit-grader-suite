@@ -1,0 +1,10 @@
+- Memorization in generative neural network AIs
+  - Occurs when the AI learns to replicate specific training examples almost exactly, rather than capturing the underlying patterns that generalize to new, unseen data.
+  - Leads to poor performance when dealing with data not seen during training, undermining the AI's ability to be broadly useful.
+- Concern over memorization
+  - Impacts reliability and robustness
+    - Can cause the AI to fail in unpredictable ways when faced with edge cases or novel inputs.
+  - Ethical and legal considerations
+    - Risks of copyright infringement or privacy violations if the AI reproduces protected content from its training data.
+  - Computational inefficiency
+    - Memorization can lead to overfitting, where the AI becomes overly complex and computationally expensive to run, offering diminishing returns in terms of performance.

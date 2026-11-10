@@ -1,0 +1,2507 @@
+{
+ "per_stratum_counts": {
+  "S1a": {
+   "population": 250,
+   "sample": 170,
+   "consensus": 161,
+   "consensus_pass": 61,
+   "grader": 100,
+   "grader_loose": 100,
+   "reference": 93,
+   "reference_loose": 93,
+   "replacement": 61
+  },
+  "S1b": {
+   "population": 180,
+   "sample": 125,
+   "consensus": 124,
+   "consensus_pass": 120,
+   "grader": 120,
+   "grader_loose": 74,
+   "reference": 116,
+   "reference_loose": 71,
+   "replacement": 4
+  },
+  "S2": {
+   "population": 3,
+   "sample": 3,
+   "consensus": 3,
+   "consensus_pass": 0,
+   "grader": 0,
+   "grader_loose": 0,
+   "reference": 3,
+   "reference_loose": 3,
+   "replacement": 0
+  },
+  "S3": {
+   "population": 5019,
+   "sample": 160,
+   "consensus": 156,
+   "consensus_pass": 40,
+   "grader": 2,
+   "grader_loose": 5,
+   "reference": 2,
+   "reference_loose": 5,
+   "replacement": 2
+  }
+ },
+ "paired": {
+  "grader-reference": {
+   "diff": 0.002508440357720937,
+   "ci95": [
+    0.0008420260099874649,
+    0.0043555881633651344
+   ]
+  },
+  "grader-grader_loose": {
+   "diff": -0.005455802865158413,
+   "ci95": [
+    -0.0335652146038915,
+    0.01856996645096988
+   ]
+  },
+  "reference-replacement": {
+   "diff": 0.03948460861245032,
+   "ci95": [
+    0.032227966318830986,
+    0.046641840075536796
+   ]
+  }
+ },
+ "grader_false_pass": {
+  "rate": 0.03438235143592572,
+  "ci95": [
+   0.025955508797187114,
+   0.04886217789232651
+  ]
+ },
+ "grader_false_fail": {
+  "rate": 0.03785154536136715,
+  "ci95": [
+   0.031151634203488508,
+   0.05034197699903267
+  ]
+ },
+ "heldout_extraction_failures": {
+  "verdicts": 52,
+  "grader_pass": 15,
+  "grader_loose_pass": 15,
+  "population_without_them": 5452
+ },
+ "s3_all_wrong": [
+  {
+   "case_id": "R1-bd01c",
+   "check": "custom:date_format_list",
+   "graders": "pass",
+   "consensus": "fail",
+   "A": [
+    "ambiguous",
+    "medium",
+    "Format is correct (comma-separated YYYY-MM-DD, no explanation), but only six dates, far from all of Napoleon's battles."
+   ],
+   "B": [
+    "fail",
+    "high",
+    "Lists only six dates, omitting most of Napoleon's battles; several dates match no battle start."
+   ]
+  },
+  {
+   "case_id": "R1-cab3d",
+   "check": "format:emoji",
+   "graders": "fail",
+   "consensus": "pass",
+   "A": [
+    "pass",
+    "high",
+    "All ten one-sentence lines end with an emoji."
+   ],
+   "B": [
+    "pass",
+    "high",
+    "Each of ten sentences ends with an emoji."
+   ]
+  }
+ ],
+ "replacement_errors": {
+  "format:quote_unquote": [
+   {
+    "case_id": "R1-0020c",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-22eec",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-34def",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-71973",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-7c85a",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-88ca5",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-a84da",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-b906e",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-b9c03",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-ce4f8",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-e14de",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-e2e4a",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-fecfc",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   }
+  ],
+  "format:thesis": [
+   {
+    "case_id": "R1-07731",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-0c3ea",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-31e7b",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-35ef5",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-55b8f",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-6ed32",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": false
+   },
+   {
+    "case_id": "R1-71e3c",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": false
+   },
+   {
+    "case_id": "R1-775ea",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-86273",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": true
+   },
+   {
+    "case_id": "R1-976eb",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-a9ce6",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-af8bf",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-b14b8",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-b5834",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-b9705",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-bcf9b",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": true
+   },
+   {
+    "case_id": "R1-c6493",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-d5fa6",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-e1091",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-section:B"
+    ],
+    "definite": true
+   }
+  ],
+  "count:words_japanese": [
+   {
+    "case_id": "R1-0832c",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-2173e",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-6159a",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-67436",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": true
+   },
+   {
+    "case_id": "R1-7c2eb",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-8908a",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-b595b",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-vacuous:B"
+    ],
+    "definite": false
+   },
+   {
+    "case_id": "R1-e200b",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": true
+   }
+  ],
+  "format:sub-bullets": [
+   {
+    "case_id": "R1-08df6",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-091c7",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-1a4d9",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-28203",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-28329",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-2a73d",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-6e31d",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-7175f",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-78b51",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-b0708",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-c6411",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-subbullet:B"
+    ],
+    "definite": true
+   }
+  ],
+  "format:quotes": [
+   {
+    "case_id": "R1-1eba3",
+    "stratum": "S1b",
+    "consensus": "fail",
+    "switches": [],
+    "definite": true
+   },
+   {
+    "case_id": "R1-8c55c",
+    "stratum": "S1b",
+    "consensus": "fail",
+    "switches": [],
+    "definite": true
+   },
+   {
+    "case_id": "R1-bcab0",
+    "stratum": "S1b",
+    "consensus": "fail",
+    "switches": [],
+    "definite": true
+   }
+  ],
+  "format:parentheses": [
+   {
+    "case_id": "R1-43664",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-paren:B",
+     "D-paren:C"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-49439",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-paren:C"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-5ad89",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-paren:C"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-62295",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-paren:C"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-776c2",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-paren:B",
+     "D-paren:C"
+    ],
+    "definite": true
+   },
+   {
+    "case_id": "R1-84e99",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-paren:C"
+    ],
+    "definite": true
+   }
+  ],
+  "count:numbers": [
+   {
+    "case_id": "R1-46f23",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [],
+    "definite": false
+   }
+  ],
+  "sentence:keyword": [
+   {
+    "case_id": "R1-78174",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-match:B"
+    ],
+    "definite": true
+   }
+  ],
+  "custom:csv_special_character": [
+   {
+    "case_id": "R1-9feb6",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:E"
+    ],
+    "definite": true
+   }
+  ],
+  "custom:date_format_list": [
+   {
+    "case_id": "R1-bd01c",
+    "stratum": "S3",
+    "consensus": "fail",
+    "switches": [],
+    "definite": false
+   }
+  ],
+  "format:emoji": [
+   {
+    "case_id": "R1-cab3d",
+    "stratum": "S3",
+    "consensus": "pass",
+    "switches": [],
+    "definite": true
+   },
+   {
+    "case_id": "R1-fe865",
+    "stratum": "S1b",
+    "consensus": "fail",
+    "switches": [
+     "D-sentence:B",
+     "D-sentence:C"
+    ],
+    "definite": true
+   }
+  ],
+  "count:punctuation": [
+   {
+    "case_id": "R1-da41d",
+    "stratum": "S1a",
+    "consensus": "pass",
+    "switches": [
+     "D-punct-set:B"
+    ],
+    "definite": false
+   }
+  ]
+ },
+ "grader_errors": {
+  "format:sub-bullets": [
+   {
+    "case_id": "R1-0051d",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-07c81",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-0ff71",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-14faf",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-187a5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-2569f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-2a28f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-2cf07",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-3043f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-314a5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-3243a",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-3ca63",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4393a",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-43e11",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4ab62",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4b648",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4e4a7",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-51f4f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-5b305",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-5c14f",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-5e0ad",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-80fd8",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-82170",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-9313e",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-95b00",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-98922",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-9df7e",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-a0500",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-a4c56",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-a9e11",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-aa9d1",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-acfa5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b2a8b",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b953c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-c97b5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d3610",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d4ed9",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d9988",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-dcf8c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ed475",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-f2d15",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "count:word_count_range": [
+   {
+    "case_id": "R1-01d55",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-0fcde",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-2c012",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-between:B"
+    ]
+   },
+   {
+    "case_id": "R1-324e7",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6c671",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6e718",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-word:B"
+    ]
+   }
+  ],
+  "custom:csv_quotes": [
+   {
+    "case_id": "R1-0a7b4",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   },
+   {
+    "case_id": "R1-28c6b",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   },
+   {
+    "case_id": "R1-d3c85",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   }
+  ],
+  "format:no_bullets_bullets": [
+   {
+    "case_id": "R1-0b645",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-14cc8",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-1d458",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-240ad",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-302ef",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-3b636",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-3c7f8",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-45bb6",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4873e",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-511a5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-5f3d2",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-61848",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-686ba",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-75423",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-84114",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-96463",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-9e4e5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-af8f4",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b40ed",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-bf731",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-bfb44",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d708e",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e4722",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "words:palindrome": [
+   {
+    "case_id": "R1-0e533",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   },
+   {
+    "case_id": "R1-19f12",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   },
+   {
+    "case_id": "R1-6e3a1",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   },
+   {
+    "case_id": "R1-81806",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   },
+   {
+    "case_id": "R1-ab121",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   },
+   {
+    "case_id": "R1-b781f",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   },
+   {
+    "case_id": "R1-be88f",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-palindrome:B",
+     "D-palindrome:C"
+    ]
+   }
+  ],
+  "sentence:keyword": [
+   {
+    "case_id": "R1-10c52",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-3b155",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-b9e5f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-bfbfd",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-sentence:B"
+    ]
+   }
+  ],
+  "ratio:sentence_type": [
+   {
+    "case_id": "R1-1145c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-6db4c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "format:options": [
+   {
+    "case_id": "R1-14cf8",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-5e436",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-90ff1",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ef4bf",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "words:start_verb": [
+   {
+    "case_id": "R1-172ad",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-409bf",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-46e8a",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-553fb",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6504e",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6d3f0",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-774c8",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-780d9",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-8d3cd",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ae3ff",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ba592",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-bad6e",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-c601a",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d558b",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d79b2",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e8545",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e9fc5",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ecae2",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "format:quotes": [
+   {
+    "case_id": "R1-18c82",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-32b1e",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-354cb",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-37545",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-55dd1",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-5aad1",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6a68e",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-70968",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-7f9ba",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-8d436",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-976c1",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-9daab",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-a1162",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b72e3",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e0d3b",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e5015",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ea6bd",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-fad1c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "custom:reverse_newline": [
+   {
+    "case_id": "R1-20f38",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-custom-facts:B"
+    ]
+   }
+  ],
+  "format:thesis": [
+   {
+    "case_id": "R1-20f6c",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6a0b0",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-83207",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-section:B"
+    ]
+   },
+   {
+    "case_id": "R1-af9c1",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-cfd07",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "custom:csv_city": [
+   {
+    "case_id": "R1-2b56c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   },
+   {
+    "case_id": "R1-59f33",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   },
+   {
+    "case_id": "R1-63eac",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   },
+   {
+    "case_id": "R1-6a595",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-csv:B",
+     "D-csv:C"
+    ]
+   }
+  ],
+  "format:emoji": [
+   {
+    "case_id": "R1-2c18b",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-40524",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-55a96",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-5ab83",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-85943",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-emoji-position:B",
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-91b45",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-af416",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   },
+   {
+    "case_id": "R1-cab3d",
+    "stratum": "S3",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-emoji-position:B",
+     "D-sentence:B",
+     "D-sentence:C"
+    ]
+   }
+  ],
+  "format:quote_unquote": [
+   {
+    "case_id": "R1-31640",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-d08b4",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e5bae",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "count:punctuation": [
+   {
+    "case_id": "R1-31f6c",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-77efd",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b5c32",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-cf660",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e3130",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ecb35",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-punct-set:B"
+    ]
+   }
+  ],
+  "count:conjunctions": [
+   {
+    "case_id": "R1-33200",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-3c29d",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-3ee19",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-42808",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-44c72",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4c78e",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-59f0b",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-61213",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-63401",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-761ee",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-7faba",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-8a3a4",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-8fcb2",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-b2672",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-cbdf0",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-d2715",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-d2e08",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   },
+   {
+    "case_id": "R1-dce5f",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-conj:B"
+    ]
+   }
+  ],
+  "format:parentheses": [
+   {
+    "case_id": "R1-34c9d",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-paren:C"
+    ]
+   }
+  ],
+  "ratio:overlap": [
+   {
+    "case_id": "R1-355c6",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-overlap:B",
+     "D-overlap:C",
+     "D-overlap:D",
+     "D-overlap:E"
+    ]
+   },
+   {
+    "case_id": "R1-3b540",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-overlap:C",
+     "D-overlap:D",
+     "D-overlap:E"
+    ]
+   },
+   {
+    "case_id": "R1-3ba87",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:B",
+     "D-overlap:D"
+    ]
+   },
+   {
+    "case_id": "R1-54533",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-overlap:C",
+     "D-overlap:D",
+     "D-overlap:E"
+    ]
+   },
+   {
+    "case_id": "R1-69dbd",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:D"
+    ]
+   },
+   {
+    "case_id": "R1-6c5ca",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:D"
+    ]
+   },
+   {
+    "case_id": "R1-7fda5",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:D"
+    ]
+   },
+   {
+    "case_id": "R1-8cbc0",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:D"
+    ]
+   },
+   {
+    "case_id": "R1-9e58b",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:D"
+    ]
+   },
+   {
+    "case_id": "R1-bb09d",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-overlap:C",
+     "D-overlap:D",
+     "D-overlap:E"
+    ]
+   },
+   {
+    "case_id": "R1-d424c",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-overlap:C",
+     "D-overlap:D",
+     "D-overlap:E"
+    ]
+   },
+   {
+    "case_id": "R1-dd6a5",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-overlap:D"
+    ]
+   }
+  ],
+  "format:line_indent": [
+   {
+    "case_id": "R1-3d6bd",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-44f64",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-indent:C"
+    ]
+   },
+   {
+    "case_id": "R1-5e0a5",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-76766",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-99569",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-99fa1",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b08fd",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-fcaee",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "words:last_first": [
+   {
+    "case_id": "R1-3e0b9",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-c62a2",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "format:list": [
+   {
+    "case_id": "R1-3e70b",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-b3b66",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "sentence:alliteration_increment": [
+   {
+    "case_id": "R1-42e19",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4dffc",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-8c8a9",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-bcf32",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-ef768",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "custom:sentence_alphabet": [
+   {
+    "case_id": "R1-4347f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-4a2db",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-fa0ce",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   }
+  ],
+  "words:paragraph_last_first": [
+   {
+    "case_id": "R1-45c7f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e0384",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-fa5c3",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   }
+  ],
+  "custom:mcq_count_length": [
+   {
+    "case_id": "R1-48955",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-9a174",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": []
+   },
+   {
+    "case_id": "R1-c135f",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-mcq:B"
+    ]
+   }
+  ],
+  "count:pronouns": [
+   {
+    "case_id": "R1-600c3",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-6e61f",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-be930",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "format:output_template": [
+   {
+    "case_id": "R1-6b86e",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-template:C"
+    ]
+   },
+   {
+    "case_id": "R1-bd050",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-c5429",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-cc71f",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   },
+   {
+    "case_id": "R1-e22ad",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ],
+  "sentence:increment": [
+   {
+    "case_id": "R1-b25e4",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-vacuous:B"
+    ]
+   }
+  ],
+  "custom:date_format_list": [
+   {
+    "case_id": "R1-bd01c",
+    "stratum": "S3",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": [
+     "D-custom-extra-text:B",
+     "D-custom-facts:C"
+    ]
+   }
+  ],
+  "ratio:sentence_balance": [
+   {
+    "case_id": "R1-d9528",
+    "stratum": "S1b",
+    "grader": "fail",
+    "consensus": "pass",
+    "switches": [
+     "D-sentence:B"
+    ]
+   }
+  ],
+  "custom:word_reverse": [
+   {
+    "case_id": "R1-faf3e",
+    "stratum": "S1a",
+    "grader": "pass",
+    "consensus": "fail",
+    "switches": []
+   }
+  ]
+ }
+}

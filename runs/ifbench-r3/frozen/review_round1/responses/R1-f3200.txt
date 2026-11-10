@@ -1,0 +1,7 @@
+To determine the age of rock unit D with respect to rock unit E (the fault), if rock unit D is an intrusion, you would use the **cross-cutting relationships** principle. This principle states that a geologic feature that cuts across another is generally younger than the feature it cuts through. Therefore, if the intrusion (rock unit D) cuts through the fault (rock unit E), the intrusion is younger, or if the fault cuts through the intrusion, the fault is younger.
+
+Declarative sentences provide straightforward information, such as the principle used and its explanation.  
+Interrogative sentences are not used in this response because the question is already answered.  
+Exclamatory sentences are also not used, as the response remains factual and neutral.  
+
+This response maintains a balanced ratio of sentence types, with only declarative sentences being used.

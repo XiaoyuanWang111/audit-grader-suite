@@ -1,0 +1,27 @@
+To count from 10 to 50 and print only the multiples of 7, you can iterate through the numbers in this range and check for divisibility by 7. Here are the multiples of 7 between 10 and 50:
+
+- 14
+- 21
+- 28
+- 35
+- 42
+- 49
+
+Here's a simple Python code snippet that prints these numbers:
+
+```python
+for number in range(10, 51):
+    if number % 7 == 0:
+        print(number)
+```
+
+Running this code will output:
+
+```
+14
+21
+28
+35
+42
+49
+```

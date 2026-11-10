@@ -1,0 +1,56 @@
+To find the value of \( a \), \( b \), and \( c \) in a quadratic function \( f(x) = ax^2 + bx + c \) that passes through a specific point, you need to solve a system of equations formed by substituting the coordinates of the point into the quadratic equation. Given a point \((x_1, y_1)\), the equations become:
+
+\[ y_1 = ax_1^2 + bx_1 + c \]
+
+You need these equations for at least two points to solve for \( a \), \( b \), and \( c \). Assuming you have two points \((x_1, y_1)\) and \((x_2, y_2)\), the system of equations is:
+
+\[ y_1 = ax_1^2 + bx_1 + c \]
+\[ y_2 = ax_2^2 + bx_2 + c \]
+
+This can be written as:
+
+1. \( ay_1^2 + by_1 + c = y_1 \)
+2. \( ay_2^2 + by_2 + c = y_2 \)
+
+To isolate \( c \), subtract the first equation from the second:
+
+\[ (ay_2^2 + by_2 + c) - (ay_1^2 + by_1 + c) = y_2 - y_1 \]
+
+This simplifies to:
+
+\[ a(y_2^2 - y_1^2) + b(y_2 - y_1) = y_2 - y_1 \]
+
+Which can further be simplified using the difference of squares:
+
+\[ a(y_2^2 - y_1^2) + b(y_2 - y_1) = (y_2 - y_1)(y_2 + y_1) \]
+
+This equation allows you to solve for \( a \) and \( b \) as follows:
+
+\[ a(y_2^2 - y_1^2) = (y_2 - y_1)(y_2 + y_1) - b(y_2 - y_1) \]
+
+\[ a = \frac{(y_2 - y_1)(y_2 + y_1) - b(y_2 - y_1)}{y_2^2 - y_1^2} \]
+
+Once \( a \) and \( b \) are found, substitute one of the original equations to solve for \( c \):
+
+\[ c = y_1 - ax_1^2 - bx_1 \]
+
+Now, regarding your request for the span of words between indices 10 and 12:
+
+The words are: "find", "the", "value", "in", "a", "quadratic", "function", "lands", "on", "a", "certain", "point"."
+
+Split by whitespace:
+
+- find
+- the
+- value
+- in
+- a
+- quadratic
+- function
+- lands
+- on
+- a
+- certain
+- point
+
+So, the span is: "find the value in a quadratic function lands on a certain point"

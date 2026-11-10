@@ -1,0 +1,48 @@
+* To show that \( f \) is Riemann integrable over \([0, 5]\), we need to verify that \( f \) is bounded and has the Darboux property (also known as being a function of bounded variation).
+
+- **Boundedness**: 
+  - \( f(x) \) is defined piecewise with maximum value 4 and minimum value 1. Therefore, \( f \) is bounded on \([0, 5]\) since \( 1 \leq f(x) \leq 4 \) for all \( x \in [0, 5] \).
+
+* **Darboux Property (Piecewise Continuity)**:
+  - \( f \) is continuous on each sub-interval \([0, 1]\), \((1, 2]\), \((2, 3)\), and \([3, 5]\).
+  - To confirm continuity:
+    - On \([0, 1]\), \( f(x) = 1 \) for all \( x \) in this interval.
+    - On \((1, 2]\), \( f(x) = 3 \) for all \( x \) in this interval.
+    - On \((2, 3)\), \( f(x) = 2 \) for all \( x \) in this interval.
+    - On \([3, 5]\), \( f(x) = 4 \) for all \( x \) in this interval.
+  - Since \( f \) is continuous on each closed interval \([a, b]\) where \( a, b \in \{0, 1, 2, 3, 5\} \), it satisfies the Darboux property.
+
+* The integral of \( f \) from 0 to 5 can be computed using the definition of the Riemann integral by breaking it into sub-intervals where \( f \) is constant.
+
+- **Break the integral into parts**:
+  - Integrate \( f(x) = 1 \) over \([0, 1]\):
+    \[
+    \int_0^1 1 \, dx = [x]_0^1 = 1 - 0 = 1
+    \]
+  - Integrate \( f(x) = 3 \) over \((1, 2]\):
+    \[
+    \int_1^2 3 \, dx = [3x]_1^2 = 3(2) - 3(1) = 6 - 3 = 3
+    \]
+  - Integrate \( f(x) = 2 \) over \((2, 3)\):
+    \[
+    \int_2^3 2 \, dx = [2x]_2^3 = 2(3) - 2(2) = 6 - 4 = 2
+    \]
+  - Integrate \( f(x) = 4 \) over \([3, 5]\):
+    \[
+    \int_3^5 4 \, dx = [4x]_3^5 = 4(5) - 4(3) = 20 - 12 = 8
+    \]
+
+* **Sum the integrals**:
+  - Add the results of each integral part together:
+    \[
+    1 + 3 + 2 + 8 = 14
+    \]
+
+Therefore, the Riemann integral of \( f \) from 0 to 5 is:
+\[
+\int_0^5 f(x) \, dx = 14
+\]
+
+* Summary:
+  - The function \( f \) is Riemann integrable because it is bounded and has the Darboux property.
+  - The computed integral is \( \int_0^5 f(x) \, dx = 14 \).

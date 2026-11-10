@@ -1,0 +1,5 @@
+To transform the function \( f(x) = \frac{1}{x^3} \) into \( g(x) = \frac{2}{(x-3)^2} + 1 \), several transformations must be applied. First, the function must be horizontally translated, and then vertically stretched and shifted. *
+
+* The function \( f(x) \) needs to undergo a horizontal translation to the right by 3 units, which means replacing \( x \) with \( x-3 \). *
+
+* After the translation, the function should be vertically stretched by a factor of 2 and then shifted upwards by 1 unit.

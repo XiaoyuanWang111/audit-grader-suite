@@ -1,0 +1,21 @@
+* **Amplitude (A) of the oscillations:**
+
+  - The amplitude of the oscillations can be determined using the initial conditions and the total energy of the system.
+  - The formula for the amplitude is given by:
+    \[
+    A = \sqrt{x_0^2 + \left(\frac{V_0}{\omega_0}\right)^2}
+    \]
+    where \(\omega_0 = \sqrt{\frac{k}{m}}\) is the natural frequency of the system.
+
+* **Initial phase (\(\phi\)) of the oscillations:**
+
+  - The initial phase can be determined using the initial conditions and the relationship between the initial position and velocity.
+  - The formula for the initial phase is given by:
+    \[
+    \cos \phi = \frac{x_0}{A}
+    \]
+    and
+    \[
+    \sin \phi = \frac{V_0}{A \omega_0}
+    \]
+    where \(\phi\) is the phase angle at \(t = 0\).

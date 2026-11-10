@@ -1,0 +1,3 @@
+Declarative: The principle of cross cutting relationships would be used to determine the age of rock unit D in relation to rock unit E. 
+Interrogative: Do we know if rock unit D cuts across rock unit E?
+Exclamatory: Yes, if rock unit D is an intrusion and it cuts across rock unit E, then rock unit D must be younger according to the principle of cross cutting relationships!

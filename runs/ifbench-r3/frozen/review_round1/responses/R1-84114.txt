@@ -1,0 +1,31 @@
+The equation of motion for a simple spring pendulum can be derived using Newton's second law. Consider a pendulum with a mass m attached to a spring with spring constant k. The pendulum swings in a small angle such that the restoring force due to gravity and the spring can be approximated as:
+
+\[ m \cdot a = -mg \cdot \theta - k \cdot x \]
+
+where \( a \) is the acceleration, \( \theta \) is the angular displacement, \( x \) is the displacement of the mass from the equilibrium position, and \( g \) is the acceleration due to gravity.
+
+For the undamped oscillations, we assume no damping force (i.e., no friction) and set the acceleration \( a \) equal to the second derivative of \( x \) with respect to time \( t \), denoted as \( \ddot{x} \). The equation simplifies to:
+
+\[ m \cdot \ddot{x} = -k \cdot x \]
+
+Dividing through by \( m \) gives the standard second-order differential equation for simple harmonic motion:
+
+\[ \ddot{x} + \frac{k}{m} x = 0 \]
+
+* This equation describes the natural frequency \( \omega_0 \) of the system where \( \omega_0^2 = \frac{k}{m} \).
+
+* Solutions to this equation are of the form \( x(t) = A \cos(\omega_0 t + \phi) \), where \( A \) is the amplitude and \( \phi \) is the phase angle.
+
+For the damped oscillations, we introduce a damping force proportional to the velocity \( v = \dot{x} \), modeled by \( F_d = -b \cdot \dot{x} \), where \( b \) is the damping coefficient. The equation of motion becomes:
+
+\[ m \cdot \ddot{x} + b \cdot \dot{x} + k \cdot x = 0 \]
+
+Dividing by \( m \), we get:
+
+\[ \ddot{x} + \frac{b}{m} \dot{x} + \frac{k}{m} x = 0 \]
+
+* This is the standard form of a damped harmonic oscillator, which can be written as \( \ddot{x} + 2\zeta \omega_0 \dot{x} + \omega_0^2 x = 0 \), where \( \zeta = \frac{b}{2\sqrt{km}} \) is the damping ratio.
+
+* The solutions depend on the damping ratio: under-critical damping (\( \zeta < 1 \)), over-critical damping (\( \zeta > 1 \)), and critical damping (\( \zeta = 1 \)) result in different types of motion, ranging from oscillatory to monotonic decay.
+
+In summary, the equations for the undamped and damped oscillations of a spring pendulum have been derived and simplified, highlighting the natural frequency and the impact of damping on the system's behavior*.

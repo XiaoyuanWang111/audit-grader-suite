@@ -1,0 +1,4 @@
+The equation of motion of a spring pendulum, also known as a spring-mass system, is derived from Newton's second law and is given by $ F = -kx $, where $ F $ is the restoring force, $ k $ is the spring constant, and $ x $ is the displacement from the equilibrium position. For undamped oscillations, this leads to the second-order differential equation $ m\ddot{x} + kx = 0 $, where $ m $ is the mass and $ \ddot{x} $ is the acceleration.
+
+* The dynamic equation for undamped oscillations is $ \ddot{x} + \omega_0^2 x = 0 $, where $ \omega_0 = \sqrt{\frac{k}{m}} $ is the natural angular frequency.  
+* For damped oscillations, a damping force proportional to velocity is introduced, resulting in the equation $ m\ddot{x} + c\dot{x} + kx = 0 $, where $ c $ is the damping coefficient.

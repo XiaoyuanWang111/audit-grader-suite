@@ -1,0 +1,168 @@
+rows 78432
+coverage {'g': 1.0, 'gl': 1.0, 'r': 1.0, 'rl': 1.0, 'p': 1.0}
+
+per check: n, pass% grader strict / loose / reference strict / replacement; disagreements grader-ref, grader1-rep0, grader0-rep1
+  count:conjunctions                 n= 1596 g= 64.3% gl= 64.3% r= 64.3% p= 38.2%  g!=r=    0 g1p0=  416 g0p1=    0 looseonly=   0 (rep fails 0)
+  count:keywords_multiple            n= 1140 g=  0.3% gl=  0.4% r=  0.2% p=  0.2%  g!=r=    1 g1p0=    1 g0p1=    0 looseonly=   1 (rep fails 1)
+  count:numbers                      n= 1824 g= 38.0% gl= 45.6% r= 38.0% p= 37.9%  g!=r=    0 g1p0=    4 g0p1=    1 looseonly= 138 (rep fails 138)
+  count:person_names                 n= 1368 g= 87.2% gl= 87.2% r= 87.2% p= 87.2%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  count:pronouns                     n= 1824 g= 82.0% gl= 82.0% r= 82.0% p= 73.2%  g!=r=    0 g1p0=  165 g0p1=    5 looseonly=   0 (rep fails 0)
+  count:punctuation                  n= 1368 g= 19.5% gl= 19.5% r= 19.5% p=  0.0%  g!=r=    0 g1p0=  267 g0p1=    0 looseonly=   0 (rep fails 0)
+  count:unique_word_count            n= 2052 g= 79.6% gl= 79.6% r= 79.6% p= 78.6%  g!=r=    0 g1p0=   20 g0p1=    0 looseonly=   0 (rep fails 0)
+  count:word_count_range             n= 2508 g= 21.7% gl= 27.9% r= 21.7% p= 22.6%  g!=r=    0 g1p0=   60 g0p1=   82 looseonly= 156 (rep fails 150)
+  count:words_japanese               n= 1140 g= 17.7% gl= 19.6% r= 17.7% p=  2.9%  g!=r=    0 g1p0=  169 g0p1=    0 looseonly=  22 (rep fails 22)
+  custom:character_reverse           n=  228 g=  2.2% gl=  2.2% r=  2.2% p=  0.0%  g!=r=    0 g1p0=    5 g0p1=    0 looseonly=   0 (rep fails 0)
+  custom:csv_city                    n=  228 g= 50.4% gl= 50.4% r= 50.4% p= 91.2%  g!=r=    0 g1p0=    0 g0p1=   93 looseonly=   0 (rep fails 0)
+  custom:csv_quotes                  n=  228 g=  6.6% gl=  6.6% r=  6.6% p= 25.4%  g!=r=    0 g1p0=    0 g0p1=   43 looseonly=   0 (rep fails 0)
+  custom:csv_special_character       n=  228 g=  7.5% gl= 13.2% r=  7.5% p=  6.1%  g!=r=    0 g1p0=   13 g0p1=   10 looseonly=  13 (rep fails 13)
+  custom:date_format_list            n=  228 g= 68.9% gl= 68.9% r= 68.9% p= 69.3%  g!=r=    0 g1p0=    0 g0p1=    1 looseonly=   0 (rep fails 0)
+  custom:european_capitals_sort      n=  228 g=  0.0% gl=  0.0% r=  0.0% p=  0.0%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  custom:mcq_count_length            n=  228 g= 25.0% gl= 28.9% r= 25.0% p= 41.7%  g!=r=    0 g1p0=    0 g0p1=   38 looseonly=   9 (rep fails 0)
+  custom:multiples                   n=  228 g=  0.4% gl= 53.9% r=  0.4% p=  0.4%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly= 122 (rep fails 122)
+  custom:reverse_newline             n=  228 g=  3.9% gl=  3.9% r=  3.9% p=  1.3%  g!=r=    0 g1p0=    6 g0p1=    0 looseonly=   0 (rep fails 0)
+  custom:sentence_alphabet           n=  228 g= 21.1% gl= 30.7% r= 31.1% p= 32.9%  g!=r=   23 g1p0=    0 g0p1=   27 looseonly=  22 (rep fails 3)
+  custom:word_reverse                n=  228 g=  7.0% gl=  7.0% r=  7.0% p=  4.8%  g!=r=    0 g1p0=    5 g0p1=    0 looseonly=   0 (rep fails 0)
+  format:emoji                       n= 2052 g= 34.4% gl= 39.4% r= 34.4% p= 40.8%  g!=r=    0 g1p0=    4 g0p1=  137 looseonly= 104 (rep fails 103)
+  format:line_indent                 n= 2052 g= 12.1% gl= 23.5% r= 12.1% p=  6.1%  g!=r=    0 g1p0=  126 g0p1=    2 looseonly= 233 (rep fails 232)
+  format:list                        n= 2052 g= 64.9% gl= 64.9% r= 64.9% p= 61.0%  g!=r=    0 g1p0=   80 g0p1=    0 looseonly=   0 (rep fails 0)
+  format:newline                     n= 1368 g= 34.1% gl= 41.0% r= 34.1% p= 34.5%  g!=r=    0 g1p0=    0 g0p1=    5 looseonly=  94 (rep fails 94)
+  format:no_bullets_bullets          n= 1140 g= 27.9% gl= 33.1% r= 27.9% p= 52.8%  g!=r=    0 g1p0=   37 g0p1=  321 looseonly=  59 (rep fails 4)
+  format:no_whitespace               n=  912 g= 51.9% gl= 51.9% r= 51.9% p= 51.9%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  format:options                     n= 1368 g= 60.0% gl= 63.2% r= 60.0% p= 67.2%  g!=r=    0 g1p0=    0 g0p1=   98 looseonly=  43 (rep fails 43)
+  format:output_template             n=  912 g= 97.6% gl= 97.6% r= 97.6% p= 88.4%  g!=r=    0 g1p0=   84 g0p1=    0 looseonly=   0 (rep fails 0)
+  format:parentheses                 n= 1824 g= 29.7% gl= 29.7% r= 29.7% p= 18.6%  g!=r=    0 g1p0=  202 g0p1=    0 looseonly=   0 (rep fails 0)
+  format:quote_unquote               n= 1140 g= 90.4% gl= 92.5% r= 90.4% p= 62.1%  g!=r=    0 g1p0=  327 g0p1=    5 looseonly=  25 (rep fails 22)
+  format:quotes                      n= 1824 g= 23.8% gl= 24.3% r= 23.8% p= 17.2%  g!=r=    0 g1p0=  213 g0p1=   93 looseonly=  10 (rep fails 9)
+  format:sub-bullets                 n= 2736 g= 36.5% gl=100.0% r= 36.5% p= 47.8%  g!=r=    0 g1p0=  454 g0p1=  762 looseonly=1737 (rep fails 975)
+  format:thesis                      n= 2052 g= 33.1% gl= 33.1% r= 33.1% p=  8.4%  g!=r=    0 g1p0=  507 g0p1=    0 looseonly=   0 (rep fails 0)
+  format:title_case                  n=  912 g= 50.7% gl= 51.3% r= 50.7% p= 52.6%  g!=r=    0 g1p0=    0 g0p1=   18 looseonly=   6 (rep fails 5)
+  ratio:overlap                      n= 2736 g=  5.9% gl=  7.3% r=  2.4% p=  1.6%  g!=r=  227 g1p0=  162 g0p1=   43 looseonly=  38 (rep fails 36)
+  ratio:sentence_balance             n= 1596 g=  3.5% gl=  8.4% r=  3.5% p=  3.4%  g!=r=    0 g1p0=    8 g0p1=    7 looseonly=  78 (rep fails 78)
+  ratio:sentence_type                n= 1368 g=  4.4% gl=  9.4% r=  4.4% p=  3.9%  g!=r=    0 g1p0=   17 g0p1=   11 looseonly=  69 (rep fails 69)
+  ratio:sentence_words               n= 1596 g=  0.1% gl=  0.1% r=  0.1% p=  0.1%  g!=r=    1 g1p0=    1 g0p1=    0 looseonly=   0 (rep fails 0)
+  ratio:stop_words                   n= 2736 g= 47.8% gl= 53.8% r= 47.8% p= 47.4%  g!=r=    0 g1p0=   21 g0p1=    8 looseonly= 164 (rep fails 159)
+  repeat:repeat_change               n=  684 g=  6.1% gl=  7.6% r=  6.1% p=  6.1%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=  10 (rep fails 10)
+  repeat:repeat_simple               n=  456 g=  7.0% gl=  7.0% r=  7.0% p=  7.0%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  repeat:repeat_span                 n=  912 g=  0.0% gl=  0.0% r=  0.0% p=  0.0%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  sentence:alliteration_increment    n= 1140 g= 19.0% gl= 28.3% r= 19.0% p=  8.7%  g!=r=    0 g1p0=  128 g0p1=   10 looseonly= 106 (rep fails 103)
+  sentence:increment                 n= 1824 g=  3.1% gl=  7.2% r=  3.1% p=  0.1%  g!=r=    0 g1p0=   56 g0p1=    0 looseonly=  74 (rep fails 74)
+  sentence:keyword                   n= 3420 g= 25.6% gl= 28.1% r= 25.6% p= 25.3%  g!=r=    0 g1p0=   48 g0p1=   38 looseonly=  84 (rep fails 83)
+  words:alphabet                     n= 1368 g= 10.4% gl= 11.6% r= 10.4% p=  9.5%  g!=r=    0 g1p0=   12 g0p1=    0 looseonly=  17 (rep fails 17)
+  words:consonants                   n= 3420 g=  6.0% gl=  6.1% r=  6.0% p=  6.0%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   4 (rep fails 4)
+  words:keywords_specific_position   n=  912 g=  0.0% gl=  0.0% r=  0.0% p=  0.0%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  words:last_first                   n= 1140 g=  7.0% gl=  8.1% r=  7.0% p=  8.1%  g!=r=    0 g1p0=   25 g0p1=   37 looseonly=  12 (rep fails 10)
+  words:no_consecutive               n= 1824 g=  4.2% gl=  6.4% r=  4.2% p=  3.2%  g!=r=    0 g1p0=   17 g0p1=    0 looseonly=  40 (rep fails 40)
+  words:odd_even_syllables           n= 2052 g=  0.8% gl=  1.0% r=  0.8% p=  0.8%  g!=r=    0 g1p0=    1 g0p1=    0 looseonly=   3 (rep fails 3)
+  words:palindrome                   n= 1596 g= 30.3% gl= 30.3% r= 30.3% p=  9.9%  g!=r=    0 g1p0=  326 g0p1=    0 looseonly=   0 (rep fails 0)
+  words:paragraph_last_first         n= 1368 g=  7.8% gl= 11.5% r=  7.8% p=  9.9%  g!=r=    0 g1p0=    0 g0p1=   29 looseonly=  50 (rep fails 43)
+  words:prime_lengths                n= 1140 g=  4.6% gl=  4.6% r=  4.6% p=  4.6%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=   0 (rep fails 0)
+  words:repeats                      n= 1140 g= 17.5% gl= 18.9% r= 17.5% p= 17.5%  g!=r=    0 g1p0=    0 g0p1=    0 looseonly=  16 (rep fails 16)
+  words:start_verb                   n= 1368 g= 39.5% gl= 45.3% r= 39.5% p= 61.5%  g!=r=    0 g1p0=    4 g0p1=  305 looseonly=  79 (rep fails 53)
+  words:vowel                        n= 2280 g=  4.1% gl=  5.3% r=  4.1% p=  4.0%  g!=r=    0 g1p0=    1 g0p1=    0 looseonly=  27 (rep fails 27)
+  words:words_position               n=  684 g=  0.3% gl=  0.4% r=  1.0% p=  1.0%  g!=r=    5 g1p0=    0 g0p1=    5 looseonly=   1 (rep fails 1)
+  TOTAL n=78432 g=0.2768 gl=0.3235 r=0.2759 p=0.2544 g!=r=257 g1p0=3992 g0p1=2234 loose-only=3666 (rep fails 2762)
+
+extraction failures (instructions): {'instructions': 157, 'grader_pass': 45, 'grader_loose_pass': 45, 'reference_pass': 45}
+truncated (instructions): {'instructions': 4588, 'grader_pass': 1013, 'replacement_pass': 793}
+
+loose-only passes by winning variant (and whether the contract passes the full response):
+  no asterisks           replacement pass=False: 984
+  no asterisks           replacement pass=True: 814
+  no first line          replacement pass=False: 893
+  no first line          replacement pass=True: 63
+  no last line           replacement pass=False: 355
+  no last line           replacement pass=True: 24
+  no first+last          replacement pass=False: 476
+  no first+last          replacement pass=True: 3
+  no first, no *         replacement pass=False: 11
+  no last, no *          replacement pass=False: 42
+  no first+last, no *    replacement pass=False: 1
+
+grader vs replacement disagreements: 6226; explained by one decision switch: 2718
+decision switch: verdicts flipped vs proposed / disagreements it explains
+  D-list:C                 flips    856  explains      0
+  D-pronoun:C              flips    742  explains      5
+  D-japanese:C             flips    583  explains      0
+  D-title:C                flips    461  explains     18
+  D-unique:C               flips    449  explains      0
+  D-vacuous:B              flips    444  explains    440
+  D-list:B                 flips    396  explains      0
+  D-subbullet:B            flips    387  explains    245
+  D-number:B               flips    373  explains      0
+  D-section:B              flips    361  explains    360
+  D-vowel:B                flips    353  explains      1
+  D-span:C                 flips    336  explains      0
+  D-palindrome:B           flips    318  explains    317
+  D-palindrome:C           flips    318  explains    317
+  D-custom-facts:B         flips    312  explains      3
+  D-paren:C                flips    302  explains    201
+  D-keyword-count:B        flips    298  explains      0
+  D-verb:B                 flips    282  explains      7
+  D-csv:B                  flips    280  explains    146
+  D-word:C                 flips    250  explains     37
+  D-pronoun:B              flips    250  explains      5
+  D-emoji-position:B       flips    241  explains     24
+  D-sentence:B             flips    236  explains    230
+  D-paren:B                flips    228  explains     39
+  D-conj:B                 flips    221  explains    221
+  D-number:C               flips    205  explains      0
+  D-overlap:D              flips    205  explains    205
+  D-list:D                 flips    203  explains      0
+  D-custom-extra-text:B    flips    199  explains      0
+  D-balance:B              flips    170  explains     15
+  D-overlap:B              flips    167  explains     39
+  D-options:C              flips    166  explains      0
+  D-csv:C                  flips    144  explains    144
+  D-options:B              flips    128  explains      0
+  D-word:B                 flips    119  explains     87
+  D-csv:E                  flips     92  explains     12
+  D-match:B                flips     90  explains     28
+  D-between:B              flips     87  explains     47
+  D-overlap:C              flips     79  explains     33
+  D-punct-set:B            flips     76  explains     76
+  D-repeat-count:B         flips     74  explains      0
+  D-unique:B               flips     54  explains      5
+  D-sentence:C             flips     39  explains     18
+  D-template:C             flips     37  explains     37
+  D-mcq:B                  flips     36  explains     10
+  D-repeat-simple:B        flips     33  explains      0
+  D-overlap:E              flips     33  explains     33
+  D-indent:C               flips     32  explains      2
+  D-indent:B               flips     23  explains      0
+  D-options:D              flips     20  explains     20
+  D-y:B                    flips     10  explains      0
+  D-template:B             flips      8  explains      0
+  D-alliteration:C         flips      7  explains      1
+  D-vowel:D                flips      6  explains      0
+  D-title:B                flips      6  explains      6
+  D-span:B                 flips      5  explains      0
+  D-custom-facts:C         flips      5  explains      1
+  D-paragraph:B            flips      3  explains      0
+  D-char-count:B           flips      1  explains      0
+  D-names-case:B           flips      1  explains      0
+  D-prime-length:B         flips      1  explains      0
+  D-match:C                flips      1  explains      1
+  D-repeat-change:B        flips      1  explains      0
+
+prompt-level strict accuracy per configuration (mean over runs): grader, reference, replacement, replacement-grader; rerun |greedy - greedy_repeat| grader; sd over sample runs (grader)
+  Qwen__Qwen2.5-14B-Instruct                   runs=17 g=0.341 gl=0.378 r=0.341 p=0.291 d(p-g)=-0.049 [-0.077,-0.027]  rerun=0.01 sd=0.019 | instr g=0.366 p=0.318 d=-0.047
+  Qwen__Qwen2.5-32B-Instruct                   runs=13 g=0.352 gl=0.383 r=0.352 p=0.329 d(p-g)=-0.023 [-0.040,-0.003]  rerun=0.013 sd=0.02 | instr g=0.390 p=0.356 d=-0.034
+  Qwen__Qwen2.5-7B-Instruct                    runs=17 g=0.274 gl=0.304 r=0.275 p=0.241 d(p-g)=-0.034 [-0.073,-0.010]  rerun=0.003 sd=0.013 | instr g=0.295 p=0.251 d=-0.045
+  Qwen__Qwen3-14B                              runs=17 g=0.277 gl=0.313 r=0.278 p=0.260 d(p-g)=-0.017 [-0.030,+0.003]  rerun=0.003 sd=0.014 | instr g=0.310 p=0.281 d=-0.028
+  Qwen__Qwen3-14B__thinking                    runs= 3 g=0.343 gl=0.393 r=0.347 p=0.353 d(p-g)=+0.010 [+0.007,+0.013]  rerun=0.01 sd=None | instr g=0.373 p=0.376 d=+0.003
+  Qwen__Qwen3-32B                              runs=13 g=0.251 gl=0.294 r=0.252 p=0.255 d(p-g)=+0.004 [-0.017,+0.023]  rerun=0.007 sd=0.021 | instr g=0.285 p=0.283 d=-0.002
+  Qwen__Qwen3-8B                               runs=17 g=0.252 gl=0.295 r=0.251 p=0.237 d(p-g)=-0.015 [-0.033,+0.003]  rerun=0.0 sd=0.012 | instr g=0.283 p=0.266 d=-0.016
+  Qwen__Qwen3-8B__thinking                     runs= 3 g=0.324 gl=0.363 r=0.324 p=0.309 d(p-g)=-0.016 [-0.020,-0.007]  rerun=0.0 sd=None | instr g=0.359 p=0.334 d=-0.025
+  allenai__Llama-3.1-Tulu-3-8B                 runs=17 g=0.227 gl=0.263 r=0.227 p=0.233 d(p-g)=+0.006 [-0.017,+0.023]  rerun=0.003 sd=0.013 | instr g=0.255 p=0.253 d=-0.003
+  allenai__OLMo-2-0325-32B-Instruct            runs=13 g=0.333 gl=0.370 r=0.333 p=0.304 d(p-g)=-0.029 [-0.043,-0.010]  rerun=0.0 sd=0.017 | instr g=0.367 p=0.328 d=-0.039
+  allenai__OLMo-2-1124-13B-Instruct            runs=17 g=0.226 gl=0.268 r=0.227 p=0.188 d(p-g)=-0.039 [-0.060,-0.020]  rerun=0.0 sd=0.014 | instr g=0.243 p=0.201 d=-0.042
+  allenai__OLMo-2-1124-7B-Instruct             runs=17 g=0.204 gl=0.249 r=0.204 p=0.173 d(p-g)=-0.031 [-0.060,-0.017]  rerun=0.007 sd=0.008 | instr g=0.231 p=0.189 d=-0.042
+  marin-community__marin-8b-instruct           runs=17 g=0.174 gl=0.215 r=0.174 p=0.169 d(p-g)=-0.005 [-0.033,+0.017]  rerun=0.01 sd=0.011 | instr g=0.200 p=0.188 d=-0.013
+  microsoft__phi-4                             runs=17 g=0.191 gl=0.243 r=0.193 p=0.203 d(p-g)=+0.012 [-0.013,+0.030]  rerun=0.0 sd=0.021 | instr g=0.212 p=0.223 d=+0.010
+  mistralai__Mistral-7B-Instruct-v0.3          runs=17 g=0.176 gl=0.208 r=0.176 p=0.158 d(p-g)=-0.018 [-0.037,-0.003]  rerun=0.003 sd=0.011 | instr g=0.202 p=0.183 d=-0.018
+  mistralai__Mistral-Small-24B-Instruct-2501   runs=13 g=0.218 gl=0.279 r=0.223 p=0.234 d(p-g)=+0.016 [-0.003,+0.030]  rerun=0.003 sd=0.013 | instr g=0.246 p=0.251 d=+0.005
+
+ranking by grader:       ['Qwen2.5-32B-Instruct', 'Qwen3-14B', 'Qwen2.5-14B-Instruct', 'OLMo-2-0325-32B-Instruct', 'Qwen3-8B', 'Qwen3-14B', 'Qwen2.5-7B-Instruct', 'Qwen3-8B', 'Qwen3-32B', 'Llama-3.1-Tulu-3-8B', 'OLMo-2-1124-13B-Instruct', 'Mistral-Small-24B-Instruct-2501', 'OLMo-2-1124-7B-Instruct', 'phi-4', 'Mistral-7B-Instruct-v0.3', 'marin-8b-instruct']
+ranking by replacement:  ['Qwen3-14B', 'Qwen2.5-32B-Instruct', 'Qwen3-8B', 'OLMo-2-0325-32B-Instruct', 'Qwen2.5-14B-Instruct', 'Qwen3-14B', 'Qwen3-32B', 'Qwen2.5-7B-Instruct', 'Qwen3-8B', 'Mistral-Small-24B-Instruct-2501', 'Llama-3.1-Tulu-3-8B', 'phi-4', 'OLMo-2-1124-13B-Instruct', 'OLMo-2-1124-7B-Instruct', 'marin-8b-instruct', 'Mistral-7B-Instruct-v0.3']
+
+wrote audit/work/panel_summary.json

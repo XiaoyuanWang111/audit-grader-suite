@@ -1,0 +1,11 @@
+To determine the age of rock unit D with respect to rock unit E (the fault), you would use the principle of **cross-cutting relationships**. This principle states that a geological feature that cuts across another rock or feature is younger than the rock or feature it cuts.
+
+Let's reiterate the principles briefly:
+- **Original horizontality**: Sedimentary layers are deposited horizontally.
+- **Superposition**: Younger layers are deposited on top of older layers.
+- **Lateral continuity**: Sedimentary layers extend laterally in all directions until they thin out or are truncated.
+- **Cross-cutting relationships**: A geological feature that cuts across another is younger.
+
+If rock unit D is an intrusion, it cuts across the surrounding rock, including the fault (rock unit E). Therefore, rock unit D is younger than rock unit E. This is a clear application of the principle of cross-cutting relationships.
+
+To summarize, the appropriate principle to use is **cross-cutting relationships**.

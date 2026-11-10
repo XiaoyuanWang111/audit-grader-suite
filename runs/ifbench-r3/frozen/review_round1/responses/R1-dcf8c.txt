@@ -1,0 +1,34 @@
+To find \( f(D) \), where \( D = \{ x + yi \mid x, y \in \mathbb{R} \text{ and } x + y = 1 \} \) and \( f(z) = iz + 1 \), we need to determine the image of the set \( D \) under the function \( f \).
+
+* **Define the set \( D \):**
+  - \( D \) is the set of all complex numbers \( z = x + yi \) such that \( x + y = 1 \).
+  - This can be rewritten as \( y = 1 - x \).
+  - Therefore, \( D = \{ x + (1-x)i \mid x \in \mathbb{R} \} \).
+
+* **Apply the function \( f \) to elements of \( D \):**
+  - For \( z = x + (1-x)i \), calculate \( f(z) = iz + 1 \).
+  - \( iz = i(x + (1-x)i) = ix + i(1-x)i = ix + i - xi^2 \).
+  - Since \( i^2 = -1 \), this simplifies to \( ix + i + x = (x + i) + ix \).
+  - Therefore, \( iz = x + i + ix \).
+  - Adding 1 gives \( f(z) = x + i + ix + 1 = (x + 1) + (1 + x)i \).
+
+* **Express \( f(z) \) in terms of a single parameter:**
+  - Let \( u = x + 1 \). Then \( x = u - 1 \).
+  - Substitute \( x = u - 1 \) into \( f(z) \):
+    - \( f(z) = (u - 1 + 1) + (1 + (u - 1))i \).
+    - Simplify to \( f(z) = u + ui \).
+
+* **Determine the range \( f(D) \):**
+  - Since \( x \) can be any real number, \( u = x + 1 \) can also be any real number.
+  - Therefore, \( f(D) = \{ u + ui \mid u \in \mathbb{R} \} \).
+
+* **Geometric interpretation:**
+  - The expression \( u + ui \) can be factored as \( u(1 + i) \).
+  - This represents a line through the origin with direction vector \( 1 + i \).
+  - The line \( 1 + i \) has a slope of 1, indicating it is at a 45-degree angle to the real axis.
+
+* **Conclusion:**
+  - \( f(D) \) is the line in the complex plane given by \( \text{Re}(w) = \text{Im}(w) \), where \( w = u(1+i) \).
+  - In other words, \( f(D) = \{ w \in \mathbb{C} \mid \text{Re}(w) = \text{Im}(w) \} \).
+
+Thus, the image of \( D \) under the function \( f \) is the line \( \text{Re}(w) = \text{Im}(w) \) in the complex plane.

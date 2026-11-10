@@ -1,0 +1,14 @@
+Sure! Here's a sample CSV data with 7 rows and the specified column names:
+
+```
+ID,Country,City,Year,Count
+1,USA,New York,2020,1500
+2,Canada,Toronto,2019,980
+3,UK,London,2021,1200
+4,Germany,Berlin,2018,850
+5,France,Paris,2022,1020
+6,Australia,Sydney,2020,760
+7,Japan,Tokyo,2021,1340
+``` 
+
+Let me know if you'd like this formatted differently or exported to a file.

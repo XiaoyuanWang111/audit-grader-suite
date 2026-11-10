@@ -1,0 +1,8 @@
+Here is the CSV data you requested, formatted with the specified requirements:
+
+```plaintext
+"StudentID"	"Subject"	"Grade"	"Semester"	"Score"
+"1001"	"Math"	"A"	"1"	"95"
+"1002"	"Science"	"B"	"1"	"88"
+"1003"	"English"	"C"	"1"	"76"
+```

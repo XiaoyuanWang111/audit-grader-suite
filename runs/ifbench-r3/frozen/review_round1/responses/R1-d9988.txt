@@ -1,0 +1,17 @@
+* **Memorization in generative neural networks** refers to the phenomenon where models retain specific details from their training data rather than learning generalizable patterns.  
+  - This can occur when the model's capacity exceeds the complexity of the task, leading it to copy exact inputs or outputs instead of abstracting underlying rules.  
+
+* **Why memorization is a concern**  
+  - **Privacy risks**: Models may inadvertently leak sensitive information from training data, such as personal identifiers or confidential documents.  
+  - **Overfitting**: Memorization can reduce the model's ability to generalize to new, unseen data, leading to poor performance in real-world applications.  
+  - **Bias amplification**: Memorized biases from training data may be perpetuated in outputs, reinforcing unfair or harmful stereotypes.  
+
+* **Implications of memorization**  
+  - **Security vulnerabilities**: Memorized data can be exploited by adversaries to reverse-engineer training sets or extract sensitive information.  
+  - **Ethical and legal issues**: Unauthorized use of memorized data may violate data protection regulations (e.g., GDPR) or ethical guidelines.  
+  - **Unreliable outputs**: Models may generate incoherent or factually incorrect responses if they rely on memorized content rather than learned knowledge.  
+
+* **Mitigating memorization**  
+  - **Data anonymization**: Removing or obfuscating sensitive information in training data to reduce the risk of leakage.  
+  - **Regularization techniques**: Using methods like dropout, weight decay, or data augmentation to encourage generalization over memorization.  
+  - **Model architecture adjustments**: Designing networks with lower capacity or incorporating mechanisms to suppress exact data retention.

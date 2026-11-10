@@ -1,0 +1,7 @@
+Here is the generated CSV data with the specified format, using tab (\t) as the delimiter and enclosing each field in double quotes:
+
+```
+"StudentID"\t"Subject"\t"Grade"\t"Semester"\t"Score"
+"1"\t"Math"\t"11"\t"Fall"\t"90"
+"2"\t"Science"\t"10"\t"Spring"\t"85"
+```

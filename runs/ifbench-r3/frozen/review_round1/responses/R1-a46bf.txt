@@ -1,0 +1,11 @@
+To prove that the UBGRAPH-WEIGHT problem is NP-Complete, we need to show two things: that the problem is in NP, and that it is at least as hard as some other known NP-Complete problem. The problem is the following: Given a graph G whose vertices and edges have associated integer weights, and an integer k, does G contain a subgraph of weight k?
+
+First, let's show that UBGRAPH-WEIGHT is in NP. To do this, we need to demonstrate that a solution can be verified in polynomial time. Given a certificate (a subgraph H of G), we can calculate the weight of H by summing the weights of its vertices and edges. This can be done in polynomial time. If the weight of H equals k, then the certificate is valid; otherwise, it is not. Therefore, UBGRAPH-WEIGHT is in NP.
+
+Next, we need to show that UBGRAPH-WEIGHT is at least as hard as some known NP-Complete problem. We can reduce the Vertex Cover problem, which is known to be NP-Complete, to UBGRAPH-WEIGHT. The Vertex Cover problem is defined as follows: Given a graph G and an integer k, does there exist a set of k vertices such that each edge in G is incident to at least one vertex in the set?
+
+To reduce Vertex Cover to UBGRAPH-WEIGHT, we construct a new graph G' from G as follows: For each vertex v in G, create a corresponding vertex v' in G' with weight 1. For each edge (u, v) in G, create a corresponding edge (u', v') in G' with weight 1. Additionally, add a new vertex w to G' with weight k, and connect w to all other vertices in G' with edges of weight 0.
+
+Now, we claim that G has a vertex cover of size k if and only if G' has a subgraph of weight k. If G has a vertex cover of size k, then the subgraph of G' consisting of the vertices corresponding to the vertex cover and their incident edges has weight k. Conversely, if G' has a subgraph of weight k, then the vertices in this subgraph must include the new vertex w (since w has weight k and all other vertices have weight 1). The remaining vertices in the subgraph must form a vertex cover of G, since each edge in G is incident to at least one vertex in the subgraph.
+
+Therefore, we have shown that UBGRAPH-WEIGHT is NP-Complete by reducing the known NP-Complete problem Vertex Cover to it. This completes the proof.

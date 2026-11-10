@@ -1,0 +1,11 @@
+finding                    check                        verdicts edited  p->f  f->p  repl  expected
+F-subbullets-bold          format:sub-bullets               2733   1361     0   825     0  fail_to_pass
+F-startverb-markup         words:start_verb                 1368    516     0    21     3  fail_to_pass
+F-nbb-blank-line           format:no_bullets_bullets        1140    970     0   139     0  fail_to_pass
+F-quotes-curly             format:quotes                    1817     84     1    29    13  fail_to_pass
+F-quote-curly              format:quote_unquote             1140     46     1     0     0  pass_to_fail
+F-options-whitespace       format:options                   1368    266     0    78     0  fail_to_pass
+F-conj-surface-forms       count:conjunctions               1589   1589   187     0    84  pass_to_fail
+F-wordcount-contractions   count:word_count_range           2508   1253    23    34     0  both
+F-title-contraction        format:title_case                 912    535     0     8     0  fail_to_pass
+F-numbers-joined           count:numbers                    1824     53     4     1     0  both

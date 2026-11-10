@@ -1,0 +1,10 @@
+Sure, here is an example of CSV data with the specified column names, tab-delimited, and each field enclosed in double quotes:
+
+```
+"StudentID"	"Subject"	"Grade"	"Semester"	"Score"
+"001"	"Math"	"Freshman"	"Fall"	"88"
+"002"	"Science"	"Sophomore"	"Spring"	"92"
+"003"	"History"	"Junior"	"Fall"	"85"
+```
+
+This data includes three rows of student information, each separated by tabs and with each field enclosed in double quotes.

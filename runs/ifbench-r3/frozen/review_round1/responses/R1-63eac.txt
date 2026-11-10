@@ -1,0 +1,12 @@
+Certainly! Here is the CSV data with the specified columns and 7 rows:
+
+```csv
+ID,Country,City,Year,Count
+1,USA,New York,2021,150
+2,Canada,Toronto,2020,200
+3,UK,London,2019,175
+4,Germany,Berlin,2022,130
+5,France,Paris,2021,160
+6,Japan,Tokyo,2020,180
+7,India,Mumbai,2019,140
+```

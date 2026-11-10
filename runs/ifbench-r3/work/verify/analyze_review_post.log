@@ -1,0 +1,72 @@
+1. errors among consensus cases, per stratum (errors / consensus cases):
+  S1a: population 250, sample 170, consensus 161 (pass 61); grader 100, grader_loose 100, reference 93, reference_loose 93, replacement 61
+  S1b: population 180, sample 125, consensus 124 (pass 120); grader 120, grader_loose 74, reference 116, reference_loose 71, replacement 4
+  S2: population 3, sample 3, consensus 3 (pass 0); grader 0, grader_loose 0, reference 3, reference_loose 3, replacement 0
+  S3: population 5019, sample 160, consensus 156 (pass 40); grader 2, grader_loose 5, reference 2, reference_loose 5, replacement 2
+
+2. paired differences of weighted error rates (consensus labels), 95% bootstrap within strata:
+  grader - reference: +0.251% [+0.084%, +0.436%]
+  grader - grader_loose: -0.546% [-3.357%, +1.857%]
+  reference - replacement: +3.948% [+3.223%, +4.664%]
+
+3. grader strict, weighted: false pass 3.438% (0.025955508797187114, 0.04886217789232651), false fail 3.785% (0.031151634203488508, 0.05034197699903267)
+
+4. held-out runs: 5452 verdicts in the review population; 52 extraction-failure verdicts excluded (grader strict passes 15, loose 15; the contract fails all)
+
+5. S3 consensus cases where grader, reference and replacement all differ from the consensus:
+  R1-bd01c custom:date_format_list: graders pass, consensus fail
+     A ambiguous/medium: Format is correct (comma-separated YYYY-MM-DD, no explanation), but only six dates, far from all of Napoleon's battles.
+     B fail/high: Lists only six dates, omitting most of Napoleon's battles; several dates match no battle start.
+  R1-cab3d format:emoji: graders fail, consensus pass
+     A pass/high: All ten one-sentence lines end with an emoji.
+     B pass/high: Each of ten sentences ends with an emoji.
+
+6. replacement errors (consensus cases) by check, and the switches that give the consensus verdict:
+  format:thesis                     19 errors (10 with both verdicts definite); switches: D-section:B 15, (none) 4
+  format:quote_unquote              13 errors (0 with both verdicts definite); switches: D-vacuous:B 13
+  format:sub-bullets                11 errors (11 with both verdicts definite); switches: D-subbullet:B 11
+  count:words_japanese               8 errors (2 with both verdicts definite); switches: D-vacuous:B 6, (none) 2
+  format:parentheses                 6 errors (6 with both verdicts definite); switches: D-paren:C 6, D-paren:B 2
+  format:quotes                      3 errors (3 with both verdicts definite); switches: (none) 3
+  format:emoji                       2 errors (2 with both verdicts definite); switches: (none) 1, D-sentence:B 1, D-sentence:C 1
+  count:numbers                      1 errors (0 with both verdicts definite); switches: (none) 1
+  sentence:keyword                   1 errors (1 with both verdicts definite); switches: D-match:B 1
+  custom:csv_special_character       1 errors (1 with both verdicts definite); switches: D-csv:E 1
+  custom:date_format_list            1 errors (0 with both verdicts definite); switches: (none) 1
+  count:punctuation                  1 errors (0 with both verdicts definite); switches: D-punct-set:B 1
+
+   grader errors (consensus cases) by check, and the switches that give the grader's verdict:
+  format:sub-bullets                41 errors (false pass 5, false fail 36); switches: (none) 41
+  format:no_bullets_bullets         23 errors (false pass 3, false fail 20); switches: (none) 23
+  words:start_verb                  18 errors (false pass 2, false fail 16); switches: (none) 18
+  format:quotes                     18 errors (false pass 13, false fail 5); switches: (none) 18
+  count:conjunctions                18 errors (false pass 18, false fail 0); switches: D-conj:B 10, (none) 8
+  ratio:overlap                     12 errors (false pass 7, false fail 5); switches: D-overlap:D 12, D-overlap:C 5, D-overlap:E 5, D-overlap:B 2
+  format:emoji                       8 errors (false pass 0, false fail 8); switches: D-sentence:B 8, D-emoji-position:B 2, D-sentence:C 1
+  format:line_indent                 8 errors (false pass 7, false fail 1); switches: (none) 7, D-indent:C 1
+  words:palindrome                   7 errors (false pass 7, false fail 0); switches: D-palindrome:B 7, D-palindrome:C 7
+  count:word_count_range             6 errors (false pass 4, false fail 2); switches: (none) 4, D-between:B 1, D-word:B 1
+  count:punctuation                  6 errors (false pass 6, false fail 0); switches: (none) 5, D-punct-set:B 1
+  format:thesis                      5 errors (false pass 5, false fail 0); switches: (none) 4, D-section:B 1
+  sentence:alliteration_increment    5 errors (false pass 4, false fail 1); switches: (none) 5
+  format:output_template             5 errors (false pass 5, false fail 0); switches: (none) 4, D-template:C 1
+  sentence:keyword                   4 errors (false pass 2, false fail 2); switches: D-sentence:B 4
+  format:options                     4 errors (false pass 0, false fail 4); switches: (none) 4
+  custom:csv_city                    4 errors (false pass 0, false fail 4); switches: D-csv:B 4, D-csv:C 4
+  custom:csv_quotes                  3 errors (false pass 0, false fail 3); switches: D-csv:B 3, D-csv:C 3
+  format:quote_unquote               3 errors (false pass 3, false fail 0); switches: (none) 3
+  custom:sentence_alphabet           3 errors (false pass 0, false fail 3); switches: (none) 2, D-sentence:B 1
+  words:paragraph_last_first         3 errors (false pass 0, false fail 3); switches: (none) 3
+  custom:mcq_count_length            3 errors (false pass 0, false fail 3); switches: (none) 2, D-mcq:B 1
+  count:pronouns                     3 errors (false pass 3, false fail 0); switches: (none) 3
+  ratio:sentence_type                2 errors (false pass 0, false fail 2); switches: D-sentence:B 1, (none) 1
+  words:last_first                   2 errors (false pass 0, false fail 2); switches: (none) 2
+  format:list                        2 errors (false pass 2, false fail 0); switches: (none) 2
+  custom:reverse_newline             1 errors (false pass 1, false fail 0); switches: D-custom-facts:B 1
+  format:parentheses                 1 errors (false pass 1, false fail 0); switches: D-paren:C 1
+  sentence:increment                 1 errors (false pass 1, false fail 0); switches: D-vacuous:B 1
+  custom:date_format_list            1 errors (false pass 1, false fail 0); switches: D-custom-extra-text:B 1, D-custom-facts:C 1
+  ratio:sentence_balance             1 errors (false pass 0, false fail 1); switches: D-sentence:B 1
+  custom:word_reverse                1 errors (false pass 1, false fail 0); switches: (none) 1
+
+wrote audit/work/review_post.json

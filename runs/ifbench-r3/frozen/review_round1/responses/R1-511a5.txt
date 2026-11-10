@@ -1,0 +1,15 @@
+To determine the cost of the worst possible single operation in this sequence of operations, we need to consider the vertex with the maximum number of outgoing edges. In the worst-case scenario, the vertex with the most outgoing edges would have the highest cost for its operation. Therefore, the cost of the worst possible single operation is equal to the number of outgoing edges from this vertex.
+
+* The cost of the worst possible single operation is the number of outgoing edges from the vertex with the maximum number of outgoing edges.
+* This cost can vary depending on the structure of the graph G(V, E).
+
+For the average amortized cost of the sequence of operations, we need to consider the total cost of all operations divided by the number of operations. In an adjacency list representation of a directed weighted graph, the cost of an operation for a vertex is proportional to the number of outgoing edges. Therefore, the average amortized cost will be influenced by the distribution of the number of outgoing edges across all vertices.
+
+* The average amortized cost can be determined by summing the costs of all operations and dividing by |V|.
+* It will be skewed by vertices with a large number of outgoing edges, making it higher than the cost for an individual vertex with fewer edges.
+
+To summarize:
+
+(a) The cost of the worst possible single operation is the number of outgoing edges from the vertex with the maximum number of outgoing edges.
+
+(b) The average amortized cost is the total cost of all operations divided by the number of operations, influenced by the distribution of outgoing edges across all vertices.

@@ -1,0 +1,20 @@
+In order to address the question regarding the range in \( n \) for which physically reasonable formulations arise for the transport of the boundary region form in axisymmetric free-boundary flow, we first need to understand the equation provided:
+
+\[ I'' - I~ = N_x \]
+
+This equation describes the second derivative (acceleration) of \( I \) with respect to the radial coordinate \( r \), minus the first derivative (velocity) of \( I \) with respect to \( r \), set equal to the axial (or \( n \)-direction) force per unit width \( N_x \).
+
+To determine the range for \( n \) in physically reasonable conditions, we consider the following aspects:
+
+1. **Physical Significance of Terms**:
+   - \( I'' \): Represents the acceleration of the boundary form's movement.
+   - \( I~ \): Represents the velocity of the boundary form's movement.
+   - \( N_x \): Represents an axial force applied to the boundary.
+
+2. **Physical Constraints and Reasonableness**:
+   - **For \( n = 0 \)**: If \( n = 0 \), there is no axial force \( N_x \). The equation simplifies to \( I'' - I~ = 0 \). This implies no net force is acting on the boundary form, leading to a trivial solution where the form does not move radially, which is physically reasonable under conditions where no external axial force is applied.
+   - **For \( n \neq 0 \)**: If \( n \neq 0 \), a non-zero axial force \( N_x \) is applied, suggesting that the boundary form will experience a radial acceleration due to this force. Physically reasonable values for \( n \) would include any real number that represents a tangible and physically meaningful axial force. Hence, the range for \( n \) is all real numbers except zero.
+
+Thus, the range in \( n \) for which physically reasonable formulations arise is:
+
+!?!? **all real numbers except zero**!?!?

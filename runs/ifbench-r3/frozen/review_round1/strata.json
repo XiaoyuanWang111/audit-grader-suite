@@ -1,0 +1,34 @@
+{
+ "seed": 61109,
+ "sizes_requested": {
+  "S1a": 170,
+  "S1b": 125,
+  "S2": 3,
+  "S3": 160
+ },
+ "strata": {
+  "S1a": {
+   "population": 250,
+   "sample": 170
+  },
+  "S1b": {
+   "population": 180,
+   "sample": 125
+  },
+  "S2": {
+   "population": 3,
+   "sample": 3
+  },
+  "S3": {
+   "population": 5019,
+   "sample": 160
+  }
+ },
+ "batch_size": 25,
+ "population_definition": "held-out runs, all instruction instances, extraction failures excluded",
+ "order_seeds": {
+  "A": 61110,
+  "B": 61111
+ },
+ "n_cases": 458
+}

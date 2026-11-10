@@ -1,0 +1,6 @@
+(a) The cost of the worst possible single operation in this sequence of operations corresponds to the vertex with the maximum number of outgoing edges. In graph theory, this maximum number is often denoted as the maximum out-degree of the graph. 
+
+(b) The average amortized cost of the above sequence of operations, when analyzed through aggregate analysis, can be calculated by summing the total costs of all operations and dividing by the number of operations. Given that each operation's cost is the number of outgoing edges for the respective vertex, the aggregate cost is the total sum of all outgoing edges in the graph, which is equal to the total number of edges |E|. 
+
+* The worst-case single operation cost is the maximum out-degree of any vertex in the graph.
+* The average amortized cost is |E|/|V|, where |E| is the total number of edges and |V| is the total number of vertices.

@@ -1,0 +1,52 @@
+Understand Galois theory as a profound connection between field theory and group theory that provides a comprehensive framework for determining the solvability of polynomial equations. At its core, Galois theory allows us to understand the roots of polynomials through the lens of symmetry, specifically via the concept of the Galois group.
+
+### Basic Concepts:
+
+1. **Fields and Field Extensions**: 
+   - A **field** is a set equipped with two operations, addition and multiplication, satisfying certain axioms (associativity, commutativity, distributivity, identity elements, and inverses).
+   - A **field extension** \( E/F \) is a pair of fields such that \( F \subseteq E \) and the operations of \( F \) are those of \( E \) restricted to \( F \). The degree of the extension, denoted \([E:F]\), is the dimension of \( E \) as a vector space over \( F \).
+
+2. **Polynomials and Roots**:
+   - Consider a polynomial \( f(x) \in F[x] \), where \( F \) is a field and \( x \) is an indeterminate. The roots of \( f(x) \) may lie in some extension field \( E \) of \( F \).
+
+3. **Splitting Field**:
+   - The **splitting field** of a polynomial \( f(x) \) over a field \( F \) is the smallest field extension \( E \) of \( F \) in which \( f(x) \) splits into linear factors. This field is unique up to isomorphism.
+
+4. **Automorphisms and Galois Group**:
+   - An **automorphism** of a field extension \( E/F \) is a field homomorphism from \( E \) to itself that fixes every element of \( F \).
+   - The **Galois group** of a field extension \( E/F \), denoted \( \text{Gal}(E/F) \), is the group of all automorphisms of \( E \) that fix \( F \).
+
+### Fundamental Theorem of Galois Theory:
+
+The fundamental theorem of Galois theory establishes a correspondence between intermediate fields of a Galois extension and subgroups of its Galois group:
+
+- **Galois Extension**: A field extension \( E/F \) is a Galois extension if it is both normal (every irreducible polynomial in \( F[x] \) that has a root in \( E \) splits completely in \( E \)) and separable (every element of \( E \) is a root of a separable polynomial over \( F \)).
+
+- **Correspondence**:
+  - There is a one-to-one correspondence between the subfields \( K \) of \( E \) such that \( F \subseteq K \subseteq E \) and the subgroups \( H \) of \( \text{Gal}(E/F) \).
+  - If \( K \) is an intermediate field, \( \text{Gal}(E/K) \) is the subgroup of \( \text{Gal}(E/F) \) consisting of automorphisms fixing every element of \( K \).
+  - The degree of the extension \( [E:K] \) is equal to the order of the subgroup \( \text{Gal}(E/K) \).
+
+### Solvability by Radicals:
+
+Galois theory provides a criterion for determining when a polynomial is solvable by radicals:
+
+- A polynomial is solvable by radicals if its roots can be expressed in terms of the coefficients using a finite number of additions, subtractions, multiplications, divisions, and root extractions.
+- A polynomial is solvable by radicals if and only if its Galois group is a **solvable group**. A group is solvable if it has a subnormal series whose factor groups are all abelian.
+
+### Example:
+
+Consider the polynomial \( f(x) = x^4 - 2 \) over \( \mathbb{Q} \).
+
+1. **Find the splitting field**: 
+   - The roots are \( \sqrt[4]{2}, i\sqrt[4]{2}, -\sqrt[4]{2}, -i\sqrt[4]{2} \).
+   - The splitting field is \( E = \mathbb{Q}(\sqrt[4]{2}, i) \).
+
+2. **Determine the Galois group**: 
+   - The degree of the extension \( [E:\mathbb{Q}] = 8 \).
+   - The Galois group \( \text{Gal}(E/\mathbb{Q}) \) is isomorphic to the dihedral group \( D_4 \), which has order 8.
+
+3. **Check solvability**:
+   - \( D_4 \) is a solvable group, so \( x^4 - 2 \) is solvable by radicals.
+
+In summary, Galois theory provides

@@ -1,0 +1,5 @@
+F-subbullets-none   fixture format:sub-bullets-68bc3978
+  check: format:sub-bullets   dataset prompt key: 126   kwargs: {}
+  response (31 characters, Python literal): 'Eclipses affect plants briefly.'
+  contract label: fail
+  grader strict: pass   grader loose: pass   reference strict: pass   replacement: fail

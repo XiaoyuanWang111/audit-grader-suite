@@ -1,0 +1,10 @@
+(a) The cost of the worst possible single operation in this sequence is when the vertex v has the maximum number of outgoing edges. This is because the cost is defined as the number of outgoing edges from v. Therefore, if we denote the maximum degree of any vertex in the graph as Δ, then the worst case cost of a single operation is Δ.
+
+(b) To determine the average amortized cost based on aggregate analysis, we need to consider the total cost of all operations and the total number of operations. The total cost of all operations is the sum of the number of outgoing edges for each vertex, which is equivalent to the sum of the degrees of all vertices in the graph. Since each edge contributes to the degree of two vertices (one for each endpoint), the sum of the degrees of all vertices is equal to 2|E|, where |E| is the number of edges in the graph.
+
+The total number of operations is |V|. Therefore, the average amortized cost of the sequence of operations is:
+
+* Total cost: 2|E|
+* Total number of operations: |V|
+
+Average amortized cost = (Total cost) / (Total number of operations) = 2|E| / |V|.

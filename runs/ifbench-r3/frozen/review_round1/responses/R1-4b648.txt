@@ -1,0 +1,6 @@
+* **Amplitude of oscillations**  
+  - $ A = \sqrt{x_0^2 + \frac{V_0^2 m}{k}} $  
+
+* **Initial phase of oscillations**  
+  - $ \phi = \arctan\left( -\frac{V_0}{x_0 \sqrt{\frac{k}{m}}} \right) $  
+    - Alternatively, $ \phi = \arctan\left( -\frac{V_0 \sqrt{m}}{x_0 \sqrt{k}} \right) $

@@ -1,0 +1,29 @@
+To determine how much the investor should save and consume each year, we need to consider the time value of money and the opportunity cost of borrowing.
+
+First, let's calculate the future value of the certain income received in two years. With a 5% annual interest rate, the future value of $10,000 received at the end of year one and $10,000 received at the end of year two can be calculated as follows:
+
+- Future value of $10,000 in year one: $10,000 * (1 + 0.05) = $10,500
+- Future value of $10,000 in year two: $10,000 * (1 + 0.05)^2 = $10,502.50
+
+The total future value of these certain incomes is: $10,500 + $10,502.50 = $21,002.50
+
+Next, since the investor can borrow money at 5%, the opportunity cost of saving is also 5%. To minimize the cost, the investor should aim to have exactly the amount needed at the end of each year.
+
+To ensure the investor has $10,500 at the end of year one and $10,502.50 at the end of year two:
+
+SEPARATOR
+
+**Year One:**
+- Saving: $10,500 / (1 + 0.05) = $10,000
+- Consumption: $15,000 (Annual income minus saving)
+
+**Year Two:**
+- Since $10,502.50 is already the future value of $10,000 invested at 5% for one year, the investor should save exactly $10,000 at the end of year one.
+- Consumption: $15,000 (Annual income minus saving, which again is $10,000)
+
+In summary, to maximize the future value of the certain income and minimize the cost of borrowing, the investor should:
+
+SEPARATOR
+
+- Save $10,000 each year
+- Consume $15,000 each year

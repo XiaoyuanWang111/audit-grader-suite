@@ -1,0 +1,64 @@
+To show that the polynomial \( f(x) = x^2 + 3x + 3 \) has roots modulo \( p \) if and only if \( p \equiv 1 \pmod{3} \) for odd primes \( p > 3 \), we need to analyze the polynomial under different conditions.
+
+### Step-by-Step Analysis:
+
+1. **Quadratic Formula and Discriminant:**
+   The roots of \( f(x) = x^2 + 3x + 3 \) are given by the quadratic formula:
+   \[
+   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+   \]
+   For \( f(x) = x^2 + 3x + 3 \):
+   \[
+   a = 1, \quad b = 3, \quad c = 3
+   \]
+   The discriminant \( \Delta \) is:
+   \[
+   \Delta = b^2 - 4ac = 3^2 - 4 \cdot 1 \cdot 3 = 9 - 12 = -3
+   \]
+
+2. **Roots Modulo \( p \):**
+   For \( f(x) \) to have roots modulo \( p \), the discriminant \( \Delta \) must be a quadratic residue modulo \( p \). Thus, we need:
+   \[
+   -3 \text{ is a quadratic residue modulo } p
+   \]
+
+3. **Quadratic Residue Condition:**
+   The condition for \( -3 \) to be a quadratic residue modulo \( p \) is equivalent to \( 3 \) being a quadratic non-residue modulo \( p \). This is because:
+   \[
+   -3 \equiv p - 3 \pmod{p}
+   \]
+   and \( p - 3 \) is a quadratic residue if and only if \( 3 \) is a quadratic residue modulo \( p \).
+
+4. **Quadratic Reciprocity:**
+   Using quadratic reciprocity, we have:
+   \[
+   \left( \frac{3}{p} \right) = \left( \frac{p}{3} \right)
+   \]
+   where \( \left( \frac{a}{b} \right) \) is the Legendre symbol.
+
+5. **Legendre Symbol Analysis:**
+   The Legendre symbol \( \left( \frac{p}{3} \right) \) can be 1 or -1. It is 1 if:
+   \[
+   p \equiv 1 \pmod{3}
+   \]
+   and -1 if:
+   \[
+   p \equiv 2 \pmod{3}
+   \]
+
+6. **Conclusion:**
+   Therefore, \( 3 \) is a quadratic residue modulo \( p \) if and only if \( p \equiv 1 \pmod{3} \). This implies that \( f(x) = x^2 + 3x + 3 \) has roots modulo \( p \) if and only if \( p \equiv 1 \pmod{3} \).
+
+### Single-Word Palindromes (at least 5 characters long):
+1. refer
+2. radar
+3. madam
+4. civic
+5. level
+6. deified
+7. deified
+8. kayak
+9. repaper
+10. reviver
+
+This completes the proof and the list of palindromes.

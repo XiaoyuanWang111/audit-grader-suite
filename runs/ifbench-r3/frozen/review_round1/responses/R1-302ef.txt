@@ -1,0 +1,4 @@
+The equation of motion for a spring pendulum, which involves the interplay between the pendulum's angular displacement and the spring's extension, can be described by a complex second-order differential equation incorporating both rotational and translational dynamics. Here are the steps to derive the dynamic equations for undamped and damped oscillations:
+
+* The equation for undamped oscillation simplifies to a form where the restoring forces balance the inertial forces, leading to a periodic motion without energy loss.
+* In the case of damped oscillation, the equation includes a term representing the dissipative force, typically proportional to the velocity, which accounts for the energy loss due to friction or air resistance.

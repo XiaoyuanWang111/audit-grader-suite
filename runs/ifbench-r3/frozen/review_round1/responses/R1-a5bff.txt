@@ -1,0 +1,22 @@
+**Percentage Composition in Chemistry**  
+Percentage composition is a way to express the proportion of each element in a compound. To calculate it, divide the mass of the element by the total mass of the compound, then multiply by 100. This helps in determining the relative amounts of elements present, which is useful in chemical analysis and stoichiometry. It is often calculated using the molar mass of the compound and the atomic masses of its constituent elements.
+
+**Chunkmap (GRINDEmap) for Percentage Composition in Chemistry:**  
+**Percentage Composition**  
+├── **Definition**  
+│   ├── Proportion of each element in a compound  
+│   └── Expressed as a percentage  
+├── **Calculation**  
+│   ├── Mass of element / Total mass of compound × 100  
+│   └── Uses molar masses  
+├── **Purpose**  
+│   ├── Determines relative amounts of elements  
+│   └── Useful in chemical analysis and stoichiometry  
+├── **Steps**  
+│   ├── Find molar mass of compound  
+│   ├── Find molar mass of each element  
+│   ├── Divide element mass by compound mass  
+│   └── Multiply by 100 to get percentage  
+
+**Answer:**  
+Percentage composition is the proportion of each element in a compound, calculated by dividing the element's mass by the compound's total mass and multiplying by 100. It helps determine the relative amounts of elements, which is crucial in chemical analysis and stoichiometry.

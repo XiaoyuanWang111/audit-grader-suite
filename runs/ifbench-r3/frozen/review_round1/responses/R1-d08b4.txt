@@ -1,0 +1,75 @@
+Certainly! Below is a **complex gloss** of the given text using the **Leipzig Glossing Rules (LGR)**, with **each quoted phrase** followed by an **unquoted explanation**.
+
+---
+
+**"Those who end up here have their souls stripped from them, leaving them as a conscious shell. They are left to wander an endless desert under a dying purple sun hanging over the horizon in perpetuality."**
+
+---
+
+**"Those who end up here"**  
+**[THOSE] [WHO] [END] [UP] [HERE]**  
+*THOSE: pronoun, third person plural, indefinite*  
+*WHO: relative pronoun, referring to people*  
+*END: verb, present tense, third person plural*  
+*UP: adverb, indicating completion or result*  
+*HERE: adverb, indicating location*  
+**Explanation**: This phrase refers to individuals who arrive at a particular place, often metaphorically or literally, and are described in the context of a post-soul state.
+
+---
+
+**"have their souls stripped from them"**  
+**[HAVE] [THEIR] [SOULS] [STRIPPED] [FROM] [THEM]**  
+*HAVE: auxiliary verb, present tense, indicative*  
+*THEIR: possessive pronoun, third person plural*  
+*SOULS: noun, plural, referring to spiritual essence*  
+*STRIPPED: verb, past participle, passive voice*  
+*FROM: preposition, indicating source or origin*  
+*THEM: pronoun, object form, third person plural*  
+**Explanation**: This phrase describes the action of removing or taking away the souls of those who have arrived, resulting in the loss of their spiritual essence.
+
+---
+
+**"leaving them as a conscious shell"**  
+**[LEAVING] [THEM] [AS] [A] [CONSCIOUS] [SHELL]**  
+*LEAVING: verb, present participle, gerund form*  
+*THEM: pronoun, object form, third person plural*  
+*AS: preposition, indicating comparison or state*  
+*A: indefinite article, singular*  
+*CONSCIOUS: adjective, describing the state of awareness*  
+*SHELL: noun, singular, referring to a physical or metaphorical form*  
+**Explanation**: This phrase describes the result of the soul being removed—persons are left with a physical body that remains conscious but devoid of spirit or essence.
+
+---
+
+**"They are left to wander an endless desert"**  
+**[THEY] [ARE] [LEFT] [TO] [WANDER] [AN] [ENDLESS] [DESERT]**  
+*THEY: pronoun, third person plural*  
+*ARE: auxiliary verb, present tense, indicative*  
+*LEFT: verb, past participle, passive voice*  
+*TO: preposition, indicating purpose or direction*  
+*WANDER: verb, infinitive, base form*  
+*AN: indefinite article, singular*  
+*ENDLESS: adjective, describing the quality of the desert*  
+*DESERT: noun, singular, referring to a barren land*  
+**Explanation**: This phrase depicts the ongoing condition of the individuals—left without purpose or direction, moving endlessly through a desolate environment.
+
+---
+
+**"under a dying purple sun hanging over the horizon in perpetuality."**  
+**[UNDER] [A] [DYING] [PURPLE] [SUN] [HANGING] [OVER] [THE] [HORIZON] [IN] [PERPETUALITY]**  
+*UNDER: preposition, indicating position relative to something*  
+*A: indefinite article, singular*  
+*DYING: adjective, describing the state of the sun*  
+*PURPLE: adjective, describing the color of the sun*  
+*SUN: noun, singular, referring to the celestial body*  
+*HANGING: verb, present participle, gerund form*  
+*OVER: preposition, indicating position relative to something*  
+*THE: definite article, singular*  
+*HORIZON: noun, singular, referring to the line where the earth and sky meet*  
+*IN: preposition, indicating time or location*  
+*PERPETUALITY: noun, singular, referring to endless or eternal duration*  
+**Explanation**: This final phrase provides a vivid image of the environment in which the individuals are left—under a sun that is both dying and purple, suspended over the horizon forever.
+
+---
+
+This gloss follows the **Leipzig Glossing Rules**, which standardize the representation of linguistic features across languages, including parts of speech, tense, aspect, mood, number, and more. Each word or phrase is annotated with its grammatical category and function, facilitating linguistic analysis and cross-linguistic comparison.

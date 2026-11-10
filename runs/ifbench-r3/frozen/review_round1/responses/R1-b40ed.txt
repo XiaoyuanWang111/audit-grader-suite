@@ -1,0 +1,15 @@
+The equation of motion for a spring pendulum, assuming small angular displacements, can be derived from Newton's second law and Hooke's law, resulting in a second-order differential equation. For the undamped case, the equation of motion can be expressed as follows:
+
+\[ m\ddot{x} + kx = 0 \]
+
+where \( m \) is the mass of the object attached to the spring, \( k \) is the spring constant, and \( x \) is the displacement from the equilibrium position.
+
+* The above equation represents the undamped oscillations of the spring pendulum, where the solution is a simple harmonic motion with a constant amplitude.
+* When damping is introduced, an additional term representing the damping force must be included in the equation of motion.
+
+For damped oscillations, the equation modifies to include a damping coefficient \( b \):
+
+\[ m\ddot{x} + b\dot{x} + kx = 0 \]
+
+* In this damped case, the nature of the solution depends on the damping coefficient relative to the mass and spring constant, leading to underdamped, critically damped, or overdamped oscillations.
+* The presence of damping reduces the amplitude of the oscillations over time, leading to a dissipation of energy in the system.

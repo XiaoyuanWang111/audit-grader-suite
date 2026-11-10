@@ -1,0 +1,3 @@
+To determine the age of rock unit D, which is an intrusion, in relation to rock unit E (the fault), you would use the principle of cross cutting relationships. This principle states that any geologic feature that cuts across or through another is younger than the feature it cuts. Therefore, since rock unit D is an intrusion and cuts across rock unit E, it indicates that rock unit D is younger than rock unit E. 
+
+In summary, the principle of cross cutting relationships is the key to understanding the relative ages of these units.

@@ -1,0 +1,9 @@
+
+html: verdicts tested, grader flips (pass to fail / fail to pass), replacement flips
+  sentence:increment                 n=  277 grader   26 (26/0) replacement    0   e.g. Qwen__Qwen2.5-14B-Instruct/bi_greedy key 190
+  count:word_count_range             n=   71 grader    2 (2/0) replacement    0   e.g. Qwen__Qwen2.5-32B-Instruct/sample3 key 143
+  total n=377 grader flips 28 replacement flips 0
+
+flag: verdicts tested, grader flips (pass to fail / fail to pass), replacement flips
+  format:emoji                       n=   70 grader   27 (0/27) replacement   35   e.g. Qwen__Qwen2.5-14B-Instruct/sample4 key 65
+  total n=70 grader flips 27 replacement flips 35

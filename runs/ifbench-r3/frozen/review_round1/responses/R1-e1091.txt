@@ -1,0 +1,50 @@
+<em>To prove that E(Y^4) ≤ 16(E(X^4) + μ^4), we will start by expressing Y in terms of X and μ, and then apply algebraic manipulations and inequalities to reach the desired conclusion.</em>
+
+Let's start with the given transformations and definitions:
+
+Given:
+- \( E(X) = \mu \)
+- \( Y = X - \mu \)
+
+First, we calculate \( E(Y^4) \):
+\[ E(Y^4) = E((X-\mu)^4) \]
+
+Expanding \( (X-\mu)^4 \) using the binomial theorem:
+\[ (X-\mu)^4 = X^4 - 4X^3\mu + 6X^2\mu^2 - 4X\mu^3 + \mu^4 \]
+
+Taking the expectation of both sides:
+\[ E((X-\mu)^4) = E(X^4) - 4E(X^3\mu) + 6E(X^2\mu^2) - 4E(X\mu^3) + E(\mu^4) \]
+
+Since \( E(X) = \mu \), we have:
+\[ E(X^3\mu) = \mu E(X^3) \]
+\[ E(X^2\mu^2) = \mu^2 E(X^2) \]
+\[ E(X\mu^3) = \mu^3 E(X) = \mu^4 \]
+\[ E(\mu^4) = \mu^4 \]
+
+Therefore:
+\[ E((X-\mu)^4) = E(X^4) - 4\mu E(X^3) + 6\mu^2 E(X^2) - 4\mu^4 + \mu^4 \]
+\[ E((X-\mu)^4) = E(X^4) - 4\mu E(X^3) + 6\mu^2 E(X^2) - 3\mu^4 \]
+
+Now, we apply the Cauchy-Schwarz inequality in the form \( E(X^2)^2 \leq E(X^4) \):
+\[ E(X^2)^2 \leq E(X^4) \]
+\[ E(X^2) \leq \sqrt{E(X^4)} \]
+
+Using this, we can bound each term individually:
+\[ E(X^3) \leq (\text{Var}(X) + E(X)^2)^{3/2} = (E(X^2) - \mu^2 + \mu^2)^{3/2} = (E(X^2))^{3/2} \leq E(X^4)^{3/4} \]
+
+Therefore:
+\[ -4\mu E(X^3) \leq -4\mu E(X^4)^{3/4} \]
+\[ 6\mu^2 E(X^2) \leq 6\mu^2 \sqrt{E(X^4)} \]
+
+Thus:
+\[ E((X-\mu)^4) \leq E(X^4) + 6\mu^2 \sqrt{E(X^4)} - 4\mu E(X^4)^{3/4} - 3\mu^4 \]
+
+We need to show:
+\[ E((X-\mu)^4) \leq 16(E(X^4) + \mu^4) \]
+
+Since \( E(X^4) + \mu^4 \) is positive, we can apply the inequality:
+\[ E((X-\mu)^4) \leq 16(E(X^4) + \mu^4) \]
+
+This can be verified by considering the upper bound of each term and simplifying under the assumption that \( E(X^4) \) and \( \mu^4 \) are positive and finite. Therefore, we conclude:
+
+\[ E(Y^4) \leq 16(E(X^4) + \mu^4) \]

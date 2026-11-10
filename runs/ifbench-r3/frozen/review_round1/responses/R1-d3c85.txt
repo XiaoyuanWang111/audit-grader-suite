@@ -1,0 +1,8 @@
+Certainly! Here is the CSV data with tab delimiters and each field enclosed in double quotes:
+
+```
+"StudentID"	"Subject"	"Grade"	"Semester"	"Score"
+"12345"	"Mathematics"	"10"	"Fall"	"88"
+"67890"	"Science"	"11"	"Spring"	"92"
+"54321"	"History"	"12"	"Summer"	"85"
+```

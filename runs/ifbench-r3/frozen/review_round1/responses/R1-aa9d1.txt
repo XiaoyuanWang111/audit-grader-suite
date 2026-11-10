@@ -1,0 +1,25 @@
+* **Understanding the set D**  
+  - The set D consists of complex numbers of the form $ z = x + yi $, where $ x, y \in \mathbb{R} $ and $ x + y = 1 $.  
+  - This represents a straight line in the complex plane, specifically the line $ y = 1 - x $, which passes through the points $ (1, 0) $ and $ (0, 1) $.
+
+* **Understanding the function f**  
+  - The function $ f(z) = iz + 1 $ is a complex transformation that involves two operations:  
+    - Multiplying by $ i $, which rotates a complex number by $ 90^\circ $ counterclockwise around the origin.  
+    - Adding 1, which translates the result by 1 unit to the right in the complex plane.
+
+* **Computing f(D)**  
+  - For $ z = x + yi \in D $, we know that $ x + y = 1 $, so $ y = 1 - x $.  
+  - Substituting into $ f(z) $:  
+    $$
+    f(z) = i(x + (1 - x)i) + 1 = i(x + i(1 - x)) + 1
+    $$  
+    - Simplify the expression:  
+      $$
+      f(z) = ix + i^2(1 - x) + 1 = ix - (1 - x) + 1 = ix + x
+      $$  
+    - Therefore, $ f(z) = x + ix = x(1 + i) $, where $ x \in \mathbb{R} $ and $ x + y = 1 $.  
+    - Since $ x $ can be any real number, $ f(D) $ is the set of all complex numbers of the form $ x(1 + i) $, where $ x \in \mathbb{R} $.
+
+* **Interpreting f(D)**  
+  - The set $ f(D) $ is the set of all scalar multiples of the complex number $ 1 + i $, where the scalar is any real number.  
+  - This is a straight line through the origin in the complex plane, in the direction of the complex number $ 1 + i $.

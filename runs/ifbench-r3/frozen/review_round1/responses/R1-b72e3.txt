@@ -1,0 +1,3 @@
+Correlating event log parameters from FortiSiem helps identify threats. "By correlating dhost and rt, a threat hunter can spot malicious activity." "For instance, multiple failed logon attempts from different src IPs to a critical dhost at unusual rt could signal a brute-force attack." "This highlights the importance of analyzing rt and src patterns." 🚀  
+"Such patterns may reveal coordinated attacks." "This can help detect anomalies early." "It's crucial for proactive threat hunting." 🛡️  
+"Quotes within quotes within quotes: 'A threat hunter can detect anomalies via 'rt and src analysis.' 'This 'helps identify potential threats.' 'It's essential for security.' " 🧠

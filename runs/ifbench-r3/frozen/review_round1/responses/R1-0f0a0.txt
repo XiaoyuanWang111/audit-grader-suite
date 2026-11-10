@@ -1,0 +1,5 @@
+Certainly! Here is the text with quotes within quotes within quotes, alternating between double quotes and single quotes:
+
+"It is given that 'On a vertical surface the temperature excess over the ambient temperature, which is taken as constant, varies as (1/x), where x is the distance along the surface from the leading edge.' We need to obtain the variation with x of the following physical variables in the natural convection flow: 'q" ("heat flux"), Q ("heat transfer rate"), delta(boundary layer thickness), u_max" ("maximum velocity"), and v(infinite) ("free stream velocity").' Is this circumstance obtainable physically? If so, under what conditions would this flow arise?"
+
+This structure ensures that the quotes alternate levels deep, providing clarity and proper nesting.

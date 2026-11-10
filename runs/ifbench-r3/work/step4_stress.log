@@ -1,0 +1,34 @@
+A. content-free responses ...
+  empty: grader passes 0 instruction instances in 0 checks; replacement passes 0; grader errors 0
+    grader: 
+  space: grader passes 0 instruction instances in 0 checks; replacement passes 0; grader errors 0
+    grader: 
+  period: grader passes 106 instruction instances in 16 checks; replacement passes 10; grader errors 0
+    grader: count:words_japanese(5/5), format:line_indent(9/9), format:newline(6/6), format:no_whitespace(4/4), format:quote_unquote(5/5), format:sub-bullets(12/12), format:title_case(4/4), sentence:alliteration_increment(5/5), sentence:increment(8/8), words:last_first(5/5), words:no_consecutive(8/8), words:odd_even_syllables(9/9), words:paragraph_last_first(6/6), words:prime_lengths(5/5), words:repeats(5/5), words:vowel(10/10)
+  repeat_word: grader passes 101 instruction instances in 13 checks; replacement passes 44; grader errors 0
+    grader: count:word_count_range(1/11), format:line_indent(9/9), format:quote_unquote(5/5), format:sub-bullets(12/12), ratio:sentence_balance(7/7), ratio:sentence_type(6/6), ratio:stop_words(12/12), sentence:alliteration_increment(5/5), sentence:increment(8/8), words:consonants(15/15), words:last_first(5/5), words:paragraph_last_first(6/6), words:vowel(10/10)
+  repeat_sentence: grader passes 52 instruction instances in 7 checks; replacement passes 25; grader errors 0
+    grader: count:pronouns(7/8), format:line_indent(9/9), format:quote_unquote(5/5), format:sub-bullets(12/12), ratio:overlap(1/12), words:no_consecutive(8/8), words:vowel(10/10)
+  restate_prompt: grader passes 50 instruction instances in 15 checks; replacement passes 27; grader errors 0
+    grader: count:conjunctions(1/7), count:person_names(6/6), count:pronouns(2/8), count:unique_word_count(3/9), format:line_indent(9/9), format:list(1/9), format:output_template(4/4), format:quote_unquote(4/5), format:sub-bullets(11/12), ratio:overlap(1/12), ratio:stop_words(1/12), sentence:alliteration_increment(1/5), sentence:increment(2/8), words:repeats(3/5), words:start_verb(1/6)
+B. fuzzing ...
+  total exceptions by grader: {} texts per check 400
+C. metamorphic edits on the greedy runs ...
+  trailing_newline: grader flips 130, replacement flips 37
+    format:no_bullets_bullets: n=80 grader flips=28 replacement flips=0
+    format:no_whitespace: n=64 grader flips=37 replacement flips=37
+    format:options: n=96 grader flips=58 replacement flips=0
+    repeat:repeat_change: n=48 grader flips=7 replacement flips=0
+  curly_double_quotes: grader flips 59, replacement flips 31
+    count:conjunctions: n=29 grader flips=6 replacement flips=0
+    custom:csv_city: n=4 grader flips=3 replacement flips=3
+    custom:csv_quotes: n=16 grader flips=2 replacement flips=5
+    custom:csv_special_character: n=16 grader flips=3 replacement flips=1
+    custom:sentence_alphabet: n=2 grader flips=0 replacement flips=1
+    format:quote_unquote: n=59 grader flips=11 replacement flips=0
+    format:quotes: n=114 grader flips=27 replacement flips=19
+    ratio:overlap: n=57 grader flips=3 replacement flips=0
+    ratio:sentence_type: n=11 grader flips=0 replacement flips=2
+    sentence:keyword: n=59 grader flips=1 replacement flips=0
+    words:palindrome: n=45 grader flips=3 replacement flips=0
+done in 226 s

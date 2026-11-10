@@ -1,0 +1,58 @@
+{
+ "F-subbullets-bold": {
+  "n": 2733,
+  "edited": 1361,
+  "fail_to_pass": 825
+ },
+ "F-startverb-markup": {
+  "n": 1368,
+  "edited": 516,
+  "fail_to_pass": 21,
+  "replacement_flips": 3
+ },
+ "F-nbb-blank-line": {
+  "n": 1140,
+  "edited": 970,
+  "fail_to_pass": 139
+ },
+ "F-quotes-curly": {
+  "n": 1817,
+  "edited": 84,
+  "fail_to_pass": 29,
+  "replacement_flips": 13,
+  "pass_to_fail": 1
+ },
+ "F-quote-curly": {
+  "n": 1140,
+  "edited": 46,
+  "pass_to_fail": 1
+ },
+ "F-options-whitespace": {
+  "n": 1368,
+  "edited": 266,
+  "fail_to_pass": 78
+ },
+ "F-conj-surface-forms": {
+  "n": 1589,
+  "edited": 1589,
+  "pass_to_fail": 187,
+  "replacement_flips": 84
+ },
+ "F-wordcount-contractions": {
+  "n": 2508,
+  "edited": 1253,
+  "fail_to_pass": 34,
+  "pass_to_fail": 23
+ },
+ "F-title-contraction": {
+  "n": 912,
+  "edited": 535,
+  "fail_to_pass": 8
+ },
+ "F-numbers-joined": {
+  "n": 1824,
+  "edited": 53,
+  "fail_to_pass": 1,
+  "pass_to_fail": 4
+ }
+}

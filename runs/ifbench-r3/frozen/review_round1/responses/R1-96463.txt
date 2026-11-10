@@ -1,0 +1,13 @@
+(a) The worst possible single operation cost in this sequence corresponds to the vertex with the maximum number of outgoing edges. Thus, the cost of the worst possible single operation is the maximum degree \(\Delta\) of the graph.
+
+* The worst possible single operation cost is \(\Delta\).
+
+(b) For the average amortized cost based on aggregate analysis, we consider the total cost of all operations and divide it by the number of operations, which is equal to the number of vertices \(|V|\).
+
+* The average amortized cost is calculated as \(\frac{\text{Total Cost}}{|V|}\).
+
+* In aggregate analysis, the total cost is the sum of individual operation costs, each being the degree of the respective vertex.
+
+* Since the degrees of vertices sum to twice the number of edges (by the Handshaking Lemma), if \(E\) is the number of edges, the total cost is \(2|E|\).
+
+* Therefore, the average amortized cost is \(\frac{2|E|}{|V|}\).

@@ -1,0 +1,114 @@
+Certainly! Below is a gloss of the provided text using the Leipzig glossing rules:
+
+**Those (PL-PERS-PRO)**
+- **PL-PERS-PRO** = Plural Personal Pronoun (Subject)
+
+**who (REL)**
+- **REL** = Relative Pronoun
+
+**end up (V)**  
+- **V** = Verb
+
+**here (LOC)**  
+- **LOC** = Locative
+
+**have (V)**  
+- **V** = Verb
+
+**their (PL-POS-PER-PRO)**  
+- **PL-POS-PER-PRO** = Plural Possessive Pronoun
+
+**souls (N)**  
+- **N** = Noun
+
+**stripped (PART)**  
+- **PART** = Participle
+
+**from (ABL)**  
+- **ABL** = Ablative
+
+**them (PL-PERS-PRO)**  
+- **PL-PERS-PRO** = Plural Personal Pronoun
+
+**leaving (V)**  
+- **V** = Verb
+
+**them (PL-PERS-PRO)**  
+- **PL-PERS-PRO** = Plural Personal Pronoun
+
+**as (LT)**  
+- **LT** = As
+
+**a (Q)**  
+- **Q** = Quantifier
+
+**conscious (ADJ)**  
+- **ADJ** = Adjective
+
+**shell (N)**  
+- **N** = Noun
+
+**. (PUNCT)**  
+- **PUNCT** = Punctuation
+
+**They (PL-PERS-PRO)**  
+- **PL-PERS-PRO** = Plural Personal Pronoun (Subject)
+
+**are (V)**  
+- **V** = Verb
+
+**left (V)**  
+- **V** = Verb
+
+**to (GO)**  
+- **GO** = Infinitive Marker
+
+**wander (V)**  
+- **V** = Verb
+
+**an (Q)**  
+- **Q** = Quantifier
+
+**endless (ADJ)**  
+- **ADJ** = Adjective
+
+**desert (N)**  
+- **N** = Noun
+
+**under (ABL)**  
+- **ABL** = Ablative
+
+**a (Q)**  
+- **Q** = Quantifier
+
+**dying (V)**  
+- **V** = Verb
+
+**purple (ADJ)**  
+- **ADJ** = Adjective
+
+**sun (N)**  
+- **N** = Noun
+
+**hanging (V)**  
+- **V** = Verb
+
+**over (ABL)**  
+- **ABL** = Ablative
+
+**the (DEF)**  
+- **DEF** = Definite Article
+
+**horizon (N)**  
+- **N** = Noun
+
+**in (ABL)**  
+- **ABL** = Ablative
+
+**perpetuity (N)**  
+- **N** = Noun
+
+**. (PUNCT)**  
+- **PUNCT** = Punctuation
+
+In summary, the text describes a situation where individuals who end up in a specific place have their souls taken away, leaving them as empty, conscious beings. These beings are then left to walk through an endless desert under a sun that is fading and hanging perpetually over the horizon.

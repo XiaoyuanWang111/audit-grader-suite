@@ -1,0 +1,12 @@
+The equation of motion for a spring pendulum, considering both the restoring force of the spring and the gravitational force, can be derived using Newton's second law. The resulting differential equation for undamped oscillations is:  
+$$
+m\ddot{x} + kx = 0
+$$  
+where $ m $ is the mass, $ k $ is the spring constant, and $ x $ is the displacement from the equilibrium position.  
+
+* For undamped oscillations, the system exhibits simple harmonic motion with a natural frequency given by $ \omega = \sqrt{\frac{k}{m}} $.  
+* For damped oscillations, a damping force proportional to velocity is added, leading to the equation:  
+$$
+m\ddot{x} + c\dot{x} + kx = 0
+$$  
+where $ c $ is the damping coefficient.

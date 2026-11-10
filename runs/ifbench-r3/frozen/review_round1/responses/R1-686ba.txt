@@ -1,0 +1,11 @@
+(a) The cost of the worst possible single operation in this sequence of operations is when the vertex has the maximum number of outgoing edges. In the worst case, each vertex could have a maximum number of outgoing edges, which would be denoted as |E| (the total number of edges in the graph). Therefore, the worst-case cost for a single operation could be |E|. *
+
+(b) To determine the average amortized cost using aggregate analysis, we first calculate the total cost for all |V| operations. The total cost is the sum of the number of outgoing edges for each vertex, which is simply the total degree of the graph, denoted as ∑(degree(v) for all v in V). 
+
+The average cost per operation, in terms of aggregate analysis, is then the total cost divided by the number of vertices, |V|. Thus, the average amortized cost is (∑(degree(v) for all v in V)) / |V|. 
+
+* This approach ensures fairness by considering the average load across all vertices, thus providing a more balanced view of the overall costs.
+
+* In aggregate analysis, we distribute the total work evenly over all operations to find the amortized cost, which provides a stable and predictable measure for understanding the workload distribution.
+
+Given these considerations, the precise numerical value for the average amortized cost depends on the specific structure of the graph, particularly the distribution of outgoing edges among the vertices.

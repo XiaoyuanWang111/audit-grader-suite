@@ -1,0 +1,44 @@
+Understanding body mechanics and physics is crucial in Super Mario Maker (SFM) for creating levels that are both challenging and fair. Here's how these concepts can influence timing in frames, which are essential for precise gameplay:
+
+```
+1. **Gravity and Jump Arcs:**
+   - Mario's jump follows a parabolic trajectory due to gravity.
+   - Understanding the apex and descent of the jump helps in timing jumps accurately.
+   - Use this knowledge to place platforms at the right height and distance to match Mario's jump arc.
+
+2. **Acceleration and Deceleration:**
+   - Mario accelerates when running and decelerates when stopping.
+   - Timing is crucial when transitioning from running to jumping.
+   - Design platforms considering the time it takes for Mario to reach full speed or come to a stop.
+
+3. **Movement Speed:**
+   - Mario's speed varies based on his state (running, walking, or swimming).
+   - Use this to time moving platforms or obstacles.
+   - For example, a moving platform should sync with Mario's speed for precise landings.
+
+4. **Momentum:**
+   - Momentum affects how Mario moves after jumping or bumping into objects.
+   - Use walls or slopes to alter Mario's trajectory.
+   - Timing jumps off walls requires understanding how momentum changes direction.
+
+5. **Frame-by-Frame Animation:**
+   - Each action Mario performs (running, jumping, stomping) takes a specific number of frames.
+   - Knowing these timings helps in designing levels where precision is key.
+   - For example, a sequence of jumps over spikes requires precise timing to avoid them.
+
+6. **Hitboxes and Collision Detection:**
+   - Understanding Mario's hitbox helps in designing tight platforming sections.
+   - Timing is crucial when Mario must fit through small gaps or avoid hazards.
+   - Use knowledge of hitboxes to create challenging but fair obstacles.
+
+7. **Enemy Behavior:**
+   - Enemies have specific attack patterns and timings.
+   - Use this to design levels where timing is essential to avoid damage.
+   - For example, timing a jump to avoid an enemy's attack requires understanding its pattern.
+
+8. **Physics-Based Interactions:**
+   - Objects like springs, trampolines, and boulders have physics-based behaviors.
+   - Timing interactions with these objects is crucial for successful navigation.
+   - For example, using a spring to reach a high platform requires precise timing.
+
+By incorporating these principles, you can create levels that challenge players to use precise timing, making the gameplay experience more engaging and rewarding. Understanding body mechanics and physics allows you to design levels that feel intuitive yet challenging, encouraging players to master the timing required to succeed.

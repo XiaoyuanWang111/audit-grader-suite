@@ -1,0 +1,18 @@
+xxxxxx..xxx.xxxxx.                                                       [100%]
+=========================== short test summary info ===========================
+XFAIL audit/tests/test_properties.py::test_invariant_edit[options-trailing-newline] - F-options-whitespace
+XFAIL audit/tests/test_properties.py::test_invariant_edit[nbb-trailing-newline] - F-nbb-blank-line
+XFAIL audit/tests/test_properties.py::test_invariant_edit[indent-second-blank-line] - F-indent-blank-lines
+XFAIL audit/tests/test_properties.py::test_invariant_edit[indent-tabs-for-spaces] - F-indent-tabs
+XFAIL audit/tests/test_properties.py::test_invariant_edit[startverb-bold] - F-startverb-markup
+XFAIL audit/tests/test_properties.py::test_invariant_edit[conjunctions-repeat-and] - F-conj-surface-forms
+XFAIL audit/tests/test_properties.py::test_forbidden_edit[subbullets-bullets-removed] - F-subbullets-none
+XFAIL audit/tests/test_properties.py::test_forbidden_edit[template-reordered] - F-template-presence-only
+XFAIL audit/tests/test_properties.py::test_forbidden_edit[sentwords-repeated-word] - F-sentwords-no-word-check
+XFAIL audit/tests/test_properties.py::test_forbidden_edit[punctuation-marks-removed] - F-punct-six-marks
+XFAIL audit/tests/test_properties.py::test_loose[loose-subbullets-asterisks] - F-loose-deletes-constrained
+XFAIL audit/tests/test_properties.py::test_loose[loose-startverb-first-line] - F-loose-deletes-constrained
+XFAIL audit/tests/test_properties.py::test_loose[loose-keywords-last-line] - F-loose-deletes-constrained
+XFAIL audit/tests/test_properties.py::test_loose[loose-numbers-last-line] - F-loose-deletes-constrained
+4 passed, 14 xfailed in 135.94s (0:02:15)
+exit=0

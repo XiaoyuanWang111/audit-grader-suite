@@ -1,0 +1,34 @@
+ To transform the function f(x) = 1/x^3 into g(x) = 2/( (x-3)^2 )+1, we can follow the steps below:
+
+1. First, we need to find a function that will invert the cubic power of f(x) in g(x). The inverse of a function can be found by taking the reciprocal and then squaring the variable, which gives us x^(1/3). However, since the reciprocal is already in f(x), we don't need to apply it again. So, the first transformation will be to cube both sides of the equation, resulting in x^3.
+
+   f(x)^3 = 1
+   x^3 = 1
+
+2. Now, we want to introduce the quadratic term in (x-3)^2 in g(x). To achieve this, we can complete the square on the right side of the equation. Since we are cubing both sides, we need to complete the cube of the square term.
+
+   Add and subtract (3x)^3 to both sides:
+   1 + (3x)^3 - (3x)^3 = x^3
+   1 = x^3 - (3x)^3
+
+   Take the cube root of both sides:
+   x = (1^(1/3)) - (3x)^(1/3)
+
+   Simplify the equation:
+   x - (3x) = 1^(1/3)
+   -2x = -1^(1/3)
+   x = -1^(1/3)/2
+
+   Since the cube root of -1 is imaginary, we will use a real number for demonstration purposes. Let's choose x = -2.
+
+   Now, we can rewrite the equation in terms of (x-3):
+   x - 3 = -2
+   x = -2 + 3
+   x = 1
+
+   So, the second transformation will be to shift the function x = 1 to x-3 = 0, resulting in (x-3) = 0.
+
+* Square both sides to get (x-3)^2 = 0
+* Add 1 to both sides to get (x-3)^2 + 1 = 2
+
+Finally, we have the function g(x) = 2/( (x-3)^2 )+1 by multiplying the reciprocal of the squared difference on the left side of the equation and translating the constant term to the right side.

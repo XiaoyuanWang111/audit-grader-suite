@@ -1,0 +1,17 @@
+Define $ K $ as a field and $ L $ as an algebraic field extension of $ K $. Let $ \text{Aut}(L/K) $ denote the group of field automorphisms of $ L $ that fix $ K $ pointwise. Galois theory establishes a deep correspondence between the intermediate fields of $ L/K $ and the subgroups of $ \text{Aut}(L/K) $, provided the extension is Galois.
+
+An extension $ L/K $ is Galois if it is both normal and separable. Normality means that every irreducible polynomial in $ K[x] $ that has one root in $ L $ splits completely in $ L[x] $. Separability means that every element of $ L $ is separable over $ K $, i.e., its minimal polynomial over $ K $ has no repeated roots in any extension field.
+
+Let $ G = \text{Gal}(L/K) = \text{Aut}(L/K) $. The Fundamental Theorem of Galois Theory states:
+
+1. There is a one-to-one correspondence between the set of intermediate fields $ E $ such that $ K \subseteq E \subseteq L $ and the set of subgroups of $ G $.
+2. For each intermediate field $ E $, the corresponding subgroup is $ \text{Gal}(L/E) = \{ \sigma \in G \mid \sigma(e) = e \text{ for all } e \in E \} $.
+3. For each subgroup $ H \subseteq G $, the corresponding field is $ L^H = \{ a \in L \mid \sigma(a) = a \text{ for all } \sigma \in H \} $.
+4. The correspondence reverses inclusion: if $ H_1 \subseteq H_2 $, then $ L^{H_2} \subseteq L^{H_1} $.
+5. The degree of the extension $ [L : L^H] $ equals the order of the subgroup $ H $, and $ [L^H : K] = [G : H] $.
+
+Let $ f(x) \in K[x] $ be a polynomial, and let $ L $ be its splitting field over $ K $. The Galois group $ G = \text{Gal}(L/K) $ is isomorphic to a subgroup of the symmetric group $ S_n $, where $ n = \deg(f) $, because it acts on the roots of $ f $. If $ f $ is separable, then $ L/K $ is Galois and $ |G| = [L : K] $.
+
+Example: Consider the polynomial $ f(x) = x^4 - 2 \in \mathbb{Q}[x] $. Its roots are $ \sqrt[4]{2}, i\sqrt[4]{2}, -\sqrt[4]{2}, -i\sqrt[4]{2} $. The splitting field $ L = \mathbb{Q}(\sqrt[4]{2}, i) $, and $ [L : \mathbb{Q}] = 8 $. The Galois group $ \text{Gal}(L/\mathbb{Q}) $ is isomorphic to the dihedral group $ D_4 $, which has 8 elements and corresponds to the symmetries of the square.
+
+In summary, Galois theory connects field extensions and group theory through the Galois group $ \text{Gal}(L/K) $, and it allows us to determine whether a polynomial is solvable by radicals by examining the structure of its Galois group.
