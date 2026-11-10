@@ -6,6 +6,9 @@ scores, which the r2 run used. The suite has five small, offline cases, one per 
 planted defects, one ambiguity and one trap; the answer keys are kept outside the case directories. A fresh auditor
 follows the skill on one case, and its report is scored against that case's key.
 
+The last section describes three more runs, blind runs of the skill on IFBench itself, which were set up and scored
+differently.
+
 ## Layout
 
 | Path | Contents | Give to the auditor? |
@@ -122,3 +125,140 @@ verdicts the key states. To rebuild a case, run its builder in `keys/tools/` (`b
 `build_toycode_data.py` then `build_toycode.py`, `build_toyqa.py`, `build_toyjson.py`, or `build_toyagent.py` then
 `check_toyagent.py --record`), then `write_manifests.py`, then the checks. The builders overwrite the case's data
 and stored responses; the grader code and `TASK.md` files are not generated.
+
+## The IFBench rerun
+
+`runs/ifbench-r3/` is a blind run of the skill on a real grader: the IFBench grader that Marin runs through
+Evalchemy, as `cases/ifbench/` describes. It differs from the five small cases in the following ways.
+
+### What the auditor had
+
+`W` held:
+
+- `skill/SKILL.md` and `skill/references/reviewer-prompt.md`, the two files of `skill/r3/`. The run withheld
+  `references/ifbench.md`, the skill's worked IFBench example, and `references/validation.md`; SKILL.md still links
+  both.
+- `case/`, the IFBench case: the grader under audit, the benchmark authors' implementation as the reference, the
+  IFBench_test set, and 68,400 stored responses (228 runs of 16 model configurations). `cases/ifbench/SOURCES.md`
+  says how to rebuild it.
+- `.venv/`, a Python 3.12 environment with the packages of `case/deps/requirements.lock.txt`, which `case/TASK.md`
+  tells the auditor to use.
+
+The case has no planted defects. The run is scored against the earlier public IFBench audit, none of which the
+auditor was given; `keys/ifbench.md` names its files, the hints that the skill files carry, and the scoring rule.
+
+### The prompts
+
+The two messages that the auditor received are in `runs/ifbench-r3-prompts/`, verbatim, with the working directory
+written as `<W>`:
+
+- `auditor_session1_brief.txt`: the first session's brief. It is the prompt of "Running one audit" with the folder
+  and network rules stated first, the two withheld files named, and step 6 split in two: the auditor draws, freezes
+  and renders the sample, then stops until both reviewers have written their labels.
+- `auditor_session2_brief.txt`: the second session's brief. It quotes the coordinator's message that the reviews are
+  in, repeats the first brief's rules, and asks for the report before any further analysis.
+
+The first session stopped after step 6.3. When both reviews were in, the operator started the second session, a new
+agent run in the same working directory, which read the files and did steps 6.4, 6.5 and 7.
+
+### Step 6
+
+The auditor drew and froze the sample and wrote two batch sets and two reviewer prompts
+(`frozen/review_round1/`). The operator ran the reviewers: two runs of Claude Opus 5.5, started together, each with
+only its prompt as context. Each run worked in a folder of its own outside `W`, which held copies of its batch set,
+the full-response files, `show_case.py` and `review_cases.jsonl` (479 files, each checked against the frozen round's
+`MANIFEST.sha256`) and nothing else from the audit. Its prompt was the auditor's `prompt_reviewer_<X>.md` with the 21
+paths into `W/audit` changed to that folder; the Python interpreter in `W/.venv` was the only path outside the folder
+that the prompt named. Each run kept its working scripts in a temporary folder of its own, also outside its folder.
+The operator copied the two label files unchanged into `W/audit/frozen/reviews/`, with a README that names the model
+and describes the isolation, and then started the auditor's second session. `keys/tools/ifbench/setup_reviewers.py`
+and `deliver_reviews.py` did the setup and the hand-over.
+
+### Checks after the run
+
+The scripts are in `keys/tools/ifbench/`; the ones that read files take their paths as arguments.
+
+- Integrity. `rerun_integrity.py` lists each tool call in a transcript that touches a path outside the agent's
+  folder, uses a web or agent tool, runs a command that can reach the network, or names material from the earlier
+  audit. `reviewer_commands.py` reads every tool input of a reviewer in full for anything that could unblind it or
+  break independence. `transcript_models.py` lists the model of every turn of a transcript. They ran on the two
+  auditor sessions and the two reviewer sessions; `runs/SCORES-ifbench.md` gives the results. As with the small
+  cases, nothing enforced the folder and network rules during the run.
+- The case. `W/case` matched its `MANIFEST.sha256` after the run, 424 of 424 files.
+- The labels. `check_reviews.py` checked both label files before they went to the auditor: format, the prompt's
+  no-quoting rule, identical reasons, agreement and Cohen's kappa.
+- The review's numbers. `score_review.py` recomputes the error rates from the frozen key and the labels, with the
+  skill's interval and the follow-up's. `explain_errors.py` sorts the replacement grader's errors against the
+  consensus by whether a decision reading accounts for them, and `probe_cases.py` reproduces the others on exact
+  inputs.
+- The findings. `fixture_repro.py` reruns every fixture of the audit on the grader, the reference and the
+  replacement. `probe_scoring.py` and `probe_csvquotes.py` reproduce the inputs that the score card rests on.
+  `panel_disagreements.py` counts, per check, the panel verdicts on which the replacement and the grader differ, next
+  to the findings the fixtures record. `instruction_texts.py` writes the instruction text of each of the 58 checks,
+  and `review_by_check.py` shows the reviewed cases of chosen checks, for the hand checks.
+- The score card. `ifbench_scorecard.py` builds the score card tables from a hand-made mapping of the two audits'
+  findings, and checks the mapping against both reports.
+- The interval rule. `interval_coverage.py` simulates how often the step 6 intervals cover the true error rate, and
+  `zero_error_strata.py` applies the follow-up's zero-error rule to the earlier audit's public review data.
+
+### The record
+
+`runs/ifbench-r3/` is the run's `audit/` directory with these changes, which `COPY_MANIFEST.tsv` lists file by file:
+
+- `work/panel_verdicts.jsonl` is gzip-compressed.
+- `work/pkgs/` and the two reference files that a script copies into `work/shim/ifbench/` are left out.
+- Six files write the run's working directory as `<W>`: `AUDIT.md`, `ISSUE.md`, `scripts/verify_all.sh`,
+  `work/grade_panel.log` and the two reviewer prompts in `frozen/review_round1/`. The two prompts are frozen files,
+  so their sha256 here differs from the value that `ISSUE.md` and the round's `MANIFEST.sha256` record.
+  `COPY_MANIFEST.tsv` gives the sha256 of each original.
+
+### Rerunning the run's tests
+
+Make a workspace with three folders side by side: `case/`, rebuilt as `cases/ifbench/SOURCES.md` says; `.venv/`, a
+Python 3.12 environment with the packages of `case/deps/requirements.lock.txt`; and `audit/`, a copy of
+`runs/ifbench-r3/`. Then, inside the workspace:
+
+```text
+gunzip audit/work/panel_verdicts.jsonl.gz
+mkdir -p audit/work/pkgs/grader audit/work/pkgs/reference
+cp -r case/grader/IFBench audit/work/pkgs/grader/IFBench
+cp -r case/reference/IFBench/ifbench audit/work/pkgs/reference/ifbench
+cp case/reference/IFBench/evaluation_lib.py case/reference/IFBench/instructions_test.py audit/work/pkgs/reference/
+```
+
+The record leaves `audit/work/pkgs/` out because it holds only these copies of the grader and the reference, which
+the auditor imported so that nothing was written into `case/`. `audit/AUDIT.md`, section 9, gives the commands; they
+assume Windows paths such as `.venv/Scripts/python.exe`. Set `NLTK_DATA` to the workspace's `case/deps/nltk_data`,
+and put the workspace path in place of `<W>` in `audit/scripts/verify_all.sh` to use that script. On such a
+workspace the tests end with 679 passed and 182 expected failures, and `audit/scripts/repro.py --all` prints
+`keys/tools/ifbench/outputs/repro_all.txt`. `audit/scripts/pin_inputs.py` reports one mismatch, `TASK.md`, because a
+rebuilt `TASK.md` names another path than the run's.
+
+### The two controlled runs
+
+`runs/ifbench-r4/` and `runs/ifbench-r4-rule/` are two more blind runs on the same case, made to test one candidate
+rule; `runs/SCORES-ifbench.md` describes them in its last section. Each was a new agent run on Claude Opus 5.5 in a
+workspace of its own, built by `keys/tools/ifbench/build_ab.py` from the first rerun's case and Python environment
+and its arm's skill files (`skill/r4/` or `skill/r4-rule/`), with nothing from the first rerun's `audit/` folder.
+The script's docstring says what else was cleaned by hand, so that neither workspace pointed at the first one. Both
+runs got the brief in `runs/ifbench-r4-prompts/brief.txt`: the first rerun's brief, with step 6 not run and the
+report due as soon as step 5 was done.
+
+Each record is the run's `audit/` directory, with its working directory written as `<W>` and, in three logs of the
+control, the base Python installation written as `<python>`; each `COPY_MANIFEST.tsv` gives the sha256 of every
+original. Both records leave out byte copies of the grader and the reference. To rerun a record's tests, make a
+workspace as above, then:
+
+- Control: run `audit/scripts/make_work_copy.py`, which recreates and verifies those copies. The tests end with 540
+  passed and 76 expected failures.
+- Rule: replace `<W>` with the workspace path in the `.py` files that set `W`, recreate the copies with the two
+  commands below, and set `NLTK_DATA` as its `AUDIT.md` says. The tests end with 474 passed and 110 expected
+  failures.
+
+```text
+mkdir -p audit/work/grader audit/work/reference && cp -r case/grader/IFBench audit/work/grader/ && cp -r case/reference/IFBench audit/work/reference/ && rm -rf audit/work/reference/IFBench/__pycache__
+cd audit/work && sha256sum -c --quiet ../out/work_manifest.sha256
+```
+
+`key_battery.py` grades the earlier audit's public fixtures with each of the three runs' replacement graders, and
+`battery_table.py` prints the comparison in `keys/tools/ifbench/outputs/battery_table.txt`.

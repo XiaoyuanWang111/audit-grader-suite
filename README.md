@@ -2,7 +2,7 @@
 
 Five small graders with planted defects, used to check the `audit-grader` agent skill of
 [marin-community/marin#10422](https://github.com/marin-community/marin/pull/10422) on graders other than its IFBench
-example.
+example. It also holds blind runs of the skill on IFBench, scored against the earlier IFBench audit.
 
 The five graders cover the four kinds the skill names: two programmatic checkers (one for math word problems, one that
 runs code against tests), an LLM-judge pipeline with recorded judge replies, an RL reward function for JSON answers,
@@ -36,6 +36,32 @@ No run ran step 6's two reviewers, because the exercise did not allow subagents,
 Each run still drew and froze its review sample. Each case had one run with `skill/r1/`, and `toyagent-verify` also
 had one with `skill/r2/`.
 
+## Blind rerun on IFBench
+
+The skill's worked example, an audit of the 58 IFBench instruction checkers, was done before the skill was written.
+`runs/ifbench-r3/` is a rerun on the same grader: a fresh agent session (Claude Opus 5.5) audited Marin's vendored
+IFBench checkers with `skill/r3/`, without the worked example and without any result of the earlier audit, and two
+more sessions reviewed its frozen step 6 sample of 458 verdicts. `runs/SCORES-ifbench.md` scores its report against
+the earlier audit's findings, with the rule in `keys/ifbench.md`.
+
+| Earlier audit's findings | Reported as a finding | As a decision entry | Not reported |
+|---|---|---|---|
+| 34 checker findings that hold under every reading | 28 | 3 | 3 |
+| 9 checker findings that rest on a decision | 3 | 5 | 1 |
+| 6 protocol findings | 3 | 2 | 1 |
+
+The rerun lists 56 findings, and every counterexample reproduces on the grader. 40 match the earlier audit, 5 are
+defects that the earlier audit did not report, 8 belong in decision entries, 3 are about the case folder and the
+stored panel, and none is false. It puts the grader's error rate at 7.2% [5.9, 9.1]; the earlier audit's two rounds
+gave 7.6% [4.7, 11.3] and 6.1% [3.9, 10.1]. The score card lists the limits of a single run.
+
+Two more runs, `runs/ifbench-r4/` and `runs/ifbench-r4-rule/`, tested one candidate rule for the skill against a
+control, through step 5. With one run each, they do not show whether the rule helps; the last section of the score
+card has the comparison.
+
+The case is too large to copy here. `cases/ifbench/SOURCES.md` says how to rebuild it from public sources and check it
+against `MANIFEST.sha256`.
+
 ## Layout
 
 | Path | Contents |
@@ -46,6 +72,12 @@ had one with `skill/r2/`.
 | `skill/r1/`, `skill/r2/` | the skill files the runs used |
 | `runs/<case>-r<N>/` | one run's audit directory: `AUDIT.md`, `ISSUE.md`, tests, frozen samples |
 | `runs/SCORES.md` | the score card |
+| `cases/ifbench/` | what identifies the IFBench case, and `SOURCES.md`, how to rebuild it |
+| `keys/ifbench.md`, `keys/tools/ifbench/` | the earlier audit's files, the scoring rule, and the scripts and outputs behind the score |
+| `skill/r3/`, `skill/r4/`, `skill/r4-rule/` | the skill files the IFBench runs used |
+| `runs/ifbench-r3/`, `runs/ifbench-r3-prompts/` | the rerun's audit directory and the briefs of its two auditor sessions |
+| `runs/ifbench-r4/`, `runs/ifbench-r4-rule/`, `runs/ifbench-r4-prompts/` | the two controlled runs' audit directories and their brief |
+| `runs/SCORES-ifbench.md` | the IFBench score card |
 | `RUNNER.md` | how to run one audit and score it |
 
 ## Reproduce
