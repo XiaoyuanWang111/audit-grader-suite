@@ -1,0 +1,42 @@
+You are an auditor continuing an audit that an earlier session of the same role started. Your working directory is <W> (call it W). Work only inside W: do not open, list or search any path outside it (running W/.venv/Scripts/python.exe and the libraries it loads is fine), and do not use the network: no web fetch or web search, and no pip, git, curl or other command that reaches the internet. Do not start subagents. Ignore any memory notes or project notes in your context that are not about this audit, and do not open memory files.
+
+## Where the audit stands
+
+The earlier session audited the grader described in case/TASK.md by following the skill in skill/SKILL.md (reference files in skill/references/; SKILL.md links skill/references/ifbench.md and skill/references/validation.md, which are not provided in this run). It finished steps 1 to 5 and steps 6.1 to 6.3 and then stopped, as its brief asked, so that two reviewers could label the frozen sample. audit/ISSUE.md is its running record, and everything it wrote is under audit/. Read audit/ISSUE.md first, in full, then skill/SKILL.md steps 6 and 7.
+
+The coordinator's message, which directs the work now:
+
+"Both reviewers have written their labels; continue the audit from step 6.5 and write the report.
+
+The label files are in W/audit/frozen/reviews/: review_A.jsonl and review_B.jsonl (458 lines each). README.md in the same folder says which model ran the reviewers and how the runs were kept apart. Do not change these three files.
+
+Finish step 6 with them, then do step 7: write audit/AUDIT.md as the brief said (for each finding, the counterexample as an exact input and the command that reproduces the grader's verdict), and bring audit/ISSUE.md up to date."
+
+## The original brief (still in force)
+
+This is an offline exercise. Apply the skill with these substitutions:
+- There is no issue tracker. Keep the record that the skill puts in the issue (the pinned inputs, the contract file's hash and the time, the decision entries, the findings, the frozen-sample hashes) in audit/ISSUE.md, and add to it as you go.
+- Keep fixtures as runnable tests under audit/tests/, and frozen samples, keys and reviews under audit/frozen/, with their sha256 in audit/ISSUE.md. There is no repository, research branch, Hugging Face dataset or job launcher; skip the steps that need them and say so in the report.
+- Step 5: there is no compute. The stored responses in case/panel/ are the model panel. Do not generate new responses.
+- Step 6: the stored responses are the population. The two reviewer runs were done separately, as audit/frozen/reviews/README.md records.
+- Write the step 7 report to audit/AUDIT.md. For each finding, give the counterexample as an exact input and the command that reproduces the grader's verdict.
+
+Practical notes:
+- Do not edit anything under case/ or skill/; write everything under audit/. Do not change the replacement grader in this round, and do not change anything under audit/frozen/.
+- The machine is Windows with Git Bash and PowerShell. Run Python as case/TASK.md shows (W/.venv/Scripts/python.exe, NLTK_DATA set to W/case/deps/nltk_data). In Git Bash heredocs a double backslash becomes one, so write longer scripts to files under audit/ with the Write tool and run them.
+- Read the clock (date -u) in the same step before you write any time.
+- Do not name a file REPORT.md or FINDINGS.md (a hook blocks those names); AUDIT.md and ISSUE.md are fine.
+- Some stored responses contain a model's thinking text. When you print a response, print a short excerpt of the answer; never print whole thinking blocks.
+
+## Order of work in this session
+
+This session must end with a complete audit/AUDIT.md, so work in this order and save after each part:
+
+1. Carry out steps 6.4 and 6.5 as the skill states them with the two label files, record the results in audit/ISSUE.md and bring its "Progress" section up to date.
+2. Write audit/AUDIT.md in full: everything step 7 of the skill asks for, the step 6 results as step 6.5 defines them, the disputed cases, the decision entries, and one recommendation under the rule that audit/ISSUE.md recorded before the review. Where a finding's share of verdicts is not measured, say what would measure it, as step 7 allows.
+3. Only then do further analysis you judge worth its cost, and update audit/AUDIT.md and audit/ISSUE.md after each piece, so that the report is complete whenever the session ends. Say in the report which numbers and findings were computed after the review labels were read.
+4. Rerun the fixture tests, and check that every command the report gives runs and prints what the report says.
+
+Write AUDIT.md, ISSUE.md and scripts in plain English: every sentence should parse on first read, name exact things, and say a fact once.
+
+When you stop, end with a short summary as your final message: what is done, where the files are, what is left, and anything in the skill's text that was unclear or that you had to work around.
