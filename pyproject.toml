@@ -30,6 +30,8 @@ ignore = ["F722", "B008", "UP015", "UP046", "UP047", "A005", "E741"]
 # Task statements and reference solutions are data literals that the builders write into the cases unchanged.
 "keys/tools/build_toycode_data.py" = ["E501"]
 "keys/tools/build_toyjson.py" = ["E501"]
+# The IFBench score card's hand-made mapping is kept exactly as written for the run.
+"keys/tools/ifbench/ifbench_scorecard.py" = ["E501"]
 
 [tool.black]
 line-length = 121
