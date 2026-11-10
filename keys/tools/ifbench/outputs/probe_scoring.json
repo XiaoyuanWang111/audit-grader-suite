@@ -1,0 +1,360 @@
+[
+ {
+  "tag": "F27 flag",
+  "check": "format:emoji",
+  "key": "65",
+  "kwargs": {},
+  "response": "I love it. 🇺🇸",
+  "expect_by_text": "pass",
+  "note": "a flag is one emoji",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "fail"
+ },
+ {
+  "tag": "F27 flag control",
+  "check": "format:emoji",
+  "key": "65",
+  "kwargs": {},
+  "response": "I love it. 😀",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F27 keycap",
+  "check": "format:emoji",
+  "key": "65",
+  "kwargs": {},
+  "response": "Done. 1️⃣",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "fail"
+ },
+ {
+  "tag": "F27 emoji then letter",
+  "check": "format:emoji",
+  "key": "65",
+  "kwargs": {},
+  "response": "Smile 😀x",
+  "expect_by_text": "fail",
+  "note": "the sentence ends in a letter",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "fail"
+ },
+ {
+  "tag": "F32 curly quotes",
+  "check": "words:prime_lengths",
+  "key": "247",
+  "kwargs": {},
+  "response": "“Hi”",
+  "expect_by_text": "pass",
+  "note": "Hi has length 2",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F32 control",
+  "check": "words:prime_lengths",
+  "key": "247",
+  "kwargs": {},
+  "response": "Hi",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F32 straight quotes",
+  "check": "words:prime_lengths",
+  "key": "247",
+  "kwargs": {},
+  "response": "\"Hi\"",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F40 comma",
+  "check": "words:last_first",
+  "key": "219",
+  "kwargs": {},
+  "response": "Life needs extreme conditions. Conditions, such as heat, shape life.",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F40 control",
+  "check": "words:last_first",
+  "key": "219",
+  "kwargs": {},
+  "response": "Life needs extreme conditions. Conditions such as heat shape life.",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F42 list number",
+  "check": "words:words_position",
+  "key": "14",
+  "kwargs": {
+   "keyword": "vibrant"
+  },
+  "response": "1. Colors vibrant fill a vibrant room.",
+  "expect_by_text": "pass",
+  "note": "decision-dependent in the earlier key (are list numbers words?)",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "fail"
+ },
+ {
+  "tag": "F42 control",
+  "check": "words:words_position",
+  "key": "14",
+  "kwargs": {
+   "keyword": "vibrant"
+  },
+  "response": "Colors vibrant fill a vibrant room.",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F43 emoji list labels",
+  "check": "format:emoji",
+  "key": "65",
+  "kwargs": {},
+  "response": "1. Plant a tree. 🌳\n2. Water it daily. 💧",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F43 emoji control",
+  "check": "format:emoji",
+  "key": "65",
+  "kwargs": {},
+  "response": "Plant a tree. 🌳\nWater it daily. 💧",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F43 keyword third sentence",
+  "check": "sentence:keyword",
+  "key": "71",
+  "kwargs": {
+   "N": 3.0,
+   "word": "owls"
+  },
+  "response": "1. Cats purr.\n2. Dogs bark.\n3. Owls hoot.",
+  "expect_by_text": "pass",
+  "note": "the third sentence is 'Owls hoot.'",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F43 keyword control",
+  "check": "sentence:keyword",
+  "key": "71",
+  "kwargs": {
+   "N": 3.0,
+   "word": "owls"
+  },
+  "response": "Cats purr. Dogs bark. Owls hoot.",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-indent-blank-lines two blanks",
+  "check": "format:line_indent",
+  "key": "73",
+  "kwargs": {},
+  "response": "a\n\n\n  b\n    c",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-indent-blank-lines one blank",
+  "check": "format:line_indent",
+  "key": "73",
+  "kwargs": {},
+  "response": "a\n\n  b\n    c",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-indent-blank-lines control",
+  "check": "format:line_indent",
+  "key": "73",
+  "kwargs": {},
+  "response": "a\n  b\n    c",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "csv_quotes prompt head",
+  "prompt_head": "Generate CSV data: The column names are [\"StudentID\", \"Subject\", \"Grade\", \"Semester\", \"Score\"], the data should be tab delimited. Please generate 3 rows and enclose each single field in double quotes."
+ },
+ {
+  "tag": "F-africa-numbering numbered",
+  "check": "custom:reverse_newline",
+  "key": "281",
+  "kwargs": {},
+  "response": "1. Zimbabwe\n2. Zambia\n3. Uganda\n4. Tunisia\n5. Togo\n6. Tanzania\n7. Sudan\n8. South Sudan\n9. South Africa\n10. Somalia\n11. Sierra Leone\n12. Seychelles\n13. Senegal\n14. Sao Tome and Principe\n15. Rwanda\n16. Republic of the Congo\n17. Nigeria\n18. Niger\n19. Namibia\n20. Mozambique\n21. Morocco\n22. Mauritius\n23. Mauritania\n24. Mali\n25. Malawi\n26. Madagascar\n27. Libya\n28. Liberia\n29. Lesotho\n30. Kenya\n31. Ivory Coast\n32. Guinea-Bissau\n33. Guinea\n34. Ghana\n35. Gambia\n36. Gabon\n37. Ethiopia\n38. Eswatini\n39. Eritrea\n40. Equatorial Guinea\n41. Egypt\n42. Djibouti\n43. Democratic Republic of the Congo\n44. Comoros\n45. Chad\n46. Central African Republic\n47. Cape Verde\n48. Cameroon\n49. Burundi\n50. Burkina Faso\n51. Botswana\n52. Benin\n53. Angola\n54. Algeria",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-africa-numbering plain",
+  "check": "custom:reverse_newline",
+  "key": "281",
+  "kwargs": {},
+  "response": "Zimbabwe\nZambia\nUganda\nTunisia\nTogo\nTanzania\nSudan\nSouth Sudan\nSouth Africa\nSomalia\nSierra Leone\nSeychelles\nSenegal\nSao Tome and Principe\nRwanda\nRepublic of the Congo\nNigeria\nNiger\nNamibia\nMozambique\nMorocco\nMauritius\nMauritania\nMali\nMalawi\nMadagascar\nLibya\nLiberia\nLesotho\nKenya\nIvory Coast\nGuinea-Bissau\nGuinea\nGhana\nGambia\nGabon\nEthiopia\nEswatini\nEritrea\nEquatorial Guinea\nEgypt\nDjibouti\nDemocratic Republic of the Congo\nComoros\nChad\nCentral African Republic\nCape Verde\nCameroon\nBurundi\nBurkina Faso\nBotswana\nBenin\nAngola\nAlgeria",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-lastfirst-quotes",
+  "check": "words:last_first",
+  "key": "219",
+  "kwargs": {},
+  "response": "Saturn has \"clouds.\" Clouds form ice.",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-lastfirst-quotes period outside",
+  "check": "words:last_first",
+  "key": "219",
+  "kwargs": {},
+  "response": "Saturn has \"clouds\". Clouds form ice.",
+  "expect_by_text": "pass",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-japanese-skip-tokens hyphen at 5",
+  "check": "count:words_japanese",
+  "key": "47",
+  "kwargs": {
+   "N": 5.0
+  },
+  "response": "One two three four - five six seven eight 日本",
+  "expect_by_text": "fail",
+  "note": "the fifth word is '-' or 'five'; neither is Japanese",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "fail"
+ },
+ {
+  "tag": "F-japanese-skip-tokens control",
+  "check": "count:words_japanese",
+  "key": "47",
+  "kwargs": {
+   "N": 5.0
+  },
+  "response": "One two three four five six seven eight nine 日本",
+  "expect_by_text": "fail",
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "fail"
+ },
+ {
+  "tag": "F-noconsec-digits",
+  "check": "words:no_consecutive",
+  "key": "87",
+  "kwargs": {},
+  "response": "Open talk on 10 11 topics helps.",
+  "expect_by_text": null,
+  "note": "are numbers words with a first letter?",
+  "grader": "fail",
+  "reference": "fail",
+  "grader_loose": "fail",
+  "replacement": "pass"
+ },
+ {
+  "tag": "F-pronouns-determiners",
+  "check": "count:pronouns",
+  "key": "30",
+  "kwargs": {
+   "N": 5.0
+  },
+  "response": "This book, that pen, these cups, those hats, and all bags are here.",
+  "expect_by_text": null,
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "grader_loose": "pass",
+  "replacement": "fail"
+ }
+]

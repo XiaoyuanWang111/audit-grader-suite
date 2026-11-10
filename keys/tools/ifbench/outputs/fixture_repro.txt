@@ -1,0 +1,167 @@
+{
+ "fixtures": 277,
+ "fixtures_data_sha256": "83a72102d676fc9427e530e813dcad0f06574ccd3c93f43211ce304679c5d34a",
+ "replacement_sha256": "fb9185b8107cc3c6a4e4bd4acfe3ac425a7e5a08b39e69ab9036365ce01ad023",
+ "grader_wrong": 84,
+ "reference_wrong": 75,
+ "replacement_wrong": 0,
+ "grader_exceptions": 0,
+ "recorded_grader_nonempty": 84,
+ "recorded_vs_observed_grader_mismatch": [],
+ "recorded_vs_observed_reference_mismatch": []
+}
+
+Fixtures the audit records as wrong on the grader, by recorded reason (finding id, or decision ids):
+reason                                         n repro ref wrong loose pass  checks
+F-africa-numbering                             1     1         1          0  custom:reverse_newline
+F-alliteration-sum                             1     1         1          1  sentence:alliteration_increment
+F-alphabet-story-quote                         1     1         0          0  custom:sentence_alphabet
+F-capitals-kyiv                                1     1         1          0  custom:european_capitals_sort
+F-charrev-substring                            1     1         1          1  custom:character_reverse
+F-conj-surface-forms                           1     1         1          1  count:conjunctions
+F-csvspecial-early-return                      1     1         1          1  custom:csv_special_character
+F-dates-invalid                                1     1         1          1  custom:date_format_list
+F-indent-tabs                                  1     1         1          1  format:line_indent
+F-japanese-skip-tokens                         1     1         1          1  count:words_japanese
+F-lastfirst-quotes                             1     1         1          0  words:last_first
+F-list-anywhere                                1     1         1          1  format:list
+F-mcq-label-number                             1     1         1          0  custom:mcq_count_length
+F-nbb-blank-line                               1     1         1          0  format:no_bullets_bullets
+F-nbb-period                                   1     1         1          1  format:no_bullets_bullets
+F-nbb-trailing-text                            1     1         1          1  format:no_bullets_bullets
+F-newline-blank-offset                         1     1         1          1  format:newline
+F-noconsec-digits                              1     1         1          0  words:no_consecutive
+F-numbers-joined                               1     1         1          0  count:numbers
+F-options-case                                 1     1         1          0  format:options
+F-options-whitespace                           3     3         3          2  format:options
+F-paralastfirst-comma                          1     1         1          0  words:paragraph_last_first
+F-position-contractions                        1     1         1          0  words:keywords_specific_position
+F-pronouns-determiners                         1     1         1          1  count:pronouns
+F-punct-six-marks                              1     1         1          1  count:punctuation
+F-quote-curly                                  1     1         1          1  format:quote_unquote
+F-quotes-apostrophe                            1     1         1          1  format:quotes
+F-quotes-curly                                 1     1         1          0  format:quotes
+F-ratio-quote-endings                          2     2         2          2  ratio:sentence_balance, ratio:sentence_type
+F-repeatchange-whitespace                      1     1         1          1  repeat:repeat_change
+F-sentwords-no-word-check                      1     1         0          1  ratio:sentence_words
+F-span-characters                              3     3         0          1  repeat:repeat_span
+F-startverb-markup                             1     1         1          0  words:start_verb
+F-startverb-tagger                             3     3         3          0  words:start_verb
+F-stopwords-contractions                       1     1         1          0  ratio:stop_words
+F-subbullets-any-hyphen                        1     1         1          1  format:sub-bullets
+F-subbullets-bold                              1     1         1          1  format:sub-bullets
+F-subbullets-none                              1     1         1          1  format:sub-bullets
+F-template-presence-only                       2     2         2          2  format:output_template
+F-thesis-anywhere                              1     1         1          1  format:thesis
+F-title-contraction                            1     1         1          0  format:title_case
+F-wordcount-contractions                       1     1         1          0  count:word_count_range
+F-wordrev-mixed                                1     1         1          1  custom:word_reverse
+F-wordspos-comma                               1     1         0          0  words:words_position
+D-conj                                         1     1         1          1  count:conjunctions
+D-csv                                          2     2         2          2  custom:csv_city, custom:csv_special_character
+D-custom-facts                                 3     3         3          2  custom:date_format_list, custom:european_capitals_sort, custom:reverse_newline
+D-indent                                       1     1         1          1  format:line_indent
+D-match                                        2     2         0          1  count:keywords_multiple
+D-options                                      1     1         1          0  format:options
+D-overlap                                      1     1         0          0  ratio:overlap
+D-palindrome                                   2     2         2          2  words:palindrome
+D-paragraph                                    1     1         1          1  words:vowel
+D-paren                                        1     1         1          1  format:parentheses
+D-punct-set                                    1     1         1          1  count:punctuation
+D-repeat-change                                1     1         1          1  repeat:repeat_change
+D-section                                      1     1         1          1  format:thesis
+D-sentence                                     1     1         1          0  sentence:keyword
+D-subbullet                                    1     1         1          1  format:sub-bullets
+D-template                                     1     1         1          1  format:output_template
+D-title                                        1     1         1          0  format:title_case
+D-vacuous                                      7     7         7          7  count:words_japanese, format:quote_unquote, ratio:sentence_balance, ratio:sentence_type, sentence:alliteration_increment, sentence:increment, words:last_first
+D-word                                         3     3         3          1  count:unique_word_count, words:alphabet, words:consonants
+
+Per fixture (grader wrong only):
+count:conjunctions-81617dea                          label=fail grader=pass ref=pass kind=defect     [F-conj-surface-forms] dec= | only 'and' in three surface forms (case, trailing comma)
+count:conjunctions-92324be3                          label=fail grader=pass ref=pass kind=decision   [D-conj] dec=D-conj | 'for' is a preposition here
+count:keywords_multiple-ba9045b7                     label=fail grader=pass ref=fail kind=near-miss  [D-match] dec=D-match | one of the seven is the plural 'rivers'
+count:keywords_multiple-8f4cdf23                     label=pass grader=fail ref=pass kind=decision   [D-match] dec=D-match | 'doorway' contains 'door' as a substring
+count:numbers-18e30b2e                               label=pass grader=fail ref=fail kind=defect     [F-numbers-joined] dec= | two numbers joined by a hyphen
+count:pronouns-776a2e0f                              label=fail grader=pass ref=pass kind=defect     [F-pronouns-determiners] dec= | five determiners, no pronoun
+count:punctuation-601839ea                           label=fail grader=pass ref=pass kind=defect     [F-punct-six-marks] dec= | only . , ? ! ; : and ?!
+count:punctuation-2ba5fd3d                           label=fail grader=pass ref=pass kind=decision   [D-punct-set] dec=D-punct-set | core marks only
+count:unique_word_count-77f42fdc                     label=fail grader=pass ref=pass kind=decision   [D-word] dec=D-word | 35 words and a standalone hyphen
+count:word_count_range-1cde9d43                      label=pass grader=fail ref=fail kind=defect     [F-wordcount-contractions] dec= | 27 words, two contractions
+count:words_japanese-b951151d                        label=fail grader=pass ref=pass kind=defect     [F-japanese-skip-tokens] dec= | a standalone hyphen holds position 5 and is skipped
+count:words_japanese-5ba47b0e                        label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | fewer than N words
+custom:character_reverse-20633f9c                    label=fail grader=pass ref=pass kind=defect     [F-charrev-substring] dec= | normal-order answer plus a reversed copy
+custom:csv_city-71a8e457                             label=pass grader=fail ref=fail kind=decision   [D-csv] dec=D-csv | 
+custom:csv_special_character-b608c558                label=fail grader=pass ref=pass kind=decision   [D-csv] dec=D-csv | two special fields
+custom:csv_special_character-5af2501d                label=fail grader=pass ref=pass kind=defect     [F-csvspecial-early-return] dec= | row 5 has six fields
+custom:date_format_list-8e75a21f                     label=fail grader=pass ref=pass kind=defect     [F-dates-invalid] dec= | month 00 and day 00
+custom:date_format_list-0ac37afd                     label=pass grader=fail ref=fail kind=decision   [D-custom-facts] dec=D-custom-facts | 
+custom:european_capitals_sort-75101278               label=pass grader=fail ref=fail kind=pass       [F-capitals-kyiv] dec= | all capitals north of 45 N, Kyiv included
+custom:european_capitals_sort-8545e311               label=fail grader=pass ref=pass kind=near-miss  [D-custom-facts] dec=D-custom-facts | Kyiv missing
+custom:mcq_count_length-05811cfb                     label=pass grader=fail ref=fail kind=defect     [F-mcq-label-number] dec= | label without a number
+custom:reverse_newline-a8b76fa4                      label=pass grader=fail ref=fail kind=defect     [F-africa-numbering] dec= | numbered list
+custom:reverse_newline-0997043c                      label=fail grader=pass ref=pass kind=decision   [D-custom-facts] dec=D-custom-facts | 52 made-up names in reverse order after Zimbabwe
+custom:sentence_alphabet-bfdf2432                    label=pass grader=fail ref=pass kind=defect     [F-alphabet-story-quote] dec= | sentence 2 opens with a quotation mark
+custom:word_reverse-babe3eb6                         label=fail grader=pass ref=pass kind=defect     [F-wordrev-mixed] dec= | normal-order answer plus a reversed copy
+format:line_indent-a53546b9                          label=pass grader=fail ref=fail kind=decision   [D-indent] dec=D-indent | two blank lines
+format:line_indent-66b6dfe6                          label=pass grader=fail ref=fail kind=defect     [F-indent-tabs] dec= | tab indentation
+format:list-ba07ac37                                 label=fail grader=pass ref=pass kind=defect     [F-list-anywhere] dec= | no list; two hyphenated words
+format:newline-70967df1                              label=fail grader=pass ref=pass kind=defect     [F-newline-blank-offset] dec= | a space-only line offsets a two-word line
+format:no_bullets_bullets-f3697474                   label=pass grader=fail ref=fail kind=defect     [F-nbb-blank-line] dec= | blank line between the bullets
+format:no_bullets_bullets-371f2417                   label=fail grader=pass ref=pass kind=defect     [F-nbb-period] dec= | no sentence ends in a period
+format:no_bullets_bullets-1e4e8bf9                   label=pass grader=fail ref=fail kind=defect     [F-nbb-trailing-text] dec= | a closing sentence after the bullets
+format:options-e705e191                              label=pass grader=fail ref=fail kind=defect     [F-options-case] dec= | upper-case option label
+format:options-db41d773                              label=pass grader=fail ref=fail kind=defect     [F-options-whitespace] dec= | trailing newline
+format:options-7015982d                              label=pass grader=fail ref=fail kind=defect     [F-options-whitespace] dec= | trailing newline
+format:options-2518151c                              label=pass grader=fail ref=fail kind=defect     [F-options-whitespace] dec= | one word per line, as prompt 105 also asks
+format:options-ff170446                              label=pass grader=fail ref=fail kind=decision   [D-options] dec=D-options | 
+format:output_template-c1479850                      label=fail grader=pass ref=pass kind=defect     [F-template-presence-only] dec= | labels out of order
+format:output_template-3e0e9872                      label=fail grader=pass ref=pass kind=defect     [F-template-presence-only] dec= | placeholders left in
+format:output_template-163aa5cd                      label=fail grader=pass ref=pass kind=decision   [D-template] dec=D-template | 
+format:parentheses-fdb0f3e2                          label=fail grader=pass ref=pass kind=decision   [D-paren] dec=D-paren | five opened, one closed
+format:quote_unquote-09271858                        label=fail grader=pass ref=pass kind=defect     [F-quote-curly] dec= | curly quotes, quote at the end
+format:quote_unquote-89d37588                        label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | 
+format:quotes-986acc3a                               label=fail grader=pass ref=pass kind=defect     [F-quotes-apostrophe] dec= | apostrophes taken as quote marks
+format:quotes-ba7df411                               label=pass grader=fail ref=fail kind=defect     [F-quotes-curly] dec= | curly quotes
+format:sub-bullets-68bc3978                          label=fail grader=pass ref=pass kind=fail       [F-subbullets-none] dec= | no bullets at all
+format:sub-bullets-eac31626                          label=fail grader=pass ref=pass kind=defect     [F-subbullets-any-hyphen] dec= | second bullet has a hyphenated word, no sub-bullet
+format:sub-bullets-e7564723                          label=pass grader=fail ref=fail kind=defect     [F-subbullets-bold] dec= | bold heading
+format:sub-bullets-e251589d                          label=fail grader=pass ref=pass kind=decision   [D-subbullet] dec=D-subbullet | 
+format:thesis-0be7ab4a                               label=fail grader=pass ref=pass kind=defect     [F-thesis-anywhere] dec= | italics only inside the second paragraph
+format:thesis-45642781                               label=fail grader=pass ref=pass kind=decision   [D-section] dec=D-section | 
+format:title_case-7e1644e9                           label=pass grader=fail ref=fail kind=decision   [D-title] dec=D-title | 
+format:title_case-66236ed6                           label=pass grader=fail ref=fail kind=defect     [F-title-contraction] dec= | contraction
+ratio:overlap-21822410                               label=pass grader=fail ref=pass kind=decision   [D-overlap] dec=D-overlap | 5 of 38 distinct response word trigrams (13.2%) occur in the reference
+ratio:sentence_balance-06d14a8d                      label=fail grader=pass ref=pass kind=defect     [F-ratio-quote-endings] dec= | 2:1:0, every sentence ends with a closing quote
+ratio:sentence_balance-17318054                      label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | no typed sentence
+ratio:sentence_type-7d8c6c99                         label=fail grader=pass ref=pass kind=defect     [F-ratio-quote-endings] dec= | 3:0, closing quotes
+ratio:sentence_type-a42ff8af                         label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | 
+ratio:sentence_words-65a6de4b                        label=fail grader=pass ref=fail kind=defect     [F-sentwords-no-word-check] dec= | equal lengths, repeated words
+ratio:stop_words-796f0c51                            label=pass grader=fail ref=fail kind=defect     [F-stopwords-contractions] dec= | 1 stop word (doesn't) of 6 words
+repeat:repeat_change-14044665                        label=fail grader=pass ref=pass kind=defect     [F-repeatchange-whitespace] dec= | first word unchanged, trailing newline
+repeat:repeat_change-b3ef6f36                        label=fail grader=pass ref=pass kind=decision   [D-repeat-change] dec=D-repeat-change | case-only change
+repeat:repeat_span-f5668efe                          label=pass grader=fail ref=pass kind=pass       [F-span-characters] dec= | 
+repeat:repeat_span-da49c6f3                          label=fail grader=pass ref=fail kind=defect     [F-span-characters] dec= | the grader's character slice
+repeat:repeat_span-022a9cb5                          label=pass grader=fail ref=pass kind=pass       [F-span-characters] dec= | 
+sentence:alliteration_increment-f060bd4c             label=fail grader=pass ref=pass kind=defect     [F-alliteration-sum] dec= | runs 4 then 3; the grader adds up two runs (2+3)
+sentence:alliteration_increment-2bf27e0e             label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | 
+sentence:increment-2c0d1fa0                          label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | 
+sentence:keyword-ba93a55f                            label=pass grader=fail ref=fail kind=decision   [D-sentence] dec=D-sentence | 
+words:alphabet-ac27a38c                              label=pass grader=fail ref=fail kind=decision   [D-word] dec=D-word | spaced em dash
+words:consonants-35ed0abf                            label=pass grader=fail ref=fail kind=decision   [D-word] dec=D-word | 
+words:keywords_specific_position-5d6232b7            label=pass grader=fail ref=fail kind=defect     [F-position-contractions] dec= | a contraction before the keyword
+words:last_first-b94487b1                            label=pass grader=fail ref=fail kind=defect     [F-lastfirst-quotes] dec= | closing quote
+words:last_first-547d7349                            label=fail grader=pass ref=pass kind=decision   [D-vacuous] dec=D-vacuous | 
+words:no_consecutive-3f7dfb90                        label=pass grader=fail ref=fail kind=defect     [F-noconsec-digits] dec= | adjacent numbers
+words:palindrome-cb71a40c                            label=fail grader=pass ref=pass kind=decision   [D-palindrome] dec=D-palindrome | 
+words:palindrome-0b80ef50                            label=fail grader=pass ref=pass kind=decision   [D-palindrome] dec=D-palindrome | 
+words:paragraph_last_first-9ba4900d                  label=pass grader=fail ref=fail kind=defect     [F-paralastfirst-comma] dec= | comma after the first word
+words:start_verb-4239f418                            label=pass grader=fail ref=fail kind=pass       [F-startverb-tagger] dec= | the tagger reads 'Imagine' as a proper noun
+words:start_verb-f0af03a0                            label=pass grader=fail ref=fail kind=defect     [F-startverb-markup] dec= | bold first word
+words:start_verb-92841d44                            label=pass grader=fail ref=fail kind=defect     [F-startverb-tagger] dec= | tagger reads 'Build' as a proper noun
+words:start_verb-d6b959c7                            label=pass grader=fail ref=fail kind=defect     [F-startverb-tagger] dec= | tagger reads 'Explore' as a preposition
+words:vowel-f01e48fd                                 label=pass grader=fail ref=fail kind=decision   [D-paragraph] dec=D-paragraph | single line break
+words:words_position-bd6267af                        label=pass grader=fail ref=pass kind=defect     [F-wordspos-comma] dec= | comma after the first word
+
+checks with fixtures: 58; fewest fixtures: [('ratio:overlap', 2), ('words:odd_even_syllables', 3), ('words:repeats', 3), ('count:pronouns', 4), ('custom:character_reverse', 4), ('custom:csv_city', 4), ('custom:csv_quotes', 4), ('custom:european_capitals_sort', 4)]
+kinds: {'pass': 68, 'fail': 57, 'near-miss': 62, 'defect': 47, 'decision': 43}

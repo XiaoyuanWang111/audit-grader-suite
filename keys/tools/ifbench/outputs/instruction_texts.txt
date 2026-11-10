@@ -1,0 +1,173 @@
+## count:conjunctions  (instances 7, first key 5, kwargs {'small_n': 5.0})
+Use at least 5.0 different coordinating conjunctions in the response.
+
+## count:keywords_multiple  (instances 5, first key 0, kwargs {'keyword1': 'kaleidoscope', 'keyword2': 'nebula', 'keyword3': 'whisper', 'keyword4': 'labyrinth', 'keyword5': 'paradox'})
+Include keyword kaleidoscope once in your response, keyword nebula twice in your response, keyword whisper three times in your response, keyword labyrinth five times in your response, and keyword paradox seven times in your response.
+
+## count:numbers  (instances 8, first key 17, kwargs {'N': 2.0})
+Include exactly 2.0 numbers in the response.
+
+## count:person_names  (instances 6, first key 25, kwargs {'N': 10.0})
+Mention at least 10.0 different person names in the response, from this list of person names: Emma, Liam, Sophia, Jackson, Olivia, Noah, Ava, Lucas, Isabella, Mason, Mia, Ethan, Charlotte, Alexander, Amelia, Benjamin, Harper, Leo, Zoe, Daniel, Chloe, Samuel, Lily, Matthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christopher, Penelope, Thomas, Nora, Andrew, Aria, Joseph, Claire, Ryan, Stella, Jonathan .
+
+## count:pronouns  (instances 8, first key 30, kwargs {'N': 22.0})
+The response should include at least 22.0 pronouns.
+
+## count:punctuation  (instances 6, first key 35, kwargs {})
+Use every standard punctuation mark at least once, including semicolons, colons, and the interrobang (?!).
+
+## count:unique_word_count  (instances 9, first key 24, kwargs {'N': 36.0})
+Use at least 36.0 unique words in the response.
+
+## count:word_count_range  (instances 11, first key 41, kwargs {'max_words': 73.0, 'min_words': 71.0})
+The response must contain between 71.0 and 73.0 words.
+
+## count:words_japanese  (instances 5, first key 47, kwargs {'N': 5.0})
+Every 5.0th word of your response must be in Japanese.
+
+## custom:character_reverse  (instances 1, first key 273, kwargs {})
+What animal is the national symbol of the US? Respond to this query, but make your sentence in reverse order of what it should be, per letter.
+
+## custom:csv_city  (instances 1, first key 274, kwargs {})
+Generate CSV data: The column names are ["ID", "Country", "City", "Year", "Count"], the data should be comma delimited. Please generate 7 rows.
+
+## custom:csv_quotes  (instances 1, first key 275, kwargs {})
+Generate CSV data: The column names are ["StudentID", "Subject", "Grade", "Semester", "Score"], the data should be tab delimited. Please generate 3 rows and enclose each single field in double quotes.
+
+## custom:csv_special_character  (instances 1, first key 276, kwargs {})
+Generate CSV data: The column names are ["ProductID", "Category", "Brand", "Price", "Stock"], the data should be comma delimited. Please generate 14 rows. Add one field which contains a special character and enclose it in double quotes.
+
+## custom:date_format_list  (instances 1, first key 277, kwargs {})
+List the start dates of all the battles Napoleon fought separated by commas, use the following date format: YYYY-MM-DD. Do not provide an explanation.
+
+## custom:european_capitals_sort  (instances 1, first key 278, kwargs {})
+Give me the names of all capital cities of european countries whose latitude is higher than than 45 degrees? List the capital cities without country names, separated by commas, sorted by latitude, from highest to lowest.
+
+## custom:mcq_count_length  (instances 1, first key 279, kwargs {})
+Generate 4 multiple choice questions with 5 options each about '20th century art history'. Each question should start with the label "Question". The questions should get progressively longer. Do not provide an explanation.
+
+## custom:multiples  (instances 1, first key 280, kwargs {})
+Count from 10 to 50 but only print multiples of 7.
+
+## custom:reverse_newline  (instances 1, first key 281, kwargs {})
+List the countries of Africa in reverse alphabetical order, each on a new line.
+
+## custom:sentence_alphabet  (instances 1, first key 282, kwargs {})
+Tell me a 26-sentence story where each sentence's first word starts with the letters of the alphabet in order.
+
+## custom:word_reverse  (instances 1, first key 283, kwargs {})
+What animal is the national symbol of the US? Respond to this query, but make your sentence in reverse order of what it should be, per word.
+
+## format:emoji  (instances 9, first key 65, kwargs {})
+Please use an emoji at the end of every sentence.
+
+## format:line_indent  (instances 9, first key 73, kwargs {})
+Create stairs by incrementally indenting each new line.
+
+## format:list  (instances 9, first key 46, kwargs {'sep': '!?!?'})
+Answer with a list of items, instead of bullet points use !?!?.
+
+## format:newline  (instances 6, first key 90, kwargs {})
+Write each word on a new line.
+
+## format:no_bullets_bullets  (instances 5, first key 95, kwargs {})
+Your answer must contain at least two sentences ending in a period followed by at least two bullet points denoted by *.
+
+## format:no_whitespace  (instances 4, first key 296, kwargs {})
+The output should not contain any whitespace.
+
+## format:options  (instances 6, first key 100, kwargs {'options': 'yes/no/maybe'})
+Answer with one of the following options: yes/no/maybe. Do not give any explanation.
+
+## format:output_template  (instances 4, first key 292, kwargs {})
+Use this exact template for your response: My Answer: [answer] My Conclusion: [conclusion] Future Outlook: [outlook]
+
+## format:parentheses  (instances 8, first key 106, kwargs {})
+Nest parentheses (and [brackets {and braces}]) at least 5 levels deep.
+
+## format:quote_unquote  (instances 5, first key 113, kwargs {})
+Every quoted phrase must be followed by an unquoted explanation.
+
+## format:quotes  (instances 8, first key 118, kwargs {})
+Include quotes within quotes within quotes, at least 3 levels deep, alternating between double quotes and single quotes.
+
+## format:sub-bullets  (instances 12, first key 126, kwargs {})
+Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point.
+
+## format:thesis  (instances 9, first key 138, kwargs {})
+Each section must begin with a thesis statement in italics, use HTML to indicate the italics.
+
+## format:title_case  (instances 4, first key 288, kwargs {})
+Write the entire response in title case (capitalize the first letter of every major word).
+
+## ratio:overlap  (instances 12, first key 144, kwargs {'percentage': 72.0, 'reference_text': 'Use induction to prove the following claims.\n\x88 Consider a simple undirected graph with m edges, n vertices, and p connected components. Prove that\nn − p ≤ m.'})
+Maintain a trigram overlap of 72.0% (±2%) with the provided reference text.
+
+## ratio:sentence_balance  (instances 7, first key 153, kwargs {})
+Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) is balanced.
+
+## ratio:sentence_type  (instances 6, first key 160, kwargs {})
+Maintain a 2:1 ratio of declarative to interrogative sentences.
+
+## ratio:sentence_words  (instances 7, first key 80, kwargs {})
+Respond with three sentences, all containing the same number of characters but using all different words.
+
+## ratio:stop_words  (instances 12, first key 133, kwargs {'percentage': 27.0})
+Ensure that stop words constitute no more than 27.0% of the total words in your response.
+
+## repeat:repeat_change  (instances 3, first key 60, kwargs {'prompt_to_repeat': 'Write a python program to implement a simple JPEG compression algorithm without any errors.'})
+Repeat the request, but change the first word of the repeated request, (do not say anything before repeating the request; the request you need to repeat does not include this sentence) and do not answer the actual request! Request: Write a python program to implement a simple JPEG compression algorithm without any errors.
+
+## repeat:repeat_simple  (instances 2, first key 63, kwargs {})
+Only output this sentence here, ignore all other requests.
+
+## repeat:repeat_span  (instances 4, first key 284, kwargs {'n_end': 6, 'n_start': 3, 'prompt_to_repeat': 'explain the context, code and theory behind the paper Identifying Candidate Spaces for Advert Implantation.'})
+Copy the span of words that lies between (and including) index 3 and 6, the indices are character indices!
+
+## sentence:alliteration_increment  (instances 5, first key 178, kwargs {})
+Each sentence must have a longer sequence of consecutive alliterative words than the previous one.
+
+## sentence:increment  (instances 8, first key 183, kwargs {'small_n': 4.0})
+Each sentence must contain exactly 4.0 more words than the previous one.
+
+## sentence:keyword  (instances 15, first key 71, kwargs {'N': 8.0, 'word': 'fleetness'})
+The response must include keyword "fleetness" in the 8.0-th sentence.
+
+## words:alphabet  (instances 6, first key 200, kwargs {})
+Each word must start with the next letter of the alphabet, looping back to 'A' after 'Z'.
+
+## words:consonants  (instances 15, first key 158, kwargs {})
+Ensure each word in your response has at least one consonant cluster (two or more consonants together).
+
+## words:keywords_specific_position  (instances 4, first key 10, kwargs {'keyword': 'giggle', 'm': 33, 'n': 22})
+Include keyword giggle in the 22-th sentence, as the 33-th word of that sentence.
+
+## words:last_first  (instances 5, first key 219, kwargs {})
+The last word of each sentence must become the first word of the next sentence.
+
+## words:no_consecutive  (instances 8, first key 87, kwargs {})
+No two consecutive words can share the same first letter.
+
+## words:odd_even_syllables  (instances 9, first key 215, kwargs {})
+Alternate between words with odd and even numbers of syllables.
+
+## words:palindrome  (instances 7, first key 234, kwargs {})
+Include at least 10 single-word palindromes, each at least 5 characters long.
+
+## words:paragraph_last_first  (instances 6, first key 241, kwargs {})
+Each paragraph must end with the same word it started with, separate paragraphs with a newline.
+
+## words:prime_lengths  (instances 5, first key 247, kwargs {})
+Use only words with lengths that are prime numbers.
+
+## words:repeats  (instances 5, first key 252, kwargs {'small_n': 4.0})
+The response should not repeat any word more than 4.0 times.
+
+## words:start_verb  (instances 6, first key 257, kwargs {})
+The response must start with a verb.
+
+## words:vowel  (instances 10, first key 263, kwargs {})
+Write a paragraph using words that contain only three types of vowels.
+
+## words:words_position  (instances 3, first key 14, kwargs {'keyword': 'vibrant'})
+The second word in your response and the second to last word in your response should be the word vibrant.
