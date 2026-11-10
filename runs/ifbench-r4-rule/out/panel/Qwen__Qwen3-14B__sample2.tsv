@@ -1,0 +1,345 @@
+key	j	check	finish	flags	g	gi	gl	gli	r	rl	x	xg
+0	0	count:keywords_multiple	stop		False	False	False	False	False	False	False	False
+1	0	count:keywords_multiple	stop		True	True	True	True	True	True	True	True
+2	0	count:keywords_multiple	length	T	False	False	False	False	False	False	False	False
+3	0	count:keywords_multiple	stop		False	False	False	False	False	False	False	False
+4	0	count:keywords_multiple	stop		False	False	False	False	False	False	False	False
+5	0	count:conjunctions	stop		True	True	True	True	True	True	False	False
+6	0	count:conjunctions	stop		True	True	True	True	True	True	True	True
+7	0	count:conjunctions	stop		True	True	True	True	True	True	True	True
+8	0	count:conjunctions	stop		True	True	True	True	True	True	False	True
+9	0	count:conjunctions	stop		True	True	True	True	True	True	False	True
+10	0	words:keywords_specific_position	stop		EXC:TypeError	False	EXC:TypeError	False	False	False	False	False
+11	0	words:keywords_specific_position	stop		EXC:TypeError	False	EXC:TypeError	False	False	False	False	False
+12	0	words:keywords_specific_position	stop		False	False	False	False	False	False	False	False
+13	0	words:keywords_specific_position	stop		False	False	False	False	False	False	False	False
+14	0	words:words_position	stop		False	False	False	False	False	False	False	False
+15	0	words:words_position	stop		False	False	False	False	False	False	False	False
+16	0	words:words_position	stop		False	False	False	False	False	False	False	False
+17	0	count:numbers	stop		True	True	True	True	True	True	True	True
+18	0	count:numbers	stop		True	True	True	True	True	True	True	True
+19	0	count:numbers	stop		False	False	False	False	False	False	False	False
+20	0	count:numbers	stop		True	True	True	True	True	True	True	True
+21	0	count:numbers	stop		True	True	True	True	True	True	True	True
+22	0	count:numbers	stop		False	False	False	False	False	False	False	False
+22	1	count:conjunctions	stop		True	True	True	True	True	True	False	False
+23	0	count:numbers	stop		True	True	True	True	True	True	True	True
+23	1	count:conjunctions	stop		False	False	False	False	False	False	False	False
+24	0	count:numbers	stop		False	False	False	False	False	False	False	False
+24	1	count:unique_word_count	stop		True	True	True	True	True	True	True	True
+25	0	count:person_names	stop		True	True	True	True	True	True	True	True
+26	0	count:person_names	stop		True	True	True	True	True	True	True	True
+27	0	count:person_names	stop		True	True	True	True	True	True	True	True
+28	0	count:person_names	stop		True	True	True	True	True	True	True	True
+29	0	count:person_names	stop		True	True	True	True	True	True	True	True
+30	0	count:pronouns	stop		True	True	True	True	True	True	True	True
+31	0	count:pronouns	length	T	True	True	True	True	True	True	False	True
+32	0	count:pronouns	stop		True	True	True	True	True	True	True	True
+33	0	count:pronouns	stop		True	True	True	True	True	True	True	True
+34	0	count:pronouns	length	T	True	True	True	True	True	True	True	True
+35	0	count:punctuation	length	T	False	False	False	False	False	False	False	False
+36	0	count:punctuation	length	T	False	False	False	False	False	False	False	False
+37	0	count:punctuation	stop		False	False	False	False	False	False	False	False
+38	0	count:punctuation	stop		True	True	True	True	True	True	False	False
+39	0	count:punctuation	stop		True	True	True	True	True	True	False	False
+40	0	count:punctuation	stop		False	False	False	False	False	False	False	False
+41	0	count:word_count_range	stop		True	True	True	True	True	True	False	True
+42	0	count:word_count_range	stop		False	False	False	False	False	False	False	False
+43	0	count:word_count_range	stop		False	False	False	False	False	False	False	False
+44	0	count:word_count_range	stop		True	True	True	True	True	True	True	True
+45	0	count:word_count_range	stop		True	True	True	True	True	True	True	True
+46	0	count:word_count_range	stop		False	False	False	False	False	False	False	False
+46	1	format:list	stop		True	True	True	True	True	True	True	True
+47	0	count:words_japanese	stop		True	True	True	True	True	True	True	True
+48	0	count:words_japanese	stop		False	False	False	False	False	False	False	False
+49	0	count:words_japanese	stop		False	False	False	False	False	False	False	False
+50	0	count:words_japanese	stop		True	True	True	True	True	True	True	True
+51	0	count:words_japanese	stop		False	False	False	False	False	False	False	False
+52	0	count:unique_word_count	stop		True	True	True	True	True	True	True	True
+53	0	count:unique_word_count	stop		True	True	True	True	True	True	True	True
+54	0	count:unique_word_count	stop		True	True	True	True	True	True	True	True
+55	0	count:unique_word_count	stop		False	False	False	False	False	False	False	False
+56	0	count:unique_word_count	stop		True	True	True	True	True	True	True	True
+57	0	count:unique_word_count	stop		False	False	False	False	False	False	False	False
+58	0	count:unique_word_count	stop		False	False	False	False	False	False	False	False
+59	0	count:unique_word_count	stop		True	True	True	True	True	True	True	True
+60	0	repeat:repeat_change	stop		False	False	False	False	False	False	False	False
+61	0	repeat:repeat_change	stop		False	False	False	False	False	False	False	False
+62	0	repeat:repeat_change	stop		False	False	False	False	False	False	False	False
+63	0	repeat:repeat_simple	stop		False	False	False	False	False	False	False	False
+64	0	repeat:repeat_simple	stop		False	False	False	False	False	False	False	False
+65	0	format:emoji	stop		False	False	False	False	False	False	False	False
+66	0	format:emoji	stop		True	True	True	True	True	True	True	True
+67	0	format:emoji	stop		False	False	False	False	False	False	False	False
+68	0	format:emoji	stop		False	False	False	False	False	False	False	False
+69	0	format:emoji	stop		False	False	False	False	False	False	False	False
+70	0	format:emoji	stop		True	True	True	True	True	True	True	True
+71	0	format:emoji	stop		True	True	True	True	True	True	True	True
+71	1	sentence:keyword	stop		False	False	False	False	False	False	True	False
+72	0	format:emoji	stop		True	True	True	True	True	True	True	True
+72	1	sentence:keyword	stop		True	True	True	True	True	True	False	True
+73	0	format:line_indent	stop		False	False	False	False	False	False	False	False
+74	0	format:line_indent	stop		False	False	False	False	False	False	False	False
+75	0	format:line_indent	length	T	False	False	False	False	False	False	False	False
+76	0	format:line_indent	stop		False	False	False	False	False	False	False	False
+77	0	format:line_indent	stop		False	False	False	False	False	False	False	False
+78	0	format:line_indent	stop		False	False	False	False	False	False	False	False
+79	0	format:line_indent	length	TE	False	False	False	False	False	False	False	False
+80	0	format:line_indent	stop		False	False	False	False	False	False	False	False
+80	1	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+81	0	format:line_indent	stop		False	False	True	True	False	True	False	False
+81	1	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+82	0	format:list	stop		True	True	True	True	True	True	True	True
+83	0	format:list	stop		True	True	True	True	True	True	True	True
+84	0	format:list	stop		True	True	True	True	True	True	True	True
+85	0	format:list	stop		True	True	True	True	True	True	True	True
+86	0	format:list	stop		True	True	True	True	True	True	True	True
+87	0	format:list	stop		True	True	True	True	True	True	True	True
+87	1	words:no_consecutive	stop		False	False	False	False	False	False	False	False
+88	0	format:list	stop		True	True	True	True	True	True	True	True
+88	1	words:no_consecutive	stop		False	False	False	False	False	False	False	False
+89	0	format:list	stop		True	True	True	True	True	True	True	True
+89	1	words:no_consecutive	stop		False	False	False	False	False	False	False	False
+90	0	format:newline	length	T	True	True	True	True	True	True	True	True
+91	0	format:newline	stop		False	False	False	False	False	False	False	False
+92	0	format:newline	stop		False	False	False	False	False	False	False	False
+93	0	format:newline	stop		False	False	False	False	False	False	False	False
+94	0	format:newline	stop		True	True	True	True	True	True	True	True
+95	0	format:no_bullets_bullets	stop		True	True	True	True	True	True	True	True
+96	0	format:no_bullets_bullets	stop		True	True	True	True	True	True	True	True
+97	0	format:no_bullets_bullets	stop		True	True	True	True	True	True	True	True
+98	0	format:no_bullets_bullets	stop		True	True	True	True	True	True	True	True
+99	0	format:no_bullets_bullets	stop		False	False	False	False	False	False	False	False
+100	0	format:options	stop		True	True	True	True	True	True	True	True
+101	0	format:options	stop		True	True	True	True	True	True	True	True
+102	0	format:options	stop		False	False	False	False	False	False	False	False
+103	0	format:options	stop		True	True	True	True	True	True	True	True
+104	0	format:options	stop		False	False	False	False	False	False	False	False
+105	0	format:options	stop		False	False	False	False	False	False	False	False
+105	1	format:newline	stop		True	True	True	True	True	True	True	True
+106	0	format:parentheses	length	T	True	True	True	True	True	True	True	True
+107	0	format:parentheses	stop		False	False	False	False	False	False	False	False
+108	0	format:parentheses	stop		True	True	True	True	True	True	True	True
+109	0	format:parentheses	stop		True	True	True	True	True	True	True	True
+110	0	format:parentheses	length	T	False	False	False	False	False	False	False	False
+111	0	format:parentheses	stop		False	False	False	False	False	False	False	False
+112	0	format:parentheses	stop		True	True	True	True	True	True	True	True
+113	0	format:quote_unquote	stop		True	True	True	True	True	True	False	False
+114	0	format:quote_unquote	stop		True	True	True	True	True	True	True	True
+115	0	format:quote_unquote	stop		True	True	True	True	True	True	True	True
+116	0	format:quote_unquote	stop		True	True	True	True	True	True	True	True
+117	0	format:quote_unquote	stop		True	True	True	True	True	True	True	True
+118	0	format:quotes	stop		False	False	False	False	False	False	False	False
+119	0	format:quotes	stop		False	False	False	False	False	False	False	False
+120	0	format:quotes	stop		False	False	False	False	False	False	False	False
+121	0	format:quotes	stop		False	False	False	False	False	False	False	False
+122	0	format:quotes	stop		True	True	True	True	True	True	False	False
+123	0	format:quotes	length	T	False	False	False	False	False	False	True	True
+124	0	format:quotes	stop		True	True	True	True	True	True	True	True
+125	0	format:quotes	stop		False	False	False	False	False	False	False	False
+125	1	format:emoji	stop		False	False	False	False	False	False	False	False
+126	0	format:sub-bullets	stop		False	False	True	True	False	True	False	False
+127	0	format:sub-bullets	stop		False	False	True	True	False	True	True	True
+128	0	format:sub-bullets	stop		False	False	True	True	False	True	True	True
+129	0	format:sub-bullets	stop		False	False	True	True	False	True	True	True
+130	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+131	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+132	0	format:sub-bullets	stop		False	False	True	True	False	True	True	True
+133	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+133	1	ratio:stop_words	stop		False	False	False	False	False	False	False	False
+134	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+134	1	ratio:stop_words	stop		True	True	True	True	True	True	True	True
+135	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+135	1	ratio:stop_words	stop		True	True	True	True	True	True	True	True
+136	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+136	1	ratio:stop_words	stop		False	False	False	False	False	False	False	False
+137	0	format:sub-bullets	stop		True	True	True	True	True	True	True	True
+137	1	ratio:stop_words	stop		False	False	False	False	False	False	False	False
+138	0	format:thesis	stop		False	False	False	False	False	False	False	False
+139	0	format:thesis	stop		False	False	False	False	False	False	False	False
+140	0	format:thesis	stop		False	False	False	False	False	False	False	False
+141	0	format:thesis	stop		False	False	False	False	False	False	False	False
+142	0	format:thesis	stop		False	False	False	False	False	False	False	False
+143	0	format:thesis	stop		False	False	False	False	False	False	False	False
+143	1	count:word_count_range	stop		False	False	False	False	False	False	False	False
+144	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+145	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+146	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+147	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+148	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+149	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+149	1	sentence:keyword	stop		True	True	True	True	True	True	True	True
+150	0	ratio:overlap	stop		False	False	False	False	False	False	True	False
+150	1	sentence:keyword	stop		True	True	True	True	True	True	True	True
+151	0	ratio:overlap	length	T	False	False	False	False	False	False	False	False
+151	1	sentence:keyword	length	T	False	False	False	False	False	False	False	False
+152	0	ratio:overlap	stop		False	False	False	False	False	False	False	False
+152	1	sentence:keyword	stop		True	True	True	True	True	True	True	True
+153	0	ratio:sentence_balance	length	T	False	False	False	False	False	False	False	False
+154	0	ratio:sentence_balance	stop		False	False	False	False	False	False	False	False
+155	0	ratio:sentence_balance	stop		False	False	False	False	False	False	False	False
+156	0	ratio:sentence_balance	stop		False	False	False	False	False	False	False	False
+157	0	ratio:sentence_balance	stop		False	False	False	False	False	False	False	False
+158	0	ratio:sentence_balance	stop		False	False	False	False	False	False	False	False
+158	1	words:consonants	stop		False	False	False	False	False	False	False	False
+159	0	ratio:sentence_balance	stop		False	False	False	False	False	False	False	False
+159	1	words:consonants	stop		False	False	False	False	False	False	False	False
+160	0	ratio:sentence_type	stop		False	False	False	False	False	False	False	False
+161	0	ratio:sentence_type	stop		False	False	False	False	False	False	False	False
+162	0	ratio:sentence_type	stop		False	False	False	False	False	False	False	False
+163	0	ratio:sentence_type	stop		False	False	False	False	False	False	False	False
+164	0	ratio:sentence_type	stop		False	False	False	False	False	False	False	False
+165	0	ratio:sentence_type	stop		False	False	False	False	False	False	False	False
+166	0	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+167	0	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+168	0	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+169	0	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+170	0	ratio:sentence_words	stop		False	False	False	False	False	False	False	False
+171	0	ratio:stop_words	stop		True	True	True	True	True	True	True	True
+172	0	ratio:stop_words	stop		False	False	True	True	False	True	False	False
+173	0	ratio:stop_words	stop		False	False	False	False	False	False	False	False
+174	0	ratio:stop_words	stop		True	True	True	True	True	True	True	True
+175	0	ratio:stop_words	stop		False	False	False	False	False	False	False	False
+176	0	ratio:stop_words	stop		True	True	True	True	True	True	True	True
+177	0	ratio:stop_words	stop		True	True	True	True	True	True	True	True
+178	0	sentence:alliteration_increment	stop		True	True	True	True	True	True	False	False
+179	0	sentence:alliteration_increment	stop		False	False	False	False	False	False	False	False
+180	0	sentence:alliteration_increment	stop		False	False	False	False	False	False	False	False
+181	0	sentence:alliteration_increment	stop		False	False	False	False	False	False	False	False
+182	0	sentence:alliteration_increment	stop		True	True	True	True	True	True	False	False
+183	0	sentence:increment	length	T	False	False	False	False	False	False	False	False
+184	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+185	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+186	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+187	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+188	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+188	1	format:thesis	stop		False	False	False	False	False	False	False	False
+189	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+189	1	format:thesis	stop		False	False	False	False	False	False	False	False
+190	0	sentence:increment	stop		False	False	False	False	False	False	False	False
+190	1	format:thesis	stop		False	False	False	False	False	False	False	False
+191	0	sentence:keyword	length	T	False	False	False	False	False	False	False	False
+192	0	sentence:keyword	stop		False	False	False	False	False	False	False	False
+193	0	sentence:keyword	stop		True	True	True	True	True	True	True	True
+194	0	sentence:keyword	stop		True	True	True	True	True	True	True	True
+195	0	sentence:keyword	length	T	False	False	False	False	False	False	False	False
+196	0	sentence:keyword	stop		False	False	False	False	False	False	False	False
+196	1	count:word_count_range	stop		False	False	True	True	False	True	False	False
+197	0	sentence:keyword	stop		True	True	True	True	True	True	True	True
+197	1	count:word_count_range	stop		True	True	True	True	True	True	True	True
+198	0	sentence:keyword	stop		False	False	False	False	False	False	False	False
+198	1	count:word_count_range	stop		True	True	True	True	True	True	True	True
+199	0	sentence:keyword	stop		False	False	False	False	False	False	False	False
+199	1	count:word_count_range	stop		False	False	False	False	False	False	False	False
+200	0	words:alphabet	length	T	False	False	False	False	False	False	False	False
+201	0	words:alphabet	length	T	False	False	False	False	False	False	False	False
+202	0	words:alphabet	length	T	False	False	False	False	False	False	False	False
+203	0	words:alphabet	stop		False	False	False	False	False	False	False	False
+204	0	words:alphabet	stop		False	False	False	False	False	False	False	False
+205	0	words:alphabet	length	T	False	False	True	True	False	True	False	False
+205	1	format:parentheses	length	T	False	False	False	False	False	False	False	False
+206	0	words:consonants	stop		False	False	False	False	False	False	False	False
+207	0	words:consonants	stop		False	False	False	False	False	False	False	False
+208	0	words:consonants	stop		False	False	False	False	False	False	False	False
+209	0	words:consonants	stop		False	False	False	False	False	False	False	False
+210	0	words:consonants	stop		False	False	False	False	False	False	False	False
+211	0	words:consonants	stop		False	False	False	False	False	False	False	False
+212	0	words:consonants	stop		False	False	False	False	False	False	False	False
+212	1	ratio:overlap	stop		False	False	False	False	False	False	False	False
+213	0	words:consonants	stop		False	False	False	False	False	False	False	False
+213	1	ratio:overlap	stop		False	False	False	False	False	False	False	False
+214	0	words:consonants	stop		False	False	False	False	False	False	False	False
+214	1	ratio:overlap	stop		True	True	True	True	False	False	False	True
+215	0	words:consonants	stop		False	False	False	False	False	False	False	False
+215	1	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+216	0	words:consonants	stop		False	False	False	False	False	False	False	False
+216	1	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+217	0	words:consonants	stop		False	False	False	False	False	False	False	False
+217	1	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+218	0	words:consonants	stop		False	False	False	False	False	False	False	False
+218	1	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+219	0	words:last_first	length	T	False	False	False	False	False	False	False	False
+220	0	words:last_first	stop		False	False	False	False	False	False	False	False
+221	0	words:last_first	stop		False	False	False	False	False	False	False	False
+222	0	words:last_first	stop		False	False	False	False	False	False	False	False
+223	0	words:last_first	stop		False	False	False	False	False	False	False	False
+224	0	words:no_consecutive	stop		False	False	False	False	False	False	False	False
+225	0	words:no_consecutive	stop		False	False	False	False	False	False	False	False
+226	0	words:no_consecutive	stop		False	False	False	False	False	False	False	False
+227	0	words:no_consecutive	length	T	False	False	False	False	False	False	False	False
+228	0	words:no_consecutive	length	T	False	False	False	False	False	False	False	False
+229	0	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+230	0	words:odd_even_syllables	length	T	False	False	False	False	False	False	False	False
+231	0	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+232	0	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+233	0	words:odd_even_syllables	stop		False	False	False	False	False	False	False	False
+234	0	words:palindrome	stop		False	False	False	False	False	False	False	False
+235	0	words:palindrome	stop		True	True	True	True	True	True	True	True
+236	0	words:palindrome	stop		False	False	False	False	False	False	False	False
+237	0	words:palindrome	stop		False	False	False	False	False	False	False	False
+238	0	words:palindrome	length	T	False	False	False	False	False	False	False	False
+239	0	words:palindrome	stop		False	False	False	False	False	False	False	False
+240	0	words:palindrome	stop		False	False	False	False	False	False	False	False
+241	0	words:paragraph_last_first	stop		False	False	False	False	False	False	False	False
+242	0	words:paragraph_last_first	stop		False	False	False	False	False	False	False	False
+243	0	words:paragraph_last_first	stop		False	False	False	False	False	False	False	False
+244	0	words:paragraph_last_first	stop		False	False	False	False	False	False	False	False
+245	0	words:paragraph_last_first	stop		False	False	False	False	False	False	False	False
+246	0	words:paragraph_last_first	stop		False	False	False	False	False	False	False	False
+247	0	words:prime_lengths	stop		False	False	False	False	False	False	False	False
+248	0	words:prime_lengths	stop		False	False	False	False	False	False	False	False
+249	0	words:prime_lengths	stop		False	False	False	False	False	False	False	False
+250	0	words:prime_lengths	stop		False	False	False	False	False	False	False	False
+251	0	words:prime_lengths	stop		False	False	False	False	False	False	False	False
+252	0	words:repeats	stop		False	False	False	False	False	False	False	False
+253	0	words:repeats	stop		False	False	False	False	False	False	False	False
+254	0	words:repeats	stop		False	False	False	False	False	False	False	False
+255	0	words:repeats	stop		False	False	True	True	False	True	False	False
+256	0	words:repeats	stop		False	False	False	False	False	False	False	False
+257	0	words:start_verb	stop		False	False	False	False	False	False	False	False
+258	0	words:start_verb	stop		True	True	True	True	True	True	True	True
+259	0	words:start_verb	stop		True	True	True	True	True	True	True	True
+260	0	words:start_verb	stop		False	False	False	False	False	False	False	False
+261	0	words:start_verb	stop		False	False	False	False	False	False	False	False
+262	0	words:start_verb	stop		True	True	True	True	True	True	True	True
+262	1	count:person_names	stop		True	True	True	True	True	True	True	True
+263	0	words:vowel	stop		False	False	False	False	False	False	False	False
+264	0	words:vowel	stop		False	False	False	False	False	False	False	False
+265	0	words:vowel	stop		False	False	False	False	False	False	False	False
+266	0	words:vowel	stop		False	False	False	False	False	False	False	False
+267	0	words:vowel	stop		False	False	False	False	False	False	False	False
+268	0	words:vowel	stop		False	False	False	False	False	False	False	False
+269	0	words:vowel	stop		False	False	False	False	False	False	False	False
+270	0	words:vowel	stop		False	False	False	False	False	False	False	False
+270	1	count:pronouns	stop		False	False	False	False	False	False	False	False
+271	0	words:vowel	stop		False	False	False	False	False	False	False	False
+271	1	count:pronouns	stop		True	True	True	True	True	True	True	True
+272	0	words:vowel	stop		False	False	False	False	False	False	False	False
+272	1	count:pronouns	stop		True	True	True	True	True	True	True	True
+273	0	custom:character_reverse	length	T	False	False	False	False	False	False	False	False
+274	0	custom:csv_city	stop		True	True	True	True	True	True	True	True
+275	0	custom:csv_quotes	stop		False	False	False	False	False	False	False	False
+276	0	custom:csv_special_character	stop		False	False	False	False	False	False	True	False
+277	0	custom:date_format_list	stop		True	True	True	True	True	True	True	True
+278	0	custom:european_capitals_sort	length	T	False	False	False	False	False	False	False	False
+279	0	custom:mcq_count_length	stop		False	False	False	False	False	False	False	False
+280	0	custom:multiples	stop		False	False	True	True	False	True	False	False
+281	0	custom:reverse_newline	length	T	False	False	False	False	False	False	False	False
+282	0	custom:sentence_alphabet	stop		False	False	True	True	False	True	False	False
+283	0	custom:word_reverse	stop		False	False	False	False	False	False	False	False
+284	0	repeat:repeat_span	stop		EXC:TypeError	False	EXC:TypeError	False	False	False	False	False
+285	0	repeat:repeat_span	stop		EXC:TypeError	False	EXC:TypeError	False	False	False	False	False
+286	0	repeat:repeat_span	stop		EXC:TypeError	False	EXC:TypeError	False	False	False	False	False
+287	0	repeat:repeat_span	stop		EXC:TypeError	False	EXC:TypeError	False	False	False	False	False
+288	0	format:title_case	length	T	False	False	False	False	False	False	False	False
+289	0	format:title_case	stop		True	True	True	True	True	True	True	True
+290	0	format:title_case	length	T	True	True	True	True	True	True	True	True
+291	0	format:title_case	stop		True	True	True	True	True	True	True	True
+292	0	format:output_template	stop		True	True	True	True	True	True	True	True
+293	0	format:output_template	stop		True	True	True	True	True	True	True	True
+294	0	format:output_template	stop		True	True	True	True	True	True	True	True
+295	0	format:output_template	stop		True	True	True	True	True	True	True	True
+296	0	format:no_whitespace	stop		True	True	True	True	True	True	True	True
+297	0	format:no_whitespace	stop		True	True	True	True	True	True	True	True
+298	0	format:no_whitespace	stop		True	True	True	True	True	True	True	True
+299	0	format:no_whitespace	stop		False	False	False	False	False	False	False	False

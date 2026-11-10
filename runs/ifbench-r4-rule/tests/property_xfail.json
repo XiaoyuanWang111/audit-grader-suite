@@ -1,0 +1,77 @@
+{
+ "format:no_bullets_bullets#f721d5f8|trailing_newline": {
+  "check": "format:no_bullets_bullets",
+  "grader": "False",
+  "transform": "trailing_newline"
+ },
+ "format:no_whitespace#5f0da9f9|trailing_newline": {
+  "check": "format:no_whitespace",
+  "grader": "False",
+  "transform": "trailing_newline"
+ },
+ "format:options#0d7d3b1e|trailing_newline": {
+  "check": "format:options",
+  "grader": "False",
+  "transform": "trailing_newline"
+ },
+ "format:options#8e1503da|trailing_newline": {
+  "check": "format:options",
+  "grader": "False",
+  "transform": "trailing_newline"
+ },
+ "format:options#b58b2bcb|trailing_newline": {
+  "check": "format:options",
+  "grader": "False",
+  "transform": "trailing_newline"
+ },
+ "format:quotes#8880d59c|curly_quotes": {
+  "check": "format:quotes",
+  "grader": "False",
+  "transform": "curly_quotes"
+ },
+ "sentence:increment#009251eb|emdash_between_words": {
+  "check": "sentence:increment",
+  "grader": "False",
+  "transform": "emdash_between_words"
+ },
+ "words:alphabet#8961bd2a|emdash_between_words": {
+  "check": "words:alphabet",
+  "grader": "False",
+  "transform": "emdash_between_words"
+ },
+ "words:consonants#eeaab778|emdash_between_words": {
+  "check": "words:consonants",
+  "grader": "False",
+  "transform": "emdash_between_words"
+ },
+ "words:odd_even_syllables#e3b48d33|emdash_between_words": {
+  "check": "words:odd_even_syllables",
+  "grader": "False",
+  "transform": "emdash_between_words"
+ },
+ "words:paragraph_last_first#90230cae|bold_first_word": {
+  "check": "words:paragraph_last_first",
+  "grader": "False",
+  "transform": "bold_first_word"
+ },
+ "words:prime_lengths#5c2fe1a2|emdash_between_words": {
+  "check": "words:prime_lengths",
+  "grader": "False",
+  "transform": "emdash_between_words"
+ },
+ "words:start_verb#5a3763e6|bold_first_word": {
+  "check": "words:start_verb",
+  "grader": "False",
+  "transform": "bold_first_word"
+ },
+ "words:start_verb#abbd2fee|bold_first_word": {
+  "check": "words:start_verb",
+  "grader": "False",
+  "transform": "bold_first_word"
+ },
+ "words:words_position#7e50ce01|bold_first_word": {
+  "check": "words:words_position",
+  "grader": "False",
+  "transform": "bold_first_word"
+ }
+}

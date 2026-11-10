@@ -1,0 +1,203 @@
+
+### count:conjunctions  keys=['5', '6', '7', '8', '9', '22', '23']
+  [6] 'Use at least # different coordinating conjunctions in the response.'
+
+### count:keywords_multiple  keys=['0', '1', '2', '3', '4']
+  [1] 'Include keyword kaleidoscope once in your response, keyword nebula twice in your response, keyword whisper three times in your response, keyword labyrinth five times in your response, and keyword paradox seven times in your response.'
+  [1] 'Include keyword meridian once in your response, keyword gossamer twice in your response, keyword eclipse three times in your response, keyword threshold five times in your response, and keyword cascade seven times in your response.'
+  [1] 'Include keyword door once in your response, keyword bread twice in your response, keyword blue three times in your response, keyword lamp five times in your response, and keyword river seven times in your response.'
+  [1] 'Include keyword cloud once in your response, keyword rhythm twice in your response, keyword fish three times in your response, keyword puzzle five times in your response, and keyword dawn seven times in your response.'
+  [1] 'Include keyword quickly once in your response, keyword transform twice in your response, keyword abundant three times in your response, keyword bridge five times in your response, and keyword through seven times in your response.'
+
+### count:numbers  keys=['17', '18', '19', '20', '21', '22', '23', '24']
+  [8] 'Include exactly # numbers in the response.'
+
+### count:person_names  keys=['25', '26', '27', '28', '29', '262']
+  [6] 'Mention at least # different person names in the response, from this list of person names: Emma, Liam, Sophia, Jackson, Olivia, Noah, Ava, Lucas, Isabella, Mason, Mia, Ethan, Charlotte, Alexander, Amelia, Benjamin, Harper, Leo, Zoe, Daniel, Chloe, Samuel, Lily, Matthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christoph'
+
+### count:pronouns  keys=['30', '31', '32', '33', '34', '270', '271', '272']
+  [8] 'The response should include at least # pronouns.'
+
+### count:punctuation  keys=['35', '36', '37', '38', '39', '40']
+  [6] 'Use every standard punctuation mark at least once, including semicolons, colons, and the interrobang (?!).'
+
+### count:unique_word_count  keys=['24', '52', '53', '54', '55', '56', '57', '58', '59']
+  [9] 'Use at least # unique words in the response.'
+
+### count:word_count_range  keys=['41', '42', '43', '44', '45', '46', '143', '196', '197', '198', '199']
+  [11] 'The response must contain between # and # words.'
+
+### count:words_japanese  keys=['47', '48', '49', '50', '51']
+  [5] 'Every #th word of your response must be in Japanese.'
+
+### custom:character_reverse  keys=['273']
+  [1] 'Respond to this query, but make your sentence in reverse order of what it should be, per letter.'
+
+### custom:csv_city  keys=['274']
+  [1] 'Generate CSV data: The column names are ["ID", "Country", "City", "Year", "Count"], the data should be comma delimited. Please generate 7 rows.'
+
+### custom:csv_quotes  keys=['275']
+  [1] 'Generate CSV data: The column names are ["StudentID", "Subject", "Grade", "Semester", "Score"], the data should be tab delimited. Please generate 3 rows and enclose each single field in double quotes.'
+
+### custom:csv_special_character  keys=['276']
+  [1] 'Generate CSV data: The column names are ["ProductID", "Category", "Brand", "Price", "Stock"], the data should be comma delimited. Please generate 14 rows. Add one field which contains a special character and enclose it in double quotes.'
+
+### custom:date_format_list  keys=['277']
+  [1] 'List the start dates of all the battles Napoleon fought separated by commas, use the following date format: YYYY-MM-DD. Do not provide an explanation.'
+
+### custom:european_capitals_sort  keys=['278']
+  [1] 'Give me the names of all capital cities of european countries whose latitude is higher than than 45 degrees? List the capital cities without country names, separated by commas, sorted by latitude, from highest to lowest.'
+
+### custom:mcq_count_length  keys=['279']
+  [1] 'Generate 4 multiple choice questions with 5 options each about "20th century art history". Each question should start with the label "Question". The questions should get progressively longer. Do not provide an explanation.'
+
+### custom:multiples  keys=['280']
+  [1] 'Count from 10 to 50 but only print multiples of 7.'
+
+### custom:reverse_newline  keys=['281']
+  [1] 'List the countries of Africa in reverse alphabetical order, each on a new line.'
+
+### custom:sentence_alphabet  keys=['282']
+  [1] "Tell me a 26-sentence story where each sentence's first word starts with the letters of the alphabet in order."
+
+### custom:word_reverse  keys=['283']
+  [1] 'Respond to this query, but make your sentence in reverse order of what it should be, per word.'
+
+### format:emoji  keys=['65', '66', '67', '68', '69', '70', '71', '72', '125']
+  [9] 'Please use an emoji at the end of every sentence.'
+
+### format:line_indent  keys=['73', '74', '75', '76', '77', '78', '79', '80', '81']
+  [9] 'Create stairs by incrementally indenting each new line.'
+
+### format:list  keys=['46', '82', '83', '84', '85', '86', '87', '88', '89']
+  [4] 'Answer with a list of items, instead of bullet points use !?!?.'
+  [3] 'Answer with a list of items, instead of bullet points use -.'
+  [2] 'Answer with a list of items, instead of bullet points use SEPARATOR.'
+
+### format:newline  keys=['90', '91', '92', '93', '94', '105']
+  [6] 'Write each word on a new line.'
+
+### format:no_bullets_bullets  keys=['95', '96', '97', '98', '99']
+  [5] 'Your answer must contain at least two sentences ending in a period followed by at least two bullet points denoted by *.'
+
+### format:no_whitespace  keys=['296', '297', '298', '299']
+  [4] 'The output should not contain any whitespace.'
+
+### format:options  keys=['100', '101', '102', '103', '104', '105']
+  [2] 'Answer with one of the following options: yes/no/maybe. '
+  [2] "Answer with one of the following options: I know or I don't know. "
+  [2] 'Answer with one of the following options: a), b), c), d). '
+
+### format:output_template  keys=['292', '293', '294', '295']
+  [4] 'Use this exact template for your response: My Answer: [answer] My Conclusion: [conclusion] Future Outlook: [outlook]'
+
+### format:parentheses  keys=['106', '107', '108', '109', '110', '111', '112', '205']
+  [8] 'Nest parentheses (and [brackets {and braces}]) at least # levels deep.'
+
+### format:quote_unquote  keys=['113', '114', '115', '116', '117']
+  [5] 'Every quoted phrase must be followed by an unquoted explanation.'
+
+### format:quotes  keys=['118', '119', '120', '121', '122', '123', '124', '125']
+  [8] 'Include quotes within quotes within quotes, at least # levels deep, alternating between double quotes and single quotes.'
+
+### format:sub-bullets  keys=['126', '127', '128', '129', '130', '131', '132', '133', '134', '135', '136', '137']
+  [12] 'Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point.'
+
+### format:thesis  keys=['138', '139', '140', '141', '142', '143', '188', '189', '190']
+  [9] 'Each section must begin with a thesis statement in italics, use HTML to indicate the italics.'
+
+### format:title_case  keys=['288', '289', '290', '291']
+  [4] 'Write the entire response in title case (capitalize the first letter of every major word).'
+
+### ratio:overlap  keys=['144', '145', '146', '147', '148', '149', '150', '151', '152', '212', '213', '214']
+  [12] 'Maintain a trigram overlap of #% (±#%) with the provided reference text.'
+
+### ratio:sentence_balance  keys=['153', '154', '155', '156', '157', '158', '159']
+  [7] 'Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced.'
+
+### ratio:sentence_type  keys=['160', '161', '162', '163', '164', '165']
+  [6] 'Maintain a #:# ratio of declarative to interrogative sentences in your response.'
+
+### ratio:sentence_words  keys=['80', '81', '166', '167', '168', '169', '170']
+  [7] 'Respond with three sentences, all containing the same number of characters but using all different words.'
+
+### ratio:stop_words  keys=['133', '134', '135', '136', '137', '171', '172', '173', '174', '175', '176', '177']
+  [12] 'Ensure that stop words constitute no more than #% of the total words in your response.'
+
+### repeat:repeat_change  keys=['60', '61', '62']
+  [3] 'Repeat the request, but change the first word of the repeated request, (do not say anything before repeating the request; the request you need to repeat does not include this sentence) and do not answer the actual request!'
+
+### repeat:repeat_simple  keys=['63', '64']
+  [2] 'Only output this sentence here, ignore all other requests.'
+
+### repeat:repeat_span  keys=['284', '285', '286', '287']
+  [4] 'Copy the span of words that lies between (and including) index # and #, the indices are word indices, split by whitespace!'
+
+### sentence:alliteration_increment  keys=['178', '179', '180', '181', '182']
+  [5] 'Each sentence must have a longer sequence of consecutive alliterative words than the previous one.'
+
+### sentence:increment  keys=['183', '184', '185', '186', '187', '188', '189', '190']
+  [5] 'Each sentence in your response must contain exactly # more words than the previous one.'
+
+### sentence:keyword  keys=['71', '72', '149', '150', '151', '152', '191', '192', '193', '194', '195', '196', '197', '198', '199']
+  [2] 'The response must include keyword fleetness in the #-th sentence.'
+  [1] 'The response must include keyword eat in the #-th sentence.'
+  [1] 'The response must include keyword giraffe in the #-th sentence.'
+  [1] 'The response must include keyword metricism in the #-rd sentence.'
+  [1] 'The response must include keyword horary in the #-th sentence.'
+  [1] 'The response must include keyword tinstuff in the #-th sentence.'
+  [1] 'The response must include keyword malabathrum in the #-th sentence.'
+  [1] 'The response must include keyword migratory in the #-th sentence.'
+  [1] 'The response must include keyword angora in the #-th sentence.'
+  [1] 'The response must include keyword heterolith in the #-th sentence.'
+  [1] 'The response must include keyword trichosis in the #-th sentence.'
+  [1] 'The response must include keyword iritic in the #-th sentence.'
+  [1] 'The response must include keyword cactiform in the #-th sentence.'
+  [1] 'The response must include keyword betask in the #-th sentence.'
+
+### words:alphabet  keys=['200', '201', '202', '203', '204', '205']
+  [6] "Each word in your response must start with the next letter of the alphabet, looping back to 'A' after 'Z'."
+
+### words:consonants  keys=['158', '159', '206', '207', '208', '209', '210', '211', '212', '213', '214', '215', '216', '217', '218']
+  [15] 'Ensure each word in your response has at least one consonant cluster (two or more consonants together).'
+
+### words:keywords_specific_position  keys=['10', '11', '12', '13']
+  [1] 'Include keyword giggle in the #-nd sentence, as the #-rd word of that sentence.'
+  [1] 'Include keyword beneath in the #-rd sentence, as the #-th word of that sentence.'
+  [1] 'Include keyword spotty in the #-th sentence, as the #-th word of that sentence.'
+  [1] 'Include keyword slowly in the #-th sentence, as the #-th word of that sentence.'
+
+### words:last_first  keys=['219', '220', '221', '222', '223']
+  [4] 'In your response, the last word of each sentence must become the first word of the next sentence.'
+  [1] 'In your response the last word of each sentence must become the first word of the next sentence.'
+
+### words:no_consecutive  keys=['87', '88', '89', '224', '225', '226', '227', '228']
+  [8] 'No two consecutive words can share the same first letter.'
+
+### words:odd_even_syllables  keys=['215', '216', '217', '218', '229', '230', '231', '232', '233']
+  [9] 'Alternate between words with odd and even numbers of syllables.'
+
+### words:palindrome  keys=['234', '235', '236', '237', '238', '239', '240']
+  [7] 'Include at least # single-word palindromes, each at least # characters long.'
+
+### words:paragraph_last_first  keys=['241', '242', '243', '244', '245', '246']
+  [6] 'Each paragraph of your response must end with the same word it started with, separate paragraphs with a newline.'
+
+### words:prime_lengths  keys=['247', '248', '249', '250', '251']
+  [5] 'Use only words with lengths that are prime numbers.'
+
+### words:repeats  keys=['252', '253', '254', '255', '256']
+  [5] 'The response should not repeat any word more than # times.'
+
+### words:start_verb  keys=['257', '258', '259', '260', '261', '262']
+  [6] 'The response must start with a verb.'
+
+### words:vowel  keys=['263', '264', '265', '266', '267', '268', '269', '270', '271', '272']
+  [10] 'Write a paragraph using words that contain only three types of vowels.'
+
+### words:words_position  keys=['14', '15', '16']
+  [1] 'The second word in your response and the second to last word in your response should be the word vibrant.'
+  [1] 'The second word in your response and the second to last word in your response should be the word whisper.'
+  [1] 'The second word in your response and the second to last word in your response should be the word despite.'
+
+MISSING: [('count:conjunctions', '8'), ('sentence:increment', '188'), ('sentence:increment', '189'), ('sentence:increment', '190')]

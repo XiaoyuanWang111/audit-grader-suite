@@ -1,0 +1,216 @@
+id	check	kind	decision	label	grader	grader_intcast	reference	note
+count:conjunctions#dfe1b0b1	count:conjunctions	pass		True	True	True	True	
+count:conjunctions#39205772	count:conjunctions	fail		False	False	False	False	
+count:conjunctions#1c3be98f	count:conjunctions	near		False	True	True	True	one conjunction (and) in three spellings: and / And / and,
+count:conjunctions#aa34580f	count:conjunctions	near	D-conj-usage	False	True	True	True	for = preposition, so = adverb; only 'and' is a coordinating conjunction
+count:keywords_multiple#51cda4dc	count:keywords_multiple	pass		True	True	True	True	
+count:keywords_multiple#9d0d6fd9	count:keywords_multiple	fail		False	False	False	False	
+count:keywords_multiple#9e0f313d	count:keywords_multiple	near		True	False	False	True	'doorway' is not the keyword door
+count:keywords_multiple#de32f574	count:keywords_multiple	near		False	True	True	False	door occurs only inside 'outdoor'
+count:numbers#0dda521f	count:numbers	pass		True	True	True	True	
+count:numbers#e73a6a97	count:numbers	fail		False	False	False	False	
+count:numbers#789f53cc	count:numbers	near		True	False	False	False	a range has two numbers
+count:numbers#78b9ce81	count:numbers	near		True	True	True	True	
+count:person_names#0b35e84d	count:person_names	pass		True	True	True	True	
+count:person_names#24388e83	count:person_names	fail		False	False	False	False	
+count:person_names#e9fd0103	count:person_names	near		True	True	True	True	
+count:person_names#4b8da96d	count:person_names	near	D-name-usage	False	False	False	False	
+count:pronouns#b8c97688	count:pronouns	pass		True	True	True	True	
+count:pronouns#ce68f644	count:pronouns	fail		False	False	False	False	
+count:pronouns#18584f4c	count:pronouns	near		False	True	True	True	this/that/each/all/some are determiners here
+count:pronouns#788bc739	count:pronouns	near	D-pronoun-set	False	True	True	True	pronouns only outside the proposed personal/possessive/reflexive set
+count:punctuation#ba1f0ff9	count:punctuation	pass		True	True	True	True	
+count:punctuation#03ff8184	count:punctuation	fail		False	False	False	False	
+count:punctuation#ed1f5487	count:punctuation	near		False	True	True	True	no apostrophe, quotation mark, hyphen, dash, brackets or ellipsis
+count:unique_word_count#b30a0bd5	count:unique_word_count	pass		True	True	True	True	
+count:unique_word_count#bad50a76	count:unique_word_count	fail		False	False	False	False	
+count:unique_word_count#29f8a0f5	count:unique_word_count	near		False	True	True	True	4 distinct words; '-' is not a word
+count:unique_word_count#4a6db790	count:unique_word_count	near		False	True	True	True	4 distinct words; curly quotes around Red
+count:word_count_range#ace2811d	count:word_count_range	pass		True	True	True	True	
+count:word_count_range#0f80e8b1	count:word_count_range	fail		False	False	False	False	
+count:word_count_range#9099fcef	count:word_count_range	near		True	True	True	True	
+count:word_count_range#8514fb79	count:word_count_range	near	D-word	True	False	False	False	3 words when a contraction is one word
+count:word_count_range#675f89fc	count:word_count_range	near	D-word	True	False	False	False	list labels are not words
+count:words_japanese#113f8e22	count:words_japanese	pass		True	True	True	True	
+count:words_japanese#2e9bc4f6	count:words_japanese	fail		False	False	False	False	
+count:words_japanese#283a4946	count:words_japanese	near		False	True	True	True	word 2 is a numeral, not Japanese
+count:words_japanese#83b40cb2	count:words_japanese	near		True	False	False	False	'-' is not a word, so words 2 and 4 are Japanese
+custom:character_reverse#1a13b93b	custom:character_reverse	pass		True	True	True	True	
+custom:character_reverse#36e7c8b8	custom:character_reverse	fail		False	False	False	False	
+custom:character_reverse#7d459cc0	custom:character_reverse	near		False	True	True	True	only two words reversed
+custom:character_reverse#5ed2b45f	custom:character_reverse	near	D-reverse-extra	False	True	True	True	
+custom:csv_city#e7c03248	custom:csv_city	pass		True	True	True	True	
+custom:csv_city#1ca3b198	custom:csv_city	fail		False	False	False	False	
+custom:csv_city#f09fb6bf	custom:csv_city	near	D-csv-payload	True	False	False	False	
+custom:csv_city#3b1cd2a8	custom:csv_city	near		True	True	True	True	
+custom:csv_quotes#d4482143	custom:csv_quotes	pass		True	True	True	True	
+custom:csv_quotes#1001d5a0	custom:csv_quotes	fail		False	False	False	False	
+custom:csv_quotes#8f3d2022	custom:csv_quotes	near		False	EXC:IndexError	EXC:IndexError	EXC:IndexError	one unquoted empty field
+custom:csv_special_character#0e963bfe	custom:csv_special_character	pass		True	True	True	True	
+custom:csv_special_character#4a64b77d	custom:csv_special_character	fail		False	False	False	False	
+custom:csv_special_character#efb944e2	custom:csv_special_character	near		False	True	True	True	13 data rows have 3 fields
+custom:date_format_list#3a85aca3	custom:date_format_list	pass		True	True	True	True	
+custom:date_format_list#39e2a719	custom:date_format_list	fail		False	False	False	False	
+custom:date_format_list#a28df6b2	custom:date_format_list	near		False	True	True	True	month 00 and day 00 are not dates
+custom:date_format_list#c45f17a8	custom:date_format_list	near	D-custom-content	True	False	False	False	
+custom:european_capitals_sort#f5325312	custom:european_capitals_sort	pass		True	False	False	False	
+custom:european_capitals_sort#a5eef5d6	custom:european_capitals_sort	fail		False	False	False	False	
+custom:european_capitals_sort#d86edf6d	custom:european_capitals_sort	near		False	True	True	True	Kyiv (50.45 N) missing
+custom:mcq_count_length#d78444e0	custom:mcq_count_length	pass		True	True	True	True	
+custom:mcq_count_length#0302262d	custom:mcq_count_length	fail		False	False	False	False	
+custom:mcq_count_length#6fe45e49	custom:mcq_count_length	near		True	False	False	False	label 'Question' without a number
+custom:mcq_count_length#5f0270d5	custom:mcq_count_length	near	D-markup	True	False	False	False	
+custom:multiples#1ee14304	custom:multiples	pass		True	True	True	True	
+custom:multiples#a4d1eb00	custom:multiples	fail		False	False	False	False	
+custom:multiples#777c1d03	custom:multiples	near	D-list-extra	False	True	True	True	
+custom:reverse_newline#2aad817b	custom:reverse_newline	pass		True	True	True	True	
+custom:reverse_newline#7cdeabcd	custom:reverse_newline	fail		False	False	False	False	
+custom:reverse_newline#e7fdda14	custom:reverse_newline	near	D-list-labels	True	False	False	False	numbered list
+custom:reverse_newline#e0f29117	custom:reverse_newline	near		False	True	True	True	one country repeated 52 times
+custom:sentence_alphabet#9ec52ae3	custom:sentence_alphabet	pass		True	True	True	True	
+custom:sentence_alphabet#df219cc0	custom:sentence_alphabet	fail		False	False	False	False	
+custom:sentence_alphabet#6eb1c09b	custom:sentence_alphabet	near		True	False	False	True	sentence 3 is in quotation marks
+custom:word_reverse#9e14ead1	custom:word_reverse	pass		True	True	True	True	
+custom:word_reverse#4b5b01c7	custom:word_reverse	fail		False	False	False	False	
+custom:word_reverse#08fb9872	custom:word_reverse	near		False	True	True	True	only the last two words reversed
+format:emoji#fd9daf05	format:emoji	pass		True	True	True	True	
+format:emoji#87617325	format:emoji	pass		True	True	True	True	
+format:emoji#f5dc29d0	format:emoji	fail		False	False	False	False	
+format:emoji#9b8b412a	format:emoji	near		True	False	False	False	keycap emoji
+format:emoji#e0722bc7	format:emoji	near		True	False	False	False	flag emoji
+format:emoji#144b8046	format:emoji	near	D-sentence	False	True	True	True	heading line without emoji
+format:line_indent#3be41ccb	format:line_indent	pass		True	True	True	True	
+format:line_indent#b628ec0c	format:line_indent	fail		False	False	False	False	
+format:line_indent#86fd77b7	format:line_indent	near		True	False	False	False	tab indentation
+format:line_indent#19751e73	format:line_indent	near		True	False	False	False	two blank lines
+format:list#f74e4093	format:list	pass		True	True	True	True	
+format:list#dc1b12ee	format:list	fail		False	False	False	False	
+format:list#814f2b41	format:list	near		False	True	True	True	no list; hyphens inside words
+format:list#18e0224d	format:list	near		False	True	True	True	'*' bullets still used
+format:newline#a633c753	format:newline	pass		True	True	True	True	
+format:newline#41a35955	format:newline	fail		False	False	False	False	
+format:newline#44600b29	format:newline	near		False	True	True	True	two words on line 1; a whitespace-only line
+format:newline#1d4767c7	format:newline	near		True	True	True	True	
+format:no_bullets_bullets#f721d5f8	format:no_bullets_bullets	pass		True	True	True	True	
+format:no_bullets_bullets#1604f9cb	format:no_bullets_bullets	fail		False	False	False	False	
+format:no_bullets_bullets#d16336f8	format:no_bullets_bullets	near		True	False	False	False	blank lines between items
+format:no_bullets_bullets#26e68c8b	format:no_bullets_bullets	near		False	True	True	True	no sentence ends in a period
+format:no_whitespace#5f0da9f9	format:no_whitespace	pass		True	True	True	True	
+format:no_whitespace#c9c1f423	format:no_whitespace	fail		False	False	False	False	
+format:no_whitespace#d11fbeb8	format:no_whitespace	near	D-trailing-ws	True	False	False	False	
+format:options#8e1503da	format:options	pass		True	True	True	True	
+format:options#b58b2bcb	format:options	pass		True	True	True	True	
+format:options#95cebfe1	format:options	fail		False	False	False	False	
+format:options#0d7d3b1e	format:options	pass		True	True	True	True	
+format:options#715e2e97	format:options	near		True	False	False	False	trailing newline
+format:options#2809e9ef	format:options	near		True	False	False	False	upper case
+format:options#0c9b3124	format:options	near	D-markup	True	False	False	False	
+format:output_template#ec659251	format:output_template	pass		True	True	True	True	
+format:output_template#24cdaad4	format:output_template	fail		False	False	False	False	
+format:output_template#1bdc2877	format:output_template	near		False	True	True	True	placeholders not replaced
+format:output_template#929e10aa	format:output_template	near		False	True	True	True	labels in reverse order
+format:parentheses#d00ac1d2	format:parentheses	pass		True	True	True	True	
+format:parentheses#e1a676ef	format:parentheses	fail		False	False	False	False	
+format:parentheses#981850d3	format:parentheses	near	D-paren-closed	False	True	True	True	four brackets never closed
+format:quote_unquote#cee29a89	format:quote_unquote	pass		True	True	True	True	
+format:quote_unquote#c692b1af	format:quote_unquote	fail		False	False	False	False	
+format:quote_unquote#c0c04cf1	format:quote_unquote	near		False	True	True	True	'Apple' is followed only by a comma
+format:quote_unquote#49f19864	format:quote_unquote	near		False	True	True	True	typographic quotes, ends with the quote
+format:quotes#8880d59c	format:quotes	pass		True	True	True	True	
+format:quotes#82e13a36	format:quotes	fail		False	False	False	False	
+format:quotes#71db34af	format:quotes	near		True	False	False	False	typographic quotes
+format:sub-bullets#aae74595	format:sub-bullets	pass		True	True	True	True	
+format:sub-bullets#66f55e4b	format:sub-bullets	fail		False	False	False	False	
+format:sub-bullets#7bab66b6	format:sub-bullets	near		False	True	True	True	no bullets
+format:sub-bullets#ab8d4f35	format:sub-bullets	near		True	False	False	False	bold text in a bullet
+format:sub-bullets#67a974f8	format:sub-bullets	near		False	True	True	True	hyphens inside words, no sub-bullets
+format:thesis#b5b30652	format:thesis	pass		True	True	True	True	
+format:thesis#2e2d26a3	format:thesis	fail		False	False	False	False	
+format:thesis#74a31490	format:thesis	near		False	True	True	True	italic statement is not at the start
+format:thesis#916c8f71	format:thesis	near		False	True	True	True	second section lacks a thesis
+format:thesis#7f9d9cce	format:thesis	near		True	False	False	False	<i> thesis only
+format:thesis#0caa9085	format:thesis	near		True	True	True	True	<em> thesis only
+format:title_case#3d1426d8	format:title_case	pass		True	False	False	False	minor words lower case
+format:title_case#19693782	format:title_case	pass		True	True	True	True	
+format:title_case#99442e4d	format:title_case	fail		False	False	False	False	
+format:title_case#80913d82	format:title_case	near		True	False	False	False	contraction
+ratio:overlap#9d3ba53d	ratio:overlap	pass	D-overlap-measure	True	False	False	True	2 of 4 word trigrams in the reference
+ratio:overlap#3c1b9056	ratio:overlap	fail		False	False	False	False	
+ratio:overlap#489f5220	ratio:overlap	near	D-overlap-measure	False	False	False	False	100% word-trigram overlap
+ratio:sentence_balance#186b9b2d	ratio:sentence_balance	pass		True	True	True	True	
+ratio:sentence_balance#226dbe22	ratio:sentence_balance	fail		False	False	False	False	
+ratio:sentence_balance#2d8373bc	ratio:sentence_balance	near		False	True	True	True	one declarative sentence, no other types
+ratio:sentence_balance#85eb64af	ratio:sentence_balance	near	D-balance	True	False	False	False	
+ratio:sentence_type#e76ed552	ratio:sentence_type	pass		True	True	True	True	
+ratio:sentence_type#4ebe2297	ratio:sentence_type	fail		False	False	False	False	
+ratio:sentence_type#a42d010f	ratio:sentence_type	near		False	True	True	True	no interrogative
+ratio:sentence_type#a44c0dbc	ratio:sentence_type	near		True	False	False	False	declaratives end with a closing quote
+ratio:sentence_words#06cd815f	ratio:sentence_words	pass		True	True	True	True	
+ratio:sentence_words#25606a2c	ratio:sentence_words	fail		False	False	False	False	
+ratio:sentence_words#a661363d	ratio:sentence_words	near		False	True	True	False	same words repeated
+ratio:stop_words#a7555643	ratio:stop_words	pass		True	True	True	True	
+ratio:stop_words#3dc92a0e	ratio:stop_words	fail		False	False	False	False	
+repeat:repeat_change#ff12a0fa	repeat:repeat_change	pass		True	True	True	True	
+repeat:repeat_change#4244c39a	repeat:repeat_change	fail		False	False	False	False	
+repeat:repeat_change#4869f9ee	repeat:repeat_change	near		False	True	True	True	first word unchanged; one doubled space
+repeat:repeat_change#2892df74	repeat:repeat_change	near	D-change-case	False	True	True	True	first word differs only in case
+repeat:repeat_simple#a67ad10b	repeat:repeat_simple	pass		True	True	True	True	
+repeat:repeat_simple#846d51d3	repeat:repeat_simple	fail		False	False	False	False	
+repeat:repeat_simple#34a2fd39	repeat:repeat_simple	near	D-copy-case	False	True	True	True	
+repeat:repeat_span#1e701ba8	repeat:repeat_span	pass		True	EXC:TypeError	False	True	
+repeat:repeat_span#cd9e5223	repeat:repeat_span	fail		False	EXC:TypeError	False	False	
+repeat:repeat_span#2e48ba55	repeat:repeat_span	pass		True	EXC:TypeError	False	True	
+sentence:alliteration_increment#e563432b	sentence:alliteration_increment	pass		True	True	True	True	
+sentence:alliteration_increment#29e9fa03	sentence:alliteration_increment	fail		False	False	False	False	
+sentence:alliteration_increment#336fadc5	sentence:alliteration_increment	near		False	True	True	True	longest runs 3 then 2
+sentence:increment#009251eb	sentence:increment	pass		True	True	True	True	
+sentence:increment#ccb7f7df	sentence:increment	fail		False	False	False	False	
+sentence:increment#16e272a8	sentence:increment	near		True	False	False	False	em dash is not a word
+sentence:keyword#abb7618a	sentence:keyword	pass		True	True	True	True	
+sentence:keyword#1a83a651	sentence:keyword	fail		False	False	False	False	
+sentence:keyword#5cac32ac	sentence:keyword	near		False	False	False	False	
+sentence:keyword#1be9eaa9	sentence:keyword	near	D-sentence	False	True	True	True	heading line is sentence 1
+words:alphabet#8961bd2a	words:alphabet	pass		True	True	True	True	
+words:alphabet#0b4a1bf3	words:alphabet	fail		False	False	False	False	
+words:alphabet#29de9e0f	words:alphabet	near		True	False	False	False	curly quotes
+words:alphabet#b5e6ddb3	words:alphabet	near		True	False	False	False	em dash
+words:consonants#eeaab778	words:consonants	pass		True	True	True	True	
+words:consonants#fb01e739	words:consonants	fail		False	False	False	False	
+words:consonants#a4e41fb0	words:consonants	near		True	False	False	False	em dash
+words:keywords_specific_position#465eac07	words:keywords_specific_position	pass		True	EXC:TypeError	True	True	
+words:keywords_specific_position#13e33f0b	words:keywords_specific_position	fail		False	EXC:TypeError	False	False	
+words:keywords_specific_position#c64ffe65	words:keywords_specific_position	fail		False	False	False	False	
+words:last_first#72c3f13a	words:last_first	pass		True	True	True	True	
+words:last_first#77928804	words:last_first	fail		False	False	False	False	
+words:last_first#841f5f18	words:last_first	near		True	True	True	True	closing curly quote
+words:no_consecutive#8ab33f9b	words:no_consecutive	pass		True	True	True	True	
+words:no_consecutive#4a5eb442	words:no_consecutive	fail		False	False	False	False	
+words:no_consecutive#c20cb636	words:no_consecutive	near		True	False	False	False	curly quotes
+words:odd_even_syllables#e3b48d33	words:odd_even_syllables	pass		True	True	True	True	
+words:odd_even_syllables#21b4694a	words:odd_even_syllables	fail		False	False	False	False	
+words:odd_even_syllables#f5da1d36	words:odd_even_syllables	near		True	False	False	False	naive has two syllables
+words:palindrome#8458a167	words:palindrome	pass		True	True	True	True	
+words:palindrome#1ecf2b7a	words:palindrome	fail		False	False	False	False	
+words:palindrome#0933d30c	words:palindrome	near	D-palindrome-distinct	False	True	True	True	
+words:paragraph_last_first#90230cae	words:paragraph_last_first	pass		True	True	True	True	
+words:paragraph_last_first#c33c751b	words:paragraph_last_first	fail		False	False	False	False	
+words:paragraph_last_first#7053b604	words:paragraph_last_first	near		True	False	False	False	comma after the first word
+words:prime_lengths#5c2fe1a2	words:prime_lengths	pass		True	True	True	True	
+words:prime_lengths#17a6d28f	words:prime_lengths	fail		False	False	False	False	
+words:prime_lengths#22c6c1e2	words:prime_lengths	near		False	True	True	True	don't has 4 letters
+words:prime_lengths#c72f20c6	words:prime_lengths	near		True	False	False	False	em dash
+words:repeats#f1b57aa3	words:repeats	pass		True	True	True	True	
+words:repeats#51bfa52f	words:repeats	fail		False	False	False	False	
+words:repeats#3e229879	words:repeats	near		True	False	False	False	em dash three times
+words:start_verb#5a3763e6	words:start_verb	pass		True	True	True	True	
+words:start_verb#abbd2fee	words:start_verb	pass		True	True	True	True	
+words:start_verb#f310ea52	words:start_verb	fail		False	False	False	False	
+words:start_verb#37ab8d38	words:start_verb	near	D-markup	True	False	False	False	
+words:vowel#c670dede	words:vowel	pass		True	True	True	True	
+words:vowel#7a9c8d81	words:vowel	fail		False	False	False	False	
+words:vowel#f0748370	words:vowel	near	D-paragraph	True	False	False	False	
+words:words_position#7e50ce01	words:words_position	pass		True	True	True	True	
+words:words_position#967f191a	words:words_position	fail		False	False	False	False	
+words:words_position#41d69157	words:words_position	near		True	False	False	True	comma after word 1
+format:no_whitespace#cb92062a	format:no_whitespace	near	D-empty	False	False	False	False	
+words:no_consecutive#6ea89d2d	words:no_consecutive	near	D-empty	False	False	False	False	

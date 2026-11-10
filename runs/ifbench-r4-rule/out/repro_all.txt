@@ -1,0 +1,140 @@
+F01 repeat:repeat_span [strict] key=284 response='code and theory behind'
+    grader=EXC:TypeError  grader_int=False  reference=True  contract=True
+F01 words:keywords_specific_position [strict] kwargs={"keyword": "giggle", "n": 2.0, "m": 3.0} response='I sat. Then we giggle loudly.'
+    grader=EXC:TypeError  grader_int=True  reference=True  contract=True
+F02 repeat:repeat_span [strict] key=284 response='code and theory behind'
+    grader=EXC:TypeError  grader_int=False  reference=True  contract=True
+F02 repeat:repeat_span [strict] key=284 response='lain'
+    grader=EXC:TypeError  grader_int=True  reference=False  contract=False
+F03 count:keywords_multiple [strict] key=2 response='The door was blue. Bread and bread again. Blue sky, blue sea. lamp lamp lamp lamp lamp. river river river river river...'
+    grader=False  grader_int=False  reference=True  contract=True
+F03 count:keywords_multiple [strict] key=2 response='The outdoor wall was blue. Bread and bread again. Blue sky, blue sea. lamp lamp lamp lamp lamp. river river river riv...'
+    grader=True  grader_int=True  reference=False  contract=False
+F04 ratio:sentence_words [strict] kwargs={} response='Cats nap. Cats nap. Cats nap.'
+    grader=True  grader_int=True  reference=False  contract=False
+F05 words:words_position [strict] kwargs={"keyword": "vibrant"} response='Truly, vibrant cities have vibrant streets.'
+    grader=False  grader_int=False  reference=True  contract=True
+F06 custom:sentence_alphabet [strict] key=282 response='Alice ate apples. Bob baked bread. "Cats chased crows." Dogs dug ditches. Every eel escaped. Frogs found flies. Geese...'
+    grader=False  grader_int=False  reference=True  contract=True
+F07 format:title_case [strict] kwargs={} response='The Lord of the Rings Is a Great Book'
+    grader=False  grader_int=False  reference=False  contract=True
+F07 format:title_case [strict] kwargs={} response="Don't Stop Believing"
+    grader=False  grader_int=False  reference=False  contract=True
+F08 format:sub-bullets [strict] kwargs={} response='Plain text without bullets.'
+    grader=True  grader_int=True  reference=True  contract=False
+F08 format:sub-bullets [strict] kwargs={} response='* **Fruit**\n  - Apple\n* Veg\n  - Leek'
+    grader=False  grader_int=False  reference=False  contract=True
+F08 format:sub-bullets [strict] kwargs={} response='* A well-known fruit\n* A self-made veg'
+    grader=True  grader_int=True  reference=True  contract=False
+F09 format:list [strict] kwargs={"sep": "-"} response='A well-known, state-of-the-art plan.'
+    grader=True  grader_int=True  reference=True  contract=False
+F09 format:list [strict] kwargs={"sep": "SEPARATOR"} response='* SEPARATOR apples\n* SEPARATOR pears'
+    grader=True  grader_int=True  reference=True  contract=False
+F10 format:output_template [strict] kwargs={} response='My Answer: [answer] My Conclusion: [conclusion] Future Outlook: [outlook]'
+    grader=True  grader_int=True  reference=True  contract=False
+F10 format:output_template [strict] kwargs={} response='Future Outlook: It will grow. My Conclusion: It matters. My Answer: It is vast.'
+    grader=True  grader_int=True  reference=True  contract=False
+F11 format:thesis [strict] kwargs={} response='Cats purr a lot. <i>Cats are the best pets.</i> More text.'
+    grader=True  grader_int=True  reference=True  contract=False
+F11 format:thesis [strict] kwargs={} response='## One\n<i>Thesis one.</i> Text.\n## Two\nNo thesis here.'
+    grader=True  grader_int=True  reference=True  contract=False
+F11 format:thesis [strict] kwargs={} response='<i>Cats rule.</i>'
+    grader=False  grader_int=False  reference=False  contract=True
+F11 format:thesis [strict] kwargs={} response='<em>Cats rule.</em>'
+    grader=True  grader_int=True  reference=True  contract=True
+F12 count:punctuation [strict] kwargs={} response='Wait?! Really; yes: go, now. Why? Stop!'
+    grader=True  grader_int=True  reference=True  contract=False
+F13 count:conjunctions [strict] kwargs={"small_n": 3.0} response='I came and saw. And I stayed and, sadly, left.'
+    grader=True  grader_int=True  reference=True  contract=False
+F14 count:pronouns [strict] kwargs={"N": 5.0} response='This book and that pen sit on each desk, with all chairs and some tables.'
+    grader=True  grader_int=True  reference=True  contract=False
+F15 count:numbers [strict] kwargs={"N": 2.0} response='It takes 5-7 days.'
+    grader=False  grader_int=False  reference=False  contract=True
+F16 count:unique_word_count [strict] kwargs={"N": 5.0} response='Red green blue yellow - red'
+    grader=True  grader_int=True  reference=True  contract=False
+F16 count:unique_word_count [strict] kwargs={"N": 5.0} response='“Red” red green blue yellow'
+    grader=True  grader_int=True  reference=True  contract=False
+F17 count:words_japanese [strict] kwargs={"N": 2.0} response='Hello 2024 good 日本'
+    grader=True  grader_int=True  reference=True  contract=False
+F17 count:words_japanese [strict] kwargs={"N": 2.0} response='Hello - 世界 good 日本'
+    grader=False  grader_int=False  reference=False  contract=True
+F18 custom:character_reverse [strict] key=273 response='The national symbol of the US is the elgae dlab.'
+    grader=True  grader_int=True  reference=True  contract=False
+F18 custom:word_reverse [strict] key=283 response='The national symbol of the US is the eagle bald.'
+    grader=True  grader_int=True  reference=True  contract=False
+F19 custom:european_capitals_sort [strict] key=278 response='Reykjavik, Helsinki, Oslo, Tallinn, Stockholm, Riga, Moscow, Copenhagen, Vilnius, Minsk, Dublin, Berlin, Amsterdam, W...'
+    grader=False  grader_int=False  reference=False  contract=True
+F19 custom:european_capitals_sort [strict] key=278 response='Reykjavik, Helsinki, Oslo, Tallinn, Stockholm, Riga, Moscow, Copenhagen, Vilnius, Minsk, Dublin, Berlin, Amsterdam, W...'
+    grader=True  grader_int=True  reference=True  contract=False
+F20 custom:reverse_newline [strict] key=281 response='Zimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\nZimbabwe\n...'
+    grader=True  grader_int=True  reference=True  contract=False
+F21 custom:csv_special_character [strict] key=276 response='ProductID,Category,Brand,Price,Stock\n1,"Tools & Hardware",Acme,9.99,5\n2,Tools,Brand2\n3,Tools,Brand3\n4,Tools,Brand4\n5,...'
+    grader=True  grader_int=True  reference=True  contract=False
+F22 custom:csv_quotes [strict] key=275 response='"StudentID"\t"Subject"\t"Grade"\t"Semester"\t"Score"\n"1"\t\t"A"\t"Fall"\t"91"\n"2"\t"Math"\t"B"\t"Fall"\t"82"\n"3"\t"Art"\t"C"\t"Fall"...'
+    grader=EXC:IndexError  grader_int=EXC:IndexError  reference=EXC:IndexError  contract=False
+F23 custom:date_format_list [strict] key=277 response='1796-00-12, 1805-12-00'
+    grader=True  grader_int=True  reference=True  contract=False
+F24 custom:mcq_count_length [strict] key=279 response='Question: Who painted Guernica?\nA) Picasso\nB) Dali\nC) Miro\nD) Matisse\nE) Braque\n\nQuestion: Which movement did Dali jo...'
+    grader=False  grader_int=False  reference=False  contract=True
+F25 format:emoji [strict] kwargs={} response='Count 1️⃣. Then 2️⃣.'
+    grader=False  grader_int=False  reference=False  contract=True
+F25 format:emoji [strict] kwargs={} response='Hello 🇺🇸. Bye 🇺🇸.'
+    grader=False  grader_int=False  reference=False  contract=True
+F26 format:line_indent [strict] kwargs={} response='A\n\tB\n\t\tC'
+    grader=False  grader_int=False  reference=False  contract=True
+F26 format:line_indent [strict] kwargs={} response='A\n B\n\n\n  C'
+    grader=False  grader_int=False  reference=False  contract=True
+F27 format:newline [strict] kwargs={} response='Hello world\n \nagain'
+    grader=True  grader_int=True  reference=True  contract=False
+F28 format:no_bullets_bullets [strict] kwargs={} response='This is one. This is two.\n\n* first\n\n* second'
+    grader=False  grader_int=False  reference=False  contract=True
+F28 format:no_bullets_bullets [strict] kwargs={} response='This is one. This is two.\n* first\n* second\n'
+    grader=False  grader_int=False  reference=False  contract=True
+F28 format:no_bullets_bullets [strict] kwargs={} response='Why not? Because!\n* first\n* second'
+    grader=True  grader_int=True  reference=True  contract=False
+F29 format:options [strict] key=102 response='c)\n'
+    grader=False  grader_int=False  reference=False  contract=True
+F29 format:options [strict] key=100 response='Yes\n'
+    grader=False  grader_int=False  reference=False  contract=True
+F31 format:quote_unquote [strict] kwargs={} response='"Apple", "Banana", and "Cherry" are fruits.'
+    grader=True  grader_int=True  reference=True  contract=False
+F31 format:quote_unquote [strict] kwargs={} response='He said “hello”'
+    grader=True  grader_int=True  reference=True  contract=False
+F32 format:quotes [strict] kwargs={} response='He said, “She told me, ‘He yelled “stop” loudly’ today” again.'
+    grader=False  grader_int=False  reference=False  contract=True
+F33 ratio:sentence_balance [strict] kwargs={} response='Rain falls 😀'
+    grader=True  grader_int=True  reference=True  contract=False
+F33 ratio:sentence_type [strict] kwargs={} response='Wow! Amazing!'
+    grader=True  grader_int=True  reference=True  contract=False
+F33 ratio:sentence_type [strict] kwargs={} response='He said "go." She said "stop." Why?'
+    grader=False  grader_int=False  reference=False  contract=True
+F34 repeat:repeat_change [strict] key=60 response='Write a python program to implement a simple JPEG compression algorithm without  any errors.'
+    grader=True  grader_int=True  reference=True  contract=False
+F35 sentence:alliteration_increment [strict] kwargs={} response='Big bears bite fish. Red roses and tall trees grow.'
+    grader=True  grader_int=True  reference=True  contract=False
+F36 sentence:increment [strict] kwargs={"small_n": 2.0} response='Cats nap. Cats nap — all day.'
+    grader=False  grader_int=False  reference=False  contract=True
+F36 words:alphabet [strict] kwargs={} response='Apples bake — carefully daily.'
+    grader=False  grader_int=False  reference=False  contract=True
+F36 words:consonants [strict] kwargs={} response='Strong stars — bright.'
+    grader=False  grader_int=False  reference=False  contract=True
+F36 words:no_consecutive [strict] kwargs={} response='“Cats” “like” mice.'
+    grader=False  grader_int=False  reference=False  contract=True
+F36 words:prime_lengths [strict] kwargs={} response='We don’t go.'
+    grader=True  grader_int=True  reference=True  contract=False
+F36 words:repeats [strict] kwargs={"small_n": 2.0} response='Cats nap — dogs run — birds fly — fish swim.'
+    grader=False  grader_int=False  reference=False  contract=True
+F36 words:odd_even_syllables [strict] kwargs={} response='Cat apple — dog.'
+    grader=False  grader_int=False  reference=False  contract=True
+F37 words:paragraph_last_first [strict] kwargs={} response='Time, they say, heals all wounds over time.'
+    grader=False  grader_int=False  reference=False  contract=True
+F38 words:odd_even_syllables [strict] kwargs={} response='Cat naive dog.'
+    grader=False  grader_int=False  reference=False  contract=True
+F42 format:sub-bullets [loose] kwargs={} response='* Apples\n* Pears'
+    grader=True  grader_int=True  reference=True  contract=False
+F42 format:no_whitespace [loose] kwargs={} response='Sure!\nabc'
+    grader=True  grader_int=True  reference=True  contract=False
+F42 words:start_verb [loose] kwargs={} response='Here is my answer:\nImagine a world of peace.'
+    grader=True  grader_int=True  reference=True  contract=False
+F43 count:conjunctions [strict] key=8 panel=Qwen__Qwen3-8B__thinking/greedy.jsonl line 9: finish_reason=length num_tokens=8192 '<think>' in raw=True '</think>' in raw=False response==raw=True
+    grader=True  reference=True  contract=False (G1: unclosed reasoning is an extraction failure)

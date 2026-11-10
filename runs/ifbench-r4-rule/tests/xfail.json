@@ -1,0 +1,442 @@
+{
+ "count:conjunctions#1c3be98f": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F13"
+ },
+ "count:conjunctions#aa34580f": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-conj-usage"
+ },
+ "count:keywords_multiple#9e0f313d": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F03"
+ },
+ "count:keywords_multiple#de32f574": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F03"
+ },
+ "count:numbers#789f53cc": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F15"
+ },
+ "count:pronouns#18584f4c": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F14"
+ },
+ "count:pronouns#788bc739": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-pronoun-set"
+ },
+ "count:punctuation#ed1f5487": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F12"
+ },
+ "count:unique_word_count#29f8a0f5": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F16"
+ },
+ "count:unique_word_count#4a6db790": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F16"
+ },
+ "count:word_count_range#675f89fc": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-word"
+ },
+ "count:word_count_range#8514fb79": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-word"
+ },
+ "count:words_japanese#283a4946": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F17"
+ },
+ "count:words_japanese#83b40cb2": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F17"
+ },
+ "custom:character_reverse#5ed2b45f": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-reverse-extra"
+ },
+ "custom:character_reverse#7d459cc0": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F18"
+ },
+ "custom:csv_city#f09fb6bf": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-csv-payload"
+ },
+ "custom:csv_quotes#8f3d2022": {
+  "grader": "EXC:IndexError",
+  "label": "False",
+  "reason": "F22"
+ },
+ "custom:csv_special_character#efb944e2": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F21"
+ },
+ "custom:date_format_list#a28df6b2": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F23"
+ },
+ "custom:date_format_list#c45f17a8": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-custom-content"
+ },
+ "custom:european_capitals_sort#d86edf6d": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F19"
+ },
+ "custom:european_capitals_sort#f5325312": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F19"
+ },
+ "custom:mcq_count_length#5f0270d5": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-markup"
+ },
+ "custom:mcq_count_length#6fe45e49": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F24"
+ },
+ "custom:multiples#777c1d03": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-list-extra"
+ },
+ "custom:reverse_newline#e0f29117": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F20"
+ },
+ "custom:reverse_newline#e7fdda14": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-list-labels"
+ },
+ "custom:sentence_alphabet#6eb1c09b": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F06"
+ },
+ "custom:word_reverse#08fb9872": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F18"
+ },
+ "format:emoji#144b8046": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-sentence"
+ },
+ "format:emoji#9b8b412a": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F25"
+ },
+ "format:emoji#e0722bc7": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F25"
+ },
+ "format:line_indent#19751e73": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F26"
+ },
+ "format:line_indent#86fd77b7": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F26"
+ },
+ "format:list#18e0224d": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F09"
+ },
+ "format:list#814f2b41": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F09"
+ },
+ "format:newline#44600b29": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F27"
+ },
+ "format:no_bullets_bullets#26e68c8b": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F28"
+ },
+ "format:no_bullets_bullets#d16336f8": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F28"
+ },
+ "format:no_whitespace#d11fbeb8": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-trailing-ws"
+ },
+ "format:options#0c9b3124": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-markup"
+ },
+ "format:options#2809e9ef": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F29"
+ },
+ "format:options#715e2e97": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F29"
+ },
+ "format:output_template#1bdc2877": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F10"
+ },
+ "format:output_template#929e10aa": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F10"
+ },
+ "format:parentheses#981850d3": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-paren-closed"
+ },
+ "format:quote_unquote#49f19864": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F31"
+ },
+ "format:quote_unquote#c0c04cf1": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F31"
+ },
+ "format:quotes#71db34af": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F32"
+ },
+ "format:sub-bullets#67a974f8": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F08"
+ },
+ "format:sub-bullets#7bab66b6": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F08"
+ },
+ "format:sub-bullets#ab8d4f35": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F08"
+ },
+ "format:thesis#74a31490": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F11"
+ },
+ "format:thesis#7f9d9cce": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F11"
+ },
+ "format:thesis#916c8f71": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F11"
+ },
+ "format:title_case#3d1426d8": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F07"
+ },
+ "format:title_case#80913d82": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F07"
+ },
+ "ratio:overlap#9d3ba53d": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-overlap-measure"
+ },
+ "ratio:sentence_balance#2d8373bc": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F33"
+ },
+ "ratio:sentence_balance#85eb64af": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-balance"
+ },
+ "ratio:sentence_type#a42d010f": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F33"
+ },
+ "ratio:sentence_type#a44c0dbc": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F33"
+ },
+ "ratio:sentence_words#a661363d": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F04"
+ },
+ "repeat:repeat_change#2892df74": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-change-case"
+ },
+ "repeat:repeat_change#4869f9ee": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F34"
+ },
+ "repeat:repeat_simple#34a2fd39": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-copy-case"
+ },
+ "repeat:repeat_span#1e701ba8": {
+  "grader": "EXC:TypeError",
+  "label": "True",
+  "reason": "F01"
+ },
+ "repeat:repeat_span#2e48ba55": {
+  "grader": "EXC:TypeError",
+  "label": "True",
+  "reason": "F01"
+ },
+ "repeat:repeat_span#cd9e5223": {
+  "grader": "EXC:TypeError",
+  "label": "False",
+  "reason": "F01"
+ },
+ "sentence:alliteration_increment#336fadc5": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F35"
+ },
+ "sentence:increment#16e272a8": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "sentence:keyword#1be9eaa9": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-sentence"
+ },
+ "words:alphabet#29de9e0f": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "words:alphabet#b5e6ddb3": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "words:consonants#a4e41fb0": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "words:keywords_specific_position#13e33f0b": {
+  "grader": "EXC:TypeError",
+  "label": "False",
+  "reason": "F01"
+ },
+ "words:keywords_specific_position#465eac07": {
+  "grader": "EXC:TypeError",
+  "label": "True",
+  "reason": "F01"
+ },
+ "words:no_consecutive#c20cb636": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "words:odd_even_syllables#f5da1d36": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F38"
+ },
+ "words:palindrome#0933d30c": {
+  "grader": "True",
+  "label": "False",
+  "reason": "D-palindrome-distinct"
+ },
+ "words:paragraph_last_first#7053b604": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F37"
+ },
+ "words:prime_lengths#22c6c1e2": {
+  "grader": "True",
+  "label": "False",
+  "reason": "F36"
+ },
+ "words:prime_lengths#c72f20c6": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "words:repeats#3e229879": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F36"
+ },
+ "words:start_verb#37ab8d38": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-markup"
+ },
+ "words:vowel#f0748370": {
+  "grader": "False",
+  "label": "True",
+  "reason": "D-paragraph"
+ },
+ "words:words_position#41d69157": {
+  "grader": "False",
+  "label": "True",
+  "reason": "F05"
+ }
+}
