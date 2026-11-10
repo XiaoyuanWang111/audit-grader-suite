@@ -1,0 +1,20 @@
+.....................................F. [ 60%]
+..F...F..................F         [100%]
+================================== FAILURES ===================================
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: True is not false
+<python>\Lib\unittest\case.py:721: AssertionError: True is not false
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+=========================== short test summary info ===========================
+SUBFAILED[test with TEST_KEYWORDS_MULTIPLE_MESSAGE_1] instructions_test.py::InstructionsTest::test_keywords_multiple__counts_whole_words
+FAILED instructions_test.py::InstructionsTest::test_repeat_span__uses_word_indices
+FAILED instructions_test.py::InstructionsTest::test_sentence_alphabet__ignores_leading_punctuation
+FAILED instructions_test.py::InstructionsTest::test_sentence_words__requires_unique_words
+FAILED instructions_test.py::InstructionsTest::test_words_position__ignores_punctuation_tokens
+5 failed, 61 passed, 142 subtests passed in 0.88s

@@ -1,0 +1,2082 @@
+[
+ {
+  "id": "count:conjunctions-59712118",
+  "check": "count:conjunctions",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:conjunctions-5789e4b4",
+  "check": "count:conjunctions",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:conjunctions-d587c200",
+  "check": "count:conjunctions",
+  "label": false,
+  "tag": "F-conj-variants",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:keywords_multiple-e5ca6ee2",
+  "check": "count:keywords_multiple",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:keywords_multiple-fbff70bc",
+  "check": "count:keywords_multiple",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:keywords_multiple-22b2bdee",
+  "check": "count:keywords_multiple",
+  "label": true,
+  "tag": "F-keywords-substring",
+  "G": false,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:keywords_multiple-cd1b9464",
+  "check": "count:keywords_multiple",
+  "label": false,
+  "tag": "F-keywords-substring",
+  "G": true,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:keywords_multiple-aa825562",
+  "check": "count:keywords_multiple",
+  "label": true,
+  "tag": "D-keyword-form",
+  "G": false,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:numbers-6224de4c",
+  "check": "count:numbers",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:numbers-07b2f239",
+  "check": "count:numbers",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:numbers-b9a18137",
+  "check": "count:numbers",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:numbers-1e85aac9",
+  "check": "count:numbers",
+  "label": true,
+  "tag": "F-numbers-joined",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:person_names-689a1f64",
+  "check": "count:person_names",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:person_names-aa0d814a",
+  "check": "count:person_names",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:person_names-3c0da6c1",
+  "check": "count:person_names",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:pronouns-ba3dae84",
+  "check": "count:pronouns",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:pronouns-9a4920cc",
+  "check": "count:pronouns",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:pronouns-e9dd83cc",
+  "check": "count:pronouns",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:punctuation-2a35472a",
+  "check": "count:punctuation",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:punctuation-1138f3ac",
+  "check": "count:punctuation",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:punctuation-231107ed",
+  "check": "count:punctuation",
+  "label": false,
+  "tag": "D-punct-set",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "count:unique_word_count-8861af9c",
+  "check": "count:unique_word_count",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:unique_word_count-29b2d663",
+  "check": "count:unique_word_count",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:unique_word_count-b7fdcdb7",
+  "check": "count:unique_word_count",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:word_count_range-1067319e",
+  "check": "count:word_count_range",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:word_count_range-0c34c6c4",
+  "check": "count:word_count_range",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:word_count_range-d0ffdfa2",
+  "check": "count:word_count_range",
+  "label": true,
+  "tag": "F-word-count-split",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:words_japanese-a541ba16",
+  "check": "count:words_japanese",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "count:words_japanese-1aaf6a62",
+  "check": "count:words_japanese",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:words_japanese-220af62c",
+  "check": "count:words_japanese",
+  "label": false,
+  "tag": "F-japanese-skip",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "count:words_japanese-16200d9c",
+  "check": "count:words_japanese",
+  "label": false,
+  "tag": "D-japanese-digits",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "custom:character_reverse-93040952",
+  "check": "custom:character_reverse",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:character_reverse-7b505534",
+  "check": "custom:character_reverse",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:character_reverse-78bf4bd5",
+  "check": "custom:character_reverse",
+  "label": false,
+  "tag": "F-charrev-partial",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:csv_city-eb438441",
+  "check": "custom:csv_city",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:csv_city-ef425ab8",
+  "check": "custom:csv_city",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:csv_city-d4761430",
+  "check": "custom:csv_city",
+  "label": true,
+  "tag": "D-csv-wrapper",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "custom:csv_quotes-00a8a8c4",
+  "check": "custom:csv_quotes",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:csv_quotes-b38e72fb",
+  "check": "custom:csv_quotes",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:csv_quotes-83f2fd44",
+  "check": "custom:csv_quotes",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:csv_special_character-c067b009",
+  "check": "custom:csv_special_character",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:csv_special_character-419d8c34",
+  "check": "custom:csv_special_character",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:csv_special_character-95930241",
+  "check": "custom:csv_special_character",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:date_format_list-6e590b92",
+  "check": "custom:date_format_list",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:date_format_list-524294a1",
+  "check": "custom:date_format_list",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:date_format_list-47a6dff5",
+  "check": "custom:date_format_list",
+  "label": false,
+  "tag": "F-date-invalid",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:european_capitals_sort-7c1bd6bc",
+  "check": "custom:european_capitals_sort",
+  "label": true,
+  "tag": "F-capitals-key",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:european_capitals_sort-6aea6f9e",
+  "check": "custom:european_capitals_sort",
+  "label": false,
+  "tag": "F-capitals-key",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:european_capitals_sort-facf3947",
+  "check": "custom:european_capitals_sort",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:mcq_count_length-39eec200",
+  "check": "custom:mcq_count_length",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:mcq_count_length-520d1a3d",
+  "check": "custom:mcq_count_length",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:mcq_count_length-7a52df67",
+  "check": "custom:mcq_count_length",
+  "label": true,
+  "tag": "F-mcq-label",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:multiples-194bb892",
+  "check": "custom:multiples",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:multiples-00a83720",
+  "check": "custom:multiples",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:multiples-2f6efe86",
+  "check": "custom:multiples",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:reverse_newline-0e50afbf",
+  "check": "custom:reverse_newline",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:reverse_newline-de21498f",
+  "check": "custom:reverse_newline",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:reverse_newline-a733ec60",
+  "check": "custom:reverse_newline",
+  "label": false,
+  "tag": "F-africa-incomplete",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:sentence_alphabet-41fad034",
+  "check": "custom:sentence_alphabet",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:sentence_alphabet-cae8ad03",
+  "check": "custom:sentence_alphabet",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:sentence_alphabet-ca748461",
+  "check": "custom:sentence_alphabet",
+  "label": true,
+  "tag": "F-alphabet-quote",
+  "G": false,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:word_reverse-b7cae741",
+  "check": "custom:word_reverse",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "custom:word_reverse-e95e2db3",
+  "check": "custom:word_reverse",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:word_reverse-9012829e",
+  "check": "custom:word_reverse",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:emoji-979af95c",
+  "check": "format:emoji",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:emoji-16b75d7e",
+  "check": "format:emoji",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:emoji-a0b21350",
+  "check": "format:emoji",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:emoji-dbfa7128",
+  "check": "format:emoji",
+  "label": true,
+  "tag": "F-emoji-sequence",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:emoji-4b6e3215",
+  "check": "format:emoji",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:line_indent-24aaee5c",
+  "check": "format:line_indent",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:line_indent-d9c0f8a5",
+  "check": "format:line_indent",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:line_indent-7ce590ee",
+  "check": "format:line_indent",
+  "label": true,
+  "tag": "F-indent-tabs",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:line_indent-750deda2",
+  "check": "format:line_indent",
+  "label": true,
+  "tag": "F-indent-blank-lines",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:list-e1b6b9e5",
+  "check": "format:list",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:list-5926f1a9",
+  "check": "format:list",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:list-caad469d",
+  "check": "format:list",
+  "label": false,
+  "tag": "F-list-anywhere",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:list-6fecded5",
+  "check": "format:list",
+  "label": true,
+  "tag": "D-list-sep",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "format:newline-865d2d45",
+  "check": "format:newline",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:newline-4197140d",
+  "check": "format:newline",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:newline-80c030ad",
+  "check": "format:newline",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:no_bullets_bullets-1c12560d",
+  "check": "format:no_bullets_bullets",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:no_bullets_bullets-6bfe2847",
+  "check": "format:no_bullets_bullets",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:no_bullets_bullets-5e18057a",
+  "check": "format:no_bullets_bullets",
+  "label": true,
+  "tag": "F-nbb-blank-lines",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:no_bullets_bullets-fde0a7fb",
+  "check": "format:no_bullets_bullets",
+  "label": false,
+  "tag": "F-nbb-period",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:no_bullets_bullets-18738238",
+  "check": "format:no_bullets_bullets",
+  "label": true,
+  "tag": "D-nbb-order",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "format:no_whitespace-ae607c77",
+  "check": "format:no_whitespace",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:no_whitespace-b2aa6ec5",
+  "check": "format:no_whitespace",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:no_whitespace-f7449c64",
+  "check": "format:no_whitespace",
+  "label": true,
+  "tag": "D-trim",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "format:options-3126879f",
+  "check": "format:options",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:options-10c6a1d6",
+  "check": "format:options",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:options-392008e0",
+  "check": "format:options",
+  "label": true,
+  "tag": "D-trim",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "format:options-0725426f",
+  "check": "format:options",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:options-e4dbcaf3",
+  "check": "format:options",
+  "label": true,
+  "tag": "D-options-exact",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "format:options-06abb3ba",
+  "check": "format:options",
+  "label": true,
+  "tag": "D-options-exact",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "format:options-8749c89e",
+  "check": "format:options",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:output_template-9a7aff2b",
+  "check": "format:output_template",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:output_template-65c707a6",
+  "check": "format:output_template",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:output_template-3d64d1fa",
+  "check": "format:output_template",
+  "label": false,
+  "tag": "F-template-check",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:output_template-fe5a21db",
+  "check": "format:output_template",
+  "label": false,
+  "tag": "F-template-check",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:parentheses-63badb57",
+  "check": "format:parentheses",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:parentheses-4157578e",
+  "check": "format:parentheses",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:parentheses-75998a07",
+  "check": "format:parentheses",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:quote_unquote-63c9e09c",
+  "check": "format:quote_unquote",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:quote_unquote-d875816d",
+  "check": "format:quote_unquote",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:quote_unquote-c3a4cc73",
+  "check": "format:quote_unquote",
+  "label": false,
+  "tag": "F-quote-unquote-curly",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:quote_unquote-d71862bf",
+  "check": "format:quote_unquote",
+  "label": false,
+  "tag": "D-explanation",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "format:quotes-22bf26de",
+  "check": "format:quotes",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:quotes-025872e1",
+  "check": "format:quotes",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:quotes-07be1176",
+  "check": "format:quotes",
+  "label": true,
+  "tag": "F-quotes-curly",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:sub-bullets-b6b70be8",
+  "check": "format:sub-bullets",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:sub-bullets-86f2147d",
+  "check": "format:sub-bullets",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:sub-bullets-0dc9fe92",
+  "check": "format:sub-bullets",
+  "label": false,
+  "tag": "F-subbullets-check",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:sub-bullets-4d5da15b",
+  "check": "format:sub-bullets",
+  "label": false,
+  "tag": "F-subbullets-check",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:thesis-121f52f0",
+  "check": "format:thesis",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:thesis-daf672fa",
+  "check": "format:thesis",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:thesis-bfe73c86",
+  "check": "format:thesis",
+  "label": false,
+  "tag": "F-thesis-each",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:thesis-03092647",
+  "check": "format:thesis",
+  "label": false,
+  "tag": "F-thesis-each",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:title_case-5973bbc6",
+  "check": "format:title_case",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:title_case-22bc2009",
+  "check": "format:title_case",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:title_case-00f3eeac",
+  "check": "format:title_case",
+  "label": true,
+  "tag": "F-titlecase-minor",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:title_case-45d9ac62",
+  "check": "format:title_case",
+  "label": true,
+  "tag": "F-titlecase-contraction",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:overlap-4b432d5a",
+  "check": "ratio:overlap",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:overlap-82d9bd6f",
+  "check": "ratio:overlap",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:overlap-aa84b728",
+  "check": "ratio:overlap",
+  "label": true,
+  "tag": "F-overlap-char",
+  "G": false,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:sentence_balance-1f883e14",
+  "check": "ratio:sentence_balance",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:sentence_balance-eeedb063",
+  "check": "ratio:sentence_balance",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:sentence_balance-3dde92ac",
+  "check": "ratio:sentence_balance",
+  "label": false,
+  "tag": "F-balance-zero",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:sentence_type-33b37f50",
+  "check": "ratio:sentence_type",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:sentence_type-4d0d37b9",
+  "check": "ratio:sentence_type",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:sentence_type-18b41e80",
+  "check": "ratio:sentence_type",
+  "label": false,
+  "tag": "F-ratio-zero",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:sentence_words-095c1bfd",
+  "check": "ratio:sentence_words",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:sentence_words-bf7501fe",
+  "check": "ratio:sentence_words",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:sentence_words-a355e378",
+  "check": "ratio:sentence_words",
+  "label": false,
+  "tag": "F-sentence-words-unique",
+  "G": true,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:stop_words-b70ce6de",
+  "check": "ratio:stop_words",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "ratio:stop_words-c8626ed2",
+  "check": "ratio:stop_words",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "ratio:stop_words-d41c5b72",
+  "check": "ratio:stop_words",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "repeat:repeat_change-f0ac1338",
+  "check": "repeat:repeat_change",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "repeat:repeat_change-165bf497",
+  "check": "repeat:repeat_change",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "repeat:repeat_change-5b871fd0",
+  "check": "repeat:repeat_change",
+  "label": false,
+  "tag": "F-repeat-change-same",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "repeat:repeat_change-51e50464",
+  "check": "repeat:repeat_change",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "repeat:repeat_simple-390d0492",
+  "check": "repeat:repeat_simple",
+  "label": true,
+  "tag": "D-this-sentence",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "repeat:repeat_simple-a47bc53c",
+  "check": "repeat:repeat_simple",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "repeat:repeat_simple-8a59eec5",
+  "check": "repeat:repeat_simple",
+  "label": false,
+  "tag": "D-this-sentence",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "repeat:repeat_span-c1af1019",
+  "check": "repeat:repeat_span",
+  "label": true,
+  "tag": "F-span-char",
+  "G": false,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "repeat:repeat_span-b8bcc875",
+  "check": "repeat:repeat_span",
+  "label": false,
+  "tag": "F-span-char",
+  "G": true,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "repeat:repeat_span-d8a04305",
+  "check": "repeat:repeat_span",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "sentence:alliteration_increment-d3f71c8f",
+  "check": "sentence:alliteration_increment",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "sentence:alliteration_increment-e3548050",
+  "check": "sentence:alliteration_increment",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "sentence:alliteration_increment-da974956",
+  "check": "sentence:alliteration_increment",
+  "label": false,
+  "tag": "F-alliteration-sum",
+  "G": true,
+  "R": true,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "sentence:increment-6d3a26ee",
+  "check": "sentence:increment",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "sentence:increment-476afbdf",
+  "check": "sentence:increment",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "sentence:increment-94b0eb26",
+  "check": "sentence:increment",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "sentence:keyword-5028c418",
+  "check": "sentence:keyword",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "sentence:keyword-09c28013",
+  "check": "sentence:keyword",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "sentence:keyword-bde64213",
+  "check": "sentence:keyword",
+  "label": true,
+  "tag": "D-sentence",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "words:alphabet-6c34b057",
+  "check": "words:alphabet",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:alphabet-79f07511",
+  "check": "words:alphabet",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:alphabet-e8a115b6",
+  "check": "words:alphabet",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:consonants-c579679f",
+  "check": "words:consonants",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:consonants-c04b5e29",
+  "check": "words:consonants",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:consonants-23f48817",
+  "check": "words:consonants",
+  "label": true,
+  "tag": "D-word",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "words:keywords_specific_position-73512264",
+  "check": "words:keywords_specific_position",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:keywords_specific_position-9d7f0e81",
+  "check": "words:keywords_specific_position",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:keywords_specific_position-4290eb1b",
+  "check": "words:keywords_specific_position",
+  "label": true,
+  "tag": "F-word-tokenize-contractions",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:last_first-4b5921fe",
+  "check": "words:last_first",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:last_first-a1d1cf6a",
+  "check": "words:last_first",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:last_first-bd3a8757",
+  "check": "words:last_first",
+  "label": true,
+  "tag": "F-attached-punct",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:no_consecutive-2dbd793b",
+  "check": "words:no_consecutive",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:no_consecutive-34566735",
+  "check": "words:no_consecutive",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:no_consecutive-7893757e",
+  "check": "words:no_consecutive",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:odd_even_syllables-93ffca5a",
+  "check": "words:odd_even_syllables",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:odd_even_syllables-f97d46c9",
+  "check": "words:odd_even_syllables",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:odd_even_syllables-92a5ee3d",
+  "check": "words:odd_even_syllables",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:palindrome-a9b53ad4",
+  "check": "words:palindrome",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:palindrome-9905dbc3",
+  "check": "words:palindrome",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:palindrome-a5f3219d",
+  "check": "words:palindrome",
+  "label": false,
+  "tag": "D-palindrome-distinct",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "words:paragraph_last_first-52242f07",
+  "check": "words:paragraph_last_first",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:paragraph_last_first-09fc2295",
+  "check": "words:paragraph_last_first",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:paragraph_last_first-4619fc58",
+  "check": "words:paragraph_last_first",
+  "label": true,
+  "tag": "F-attached-punct",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:prime_lengths-ddd91455",
+  "check": "words:prime_lengths",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:prime_lengths-c1983e74",
+  "check": "words:prime_lengths",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:prime_lengths-323a8c23",
+  "check": "words:prime_lengths",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:repeats-1f1bcb1f",
+  "check": "words:repeats",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:repeats-6c61abdb",
+  "check": "words:repeats",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:repeats-bd145368",
+  "check": "words:repeats",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:start_verb-17d30b2a",
+  "check": "words:start_verb",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:start_verb-19531000",
+  "check": "words:start_verb",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:start_verb-4102f6b2",
+  "check": "words:start_verb",
+  "label": true,
+  "tag": "F-startverb-markup",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:start_verb-73fbc65e",
+  "check": "words:start_verb",
+  "label": true,
+  "tag": "F-startverb-tagger",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:start_verb-0b8e5968",
+  "check": "words:start_verb",
+  "label": true,
+  "tag": "F-startverb-tagger",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:start_verb-53f06176",
+  "check": "words:start_verb",
+  "label": false,
+  "tag": "D-verb",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "words:vowel-9d04364e",
+  "check": "words:vowel",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:vowel-9eed09c1",
+  "check": "words:vowel",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:vowel-b4f6d372",
+  "check": "words:vowel",
+  "label": true,
+  "tag": "D-vowel-paragraph",
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": true
+ },
+ {
+  "id": "words:words_position-305f631d",
+  "check": "words:words_position",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:words_position-167a3d8b",
+  "check": "words:words_position",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "words:words_position-c5f037b9",
+  "check": "words:words_position",
+  "label": true,
+  "tag": "F-words-position-punct",
+  "G": false,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:no_whitespace-3ad80c63",
+  "check": "format:no_whitespace",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:sub-bullets-050376b2",
+  "check": "format:sub-bullets",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "custom:csv_quotes-54872d9e",
+  "check": "custom:csv_quotes",
+  "label": false,
+  "tag": "F-csv-quotes-exception",
+  "G": "EXC:IndexError",
+  "R": "EXC:IndexError",
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:list-895af6ac",
+  "check": "format:list",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:list-5303e5a0",
+  "check": "format:list",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:sub-bullets-fcb0d05e",
+  "check": "format:sub-bullets",
+  "label": true,
+  "tag": "F-subbullets-check",
+  "G": false,
+  "R": false,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "format:thesis-11994780",
+  "check": "format:thesis",
+  "label": false,
+  "tag": "D-section",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "format:quotes-3056ef92",
+  "check": "format:quotes",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ },
+ {
+  "id": "words:start_verb-11be1382",
+  "check": "words:start_verb",
+  "label": false,
+  "tag": null,
+  "G": false,
+  "R": false,
+  "X": false,
+  "XP": false
+ },
+ {
+  "id": "format:output_template-baf612a5",
+  "check": "format:output_template",
+  "label": false,
+  "tag": "D-template-repeat",
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": false
+ },
+ {
+  "id": "custom:reverse_newline-dff757c2",
+  "check": "custom:reverse_newline",
+  "label": true,
+  "tag": null,
+  "G": true,
+  "R": true,
+  "X": true,
+  "XP": true
+ }
+]

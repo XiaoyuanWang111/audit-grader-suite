@@ -1,0 +1,137 @@
+{
+ "G_vs_X_split": {
+  "count:conjunctions": {
+   "checker_fix:G>X": 188,
+   "extraction_failure:G>X": 7
+  },
+  "count:keywords_multiple": {
+   "checker_fix:G>X": 1
+  },
+  "count:numbers": {
+   "checker_fix:G>X": 3
+  },
+  "count:pronouns": {
+   "extraction_failure:G>X": 5
+  },
+  "count:unique_word_count": {
+   "extraction_failure:G>X": 12
+  },
+  "count:word_count_range": {
+   "checker_fix:G<X": 78,
+   "checker_fix:G>X": 57
+  },
+  "count:words_japanese": {
+   "checker_fix:G>X": 1
+  },
+  "custom:character_reverse": {
+   "checker_fix:G>X": 5
+  },
+  "custom:mcq_count_length": {
+   "checker_fix:G<X": 22
+  },
+  "custom:reverse_newline": {
+   "checker_fix:G>X": 6
+  },
+  "custom:sentence_alphabet": {
+   "checker_fix:G<X": 23
+  },
+  "format:emoji": {
+   "checker_fix:G<X": 27,
+   "checker_fix:G>X": 1
+  },
+  "format:line_indent": {
+   "checker_fix:G<X": 2
+  },
+  "format:list": {
+   "extraction_failure:G>X": 1,
+   "checker_fix:G>X": 17
+  },
+  "format:no_bullets_bullets": {
+   "checker_fix:G>X": 37,
+   "checker_fix:G<X": 135
+  },
+  "format:parentheses": {
+   "extraction_failure:G>X": 1
+  },
+  "format:quote_unquote": {
+   "checker_fix:G>X": 1
+  },
+  "format:quotes": {
+   "checker_fix:G<X": 29,
+   "extraction_failure:G>X": 1
+  },
+  "format:sub-bullets": {
+   "checker_fix:G>X": 206,
+   "checker_fix:G<X": 904,
+   "extraction_failure:G>X": 3
+  },
+  "format:thesis": {
+   "checker_fix:G>X": 245,
+   "checker_fix:G<X": 1
+  },
+  "format:title_case": {
+   "checker_fix:G<X": 18
+  },
+  "ratio:overlap": {
+   "checker_fix:G<X": 40,
+   "checker_fix:G>X": 162
+  },
+  "ratio:sentence_balance": {
+   "checker_fix:G>X": 8
+  },
+  "ratio:sentence_words": {
+   "checker_fix:G>X": 1
+  },
+  "ratio:stop_words": {
+   "extraction_failure:G>X": 6
+  },
+  "sentence:alliteration_increment": {
+   "checker_fix:G>X": 114,
+   "checker_fix:G<X": 7
+  },
+  "words:last_first": {
+   "checker_fix:G<X": 35
+  },
+  "words:palindrome": {
+   "extraction_failure:G>X": 9
+  },
+  "words:paragraph_last_first": {
+   "checker_fix:G<X": 29
+  },
+  "words:start_verb": {
+   "checker_fix:G<X": 352
+  },
+  "words:words_position": {
+   "checker_fix:G<X": 5
+  }
+ },
+ "heldout": {
+  "heldout": {
+   "n": 4800,
+   "G_prompt": 26.25,
+   "X_prompt": 27.4375,
+   "X_minus_G": 1.1875
+  },
+  "other": {
+   "n": 63600,
+   "G_prompt": 24.81761006289308,
+   "X_prompt": 25.855345911949687,
+   "X_minus_G": 1.0377358490566038
+  }
+ },
+ "start_verb": {
+  "n": 1368,
+  "G_fail": 827,
+  "G_fail_first_word_listed_imperative": 223
+ },
+ "truncation": {
+  "stop": {
+   "n": 64235,
+   "G_prompt_pass": 25.247917801821437
+  },
+  "length": {
+   "n": 4165,
+   "G_prompt_pass": 19.831932773109244
+  }
+ }
+}

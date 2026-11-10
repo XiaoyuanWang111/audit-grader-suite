@@ -1,0 +1,29 @@
+..................................F.... [ 60%]
+..........................         [100%]
+================================== FAILURES ===================================
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: True is not false
+<python>\Lib\unittest\case.py:721: AssertionError: True is not false
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: False is not true : expected True for empty string
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true : expected True for empty string
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: True is not false
+<python>\Lib\unittest\case.py:721: AssertionError: True is not false
+=========================== short test summary info ===========================
+SUBFAILED[test with TEST_EUROPE] instructions_test.py::InstructionsTest::test_europe_capitals
+SUBFAILED[test with TEST_OPTIONS] instructions_test.py::InstructionsTest::test_options
+SUBFAILED[test with TEST_PALINDROME2] instructions_test.py::InstructionsTest::test_palindrome
+SUBFAILED[test with TEST_PUNCTUATION2] instructions_test.py::InstructionsTest::test_punctuation
+FAILED instructions_test.py::InstructionsTest::test_quote_explanation__handles_empty_string_after_stripping
+SUBFAILED[test with TEST_QUOTE_EXPLANATION] instructions_test.py::InstructionsTest::test_quote_unquote
+SUBFAILED[test with TEST_NEWLINE_COUNTRIES] instructions_test.py::InstructionsTest::test_reverse_newline
+SUBFAILED[test with TEST_THREE_VOWEL_FALSE] instructions_test.py::InstructionsTest::test_three_vowels
+8 failed, 64 passed, 136 subtests passed in 0.91s

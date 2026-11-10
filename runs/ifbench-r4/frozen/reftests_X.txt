@@ -1,0 +1,14 @@
+..................................F.... [ 60%]
+..........................         [100%]
+================================== FAILURES ===================================
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+E   AssertionError: False is not true : expected True for empty string
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true : expected True for empty string
+E   AssertionError: False is not true
+<python>\Lib\unittest\case.py:727: AssertionError: False is not true
+=========================== short test summary info ===========================
+SUBFAILED[test with TEST_EUROPE] instructions_test.py::InstructionsTest::test_europe_capitals
+FAILED instructions_test.py::InstructionsTest::test_quote_explanation__handles_empty_string_after_stripping
+SUBFAILED[test with TEST_NEWLINE_COUNTRIES] instructions_test.py::InstructionsTest::test_reverse_newline
+3 failed, 64 passed, 141 subtests passed in 1.17s

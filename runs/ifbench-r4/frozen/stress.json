@@ -1,0 +1,117 @@
+{
+ "fuzz": {
+  "calls": 412800,
+  "exceptions": {}
+ },
+ "content_free": {
+  "empty": {},
+  "whitespace": {},
+  "repeated word": {
+   "format:line_indent": "9/9",
+   "format:quote_unquote": "5/5",
+   "format:sub-bullets": "12/12",
+   "ratio:overlap": "1/12",
+   "ratio:sentence_balance": "7/7",
+   "ratio:sentence_type": "6/6",
+   "sentence:alliteration_increment": "5/5",
+   "sentence:increment": "8/8",
+   "words:consonants": "15/15",
+   "words:last_first": "5/5",
+   "words:paragraph_last_first": "6/6",
+   "words:prime_lengths": "5/5",
+   "words:vowel": "10/10"
+  },
+  "repeated sentence": {
+   "count:pronouns": "8/8",
+   "format:line_indent": "9/9",
+   "format:quote_unquote": "5/5",
+   "format:sub-bullets": "12/12",
+   "ratio:overlap": "1/12",
+   "words:no_consecutive": "8/8",
+   "words:vowel": "10/10"
+  },
+  "prompt restated": {
+   "count:conjunctions": "1/7",
+   "count:person_names": "6/6",
+   "count:pronouns": "2/8",
+   "count:unique_word_count": "3/9",
+   "format:line_indent": "9/9",
+   "format:list": "1/9",
+   "format:output_template": "4/4",
+   "format:quote_unquote": "4/5",
+   "format:sub-bullets": "11/12",
+   "ratio:overlap": "1/12",
+   "ratio:stop_words": "1/12",
+   "sentence:alliteration_increment": "1/5",
+   "sentence:increment": "2/8",
+   "words:repeats": "3/5",
+   "words:start_verb": "1/6"
+  }
+ },
+ "metamorphic": {
+  "crlf": [
+   {
+    "fixture": "format:newline-80c030ad",
+    "G": false,
+    "X_proposed": false
+   }
+  ],
+  "curly_apostrophe": [
+   {
+    "fixture": "format:options-8749c89e",
+    "G": false,
+    "X_proposed": false
+   },
+   {
+    "fixture": "format:quotes-22bf26de",
+    "G": false,
+    "X_proposed": true
+   },
+   {
+    "fixture": "words:prime_lengths-323a8c23",
+    "G": false,
+    "X_proposed": false
+   },
+   {
+    "fixture": "format:quotes-3056ef92",
+    "G": false,
+    "X_proposed": true
+   }
+  ],
+  "trailing_newline": [
+   {
+    "fixture": "format:no_bullets_bullets-1c12560d",
+    "G": false,
+    "X_proposed": true
+   },
+   {
+    "fixture": "format:no_whitespace-ae607c77",
+    "G": false,
+    "X_proposed": true
+   },
+   {
+    "fixture": "format:options-3126879f",
+    "G": false,
+    "X_proposed": true
+   },
+   {
+    "fixture": "format:options-0725426f",
+    "G": false,
+    "X_proposed": true
+   },
+   {
+    "fixture": "format:options-8749c89e",
+    "G": false,
+    "X_proposed": true
+   },
+   {
+    "fixture": "ratio:overlap-4b432d5a",
+    "G": false,
+    "X_proposed": true
+   }
+  ]
+ },
+ "harness": {
+  "csv_quotes_empty_field": true
+ }
+}
