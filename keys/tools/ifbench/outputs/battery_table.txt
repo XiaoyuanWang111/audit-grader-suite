@@ -1,0 +1,52 @@
+fixtures 143 | grader wrong 81 | with a finding id: 81 | decision only: 0 | neither: 0
+run1: gives the earlier label on 73 of 81 fixtures the grader gets wrong, and on 51 of 62 it gets right
+armA: gives the earlier label on 56 of 81 fixtures the grader gets wrong, and on 57 of 62 it gets right
+armB: gives the earlier label on 66 of 81 fixtures the grader gets wrong, and on 54 of 62 it gets right
+earlier finding             n  run1 armA armB  checks
+F1                          2   2/2  2/2  2/2  repeat:repeat_span
+F2                          1   1/1  1/1  1/1  ratio:overlap
+F3                          3   3/3  3/3  3/3  format:sub-bullets
+F4                          2   1/2  1/2  1/2  format:list
+F5                          2   2/2  0/2  2/2  format:parentheses
+F6                          1   1/1  1/1  1/1  ratio:sentence_words
+F7                          1   1/1  1/1  1/1  count:keywords_multiple
+F8                          1   1/1  1/1  1/1  words:words_position
+F9                          1   1/1  1/1  1/1  custom:sentence_alphabet
+F10                         4   3/4  3/4  3/4  format:thesis
+F11                         4   4/4  3/4  3/4  format:quote_unquote
+F12                         3   2/3  1/3  2/3  format:quotes
+F13                         1   1/1  1/1  1/1  count:conjunctions
+F14                         2   2/2  2/2  2/2  custom:european_capitals_sort
+F15                         1   1/1  1/1  1/1  custom:csv_quotes
+F16                         1   1/1  0/1  1/1  custom:csv_special_character
+F17                         3   3/3  2/3  3/3  ratio:sentence_balance,ratio:sentence_type
+F18                         1   1/1  1/1  1/1  sentence:alliteration_increment
+F19                         2   2/2  0/2  2/2  format:newline
+F20                         2   2/2  2/2  2/2  format:line_indent
+F21                         1   1/1  1/1  1/1  words:paragraph_last_first
+F22                         4   4/4  4/4  4/4  format:no_bullets_bullets
+F23                         1   1/1  1/1  1/1  repeat:repeat_change
+F24                         2   2/2  2/2  2/2  format:output_template
+F25                         2   2/2  2/2  2/2  format:title_case
+F26                         2   2/2  1/2  1/2  format:options
+F27                         4   1/4  3/4  4/4  format:emoji
+F28                         2   2/2  2/2  0/2  words:start_verb
+F29                         1   1/1  1/1  1/1  count:numbers
+F30                         1   1/1  0/1  1/1  count:unique_word_count
+F31                         1   1/1  1/1  1/1  words:consonants
+F32                         1   1/1  0/1  1/1  words:prime_lengths
+F33                         1   1/1  0/1  0/1  count:words_japanese
+F34                         4   3/4  0/4  0/4  format:line_indent,sentence:increment,words:last_first,words:par
+F35                         2   2/2  2/2  2/2  words:palindrome
+F36                         1   1/1  1/1  1/1  words:keywords_specific_position
+F37                         2   2/2  2/2  2/2  custom:date_format_list
+F38                         3   3/3  2/3  3/3  custom:character_reverse,custom:reverse_newline,custom:word_reve
+F39                         2   2/2  1/2  2/2  custom:mcq_count_length
+F40                         1   1/1  1/1  1/1  words:last_first
+F41                         2   2/2  2/2  1/2  words:start_verb
+F42                         1   0/1  0/1  1/1  words:words_position
+F43                         2   2/2  0/2  0/2  format:emoji,sentence:keyword
+earlier findings with a grader-wrong fixture: 43
+  run1: all fixtures corrected 37, some 5, none 1
+  armA: all fixtures corrected 25, some 9, none 9
+  armB: all fixtures corrected 33, some 6, none 4
