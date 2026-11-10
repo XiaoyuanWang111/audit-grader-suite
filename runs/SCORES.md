@@ -1,5 +1,7 @@
 # Score card: blind runs of the audit-grader skill on the five-case suite
 
+The blind runs on IFBench have their own score card, `SCORES-ifbench.md`.
+
 Skill version: PR #10422 head 0c2e6e116 with the revised top of SKILL.md (overview, terms, kinds of grader) and the
 self-contained `references/ifbench.md`; `references/reviewer-prompt.md` unchanged. Each run: a fresh agent with only
 the skill files and one case directory, offline, no subagents (so step 6 drew and froze its sample but did not run the
