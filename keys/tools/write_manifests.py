@@ -1,4 +1,4 @@
-"""Write MANIFEST.sha256 in every case directory and report sizes. Private: part of the keys."""
+"""Write MANIFEST.sha256 in each of the five small case directories and report sizes. Private: part of the keys."""
 
 import hashlib
 import os
@@ -6,11 +6,13 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CASES = os.path.normpath(os.path.join(HERE, "..", "..", "cases"))
+# cases/ifbench is left out: its MANIFEST.sha256 is the run's own, copied unchanged, and covers the rebuilt case.
+SMALL_CASES = ("toyagent-verify", "toycode-exec", "toyjson-reward", "toymath-extract", "toyqa-judge")
 
 
 def main():
     ok = True
-    for case in sorted(os.listdir(CASES)):
+    for case in SMALL_CASES:
         root = os.path.join(CASES, case)
         entries = []
         total = 0
