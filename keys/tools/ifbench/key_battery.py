@@ -3,12 +3,14 @@ under audit, and save the verdicts. A run "has" a behavior of the earlier audit 
 own contracts, gives the label that the earlier audit's contract gives.
 
 The fixtures are `data/fixtures.jsonl` of the Hugging Face dataset xiaoyuanwang/ifbench-audit. The workspace is the
-run's: a folder that holds `case/` and the run's `audit/` (`run1` is runs/ifbench-r3, `armA` runs/ifbench-r4, `armB`
-runs/ifbench-r4-rule, each with the work copies that RUNNER.md describes; for `armB`, `audit/lib/harness.py` and
-`audit/replacement/grader.py` must name the workspace in place of `<W>`). The script runs with the case's Python
-environment, changes into the workspace and reads it only.
+run's: a folder that holds `case/` and the run's `audit/`, with the work copies that RUNNER.md describes. The kinds:
+`run1` is runs/ifbench-r3, `armA` runs/ifbench-r4, `armA2` runs/ifbench-r4-2, `armB` runs/ifbench-r4-rule, `armC1`
+and `armC2` runs/ifbench-r4-edits-1 and -2, `armD1` and `armD2` runs/ifbench-r4-edits2-1 and -2. For `armB`,
+`audit/lib/harness.py` and `audit/replacement/grader.py` must name the workspace in place of `<W>`; for `armC2`,
+`audit/scripts/graders.py` must. The script runs with the case's Python environment, changes into the workspace and
+reads it only.
 
-Usage: <python> -B -X utf8 keys/tools/ifbench/key_battery.py <run1|armA|armB> <workspace> <fixtures.jsonl> <out.json>
+Usage: <python> -B -X utf8 keys/tools/ifbench/key_battery.py <kind> <workspace> <fixtures.jsonl> <out.json>
 """
 
 import json
@@ -61,8 +63,58 @@ elif KIND == "armB":
 
     def replacement(iid, kwargs, response):
         return bool(XB.grade(iid, response, kwargs, ""))
+elif KIND == "armA2":
+    sys.path.insert(0, str(W / "audit" / "replacement"))
+    sys.path.insert(0, str(W / "audit" / "scripts"))
+    import harness as HA2
+    import ifbench_fixed as XA2
+
+    def grader(iid, kwargs, response):
+        return HA2.check_one(iid, kwargs, response, which="grader", prompt="", mode="strict")
+
+    def replacement(iid, kwargs, response):
+        return bool(XA2.check(iid, kwargs, response, prompt=""))
+elif KIND == "armC1":
+    sys.path.insert(0, str(W / "audit" / "scripts"))
+    import common as CC1
+    import replacement as XC1
+
+    def grader(iid, kwargs, response):
+        return CC1.grade_grader(iid, {k: v for k, v in kwargs.items() if v is not None}, "", response)
+
+    def replacement(iid, kwargs, response):
+        return bool(XC1.grade(iid, kwargs, "", response))
+elif KIND == "armC2":
+    sys.path.insert(0, str(W / "audit" / "scripts"))
+    import graders as GC2
+
+    def grader(iid, kwargs, response):
+        return GC2.grader_strict(iid, kwargs, "", response)
+
+    def replacement(iid, kwargs, response):
+        return GC2.replacement(iid, kwargs, "", response)
+elif KIND == "armD1":
+    sys.path.insert(0, str(W / "audit"))
+    sys.path.insert(0, str(W / "audit" / "lib"))
+    import harness as HD1
+    from replacement import contract_grader as XD1
+
+    def grader(iid, kwargs, response):
+        return HD1.check_grader(iid, kwargs, response, "")
+
+    def replacement(iid, kwargs, response):
+        return bool(XD1.check(iid, kwargs, response, ""))
+elif KIND == "armD2":
+    sys.path.insert(0, str(W / "audit" / "lib"))
+    import graders as GD2
+
+    def grader(iid, kwargs, response):
+        return GD2.grade_grader(iid, kwargs, response)
+
+    def replacement(iid, kwargs, response):
+        return bool(GD2.grade_replacement(iid, kwargs, response))
 else:
-    sys.exit("kind must be run1, armA or armB")
+    sys.exit("kind must be run1, armA, armA2, armB, armC1, armC2, armD1 or armD2")
 
 
 def safe(function, *args):

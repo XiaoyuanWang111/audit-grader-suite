@@ -1,0 +1,1432 @@
+[
+ {
+  "id": "copying:b30a0adf1398abb6",
+  "check": "repeat:repeat_span",
+  "finding": "F1",
+  "decision": null,
+  "expected": true,
+  "name": "repeat_span_word_indices",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "copying:5a43343bf7bd948d",
+  "check": "repeat:repeat_span",
+  "finding": "F1",
+  "decision": null,
+  "expected": false,
+  "name": "repeat_span_character_slice_rejected",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:e2908cafb63d117e",
+  "check": "ratio:overlap",
+  "finding": "F2",
+  "decision": null,
+  "expected": true,
+  "name": "overlap_shuffled_words_zero_word_trigrams",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "counts:24b0bb48854f4869",
+  "check": "ratio:overlap",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "overlap_copy_is_full_overlap",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "counts:8466c59149af4216",
+  "check": "ratio:overlap",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "overlap_disjoint_text_fails_high_target",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:1f8c7de0dd0e4c0a",
+  "check": "format:sub-bullets",
+  "finding": "F3",
+  "decision": null,
+  "expected": false,
+  "name": "sub_bullets_no_bullets_at_all",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:21ac87b222ded13e",
+  "check": "format:sub-bullets",
+  "finding": "F3",
+  "decision": null,
+  "expected": false,
+  "name": "sub_bullets_hyphenated_word_is_not_a_sub_bullet",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:7afc9e156a0d7d61",
+  "check": "format:sub-bullets",
+  "finding": "F3",
+  "decision": null,
+  "expected": true,
+  "name": "sub_bullets_bold_text_inside_bullet",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:2523490c74903673",
+  "check": "format:sub-bullets",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "sub_bullets_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:d173323a1cb36994",
+  "check": "format:sub-bullets",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "sub_bullets_no_space_after_asterisk",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:2b92295dbfc72f7b",
+  "check": "format:sub-bullets",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "sub_bullets_missing_sub_bullet",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:8324aef138900ef5",
+  "check": "format:list",
+  "finding": "F4",
+  "decision": "D-list-layout",
+  "expected": false,
+  "name": "list_markers_mid_line",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:8a0c8a5cf7266956",
+  "check": "format:list",
+  "finding": "F4",
+  "decision": null,
+  "expected": false,
+  "name": "list_hyphen_marker_inside_words",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:7703ff8d4cc53109",
+  "check": "format:list",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "list_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:f5fcdb42e77338ae",
+  "check": "format:list",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "list_valid_separator_word",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:71fd20a96baa37cb",
+  "check": "format:list",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "list_missing_marker",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:0617194da86a7cb6",
+  "check": "format:parentheses",
+  "finding": "F5",
+  "decision": "D-balanced-nesting",
+  "expected": false,
+  "name": "parentheses_unclosed_inner_levels",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:dadba642227263e6",
+  "check": "format:parentheses",
+  "finding": "F5",
+  "decision": "D-balanced-nesting",
+  "expected": false,
+  "name": "parentheses_closed_after_unrelated_text",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:dcdecfa342cf65e1",
+  "check": "format:parentheses",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "parentheses_valid_mixed",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:27152d4f0f9727d8",
+  "check": "format:parentheses",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "parentheses_four_levels",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "counts:2659d0345bd8d607",
+  "check": "ratio:sentence_words",
+  "finding": "F6",
+  "decision": null,
+  "expected": false,
+  "name": "sentence_words_repeated_sentences",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:ee09a1cd4babd66d",
+  "check": "ratio:sentence_words",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "sentence_words_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "counts:4654050863ffb0b7",
+  "check": "count:keywords_multiple",
+  "finding": "F7",
+  "decision": null,
+  "expected": true,
+  "name": "keywords_multiple_substring_not_counted",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:50f0c5a23fe462c9",
+  "check": "words:words_position",
+  "finding": "F8",
+  "decision": null,
+  "expected": true,
+  "name": "words_position_comma_after_first_word",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:868f207167f06ec5",
+  "check": "custom:sentence_alphabet",
+  "finding": "F9",
+  "decision": null,
+  "expected": true,
+  "name": "sentence_alphabet_opening_quote",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:6468f0ce8f4b8f41",
+  "check": "format:thesis",
+  "finding": "F10",
+  "decision": "D-thesis-body",
+  "expected": false,
+  "name": "thesis_em_without_body",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:f36506e0e3248f9e",
+  "check": "format:thesis",
+  "finding": "F10",
+  "decision": null,
+  "expected": false,
+  "name": "thesis_empty_em",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:9cf8c2a4729f4ca8",
+  "check": "format:thesis",
+  "finding": "F10",
+  "decision": null,
+  "expected": false,
+  "name": "thesis_second_section_without_thesis",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:575d5723f5106ff4",
+  "check": "format:thesis",
+  "finding": "F10",
+  "decision": null,
+  "expected": false,
+  "name": "thesis_not_at_section_start",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:12674f736a1df508",
+  "check": "format:thesis",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "thesis_every_section",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:a2f4e5cabced2279",
+  "check": "format:quote_unquote",
+  "finding": "F11",
+  "decision": null,
+  "expected": false,
+  "name": "quote_unquote_adjacent_curly_quotes",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:9cc43939fa624905",
+  "check": "format:quote_unquote",
+  "finding": "F11",
+  "decision": null,
+  "expected": false,
+  "name": "quote_unquote_curly_quote_at_end",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:1ab00916b67dcc29",
+  "check": "format:quote_unquote",
+  "finding": "F11",
+  "decision": "D-explanation-word",
+  "expected": false,
+  "name": "quote_unquote_comma_is_not_an_explanation",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:9308fe62917fc6f6",
+  "check": "format:quote_unquote",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "quote_unquote_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:ac23ce76cfb41ec5",
+  "check": "format:quotes",
+  "finding": "F12",
+  "decision": null,
+  "expected": false,
+  "name": "quotes_apostrophes_are_not_quotes",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:1133bef448f701e9",
+  "check": "format:quotes",
+  "finding": "F12",
+  "decision": "D-curly-quotes",
+  "expected": true,
+  "name": "quotes_curly_three_levels",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:177ced10f2c12643",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "quotes_straight_three_levels",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:cb63bd4d049120dc",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "quotes_two_levels",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "counts:e6cb811109eae26b",
+  "check": "count:conjunctions",
+  "finding": "F13",
+  "decision": null,
+  "expected": false,
+  "name": "conjunctions_case_variants",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:413d45e48d465c3b",
+  "check": "count:conjunctions",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "conjunctions_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "semantic-content:109522c20b730976",
+  "check": "custom:european_capitals_sort",
+  "finding": "F14",
+  "decision": null,
+  "expected": true,
+  "name": "capitals_with_kyiv",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "semantic-content:d6168c68fd8650e6",
+  "check": "custom:european_capitals_sort",
+  "finding": "F14",
+  "decision": null,
+  "expected": false,
+  "name": "capitals_reference_without_kyiv",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "structured-output:aa08eb3b294ac870",
+  "check": "custom:csv_quotes",
+  "finding": "F15",
+  "decision": null,
+  "expected": false,
+  "name": "csv_quotes_empty_field",
+  "grader": "EXC IndexError: string index out of range",
+  "replacement": false
+ },
+ {
+  "id": "structured-output:188e6c57d12ab20f",
+  "check": "custom:csv_quotes",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "csv_quotes_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "structured-output:30d41c696b01174d",
+  "check": "custom:csv_special_character",
+  "finding": "F16",
+  "decision": null,
+  "expected": false,
+  "name": "csv_special_malformed_row_after_match",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "structured-output:16aaa64cc0c11c4a",
+  "check": "custom:csv_special_character",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "csv_special_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "counts:cc32858f2f462219",
+  "check": "ratio:sentence_type",
+  "finding": "F17",
+  "decision": null,
+  "expected": false,
+  "name": "sentence_type_no_questions_no_statements",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:1fc82904dbce563e",
+  "check": "ratio:sentence_type",
+  "finding": "F17",
+  "decision": null,
+  "expected": true,
+  "name": "sentence_type_closing_quote",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "counts:86cb7371f2141afa",
+  "check": "ratio:sentence_type",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "sentence_type_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "counts:bd48f312db85968d",
+  "check": "ratio:sentence_balance",
+  "finding": "F17",
+  "decision": null,
+  "expected": false,
+  "name": "sentence_balance_no_typed_sentences",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:318b8b3786e1e8f5",
+  "check": "ratio:sentence_balance",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "sentence_balance_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:13d4c0d285882c41",
+  "check": "sentence:alliteration_increment",
+  "finding": "F18",
+  "decision": null,
+  "expected": false,
+  "name": "alliteration_two_short_runs",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "positions-and-ordering:de09fa9eb4885a90",
+  "check": "sentence:alliteration_increment",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "alliteration_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:44be574e4f8ea379",
+  "check": "format:newline",
+  "finding": "F19",
+  "decision": null,
+  "expected": false,
+  "name": "newline_two_words_on_one_line",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:8b45311515fae2e2",
+  "check": "format:newline",
+  "finding": "F19",
+  "decision": null,
+  "expected": true,
+  "name": "newline_whitespace_only_blank_line",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:cd6b7cbd25441882",
+  "check": "format:newline",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "newline_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:75e1583c488f9e8b",
+  "check": "format:line_indent",
+  "finding": "F20",
+  "decision": null,
+  "expected": true,
+  "name": "line_indent_two_blank_lines",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:d6ed7c0820d23b21",
+  "check": "format:line_indent",
+  "finding": "F20",
+  "decision": "D-tabs",
+  "expected": true,
+  "name": "line_indent_tabs",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:a1acb4aa6151379d",
+  "check": "format:line_indent",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "line_indent_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:dbd615bcde11ab00",
+  "check": "format:line_indent",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "line_indent_flat",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "positions-and-ordering:d3fd1875747dc5ac",
+  "check": "words:paragraph_last_first",
+  "finding": "F21",
+  "decision": null,
+  "expected": true,
+  "name": "paragraph_first_word_followed_by_comma",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:95bd2a95f7bfced5",
+  "check": "words:paragraph_last_first",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "paragraph_last_first_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:0f6c857742dfcf5a",
+  "check": "words:paragraph_last_first",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "paragraph_last_first_mismatch",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:a5678e438b415bb2",
+  "check": "format:no_bullets_bullets",
+  "finding": "F22",
+  "decision": null,
+  "expected": true,
+  "name": "some_bullets_trailing_newline",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:f43df48430e5f268",
+  "check": "format:no_bullets_bullets",
+  "finding": "F22",
+  "decision": null,
+  "expected": true,
+  "name": "some_bullets_blank_line_between_bullets",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:419b8e1f6f59fd05",
+  "check": "format:no_bullets_bullets",
+  "finding": "F22",
+  "decision": null,
+  "expected": true,
+  "name": "some_bullets_blank_line_between_sentences",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:dc8f4161c222d56c",
+  "check": "format:no_bullets_bullets",
+  "finding": "F22",
+  "decision": null,
+  "expected": false,
+  "name": "some_bullets_sentences_without_periods",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:6cb84a0ea5a83872",
+  "check": "format:no_bullets_bullets",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "some_bullets_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "copying:42011330426226da",
+  "check": "repeat:repeat_change",
+  "finding": "F23",
+  "decision": null,
+  "expected": false,
+  "name": "repeat_change_unchanged_with_trailing_newline",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "copying:da26952c820bb687",
+  "check": "repeat:repeat_change",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "repeat_change_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "structured-output:e908d693538f59dd",
+  "check": "format:output_template",
+  "finding": "F24",
+  "decision": null,
+  "expected": false,
+  "name": "template_reordered",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "structured-output:2f441723d8d05fcd",
+  "check": "format:output_template",
+  "finding": "F24",
+  "decision": null,
+  "expected": false,
+  "name": "template_empty_fields",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "structured-output:e5f7dafcd12ce0d5",
+  "check": "format:output_template",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "template_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "lexical-properties:88a501afaa5305f4",
+  "check": "format:title_case",
+  "finding": "F25",
+  "decision": "D-minor-words",
+  "expected": true,
+  "name": "title_case_minor_words",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "lexical-properties:cff79fef60950432",
+  "check": "format:title_case",
+  "finding": "F25",
+  "decision": null,
+  "expected": true,
+  "name": "title_case_contraction",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "lexical-properties:a8e8edac3b1c4e5e",
+  "check": "format:title_case",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "title_case_lowercase_major_word",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "exact-choice:d46505ae3d602a09",
+  "check": "format:options",
+  "finding": "F26",
+  "decision": null,
+  "expected": true,
+  "name": "options_trailing_newline",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "exact-choice:e36ba2a7346690b9",
+  "check": "format:options",
+  "finding": "F26",
+  "decision": null,
+  "expected": true,
+  "name": "options_multiline_answer",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "exact-choice:3972414908161902",
+  "check": "format:options",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "options_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "exact-choice:d2aef68c0804a70a",
+  "check": "format:options",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "options_with_explanation",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:5f061a4a6481a81c",
+  "check": "format:emoji",
+  "finding": "F27",
+  "decision": null,
+  "expected": true,
+  "name": "emoji_flag",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:7784789ee01b6eed",
+  "check": "format:emoji",
+  "finding": "F27",
+  "decision": null,
+  "expected": true,
+  "name": "emoji_keycap",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:562e34a8a8869f4c",
+  "check": "format:emoji",
+  "finding": "F27",
+  "decision": null,
+  "expected": false,
+  "name": "emoji_followed_by_letter",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:8c573e9311f11fd5",
+  "check": "format:emoji",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "emoji_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:05a88874a5a175b2",
+  "check": "words:start_verb",
+  "finding": "F28",
+  "decision": null,
+  "expected": true,
+  "name": "start_verb_imperative_explore",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "positions-and-ordering:200330e5debf95bd",
+  "check": "words:start_verb",
+  "finding": "F28",
+  "decision": null,
+  "expected": true,
+  "name": "start_verb_imperative_create",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:deab9530324251d2",
+  "check": "words:start_verb",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "start_verb_noun",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "counts:11154a1771be555b",
+  "check": "count:numbers",
+  "finding": "F29",
+  "decision": "D-number-boundaries",
+  "expected": true,
+  "name": "numbers_range_is_two_numbers",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "counts:13b2b22528d6edf9",
+  "check": "count:numbers",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "numbers_decimal_is_one_number",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "counts:0ce9102db67ef9a7",
+  "check": "count:unique_word_count",
+  "finding": "F30",
+  "decision": null,
+  "expected": false,
+  "name": "unique_words_bullet_markers",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "lexical-properties:18bd228a38e6182f",
+  "check": "words:consonants",
+  "finding": "F31",
+  "decision": "D-non-word-tokens",
+  "expected": true,
+  "name": "consonants_bullet_markers_are_not_words",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "lexical-properties:75dbf833bdc2d6a3",
+  "check": "words:prime_lengths",
+  "finding": "F32",
+  "decision": null,
+  "expected": true,
+  "name": "prime_lengths_curly_quotes",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:959ac6c038006da6",
+  "check": "count:words_japanese",
+  "finding": "F33",
+  "decision": "D-vacuous",
+  "expected": false,
+  "name": "japanese_fewer_than_n_words",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:d11bf250ec5830e7",
+  "check": "words:last_first",
+  "finding": "F34",
+  "decision": "D-vacuous",
+  "expected": false,
+  "name": "last_first_single_sentence",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:2d91526805b19adb",
+  "check": "sentence:increment",
+  "finding": "F34",
+  "decision": "D-vacuous",
+  "expected": false,
+  "name": "increment_single_sentence",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:f1813d59c61b7239",
+  "check": "format:line_indent",
+  "finding": "F34",
+  "decision": "D-vacuous",
+  "expected": false,
+  "name": "line_indent_single_line",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:1a6b9ab78413d926",
+  "check": "words:palindrome",
+  "finding": "F35",
+  "decision": "D-distinct-palindromes",
+  "expected": false,
+  "name": "palindrome_one_word_repeated",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:2a278615b9e16ef3",
+  "check": "words:palindrome",
+  "finding": "F35",
+  "decision": "D-distinct-palindromes",
+  "expected": false,
+  "name": "palindrome_numbers_are_not_words",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "counts:bb97264dc0e2dd2a",
+  "check": "words:palindrome",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "palindrome_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:242dc90d30eeea27",
+  "check": "words:keywords_specific_position",
+  "finding": "F36",
+  "decision": "D-word-tokens",
+  "expected": true,
+  "name": "specific_position_contraction",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "structured-output:99a5e8ada0af06bd",
+  "check": "custom:date_format_list",
+  "finding": "F37",
+  "decision": null,
+  "expected": false,
+  "name": "date_month_and_day_zero",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "structured-output:1d8af77bbda6c0e2",
+  "check": "custom:date_format_list",
+  "finding": "F37",
+  "decision": null,
+  "expected": false,
+  "name": "date_february_29_non_leap",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "structured-output:5455d21b396664e7",
+  "check": "custom:date_format_list",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "date_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "semantic-content:c6d84a70b55f4591",
+  "check": "custom:reverse_newline",
+  "finding": "F38",
+  "decision": null,
+  "expected": false,
+  "name": "reverse_newline_invented_countries",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "semantic-content:99b53606e0013444",
+  "check": "custom:reverse_newline",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "reverse_newline_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "semantic-content:cee96f5459892bec",
+  "check": "custom:word_reverse",
+  "finding": "F38",
+  "decision": null,
+  "expected": false,
+  "name": "word_reverse_also_forward",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "semantic-content:b17ebd32d84061c9",
+  "check": "custom:word_reverse",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "word_reverse_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "semantic-content:c213b02c970accad",
+  "check": "custom:character_reverse",
+  "finding": "F38",
+  "decision": null,
+  "expected": false,
+  "name": "character_reverse_also_forward",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "semantic-content:1bf67dc23e1494ea",
+  "check": "custom:character_reverse",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "character_reverse_valid",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "structured-output:b344092df8eb981c",
+  "check": "custom:mcq_count_length",
+  "finding": "F39",
+  "decision": null,
+  "expected": true,
+  "name": "mcq_unnumbered_question_labels",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:4af3fcf0cd05392c",
+  "check": "words:last_first",
+  "finding": "F40",
+  "decision": null,
+  "expected": true,
+  "name": "last_first_comma_after_first_word",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:95fc3ba7859d651d",
+  "check": "count:words_japanese",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "japanese_whole_response",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:667e392da558ced9",
+  "check": "format:thesis",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "thesis_markdown_underscore_before_tag",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:0b71d0bf3bd4b287",
+  "check": "words:paragraph_last_first",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "paragraph_last_first_trailing_one_word_line",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:a28606e1b94e69c1",
+  "check": "words:paragraph_last_first",
+  "finding": "F34",
+  "decision": "D-vacuous",
+  "expected": false,
+  "name": "paragraph_last_first_only_one_word_lines",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:1671aec275ec5d7f",
+  "check": "words:start_verb",
+  "finding": "F41",
+  "decision": "D-non-word-tokens",
+  "expected": true,
+  "name": "start_verb_after_heading_marker",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:3e5a173ed19e0d22",
+  "check": "words:start_verb",
+  "finding": "F41",
+  "decision": "D-non-word-tokens",
+  "expected": true,
+  "name": "start_verb_after_html_tag",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:bfd46f3616f44dfa",
+  "check": "words:start_verb",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "start_verb_reasoning_tag",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:065742dde9bec730",
+  "check": "format:emoji",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "emoji_after_closing_quote_split",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:ebd26ae52b029e79",
+  "check": "format:emoji",
+  "finding": "F27",
+  "decision": null,
+  "expected": true,
+  "name": "emoji_hash_keycap_after_period",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "positions-and-ordering:e834a5c486f5710f",
+  "check": "count:words_japanese",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "japanese_latin_names_inside_words",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:d722127f004be81d",
+  "check": "count:words_japanese",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "japanese_nth_word_with_latin_name",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:3782c0ed9a5dc3c8",
+  "check": "format:thesis",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "thesis_only_headings",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "structured-output:7ebb8ec378e19954",
+  "check": "custom:mcq_count_length",
+  "finding": "F39",
+  "decision": null,
+  "expected": true,
+  "name": "mcq_leading_space",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:56afcb6e5bd3719c",
+  "check": "format:quote_unquote",
+  "finding": "F11",
+  "decision": null,
+  "expected": false,
+  "name": "quote_unquote_guillemet_without_explanation",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:4499f41a5bf590d3",
+  "check": "format:quote_unquote",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "quote_unquote_guillemets",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:47c11f036a9572d2",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "quotes_stray_closing_mark",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:ed658914e43f3335",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "quotes_three_levels_mixed_punctuation",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:f1289331212145f8",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "quotes_primes_are_not_quotes",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:31a500ee450aa76a",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "quotes_inside_bold",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:ce34da0775dbad47",
+  "check": "format:quotes",
+  "finding": "F12",
+  "decision": null,
+  "expected": false,
+  "name": "quotes_unclosed_marks_across_paragraphs",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:819df806233c1748",
+  "check": "format:quotes",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "quotes_multi_paragraph",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:f1f5543c5fe53b90",
+  "check": "format:sub-bullets",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "sub_bullets_spaced_double_dash",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "counts:bd5040661a27ec83",
+  "check": "count:word_count_range",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "word_count_em_dash",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "positions-and-ordering:084cab39698b1f6b",
+  "check": "words:words_position",
+  "finding": "F42",
+  "decision": "D-non-word-tokens",
+  "expected": true,
+  "name": "words_position_list_number_is_not_a_word",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:6dfadf62e8c637bd",
+  "check": "format:sub-bullets",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "sub_bullets_italic_line_is_not_a_bullet",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:47e762b47463d3a3",
+  "check": "format:no_bullets_bullets",
+  "finding": null,
+  "decision": null,
+  "expected": false,
+  "name": "no_bullets_outline_labels_are_not_sentences",
+  "grader": false,
+  "replacement": false
+ },
+ {
+  "id": "layout-and-markup:25c4bbc12b6d20a1",
+  "check": "format:list",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "list_marker_lines_above_items",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:a266036ed13ff1ce",
+  "check": "format:thesis",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "thesis_after_html_summary_heading",
+  "grader": true,
+  "replacement": false
+ },
+ {
+  "id": "positions-and-ordering:e2f6a69ff924a79d",
+  "check": "count:words_japanese",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "japanese_text_with_english_term",
+  "grader": true,
+  "replacement": true
+ },
+ {
+  "id": "layout-and-markup:e74737b7a4cd65f5",
+  "check": "format:emoji",
+  "finding": "F43",
+  "decision": null,
+  "expected": true,
+  "name": "emoji_list_numbers_are_not_sentences",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "positions-and-ordering:fcb9983daeddfcf7",
+  "check": "sentence:keyword",
+  "finding": "F43",
+  "decision": null,
+  "expected": true,
+  "name": "keyword_list_numbers_are_not_sentences",
+  "grader": false,
+  "replacement": true
+ },
+ {
+  "id": "structured-output:3922d0202436d153",
+  "check": "format:output_template",
+  "finding": null,
+  "decision": null,
+  "expected": true,
+  "name": "template_heading_labels",
+  "grader": true,
+  "replacement": true
+ }
+]
