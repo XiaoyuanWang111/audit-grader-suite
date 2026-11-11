@@ -1,0 +1,83 @@
+== reference: 426 fixtures, 82 differ from label (52 with no decision involved)
+  count:pronouns#7769fb52                            label=fail got=pass   DECISION D-pronoun-set | 4 personal + demonstratives
+  count:punctuation#a006dff5                         label=fail got=pass   DECISION D-punct-set | no square brackets
+  count:unique_word_count#51df4fa1                   label=fail got=pass   DECISION D-word | markup tokens are not words
+  custom:character_reverse#cba0a4d8                  label=fail got=pass   DECISION D-reverse-extra | reversed + forward copy
+  custom:word_reverse#7e7394b0                       label=fail got=pass   DECISION D-reverse-extra | reversal + forward
+  custom:csv_city#0dfb2b9e                           label=pass got=fail   DECISION D-csv-wrapper | fenced with intro
+  custom:european_capitals_sort#113de779             label=pass got=fail   FINDING? | contract list incl. Kyiv (50.45N); any reading that keeps Moscow, as the grader key does, needs Kyiv
+  custom:mcq_count_length#278fd6e3                   label=fail got=pass   FINDING? | explanation added
+  custom:reverse_newline#1d2258e7                    label=fail got=pass   FINDING? | Zambia before Zimbabwe
+  custom:reverse_newline#35ae4c9e                    label=fail got=pass   DECISION D-africa-complete | Kenya missing
+  custom:reverse_newline#e2c8e1a8                    label=fail got=pass   DECISION D-list-intro | intro line
+  custom:reverse_newline#1a03b821                    label=pass got=fail   FINDING? | numbered lines
+  format:emoji#338c6bdb                              label=fail got=pass   DECISION D-sentence | heading without emoji
+  format:line_indent#6020c6d2                        label=fail got=pass   DECISION D-indent-min | single line
+  format:line_indent#3006987f                        label=pass got=fail   FINDING? | tabs
+  format:list#10c5eeb0                               label=fail got=pass   FINDING? | one item uses *
+  format:no_bullets_bullets#41d069e7                 label=fail got=pass   FINDING? | sentences end in !
+  format:no_bullets_bullets#653b564a                 label=pass got=fail   FINDING? | content after bullets
+  format:no_whitespace#4a370e17                      label=pass got=fail   DECISION D-strip-ends | trailing newline
+  format:options#bf4d4ea8                            label=pass got=fail   FINDING? | typographic apostrophe
+  format:options#b0eca73e                            label=pass got=fail   DECISION D-options-text | upper-case (v4: letter form is part of D-options-text)
+  format:options#2e7d2c03                            label=pass got=fail   DECISION D-options-text | letter without paren
+  format:options#c09356b4                            label=pass got=fail   DECISION D-options-text | label + option text
+  format:output_template#3880c6d1                    label=fail got=pass   FINDING? | text before template
+  format:output_template#e6f2680a                    label=fail got=pass   FINDING? | order swapped
+  format:output_template#32aa85d6                    label=fail got=pass   FINDING? | literal placeholders
+  format:output_template#bd8b6b15                    label=fail got=pass   FINDING? | label repeated
+  format:quotes#60347bc9                             label=pass got=fail   FINDING? | typographic 3 levels
+  format:sub-bullets#35b65fdf                        label=pass got=fail   FINDING? | bold heading is not a bullet
+  format:sub-bullets#212d5ee1                        label=fail got=pass   FINDING? | no bullets
+  format:thesis#b87cc344                             label=fail got=pass   DECISION D-section | second paragraph lacks thesis
+  format:thesis#844e324a                             label=fail got=pass   FINDING? | italics not at start
+  format:title_case#e6373293                         label=pass got=fail   DECISION D-title-minor | minor words lower-case
+  ratio:sentence_balance#a6558d58                    label=pass got=fail   DECISION D-balanced | 2:1:1
+  repeat:repeat_simple#5e33157f                      label=fail got=pass   DECISION D-repeat-format | lower-cased
+  sentence:alliteration_increment#1a1b19f2           label=pass got=fail   FINDING? | runs 1,2,4
+  sentence:keyword#ff2d62f3                          label=pass got=fail   DECISION D-sentence | heading counts as sentence 1
+  words:alphabet#ee33e480                            label=pass got=fail   DECISION D-word-numbers | number ignored
+  words:consonants#1d2c345a                          label=pass got=fail   DECISION D-word-numbers | number ignored
+  words:palindrome#2c152c34                          label=fail got=pass   DECISION D-palindrome-distinct | one palindrome 10 times
+  words:paragraph_last_first#7b67215a                label=pass got=fail   DECISION D-word | markup around first word
+  words:prime_lengths#419e3adc                       label=pass got=fail   DECISION D-word-numbers | number ignored
+  words:start_verb#45b07647                          label=pass got=fail   FINDING? | imperative
+  words:start_verb#b16e7117                          label=pass got=fail   FINDING? | bold verb
+  words:start_verb#4040331e                          label=fail got=pass   DECISION D-verb-context | gerund subject
+  count:numbers#57019ffa                             label=pass got=fail   FINDING? | POST: a hyphenated range holds two numbers
+  count:word_count_range#7c51fcd2                    label=pass got=fail   FINDING? | POST: 57 words incl. 5 contractions
+  ratio:stop_words#2cf31b94                          label=pass got=fail   FINDING? | POST: 1 stop word of 4 words = 25% <= 39%
+  ratio:sentence_type#3738487b                       label=fail got=pass   FINDING? | POST: 0 declarative, 0 interrogative
+  ratio:sentence_type#389403cd                       label=pass got=fail   FINDING? | POST: 2:1 with a closing quote after a period
+  ratio:sentence_balance#2702c9b5                    label=fail got=pass   DECISION D-sentence-type,D-vacuous | POST: one unterminated sentence
+  ratio:sentence_balance#b7761e44                    label=pass got=fail   FINDING? | POST: 1:1:1, quoted sentences
+  format:line_indent#5ca22c1c                        label=pass got=fail   FINDING? | POST: two consecutive blank lines
+  format:newline#e5f78837                            label=fail got=pass   FINDING? | POST: two words on a line, whitespace-only line
+  format:newline#07733d8b                            label=pass got=fail   FINDING? | POST: whitespace-only line between words
+  format:list#2584034b                               label=fail got=pass   FINDING? | POST: no list, hyphens inside words
+  format:no_bullets_bullets#d44d9892                 label=pass got=fail   FINDING? | POST: trailing newline
+  format:no_bullets_bullets#e9238d72                 label=pass got=fail   FINDING? | POST: blank line between bullets
+  format:options#927580bf                            label=pass got=fail   FINDING? | POST: trailing newline (G10)
+  format:options#2ea4f9b0                            label=pass got=fail   FINDING? | POST: trailing newline (G10)
+  format:quote_unquote#9f008108                      label=fail got=pass   FINDING? | POST: first quote followed only by a comma
+  format:quote_unquote#278caa31                      label=fail got=pass   FINDING? | POST: typographic quote at the end (G10)
+  format:sub-bullets#da21f6a4                        label=fail got=pass   FINDING? | POST: hyphens inside words, no sub-bullets
+  format:thesis#8b0c3daa                             label=pass got=fail   FINDING? | POST: one section that is only its thesis
+  format:title_case#95beef7e                         label=pass got=fail   FINDING? | POST: contraction
+  format:title_case#26d02f70                         label=pass got=fail   FINDING? | POST: 'of' lower-case (minor under every style)
+  format:parentheses#9fc38630                        label=fail got=pass   FINDING? | POST: only the innermost pair is closed
+  custom:european_capitals_sort#2422fd5e             label=fail got=pass   DECISION D-capitals-complete | POST: grader key (no Kyiv)
+  custom:csv_special_character#be0ed161              label=fail got=pass   FINDING? | POST: rows 2-14 have 3 fields
+  custom:csv_quotes#1737bf8c                         label=fail got=error:IndexError:string index out of range FINDING? | POST: an empty unquoted field
+  custom:date_format_list#443b4fe3                   label=fail got=pass   FINDING? | POST: month 00 and day 00
+  custom:mcq_count_length#d7804689                   label=pass got=fail   FINDING? | POST: bold labels
+  repeat:repeat_change#093afd81                      label=fail got=pass   FINDING? | POST: unchanged request + trailing newline
+  repeat:repeat_change#a49f0741                      label=fail got=pass   FINDING? | POST: unchanged request, double space
+  sentence:alliteration_increment#20fedc4e           label=fail got=pass   FINDING? | POST: longest runs 3 then 2 (total 3 then 6)
+  words:paragraph_last_first#23fa39b1                label=pass got=fail   DECISION D-word | POST: comma after first word
+  count:words_japanese#1eefcc0a                      label=fail got=pass   DECISION D-word-numbers | POST: number at position 5
+  words:vowel#cbc5c906                               label=pass got=fail   DECISION D-paragraph | POST: line break inside one paragraph
+  count:conjunctions#85e471f8                        label=fail got=pass   FINDING? | POST: one conjunction in four spellings (and, and, And, AND)
+  count:person_names#44a20674                        label=pass got=fail   FINDING? | POST: markdown italics around a name (G3)
+  words:no_consecutive#6af2c5f4                      label=pass got=fail   FINDING? | POST: HTML tag around a word (G3)
+  format:no_bullets_bullets#625c6237                 label=pass got=fail   FINDING? | POST-PANEL: blank line between the opening sentences

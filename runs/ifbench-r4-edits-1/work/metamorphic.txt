@@ -1,0 +1,16 @@
+grader       blank_line         1 checks: format:line_indent
+grader       bold               2 checks: words:start_verb, words:words_position
+grader       html               9 checks: count:conjunctions, count:word_count_range, custom:reverse_newline, format:title_case, words:alphabet, words:no_consecutive, words:prime_lengths, words:start_verb, words:words_position
+grader       italic             4 checks: count:person_names, count:pronouns, words:start_verb, words:words_position
+grader       label              5 checks: count:words_japanese, custom:sentence_alphabet, words:consonants, words:start_verb, words:words_position
+grader       punct_after        1 checks: words:start_verb
+grader       trailing_newline   3 checks: format:no_bullets_bullets, format:no_whitespace, format:options
+grader       typo_quotes        2 checks: format:options, format:quotes
+reference    blank_line         1 checks: format:line_indent
+reference    bold               1 checks: words:start_verb
+reference    html               9 checks: count:conjunctions, count:word_count_range, custom:reverse_newline, format:title_case, words:alphabet, words:no_consecutive, words:prime_lengths, words:start_verb, words:words_position
+reference    italic             5 checks: count:keywords_multiple, count:person_names, count:pronouns, words:start_verb, words:words_position
+reference    label              4 checks: count:words_japanese, ratio:overlap, words:consonants, words:start_verb
+reference    punct_after        2 checks: ratio:overlap, words:start_verb
+reference    trailing_newline   3 checks: format:no_bullets_bullets, format:no_whitespace, format:options
+reference    typo_quotes        3 checks: custom:sentence_alphabet, format:options, format:quotes

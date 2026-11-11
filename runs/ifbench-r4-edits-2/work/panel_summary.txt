@@ -1,0 +1,137 @@
+rows 78432
+
+== stored records: truncated (finish_reason=length), extraction failures, empty responses
+  Qwen__Qwen2.5-14B-Instruct                    n= 5100 trunc= 163 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  Qwen__Qwen2.5-32B-Instruct                    n= 3900 trunc= 113 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  Qwen__Qwen2.5-7B-Instruct                     n= 5100 trunc= 214 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  Qwen__Qwen3-14B                               n= 5100 trunc= 522 extr_fail=   0 </think>_in_nonthinking=0 empty=28
+  Qwen__Qwen3-14B__thinking                     n=  900 trunc=  53 extr_fail=  32 </think>_in_nonthinking=0 empty=0
+  Qwen__Qwen3-32B                               n= 3900 trunc= 427 extr_fail=   0 </think>_in_nonthinking=1 empty=0
+  Qwen__Qwen3-8B                                n= 5100 trunc= 695 extr_fail=   0 </think>_in_nonthinking=0 empty=5
+  Qwen__Qwen3-8B__thinking                      n=  900 trunc= 135 extr_fail= 104 </think>_in_nonthinking=0 empty=0
+  allenai__Llama-3.1-Tulu-3-8B                  n= 5100 trunc= 275 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  allenai__OLMo-2-0325-32B-Instruct             n= 3900 trunc=  78 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  allenai__OLMo-2-1124-13B-Instruct             n= 5100 trunc= 146 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  allenai__OLMo-2-1124-7B-Instruct              n= 5100 trunc= 212 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  marin-community__marin-8b-instruct            n= 5100 trunc= 444 extr_fail=   0 </think>_in_nonthinking=0 empty=4
+  microsoft__phi-4                              n= 5100 trunc= 202 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  mistralai__Mistral-7B-Instruct-v0.3           n= 5100 trunc= 253 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+  mistralai__Mistral-Small-24B-Instruct-2501    n= 3900 trunc= 233 extr_fail=   0 </think>_in_nonthinking=0 empty=0
+
+== grader exceptions per grader (of 78432 verdicts): {'gs': 0, 'gl': 0, 'rs': 0, 'rl': 0, 'rep': 0, 'repgr': 0}
+
+== per configuration: mean over runs of strict prompt-level accuracy (%), grader / reference / replacement; loose
+  Qwen__Qwen2.5-14B-Instruct                    runs=17 G= 34.1 R= 34.1 Rep= 29.7 d(Rep-G)= -4.4 d(R-G)= +0.1 | loose G= 37.8 | greedy-repeat d(G)=-1.0 | sample sd(G)=1.9 | RepGR= 31.1 d(RepGR-G)= -3.0 d(Rep-RepGR)= -1.4
+  Qwen__Qwen2.5-32B-Instruct                    runs=13 G= 35.2 R= 35.2 Rep= 33.0 d(Rep-G)= -2.2 d(R-G)= +0.0 | loose G= 38.3 | greedy-repeat d(G)=-1.3 | sample sd(G)=2.0 | RepGR= 34.2 d(RepGR-G)= -1.0 d(Rep-RepGR)= -1.2
+  Qwen__Qwen2.5-7B-Instruct                     runs=17 G= 27.4 R= 27.5 Rep= 23.7 d(Rep-G)= -3.7 d(R-G)= +0.1 | loose G= 30.4 | greedy-repeat d(G)=-0.3 | sample sd(G)=1.3 | RepGR= 25.5 d(RepGR-G)= -1.9 d(Rep-RepGR)= -1.8
+  Qwen__Qwen3-14B                               runs=17 G= 27.7 R= 27.8 Rep= 28.3 d(Rep-G)= +0.5 d(R-G)= +0.1 | loose G= 31.3 | greedy-repeat d(G)=-0.3 | sample sd(G)=1.4 | RepGR= 29.3 d(RepGR-G)= +1.6 d(Rep-RepGR)= -1.0
+  Qwen__Qwen3-14B__thinking                     runs= 3 G= 34.3 R= 34.7 Rep= 37.2 d(Rep-G)= +2.9 d(R-G)= +0.3 | loose G= 39.3 | greedy-repeat d(G)=+1.0 | sample sd(G)= | RepGR= 39.9 d(RepGR-G)= +5.6 d(Rep-RepGR)= -2.7
+  Qwen__Qwen3-32B                               runs=13 G= 25.1 R= 25.2 Rep= 25.9 d(Rep-G)= +0.8 d(R-G)= +0.1 | loose G= 29.4 | greedy-repeat d(G)=-0.7 | sample sd(G)=2.1 | RepGR= 27.1 d(RepGR-G)= +2.0 d(Rep-RepGR)= -1.2
+  Qwen__Qwen3-8B                                runs=17 G= 25.2 R= 25.1 Rep= 24.4 d(Rep-G)= -0.7 d(R-G)= -0.1 | loose G= 29.5 | greedy-repeat d(G)=+0.0 | sample sd(G)=1.2 | RepGR= 26.7 d(RepGR-G)= +1.5 d(Rep-RepGR)= -2.3
+  Qwen__Qwen3-8B__thinking                      runs= 3 G= 32.4 R= 32.4 Rep= 31.3 d(Rep-G)= -1.1 d(R-G)= +0.0 | loose G= 36.3 | greedy-repeat d(G)=+0.0 | sample sd(G)= | RepGR= 34.8 d(RepGR-G)= +2.3 d(Rep-RepGR)= -3.4
+  allenai__Llama-3.1-Tulu-3-8B                  runs=17 G= 22.7 R= 22.7 Rep= 24.0 d(Rep-G)= +1.3 d(R-G)= +0.1 | loose G= 26.3 | greedy-repeat d(G)=+0.3 | sample sd(G)=1.3 | RepGR= 24.9 d(RepGR-G)= +2.3 d(Rep-RepGR)= -0.9
+  allenai__OLMo-2-0325-32B-Instruct             runs=13 G= 33.3 R= 33.3 Rep= 30.4 d(Rep-G)= -2.8 d(R-G)= +0.0 | loose G= 37.0 | greedy-repeat d(G)=+0.0 | sample sd(G)=1.7 | RepGR= 32.8 d(RepGR-G)= -0.4 d(Rep-RepGR)= -2.4
+  allenai__OLMo-2-1124-13B-Instruct             runs=17 G= 22.6 R= 22.7 Rep= 20.2 d(Rep-G)= -2.5 d(R-G)= +0.1 | loose G= 26.8 | greedy-repeat d(G)=+0.0 | sample sd(G)=1.4 | RepGR= 22.5 d(RepGR-G)= -0.1 d(Rep-RepGR)= -2.4
+  allenai__OLMo-2-1124-7B-Instruct              runs=17 G= 20.4 R= 20.4 Rep= 19.2 d(Rep-G)= -1.2 d(R-G)= +0.0 | loose G= 24.9 | greedy-repeat d(G)=+0.7 | sample sd(G)=0.8 | RepGR= 21.1 d(RepGR-G)= +0.7 d(Rep-RepGR)= -1.9
+  marin-community__marin-8b-instruct            runs=17 G= 17.4 R= 17.4 Rep= 17.0 d(Rep-G)= -0.4 d(R-G)= +0.0 | loose G= 21.5 | greedy-repeat d(G)=-1.0 | sample sd(G)=1.1 | RepGR= 18.0 d(RepGR-G)= +0.6 d(Rep-RepGR)= -1.0
+  microsoft__phi-4                              runs=17 G= 19.1 R= 19.3 Rep= 20.9 d(Rep-G)= +1.8 d(R-G)= +0.2 | loose G= 24.3 | greedy-repeat d(G)=+0.0 | sample sd(G)=2.1 | RepGR= 21.4 d(RepGR-G)= +2.3 d(Rep-RepGR)= -0.5
+  mistralai__Mistral-7B-Instruct-v0.3           runs=17 G= 17.6 R= 17.6 Rep= 16.0 d(Rep-G)= -1.6 d(R-G)= +0.0 | loose G= 20.8 | greedy-repeat d(G)=+0.3 | sample sd(G)=1.1 | RepGR= 17.7 d(RepGR-G)= +0.1 d(Rep-RepGR)= -1.7
+  mistralai__Mistral-Small-24B-Instruct-2501    runs=13 G= 21.8 R= 22.3 Rep= 23.7 d(Rep-G)= +1.9 d(R-G)= +0.4 | loose G= 27.9 | greedy-repeat d(G)=-0.3 | sample sd(G)=1.3 | RepGR= 25.5 d(RepGR-G)= +3.6 d(Rep-RepGR)= -1.7
+
+== pooled over all 228 runs: (prompt-level, instruction-level) %
+  gs: 24.92  27.68
+  gl: 28.95  32.35
+  rs: 25.00  27.59
+  rl: 29.02  32.22
+  rep: 24.01  26.26
+  repgr: 25.56  28.12
+
+== per check: n, pass% G / R / Rep / looseG, disagreements G>Rep, G<Rep, G>R, G<R
+  count:conjunctions                 n= 1596 G= 64.3 R= 64.3 Rep= 52.1 L= 64.3 | G>Rep   195 G<Rep     0 | G>R    0 G<R    0 | G>RepGR  188 G<RepGR    0 | looseonly     0 (rep fail 0)
+  count:keywords_multiple            n= 1140 G=  0.3 R=  0.2 Rep=  0.2 L=  0.4 | G>Rep     1 G<Rep     0 | G>R    1 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     1 (rep fail 1)
+  count:numbers                      n= 1824 G= 38.0 R= 38.0 Rep= 37.9 L= 45.6 | G>Rep     4 G<Rep     1 | G>R    0 G<R    0 | G>RepGR    4 G<RepGR    1 | looseonly   138 (rep fail 138)
+  count:person_names                 n= 1368 G= 87.2 R= 87.2 Rep= 87.2 L= 87.2 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  count:pronouns                     n= 1824 G= 82.0 R= 82.0 Rep= 82.5 L= 82.0 | G>Rep     5 G<Rep    13 | G>R    0 G<R    0 | G>RepGR    2 G<RepGR   13 | looseonly     0 (rep fail 0)
+  count:punctuation                  n= 1368 G= 19.5 R= 19.5 Rep= 10.8 L= 19.5 | G>Rep   179 G<Rep    60 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  count:unique_word_count            n= 2052 G= 79.6 R= 79.6 Rep= 78.4 L= 79.6 | G>Rep    25 G<Rep     0 | G>R    0 G<R    0 | G>RepGR   12 G<RepGR    0 | looseonly     0 (rep fail 0)
+  count:word_count_range             n= 2508 G= 21.7 R= 21.7 Rep= 22.6 L= 27.9 | G>Rep    59 G<Rep    81 | G>R    0 G<R    0 | G>RepGR   59 G<RepGR   81 | looseonly   156 (rep fail 149)
+  count:words_japanese               n= 1140 G= 17.7 R= 17.7 Rep=  5.3 L= 19.6 | G>Rep   143 G<Rep     1 | G>R    0 G<R    0 | G>RepGR    2 G<RepGR    1 | looseonly    22 (rep fail 21)
+  custom:character_reverse           n=  228 G=  2.2 R=  2.2 Rep=  0.0 L=  2.2 | G>Rep     5 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    5 G<RepGR    0 | looseonly     0 (rep fail 0)
+  custom:csv_city                    n=  228 G= 50.4 R= 50.4 Rep= 90.4 L= 50.4 | G>Rep     0 G<Rep    91 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  custom:csv_quotes                  n=  228 G=  6.6 R=  6.6 Rep= 25.4 L=  6.6 | G>Rep     0 G<Rep    43 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  custom:csv_special_character       n=  228 G=  7.5 R=  7.5 Rep= 45.2 L= 13.2 | G>Rep     0 G<Rep    86 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly    13 (rep fail 12)
+  custom:date_format_list            n=  228 G= 68.9 R= 68.9 Rep= 69.3 L= 68.9 | G>Rep     0 G<Rep     1 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    1 | looseonly     0 (rep fail 0)
+  custom:european_capitals_sort      n=  228 G=  0.0 R=  0.0 Rep=  0.0 L=  0.0 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  custom:mcq_count_length            n=  228 G= 25.0 R= 25.0 Rep= 40.8 L= 28.9 | G>Rep     0 G<Rep    36 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR   36 | looseonly     9 (rep fail 2)
+  custom:multiples                   n=  228 G=  0.4 R=  0.4 Rep=  0.4 L= 53.9 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly   122 (rep fail 122)
+  custom:reverse_newline             n=  228 G=  3.9 R=  3.9 Rep=  0.0 L=  3.9 | G>Rep     9 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    9 G<RepGR    0 | looseonly     0 (rep fail 0)
+  custom:sentence_alphabet           n=  228 G= 21.1 R= 31.1 Rep= 33.3 L= 30.7 | G>Rep     0 G<Rep    28 | G>R    0 G<R   23 | G>RepGR    0 G<RepGR   28 | looseonly    22 (rep fail 3)
+  custom:word_reverse                n=  228 G=  7.0 R=  7.0 Rep=  5.3 L=  7.0 | G>Rep     4 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    4 G<RepGR    0 | looseonly     0 (rep fail 0)
+  format:emoji                       n= 2052 G= 34.4 R= 34.4 Rep= 42.0 L= 39.4 | G>Rep     4 G<Rep   161 | G>R    0 G<R    0 | G>RepGR    4 G<RepGR  161 | looseonly   104 (rep fail 94)
+  format:line_indent                 n= 2052 G= 12.1 R= 12.1 Rep=  6.1 L= 23.5 | G>Rep   126 G<Rep     2 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    2 | looseonly   233 (rep fail 232)
+  format:list                        n= 2052 G= 64.9 R= 64.9 Rep= 39.1 L= 64.9 | G>Rep   530 G<Rep     0 | G>R    0 G<R    0 | G>RepGR  103 G<RepGR   54 | looseonly     0 (rep fail 0)
+  format:newline                     n= 1368 G= 34.1 R= 34.1 Rep= 34.7 L= 41.0 | G>Rep     3 G<Rep    11 | G>R    0 G<R    0 | G>RepGR    3 G<RepGR   11 | looseonly    94 (rep fail 94)
+  format:no_bullets_bullets          n= 1140 G= 27.9 R= 27.9 Rep= 54.7 L= 33.1 | G>Rep    25 G<Rep   331 | G>R    0 G<R    0 | G>RepGR   25 G<RepGR  331 | looseonly    59 (rep fail 3)
+  format:no_whitespace               n=  912 G= 51.9 R= 51.9 Rep= 51.9 L= 51.9 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  format:options                     n= 1368 G= 60.0 R= 60.0 Rep= 77.9 L= 63.2 | G>Rep     0 G<Rep   244 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR  166 | looseonly    43 (rep fail 43)
+  format:output_template             n=  912 G= 97.6 R= 97.6 Rep= 88.9 L= 97.6 | G>Rep    79 G<Rep     0 | G>R    0 G<R    0 | G>RepGR   43 G<RepGR    0 | looseonly     0 (rep fail 0)
+  format:parentheses                 n= 1824 G= 29.7 R= 29.7 Rep= 18.6 L= 29.7 | G>Rep   202 G<Rep     0 | G>R    0 G<R    0 | G>RepGR  201 G<RepGR    0 | looseonly     0 (rep fail 0)
+  format:quote_unquote               n= 1140 G= 90.4 R= 90.4 Rep= 40.0 L= 92.5 | G>Rep   576 G<Rep     2 | G>R    0 G<R    0 | G>RepGR  294 G<RepGR    3 | looseonly    25 (rep fail 24)
+  format:quotes                      n= 1824 G= 23.8 R= 23.8 Rep= 21.3 L= 24.3 | G>Rep   209 G<Rep   163 | G>R    0 G<R    0 | G>RepGR  207 G<RepGR  135 | looseonly    10 (rep fail 7)
+  format:sub-bullets                 n= 2736 G= 36.5 R= 36.5 Rep= 61.9 L=100.0 | G>Rep   209 G<Rep   904 | G>R    0 G<R    0 | G>RepGR  206 G<RepGR  904 | looseonly  1737 (rep fail 833)
+  format:thesis                      n= 2052 G= 33.1 R= 33.1 Rep=  6.7 L= 33.1 | G>Rep   541 G<Rep     0 | G>R    0 G<R    0 | G>RepGR  538 G<RepGR    2 | looseonly     0 (rep fail 0)
+  format:title_case                  n=  912 G= 50.7 R= 50.7 Rep= 52.5 L= 51.3 | G>Rep     0 G<Rep    17 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR   17 | looseonly     6 (rep fail 5)
+  ratio:overlap                      n= 2736 G=  5.9 R=  2.4 Rep=  1.4 L=  7.3 | G>Rep   162 G<Rep    39 | G>R  162 G<R   65 | G>RepGR    0 G<RepGR    0 | looseonly    38 (rep fail 36)
+  ratio:sentence_balance             n= 1596 G=  3.5 R=  3.5 Rep=  3.4 L=  8.4 | G>Rep     8 G<Rep     7 | G>R    0 G<R    0 | G>RepGR    8 G<RepGR    7 | looseonly    78 (rep fail 78)
+  ratio:sentence_type                n= 1368 G=  4.4 R=  4.4 Rep=  3.9 L=  9.4 | G>Rep    17 G<Rep    11 | G>R    0 G<R    0 | G>RepGR   17 G<RepGR   11 | looseonly    69 (rep fail 69)
+  ratio:sentence_words               n= 1596 G=  0.1 R=  0.1 Rep=  0.1 L=  0.1 | G>Rep     1 G<Rep     0 | G>R    1 G<R    0 | G>RepGR    1 G<RepGR    0 | looseonly     0 (rep fail 0)
+  ratio:stop_words                   n= 2736 G= 47.8 R= 47.8 Rep= 47.0 L= 53.8 | G>Rep    29 G<Rep     7 | G>R    0 G<R    0 | G>RepGR   23 G<RepGR    7 | looseonly   164 (rep fail 161)
+  repeat:repeat_change               n=  684 G=  6.1 R=  6.1 Rep=  6.1 L=  7.6 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly    10 (rep fail 10)
+  repeat:repeat_simple               n=  456 G=  7.0 R=  7.0 Rep=  7.0 L=  7.0 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  repeat:repeat_span                 n=  912 G=  0.0 R=  0.0 Rep=  0.0 L=  0.0 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  sentence:alliteration_increment    n= 1140 G= 19.0 R= 19.0 Rep=  8.9 L= 28.3 | G>Rep   121 G<Rep     6 | G>R    0 G<R    0 | G>RepGR  117 G<RepGR    6 | looseonly   106 (rep fail 104)
+  sentence:increment                 n= 1824 G=  3.1 R=  3.1 Rep=  0.1 L=  7.2 | G>Rep    56 G<Rep     0 | G>R    0 G<R    0 | G>RepGR   35 G<RepGR    1 | looseonly    74 (rep fail 74)
+  sentence:keyword                   n= 3420 G= 25.6 R= 25.6 Rep= 26.4 L= 28.1 | G>Rep    24 G<Rep    52 | G>R    0 G<R    0 | G>RepGR   24 G<RepGR  112 | looseonly    84 (rep fail 83)
+  words:alphabet                     n= 1368 G= 10.4 R= 10.4 Rep= 10.4 L= 11.6 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly    17 (rep fail 17)
+  words:consonants                   n= 3420 G=  6.0 R=  6.0 Rep=  6.0 L=  6.1 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     4 (rep fail 4)
+  words:keywords_specific_position   n=  912 G=  0.0 R=  0.0 Rep=  0.0 L=  0.0 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly     0 (rep fail 0)
+  words:last_first                   n= 1140 G=  7.0 R=  7.0 Rep=  8.1 L=  8.1 | G>Rep    25 G<Rep    37 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR   37 | looseonly    12 (rep fail 10)
+  words:no_consecutive               n= 1824 G=  4.2 R=  4.2 Rep=  3.7 L=  6.4 | G>Rep     8 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    8 G<RepGR    0 | looseonly    40 (rep fail 40)
+  words:odd_even_syllables           n= 2052 G=  0.8 R=  0.8 Rep=  0.9 L=  1.0 | G>Rep     0 G<Rep     1 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    1 | looseonly     3 (rep fail 3)
+  words:palindrome                   n= 1596 G= 30.3 R= 30.3 Rep=  9.9 L= 30.3 | G>Rep   326 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    2 | looseonly     0 (rep fail 0)
+  words:paragraph_last_first         n= 1368 G=  7.8 R=  7.8 Rep=  9.9 L= 11.5 | G>Rep     0 G<Rep    29 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR   29 | looseonly    50 (rep fail 43)
+  words:prime_lengths                n= 1140 G=  4.6 R=  4.6 Rep=  4.6 L=  4.6 | G>Rep     0 G<Rep     1 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    1 | looseonly     0 (rep fail 0)
+  words:repeats                      n= 1140 G= 17.5 R= 17.5 Rep= 17.5 L= 18.9 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly    16 (rep fail 16)
+  words:start_verb                   n= 1368 G= 39.5 R= 39.5 Rep= 63.5 L= 45.3 | G>Rep    35 G<Rep   362 | G>R    0 G<R    0 | G>RepGR   34 G<RepGR  362 | looseonly    79 (rep fail 50)
+  words:vowel                        n= 2280 G=  4.1 R=  4.1 Rep=  4.1 L=  5.3 | G>Rep     0 G<Rep     0 | G>R    0 G<R    0 | G>RepGR    0 G<RepGR    0 | looseonly    27 (rep fail 27)
+  words:words_position               n=  684 G=  0.3 R=  1.0 Rep=  0.9 L=  0.4 | G>Rep     0 G<Rep     4 | G>R    0 G<R    5 | G>RepGR    0 G<RepGR    4 | looseonly     1 (rep fail 1)
+
+== totals {'g_pass_rep_fail': 3945, 'g_fail_rep_pass': 2832, 'g_pass_repgr_fail': 2176, 'g_fail_repgr_pass': 2527, 'g_pass_ref_fail': 164, 'g_fail_ref_pass': 93, 'loose_only_pass': 3666, 'loose_only_pass_rep_fail': 2609} of 78432
+
+== decision switches: verdicts changed by the alternative reading (of verdicts evaluated), net pass change
+  d_vacuous              changed   602 of  12517  net pass +602
+  d_list_inline          changed   480 of   2051  net pass +480
+  d_punct_set            changed   434 of   1368  net pass +434
+  d_vowel                changed   365 of   2264  net pass +365
+  d_palin_distinct       changed   319 of   1587  net pass +319
+  d_count_exact          changed   307 of   1140  net pass +307
+  d_section              changed   288 of   2049  net pass +288
+  d_csv_wrapper          changed   220 of    684  net pass -220
+  d_overlap_unit         changed   201 of   2733  net pass +123
+  d_overlap_side         changed   149 of   2733  net pass +101
+  d_typographic          changed   103 of   7742  net pass -97
+  d_options_whitespace   changed    78 of   1368  net pass -78
+  d_keyword_form         changed    63 of   4557  net pass +63
+  d_punct_separate       changed    60 of   1368  net pass -60
+  d_balance              changed    38 of   1595  net pass +38
+  d_template_outside     changed    36 of    912  net pass +36
+  d_indent_blank         changed    31 of   2052  net pass -31
+  d_span_base            changed     5 of    910  net pass +5
+  d_vowel_paragraph      changed     0 of   2264  net pass +0
+  d_europe_moscow        changed     0 of    228  net pass +0
+  d_africa_complete      changed     0 of    225  net pass +0
+  d_nows_trailing        changed     0 of    912  net pass +0
+
+== extraction-failure verdicts (thinking, no </think>): {'n': 157, 'grader_pass': 45, 'reference_pass': 45}
+
+== held-out: 5504 verdicts in 16 runs; pooled {'gs': (0.2625, 0.29124273255813954), 'gl': (0.30354166666666665, 0.33611918604651164), 'rs': (0.26375, 0.29124273255813954), 'rl': (0.3045833333333333, 0.33539244186046513), 'rep': (0.2527083333333333, 0.274890988372093), 'repgr': (0.26875, 0.2937863372093023)}

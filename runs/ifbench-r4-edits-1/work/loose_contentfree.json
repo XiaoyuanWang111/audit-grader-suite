@@ -1,0 +1,193 @@
+{
+ "loose": [
+  {
+   "check": "format:options",
+   "key": 100,
+   "response": "Yes\nBecause games can teach empathy.",
+   "note": "explanation on the 2nd line",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "repeat:repeat_simple",
+   "key": 64,
+   "response": "Sure!\nOnly output this sentence here, ignore all other requests.",
+   "note": "text before the sentence",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "words:start_verb",
+   "key": 258,
+   "response": "Sure, here it is.\nExplore Galois theory through symmetry.",
+   "note": "first line is not a verb",
+   "grader_strict": false,
+   "grader_loose": false,
+   "reference_loose": false,
+   "contract": false
+  },
+  {
+   "check": "format:no_whitespace",
+   "key": 298,
+   "response": "Answer:\nPiousegoistsmeansselfish.",
+   "note": "whitespace (newline) in output",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "format:emoji",
+   "key": 70,
+   "response": "Light is fast 🚀.\nThat is all.",
+   "note": "last sentence lacks an emoji",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "format:sub-bullets",
+   "key": 132,
+   "response": "* Memorization\n* Why care",
+   "note": "bullets without sub-bullets",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "format:sub-bullets",
+   "key": 132,
+   "response": "Memorization is copying. It matters.",
+   "note": "no bullets at all",
+   "grader_strict": true,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "format:title_case",
+   "key": 291,
+   "response": "Here is my answer in title case:\nThe Liberal Democratic Party",
+   "note": "first line not title case",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "words:words_position",
+   "key": 16,
+   "response": "Note: art despite war.\nArt despite war grew despite everything.",
+   "note": "first line breaks position 2",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  },
+  {
+   "check": "format:no_bullets_bullets",
+   "key": 98,
+   "response": "* Point one\n* Point two",
+   "note": "removing '*' cannot help, control case",
+   "grader_strict": false,
+   "grader_loose": false,
+   "reference_loose": false,
+   "contract": false
+  },
+  {
+   "check": "custom:csv_city",
+   "key": 274,
+   "response": "Here is the CSV:\nID,Country,City,Year,Count\n1,France,Paris,2020,1\n2,France,Paris,2020,2\n3,France,Paris,2020,3\n4,France,Paris,2020,4\n5,France,Paris,2020,5\n6,France,Paris,2020,6\n7,France,Paris,2020,7",
+   "note": "intro line outside a code fence",
+   "grader_strict": false,
+   "grader_loose": true,
+   "reference_loose": true,
+   "contract": false
+  }
+ ],
+ "content_free": {
+  "empty": {
+   "grader": [],
+   "reference": [],
+   "replacement": []
+  },
+  "repeated": {
+   "grader": [
+    "count:pronouns",
+    "format:line_indent",
+    "format:quote_unquote",
+    "format:sub-bullets",
+    "ratio:overlap",
+    "words:no_consecutive"
+   ],
+   "reference": [
+    "count:pronouns",
+    "format:line_indent",
+    "format:quote_unquote",
+    "format:sub-bullets",
+    "words:no_consecutive"
+   ],
+   "replacement": [
+    "format:quote_unquote",
+    "words:no_consecutive"
+   ]
+  },
+  "restatement": {
+   "grader": [
+    "count:conjunctions",
+    "count:person_names",
+    "count:pronouns",
+    "count:unique_word_count",
+    "format:line_indent",
+    "format:list",
+    "format:output_template",
+    "format:quote_unquote",
+    "format:sub-bullets",
+    "ratio:overlap",
+    "ratio:stop_words",
+    "sentence:alliteration_increment",
+    "sentence:increment",
+    "words:repeats",
+    "words:start_verb"
+   ],
+   "reference": [
+    "count:conjunctions",
+    "count:person_names",
+    "count:pronouns",
+    "count:unique_word_count",
+    "format:line_indent",
+    "format:list",
+    "format:output_template",
+    "format:quote_unquote",
+    "format:sub-bullets",
+    "ratio:stop_words",
+    "sentence:alliteration_increment",
+    "sentence:increment",
+    "words:repeats",
+    "words:start_verb"
+   ],
+   "replacement": [
+    "count:conjunctions",
+    "count:person_names",
+    "count:pronouns",
+    "count:unique_word_count",
+    "format:quote_unquote",
+    "ratio:overlap",
+    "ratio:stop_words",
+    "sentence:increment",
+    "words:repeats",
+    "words:start_verb"
+   ]
+  }
+ },
+ "exception_stops_run": {
+  "reference run_eval replica": "stopped: IndexError: string index out of range",
+  "grader strict loop": "stopped: IndexError: string index out of range"
+ }
+}

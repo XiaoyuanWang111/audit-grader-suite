@@ -1,0 +1,5 @@
+fuzz inputs: 17400 over 58 checks
+  custom:csv_city                    grader_loose      Error                  25
+  custom:csv_city                    grader_strict     Error                  25
+  custom:csv_city                    reference_loose   Error                  25
+  custom:csv_city                    reference_strict  Error                  25

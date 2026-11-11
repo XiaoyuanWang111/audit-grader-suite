@@ -1,0 +1,186 @@
+{
+ "per_config": {
+  "Qwen__Qwen2.5-14B-Instruct": {
+   "grader": 0.3407843137254902,
+   "patched_A": 0.32,
+   "patched_B": 0.3111764705882353,
+   "patched_A_G2": 0.32,
+   "replacement": 0.2901960784313726,
+   "findings_effect_A": -0.020784313725490167,
+   "rest": -0.029803921568627434
+  },
+  "Qwen__Qwen2.5-32B-Instruct": {
+   "grader": 0.3517948717948718,
+   "patched_A": 0.33487179487179486,
+   "patched_B": 0.33897435897435896,
+   "patched_A_G2": 0.33487179487179486,
+   "replacement": 0.3351282051282051,
+   "findings_effect_A": -0.01692307692307693,
+   "rest": 0.0002564102564102666
+  },
+  "Qwen__Qwen2.5-7B-Instruct": {
+   "grader": 0.2741176470588235,
+   "patched_A": 0.25666666666666665,
+   "patched_B": 0.25607843137254904,
+   "patched_A_G2": 0.25666666666666665,
+   "replacement": 0.25392156862745097,
+   "findings_effect_A": -0.017450980392156867,
+   "rest": -0.0027450980392156876
+  },
+  "Qwen__Qwen3-14B": {
+   "grader": 0.2774509803921569,
+   "patched_A": 0.2768627450980392,
+   "patched_B": 0.28352941176470586,
+   "patched_A_G2": 0.2768627450980392,
+   "replacement": 0.28411764705882353,
+   "findings_effect_A": -0.0005882352941176672,
+   "rest": 0.007254901960784321
+  },
+  "Qwen__Qwen3-14B__thinking": {
+   "grader": 0.3433333333333333,
+   "patched_A": 0.37444444444444447,
+   "patched_B": 0.37777777777777777,
+   "patched_A_G2": 0.36777777777777776,
+   "replacement": 0.3788888888888889,
+   "findings_effect_A": 0.031111111111111145,
+   "rest": 0.0044444444444444176
+  },
+  "Qwen__Qwen3-32B": {
+   "grader": 0.251025641025641,
+   "patched_A": 0.25871794871794873,
+   "patched_B": 0.26666666666666666,
+   "patched_A_G2": 0.25871794871794873,
+   "replacement": 0.2643589743589744,
+   "findings_effect_A": 0.0076923076923077205,
+   "rest": 0.005641025641025643
+  },
+  "Qwen__Qwen3-8B": {
+   "grader": 0.25176470588235295,
+   "patched_A": 0.2529411764705882,
+   "patched_B": 0.25333333333333335,
+   "patched_A_G2": 0.2529411764705882,
+   "replacement": 0.24568627450980393,
+   "findings_effect_A": 0.0011764705882352788,
+   "rest": -0.0072549019607842935
+  },
+  "Qwen__Qwen3-8B__thinking": {
+   "grader": 0.3244444444444444,
+   "patched_A": 0.33444444444444443,
+   "patched_B": 0.3411111111111111,
+   "patched_A_G2": 0.3055555555555556,
+   "replacement": 0.3011111111111111,
+   "findings_effect_A": 0.010000000000000009,
+   "rest": -0.033333333333333326
+  },
+  "allenai__Llama-3.1-Tulu-3-8B": {
+   "grader": 0.22666666666666668,
+   "patched_A": 0.2384313725490196,
+   "patched_B": 0.23490196078431372,
+   "patched_A_G2": 0.2384313725490196,
+   "replacement": 0.2323529411764706,
+   "findings_effect_A": 0.011764705882352927,
+   "rest": -0.006078431372549015
+  },
+  "allenai__OLMo-2-0325-32B-Instruct": {
+   "grader": 0.33282051282051284,
+   "patched_A": 0.3269230769230769,
+   "patched_B": 0.3261538461538461,
+   "patched_A_G2": 0.3269230769230769,
+   "replacement": 0.3041025641025641,
+   "findings_effect_A": -0.00589743589743591,
+   "rest": -0.02282051282051284
+  },
+  "allenai__OLMo-2-1124-13B-Instruct": {
+   "grader": 0.22647058823529412,
+   "patched_A": 0.2168627450980392,
+   "patched_B": 0.2115686274509804,
+   "patched_A_G2": 0.2168627450980392,
+   "replacement": 0.1931372549019608,
+   "findings_effect_A": -0.009607843137254907,
+   "rest": -0.02372549019607842
+  },
+  "allenai__OLMo-2-1124-7B-Instruct": {
+   "grader": 0.20372549019607844,
+   "patched_A": 0.20647058823529413,
+   "patched_B": 0.20333333333333334,
+   "patched_A_G2": 0.20647058823529413,
+   "replacement": 0.18725490196078431,
+   "findings_effect_A": 0.0027450980392156876,
+   "rest": -0.019215686274509813
+  },
+  "marin-community__marin-8b-instruct": {
+   "grader": 0.17392156862745098,
+   "patched_A": 0.17549019607843136,
+   "patched_B": 0.17568627450980392,
+   "patched_A_G2": 0.17549019607843136,
+   "replacement": 0.1676470588235294,
+   "findings_effect_A": 0.001568627450980381,
+   "rest": -0.00784313725490196
+  },
+  "microsoft__phi-4": {
+   "grader": 0.19058823529411764,
+   "patched_A": 0.20137254901960785,
+   "patched_B": 0.20509803921568628,
+   "patched_A_G2": 0.20137254901960785,
+   "replacement": 0.20705882352941177,
+   "findings_effect_A": 0.010784313725490213,
+   "rest": 0.0056862745098039125
+  },
+  "mistralai__Mistral-7B-Instruct-v0.3": {
+   "grader": 0.17627450980392156,
+   "patched_A": 0.17607843137254903,
+   "patched_B": 0.1727450980392157,
+   "patched_A_G2": 0.17607843137254903,
+   "replacement": 0.17137254901960786,
+   "findings_effect_A": -0.00019607843137253722,
+   "rest": -0.004705882352941171
+  },
+  "mistralai__Mistral-Small-24B-Instruct-2501": {
+   "grader": 0.2182051282051282,
+   "patched_A": 0.24256410256410257,
+   "patched_B": 0.24769230769230768,
+   "patched_A_G2": 0.24256410256410257,
+   "replacement": 0.23461538461538461,
+   "findings_effect_A": 0.024358974358974383,
+   "rest": -0.00794871794871796
+  }
+ },
+ "pooled": {
+  "A": 0.24871345029239766,
+  "B": 0.24875730994152045,
+  "C": 0.2482456140350877
+ },
+ "probes": {
+  "count:conjunctions": "F-CONJ / minimal patch",
+  "count:keywords_multiple": "F-KWM / reference checker",
+  "count:numbers": "F-NUM / minimal patch",
+  "count:word_count_range": "F-CONTRACTION / minimal patch",
+  "ratio:stop_words": "F-CONTRACTION / minimal patch",
+  "ratio:sentence_type": "F-STYPE / minimal patch (both defects)",
+  "ratio:sentence_balance": "F-SBAL / minimal patch",
+  "ratio:sentence_words": "F-SWORDS / reference checker",
+  "format:line_indent": "F-INDENT / minimal patch",
+  "format:newline": "F-NEWLINE / minimal patch",
+  "format:list": "F-LIST / minimal patch",
+  "format:no_bullets_bullets": "F-NBB / minimal patch",
+  "format:options": "F-OPTIONS / minimal patch",
+  "format:output_template": "F-TEMPLATE / replacement logic",
+  "format:parentheses": "F-PAREN / replacement logic",
+  "format:quote_unquote": "F-QU / replacement logic",
+  "format:quotes": "F-QUOTES / minimal patch",
+  "format:sub-bullets": "F-SUBB / replacement logic",
+  "format:thesis": "F-THESIS / replacement logic, whole-response section",
+  "format:title_case": "F-TITLE / replacement logic",
+  "sentence:alliteration_increment": "F-ALLIT / minimal patch",
+  "custom:european_capitals_sort": "F-CAPITALS / minimal patch",
+  "custom:reverse_newline": "F-AFRICA / minimal patch",
+  "custom:sentence_alphabet": "F-ALPHA-SENT / reference checker",
+  "custom:csv_special_character": "F-CSVSPECIAL / minimal patch",
+  "custom:date_format_list": "F-DATE / minimal patch",
+  "custom:mcq_count_length": "F-MCQ / replacement logic",
+  "repeat:repeat_change": "F-RCHANGE / minimal patch",
+  "repeat:repeat_span": "F-RSPAN / reference checker",
+  "words:start_verb": "F-VERB / replacement logic (APPROX)",
+  "words:words_position": "F-WPOS / reference checker"
+ }
+}

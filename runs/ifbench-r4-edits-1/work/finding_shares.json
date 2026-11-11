@@ -1,0 +1,1165 @@
+[
+ {
+  "finding": "F-CONJ",
+  "check": "count:conjunctions",
+  "probe": "minimal patch",
+  "verdicts": 1589,
+  "flips": 188,
+  "share_of_check": 0.118313404657017,
+  "share_of_all": 0.002396980824153407,
+  "pass_to_fail": 188,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 188,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "5",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "5",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample0",
+    "key": "8",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample1",
+    "key": "22",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample11",
+    "key": "5",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-KWM",
+  "check": "count:keywords_multiple",
+  "probe": "reference checker",
+  "verdicts": 1140,
+  "flips": 1,
+  "share_of_check": 0.0008771929824561404,
+  "share_of_all": 1.2749898000815993e-05,
+  "pass_to_fail": 1,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 1,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "Qwen__Qwen3-14B__sample11",
+    "key": "4",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-NUM",
+  "check": "count:numbers",
+  "probe": "minimal patch",
+  "verdicts": 1824,
+  "flips": 5,
+  "share_of_check": 0.0027412280701754384,
+  "share_of_all": 6.374949000407997e-05,
+  "pass_to_fail": 4,
+  "fail_to_pass": 1,
+  "agrees_with_replacement": 5,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__OLMo-2-1124-7B-Instruct__sample5",
+    "key": "17",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "marin-community__marin-8b-instruct__sample6",
+    "key": "17",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "microsoft__phi-4__sample0",
+    "key": "17",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "mistralai__Mistral-7B-Instruct-v0.3__sample3",
+    "key": "17",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "mistralai__Mistral-Small-24B-Instruct-2501__sample6",
+    "key": "18",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-CONTRACTION",
+  "check": "count:word_count_range",
+  "probe": "minimal patch",
+  "verdicts": 2508,
+  "flips": 57,
+  "share_of_check": 0.022727272727272728,
+  "share_of_all": 0.0007267441860465116,
+  "pass_to_fail": 23,
+  "fail_to_pass": 34,
+  "agrees_with_replacement": 57,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample5",
+    "key": "41",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy",
+    "key": "41",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy",
+    "key": "44",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy_repeat",
+    "key": "41",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy_repeat",
+    "key": "44",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-CONTRACTION",
+  "check": "ratio:stop_words",
+  "probe": "minimal patch",
+  "verdicts": 2726,
+  "flips": 17,
+  "share_of_check": 0.0062362435803374906,
+  "share_of_all": 0.00021674826601387188,
+  "pass_to_fail": 0,
+  "fail_to_pass": 17,
+  "agrees_with_replacement": 14,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy_repeat",
+    "key": "176",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__sample4",
+    "key": "176",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__sample5",
+    "key": "133",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample5",
+    "key": "133",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample5",
+    "key": "176",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-STYPE",
+  "check": "ratio:sentence_type",
+  "probe": "minimal patch (both defects)",
+  "verdicts": 1368,
+  "flips": 19,
+  "share_of_check": 0.013888888888888888,
+  "share_of_all": 0.00024224806201550387,
+  "pass_to_fail": 14,
+  "fail_to_pass": 5,
+  "agrees_with_replacement": 18,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__bi_greedy",
+    "key": "163",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__bi_greedy_shuffled",
+    "key": "163",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy",
+    "key": "163",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy_repeat",
+    "key": "163",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy_shuffled",
+    "key": "163",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-STYPE(0:0 only)",
+  "check": "ratio:sentence_type",
+  "probe": "minimal patch",
+  "verdicts": 1368,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-SBAL",
+  "check": "ratio:sentence_balance",
+  "probe": "minimal patch",
+  "verdicts": 1595,
+  "flips": 1,
+  "share_of_check": 0.0006269592476489029,
+  "share_of_all": 1.2749898000815993e-05,
+  "pass_to_fail": 1,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 1,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "marin-community__marin-8b-instruct__sample1",
+    "key": "159",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-SWORDS",
+  "check": "ratio:sentence_words",
+  "probe": "reference checker",
+  "verdicts": 1596,
+  "flips": 1,
+  "share_of_check": 0.0006265664160401002,
+  "share_of_all": 1.2749898000815993e-05,
+  "pass_to_fail": 1,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 1,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "Qwen__Qwen2.5-32B-Instruct__sample1",
+    "key": "166",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-INDENT",
+  "check": "format:line_indent",
+  "probe": "minimal patch",
+  "verdicts": 2052,
+  "flips": 2,
+  "share_of_check": 0.0009746588693957114,
+  "share_of_all": 2.5499796001631987e-05,
+  "pass_to_fail": 0,
+  "fail_to_pass": 2,
+  "agrees_with_replacement": 2,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "Qwen__Qwen3-14B__sample11",
+    "key": "77",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-14B__thinking__greedy_shuffled",
+    "key": "75",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-NEWLINE",
+  "check": "format:newline",
+  "probe": "minimal patch",
+  "verdicts": 1363,
+  "flips": 5,
+  "share_of_check": 0.003668378576669112,
+  "share_of_all": 6.374949000407997e-05,
+  "pass_to_fail": 0,
+  "fail_to_pass": 5,
+  "agrees_with_replacement": 5,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample10",
+    "key": "90",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample2",
+    "key": "90",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample6",
+    "key": "90",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-32B__sample5",
+    "key": "90",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-8B__sample2",
+    "key": "90",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-LIST",
+  "check": "format:list",
+  "probe": "minimal patch",
+  "verdicts": 2051,
+  "flips": 135,
+  "share_of_check": 0.06582155046318869,
+  "share_of_all": 0.0017212362301101591,
+  "pass_to_fail": 135,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 96,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample0",
+    "key": "83",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample3",
+    "key": "46",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample4",
+    "key": "83",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample7",
+    "key": "89",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__sample0",
+    "key": "83",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-NBB",
+  "check": "format:no_bullets_bullets",
+  "probe": "minimal patch",
+  "verdicts": 1140,
+  "flips": 350,
+  "share_of_check": 0.30701754385964913,
+  "share_of_all": 0.004462464300285598,
+  "pass_to_fail": 25,
+  "fail_to_pass": 325,
+  "agrees_with_replacement": 339,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "95",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "99",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "95",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "99",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy",
+    "key": "95",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-OPTIONS",
+  "check": "format:options",
+  "probe": "minimal patch",
+  "verdicts": 1368,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-TEMPLATE",
+  "check": "format:output_template",
+  "probe": "replacement logic",
+  "verdicts": 912,
+  "flips": 79,
+  "share_of_check": 0.08662280701754387,
+  "share_of_all": 0.0010072419420644634,
+  "pass_to_fail": 79,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 79,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample5",
+    "key": "294",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__bi_greedy",
+    "key": "292",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__bi_greedy_shuffled",
+    "key": "292",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy",
+    "key": "292",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__greedy_shuffled",
+    "key": "292",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-PAREN",
+  "check": "format:parentheses",
+  "probe": "replacement logic",
+  "verdicts": 1820,
+  "flips": 201,
+  "share_of_check": 0.11043956043956044,
+  "share_of_all": 0.0025627294981640145,
+  "pass_to_fail": 201,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 201,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "108",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "108",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy_repeat",
+    "key": "112",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample0",
+    "key": "112",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample0",
+    "key": "205",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-QU",
+  "check": "format:quote_unquote",
+  "probe": "replacement logic",
+  "verdicts": 1140,
+  "flips": 96,
+  "share_of_check": 0.08421052631578947,
+  "share_of_all": 0.0012239902080783353,
+  "pass_to_fail": 92,
+  "fail_to_pass": 4,
+  "agrees_with_replacement": 96,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample0",
+    "key": "115",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample4",
+    "key": "114",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample6",
+    "key": "114",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample8",
+    "key": "115",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__sample2",
+    "key": "114",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-QUOTES",
+  "check": "format:quotes",
+  "probe": "minimal patch",
+  "verdicts": 1817,
+  "flips": 275,
+  "share_of_check": 0.15134837644468904,
+  "share_of_all": 0.003506221950224398,
+  "pass_to_fail": 209,
+  "fail_to_pass": 66,
+  "agrees_with_replacement": 275,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "120",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "120",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy",
+    "key": "119",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy",
+    "key": "120",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy_repeat",
+    "key": "120",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-SUBB",
+  "check": "format:sub-bullets",
+  "probe": "replacement logic",
+  "verdicts": 2733,
+  "flips": 1110,
+  "share_of_check": 0.4061470911086718,
+  "share_of_all": 0.014152386780905753,
+  "pass_to_fail": 206,
+  "fail_to_pass": 904,
+  "agrees_with_replacement": 1110,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "126",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "127",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "132",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "133",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "126",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-THESIS",
+  "check": "format:thesis",
+  "probe": "replacement logic, whole-response section",
+  "verdicts": 2049,
+  "flips": 206,
+  "share_of_check": 0.10053684724255735,
+  "share_of_all": 0.0026264789881680945,
+  "pass_to_fail": 204,
+  "fail_to_pass": 2,
+  "agrees_with_replacement": 203,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample2",
+    "key": "142",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample7",
+    "key": "139",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__OLMo-2-0325-32B-Instruct__sample3",
+    "key": "190",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample0",
+    "key": "139",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__OLMo-2-1124-13B-Instruct__sample0",
+    "key": "188",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-TITLE",
+  "check": "format:title_case",
+  "probe": "replacement logic",
+  "verdicts": 912,
+  "flips": 21,
+  "share_of_check": 0.023026315789473683,
+  "share_of_all": 0.00026774785801713584,
+  "pass_to_fail": 5,
+  "fail_to_pass": 16,
+  "agrees_with_replacement": 21,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample2",
+    "key": "290",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "marin-community__marin-8b-instruct__sample0",
+    "key": "291",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "mistralai__Mistral-7B-Instruct-v0.3__sample10",
+    "key": "289",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "mistralai__Mistral-Small-24B-Instruct-2501__sample3",
+    "key": "290",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "mistralai__Mistral-Small-24B-Instruct-2501__sample4",
+    "key": "288",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-ALLIT",
+  "check": "sentence:alliteration_increment",
+  "probe": "minimal patch",
+  "verdicts": 1130,
+  "flips": 120,
+  "share_of_check": 0.10619469026548672,
+  "share_of_all": 0.0015299877600979193,
+  "pass_to_fail": 114,
+  "fail_to_pass": 6,
+  "agrees_with_replacement": 119,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "178",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "178",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy",
+    "key": "178",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy_repeat",
+    "key": "178",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy_shuffled",
+    "key": "178",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-CAPITALS",
+  "check": "custom:european_capitals_sort",
+  "probe": "minimal patch",
+  "verdicts": 228,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-AFRICA",
+  "check": "custom:reverse_newline",
+  "probe": "minimal patch",
+  "verdicts": 225,
+  "flips": 3,
+  "share_of_check": 0.013333333333333334,
+  "share_of_all": 3.824969400244798e-05,
+  "pass_to_fail": 3,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 3,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "marin-community__marin-8b-instruct__sample10",
+    "key": "281",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "Qwen__Qwen3-14B__sample5",
+    "key": "281",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "Qwen__Qwen3-8B__sample9",
+    "key": "281",
+    "grader": true,
+    "patched": false
+   }
+  ]
+ },
+ {
+  "finding": "F-ALPHA-SENT",
+  "check": "custom:sentence_alphabet",
+  "probe": "reference checker",
+  "verdicts": 228,
+  "flips": 23,
+  "share_of_check": 0.10087719298245613,
+  "share_of_all": 0.00029324765401876786,
+  "pass_to_fail": 0,
+  "fail_to_pass": 23,
+  "agrees_with_replacement": 23,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "marin-community__marin-8b-instruct__sample8",
+    "key": "282",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "microsoft__phi-4__sample1",
+    "key": "282",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "microsoft__phi-4__sample10",
+    "key": "282",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "microsoft__phi-4__sample11",
+    "key": "282",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "microsoft__phi-4__sample3",
+    "key": "282",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-CSVSPECIAL",
+  "check": "custom:csv_special_character",
+  "probe": "minimal patch",
+  "verdicts": 228,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-DATE",
+  "check": "custom:date_format_list",
+  "probe": "minimal patch",
+  "verdicts": 228,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-MCQ",
+  "check": "custom:mcq_count_length",
+  "probe": "replacement logic",
+  "verdicts": 228,
+  "flips": 36,
+  "share_of_check": 0.15789473684210525,
+  "share_of_all": 0.0004589963280293758,
+  "pass_to_fail": 0,
+  "fail_to_pass": 36,
+  "agrees_with_replacement": 36,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "279",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "279",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy_repeat",
+    "key": "279",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__greedy_shuffled",
+    "key": "279",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__sample1",
+    "key": "279",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-RCHANGE",
+  "check": "repeat:repeat_change",
+  "probe": "minimal patch",
+  "verdicts": 684,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-RSPAN",
+  "check": "repeat:repeat_span",
+  "probe": "reference checker",
+  "verdicts": 910,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-VERB",
+  "check": "words:start_verb",
+  "probe": "replacement logic (APPROX)",
+  "verdicts": 1368,
+  "flips": 549,
+  "share_of_check": 0.40131578947368424,
+  "share_of_all": 0.00699969400244798,
+  "pass_to_fail": 282,
+  "fail_to_pass": 267,
+  "agrees_with_replacement": 549,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "260",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "261",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy",
+    "key": "262",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "260",
+    "grader": true,
+    "patched": false
+   },
+   {
+    "run": "allenai__Llama-3.1-Tulu-3-8B__bi_greedy_shuffled",
+    "key": "261",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-WPOS",
+  "check": "words:words_position",
+  "probe": "reference checker",
+  "verdicts": 684,
+  "flips": 5,
+  "share_of_check": 0.007309941520467836,
+  "share_of_all": 6.374949000407997e-05,
+  "pass_to_fail": 0,
+  "fail_to_pass": 5,
+  "agrees_with_replacement": 5,
+  "probe_errors": 0,
+  "examples": [
+   {
+    "run": "Qwen__Qwen2.5-14B-Instruct__greedy",
+    "key": "14",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-32B__sample4",
+    "key": "16",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-8B__thinking__greedy",
+    "key": "14",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-8B__thinking__greedy_repeat",
+    "key": "14",
+    "grader": false,
+    "patched": true
+   },
+   {
+    "run": "Qwen__Qwen3-8B__thinking__greedy_shuffled",
+    "key": "14",
+    "grader": false,
+    "patched": true
+   }
+  ]
+ },
+ {
+  "finding": "F-MARKUP",
+  "check": "count:person_names",
+  "probe": "markup stripped",
+  "verdicts": 1368,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-MARKUP",
+  "check": "count:pronouns",
+  "probe": "markup stripped",
+  "verdicts": 1819,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ },
+ {
+  "finding": "F-MARKUP",
+  "check": "words:no_consecutive",
+  "probe": "markup stripped",
+  "verdicts": 1820,
+  "flips": 0,
+  "share_of_check": 0.0,
+  "share_of_all": 0.0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "agrees_with_replacement": 0,
+  "probe_errors": 0,
+  "examples": []
+ }
+]

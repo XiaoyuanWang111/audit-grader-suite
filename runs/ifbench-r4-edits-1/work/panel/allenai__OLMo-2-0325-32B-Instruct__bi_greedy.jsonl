@@ -1,0 +1,300 @@
+{"key": "0", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:keywords_multiple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "1", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:keywords_multiple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "2", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:keywords_multiple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-count-exact=atleast": true}}]}
+{"key": "3", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:keywords_multiple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "4", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:keywords_multiple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-count-exact=atleast": true}}]}
+{"key": "5", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:conjunctions", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "6", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:conjunctions", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "7", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:conjunctions", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "8", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:conjunctions", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "9", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:conjunctions", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false}]}
+{"key": "10", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:keywords_specific_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "11", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:keywords_specific_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "12", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:keywords_specific_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "13", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:keywords_specific_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "14", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:words_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "15", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:words_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "16", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:words_position", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "17", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-number=digits+words": false}}]}
+{"key": "18", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "19", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "20", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "21", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "22", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-number=digits+words": false}}, {"check": "count:conjunctions", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "23", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-number=digits+words": false}}, {"check": "count:conjunctions", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "24", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:numbers", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "25", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:person_names", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "26", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:person_names", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "27", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:person_names", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "28", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:person_names", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "29", "truncated": true, "extraction_failure": false, "checks": [{"check": "count:person_names", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "30", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "31", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "32", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "33", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "34", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "35", "truncated": true, "extraction_failure": false, "checks": [{"check": "count:punctuation", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "36", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:punctuation", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-punct-set=grader6": true}}]}
+{"key": "37", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:punctuation", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "38", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:punctuation", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-punct-set=short": true, "D-punct-set=grader6": true}}]}
+{"key": "39", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:punctuation", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-punct-set=short": true, "D-punct-set=grader6": true}}]}
+{"key": "40", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:punctuation", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "41", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:word_count_range", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "42", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:word_count_range", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "43", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:word_count_range", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-between=exclusive": false}}]}
+{"key": "44", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:word_count_range", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "45", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:word_count_range", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "46", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:word_count_range", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "format:list", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "47", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:words_japanese", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "48", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:words_japanese", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "49", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:words_japanese", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "50", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:words_japanese", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "51", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:words_japanese", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "52", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "53", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "54", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "55", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "56", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "57", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "58", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "59", "truncated": false, "extraction_failure": false, "checks": [{"check": "count:unique_word_count", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "60", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_change", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "61", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_change", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "62", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_change", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "63", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_simple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "64", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_simple", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "65", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-sentence=punct": false}}]}
+{"key": "66", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-sentence=punct": false, "D-emoji-position=last": false}}]}
+{"key": "67", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "68", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "69", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "70", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-sentence=punct": false}}]}
+{"key": "71", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-sentence=punct": false}}, {"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "72", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:emoji", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-sentence=punct": false}}, {"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "73", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "74", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "75", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-indent-step=constant": false}}]}
+{"key": "76", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-indent-step=constant": false}}]}
+{"key": "77", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "78", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "79", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "80", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "81", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:line_indent", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "82", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-list-sep=prefix": false}}]}
+{"key": "83", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "84", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "85", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-list-sep=prefix": false}}]}
+{"key": "86", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "87", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "88", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-list-sep=prefix": false}}, {"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "89", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-list-sep=prefix": false}}, {"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "90", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:newline", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "91", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:newline", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "92", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:newline", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "93", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:newline", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "94", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:newline", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "95", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_bullets_bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "96", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_bullets_bullets", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "97", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_bullets_bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "98", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_bullets_bullets", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "99", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_bullets_bullets", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "100", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:options", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "101", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:options", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-options-text=exact": false}}]}
+{"key": "102", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:options", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "103", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:options", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "104", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:options", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "105", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:options", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "format:newline", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "106", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false}]}
+{"key": "107", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "108", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false}]}
+{"key": "109", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "110", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "111", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "112", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:parentheses", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "113", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quote_unquote", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "114", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quote_unquote", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "115", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quote_unquote", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "116", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quote_unquote", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "117", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quote_unquote", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "118", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "119", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "120", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "121", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "122", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "123", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "124", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-quotes-start=double": false}}]}
+{"key": "125", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "format:emoji", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "126", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "127", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": false, "gl": true, "rs": false, "rl": true, "rep": true}]}
+{"key": "128", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "129", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": false, "gl": true, "rs": false, "rl": true, "rep": true}]}
+{"key": "130", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "131", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "132", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": false, "gl": true, "rs": false, "rl": true, "rep": true}]}
+{"key": "133", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "ratio:stop_words", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "134", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "ratio:stop_words", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "135", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-plural=two": false}}, {"check": "ratio:stop_words", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "136", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "ratio:stop_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "137", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:sub-bullets", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-subbullet-indent=yes": false}}, {"check": "ratio:stop_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-word=whitespace": true}}]}
+{"key": "138", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-section=whole": true}}]}
+{"key": "139", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "140", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-section=whole": true}}]}
+{"key": "141", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-section=whole": true}}]}
+{"key": "142", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-section=whole": true}}]}
+{"key": "143", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-section=whole": true}}, {"check": "count:word_count_range", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "144", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "145", "truncated": true, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "146", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "147", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "148", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "149", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "150", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "151", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "152", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "153", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "154", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": false, "gl": false, "rs": false, "rl": false, "rep": true, "alts": {"D-sentence=punct": false}}]}
+{"key": "155", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "156", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "157", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "158", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "159", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_balance", "gs": false, "gl": false, "rs": false, "rl": false, "rep": true, "alts": {"D-sentence=punct": false, "D-balanced=equal": false, "D-sentence-type=exclude": false}}, {"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "160", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_type", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "161", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_type", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "162", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_type", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "163", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_type", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false}]}
+{"key": "164", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_type", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "165", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_type", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "166", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "167", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "168", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "169", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "170", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:sentence_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "171", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "172", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "173", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "174", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "175", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "176", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "177", "truncated": false, "extraction_failure": false, "checks": [{"check": "ratio:stop_words", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "178", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:alliteration_increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "179", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:alliteration_increment", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "180", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:alliteration_increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "181", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:alliteration_increment", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "182", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:alliteration_increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "183", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "184", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "185", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "186", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "187", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "188", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "189", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "190", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:increment", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "format:thesis", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-section=whole": true}}]}
+{"key": "191", "truncated": true, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "192", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "193", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "194", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "195", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "196", "truncated": true, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "count:word_count_range", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "197", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "count:word_count_range", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "198", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "count:word_count_range", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "199", "truncated": false, "extraction_failure": false, "checks": [{"check": "sentence:keyword", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "count:word_count_range", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "200", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:alphabet", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "201", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:alphabet", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "202", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:alphabet", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "203", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:alphabet", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "204", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:alphabet", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "205", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:alphabet", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "format:parentheses", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "206", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "207", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "208", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "209", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "210", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "211", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "212", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "213", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "ratio:overlap", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "214", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "ratio:overlap", "gs": true, "gl": true, "rs": false, "rl": false, "rep": false, "alts": {"D-overlap-def=char": true}}]}
+{"key": "215", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "216", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "217", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}, {"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "218", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:consonants", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "219", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "220", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:last_first", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "221", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:last_first", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "222", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "223", "truncated": true, "extraction_failure": false, "checks": [{"check": "words:last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "224", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "225", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "226", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "227", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "228", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:no_consecutive", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "229", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "230", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "231", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "232", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "233", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:odd_even_syllables", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "234", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "235", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "236", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-palindrome-distinct=occurrences": true}}]}
+{"key": "237", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "238", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "239", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-palindrome-distinct=occurrences": true}}]}
+{"key": "240", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:palindrome", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-palindrome-distinct=occurrences": true}}]}
+{"key": "241", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:paragraph_last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "242", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:paragraph_last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "243", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:paragraph_last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "244", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:paragraph_last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "245", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:paragraph_last_first", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "246", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:paragraph_last_first", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "247", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:prime_lengths", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "248", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:prime_lengths", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "249", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:prime_lengths", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "250", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:prime_lengths", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "251", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:prime_lengths", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "252", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:repeats", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "253", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:repeats", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "254", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:repeats", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-repeats-count=repeats": true}}]}
+{"key": "255", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:repeats", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "256", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:repeats", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "257", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:start_verb", "gs": false, "gl": false, "rs": false, "rl": false, "rep": true}]}
+{"key": "258", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:start_verb", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "259", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:start_verb", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-verb-context=can-be": true}}]}
+{"key": "260", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:start_verb", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "261", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:start_verb", "gs": false, "gl": false, "rs": false, "rl": false, "rep": true}]}
+{"key": "262", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:start_verb", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false, "alts": {"D-verb-context=can-be": true}}, {"check": "count:person_names", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "263", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "264", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "265", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "266", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "267", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-vowel-scope=word": true}}]}
+{"key": "268", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "269", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-vowel-scope=word": true}}]}
+{"key": "270", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-word=whitespace": false}}]}
+{"key": "271", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}, {"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "272", "truncated": false, "extraction_failure": false, "checks": [{"check": "words:vowel", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false, "alts": {"D-vowel-scope=word": true}}, {"check": "count:pronouns", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "273", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:character_reverse", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "274", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:csv_city", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-csv-rows=lines": false}}]}
+{"key": "275", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:csv_quotes", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "276", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:csv_special_character", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "277", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:date_format_list", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "278", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:european_capitals_sort", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "279", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:mcq_count_length", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "280", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:multiples", "gs": false, "gl": true, "rs": false, "rl": true, "rep": false}]}
+{"key": "281", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:reverse_newline", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "282", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:sentence_alphabet", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "283", "truncated": false, "extraction_failure": false, "checks": [{"check": "custom:word_reverse", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "284", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_span", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "285", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_span", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "286", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_span", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "287", "truncated": false, "extraction_failure": false, "checks": [{"check": "repeat:repeat_span", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}
+{"key": "288", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:title_case", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-title-minor=lower": false}}]}
+{"key": "289", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:title_case", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-title-minor=lower": false}}]}
+{"key": "290", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:title_case", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-title-minor=lower": false}}]}
+{"key": "291", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:title_case", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true, "alts": {"D-title-minor=lower": false}}]}
+{"key": "292", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:output_template", "gs": true, "gl": true, "rs": true, "rl": true, "rep": false}]}
+{"key": "293", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:output_template", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "294", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:output_template", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "295", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:output_template", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "296", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_whitespace", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "297", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_whitespace", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "298", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_whitespace", "gs": true, "gl": true, "rs": true, "rl": true, "rep": true}]}
+{"key": "299", "truncated": false, "extraction_failure": false, "checks": [{"check": "format:no_whitespace", "gs": false, "gl": false, "rs": false, "rl": false, "rep": false}]}

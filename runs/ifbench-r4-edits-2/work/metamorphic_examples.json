@@ -1,0 +1,302 @@
+{
+ "ignored|list_label_first_line|count:words_japanese|grader_strict": [
+  "fixture:count:words_japanese:f4a561b288",
+  "I like 寿司 very much 本当に",
+  "- I like 寿司 very much 本当に"
+ ],
+ "ignored|list_label_first_line|count:words_japanese|reference_strict": [
+  "fixture:count:words_japanese:f4a561b288",
+  "I like 寿司 very much 本当に",
+  "- I like 寿司 very much 本当に"
+ ],
+ "ignored|typographic|custom:csv_quotes|grader_strict": [
+  "fixture:custom:csv_quotes:c3f101aa1f",
+  "\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"1\"\t\"Math\"\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Spring\"\t\"88\"\n\"3\"\t\"Music\"\t\"A\"\t\"Fall\"\t\"91\"",
+  "“StudentID”\t“Subject”\t“Grade”\t“Semester”\t“Score”\n“1”\t“Math”\t“A”\t“Fall”\t“95”\n“2”\t“Art”\t“B”\t“Spring”\t“88”\n“3”\t“Music”\t“A”\t“Fall”\t“91”"
+ ],
+ "ignored|typographic|custom:csv_quotes|reference_strict": [
+  "fixture:custom:csv_quotes:c3f101aa1f",
+  "\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"1\"\t\"Math\"\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Spring\"\t\"88\"\n\"3\"\t\"Music\"\t\"A\"\t\"Fall\"\t\"91\"",
+  "“StudentID”\t“Subject”\t“Grade”\t“Semester”\t“Score”\n“1”\t“Math”\t“A”\t“Fall”\t“95”\n“2”\t“Art”\t“B”\t“Spring”\t“88”\n“3”\t“Music”\t“A”\t“Fall”\t“91”"
+ ],
+ "ignored|typographic|custom:csv_special_character|grader_strict": [
+  "fixture:custom:csv_special_character:7162d53d64",
+  "ProductID,Category,Brand,Price,Stock\n1,\"Tools & Hardware\",Acme,11.99,3\n2,Tools,Acme,12.99,6\n3,Tools,Acme,13.99,9\n4,Tools,Acme,14.99,12\n5,Tools,Acme,15.99,15\n6,Tools,Acme,16.99,18\n7,Tools,Acme,17.99,21",
+  "ProductID,Category,Brand,Price,Stock\n1,“Tools & Hardware”,Acme,11.99,3\n2,Tools,Acme,12.99,6\n3,Tools,Acme,13.99,9\n4,Tools,Acme,14.99,12\n5,Tools,Acme,15.99,15\n6,Tools,Acme,16.99,18\n7,Tools,Acme,17.99,21"
+ ],
+ "ignored|typographic|custom:csv_special_character|reference_strict": [
+  "fixture:custom:csv_special_character:7162d53d64",
+  "ProductID,Category,Brand,Price,Stock\n1,\"Tools & Hardware\",Acme,11.99,3\n2,Tools,Acme,12.99,6\n3,Tools,Acme,13.99,9\n4,Tools,Acme,14.99,12\n5,Tools,Acme,15.99,15\n6,Tools,Acme,16.99,18\n7,Tools,Acme,17.99,21",
+  "ProductID,Category,Brand,Price,Stock\n1,“Tools & Hardware”,Acme,11.99,3\n2,Tools,Acme,12.99,6\n3,Tools,Acme,13.99,9\n4,Tools,Acme,14.99,12\n5,Tools,Acme,15.99,15\n6,Tools,Acme,16.99,18\n7,Tools,Acme,17.99,21"
+ ],
+ "ignored|blank_line|format:line_indent|grader_strict": [
+  "fixture:format:line_indent:55c666c01a",
+  "Step one\n\n  Step two\n\n    Step three",
+  "Step one\n\n\n  Step two\n\n    Step three"
+ ],
+ "ignored|blank_line|format:line_indent|reference_strict": [
+  "fixture:format:line_indent:55c666c01a",
+  "Step one\n\n  Step two\n\n    Step three",
+  "Step one\n\n\n  Step two\n\n    Step three"
+ ],
+ "forbidden|f_join_lines|format:newline|grader_strict": [
+  "fixture:format:newline:b47ee0deac",
+  "Hello\n\n-\nworld",
+  "Hello -\nworld"
+ ],
+ "forbidden|f_join_lines|format:newline|reference_strict": [
+  "fixture:format:newline:b47ee0deac",
+  "Hello\n\n-\nworld",
+  "Hello -\nworld"
+ ],
+ "forbidden|f_join_lines|format:newline|replacement": [
+  "fixture:format:newline:b47ee0deac",
+  "Hello\n\n-\nworld",
+  "Hello -\nworld"
+ ],
+ "ignored|trailing_newline|format:no_bullets_bullets|grader_strict": [
+  "fixture:format:no_bullets_bullets:63e6cc21e5",
+  "This is first. This is second.\n* one\n* two",
+  "This is first. This is second.\n* one\n* two\n"
+ ],
+ "ignored|trailing_newline|format:no_bullets_bullets|reference_strict": [
+  "fixture:format:no_bullets_bullets:63e6cc21e5",
+  "This is first. This is second.\n* one\n* two",
+  "This is first. This is second.\n* one\n* two\n"
+ ],
+ "ignored|trailing_newline|format:no_whitespace|grader_strict": [
+  "fixture:format:no_whitespace:4f04a125b4",
+  "Yes,allsetsareclasses.",
+  "Yes,allsetsareclasses.\n"
+ ],
+ "ignored|trailing_newline|format:no_whitespace|reference_strict": [
+  "fixture:format:no_whitespace:4f04a125b4",
+  "Yes,allsetsareclasses.",
+  "Yes,allsetsareclasses.\n"
+ ],
+ "ignored|trailing_newline|format:no_whitespace|replacement": [
+  "fixture:format:no_whitespace:e1335b1e98",
+  "Yes,allsets.\n",
+  "Yes,allsets.\n\n"
+ ],
+ "ignored|trailing_newline|format:options|grader_strict": [
+  "fixture:format:options:c9fbd41dd8",
+  "yes",
+  "yes\n"
+ ],
+ "ignored|trailing_newline|format:options|reference_strict": [
+  "fixture:format:options:c9fbd41dd8",
+  "yes",
+  "yes\n"
+ ],
+ "ignored|typographic|format:options|grader_strict": [
+  "fixture:format:options:efe59b6f66",
+  "I don't know",
+  "I don’t know"
+ ],
+ "ignored|typographic|format:options|reference_strict": [
+  "fixture:format:options:efe59b6f66",
+  "I don't know",
+  "I don’t know"
+ ],
+ "ignored|typographic|format:quotes|grader_strict": [
+  "fixture:format:quotes:b3e1578243",
+  "He said, \"She told me, 'They shouted \"run\" loudly' yesterday\" today.",
+  "He said, “She told me, ‘They shouted ”run“ loudly’ yesterday” today."
+ ],
+ "ignored|typographic|format:quotes|reference_strict": [
+  "fixture:format:quotes:b3e1578243",
+  "He said, \"She told me, 'They shouted \"run\" loudly' yesterday\" today.",
+  "He said, “She told me, ‘They shouted ”run“ loudly’ yesterday” today."
+ ],
+ "ignored|trailing_newline|ratio:overlap|grader_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "the quick brown fox jumps over the lazy dog\n"
+ ],
+ "ignored|bold_inner_word|ratio:overlap|grader_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "the quick brown fox jumps **over** the lazy dog"
+ ],
+ "ignored|bold_inner_word|ratio:overlap|reference_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "the quick brown fox jumps **over** the lazy dog"
+ ],
+ "ignored|list_label_first_line|ratio:overlap|grader_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "- the quick brown fox jumps over the lazy dog"
+ ],
+ "ignored|list_label_first_line|ratio:overlap|reference_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "- the quick brown fox jumps over the lazy dog"
+ ],
+ "ignored|comma_after_word|ratio:overlap|grader_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "the quick brown fox jumps over the lazy, dog"
+ ],
+ "ignored|comma_after_word|ratio:overlap|reference_strict": [
+  "fixture:ratio:overlap:913720c84d",
+  "the quick brown fox jumps over the lazy dog",
+  "the quick brown fox jumps over the lazy, dog"
+ ],
+ "ignored|list_label_first_line|words:consonants|grader_strict": [
+  "fixture:words:consonants:f773f16f7b",
+  "Strong black cats crept.",
+  "- Strong black cats crept."
+ ],
+ "ignored|list_label_first_line|words:consonants|reference_strict": [
+  "fixture:words:consonants:f773f16f7b",
+  "Strong black cats crept.",
+  "- Strong black cats crept."
+ ],
+ "ignored|typographic|words:prime_lengths|grader_strict": [
+  "fixture:words:prime_lengths:9380874c82",
+  "It's an old oak.",
+  "It’s an old oak."
+ ],
+ "ignored|typographic|words:prime_lengths|reference_strict": [
+  "fixture:words:prime_lengths:9380874c82",
+  "It's an old oak.",
+  "It’s an old oak."
+ ],
+ "ignored|list_label_first_line|words:words_position|grader_strict": [
+  "fixture:words:words_position:d0000bc2b4",
+  "A vibrant scene unfolds with vibrant colors.",
+  "- A vibrant scene unfolds with vibrant colors."
+ ],
+ "ignored|bold_inner_word|words:start_verb|grader_strict": [
+  "fixture:words:start_verb:370fce8be3",
+  "Explain the theory.",
+  "Explain **the** theory."
+ ],
+ "ignored|bold_inner_word|words:start_verb|reference_strict": [
+  "fixture:words:start_verb:370fce8be3",
+  "Explain the theory.",
+  "Explain **the** theory."
+ ],
+ "ignored|list_label_first_line|words:start_verb|grader_strict": [
+  "fixture:words:start_verb:370fce8be3",
+  "Explain the theory.",
+  "- Explain the theory."
+ ],
+ "ignored|list_label_first_line|words:start_verb|reference_strict": [
+  "fixture:words:start_verb:370fce8be3",
+  "Explain the theory.",
+  "- Explain the theory."
+ ],
+ "ignored|typographic|count:conjunctions|grader_strict": [
+  "panel:Qwen__Qwen2.5-32B-Instruct/greedy/5",
+  "To address the problem presented, we will proceed step by step, starting with the classical energy expression and moving towards the quantum mechanical formulation.\n\n(a) The classical energy of a part",
+  "To address the problem presented, we will proceed step by step, starting with the classical energy expression and moving towards the quantum mechanical formulation.\n\n(a) The classical energy of a part"
+ ],
+ "ignored|typographic|count:conjunctions|reference_strict": [
+  "panel:Qwen__Qwen2.5-32B-Instruct/greedy/5",
+  "To address the problem presented, we will proceed step by step, starting with the classical energy expression and moving towards the quantum mechanical formulation.\n\n(a) The classical energy of a part",
+  "To address the problem presented, we will proceed step by step, starting with the classical energy expression and moving towards the quantum mechanical formulation.\n\n(a) The classical energy of a part"
+ ],
+ "ignored|list_label_first_line|format:emoji|replacement": [
+  "panel:Qwen__Qwen3-8B/greedy/69",
+  "1. A Palestinian mother, her face lined with the stories of her people, stands like a strong tree with deep roots in the soil, symbolizing her unshakable love and resilience. 🌳💖  \n\n2. An old Palestini",
+  "- 1. A Palestinian mother, her face lined with the stories of her people, stands like a strong tree with deep roots in the soil, symbolizing her unshakable love and resilience. 🌳💖  \n\n2. An old Palesti"
+ ],
+ "ignored|list_label_first_line|sentence:keyword|replacement": [
+  "panel:Qwen__Qwen3-8B__thinking/greedy/192",
+  "1. Start by giving her a compelling backstory that explains her edginess, such as trauma, loss, or a unique worldview.  \n2. Balance her difficult traits with relatable flaws—maybe she’s stubborn but f",
+  "- 1. Start by giving her a compelling backstory that explains her edginess, such as trauma, loss, or a unique worldview.  \n2. Balance her difficult traits with relatable flaws—maybe she’s stubborn but"
+ ],
+ "ignored|list_label_first_line|format:newline|replacement": [
+  "panel:marin-community__marin-8b-instruct/greedy/91",
+  "1. Juliana\n2. Silvermist\n3. Shadowveil\n4. Starwhisper\n5. Moonsong\n6. Emberheart\n7. Frostshadow\n8. Thundertop\n9. Nightshade\n10. Ironwill\n11. Ravenclaw\n12. Wraithwind\n13. Emberflame\n14. Frostbite\n15. Th",
+  "- 1. Juliana\n2. Silvermist\n3. Shadowveil\n4. Starwhisper\n5. Moonsong\n6. Emberheart\n7. Frostshadow\n8. Thundertop\n9. Nightshade\n10. Ironwill\n11. Ravenclaw\n12. Wraithwind\n13. Emberflame\n14. Frostbite\n15. "
+ ],
+ "ignored|blank_line|format:quote_unquote|replacement": [
+  "panel:allenai__OLMo-2-0325-32B-Instruct/greedy/114",
+  "\"Those who end up here\"\nThose: 3PL.NOM - third person plural nominative\n\"who end up here\"\nwho: REL - relative pronoun\nend: VERB - verb, infinitive\nup: ADV - adverb, part of phrasal verb\nhere: ADV - ad",
+  "\"Those who end up here\"\n\nThose: 3PL.NOM - third person plural nominative\n\"who end up here\"\nwho: REL - relative pronoun\nend: VERB - verb, infinitive\nup: ADV - adverb, part of phrasal verb\nhere: ADV - a"
+ ],
+ "ignored|list_label_first_line|words:last_first|replacement": [
+  "panel:Qwen__Qwen3-8B__thinking/greedy/223",
+  "1. $100 covers the costs of growing five rainforest trees from seeds to maturity, ensuring their survival in a rehabilitated rainforest, which provides a lasting legacy of a thriving ecosystem for fut",
+  "- 1. $100 covers the costs of growing five rainforest trees from seeds to maturity, ensuring their survival in a rehabilitated rainforest, which provides a lasting legacy of a thriving ecosystem for f"
+ ],
+ "ignored|comma_after_word|words:last_first|grader_strict": [
+  "panel:allenai__OLMo-2-0325-32B-Instruct/greedy/220",
+  "Rogue gas giants could have frozen clouds of corundum. Corundum clouds might form under specific conditions. Conditions like extreme cold and high pressure. Pressure from the planet's mass. Mass that ",
+  "Rogue gas giants could have frozen clouds of corundum. Corundum clouds might form under specific conditions. Conditions like extreme cold and high pressure. Pressure from the planet's mass. Mass that "
+ ],
+ "ignored|comma_after_word|words:last_first|reference_strict": [
+  "panel:allenai__OLMo-2-0325-32B-Instruct/greedy/220",
+  "Rogue gas giants could have frozen clouds of corundum. Corundum clouds might form under specific conditions. Conditions like extreme cold and high pressure. Pressure from the planet's mass. Mass that ",
+  "Rogue gas giants could have frozen clouds of corundum. Corundum clouds might form under specific conditions. Conditions like extreme cold and high pressure. Pressure from the planet's mass. Mass that "
+ ],
+ "ignored|typographic|custom:csv_city|grader_strict": [
+  "panel:Qwen__Qwen3-8B__thinking/greedy/274",
+  "\"ID\",\"Country\",\"City\",\"Year\",\"Count\"\n\"1\",\"USA\",\"New York\",\"2015\",\"450\"\n\"2\",\"Canada\",\"Toronto\",\"2018\",\"670\"\n\"3\",\"UK\",\"London\",\"2016\",\"320\"\n\"4\",\"Germany\",\"Berlin\",\"2019\",\"780\"\n\"5\",\"France\",\"Paris\",\"2017",
+  "“ID”,“Country”,“City”,“Year”,“Count”\n“1”,“USA”,“New York”,“2015”,“450”\n“2”,“Canada”,“Toronto”,“2018”,“670”\n“3”,“UK”,“London”,“2016”,“320”\n“4”,“Germany”,“Berlin”,“2019”,“780”\n“5”,“France”,“Paris”,“2017"
+ ],
+ "ignored|typographic|custom:csv_city|reference_strict": [
+  "panel:Qwen__Qwen3-8B__thinking/greedy/274",
+  "\"ID\",\"Country\",\"City\",\"Year\",\"Count\"\n\"1\",\"USA\",\"New York\",\"2015\",\"450\"\n\"2\",\"Canada\",\"Toronto\",\"2018\",\"670\"\n\"3\",\"UK\",\"London\",\"2016\",\"320\"\n\"4\",\"Germany\",\"Berlin\",\"2019\",\"780\"\n\"5\",\"France\",\"Paris\",\"2017",
+  "“ID”,“Country”,“City”,“Year”,“Count”\n“1”,“USA”,“New York”,“2015”,“450”\n“2”,“Canada”,“Toronto”,“2018”,“670”\n“3”,“UK”,“London”,“2016”,“320”\n“4”,“Germany”,“Berlin”,“2019”,“780”\n“5”,“France”,“Paris”,“2017"
+ ],
+ "ignored|bold_inner_word|format:title_case|grader_strict": [
+  "panel:Qwen__Qwen2.5-32B-Instruct/greedy/291",
+  "Liberalism, Conservatism, Economic Liberalism, Fiscal Conservatism, Pro-business Stance, Support For Constitutional Reform, Nationalism",
+  "Liberalism, Conservatism, Economic Liberalism, Fiscal Conservatism, Pro-**business** Stance, Support For Constitutional Reform, Nationalism"
+ ],
+ "ignored|bold_inner_word|format:title_case|reference_strict": [
+  "panel:Qwen__Qwen2.5-32B-Instruct/greedy/291",
+  "Liberalism, Conservatism, Economic Liberalism, Fiscal Conservatism, Pro-business Stance, Support For Constitutional Reform, Nationalism",
+  "Liberalism, Conservatism, Economic Liberalism, Fiscal Conservatism, Pro-**business** Stance, Support For Constitutional Reform, Nationalism"
+ ],
+ "ignored|typographic|format:title_case|grader_strict": [
+  "panel:Qwen__Qwen2.5-14B-Instruct/greedy/290",
+  "The Elderly Man Receives The World Record For Oldest Human To Ever Live\n\nIn The Grand Hall Of The Guinness World Records, An Aged Man, Wrinkled And Wise, Stands Before A Crowd Of Spectators And Journa",
+  "The Elderly Man Receives The World Record For Oldest Human To Ever Live\n\nIn The Grand Hall Of The Guinness World Records, An Aged Man, Wrinkled And Wise, Stands Before A Crowd Of Spectators And Journa"
+ ],
+ "ignored|typographic|format:title_case|reference_strict": [
+  "panel:Qwen__Qwen2.5-14B-Instruct/greedy/290",
+  "The Elderly Man Receives The World Record For Oldest Human To Ever Live\n\nIn The Grand Hall Of The Guinness World Records, An Aged Man, Wrinkled And Wise, Stands Before A Crowd Of Spectators And Journa",
+  "The Elderly Man Receives The World Record For Oldest Human To Ever Live\n\nIn The Grand Hall Of The Guinness World Records, An Aged Man, Wrinkled And Wise, Stands Before A Crowd Of Spectators And Journa"
+ ],
+ "forbidden|f_lower_major|format:title_case|grader_strict": [
+  "panel:Qwen__Qwen3-32B/greedy/288",
+  "The Post-Apocalyptic Landscape Of Modern-Day Ohio, In The Aftermath Of World War 3, Has Given Rise To A Diverse Array Of Factions, Each Shaped By The Region's Industrial Heritage, Rural Resilience, An",
+  "The Post-apocalyptic Landscape Of Modern-Day Ohio, In The Aftermath Of World War 3, Has Given Rise To A Diverse Array Of Factions, Each Shaped By The Region's Industrial Heritage, Rural Resilience, An"
+ ],
+ "forbidden|f_lower_major|format:title_case|reference_strict": [
+  "panel:Qwen__Qwen3-32B/greedy/288",
+  "The Post-Apocalyptic Landscape Of Modern-Day Ohio, In The Aftermath Of World War 3, Has Given Rise To A Diverse Array Of Factions, Each Shaped By The Region's Industrial Heritage, Rural Resilience, An",
+  "The Post-apocalyptic Landscape Of Modern-Day Ohio, In The Aftermath Of World War 3, Has Given Rise To A Diverse Array Of Factions, Each Shaped By The Region's Industrial Heritage, Rural Resilience, An"
+ ],
+ "forbidden|f_lower_major|format:title_case|replacement": [
+  "panel:Qwen__Qwen3-32B/greedy/288",
+  "The Post-Apocalyptic Landscape Of Modern-Day Ohio, In The Aftermath Of World War 3, Has Given Rise To A Diverse Array Of Factions, Each Shaped By The Region's Industrial Heritage, Rural Resilience, An",
+  "The Post-apocalyptic Landscape Of Modern-Day Ohio, In The Aftermath Of World War 3, Has Given Rise To A Diverse Array Of Factions, Each Shaped By The Region's Industrial Heritage, Rural Resilience, An"
+ ],
+ "ignored|blank_line|format:no_bullets_bullets|grader_strict": [
+  "panel:Qwen__Qwen3-8B/greedy/98",
+  "The deistic view of God, which sees Him as a distant creator who does not intervene in the universe, fails to account for the moral and spiritual dimensions of human existence. This perspective neglec",
+  "The deistic view of God, which sees Him as a distant creator who does not intervene in the universe, fails to account for the moral and spiritual dimensions of human existence. This perspective neglec"
+ ],
+ "ignored|blank_line|format:no_bullets_bullets|reference_strict": [
+  "panel:Qwen__Qwen3-8B/greedy/98",
+  "The deistic view of God, which sees Him as a distant creator who does not intervene in the universe, fails to account for the moral and spiritual dimensions of human existence. This perspective neglec",
+  "The deistic view of God, which sees Him as a distant creator who does not intervene in the universe, fails to account for the moral and spiritual dimensions of human existence. This perspective neglec"
+ ],
+ "ignored|typographic|custom:sentence_alphabet|reference_strict": [
+  "panel:mistralai__Mistral-Small-24B-Instruct-2501/greedy/282",
+  "**A**lways curious, Alex decided to explore the old attic. **B**eneath the dusty sheets, he found a hidden door. **C**autiously, he opened it, revealing a secret room. **D**imly lit, the room was fill",
+  "**A**lways curious, Alex decided to explore the old attic. **B**eneath the dusty sheets, he found a hidden door. **C**autiously, he opened it, revealing a secret room. **D**imly lit, the room was fill"
+ ],
+ "forbidden|f_second_word|words:words_position|replacement": [
+  "panel:Qwen__Qwen3-8B__thinking/greedy/14",
+  "1. Vibrant **vibrant**  \n2. Vibrant **vibrant**  \n3. Vibrant **vibrant**  \n4. Vibrant **vibrant**  \n5. Vibrant **vibrant**  \n6. Vibrant **vibrant**  \n7. Vibrant **vibrant**  \n8. Vibrant **vibrant**  \n",
+  "1. zzzq **vibrant**  \n2. Vibrant **vibrant**  \n3. Vibrant **vibrant**  \n4. Vibrant **vibrant**  \n5. Vibrant **vibrant**  \n6. Vibrant **vibrant**  \n7. Vibrant **vibrant**  \n8. Vibrant **vibrant**  \n9. "
+ ]
+}

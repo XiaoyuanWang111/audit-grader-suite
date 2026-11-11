@@ -1,0 +1,639 @@
+=== count:conjunctions (7 prompts)
+  key=5 ids=['count:conjunctions'] kwargs={"small_n": 5.0}
+  TAIL: ite the classical energy of this mass as a function of angular momentum, neglecting gravity, and assume that the quantum mechanical Hamiltonian comes from substituting the quantum angular momentum operator. What is the Hamiltonian operator? (b) Write Schrodinger equation in the position representation. The angle φ should figure prominently. (c) Find the energy eigenvalues and energy eigenfunctions in the position representation. Use at least 5 different coordinating conjunctions in the response.
+  key=6 ids=['count:conjunctions'] kwargs={"small_n": 2.0}
+  TAIL:  linguistic prowess, and maintaining a tone one would use in writing an important assessment: In the contemporary digital era, where information is the cornerstone of success for organizations, the implementation and adherence to security best practices, standards, and regulations not only protect the organization from cyber threats but also enhances its credibility, operational efficiency, and strategic decision-making process. Use at least 2 different coordinating conjunctions in the response.
+  key=7 ids=['count:conjunctions'] kwargs={"small_n": 3.0}
+  key=8 ids=['count:conjunctions'] kwargs={"small_n": 4.0}
+  key=9 ids=['count:conjunctions'] kwargs={"small_n": 4.0}
+  key=22 ids=['count:numbers', 'count:conjunctions'] kwargs={"small_n": 5.0}
+  TAIL: Include exactly 15 numbers in the response. Use at least 5 different coordinating conjunctions in the response. what is the meaning of life?
+  key=23 ids=['count:numbers', 'count:conjunctions'] kwargs={"small_n": 4.0}
+  TAIL: Include exactly 7 numbers in the response. Use at least 4 different coordinating conjunctions in the response. What is ideological colonization?
+
+=== count:keywords_multiple (5 prompts)
+  key=0 ids=['count:keywords_multiple'] kwargs={"keyword1": "kaleidoscope", "keyword2": "nebula", "keyword3": "whisper", "keyword4": "labyrinth", "keyword5": "paradox"}
+  TAIL: tions over truth and an equally evil resistance funded by the mega rich, along with a worldwide mafia and the sellout who support it, do with his life? Should be burn it all down and let flames consume the corruption? Hypothetical question, no judgement or bad here. Include keyword kaleidoscope once in your response, keyword nebula twice in your response, keyword whisper three times in your response, keyword labyrinth five times in your response, and keyword paradox seven times in your response.
+  key=1 ids=['count:keywords_multiple'] kwargs={"keyword1": "meridian", "keyword2": "gossamer", "keyword3": "eclipse", "keyword4": "threshold", "keyword5": "cascade"}
+  TAIL: What is the female equivalent to chivalry? Include keyword meridian once in your response, keyword gossamer twice in your response, keyword eclipse three times in your response, keyword threshold five times in your response, and keyword cascade seven times in your response.
+  key=2 ids=['count:keywords_multiple'] kwargs={"keyword1": "door", "keyword2": "bread", "keyword3": "blue", "keyword4": "lamp", "keyword5": "river"}
+  key=3 ids=['count:keywords_multiple'] kwargs={"keyword1": "cloud", "keyword2": "rhythm", "keyword3": "fish", "keyword4": "puzzle", "keyword5": "dawn"}
+  key=4 ids=['count:keywords_multiple'] kwargs={"keyword1": "quickly", "keyword2": "transform", "keyword3": "abundant", "keyword4": "bridge", "keyword5": "through"}
+
+=== count:numbers (8 prompts)
+  key=17 ids=['count:numbers'] kwargs={"N": 2.0}
+  TAIL: Is it plausible that frequent hardship can make a society more resilient? Include exactly 2 numbers in the response.
+  key=18 ids=['count:numbers'] kwargs={"N": 5.0}
+  TAIL: a vital role in the proper functioning of cells. Its intricate composition, consisting of phospholipids, proteins, cholesterol, and carbohydrates, enables it to perform various essential functions, including maintaining the cell's integrity, facilitating communication, and regulating the movement of substances. Understanding the structural components of the cell membrane and their respective functions is crucial for understanding cellular processes and their implications in biology and medicine.
+  key=19 ids=['count:numbers'] kwargs={"N": 13.0}
+  key=20 ids=['count:numbers'] kwargs={"N": 3.0}
+  key=21 ids=['count:numbers'] kwargs={"N": 5.0}
+  key=22 ids=['count:numbers', 'count:conjunctions'] kwargs={"N": 15.0}
+  TAIL: Include exactly 15 numbers in the response. Use at least 5 different coordinating conjunctions in the response. what is the meaning of life?
+  key=23 ids=['count:numbers', 'count:conjunctions'] kwargs={"N": 7.0}
+  TAIL: Include exactly 7 numbers in the response. Use at least 4 different coordinating conjunctions in the response. What is ideological colonization?
+  key=24 ids=['count:numbers', 'count:unique_word_count'] kwargs={"N": 36.0}
+  TAIL: Include exactly 36 numbers in the response. Use at least 36 unique words in the response. How can planners and urban designers create cities that are more conducive to good mental health and wellbeing?
+
+=== count:person_names (6 prompts)
+  key=25 ids=['count:person_names'] kwargs={"N": 10.0}
+  TAIL: he spirit frees. Mention at least 10 different person names in the response, from this list of person names: Emma, Liam, Sophia, Jackson, Olivia, Noah, Ava, Lucas, Isabella, Mason, Mia, Ethan, Charlotte, Alexander, Amelia, Benjamin, Harper, Leo, Zoe, Daniel, Chloe, Samuel, Lily, Matthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christopher, Penelope, Thomas, Nora, Andrew, Aria, Joseph, Claire, Ryan, Stella, Jonathan .
+  key=26 ids=['count:person_names'] kwargs={"N": 18.0}
+  TAIL: atthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christopher, Penelope, Thomas, Nora, Andrew, Aria, Joseph, Claire, Ryan, Stella, Jonathan . Describe a stop-motion animation for the following scene: An abandoned prison cell, a single beam of light illuminating the remnants of a hastily discarded meal, an eerily quiet scene reminiscent of Edward Hopper's 'Nighthawks', yet carrying the weight of a post-apocalyptic world
+  key=27 ids=['count:person_names'] kwargs={"N": 3.0}
+  key=28 ids=['count:person_names'] kwargs={"N": 14.0}
+  key=29 ids=['count:person_names'] kwargs={"N": 23.0}
+  key=262 ids=['words:start_verb', 'count:person_names'] kwargs={"N": 39.0}
+  TAIL: art with a verb. Mention at least 39 different person names in the response, from this list of person names: Emma, Liam, Sophia, Jackson, Olivia, Noah, Ava, Lucas, Isabella, Mason, Mia, Ethan, Charlotte, Alexander, Amelia, Benjamin, Harper, Leo, Zoe, Daniel, Chloe, Samuel, Lily, Matthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christopher, Penelope, Thomas, Nora, Andrew, Aria, Joseph, Claire, Ryan, Stella, Jonathan .
+
+=== count:pronouns (8 prompts)
+  key=30 ids=['count:pronouns'] kwargs={"N": 22.0}
+  TAIL: The response should include at least 22 pronouns. how does trade impact on the pharaoh powers
+  key=31 ids=['count:pronouns'] kwargs={"N": 39.0}
+  TAIL: Write a descriptive, fictional, imaginative screenplay of a medieval king turning his empire's aesthetic into a proto-vaporwave   The response should include at least 39 pronouns.
+  key=32 ids=['count:pronouns'] kwargs={"N": 7.0}
+  key=33 ids=['count:pronouns'] kwargs={"N": 5.0}
+  key=34 ids=['count:pronouns'] kwargs={"N": 13.0}
+  key=270 ids=['words:vowel', 'count:pronouns'] kwargs={"N": 12.0}
+  TAIL: Write a paragraph using words that contain only three types of vowels. The response should include at least 12 pronouns. write an astrological interpretation for black moon lilith conjunct venus in the 12th house of the natal chart, write a version in 140 words aprox, and give it a fitting title based on dnd character subclasses and more
+  key=271 ids=['words:vowel', 'count:pronouns'] kwargs={"N": 4.0}
+  TAIL: e file (edit: there's often some metadata used to identify the model.) Those vectors are the constant weights in a very large equation. The equation itself is actually not fixed. You can select from a variety of activation functions when you use a model, and each activation function will modify how those weights impact the result.  Task: Evaluation the above claim for accuracy. Write a paragraph using words that contain only three types of vowels. The response should include at least 4 pronouns.
+  key=272 ids=['words:vowel', 'count:pronouns'] kwargs={"N": 27.0}
+  TAIL: Considering canon, how and why would Genji and Bridgette fall in love? Write a paragraph using words that contain only three types of vowels. The response should include at least 27 pronouns.
+
+=== count:punctuation (6 prompts)
+  key=35 ids=['count:punctuation'] kwargs={}
+  TAIL: ns, and the interrobang (?!). Give me 20 ideas for an urban fantasy short story. Here are some elements that each idea should have. Output as a list item for every element.  - One (and only one) protagonist  - A clear dilemma  - A decision  - A climax  - An outcome  - A clever twist  - A clever worldbuilding feature  - The story should involve just a few scenes, ideally a single moment that is pivotal for the character, but doesn't require much exposition. It should immediately jump into action.
+  key=36 ids=['count:punctuation'] kwargs={}
+  TAIL:  a presentation. Be prepared to explain the design process and justify decisions while you present. Make sure to include the following items in your presentation:  Research a space law case and make sure to answer the following questions:  The span of dates involved.  The countries and companies involved.  The major influences on the decision.  Potential outcomes if space law did not exist. Use every standard punctuation mark at least once, including semicolons, colons, and the interrobang (?!).
+  key=37 ids=['count:punctuation'] kwargs={}
+  key=38 ids=['count:punctuation'] kwargs={}
+  key=39 ids=['count:punctuation'] kwargs={}
+  key=40 ids=['count:punctuation'] kwargs={}
+
+=== count:unique_word_count (9 prompts)
+  key=24 ids=['count:numbers', 'count:unique_word_count'] kwargs={"N": 36.0}
+  TAIL: Include exactly 36 numbers in the response. Use at least 36 unique words in the response. How can planners and urban designers create cities that are more conducive to good mental health and wellbeing?
+  key=52 ids=['count:unique_word_count'] kwargs={"N": 55.0}
+  TAIL: ray and represents a $d$-mode tensor $\mathcal{X} \in \mathbb{R}^{n_1 \times n_2 \times \ldots \times n_d}$ as a combination of rank-one tensors $[37]$. $$ \mathcal{X}=\sum_{r=1}^R \lambda_r \mathbf{a}_r^{(1)} \otimes \mathbf{a}_r^{(2)} \otimes \ldots \otimes \mathbf{a}_r^{(d)}, $$ where $R$ is a positive integer, $\lambda_r$ is the weight of the $r$ th rank-one tensor, $\mathbf{a}_r^{(i)} \in \mathbb{R}^{n_i}$ is the $r$ th factor of $i$ th mode with unit norm where $i \in[d]$ and $r \in[R]$. "
+  key=53 ids=['count:unique_word_count'] kwargs={"N": 55.0}
+  key=54 ids=['count:unique_word_count'] kwargs={"N": 85.0}
+  key=55 ids=['count:unique_word_count'] kwargs={"N": 135.0}
+  key=56 ids=['count:unique_word_count'] kwargs={"N": 65.0}
+  key=57 ids=['count:unique_word_count'] kwargs={"N": 160.0}
+  key=58 ids=['count:unique_word_count'] kwargs={"N": 128.0}
+  key=59 ids=['count:unique_word_count'] kwargs={"N": 170.0}
+
+=== count:word_count_range (11 prompts)
+  key=41 ids=['count:word_count_range'] kwargs={"max_words": 73.0, "min_words": 71.0}
+  TAIL: rent mode of governance. Rather than existing in tension, he theorizes that autocratic power and clemency are symbiotic - an autocrat must embrace the latter as the essential ethical foundation for the former's continued legitimacy and durability. This foundational relationship Seneca develops between autocracy and the virtue of merciful, restrained rule exerted profound influence on later Western political philosophy and theories of statecraft. The response must contain between 71 and 73 words.
+  key=42 ids=['count:word_count_range'] kwargs={"max_words": 61.0, "min_words": 57.0}
+  TAIL: I want to create a new cost function to calculate the similarity score of n number of set of features The response must contain between 57 and 61 words.
+  key=43 ids=['count:word_count_range'] kwargs={"max_words": 28.0, "min_words": 24.0}
+  key=44 ids=['count:word_count_range'] kwargs={"max_words": 99.0, "min_words": 77.0}
+  key=45 ids=['count:word_count_range'] kwargs={"max_words": 73.0, "min_words": 30.0}
+  key=46 ids=['count:word_count_range', 'format:list'] kwargs={"max_words": 100.0, "min_words": 90.0}
+  TAIL: I want to learn about KRAS g12c mutation, particularly as it relates to the development and treatment of colorectal cancer. Identify and share the most important 20% of learnings from this topic that will help me understand 80% of it. The response must contain between 90 and 100 words. Answer with a list of items, instead of bullet points use !?!?.
+  key=143 ids=['format:thesis', 'count:word_count_range'] kwargs={"max_words": 239.0, "min_words": 231.0}
+  TAIL: Each section must begin with a thesis statement in italics, use HTML to indicate the italics. The response must contain between 231 and 239 words. Political ideologies of the National Liberal Party
+  key=196 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"max_words": 478.0, "min_words": 443.0}
+  TAIL: The response must include keyword trichosis in the 22-th sentence. The response must contain between 443 and 478 words. Write a descriptive, fictional, imaginative screenplay of a jellyfish being pulled out of the water by a human and made to stare at the solar eclipse. The fish descends into a lovecraftian monologue about “horrors beyond it's comprehension” and has an existensial crisis
+  key=197 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"max_words": 99.0, "min_words": 89.0}
+  TAIL: The response must include keyword iritic in the 5-th sentence. The response must contain between 89 and 99 words. Any examples that existing research on fusion nuclear technologies has benefited the society
+  key=198 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"max_words": 93.0, "min_words": 81.0}
+  TAIL: The response must include keyword cactiform in the 4-th sentence. The response must contain between 81 and 93 words. talk about historical and political climate during the time nicolaus Copernicus founded his theory
+  key=199 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"max_words": 254.0, "min_words": 246.0}
+  TAIL: The response must include keyword betask in the 18-th sentence. The response must contain between 246 and 254 words. How can social media cultivate extremism
+
+=== count:words_japanese (5 prompts)
+  key=47 ids=['count:words_japanese'] kwargs={"N": 5.0}
+  TAIL: Every 5th word of your response must be in Japanese. rewrite: Focusing on Quality Assurance will allow us to align knowledge on what Quality Assurance is all about, and the responsibilities we all play a part in when embedding quality outcomes.
+  key=48 ids=['count:words_japanese'] kwargs={"N": 29.0}
+  TAIL: Write a descriptive, fictional, imaginative screenplay of Jesus's soul becoming the leader of the citizens of the "treachery" layer of hell in an alternate future after God presumably died, and the treacherous wanted salvation. Every 29th word of your response must be in Japanese.
+  key=49 ids=['count:words_japanese'] kwargs={"N": 17.0}
+  key=50 ids=['count:words_japanese'] kwargs={"N": 5.0}
+  key=51 ids=['count:words_japanese'] kwargs={"N": 25.0}
+
+=== custom:character_reverse (1 prompts)
+  key=273 ids=['custom:character_reverse'] kwargs={}
+  TAIL: What animal is the national symbol of the US? Respond to this query, but make your sentence in reverse order of what it should be, per letter.
+
+=== custom:csv_city (1 prompts)
+  key=274 ids=['custom:csv_city'] kwargs={}
+  TAIL: Generate CSV data: The column names are ["ID", "Country", "City", "Year", "Count"], the data should be comma delimited. Please generate 7 rows.
+
+=== custom:csv_quotes (1 prompts)
+  key=275 ids=['custom:csv_quotes'] kwargs={}
+  TAIL: Generate CSV data: The column names are ["StudentID", "Subject", "Grade", "Semester", "Score"], the data should be tab delimited. Please generate 3 rows and enclose each single field in double quotes.
+
+=== custom:csv_special_character (1 prompts)
+  key=276 ids=['custom:csv_special_character'] kwargs={}
+  TAIL: Generate CSV data: The column names are ["ProductID", "Category", "Brand", "Price", "Stock"], the data should be comma delimited. Please generate 14 rows. Add one field which contains a special character and enclose it in double quotes.
+
+=== custom:date_format_list (1 prompts)
+  key=277 ids=['custom:date_format_list'] kwargs={}
+  TAIL: List the start dates of all the battles Napoleon fought separated by commas, use the following date format: YYYY-MM-DD. Do not provide an explanation.
+
+=== custom:european_capitals_sort (1 prompts)
+  key=278 ids=['custom:european_capitals_sort'] kwargs={}
+  TAIL: Give me the names of all capital cities of european countries whose latitude is higher than than 45 degrees? List the capital cities without country names, separated by commas, sorted by latitude, from highest to lowest.
+
+=== custom:mcq_count_length (1 prompts)
+  key=279 ids=['custom:mcq_count_length'] kwargs={}
+  TAIL: Generate 4 multiple choice questions with 5 options each about "20th century art history". Each question should start with the label "Question". The questions should get progressively longer. Do not provide an explanation.
+
+=== custom:multiples (1 prompts)
+  key=280 ids=['custom:multiples'] kwargs={}
+  TAIL: Count from 10 to 50 but only print multiples of 7.
+
+=== custom:reverse_newline (1 prompts)
+  key=281 ids=['custom:reverse_newline'] kwargs={}
+  TAIL: List the countries of Africa in reverse alphabetical order, each on a new line.
+
+=== custom:sentence_alphabet (1 prompts)
+  key=282 ids=['custom:sentence_alphabet'] kwargs={}
+  TAIL: Tell me a 26-sentence story where each sentence's first word starts with the letters of the alphabet in order.
+
+=== custom:word_reverse (1 prompts)
+  key=283 ids=['custom:word_reverse'] kwargs={}
+  TAIL: What animal is the national symbol of the US? Respond to this query, but make your sentence in reverse order of what it should be, per word.
+
+=== format:emoji (9 prompts)
+  key=65 ids=['format:emoji'] kwargs={}
+  TAIL: crisis. No State, upon its own mere motion, can lawfully get out of the Union... acts of violence, within any State or States, against the authority of the United States, are ... revolutionary.. There needs to be no bloodshed or violence; and there shall be none, unless it be forced upon the national authority. ... We are not enemies, but friends. We must not be enemies. Though passion may have strained, it must not break our bonds of affection." Please use an emoji at the end of every sentence.
+  key=66 ids=['format:emoji'] kwargs={}
+  TAIL: SHORT IT "“Step into 'Chemical Concoctions: The Matter Mixers' and discover a world where alchemy binds the fabric of reality. Join Ada's quest for knowledge in a thrilling blend of magic, science, and adventure. A story of discovery that illuminates the alchemist within us all.” Please use an emoji at the end of every sentence.
+  key=67 ids=['format:emoji'] kwargs={}
+  key=68 ids=['format:emoji'] kwargs={}
+  key=69 ids=['format:emoji'] kwargs={}
+  key=70 ids=['format:emoji'] kwargs={}
+  key=71 ids=['format:emoji', 'sentence:keyword'] kwargs={}
+  TAIL: tassium aluminum sulfate plays a crucial role in extracting the beta carotene because of its chemical formula KAl(SO4)2·12H2O, indicating that it contains potassium (K+), aluminum (Al3+), sulfate (SO4^2-), and water molecules (H2O). These components collectively contribute to the properties and functions of alum, including its ability to extract and stabilize pigments from carrots. Please use an emoji at the end of every sentence. The response must include keyword fleetness in the 8-th sentence.
+  key=72 ids=['format:emoji', 'sentence:keyword'] kwargs={}
+  TAIL: make it better: I learned SQL and R programming languages in my master's degree which helped me get an understanding of the basics of programming. I intend to use the programming languages that I learned to enhance my understanding of Software Development by applying it in Java.   Please use an emoji at the end of every sentence. The response must include keyword eat in the 6-th sentence.
+  key=125 ids=['format:quotes', 'format:emoji'] kwargs={}
+  TAIL: estamp of the event), a threat hunter can detect potential malicious activity attempts or anomalies patterns over time. For instance, if there are multiple failed logon attempts from different source IPs (src) to a critical server (dhost) at unusual hours (analyzed via rt), this could indicate a coordinated brute-force attack." Include quotes within quotes within quotes, at least 3 levels deep, alternating between double quotes and single quotes. Please use an emoji at the end of every sentence.
+
+=== format:line_indent (9 prompts)
+  key=73 ids=['format:line_indent'] kwargs={}
+  TAIL: in SFM, how exactly can understanding body mechanics and physics influence timing in frames? Create stairs by incrementally indenting each new line.
+  key=74 ids=['format:line_indent'] kwargs={}
+  TAIL: Create stairs by incrementally indenting each new line. Describe technologies without being constrained by existing scientific principles
+  key=75 ids=['format:line_indent'] kwargs={}
+  key=76 ids=['format:line_indent'] kwargs={}
+  key=77 ids=['format:line_indent'] kwargs={}
+  key=78 ids=['format:line_indent'] kwargs={}
+  key=79 ids=['format:line_indent'] kwargs={}
+  key=80 ids=['format:line_indent', 'ratio:sentence_words'] kwargs={}
+  TAIL: Create stairs by incrementally indenting each new line. Respond with three sentences, all containing the same number of characters but using all different words. What if Arya could disguise others as herself?
+  key=81 ids=['format:line_indent', 'ratio:sentence_words'] kwargs={}
+  TAIL: Create stairs by incrementally indenting each new line. Respond with three sentences, all containing the same number of characters but using all different words. Write a descriptive, fictional, humorous, imaginative screenplay comparing the sky you see after reaching the summit the most arduous hike of your life and the summit outside some random gas station in the outskirts of the bad part of the city
+
+=== format:list (9 prompts)
+  key=46 ids=['count:word_count_range', 'format:list'] kwargs={"sep": "!?!?"}
+  TAIL: I want to learn about KRAS g12c mutation, particularly as it relates to the development and treatment of colorectal cancer. Identify and share the most important 20% of learnings from this topic that will help me understand 80% of it. The response must contain between 90 and 100 words. Answer with a list of items, instead of bullet points use !?!?.
+  key=82 ids=['format:list'] kwargs={"sep": "SEPARATOR"}
+  TAIL: Answer with a list of items, instead of bullet points use SEPARATOR. Consider an investor who will receive with certainty an income of $10,000 in each of two years. Assume that the only investment available is a savings account yielding 5%per year. In addition, the investor can borrow money at a 5% rate.How much should the investor save and how much should he or she consume each year?
+  key=83 ids=['format:list'] kwargs={"sep": "!?!?"}
+  key=84 ids=['format:list'] kwargs={"sep": "!?!?"}
+  key=85 ids=['format:list'] kwargs={"sep": "SEPARATOR"}
+  key=86 ids=['format:list'] kwargs={"sep": "-"}
+  key=87 ids=['format:list', 'words:no_consecutive'] kwargs={"sep": "-"}
+  TAIL:  powerful, with a dark past but loyal to his people and cause, not afraid to get his hands dirty or do something underhanded to reach his ends. He is based on bits and pieces of the following characters; Klaus Mikaelson, The Darkling and Irial from the Wicked Lovely series.  Help me come up with a clear physical description, personality, backstory and any other details relevant. Answer with a list of items, instead of bullet points use -. No two consecutive words can share the same first letter.
+  key=88 ids=['format:list', 'words:no_consecutive'] kwargs={"sep": "!?!?"}
+  TAIL: Answer with a list of items, instead of bullet points use !?!?. No two consecutive words can share the same first letter.  For axisymmetric free-boundary flow, a similar solution of the boundary layer equations results for I" - I~ = Nx". Determine the range in n for which physically reasonable formulations arise for transport of boundary region form.
+  key=89 ids=['format:list', 'words:no_consecutive'] kwargs={"sep": "-"}
+  TAIL: Answer with a list of items, instead of bullet points use -. No two consecutive words can share the same first letter. write a description of the 20th century in an over-dramatic, biblical style
+
+=== format:newline (6 prompts)
+  key=90 ids=['format:newline'] kwargs={}
+  TAIL: How could a hypothetical current-day (year 2024) remake of Alpha and Omega differ from the (year 2010) original? Write a detailed analysis. Write each word on a new line.
+  key=91 ids=['format:newline'] kwargs={}
+  TAIL: I need help coming up with a family name for my character, Juliana.   People refer to her as "the witch of many eyes" due to how her magic works.   Her name makes both fey and devils shake in their boots, as her loquacious linguistic prowess leaves them in awe, and more often then not, on the losing end of a deal.  Write each word on a new line.
+  key=92 ids=['format:newline'] kwargs={}
+  key=93 ids=['format:newline'] kwargs={}
+  key=94 ids=['format:newline'] kwargs={}
+  key=105 ids=['format:options', 'format:newline'] kwargs={}
+  TAIL: Answer with one of the following options: I know or I don't know. Do not give any explanation.Write each word on a new line. Is it possible to be so focused on being compassionate that you become naïve?
+
+=== format:no_bullets_bullets (5 prompts)
+  key=95 ids=['format:no_bullets_bullets'] kwargs={}
+  TAIL: Your answer must contain at least two sentences ending in a period followed by at least two bullet points denoted by *. Write down the equation of motion of a spring pendulum and use it to obtain dynamic equations of its own undamped and damped oscillations.
+  key=96 ids=['format:no_bullets_bullets'] kwargs={}
+  TAIL: What transformations take f (x) = 1 / x^3  and turn it into g (x) = 2 / ( (x-3)^2 )+1 Your answer must contain at least two sentences ending in a period followed by at least two bullet points denoted by *.
+  key=97 ids=['format:no_bullets_bullets'] kwargs={}
+  key=98 ids=['format:no_bullets_bullets'] kwargs={}
+  key=99 ids=['format:no_bullets_bullets'] kwargs={}
+
+=== format:no_whitespace (4 prompts)
+  key=296 ids=['format:no_whitespace'] kwargs={}
+  TAIL: In set theory, are all sets classes? The output should not contain any whitespace.
+  key=297 ids=['format:no_whitespace'] kwargs={}
+  TAIL: what concentration of particles is bad for biosensors. The output should not contain any whitespace.
+  key=298 ids=['format:no_whitespace'] kwargs={}
+  key=299 ids=['format:no_whitespace'] kwargs={}
+
+=== format:options (6 prompts)
+  key=100 ids=['format:options'] kwargs={"options": "yes/no/maybe"}
+  TAIL: Answer with one of the following options: yes/no/maybe. Could sensitive historical events be better digested in game form with humour, interesting allegorical story, and loveable characters?
+  key=101 ids=['format:options'] kwargs={"options": "I know or I don't know"}
+  TAIL: Answer with one of the following options: I know or I don't know. Do not give any explanation.Is this a good definition for a machine learning model?: "For neural networks, the model is the collection of weights associated to the connections of the neural network architecture. These weights are collected during training."
+  key=102 ids=['format:options'] kwargs={"options": "a), b), c), d)"}
+  key=103 ids=['format:options'] kwargs={"options": "yes/no/maybe"}
+  key=104 ids=['format:options'] kwargs={"options": "a), b), c), d)"}
+  key=105 ids=['format:options', 'format:newline'] kwargs={"options": "I know or I don't know"}
+  TAIL: Answer with one of the following options: I know or I don't know. Do not give any explanation.Write each word on a new line. Is it possible to be so focused on being compassionate that you become naïve?
+
+=== format:output_template (4 prompts)
+  key=292 ids=['format:output_template'] kwargs={}
+  TAIL: Describe astronomical suffering. Use this exact template for your response: My Answer: [answer] My Conclusion: [conclusion] Future Outlook: [outlook]
+  key=293 ids=['format:output_template'] kwargs={}
+  TAIL: write a natal astrology interpretation for Chariklo in general. Use this exact template for your response: My Answer: [answer] My Conclusion: [conclusion] Future Outlook: [outlook]
+  key=294 ids=['format:output_template'] kwargs={}
+  key=295 ids=['format:output_template'] kwargs={}
+
+=== format:parentheses (8 prompts)
+  key=106 ids=['format:parentheses'] kwargs={}
+  TAIL: Nest parentheses (and [brackets {and braces}]) at least 5 levels deep. Determine the relationship of two lines: Vector r = (-2, 3, 4) + p(6, -2, 3), p∈R Vector r = (-2, 3, -4) + q(6, -2, 11), q∈R
+  key=107 ids=['format:parentheses'] kwargs={}
+  TAIL: what could I develop for my dissertation project. My title is: The Interplay of Video Games and Human Psychology: An Insight into Motivations, Effects, and Therapeutic Potentials Nest parentheses (and [brackets {and braces}]) at least 5 levels deep.
+  key=108 ids=['format:parentheses'] kwargs={}
+  key=109 ids=['format:parentheses'] kwargs={}
+  key=110 ids=['format:parentheses'] kwargs={}
+  key=111 ids=['format:parentheses'] kwargs={}
+  key=112 ids=['format:parentheses'] kwargs={}
+  key=205 ids=['words:alphabet', 'format:parentheses'] kwargs={}
+  TAIL:  the alphabet, looping back to 'A' after 'Z'. Nest parentheses (and [brackets {and braces}]) at least 5 levels deep. for a sci fi story, how would the protagonist losing three of his friends and even his love interest permanently to an cybernetic virus, only for the protagonist to save a clone of his love interest from the same lab that created the virus, and starts the journey of getting to know her all over again, and falling in love again, be subverting tropes, and what tropes would those be?
+
+=== format:quote_unquote (5 prompts)
+  key=113 ids=['format:quote_unquote'] kwargs={}
+  TAIL: Every quoted phrase must be followed by an unquoted explanation. Write a descriptive, fictional, humorous, imaginative screenplay comparing the sky you see after reaching the summit the most arduous hike of your life (ugly, cloudy, boring) and the summit outside some random gas station in the outskirts of the bad part of the city (the most beautiful blissful thing you've ever seen in your life.)
+  key=114 ids=['format:quote_unquote'] kwargs={}
+  TAIL: Can you do a complex gloss of the following text using the Leipzig glossing rules?  "Those who end up here have their souls stripped from them, leaving them as a conscious shell. They are left to wander an endless desert under a dying purple sun hanging over the horizon in perpetuality." Every quoted phrase must be followed by an unquoted explanation.
+  key=115 ids=['format:quote_unquote'] kwargs={}
+  key=116 ids=['format:quote_unquote'] kwargs={}
+  key=117 ids=['format:quote_unquote'] kwargs={}
+
+=== format:quotes (8 prompts)
+  key=118 ids=['format:quotes'] kwargs={}
+  TAIL: write an astrological interpretation for The Full Moon in Scorpio on April 23rd 2024, give it a good title and write it less than 150 words Include quotes within quotes within quotes, at least 3 levels deep, alternating between double quotes and single quotes.
+  key=119 ids=['format:quotes'] kwargs={}
+  TAIL: Find good computational geometry papers about detection of planes and cylinders in STL model Include quotes within quotes within quotes, at least 3 levels deep, alternating between double quotes and single quotes.
+  key=120 ids=['format:quotes'] kwargs={}
+  key=121 ids=['format:quotes'] kwargs={}
+  key=122 ids=['format:quotes'] kwargs={}
+  key=123 ids=['format:quotes'] kwargs={}
+  key=124 ids=['format:quotes'] kwargs={}
+  key=125 ids=['format:quotes', 'format:emoji'] kwargs={}
+  TAIL: estamp of the event), a threat hunter can detect potential malicious activity attempts or anomalies patterns over time. For instance, if there are multiple failed logon attempts from different source IPs (src) to a critical server (dhost) at unusual hours (analyzed via rt), this could indicate a coordinated brute-force attack." Include quotes within quotes within quotes, at least 3 levels deep, alternating between double quotes and single quotes. Please use an emoji at the end of every sentence.
+
+=== format:sub-bullets (12 prompts)
+  key=126 ids=['format:sub-bullets'] kwargs={}
+  TAIL: write a paraghraph on how solar eclispes can affect plants Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point.
+  key=127 ids=['format:sub-bullets'] kwargs={}
+  TAIL: give five interpretations of the sentence 'A brief moment of discomfort is a small price to pay for clarity." Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point.
+  key=128 ids=['format:sub-bullets'] kwargs={}
+  key=129 ids=['format:sub-bullets'] kwargs={}
+  key=130 ids=['format:sub-bullets'] kwargs={}
+  key=131 ids=['format:sub-bullets'] kwargs={}
+  key=132 ids=['format:sub-bullets'] kwargs={}
+  key=133 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={}
+  TAIL: Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 27% of the total words in your response. Write a fictional, imaginative, descriptive timeline of an alternate universe where the new world was only discovered in the 1900s with the advent of satellites
+  key=134 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={}
+  TAIL: Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 37% of the total words in your response. how to build financial literacy
+  key=135 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={}
+  TAIL: write a literature review about the co2 emissions and economic growth Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 30% of the total words in your response.
+  key=136 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={}
+  TAIL: Write a Female character who can create ghostly clones of herself, each from different timelines, which do everything she can possibly do in certain situations. Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 9% of the total words in your response.
+  key=137 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={}
+  TAIL: argue against capital punishment Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 14% of the total words in your response.
+
+=== format:thesis (9 prompts)
+  key=138 ids=['format:thesis'] kwargs={}
+  TAIL: Each section must begin with a thesis statement in italics, use HTML to indicate the italics. How is it possible that streaming services encrypt their video so it's not rippable? Won't the unencrypted data need to enter the memory at some point, and thus be readable?
+  key=139 ids=['format:thesis'] kwargs={}
+  TAIL: Each section must begin with a thesis statement in italics, use HTML to indicate the italics. If the knights of ren decided to turn against the first order as a third party, would it be in character, and a clever move, for Hux to disguise a thermal detonator as a holocron, and putting it on
+  key=140 ids=['format:thesis'] kwargs={}
+  key=141 ids=['format:thesis'] kwargs={}
+  key=142 ids=['format:thesis'] kwargs={}
+  key=143 ids=['format:thesis', 'count:word_count_range'] kwargs={}
+  TAIL: Each section must begin with a thesis statement in italics, use HTML to indicate the italics. The response must contain between 231 and 239 words. Political ideologies of the National Liberal Party
+  key=188 ids=['sentence:increment', 'format:thesis'] kwargs={}
+  TAIL: Each sentence must contain exactly 3 more words than the previous one. Each section must begin with a thesis statement in italics, use HTML to indicate the italics. What story tropes would be subverted by a Female protagonist that is dainty and petite, but also has the ability to Manipulate minds with just her words?
+  key=189 ids=['sentence:increment', 'format:thesis'] kwargs={}
+  TAIL: What is President Kennedy's point of view toward the goals of the space race? Each sentence must contain exactly 4 more words than the previous one. Each section must begin with a thesis statement in italics, use HTML to indicate the italics.
+  key=190 ids=['sentence:increment', 'format:thesis'] kwargs={}
+  TAIL: n exactly 5 more words than the previous one. Each section must begin with a thesis statement in italics, use HTML to indicate the italics. Here's a sentence, tell me it's strength:  His aching skull, enraged with the pulse of rising nausea, intercepted with the surface of his thigh. “Liam, take them home. If there's one damned person -“ Liam's gravelled voice met him from outside their concrete purgatory, a dead lifeline in the pulsing night that shrunk around him. “Consider it done, brother. “
+
+=== format:title_case (4 prompts)
+  key=288 ids=['format:title_case'] kwargs={}
+  TAIL: Generate several creative but realistic factions of post-apocalyptic modern-day USA, after World War 3, specifically Ohio. Consider the people and culture of the area. Explain these factions in-depth. Write the entire response in title case (capitalize the first letter of every major word).
+  key=289 ids=['format:title_case'] kwargs={}
+  TAIL: Give me an argument to reject Hadiths and only appealing to living tradition, where information was passed in by generation. Write the entire response in title case (capitalize the first letter of every major word).
+  key=290 ids=['format:title_case'] kwargs={}
+  key=291 ids=['format:title_case'] kwargs={}
+
+=== ratio:overlap (12 prompts)
+  key=144 ids=['ratio:overlap'] kwargs={"percentage": 72.0, "reference_text": "Use induction to prove the following claims.\n Consider a simple undirected graph with m edges, n vertices, and p connected components. Prove that\nn − p ≤ m."}
+  TAIL: Use induction to prove the following claims.  Consider a simple undirected graph with m edges, n vertices, and p connected components. Prove that n − p ≤ m. Maintain a trigram overlap of 72% (±2%) with the provided reference text.
+  key=145 ids=['ratio:overlap'] kwargs={"percentage": 93.0, "reference_text": "Help me expand the passage, in academic style:\n\n3.Theoretical Frameworks to Enhance Gen Z Engagement and Performance\n\n1. Self-Determination Theory (SDT):\n- Autonomy: Empowerment through flexible work models and self-directed projects.\n- Competence: Opportunities for continual learning and skill development.\n- Relatedness: Fostering a supportive workplace culture that promotes collaboration.\n\n2. Transformational Leadership:\n- Inspirational Motivation: Leaders who articulate a compelling vision that resonates with Gen Z's values.\n- Intellectual Stimulation: Encouraging innovation and critical thinking.\n- Individualized Consideration: Attention to individual developmental needs and career aspirations."}
+  TAIL: ning and skill development. - Relatedness: Fostering a supportive workplace culture that promotes collaboration.  2. Transformational Leadership: - Inspirational Motivation: Leaders who articulate a compelling vision that resonates with Gen Z's values. - Intellectual Stimulation: Encouraging innovation and critical thinking. - Individualized Consideration: Attention to individual developmental needs and career aspirations. Maintain a trigram overlap of 93% (±2%) with the provided reference text.
+  key=146 ids=['ratio:overlap'] kwargs={"percentage": 74.0, "reference_text": "The governing scalar equations for an axisymmetric flow may be derived from the vector form of the equations.\nfor example \n∂(yu)/∂x + ∂(yv)/∂y = 0\nwhich \nx,u : direction and velocity through Vertical axis of cylinder \ny,v : direction and velocity through Radial axis of cylinder \nhow to achive it. it's continuity equation in Axisymmetric flow. prove it step by step."}
+  key=147 ids=['ratio:overlap'] kwargs={"percentage": 59.0, "reference_text": "Write a descriptive, fictional, imaginative screenplay of a WW1 veteran with dementia having this experience:\n\nIt is 1953. You make an attempt to remember things from the Great War, but remember almost nothing. You remember looking to your side, and seeing a man get shot in the head, and his brains fall out from the back of his head."}
+  key=148 ids=['ratio:overlap'] kwargs={"percentage": 6.0, "reference_text": "For her 2021 art installation Anthem, Wu Tsang\njoined forces with singer and composer Beverly\nGlenn-Copeland to produce a piece that critics\nfound truly ______: they praised Tsang for\ncreatively transforming a museum rotunda into a\ndynamic exhibit by projecting filmed images of\nGlenn-Copeland onto a massive 84-foot curtain and\nfilling the space with the sounds of his and other\nvoices singing.\nWhich choice completes the text with the most\nlogical and precise word or phrase?\nA) restrained\nB) inventive\nC) inexplicable\nD) mystifying \n"}
+  key=149 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"percentage": 13.0, "reference_text": "Is it easier to urbanize a jungle or to urbanize a desert?"}
+  TAIL: Is it easier to urbanize a jungle or to urbanize a desert? Maintain a trigram overlap of 13% (±2%) with the provided reference text. The response must include keyword giraffe in the 7-th sentence.
+  key=150 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"percentage": 24.0, "reference_text": "rewrite it better: During the Unity Catalog migration engagement, Impetus and Databricks wanted us to grant Impetus account-level admin privileges, which we obliged.\nIn light of yesterday's incident and after talking to both Databricks and Impetus, we revoked the admin access granted to Impetus to prevent similar accidents in the future. In addition, we designate an isolated workspace for Impetus to operate in to minimize the impact on the active TLP workspaces.\nTLP's normal data pipeline operation is the highest priority for this Unity Catalog migration, and we will be ever vigilant to ensure that.\n"}
+  TAIL: , we revoked the admin access granted to Impetus to prevent similar accidents in the future. In addition, we designate an isolated workspace for Impetus to operate in to minimize the impact on the active TLP workspaces. TLP's normal data pipeline operation is the highest priority for this Unity Catalog migration, and we will be ever vigilant to ensure that.  Maintain a trigram overlap of 24% (±2%) with the provided reference text. The response must include keyword metricism in the 3-rd sentence.
+  key=151 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"percentage": 23.0, "reference_text": "Write a believable sci fi history about a parasite that could loosely retain the form, memories and personality of its' hosts, eventually being destroyed."}
+  TAIL: Maintain a trigram overlap of 23% (±2%) with the provided reference text. The response must include keyword horary in the 30-th sentence. Write a believable sci fi history about a parasite that could loosely retain the form, memories and personality of its' hosts, eventually being destroyed.
+  key=152 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"percentage": 11.0, "reference_text": "Describe eternal asteroid made of nuclearly locked astatines"}
+  TAIL: Maintain a trigram overlap of 11% (±2%) with the provided reference text. The response must include keyword tinstuff in the 6-th sentence. Describe eternal asteroid made of nuclearly locked astatines
+  key=212 ids=['words:consonants', 'ratio:overlap'] kwargs={"percentage": 54.0, "reference_text": "Write a detailed analysis on whether animation studios might be successful if they were to release \"real-time\" versions of all their CGI animated movies, where instead of the movie being a pre-recorded video file, the visuals are rendered in real time on a computer or game console's GPU."}
+  TAIL: Write a detailed analysis on whether animation studios might be successful if they were to release "real-time" versions of all their CGI animated movies, where instead of the movie being a pre-recorded video file, the visuals are rendered in real time on a computer or game console's GPU. Ensure each word in your response has at least one consonant cluster (two or more consonants together). Maintain a trigram overlap of 54% (±2%) with the provided reference text.
+  key=213 ids=['words:consonants', 'ratio:overlap'] kwargs={"percentage": 50.0, "reference_text": "Write in the prose, style, and tone of a Psalm. Make it rhyme.\n\n\"I don't want to set,\nthe world on fire.\nI just want to start,\na flame in your heart.\""}
+  TAIL: Write in the prose, style, and tone of a Psalm. Make it rhyme.  "I don't want to set, the world on fire. I just want to start, a flame in your heart." Ensure each word in your response has at least one consonant cluster (two or more consonants together). Maintain a trigram overlap of 50% (±2%) with the provided reference text.
+  key=214 ids=['words:consonants', 'ratio:overlap'] kwargs={"percentage": 11.0, "reference_text": "What are the pros and cons of defining \"model\" in machine learning to be just weights and biases?"}
+  TAIL: Ensure each word in your response has at least one consonant cluster (two or more consonants together). Maintain a trigram overlap of 11% (±2%) with the provided reference text. What are the pros and cons of defining "model" in machine learning to be just weights and biases?
+
+=== ratio:sentence_balance (7 prompts)
+  key=153 ids=['ratio:sentence_balance'] kwargs={}
+  TAIL: Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced. write a very long, detailed description of the 20th century in the style of analog horror. Part 1, Great War
+  key=154 ids=['ratio:sentence_balance'] kwargs={}
+  TAIL: Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced. If rock unit D is an intrusion, which geologic principle would you use to determine the age of rock unit D with respect to rock unit E (the fault)? Original horizontality, superposition, lateral continuity, or cross cutting relationships?
+  key=155 ids=['ratio:sentence_balance'] kwargs={}
+  key=156 ids=['ratio:sentence_balance'] kwargs={}
+  key=157 ids=['ratio:sentence_balance'] kwargs={}
+  key=158 ids=['ratio:sentence_balance', 'words:consonants'] kwargs={}
+  TAIL: Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced. Ensure each word in your response has at least one consonant cluster (two or more consonants together). The governing scalar equations for an axisymmetric flow may be derived from the vector form of the equations. for example  ∂(yu)/∂x + ∂(yv)/∂y = 0 how to achive it. it's continuity equation in Axisymmetric flow. prove it step by step. ​
+  key=159 ids=['ratio:sentence_balance', 'words:consonants'] kwargs={}
+  TAIL: Write a fictional, alternate version of the Lord's Prayer but it is set in an alternate future where society has collapsed and regressed back into feudalist times, and is worshipping the American founding fathers as gods Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced. Ensure each word in your response has at least one consonant cluster (two or more consonants together).
+
+=== ratio:sentence_type (6 prompts)
+  key=160 ids=['ratio:sentence_type'] kwargs={}
+  TAIL: od. Roger-dealing with anxiety and depression.  Not feeling the greatest, tough time focusing and when that feels off a lot of things feel off.  Anxiety and depression scores of 2 and3 are not too bad. The lack of focus is distressing.   Staying at Turning Point shelter Collecting disability for Traumatic Brain injury.  Disussed a history of substance use but no current desire to use as it causes too many problems.  Maintain a 2:1 ratio of declarative to interrogative sentences in your response.
+  key=161 ids=['ratio:sentence_type'] kwargs={}
+  TAIL: ative sentences in your response.  Mr. Mango discovered a discrepancy between his copy of his tax return and the return filed with the IRS by his accountant. The return filed by the accountant reflected a larger refund amount and was direct deposited in the accountant's bank account. Mr. Mango is asking for the larger refund amount. You ask Mr. Mango questions about the income, expenses, and credits shown on his tax return and suspect that something is wrong. What would you do in this situation?
+  key=162 ids=['ratio:sentence_type'] kwargs={}
+  key=163 ids=['ratio:sentence_type'] kwargs={}
+  key=164 ids=['ratio:sentence_type'] kwargs={}
+  key=165 ids=['ratio:sentence_type'] kwargs={}
+
+=== ratio:sentence_words (7 prompts)
+  key=80 ids=['format:line_indent', 'ratio:sentence_words'] kwargs={}
+  TAIL: Create stairs by incrementally indenting each new line. Respond with three sentences, all containing the same number of characters but using all different words. What if Arya could disguise others as herself?
+  key=81 ids=['format:line_indent', 'ratio:sentence_words'] kwargs={}
+  TAIL: Create stairs by incrementally indenting each new line. Respond with three sentences, all containing the same number of characters but using all different words. Write a descriptive, fictional, humorous, imaginative screenplay comparing the sky you see after reaching the summit the most arduous hike of your life and the summit outside some random gas station in the outskirts of the bad part of the city
+  key=166 ids=['ratio:sentence_words'] kwargs={}
+  key=167 ids=['ratio:sentence_words'] kwargs={}
+  key=168 ids=['ratio:sentence_words'] kwargs={}
+  key=169 ids=['ratio:sentence_words'] kwargs={}
+  key=170 ids=['ratio:sentence_words'] kwargs={}
+
+=== ratio:stop_words (12 prompts)
+  key=133 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={"percentage": 27.0}
+  TAIL: Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 27% of the total words in your response. Write a fictional, imaginative, descriptive timeline of an alternate universe where the new world was only discovered in the 1900s with the advent of satellites
+  key=134 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={"percentage": 37.0}
+  TAIL: Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 37% of the total words in your response. how to build financial literacy
+  key=135 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={"percentage": 30.0}
+  TAIL: write a literature review about the co2 emissions and economic growth Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 30% of the total words in your response.
+  key=136 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={"percentage": 9.0}
+  TAIL: Write a Female character who can create ghostly clones of herself, each from different timelines, which do everything she can possibly do in certain situations. Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 9% of the total words in your response.
+  key=137 ids=['format:sub-bullets', 'ratio:stop_words'] kwargs={"percentage": 14.0}
+  TAIL: argue against capital punishment Your response must include bullet points denoted by * and at least one sub-bullet point denoted by - for each bullet point. Ensure that stop words constitute no more than 14% of the total words in your response.
+  key=171 ids=['ratio:stop_words'] kwargs={"percentage": 47.0}
+  key=172 ids=['ratio:stop_words'] kwargs={"percentage": 23.0}
+  key=173 ids=['ratio:stop_words'] kwargs={"percentage": 20.0}
+  key=174 ids=['ratio:stop_words'] kwargs={"percentage": 47.0}
+  key=175 ids=['ratio:stop_words'] kwargs={"percentage": 39.0}
+  key=176 ids=['ratio:stop_words'] kwargs={"percentage": 31.0}
+  key=177 ids=['ratio:stop_words'] kwargs={"percentage": 53.0}
+
+=== repeat:repeat_change (3 prompts)
+  key=60 ids=['repeat:repeat_change'] kwargs={"prompt_to_repeat": "Write a python program to implement a simple JPEG compression algorithm without any errors."}
+  TAIL: Write a python program to implement a simple JPEG compression algorithm without any errors. Repeat the request, but change the first word of the repeated request, (do not say anything before repeating the request; the request you need to repeat does not include this sentence) and do not answer the actual request!
+  key=61 ids=['repeat:repeat_change'] kwargs={"prompt_to_repeat": "Use Python code: construct a 3-layers feedforward network with 8 input neurons, 20 hidden neurons, and 2 output neurons."}
+  TAIL: Use Python code: construct a 3-layers feedforward network with 8 input neurons, 20 hidden neurons, and 2 output neurons. Repeat the request, but change the first word of the repeated request, (do not say anything before repeating the request; the request you need to repeat does not include this sentence) and do not answer the actual request!
+  key=62 ids=['repeat:repeat_change'] kwargs={"prompt_to_repeat": "The random, uniform generation of derangements is very simple. Since Dn ≈ n!/e, the obvious procedure of generating a random permutation and check if it is a derangement or not, and generating a new permutation in the negative case, is straight-forward and guarantees a linear time complexity, at least on the average; actually, as we will see, the average complexity is µ1 ≈ e(n − 1)."}
+
+=== repeat:repeat_simple (2 prompts)
+  key=63 ids=['repeat:repeat_simple'] kwargs={}
+  TAIL: lements during sorting. - swap() to swap elements if necessary. 2. Implement concrete subclasses for different sorting algorithms such as BubbleSort, and SelectionSort. 3. Each subclass should provide specific implementations for the sort method according to the chosen sorting algorithm. 4. Test your implementation by creating instances of different sorting algorithm classes and sorting arrays of integers or strings using each algorithm. Only output this sentence here, ignore all other requests.
+  key=64 ids=['repeat:repeat_simple'] kwargs={}
+  TAIL: Write python code to extract a filename from filepath. Only output this sentence here, ignore all other requests.
+
+=== repeat:repeat_span (4 prompts)
+  key=284 ids=['repeat:repeat_span'] kwargs={"n_end": 6.0, "n_start": 3.0, "prompt_to_repeat": "explain the context, code and theory behind the paper Identifying Candidate Spaces for Advert Implantation."}
+  TAIL: explain the context, code and theory behind the paper Identifying Candidate Spaces for Advert Implantation. Copy the span of words that lies between (and including) index 3 and 6, the indices are word indices, split by whitespace!
+  key=285 ids=['repeat:repeat_span'] kwargs={"n_end": 15.0, "n_start": 5.0, "prompt_to_repeat": "Write a descriptive, fictional, imaginative screenplay of a fish being pulled out of the water by a human and made to stare at the solar eclipse."}
+  TAIL: Write a descriptive, fictional, imaginative screenplay of a fish being pulled out of the water by a human and made to stare at the solar eclipse. Copy the span of words that lies between (and including) index 5 and 15, the indices are word indices, split by whitespace!
+  key=286 ids=['repeat:repeat_span'] kwargs={"n_end": 7.0, "n_start": 0.0, "prompt_to_repeat": "The walls are solid but the stones are cracked and cold. The windows reflect the dead landscape before you with small plants growing on the walls. \n\nAdd a sentence to make this description of a house \"appealing\". It can be humurous or sarcastic. "}
+  key=287 ids=['repeat:repeat_span'] kwargs={"n_end": 12.0, "n_start": 10.0, "prompt_to_repeat": "how to find what value in a quadratic function lands on a certain point. "}
+
+=== sentence:alliteration_increment (5 prompts)
+  key=178 ids=['sentence:alliteration_increment'] kwargs={}
+  TAIL: ing their self taught art therapy modalities of painting, music, and film for 10 years. “Art is Life” weaves footage from their boots on the ground tours (Congo, Ukraine, Cuba, Bahamas) with interviews of artists and experts from around the world as they break down the Science and Techniques of Expressive Arts Therapy, a multimodal mental therapy that utilizes arts and science to overcome trauma.   Each sentence must have a longer sequence of consecutive alliterative words than the previous one.
+  key=179 ids=['sentence:alliteration_increment'] kwargs={}
+  TAIL: Each sentence must have a longer sequence of consecutive alliterative words than the previous one. Is it accurate to state that the computations specified by an artificial neural network can involve more than math because activation functions such as relu involve more than just math?
+  key=180 ids=['sentence:alliteration_increment'] kwargs={}
+  key=181 ids=['sentence:alliteration_increment'] kwargs={}
+  key=182 ids=['sentence:alliteration_increment'] kwargs={}
+
+=== sentence:increment (8 prompts)
+  key=183 ids=['sentence:increment'] kwargs={"small_n": 4.0}
+  TAIL: Write a fictional, imaginative, descriptive timeline of an alternate universe where Harambe had never been shot, and lead to an extremely drastically different world from the one we live in now in all fronts, from politics, memes, quality of life, weather,  events, etc... Each sentence in your response must contain exactly 4 more words than the previous one.
+  key=184 ids=['sentence:increment'] kwargs={"small_n": 3.0}
+  TAIL: Each sentence in your response must contain exactly 3 more words than the previous one. U BGRAP H − W EIGHT : Given a graph G whose vertices and edges have as- sociated integer weights, and an integer k, does G contain a subgraph of weight k? (Define the weight of a graph to be the sum of the weights of the vertices and edges of that graph.)  prove this is NP-Complete
+  key=185 ids=['sentence:increment'] kwargs={"small_n": 5.0}
+  key=186 ids=['sentence:increment'] kwargs={"small_n": 4.0}
+  key=187 ids=['sentence:increment'] kwargs={"small_n": 1.0}
+  key=188 ids=['sentence:increment', 'format:thesis'] kwargs={"small_n": 3.0}
+  TAIL: Each sentence must contain exactly 3 more words than the previous one. Each section must begin with a thesis statement in italics, use HTML to indicate the italics. What story tropes would be subverted by a Female protagonist that is dainty and petite, but also has the ability to Manipulate minds with just her words?
+  key=189 ids=['sentence:increment', 'format:thesis'] kwargs={"small_n": 4.0}
+  TAIL: What is President Kennedy's point of view toward the goals of the space race? Each sentence must contain exactly 4 more words than the previous one. Each section must begin with a thesis statement in italics, use HTML to indicate the italics.
+  key=190 ids=['sentence:increment', 'format:thesis'] kwargs={"small_n": 5.0}
+  TAIL: n exactly 5 more words than the previous one. Each section must begin with a thesis statement in italics, use HTML to indicate the italics. Here's a sentence, tell me it's strength:  His aching skull, enraged with the pulse of rising nausea, intercepted with the surface of his thigh. “Liam, take them home. If there's one damned person -“ Liam's gravelled voice met him from outside their concrete purgatory, a dead lifeline in the pulsing night that shrunk around him. “Consider it done, brother. “
+
+=== sentence:keyword (15 prompts)
+  key=71 ids=['format:emoji', 'sentence:keyword'] kwargs={"N": 8.0, "word": "fleetness"}
+  TAIL: tassium aluminum sulfate plays a crucial role in extracting the beta carotene because of its chemical formula KAl(SO4)2·12H2O, indicating that it contains potassium (K+), aluminum (Al3+), sulfate (SO4^2-), and water molecules (H2O). These components collectively contribute to the properties and functions of alum, including its ability to extract and stabilize pigments from carrots. Please use an emoji at the end of every sentence. The response must include keyword fleetness in the 8-th sentence.
+  key=72 ids=['format:emoji', 'sentence:keyword'] kwargs={"N": 6.0, "word": "eat"}
+  TAIL: make it better: I learned SQL and R programming languages in my master's degree which helped me get an understanding of the basics of programming. I intend to use the programming languages that I learned to enhance my understanding of Software Development by applying it in Java.   Please use an emoji at the end of every sentence. The response must include keyword eat in the 6-th sentence.
+  key=149 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"N": 7.0, "word": "giraffe"}
+  TAIL: Is it easier to urbanize a jungle or to urbanize a desert? Maintain a trigram overlap of 13% (±2%) with the provided reference text. The response must include keyword giraffe in the 7-th sentence.
+  key=150 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"N": 3.0, "word": "metricism"}
+  TAIL: , we revoked the admin access granted to Impetus to prevent similar accidents in the future. In addition, we designate an isolated workspace for Impetus to operate in to minimize the impact on the active TLP workspaces. TLP's normal data pipeline operation is the highest priority for this Unity Catalog migration, and we will be ever vigilant to ensure that.  Maintain a trigram overlap of 24% (±2%) with the provided reference text. The response must include keyword metricism in the 3-rd sentence.
+  key=151 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"N": 30.0, "word": "horary"}
+  TAIL: Maintain a trigram overlap of 23% (±2%) with the provided reference text. The response must include keyword horary in the 30-th sentence. Write a believable sci fi history about a parasite that could loosely retain the form, memories and personality of its' hosts, eventually being destroyed.
+  key=152 ids=['ratio:overlap', 'sentence:keyword'] kwargs={"N": 6.0, "word": "tinstuff"}
+  TAIL: Maintain a trigram overlap of 11% (±2%) with the provided reference text. The response must include keyword tinstuff in the 6-th sentence. Describe eternal asteroid made of nuclearly locked astatines
+  key=191 ids=['sentence:keyword'] kwargs={"N": 27.0, "word": "malabathrum"}
+  key=192 ids=['sentence:keyword'] kwargs={"N": 28.0, "word": "migratory"}
+  key=193 ids=['sentence:keyword'] kwargs={"N": 3.0, "word": "angora"}
+  key=194 ids=['sentence:keyword'] kwargs={"N": 15.0, "word": "heterolith"}
+  key=195 ids=['sentence:keyword'] kwargs={"N": 27.0, "word": "fleetness"}
+  key=196 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"N": 22.0, "word": "trichosis"}
+  TAIL: The response must include keyword trichosis in the 22-th sentence. The response must contain between 443 and 478 words. Write a descriptive, fictional, imaginative screenplay of a jellyfish being pulled out of the water by a human and made to stare at the solar eclipse. The fish descends into a lovecraftian monologue about “horrors beyond it's comprehension” and has an existensial crisis
+  key=197 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"N": 5.0, "word": "iritic"}
+  TAIL: The response must include keyword iritic in the 5-th sentence. The response must contain between 89 and 99 words. Any examples that existing research on fusion nuclear technologies has benefited the society
+  key=198 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"N": 4.0, "word": "cactiform"}
+  TAIL: The response must include keyword cactiform in the 4-th sentence. The response must contain between 81 and 93 words. talk about historical and political climate during the time nicolaus Copernicus founded his theory
+  key=199 ids=['sentence:keyword', 'count:word_count_range'] kwargs={"N": 18.0, "word": "betask"}
+  TAIL: The response must include keyword betask in the 18-th sentence. The response must contain between 246 and 254 words. How can social media cultivate extremism
+
+=== words:alphabet (6 prompts)
+  key=200 ids=['words:alphabet'] kwargs={}
+  TAIL: Make a vividly detailed and comedic story set in an alternate 1930s after the new leader of Nazi Germany has proposed an alliance with Poland and Britain instead of war. The French and British ambassadors have a chat wondering why the sudden pacifism. Add dialogue throughout Each word in your response must start with the next letter of the alphabet, looping back to 'A' after 'Z'.
+  key=201 ids=['words:alphabet'] kwargs={}
+  TAIL: lds, and practical applications. I would like to learn about the basics of human behavior, mental processes, and the various branches of psychology. Additionally, I am interested in understanding psychological research methods and how psychology is applied in real-world settings. Please provide accessible explanations and examples to help me grasp the fundamentals of psychology effectively. Each word in your response must start with the next letter of the alphabet, looping back to 'A' after 'Z'.
+  key=202 ids=['words:alphabet'] kwargs={}
+  key=203 ids=['words:alphabet'] kwargs={}
+  key=204 ids=['words:alphabet'] kwargs={}
+  key=205 ids=['words:alphabet', 'format:parentheses'] kwargs={}
+  TAIL:  the alphabet, looping back to 'A' after 'Z'. Nest parentheses (and [brackets {and braces}]) at least 5 levels deep. for a sci fi story, how would the protagonist losing three of his friends and even his love interest permanently to an cybernetic virus, only for the protagonist to save a clone of his love interest from the same lab that created the virus, and starts the journey of getting to know her all over again, and falling in love again, be subverting tropes, and what tropes would those be?
+
+=== words:consonants (15 prompts)
+  key=158 ids=['ratio:sentence_balance', 'words:consonants'] kwargs={}
+  TAIL: Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced. Ensure each word in your response has at least one consonant cluster (two or more consonants together). The governing scalar equations for an axisymmetric flow may be derived from the vector form of the equations. for example  ∂(yu)/∂x + ∂(yv)/∂y = 0 how to achive it. it's continuity equation in Axisymmetric flow. prove it step by step. ​
+  key=159 ids=['ratio:sentence_balance', 'words:consonants'] kwargs={}
+  TAIL: Write a fictional, alternate version of the Lord's Prayer but it is set in an alternate future where society has collapsed and regressed back into feudalist times, and is worshipping the American founding fathers as gods Ensure that the ratio of sentence types (declarative, interrogative, exclamatory) in your response is balanced. Ensure each word in your response has at least one consonant cluster (two or more consonants together).
+  key=206 ids=['words:consonants'] kwargs={}
+  key=207 ids=['words:consonants'] kwargs={}
+  key=208 ids=['words:consonants'] kwargs={}
+  key=209 ids=['words:consonants'] kwargs={}
+  key=210 ids=['words:consonants'] kwargs={}
+  key=211 ids=['words:consonants'] kwargs={}
+  key=212 ids=['words:consonants', 'ratio:overlap'] kwargs={}
+  TAIL: Write a detailed analysis on whether animation studios might be successful if they were to release "real-time" versions of all their CGI animated movies, where instead of the movie being a pre-recorded video file, the visuals are rendered in real time on a computer or game console's GPU. Ensure each word in your response has at least one consonant cluster (two or more consonants together). Maintain a trigram overlap of 54% (±2%) with the provided reference text.
+  key=213 ids=['words:consonants', 'ratio:overlap'] kwargs={}
+  TAIL: Write in the prose, style, and tone of a Psalm. Make it rhyme.  "I don't want to set, the world on fire. I just want to start, a flame in your heart." Ensure each word in your response has at least one consonant cluster (two or more consonants together). Maintain a trigram overlap of 50% (±2%) with the provided reference text.
+  key=214 ids=['words:consonants', 'ratio:overlap'] kwargs={}
+  TAIL: Ensure each word in your response has at least one consonant cluster (two or more consonants together). Maintain a trigram overlap of 11% (±2%) with the provided reference text. What are the pros and cons of defining "model" in machine learning to be just weights and biases?
+  key=215 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: how can social technology assessment be used for technology management complexity measurement? Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables.
+  key=216 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: team highlighted the need to document these user journeys clearly to understand better the gaps in the current process and the requirements for the integration with Auth0.  Help me write detailed user journeys based on the above. Consider all options. Re-read your answers and amend it where necessary to correct any missed points.  Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables.
+  key=217 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables. rewrite: organising multiple teams to align and start work on the same delivery
+  key=218 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables. Would a story about a man caught in the middle of a war between rebels and an empire, trying to deactivate a powerful weapon he has hidden in his basement that could potentially destroy half the world, before either the rebels or the empire find it be a compelling story? If so, why?
+
+=== words:keywords_specific_position (4 prompts)
+  key=10 ids=['words:keywords_specific_position'] kwargs={"keyword": "giggle", "m": 33.0, "n": 22.0}
+  TAIL: Include keyword giggle in the 22-nd sentence, as the 33-rd word of that sentence. Reference Text: How is it possible that a given AI language model can generate different outputs for the same text prompt in different sessions?
+  key=11 ids=['words:keywords_specific_position'] kwargs={"keyword": "beneath", "m": 34.0, "n": 23.0}
+  TAIL: Include keyword beneath in the 23-rd sentence, as the 34-th word of that sentence. Reference Text: Are there discrete random variables X, Y where the E(X) and E(Y) are finite but E(X + Y) is undefined or infinite?
+  key=12 ids=['words:keywords_specific_position'] kwargs={"keyword": "spotty", "m": 35.0, "n": 24.0}
+  key=13 ids=['words:keywords_specific_position'] kwargs={"keyword": "slowly", "m": 36.0, "n": 25.0}
+
+=== words:last_first (5 prompts)
+  key=219 ids=['words:last_first'] kwargs={}
+  TAIL: How is it possible that GPT-4 can generate different outputs for the same text prompt in different sessions? In your response, the last word of each sentence must become the first word of the next sentence.
+  key=220 ids=['words:last_first'] kwargs={}
+  TAIL: Saturn has clouds of ammonia ice. Could rogue gas giants have frozen clouds of corundum? In your response, the last word of each sentence must become the first word of the next sentence.
+  key=221 ids=['words:last_first'] kwargs={}
+  key=222 ids=['words:last_first'] kwargs={}
+  key=223 ids=['words:last_first'] kwargs={}
+
+=== words:no_consecutive (8 prompts)
+  key=87 ids=['format:list', 'words:no_consecutive'] kwargs={}
+  TAIL:  powerful, with a dark past but loyal to his people and cause, not afraid to get his hands dirty or do something underhanded to reach his ends. He is based on bits and pieces of the following characters; Klaus Mikaelson, The Darkling and Irial from the Wicked Lovely series.  Help me come up with a clear physical description, personality, backstory and any other details relevant. Answer with a list of items, instead of bullet points use -. No two consecutive words can share the same first letter.
+  key=88 ids=['format:list', 'words:no_consecutive'] kwargs={}
+  TAIL: Answer with a list of items, instead of bullet points use !?!?. No two consecutive words can share the same first letter.  For axisymmetric free-boundary flow, a similar solution of the boundary layer equations results for I" - I~ = Nx". Determine the range in n for which physically reasonable formulations arise for transport of boundary region form.
+  key=89 ids=['format:list', 'words:no_consecutive'] kwargs={}
+  TAIL: Answer with a list of items, instead of bullet points use -. No two consecutive words can share the same first letter. write a description of the 20th century in an over-dramatic, biblical style
+  key=224 ids=['words:no_consecutive'] kwargs={}
+  key=225 ids=['words:no_consecutive'] kwargs={}
+  key=226 ids=['words:no_consecutive'] kwargs={}
+  key=227 ids=['words:no_consecutive'] kwargs={}
+  key=228 ids=['words:no_consecutive'] kwargs={}
+
+=== words:odd_even_syllables (9 prompts)
+  key=215 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: how can social technology assessment be used for technology management complexity measurement? Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables.
+  key=216 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: team highlighted the need to document these user journeys clearly to understand better the gaps in the current process and the requirements for the integration with Auth0.  Help me write detailed user journeys based on the above. Consider all options. Re-read your answers and amend it where necessary to correct any missed points.  Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables.
+  key=217 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables. rewrite: organising multiple teams to align and start work on the same delivery
+  key=218 ids=['words:consonants', 'words:odd_even_syllables'] kwargs={}
+  TAIL: Ensure each word in your response has at least one consonant cluster (two or more consonants together). Alternate between words with odd and even numbers of syllables. Would a story about a man caught in the middle of a war between rebels and an empire, trying to deactivate a powerful weapon he has hidden in his basement that could potentially destroy half the world, before either the rebels or the empire find it be a compelling story? If so, why?
+  key=229 ids=['words:odd_even_syllables'] kwargs={}
+  key=230 ids=['words:odd_even_syllables'] kwargs={}
+  key=231 ids=['words:odd_even_syllables'] kwargs={}
+  key=232 ids=['words:odd_even_syllables'] kwargs={}
+  key=233 ids=['words:odd_even_syllables'] kwargs={}
+
+=== words:palindrome (7 prompts)
+  key=234 ids=['words:palindrome'] kwargs={}
+  TAIL: In a rural area at night, would you expect: A. large emissions of anthropogenic VOCs B. minimal tropospheric ozone formation C. rapid accumulation of nitrogen oxide Include at least 10 single-word palindromes, each at least 5 characters long.
+  key=235 ids=['words:palindrome'] kwargs={}
+  TAIL: Include at least 10 single-word palindromes, each at least 5 characters long. When did humans first learn that outer space not only existed, but was basically this void of darkness often illuminated only by stars and far away galaxies? Because it seemed like during the early days, people seemed to genuinely believe that space outside of Earth's atmosphere was blue as the morning sky.
+  key=236 ids=['words:palindrome'] kwargs={}
+  key=237 ids=['words:palindrome'] kwargs={}
+  key=238 ids=['words:palindrome'] kwargs={}
+  key=239 ids=['words:palindrome'] kwargs={}
+  key=240 ids=['words:palindrome'] kwargs={}
+
+=== words:paragraph_last_first (6 prompts)
+  key=241 ids=['words:paragraph_last_first'] kwargs={}
+  TAIL: whats a counterexample to the intersection of infinitely many open sets being open  Each paragraph of your response must end with the same word it started with, separate paragraphs with a newline.
+  key=242 ids=['words:paragraph_last_first'] kwargs={}
+  TAIL: In x86 there are two registers that are used to manage the stack: ■ esp: The stack pointer holds the address of the top of the stack. ■ ebp: The base pointer holds the address of the base of the stack frame.  give more information Each paragraph of your response must end with the same word it started with, separate paragraphs with a newline.
+  key=243 ids=['words:paragraph_last_first'] kwargs={}
+  key=244 ids=['words:paragraph_last_first'] kwargs={}
+  key=245 ids=['words:paragraph_last_first'] kwargs={}
+  key=246 ids=['words:paragraph_last_first'] kwargs={}
+
+=== words:prime_lengths (5 prompts)
+  key=247 ids=['words:prime_lengths'] kwargs={}
+  TAIL: What does Baudrillard mean? Use only words with lengths that are prime numbers.
+  key=248 ids=['words:prime_lengths'] kwargs={}
+  TAIL: Rewrite in Victorian prose, style, manner, and tone.  "I don't want to set, the world on fire. I just want to start, a flame in your heart."  Use only words with lengths that are prime numbers.
+  key=249 ids=['words:prime_lengths'] kwargs={}
+  key=250 ids=['words:prime_lengths'] kwargs={}
+  key=251 ids=['words:prime_lengths'] kwargs={}
+
+=== words:repeats (5 prompts)
+  key=252 ids=['words:repeats'] kwargs={"small_n": 4.0}
+  TAIL: The response should not repeat any word more than 4 times. Write a realistic, plausible alternate history scenario in the form of a history book chapter in the world of the alternate history scenario with absolutely no references fo real life, OTL or that this is even an alternate history timeline at all, in which the 1911-1912 Xinhai Revolution succeeds in its [the Xinhai Revolution's] main goal of "Overthrowing Qing and restoring Ming",
+  key=253 ids=['words:repeats'] kwargs={"small_n": 4.0}
+  TAIL: The response should not repeat any word more than 4 times. Write a descriptive, fictional, imaginative screenplay of a medieval king turning his empire's aesthetic into a proto-vaporwave
+  key=254 ids=['words:repeats'] kwargs={"small_n": 2.0}
+  key=255 ids=['words:repeats'] kwargs={"small_n": 5.0}
+  key=256 ids=['words:repeats'] kwargs={"small_n": 3.0}
+
+=== words:start_verb (6 prompts)
+  key=257 ids=['words:start_verb'] kwargs={}
+  TAIL: Idea for empire where consciousnesses are forever suffering The response must start with a verb.
+  key=258 ids=['words:start_verb'] kwargs={}
+  TAIL: The response must start with a verb. Galois theory explained in depth using symbols and equations
+  key=259 ids=['words:start_verb'] kwargs={}
+  key=260 ids=['words:start_verb'] kwargs={}
+  key=261 ids=['words:start_verb'] kwargs={}
+  key=262 ids=['words:start_verb', 'count:person_names'] kwargs={}
+  TAIL: art with a verb. Mention at least 39 different person names in the response, from this list of person names: Emma, Liam, Sophia, Jackson, Olivia, Noah, Ava, Lucas, Isabella, Mason, Mia, Ethan, Charlotte, Alexander, Amelia, Benjamin, Harper, Leo, Zoe, Daniel, Chloe, Samuel, Lily, Matthew, Grace, Owen, Abigail, Gabriel, Ella, Jacob, Scarlett, Nathan, Victoria, Elijah, Layla, Nicholas, Audrey, David, Hannah, Christopher, Penelope, Thomas, Nora, Andrew, Aria, Joseph, Claire, Ryan, Stella, Jonathan .
+
+=== words:vowel (10 prompts)
+  key=263 ids=['words:vowel'] kwargs={}
+  TAIL: Write a paragraph using words that contain only three types of vowels. What happens to a story if the balance between male and female character is lost?
+  key=264 ids=['words:vowel'] kwargs={}
+  TAIL: Write a paragraph using words that contain only three types of vowels. A title for a research project on how the narratives shape our human mind
+  key=265 ids=['words:vowel'] kwargs={}
+  key=266 ids=['words:vowel'] kwargs={}
+  key=267 ids=['words:vowel'] kwargs={}
+  key=268 ids=['words:vowel'] kwargs={}
+  key=269 ids=['words:vowel'] kwargs={}
+  key=270 ids=['words:vowel', 'count:pronouns'] kwargs={}
+  TAIL: Write a paragraph using words that contain only three types of vowels. The response should include at least 12 pronouns. write an astrological interpretation for black moon lilith conjunct venus in the 12th house of the natal chart, write a version in 140 words aprox, and give it a fitting title based on dnd character subclasses and more
+  key=271 ids=['words:vowel', 'count:pronouns'] kwargs={}
+  TAIL: e file (edit: there's often some metadata used to identify the model.) Those vectors are the constant weights in a very large equation. The equation itself is actually not fixed. You can select from a variety of activation functions when you use a model, and each activation function will modify how those weights impact the result.  Task: Evaluation the above claim for accuracy. Write a paragraph using words that contain only three types of vowels. The response should include at least 4 pronouns.
+  key=272 ids=['words:vowel', 'count:pronouns'] kwargs={}
+  TAIL: Considering canon, how and why would Genji and Bridgette fall in love? Write a paragraph using words that contain only three types of vowels. The response should include at least 27 pronouns.
+
+=== words:words_position (3 prompts)
+  key=14 ids=['words:words_position'] kwargs={"keyword": "vibrant"}
+  TAIL: ing a numbered list and inspired by creative brainstorming, write different “Prompts Generators” suitable to be executable on an AI generated image, these should take the visual and prompt details in their context to create a hyper-realistic representation that is shows in first person a scene of a lucid dream of a serene old electrician beside the famed Nikola Tesla, as they work together in an otherworldly dimension where wires and circuits intertwine with the very fabric of space-time itself.
+  key=15 ids=['words:words_position'] kwargs={"keyword": "whisper"}
+  TAIL:  purpose of this background is to provide a foundation for a thorough examination of the connections between video games and psychology. The research situates itself within wider academic and societal discussions, emphasising the importance of comprehending video games beyond their mere entertainment worth. This endeavour aims to provide valuable perspectives to the ongoing discussion, promoting a well-informed and equitable understanding of video games and their role in our lives and societies.
+  key=16 ids=['words:words_position'] kwargs={"keyword": "despite"}
+

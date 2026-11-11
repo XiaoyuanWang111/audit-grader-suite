@@ -1,0 +1,122 @@
+{
+ "Qwen__Qwen2.5-14B-Instruct": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 163,
+  "trailing_whitespace": 20,
+  "trailing_newline": 12
+ },
+ "Qwen__Qwen2.5-32B-Instruct": {
+  "files": 13,
+  "responses": 3900,
+  "truncated_length": 113,
+  "trailing_whitespace": 1,
+  "trailing_newline": 1
+ },
+ "Qwen__Qwen2.5-7B-Instruct": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 214,
+  "trailing_whitespace": 10,
+  "trailing_newline": 7
+ },
+ "Qwen__Qwen3-14B": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 522,
+  "empty_graded_text": 28,
+  "trailing_whitespace": 55,
+  "trailing_newline": 19
+ },
+ "Qwen__Qwen3-14B__thinking": {
+  "files": 3,
+  "responses": 900,
+  "truncated_length": 53,
+  "extraction_failure_no_close": 32,
+  "extraction_failure_and_truncated": 32,
+  "trailing_whitespace": 3,
+  "trailing_newline": 1
+ },
+ "Qwen__Qwen3-32B": {
+  "files": 13,
+  "responses": 3900,
+  "truncated_length": 427,
+  "trailing_whitespace": 27,
+  "trailing_newline": 19,
+  "thinking_off_with_think_tag": 1
+ },
+ "Qwen__Qwen3-8B": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 695,
+  "trailing_whitespace": 36,
+  "trailing_newline": 31,
+  "empty_graded_text": 5
+ },
+ "Qwen__Qwen3-8B__thinking": {
+  "files": 3,
+  "responses": 900,
+  "truncated_length": 135,
+  "extraction_failure_no_close": 104,
+  "extraction_failure_and_truncated": 104,
+  "trailing_whitespace": 3,
+  "trailing_newline": 1
+ },
+ "allenai__Llama-3.1-Tulu-3-8B": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 275,
+  "trailing_whitespace": 73,
+  "trailing_newline": 46
+ },
+ "allenai__OLMo-2-0325-32B-Instruct": {
+  "files": 13,
+  "responses": 3900,
+  "truncated_length": 78,
+  "trailing_whitespace": 24,
+  "trailing_newline": 18
+ },
+ "allenai__OLMo-2-1124-13B-Instruct": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 146,
+  "trailing_whitespace": 54,
+  "trailing_newline": 26
+ },
+ "allenai__OLMo-2-1124-7B-Instruct": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 212,
+  "trailing_whitespace": 59,
+  "trailing_newline": 22
+ },
+ "marin-community__marin-8b-instruct": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 444,
+  "trailing_whitespace": 30,
+  "trailing_newline": 21,
+  "empty_graded_text": 4
+ },
+ "microsoft__phi-4": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 202,
+  "trailing_whitespace": 20,
+  "trailing_newline": 16
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3": {
+  "files": 17,
+  "responses": 5100,
+  "truncated_length": 253,
+  "trailing_whitespace": 14,
+  "trailing_newline": 8
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501": {
+  "files": 13,
+  "responses": 3900,
+  "truncated_length": 233,
+  "trailing_whitespace": 19,
+  "trailing_newline": 14
+ }
+}

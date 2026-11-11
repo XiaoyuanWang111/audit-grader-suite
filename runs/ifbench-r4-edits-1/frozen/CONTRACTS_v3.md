@@ -1,0 +1,604 @@
+# Contracts for the 58 IFBench checks
+
+Written from the text the model sees (the dataset prompts in
+`case/data/train-00000-of-00001.parquet`, listed per type in
+`audit/work/instructions_by_type.txt`) and the per-row parameters in `kwargs`,
+before reading any grader or reference code. Each check states PASS and FAIL
+conditions. Where the text allows two verdicts, the contract names a decision
+entry `D-<topic>`, gives the proposed reading (used by the contract) and the
+alternative. Decision entries are collected in the table at the end.
+
+## G. Rules shared by every check
+
+G1. Graded text. For a configuration with thinking on, the graded text is the
+text after the last `</think>` in the completion. A separate reasoning field is
+never graded. For a configuration with thinking off, it is the whole
+completion. Leading and trailing whitespace of the whole graded text is not
+part of the answer (D-strip-ends; alternative: it is, which matters only for
+`format:no_whitespace` and `format:line_indent`).
+
+G2. Extraction failure. A thinking-on completion with no `</think>` has no
+answer: it fails every check, and the report counts these separately.
+
+G3. Words (D-word). A word is a maximal run of letters and digits, which may
+contain internal apostrophes (straight or typographic) and internal hyphens
+(`don't`, `well-known` are one word each). Punctuation and markup characters
+standing alone (`-`, `*`, `**`, `#`, `|`, `>`, emoji) are not words, and markup
+attached to a word (`**word**`, `_word_`, `<i>word</i>`) is not part of it.
+Alternative reading: whitespace-separated tokens, so that `-`, `**` or `—`
+count as words and `word,` differs from `word`. For checks about the letters
+of words (alphabet, consonants, vowels, palindromes, prime lengths, first
+letters), a token with no letter (`2024`, `3.5`) is not a word
+(D-word-numbers; alternative: it is a word, and fails letter conditions).
+
+G4. Sentences (D-sentence). A sentence ends at `.`, `!`, `?`, `…` (or a run of
+these, optionally followed by closing quotes or brackets) followed by
+whitespace or the end of the text, and also at a line break. A line with no
+letter or digit (a rule `---`, a lone bullet marker) is not a sentence. A
+period in an abbreviation (`e.g.`, `Dr.`, `U.S.`) or a decimal number (`3.14`)
+does not end a sentence. Headings and list items without terminal punctuation
+are sentences. An emoji written directly after a sentence's terminal
+punctuation belongs to that sentence. Alternative readings: only terminal
+punctuation ends a sentence (so a heading merges with the next sentence); or
+headings and titles are not sentences.
+
+G5. Lines and paragraphs. A line is text between line breaks. A blank line is
+a line with only whitespace. A paragraph is a maximal block of non-blank lines
+(D-paragraph), except where a check's text defines it (see
+`words:paragraph_last_first`).
+
+G6. Matching words is case-insensitive unless a check says otherwise, and a
+keyword matches only a whole word, not a substring of a longer word
+(D-keyword-match; alternative: inflected forms of the keyword count, such as
+`eclipses` for `eclipse`). (v3) A substring inside a different word (`river`
+in `driver`, `door` in `outdoor`) is not the keyword under any reading.
+
+G7. Empty response. An empty graded text fails every check: it does not
+respond (D-empty; alternative: universally quantified checks such as "every
+sentence ..." pass vacuously). A non-empty response with no unit that a
+universal condition applies to (for example no quoted phrase under
+`format:quote_unquote`) passes that condition literally (D-vacuous;
+alternative: it fails because the requirement presupposes the units exist).
+
+G8. Scores. Instruction-level accuracy = passed checks / all checks; prompt-
+level accuracy = prompts whose every check passed / all prompts. Every one of
+the 344 checks over the 300 prompts must receive a verdict (scored coverage
+100%). A grader exception is a grading failure, reported separately; it must
+not stop the run, and in the score it is not a pass.
+
+G9. Score-level transforms. A transform that grades an edited response (for
+example dropping the first or last line, or deleting markup characters) and
+counts a pass if any edited version passes is consistent with the contract
+only for checks whose contract ignores the removed content. For any other
+check, a pass obtained only on an edited response contradicts the contract.
+
+G10. (v2) Typographic quotation marks and apostrophes (`“ ” ‘ ’`) are the same
+characters as straight ones (`" '`) for every check, unless a check's text
+names the character. A trailing newline and a blank line between lines change
+no verdict except under checks about lines, paragraphs or whitespace.
+
+## Per-check contracts
+
+Notation: `N`, `n`, `m`, `keyword`, `percentage`, ... are the row's kwargs,
+shown in the prompt text exactly as the template says.
+
+### count
+
+**count:conjunctions** — "Use at least N different coordinating conjunctions
+in the response." (one prompt renders N as `4.0`).
+PASS: at least N distinct words from {for, and, nor, but, or, yet, so} occur.
+FAIL: fewer than N distinct ones. D-conj-role: proposed, a word counts by its
+form, whatever its role; alternative, only uses as a coordinating conjunction
+count ("for example" or "so much" would not).
+
+**count:keywords_multiple** — "Include keyword K1 once in your response,
+keyword K2 twice ..., K3 three times ..., K4 five times ..., and K5 seven
+times in your response."
+PASS: whole-word, case-insensitive counts are exactly 1, 2, 3, 5, 7.
+FAIL: any other count. D-count-exact: proposed exact counts; alternative "at
+least". D-keyword-match applies (plural `doors` is not `door`).
+
+**count:numbers** — "Include exactly N numbers in the response."
+PASS: the response contains exactly N numbers. D-number: proposed, a number is
+a maximal run of digits, with internal `.` or `,` between digits (`3.14`,
+`1,000` are one number each), wherever it occurs (list labels `1.` and digits
+inside tokens such as `H2O` count; a leading sign is part of it). Number words
+(`five`) do not count. Alternatives: number words count; digits inside words
+or list labels do not count.
+FAIL: any other count.
+
+**count:person_names** — "Mention at least N different person names in the
+response, from this list of person names: Emma, Liam, ... Jonathan ."
+PASS: at least N distinct names from the list occur as whole words, written
+with the list's capitalization (possessive `Emma's` counts). FAIL otherwise.
+D-name-case: proposed case-sensitive (lower-case `grace`, `lily`, `mason` used
+as common words do not count); alternative case-insensitive.
+
+**count:pronouns** — "The response should include at least N pronouns."
+PASS: at least N pronoun tokens (repeats count). D-pronoun-set: proposed,
+personal, object, possessive (both `my` and `mine` forms), and reflexive
+pronouns (I, me, my, mine, myself, you, your, yours, yourself, yourselves, he,
+him, his, himself, she, her, hers, herself, it, its, itself, we, us, our,
+ours, ourselves, they, them, their, theirs, themselves); alternative, also demonstrative,
+relative, interrogative and indefinite pronouns (this, that, who, which,
+someone, everything, ...). FAIL otherwise.
+
+**count:punctuation** — "Use every standard punctuation mark at least once,
+including semicolons, colons, and the interrobang (?!)."
+PASS: each of these occurs at least once: period, comma, question mark,
+exclamation mark, colon, semicolon, apostrophe, quotation marks, hyphen, dash,
+parentheses, square brackets, ellipsis, and the interrobang written `?!` (or
+`‽`). D-punct-set: proposed the list above (straight or typographic forms;
+dash = `–`, `—` or `--`; ellipsis = `…` or `...`); alternatives: a shorter
+list (. , ? ! ; : ' " and ?!), or a longer one (adds braces `{}`, slash `/`).
+FAIL: any listed mark missing.
+
+**count:unique_word_count** — "Use at least N unique words in the response."
+PASS: at least N distinct words, case-insensitive (D-unique-case; alternative
+case-sensitive). FAIL otherwise.
+
+**count:word_count_range** — "The response must contain between A and B words."
+PASS: A <= word count <= B (D-between: proposed inclusive; alternative
+exclusive). FAIL otherwise. D-word decides the count.
+
+**count:words_japanese** — "Every Nth word of your response must be in
+Japanese."
+PASS: every word at position N, 2N, 3N, ... (1-based) is written in Japanese
+script (hiragana, katakana, or kanji); other positions are free. A run of
+Japanese characters with no space is one word (D-japanese-seg; alternative,
+Japanese text is segmented into dictionary words). Romanized Japanese is not
+Japanese script (D-japanese-script). FAIL: any word at a multiple of N is not
+in Japanese script. A response with fewer than N words passes literally
+(D-vacuous).
+
+### custom
+
+**custom:character_reverse** — "What animal is the national symbol of the US?
+Respond to this query, but make your sentence in reverse order of what it
+should be, per letter."
+PASS: the graded text, read backwards character by character, is one English
+sentence that answers the question (names the bald eagle / eagle), and the
+response contains nothing else. Capitalization and the position of the final
+period are ignored (D-reverse-case). FAIL: forward text, word-order reversal,
+extra text such as the forward sentence or an explanation (D-reverse-extra:
+proposed fail; alternative, extra text allowed if a reversed answer is
+present), or an answer that does not name the eagle (D-reverse-answer:
+proposed required; alternative, any reversed sentence).
+
+**custom:word_reverse** — same query, "... per word."
+PASS: the graded text is one sentence whose words, read in reverse order, form
+an English sentence answering the question (names the eagle); nothing else.
+Capitalization and punctuation placement are ignored. FAIL: forward order,
+letter reversal, extra text, no eagle (same decisions as above).
+
+**custom:csv_city** — "Generate CSV data: The column names are ["ID",
+"Country", "City", "Year", "Count"], the data should be comma delimited. Please
+generate 7 rows."
+PASS: the CSV (the content of a code fence if the response has one, else the
+whole text) parses with comma delimiter into a header ID,Country,City,Year,Count
+(fields may be quoted) and exactly 7 data rows of 5 fields each.
+D-csv-rows: proposed 7 data rows besides the header; alternative 7 lines
+including the header. D-csv-wrapper: proposed, prose outside a code fence is
+ignored; alternative, the response must be CSV only. FAIL otherwise.
+
+**custom:csv_quotes** — "... the data should be tab delimited. Please generate 3
+rows and enclose each single field in double quotes." (columns StudentID,
+Subject, Grade, Semester, Score)
+PASS: header plus exactly 3 data rows; every line has 5 fields separated by
+tab characters; every field, header fields included (D-csv-header-quoted;
+alternative: data fields only), is enclosed in double quotes. FAIL otherwise
+(comma or space delimiters, unquoted fields, wrong row count).
+
+**custom:csv_special_character** — "... comma delimited. Please generate 14
+rows. Add one field which contains a special character and enclose it in double
+quotes." (columns ProductID, Category, Brand, Price, Stock)
+PASS: header plus exactly 14 data rows of 5 CSV fields each, and at least one
+field that is enclosed in double quotes and contains a special character.
+D-special-char: proposed, a special character is any character that is not a
+letter, digit, space, or the `.`/`-` inside a number; alternative, any
+non-alphanumeric character. D-csv-one-field: proposed at least one such field;
+alternative exactly one quoted field. FAIL otherwise.
+
+**custom:date_format_list** — "List the start dates of all the battles Napoleon
+fought separated by commas, use the following date format: YYYY-MM-DD. Do not
+provide an explanation."
+PASS: the graded text is a list of at least two valid calendar dates written
+YYYY-MM-DD, separated by commas (whitespace or line breaks after commas
+allowed), and nothing else. Whether the dates are the right battles is not
+graded. FAIL: other date formats, other separators, battle names or any
+explanation text (D-date-extra: proposed fail; alternative, short labels
+allowed).
+
+**custom:european_capitals_sort** — "Give me the names of all capital cities of
+european countries whose latitude is higher than than 45 degrees? List the
+capital cities without country names, separated by commas, sorted by latitude,
+from highest to lowest."
+PASS: a single comma-separated list of city names, no country names, each a
+capital of a European country with latitude above 45 degrees north, in
+strictly decreasing latitude, with none missing. Reference set (proposed,
+D-capitals-set): Reykjavik, Helsinki, Oslo, Tallinn, Stockholm, Riga, Moscow,
+Copenhagen, Vilnius, Minsk, Dublin, Berlin, Amsterdam, Warsaw, London,
+Brussels, Kyiv, Prague, Luxembourg, Paris, Vienna, Bratislava, Budapest,
+Vaduz, Chisinau, Bern, Ljubljana, Zagreb (alternatives: add Astana; drop
+Moscow; accept The Hague; count non-sovereign capitals such as Tórshavn).
+FAIL: wrong order, a city south of 45 degrees, a missing capital, country names,
+or a non-list answer. D-capitals-complete: proposed completeness required;
+alternative, order and membership only.
+
+**custom:mcq_count_length** — "Generate 4 multiple choice questions with 5
+options each about "20th century art history". Each question should start with
+the label "Question". The questions should get progressively longer. Do not
+provide an explanation."
+PASS: exactly 4 questions; each starts with the label `Question` (number and
+colon after it allowed; markup around it allowed); each has exactly 5 options;
+the question texts get strictly longer from the first to the fourth
+(D-mcq-length: proposed, length of the question stem in characters, options
+excluded; alternatives, words, or the whole block with options); no
+explanation or answer key. FAIL otherwise.
+
+**custom:multiples** — "Count from 10 to 50 but only print multiples of 7."
+PASS: the integers written in the graded text are exactly 14, 21, 28, 35, 42,
+49, in that order, each once. D-multiples-extra: proposed, words without
+numbers are allowed around them; alternatives: nothing but the numbers and
+separators, or an introduction restating "10 to 50" or "7" is allowed. FAIL:
+a missing, extra or out-of-order number.
+
+**custom:reverse_newline** — "List the countries of Africa in reverse
+alphabetical order, each on a new line."
+PASS: one country per line (list markers allowed), lines in strictly
+decreasing alphabetical order (by the name written, case-insensitive, ignoring
+a leading "The"), every line an African country, and all 54 UN member states
+present under some common name (D-africa-set: proposed the 54; alternatives
+add Western Sahara/SADR, or completeness not required, D-africa-complete).
+Lines that are not countries (introduction, closing note): D-list-intro,
+proposed fail; alternative allowed. FAIL otherwise.
+
+**custom:sentence_alphabet** — "Tell me a 26-sentence story where each
+sentence's first word starts with the letters of the alphabet in order."
+PASS: exactly 26 sentences (G4); the first word of sentence i starts with the
+i-th letter A..Z (case-insensitive). A title line counts as a sentence under
+G4 (D-sentence). FAIL otherwise.
+
+### format
+
+**format:emoji** — "Please use an emoji at the end of every sentence."
+PASS: every sentence ends with an emoji, either as its last character or
+directly before or after its terminal punctuation (D-emoji-position: proposed
+both; alternative, the emoji must be the final character). FAIL: any sentence
+(G4; headings count) without an emoji at its end.
+
+**format:line_indent** — "Create stairs by incrementally indenting each new
+line."
+PASS: across non-blank lines, the leading whitespace width strictly increases
+from each line to the next (D-indent-step: proposed any increase; alternative
+a constant step). The first line may have no indent. FAIL: any non-blank line
+not indented more than the previous non-blank line, or fewer than two
+non-blank lines (D-indent-min: proposed fail).
+
+**format:list** — "Answer with a list of items, instead of bullet points use
+SEP." (SEP in {`!?!?`, `SEPARATOR`, `-`})
+PASS: the answer is a list of at least two items marked or separated by SEP:
+either each item line starts with SEP, or the items are separated by SEP
+(D-list-sep: proposed both; alternative, prefix at line start only). No item
+uses another bullet marker (`*`, `•`, or `-` when SEP is not `-`) or a
+numbered label instead of SEP. D-list-intro: proposed, a short introduction
+line is allowed. FAIL otherwise.
+
+**format:newline** — "Write each word on a new line."
+PASS: every non-blank line contains exactly one word (G3; punctuation attached
+to the word allowed; lines with no word are ignored). FAIL: any line with two
+or more words.
+
+**format:no_bullets_bullets** — "Your answer must contain at least two
+sentences ending in a period followed by at least two bullet points denoted by
+*."
+PASS: at least two sentences that end in `.` appear outside bullet items and
+before the bullets, and they are followed by at least two bullet points whose
+lines start with `*` and a space (other content after them allowed). FAIL:
+fewer than two period-ending sentences before the bullets, or fewer than two
+`*` bullets after them (D-bullet-marker: proposed, `-` or `•` bullets do not
+count).
+
+**format:no_whitespace** — "The output should not contain any whitespace."
+PASS: the graded text contains no whitespace character (Unicode White_Space:
+space, tab, newline, no-break space, ideographic space, ...). D-whitespace-set:
+proposed Unicode White_Space; alternative ASCII only. Leading/trailing
+whitespace: G1 (D-strip-ends). FAIL otherwise.
+
+**format:options** — "Answer with one of the following options: OPTIONS."
+(`yes/no/maybe`; `I know or I don't know`; `a), b), c), d)`)
+PASS: the graded text is exactly one option, ignoring case, surrounding
+whitespace and markup, a trailing period, and for letter options the form
+(`b`, `b)`, `(b)`, `B)`). D-options-text: proposed, the letter may be followed
+by the verbatim text of that option and nothing else; alternative, the label
+alone. FAIL: explanation or any other text, or more than one option.
+
+**format:output_template** — "Use this exact template for your response: My
+Answer: [answer] My Conclusion: [conclusion] Future Outlook: [outlook]"
+PASS: the response starts with `My Answer:` and contains `My Conclusion:` and
+then `Future Outlook:`, each exactly once and in this order, each followed by
+non-empty content that replaces its placeholder; nothing before `My Answer:`.
+D-template-markup: proposed, markup around labels (`**My Answer:**`) and line
+breaks between sections are allowed; alternative, labels in plain text only.
+Square brackets left around the content are allowed; a literal placeholder
+(`[answer]`) is a fail. FAIL otherwise.
+
+**format:parentheses** — "Nest parentheses (and [brackets {and braces}]) at
+least 5 levels deep."
+PASS: the text contains a properly matched nesting of brackets of depth at
+least 5, counting `()`, `[]` and `{}` alike (D-paren-types: proposed any mix;
+alternative, the three kinds must all appear, or cycle as in the example).
+Brackets in math or code count. FAIL: maximum properly nested depth below 5.
+
+**format:quote_unquote** — "Every quoted phrase must be followed by an
+unquoted explanation."
+PASS: after each quoted phrase (text between a matching pair of `"`, `“ ”`,
+`« »`; single quotes `' '`/`‘ ’` used as quotation marks too, apostrophes in
+words excluded) comes unquoted text that explains it, before the next quoted
+phrase or the end. D-quote-explanation: proposed, the following unquoted text
+must contain at least one word (a programmatic stand-in); alternative, it must
+actually explain the phrase. FAIL: a quoted phrase followed directly by
+another quoted phrase or the end of the text, or only punctuation.
+
+**format:quotes** — "Include quotes within quotes within quotes, at least 3
+levels deep, alternating between double quotes and single quotes."
+PASS: a quoted span contains a quoted span that contains a quoted span (depth
+>= 3), the quote kind alternating between double and single at each level
+(straight or typographic). D-quotes-start: proposed, outermost may be either
+kind; alternative, outermost double. FAIL: depth below 3 or no alternation.
+
+**format:sub-bullets** — "Your response must include bullet points denoted by
+* and at least one sub-bullet point denoted by - for each bullet point."
+PASS: at least one bullet line starting with `*` and a space, and each such
+bullet is followed, before the next `*` bullet, by at least one line starting
+(after optional indentation) with `-` and a space. D-subbullet-indent:
+proposed indentation not required; alternative, sub-bullets must be indented
+more than their bullet. D-plural: proposed at least one `*` bullet;
+alternative at least two. FAIL: no `*` bullet, or a `*` bullet with no `-`
+sub-bullet.
+
+**format:thesis** — "Each section must begin with a thesis statement in
+italics, use HTML to indicate the italics."
+PASS: every section's first content (after its heading line, if any) is a
+statement wrapped in HTML italic tags (`<i>...</i>`; `<em>...</em>` accepted,
+D-italic-tag). D-section: proposed, sections are delimited by Markdown
+headings when the response has them, otherwise each paragraph is a section;
+alternative, only headed sections, or the whole response is one section. FAIL:
+a section whose first content is not HTML-italic, Markdown italics only, or no
+HTML italics at all.
+
+**format:title_case** — "Write the entire response in title case (capitalize
+the first letter of every major word)."
+PASS: every major word starts with an upper-case letter. Minor words (articles
+a/an/the; coordinating conjunctions; prepositions of up to four letters; `to`,
+`as`) may start with either case (D-title-minor: proposed this list and
+either case; alternative, minor words must be lower-case, or the first word of
+each line must be capitalized). Tokens without letters are ignored. FAIL: any
+major word starting with a lower-case letter.
+
+### ratio
+
+**ratio:overlap** — "Maintain a trigram overlap of P% (±2%) with the provided
+reference text."
+PASS: the overlap is within [P-2, P+2] percentage points (D-overlap-tol:
+proposed absolute points; alternative relative 2%). D-overlap-def: proposed,
+word trigrams (lower-cased, punctuation removed), overlap = distinct response
+trigrams also in the reference / distinct response trigrams; alternatives:
+divide by the reference's trigrams, Jaccard, character trigrams. The reference
+text is the prompt's text other than the instruction sentences (= kwargs
+`reference_text`). FAIL otherwise.
+
+**ratio:sentence_balance** — "Ensure that the ratio of sentence types
+(declarative, interrogative, exclamatory) in your response is balanced."
+PASS: all three types occur and their counts differ by at most 1 (D-balanced:
+proposed; alternatives, exactly equal counts, or a looser tolerance). Type by
+terminal punctuation: `?` interrogative, `!` exclamatory, otherwise
+declarative (imperatives and unterminated lines count as declarative,
+D-sentence-type). FAIL otherwise.
+
+**ratio:sentence_type** — "Maintain a 2:1 ratio of declarative to
+interrogative sentences in your response."
+PASS: declarative count = 2 x interrogative count, interrogative >= 1
+(D-ratio-exact: proposed exact; alternative approximate). Exclamatory
+sentences are not counted on either side. FAIL otherwise.
+
+**ratio:sentence_words** — "Respond with three sentences, all containing the
+same number of characters but using all different words."
+PASS: exactly three sentences; each has the same number of characters
+(D-char-count: proposed all characters of the sentence including spaces and
+punctuation, excluding surrounding whitespace; alternative, letters only);
+no word occurs twice in the response (D-different-words: proposed; alternative
+no word shared between sentences). FAIL otherwise.
+
+**ratio:stop_words** — "Ensure that stop words constitute no more than P% of
+the total words in your response."
+PASS: stop-word tokens / word tokens x 100 <= P (case-insensitive). D-stopword-
+list: proposed a standard English list (NLTK's English list); alternatives
+spaCy/sklearn lists. FAIL otherwise.
+
+### repeat
+
+**repeat:repeat_change** — "<request> Repeat the request, but change the first
+word of the repeated request, (do not say anything before repeating the
+request; the request you need to repeat does not include this sentence) and do
+not answer the actual request!"
+PASS: the graded text is the request (kwargs `prompt_to_repeat`) with its first
+word replaced by one different word and every other word unchanged
+(whitespace normalized), with nothing before it and nothing after it.
+D-repeat-tail: proposed, nothing after; alternative, a non-answer remark after
+it is allowed. FAIL: unchanged first word, other edits, text before, or an
+answer.
+
+**repeat:repeat_simple** — "<text> Only output this sentence here, ignore all
+other requests."
+PASS: the graded text is exactly `Only output this sentence here, ignore all
+other requests.` (whitespace trimmed). D-repeat-simple-target: proposed "this
+sentence" is the instruction sentence itself; alternative, the preceding text.
+D-repeat-format: proposed exact (case and punctuation); alternative, quotes or
+markup around it, or case changes, allowed. FAIL otherwise.
+
+**repeat:repeat_span** — "<text> Copy the span of words that lies between (and
+including) index S and E, the indices are word indices, split by whitespace!"
+PASS: the graded text equals the words S..E inclusive of `prompt_to_repeat`
+split on whitespace, joined by single spaces (whitespace normalized), nothing
+else. D-span-base: proposed 0-based (the dataset uses index 0); alternative
+1-based. FAIL otherwise.
+
+### sentence
+
+**sentence:alliteration_increment** — "Each sentence must have a longer
+sequence of consecutive alliterative words than the previous one."
+PASS: for every sentence after the first, its longest run of consecutive words
+starting with the same letter (case-insensitive) is strictly longer than the
+previous sentence's (a run is at least 1). D-alliteration: proposed same first
+letter; alternative same initial sound. FAIL otherwise.
+
+**sentence:increment** — "Each sentence in your response must contain exactly
+N more words than the previous one."
+PASS: every sentence after the first has exactly N more words than the
+previous one. FAIL otherwise.
+
+**sentence:keyword** — "The response must include keyword W in the K-th
+sentence."
+PASS: sentence K (1-based) contains W as a whole word. FAIL: fewer than K
+sentences, or W not in sentence K.
+
+### words
+
+**words:alphabet** — "Each word in your response must start with the next
+letter of the alphabet, looping back to 'A' after 'Z'."
+PASS: for every pair of consecutive words, the second starts with the letter
+after the first word's initial (Z then A), case-insensitive. D-alphabet-start:
+proposed any starting letter; alternative must start with A. FAIL otherwise.
+
+**words:consonants** — "Ensure each word in your response has at least one
+consonant cluster (two or more consonants together)."
+PASS: every word contains two adjacent consonant letters (letters other than
+a, e, i, o, u; `y` counts as a consonant, D-consonant-y; clusters by spelling,
+so `th`, `ph` count). FAIL: any word without one (`a`, `I`, `is`, `the` ... ).
+
+**words:keywords_specific_position** — "Include keyword K in the n-th
+sentence, as the m-th word of that sentence."
+PASS: word m (1-based) of sentence n is K. FAIL otherwise.
+
+**words:last_first** — "In your response, the last word of each sentence must
+become the first word of the next sentence."
+PASS: for every pair of consecutive sentences, the last word of the first
+equals the first word of the second (case-insensitive). FAIL otherwise.
+
+**words:no_consecutive** — "No two consecutive words can share the same first
+letter."
+PASS: no two adjacent words (across sentence and line boundaries) start with
+the same letter, case-insensitive. FAIL otherwise.
+
+**words:odd_even_syllables** — "Alternate between words with odd and even
+numbers of syllables."
+PASS: consecutive words alternate in syllable-count parity (either parity
+first). D-syllables: proposed dictionary pronunciation (standard American
+English); alternative, a spelling heuristic. FAIL otherwise.
+
+**words:palindrome** — "Include at least 10 single-word palindromes, each at
+least 5 characters long."
+PASS: at least 10 distinct words (case-insensitive, letters only) that read the
+same backwards and have at least 5 letters. D-palindrome-distinct: proposed
+distinct; alternative, repeated occurrences count. D-palindrome-word: proposed
+any word token; alternative, dictionary words only. FAIL otherwise.
+
+**words:paragraph_last_first** — "Each paragraph of your response must end with
+the same word it started with, separate paragraphs with a newline."
+PASS: every paragraph's first word equals its last word (case-insensitive).
+D-paragraph-newline: proposed, the text defines paragraphs as separated by a
+newline, so each non-blank line is a paragraph; alternative, blank-line
+blocks. FAIL otherwise.
+
+**words:prime_lengths** — "Use only words with lengths that are prime
+numbers."
+PASS: every word's length in letters (apostrophes and hyphens not counted,
+D-word-length) is 2, 3, 5, 7, 11, 13, ... FAIL: any word of length 1, 4, 6, 8,
+9, 10, 12, ...
+
+**words:repeats** — "The response should not repeat any word more than N
+times."
+PASS: no word occurs more than N times (case-insensitive). D-repeats-count:
+proposed occurrences <= N; alternative repetitions <= N, i.e. occurrences <=
+N+1. FAIL otherwise.
+
+**words:start_verb** — "The response must start with a verb."
+PASS: the first word of the graded text (markup ignored) is a verb in its
+context (imperative, finite, or auxiliary verb). D-verb-context: proposed,
+judged in context (`Picture this` is a verb, `Design principles` is not);
+alternative, any word that can be a verb. FAIL otherwise.
+
+**words:vowel** — "Write a paragraph using words that contain only three types
+of vowels."
+PASS: the response is one paragraph, and its words together use at most three
+of the vowel letters a, e, i, o, u (D-vowel-scope: proposed whole response, at
+most three; alternatives, each word has at most three vowel types, or each
+word has exactly three). FAIL otherwise. D-vowel-paragraph: proposed, more
+than one paragraph fails.
+
+**words:words_position** — "The second word in your response and the second to
+last word in your response should be the word K."
+PASS: word 2 and word (count - 1) both equal K (case-insensitive). FAIL
+otherwise.
+
+## Decision table (proposed reading first)
+
+| Entry | Proposed | Alternative(s) |
+|---|---|---|
+| D-strip-ends | ignore leading/trailing whitespace of the graded text | count it |
+| D-word | runs of letters/digits with internal ' and -; standalone punctuation/markup not words | whitespace tokens |
+| D-word-numbers | digit-only tokens are not words for letter checks | they are |
+| D-sentence | ends at . ! ? … and at line breaks; headings are sentences | punctuation only; headings excluded |
+| D-paragraph | blank-line blocks | single newlines |
+| D-keyword-match | whole word, case-insensitive, no inflections | inflected forms count (v3: substrings of other words never count) |
+| D-empty | empty response fails all | vacuous pass |
+| D-vacuous | literal (no units: pass) | presupposition fails |
+| D-conj-role | by word form | by grammatical role |
+| D-count-exact | exact counts | at least |
+| D-number | digit runs incl. 3.14, 1,000, list labels | number words; exclude labels |
+| D-name-case | case-sensitive | case-insensitive |
+| D-pronoun-set | personal/possessive/reflexive | plus demonstrative, relative, indefinite |
+| D-punct-set | 14-mark list + ?! | shorter or longer list |
+| D-unique-case | case-insensitive | case-sensitive |
+| D-between | inclusive | exclusive |
+| D-japanese-seg / -script | unspaced run = 1 word; script required | segmentation; romaji |
+| D-reverse-case / -extra / -answer | ignore case; no extra text; must name eagle | allow extra; any sentence |
+| D-csv-rows / -wrapper / -header-quoted | 7 data rows; prose outside fence ignored; header quoted too | incl. header; CSV only; data only |
+| D-special-char / D-csv-one-field | non-alnum excluding number . - ; at least one | any non-alnum; exactly one |
+| D-date-extra | nothing but dates | labels allowed |
+| D-capitals-set / -complete | 28 capitals listed; complete | variants; order only |
+| D-mcq-length | stem characters | words; whole block |
+| D-multiples-extra | words allowed, no other numbers | numbers only; intro with numbers |
+| D-africa-set / -complete / D-list-intro | 54 UN states; complete; no intro | +SADR; order only; intro ok |
+| D-emoji-position | before or after terminal punctuation | last character only |
+| D-indent-step / -min | any increase; >=2 lines | constant step |
+| D-list-sep / D-list-intro | prefix or separator; intro ok | prefix only; no intro |
+| D-bullet-marker | only * bullets count | any marker |
+| D-whitespace-set | Unicode White_Space | ASCII |
+| D-options-text | label + verbatim option text ok | label only |
+| D-template-markup | markup around labels ok | plain only |
+| D-paren-types | any mix of () [] {} | all three kinds / cycle |
+| D-quote-explanation | >=1 unquoted word after | semantic explanation |
+| D-quotes-start | either kind outermost | double outermost |
+| D-subbullet-indent / D-plural | no indent needed; >=1 bullet | indent needed; >=2 |
+| D-italic-tag / D-section | <i> or <em>; headings else paragraphs | <i> only; other sectioning |
+| D-title-minor | listed minor words either case | minor lower-case only |
+| D-overlap-def / -tol | response-side word-trigram share; +-2 points | reference-side, Jaccard; relative |
+| D-balanced / D-sentence-type | all 3 present, counts within 1; unterminated = declarative | exact equality; looser |
+| D-ratio-exact | exactly 2:1 | approximate |
+| D-char-count / D-different-words | all chars; no word twice in response | letters only; not shared across sentences |
+| D-stopword-list | NLTK English | spaCy/sklearn |
+| D-repeat-tail | nothing after | non-answer remark ok |
+| D-repeat-simple-target / -format | the instruction sentence; exact | preceding text; quotes/case ok |
+| D-span-base | 0-based | 1-based |
+| D-alliteration | same letter | same sound |
+| D-alphabet-start | any start | must start with A |
+| D-consonant-y | y is a consonant | y is a vowel |
+| D-syllables | dictionary pronunciation | heuristic |
+| D-palindrome-distinct / -word | distinct; any token | occurrences; dictionary words |
+| D-paragraph-newline | each line is a paragraph | blank-line blocks |
+| D-word-length | letters only | include ' and - |
+| D-repeats-count | occurrences <= N | occurrences <= N+1 |
+| D-verb-context | verb in context | can be a verb |
+| D-vowel-scope / -paragraph | whole response <= 3 vowel types; one paragraph | per word; several paragraphs ok |

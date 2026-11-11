@@ -1,0 +1,443 @@
+{
+ "readings": {
+  "D-sentence": "punct",
+  "D-paragraph": "line",
+  "D-strip-ends": "keep",
+  "D-pronoun-set": "broad",
+  "D-punct-set": "grader6",
+  "D-palindrome-distinct": "occurrences",
+  "D-overlap-def": "char",
+  "D-indent-min": "one",
+  "D-section": "whole",
+  "D-options-text": "exact",
+  "D-csv-wrapper": "only",
+  "D-verb-context": "can-be",
+  "D-word-numbers": "include",
+  "D-africa-complete": "order",
+  "D-list-intro": "allow",
+  "D-reverse-extra": "allow",
+  "D-repeat-format": "loose",
+  "D-sentence-type": "exclude",
+  "D-balanced": "equal"
+ },
+ "per_config": {
+  "Qwen__Qwen2.5-14B-Instruct": {
+   "grader": 0.3407843137254902,
+   "graderlike": 0.31,
+   "proposed": 0.2901960784313726,
+   "findings_effect": -0.030784313725490176,
+   "decisions_effect": -0.019803921568627425
+  },
+  "Qwen__Qwen2.5-32B-Instruct": {
+   "grader": 0.3517948717948718,
+   "graderlike": 0.3364102564102564,
+   "proposed": 0.3351282051282051,
+   "findings_effect": -0.015384615384615385,
+   "decisions_effect": -0.0012820512820512775
+  },
+  "Qwen__Qwen2.5-7B-Instruct": {
+   "grader": 0.2741176470588235,
+   "graderlike": 0.25666666666666665,
+   "proposed": 0.25392156862745097,
+   "findings_effect": -0.017450980392156867,
+   "decisions_effect": -0.0027450980392156876
+  },
+  "Qwen__Qwen3-14B": {
+   "grader": 0.2774509803921569,
+   "graderlike": 0.2731372549019608,
+   "proposed": 0.28411764705882353,
+   "findings_effect": -0.004313725490196096,
+   "decisions_effect": 0.01098039215686275
+  },
+  "Qwen__Qwen3-14B__thinking": {
+   "grader": 0.3433333333333333,
+   "graderlike": 0.37222222222222223,
+   "proposed": 0.3788888888888889,
+   "findings_effect": 0.02888888888888891,
+   "decisions_effect": 0.006666666666666654
+  },
+  "Qwen__Qwen3-32B": {
+   "grader": 0.251025641025641,
+   "graderlike": 0.2548717948717949,
+   "proposed": 0.2643589743589744,
+   "findings_effect": 0.003846153846153888,
+   "decisions_effect": 0.009487179487179476
+  },
+  "Qwen__Qwen3-8B": {
+   "grader": 0.25176470588235295,
+   "graderlike": 0.24862745098039216,
+   "proposed": 0.24568627450980393,
+   "findings_effect": -0.00313725490196079,
+   "decisions_effect": -0.002941176470588225
+  },
+  "Qwen__Qwen3-8B__thinking": {
+   "grader": 0.3244444444444444,
+   "graderlike": 0.29333333333333333,
+   "proposed": 0.3011111111111111,
+   "findings_effect": -0.03111111111111109,
+   "decisions_effect": 0.007777777777777772
+  },
+  "allenai__Llama-3.1-Tulu-3-8B": {
+   "grader": 0.22666666666666668,
+   "graderlike": 0.23019607843137255,
+   "proposed": 0.2323529411764706,
+   "findings_effect": 0.0035294117647058643,
+   "decisions_effect": 0.002156862745098048
+  },
+  "allenai__OLMo-2-0325-32B-Instruct": {
+   "grader": 0.33282051282051284,
+   "graderlike": 0.3215384615384615,
+   "proposed": 0.3041025641025641,
+   "findings_effect": -0.011282051282051342,
+   "decisions_effect": -0.017435897435897407
+  },
+  "allenai__OLMo-2-1124-13B-Instruct": {
+   "grader": 0.22647058823529412,
+   "graderlike": 0.2084313725490196,
+   "proposed": 0.1931372549019608,
+   "findings_effect": -0.018039215686274507,
+   "decisions_effect": -0.01529411764705882
+  },
+  "allenai__OLMo-2-1124-7B-Instruct": {
+   "grader": 0.20372549019607844,
+   "graderlike": 0.2027450980392157,
+   "proposed": 0.18725490196078431,
+   "findings_effect": -0.0009803921568627416,
+   "decisions_effect": -0.015490196078431384
+  },
+  "marin-community__marin-8b-instruct": {
+   "grader": 0.17392156862745098,
+   "graderlike": 0.1684313725490196,
+   "proposed": 0.1676470588235294,
+   "findings_effect": -0.005490196078431375,
+   "decisions_effect": -0.0007843137254902044
+  },
+  "microsoft__phi-4": {
+   "grader": 0.19058823529411764,
+   "graderlike": 0.1988235294117647,
+   "proposed": 0.20705882352941177,
+   "findings_effect": 0.008235294117647063,
+   "decisions_effect": 0.008235294117647063
+  },
+  "mistralai__Mistral-7B-Instruct-v0.3": {
+   "grader": 0.17627450980392156,
+   "graderlike": 0.16686274509803922,
+   "proposed": 0.17137254901960786,
+   "findings_effect": -0.009411764705882342,
+   "decisions_effect": 0.004509803921568634
+  },
+  "mistralai__Mistral-Small-24B-Instruct-2501": {
+   "grader": 0.2182051282051282,
+   "graderlike": 0.23666666666666666,
+   "proposed": 0.23461538461538461,
+   "findings_effect": 0.018461538461538474,
+   "decisions_effect": -0.0020512820512820495
+  }
+ },
+ "pooled": {
+  "prompt": 0.24309941520467837,
+  "instr": 0.2688698490412077
+ },
+ "disagreements": 4446,
+ "by_check": {
+  "count:keywords_multiple": {
+   "n": 1140,
+   "same": 1139,
+   "gl_pass_rep_fail": 1
+  },
+  "count:conjunctions": {
+   "n": 1596,
+   "same": 1401,
+   "gl_pass_rep_fail": 195
+  },
+  "words:keywords_specific_position": {
+   "n": 912,
+   "same": 912
+  },
+  "words:words_position": {
+   "n": 684,
+   "same": 679,
+   "gl_fail_rep_pass": 5
+  },
+  "count:numbers": {
+   "n": 1824,
+   "same": 1819,
+   "gl_fail_rep_pass": 1,
+   "gl_pass_rep_fail": 4
+  },
+  "count:unique_word_count": {
+   "n": 2052,
+   "same": 1994,
+   "gl_pass_rep_fail": 56,
+   "gl_fail_rep_pass": 2
+  },
+  "count:person_names": {
+   "n": 1368,
+   "same": 1368
+  },
+  "count:pronouns": {
+   "n": 1824,
+   "same": 1815,
+   "gl_pass_rep_fail": 5,
+   "gl_fail_rep_pass": 4
+  },
+  "count:punctuation": {
+   "n": 1368,
+   "same": 1368
+  },
+  "count:word_count_range": {
+   "n": 2508,
+   "same": 2372,
+   "gl_fail_rep_pass": 79,
+   "gl_pass_rep_fail": 57
+  },
+  "format:list": {
+   "n": 2052,
+   "same": 1876,
+   "gl_pass_rep_fail": 156,
+   "gl_fail_rep_pass": 20
+  },
+  "count:words_japanese": {
+   "n": 1140,
+   "same": 1102,
+   "gl_pass_rep_fail": 34,
+   "gl_fail_rep_pass": 4
+  },
+  "repeat:repeat_change": {
+   "n": 684,
+   "same": 684
+  },
+  "repeat:repeat_simple": {
+   "n": 456,
+   "same": 456
+  },
+  "format:emoji": {
+   "n": 2052,
+   "gl_pass_rep_fail": 471,
+   "same": 1567,
+   "gl_fail_rep_pass": 14
+  },
+  "sentence:keyword": {
+   "n": 3420,
+   "same": 3418,
+   "gl_fail_rep_pass": 2
+  },
+  "format:line_indent": {
+   "n": 2052,
+   "same": 2050,
+   "gl_fail_rep_pass": 2
+  },
+  "ratio:sentence_words": {
+   "n": 1596,
+   "same": 1595,
+   "gl_pass_rep_fail": 1
+  },
+  "words:no_consecutive": {
+   "n": 1824,
+   "same": 1809,
+   "gl_pass_rep_fail": 15
+  },
+  "format:newline": {
+   "n": 1368,
+   "same": 1359,
+   "gl_pass_rep_fail": 4,
+   "gl_fail_rep_pass": 5
+  },
+  "format:no_bullets_bullets": {
+   "n": 1140,
+   "gl_pass_rep_fail": 37,
+   "same": 778,
+   "gl_fail_rep_pass": 325
+  },
+  "format:options": {
+   "n": 1368,
+   "same": 1061,
+   "gl_pass_rep_fail": 307
+  },
+  "format:parentheses": {
+   "n": 1824,
+   "same": 1622,
+   "gl_pass_rep_fail": 202
+  },
+  "format:quote_unquote": {
+   "n": 1140,
+   "same": 1044,
+   "gl_pass_rep_fail": 92,
+   "gl_fail_rep_pass": 4
+  },
+  "format:quotes": {
+   "n": 1824,
+   "same": 1548,
+   "gl_fail_rep_pass": 66,
+   "gl_pass_rep_fail": 210
+  },
+  "format:sub-bullets": {
+   "n": 2736,
+   "gl_pass_rep_fail": 209,
+   "same": 1623,
+   "gl_fail_rep_pass": 904
+  },
+  "ratio:stop_words": {
+   "n": 2736,
+   "same": 2698,
+   "gl_fail_rep_pass": 23,
+   "gl_pass_rep_fail": 15
+  },
+  "format:thesis": {
+   "n": 2052,
+   "same": 1846,
+   "gl_pass_rep_fail": 204,
+   "gl_fail_rep_pass": 2
+  },
+  "ratio:overlap": {
+   "n": 2736,
+   "same": 2736
+  },
+  "ratio:sentence_balance": {
+   "n": 1596,
+   "same": 1588,
+   "gl_pass_rep_fail": 8
+  },
+  "words:consonants": {
+   "n": 3420,
+   "same": 3405,
+   "gl_fail_rep_pass": 6,
+   "gl_pass_rep_fail": 9
+  },
+  "ratio:sentence_type": {
+   "n": 1368,
+   "same": 1349,
+   "gl_pass_rep_fail": 14,
+   "gl_fail_rep_pass": 5
+  },
+  "sentence:alliteration_increment": {
+   "n": 1140,
+   "same": 1019,
+   "gl_pass_rep_fail": 115,
+   "gl_fail_rep_pass": 6
+  },
+  "sentence:increment": {
+   "n": 1824,
+   "same": 1821,
+   "gl_fail_rep_pass": 2,
+   "gl_pass_rep_fail": 1
+  },
+  "words:alphabet": {
+   "n": 1368,
+   "same": 1362,
+   "gl_pass_rep_fail": 3,
+   "gl_fail_rep_pass": 3
+  },
+  "words:odd_even_syllables": {
+   "n": 2052,
+   "same": 2051,
+   "gl_fail_rep_pass": 1
+  },
+  "words:last_first": {
+   "n": 1140,
+   "gl_fail_rep_pass": 35,
+   "same": 1105
+  },
+  "words:palindrome": {
+   "n": 1596,
+   "same": 1584,
+   "gl_fail_rep_pass": 3,
+   "gl_pass_rep_fail": 9
+  },
+  "words:paragraph_last_first": {
+   "n": 1368,
+   "same": 1339,
+   "gl_fail_rep_pass": 29
+  },
+  "words:prime_lengths": {
+   "n": 1140,
+   "same": 1138,
+   "gl_pass_rep_fail": 1,
+   "gl_fail_rep_pass": 1
+  },
+  "words:repeats": {
+   "n": 1140,
+   "same": 1138,
+   "gl_pass_rep_fail": 2
+  },
+  "words:start_verb": {
+   "n": 1368,
+   "same": 1084,
+   "gl_fail_rep_pass": 283,
+   "gl_pass_rep_fail": 1
+  },
+  "words:vowel": {
+   "n": 2280,
+   "same": 2279,
+   "gl_pass_rep_fail": 1
+  },
+  "custom:character_reverse": {
+   "n": 228,
+   "same": 228
+  },
+  "custom:csv_city": {
+   "n": 228,
+   "same": 228
+  },
+  "custom:csv_quotes": {
+   "n": 228,
+   "same": 228
+  },
+  "custom:csv_special_character": {
+   "n": 228,
+   "same": 224,
+   "gl_pass_rep_fail": 4
+  },
+  "custom:date_format_list": {
+   "n": 228,
+   "same": 227,
+   "gl_fail_rep_pass": 1
+  },
+  "custom:european_capitals_sort": {
+   "n": 228,
+   "same": 228
+  },
+  "custom:mcq_count_length": {
+   "n": 228,
+   "same": 192,
+   "gl_fail_rep_pass": 36
+  },
+  "custom:multiples": {
+   "n": 228,
+   "same": 228
+  },
+  "custom:reverse_newline": {
+   "n": 228,
+   "same": 222,
+   "gl_pass_rep_fail": 6
+  },
+  "custom:sentence_alphabet": {
+   "n": 228,
+   "same": 204,
+   "gl_fail_rep_pass": 24
+  },
+  "custom:word_reverse": {
+   "n": 228,
+   "same": 228
+  },
+  "repeat:repeat_span": {
+   "n": 912,
+   "same": 912
+  },
+  "format:title_case": {
+   "n": 912,
+   "same": 891,
+   "gl_fail_rep_pass": 16,
+   "gl_pass_rep_fail": 5
+  },
+  "format:output_template": {
+   "n": 912,
+   "same": 833,
+   "gl_pass_rep_fail": 79
+  },
+  "format:no_whitespace": {
+   "n": 912,
+   "same": 912
+  }
+ }
+}

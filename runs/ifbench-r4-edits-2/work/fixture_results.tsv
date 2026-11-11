@@ -1,0 +1,333 @@
+id	label	kind	decisions	grader_strict	grader_loose	reference_strict	reference_loose	replacement
+count:conjunctions:8e72d10953	pass	pass		pass	pass	pass	pass	pass
+count:conjunctions:13e507827a	fail	fail		fail	fail	fail	fail	fail
+count:conjunctions:f7b6575b51	fail	near		fail	fail	fail	fail	fail
+count:conjunctions:8777bb2d94	fail	near		fail	fail	fail	fail	fail
+count:conjunctions:380ba0aa62	pass	pass	D-case	pass	pass	pass	pass	pass
+count:conjunctions:3ddf5e46bf	pass	pass	D-conj-usage	pass	pass	pass	pass	pass
+count:keywords_multiple:30f4380f6f	pass	pass	D-case	pass	pass	pass	pass	pass
+count:keywords_multiple:bc25a02155	fail	near		fail	fail	fail	fail	fail
+count:keywords_multiple:c87241ec59	fail	near	D-count-exact	fail	fail	fail	fail	fail
+count:keywords_multiple:1d32182c35	pass	pass	D-keyword-form	fail	fail	pass	pass	pass
+count:keywords_multiple:099f6a42eb	fail	fail		fail	fail	fail	fail	fail
+count:numbers:1330afcbea	pass	pass		pass	pass	pass	pass	pass
+count:numbers:8507b91663	fail	fail		fail	fail	fail	fail	fail
+count:numbers:deae238886	pass	near		pass	pass	pass	pass	pass
+count:numbers:188eb6acc4	pass	pass	D-number-words	pass	pass	pass	pass	pass
+count:numbers:e2d7e08c41	fail	near		fail	fail	fail	fail	fail
+count:person_names:b7467332b5	pass	pass		pass	pass	pass	pass	pass
+count:person_names:09166775ae	fail	fail		fail	fail	fail	fail	fail
+count:person_names:c735567a0c	fail	near		fail	fail	fail	fail	fail
+count:person_names:941f9628f5	fail	near		fail	fail	fail	fail	fail
+count:person_names:40f9bcb50f	pass	pass		pass	pass	pass	pass	pass
+count:pronouns:ca55c90d57	pass	pass		pass	pass	pass	pass	pass
+count:pronouns:e3b8b456de	fail	fail		fail	fail	fail	fail	fail
+count:pronouns:2e6d04a5b0	fail	near		fail	fail	fail	fail	fail
+count:pronouns:0e5fa61473	pass	pass		pass	pass	pass	pass	pass
+count:punctuation:639d038679	pass	pass	D-punct-set	pass	pass	pass	pass	pass
+count:punctuation:1f21ac43d1	fail	fail		fail	fail	fail	fail	fail
+count:punctuation:e602687247	fail	near		fail	fail	fail	fail	fail
+count:punctuation:94cc9f6a5d	pass	pass	D-punct-set,D-typographic	pass	pass	pass	pass	pass
+count:punctuation:b3843f0171	pass	pass	D-punct-set	pass	pass	pass	pass	pass
+count:punctuation:a7f14b2c60	fail	near	D-punct-set	pass	pass	pass	pass	fail
+count:unique_word_count:db1cdf50df	pass	pass		pass	pass	pass	pass	pass
+count:unique_word_count:31ae964d1e	fail	fail		fail	fail	fail	fail	fail
+count:unique_word_count:d7d044e23f	fail	near		fail	fail	fail	fail	fail
+count:unique_word_count:d90314a531	fail	near	D-case	fail	fail	fail	fail	fail
+count:word_count_range:fbdab9a654	pass	pass		pass	pass	pass	pass	pass
+count:word_count_range:108d4c6390	fail	fail		fail	fail	fail	fail	fail
+count:word_count_range:654f29824f	fail	near		fail	fail	fail	fail	fail
+count:word_count_range:1fb65a918c	pass	near	D-between	pass	pass	pass	pass	pass
+count:word_count_range:23aa987c1e	pass	near	D-between	pass	pass	pass	pass	pass
+count:word_count_range:cfbd166392	fail	near	D-markup	fail	fail	fail	fail	fail
+count:word_count_range:83940b54d8	pass	pass	D-markup	pass	pass	pass	pass	pass
+count:words_japanese:f4a561b288	pass	pass		pass	pass	pass	pass	pass
+count:words_japanese:bd2d7684f5	fail	fail		fail	fail	fail	fail	fail
+count:words_japanese:c1da2d0c14	fail	near		fail	fail	fail	fail	fail
+count:words_japanese:db9742c7e3	fail	near	D-vacuous	pass	pass	pass	pass	fail
+custom:character_reverse:84bc39d09d	pass	pass		pass	pass	pass	pass	pass
+custom:character_reverse:092a42d968	fail	fail		fail	fail	fail	fail	fail
+custom:character_reverse:54a57910ea	fail	near		fail	fail	fail	fail	fail
+custom:character_reverse:9499238f1a	pass	pass		pass	pass	pass	pass	pass
+custom:word_reverse:8ab594dcdc	pass	pass	D-reverse-punct	pass	pass	pass	pass	pass
+custom:word_reverse:80881e09ec	fail	fail		fail	fail	fail	fail	fail
+custom:word_reverse:b648d44018	fail	near		fail	fail	fail	fail	fail
+custom:word_reverse:29ded90479	pass	pass		pass	pass	pass	pass	pass
+custom:csv_city:9e6774a206	pass	pass		pass	pass	pass	pass	pass
+custom:csv_city:d3f77587c1	fail	fail	D-csv-rows	fail	fail	fail	fail	fail
+custom:csv_city:0ecaf880a6	fail	near		fail	fail	fail	fail	fail
+custom:csv_city:baed0b03c5	pass	pass	D-csv-wrapper	fail	fail	fail	fail	pass
+custom:csv_city:803496f867	fail	near		fail	fail	fail	fail	fail
+custom:csv_quotes:c3f101aa1f	pass	pass	D-csv-header-quotes	pass	pass	pass	pass	pass
+custom:csv_quotes:f19cda2902	fail	fail		fail	fail	fail	fail	fail
+custom:csv_quotes:0987041675	fail	near	D-csv-header-quotes	fail	fail	fail	fail	fail
+custom:csv_quotes:98233a8ca2	fail	near		fail	fail	fail	fail	fail
+custom:csv_quotes:e363344a70	fail	near		fail	fail	fail	fail	fail
+custom:csv_special_character:7162d53d64	pass	pass	D-csv-special	pass	pass	pass	pass	pass
+custom:csv_special_character:d3bafb868e	fail	fail		fail	fail	fail	fail	fail
+custom:csv_special_character:5d216954c9	fail	near		fail	fail	fail	fail	fail
+custom:csv_special_character:1a9ae02a6b	fail	near		fail	fail	fail	fail	fail
+custom:date_format_list:5b20a81a84	pass	pass	D-content	pass	pass	pass	pass	pass
+custom:date_format_list:bd232bb7bc	fail	fail		fail	fail	fail	fail	fail
+custom:date_format_list:6bb50ba7ac	fail	near		fail	fail	fail	fail	fail
+custom:date_format_list:3d9d69cd2e	fail	near		fail	fail	fail	fail	fail
+custom:date_format_list:fac163b1d4	fail	near		fail	fail	fail	fail	fail
+custom:european_capitals_sort:c87b724749	pass	pass	D-europe-set	fail	fail	fail	fail	pass
+custom:european_capitals_sort:08b4c3b4bd	fail	fail		fail	fail	fail	fail	fail
+custom:european_capitals_sort:c86f912878	fail	near		fail	fail	fail	fail	fail
+custom:european_capitals_sort:6e725d945e	fail	near		fail	fail	fail	fail	fail
+custom:european_capitals_sort:0398a3d3ff	fail	near		fail	fail	fail	fail	fail
+custom:mcq_count_length:34c36d10ce	pass	pass	D-mcq-length	pass	pass	pass	pass	pass
+custom:mcq_count_length:72116963ef	fail	fail		fail	fail	fail	fail	fail
+custom:mcq_count_length:ed920a6284	fail	near	D-mcq-length	fail	fail	fail	fail	fail
+custom:mcq_count_length:c94d3cb3fa	fail	near		fail	fail	fail	fail	fail
+custom:mcq_count_length:615f272149	fail	near		fail	fail	fail	fail	fail
+custom:multiples:be53b10426	pass	pass		pass	pass	pass	pass	pass
+custom:multiples:7b530afad9	pass	pass		pass	pass	pass	pass	pass
+custom:multiples:08ab896c62	fail	fail		fail	fail	fail	fail	fail
+custom:multiples:28f049f450	fail	near		fail	fail	fail	fail	fail
+custom:multiples:fcdec43cbb	fail	near		fail	fail	fail	fail	fail
+custom:reverse_newline:790bb207e1	pass	pass	D-africa-list	pass	pass	pass	pass	pass
+custom:reverse_newline:fb7c47412d	fail	fail		fail	fail	fail	fail	fail
+custom:reverse_newline:ad7867c665	fail	near		pass	pass	pass	pass	fail
+custom:reverse_newline:5a87f6b52f	fail	near		fail	fail	fail	fail	fail
+custom:reverse_newline:6ad70821d2	fail	near	D-africa-list	fail	fail	fail	fail	fail
+custom:sentence_alphabet:e04a594886	pass	pass		pass	pass	pass	pass	pass
+custom:sentence_alphabet:5fb63e9bab	fail	fail		fail	fail	fail	fail	fail
+custom:sentence_alphabet:52b5a78ab3	fail	near		fail	fail	fail	fail	fail
+custom:sentence_alphabet:1b976dfb38	pass	pass	D-title,D-sentence	fail	pass	fail	pass	pass
+format:emoji:99ef40c507	pass	pass		pass	pass	pass	pass	pass
+format:emoji:cc7ef808e0	fail	fail		fail	fail	fail	fail	fail
+format:emoji:36d61ce94a	fail	near		fail	fail	fail	fail	fail
+format:emoji:61f4bba10f	pass	pass		pass	pass	pass	pass	pass
+format:line_indent:cc322233d5	pass	pass		pass	pass	pass	pass	pass
+format:line_indent:231452eb79	fail	fail		fail	pass	fail	pass	fail
+format:line_indent:9764c2161a	fail	near		fail	pass	fail	pass	fail
+format:line_indent:29c7b7af3d	fail	near		fail	pass	fail	pass	fail
+format:line_indent:55c666c01a	pass	pass	D-indent-blank	pass	pass	pass	pass	pass
+format:line_indent:60846b5086	fail	near	D-vacuous	pass	pass	pass	pass	fail
+format:list:d8069aee5c	pass	pass		pass	pass	pass	pass	pass
+format:list:2da02c09ce	fail	fail		fail	fail	fail	fail	fail
+format:list:bb47975c0b	fail	near		fail	fail	fail	fail	fail
+format:list:02038068f6	fail	near	D-list-inline	pass	pass	pass	pass	fail
+format:list:27956d47bc	pass	pass		pass	pass	pass	pass	pass
+format:list:72e93a7fac	pass	pass		pass	pass	pass	pass	pass
+format:list:5101490e04	fail	near		fail	fail	fail	fail	fail
+format:newline:e2ec846603	pass	pass		pass	pass	pass	pass	pass
+format:newline:d8e047baf7	fail	fail		fail	fail	fail	fail	fail
+format:newline:0bea103b1b	fail	near		fail	pass	fail	pass	fail
+format:newline:b47ee0deac	pass	pass	D-word	pass	pass	pass	pass	pass
+format:newline:160fe1d009	pass	pass	D-edge-whitespace	pass	pass	pass	pass	pass
+format:no_bullets_bullets:63e6cc21e5	pass	pass		pass	pass	pass	pass	pass
+format:no_bullets_bullets:2e7b1f1002	fail	fail		fail	fail	fail	fail	fail
+format:no_bullets_bullets:1c7e95da1a	fail	near		fail	fail	fail	fail	fail
+format:no_bullets_bullets:4b36729312	fail	near		fail	fail	fail	fail	fail
+format:no_bullets_bullets:6a8af8f9c6	fail	near		fail	fail	fail	fail	fail
+format:no_bullets_bullets:971ed55e69	fail	near		pass	pass	pass	pass	fail
+format:no_whitespace:4f04a125b4	pass	pass		pass	pass	pass	pass	pass
+format:no_whitespace:e8bac78a66	fail	fail		fail	fail	fail	fail	fail
+format:no_whitespace:e8179fd5ba	fail	near		fail	fail	fail	fail	fail
+format:no_whitespace:8b3f311d0a	fail	near		fail	fail	fail	fail	fail
+format:no_whitespace:e1335b1e98	pass	pass	D-nows-trailing	fail	pass	fail	pass	pass
+format:options:c9fbd41dd8	pass	pass		pass	pass	pass	pass	pass
+format:options:0deb1c238b	pass	pass		pass	pass	pass	pass	pass
+format:options:32e1cd9bcf	pass	pass	D-markup	pass	pass	pass	pass	pass
+format:options:6906287845	fail	fail		fail	fail	fail	fail	fail
+format:options:dc4ad94f97	fail	near		fail	fail	fail	fail	fail
+format:options:4341ba6284	fail	near		fail	fail	fail	fail	fail
+format:options:3267bc2ad6	pass	pass		pass	pass	pass	pass	pass
+format:options:fe2f80ee7a	pass	pass	D-options-label	fail	fail	fail	fail	pass
+format:options:a2bf53918f	fail	fail		fail	fail	fail	fail	fail
+format:options:efe59b6f66	pass	pass		pass	pass	pass	pass	pass
+format:options:409f6f8d3d	pass	pass	D-typographic	fail	fail	fail	fail	pass
+format:options:7d48b2a7bc	pass	pass	D-options-whitespace	fail	fail	fail	fail	pass
+format:options:b63a92f1b9	fail	near		fail	fail	fail	fail	fail
+format:options:1ac79a3a87	fail	near		fail	fail	fail	fail	fail
+format:output_template:3589afd104	pass	pass		pass	pass	pass	pass	pass
+format:output_template:b0d8b17fa1	pass	pass	D-template-markup	pass	pass	pass	pass	pass
+format:output_template:d788872e17	fail	fail		fail	fail	fail	fail	fail
+format:output_template:c70ec14794	fail	near		pass	pass	pass	pass	fail
+format:output_template:6b9e2d60b9	fail	near		fail	fail	fail	fail	fail
+format:output_template:48bfbcf4b8	fail	near		pass	pass	pass	pass	fail
+format:output_template:c4cca1afc2	fail	near	D-template-outside	pass	pass	pass	pass	fail
+format:output_template:f31bc79104	pass	pass	D-template-markup	pass	pass	pass	pass	pass
+format:parentheses:8939c7132d	pass	pass		pass	pass	pass	pass	pass
+format:parentheses:2db042e6f4	fail	fail		fail	fail	fail	fail	fail
+format:parentheses:03bd6780f2	fail	near		fail	fail	fail	fail	fail
+format:parentheses:e58f10f250	fail	near		fail	fail	fail	fail	fail
+format:parentheses:64036d4878	fail	near		fail	fail	fail	fail	fail
+format:parentheses:3372396c7a	pass	pass	D-paren-types	pass	pass	pass	pass	pass
+format:quote_unquote:5280438360	pass	pass		pass	pass	pass	pass	pass
+format:quote_unquote:cdac20ffc5	fail	fail		fail	fail	fail	fail	fail
+format:quote_unquote:35a37520c8	fail	near		fail	fail	fail	fail	fail
+format:quote_unquote:4655fac9ab	fail	near	D-vacuous	pass	pass	pass	pass	fail
+format:quote_unquote:b9344b3b2b	fail	near		fail	fail	fail	fail	fail
+format:quotes:b3e1578243	pass	pass		pass	pass	pass	pass	pass
+format:quotes:a9320787de	fail	fail		fail	fail	fail	fail	fail
+format:quotes:1d114378ee	fail	near		fail	fail	fail	fail	fail
+format:quotes:aa3ebbf923	pass	pass	D-typographic	fail	fail	fail	fail	pass
+format:quotes:142cba8e48	fail	near		fail	fail	fail	fail	fail
+format:sub-bullets:dfd8fc0b60	pass	pass		pass	pass	pass	pass	pass
+format:sub-bullets:2663b7f495	fail	fail		fail	pass	fail	pass	fail
+format:sub-bullets:11843524ab	fail	near		fail	pass	fail	pass	fail
+format:sub-bullets:85fd915de1	pass	pass	D-subbullet-indent	pass	pass	pass	pass	pass
+format:sub-bullets:457e73f9cd	fail	near		pass	pass	pass	pass	fail
+format:sub-bullets:422a4a70ab	pass	pass		fail	pass	fail	pass	pass
+format:thesis:fc84d7a36d	pass	pass	D-section	pass	pass	pass	pass	pass
+format:thesis:e89df73519	fail	fail		fail	fail	fail	fail	fail
+format:thesis:65ae1cbefa	fail	near		fail	fail	fail	fail	fail
+format:thesis:9cf3619ed9	fail	near	D-section	pass	pass	pass	pass	fail
+format:thesis:111ef8697a	pass	pass	D-section	pass	pass	pass	pass	pass
+format:title_case:fb9620ad50	pass	pass		fail	fail	fail	fail	pass
+format:title_case:c44db2e257	fail	fail		fail	fail	fail	fail	fail
+format:title_case:4f57f11c56	fail	near		fail	fail	fail	fail	fail
+format:title_case:f537e3bdbd	pass	pass		fail	fail	fail	fail	pass
+format:title_case:bd6c32e380	pass	pass		pass	pass	pass	pass	pass
+ratio:overlap:913720c84d	pass	pass		pass	pass	pass	pass	pass
+ratio:overlap:bcab16e2ff	fail	fail		fail	fail	fail	fail	fail
+ratio:overlap:385ff7d51e	fail	near		fail	fail	fail	fail	fail
+ratio:overlap:27949aa59c	pass	near	D-overlap-def	fail	fail	pass	pass	pass
+ratio:sentence_balance:ddd220cf8a	pass	pass		pass	pass	pass	pass	pass
+ratio:sentence_balance:ca366f0aa9	fail	fail		fail	fail	fail	fail	fail
+ratio:sentence_balance:b988aaed18	fail	near	D-balance	fail	fail	fail	fail	fail
+ratio:sentence_balance:900a31d111	fail	near		fail	fail	fail	fail	fail
+ratio:sentence_type:c3d173b3bc	pass	pass		pass	pass	pass	pass	pass
+ratio:sentence_type:8b0bdff29e	fail	fail		fail	fail	fail	fail	fail
+ratio:sentence_type:06a38c1ce7	fail	near	D-ratio-exact	fail	fail	fail	fail	fail
+ratio:sentence_type:20f6f1626e	pass	pass		pass	pass	pass	pass	pass
+ratio:sentence_type:667083c268	fail	near		fail	fail	fail	fail	fail
+ratio:sentence_words:7973a1553f	pass	pass	D-char-count	pass	pass	pass	pass	pass
+ratio:sentence_words:711a18d757	fail	fail		fail	fail	fail	fail	fail
+ratio:sentence_words:b1510d80d2	fail	near		pass	pass	fail	fail	fail
+ratio:sentence_words:1488dfcefe	fail	near		fail	fail	fail	fail	fail
+ratio:sentence_words:d38377f301	fail	near		fail	fail	fail	fail	fail
+ratio:stop_words:21e4c10b9c	pass	pass	D-stopword-list	pass	pass	pass	pass	pass
+ratio:stop_words:3cff8f2432	fail	fail		fail	fail	fail	fail	fail
+ratio:stop_words:6331dd5a25	pass	near	D-stopword-list	pass	pass	pass	pass	pass
+ratio:stop_words:86bd577bb0	fail	near	D-stopword-list	fail	fail	fail	fail	fail
+repeat:repeat_change:db5e2f5caa	pass	pass		pass	pass	pass	pass	pass
+repeat:repeat_change:971341fb1c	fail	fail		fail	fail	fail	fail	fail
+repeat:repeat_change:06c69a08aa	fail	near	D-rc-tail	fail	pass	fail	pass	fail
+repeat:repeat_change:c4a534ea46	fail	near		fail	fail	fail	fail	fail
+repeat:repeat_change:9aa1c8ccad	fail	near		fail	fail	fail	fail	fail
+repeat:repeat_simple:721d14f1df	pass	pass	D-rs-which	pass	pass	pass	pass	pass
+repeat:repeat_simple:c5c33ce56d	fail	fail		fail	fail	fail	fail	fail
+repeat:repeat_simple:bb82965365	fail	near		fail	fail	fail	fail	fail
+repeat:repeat_simple:6b4bcb72bf	fail	near	D-rs-which	fail	fail	fail	fail	fail
+repeat:repeat_span:d8b738713c	pass	pass	D-span-base	fail	fail	pass	pass	pass
+repeat:repeat_span:81daf10996	fail	fail		fail	fail	fail	fail	fail
+repeat:repeat_span:0a390c89b1	fail	near	D-span-base	fail	fail	fail	fail	fail
+repeat:repeat_span:7e0401379d	fail	near		fail	fail	fail	fail	fail
+sentence:alliteration_increment:a23851525d	pass	pass		pass	pass	pass	pass	pass
+sentence:alliteration_increment:408842b90d	fail	fail		fail	fail	fail	fail	fail
+sentence:alliteration_increment:4994d41aaf	fail	near		fail	fail	fail	fail	fail
+sentence:alliteration_increment:c29d916e61	fail	near	D-vacuous	pass	pass	pass	pass	fail
+sentence:increment:9b6d21c5c4	pass	pass		pass	pass	pass	pass	pass
+sentence:increment:7407dea521	fail	fail		fail	fail	fail	fail	fail
+sentence:increment:493d4e760d	fail	near		fail	fail	fail	fail	fail
+sentence:increment:bccb865918	fail	near	D-vacuous	pass	pass	pass	pass	fail
+sentence:keyword:d58611b507	pass	pass		pass	pass	pass	pass	pass
+sentence:keyword:3d684dfe8f	fail	fail		fail	fail	fail	fail	fail
+sentence:keyword:df0262c1ae	fail	near		fail	fail	fail	fail	fail
+sentence:keyword:75403be186	fail	near	D-keyword-form	fail	fail	fail	fail	fail
+sentence:keyword:c5222ed1ff	pass	pass	D-case	pass	pass	pass	pass	pass
+sentence:keyword:f2e6b114af	pass	near	D-sentence	pass	pass	pass	pass	pass
+words:alphabet:66b70a6342	pass	pass		pass	pass	pass	pass	pass
+words:alphabet:89765fbd5a	fail	fail		fail	fail	fail	fail	fail
+words:alphabet:d7332f8e76	pass	near		pass	pass	pass	pass	pass
+words:alphabet:061a2037ff	fail	near		fail	fail	fail	fail	fail
+words:alphabet:968aa3d99c	fail	near	D-word	fail	fail	fail	fail	fail
+words:alphabet:37b243e3f6	pass	pass		pass	pass	pass	pass	pass
+words:consonants:f773f16f7b	pass	pass		pass	pass	pass	pass	pass
+words:consonants:e2c4d13a02	fail	fail		fail	fail	fail	fail	fail
+words:consonants:a34ce72eaf	fail	near		fail	fail	fail	fail	fail
+words:consonants:dd688bf4f3	pass	near	D-y	pass	pass	pass	pass	pass
+words:keywords_specific_position:44f18e3101	pass	pass		pass	pass	pass	pass	pass
+words:keywords_specific_position:96883dc04c	fail	fail		fail	fail	fail	fail	fail
+words:keywords_specific_position:dd8a283796	fail	near		fail	fail	fail	fail	fail
+words:keywords_specific_position:8e5aaefd5c	pass	pass	D-case	pass	pass	pass	pass	pass
+words:last_first:890fd7fc59	pass	pass		pass	pass	pass	pass	pass
+words:last_first:ea7032b2d7	fail	fail		fail	fail	fail	fail	fail
+words:last_first:11bc6a850b	fail	near		fail	fail	fail	fail	fail
+words:last_first:adfddb9cc7	pass	pass		fail	fail	fail	fail	pass
+words:last_first:95843192de	fail	near	D-vacuous	pass	pass	pass	pass	fail
+words:no_consecutive:f7dc4363bd	pass	pass		pass	pass	pass	pass	pass
+words:no_consecutive:1423215015	fail	fail		fail	fail	fail	fail	fail
+words:no_consecutive:0a47d0712d	fail	near		fail	fail	fail	fail	fail
+words:no_consecutive:32627ad493	fail	near		fail	fail	fail	fail	fail
+words:no_consecutive:d5a71a662f	pass	pass		pass	pass	pass	pass	pass
+words:odd_even_syllables:25466cec60	pass	pass		pass	pass	pass	pass	pass
+words:odd_even_syllables:f84b35f100	fail	fail		fail	fail	fail	fail	fail
+words:odd_even_syllables:47a0ce59aa	pass	near		pass	pass	pass	pass	pass
+words:odd_even_syllables:a5a6ea0119	fail	near		fail	fail	fail	fail	fail
+words:palindrome:6491a1426e	pass	pass		pass	pass	pass	pass	pass
+words:palindrome:921d565cbd	fail	fail		fail	fail	fail	fail	fail
+words:palindrome:6f593d1c75	fail	near		fail	fail	fail	fail	fail
+words:palindrome:63df4f13aa	fail	near		fail	fail	fail	fail	fail
+words:palindrome:098d5b9456	fail	near	D-palin-distinct	pass	pass	pass	pass	fail
+words:palindrome:6a8431626d	pass	pass		pass	pass	pass	pass	pass
+words:paragraph_last_first:07a5df8eb2	pass	pass		pass	pass	pass	pass	pass
+words:paragraph_last_first:652d9a2b82	fail	fail		fail	fail	fail	fail	fail
+words:paragraph_last_first:d44774e70f	fail	near		fail	pass	fail	pass	fail
+words:paragraph_last_first:2a484818e8	pass	pass		fail	pass	fail	pass	pass
+words:prime_lengths:5fa207b747	pass	pass		pass	pass	pass	pass	pass
+words:prime_lengths:16c1afad6f	fail	fail		fail	fail	fail	fail	fail
+words:prime_lengths:187137a580	fail	near		fail	fail	fail	fail	fail
+words:prime_lengths:9380874c82	pass	pass	D-word	pass	pass	pass	pass	pass
+words:repeats:5e4c34cb5f	pass	pass	D-repeat-count	pass	pass	pass	pass	pass
+words:repeats:0170e6433d	fail	fail		fail	fail	fail	fail	fail
+words:repeats:dd1a8639fb	fail	near	D-case	fail	fail	fail	fail	fail
+words:start_verb:ea5cbc11aa	pass	pass		fail	fail	fail	fail	pass
+words:start_verb:e5907eb182	fail	fail		fail	fail	fail	fail	fail
+words:start_verb:1a882a78d1	pass	near	D-markup	fail	fail	fail	fail	pass
+words:start_verb:80887c37c6	fail	near		fail	fail	fail	fail	fail
+words:start_verb:2663527dd4	fail	near	D-verb	fail	fail	fail	fail	fail
+words:vowel:c19a5c5d50	pass	pass		pass	pass	pass	pass	pass
+words:vowel:145f978561	pass	pass		pass	pass	pass	pass	pass
+words:vowel:aad8918283	fail	fail		fail	fail	fail	fail	fail
+words:vowel:b930faf3e4	fail	near	D-vowel	fail	fail	fail	fail	fail
+words:vowel:9fb628686b	fail	near		fail	pass	fail	pass	fail
+words:words_position:d0000bc2b4	pass	pass		pass	pass	pass	pass	pass
+words:words_position:0468242ef4	fail	fail		fail	fail	fail	fail	fail
+words:words_position:0df9308048	fail	near		fail	fail	fail	fail	fail
+words:words_position:5781f678cc	pass	pass		pass	pass	pass	pass	pass
+words:words_position:da3ad5ec88	pass	near	D-markup	fail	pass	pass	pass	pass
+count:conjunctions:18e76fa9b7	fail	near		pass	pass	pass	pass	fail
+count:keywords_multiple:b934227147	fail	near		pass	pass	fail	fail	fail
+count:keywords_multiple:d3cffd3a14	pass	near		fail	fail	pass	pass	pass
+ratio:sentence_type:47e0156f10	fail	near		pass	pass	pass	pass	fail
+ratio:sentence_balance:e44d5c814c	fail	near		pass	pass	pass	pass	fail
+sentence:alliteration_increment:b785397a14	fail	near		pass	pass	pass	pass	fail
+sentence:alliteration_increment:795e36e7c7	pass	near		fail	fail	fail	fail	pass
+format:newline:127f33ce77	fail	near		pass	pass	pass	pass	fail
+format:line_indent:5213f6b9ba	pass	near		fail	pass	fail	pass	pass
+format:line_indent:465a3d4dbe	pass	near	D-indent-blank	fail	pass	fail	pass	pass
+format:quote_unquote:3351900d49	fail	near		pass	pass	pass	pass	fail
+format:quote_unquote:8706f2d8e4	fail	near		pass	pass	pass	pass	fail
+format:list:3a1367be8a	fail	near		pass	pass	pass	pass	fail
+format:thesis:02d9566c00	fail	near		pass	pass	pass	pass	fail
+format:sub-bullets:db6d42cdd1	fail	near		pass	pass	pass	pass	fail
+format:no_bullets_bullets:686e429f49	pass	near	D-edge-whitespace,D-nbb-after	fail	pass	fail	pass	pass
+custom:character_reverse:0af66003fc	fail	near		pass	pass	pass	pass	fail
+custom:date_format_list:b0c78241aa	fail	near		pass	pass	pass	pass	fail
+custom:european_capitals_sort:4e482a5e17	fail	near		pass	pass	pass	pass	fail
+custom:reverse_newline:2707bd0a0c	fail	near		pass	pass	pass	pass	fail
+custom:csv_special_character:fcf342bd3b	fail	near		pass	pass	pass	pass	fail
+custom:csv_quotes:039aba3435	fail	near		ERR:IndexError:string index out of range	ERR:IndexError:string index out of range	ERR:IndexError:string index out of range	ERR:IndexError:string index out of range	fail
+format:title_case:759b384944	pass	near		fail	fail	fail	fail	pass
+format:output_template:c5630a7cbe	fail	near		pass	pass	pass	pass	fail
+repeat:repeat_change:e6518f7642	fail	near		pass	pass	pass	pass	fail
+repeat:repeat_span:af29d0d287	fail	near		pass	pass	fail	fail	fail
+format:options:1f7042ba6c	pass	near		fail	fail	fail	fail	pass
+format:parentheses:acaaf6bb5a	fail	near		pass	pass	pass	pass	fail
+words:prime_lengths:cadced999c	pass	near		fail	fail	fail	fail	pass
+words:last_first:ca02b576bf	pass	near		fail	fail	fail	fail	pass
+format:emoji:b5f85f4893	pass	near		fail	fail	fail	fail	pass
+words:start_verb:370fce8be3	pass	pass		pass	pass	pass	pass	pass
+words:vowel:302e2f7d0c	pass	near	D-vowel-paragraph	fail	pass	fail	pass	pass
+sentence:increment:43b4581ed6	fail	near	D-vacuous	pass	pass	pass	pass	fail
+format:sub-bullets:debeea5886	pass	near		fail	pass	fail	pass	pass
+words:paragraph_last_first:7f548a0b03	pass	near		fail	pass	fail	pass	pass
+ratio:sentence_words:1c5410befd	fail	near		pass	pass	fail	fail	fail
+custom:sentence_alphabet:ec6c193858	pass	near		fail	fail	pass	pass	pass
+words:words_position:6f7a38c602	pass	near		fail	fail	pass	pass	pass

@@ -1,0 +1,19 @@
+{
+ "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+ "dataset_parquet_sha256": "80037e4d99c39a55c1e2e7d5a863d8d9edeb5ebe136ba8c1e849f8c015027c6a",
+ "dataset_row_hashes_file_sha256": "0ae0d506c4dfe6ea84ccf6e4edb520f1f58f4d51c4c0fbe097047c4fd7ecacff",
+ "dataset_rows": 300,
+ "lock_mismatches": {},
+ "installed_not_in_lock": [
+  "pip"
+ ],
+ "nltk_data_files": 155,
+ "nltk_data_tree_sha256": "14786dcef3ea9fdce62b189df5573d0a7cce1ae0019063248eac034bb7b49a15",
+ "nltk_data_top": [
+  "corpora/stopwords",
+  "taggers/averaged_perceptron_tagger_eng",
+  "tokenizers/punkt",
+  "tokenizers/punkt_tab"
+ ],
+ "manifest_sha256": "5f4db029ca3b27e59e67a34a677aee74f1820c7f633d0afd0a85a65e8f937cad"
+}

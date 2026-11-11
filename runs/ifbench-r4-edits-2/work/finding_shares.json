@@ -1,0 +1,229 @@
+{
+ "F01": {
+  "check": "repeat:repeat_span",
+  "verdicts": 912,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F02": {
+  "check": "ratio:sentence_words",
+  "verdicts": 1596,
+  "changed": 1,
+  "pass_to_fail": 1,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-32B-Instruct/sample1 key 166"
+ },
+ "F03": {
+  "check": "count:keywords_multiple",
+  "verdicts": 1140,
+  "changed": 1,
+  "pass_to_fail": 1,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen3-14B/sample11 key 4"
+ },
+ "F04": {
+  "check": "count:conjunctions",
+  "verdicts": 1596,
+  "changed": 188,
+  "pass_to_fail": 188,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 9"
+ },
+ "F05a": {
+  "check": "ratio:sentence_type",
+  "verdicts": 1368,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F05b": {
+  "check": "ratio:sentence_balance",
+  "verdicts": 1596,
+  "changed": 8,
+  "pass_to_fail": 8,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-32B-Instruct/greedy key 159"
+ },
+ "F06": {
+  "check": "sentence:alliteration_increment",
+  "verdicts": 1140,
+  "changed": 120,
+  "pass_to_fail": 114,
+  "fail_to_pass": 6,
+  "example": "Qwen__Qwen2.5-14B-Instruct/greedy key 178"
+ },
+ "F07": {
+  "check": "format:newline",
+  "verdicts": 1368,
+  "changed": 5,
+  "pass_to_fail": 0,
+  "fail_to_pass": 5,
+  "example": "Qwen__Qwen3-32B/sample5 key 90"
+ },
+ "F08": {
+  "check": "format:line_indent",
+  "verdicts": 2052,
+  "changed": 1,
+  "pass_to_fail": 0,
+  "fail_to_pass": 1,
+  "example": "Qwen__Qwen3-14B__thinking/greedy_shuffled key 75"
+ },
+ "F09": {
+  "check": "format:quote_unquote",
+  "verdicts": 1140,
+  "changed": 58,
+  "pass_to_fail": 58,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-14B-Instruct/sample11 key 114"
+ },
+ "F10": {
+  "check": "format:list",
+  "verdicts": 2052,
+  "changed": 459,
+  "pass_to_fail": 459,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 82"
+ },
+ "F12": {
+  "check": "format:sub-bullets",
+  "verdicts": 2736,
+  "changed": 833,
+  "pass_to_fail": 182,
+  "fail_to_pass": 651,
+  "example": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 127"
+ },
+ "F13": {
+  "check": "format:no_bullets_bullets",
+  "verdicts": 1140,
+  "changed": 159,
+  "pass_to_fail": 25,
+  "fail_to_pass": 134,
+  "example": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 95"
+ },
+ "F14": {
+  "check": "custom:character_reverse",
+  "verdicts": 228,
+  "changed": 5,
+  "pass_to_fail": 5,
+  "fail_to_pass": 0,
+  "example": "microsoft__phi-4/bi_greedy key 273"
+ },
+ "F17": {
+  "check": "custom:csv_special_character",
+  "verdicts": 228,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F19": {
+  "check": "custom:date_format_list",
+  "verdicts": 228,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F20": {
+  "check": "format:title_case",
+  "verdicts": 912,
+  "changed": 8,
+  "pass_to_fail": 0,
+  "fail_to_pass": 8,
+  "example": "Qwen__Qwen2.5-32B-Instruct/sample7 key 290"
+ },
+ "F22": {
+  "check": "repeat:repeat_change",
+  "verdicts": 684,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F23": {
+  "check": "format:options",
+  "verdicts": 1368,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F24": {
+  "check": "format:parentheses",
+  "verdicts": 1824,
+  "changed": 201,
+  "pass_to_fail": 201,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 110"
+ },
+ "F25": {
+  "check": "words:prime_lengths",
+  "verdicts": 1140,
+  "changed": 0,
+  "pass_to_fail": 0,
+  "fail_to_pass": 0,
+  "example": null
+ },
+ "F26a": {
+  "check": "words:last_first",
+  "verdicts": 1140,
+  "changed": 35,
+  "pass_to_fail": 0,
+  "fail_to_pass": 35,
+  "example": "Qwen__Qwen2.5-14B-Instruct/bi_greedy key 219"
+ },
+ "F26b": {
+  "check": "words:paragraph_last_first",
+  "verdicts": 1368,
+  "changed": 29,
+  "pass_to_fail": 0,
+  "fail_to_pass": 29,
+  "example": "Qwen__Qwen2.5-14B-Instruct/sample1 key 244"
+ },
+ "F27": {
+  "check": "format:emoji",
+  "verdicts": 2052,
+  "changed": 27,
+  "pass_to_fail": 0,
+  "fail_to_pass": 27,
+  "example": "Qwen__Qwen2.5-14B-Instruct/sample4 key 65"
+ },
+ "F28": {
+  "check": "words:start_verb",
+  "verdicts": 1368,
+  "changed": 124,
+  "pass_to_fail": 0,
+  "fail_to_pass": 124,
+  "example": "Qwen__Qwen2.5-14B-Instruct/sample1 key 260"
+ },
+ "F11": {
+  "check": "format:thesis",
+  "verdicts": 2052,
+  "changed": 254,
+  "pass_to_fail": 254,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen2.5-14B-Instruct/sample9 key 189",
+  "method": "grader pass, replacement fails under both readings of d_section"
+ },
+ "F15": {
+  "check": "custom:reverse_newline",
+  "verdicts": 228,
+  "changed": 9,
+  "pass_to_fail": 9,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen3-14B/sample4 key 281",
+  "method": "grader pass, replacement fails under both readings of d_africa_complete"
+ },
+ "F21": {
+  "check": "format:output_template",
+  "verdicts": 912,
+  "changed": 43,
+  "pass_to_fail": 43,
+  "fail_to_pass": 0,
+  "example": "Qwen__Qwen3-32B/bi_greedy key 294",
+  "method": "grader pass, replacement fails under both readings of d_template_outside"
+ }
+}

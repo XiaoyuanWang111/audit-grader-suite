@@ -1,0 +1,34 @@
+{
+ "calls": {
+  "grader_strict": 40616,
+  "grader_loose": 40616,
+  "reference_strict": 40616,
+  "replacement": 40616
+ },
+ "errors": [
+  {
+   "grader": "grader_loose",
+   "check": "custom:csv_quotes",
+   "error": "IndexError: string index out of range",
+   "count": 10,
+   "example_key": "275",
+   "example": "\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"S1\"\t\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Spring\"\t\"85\"\n\"S3\"\t\"Biology\"\t\"C\"\t\"Fall\"\t\"75\""
+  },
+  {
+   "grader": "grader_strict",
+   "check": "custom:csv_quotes",
+   "error": "IndexError: string index out of range",
+   "count": 10,
+   "example_key": "275",
+   "example": "\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"S1\"\t\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Spring\"\t\"85\"\n\"S3\"\t\"Biology\"\t\"C\"\t\"Fall\"\t\"75\""
+  },
+  {
+   "grader": "reference_strict",
+   "check": "custom:csv_quotes",
+   "error": "IndexError: string index out of range",
+   "count": 10,
+   "example_key": "275",
+   "example": "\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"S1\"\t\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Spring\"\t\"85\"\n\"S3\"\t\"Biology\"\t\"C\"\t\"Fall\"\t\"75\""
+  }
+ ]
+}

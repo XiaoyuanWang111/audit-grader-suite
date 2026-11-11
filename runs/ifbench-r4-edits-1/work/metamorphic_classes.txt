@@ -1,0 +1,55 @@
+grader | count:conjunctions | html -> decision D-word
+grader | count:person_names | italic -> finding
+grader | count:pronouns | italic -> finding
+grader | count:word_count_range | html -> finding
+grader | count:words_japanese | label -> decision D-word
+grader | custom:reverse_newline | html -> finding
+grader | custom:sentence_alphabet | label -> decision D-word+D-word-numbers
+grader | format:line_indent | blank_line -> finding
+grader | format:no_bullets_bullets | trailing_newline -> finding
+grader | format:no_whitespace | trailing_newline -> decision D-strip-ends
+grader | format:options | trailing_newline -> finding
+grader | format:options | typo_quotes -> finding
+grader | format:quotes | typo_quotes -> finding
+grader | format:title_case | html -> decision D-word
+grader | words:alphabet | html -> decision D-word
+grader | words:consonants | label -> decision D-word+D-word-numbers
+grader | words:no_consecutive | html -> finding
+grader | words:prime_lengths | html -> decision D-word
+grader | words:start_verb | bold -> finding
+grader | words:start_verb | html -> finding
+grader | words:start_verb | italic -> finding
+grader | words:start_verb | label -> finding
+grader | words:start_verb | punct_after -> finding
+grader | words:words_position | bold -> decision D-word
+grader | words:words_position | html -> decision D-word
+grader | words:words_position | italic -> decision D-word
+grader | words:words_position | label -> decision D-word
+reference | count:conjunctions | html -> decision D-word
+reference | count:keywords_multiple | italic -> finding
+reference | count:person_names | italic -> finding
+reference | count:pronouns | italic -> finding
+reference | count:word_count_range | html -> finding
+reference | count:words_japanese | label -> decision D-word
+reference | custom:reverse_newline | html -> finding
+reference | custom:sentence_alphabet | typo_quotes -> finding
+reference | format:line_indent | blank_line -> finding
+reference | format:no_bullets_bullets | trailing_newline -> finding
+reference | format:no_whitespace | trailing_newline -> decision D-strip-ends
+reference | format:options | trailing_newline -> finding
+reference | format:options | typo_quotes -> finding
+reference | format:quotes | typo_quotes -> finding
+reference | format:title_case | html -> decision D-word
+reference | ratio:overlap | label -> finding
+reference | ratio:overlap | punct_after -> finding
+reference | words:alphabet | html -> decision D-word
+reference | words:consonants | label -> decision D-word+D-word-numbers
+reference | words:no_consecutive | html -> finding
+reference | words:prime_lengths | html -> decision D-word
+reference | words:start_verb | bold -> finding
+reference | words:start_verb | html -> finding
+reference | words:start_verb | italic -> finding
+reference | words:start_verb | label -> finding
+reference | words:start_verb | punct_after -> finding
+reference | words:words_position | html -> decision D-word
+reference | words:words_position | italic -> decision D-word

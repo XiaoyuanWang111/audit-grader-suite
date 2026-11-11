@@ -1,0 +1,143 @@
+
+=== grader_strict: 74 of 332 fixtures differ from the label
+  count:keywords_multiple:1d32182c35  label=pass got=fail  [DECISION D-keyword-form] doors is not door
+  count:punctuation:a7f14b2c60  label=fail got=pass  [DECISION D-punct-set] no quotation mark
+  count:words_japanese:db9742c7e3  label=fail got=pass  [DECISION D-vacuous] 
+  custom:csv_city:baed0b03c5  label=pass got=fail  [DECISION D-csv-wrapper] 
+  custom:european_capitals_sort:c87b724749  label=pass got=fail  [DECISION D-europe-set] 
+  custom:reverse_newline:ad7867c665  label=fail got=pass  [NO-DECISION] Zambia before Zimbabwe
+  custom:sentence_alphabet:1b976dfb38  label=pass got=fail  [DECISION D-title,D-sentence] 
+  format:line_indent:60846b5086  label=fail got=pass  [DECISION D-vacuous] 
+  format:list:02038068f6  label=fail got=pass  [DECISION D-list-inline] 
+  format:no_bullets_bullets:971ed55e69  label=fail got=pass  [NO-DECISION] sentences end in !
+  format:no_whitespace:e1335b1e98  label=pass got=fail  [DECISION D-nows-trailing] 
+  format:options:fe2f80ee7a  label=pass got=fail  [DECISION D-options-label] 
+  format:options:409f6f8d3d  label=pass got=fail  [DECISION D-typographic] 
+  format:options:7d48b2a7bc  label=pass got=fail  [DECISION D-options-whitespace] whitespace collapsed
+  format:output_template:c70ec14794  label=fail got=pass  [NO-DECISION] 
+  format:output_template:48bfbcf4b8  label=fail got=pass  [NO-DECISION] 
+  format:output_template:c4cca1afc2  label=fail got=pass  [DECISION D-template-outside] 
+  format:quote_unquote:4655fac9ab  label=fail got=pass  [DECISION D-vacuous] 
+  format:quotes:aa3ebbf923  label=pass got=fail  [DECISION D-typographic] 
+  format:sub-bullets:457e73f9cd  label=fail got=pass  [NO-DECISION] no * bullet
+  format:sub-bullets:422a4a70ab  label=pass got=fail  [NO-DECISION] bold line is not a bullet
+  format:thesis:9cf3619ed9  label=fail got=pass  [DECISION D-section] 
+  format:title_case:fb9620ad50  label=pass got=fail  [NO-DECISION] 
+  format:title_case:f537e3bdbd  label=pass got=fail  [NO-DECISION] 
+  ratio:overlap:27949aa59c  label=pass got=fail  [DECISION D-overlap-def] response side 3/6 = 50%; reference side 3/7 = 43%
+  ratio:sentence_words:b1510d80d2  label=fail got=pass  [NO-DECISION] nap repeated
+  repeat:repeat_span:d8b738713c  label=pass got=fail  [DECISION D-span-base] 
+  sentence:alliteration_increment:c29d916e61  label=fail got=pass  [DECISION D-vacuous] 
+  sentence:increment:bccb865918  label=fail got=pass  [DECISION D-vacuous] 
+  words:last_first:adfddb9cc7  label=pass got=fail  [NO-DECISION] 
+  words:last_first:95843192de  label=fail got=pass  [DECISION D-vacuous] 
+  words:palindrome:098d5b9456  label=fail got=pass  [DECISION D-palin-distinct] 
+  words:paragraph_last_first:2a484818e8  label=pass got=fail  [NO-DECISION] 
+  words:start_verb:ea5cbc11aa  label=pass got=fail  [NO-DECISION] 
+  words:start_verb:1a882a78d1  label=pass got=fail  [DECISION D-markup] 
+  words:words_position:da3ad5ec88  label=pass got=fail  [DECISION D-markup] 
+  count:conjunctions:18e76fa9b7  label=fail got=pass  [NO-DECISION] one conjunction in three spellings
+  count:keywords_multiple:b934227147  label=fail got=pass  [NO-DECISION] throughout is not through: 6, not 7
+  count:keywords_multiple:d3cffd3a14  label=pass got=fail  [NO-DECISION] indoors is not door; door stays at 1 but the grader counts 2
+  ratio:sentence_type:47e0156f10  label=fail got=pass  [NO-DECISION] no declarative, no interrogative
+  ratio:sentence_balance:e44d5c814c  label=fail got=pass  [NO-DECISION] no typed sentence at all
+  sentence:alliteration_increment:b785397a14  label=fail got=pass  [NO-DECISION] longest runs 3 then 2
+  sentence:alliteration_increment:795e36e7c7  label=pass got=fail  [NO-DECISION] longest runs 2 then 3
+  format:newline:127f33ce77  label=fail got=pass  [NO-DECISION] two words on line 1; blank line of spaces
+  format:line_indent:5213f6b9ba  label=pass got=fail  [NO-DECISION] tab indentation
+  format:line_indent:465a3d4dbe  label=pass got=fail  [DECISION D-indent-blank] two blank lines
+  format:quote_unquote:3351900d49  label=fail got=pass  [NO-DECISION] curly-quoted phrase with nothing after it
+  format:quote_unquote:8706f2d8e4  label=fail got=pass  [NO-DECISION] only a period after the first quote
+  format:list:3a1367be8a  label=fail got=pass  [NO-DECISION] hyphens inside words, no list
+  format:thesis:02d9566c00  label=fail got=pass  [NO-DECISION] section B has no thesis
+  format:sub-bullets:db6d42cdd1  label=fail got=pass  [NO-DECISION] no bullet at all
+  format:no_bullets_bullets:686e429f49  label=pass got=fail  [DECISION D-edge-whitespace,D-nbb-after] trailing newline
+  custom:character_reverse:0af66003fc  label=fail got=pass  [NO-DECISION] forward sentence with a reversed fragment
+  custom:date_format_list:b0c78241aa  label=fail got=pass  [NO-DECISION] month 00 day 00
+  custom:european_capitals_sort:4e482a5e17  label=fail got=pass  [NO-DECISION] Kyiv missing
+  custom:reverse_newline:2707bd0a0c  label=fail got=pass  [NO-DECISION] Zimbabwe then 51 non-countries in reverse order
+  custom:csv_special_character:fcf342bd3b  label=fail got=pass  [NO-DECISION] row 5 has 3 fields
+  custom:csv_quotes:039aba3435  label=fail got=ERR:IndexError:string index out of range  [NO-DECISION] empty unquoted field; grader raises IndexError
+  format:title_case:759b384944  label=pass got=fail  [NO-DECISION] contraction
+  format:output_template:c5630a7cbe  label=fail got=pass  [NO-DECISION] reversed order
+  repeat:repeat_change:e6518f7642  label=fail got=pass  [NO-DECISION] first word unchanged, double space
+  repeat:repeat_span:af29d0d287  label=fail got=pass  [NO-DECISION] character span 10..12 of the request
+  format:options:1f7042ba6c  label=pass got=fail  [NO-DECISION] upper-case label
+  format:parentheses:acaaf6bb5a  label=fail got=pass  [NO-DECISION] one matched pair
+  words:prime_lengths:cadced999c  label=pass got=fail  [NO-DECISION] em dash is not a word
+  words:last_first:ca02b576bf  label=pass got=fail  [NO-DECISION] comma after the first word
+  format:emoji:b5f85f4893  label=pass got=fail  [NO-DECISION] flag emoji
+  words:vowel:302e2f7d0c  label=pass got=fail  [DECISION D-vowel-paragraph] line break, no blank line
+  sentence:increment:43b4581ed6  label=fail got=pass  [DECISION D-vacuous] no words
+  format:sub-bullets:debeea5886  label=pass got=fail  [NO-DECISION] bold inside a bullet
+  words:paragraph_last_first:7f548a0b03  label=pass got=fail  [NO-DECISION] comma after first word
+  ratio:sentence_words:1c5410befd  label=fail got=pass  [NO-DECISION] Cats repeated
+  custom:sentence_alphabet:ec6c193858  label=pass got=fail  [NO-DECISION] first sentence in quotation marks
+  words:words_position:6f7a38c602  label=pass got=fail  [NO-DECISION] two trailing punctuation tokens
+
+=== reference_strict: 63 of 332 fixtures differ from the label
+  count:punctuation:a7f14b2c60  label=fail got=pass  [DECISION D-punct-set] no quotation mark
+  count:words_japanese:db9742c7e3  label=fail got=pass  [DECISION D-vacuous] 
+  custom:csv_city:baed0b03c5  label=pass got=fail  [DECISION D-csv-wrapper] 
+  custom:european_capitals_sort:c87b724749  label=pass got=fail  [DECISION D-europe-set] 
+  custom:reverse_newline:ad7867c665  label=fail got=pass  [NO-DECISION] Zambia before Zimbabwe
+  custom:sentence_alphabet:1b976dfb38  label=pass got=fail  [DECISION D-title,D-sentence] 
+  format:line_indent:60846b5086  label=fail got=pass  [DECISION D-vacuous] 
+  format:list:02038068f6  label=fail got=pass  [DECISION D-list-inline] 
+  format:no_bullets_bullets:971ed55e69  label=fail got=pass  [NO-DECISION] sentences end in !
+  format:no_whitespace:e1335b1e98  label=pass got=fail  [DECISION D-nows-trailing] 
+  format:options:fe2f80ee7a  label=pass got=fail  [DECISION D-options-label] 
+  format:options:409f6f8d3d  label=pass got=fail  [DECISION D-typographic] 
+  format:options:7d48b2a7bc  label=pass got=fail  [DECISION D-options-whitespace] whitespace collapsed
+  format:output_template:c70ec14794  label=fail got=pass  [NO-DECISION] 
+  format:output_template:48bfbcf4b8  label=fail got=pass  [NO-DECISION] 
+  format:output_template:c4cca1afc2  label=fail got=pass  [DECISION D-template-outside] 
+  format:quote_unquote:4655fac9ab  label=fail got=pass  [DECISION D-vacuous] 
+  format:quotes:aa3ebbf923  label=pass got=fail  [DECISION D-typographic] 
+  format:sub-bullets:457e73f9cd  label=fail got=pass  [NO-DECISION] no * bullet
+  format:sub-bullets:422a4a70ab  label=pass got=fail  [NO-DECISION] bold line is not a bullet
+  format:thesis:9cf3619ed9  label=fail got=pass  [DECISION D-section] 
+  format:title_case:fb9620ad50  label=pass got=fail  [NO-DECISION] 
+  format:title_case:f537e3bdbd  label=pass got=fail  [NO-DECISION] 
+  sentence:alliteration_increment:c29d916e61  label=fail got=pass  [DECISION D-vacuous] 
+  sentence:increment:bccb865918  label=fail got=pass  [DECISION D-vacuous] 
+  words:last_first:adfddb9cc7  label=pass got=fail  [NO-DECISION] 
+  words:last_first:95843192de  label=fail got=pass  [DECISION D-vacuous] 
+  words:palindrome:098d5b9456  label=fail got=pass  [DECISION D-palin-distinct] 
+  words:paragraph_last_first:2a484818e8  label=pass got=fail  [NO-DECISION] 
+  words:start_verb:ea5cbc11aa  label=pass got=fail  [NO-DECISION] 
+  words:start_verb:1a882a78d1  label=pass got=fail  [DECISION D-markup] 
+  count:conjunctions:18e76fa9b7  label=fail got=pass  [NO-DECISION] one conjunction in three spellings
+  ratio:sentence_type:47e0156f10  label=fail got=pass  [NO-DECISION] no declarative, no interrogative
+  ratio:sentence_balance:e44d5c814c  label=fail got=pass  [NO-DECISION] no typed sentence at all
+  sentence:alliteration_increment:b785397a14  label=fail got=pass  [NO-DECISION] longest runs 3 then 2
+  sentence:alliteration_increment:795e36e7c7  label=pass got=fail  [NO-DECISION] longest runs 2 then 3
+  format:newline:127f33ce77  label=fail got=pass  [NO-DECISION] two words on line 1; blank line of spaces
+  format:line_indent:5213f6b9ba  label=pass got=fail  [NO-DECISION] tab indentation
+  format:line_indent:465a3d4dbe  label=pass got=fail  [DECISION D-indent-blank] two blank lines
+  format:quote_unquote:3351900d49  label=fail got=pass  [NO-DECISION] curly-quoted phrase with nothing after it
+  format:quote_unquote:8706f2d8e4  label=fail got=pass  [NO-DECISION] only a period after the first quote
+  format:list:3a1367be8a  label=fail got=pass  [NO-DECISION] hyphens inside words, no list
+  format:thesis:02d9566c00  label=fail got=pass  [NO-DECISION] section B has no thesis
+  format:sub-bullets:db6d42cdd1  label=fail got=pass  [NO-DECISION] no bullet at all
+  format:no_bullets_bullets:686e429f49  label=pass got=fail  [DECISION D-edge-whitespace,D-nbb-after] trailing newline
+  custom:character_reverse:0af66003fc  label=fail got=pass  [NO-DECISION] forward sentence with a reversed fragment
+  custom:date_format_list:b0c78241aa  label=fail got=pass  [NO-DECISION] month 00 day 00
+  custom:european_capitals_sort:4e482a5e17  label=fail got=pass  [NO-DECISION] Kyiv missing
+  custom:reverse_newline:2707bd0a0c  label=fail got=pass  [NO-DECISION] Zimbabwe then 51 non-countries in reverse order
+  custom:csv_special_character:fcf342bd3b  label=fail got=pass  [NO-DECISION] row 5 has 3 fields
+  custom:csv_quotes:039aba3435  label=fail got=ERR:IndexError:string index out of range  [NO-DECISION] empty unquoted field; grader raises IndexError
+  format:title_case:759b384944  label=pass got=fail  [NO-DECISION] contraction
+  format:output_template:c5630a7cbe  label=fail got=pass  [NO-DECISION] reversed order
+  repeat:repeat_change:e6518f7642  label=fail got=pass  [NO-DECISION] first word unchanged, double space
+  format:options:1f7042ba6c  label=pass got=fail  [NO-DECISION] upper-case label
+  format:parentheses:acaaf6bb5a  label=fail got=pass  [NO-DECISION] one matched pair
+  words:prime_lengths:cadced999c  label=pass got=fail  [NO-DECISION] em dash is not a word
+  words:last_first:ca02b576bf  label=pass got=fail  [NO-DECISION] comma after the first word
+  format:emoji:b5f85f4893  label=pass got=fail  [NO-DECISION] flag emoji
+  words:vowel:302e2f7d0c  label=pass got=fail  [DECISION D-vowel-paragraph] line break, no blank line
+  sentence:increment:43b4581ed6  label=fail got=pass  [DECISION D-vacuous] no words
+  format:sub-bullets:debeea5886  label=pass got=fail  [NO-DECISION] bold inside a bullet
+  words:paragraph_last_first:7f548a0b03  label=pass got=fail  [NO-DECISION] comma after first word
+
+=== replacement: 0 of 332 fixtures differ from the label

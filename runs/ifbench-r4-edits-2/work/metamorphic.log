@@ -1,0 +1,65 @@
+871 passing seeds
+edits applied: 3727
+== grader_strict: 163 wrong verdicts after an edit
+   forbidden f_join_lines           format:newline                     2
+   forbidden f_lower_major          format:title_case                  1
+   ignored   blank_line             format:line_indent                 3
+   ignored   blank_line             format:no_bullets_bullets          9
+   ignored   bold_inner_word        format:title_case                  1
+   ignored   bold_inner_word        ratio:overlap                      1
+   ignored   bold_inner_word        words:start_verb                   2
+   ignored   comma_after_word       ratio:overlap                      1
+   ignored   comma_after_word       words:last_first                   1
+   ignored   list_label_first_line  count:words_japanese               2
+   ignored   list_label_first_line  ratio:overlap                      1
+   ignored   list_label_first_line  words:consonants                   19
+   ignored   list_label_first_line  words:start_verb                   17
+   ignored   list_label_first_line  words:words_position               2
+   ignored   trailing_newline       format:no_bullets_bullets          15
+   ignored   trailing_newline       format:no_whitespace               26
+   ignored   trailing_newline       format:options                     24
+   ignored   trailing_newline       ratio:overlap                      1
+   ignored   typographic            count:conjunctions                 3
+   ignored   typographic            custom:csv_city                    3
+   ignored   typographic            custom:csv_quotes                  3
+   ignored   typographic            custom:csv_special_character       4
+   ignored   typographic            format:options                     3
+   ignored   typographic            format:quotes                      13
+   ignored   typographic            format:title_case                  5
+   ignored   typographic            words:prime_lengths                1
+== reference_strict: 164 wrong verdicts after an edit
+   forbidden f_join_lines           format:newline                     2
+   forbidden f_lower_major          format:title_case                  1
+   ignored   blank_line             format:line_indent                 3
+   ignored   blank_line             format:no_bullets_bullets          9
+   ignored   bold_inner_word        format:title_case                  1
+   ignored   bold_inner_word        ratio:overlap                      2
+   ignored   bold_inner_word        words:start_verb                   2
+   ignored   comma_after_word       ratio:overlap                      2
+   ignored   comma_after_word       words:last_first                   1
+   ignored   list_label_first_line  count:words_japanese               2
+   ignored   list_label_first_line  ratio:overlap                      2
+   ignored   list_label_first_line  words:consonants                   19
+   ignored   list_label_first_line  words:start_verb                   17
+   ignored   trailing_newline       format:no_bullets_bullets          15
+   ignored   trailing_newline       format:no_whitespace               26
+   ignored   trailing_newline       format:options                     24
+   ignored   typographic            count:conjunctions                 3
+   ignored   typographic            custom:csv_city                    3
+   ignored   typographic            custom:csv_quotes                  3
+   ignored   typographic            custom:csv_special_character       4
+   ignored   typographic            custom:sentence_alphabet           1
+   ignored   typographic            format:options                     3
+   ignored   typographic            format:quotes                      13
+   ignored   typographic            format:title_case                  5
+   ignored   typographic            words:prime_lengths                1
+== replacement: 14 wrong verdicts after an edit
+   forbidden f_join_lines           format:newline                     2
+   forbidden f_lower_major          format:title_case                  1
+   forbidden f_second_word          words:words_position               1
+   ignored   blank_line             format:quote_unquote               1
+   ignored   list_label_first_line  format:emoji                       5
+   ignored   list_label_first_line  format:newline                     1
+   ignored   list_label_first_line  sentence:keyword                   1
+   ignored   list_label_first_line  words:last_first                   1
+   ignored   trailing_newline       format:no_whitespace               1

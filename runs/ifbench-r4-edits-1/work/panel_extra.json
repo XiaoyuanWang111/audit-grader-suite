@@ -1,0 +1,483 @@
+{
+ "pooled": {
+  "prompts": 68400,
+  "gs_prompt": 0.24918128654970761,
+  "gl_prompt": 0.2895175438596491,
+  "rs_prompt": 0.24997076023391812,
+  "rl_prompt": 0.29019005847953216,
+  "rep_prompt": 0.24032163742690058,
+  "checks": 78432,
+  "gs_instr": 0.2767747858017136,
+  "gl_instr": 0.323515911872705,
+  "rs_instr": 0.27586954304365563,
+  "rl_instr": 0.32222817217462263,
+  "rep_instr": 0.2617936556507548
+ },
+ "attribution": {
+  "ALL": {
+   "grader_pass:finding_or_replacement": 1637,
+   "grader_pass:decision": 2070,
+   "grader_fail:decision": 1077,
+   "grader_fail:finding_or_replacement": 1500,
+   "grader_pass:extraction_failure": 45
+  },
+  "count:conjunctions": {
+   "grader_pass:finding_or_replacement": 188,
+   "grader_pass:extraction_failure": 7
+  },
+  "count:keywords_multiple": {
+   "grader_pass:decision": 1
+  },
+  "count:numbers": {
+   "grader_fail:finding_or_replacement": 1,
+   "grader_pass:finding_or_replacement": 4
+  },
+  "count:pronouns": {
+   "grader_pass:decision": 388,
+   "grader_fail:decision": 1,
+   "grader_pass:extraction_failure": 5
+  },
+  "count:punctuation": {
+   "grader_pass:decision": 263
+  },
+  "count:unique_word_count": {
+   "grader_pass:decision": 44,
+   "grader_fail:decision": 1,
+   "grader_pass:extraction_failure": 12,
+   "grader_fail:finding_or_replacement": 1
+  },
+  "count:word_count_range": {
+   "grader_pass:finding_or_replacement": 52,
+   "grader_pass:decision": 5,
+   "grader_fail:decision": 56,
+   "grader_fail:finding_or_replacement": 23
+  },
+  "count:words_japanese": {
+   "grader_pass:decision": 21,
+   "grader_fail:decision": 3,
+   "grader_pass:finding_or_replacement": 21
+  },
+  "custom:character_reverse": {
+   "grader_pass:decision": 5
+  },
+  "custom:csv_city": {
+   "grader_fail:decision": 91
+  },
+  "custom:csv_quotes": {
+   "grader_fail:decision": 43
+  },
+  "custom:csv_special_character": {
+   "grader_fail:decision": 83,
+   "grader_pass:decision": 4
+  },
+  "custom:date_format_list": {
+   "grader_fail:finding_or_replacement": 1
+  },
+  "custom:mcq_count_length": {
+   "grader_fail:finding_or_replacement": 26,
+   "grader_fail:decision": 10
+  },
+  "custom:reverse_newline": {
+   "grader_pass:finding_or_replacement": 6
+  },
+  "custom:sentence_alphabet": {
+   "grader_fail:decision": 24
+  },
+  "custom:word_reverse": {
+   "grader_fail:decision": 11,
+   "grader_pass:decision": 5
+  },
+  "format:emoji": {
+   "grader_pass:finding_or_replacement": 29,
+   "grader_fail:decision": 21,
+   "grader_pass:decision": 1
+  },
+  "format:line_indent": {
+   "grader_pass:decision": 126,
+   "grader_fail:finding_or_replacement": 2
+  },
+  "format:list": {
+   "grader_fail:decision": 20,
+   "grader_pass:finding_or_replacement": 155,
+   "grader_pass:extraction_failure": 1
+  },
+  "format:newline": {
+   "grader_fail:finding_or_replacement": 5,
+   "grader_pass:decision": 4
+  },
+  "format:no_bullets_bullets": {
+   "grader_fail:finding_or_replacement": 323,
+   "grader_pass:finding_or_replacement": 37,
+   "grader_fail:decision": 1
+  },
+  "format:no_whitespace": {
+   "grader_fail:decision": 15
+  },
+  "format:options": {
+   "grader_fail:decision": 317
+  },
+  "format:output_template": {
+   "grader_pass:finding_or_replacement": 79
+  },
+  "format:parentheses": {
+   "grader_pass:finding_or_replacement": 201,
+   "grader_pass:extraction_failure": 1
+  },
+  "format:quote_unquote": {
+   "grader_pass:finding_or_replacement": 92,
+   "grader_fail:finding_or_replacement": 4
+  },
+  "format:quotes": {
+   "grader_pass:finding_or_replacement": 209,
+   "grader_fail:finding_or_replacement": 51,
+   "grader_fail:decision": 15,
+   "grader_pass:extraction_failure": 1
+  },
+  "format:sub-bullets": {
+   "grader_fail:finding_or_replacement": 747,
+   "grader_fail:decision": 157,
+   "grader_pass:finding_or_replacement": 206,
+   "grader_pass:extraction_failure": 3
+  },
+  "format:thesis": {
+   "grader_pass:decision": 325,
+   "grader_pass:finding_or_replacement": 203
+  },
+  "format:title_case": {
+   "grader_fail:decision": 16,
+   "grader_pass:finding_or_replacement": 5
+  },
+  "ratio:overlap": {
+   "grader_pass:decision": 162,
+   "grader_fail:decision": 39
+  },
+  "ratio:sentence_balance": {
+   "grader_fail:decision": 36,
+   "grader_pass:decision": 4,
+   "grader_pass:finding_or_replacement": 8
+  },
+  "ratio:sentence_type": {
+   "grader_pass:finding_or_replacement": 14,
+   "grader_fail:finding_or_replacement": 4,
+   "grader_fail:decision": 11,
+   "grader_pass:decision": 5
+  },
+  "ratio:sentence_words": {
+   "grader_pass:finding_or_replacement": 1
+  },
+  "ratio:stop_words": {
+   "grader_fail:finding_or_replacement": 17,
+   "grader_fail:decision": 6,
+   "grader_pass:decision": 9,
+   "grader_pass:extraction_failure": 6
+  },
+  "sentence:alliteration_increment": {
+   "grader_pass:finding_or_replacement": 115,
+   "grader_fail:finding_or_replacement": 5,
+   "grader_pass:decision": 8
+  },
+  "sentence:increment": {
+   "grader_pass:decision": 34,
+   "grader_pass:finding_or_replacement": 1,
+   "grader_fail:finding_or_replacement": 1
+  },
+  "sentence:keyword": {
+   "grader_fail:decision": 40,
+   "grader_pass:decision": 33,
+   "grader_fail:finding_or_replacement": 2
+  },
+  "words:alphabet": {
+   "grader_pass:decision": 3,
+   "grader_fail:decision": 3
+  },
+  "words:consonants": {
+   "grader_fail:finding_or_replacement": 5,
+   "grader_pass:decision": 9,
+   "grader_fail:decision": 1
+  },
+  "words:last_first": {
+   "grader_fail:finding_or_replacement": 1,
+   "grader_fail:decision": 34
+  },
+  "words:no_consecutive": {
+   "grader_pass:decision": 14,
+   "grader_pass:finding_or_replacement": 5
+  },
+  "words:odd_even_syllables": {
+   "grader_fail:finding_or_replacement": 1
+  },
+  "words:palindrome": {
+   "grader_pass:decision": 317,
+   "grader_pass:extraction_failure": 9
+  },
+  "words:paragraph_last_first": {
+   "grader_fail:decision": 21,
+   "grader_fail:finding_or_replacement": 8
+  },
+  "words:prime_lengths": {
+   "grader_pass:decision": 1,
+   "grader_fail:finding_or_replacement": 1
+  },
+  "words:repeats": {
+   "grader_pass:decision": 2
+  },
+  "words:start_verb": {
+   "grader_pass:decision": 276,
+   "grader_fail:finding_or_replacement": 267,
+   "grader_pass:finding_or_replacement": 6
+  },
+  "words:vowel": {
+   "grader_pass:decision": 1
+  },
+  "words:words_position": {
+   "grader_fail:decision": 1,
+   "grader_fail:finding_or_replacement": 4
+  }
+ },
+ "attribution_held_out": {
+  "grader_pass:finding_or_replacement": 107,
+  "grader_pass:decision": 152,
+  "grader_fail:finding_or_replacement": 99,
+  "grader_fail:decision": 72,
+  "grader_pass:extraction_failure": 15
+ },
+ "kendall_tau": 0.85,
+ "rank_swaps": [
+  [
+   "Qwen__Qwen2.5-14B-Instruct",
+   "Qwen__Qwen3-8B__thinking",
+   0.016,
+   -0.011
+  ],
+  [
+   "Qwen__Qwen2.5-14B-Instruct",
+   "allenai__OLMo-2-0325-32B-Instruct",
+   0.008,
+   -0.014
+  ],
+  [
+   "Qwen__Qwen2.5-32B-Instruct",
+   "Qwen__Qwen3-14B__thinking",
+   0.008,
+   -0.044
+  ],
+  [
+   "Qwen__Qwen2.5-7B-Instruct",
+   "Qwen__Qwen3-32B",
+   0.023,
+   -0.01
+  ],
+  [
+   "Qwen__Qwen3-32B",
+   "Qwen__Qwen3-8B",
+   -0.001,
+   0.019
+  ],
+  [
+   "allenai__Llama-3.1-Tulu-3-8B",
+   "mistralai__Mistral-Small-24B-Instruct-2501",
+   0.008,
+   -0.002
+  ],
+  [
+   "allenai__OLMo-2-1124-13B-Instruct",
+   "microsoft__phi-4",
+   0.036,
+   -0.014
+  ],
+  [
+   "allenai__OLMo-2-1124-13B-Instruct",
+   "mistralai__Mistral-Small-24B-Instruct-2501",
+   0.008,
+   -0.041
+  ],
+  [
+   "allenai__OLMo-2-1124-7B-Instruct",
+   "microsoft__phi-4",
+   0.013,
+   -0.02
+  ]
+ ],
+ "rank_grader": [
+  "Qwen__Qwen2.5-32B-Instruct",
+  "Qwen__Qwen3-14B__thinking",
+  "Qwen__Qwen2.5-14B-Instruct",
+  "allenai__OLMo-2-0325-32B-Instruct",
+  "Qwen__Qwen3-8B__thinking",
+  "Qwen__Qwen3-14B",
+  "Qwen__Qwen2.5-7B-Instruct",
+  "Qwen__Qwen3-8B",
+  "Qwen__Qwen3-32B",
+  "allenai__Llama-3.1-Tulu-3-8B",
+  "allenai__OLMo-2-1124-13B-Instruct",
+  "mistralai__Mistral-Small-24B-Instruct-2501",
+  "allenai__OLMo-2-1124-7B-Instruct",
+  "microsoft__phi-4",
+  "mistralai__Mistral-7B-Instruct-v0.3",
+  "marin-community__marin-8b-instruct"
+ ],
+ "rank_replacement": [
+  "Qwen__Qwen3-14B__thinking",
+  "Qwen__Qwen2.5-32B-Instruct",
+  "allenai__OLMo-2-0325-32B-Instruct",
+  "Qwen__Qwen3-8B__thinking",
+  "Qwen__Qwen2.5-14B-Instruct",
+  "Qwen__Qwen3-14B",
+  "Qwen__Qwen3-32B",
+  "Qwen__Qwen2.5-7B-Instruct",
+  "Qwen__Qwen3-8B",
+  "mistralai__Mistral-Small-24B-Instruct-2501",
+  "allenai__Llama-3.1-Tulu-3-8B",
+  "microsoft__phi-4",
+  "allenai__OLMo-2-1124-13B-Instruct",
+  "allenai__OLMo-2-1124-7B-Instruct",
+  "mistralai__Mistral-7B-Instruct-v0.3",
+  "marin-community__marin-8b-instruct"
+ ],
+ "delta_vs_noise": [
+  {
+   "config": "Qwen__Qwen2.5-14B-Instruct",
+   "delta": -0.0505882352941176,
+   "rerun_gs": -0.009999999999999953,
+   "rerun_rep": -0.003333333333333355,
+   "sd_runs_gs": 0.015276510730025457,
+   "runs": 17,
+   "se_mean_gs": 0.003819127682506364
+  },
+  {
+   "config": "Qwen__Qwen2.5-32B-Instruct",
+   "delta": -0.016666666666666663,
+   "rerun_gs": -0.013333333333333364,
+   "rerun_rep": -0.00666666666666671,
+   "sd_runs_gs": 0.01892926033363256,
+   "runs": 13,
+   "se_mean_gs": 0.005464406774591632
+  },
+  {
+   "config": "Qwen__Qwen2.5-7B-Instruct",
+   "delta": -0.020196078431372555,
+   "rerun_gs": -0.0033333333333332993,
+   "rerun_rep": 0.0,
+   "sd_runs_gs": 0.014349940755711365,
+   "runs": 17,
+   "se_mean_gs": 0.0035874851889278413
+  },
+  {
+   "config": "Qwen__Qwen3-14B",
+   "delta": 0.006666666666666654,
+   "rerun_gs": -0.0033333333333332993,
+   "rerun_rep": 0.0,
+   "sd_runs_gs": 0.012182136915301232,
+   "runs": 17,
+   "se_mean_gs": 0.003045534228825308
+  },
+  {
+   "config": "Qwen__Qwen3-14B__thinking",
+   "delta": 0.03555555555555556,
+   "rerun_gs": 0.009999999999999953,
+   "rerun_rep": 0.010000000000000009,
+   "sd_runs_gs": 0.004714045207910295,
+   "runs": 3,
+   "se_mean_gs": 0.0033333333333333175
+  },
+  {
+   "config": "Qwen__Qwen3-32B",
+   "delta": 0.013333333333333364,
+   "rerun_gs": -0.006666666666666682,
+   "rerun_rep": 0.0,
+   "sd_runs_gs": 0.01721580546830207,
+   "runs": 13,
+   "se_mean_gs": 0.004969774960720217
+  },
+  {
+   "config": "Qwen__Qwen3-8B",
+   "delta": -0.006078431372549015,
+   "rerun_gs": 0.0,
+   "rerun_rep": 0.003333333333333327,
+   "sd_runs_gs": 0.011325120845642078,
+   "runs": 17,
+   "se_mean_gs": 0.0028312802114105196
+  },
+  {
+   "config": "Qwen__Qwen3-8B__thinking",
+   "delta": -0.023333333333333317,
+   "rerun_gs": 0.0,
+   "rerun_rep": 0.009999999999999953,
+   "sd_runs_gs": 0.0015713484026367824,
+   "runs": 3,
+   "se_mean_gs": 0.0011111111111111183
+  },
+  {
+   "config": "allenai__Llama-3.1-Tulu-3-8B",
+   "delta": 0.0056862745098039125,
+   "rerun_gs": 0.003333333333333327,
+   "rerun_rep": 0.003333333333333327,
+   "sd_runs_gs": 0.01066421540461737,
+   "runs": 17,
+   "se_mean_gs": 0.0026660538511543426
+  },
+  {
+   "config": "allenai__OLMo-2-0325-32B-Instruct",
+   "delta": -0.02871794871794875,
+   "rerun_gs": 0.0,
+   "rerun_rep": 0.010000000000000009,
+   "sd_runs_gs": 0.015126032003848848,
+   "runs": 13,
+   "se_mean_gs": 0.004366509324596514
+  },
+  {
+   "config": "allenai__OLMo-2-1124-13B-Instruct",
+   "delta": -0.033333333333333326,
+   "rerun_gs": 0.0,
+   "rerun_rep": 0.0,
+   "sd_runs_gs": 0.012232528596456646,
+   "runs": 17,
+   "se_mean_gs": 0.0030581321491141614
+  },
+  {
+   "config": "allenai__OLMo-2-1124-7B-Instruct",
+   "delta": -0.016470588235294126,
+   "rerun_gs": 0.006666666666666682,
+   "rerun_rep": 0.003333333333333327,
+   "sd_runs_gs": 0.007037003311735831,
+   "runs": 17,
+   "se_mean_gs": 0.0017592508279339577
+  },
+  {
+   "config": "marin-community__marin-8b-instruct",
+   "delta": -0.00627450980392158,
+   "rerun_gs": -0.010000000000000009,
+   "rerun_rep": -0.003333333333333355,
+   "sd_runs_gs": 0.012166346711755743,
+   "runs": 17,
+   "se_mean_gs": 0.0030415866779389357
+  },
+  {
+   "config": "microsoft__phi-4",
+   "delta": 0.016470588235294126,
+   "rerun_gs": 0.0,
+   "rerun_rep": 0.0,
+   "sd_runs_gs": 0.01794090860187902,
+   "runs": 17,
+   "se_mean_gs": 0.004485227150469755
+  },
+  {
+   "config": "mistralai__Mistral-7B-Instruct-v0.3",
+   "delta": -0.004901960784313708,
+   "rerun_gs": 0.003333333333333327,
+   "rerun_rep": -0.003333333333333327,
+   "sd_runs_gs": 0.009066374918977955,
+   "runs": 17,
+   "se_mean_gs": 0.0022665937297444887
+  },
+  {
+   "config": "mistralai__Mistral-Small-24B-Instruct-2501",
+   "delta": 0.016410256410256424,
+   "rerun_gs": -0.003333333333333327,
+   "rerun_rep": -0.003333333333333327,
+   "sd_runs_gs": 0.014653571345876458,
+   "runs": 13,
+   "se_mean_gs": 0.00423012168056558
+  }
+ ]
+}

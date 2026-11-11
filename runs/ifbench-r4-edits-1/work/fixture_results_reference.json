@@ -1,0 +1,4048 @@
+[
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#69eae058",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "and but so yet = 4"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#594f2748",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "1 distinct"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#44c1d335",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "near miss: 3 distinct"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#d37288f1",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "sentence-initial capitals"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#a55f15f3",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "punctuation attached: or but and yet"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#c72a8233",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-conj-role"
+  ],
+  "note": "for/so used as preposition/adverb count by form"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#8470c979",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "exact 1,2,3,5,7"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#56743eaf",
+  "check": "count:keywords_multiple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "cascade 6"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#c5a40b55",
+  "check": "count:keywords_multiple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-count-exact"
+  ],
+  "note": "cascade 8 (over)"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#e6647e80",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-keyword-match"
+  ],
+  "note": "plural eclipses is not the keyword"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#7ae76cf3",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "upper-case keyword"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#b6c4ac41",
+  "check": "count:keywords_multiple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "only one keyword present"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#46e01b4b",
+  "check": "count:numbers",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2 numbers"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#9772a373",
+  "check": "count:numbers",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "3 numbers"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#6ecdb8d8",
+  "check": "count:numbers",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "1 number"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#71302691",
+  "check": "count:numbers",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-number"
+  ],
+  "note": "decimals are one number each"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#b7460b07",
+  "check": "count:numbers",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-number"
+  ],
+  "note": "thousands separator"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#d5cc4928",
+  "check": "count:numbers",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-number"
+  ],
+  "note": "number words do not count"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#0882cc8b",
+  "check": "count:numbers",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "plain prose 2 numbers"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#0ee7de00",
+  "check": "count:person_names",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "3 names"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#88655ee7",
+  "check": "count:person_names",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2 names"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#125ed839",
+  "check": "count:person_names",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2 distinct"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#27a2c16e",
+  "check": "count:person_names",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-name-case"
+  ],
+  "note": "lower-case grace is not a name"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#909f26e4",
+  "check": "count:person_names",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "possessives"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#e73f8e13",
+  "check": "count:person_names",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "John not in list"
+ },
+ {
+  "grader": "reference",
+  "id": "count:pronouns#56dbcc44",
+  "check": "count:pronouns",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "I her we them my = 5"
+ },
+ {
+  "grader": "reference",
+  "id": "count:pronouns#6d67a445",
+  "check": "count:pronouns",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "0"
+ },
+ {
+  "grader": "reference",
+  "id": "count:pronouns#7769fb52",
+  "check": "count:pronouns",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-pronoun-set"
+  ],
+  "note": "4 personal + demonstratives"
+ },
+ {
+  "grader": "reference",
+  "id": "count:pronouns#8750bf88",
+  "check": "count:pronouns",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "5 personal"
+ },
+ {
+  "grader": "reference",
+  "id": "count:pronouns#cfc0aa50",
+  "check": "count:pronouns",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "punctuation attached, 5"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#4f2ab126",
+  "check": "count:punctuation",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "all 14 marks + ?!"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#f8c3bf62",
+  "check": "count:punctuation",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "few marks"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#7fd6bb6f",
+  "check": "count:punctuation",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "near miss: no semicolon (explicitly required)"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#cca89cd3",
+  "check": "count:punctuation",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "near miss: no interrobang (explicitly required)"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#a006dff5",
+  "check": "count:punctuation",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-punct-set"
+  ],
+  "note": "no square brackets"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#60e3a354",
+  "check": "count:punctuation",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-punct-set"
+  ],
+  "note": "interrobang as U+203D"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#ab9e7b3c",
+  "check": "count:punctuation",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-punct-set"
+  ],
+  "note": "dash as --"
+ },
+ {
+  "grader": "reference",
+  "id": "count:punctuation#39f9acb4",
+  "check": "count:punctuation",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-punct-set"
+  ],
+  "note": "typographic quotes and apostrophe"
+ },
+ {
+  "grader": "reference",
+  "id": "count:unique_word_count#3b7f4484",
+  "check": "count:unique_word_count",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "36 distinct"
+ },
+ {
+  "grader": "reference",
+  "id": "count:unique_word_count#47ce0fc5",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "35 distinct"
+ },
+ {
+  "grader": "reference",
+  "id": "count:unique_word_count#e2a8330e",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-unique-case"
+  ],
+  "note": "Apple/apple same word"
+ },
+ {
+  "grader": "reference",
+  "id": "count:unique_word_count#b7ccb877",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-word"
+  ],
+  "note": "apple, and apple same word"
+ },
+ {
+  "grader": "reference",
+  "id": "count:unique_word_count#51df4fa1",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-word"
+  ],
+  "note": "markup tokens are not words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#9d74dfd5",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "59 words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#a399f54d",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "40 words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#c119b8f9",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-between"
+  ],
+  "note": "lower bound"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#c754c18e",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-between"
+  ],
+  "note": "upper bound"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#8f52048e",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "62 words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#f6d45cd0",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "56 words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#a0521902",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-word"
+  ],
+  "note": "56 words + standalone dashes"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#1cdd8c75",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "57 words with one hyphenated (57 or 58 under any reading)"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#c20d8ac6",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "words 5 and 10 Japanese"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#27dd2996",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no Japanese"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#a7dd525e",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "10th word English"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#b54b986a",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-word"
+  ],
+  "note": "punctuation attached to Japanese word"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#fb864a09",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "kana words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#9e553732",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-vacuous"
+  ],
+  "note": "fewer than N words"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#4af015fa",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-japanese-script"
+  ],
+  "note": "romaji"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:character_reverse#8074cfdc",
+  "check": "custom:character_reverse",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "letter reversal"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:character_reverse#5187a249",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "forward"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:character_reverse#26bb4a83",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "word reversal"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:character_reverse#cba0a4d8",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-reverse-extra"
+  ],
+  "note": "reversed + forward copy"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:character_reverse#5f4e5594",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-reverse-answer"
+  ],
+  "note": "reversed non-answer"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:character_reverse#2f1e4854",
+  "check": "custom:character_reverse",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-reverse-case"
+  ],
+  "note": "re-capitalized reversal"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:word_reverse#26bb4a83",
+  "check": "custom:word_reverse",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "word reversal"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:word_reverse#d19d5898",
+  "check": "custom:word_reverse",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-reverse-case"
+  ],
+  "note": "re-capitalized, period moved"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:word_reverse#5187a249",
+  "check": "custom:word_reverse",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "forward"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:word_reverse#8074cfdc",
+  "check": "custom:word_reverse",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "letter reversal"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:word_reverse#7e7394b0",
+  "check": "custom:word_reverse",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-reverse-extra"
+  ],
+  "note": "reversal + forward"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#92a3b05f",
+  "check": "custom:csv_city",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "header + 7 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#0dfb2b9e",
+  "check": "custom:csv_city",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-csv-wrapper"
+  ],
+  "note": "fenced with intro"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#7dcb5254",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-csv-rows"
+  ],
+  "note": "header + 6 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#d01504ba",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "8 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#1a1bfc6b",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "semicolon delimited"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#94626a20",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "a row with 4 fields"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#ca91b9ed",
+  "check": "custom:csv_city",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "quoted header fields"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_city#b5fcb544",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "missing Count column"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#98adec43",
+  "check": "custom:csv_quotes",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "tab, quoted, 3 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#5ffe60b4",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "comma delimited"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#5614cd4f",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-csv-header-quoted"
+  ],
+  "note": "header unquoted"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#f4da1003",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one data field unquoted"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#f0e0e5aa",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "4 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#9254c88a",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#9554a69b",
+  "check": "custom:csv_special_character",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "14 rows, one quoted field with &"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#c80e1a25",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no quoted field"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#25dc2691",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "quoted field without special character"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#1ea0a3d4",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "13 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#17d301a6",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "15 rows"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#4a8ca0a1",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "special character but unquoted"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#66d33c26",
+  "check": "custom:date_format_list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "ISO dates, commas"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#5bef9df8",
+  "check": "custom:date_format_list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "no spaces"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#5d0dc336",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "wrong format"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#2c86e4bd",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-date-extra"
+  ],
+  "note": "intro text"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#c155a511",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one DD-MM-YYYY"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#b469a7b3",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "invalid month"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#13feac09",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "newline separated, no commas"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#6194eaf1",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-date-extra"
+  ],
+  "note": "battle names"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#113de779",
+  "check": "custom:european_capitals_sort",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "contract list incl. Kyiv (50.45N); any reading that keeps Moscow, as the grader key does, needs Kyiv"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#2c6c464d",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "Oslo before Helsinki"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#7a4b21af",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "adds Rome (41.9N)"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#661c6643",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "country name"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#d94ae1ee",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-capitals-set",
+   "D-capitals-complete"
+  ],
+  "note": "Moscow missing"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#e023e3f9",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "alphabetical order"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#48e53cf2",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "wrong set and order"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#a55401d7",
+  "check": "custom:mcq_count_length",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "4 questions, 5 options, longer each time (under every length measure)"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#ae91724c",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "3 questions"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#d784a7a3",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "not progressively longer"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#aebad5ac",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one question with 4 options"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#bf0a97cc",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "label Q instead of Question"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#278fd6e3",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "explanation added"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#5af13e9f",
+  "check": "custom:multiples",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "exact"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#2564930c",
+  "check": "custom:multiples",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "newline separated"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#dd70b925",
+  "check": "custom:multiples",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra 10"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#ec843684",
+  "check": "custom:multiples",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "missing 49"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#ecc6f0e2",
+  "check": "custom:multiples",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra 7"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#27cfc64d",
+  "check": "custom:multiples",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-multiples-extra"
+  ],
+  "note": "word prefix"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#2e5b0bd2",
+  "check": "custom:multiples",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-multiples-extra"
+  ],
+  "note": "intro with range numbers"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#ad13a94f",
+  "check": "custom:multiples",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "out of order"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:multiples#84fc3236",
+  "check": "custom:multiples",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra 56"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#185e7da4",
+  "check": "custom:reverse_newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "54 in reverse order"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#bcb9bdbf",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "forward order"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#1d2258e7",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "Zambia before Zimbabwe"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#35ae4c9e",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-africa-complete"
+  ],
+  "note": "Kenya missing"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#e2c8e1a8",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-list-intro"
+  ],
+  "note": "intro line"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#1a03b821",
+  "check": "custom:reverse_newline",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "numbered lines"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#199ae053",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one line, comma separated"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:reverse_newline#59fd7027",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "non-African country inserted"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#0ccd43fb",
+  "check": "custom:sentence_alphabet",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "26 sentences A..Z"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#df8f93c6",
+  "check": "custom:sentence_alphabet",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "25 sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#d457b337",
+  "check": "custom:sentence_alphabet",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "D and E swapped"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#cca23132",
+  "check": "custom:sentence_alphabet",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-sentence"
+  ],
+  "note": "title line counts as sentence"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#ef1cd5ce",
+  "check": "custom:sentence_alphabet",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "lower-case initial"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#61c57d97",
+  "check": "custom:sentence_alphabet",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "27 sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#276bbf14",
+  "check": "format:emoji",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "emoji before period"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#b6800d5e",
+  "check": "format:emoji",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-emoji-position"
+  ],
+  "note": "emoji after period"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#2c3c45d7",
+  "check": "format:emoji",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no emoji"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#3423cde9",
+  "check": "format:emoji",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "first sentence lacks emoji"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#338c6bdb",
+  "check": "format:emoji",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-sentence"
+  ],
+  "note": "heading without emoji"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#5be51b76",
+  "check": "format:emoji",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "emoji with VS16 and ZWJ"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#89205074",
+  "check": "format:emoji",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-emoji-position"
+  ],
+  "note": "! and ? sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "format:emoji#3d68d20b",
+  "check": "format:emoji",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "last sentence lacks emoji"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#8c28cad5",
+  "check": "format:line_indent",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "stairs"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#1b258837",
+  "check": "format:line_indent",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no indent"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#af2468ed",
+  "check": "format:line_indent",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "equal indent"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#a95f8a61",
+  "check": "format:line_indent",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "decrease"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#d7163c42",
+  "check": "format:line_indent",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "blank lines ignored"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#88d13137",
+  "check": "format:line_indent",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-indent-step"
+  ],
+  "note": "uneven increase"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#6020c6d2",
+  "check": "format:line_indent",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-indent-min"
+  ],
+  "note": "single line"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#3006987f",
+  "check": "format:line_indent",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "tabs"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#7d0c09e0",
+  "check": "format:list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "prefix items"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#abea212e",
+  "check": "format:list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-list-sep"
+  ],
+  "note": "inline separator"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#d9c50fbb",
+  "check": "format:list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "ordinary bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#23b09ac7",
+  "check": "format:list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one item"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#10c5eeb0",
+  "check": "format:list",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "one item uses *"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#4dcae21d",
+  "check": "format:list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-list-intro"
+  ],
+  "note": "intro line"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#b917321a",
+  "check": "format:list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no separator"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#9b9ddfb7",
+  "check": "format:list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "sep '-'"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#77cd1be3",
+  "check": "format:list",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "sep '-' but * used"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#cfb56b37",
+  "check": "format:list",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "sep SEPARATOR"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#1e608618",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "one word per line"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#5e9045f9",
+  "check": "format:newline",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one line"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#58d0e29e",
+  "check": "format:newline",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one line with two words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#e44a5fa7",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-word"
+  ],
+  "note": "hyphenated word"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#421e882e",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-word"
+  ],
+  "note": "line with only a dash"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#fb2435f1",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "blank line between"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#e4978b37",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-word"
+  ],
+  "note": "markup around word"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#f2a7a5bf",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "punctuation attached"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#b861ec1d",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2 sentences then 2 bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#366b215c",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "bullets only"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#8475a7a1",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one sentence"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#7517d08b",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one bullet"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#41d069e7",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "sentences end in !"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#fa542e27",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-bullet-marker"
+  ],
+  "note": "- bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#92e9c4fd",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "bullets before sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#653b564a",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "content after bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#dfd29747",
+  "check": "format:no_whitespace",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "no whitespace"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#a902a88b",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "space"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#04e3a705",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-whitespace-set"
+  ],
+  "note": "no-break space"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#4ba9febb",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "tab"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#e2cd1c34",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "newline"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#4a370e17",
+  "check": "format:no_whitespace",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-strip-ends"
+  ],
+  "note": "trailing newline"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_whitespace#98a8500c",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-whitespace-set"
+  ],
+  "note": "ideographic space"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#85a39ab3",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "yes"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#78cca5ad",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "lower-case with period"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#da318d11",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "maybe"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#1ea442a1",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "no"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#57a787df",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "bold"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#7cfab9bb",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "explanation"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#05b6da17",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "two options"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#2612d3f7",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "not an option"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#3ae1f188",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#8d5c3d26",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "I know"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#807a4f30",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "I don't know"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#810d7c3c",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "with period"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#e7631648",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#bf4d4ea8",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "typographic apostrophe"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#2d2e9ceb",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "c)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#b0eca73e",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-options-text"
+  ],
+  "note": "upper-case (v4: letter form is part of D-options-text)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#2e7d2c03",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-options-text"
+  ],
+  "note": "letter without paren"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#c09356b4",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-options-text"
+  ],
+  "note": "label + option text"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#5c2373a0",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#c7fd61a7",
+  "check": "format:options",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "label + explanation"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#d1da54a2",
+  "check": "format:output_template",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "plain template"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#60901aa1",
+  "check": "format:output_template",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "one line"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#3d919378",
+  "check": "format:output_template",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-template-markup"
+  ],
+  "note": "bold labels"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#1c853dff",
+  "check": "format:output_template",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "free text"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#0d0a116b",
+  "check": "format:output_template",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "missing Future Outlook"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#3880c6d1",
+  "check": "format:output_template",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "text before template"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#e6f2680a",
+  "check": "format:output_template",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "order swapped"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#32aa85d6",
+  "check": "format:output_template",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "literal placeholders"
+ },
+ {
+  "grader": "reference",
+  "id": "format:output_template#bd8b6b15",
+  "check": "format:output_template",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "label repeated"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#21eca49d",
+  "check": "format:parentheses",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "depth 5 mixed"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#97ab7857",
+  "check": "format:parentheses",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-paren-types"
+  ],
+  "note": "depth 5 parentheses only"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#1150f88d",
+  "check": "format:parentheses",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "depth 2"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#b7e040c3",
+  "check": "format:parentheses",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "depth 4"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#4426a723",
+  "check": "format:parentheses",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "unclosed"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#e98f697c",
+  "check": "format:parentheses",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "five separate pairs"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#63557fb1",
+  "check": "format:parentheses",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "mismatched"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#1edd11cb",
+  "check": "format:quote_unquote",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "quote then explanation"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#7a72fc83",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "quote followed by quote/end"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#ddd127ce",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "quote at end"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#bdd3e6e1",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "quote followed only by period"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#5edd8ee1",
+  "check": "format:quote_unquote",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-vacuous"
+  ],
+  "note": "no quoted phrase"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#f7ead533",
+  "check": "format:quote_unquote",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "typographic quotes"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#14c5aadf",
+  "check": "format:quote_unquote",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-vacuous"
+  ],
+  "note": "apostrophes only"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#345130cf",
+  "check": "format:quote_unquote",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "two quotes each explained"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quotes#1b1cdfbd",
+  "check": "format:quotes",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "double-single-double"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quotes#60347bc9",
+  "check": "format:quotes",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "typographic 3 levels"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quotes#be7e566c",
+  "check": "format:quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "none"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quotes#80373403",
+  "check": "format:quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "depth 2"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quotes#3b241329",
+  "check": "format:quotes",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "3 levels, no alternation"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quotes#d4c12cd6",
+  "check": "format:quotes",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-quotes-start"
+  ],
+  "note": "single outermost"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#9f283848",
+  "check": "format:sub-bullets",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "indented subs"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#1c8c7c4a",
+  "check": "format:sub-bullets",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-subbullet-indent"
+  ],
+  "note": "unindented subs"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#dc644c7d",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no subs"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#89177ed2",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "second bullet lacks sub"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#35b65fdf",
+  "check": "format:sub-bullets",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "bold heading is not a bullet"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#82e47584",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "markers swapped"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#974bd1c1",
+  "check": "format:sub-bullets",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-plural"
+  ],
+  "note": "one bullet"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#212d5ee1",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "no bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#6bbec765",
+  "check": "format:thesis",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "paragraph sections"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#2f8395fe",
+  "check": "format:thesis",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "headed sections"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#e09ba515",
+  "check": "format:thesis",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no italics"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#685ec82f",
+  "check": "format:thesis",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "markdown italics"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#b87cc344",
+  "check": "format:thesis",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-section"
+  ],
+  "note": "second paragraph lacks thesis"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#606e5102",
+  "check": "format:thesis",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-italic-tag"
+  ],
+  "note": "<em>"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#844e324a",
+  "check": "format:thesis",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "italics not at start"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#50c1bf0a",
+  "check": "format:title_case",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "every word capitalized"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#e6373293",
+  "check": "format:title_case",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-title-minor"
+  ],
+  "note": "minor words lower-case"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#0d3f1091",
+  "check": "format:title_case",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "sentence case"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#ac55e41f",
+  "check": "format:title_case",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one major word lower-case"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#109226d3",
+  "check": "format:title_case",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-title-minor"
+  ],
+  "note": "markdown, 'With' capitalized"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#6535c627",
+  "check": "format:title_case",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "number token ignored"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:overlap#2c2a3da3",
+  "check": "ratio:overlap",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-overlap-def"
+  ],
+  "note": "1/9 response trigrams = 11.1%"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:overlap#3598078b",
+  "check": "ratio:overlap",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "0% overlap"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:overlap#aceab2c5",
+  "check": "ratio:overlap",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "100% overlap (copy)"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:overlap#d3564a0f",
+  "check": "ratio:overlap",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-overlap-def"
+  ],
+  "note": "1/14 = 7.1%"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#ad7423e7",
+  "check": "ratio:sentence_balance",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "1:1:1"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#a6558d58",
+  "check": "ratio:sentence_balance",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-balanced"
+  ],
+  "note": "2:1:1"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#6d68d796",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "3:0:0"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#5ea03f40",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no exclamatory"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#cdc41952",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-balanced"
+  ],
+  "note": "3:1:1"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#03d6c298",
+  "check": "ratio:sentence_balance",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2:2:2"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#af62c6b2",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2:1"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#d0919f10",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "1:0"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#10e98143",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-ratio-exact"
+  ],
+  "note": "3:1"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#8358c1e7",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "4:2"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#42b6d2a3",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2:1 plus exclamatory"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#926d9225",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "0:2"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#7e0d77c4",
+  "check": "ratio:sentence_words",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "19 chars each, all different words"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#6565d64f",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "two sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#3dd90200",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "repeated words"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#430cbb7d",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "different lengths"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#c69d2317",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-char-count"
+  ],
+  "note": "same letters, comma adds a character"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#f84fe202",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "four sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:stop_words#2dfb4bb1",
+  "check": "ratio:stop_words",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "1 stop word of 8 (or of 6 by whitespace)"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:stop_words#f8f52cc6",
+  "check": "ratio:stop_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "mostly stop words"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:stop_words#295dbfb3",
+  "check": "ratio:stop_words",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-stopword-list"
+  ],
+  "note": "1/5 = 20% at the bound"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:stop_words#ccac1608",
+  "check": "ratio:stop_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-stopword-list"
+  ],
+  "note": "2/5 = 40%"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#2e585d99",
+  "check": "repeat:repeat_change",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "first word changed"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#77f13fc8",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "answers the request"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#d4d7aca8",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "unchanged first word"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#ae43b305",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-repeat-tail"
+  ],
+  "note": "repeat + answer"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#de4b4ea6",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "text before"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#aff30357",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "second word changed too"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#970a2ed9",
+  "check": "repeat:repeat_simple",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "exact"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#63f36098",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "answers"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#8bac32b8",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-repeat-format"
+  ],
+  "note": "missing period"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#fea39397",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-repeat-format"
+  ],
+  "note": "quoted"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#fa73c460",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-repeat-simple-target"
+  ],
+  "note": "repeats the other text"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#e0b3d943",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "extra text"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_simple#5e33157f",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-repeat-format"
+  ],
+  "note": "lower-cased"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#88520227",
+  "check": "repeat:repeat_span",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "0-based 3..6"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#216279a6",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "wrong span"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#b1278bee",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-span-base"
+  ],
+  "note": "1-based reading"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#2f22f490",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "span + explanation"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#f3250001",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "off by one"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#43b3e484",
+  "check": "repeat:repeat_span",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "0..7"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_span#9ab8eb51",
+  "check": "repeat:repeat_span",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "10..12 of key 287"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:alliteration_increment#1a1b19f2",
+  "check": "sentence:alliteration_increment",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "runs 1,2,4"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:alliteration_increment#fd98e8a0",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "runs 1,1"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:alliteration_increment#a38cb6a4",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "runs 2,2"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:alliteration_increment#c09987c1",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "runs 4,2"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:alliteration_increment#2af5cd04",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "runs 1,2,4,1"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:increment#80e6ffed",
+  "check": "sentence:increment",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2,7,12"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:increment#bbc83b3d",
+  "check": "sentence:increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2,2"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:increment#317df0d5",
+  "check": "sentence:increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2,6,9"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:increment#b2cb89d6",
+  "check": "sentence:increment",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2,7,3"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#af848f97",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "in sentence 3"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#4257619b",
+  "check": "sentence:keyword",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "absent"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#2ee1a3b6",
+  "check": "sentence:keyword",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "in sentence 2"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#6130cfee",
+  "check": "sentence:keyword",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-keyword-match"
+  ],
+  "note": "plural"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#4ad1a576",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "capitalized"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#ff3d128a",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-sentence"
+  ],
+  "note": "abbreviation"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:keyword#ff2d62f3",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-sentence"
+  ],
+  "note": "heading counts as sentence 1"
+ },
+ {
+  "grader": "reference",
+  "id": "words:alphabet#2a8d3de0",
+  "check": "words:alphabet",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "a b c d e"
+ },
+ {
+  "grader": "reference",
+  "id": "words:alphabet#9ab8c463",
+  "check": "words:alphabet",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-alphabet-start"
+  ],
+  "note": "starts at b"
+ },
+ {
+  "grader": "reference",
+  "id": "words:alphabet#42aa45d4",
+  "check": "words:alphabet",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-alphabet-start"
+  ],
+  "note": "wraps z to a"
+ },
+ {
+  "grader": "reference",
+  "id": "words:alphabet#bce4e3fe",
+  "check": "words:alphabet",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no sequence"
+ },
+ {
+  "grader": "reference",
+  "id": "words:alphabet#5c427dae",
+  "check": "words:alphabet",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "one break"
+ },
+ {
+  "grader": "reference",
+  "id": "words:alphabet#ee33e480",
+  "check": "words:alphabet",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-word-numbers"
+  ],
+  "note": "number ignored"
+ },
+ {
+  "grader": "reference",
+  "id": "words:consonants#a13161d7",
+  "check": "words:consonants",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "all clusters"
+ },
+ {
+  "grader": "reference",
+  "id": "words:consonants#940b39ea",
+  "check": "words:consonants",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "no clusters"
+ },
+ {
+  "grader": "reference",
+  "id": "words:consonants#9279ea55",
+  "check": "words:consonants",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "'is' lacks a cluster"
+ },
+ {
+  "grader": "reference",
+  "id": "words:consonants#59fb0432",
+  "check": "words:consonants",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-consonant-y"
+  ],
+  "note": "y as consonant"
+ },
+ {
+  "grader": "reference",
+  "id": "words:consonants#1d2c345a",
+  "check": "words:consonants",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-word-numbers"
+  ],
+  "note": "number ignored"
+ },
+ {
+  "grader": "reference",
+  "id": "words:keywords_specific_position#aa37778f",
+  "check": "words:keywords_specific_position",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "sentence 2 word 3"
+ },
+ {
+  "grader": "reference",
+  "id": "words:keywords_specific_position#886c070c",
+  "check": "words:keywords_specific_position",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "absent"
+ },
+ {
+  "grader": "reference",
+  "id": "words:keywords_specific_position#8c9fe5f4",
+  "check": "words:keywords_specific_position",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "word 2"
+ },
+ {
+  "grader": "reference",
+  "id": "words:keywords_specific_position#243db8f6",
+  "check": "words:keywords_specific_position",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "sentence 1"
+ },
+ {
+  "grader": "reference",
+  "id": "words:keywords_specific_position#79cd9345",
+  "check": "words:keywords_specific_position",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "comma attached"
+ },
+ {
+  "grader": "reference",
+  "id": "words:keywords_specific_position#2ecc4007",
+  "check": "words:keywords_specific_position",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "capitalized keyword"
+ },
+ {
+  "grader": "reference",
+  "id": "words:last_first#2e85602f",
+  "check": "words:last_first",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "chain"
+ },
+ {
+  "grader": "reference",
+  "id": "words:last_first#28a2447e",
+  "check": "words:last_first",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "broken"
+ },
+ {
+  "grader": "reference",
+  "id": "words:last_first#b9d77015",
+  "check": "words:last_first",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "second pair broken"
+ },
+ {
+  "grader": "reference",
+  "id": "words:last_first#58c53e08",
+  "check": "words:last_first",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "case and punctuation"
+ },
+ {
+  "grader": "reference",
+  "id": "words:last_first#e4977e51",
+  "check": "words:last_first",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-vacuous"
+  ],
+  "note": "single sentence"
+ },
+ {
+  "grader": "reference",
+  "id": "words:no_consecutive#a484c0ba",
+  "check": "words:no_consecutive",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "h t b t"
+ },
+ {
+  "grader": "reference",
+  "id": "words:no_consecutive#e05fd185",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "all c"
+ },
+ {
+  "grader": "reference",
+  "id": "words:no_consecutive#8b8914c3",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "across sentence boundary"
+ },
+ {
+  "grader": "reference",
+  "id": "words:no_consecutive#3bfcab21",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "case-insensitive"
+ },
+ {
+  "grader": "reference",
+  "id": "words:no_consecutive#f4307b30",
+  "check": "words:no_consecutive",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "a c d c p"
+ },
+ {
+  "grader": "reference",
+  "id": "words:odd_even_syllables#0de62ada",
+  "check": "words:odd_even_syllables",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "1,2,1,2"
+ },
+ {
+  "grader": "reference",
+  "id": "words:odd_even_syllables#5107e0bb",
+  "check": "words:odd_even_syllables",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "1,1,1"
+ },
+ {
+  "grader": "reference",
+  "id": "words:odd_even_syllables#19348dc6",
+  "check": "words:odd_even_syllables",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "1,2,1,2,2"
+ },
+ {
+  "grader": "reference",
+  "id": "words:odd_even_syllables#5a6bc1c7",
+  "check": "words:odd_even_syllables",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2,1"
+ },
+ {
+  "grader": "reference",
+  "id": "words:palindrome#45f6c2e3",
+  "check": "words:palindrome",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "10 distinct"
+ },
+ {
+  "grader": "reference",
+  "id": "words:palindrome#7c6922a7",
+  "check": "words:palindrome",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "none"
+ },
+ {
+  "grader": "reference",
+  "id": "words:palindrome#47208e0c",
+  "check": "words:palindrome",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "9"
+ },
+ {
+  "grader": "reference",
+  "id": "words:palindrome#2c152c34",
+  "check": "words:palindrome",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-palindrome-distinct"
+  ],
+  "note": "one palindrome 10 times"
+ },
+ {
+  "grader": "reference",
+  "id": "words:palindrome#3d28e474",
+  "check": "words:palindrome",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "all shorter than 5"
+ },
+ {
+  "grader": "reference",
+  "id": "words:palindrome#0bf56bfd",
+  "check": "words:palindrome",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "capitalized"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#31d59422",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "line paragraphs"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#7311dcc6",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "blank-line paragraphs with periods"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#6bc04598",
+  "check": "words:paragraph_last_first",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "none match"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#acf01562",
+  "check": "words:paragraph_last_first",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "second fails"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#29cc1647",
+  "check": "words:paragraph_last_first",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-paragraph-newline"
+  ],
+  "note": "newline splits paragraph"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#7b67215a",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-word"
+  ],
+  "note": "markup around first word"
+ },
+ {
+  "grader": "reference",
+  "id": "words:prime_lengths#5752cdcc",
+  "check": "words:prime_lengths",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2,2,2,5,2,3"
+ },
+ {
+  "grader": "reference",
+  "id": "words:prime_lengths#7c845fb1",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "This=4"
+ },
+ {
+  "grader": "reference",
+  "id": "words:prime_lengths#193f9a60",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "a=1"
+ },
+ {
+  "grader": "reference",
+  "id": "words:prime_lengths#e6cbe0ba",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-word-length"
+  ],
+  "note": "don't = 4 letters"
+ },
+ {
+  "grader": "reference",
+  "id": "words:prime_lengths#419e3adc",
+  "check": "words:prime_lengths",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-word-numbers"
+  ],
+  "note": "number ignored"
+ },
+ {
+  "grader": "reference",
+  "id": "words:repeats#a493f922",
+  "check": "words:repeats",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "max 3"
+ },
+ {
+  "grader": "reference",
+  "id": "words:repeats#cda73a89",
+  "check": "words:repeats",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "5 times"
+ },
+ {
+  "grader": "reference",
+  "id": "words:repeats#4716dee8",
+  "check": "words:repeats",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-repeats-count"
+  ],
+  "note": "4 = N+1"
+ },
+ {
+  "grader": "reference",
+  "id": "words:repeats#50974962",
+  "check": "words:repeats",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-repeats-count"
+  ],
+  "note": "case variants 4"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#45b07647",
+  "check": "words:start_verb",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "imperative"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#4ba91caf",
+  "check": "words:start_verb",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "noun first"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#b16e7117",
+  "check": "words:start_verb",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "bold verb"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#359573ae",
+  "check": "words:start_verb",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "heading first"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#06b42e8b",
+  "check": "words:start_verb",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-verb-context"
+  ],
+  "note": "noun/verb word used as verb"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#4040331e",
+  "check": "words:start_verb",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-verb-context"
+  ],
+  "note": "gerund subject"
+ },
+ {
+  "grader": "reference",
+  "id": "words:start_verb#e395226f",
+  "check": "words:start_verb",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "auxiliary verb"
+ },
+ {
+  "grader": "reference",
+  "id": "words:vowel#5f7b98e4",
+  "check": "words:vowel",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "a e i"
+ },
+ {
+  "grader": "reference",
+  "id": "words:vowel#421f4906",
+  "check": "words:vowel",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "5 vowels"
+ },
+ {
+  "grader": "reference",
+  "id": "words:vowel#0ebd7e8a",
+  "check": "words:vowel",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "adds o"
+ },
+ {
+  "grader": "reference",
+  "id": "words:vowel#71f33395",
+  "check": "words:vowel",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-vowel-scope"
+  ],
+  "note": "per word <=3 types, total 5"
+ },
+ {
+  "grader": "reference",
+  "id": "words:vowel#522280c3",
+  "check": "words:vowel",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [
+   "D-vowel-paragraph"
+  ],
+  "note": "two paragraphs"
+ },
+ {
+  "grader": "reference",
+  "id": "words:words_position#42efa271",
+  "check": "words:words_position",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "2nd and 2nd-last"
+ },
+ {
+  "grader": "reference",
+  "id": "words:words_position#b3109076",
+  "check": "words:words_position",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "absent"
+ },
+ {
+  "grader": "reference",
+  "id": "words:words_position#647f7049",
+  "check": "words:words_position",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "2nd-last wrong"
+ },
+ {
+  "grader": "reference",
+  "id": "words:words_position#0b054f68",
+  "check": "words:words_position",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "commas attached"
+ },
+ {
+  "grader": "reference",
+  "id": "words:words_position#bb62fe12",
+  "check": "words:words_position",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [
+   "D-word"
+  ],
+  "note": "markup around first word"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#29d39df9",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: one conjunction in four spellings"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#24ca4d3b",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: exact counts"
+ },
+ {
+  "grader": "reference",
+  "id": "count:keywords_multiple#487922bc",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: 'river' inside 'driver' is not the keyword (v3)"
+ },
+ {
+  "grader": "reference",
+  "id": "count:numbers#57019ffa",
+  "check": "count:numbers",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: a hyphenated range holds two numbers"
+ },
+ {
+  "grader": "reference",
+  "id": "count:word_count_range#7c51fcd2",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: 57 words incl. 5 contractions"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:stop_words#2cf31b94",
+  "check": "ratio:stop_words",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: 1 stop word of 4 words = 25% <= 39%"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#3738487b",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: 0 declarative, 0 interrogative"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_type#389403cd",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: 2:1 with a closing quote after a period"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#2702c9b5",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-sentence-type",
+   "D-vacuous"
+  ],
+  "note": "POST: one unterminated sentence"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_balance#b7761e44",
+  "check": "ratio:sentence_balance",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: 1:1:1, quoted sentences"
+ },
+ {
+  "grader": "reference",
+  "id": "ratio:sentence_words#9bf12340",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: equal lengths, repeated words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:line_indent#5ca22c1c",
+  "check": "format:line_indent",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: two consecutive blank lines"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#e5f78837",
+  "check": "format:newline",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: two words on a line, whitespace-only line"
+ },
+ {
+  "grader": "reference",
+  "id": "format:newline#07733d8b",
+  "check": "format:newline",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: whitespace-only line between words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:list#2584034b",
+  "check": "format:list",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: no list, hyphens inside words"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#d44d9892",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: trailing newline"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#e9238d72",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: blank line between bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#927580bf",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: trailing newline (G10)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:options#2ea4f9b0",
+  "check": "format:options",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: trailing newline (G10)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#9f008108",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: first quote followed only by a comma"
+ },
+ {
+  "grader": "reference",
+  "id": "format:quote_unquote#278caa31",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: typographic quote at the end (G10)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:sub-bullets#da21f6a4",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: hyphens inside words, no sub-bullets"
+ },
+ {
+  "grader": "reference",
+  "id": "format:thesis#8b0c3daa",
+  "check": "format:thesis",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: one section that is only its thesis"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#95beef7e",
+  "check": "format:title_case",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: contraction"
+ },
+ {
+  "grader": "reference",
+  "id": "format:title_case#26d02f70",
+  "check": "format:title_case",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: 'of' lower-case (minor under every style)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:parentheses#9fc38630",
+  "check": "format:parentheses",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: only the innermost pair is closed"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:european_capitals_sort#2422fd5e",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-capitals-complete"
+  ],
+  "note": "POST: grader key (no Kyiv)"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:sentence_alphabet#cca075f6",
+  "check": "custom:sentence_alphabet",
+  "label": "pass",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: sentence 3 opens with a quotation mark"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_special_character#be0ed161",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: rows 2-14 have 3 fields"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:csv_quotes#1737bf8c",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "verdict": "error:IndexError:string index out of range",
+  "dec": [],
+  "note": "POST: an empty unquoted field"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:date_format_list#443b4fe3",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: month 00 and day 00"
+ },
+ {
+  "grader": "reference",
+  "id": "custom:mcq_count_length#d7804689",
+  "check": "custom:mcq_count_length",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: bold labels"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#093afd81",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: unchanged request + trailing newline"
+ },
+ {
+  "grader": "reference",
+  "id": "repeat:repeat_change#a49f0741",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: unchanged request, double space"
+ },
+ {
+  "grader": "reference",
+  "id": "sentence:alliteration_increment#20fedc4e",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: longest runs 3 then 2 (total 3 then 6)"
+ },
+ {
+  "grader": "reference",
+  "id": "words:paragraph_last_first#23fa39b1",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-word"
+  ],
+  "note": "POST: comma after first word"
+ },
+ {
+  "grader": "reference",
+  "id": "count:words_japanese#1eefcc0a",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [
+   "D-word-numbers"
+  ],
+  "note": "POST: number at position 5"
+ },
+ {
+  "grader": "reference",
+  "id": "words:vowel#cbc5c906",
+  "check": "words:vowel",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [
+   "D-paragraph"
+  ],
+  "note": "POST: line break inside one paragraph"
+ },
+ {
+  "grader": "reference",
+  "id": "count:conjunctions#85e471f8",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "verdict": "pass",
+  "dec": [],
+  "note": "POST: one conjunction in four spellings (and, and, And, AND)"
+ },
+ {
+  "grader": "reference",
+  "id": "count:person_names#44a20674",
+  "check": "count:person_names",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: markdown italics around a name (G3)"
+ },
+ {
+  "grader": "reference",
+  "id": "words:no_consecutive#6af2c5f4",
+  "check": "words:no_consecutive",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST: HTML tag around a word (G3)"
+ },
+ {
+  "grader": "reference",
+  "id": "format:no_bullets_bullets#625c6237",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "verdict": "fail",
+  "dec": [],
+  "note": "POST-PANEL: blank line between the opening sentences"
+ }
+]

@@ -1,0 +1,70 @@
+pooled {'prompts': 68400, 'gs_prompt': 0.2492, 'gl_prompt': 0.2895, 'rs_prompt': 0.25, 'rl_prompt': 0.2902, 'rep_prompt': 0.2403, 'checks': 78432, 'gs_instr': 0.2768, 'gl_instr': 0.3235, 'rs_instr': 0.2759, 'rl_instr': 0.3222, 'rep_instr': 0.2618}
+attribution ALL {'grader_pass:finding_or_replacement': 1637, 'grader_pass:decision': 2070, 'grader_fail:decision': 1077, 'grader_fail:finding_or_replacement': 1500, 'grader_pass:extraction_failure': 45}
+attribution held-out {'grader_pass:finding_or_replacement': 107, 'grader_pass:decision': 152, 'grader_fail:finding_or_replacement': 99, 'grader_fail:decision': 72, 'grader_pass:extraction_failure': 15}
+kendall tau 0.85 swaps 9
+   ('Qwen__Qwen2.5-14B-Instruct', 'Qwen__Qwen3-8B__thinking', 0.016, -0.011)
+   ('Qwen__Qwen2.5-14B-Instruct', 'allenai__OLMo-2-0325-32B-Instruct', 0.008, -0.014)
+   ('Qwen__Qwen2.5-32B-Instruct', 'Qwen__Qwen3-14B__thinking', 0.008, -0.044)
+   ('Qwen__Qwen2.5-7B-Instruct', 'Qwen__Qwen3-32B', 0.023, -0.01)
+   ('Qwen__Qwen3-32B', 'Qwen__Qwen3-8B', -0.001, 0.019)
+   ('allenai__Llama-3.1-Tulu-3-8B', 'mistralai__Mistral-Small-24B-Instruct-2501', 0.008, -0.002)
+   ('allenai__OLMo-2-1124-13B-Instruct', 'microsoft__phi-4', 0.036, -0.014)
+   ('allenai__OLMo-2-1124-13B-Instruct', 'mistralai__Mistral-Small-24B-Instruct-2501', 0.008, -0.041)
+   ('allenai__OLMo-2-1124-7B-Instruct', 'microsoft__phi-4', 0.013, -0.02)
+rank grader      ['Qwen2.5-32B-Instruct', 'Qwen3-14B', 'Qwen2.5-14B-Instruct', 'OLMo-2-0325-32B-Instruct', 'Qwen3-8B', 'Qwen3-14B', 'Qwen2.5-7B-Instruct', 'Qwen3-8B', 'Qwen3-32B', 'Llama-3.1-Tulu-3-8B', 'OLMo-2-1124-13B-Instruct', 'Mistral-Small-24B-Instruct-2501', 'OLMo-2-1124-7B-Instruct', 'phi-4', 'Mistral-7B-Instruct-v0.3', 'marin-8b-instruct']
+rank replacement ['Qwen3-14B', 'Qwen2.5-32B-Instruct', 'OLMo-2-0325-32B-Instruct', 'Qwen3-8B', 'Qwen2.5-14B-Instruct', 'Qwen3-14B', 'Qwen3-32B', 'Qwen2.5-7B-Instruct', 'Qwen3-8B', 'Mistral-Small-24B-Instruct-2501', 'Llama-3.1-Tulu-3-8B', 'phi-4', 'OLMo-2-1124-13B-Instruct', 'OLMo-2-1124-7B-Instruct', 'Mistral-7B-Instruct-v0.3', 'marin-8b-instruct']
+configs whose |delta| exceeds both rerun diffs and 2x run SD: 5 ['Qwen__Qwen2.5-14B-Instruct', 'Qwen__Qwen3-14B__thinking', 'Qwen__Qwen3-8B__thinking', 'allenai__OLMo-2-1124-13B-Instruct', 'allenai__OLMo-2-1124-7B-Instruct']
+
+per-check attribution (finding_or_replacement counts)
+  ALL                                finding/repl  3137  decision  3147  extraction  45
+  count:conjunctions                 finding/repl   188  decision     0  extraction   7
+  count:keywords_multiple            finding/repl     0  decision     1  extraction   0
+  count:numbers                      finding/repl     5  decision     0  extraction   0
+  count:pronouns                     finding/repl     0  decision   389  extraction   5
+  count:punctuation                  finding/repl     0  decision   263  extraction   0
+  count:unique_word_count            finding/repl     1  decision    45  extraction  12
+  count:word_count_range             finding/repl    75  decision    61  extraction   0
+  count:words_japanese               finding/repl    21  decision    24  extraction   0
+  custom:character_reverse           finding/repl     0  decision     5  extraction   0
+  custom:csv_city                    finding/repl     0  decision    91  extraction   0
+  custom:csv_quotes                  finding/repl     0  decision    43  extraction   0
+  custom:csv_special_character       finding/repl     0  decision    87  extraction   0
+  custom:date_format_list            finding/repl     1  decision     0  extraction   0
+  custom:mcq_count_length            finding/repl    26  decision    10  extraction   0
+  custom:reverse_newline             finding/repl     6  decision     0  extraction   0
+  custom:sentence_alphabet           finding/repl     0  decision    24  extraction   0
+  custom:word_reverse                finding/repl     0  decision    16  extraction   0
+  format:emoji                       finding/repl    29  decision    22  extraction   0
+  format:line_indent                 finding/repl     2  decision   126  extraction   0
+  format:list                        finding/repl   155  decision    20  extraction   1
+  format:newline                     finding/repl     5  decision     4  extraction   0
+  format:no_bullets_bullets          finding/repl   360  decision     1  extraction   0
+  format:no_whitespace               finding/repl     0  decision    15  extraction   0
+  format:options                     finding/repl     0  decision   317  extraction   0
+  format:output_template             finding/repl    79  decision     0  extraction   0
+  format:parentheses                 finding/repl   201  decision     0  extraction   1
+  format:quote_unquote               finding/repl    96  decision     0  extraction   0
+  format:quotes                      finding/repl   260  decision    15  extraction   1
+  format:sub-bullets                 finding/repl   953  decision   157  extraction   3
+  format:thesis                      finding/repl   203  decision   325  extraction   0
+  format:title_case                  finding/repl     5  decision    16  extraction   0
+  ratio:overlap                      finding/repl     0  decision   201  extraction   0
+  ratio:sentence_balance             finding/repl     8  decision    40  extraction   0
+  ratio:sentence_type                finding/repl    18  decision    16  extraction   0
+  ratio:sentence_words               finding/repl     1  decision     0  extraction   0
+  ratio:stop_words                   finding/repl    17  decision    15  extraction   6
+  sentence:alliteration_increment    finding/repl   120  decision     8  extraction   0
+  sentence:increment                 finding/repl     2  decision    34  extraction   0
+  sentence:keyword                   finding/repl     2  decision    73  extraction   0
+  words:alphabet                     finding/repl     0  decision     6  extraction   0
+  words:consonants                   finding/repl     5  decision    10  extraction   0
+  words:last_first                   finding/repl     1  decision    34  extraction   0
+  words:no_consecutive               finding/repl     5  decision    14  extraction   0
+  words:odd_even_syllables           finding/repl     1  decision     0  extraction   0
+  words:palindrome                   finding/repl     0  decision   317  extraction   9
+  words:paragraph_last_first         finding/repl     8  decision    21  extraction   0
+  words:prime_lengths                finding/repl     1  decision     1  extraction   0
+  words:repeats                      finding/repl     0  decision     2  extraction   0
+  words:start_verb                   finding/repl   273  decision   276  extraction   0
+  words:vowel                        finding/repl     0  decision     1  extraction   0
+  words:words_position               finding/repl     4  decision     1  extraction   0
