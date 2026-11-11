@@ -1,0 +1,3707 @@
+[
+ {
+  "id": "count:conjunctions#f67c7dc9",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:conjunctions#6fc5c5a7",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:conjunctions#ec15f62e",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "tags": [],
+  "note": "substrings of conjunctions",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:conjunctions#97eb2647",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:conjunctions#4d8a0801",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "tags": [
+   "D-conj-usage"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:conjunctions#ad80b97c",
+  "check": "count:conjunctions",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:conjunctions#e52cf31d",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:keywords_multiple#81b9c84e",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:keywords_multiple#50c276c7",
+  "check": "count:keywords_multiple",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:keywords_multiple#39ac741d",
+  "check": "count:keywords_multiple",
+  "label": "fail",
+  "tags": [
+   "D-keyword-count"
+  ],
+  "note": "door twice",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:keywords_multiple#6544b7bb",
+  "check": "count:keywords_multiple",
+  "label": "fail",
+  "tags": [
+   "D-keyword-match"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:keywords_multiple#e1ec9671",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "tags": [
+   "D-keyword-match"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:keywords_multiple#fc5882e8",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:numbers#ae97bfc5",
+  "check": "count:numbers",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:numbers#8778459d",
+  "check": "count:numbers",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:numbers#d09bad84",
+  "check": "count:numbers",
+  "label": "pass",
+  "tags": [
+   "D-number-def"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:numbers#3e41486c",
+  "check": "count:numbers",
+  "label": "pass",
+  "tags": [
+   "D-number-def"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:numbers#7c42efa2",
+  "check": "count:numbers",
+  "label": "fail",
+  "tags": [
+   "D-number-def"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:numbers#adb51336",
+  "check": "count:numbers",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:person_names#5cca7a2b",
+  "check": "count:person_names",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:person_names#d8e1d0ea",
+  "check": "count:person_names",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:person_names#4968f638",
+  "check": "count:person_names",
+  "label": "fail",
+  "tags": [],
+  "note": "substrings of names",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:person_names#7df44332",
+  "check": "count:person_names",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:person_names#9d2cf073",
+  "check": "count:person_names",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:pronouns#2cc5169b",
+  "check": "count:pronouns",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:pronouns#9bb1ae97",
+  "check": "count:pronouns",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:pronouns#8782f0e4",
+  "check": "count:pronouns",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:pronouns#8b448ef5",
+  "check": "count:pronouns",
+  "label": "fail",
+  "tags": [],
+  "note": "substrings of pronouns",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:pronouns#ae6c83ef",
+  "check": "count:pronouns",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:punctuation#44e5e9b6",
+  "check": "count:punctuation",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:punctuation#32f6a947",
+  "check": "count:punctuation",
+  "label": "fail",
+  "tags": [],
+  "note": "no semicolon",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:punctuation#b99b8c12",
+  "check": "count:punctuation",
+  "label": "fail",
+  "tags": [],
+  "note": "no interrobang",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:punctuation#f1ba574d",
+  "check": "count:punctuation",
+  "label": "fail",
+  "tags": [
+   "D-punct-set"
+  ],
+  "note": "no braces",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:punctuation#80d5bf04",
+  "check": "count:punctuation",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:punctuation#c2372ee5",
+  "check": "count:punctuation",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:unique_word_count#d06d4fbc",
+  "check": "count:unique_word_count",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:unique_word_count#e5f5cabc",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:unique_word_count#b35b6967",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:unique_word_count#0a449ade",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "tags": [
+   "D-word"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:word_count_range#4ce28033",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:word_count_range#ce4f3a60",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:word_count_range#59691c31",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "tags": [
+   "D-between"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:word_count_range#c53f004b",
+  "check": "count:word_count_range",
+  "label": "pass",
+  "tags": [
+   "D-between"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:word_count_range#3e8dfa2a",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "tags": [
+   "D-word"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:word_count_range#6843f927",
+  "check": "count:word_count_range",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:words_japanese#e46dae8a",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:words_japanese#b7dfc98a",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:words_japanese#3fc2bf14",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:words_japanese#465f79ea",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:words_japanese#148c681e",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:words_japanese#abb68165",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "tags": [
+   "D-japanese-kanji"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:character_reverse#8a637bf0",
+  "check": "custom:character_reverse",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:character_reverse#22bf88e0",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:character_reverse#45222f64",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:character_reverse#81c0669f",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "tags": [
+   "D-reverse-content"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:word_reverse#bc65ae64",
+  "check": "custom:word_reverse",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:word_reverse#34b4ab72",
+  "check": "custom:word_reverse",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:word_reverse#2e0e66af",
+  "check": "custom:word_reverse",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_city#4d4233da",
+  "check": "custom:csv_city",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:csv_city#21d5381f",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "tags": [],
+  "note": "6 rows",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_city#4ba3b838",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "tags": [],
+  "note": "8 rows",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_city#5a38f263",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "tags": [],
+  "note": "header order",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_city#8b7fd8ed",
+  "check": "custom:csv_city",
+  "label": "pass",
+  "tags": [
+   "D-csv-wrapper"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:csv_city#8398ff66",
+  "check": "custom:csv_city",
+  "label": "fail",
+  "tags": [],
+  "note": "semicolon delimited",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_quotes#995ede18",
+  "check": "custom:csv_quotes",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:csv_quotes#724f8fed",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "comma delimited",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_quotes#3c049ac9",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "one field unquoted",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_quotes#2f0ba9f0",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "tags": [
+   "D-csv-header-quoted"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_quotes#4bcb5cca",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "2 rows",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_special_character#b2264848",
+  "check": "custom:csv_special_character",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:csv_special_character#81869a08",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "tags": [],
+  "note": "no quoted special field",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_special_character#3d3c1adb",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "tags": [],
+  "note": "13 rows",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_special_character#19b46c7a",
+  "check": "custom:csv_special_character",
+  "label": "fail",
+  "tags": [],
+  "note": "quoted field without special character",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:date_format_list#fc161841",
+  "check": "custom:date_format_list",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:date_format_list#9306ca65",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:date_format_list#80d6c61b",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:date_format_list#983b2a24",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:date_format_list#ce6b906c",
+  "check": "custom:date_format_list",
+  "label": "fail",
+  "tags": [],
+  "note": "month 13",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:european_capitals_sort#35beb628",
+  "check": "custom:european_capitals_sort",
+  "label": "pass",
+  "tags": [
+   "D-capitals-set"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:european_capitals_sort#82bd52d8",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:european_capitals_sort#17007aca",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "tags": [],
+  "note": "Belgrade is below 45N",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:european_capitals_sort#5630fe33",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:european_capitals_sort#1d15dd60",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "tags": [
+   "D-capitals-set"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:european_capitals_sort#d18135f3",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "tags": [],
+  "note": "ascending",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:mcq_count_length#c55a711c",
+  "check": "custom:mcq_count_length",
+  "label": "pass",
+  "tags": [
+   "D-mcq-length"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:mcq_count_length#e9bf138f",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "tags": [],
+  "note": "3 questions",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:mcq_count_length#c2258c0f",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "tags": [],
+  "note": "4 options in Q1",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:mcq_count_length#3d759b0b",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "tags": [],
+  "note": "Q1 longer than Q2",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:mcq_count_length#d79971b5",
+  "check": "custom:mcq_count_length",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:multiples#3e8e1082",
+  "check": "custom:multiples",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:multiples#4d01a2da",
+  "check": "custom:multiples",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:multiples#795feab9",
+  "check": "custom:multiples",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:multiples#4c53f5a0",
+  "check": "custom:multiples",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:multiples#90f35654",
+  "check": "custom:multiples",
+  "label": "fail",
+  "tags": [
+   "D-multiples-prose"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:multiples#a373c726",
+  "check": "custom:multiples",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:reverse_newline#eaf89e26",
+  "check": "custom:reverse_newline",
+  "label": "pass",
+  "tags": [
+   "D-africa-set"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:reverse_newline#5668a128",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "tags": [],
+  "note": "alphabetical",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:reverse_newline#8193bdd3",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "tags": [],
+  "note": "one swap",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:reverse_newline#a3e1ca3a",
+  "check": "custom:reverse_newline",
+  "label": "fail",
+  "tags": [],
+  "note": "one line",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:sentence_alphabet#6280eb0c",
+  "check": "custom:sentence_alphabet",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:sentence_alphabet#fa056923",
+  "check": "custom:sentence_alphabet",
+  "label": "fail",
+  "tags": [],
+  "note": "25 sentences",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:sentence_alphabet#5780c044",
+  "check": "custom:sentence_alphabet",
+  "label": "fail",
+  "tags": [],
+  "note": "order",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:emoji#74856c93",
+  "check": "format:emoji",
+  "label": "pass",
+  "tags": [
+   "D-emoji-pos"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:emoji#9a26f1d3",
+  "check": "format:emoji",
+  "label": "pass",
+  "tags": [
+   "D-emoji-pos"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:emoji#7410e42d",
+  "check": "format:emoji",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:emoji#cb95ba26",
+  "check": "format:emoji",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:emoji#ca8cd11b",
+  "check": "format:emoji",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:line_indent#112c1fe1",
+  "check": "format:line_indent",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:line_indent#b8796a13",
+  "check": "format:line_indent",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:line_indent#62ec8bcd",
+  "check": "format:line_indent",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:line_indent#aa0a30c7",
+  "check": "format:line_indent",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:line_indent#410cf853",
+  "check": "format:line_indent",
+  "label": "pass",
+  "tags": [
+   "D-indent"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:list#c3a13f69",
+  "check": "format:list",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:list#5353c23a",
+  "check": "format:list",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:list#132b5006",
+  "check": "format:list",
+  "label": "fail",
+  "tags": [],
+  "note": "one item",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:list#ceca4d40",
+  "check": "format:list",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:list#54e36e54",
+  "check": "format:list",
+  "label": "pass",
+  "tags": [
+   "D-list-sep"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:list#9920716f",
+  "check": "format:list",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:list#6b3075cd",
+  "check": "format:list",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:list#e6fcc833",
+  "check": "format:list",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:newline#7261f701",
+  "check": "format:newline",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:newline#45225719",
+  "check": "format:newline",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:newline#94c9b5cc",
+  "check": "format:newline",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:newline#87e8ddef",
+  "check": "format:newline",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:newline#d847ab26",
+  "check": "format:newline",
+  "label": "pass",
+  "tags": [
+   "D-newline-punct"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_bullets_bullets#a31db6d5",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_bullets_bullets#9fc885df",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_bullets_bullets#d52de73c",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_bullets_bullets#a47f4cc7",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_bullets_bullets#7f0516df",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_bullets_bullets#0807d383",
+  "check": "format:no_bullets_bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#9013808e",
+  "check": "format:no_whitespace",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_whitespace#5e862ab8",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#69793ccc",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#8aca5277",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#94b39a68",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#09edfb5a",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#3b8bd8af",
+  "check": "format:no_whitespace",
+  "label": "pass",
+  "tags": [
+   "D-strip"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_whitespace#fbc636ee",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:no_whitespace#cbe195e2",
+  "check": "format:no_whitespace",
+  "label": "pass",
+  "tags": [
+   "D-whitespace-set"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_whitespace#6a90bb8a",
+  "check": "format:no_whitespace",
+  "label": "fail",
+  "tags": [],
+  "note": "thin space U+2009",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#a012e6fa",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#a7a51da3",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#01b1abf9",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#fe79b5e5",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#a6b18430",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#32e2eb4e",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [
+   "D-options-exact"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#3248f8bd",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#a489405e",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#6d7c8399",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#0d03102a",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#bcdab67b",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#f03b991b",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#9a501bf7",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [
+   "D-options-label"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#24b0d169",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:options#dd4d79ba",
+  "check": "format:options",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:output_template#b2509cba",
+  "check": "format:output_template",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:output_template#f29d229c",
+  "check": "format:output_template",
+  "label": "pass",
+  "tags": [
+   "D-template-markup"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:output_template#7f6e156e",
+  "check": "format:output_template",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:output_template#ad007192",
+  "check": "format:output_template",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:output_template#0b09f521",
+  "check": "format:output_template",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:output_template#d2a3530e",
+  "check": "format:output_template",
+  "label": "pass",
+  "tags": [
+   "D-template-markup"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:output_template#0385cbc5",
+  "check": "format:output_template",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:parentheses#f1b5644a",
+  "check": "format:parentheses",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:parentheses#0f23a234",
+  "check": "format:parentheses",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:parentheses#38285faf",
+  "check": "format:parentheses",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:parentheses#6d90bbaf",
+  "check": "format:parentheses",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:parentheses#360bb1c8",
+  "check": "format:parentheses",
+  "label": "pass",
+  "tags": [
+   "D-paren-mix"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:quote_unquote#7a08fab3",
+  "check": "format:quote_unquote",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:quote_unquote#43ec19ad",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quote_unquote#1390370f",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quote_unquote#577864a0",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quotes#34e526fc",
+  "check": "format:quotes",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:quotes#d9f52e6b",
+  "check": "format:quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quotes#1d2f9b24",
+  "check": "format:quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quotes#74552fd5",
+  "check": "format:quotes",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:quotes#8240a6da",
+  "check": "format:quotes",
+  "label": "pass",
+  "tags": [
+   "D-typographic"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:quotes#3ea6dedd",
+  "check": "format:quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:sub-bullets#554eb54d",
+  "check": "format:sub-bullets",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:sub-bullets#b22936db",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:sub-bullets#f20942c4",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:sub-bullets#7652bc22",
+  "check": "format:sub-bullets",
+  "label": "pass",
+  "tags": [
+   "D-subbullet-indent"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:sub-bullets#3a8cf170",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:thesis#a3a7f35c",
+  "check": "format:thesis",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:thesis#fd2de6d7",
+  "check": "format:thesis",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:thesis#7d453a09",
+  "check": "format:thesis",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:thesis#212ce5b0",
+  "check": "format:thesis",
+  "label": "fail",
+  "tags": [
+   "D-section"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:thesis#a8c21004",
+  "check": "format:thesis",
+  "label": "pass",
+  "tags": [
+   "D-section"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:thesis#aeacfff6",
+  "check": "format:thesis",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:title_case#1e049691",
+  "check": "format:title_case",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:title_case#774b775a",
+  "check": "format:title_case",
+  "label": "pass",
+  "tags": [
+   "D-titlecase-minor"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:title_case#86b631ec",
+  "check": "format:title_case",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:title_case#4de81cfe",
+  "check": "format:title_case",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:overlap#f28b20fb",
+  "check": "ratio:overlap",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:overlap#f94a8c59",
+  "check": "ratio:overlap",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:overlap#9983d8e6",
+  "check": "ratio:overlap",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:overlap#4d9e2a52",
+  "check": "ratio:overlap",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_balance#1c05fbe2",
+  "check": "ratio:sentence_balance",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_balance#dc1c2122",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_balance#73f8fd7c",
+  "check": "ratio:sentence_balance",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_balance#19e68929",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "tags": [
+   "D-balanced"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_type#5d4096d2",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_type#cf77079e",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_type#8012aab8",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_type#61127aa0",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_type#6a4177ce",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_type#dc38080e",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_words#abe46f87",
+  "check": "ratio:sentence_words",
+  "label": "pass",
+  "tags": [
+   "D-char-count"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_words#37aa1a0e",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_words#b04b2789",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_words#e678cff6",
+  "check": "ratio:sentence_words",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:stop_words#44b8d1f7",
+  "check": "ratio:stop_words",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:stop_words#cfe0ce8e",
+  "check": "ratio:stop_words",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:stop_words#87e06e42",
+  "check": "ratio:stop_words",
+  "label": "pass",
+  "tags": [
+   "D-stopword-list"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:stop_words#f6ef0038",
+  "check": "ratio:stop_words",
+  "label": "fail",
+  "tags": [
+   "D-stopword-list"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:stop_words#2d3959f4",
+  "check": "ratio:stop_words",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_change#fbb8f83f",
+  "check": "repeat:repeat_change",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "repeat:repeat_change#c99293d7",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_change#288ede3c",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_change#b9ecdea3",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_change#c5b6d304",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "tags": [],
+  "note": "second change",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_change#8017d55e",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "tags": [],
+  "note": "case-only change",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_simple#69ecd4bb",
+  "check": "repeat:repeat_simple",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "repeat:repeat_simple#c00b1643",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_simple#de9f46f7",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "tags": [
+   "D-repeat-exact"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_simple#cd1eaba3",
+  "check": "repeat:repeat_simple",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_span#9cafe16f",
+  "check": "repeat:repeat_span",
+  "label": "pass",
+  "tags": [
+   "D-span-index"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "repeat:repeat_span#c1b0178a",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_span#2d4b40cc",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "tags": [
+   "D-span-index"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_span#5c98b0e3",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:alliteration_increment#6effc492",
+  "check": "sentence:alliteration_increment",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "sentence:alliteration_increment#292e3fce",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:alliteration_increment#e02f188f",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:alliteration_increment#f00982f3",
+  "check": "sentence:alliteration_increment",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:increment#d871e788",
+  "check": "sentence:increment",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "sentence:increment#391f9396",
+  "check": "sentence:increment",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:increment#2bc4982f",
+  "check": "sentence:increment",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:increment#7d420a76",
+  "check": "sentence:increment",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:keyword#2701f486",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "sentence:keyword#878db2a0",
+  "check": "sentence:keyword",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:keyword#bfefaf5c",
+  "check": "sentence:keyword",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:keyword#e97a66b1",
+  "check": "sentence:keyword",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:keyword#f9f8d995",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "sentence:keyword#976c133a",
+  "check": "sentence:keyword",
+  "label": "pass",
+  "tags": [
+   "D-sentence"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:alphabet#348b154d",
+  "check": "words:alphabet",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:alphabet#dcf50ec2",
+  "check": "words:alphabet",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:alphabet#eb08b2f1",
+  "check": "words:alphabet",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:alphabet#471f8d92",
+  "check": "words:alphabet",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:consonants#3bbac87f",
+  "check": "words:consonants",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:consonants#463dc1bb",
+  "check": "words:consonants",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:consonants#a96f5e83",
+  "check": "words:consonants",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:consonants#02967b87",
+  "check": "words:consonants",
+  "label": "pass",
+  "tags": [
+   "D-y"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:keywords_specific_position#4c12749c",
+  "check": "words:keywords_specific_position",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:keywords_specific_position#ccb84809",
+  "check": "words:keywords_specific_position",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:keywords_specific_position#80b262dc",
+  "check": "words:keywords_specific_position",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:keywords_specific_position#4f65e8e5",
+  "check": "words:keywords_specific_position",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:last_first#1a343b8e",
+  "check": "words:last_first",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:last_first#b4c7005a",
+  "check": "words:last_first",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:last_first#1fc71eac",
+  "check": "words:last_first",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:last_first#dd3fad8f",
+  "check": "words:last_first",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:no_consecutive#3e644b04",
+  "check": "words:no_consecutive",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:no_consecutive#fc591787",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:no_consecutive#02e73d79",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:no_consecutive#809de5e7",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:odd_even_syllables#94f10608",
+  "check": "words:odd_even_syllables",
+  "label": "pass",
+  "tags": [
+   "D-syllable"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:odd_even_syllables#5ed17efe",
+  "check": "words:odd_even_syllables",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:odd_even_syllables#4eccbc92",
+  "check": "words:odd_even_syllables",
+  "label": "fail",
+  "tags": [
+   "D-syllable"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:palindrome#93aace4b",
+  "check": "words:palindrome",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:palindrome#d506aecc",
+  "check": "words:palindrome",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:palindrome#3a05eb3f",
+  "check": "words:palindrome",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:palindrome#38f080fb",
+  "check": "words:palindrome",
+  "label": "fail",
+  "tags": [
+   "D-palindrome-distinct"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:paragraph_last_first#e026214d",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:paragraph_last_first#bdf58ecc",
+  "check": "words:paragraph_last_first",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:paragraph_last_first#b740f303",
+  "check": "words:paragraph_last_first",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:paragraph_last_first#75e6f733",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:paragraph_last_first#d4b9b55f",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:prime_lengths#ac78db49",
+  "check": "words:prime_lengths",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:prime_lengths#463dc1bb",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:prime_lengths#9d44bdbb",
+  "check": "words:prime_lengths",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:prime_lengths#0285003e",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:prime_lengths#d81e66f0",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "tags": [
+   "D-word"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:repeats#2e557164",
+  "check": "words:repeats",
+  "label": "pass",
+  "tags": [
+   "D-repeat-count"
+  ],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:repeats#3341a7ef",
+  "check": "words:repeats",
+  "label": "fail",
+  "tags": [
+   "D-repeat-count"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:repeats#baebc1b1",
+  "check": "words:repeats",
+  "label": "fail",
+  "tags": [
+   "D-case",
+   "D-repeat-count"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:repeats#1e0117dc",
+  "check": "words:repeats",
+  "label": "fail",
+  "tags": [
+   "D-repeat-count"
+  ],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:repeats#5ab0432a",
+  "check": "words:repeats",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:repeats#bf787c2e",
+  "check": "words:repeats",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:start_verb#2faf01d8",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#c534dfb0",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#d8f5bb46",
+  "check": "words:start_verb",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:start_verb#9b0e1f25",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#63c7b95e",
+  "check": "words:start_verb",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:vowel#5a7a8775",
+  "check": "words:vowel",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:vowel#c62efa01",
+  "check": "words:vowel",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:vowel#61487478",
+  "check": "words:vowel",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:vowel#868e310c",
+  "check": "words:vowel",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:words_position#92936944",
+  "check": "words:words_position",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:words_position#cbbfcf75",
+  "check": "words:words_position",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:words_position#fe4186a6",
+  "check": "words:words_position",
+  "label": "fail",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:words_position#88c49983",
+  "check": "words:words_position",
+  "label": "pass",
+  "tags": [],
+  "note": "",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:conjunctions#dcd04ba5",
+  "check": "count:conjunctions",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: one conjunction in two cases",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:numbers#f00b6a23",
+  "check": "count:numbers",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: hyphenated range is two numbers",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:numbers#a5347399",
+  "check": "count:numbers",
+  "label": "fail",
+  "tags": [],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:pronouns#2b05f35c",
+  "check": "count:pronouns",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: that/all/some are not pronouns here",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:keywords_multiple#a30082f0",
+  "check": "count:keywords_multiple",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: indoors is not the keyword door",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:unique_word_count#2b002c1c",
+  "check": "count:unique_word_count",
+  "label": "fail",
+  "tags": [],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "count:words_japanese#8d075f0b",
+  "check": "count:words_japanese",
+  "label": "fail",
+  "tags": [
+   "D-japanese-digits"
+  ],
+  "note": "probe: a numeral in a Japanese slot",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:character_reverse#1d3496c0",
+  "check": "custom:character_reverse",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: forward sentence with a reversed fragment",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:csv_quotes#fa168408",
+  "check": "custom:csv_quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: empty unquoted field",
+  "grader": "EXC:IndexError:string index out of range",
+  "reference": "EXC:IndexError:string index out of range",
+  "replacement": "fail"
+ },
+ {
+  "id": "custom:european_capitals_sort#fe216477",
+  "check": "custom:european_capitals_sort",
+  "label": "fail",
+  "tags": [
+   "D-capitals-set"
+  ],
+  "note": "probe: Kyiv missing",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:emoji#17317ce5",
+  "check": "format:emoji",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: flag emoji",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:emoji#62a7b39c",
+  "check": "format:emoji",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: keycap emoji",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:emoji#31be7d44",
+  "check": "format:emoji",
+  "label": "fail",
+  "tags": [
+   "D-sentence"
+  ],
+  "note": "probe: title line without emoji",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:list#40838dbc",
+  "check": "format:list",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: hyphens inside words, no list",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:newline#9b6ea985",
+  "check": "format:newline",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: whitespace-only blank line",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:line_indent#8416c808",
+  "check": "format:line_indent",
+  "label": "pass",
+  "tags": [
+   "D-indent"
+  ],
+  "note": "probe: two blank lines",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_bullets_bullets#97c404e3",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: blank line between sentences",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:no_bullets_bullets#029e7b42",
+  "check": "format:no_bullets_bullets",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: bold text is not a bullet",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#341c61f3",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [
+   "D-strip"
+  ],
+  "note": "probe",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:options#c1e93021",
+  "check": "format:options",
+  "label": "pass",
+  "tags": [
+   "D-case"
+  ],
+  "note": "probe",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:parentheses#3ae933db",
+  "check": "format:parentheses",
+  "label": "fail",
+  "tags": [
+   "D-paren-closed"
+  ],
+  "note": "probe: four groups never closed",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quotes#6a418965",
+  "check": "format:quotes",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: apostrophes are not quotes",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quote_unquote#3e8eecb5",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: only a comma between quotes",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:quote_unquote#6f8ba75a",
+  "check": "format:quote_unquote",
+  "label": "fail",
+  "tags": [
+   "D-typographic"
+  ],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:sub-bullets#d319d0a2",
+  "check": "format:sub-bullets",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: no * bullet at all",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:thesis#7c919c18",
+  "check": "format:thesis",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: first section has no thesis",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "format:title_case#746c2647",
+  "check": "format:title_case",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: contraction",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:title_case#6f0636ed",
+  "check": "format:title_case",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: minor word a",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "ratio:sentence_type#877e3790",
+  "check": "ratio:sentence_type",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_balance#fd6a10d9",
+  "check": "ratio:sentence_balance",
+  "label": "fail",
+  "tags": [
+   "D-vacuous"
+  ],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_change#6610eec4",
+  "check": "repeat:repeat_change",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: unchanged repetition plus newline",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "repeat:repeat_span#9f2e4789",
+  "check": "repeat:repeat_span",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: character slice",
+  "grader": "pass",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "sentence:alliteration_increment#148924a2",
+  "check": "sentence:alliteration_increment",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: longest run 2 then 3",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:alphabet#e46e3fa9",
+  "check": "words:alphabet",
+  "label": "pass",
+  "tags": [],
+  "note": "probe",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:no_consecutive#a18d9f8b",
+  "check": "words:no_consecutive",
+  "label": "fail",
+  "tags": [],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:paragraph_last_first#9640a1cc",
+  "check": "words:paragraph_last_first",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: comma after first word",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:prime_lengths#32da9317",
+  "check": "words:prime_lengths",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: typographic apostrophe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:repeats#d2204dd6",
+  "check": "words:repeats",
+  "label": "fail",
+  "tags": [],
+  "note": "probe",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:start_verb#b4ab5ac5",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#7b78e764",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#8a886a99",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#9217a1be",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#87f6a934",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#75663591",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#e5f3e69d",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#1b72a36a",
+  "check": "words:start_verb",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: imperative verb",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "words:start_verb#048ee052",
+  "check": "words:start_verb",
+  "label": "fail",
+  "tags": [],
+  "note": "probe",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "words:words_position#59af5df2",
+  "check": "words:words_position",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: closing quote at end",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:words_japanese#77cece42",
+  "check": "count:words_japanese",
+  "label": "pass",
+  "tags": [
+   "D-japanese-segmentation"
+  ],
+  "note": "panel-derived (contract v4): all-Japanese response without spaces",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:word_reverse#9b6d4817",
+  "check": "custom:word_reverse",
+  "label": "fail",
+  "tags": [],
+  "note": "panel-derived: forward sentence followed by its reversal",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "fail"
+ },
+ {
+  "id": "ratio:sentence_type#b8f3c20a",
+  "check": "ratio:sentence_type",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: numbered list; the labels are not sentences",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "format:emoji#2e91dae8",
+  "check": "format:emoji",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: numbered list; the labels are not sentences",
+  "grader": "fail",
+  "reference": "fail",
+  "replacement": "pass"
+ },
+ {
+  "id": "custom:sentence_alphabet#0c11d252",
+  "check": "custom:sentence_alphabet",
+  "label": "pass",
+  "tags": [],
+  "note": "probe: Markdown around the first word (panel-derived)",
+  "grader": "fail",
+  "reference": "pass",
+  "replacement": "pass"
+ },
+ {
+  "id": "count:punctuation#b1b8298b",
+  "check": "count:punctuation",
+  "label": "fail",
+  "tags": [],
+  "note": "probe: only . , ! ? ; : and ?! -- no apostrophe, quotation mark, parenthesis, hyphen or dash",
+  "grader": "pass",
+  "reference": "pass",
+  "replacement": "fail"
+ }
+]

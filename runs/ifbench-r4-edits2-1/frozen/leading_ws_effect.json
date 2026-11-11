@@ -1,0 +1,18 @@
+{
+ "responses_with_leading_ws": 5186,
+ "flips": {
+  "custom:mcq_count_length|to_pass": 7,
+  "format:no_whitespace|to_pass": 15
+ },
+ "total_flips": 22,
+ "by_config": {
+  "mistralai__Mistral-7B-Instruct-v0.3": 22
+ },
+ "examples": [
+  "mistralai__Mistral-7B-Instruct-v0.3/bi_greedy/279",
+  "mistralai__Mistral-7B-Instruct-v0.3/bi_greedy/298",
+  "mistralai__Mistral-7B-Instruct-v0.3/bi_greedy_shuffled/279",
+  "mistralai__Mistral-7B-Instruct-v0.3/bi_greedy_shuffled/298",
+  "mistralai__Mistral-7B-Instruct-v0.3/greedy/279"
+ ]
+}

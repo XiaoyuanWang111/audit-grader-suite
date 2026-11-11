@@ -1,0 +1,98 @@
+40c40
+< from ifbench import instructions_util
+---
+> from . import instructions_util
+50,54d49
+< 
+< def _split_words(text):
+< 	"""Lowercase, drop punctuation, and split into whitespace-delimited words."""
+< 	return text.lower().translate(str.maketrans('', '', string.punctuation)).split()
+< 
+445,446c440,441
+< 		ngrams = set(nltk.ngrams(nltk.word_tokenize(value), n))
+< 		ref_ngrams = set(nltk.ngrams(nltk.word_tokenize(self._reference_text), n))
+---
+> 		ngrams = set(nltk.ngrams(value, n))
+> 		ref_ngrams = set(nltk.ngrams(self._reference_text, n))
+940,944d934
+< 		# Check "all different words", using the same word tokenization as
+< 		# LimitedWordRepeatChecker (words:repeats).
+< 		words = _split_words(" ".join(sentences))
+< 		if len(words) != len(set(words)):
+< 			return False
+1060c1050
+< 		words = _split_words(value)
+---
+> 		words = value.lower().translate(str.maketrans('', '', string.punctuation)).split()
+1317c1307
+< 		words = _split_words(value)
+---
+> 		words = value.lower().translate(str.maketrans('', '', string.punctuation)).split()
+1714,1716c1704,1705
+< 			# Strip leading whitespace and punctuation so that "A lazy fox..."" counts as a sentence starting with 'A'
+< 			stripped = sentence.lstrip(string.punctuation + string.whitespace)
+< 			if not stripped:
+---
+> 			words = sentence.lstrip().split()
+> 			if not words or not words[0]:
+1718c1707
+< 			if stripped[0].lower() != chr(97 + i):
+---
+> 			if words[0].lower()[0] != chr(97 + i):
+1963,1966c1952
+< 			pattern = r'\b{}\b'.format(re.escape(keyword))
+< 			# See if the whole word appears the expected number of times, case insensitive.
+< 			# Use regex instead of str.count to avoid counting substrings (e.g., "cat" in "concatenate").
+< 			if len(re.findall(pattern, value, flags=re.IGNORECASE)) != count:
+---
+> 			if value.lower().count(keyword.lower()) != count:
+2075c2061
+< 		words = _word_tokens_without_punctuation(value)
+---
+> 		words = instructions_util.nltk.word_tokenize(value)
+2078c2064,2072
+< 		return words[1].lower() == words[-2].lower() == self._keyword.lower()
+---
+> 		if words[-1] in string.punctuation:
+> 			if len(words) < 3:
+> 				return False
+> 			if words[1].lower() == words[-3].lower() == self._keyword.lower():
+> 				return True
+> 			return False
+> 		elif words[1].lower() == words[-2].lower() == self._keyword.lower():
+> 			return True
+> 		return False
+2160c2154
+< 	"Copy the span of words that lies between (and including) index {n_start} and {n_end}, the indices are word indices, split by whitespace!"
+---
+> 	"Copy the span of words that lies between (and including) index {n_start} and {n_end}, the indices are character indices!"
+2166,2167c2160,2161
+< 		  n_start: An integer representing the inclusive start word index of the span.
+< 		  n_end: An integer representing the inclusive end word index of the span.
+---
+> 		  n_start: An integer representing the inclusive start character index of the span.
+> 		  n_end: An integer representing the inclusive end character index of the span.
+2176,2179d2169
+< 		# Indices are word indices (whitespace-split), matching the instruction text
+< 		# and the check below. Previously these defaulted to character offsets, which
+< 		# contradicted the "span of words" wording and produced mid-word targets.
+< 		num_words = len(self._prompt_to_repeat.split())
+2181c2171
+< 			self._n_start = random.randint(0, num_words - 2)
+---
+> 			self._n_start = random.randint(0, len(self._prompt_to_repeat) - 2)
+2185c2175
+< 			self._n_end = random.randint(self._n_start + 1, num_words - 1)
+---
+> 			self._n_end = random.randint(self._n_start + 1, len(self._prompt_to_repeat) - 1)
+2189c2179
+< 			"Copy the span of words that lies between (and including) index {n_start} and {n_end}, the indices are word indices, split by whitespace!")
+---
+> 			"Copy the span of words that lies between (and including) index {n_start} and {n_end}, the indices are character indices!")
+2202,2204c2192,2193
+< 		"""Checks if the response is the whitespace-split word span [n_start, n_end] (inclusive)."""
+< 		words = self._prompt_to_repeat.split()
+< 		expected_span = ' '.join(words[self._n_start:self._n_end + 1])
+---
+> 		"""Checks if the response contains the expected number of phrases with the correct modifications."""
+> 		expected_span = self._prompt_to_repeat[self._n_start:self._n_end + 1]

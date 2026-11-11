@@ -1,0 +1,36 @@
+## 9. Verification and frozen-file hashes
+
+Run 2026-11-11T00:53:24Z by `audit/scripts/verify_report.py` (result: all checks pass).
+
+- Fixture tests (`python -m pytest audit/tests -q`): 348 passed, 90 xfailed in 5.56s (OK).
+- Commands in this report: 70 distinct `repro.py` targets, all covered by the check list
+- `repro.py` checks: 71 of 71 print the verdict the report states.
+- `grep -n ... case/grader/IFBench/instructions_util.py`: prints the lines the report cites.
+- `grep -n ... case/grader/IFBench/eval_instruct.py`: prints the lines the report cites.
+
+sha256 of frozen and versioned files:
+
+- `audit/CONTRACTS.md` `e10729ea1c342a32dd09d73905146d956a72532cfa3c89d8c360e73808febc16`
+- `audit/frozen/CONTRACTS_v1.md` `e10729ea1c342a32dd09d73905146d956a72532cfa3c89d8c360e73808febc16`
+- `audit/frozen/dataset_rows.jsonl` `f75c887099833cfb7e4f1e2946881f870d38ccd06e2509b892d927021dd861b2`
+- `audit/frozen/dataset_row_sha256.tsv` `81a1ff1b6fb1578ff92d2f6cb629d1b64dc352987eb4279286dac65664b1f703`
+- `audit/frozen/instruction_templates.json` `82aa24c9b2c2cf1bf0e465ddfa1209a9c887f5000f24576ac51d1f61d95b89fa`
+- `audit/frozen/pip_freeze.txt` `24436ecc4875926fe2f1cf336420d9618f023690823c82e4f3e2107b5e55cb3b`
+- `audit/frozen/panel_stats.json` `7942b451f47229f7038a50b9b36e37e9a4e8b11e467ecbb11d93462702e143be`
+- `audit/frozen/panel_verdicts.tsv.gz` `7dd9f4ae88633af4b075adae1323d3e5887c8786448d4e3d1f030f3b240685b3`
+- `audit/frozen/panel_rep_graderreadings.tsv.gz` `c43305f5e3c3eb2f112e5b7b7ae11e43eb4b73b51563c4a79405ed74101649fd`
+- `audit/frozen/panel_tables.md` `9964edaa8713dd70349943c39acb6903c6201065d180de59f315ba0f66b44052`
+- `audit/frozen/panel_tables_heldout.md` `038d1084f05d53e94e161fe56ea1cf3524704354ace9df35a2ec51fe66fb968c`
+- `audit/frozen/panel_numbers.json` `74b71d61038cc6c34953b816032eacacf1a632d81c53f070979b032667a3a657`
+- `audit/frozen/panel_numbers_heldout.json` `a1fe56054bd25e258335c05a87651605a160387b3d05d435f1c98480aa7b5852`
+- `audit/frozen/finding_shares.json` `9e0e8d1e7ef63420699c1a9377042df1a9d03d8533aa914827d5aa1ec1db3f2f`
+- `audit/frozen/leading_ws_effect.json` `acea163d006566ff8e1e8cfc3c02dc012f6b78b48e36de45bb802c88cd24c861`
+- `audit/frozen/disagreement_decomposition.json` `defe6368b6cd50efea58416cf35761437c2cef6aa89b4ac572498874aa01eb64`
+- `audit/frozen/stress_results.json` `aabb0cfe5d181bb995e8e765eacc436b3b7efbcaf26d995f7bc16b95d2da2ce8`
+- `audit/frozen/reftests_replacement_v4.json` `66a3df958b5df9522f13431757e0b5d20d638f2d7abf2d471e68acb7c64a079a`
+- `audit/frozen/reftests_grader.json` `1911dbdfaba31a136c1020bef88bc17adc165a175c798259d0e508ee99c4f72e`
+- `audit/frozen/fixture_table.tsv` `afc4881574d49c419b9dfe06f19fce17add0b7b6a0db6d628ed7d8134e520c52`
+- `audit/replacement/contract_grader.py` `a03c1e5594733cc315193b0a1f93a836d73964752c46b35467634aa068d7076d`
+- `audit/tests/fixtures_data.py` `2cb30400a85340671b39b29111ca4c53316b5b4b31362db487617d2aba7f1ea6`
+
+exit=0

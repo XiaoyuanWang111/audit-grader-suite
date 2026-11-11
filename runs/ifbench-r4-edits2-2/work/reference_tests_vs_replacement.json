@@ -1,0 +1,44 @@
+[
+ {
+  "test": "test_europe_capitals",
+  "subtest": "test with TEST_EUROPE",
+  "line": 1007,
+  "assertion": "self.assertTrue(instruction.check_following(self.TEST_EUROPE))",
+  "error": "AssertionError"
+ },
+ {
+  "test": "test_nested_parentheses",
+  "subtest": "test with TEST_NESTED_PARENTHESES_TRUE2",
+  "line": 275,
+  "assertion": "self.assertTrue(instruction.check_following(self.TEST_NESTED_PARENTHESES_TRUE2))",
+  "error": "AssertionError"
+ },
+ {
+  "test": "test_palindrome",
+  "subtest": "test with TEST_PALINDROME2",
+  "line": 235,
+  "assertion": "self.assertTrue(instruction.check_following(self.TEST_PALINDROME2))",
+  "error": "AssertionError"
+ },
+ {
+  "test": "test_punctuation",
+  "subtest": "test with TEST_PUNCTUATION2",
+  "line": 252,
+  "assertion": "self.assertTrue(instruction.check_following(self.TEST_PUNCTUATION2))",
+  "error": "AssertionError"
+ },
+ {
+  "test": "test_quote_explanation__handles_empty_string_after_stripping",
+  "subtest": null,
+  "line": 1163,
+  "assertion": "self.assertTrue(instruction.check_following(\"123...\"), \"expected True for digits and punctuation only\")",
+  "error": "AssertionError"
+ },
+ {
+  "test": "test_reverse_newline",
+  "subtest": "test with TEST_NEWLINE_COUNTRIES",
+  "line": 942,
+  "assertion": "self.assertTrue(instruction.check_following(self.TEST_NEWLINE_COUNTRIES))",
+  "error": "AssertionError"
+ }
+]

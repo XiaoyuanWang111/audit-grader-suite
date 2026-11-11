@@ -1,0 +1,24 @@
+{
+ "all": {
+  "n": 78432,
+  "g!=rep": 6221,
+  "pure_defect": 3284,
+  "g_pass_rep_fail": 3716,
+  "pure_decision": 2937,
+  "g_fail_rep_pass": 2505,
+  "cancel": 828,
+  "g!=ref": 257,
+  "unclosed_g_pass": 45
+ },
+ "heldout": {
+  "n": 5504,
+  "g!=rep": 450,
+  "pure_defect": 250,
+  "g_pass_rep_fail": 256,
+  "cancel": 70,
+  "pure_decision": 200,
+  "g_fail_rep_pass": 194,
+  "g!=ref": 22,
+  "unclosed_g_pass": 15
+ }
+}

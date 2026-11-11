@@ -1,0 +1,16 @@
+Qwen__Qwen2.5-14B-Instruct/greedy_repeat.jsonl
+Qwen__Qwen2.5-32B-Instruct/greedy_repeat.jsonl
+Qwen__Qwen2.5-7B-Instruct/greedy_repeat.jsonl
+Qwen__Qwen3-14B/greedy_repeat.jsonl
+Qwen__Qwen3-14B__thinking/greedy_repeat.jsonl
+Qwen__Qwen3-32B/greedy_repeat.jsonl
+Qwen__Qwen3-8B/greedy_repeat.jsonl
+Qwen__Qwen3-8B__thinking/greedy_repeat.jsonl
+allenai__Llama-3.1-Tulu-3-8B/greedy_repeat.jsonl
+allenai__OLMo-2-0325-32B-Instruct/greedy_repeat.jsonl
+allenai__OLMo-2-1124-13B-Instruct/greedy_repeat.jsonl
+allenai__OLMo-2-1124-7B-Instruct/greedy_repeat.jsonl
+marin-community__marin-8b-instruct/greedy_repeat.jsonl
+microsoft__phi-4/greedy_repeat.jsonl
+mistralai__Mistral-7B-Instruct-v0.3/greedy_repeat.jsonl
+mistralai__Mistral-Small-24B-Instruct-2501/greedy_repeat.jsonl

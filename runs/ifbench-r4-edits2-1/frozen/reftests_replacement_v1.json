@@ -1,0 +1,1421 @@
+{
+ "records": [
+  {
+   "test": "test_alliteration",
+   "line": 219,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_ALLITERATION))"
+  },
+  {
+   "test": "test_alliteration",
+   "line": 221,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_ALLITERATION_FALSE))"
+  },
+  {
+   "test": "test_alphabet",
+   "line": 172,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_ALPHABET_START))"
+  },
+  {
+   "test": "test_alphabet",
+   "line": 174,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_ALPHABET_START2))"
+  },
+  {
+   "test": "test_alphabet",
+   "line": 176,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_ALPHABET_START3))"
+  },
+  {
+   "test": "test_alphabet",
+   "line": 178,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_ALPHABET_START_FALSE))"
+  },
+  {
+   "test": "test_alphabet",
+   "line": 180,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_ALPHABET_START_FALSE2))"
+  },
+  {
+   "test": "test_char_count_sent",
+   "line": 392,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CHAR_COUNT_SENT))"
+  },
+  {
+   "test": "test_char_count_sent",
+   "line": 394,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_CHAR_COUNT_SENT_FALSE))"
+  },
+  {
+   "test": "test_character_reverse_order",
+   "line": 958,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_REVERSE_CHAR_ORDER))"
+  },
+  {
+   "test": "test_character_reverse_order",
+   "line": 960,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_REVERSE_CHAR_ORDER_FALSE))"
+  },
+  {
+   "test": "test_character_reverse_order",
+   "line": 962,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_REVERSE_CHAR_ORDER_FALSE2))"
+  },
+  {
+   "test": "test_conj_count",
+   "line": 109,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CONJ))"
+  },
+  {
+   "test": "test_consecutive_letter",
+   "line": 510,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_CONSECUTIVE_FIRST_LETTER))"
+  },
+  {
+   "test": "test_consecutive_letter",
+   "line": 512,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CONSECUTIVE_FIRST_LETTER2))"
+  },
+  {
+   "test": "test_consonant_cluster",
+   "line": 206,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CONSONANT_CLUSTER))"
+  },
+  {
+   "test": "test_consonant_cluster",
+   "line": 208,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_CONSONANT_CLUSTER_FALSE))"
+  },
+  {
+   "test": "test_consonant_cluster",
+   "line": 210,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_CONSONANT_CLUSTER_FALSE2))"
+  },
+  {
+   "test": "test_csv",
+   "line": 1034,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CSV))"
+  },
+  {
+   "test": "test_csv",
+   "line": 1036,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MISSING_COLUMN))"
+  },
+  {
+   "test": "test_csv_quotes",
+   "line": 1090,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CSV_QUOTES))"
+  },
+  {
+   "test": "test_csv_quotes",
+   "line": 1092,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MISSING_QUOTES))"
+  },
+  {
+   "test": "test_csv_special_character",
+   "line": 1073,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_CSV_SPECIAL))"
+  },
+  {
+   "test": "test_csv_special_character",
+   "line": 1075,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MISSING_SPECIAL))"
+  },
+  {
+   "test": "test_emoji",
+   "line": 381,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_EMOJI))"
+  },
+  {
+   "test": "test_emoji",
+   "line": 383,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_EMOJI_FALSE_START))"
+  },
+  {
+   "test": "test_europe_capitals",
+   "line": 1007,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_EUROPE))"
+  },
+  {
+   "test": "test_europe_capitals",
+   "line": 1009,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_EUROPE_WRONG_ORDER))"
+  },
+  {
+   "test": "test_europe_capitals",
+   "line": 1011,
+   "assert": "assertFalse",
+   "ok": false,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_EUROPE_INCOMPLETE))"
+  },
+  {
+   "test": "test_indent_stairs",
+   "line": 521,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_INDENT_STAIRS))"
+  },
+  {
+   "test": "test_indent_stairs",
+   "line": 523,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_INDENT_STAIRS_FALSE))"
+  },
+  {
+   "test": "test_keyword",
+   "line": 425,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_KEYWORD))"
+  },
+  {
+   "test": "test_keyword",
+   "line": 427,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_KEYWORD_FALSE))"
+  },
+  {
+   "test": "test_keyword_specific_position__case_insensitive_matching",
+   "line": 1171,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Test is here.\"), \"expected True for capitalized keyword\")"
+  },
+  {
+   "test": "test_keyword_specific_position__case_insensitive_matching",
+   "line": 1172,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"TEST is here.\"), \"expected True for uppercase keyword\")"
+  },
+  {
+   "test": "test_keyword_specific_position__case_insensitive_matching",
+   "line": 1173,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"test is here.\"), \"expected True for lowercase keyword\")"
+  },
+  {
+   "test": "test_keywords_multiple__counts_whole_words",
+   "line": 1224,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_KEYWORDS_MULTIPLE_MESSAGE_1))"
+  },
+  {
+   "test": "test_keywords_multiple__counts_whole_words",
+   "line": 1226,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_KEYWORDS_MULTIPLE_MESSAGE_2))"
+  },
+  {
+   "test": "test_last_first",
+   "line": 469,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_LAST_FIRST))"
+  },
+  {
+   "test": "test_last_first",
+   "line": 471,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_LAST_FIRST2))"
+  },
+  {
+   "test": "test_last_first",
+   "line": 473,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_LAST_FIRST_FALSE))"
+  },
+  {
+   "test": "test_last_first__returns_false_when_sentence_has_no_words",
+   "line": 1125,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"Hello world. ... Next sentence.\"))"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 764,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_MULTIPLE_CHOICE_CHATGPT))"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 766,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MULTIPLE_CHOICE_CHATGPT_2))"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 768,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MULTIPLE_CHOICE_FALSE_QUESTIONS))"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 770,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MULTIPLE_CHOICE_FALSE_ANSWERS))"
+  },
+  {
+   "test": "test_multiple_choice",
+   "line": 772,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_MULTIPLE_CHOICE_FALSE_LENGTH))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 265,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NESTED_PARENTHESES))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 267,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NESTED_PARENTHESES_FALSE_DEPTH))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 269,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NESTED_PARENTHESES_FALSE_NEST))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 271,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NESTED_PARENTHESES_FALSE_NEST2))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 273,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NESTED_PARENTHESES_TRUE))"
+  },
+  {
+   "test": "test_nested_parentheses",
+   "line": 275,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NESTED_PARENTHESES_TRUE2))"
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 287,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NESTED_QUOTES))"
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 289,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NESTED_QUOTES2))"
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 291,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NESTED_QUOTES_FALSE))"
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 293,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NESTED_QUOTES_FALSE2))"
+  },
+  {
+   "test": "test_nested_quotes",
+   "line": 295,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NESTED_QUOTES_FALSE3))"
+  },
+  {
+   "test": "test_newline",
+   "line": 360,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NEWLINE))"
+  },
+  {
+   "test": "test_newline",
+   "line": 362,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NEWLINE2))"
+  },
+  {
+   "test": "test_newline",
+   "line": 364,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NEWLINE3))"
+  },
+  {
+   "test": "test_newline",
+   "line": 366,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_FALSE))"
+  },
+  {
+   "test": "test_newline",
+   "line": 368,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_FALSE2))"
+  },
+  {
+   "test": "test_newline",
+   "line": 370,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_FALSE3))"
+  },
+  {
+   "test": "test_newline",
+   "line": 372,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_TRUE))"
+  },
+  {
+   "test": "test_ngram_overlap",
+   "line": 133,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NGRAM_OVERLAP))"
+  },
+  {
+   "test": "test_ngram_overlap__measures_word_trigrams",
+   "line": 1209,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(reference_text))"
+  },
+  {
+   "test": "test_ngram_overlap__measures_word_trigrams",
+   "line": 1210,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"completely unrelated wording appears in this line\"))"
+  },
+  {
+   "test": "test_ngram_overlap__returns_false_when_response_too_short_for_ngrams",
+   "line": 1155,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"Hi\"), \"expected False for 2-char response\")"
+  },
+  {
+   "test": "test_ngram_overlap__returns_false_when_response_too_short_for_ngrams",
+   "line": 1156,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"\"), \"expected False for empty response\")"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 146,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NUMBERS_COUNT))"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 148,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NUMBERS_COUNT_DECIMAL))"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 150,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NUMBERS_COUNT_FALSE2))"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 152,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NUMBERS_COUNT_SIMPLE))"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 156,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NUMBERS_COUNT_COMMA))"
+  },
+  {
+   "test": "test_numbers_count",
+   "line": 160,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NUMBERS_COUNT_PUNCTUATION))"
+  },
+  {
+   "test": "test_options",
+   "line": 326,
+   "assert": "assertFalse",
+   "ok": false,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_OPTIONS))"
+  },
+  {
+   "test": "test_options",
+   "line": 329,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_OPTIONS_OR1))"
+  },
+  {
+   "test": "test_options",
+   "line": 331,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_OPTIONS_OR2))"
+  },
+  {
+   "test": "test_options",
+   "line": 333,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_OPTIONS_OR1_FALSE))"
+  },
+  {
+   "test": "test_options",
+   "line": 335,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_OPTIONS_OR2_FALSE))"
+  },
+  {
+   "test": "test_options",
+   "line": 338,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_OPTIONS_YNM))"
+  },
+  {
+   "test": "test_options",
+   "line": 340,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_OPTIONS_YNM2))"
+  },
+  {
+   "test": "test_options",
+   "line": 342,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_OPTIONS_YNM3))"
+  },
+  {
+   "test": "test_options",
+   "line": 344,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_OPTIONS_YNM_FALSE))"
+  },
+  {
+   "test": "test_palindrome",
+   "line": 233,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PALINDROME))"
+  },
+  {
+   "test": "test_palindrome",
+   "line": 235,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PALINDROME2))"
+  },
+  {
+   "test": "test_palindrome",
+   "line": 237,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PALINDROME_FALSE))"
+  },
+  {
+   "test": "test_palindrome",
+   "line": 239,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PALINDROME_FALSE_LENGTH))"
+  },
+  {
+   "test": "test_palindrome",
+   "line": 241,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PALINDROME_FALSE_QUANTITY))"
+  },
+  {
+   "test": "test_paragraph_first_last",
+   "line": 482,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PARAGRAPH_FIRST_LAST))"
+  },
+  {
+   "test": "test_paragraph_first_last",
+   "line": 484,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PARAGRAPH_FIRST_LAST_FALSE))"
+  },
+  {
+   "test": "test_person_name",
+   "line": 119,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PERSON_NAMES))"
+  },
+  {
+   "test": "test_person_name",
+   "line": 122,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PERSON_NAMES_47))"
+  },
+  {
+   "test": "test_person_name",
+   "line": 124,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PERSON_NAMES_47_FALSE))"
+  },
+  {
+   "test": "test_prime_lengths",
+   "line": 305,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRIME_LENGTHS))"
+  },
+  {
+   "test": "test_prime_lengths",
+   "line": 307,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PRIME_LENGTHS_FALSE))"
+  },
+  {
+   "test": "test_prime_lengths",
+   "line": 309,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRIME_LENGTHS2))"
+  },
+  {
+   "test": "test_print_multiples",
+   "line": 592,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRINT_MULTIPLES))"
+  },
+  {
+   "test": "test_print_multiples",
+   "line": 594,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRINT_MULTIPLES2))"
+  },
+  {
+   "test": "test_print_multiples",
+   "line": 596,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PRINT_MULTIPLES_FALSE))"
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 437,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRONOUN_COUNT))"
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 439,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PRONOUN_COUNT3))"
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 443,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRONOUN_COUNT2))"
+  },
+  {
+   "test": "test_pronoun_count",
+   "line": 445,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PRONOUN_COUNT3))"
+  },
+  {
+   "test": "test_punctuation",
+   "line": 250,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_PUNCTUATION))"
+  },
+  {
+   "test": "test_punctuation",
+   "line": 252,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_PUNCTUATION2))"
+  },
+  {
+   "test": "test_quote_explanation__handles_empty_string_after_stripping",
+   "line": 1163,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"123...\"), \"expected True for digits and punctuation only\")"
+  },
+  {
+   "test": "test_quote_explanation__handles_empty_string_after_stripping",
+   "line": 1164,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"\"), \"expected True for empty string\")"
+  },
+  {
+   "test": "test_quote_unquote",
+   "line": 532,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_QUOTE_EXPLANATION))"
+  },
+  {
+   "test": "test_quote_unquote",
+   "line": 534,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_QUOTE_EXPLANATION_FALSE))"
+  },
+  {
+   "test": "test_repeat_change_checker",
+   "line": 1109,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Provide me a summary of the book '1984' by George Orwell.\"))"
+  },
+  {
+   "test": "test_repeat_change_checker",
+   "line": 1110,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"Give me a summary of the book '1984' by George Orwell.\"))"
+  },
+  {
+   "test": "test_repeat_span__uses_word_indices",
+   "line": 1199,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"The walls are solid but the stones are\"))"
+  },
+  {
+   "test": "test_repeat_span__uses_word_indices",
+   "line": 1200,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"The walls are solid\"))"
+  },
+  {
+   "test": "test_repeat_span__uses_word_indices",
+   "line": 1201,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"The wall\"))"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 942,
+   "assert": "assertTrue",
+   "ok": false,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_NEWLINE_COUNTRIES))"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 944,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_COUNTRIES_FALSE_INCOMPLETE))"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 946,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_COUNTRIES_FALSE_NEWLINE))"
+  },
+  {
+   "test": "test_reverse_newline",
+   "line": 948,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_NEWLINE_COUNTRIES_FALSE_ORDER))"
+  },
+  {
+   "test": "test_reverse_order",
+   "line": 1101,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_DATE_FORMAT))"
+  },
+  {
+   "test": "test_reverse_order",
+   "line": 1103,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_DATE_FORMAT_FALSE))"
+  },
+  {
+   "test": "test_sentence_alphabet",
+   "line": 993,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SENTENCE_ALPHABET))"
+  },
+  {
+   "test": "test_sentence_alphabet",
+   "line": 995,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_SENTENCE_ALPHABET_FALSE))"
+  },
+  {
+   "test": "test_sentence_alphabet",
+   "line": 997,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_SENTENCE_ALPHABET_FALSE2))"
+  },
+  {
+   "test": "test_sentence_alphabet__ignores_leading_punctuation",
+   "line": 1237,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\" \".join(sentences)))"
+  },
+  {
+   "test": "test_sentence_alphabet__ignores_leading_punctuation",
+   "line": 1238,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following('\"' + sentences[0] + \" \" + \" \".join(sentences[1:])))"
+  },
+  {
+   "test": "test_sentence_alphabet__ignores_leading_punctuation",
+   "line": 1239,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\" \".join([sentences[1], sentences[0]] + sentences[2:])))"
+  },
+  {
+   "test": "test_sentence_alphabet__returns_false_when_sentence_is_empty_after_split",
+   "line": 1118,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(empty_sentences))"
+  },
+  {
+   "test": "test_sentence_balance_checker",
+   "line": 101,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SENT_BALANCE_MESSAGE_1))"
+  },
+  {
+   "test": "test_sentence_type_checker",
+   "line": 91,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SENTENCE_TYPE_MESSAGE_1))"
+  },
+  {
+   "test": "test_sentence_words__requires_unique_words",
+   "line": 1255,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"The cat sat here. The cat sat here. The cat sat here.\"))"
+  },
+  {
+   "test": "test_sentence_words__requires_unique_words",
+   "line": 1256,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"This is one. Now it's 22. On to three.\"))"
+  },
+  {
+   "test": "test_some_bullet_points",
+   "line": 578,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SOME_BULLET_POINTS))"
+  },
+  {
+   "test": "test_some_bullet_points",
+   "line": 580,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_SOME_BULLET_POINTS_FALSE_SENTENCE))"
+  },
+  {
+   "test": "test_some_bullet_points",
+   "line": 582,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_SOME_BULLET_POINTS_FALSE_BULLET))"
+  },
+  {
+   "test": "test_special_bullet_points",
+   "line": 543,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SPECIAL_BULLET_POINTS))"
+  },
+  {
+   "test": "test_special_bullet_points",
+   "line": 545,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_SPECIAL_BULLET_POINTS_FALSE))"
+  },
+  {
+   "test": "test_stop_word_percentage__returns_false_when_response_empty",
+   "line": 1189,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"\"), \"expected False for empty response\")"
+  },
+  {
+   "test": "test_stop_word_percentage__returns_false_when_response_empty",
+   "line": 1190,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"   \"), \"expected False for whitespace-only response\")"
+  },
+  {
+   "test": "test_stop_word_ratio_checker",
+   "line": 82,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_STOP_WORD_RATIO_MESSAGE_1))"
+  },
+  {
+   "test": "test_subbullet",
+   "line": 566,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SUBBULLET))"
+  },
+  {
+   "test": "test_subbullet",
+   "line": 568,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_SUBBULLET_FALSE))"
+  },
+  {
+   "test": "test_syllable_parity",
+   "line": 455,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_ODD_EVEN_SYLLABLE))"
+  },
+  {
+   "test": "test_syllable_parity",
+   "line": 457,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_ODD_EVEN_SYLLABLE_FALSE))"
+  },
+  {
+   "test": "test_syllable_parity",
+   "line": 459,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_ODD_EVEN_SYLLABLE_WORD_BOUNDARIES))"
+  },
+  {
+   "test": "test_thesis",
+   "line": 555,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_THESIS))"
+  },
+  {
+   "test": "test_thesis",
+   "line": 557,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_THESIS_EM))"
+  },
+  {
+   "test": "test_three_vowels",
+   "line": 191,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_THREE_VOWEL))"
+  },
+  {
+   "test": "test_three_vowels",
+   "line": 193,
+   "assert": "assertFalse",
+   "ok": false,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_THREE_VOWEL_FALSE))"
+  },
+  {
+   "test": "test_three_vowels",
+   "line": 195,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_THREE_VOWEL_TRUE))"
+  },
+  {
+   "test": "test_title_case__handles_numeric_tokens",
+   "line": 1148,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Test 123 Numbers\"))"
+  },
+  {
+   "test": "test_title_case__handles_punctuation_tokens",
+   "line": 1140,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Hello, World!\"))"
+  },
+  {
+   "test": "test_title_case__handles_punctuation_tokens",
+   "line": 1141,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Test (With Parentheses)\"))"
+  },
+  {
+   "test": "test_title_case__handles_single_character_words",
+   "line": 1132,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"I Am A Test\"), \"expected True for uppercase single-char words\")"
+  },
+  {
+   "test": "test_title_case__handles_single_character_words",
+   "line": 1133,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"i Am A Test\"), \"expected False for lowercase single-char words\")"
+  },
+  {
+   "test": "test_unique_word_count_checker",
+   "line": 71,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_UNIQUE_WORD_COUNT_MESSAGE_1))"
+  },
+  {
+   "test": "test_verb_start",
+   "line": 403,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.START_WITH_VERB))"
+  },
+  {
+   "test": "test_verb_start",
+   "line": 405,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.START_WITH_VERB_FALSE))"
+  },
+  {
+   "test": "test_word_count_range_checker",
+   "line": 48,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_SHORT_MESSAGE))"
+  },
+  {
+   "test": "test_word_count_range_checker",
+   "line": 54,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_MEDIUM_MESSAGE))"
+  },
+  {
+   "test": "test_word_count_range_checker",
+   "line": 60,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_LONG_MESSAGE))"
+  },
+  {
+   "test": "test_word_repeats",
+   "line": 413,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.THREE_REPEAT))"
+  },
+  {
+   "test": "test_word_repeats",
+   "line": 416,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.THREE_REPEAT))"
+  },
+  {
+   "test": "test_word_reverse_order",
+   "line": 972,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_REVERSE_ORDER))"
+  },
+  {
+   "test": "test_word_reverse_order",
+   "line": 974,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_REVERSE_ORDER_FALSE))"
+  },
+  {
+   "test": "test_word_reverse_order",
+   "line": 976,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_REVERSE_ORDER_FALSE2))"
+  },
+  {
+   "test": "test_words_increment",
+   "line": 493,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_WORDS_INCREMENT_TWO))"
+  },
+  {
+   "test": "test_words_increment",
+   "line": 495,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_WORDS_INCREMENT_THREE))"
+  },
+  {
+   "test": "test_words_increment",
+   "line": 499,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(self.TEST_WORDS_INCREMENT_TWO))"
+  },
+  {
+   "test": "test_words_increment",
+   "line": 501,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(self.TEST_WORDS_INCREMENT_THREE))"
+  },
+  {
+   "test": "test_words_position__case_insensitive_matching",
+   "line": 1180,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Start Hello middle Hello end\"), \"expected True for capitalized\")"
+  },
+  {
+   "test": "test_words_position__case_insensitive_matching",
+   "line": 1181,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Start HELLO middle HELLO end\"), \"expected True for uppercase\")"
+  },
+  {
+   "test": "test_words_position__case_insensitive_matching",
+   "line": 1182,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"Start hello middle hello end\"), \"expected True for lowercase\")"
+  },
+  {
+   "test": "test_words_position__ignores_punctuation_tokens",
+   "line": 1246,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following(\"The vibrant sun set over a calm vibrant sea\"))"
+  },
+  {
+   "test": "test_words_position__ignores_punctuation_tokens",
+   "line": 1247,
+   "assert": "assertTrue",
+   "ok": true,
+   "error": null,
+   "code": "self.assertTrue(instruction.check_following('\"The vibrant sun set over a calm vibrant sea!\"'))"
+  },
+  {
+   "test": "test_words_position__ignores_punctuation_tokens",
+   "line": 1248,
+   "assert": "assertFalse",
+   "ok": true,
+   "error": null,
+   "code": "self.assertFalse(instruction.check_following(\"The lazy sun set over a calm quiet sea\"))"
+  }
+ ],
+ "errors": []
+}

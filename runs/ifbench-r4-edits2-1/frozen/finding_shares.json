@@ -1,0 +1,358 @@
+{
+ "F-03": {
+  "checks": [
+   "count:conjunctions"
+  ],
+  "verdicts_in_scope": 1589,
+  "flips": {
+   "to_fail": 188,
+   "agrees_with_replacement": 188
+  },
+  "share_of_all_verdicts_pct": 0.24,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/bi_greedy/key9",
+   "Qwen__Qwen2.5-14B-Instruct/bi_greedy_shuffled/key9",
+   "Qwen__Qwen2.5-14B-Instruct/greedy/key5"
+  ]
+ },
+ "F-05": {
+  "checks": [
+   "count:numbers"
+  ],
+  "verdicts_in_scope": 1824,
+  "flips": {
+   "to_pass": 1,
+   "agrees_with_replacement": 5,
+   "to_fail": 4
+  },
+  "share_of_all_verdicts_pct": 0.006,
+  "examples": [
+   "allenai__OLMo-2-1124-7B-Instruct/sample5/key17",
+   "marin-community__marin-8b-instruct/sample6/key17",
+   "microsoft__phi-4/sample0/key17"
+  ]
+ },
+ "F-07": {
+  "checks": [
+   "count:unique_word_count"
+  ],
+  "verdicts_in_scope": 2040,
+  "flips": {
+   "to_fail": 8,
+   "agrees_with_replacement": 8
+  },
+  "share_of_all_verdicts_pct": 0.01,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/sample11/key56",
+   "Qwen__Qwen2.5-14B-Instruct/sample2/key52",
+   "Qwen__Qwen2.5-14B-Instruct/sample4/key52"
+  ]
+ },
+ "F-08": {
+  "checks": [
+   "count:words_japanese"
+  ],
+  "verdicts_in_scope": 1137,
+  "flips": {
+   "to_fail": 9,
+   "agrees_with_replacement": 2,
+   "disagrees_with_replacement": 7
+  },
+  "share_of_all_verdicts_pct": 0.011,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/sample3/key51",
+   "Qwen__Qwen2.5-7B-Instruct/bi_greedy/key49",
+   "Qwen__Qwen2.5-7B-Instruct/bi_greedy_shuffled/key49"
+  ]
+ },
+ "F-11": {
+  "checks": [
+   "custom:csv_special_character"
+  ],
+  "verdicts_in_scope": 228,
+  "flips": {},
+  "share_of_all_verdicts_pct": 0.0,
+  "examples": []
+ },
+ "F-12": {
+  "checks": [
+   "custom:date_format_list"
+  ],
+  "verdicts_in_scope": 228,
+  "flips": {},
+  "share_of_all_verdicts_pct": 0.0,
+  "examples": []
+ },
+ "F-15": {
+  "checks": [
+   "custom:sentence_alphabet"
+  ],
+  "verdicts_in_scope": 228,
+  "flips": {
+   "to_pass": 23,
+   "agrees_with_replacement": 23
+  },
+  "share_of_all_verdicts_pct": 0.029,
+  "examples": [
+   "marin-community__marin-8b-instruct/sample8/key282",
+   "microsoft__phi-4/sample1/key282",
+   "microsoft__phi-4/sample10/key282"
+  ]
+ },
+ "F-16": {
+  "checks": [
+   "format:emoji"
+  ],
+  "verdicts_in_scope": 2049,
+  "flips": {
+   "to_pass": 27,
+   "agrees_with_replacement": 27
+  },
+  "share_of_all_verdicts_pct": 0.034,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/sample4/key65",
+   "Qwen__Qwen3-14B/bi_greedy/key65",
+   "Qwen__Qwen3-14B/bi_greedy_shuffled/key65"
+  ]
+ },
+ "F-17": {
+  "checks": [
+   "format:line_indent"
+  ],
+  "verdicts_in_scope": 2052,
+  "flips": {
+   "to_pass": 1,
+   "agrees_with_replacement": 1
+  },
+  "share_of_all_verdicts_pct": 0.001,
+  "examples": [
+   "Qwen__Qwen3-14B__thinking/greedy_shuffled/key75"
+  ]
+ },
+ "F-19": {
+  "checks": [
+   "format:newline"
+  ],
+  "verdicts_in_scope": 1363,
+  "flips": {
+   "to_pass": 5,
+   "agrees_with_replacement": 5
+  },
+  "share_of_all_verdicts_pct": 0.006,
+  "examples": [
+   "Qwen__Qwen3-32B/sample5/key90",
+   "Qwen__Qwen3-8B/sample2/key90",
+   "allenai__OLMo-2-1124-13B-Instruct/sample10/key90"
+  ]
+ },
+ "F-20": {
+  "checks": [
+   "format:no_bullets_bullets"
+  ],
+  "verdicts_in_scope": 1140,
+  "flips": {
+   "to_pass": 139,
+   "agrees_with_replacement": 129,
+   "disagrees_with_replacement": 10
+  },
+  "share_of_all_verdicts_pct": 0.177,
+  "examples": [
+   "Qwen__Qwen2.5-32B-Instruct/bi_greedy/key95",
+   "Qwen__Qwen2.5-32B-Instruct/bi_greedy/key99",
+   "Qwen__Qwen2.5-32B-Instruct/bi_greedy_shuffled/key95"
+  ]
+ },
+ "F-21": {
+  "checks": [
+   "format:options"
+  ],
+  "verdicts_in_scope": 1368,
+  "flips": {},
+  "share_of_all_verdicts_pct": 0.0,
+  "examples": []
+ },
+ "F-22": {
+  "checks": [
+   "format:output_template"
+  ],
+  "verdicts_in_scope": 912,
+  "flips": {
+   "to_fail": 8,
+   "disagrees_with_replacement": 4,
+   "agrees_with_replacement": 4
+  },
+  "share_of_all_verdicts_pct": 0.01,
+  "examples": [
+   "allenai__OLMo-2-0325-32B-Instruct/greedy/key295",
+   "allenai__OLMo-2-0325-32B-Instruct/greedy_repeat/key295",
+   "allenai__OLMo-2-0325-32B-Instruct/greedy_shuffled/key295"
+  ]
+ },
+ "F-28": {
+  "checks": [
+   "format:title_case"
+  ],
+  "verdicts_in_scope": 912,
+  "flips": {
+   "to_pass": 8,
+   "agrees_with_replacement": 8
+  },
+  "share_of_all_verdicts_pct": 0.01,
+  "examples": [
+   "Qwen__Qwen2.5-32B-Instruct/sample7/key290",
+   "Qwen__Qwen2.5-7B-Instruct/sample10/key290",
+   "Qwen__Qwen3-32B/greedy_shuffled/key289"
+  ]
+ },
+ "F-29": {
+  "checks": [
+   "ratio:sentence_balance",
+   "ratio:sentence_type"
+  ],
+  "verdicts_in_scope": 2963,
+  "flips": {
+   "to_fail": 8,
+   "agrees_with_replacement": 8
+  },
+  "share_of_all_verdicts_pct": 0.01,
+  "examples": [
+   "Qwen__Qwen2.5-32B-Instruct/greedy/key159",
+   "Qwen__Qwen2.5-32B-Instruct/greedy_repeat/key159",
+   "Qwen__Qwen2.5-7B-Instruct/bi_greedy/key159"
+  ]
+ },
+ "F-31": {
+  "checks": [
+   "repeat:repeat_change"
+  ],
+  "verdicts_in_scope": 684,
+  "flips": {},
+  "share_of_all_verdicts_pct": 0.0,
+  "examples": []
+ },
+ "F-32": {
+  "checks": [
+   "repeat:repeat_span"
+  ],
+  "verdicts_in_scope": 910,
+  "flips": {},
+  "share_of_all_verdicts_pct": 0.0,
+  "examples": []
+ },
+ "F-33": {
+  "checks": [
+   "sentence:alliteration_increment"
+  ],
+  "verdicts_in_scope": 1130,
+  "flips": {
+   "to_fail": 114,
+   "agrees_with_replacement": 119,
+   "to_pass": 6,
+   "disagrees_with_replacement": 1
+  },
+  "share_of_all_verdicts_pct": 0.153,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/greedy/key178",
+   "Qwen__Qwen2.5-14B-Instruct/greedy/key182",
+   "Qwen__Qwen2.5-14B-Instruct/greedy_repeat/key178"
+  ]
+ },
+ "F-34": {
+  "checks": [
+   "words:alphabet",
+   "words:no_consecutive",
+   "words:prime_lengths",
+   "words:repeats",
+   "words:last_first",
+   "words:paragraph_last_first",
+   "count:unique_word_count",
+   "custom:sentence_alphabet",
+   "words:start_verb",
+   "words:words_position",
+   "words:consonants",
+   "words:odd_even_syllables",
+   "words:palindrome"
+  ],
+  "verdicts_in_scope": 19322,
+  "flips": {
+   "to_fail": 3,
+   "agrees_with_replacement": 3,
+   "to_pass": 1,
+   "disagrees_with_replacement": 1
+  },
+  "share_of_all_verdicts_pct": 0.005,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/sample4/key52",
+   "Qwen__Qwen2.5-7B-Instruct/sample6/key52",
+   "Qwen__Qwen3-14B/sample8/key236"
+  ]
+ },
+ "F-35": {
+  "checks": [
+   "words:consonants",
+   "words:prime_lengths",
+   "words:alphabet",
+   "words:no_consecutive",
+   "words:odd_even_syllables"
+  ],
+  "verdicts_in_scope": 9767,
+  "flips": {},
+  "share_of_all_verdicts_pct": 0.0,
+  "examples": []
+ },
+ "F-36": {
+  "checks": [
+   "words:paragraph_last_first",
+   "words:last_first"
+  ],
+  "verdicts_in_scope": 2508,
+  "flips": {
+   "to_pass": 64,
+   "agrees_with_replacement": 64
+  },
+  "share_of_all_verdicts_pct": 0.082,
+  "examples": [
+   "Qwen__Qwen2.5-14B-Instruct/bi_greedy/key219",
+   "Qwen__Qwen2.5-14B-Instruct/bi_greedy_shuffled/key219",
+   "Qwen__Qwen2.5-14B-Instruct/sample1/key244"
+  ]
+ },
+ "F-39": {
+  "checks": [
+   "format:emoji",
+   "sentence:keyword",
+   "sentence:increment",
+   "sentence:alliteration_increment",
+   "words:last_first",
+   "words:keywords_specific_position",
+   "ratio:sentence_type",
+   "ratio:sentence_balance",
+   "ratio:sentence_words",
+   "custom:sentence_alphabet"
+  ],
+  "verdicts_in_scope": 15250,
+  "flips": {
+   "to_pass": 2,
+   "agrees_with_replacement": 2
+  },
+  "share_of_all_verdicts_pct": 0.003,
+  "examples": [
+   "Qwen__Qwen3-14B/sample9/key151",
+   "Qwen__Qwen3-8B/sample1/key151"
+  ]
+ },
+ "F-13": {
+  "responses": 228,
+  "mention_kyiv": 58,
+  "grader_passes": 0,
+  "replacement_passes": 23
+ },
+ "F-41": {
+  "verdicts": 157,
+  "grader_passes": 45
+ },
+ "F-42": {
+  "loose_only_passes": 3666,
+  "of_which_contract_fails": 2588
+ }
+}

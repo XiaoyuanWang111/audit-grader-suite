@@ -1,0 +1,14 @@
+{
+ "n_per_instance": 60,
+ "total": 20640,
+ "exceptions": {
+  "grader": {},
+  "reference": {},
+  "replacement": {}
+ },
+ "examples": {
+  "grader": {},
+  "reference": {},
+  "replacement": {}
+ }
+}

@@ -1,0 +1,100 @@
+"""Classification of every fixture that the grader under audit gets wrong.
+
+("finding", "F-xx")            the contract is unambiguous, or no combination of readings
+                               makes the grader's verdict right
+("decision", ["D-a", ...])     the grader's verdict is right under a non-proposed reading of
+                               every named decision entry together
+Finding ids are described in audit/AUDIT.md.
+"""
+
+GRADER_WRONG = {
+    # count
+    "count:conjunctions#dcd04ba5": ("finding", "F-04"),
+    "count:keywords_multiple#e1ec9671": ("finding", "F-05"),
+    "count:keywords_multiple#a30082f0": ("finding", "F-05"),
+    "count:keywords_multiple#6544b7bb": ("decision", ["D-keyword-match"]),
+    "count:numbers#f00b6a23": ("finding", "F-06"),
+    "count:numbers#a5347399": ("finding", "F-06"),
+    "count:pronouns#2b05f35c": ("finding", "F-07"),
+    "count:punctuation#b1b8298b": ("finding", "F-08"),
+    "count:punctuation#f1ba574d": ("decision", ["D-punct-set"]),
+    "count:unique_word_count#2b002c1c": ("finding", "F-09"),
+    "count:words_japanese#465f79ea": ("decision", ["D-vacuous"]),
+    "count:words_japanese#8d075f0b": ("decision", ["D-japanese-digits"]),
+    # custom
+    "custom:character_reverse#1d3496c0": ("finding", "F-10"),
+    "custom:csv_city#8b7fd8ed": ("decision", ["D-csv-wrapper"]),
+    "custom:csv_quotes#fa168408": ("finding", "F-11"),
+    "custom:european_capitals_sort#35beb628": ("finding", "F-12"),
+    "custom:european_capitals_sort#fe216477": ("decision", ["D-capitals-set"]),
+    "custom:mcq_count_length#d79971b5": ("finding", "F-13"),
+    # format
+    "format:emoji#17317ce5": ("finding", "F-14"),
+    "format:emoji#62a7b39c": ("finding", "F-14"),
+    "format:emoji#31be7d44": ("decision", ["D-sentence"]),
+    "format:line_indent#8416c808": ("decision", ["D-indent"]),
+    "format:list#ceca4d40": ("finding", "F-15"),
+    "format:list#40838dbc": ("finding", "F-15"),
+    "format:newline#9b6ea985": ("finding", "F-16"),
+    "format:no_bullets_bullets#7f0516df": ("finding", "F-17"),
+    "format:no_bullets_bullets#97c404e3": ("finding", "F-17"),
+    "format:no_bullets_bullets#029e7b42": ("finding", "F-17"),
+    "format:no_whitespace#3b8bd8af": ("decision", ["D-strip"]),
+    "format:options#6d7c8399": ("finding", "F-18"),
+    "format:options#9a501bf7": ("decision", ["D-options-label"]),
+    "format:options#341c61f3": ("decision", ["D-strip"]),
+    "format:options#c1e93021": ("decision", ["D-case"]),
+    "format:output_template#ad007192": ("finding", "F-19"),
+    "format:output_template#0b09f521": ("finding", "F-19"),
+    "format:output_template#0385cbc5": ("finding", "F-19"),
+    "format:parentheses#3ae933db": ("decision", ["D-paren-closed"]),
+    "format:quotes#6a418965": ("finding", "F-21"),
+    "format:quotes#8240a6da": ("decision", ["D-typographic"]),
+    "format:quote_unquote#3e8eecb5": ("finding", "F-22"),
+    "format:quote_unquote#577864a0": ("decision", ["D-vacuous"]),
+    "format:quote_unquote#6f8ba75a": ("decision", ["D-typographic"]),
+    "format:sub-bullets#3a8cf170": ("finding", "F-23"),
+    "format:sub-bullets#d319d0a2": ("finding", "F-23"),
+    "format:thesis#7c919c18": ("finding", "F-24"),
+    "format:thesis#212ce5b0": ("decision", ["D-section"]),
+    "format:title_case#774b775a": ("finding", "F-25"),
+    "format:title_case#746c2647": ("finding", "F-25"),
+    "format:title_case#6f0636ed": ("finding", "F-25"),
+    # ratio
+    "ratio:overlap#9983d8e6": ("decision", ["D-trigram-def"]),
+    "ratio:sentence_type#877e3790": ("decision", ["D-vacuous"]),
+    "ratio:sentence_balance#fd6a10d9": ("decision", ["D-vacuous"]),
+    "ratio:sentence_words#e678cff6": ("finding", "F-26"),
+    # repeat
+    "repeat:repeat_change#6610eec4": ("finding", "F-27"),
+    "repeat:repeat_change#8017d55e": ("decision", ["D-change-case"]),
+    "repeat:repeat_span#9f2e4789": ("finding", "F-28"),
+    "repeat:repeat_span#9cafe16f": ("decision", ["D-span-index"]),
+    # sentence
+    "sentence:alliteration_increment#148924a2": ("finding", "F-29"),
+    "sentence:alliteration_increment#f00982f3": ("decision", ["D-vacuous"]),
+    "sentence:increment#7d420a76": ("decision", ["D-vacuous"]),
+    # words
+    "words:alphabet#e46e3fa9": ("finding", "F-09"),
+    "words:last_first#dd3fad8f": ("decision", ["D-vacuous"]),
+    "words:no_consecutive#a18d9f8b": ("finding", "F-09"),
+    "words:palindrome#38f080fb": ("decision", ["D-palindrome-distinct"]),
+    "words:paragraph_last_first#9640a1cc": ("finding", "F-30"),
+    "words:prime_lengths#32da9317": ("finding", "F-09"),
+    "words:repeats#d2204dd6": ("finding", "F-09"),
+    "words:start_verb#9b0e1f25": ("finding", "F-31"),
+    "words:start_verb#b4ab5ac5": ("finding", "F-31"),
+    "words:start_verb#7b78e764": ("finding", "F-31"),
+    "words:start_verb#8a886a99": ("finding", "F-31"),
+    "words:start_verb#9217a1be": ("finding", "F-31"),
+    "words:start_verb#87f6a934": ("finding", "F-31"),
+    "words:start_verb#75663591": ("finding", "F-31"),
+    "words:start_verb#e5f3e69d": ("finding", "F-31"),
+    "words:start_verb#1b72a36a": ("finding", "F-31"),
+    "words:words_position#88c49983": ("finding", "F-32"),
+    "words:words_position#59af5df2": ("finding", "F-32"),
+    # added after step 4/5
+    "ratio:sentence_type#b8f3c20a": ("finding", "F-33"),
+    "format:emoji#2e91dae8": ("finding", "F-33"),
+    "custom:sentence_alphabet#0c11d252": ("finding", "F-34"),
+}

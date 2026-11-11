@@ -1,0 +1,3693 @@
+{
+ "Qwen__Qwen2.5-14B-Instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/greedy": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample0": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample1": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample10": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample11": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample2": {
+  "counts": {
+   "finish_length": 4,
+   "finish_stop": 296,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample3": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample4": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample5": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample6": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample7": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample8": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "Qwen__Qwen2.5-14B-Instruct/sample9": {
+  "counts": {
+   "finish_length": 5,
+   "finish_stop": 295,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-14B-Instruct"
+  ],
+  "revision": [
+   "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/greedy": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample0": {
+  "counts": {
+   "finish_length": 4,
+   "finish_stop": 296,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample1": {
+  "counts": {
+   "finish_length": 4,
+   "finish_stop": 296,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample2": {
+  "counts": {
+   "finish_length": 4,
+   "finish_stop": 296,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample3": {
+  "counts": {
+   "finish_length": 5,
+   "finish_stop": 295,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample4": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample5": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample6": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "Qwen__Qwen2.5-32B-Instruct/sample7": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-32B-Instruct"
+  ],
+  "revision": [
+   "5ede1c97bbab6ce5cda5812749b4c0bdf79b18dd"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 19,
+   "finish_stop": 281,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 19,
+   "finish_stop": 281,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/greedy": {
+  "counts": {
+   "finish_length": 20,
+   "finish_stop": 280,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 19,
+   "finish_stop": 281,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample0": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample1": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample10": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample11": {
+  "counts": {
+   "finish_length": 5,
+   "finish_stop": 295,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample2": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample3": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample4": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample5": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample6": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample7": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample8": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "Qwen__Qwen2.5-7B-Instruct/sample9": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "revision": [
+   "a09a35458c702b33eeacc393d103063234e8bc28"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "Qwen__Qwen3-14B/bi_greedy": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 35,
+   "finish_stop": 265,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "Qwen__Qwen3-14B/bi_greedy_shuffled": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 35,
+   "finish_stop": 265,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-14B/greedy": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 31,
+   "finish_stop": 269,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen3-14B/greedy_repeat": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 33,
+   "finish_stop": 267,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen3-14B/greedy_shuffled": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 33,
+   "finish_stop": 267,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample0": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 29,
+   "finish_stop": 271,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample1": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 31,
+   "finish_stop": 269,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample10": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 24,
+   "finish_stop": 276,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample11": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 30,
+   "finish_stop": 270,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample2": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 30,
+   "finish_stop": 270,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample3": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 30,
+   "finish_stop": 270,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample4": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 27,
+   "finish_stop": 273,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample5": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 36,
+   "finish_stop": 264,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample6": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 31,
+   "finish_stop": 269,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample7": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 31,
+   "finish_stop": 269,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample8": {
+  "counts": {
+   "finish_length": 24,
+   "finish_stop": 276,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "Qwen__Qwen3-14B/sample9": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 32,
+   "finish_stop": 268,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "Qwen__Qwen3-14B__thinking/greedy": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "has_close_think": 291,
+   "lines": 300,
+   "open_think_never_closed": 9,
+   "think_tag_in_response": 9
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen3-14B__thinking/greedy_repeat": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "has_close_think": 290,
+   "lines": 300,
+   "open_think_never_closed": 10,
+   "think_tag_in_response": 10
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen3-14B__thinking/greedy_shuffled": {
+  "counts": {
+   "finish_length": 20,
+   "finish_stop": 280,
+   "has_close_think": 287,
+   "lines": 300,
+   "open_think_never_closed": 13,
+   "think_tag_in_response": 13
+  },
+  "model": [
+   "Qwen/Qwen3-14B"
+  ],
+  "revision": [
+   "40c069824f4251a91eefaf281ebe4c544efd3e18"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-32B/bi_greedy": {
+  "counts": {
+   "finish_length": 33,
+   "finish_stop": 267,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "Qwen__Qwen3-32B/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 33,
+   "finish_stop": 267,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-32B/greedy": {
+  "counts": {
+   "finish_length": 31,
+   "finish_stop": 269,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen3-32B/greedy_repeat": {
+  "counts": {
+   "finish_length": 35,
+   "finish_stop": 265,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen3-32B/greedy_shuffled": {
+  "counts": {
+   "finish_length": 32,
+   "finish_stop": 268,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample0": {
+  "counts": {
+   "finish_length": 35,
+   "finish_stop": 265,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample1": {
+  "counts": {
+   "finish_length": 28,
+   "finish_stop": 272,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample2": {
+  "counts": {
+   "finish_length": 35,
+   "finish_stop": 265,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample3": {
+  "counts": {
+   "finish_length": 36,
+   "finish_stop": 264,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample4": {
+  "counts": {
+   "finish_length": 32,
+   "finish_stop": 268,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample5": {
+  "counts": {
+   "finish_length": 32,
+   "finish_stop": 268,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample6": {
+  "counts": {
+   "finish_length": 34,
+   "finish_stop": 266,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "Qwen__Qwen3-32B/sample7": {
+  "counts": {
+   "finish_length": 31,
+   "finish_stop": 269,
+   "has_close_think": 1,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-32B"
+  ],
+  "revision": [
+   "9216db5781bf21249d130ec9da846c4624c16137"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "Qwen__Qwen3-8B/bi_greedy": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 49,
+   "finish_stop": 251,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "Qwen__Qwen3-8B/bi_greedy_shuffled": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 49,
+   "finish_stop": 251,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-8B/greedy": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 45,
+   "finish_stop": 255,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen3-8B/greedy_repeat": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 45,
+   "finish_stop": 255,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen3-8B/greedy_shuffled": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 51,
+   "finish_stop": 249,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample0": {
+  "counts": {
+   "finish_length": 34,
+   "finish_stop": 266,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample1": {
+  "counts": {
+   "finish_length": 37,
+   "finish_stop": 263,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample10": {
+  "counts": {
+   "finish_length": 42,
+   "finish_stop": 258,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample11": {
+  "counts": {
+   "finish_length": 38,
+   "finish_stop": 262,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample2": {
+  "counts": {
+   "finish_length": 41,
+   "finish_stop": 259,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample3": {
+  "counts": {
+   "finish_length": 38,
+   "finish_stop": 262,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample4": {
+  "counts": {
+   "finish_length": 37,
+   "finish_stop": 263,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample5": {
+  "counts": {
+   "finish_length": 41,
+   "finish_stop": 259,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample6": {
+  "counts": {
+   "finish_length": 34,
+   "finish_stop": 266,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample7": {
+  "counts": {
+   "finish_length": 39,
+   "finish_stop": 261,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample8": {
+  "counts": {
+   "finish_length": 39,
+   "finish_stop": 261,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "Qwen__Qwen3-8B/sample9": {
+  "counts": {
+   "finish_length": 36,
+   "finish_stop": 264,
+   "lines": 300
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "Qwen__Qwen3-8B__thinking/greedy": {
+  "counts": {
+   "finish_length": 49,
+   "finish_stop": 251,
+   "has_close_think": 265,
+   "lines": 300,
+   "open_think_never_closed": 35,
+   "think_tag_in_response": 35
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "Qwen__Qwen3-8B__thinking/greedy_repeat": {
+  "counts": {
+   "finish_length": 40,
+   "finish_stop": 260,
+   "has_close_think": 268,
+   "lines": 300,
+   "open_think_never_closed": 32,
+   "think_tag_in_response": 32
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "Qwen__Qwen3-8B__thinking/greedy_shuffled": {
+  "counts": {
+   "finish_length": 46,
+   "finish_stop": 254,
+   "has_close_think": 263,
+   "lines": 300,
+   "open_think_never_closed": 37,
+   "think_tag_in_response": 37
+  },
+  "model": [
+   "Qwen/Qwen3-8B"
+  ],
+  "revision": [
+   "b968826d9c46dd6066d109eabc6255188de91218"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/bi_greedy": {
+  "counts": {
+   "finish_length": 20,
+   "finish_stop": 280,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 20,
+   "finish_stop": 280,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/greedy": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/greedy_repeat": {
+  "counts": {
+   "finish_length": 19,
+   "finish_stop": 281,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/greedy_shuffled": {
+  "counts": {
+   "finish_length": 18,
+   "finish_stop": 282,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample0": {
+  "counts": {
+   "finish_length": 18,
+   "finish_stop": 282,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample1": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample10": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample11": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample2": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample3": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample4": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample5": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample6": {
+  "counts": {
+   "finish_length": 23,
+   "finish_stop": 277,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample7": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample8": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "allenai__Llama-3.1-Tulu-3-8B/sample9": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "allenai/Llama-3.1-Tulu-3-8B"
+  ],
+  "revision": [
+   "666943798adbde0b1aff34626007e26986a3c107"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/greedy": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample0": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample1": {
+  "counts": {
+   "finish_length": 4,
+   "finish_stop": 296,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample2": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample3": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample4": {
+  "counts": {
+   "finish_length": 5,
+   "finish_stop": 295,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample5": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample6": {
+  "counts": {
+   "finish_length": 5,
+   "finish_stop": 295,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "allenai__OLMo-2-0325-32B-Instruct/sample7": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-0325-32B-Instruct"
+  ],
+  "revision": [
+   "b96024342a77a69aa0dda815c3454a671f477463"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/greedy": {
+  "counts": {
+   "finish_length": 5,
+   "finish_stop": 295,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 6,
+   "finish_stop": 294,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample0": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample1": {
+  "counts": {
+   "finish_length": 4,
+   "finish_stop": 296,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample10": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample11": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample2": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample3": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample4": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample5": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample6": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample7": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample8": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "allenai__OLMo-2-1124-13B-Instruct/sample9": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-13B-Instruct"
+  ],
+  "revision": [
+   "3a5c85baefbb1896a54d56fe2e76c0395627ddf4"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/greedy": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample0": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample1": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample10": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample11": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample2": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample3": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample4": {
+  "counts": {
+   "finish_length": 16,
+   "finish_stop": 284,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample5": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample6": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample7": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample8": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample9": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "revision": [
+   "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "marin-community__marin-8b-instruct/bi_greedy": {
+  "counts": {
+   "finish_length": 34,
+   "finish_stop": 266,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "marin-community__marin-8b-instruct/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 34,
+   "finish_stop": 266,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "marin-community__marin-8b-instruct/greedy": {
+  "counts": {
+   "finish_length": 34,
+   "finish_stop": 266,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "marin-community__marin-8b-instruct/greedy_repeat": {
+  "counts": {
+   "finish_length": 32,
+   "finish_stop": 268,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "marin-community__marin-8b-instruct/greedy_shuffled": {
+  "counts": {
+   "finish_length": 35,
+   "finish_stop": 265,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample0": {
+  "counts": {
+   "finish_length": 18,
+   "finish_stop": 282,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample1": {
+  "counts": {
+   "finish_length": 23,
+   "finish_stop": 277,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample10": {
+  "counts": {
+   "finish_length": 18,
+   "finish_stop": 282,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample11": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 24,
+   "finish_stop": 276,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample2": {
+  "counts": {
+   "finish_length": 27,
+   "finish_stop": 273,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample3": {
+  "counts": {
+   "finish_length": 25,
+   "finish_stop": 275,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample4": {
+  "counts": {
+   "empty_response": 2,
+   "finish_length": 25,
+   "finish_stop": 275,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample5": {
+  "counts": {
+   "finish_length": 25,
+   "finish_stop": 275,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample6": {
+  "counts": {
+   "empty_response": 1,
+   "finish_length": 21,
+   "finish_stop": 279,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample7": {
+  "counts": {
+   "finish_length": 21,
+   "finish_stop": 279,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample8": {
+  "counts": {
+   "finish_length": 24,
+   "finish_stop": 276,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "marin-community__marin-8b-instruct/sample9": {
+  "counts": {
+   "finish_length": 24,
+   "finish_stop": 276,
+   "lines": 300
+  },
+  "model": [
+   "marin-community/marin-8b-instruct"
+  ],
+  "revision": [
+   "0378f9c932bd64ca189d2f2ca5bd2fb076cba61d"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "microsoft__phi-4/bi_greedy": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "microsoft__phi-4/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "microsoft__phi-4/greedy": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "microsoft__phi-4/greedy_repeat": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "microsoft__phi-4/greedy_shuffled": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "microsoft__phi-4/sample0": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "microsoft__phi-4/sample1": {
+  "counts": {
+   "finish_length": 7,
+   "finish_stop": 293,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "microsoft__phi-4/sample10": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "microsoft__phi-4/sample11": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "microsoft__phi-4/sample2": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "microsoft__phi-4/sample3": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "microsoft__phi-4/sample4": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "microsoft__phi-4/sample5": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "microsoft__phi-4/sample6": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "microsoft__phi-4/sample7": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "microsoft__phi-4/sample8": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "microsoft__phi-4/sample9": {
+  "counts": {
+   "finish_length": 13,
+   "finish_stop": 287,
+   "lines": 300
+  },
+  "model": [
+   "microsoft/phi-4"
+  ],
+  "revision": [
+   "2db69c1c3e91a05d2c64a3185acfbaf36f744e25"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/bi_greedy": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 10,
+   "finish_stop": 290,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/greedy": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/greedy_repeat": {
+  "counts": {
+   "finish_length": 19,
+   "finish_stop": 281,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/greedy_shuffled": {
+  "counts": {
+   "finish_length": 18,
+   "finish_stop": 282,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample0": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample1": {
+  "counts": {
+   "finish_length": 20,
+   "finish_stop": 280,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample10": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample10"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample11": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample11"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample2": {
+  "counts": {
+   "finish_length": 18,
+   "finish_stop": 282,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample3": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample4": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample5": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample6": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample7": {
+  "counts": {
+   "finish_length": 9,
+   "finish_stop": 291,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample7"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample8": {
+  "counts": {
+   "finish_length": 11,
+   "finish_stop": 289,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample8"
+  ]
+ },
+ "mistralai__Mistral-7B-Instruct-v0.3/sample9": {
+  "counts": {
+   "finish_length": 15,
+   "finish_stop": 285,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "revision": [
+   "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  ],
+  "run": [
+   "sample9"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/bi_greedy": {
+  "counts": {
+   "finish_length": 26,
+   "finish_stop": 274,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "bi_greedy"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/bi_greedy_shuffled": {
+  "counts": {
+   "finish_length": 26,
+   "finish_stop": 274,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "bi_greedy_shuffled"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/greedy": {
+  "counts": {
+   "finish_length": 27,
+   "finish_stop": 273,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "greedy"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/greedy_repeat": {
+  "counts": {
+   "finish_length": 24,
+   "finish_stop": 276,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "greedy_repeat"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/greedy_shuffled": {
+  "counts": {
+   "finish_length": 26,
+   "finish_stop": 274,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "greedy_shuffled"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample0": {
+  "counts": {
+   "finish_length": 14,
+   "finish_stop": 286,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample0"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample1": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample1"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample2": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample2"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample3": {
+  "counts": {
+   "finish_length": 17,
+   "finish_stop": 283,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample3"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample4": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample4"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample5": {
+  "counts": {
+   "finish_length": 8,
+   "finish_stop": 292,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample5"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample6": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample6"
+  ]
+ },
+ "mistralai__Mistral-Small-24B-Instruct-2501/sample7": {
+  "counts": {
+   "finish_length": 12,
+   "finish_stop": 288,
+   "lines": 300
+  },
+  "model": [
+   "mistralai/Mistral-Small-24B-Instruct-2501"
+  ],
+  "revision": [
+   "9527884be6e5616bdd54de542f9ae13384489724"
+  ],
+  "run": [
+   "sample7"
+  ]
+ }
+}

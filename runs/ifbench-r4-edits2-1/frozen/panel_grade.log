@@ -1,0 +1,79 @@
+1/228 files, 344 rows, 8s
+11/228 files, 3784 rows, 12s
+21/228 files, 7224 rows, 17s
+31/228 files, 10664 rows, 22s
+41/228 files, 14104 rows, 28s
+51/228 files, 17544 rows, 33s
+61/228 files, 20984 rows, 41s
+71/228 files, 24424 rows, 49s
+81/228 files, 27864 rows, 58s
+91/228 files, 31304 rows, 66s
+101/228 files, 34744 rows, 76s
+111/228 files, 38184 rows, 83s
+121/228 files, 41624 rows, 91s
+131/228 files, 45064 rows, 97s
+141/228 files, 48504 rows, 105s
+151/228 files, 51944 rows, 114s
+161/228 files, 55384 rows, 123s
+171/228 files, 58824 rows, 132s
+181/228 files, 62264 rows, 140s
+191/228 files, 65704 rows, 151s
+201/228 files, 69144 rows, 161s
+211/228 files, 72584 rows, 167s
+221/228 files, 76024 rows, 176s
+done: 228 files, 78432 rows, 181s -> <W>\audit\frozen\panel_verdicts.tsv.gz
+done graderreadings: 17s -> <W>\audit\frozen\panel_rep_graderreadings.tsv.gz
+# Panel tables (all 228 files)
+
+Verdict rows (response x instruction): 78432
+
+## Scored coverage and grading failures
+
+| column | verdicts | pass | fail | exception | coverage |
+|---|---|---|---|---|---|
+| g_strict | 78432 | 21708 | 56724 | 0  | 100.000% |
+| g_loose | 78432 | 25374 | 53058 | 0  | 100.000% |
+| r_strict | 78432 | 21637 | 56795 | 0  | 100.000% |
+| r_loose | 78432 | 25273 | 53159 | 0  | 100.000% |
+| rep | 78432 | 20497 | 57935 | 0  | 100.000% |
+| rep_gr | 78432 | 21496 | 56936 | 0  | 100.000% |
+... written audit/frozen/panel_tables.md
+# Panel tables (held-out files only)
+
+Verdict rows (response x instruction): 5504
+
+## Scored coverage and grading failures
+
+| column | verdicts | pass | fail | exception | coverage |
+|---|---|---|---|---|---|
+| g_strict | 5504 | 1608 | 3896 | 0  | 100.000% |
+| g_loose | 5504 | 1865 | 3639 | 0  | 100.000% |
+| r_strict | 5504 | 1604 | 3900 | 0  | 100.000% |
+| r_loose | 5504 | 1856 | 3648 | 0  | 100.000% |
+| rep | 5504 | 1546 | 3958 | 0  | 100.000% |
+| rep_gr | 5504 | 1592 | 3912 | 0  | 100.000% |
+... written audit/frozen/panel_tables_heldout.md
+F-03 1589 {'to_fail': 188, 'agrees_with_replacement': 188} ['Qwen__Qwen2.5-14B-Instruct/bi_greedy/key9', 'Qwen__Qwen2.5-14B-Instruct/bi_greedy_shuffled/key9']
+F-05 1824 {'to_pass': 1, 'agrees_with_replacement': 5, 'to_fail': 4} ['allenai__OLMo-2-1124-7B-Instruct/sample5/key17', 'marin-community__marin-8b-instruct/sample6/key17']
+F-07 2040 {'to_fail': 8, 'agrees_with_replacement': 8} ['Qwen__Qwen2.5-14B-Instruct/sample11/key56', 'Qwen__Qwen2.5-14B-Instruct/sample2/key52']
+F-08 1137 {'to_fail': 9, 'agrees_with_replacement': 2, 'disagrees_with_replacement': 7} ['Qwen__Qwen2.5-14B-Instruct/sample3/key51', 'Qwen__Qwen2.5-7B-Instruct/bi_greedy/key49']
+F-11 228 {} []
+F-12 228 {} []
+F-15 228 {'to_pass': 23, 'agrees_with_replacement': 23} ['marin-community__marin-8b-instruct/sample8/key282', 'microsoft__phi-4/sample1/key282']
+F-16 2049 {'to_pass': 27, 'agrees_with_replacement': 27} ['Qwen__Qwen2.5-14B-Instruct/sample4/key65', 'Qwen__Qwen3-14B/bi_greedy/key65']
+F-17 2052 {'to_pass': 1, 'agrees_with_replacement': 1} ['Qwen__Qwen3-14B__thinking/greedy_shuffled/key75']
+F-19 1363 {'to_pass': 5, 'agrees_with_replacement': 5} ['Qwen__Qwen3-32B/sample5/key90', 'Qwen__Qwen3-8B/sample2/key90']
+F-20 1140 {'to_pass': 139, 'agrees_with_replacement': 129, 'disagrees_with_replacement': 10} ['Qwen__Qwen2.5-32B-Instruct/bi_greedy/key95', 'Qwen__Qwen2.5-32B-Instruct/bi_greedy/key99']
+F-21 1368 {} []
+F-22 912 {'to_fail': 8, 'disagrees_with_replacement': 4, 'agrees_with_replacement': 4} ['allenai__OLMo-2-0325-32B-Instruct/greedy/key295', 'allenai__OLMo-2-0325-32B-Instruct/greedy_repeat/key295']
+F-28 912 {'to_pass': 8, 'agrees_with_replacement': 8} ['Qwen__Qwen2.5-32B-Instruct/sample7/key290', 'Qwen__Qwen2.5-7B-Instruct/sample10/key290']
+F-29 2963 {'to_fail': 8, 'agrees_with_replacement': 8} ['Qwen__Qwen2.5-32B-Instruct/greedy/key159', 'Qwen__Qwen2.5-32B-Instruct/greedy_repeat/key159']
+F-31 684 {} []
+F-32 910 {} []
+F-33 1130 {'to_fail': 114, 'agrees_with_replacement': 119, 'to_pass': 6, 'disagrees_with_replacement': 1} ['Qwen__Qwen2.5-14B-Instruct/greedy/key178', 'Qwen__Qwen2.5-14B-Instruct/greedy/key182']
+F-34 19322 {'to_fail': 3, 'agrees_with_replacement': 3, 'to_pass': 1, 'disagrees_with_replacement': 1} ['Qwen__Qwen2.5-14B-Instruct/sample4/key52', 'Qwen__Qwen2.5-7B-Instruct/sample6/key52']
+F-35 9767 {} []
+F-36 2508 {'to_pass': 64, 'agrees_with_replacement': 64} ['Qwen__Qwen2.5-14B-Instruct/bi_greedy/key219', 'Qwen__Qwen2.5-14B-Instruct/bi_greedy_shuffled/key219']
+F-39 15250 {'to_pass': 2, 'agrees_with_replacement': 2} ['Qwen__Qwen3-14B/sample9/key151', 'Qwen__Qwen3-8B/sample1/key151']
+F-13 {'responses': 228, 'mention_kyiv': 58, 'grader_passes': 0, 'replacement_passes': 23}
+F-41 {'verdicts': 157, 'grader_passes': 45} F-42 {'loose_only_passes': 3666, 'of_which_contract_fails': 2588}
