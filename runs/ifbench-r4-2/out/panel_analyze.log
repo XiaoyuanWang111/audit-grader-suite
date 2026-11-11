@@ -1,0 +1,122 @@
+== stored records
+total {'responses': 68400, 'finish_length': 4165, 'think_open': 1800, 'think_unclosed': 136, 'length_after_think_close': 52, 'empty_response': 37, 'trailing_ws': 448, 'resp_has_think_tag': 136}
+  allenai__Llama-3.1-Tulu-3-8B                  length=  275 unclosed_think=   0 trailing_ws=  73 empty=0
+  allenai__OLMo-2-0325-32B-Instruct             length=   78 unclosed_think=   0 trailing_ws=  24 empty=0
+  allenai__OLMo-2-1124-13B-Instruct             length=  146 unclosed_think=   0 trailing_ws=  54 empty=0
+  allenai__OLMo-2-1124-7B-Instruct              length=  212 unclosed_think=   0 trailing_ws=  59 empty=0
+  marin-community__marin-8b-instruct            length=  444 unclosed_think=   0 trailing_ws=  30 empty=4
+  microsoft__phi-4                              length=  202 unclosed_think=   0 trailing_ws=  20 empty=0
+  mistralai__Mistral-7B-Instruct-v0.3           length=  253 unclosed_think=   0 trailing_ws=  14 empty=0
+  mistralai__Mistral-Small-24B-Instruct-2501    length=  233 unclosed_think=   0 trailing_ws=  19 empty=0
+  Qwen__Qwen2.5-14B-Instruct                    length=  163 unclosed_think=   0 trailing_ws=  20 empty=0
+  Qwen__Qwen2.5-32B-Instruct                    length=  113 unclosed_think=   0 trailing_ws=   1 empty=0
+  Qwen__Qwen2.5-7B-Instruct                     length=  214 unclosed_think=   0 trailing_ws=  10 empty=0
+  Qwen__Qwen3-14B                               length=  522 unclosed_think=   0 trailing_ws=  55 empty=28
+  Qwen__Qwen3-14B__thinking                     length=   53 unclosed_think=  32 trailing_ws=   3 empty=0
+  Qwen__Qwen3-32B                               length=  427 unclosed_think=   0 trailing_ws=  27 empty=0
+  Qwen__Qwen3-8B                                length=  695 unclosed_think=   0 trailing_ws=  36 empty=5
+  Qwen__Qwen3-8B__thinking                      length=  135 unclosed_think= 104 trailing_ws=   3 empty=0
+== scored coverage (instances with a verdict / expected instances)
+  g_strict: 78432/78432
+  g_loose: 78432/78432
+  r_strict: 78432/78432
+  r_loose: 78432/78432
+  x_fix: 78432/78432
+  x_prop: 78432/78432
+== thinking configs: instances whose completion never closes </think>: 157 grader strict passes: 45 loose passes: 45
+== strict prompt-level accuracy, mean over runs (instruction-level in brackets)
+  config                                                 grader       reference        repl_FIX       repl_PROP      PROP+xfail         g_loose
+  Qwen__Qwen2.5-14B-Instruct                     34.08 [36.58]  34.14 [36.58]  32.37 [35.53]  29.94 [33.07]  29.94 [33.07]  37.84 [41.23]
+  Qwen__Qwen2.5-32B-Instruct                     35.18 [38.98]  35.18 [38.84]  34.28 [37.86]  32.51 [35.64]  32.51 [35.64]  38.28 [42.49]
+  Qwen__Qwen2.5-7B-Instruct                      27.41 [29.55]  27.51 [29.53]  26.67 [28.80]  24.39 [25.94]  24.39 [25.94]  30.39 [33.02]
+  Qwen__Qwen3-14B                                27.75 [30.98]  27.84 [30.97]  27.75 [30.73]  27.59 [30.23]  27.59 [30.23]  31.25 [35.28]
+  Qwen__Qwen3-14B__thinking                      34.33 [37.31]  34.67 [37.89]  38.11 [40.60]  36.78 [39.24]  36.11 [38.57]  39.33 [41.67]
+  Qwen__Qwen3-32B                                25.10 [28.47]  25.21 [28.38]  26.13 [29.49]  25.33 [28.42]  25.33 [28.42]  29.41 [33.18]
+  Qwen__Qwen3-8B                                 25.18 [28.27]  25.08 [27.96]  25.08 [28.47]  23.86 [26.76]  23.86 [26.76]  29.51 [33.09]
+  Qwen__Qwen3-8B__thinking                       32.44 [35.95]  32.44 [35.76]  34.44 [37.89]  31.78 [34.98]  29.22 [31.98]  36.33 [40.31]
+  allenai__Llama-3.1-Tulu-3-8B                   22.67 [25.55]  22.75 [25.43]  23.24 [26.30]  23.41 [26.13]  23.41 [26.13]  26.27 [29.58]
+  allenai__OLMo-2-0325-32B-Instruct              33.28 [36.69]  33.31 [36.47]  32.97 [36.34]  29.82 [32.33]  29.82 [32.33]  37.00 [40.27]
+  allenai__OLMo-2-1124-13B-Instruct              22.65 [24.30]  22.75 [24.18]  21.71 [23.43]  20.35 [21.97]  20.35 [21.97]  26.76 [29.55]
+  allenai__OLMo-2-1124-7B-Instruct               20.37 [23.14]  20.37 [22.98]  20.02 [22.55]  19.45 [21.34]  19.45 [21.34]  24.86 [28.13]
+  marin-community__marin-8b-instruct             17.39 [20.02]  17.41 [19.85]  17.22 [19.82]  17.47 [19.78]  17.47 [19.78]  21.55 [24.74]
+  microsoft__phi-4                               19.06 [21.24]  19.27 [21.36]  19.55 [21.79]  21.35 [23.46]  21.35 [23.46]  24.27 [27.43]
+  mistralai__Mistral-7B-Instruct-v0.3            17.63 [20.18]  17.63 [19.97]  16.94 [19.85]  17.59 [20.08]  17.59 [20.08]  20.80 [24.78]
+  mistralai__Mistral-Small-24B-Instruct-2501     21.82 [24.64]  22.26 [24.71]  23.59 [26.50]  23.23 [25.85]  23.23 [25.85]  27.92 [31.31]
+== score change vs grader (strict prompt-level, mean over runs) and rerun differences
+  config                                          ref-g   FIX-g  PROP-g  |g-rep|  |g-bi| sampleSD
+  Qwen__Qwen2.5-14B-Instruct                       0.06   -1.71   -4.14     1.00    0.67     1.86
+  Qwen__Qwen2.5-32B-Instruct                       0.00   -0.90   -2.67     1.33    1.00     2.03
+  Qwen__Qwen2.5-7B-Instruct                        0.10   -0.74   -3.02     0.33    0.33     1.34
+  Qwen__Qwen3-14B                                  0.09    0.00   -0.16     0.33    1.33     1.44
+  Qwen__Qwen3-14B__thinking                        0.34    3.78    2.45     1.00     nan      nan
+  Qwen__Qwen3-32B                                  0.11    1.03    0.23     0.67    0.33     2.10
+  Qwen__Qwen3-8B                                  -0.10   -0.10   -1.32     0.00    1.00     1.18
+  Qwen__Qwen3-8B__thinking                         0.00    2.00   -0.66     0.00     nan      nan
+  allenai__Llama-3.1-Tulu-3-8B                     0.08    0.57    0.74     0.33    1.33     1.26
+  allenai__OLMo-2-0325-32B-Instruct                0.03   -0.31   -3.46     0.00    1.33     1.69
+  allenai__OLMo-2-1124-13B-Instruct                0.10   -0.94   -2.30     0.00    1.00     1.36
+  allenai__OLMo-2-1124-7B-Instruct                 0.00   -0.35   -0.92     0.66    1.00     0.84
+  marin-community__marin-8b-instruct               0.02   -0.17    0.08     1.00    0.34     1.12
+  microsoft__phi-4                                 0.21    0.49    2.29     0.00    0.00     2.10
+  mistralai__Mistral-7B-Instruct-v0.3              0.00   -0.69   -0.04     0.34    0.34     1.08
+  mistralai__Mistral-Small-24B-Instruct-2501       0.44    1.77    1.41     0.34    1.33     1.27
+== verdict disagreements over all instances: {'n': 78432, 'g_vs_r': 257, 'g_vs_fix': 2581, 'g1_fix0': 1306, 'g0_fix1': 1275, 'g_vs_prop': 5503, 'fix_vs_prop': 3032, 'loose_only': 3666, 'loose_only_fix0': 2667}
+  check                                     n     g%     r%   fix%  prop%   g!=r  g!=fix   g1f0   g0f1 fix!=prop looseonly lo&fix0
+  format:sub-bullets                     2736   36.5   36.5   62.4   60.4      0    1121    207    914        79      1737     823
+  format:quotes                          1824   23.8   23.8   12.8   12.8      0     345    273     72         0        10       9
+  count:conjunctions                     1596   64.3   64.3   52.5   52.5      0     188    188      0         0         0       0
+  format:parentheses                     1824   29.7   29.7   22.3   22.3      0     144    139      5         0         0       0
+  format:no_bullets_bullets              1140   27.9   27.9   34.2   46.1      0     124     26     98       163        59      30
+  sentence:alliteration_increment        1140   19.0   19.0    9.6    8.8      0     120    114      6         9       106     104
+  format:thesis                          2052   33.1   33.1   28.9    8.9      0      88     87      1       410         0       0
+  format:quote_unquote                   1140   90.4   90.4   83.8   83.8      0      83     79      4         0        25      22
+  format:output_template                  912   97.6   97.6   88.9   88.9      0      79     79      0         0         0       0
+  format:list                            2052   64.9   64.9   62.5   41.8      0      49     49      0       425         0       0
+  words:last_first                       1140    7.0    7.0   10.1   10.1      0      35      0     35         0        12      10
+  words:paragraph_last_first             1368    7.8    7.8    9.9    9.9      0      29      0     29         0        50      43
+  custom:sentence_alphabet                228   21.1   31.1   31.1   31.6     23      23      0     23         1        22       3
+  words:start_verb                       1368   39.5   39.5   41.2   41.2      0      22      0     22         0        79      59
+  custom:mcq_count_length                 228   25.0   25.0   34.6   37.7      0      22      0     22         7         9       9
+  ratio:sentence_type                    1368    4.4    4.4    3.7    4.0      0      19     14      5         8        69      69
+  format:title_case                       912   50.7   50.7   52.6   52.6      0      18      0     18         0         6       5
+  count:unique_word_count                2052   79.6   79.6   78.9   78.9      0      13     13      0         0         0       0
+  count:words_japanese                   1140   17.7   17.7   16.9   16.9      0       9      9      0         0        22      22
+  ratio:sentence_balance                 1596    3.5    3.5    3.0    5.8      0       8      8      0        45        78      78
+  words:consonants                       3420    6.0    6.0    6.2    6.2      0       7      0      7         0         4       4
+  custom:reverse_newline                  228    3.9    3.9    1.3    1.3      0       6      6      0         0         0       0
+  words:words_position                    684    0.3    1.0    1.0    1.0      5       5      0      5         0         1       1
+  format:newline                         1368   34.1   34.1   34.5   34.5      0       5      0      5         0        94      94
+  custom:character_reverse                228    2.2    2.2    0.0    0.0      0       5      5      0         0         0       0
+  custom:word_reverse                     228    7.0    7.0    4.8    4.8      0       5      5      0         0         0       0
+  count:numbers                          1824   38.0   38.0   37.9   37.9      0       4      3      1         1       138     138
+  format:line_indent                     2052   12.1   12.1   12.2   12.2      0       2      0      2         0       233     232
+  count:keywords_multiple                1140    0.3    0.2    0.2    0.2      1       1      1      0         0         1       1
+  ratio:sentence_words                   1596    0.1    0.1    0.1    0.1      1       1      1      0         0         0       0
+  words:palindrome                       1596   30.3   30.3   30.4   10.3      0       1      0      1       321         0       0
+  words:keywords_specific_position        912    0.0    0.0    0.0    0.0      0       0      0      0         0         0       0
+  count:person_names                     1368   87.2   87.2   87.2   87.2      0       0      0      0         0         0       0
+  count:pronouns                         1824   82.0   82.0   82.0   82.0      0       0      0      0         0         0       0
+  count:punctuation                      1368   19.5   19.5   19.5    0.0      0       0      0      0       267         0       0
+  count:word_count_range                 2508   21.7   21.7   21.7   22.6      0       0      0      0       142       156     156
+  repeat:repeat_change                    684    6.1    6.1    6.1    6.1      0       0      0      0         0        10      10
+  repeat:repeat_simple                    456    7.0    7.0    7.0    7.0      0       0      0      0         0         0       0
+  format:emoji                           2052   34.4   34.4   34.4   34.3      0       0      0      0         2       104     104
+  sentence:keyword                       3420   25.6   25.6   25.6   23.9      0       0      0      0       140        84      84
+  words:no_consecutive                   1824    4.2    4.2    4.2    4.2      0       0      0      0         0        40      40
+  format:options                         1368   60.0   60.0   60.0   94.2      0       0      0      0       468        43      43
+  ratio:stop_words                       2736   47.8   47.8   47.8   47.6      0       0      0      0        24       164     164
+  ratio:overlap                          2736    5.9    2.4    5.9    1.5    227       0      0      0       204        38      38
+  sentence:increment                     1824    3.1    3.1    3.1    1.2      0       0      0      0        35        74      74
+  words:alphabet                         1368   10.4   10.4   10.4   10.4      0       0      0      0         0        17      17
+  words:odd_even_syllables               2052    0.8    0.8    0.8    0.8      0       0      0      0         0         3       3
+  words:prime_lengths                    1140    4.6    4.6    4.6    4.6      0       0      0      0         0         0       0
+  words:repeats                          1140   17.5   17.5   17.5   17.5      0       0      0      0         0        16      16
+  words:vowel                            2280    4.1    4.1    4.1    1.3      0       0      0      0        63        27      27
+  custom:csv_city                         228   50.4   50.4   50.4   90.4      0       0      0      0        91         0       0
+  custom:csv_quotes                       228    6.6    6.6    6.6   25.4      0       0      0      0        43         0       0
+  custom:csv_special_character            228    7.5    7.5    7.5   16.2      0       0      0      0        46        13      13
+  custom:date_format_list                 228   68.9   68.9   68.9   68.9      0       0      0      0         0         0       0
+  custom:european_capitals_sort           228    0.0    0.0    0.0   10.1      0       0      0      0        23         0       0
+  custom:multiples                        228    0.4    0.4    0.4    0.4      0       0      0      0         0       122     122
+  repeat:repeat_span                      912    0.0    0.0    0.0    0.0      0       0      0      0         0         0       0
+  format:no_whitespace                    912   51.9   51.9   51.9   53.5      0       0      0      0        15         0       0

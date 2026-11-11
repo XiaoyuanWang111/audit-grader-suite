@@ -1,0 +1,12 @@
+== metamorphic (greedy runs, edits the contract ignores): verdict flips
+curly_apostrophe grader       flips=29 format:quotes(16), format:options(7), format:title_case(6)
+curly_apostrophe replacement  flips=0 
+double_space     grader       flips=15 repeat:repeat_change(7), ratio:overlap(4), custom:mcq_count_length(4)
+double_space     replacement  flips=0 
+trailing_newline grader       flips=130 format:options(58), format:no_whitespace(37), format:no_bullets_bullets(28), repeat:repeat_change(7)
+trailing_newline replacement  flips=0 
+== mutation fuzz: 14400 mutated greedy responses (seed 10061)
+grader        exceptions=0 
+grader_loose  exceptions=0 
+reference     exceptions=0 
+replacement   exceptions=0 

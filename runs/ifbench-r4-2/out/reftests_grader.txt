@@ -1,0 +1,60 @@
+        instruction = instructions.RepeatSpanChecker(instruction_id)
+        instruction.build_description(
+            prompt_to_repeat="The walls are solid but the stones are cracked and cold.",
+            n_start=0, n_end=7)
+>       self.assertTrue(instruction.check_following("The walls are solid but the stones are"))
+E       AssertionError: False is not true
+
+instructions_test.py:1199: AssertionError
+____ InstructionsTest.test_sentence_alphabet__ignores_leading_punctuation _____
+
+self = <instructions_test.InstructionsTest testMethod=test_sentence_alphabet__ignores_leading_punctuation>
+
+    def test_sentence_alphabet__ignores_leading_punctuation(self):
+        """Test that SentenceAlphabetChecker ignores a leading quote or markdown on the first word."""
+        instruction_id = 'custom:sentence_alphabet'
+        instruction = instructions.SentenceAlphabetChecker(instruction_id)
+        instruction.build_description()
+        words = ["Apple", "Bears", "Cats", "Dogs", "Eagles", "Foxes", "Goats", "Hawks", "Ibex",
+                 "Jays", "Kites", "Lions", "Moose", "Newts", "Owls", "Pigs", "Quail", "Rats",
+                 "Seals", "Toads", "Urial", "Voles", "Wolves", "Xerus", "Yaks", "Zebras"]
+        sentences = [f"{word} appear here now." for word in words]
+        self.assertTrue(instruction.check_following(" ".join(sentences)))
+>       self.assertTrue(instruction.check_following('"' + sentences[0] + " " + " ".join(sentences[1:])))
+E       AssertionError: False is not true
+
+instructions_test.py:1238: AssertionError
+_________ InstructionsTest.test_sentence_words__requires_unique_words _________
+
+self = <instructions_test.InstructionsTest testMethod=test_sentence_words__requires_unique_words>
+
+    def test_sentence_words__requires_unique_words(self):
+        """Test that CharacterCountUniqueWordsChecker enforces the all-different-words requirement."""
+        instruction_id = 'ratio:sentence_words'
+        instruction = instructions.CharacterCountUniqueWordsChecker(instruction_id)
+        instruction.build_description()
+>       self.assertFalse(instruction.check_following("The cat sat here. The cat sat here. The cat sat here."))
+E       AssertionError: True is not false
+
+instructions_test.py:1255: AssertionError
+______ InstructionsTest.test_words_position__ignores_punctuation_tokens _______
+
+self = <instructions_test.InstructionsTest testMethod=test_words_position__ignores_punctuation_tokens>
+
+    def test_words_position__ignores_punctuation_tokens(self):
+        """Test that WordsPositionChecker computes positions on words, ignoring punctuation tokens."""
+        instruction_id = 'words:words_position'
+        instruction = instructions.WordsPositionChecker(instruction_id)
+        instruction.build_description(keyword="vibrant")
+        self.assertTrue(instruction.check_following("The vibrant sun set over a calm vibrant sea"))
+>       self.assertTrue(instruction.check_following('"The vibrant sun set over a calm vibrant sea!"'))
+E       AssertionError: False is not true
+
+instructions_test.py:1247: AssertionError
+=========================== short test summary info ===========================
+SUBFAILED[test with TEST_KEYWORDS_MULTIPLE_MESSAGE_1] instructions_test.py::InstructionsTest::test_keywords_multiple__counts_whole_words
+FAILED instructions_test.py::InstructionsTest::test_repeat_span__uses_word_indices
+FAILED instructions_test.py::InstructionsTest::test_sentence_alphabet__ignores_leading_punctuation
+FAILED instructions_test.py::InstructionsTest::test_sentence_words__requires_unique_words
+FAILED instructions_test.py::InstructionsTest::test_words_position__ignores_punctuation_tokens
+5 failed, 61 passed, 6 deselected, 142 subtests passed in 4.05s

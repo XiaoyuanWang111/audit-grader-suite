@@ -1,0 +1,17 @@
+Qwen__Qwen2.5-32B-Instruct	3900	14.2s
+Qwen__Qwen2.5-7B-Instruct	5100	18.4s
+Qwen__Qwen3-14B__thinking	900	6.2s
+Qwen__Qwen2.5-14B-Instruct	5100	20.5s
+Qwen__Qwen3-8B__thinking	900	9.4s
+Qwen__Qwen3-14B	5100	30.7s
+allenai__OLMo-2-0325-32B-Instruct	3900	17.1s
+Qwen__Qwen3-32B	3900	30.3s
+Qwen__Qwen3-8B	5100	37.2s
+allenai__Llama-3.1-Tulu-3-8B	5100	36.5s
+allenai__OLMo-2-1124-13B-Instruct	5100	40.6s
+allenai__OLMo-2-1124-7B-Instruct	5100	41.6s
+marin-community__marin-8b-instruct	5100	41.3s
+microsoft__phi-4	5100	55.2s
+mistralai__Mistral-7B-Instruct-v0.3	5100	36.1s
+mistralai__Mistral-Small-24B-Instruct-2501	3900	34.7s
+DONE

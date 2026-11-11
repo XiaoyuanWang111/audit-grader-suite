@@ -1,0 +1,233 @@
+id	label	grader	reference	repl_fix	repl_proposed	dec	finding	note
+count:conjunctions:9c878858	True	True	True	True	True			and, but, so
+count:conjunctions:d372c709	False	False	False	False	False			only and
+count:conjunctions:fb8f23a5	False	True	True	False	False		F-conj-case	2 distinct conjunctions (and, but); case and punctuation variants are the same word
+count:conjunctions:4e97dd36	True	True	True	True	True	D-conj-role		or + for; 'for example' is a preposition use, counted under D-conj-role A
+count:keywords_multiple:bf2be49d	True	True	True	True	True			exact counts 1,2,3,5,7
+count:keywords_multiple:91e59cd6	False	False	False	False	False			river six times
+count:keywords_multiple:e4a90a39	True	False	True	True	True		F-kw-substring	'indoors' and 'doorway' are other words, not the keyword door
+count:keywords_multiple:4b402522	True	False	True	True	True	D-keyword-match		'doors' is an inflection; counts only under D-keyword-match B
+count:numbers:f10dde68	True	True	True	True	True			
+count:numbers:286e58ad	False	False	False	False	False			
+count:numbers:769c4c75	True	False	False	True	True		F-numbers-merge	a range 3-5 is two numbers under every reading
+count:numbers:7ab4b231	True	False	False	True	True		F-numbers-merge	list 1,2,3 is three numbers
+count:numbers:ce26fb0c	True	True	True	True	True	D-number		number words count only under D-number B
+count:person_names:ec6a7fe8	True	True	True	True	True			
+count:person_names:790b9701	False	False	False	False	False			
+count:person_names:12bbf8f8	False	False	False	False	False			one distinct name
+count:person_names:e6d95dac	False	False	False	False	False	D-name-case		
+count:pronouns:4789aa42	True	True	True	True	True			I, her, she, they, me
+count:pronouns:df489c3c	False	False	False	False	False			
+count:pronouns:8934b742	False	True	True	True	True	D-pronoun-set		only 'all' stands for a noun; this/those/each are determiners, that a conjunction (count under C)
+count:punctuation:411715f1	True	True	True	True	True			all 15 marks plus ?!
+count:punctuation:1f21ac43	False	False	False	False	False			
+count:punctuation:afe819ad	False	True	True	True	False	D-punct-set		no apostrophe, quotes, hyphen, dash, brackets, ellipsis; passes only under D-punct-set C
+count:unique_word_count:8c3420f2	True	True	True	True	True			
+count:unique_word_count:68ce9290	False	False	False	False	False			
+count:unique_word_count:ab14b0e9	False	True	True	False	False		F-word-symbols	2 distinct words; curly quotes are not part of a word
+count:unique_word_count:745e6c9c	False	True	True	False	False		F-word-symbols	3 words; an em dash is not a word
+count:unique_word_count:01bf49f1	True	True	True	True	True	D-unique		5 distinct types; 4 hapaxes
+count:word_count_range:05ab8f34	True	True	True	True	True			
+count:word_count_range:888be0e0	False	False	False	False	False			
+count:word_count_range:6b9e98d0	True	True	True	True	True			boundary 7
+count:word_count_range:9d3e9324	False	False	False	False	False			8
+count:word_count_range:ac5b7463	False	True	True	True	False	D-word		4 words under G4, 7 regex runs under D-word B
+count:words_japanese:d430baf8	True	True	True	True	True			
+count:words_japanese:ff266045	False	False	False	False	False			
+count:words_japanese:8da2143c	False	True	True	False	False		F-japanese-digits	word 3 is the numeral 2, not Japanese
+count:words_japanese:df3cbf25	True	True	True	True	True	D-vacuous		fewer than N words
+format:emoji:439cd572	True	True	True	True	True			
+format:emoji:b3aca531	False	False	False	False	False			
+format:emoji:9722e32a	False	True	True	True	False	D-sentence		the line 'Heading' is a sentence without an emoji under D-sentence A
+format:line_indent:2e906c10	True	True	True	True	True			
+format:line_indent:8cb439c6	False	False	False	False	False			
+format:line_indent:5213f6b9	True	False	False	True	True		F-indent-tabs	tab indentation is indentation
+format:line_indent:0009a4a9	True	False	False	True	True	D-stairs-blank		two blank lines in a row
+format:list:12be892b	True	True	True	True	True			
+format:list:1c118d25	False	False	False	False	False			
+format:list:90f8f100	False	True	True	False	False		F-list-anywhere	no list at all; two hyphens inside words
+format:list:e6d2440b	False	True	True	True	False		F-list-anywhere	no list items; the marker never starts a line
+format:list:84a785f5	False	False	False	False	False	D-plural		one item
+format:list:c2761702	False	True	True	True	False	D-list-placement		the marker separates items inside one line
+format:newline:e2ec8466	True	True	True	True	True			
+format:newline:4732606d	False	False	False	False	False			
+format:newline:98ea1892	False	True	True	False	False		F-newline-blank	two words share line 1; the whitespace-only line holds no word
+format:no_bullets_bullets:818c8393	True	True	True	True	True			
+format:no_bullets_bullets:184c70af	False	False	False	False	False			
+format:no_bullets_bullets:bc1d39c3	False	True	True	False	False		F-nbb-period	no sentence ends in a period
+format:no_bullets_bullets:8a6f0dc6	False	True	True	True	False	D-bullet-syntax		no space after the bullet marker
+format:no_bullets_bullets:409944b6	True	False	False	True	True		F-nbb-bold	a bold heading is not a bullet
+format:no_bullets_bullets:a820b2b3	False	True	True	False	False		F-nbb-period	outline numerals are not sentences ending in a period
+format:no_bullets_bullets:efebab63	True	False	False	True	True		F-nbb-blank	blank lines between bullets are not text
+format:no_bullets_bullets:31e6bc5f	True	False	False	True	True		F-nbb-blank	trailing newline
+format:no_bullets_bullets:2d161ca4	True	False	False	False	True	D-nbb-order		text after the bullets
+format:no_whitespace:4f04a125	True	True	True	True	True			
+format:no_whitespace:14ffcca8	False	False	False	False	False			
+format:no_whitespace:e1335b1e	True	False	False	False	True	D-trim		trailing newline only
+format:no_whitespace:5c7eec93	False	False	False	False	False	D-whitespace		no-break space
+format:options:c68fcb72	True	True	True	True	True			
+format:options:c76097d6	False	False	False	False	False			
+format:options:5b0597f3	True	False	False	False	True	D-options		
+format:options:bd7bd578	True	False	False	False	True	D-trim		trailing newline
+format:options:9dd5e6e6	True	False	False	True	True		F-options-apostrophe	typographic apostrophe; the same option
+format:options:92e6334e	True	True	True	True	True			
+format:options:781c381b	True	False	False	False	True	D-options		letter case
+format:options:997a5787	True	False	False	False	True	D-options		bare letter
+format:output_template:19ff3c43	True	True	True	True	True			
+format:output_template:5595471b	False	False	False	False	False			
+format:output_template:e80c73b8	False	True	True	False	False		F-template-presence	labels out of order
+format:output_template:9b7e96d4	False	True	True	False	False		F-template-presence	text before the template
+format:output_template:c70ec147	False	True	True	False	False		F-template-presence	placeholders not filled
+format:output_template:e087274e	True	True	True	True	True	D-template-markup		
+format:parentheses:3b81c941	True	True	True	True	True			
+format:parentheses:f78ac014	False	False	False	False	False			
+format:parentheses:01e07b33	False	True	True	False	False		F-paren-unclosed	four openers never close
+format:parentheses:3372396c	True	True	True	True	True	D-paren-types		
+format:quote_unquote:52804383	True	True	True	True	True			
+format:quote_unquote:00b7b406	False	False	False	False	False			
+format:quote_unquote:33f1ee47	False	True	True	False	False		F-quote-unquote	'alpha' is followed only by a comma
+format:quote_unquote:ba581987	False	True	True	False	False		F-quote-unquote	curly quotes; no explanation at all
+format:quote_unquote:934349a0	True	True	True	True	True	D-explanation		
+format:quotes:413ef82b	True	True	True	True	True			
+format:quotes:3d22904c	False	False	False	False	False			
+format:quotes:7cf9bcaf	False	True	True	False	False		F-quotes-apostrophe	no nesting; the apostrophes are not quote marks
+format:quotes:9c4f075a	True	False	False	True	True		F-quotes-apostrophe	curly quotes, three levels
+format:sub-bullets:dfd8fc0b	True	True	True	True	True			
+format:sub-bullets:2663b7f4	False	False	False	False	False			
+format:sub-bullets:ec22004d	False	True	True	False	False		F-subbullets	no bullet points at all
+format:sub-bullets:0c74076c	False	True	True	False	False		F-subbullets	hyphens inside words are not sub-bullets
+format:sub-bullets:e7495b86	True	False	False	True	True		F-subbullets	bold text is not a bullet
+format:sub-bullets:1bdb9696	True	True	True	True	True	D-subbullet-indent		
+format:sub-bullets:268841ea	False	True	True	True	False	D-plural		one bullet
+format:thesis:c1ddced7	True	True	True	True	True			
+format:thesis:c43b0631	False	False	False	False	False			
+format:thesis:3b314388	True	True	True	True	True			HTML paragraph wrapper
+format:thesis:89ea3cce	False	True	True	False	False		F-thesis-anywhere	the only italics are mid-paragraph; no section begins with them
+format:thesis:f9618240	False	True	True	True	False	D-section		
+format:title_case:788a2ce9	True	True	True	True	True			
+format:title_case:e7e03668	False	False	False	False	False			
+format:title_case:9063eb4c	True	False	False	True	True		F-titlecase-minor	minor words may be lowercase
+format:title_case:56e39eb0	True	False	False	True	True		F-titlecase-minor	contraction
+format:title_case:251571d1	True	True	True	True	True	D-titlecase		
+ratio:overlap:d373b349	True	True	True	True	True			
+ratio:overlap:0b4c707c	False	False	False	False	False			
+ratio:overlap:e50d301f	True	False	True	False	True	D-overlap-def		2 of 7 word trigrams = 28.6%
+ratio:sentence_balance:6e4db9fe	True	True	True	True	True			
+ratio:sentence_balance:124edcb9	False	False	False	False	False			
+ratio:sentence_balance:cf43cd91	False	True	True	False	False		F-ratio-zero	two statements, no question, no exclamation
+ratio:sentence_balance:11908b56	True	False	False	False	True	D-balance		
+ratio:sentence_type:ad27d40b	True	True	True	True	True			
+ratio:sentence_type:9a52f43b	False	False	False	False	False			
+ratio:sentence_type:47e0156f	False	True	True	False	False		F-ratio-zero	0 declarative, 0 interrogative
+ratio:sentence_type:23f613f7	True	False	False	True	True		F-sentence-marks	two declaratives end in a period inside closing quotes
+ratio:sentence_words:b11b44f3	True	True	True	True	True			
+ratio:sentence_words:b3ab3642	False	False	False	False	False			
+ratio:sentence_words:5044f134	False	True	False	False	False		F-sw-words	same words in every sentence
+ratio:sentence_words:ce578480	False	True	False	False	False	D-sw-words		'run' twice inside sentence 1, no word shared between sentences
+ratio:stop_words:09389612	True	True	True	True	True			
+ratio:stop_words:9c737ac3	False	False	False	False	False			
+repeat:repeat_change:5d6c081a	True	True	True	True	True			
+repeat:repeat_change:775c9d0a	False	False	False	False	False			
+repeat:repeat_change:aacd3c2c	False	True	True	False	False		F-repeat-change	first word unchanged; only a trailing space differs
+repeat:repeat_change:a4fc246e	False	True	True	False	False		F-repeat-change	first word unchanged; a double space
+repeat:repeat_change:0fa08b40	False	True	True	True	False	D-change-case		
+repeat:repeat_change:119fc3a8	False	False	False	False	False			text after the repeat
+repeat:repeat_simple:721d14f1	True	True	True	True	True			
+repeat:repeat_simple:af51827c	False	False	False	False	False			
+repeat:repeat_simple:85aa3774	False	True	True	True	False	D-simple-case		
+repeat:repeat_span:16643eb4	True	False	True	True	True		F-span-chars	words 3..6, 0-based
+repeat:repeat_span:62b5b521	False	True	False	False	False		F-span-chars	characters 3..6; not words
+repeat:repeat_span:8097e5e3	False	False	False	False	False	D-index-base		1-based words 3..6
+sentence:alliteration_increment:4ed77037	True	True	True	True	True			runs 1, 3, 4
+sentence:alliteration_increment:b73ba06e	False	False	False	False	False			
+sentence:alliteration_increment:db02ba92	False	True	True	False	False		F-alliteration-sum	longest runs 2 then 2
+sentence:increment:bc942bc0	True	True	True	True	True			2, 4, 6
+sentence:increment:8bb655d4	False	False	False	False	False			
+sentence:increment:eb642849	True	True	True	True	True	D-vacuous		
+sentence:increment:0c38c97a	True	False	False	True	True		F-word-symbols	2, 4 words; the dash is not a word
+sentence:keyword:6ae33eb1	True	True	True	True	True			
+sentence:keyword:78ee071b	False	False	False	False	False			
+sentence:keyword:bcda4752	False	False	False	False	False	D-keyword-match		
+words:alphabet:460bc6dc	True	True	True	True	True			
+words:alphabet:21586ae3	False	False	False	False	False			
+words:alphabet:4c877caf	True	True	True	True	True			Z loops to A
+words:consonants:e99c42cd	True	True	True	True	True			
+words:consonants:b69f1be8	False	False	False	False	False			
+words:consonants:7904d7e5	True	True	True	True	True	D-consonant-y		
+words:consonants:e9460db8	True	False	False	True	True		F-word-symbols	the dash is not a word
+words:keywords_specific_position:b61eb73d	True	True	True	True	True			
+words:keywords_specific_position:431b5844	False	False	False	False	False			
+words:keywords_specific_position:4d8978c8	False	True	True	True	False	D-word		word 3 is 'now' under G4; 'giggle' when don't splits in two
+words:last_first:10e609c0	True	True	True	True	True			
+words:last_first:ff505ae9	False	False	False	False	False			
+words:last_first:0898d832	True	True	True	True	True	D-vacuous		
+words:last_first:2a473278	True	False	False	True	True		F-lastfirst-punct	a one-word sentence keeps its period in the grader
+words:last_first:fd3b7028	True	True	True	True	True			closing curly quote after the last word
+words:no_consecutive:0cc31172	True	True	True	True	True			
+words:no_consecutive:4e6d057e	False	False	False	False	False			
+words:no_consecutive:7abe785c	False	False	False	False	False			b, b
+words:odd_even_syllables:613d74cb	True	True	True	True	True			1,2,1,2
+words:odd_even_syllables:bf6a76a9	False	False	False	False	False			1,1
+words:odd_even_syllables:82ff7429	True	False	False	True	True		F-syllables	duo has 2 syllables: 2,1,2,1
+words:odd_even_syllables:f3db27e7	False	True	True	False	False		F-syllables	trio has 2 syllables: 2,2
+words:odd_even_syllables:b18da036	True	False	False	True	True		F-syllables	it 1, isn't 2, hot 1
+words:palindrome:1afbb7b2	True	True	True	True	True			
+words:palindrome:b12d56e9	False	False	False	False	False			
+words:palindrome:098d5b94	False	True	True	True	False	D-palindrome		one palindrome ten times
+words:paragraph_last_first:c09297d4	True	True	True	True	True			
+words:paragraph_last_first:096fc12e	False	False	False	False	False			
+words:paragraph_last_first:521560db	True	False	False	True	True		F-para-punct	first word Time, last word time
+words:prime_lengths:78d99cfe	True	True	True	True	True			
+words:prime_lengths:bb54faff	False	False	False	False	False			
+words:prime_lengths:4cbf79a7	True	False	False	True	True		F-word-symbols	the dash is not a word
+words:repeats:49b38417	True	True	True	True	True			
+words:repeats:057c3b2a	False	False	False	False	False	D-repeats		
+words:repeats:569c4d44	True	False	False	True	True		F-word-symbols	the dash is not a word
+words:start_verb:5cb9c727	True	True	True	True	True			
+words:start_verb:85aa8340	False	False	False	False	False			
+words:start_verb:d764651e	True	False	False	True	True		F-start-verb-markup	first word after markup is the verb Imagine
+words:start_verb:736f53b6	True	False	False	True	True		F-start-verb-markup	heading marker before the verb
+words:start_verb:b4dfed1c	True	False	False	False	False		F-start-verb-tagger	imperative verb tagged IN
+words:start_verb:19a9602d	True	False	False	False	False		F-start-verb-tagger	imperative verb tagged NNP
+words:vowel:ec09a77c	True	True	True	True	True			a, i, o
+words:vowel:cb8fb6a8	False	False	False	False	False			
+words:vowel:59b54517	False	True	True	True	False	D-vowel		only a
+words:vowel:00a0aa93	False	False	False	False	False			two paragraphs/lines
+words:words_position:3cb11571	True	True	True	True	True			
+words:words_position:e23ea073	False	False	False	False	False			
+words:words_position:ca248e63	True	False	True	True	True		F-words-position	word 2 and the second-to-last word are 'despite'
+custom:character_reverse:84bc39d0	True	True	True	True	True			
+custom:character_reverse:092a42d9	False	False	False	False	False			
+custom:character_reverse:e7477945	False	True	True	False	False		F-reverse-substring	a forward sentence plus a partial reversal
+custom:word_reverse:616a1d8e	True	True	True	True	True			
+custom:word_reverse:985098b2	False	False	False	False	False			
+custom:word_reverse:cbe8ddff	False	True	True	False	False		F-reverse-substring	second sentence is in forward order
+custom:csv_city:3a86fe7a	True	True	True	True	True			
+custom:csv_city:5c068cbf	False	False	False	False	False			
+custom:csv_city:8ee73126	True	False	False	False	True	D-csv-wrap		
+custom:csv_quotes:2717f237	True	True	True	True	True			
+custom:csv_quotes:2d790ca1	False	False	False	False	False			
+custom:csv_quotes:02ad842f	False	EXC:IndexError: string index out of range	EXC:IndexError: string index out of range	False	False		F-exception	an empty unquoted field
+custom:csv_special_character:1b7041d7	True	True	True	True	True			
+custom:csv_special_character:2997afd6	False	False	False	False	False			
+custom:csv_special_character:8e4e9882	False	True	True	False	False		F-csv-special-rows	row 5 has 3 fields
+custom:csv_special_character:a26bf6d5	False	True	True	True	False	D-special		two special quoted fields
+custom:date_format_list:dc8b62a5	True	True	True	True	True			
+custom:date_format_list:cbd81332	False	False	False	False	False			
+custom:date_format_list:c648f919	False	True	True	False	False		F-date-zero	month 00 and day 00
+custom:european_capitals_sort:c87b7247	True	False	False	True	True		F-capitals-kyiv	complete list including Kyiv (50.45 N)
+custom:european_capitals_sort:08b4c3b4	False	False	False	False	False			alphabetical, not by latitude
+custom:european_capitals_sort:4e482a5e	True	True	True	False	True	D-custom-content		sorted, all above 45 N, Kyiv missing (complete only under B)
+custom:mcq_count_length:d78ef662	True	True	True	True	True			
+custom:mcq_count_length:245e83a2	False	False	False	False	False			three questions
+custom:mcq_count_length:86822fab	True	False	False	True	True		F-mcq-label	label 'Question' without a number
+custom:multiples:be53b104	True	True	True	True	True			
+custom:multiples:08ab896c	False	False	False	False	False			
+custom:reverse_newline:790bb207	True	True	True	True	True			
+custom:reverse_newline:fb7c4741	False	False	False	False	False			
+custom:reverse_newline:2707bd0a	False	True	True	False	False		F-africa-content	51 invented names after Zimbabwe
+custom:reverse_newline:fe647857	True	False	False	True	True		F-africa-content	numbered list, correct order
+custom:reverse_newline:84e3b32f	True	False	False	False	True	D-custom-content		incomplete but ordered
+custom:sentence_alphabet:ff655e40	True	True	True	True	True			
+custom:sentence_alphabet:7aab48b9	False	False	False	False	False			25 sentences
+custom:sentence_alphabet:f7f9545f	True	False	True	True	True		F-alphabet-quote	sentence 13 opens with a quotation mark

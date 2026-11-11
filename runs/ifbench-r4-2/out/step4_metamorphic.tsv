@@ -1,0 +1,11 @@
+edit	impl	iid	flips	instances_changed	example_folder	example_key
+curly_apostrophe	grader	format:quotes	16	74	allenai__Llama-3.1-Tulu-3-8B	119
+curly_apostrophe	grader	format:options	7	19	allenai__Llama-3.1-Tulu-3-8B	105
+curly_apostrophe	grader	format:title_case	6	33	allenai__Llama-3.1-Tulu-3-8B	288
+double_space	grader	repeat:repeat_change	7	46	allenai__OLMo-2-0325-32B-Instruct	62
+double_space	grader	ratio:overlap	4	192	allenai__Llama-3.1-Tulu-3-8B	214
+double_space	grader	custom:mcq_count_length	4	16	allenai__OLMo-2-1124-13B-Instruct	279
+trailing_newline	grader	format:options	58	96	allenai__Llama-3.1-Tulu-3-8B	100
+trailing_newline	grader	format:no_whitespace	37	64	allenai__Llama-3.1-Tulu-3-8B	296
+trailing_newline	grader	format:no_bullets_bullets	28	80	allenai__OLMo-2-0325-32B-Instruct	95
+trailing_newline	grader	repeat:repeat_change	7	48	allenai__OLMo-2-0325-32B-Instruct	62

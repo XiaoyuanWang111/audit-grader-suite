@@ -1,0 +1,3 @@
+impl	check	error	count	seed_fixture	example_response_json	error_text
+grader	custom:csv_quotes	IndexError	10	custom:csv_quotes:02ad842f	"\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"1\"\t\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Fall\"\t\"88\"\n\"3\"\t\"Spring\"\t\"9“1\""	IndexError: string index out of range
+reference	custom:csv_quotes	IndexError	10	custom:csv_quotes:02ad842f	"\"StudentID\"\t\"Subject\"\t\"Grade\"\t\"Semester\"\t\"Score\"\n\"1\"\t\t\"A\"\t\"Fall\"\t\"95\"\n\"2\"\t\"Art\"\t\"B\"\t\"Fall\"\t\"88\"\n\"3\"\t\"Spring\"\t\"9“1\""	IndexError: string index out of range

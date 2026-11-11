@@ -1,0 +1,60 @@
+        """Test that QuoteExplanationChecker handles strings that become empty after stripping digits/punctuation."""
+        instruction_id = 'format:quote_unquote'
+        instruction = instructions.QuoteExplanationChecker(instruction_id)
+        instruction.build_description()
+        self.assertTrue(instruction.check_following("123..."), "expected True for digits and punctuation only")
+>       self.assertTrue(instruction.check_following(""), "expected True for empty string")
+E       AssertionError: False is not true : expected True for empty string
+
+instructions_test.py:1164: AssertionError
+_ InstructionsTest.test_reverse_newline [test with TEST_NEWLINE_COUNTRIES_FALSE_INCOMPLETE] _
+
+self = <instructions_test.InstructionsTest testMethod=test_reverse_newline>
+
+    def test_reverse_newline(self):
+        instruction_id = 'custom:reverse_newline'
+        instruction = instructions.ReverseNewlineChecker(instruction_id)
+        instruction.build_description()
+        with self.subTest('test with TEST_NEWLINE_COUNTRIES'):
+            self.assertTrue(instruction.check_following(self.TEST_NEWLINE_COUNTRIES))
+        with self.subTest('test with TEST_NEWLINE_COUNTRIES_FALSE_INCOMPLETE'):
+>           self.assertFalse(instruction.check_following(self.TEST_NEWLINE_COUNTRIES_FALSE_INCOMPLETE))
+E           AssertionError: True is not false
+
+instructions_test.py:944: AssertionError
+_________ InstructionsTest.test_subbullet [test with TEST_SUBBULLET] __________
+
+self = <instructions_test.InstructionsTest testMethod=test_subbullet>
+
+    def test_subbullet(self):
+        instruction_id = 'format:sub-bullets'
+        instruction = instructions.SubBulletPointsChecker(instruction_id)
+        instruction.build_description()
+        with self.subTest('test with TEST_SUBBULLET'):
+>           self.assertTrue(instruction.check_following(self.TEST_SUBBULLET))
+E           AssertionError: False is not true
+
+instructions_test.py:566: AssertionError
+_______ InstructionsTest.test_three_vowels [test with TEST_THREE_VOWEL] _______
+
+self = <instructions_test.InstructionsTest testMethod=test_three_vowels>
+
+    def test_three_vowels(self):
+        instruction_id = 'words:vowel'
+        instruction = instructions.SingleVowelParagraphChecker(instruction_id)
+        instruction.build_description()
+        with self.subTest('test with TEST_THREE_VOWEL'):
+>           self.assertTrue(instruction.check_following(self.TEST_THREE_VOWEL))
+E           AssertionError: False is not true
+
+instructions_test.py:191: AssertionError
+=========================== short test summary info ===========================
+SUBFAILED[test with TEST_EUROPE_INCOMPLETE] instructions_test.py::InstructionsTest::test_europe_capitals
+SUBFAILED[test with TEST_OPTIONS] instructions_test.py::InstructionsTest::test_options
+SUBFAILED[test with TEST_PALINDROME2] instructions_test.py::InstructionsTest::test_palindrome
+SUBFAILED[test with TEST_PUNCTUATION2] instructions_test.py::InstructionsTest::test_punctuation
+FAILED instructions_test.py::InstructionsTest::test_quote_explanation__handles_empty_string_after_stripping
+SUBFAILED[test with TEST_NEWLINE_COUNTRIES_FALSE_INCOMPLETE] instructions_test.py::InstructionsTest::test_reverse_newline
+SUBFAILED[test with TEST_SUBBULLET] instructions_test.py::InstructionsTest::test_subbullet
+SUBFAILED[test with TEST_THREE_VOWEL] instructions_test.py::InstructionsTest::test_three_vowels
+8 failed, 64 passed, 6 deselected, 136 subtests passed in 4.12s

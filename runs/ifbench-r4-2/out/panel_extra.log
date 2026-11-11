@@ -1,0 +1,56 @@
+== rankings by strict prompt-level accuracy (mean over runs)
+  grader vs r_strict: Kendall tau 0.983, discordant pairs 1 of 120
+  grader vs x_fix: Kendall tau 0.850, discordant pairs 9 of 120
+  grader vs x_prop: Kendall tau 0.867, discordant pairs 8 of 120
+  grader vs x_prop_xf: Kendall tau 0.900, discordant pairs 6 of 120
+  rank grader                                        repl FIX                                      repl PROPOSED                                
+  1    Qwen__Qwen2.5-32B-Instruct 35.18              Qwen__Qwen3-14B__thinking 38.11               Qwen__Qwen3-14B__thinking 36.78              
+  2    Qwen__Qwen3-14B__thinking 34.33               Qwen__Qwen3-8B__thinking 34.44                Qwen__Qwen2.5-32B-Instruct 32.51             
+  3    Qwen__Qwen2.5-14B-Instruct 34.08              Qwen__Qwen2.5-32B-Instruct 34.28              Qwen__Qwen3-8B__thinking 31.78               
+  4    allenai__OLMo-2-0325-32B-Instruct 33.28       allenai__OLMo-2-0325-32B-Instruct 32.97       Qwen__Qwen2.5-14B-Instruct 29.94             
+  5    Qwen__Qwen3-8B__thinking 32.44                Qwen__Qwen2.5-14B-Instruct 32.37              allenai__OLMo-2-0325-32B-Instruct 29.82      
+  6    Qwen__Qwen3-14B 27.75                         Qwen__Qwen3-14B 27.75                         Qwen__Qwen3-14B 27.59                        
+  7    Qwen__Qwen2.5-7B-Instruct 27.41               Qwen__Qwen2.5-7B-Instruct 26.67               Qwen__Qwen3-32B 25.33                        
+  8    Qwen__Qwen3-8B 25.18                          Qwen__Qwen3-32B 26.13                         Qwen__Qwen2.5-7B-Instruct 24.39              
+  9    Qwen__Qwen3-32B 25.1                          Qwen__Qwen3-8B 25.08                          Qwen__Qwen3-8B 23.86                         
+  10   allenai__Llama-3.1-Tulu-3-8B 22.67            mistralai__Mistral-Small-24B-Instruct-2501 23.59 allenai__Llama-3.1-Tulu-3-8B 23.41           
+  11   allenai__OLMo-2-1124-13B-Instruct 22.65       allenai__Llama-3.1-Tulu-3-8B 23.24            mistralai__Mistral-Small-24B-Instruct-2501 23.23
+  12   mistralai__Mistral-Small-24B-Instruct-2501 21.82 allenai__OLMo-2-1124-13B-Instruct 21.71       microsoft__phi-4 21.35                       
+  13   allenai__OLMo-2-1124-7B-Instruct 20.37        allenai__OLMo-2-1124-7B-Instruct 20.02        allenai__OLMo-2-1124-13B-Instruct 20.35      
+  14   microsoft__phi-4 19.06                        microsoft__phi-4 19.55                        allenai__OLMo-2-1124-7B-Instruct 19.45       
+  15   mistralai__Mistral-7B-Instruct-v0.3 17.63     marin-community__marin-8b-instruct 17.22      mistralai__Mistral-7B-Instruct-v0.3 17.59    
+  16   marin-community__marin-8b-instruct 17.39      mistralai__Mistral-7B-Instruct-v0.3 16.94     marin-community__marin-8b-instruct 17.47     
+== trailing whitespace: 415 stored responses end in whitespace; grader verdict changes after rstrip:
+== per-check share of instances where grader and replacement FIX differ (finding-attributable)
+  count:conjunctions                     188/ 1596 =  11.8%  (grader pass->FIX fail 188, fail->pass 0)
+  count:keywords_multiple                  1/ 1140 =   0.1%  (grader pass->FIX fail 1, fail->pass 0)
+  count:numbers                            4/ 1824 =   0.2%  (grader pass->FIX fail 3, fail->pass 1)
+  count:unique_word_count                 13/ 2052 =   0.6%  (grader pass->FIX fail 13, fail->pass 0)
+  count:words_japanese                     9/ 1140 =   0.8%  (grader pass->FIX fail 9, fail->pass 0)
+  custom:character_reverse                 5/  228 =   2.2%  (grader pass->FIX fail 5, fail->pass 0)
+  custom:mcq_count_length                 22/  228 =   9.6%  (grader pass->FIX fail 0, fail->pass 22)
+  custom:reverse_newline                   6/  228 =   2.6%  (grader pass->FIX fail 6, fail->pass 0)
+  custom:sentence_alphabet                23/  228 =  10.1%  (grader pass->FIX fail 0, fail->pass 23)
+  custom:word_reverse                      5/  228 =   2.2%  (grader pass->FIX fail 5, fail->pass 0)
+  format:line_indent                       2/ 2052 =   0.1%  (grader pass->FIX fail 0, fail->pass 2)
+  format:list                             49/ 2052 =   2.4%  (grader pass->FIX fail 49, fail->pass 0)
+  format:newline                           5/ 1368 =   0.4%  (grader pass->FIX fail 0, fail->pass 5)
+  format:no_bullets_bullets              124/ 1140 =  10.9%  (grader pass->FIX fail 26, fail->pass 98)
+  format:output_template                  79/  912 =   8.7%  (grader pass->FIX fail 79, fail->pass 0)
+  format:parentheses                     144/ 1824 =   7.9%  (grader pass->FIX fail 139, fail->pass 5)
+  format:quote_unquote                    83/ 1140 =   7.3%  (grader pass->FIX fail 79, fail->pass 4)
+  format:quotes                          345/ 1824 =  18.9%  (grader pass->FIX fail 273, fail->pass 72)
+  format:sub-bullets                    1121/ 2736 =  41.0%  (grader pass->FIX fail 207, fail->pass 914)
+  format:thesis                           88/ 2052 =   4.3%  (grader pass->FIX fail 87, fail->pass 1)
+  format:title_case                       18/  912 =   2.0%  (grader pass->FIX fail 0, fail->pass 18)
+  ratio:sentence_balance                   8/ 1596 =   0.5%  (grader pass->FIX fail 8, fail->pass 0)
+  ratio:sentence_type                     19/ 1368 =   1.4%  (grader pass->FIX fail 14, fail->pass 5)
+  ratio:sentence_words                     1/ 1596 =   0.1%  (grader pass->FIX fail 1, fail->pass 0)
+  sentence:alliteration_increment        120/ 1140 =  10.5%  (grader pass->FIX fail 114, fail->pass 6)
+  words:consonants                         7/ 3420 =   0.2%  (grader pass->FIX fail 0, fail->pass 7)
+  words:last_first                        35/ 1140 =   3.1%  (grader pass->FIX fail 0, fail->pass 35)
+  words:palindrome                         1/ 1596 =   0.1%  (grader pass->FIX fail 0, fail->pass 1)
+  words:paragraph_last_first              29/ 1368 =   2.1%  (grader pass->FIX fail 0, fail->pass 29)
+  words:start_verb                        22/ 1368 =   1.6%  (grader pass->FIX fail 0, fail->pass 22)
+  words:words_position                     5/  684 =   0.7%  (grader pass->FIX fail 0, fail->pass 5)
+  total instances 78432
