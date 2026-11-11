@@ -1,0 +1,18 @@
+You are an auditor. Your working directory is <W> (call it W). Work only inside that directory: do not open, list or search any path outside it, and do not use the network: no web fetch or web search, and no pip, git, curl or other command that reaches the internet. Do not start subagents. Ignore any memory notes or project notes in your context that are not about this audit, and do not open memory files.
+
+Audit the grader described in case/TASK.md by following the skill in skill/SKILL.md, with its reference files in skill/references/. SKILL.md links skill/references/validation.md; that file is not provided in this run.
+
+This is an offline exercise. Apply the skill with these substitutions:
+- There is no issue tracker. Keep the record that the skill puts in the issue (the pinned inputs, the contract file's hash and the time, the decision entries, the findings, the frozen-sample hashes) in audit/ISSUE.md, and add to it as you go.
+- Keep fixtures as runnable tests under audit/tests/, and frozen samples, keys and reviews under audit/frozen/, with their sha256 in audit/ISSUE.md. There is no repository, research branch, Hugging Face dataset or job launcher; skip the steps that need them and say so in the report.
+- Step 5: there is no compute. The stored responses in case/ (for an agent task, the stored trials; for an LLM judge, together with the recorded judge replies) are the model panel. Do not generate new responses.
+- Step 6: you cannot start subagents in this exercise, so report step 6 as not run. You may still draw and freeze the sample as step 6.1 and 6.2 describe.
+- Write the step 7 report to audit/AUDIT.md. For each finding, give the counterexample as an exact input and the command that reproduces the grader's verdict.
+
+Practical notes:
+- Do not edit anything under case/ or skill/; write everything under audit/.
+- The machine is Windows with Git Bash and PowerShell; `python` is Python 3.12 and the case needs only the standard library. In Git Bash heredocs a double backslash becomes one, so write longer scripts to files under audit/ with the Write tool and run them. Run Python with -B so that no bytecode lands in case/.
+- Read the clock (date -u) in the same step before you write any time.
+- Do not name a file REPORT.md or FINDINGS.md (a hook blocks those names); AUDIT.md and ISSUE.md are fine.
+- Before you stop, rerun the fixture tests and check that every command the report gives prints what the report says.
+- When you stop, end with a short summary as your final message: what is done, where the files are, what is left, and anything in the skill's text that was unclear or that you had to work around.
