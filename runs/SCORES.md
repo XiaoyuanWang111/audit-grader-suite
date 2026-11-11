@@ -41,3 +41,37 @@ two reviewers). Scored against `keys/<case>.md` with the rubric in `RUNNER.md`.
 Defects found: 15 of 15 (every run found all three, including the five that change no stored verdict or score and show only in a fixture, fuzz or content-free input). Ambiguities filed as decision entries: 4 of 5 (missed: toyagent-verify's D-extra-text, which the run settled in its contract). Traps respected: 5 of 5 (toyqa-judge's filed as a decision entry). False findings: 0, with 2 borderline items that read an undefined term ("spaces", "whitespace") strictly. Valid unplanted defects: 11, most shared with the reference implementations (overflow and recursion limits, 28-digit decimal rounding, duplicate rows counted twice, a relative import that passes the import check, result-line forging). Step 6's reviews ran in no run.
 
 After r1, step 2 of the skill gained one rule: a term that the text leaves undefined, such as which characters count as whitespace or whether other words may surround an answer, gets a decision entry, and the contract's reading becomes the proposal. The rerun of the case that missed its ambiguity (toyagent-verify-r2, skill r2) filed it as a decision entry and kept the other results.
+
+## Runs with `skill/r4-edits2`
+
+The IFBench runs tested a rule for step 4 that lists edits to apply across checks (`SCORES-ifbench.md`, the three
+sections on that rule). These five runs check what the last wording of the rule costs on the small cases. Skill
+version: `skill/r4-edits2/`, which is SKILL.md of the follow-up to PR #10422 at `b698ee759` with the rule added, and
+that branch's `references/ifbench.md` and `references/reviewer-prompt.md`. Each run: a fresh agent on Claude Opus 5.5
+with only the skill files and one case directory (`keys/tools/build_run_workspace.py`), offline, no subagents, with
+the r1 prompt of `RUNNER.md`. Scored against `keys/<case>.md` with the same rubric.
+
+| Run | Case | Grader type | Defects found (of 3) | Ambiguity as a decision (of 1) | Trap respected (of 1) | False findings | Valid unplanted | Step 6 run? | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| toymath-extract-r4-edits2 | toymath-extract | programmatic checker | 3 | 1 | 1 | 0 | 3 | sample frozen (24 held-out responses), reviewers not run | M1 = F1 (r10, r26; beta-14b 83.3 against 100.0), M2 = F2 (`Answer: 15100` passes for 15000), M3 = F3 (delta-8b 33.3 against 25.0). D-units = D-surrounding-text (r03, r07, r19, r35). Trap T-trailing not reported. Valid unplanted, the three of r1: F4 (28-digit rounding), F5 (one bad row stops the run), F6 (a duplicate row counts twice). R1 is a defect of the reference only (`4,,86` reads as 486). Five more decision entries, unscored. Its 384 tests rerun OK (51 expected failures), and its 13 report commands print what the report says. |
+| toycode-exec-r4-edits2 | toycode-exec | code-execution grader | 3 | 1 | 1 | 0 | 3 | sample frozen (all 40), batches rendered, reviewers not run | C1 = F1 (c02, c22, c40; the empty response scores 80), C2 = F3 (only a block tagged exactly `python`), C3 = F2 (c16, c31). 5/40 false passes and the per-model scores match the key. D-palindrome = D-palindrome-normalization (4 verdicts). Trap T-imports not reported. Valid unplanted: F4 (code can forge the result line), F5 (one response can crash the run), F6 (duplicate rows count twice); r1 also had the relative-import bypass. Five more decision entries, unscored. Its 1,192 tests rerun OK (121 expected failures); the six commands of F1 to F6, run by hand, print what the report says. |
+| toyqa-judge-r4-edits2 | toyqa-judge | LLM-judge pipeline | 3 | 1 | 1 (over-flagged as D-judge-window) | 0 | 0 | sample frozen (all 48), batches rendered, reviewers not run | J1 = F4 (a09, a16, a22, a24, a32, a34, a35), J2 = F2 + F3 (first line only; empty text raises IndexError and stops the run), J3 = F1 (a08, a20, a40). 10/48 labels wrong and the puffin-13b/ibis-8b-think F-score swap match the key. D-candidates = D-hedged-alternatives (a06, a36, a41). Four more decision entries, unscored. Its 215 tests rerun OK (34 expected failures), and its own check of the report ends `ALL OK`. |
+| toyjson-reward-r4-edits2 | toyjson-reward | RL reward function | 3 | 1 | 1 | 0 | 3 | sample frozen (all 48, two strata), batches rendered, reviewers not run | R1 = F1 (6/48), R2 = F2 (5/48), R3 = F3 (non-object JSON raises AttributeError). 11 of 38 full rewards false and step-0600 1.000 against 0.726 match the key. D-integer-qty = D-qty-decimal (j02, j46). Trap T-penalty not reported. Valid unplanted, the three of r1: F4 (deep nesting and long integers raise), F5 (`decimal.Overflow`), F6 (28-digit rounding). r1's borderline finding, a tab after the fence tag, is the decision entry D-fence-tab. Six more decision entries, unscored. The run recorded that it opened `reward.py` and `responses.jsonl` before it wrote its contract. Its 390 tests rerun OK (32 expected failures); 30 of 30 report checks pass. |
+| toyagent-verify-r4-edits2 | toyagent-verify | agent-task verifier | 3 | 1 | 1 | 0 | 0 | sample frozen (all 36), batches rendered, reviewers not run | A1 = F1 (t14, t21, t29), A2 = F2 (t12, t35), A3 = F3 (null exit code; fixture only). 5/36 false passes and the mean 55.6 against 41.7 match the key. D-extra-text = D-surrounding-text (t09, t17). Trap T-agent-status not reported. What r2 filed as a finding (`int()` raises past 4,300 digits) and as a borderline finding (`str.strip()` removes U+001C to U+001F) are decision entries here (D-leading-zeros, D-whitespace). Its 186 tests rerun OK (19 expected failures), and its script that reruns the report's commands ends with the manifest check passing. |
+
+Over the five runs: 15 of 15 defects, 5 of 5 ambiguities as decision entries, 5 of 5 traps respected (toyqa-judge's
+filed as a decision entry, as in r1), no false finding, no borderline finding, and 9 valid unplanted defects. The r1
+runs, with toyagent-verify-r2, had the same defects, ambiguities and traps, 2 borderline findings and 11 valid
+unplanted defects. The two that these runs lack are toycode-exec's relative-import bypass, which this run does not
+report, and toyagent-verify's 4,300-digit `ValueError`, which this run files as a decision entry.
+
+What the rule did here: the toymath-extract run put a bullet, a numbered label and bold on the answer label, which
+rule 1 of that case makes forbidden edits; the toycode-exec run adapted the list to code (fence tags, prose around
+the block, comments, prints, non-ASCII text); the toyjson-reward run noted that most of the list's edits should
+lower a JSON reward and not leave it unchanged. No report has a finding that the key lacks and that an edit of the
+list produced.
+
+All five sessions ran on `claude-opus-5-5` only, and none opened a path outside its folder. The scorer reran each
+run's tests in a copy of the run's folder next to a copy of the case.
+
+Limits: one run per case; the same person wrote the cases, the rule and the scores; no run ran the step 6 reviewers.

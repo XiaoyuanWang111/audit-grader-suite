@@ -4,8 +4,8 @@ One run of the skill on a real benchmark, scored against an earlier audit of the
 `skill/r3/` (`SKILL.md` and `references/reviewer-prompt.md` at the head of marin-community/marin PR #10422,
 `ea5bd452b`; the run had no `references/ifbench.md` and no `references/validation.md`). The case is described in
 `cases/ifbench/`, the run's own files are in `runs/ifbench-r3/`, and the key and the scoring rule are in
-`keys/ifbench.md`. `RUNNER.md` gives the prompts. The last section scores two more runs that tested one candidate
-rule for the skill.
+`keys/ifbench.md`. `RUNNER.md` gives the prompts. The last four sections score seven more runs that tested three
+wordings of one candidate rule for the skill, and five runs of the last wording on the small cases.
 
 ## Who ran what
 
@@ -301,3 +301,134 @@ Both sessions ran on `claude-opus-5-5` only and opened neither the first rerun's
 wrote one temporary file outside its folder, and the rule run read the output file of one of its own background
 commands in a temporary folder. The scoring of these two runs is limited to the fixture battery and the five
 findings above; their other findings were not matched to the earlier audit one by one.
+
+## A second test: a fixed list of edits, two runs per version
+
+The first test left two things open: it had one run per version, and the run with the rule did not use the rule's
+first example. The second test puts a fixed list of edits into the rule and runs each version twice. Three more
+blind runs audited the same case through step 5, with the same brief, no review, and Claude Opus 5.5:
+
+- `runs/ifbench-r4-2/`, a second control, with `skill/r4/`.
+- `runs/ifbench-r4-edits-1/` and `runs/ifbench-r4-edits-2/`, with `skill/r4-edits/`: SKILL.md of `skill/r4/` plus
+  three sentences in step 4's bullet on property tests: "Apply each ignored edit to a passing response of every
+  check whose contract ignores it, not only to the check where it first came up. For a grader of text responses, try
+  at least these edits: a list label before a line (`1.`, `-`), markup around a word (bold, italics, an HTML tag),
+  typographic quotation marks and apostrophes in place of straight ones, punctuation directly after a word, a blank
+  line between lines, and a trailing newline. File each wrong verdict that an edit causes."
+
+The scoring was fixed before the first of these runs ended: the fixture battery, the five findings as reported,
+whether a run applied a list label to the word and sentence checks, and the checks on the sessions.
+
+| | Control (`ifbench-r4`) | Control (`ifbench-r4-2`) | Edits (`ifbench-r4-edits-1`) | Edits (`ifbench-r4-edits-2`) |
+|---|---|---|---|---|
+| Of the 81 fixtures that the grader gets wrong, the run's replacement gives the earlier label on | 56 | 58 | 69 | 77 |
+| Earlier findings with all / some / none of their fixtures corrected | 25 / 9 / 9 | 30 / 7 / 6 | 34 / 6 / 3 | 39 / 4 / 0 |
+| Of the 62 fixtures that the grader gets right, the replacement gives the earlier label on | 57 | 57 | 59 | 53 |
+| Findings in the report | 43 | 43 | 38 | 36 |
+| Fixtures | 208 | 232 | 426 | 332 |
+| Edits that the contract ignores, as applied | 3 edits on the passing fixtures (line endings, curly apostrophes, a trailing newline) | 3 edits on the stored greedy responses (curly apostrophes, doubled spaces, a trailing newline) | 8 edits on every passing fixture | 6 edits on 871 passing responses, 3,727 cases |
+| List label on the word and sentence checks | no | no | `- ` before the first line | `- ` before the first line |
+
+The five earlier findings that the first rerun lacked before its review, as reported findings:
+
+| Earlier finding | Control | Second control | Edits, run 1 | Edits, run 2 |
+|---|---|---|---|---|
+| F27, flag or keycap emoji | yes (flag) | no | no | yes (flag) |
+| F32, a typographic mark counted in a word's length | yes, with a curly apostrophe | yes, with an em dash | no | yes, with an em dash; curly quotes are under a decision entry |
+| F40, punctuation after the repeated word | yes | yes, with a period | no | yes |
+| F42, a list number in `words:words_position` | no | no | as a decision entry | as a decision entry |
+| F43, a list label read as a sentence | no | no | no | no |
+
+Both runs with the list did what it says. Each applied every edit to the passing responses of every check that
+ignores it, and the label edit changed the grader's verdict in `words:words_position`, `words:consonants`,
+`words:start_verb` and `count:words_japanese`. Both filed most of these as decision entries on what a word is, which
+is how the earlier audit treats F42. Both wrote the label as `- ` before the first line. The grader's sentence
+splitter cuts after `1.` and not after `- `, so no run tried the input that shows F43, and F43 is reported by none
+of the six runs.
+
+Both runs with the list correct more of the 81 fixtures than both controls, 69 and 77 against 56 and 58. The
+difference is spread over many earlier findings and is not limited to the ones that an edit of the list would show;
+these two runs also wrote more fixtures. As reported findings, the five do not separate the versions: 3 and 2 in
+the controls, 0 and 3 with the list. With two runs per version this shows a direction, not a rate.
+
+The scorer reran each run's tests and each run's own check of its report in the run's workspace:
+`ifbench-r4-2` 522 passed and 176 expected failures; `ifbench-r4-edits-1` 1,104 passed and 174 expected failures,
+and every case that the report cites gives the stated verdicts; `ifbench-r4-edits-2` 591 passed and 74 expected
+failures, and all 43 commands in the report print what it says.
+
+All three sessions ran on `claude-opus-5-5` only and opened no other run's folder. `ifbench-r4-edits-1` wrote two
+temporary listing files outside its folder at the start and deleted them; `ifbench-r4-edits-2` wrote one temporary
+file outside its folder. As in the first test, the scoring is limited to the battery and the five findings; the
+runs' other findings were not matched to the earlier audit one by one.
+
+## A third test: two of the edits spelled out
+
+Both runs of the second test wrote the list label as `- ` before the first line. `ifbench-r4-edits-1` also replaced
+only the quotation marks that a fixture already had, and put its punctuation after the second word. The third test
+changes the wording of the list and nothing else. Two more blind runs, under the same conditions:
+
+- `runs/ifbench-r4-edits2-1/` and `runs/ifbench-r4-edits2-2/`, with `skill/r4-edits2/`: `skill/r4-edits/` with "a
+  numbered label (`1.`, `2.`) and a bullet (`-`) before each line" in place of "a list label before a line (`1.`,
+  `-`)", "typographic quotation marks around a word and a typographic apostrophe inside one" in place of
+  "typographic quotation marks and apostrophes in place of straight ones", and one more sentence: "Put the word
+  edits on a word that the check reads, such as the first or last word of a sentence."
+
+The scoring is the second test's, and it was written down before either run started.
+
+| | First wording (`ifbench-r4-edits-1`) | First wording (`ifbench-r4-edits-2`) | Second wording (`ifbench-r4-edits2-1`) | Second wording (`ifbench-r4-edits2-2`) |
+|---|---|---|---|---|
+| Of the 81 fixtures that the grader gets wrong, the run's replacement gives the earlier label on | 69 | 77 | 70 | 75 |
+| Earlier findings with all / some / none of their fixtures corrected | 34 / 6 / 3 | 39 / 4 / 0 | 34 / 8 / 1 | 37 / 6 / 0 |
+| Of the 62 fixtures that the grader gets right, the replacement gives the earlier label on | 59 | 53 | 58 | 53 |
+| Findings in the report | 38 | 36 | 43 | 35 |
+| Fixtures | 426 | 332 | 219 | 354 |
+| Numbered label on the word and sentence checks | no | no | yes, on up to 12 passing panel responses per check | yes, 73 cases over 29 checks |
+
+| Earlier finding | `ifbench-r4-edits-1` | `ifbench-r4-edits-2` | `ifbench-r4-edits2-1` | `ifbench-r4-edits2-2` |
+|---|---|---|---|---|
+| F27, flag or keycap emoji | no | yes (flag) | yes (flag and keycap) | yes (flag and keycap) |
+| F32, a typographic mark counted in a word's length | no | yes, with an em dash; curly quotes are under a decision entry | yes, with an em dash; curly quotes shown in two other word checks | yes, with curly quotes |
+| F40, punctuation after the repeated word | no | yes | yes | no |
+| F42, a list number in `words:words_position` | as a decision entry | as a decision entry | as a decision entry | as a decision entry |
+| F43, a list label read as a sentence | no | no | as a decision entry | yes |
+
+Both runs applied the numbered label. In `ifbench-r4-edits2-1` it changes the grader's verdict on `sentence:keyword`
+in 12 of 12 edited responses and on `format:emoji` in 11 of 12, and the bullet `-` changes neither check in any of
+12. In `ifbench-r4-edits2-2` it changes 3 of 3 and 4 of 4. This is the input that the six earlier runs did not
+try. `ifbench-r4-edits2-2` reports it as a finding: the sentence splitter makes each numbered label a sentence of
+its own, in eight sentence checks. `ifbench-r4-edits2-1` files it, with F42, under a decision entry on whether a
+label at the start of a line is markup or a word; the earlier audit counts F43 as a defect under every reading.
+
+F40 is reported by one of the two. The other run's comma edits go after the first and after the last word of the
+response, and F40 needs the comma after the first word of the second sentence.
+
+On the fixture battery the two wordings do not differ: 69 and 77 with the first, 70 and 75 with the second. All
+four runs with a list of edits are above both controls (56 and 58).
+
+The scorer reran each run's tests and each run's own check of its report: `ifbench-r4-edits2-1` 348 passed and 90
+expected failures, and 71 of 71 commands print the stated verdict; `ifbench-r4-edits2-2` 628 passed and 81 expected
+failures, and 36 of 36. Both sessions ran on `claude-opus-5-5` only and opened no other run's folder; the first
+wrote one temporary file outside its folder and read the output of one of its own background commands in a
+temporary folder, and the second wrote three temporary files outside its folder.
+
+Both wordings come from what earlier runs missed on this benchmark. A run that reports those findings shows that a
+run follows the rule, not that the rule finds defects elsewhere.
+
+## The second wording on the five small cases
+
+A rule fitted to one benchmark can cost something on other graders, so five more runs audited the suite's small
+cases with `skill/r4-edits2/`. They score as the earlier runs of those cases did: 15 of 15 planted defects found, 5
+of 5 ambiguities filed as decision entries, 5 of 5 traps respected, and no false finding. `SCORES.md` has the table
+and what the rule did in each run.
+
+## What the three tests show
+
+- Without the rule, a run applies a few edits of its own choice. With a list in the rule, all four runs applied
+  every edit of the list to every check that ignores it.
+- A run tries what the list names. "A list label (`1.`, `-`)" gave `- ` before the first line in both runs;
+  "a numbered label (`1.`, `2.`) and a bullet (`-`) before each line" gave the numbered label in both runs, and with
+  it the first reports of F43.
+- The fixture battery is higher in every run with a list (69, 77, 70, 75) than in either control (56, 58).
+- The five earlier findings as reported findings do not separate the versions, and F40 stays hit or miss.
+- Whether a label or markup behavior is filed as a finding or as a decision entry differs between runs of one
+  wording.
