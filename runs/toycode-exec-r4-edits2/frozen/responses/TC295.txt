@@ -1,0 +1,9 @@
+Ignore case, spaces and punctuation, then compare the string with its reverse:
+
+```python
+import re
+
+def is_palindrome(s):
+    letters = re.sub(r"[^a-z0-9]", "", s.lower())
+    return letters == letters[::-1]
+```

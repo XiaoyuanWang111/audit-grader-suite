@@ -1,0 +1,13 @@
+{"id": "F6-01", "model": "dup", "problem_id": "p01", "extracted": "3.5", "verdict": "correct", "scored": true}
+{"id": "F6-02", "model": "dup", "problem_id": "p02", "extracted": "486", "verdict": "correct", "scored": true}
+{"id": "F6-03", "model": "dup", "problem_id": "p03", "extracted": "2250", "verdict": "correct", "scored": true}
+{"id": "F6-04", "model": "dup", "problem_id": "p04", "extracted": "-7", "verdict": "correct", "scored": true}
+{"id": "F6-05", "model": "dup", "problem_id": "p05", "extracted": "72", "verdict": "correct", "scored": true}
+{"id": "F6-06", "model": "dup", "problem_id": "p06", "extracted": "0", "verdict": "correct", "scored": true}
+{"id": "F6-07", "model": "dup", "problem_id": "p07", "extracted": "15000", "verdict": "correct", "scored": true}
+{"id": "F6-08", "model": "dup", "problem_id": "p08", "extracted": "120", "verdict": "correct", "scored": true}
+{"id": "F6-09", "model": "dup", "problem_id": "p09", "extracted": "28.8", "verdict": "correct", "scored": true}
+{"id": "F6-10", "model": "dup", "problem_id": "p10", "extracted": "13", "verdict": "correct", "scored": true}
+{"id": "F6-11", "model": "dup", "problem_id": "p11", "extracted": "756", "verdict": "correct", "scored": true}
+{"id": "F6-12", "model": "dup", "problem_id": "p12", "extracted": "15", "verdict": "correct", "scored": true}
+{"id": "F6-13", "model": "dup", "problem_id": "p01", "extracted": null, "verdict": "duplicate", "scored": false}

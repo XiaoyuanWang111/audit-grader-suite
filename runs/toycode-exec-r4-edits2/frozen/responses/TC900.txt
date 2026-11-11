@@ -1,0 +1,6 @@
+```python
+from itertools import groupby
+
+def run_length(s):
+    return "".join(f"{ch}{len(list(group))}" for ch, group in groupby(s))
+```

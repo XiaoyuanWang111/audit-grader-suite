@@ -1,0 +1,16 @@
+{
+ "seed": 20261111,
+ "population": 48,
+ "strata": {
+  "disagree": {
+   "population": 13,
+   "sampled": 13
+  },
+  "agree": {
+   "population": 35,
+   "sampled": 35
+  }
+ },
+ "reviewer_B_order_seed": 20261112,
+ "stratum_definition": "case/reward.py reward differs from replacement_reward.py proposed mode by > 1e-9"
+}

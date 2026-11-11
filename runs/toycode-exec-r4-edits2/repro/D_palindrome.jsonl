@@ -1,0 +1,4 @@
+{"id": "c05", "model": "stored-c05", "task_id": "t02", "response": "```python\ndef is_palindrome(s):\n    cleaned = [c.lower() for c in s if c.isalnum()]\n    return cleaned == cleaned[::-1]\n```"}
+{"id": "c06", "model": "stored-c06", "task_id": "t02", "response": "```python\ndef is_palindrome(s):\n    return s == s[::-1]\n```"}
+{"id": "c07", "model": "stored-c07", "task_id": "t02", "response": "Ignore case, spaces and punctuation, then compare the string with its reverse:\n\n```python\nimport re\n\ndef is_palindrome(s):\n    letters = re.sub(r\"[^a-z0-9]\", \"\", s.lower())\n    return letters == letters[::-1]\n```"}
+{"id": "c08", "model": "stored-c08", "task_id": "t02", "response": "```python\ndef is_palindrome(s):\n    s = s.lower()\n    return s == s[::-1]\n```"}

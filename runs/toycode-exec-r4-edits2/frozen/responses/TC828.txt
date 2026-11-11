@@ -1,0 +1,7 @@
+```python
+def second_largest(nums):
+    s = sorted(nums)
+    if len(s) < 2:
+        return None
+    return s[-2]
+```

@@ -1,0 +1,1 @@
+{"id": "a24", "model": "ibis-8b-think", "question_id": "q06", "response": "<think>\nThe largest internal organ is the liver.\n</think>\nThe liver", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}

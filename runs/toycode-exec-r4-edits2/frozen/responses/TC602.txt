@@ -1,0 +1,11 @@
+```python
+def merge_intervals(intervals):
+    intervals = sorted(intervals)
+    out = []
+    for iv in intervals:
+        if out and iv[0] <= out[-1][1]:
+            out[-1][1] = max(out[-1][1], iv[1])
+        else:
+            out.append(list(iv))
+    return out
+```

@@ -1,0 +1,390 @@
+{
+ "seconds": {
+  "grader": 10.5,
+  "grader_rerun": 10.4,
+  "reference": 11.4,
+  "replacement": 10.9,
+  "replacement_rerun": 10.8,
+  "replacement_alt_palindrome_normalized": 10.7,
+  "replacement_alt_crlf_no": 11.0,
+  "replacement_alt_eq_literal": 11.7,
+  "replacement_alt_dynamic_import_any": 11.6,
+  "replacement_alt_time_origin_load": 15.4,
+  "replacement_alt_main_guard_run": 11.7
+ },
+ "n_responses": 40,
+ "finish_reason": {
+  "stop": 40
+ },
+ "settings": [
+  [
+   0.0,
+   1024
+  ]
+ ],
+ "fence_tags": {
+  "python": 39,
+  "<none>": 1
+ },
+ "responses_with_think_marker": 0,
+ "responses_with_cr": 0,
+ "scores_percent": {
+  "grader": {
+   "finch-8b": 30.0,
+   "kite-7b": 90.0,
+   "lark-13b": 40.0,
+   "wren-34b": 100.0
+  },
+  "grader_rerun": {
+   "finch-8b": 30.0,
+   "kite-7b": 90.0,
+   "lark-13b": 40.0,
+   "wren-34b": 100.0
+  },
+  "reference": {
+   "finch-8b": 10.0,
+   "kite-7b": 90.0,
+   "lark-13b": 20.0,
+   "wren-34b": 90.0
+  },
+  "replacement": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  },
+  "replacement_rerun": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  },
+  "replacement_alt_palindrome_normalized": {
+   "finch-8b": 10.0,
+   "kite-7b": 90.0,
+   "lark-13b": 20.0,
+   "wren-34b": 90.0
+  },
+  "replacement_alt_crlf_no": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  },
+  "replacement_alt_eq_literal": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  },
+  "replacement_alt_dynamic_import_any": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  },
+  "replacement_alt_time_origin_load": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  },
+  "replacement_alt_main_guard_run": {
+   "finch-8b": 20.0,
+   "kite-7b": 80.0,
+   "lark-13b": 30.0,
+   "wren-34b": 80.0
+  }
+ },
+ "scored_coverage": {
+  "grader": "40/40",
+  "grader_rerun": "40/40",
+  "reference": "40/40",
+  "replacement": "40/40",
+  "replacement_rerun": "40/40",
+  "replacement_alt_palindrome_normalized": "40/40",
+  "replacement_alt_crlf_no": "40/40",
+  "replacement_alt_eq_literal": "40/40",
+  "replacement_alt_dynamic_import_any": "40/40",
+  "replacement_alt_time_origin_load": "40/40",
+  "replacement_alt_main_guard_run": "40/40"
+ },
+ "passes_per_task_of_4": {
+  "grader": {
+   "t01": 3,
+   "t02": 2,
+   "t03": 2,
+   "t04": 4,
+   "t05": 1,
+   "t06": 3,
+   "t07": 2,
+   "t08": 3,
+   "t09": 3,
+   "t10": 3
+  },
+  "grader_rerun": {
+   "t01": 3,
+   "t02": 2,
+   "t03": 2,
+   "t04": 4,
+   "t05": 1,
+   "t06": 3,
+   "t07": 2,
+   "t08": 3,
+   "t09": 3,
+   "t10": 3
+  },
+  "reference": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_rerun": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_alt_palindrome_normalized": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_alt_crlf_no": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_alt_eq_literal": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_alt_dynamic_import_any": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_alt_time_origin_load": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  },
+  "replacement_alt_main_guard_run": {
+   "t01": 2,
+   "t02": 2,
+   "t03": 2,
+   "t04": 3,
+   "t05": 1,
+   "t06": 2,
+   "t07": 2,
+   "t08": 2,
+   "t09": 3,
+   "t10": 2
+  }
+ },
+ "disagreements": {
+  "grader vs grader_rerun": [],
+  "replacement vs replacement_rerun": [],
+  "grader vs reference": [
+   "c02 lark-13b t01 grader=pass reference=fail (all tests passed)",
+   "c16 finch-8b t04 grader=pass reference=fail (all tests passed)",
+   "c22 lark-13b t06 grader=pass reference=fail (all tests passed)",
+   "c31 wren-34b t08 grader=pass reference=fail (all tests passed)",
+   "c40 finch-8b t10 grader=pass reference=fail (all tests passed)"
+  ],
+  "grader vs replacement": [
+   "c02 lark-13b t01 grader=pass replacement=fail (all tests passed)",
+   "c05 kite-7b t02 grader=pass replacement=fail (all tests passed)",
+   "c06 lark-13b t02 grader=fail replacement=pass (test 3 failed)",
+   "c07 wren-34b t02 grader=pass replacement=fail (all tests passed)",
+   "c08 finch-8b t02 grader=fail replacement=pass (test 3 failed)",
+   "c16 finch-8b t04 grader=pass replacement=fail (all tests passed)",
+   "c22 lark-13b t06 grader=pass replacement=fail (all tests passed)",
+   "c31 wren-34b t08 grader=pass replacement=fail (all tests passed)",
+   "c40 finch-8b t10 grader=pass replacement=fail (all tests passed)"
+  ],
+  "reference vs replacement": [
+   "c05 kite-7b t02 reference=pass replacement=fail ()",
+   "c06 lark-13b t02 reference=fail replacement=pass ()",
+   "c07 wren-34b t02 reference=pass replacement=fail ()",
+   "c08 finch-8b t02 reference=fail replacement=pass ()"
+  ],
+  "grader vs replacement_alt_palindrome_normalized": [
+   "c02 lark-13b t01 grader=pass replacement_alt_palindrome_normalized=fail (all tests passed)",
+   "c16 finch-8b t04 grader=pass replacement_alt_palindrome_normalized=fail (all tests passed)",
+   "c22 lark-13b t06 grader=pass replacement_alt_palindrome_normalized=fail (all tests passed)",
+   "c31 wren-34b t08 grader=pass replacement_alt_palindrome_normalized=fail (all tests passed)",
+   "c40 finch-8b t10 grader=pass replacement_alt_palindrome_normalized=fail (all tests passed)"
+  ],
+  "reference vs replacement_alt_palindrome_normalized": [],
+  "replacement vs replacement_alt_palindrome_normalized": [
+   "c05 kite-7b t02 replacement=fail replacement_alt_palindrome_normalized=pass (test 3 failed)",
+   "c06 lark-13b t02 replacement=pass replacement_alt_palindrome_normalized=fail (all tests passed)",
+   "c07 wren-34b t02 replacement=fail replacement_alt_palindrome_normalized=pass (test 3 failed)",
+   "c08 finch-8b t02 replacement=pass replacement_alt_palindrome_normalized=fail (all tests passed)"
+  ],
+  "replacement vs replacement_alt_crlf_no": [],
+  "replacement vs replacement_alt_eq_literal": [],
+  "replacement vs replacement_alt_dynamic_import_any": [],
+  "replacement vs replacement_alt_time_origin_load": [],
+  "replacement vs replacement_alt_main_guard_run": []
+ },
+ "grader_details": {
+  "c01": "all tests passed",
+  "c02": "all tests passed",
+  "c03": "all tests passed",
+  "c04": "test 1 failed",
+  "c05": "all tests passed",
+  "c06": "test 3 failed",
+  "c07": "all tests passed",
+  "c08": "test 3 failed",
+  "c09": "all tests passed",
+  "c10": "test 4 failed",
+  "c11": "all tests passed",
+  "c12": "test 3 failed",
+  "c13": "all tests passed",
+  "c14": "all tests passed",
+  "c15": "all tests passed",
+  "c16": "all tests passed",
+  "c17": "test 1 failed",
+  "c18": "imports statistics",
+  "c19": "all tests passed",
+  "c20": "test 1 failed",
+  "c21": "all tests passed",
+  "c22": "all tests passed",
+  "c23": "all tests passed",
+  "c24": "test 0 failed",
+  "c25": "all tests passed",
+  "c26": "timeout",
+  "c27": "all tests passed",
+  "c28": "test 0 failed",
+  "c29": "all tests passed",
+  "c30": "test 1 failed",
+  "c31": "all tests passed",
+  "c32": "all tests passed",
+  "c33": "all tests passed",
+  "c34": "all tests passed",
+  "c35": "all tests passed",
+  "c36": "test 0 failed",
+  "c37": "all tests passed",
+  "c38": "timeout",
+  "c39": "all tests passed",
+  "c40": "all tests passed"
+ },
+ "replacement_details": {
+  "c01": "all tests passed",
+  "c02": "test 2 failed (raise)",
+  "c03": "all tests passed",
+  "c04": "test 1 failed",
+  "c05": "test 3 failed",
+  "c06": "all tests passed",
+  "c07": "test 3 failed",
+  "c08": "all tests passed",
+  "c09": "all tests passed",
+  "c10": "test 4 failed",
+  "c11": "all tests passed",
+  "c12": "test 3 failed",
+  "c13": "all tests passed",
+  "c14": "all tests passed",
+  "c15": "all tests passed",
+  "c16": "test 0 failed",
+  "c17": "test 1 failed",
+  "c18": "imports statistics",
+  "c19": "all tests passed",
+  "c20": "test 1 failed",
+  "c21": "all tests passed",
+  "c22": "test 1 failed (raise)",
+  "c23": "all tests passed",
+  "c24": "test 0 failed",
+  "c25": "all tests passed",
+  "c26": "timeout",
+  "c27": "all tests passed",
+  "c28": "test 0 failed",
+  "c29": "all tests passed",
+  "c30": "test 1 failed",
+  "c31": "test 0 failed",
+  "c32": "all tests passed",
+  "c33": "all tests passed",
+  "c34": "all tests passed",
+  "c35": "all tests passed",
+  "c36": "test 0 failed",
+  "c37": "all tests passed",
+  "c38": "timeout",
+  "c39": "all tests passed",
+  "c40": "test 2 failed (raise)"
+ },
+ "verdict_file_sha256": {
+  "grader": "41eaff356aa86cd5ee1745807c6dfd8d1021aa4101c349fe143b3dc9547021f2",
+  "grader_rerun": "41eaff356aa86cd5ee1745807c6dfd8d1021aa4101c349fe143b3dc9547021f2",
+  "reference": "7fe1c8c721686dd591167a3f58903f8afef615b211a8d77242ad48363a5b72d1",
+  "replacement": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d",
+  "replacement_rerun": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d",
+  "replacement_alt_palindrome_normalized": "df507b85b894193080aa9423336d57b1dc8095bca8af649d967a02f3f3a1c16d",
+  "replacement_alt_crlf_no": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d",
+  "replacement_alt_eq_literal": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d",
+  "replacement_alt_dynamic_import_any": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d",
+  "replacement_alt_time_origin_load": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d",
+  "replacement_alt_main_guard_run": "e053741aacd17b9e86f6c44e18986cccc68fe06c86490f50294d28034aa1d33d"
+ }
+}

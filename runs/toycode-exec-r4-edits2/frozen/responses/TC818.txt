@@ -1,0 +1,12 @@
+```python
+import re
+
+_DURATION = re.compile(r"(?:(?P<h>\d+)h)?(?:(?P<m>\d+)m)?")
+
+
+def parse_duration(text):
+    match = _DURATION.fullmatch(text)
+    if match is None or not (match.group("h") or match.group("m")):
+        raise ValueError(f"not a duration: {text!r}")
+    return int(match.group("h") or 0) * 60 + int(match.group("m") or 0)
+```

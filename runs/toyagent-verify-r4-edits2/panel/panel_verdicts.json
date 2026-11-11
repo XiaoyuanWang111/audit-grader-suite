@@ -1,0 +1,856 @@
+{
+ "rows": [
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t01"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t02"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t03"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t04"
+  },
+  {
+   "agent_status": "timeout",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t05"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t06"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "40\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 40",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 40",
+   "trial": "t07"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t08"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+falcon-70b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 0,
+    "D-whitespace": 1
+   },
+   "out_answer": "41 server errors\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "answer is not a decimal integer",
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "trial": "t09"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t10"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "37\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t11"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": null,
+   "replacement_exit": 1,
+   "replacement_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t12"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t13"
+  },
+  {
+   "agent_status": "error",
+   "answer_files": [],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": null,
+   "replacement_exit": 1,
+   "replacement_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "no answer file",
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "trial": "t14"
+  },
+  {
+   "agent_status": "timeout",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t15"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t16"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 0,
+    "D-whitespace": 1
+   },
+   "out_answer": "Total 5xx: 41\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "answer is not a decimal integer",
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "trial": "t17"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+merlin-32b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t18"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "37\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t19"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t20"
+  },
+  {
+   "agent_status": "error",
+   "answer_files": [],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": null,
+   "replacement_exit": 1,
+   "replacement_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "no answer file",
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "trial": "t21"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "37\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t22"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": null,
+   "replacement_exit": 1,
+   "replacement_output": "no answer file",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t23"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "45\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 45",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 45",
+   "trial": "t24"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t25"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "answer is not a decimal integer",
+   "stored_exit": 1,
+   "stored_output": "answer is not a decimal integer",
+   "trial": "t26"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+osprey-14b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "40\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 40",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 40",
+   "trial": "t27"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "37\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t28"
+  },
+  {
+   "agent_status": "timeout",
+   "answer_files": [],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": null,
+   "replacement_exit": 1,
+   "replacement_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "no answer file",
+   "stored_exit": 0,
+   "stored_output": "no answer file",
+   "trial": "t29"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "36\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 36",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 36",
+   "trial": "t30"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "45\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 45",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 45",
+   "trial": "t31"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 0,
+    "D-nonascii-digits": 0,
+    "D-plus-sign": 0,
+    "D-surrounding-text": 0,
+    "D-whitespace": 0
+   },
+   "out_answer": "41\n",
+   "replacement_exit": 0,
+   "replacement_output": "correct",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t32"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "0\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 0",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 0",
+   "trial": "t33"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "37\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t34"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": null,
+   "replacement_exit": 1,
+   "replacement_output": "no answer file",
+   "rerun_exit": 0,
+   "rerun_output": "correct",
+   "stored_exit": 0,
+   "stored_output": "correct",
+   "trial": "t35"
+  },
+  {
+   "agent_status": "completed",
+   "answer_files": [
+    "out/answer.txt"
+   ],
+   "config": "agentx+kestrel-8b",
+   "flip_exit": {
+    "D-leading-zeros": 1,
+    "D-nonascii-digits": 1,
+    "D-plus-sign": 1,
+    "D-surrounding-text": 1,
+    "D-whitespace": 1
+   },
+   "out_answer": "37\n",
+   "replacement_exit": 1,
+   "replacement_output": "incorrect",
+   "rerun_exit": 1,
+   "rerun_output": "wrong count: 37",
+   "stored_exit": 1,
+   "stored_output": "wrong count: 37",
+   "trial": "t36"
+  }
+ ],
+ "summary": {
+  "agentx+falcon-70b": {
+   "change_ci": [
+    0.0,
+    0.0
+   ],
+   "current": 77.77777777777777,
+   "flips": {
+    "D-leading-zeros": 77.77777777777777,
+    "D-nonascii-digits": 77.77777777777777,
+    "D-plus-sign": 77.77777777777777,
+    "D-surrounding-text": 88.88888888888889,
+    "D-whitespace": 77.77777777777777
+   },
+   "n": 9,
+   "replacement": 77.77777777777777
+  },
+  "agentx+kestrel-8b": {
+   "change_ci": [
+    -55.55555555555556,
+    0.0
+   ],
+   "current": 33.333333333333336,
+   "flips": {
+    "D-leading-zeros": 11.11111111111111,
+    "D-nonascii-digits": 11.11111111111111,
+    "D-plus-sign": 11.11111111111111,
+    "D-surrounding-text": 11.11111111111111,
+    "D-whitespace": 11.11111111111111
+   },
+   "n": 9,
+   "replacement": 11.11111111111111
+  },
+  "agentx+merlin-32b": {
+   "change_ci": [
+    -55.55555555555556,
+    0.0
+   ],
+   "current": 77.77777777777777,
+   "flips": {
+    "D-leading-zeros": 55.55555555555556,
+    "D-nonascii-digits": 55.55555555555556,
+    "D-plus-sign": 55.55555555555556,
+    "D-surrounding-text": 66.66666666666667,
+    "D-whitespace": 55.55555555555556
+   },
+   "n": 9,
+   "replacement": 55.55555555555556
+  },
+  "agentx+osprey-14b": {
+   "change_ci": [
+    -33.333333333333336,
+    0.0
+   ],
+   "current": 33.333333333333336,
+   "flips": {
+    "D-leading-zeros": 22.22222222222222,
+    "D-nonascii-digits": 22.22222222222222,
+    "D-plus-sign": 22.22222222222222,
+    "D-surrounding-text": 22.22222222222222,
+    "D-whitespace": 22.22222222222222
+   },
+   "n": 9,
+   "replacement": 22.22222222222222
+  }
+ }
+}

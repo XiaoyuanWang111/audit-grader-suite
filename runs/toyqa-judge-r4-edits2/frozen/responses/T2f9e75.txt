@@ -1,0 +1,3 @@
+<think>1 is not prime; the smallest prime is 2.</think>
+
+2

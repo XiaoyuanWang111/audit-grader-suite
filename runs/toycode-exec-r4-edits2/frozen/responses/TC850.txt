@@ -1,0 +1,10 @@
+```python
+def flatten(nested):
+    def walk(xs):
+        for x in xs:
+            if isinstance(x, list):
+                yield from walk(x)
+            else:
+                yield x
+    return list(walk(nested))
+```

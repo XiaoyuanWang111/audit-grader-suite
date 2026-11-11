@@ -1,0 +1,20 @@
+{"id": "vt01", "model": "F1-always-ValueError", "task_id": "t01", "response": "```python\ndef second_largest(*args):\n    raise ValueError\n```"}
+{"id": "vt02", "model": "F1-always-ValueError", "task_id": "t02", "response": "```python\ndef is_palindrome(*args):\n    raise ValueError\n```"}
+{"id": "vt03", "model": "F1-always-ValueError", "task_id": "t03", "response": "```python\ndef parse_duration(*args):\n    raise ValueError\n```"}
+{"id": "vt04", "model": "F1-always-ValueError", "task_id": "t04", "response": "```python\ndef chunk(*args):\n    raise ValueError\n```"}
+{"id": "vt05", "model": "F1-always-ValueError", "task_id": "t05", "response": "```python\ndef median(*args):\n    raise ValueError\n```"}
+{"id": "vt06", "model": "F1-always-ValueError", "task_id": "t06", "response": "```python\ndef run_length(*args):\n    raise ValueError\n```"}
+{"id": "vt07", "model": "F1-always-ValueError", "task_id": "t07", "response": "```python\ndef fib(*args):\n    raise ValueError\n```"}
+{"id": "vt08", "model": "F1-always-ValueError", "task_id": "t08", "response": "```python\ndef merge_intervals(*args):\n    raise ValueError\n```"}
+{"id": "vt09", "model": "F1-always-ValueError", "task_id": "t09", "response": "```python\ndef flatten(*args):\n    raise ValueError\n```"}
+{"id": "vt10", "model": "F1-always-ValueError", "task_id": "t10", "response": "```python\ndef binary_search(*args):\n    raise ValueError\n```"}
+{"id": "et01", "model": "F1-empty-response", "task_id": "t01", "response": ""}
+{"id": "et02", "model": "F1-empty-response", "task_id": "t02", "response": ""}
+{"id": "et03", "model": "F1-empty-response", "task_id": "t03", "response": ""}
+{"id": "et04", "model": "F1-empty-response", "task_id": "t04", "response": ""}
+{"id": "et05", "model": "F1-empty-response", "task_id": "t05", "response": ""}
+{"id": "et06", "model": "F1-empty-response", "task_id": "t06", "response": ""}
+{"id": "et07", "model": "F1-empty-response", "task_id": "t07", "response": ""}
+{"id": "et08", "model": "F1-empty-response", "task_id": "t08", "response": ""}
+{"id": "et09", "model": "F1-empty-response", "task_id": "t09", "response": ""}
+{"id": "et10", "model": "F1-empty-response", "task_id": "t10", "response": ""}

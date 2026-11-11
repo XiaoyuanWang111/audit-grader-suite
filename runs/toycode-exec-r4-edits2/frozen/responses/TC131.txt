@@ -1,0 +1,14 @@
+```python
+def parse_duration(text):
+    if not text:
+        raise Exception("empty duration")
+    hours, minutes = 0, 0
+    if "h" in text:
+        h, text = text.split("h", 1)
+        hours = int(h)
+    if text.endswith("m"):
+        minutes = int(text[:-1])
+    elif text:
+        raise Exception("bad duration")
+    return hours * 60 + minutes
+```

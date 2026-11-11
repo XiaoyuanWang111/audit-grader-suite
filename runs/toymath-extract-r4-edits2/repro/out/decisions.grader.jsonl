@@ -1,0 +1,6 @@
+{"id": "D-leading-whitespace", "model": "d1", "problem_id": "p05", "extracted": "72", "verdict": "correct"}
+{"id": "D-digits", "model": "d2", "problem_id": "p05", "extracted": "72", "verdict": "correct"}
+{"id": "D-surrounding-text", "model": "d3", "problem_id": "p01", "extracted": "3.50", "verdict": "correct"}
+{"id": "D-multiple-numbers", "model": "d4", "problem_id": "p01", "extracted": "6", "verdict": "incorrect"}
+{"id": "D-tolerance-boundary", "model": "d5", "problem_id": "p06", "extracted": "0.01", "verdict": "correct"}
+{"id": "D-no-number-label", "model": "d6", "problem_id": "p02", "extracted": null, "verdict": "no_answer"}

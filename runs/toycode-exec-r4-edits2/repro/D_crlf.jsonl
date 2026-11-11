@@ -1,0 +1,1 @@
+{"id": "D-crlf", "model": "D-crlf", "task_id": "t07", "response": "```python\r\ndef fib(n):\r\n    a, b = 0, 1\r\n    for _ in range(n):\r\n        a, b = b, a + b\r\n    return a\r\n```"}

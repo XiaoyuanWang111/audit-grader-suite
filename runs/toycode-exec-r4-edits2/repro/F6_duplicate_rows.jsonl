@@ -1,0 +1,2 @@
+{"id": "d1", "model": "F6-dup", "task_id": "t07", "response": "```python\ndef fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"}
+{"id": "d2", "model": "F6-dup", "task_id": "t07", "response": "```python\ndef fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"}

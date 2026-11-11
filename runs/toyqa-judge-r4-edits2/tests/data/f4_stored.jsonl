@@ -1,0 +1,7 @@
+{"id": "a09", "model": "orca-7b", "question_id": "q03", "response": "The chemical symbol for tungsten is Tu.", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}
+{"id": "a16", "model": "ibis-8b-think", "question_id": "q04", "response": "<think>\nTitan is a large moon. I think it orbits Jupiter, like Ganymede.\n</think>\nJupiter", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}
+{"id": "a22", "model": "puffin-13b", "question_id": "q06", "response": "Skin", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}
+{"id": "a24", "model": "ibis-8b-think", "question_id": "q06", "response": "<think>\nThe largest internal organ is the liver.\n</think>\nThe liver", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}
+{"id": "a32", "model": "ibis-8b-think", "question_id": "q08", "response": "<think>\nThe longest river is the Nile.\n</think>\nThe Nile", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}
+{"id": "a34", "model": "puffin-13b", "question_id": "q09", "response": "Iron", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}
+{"id": "a35", "model": "heron-32b-think", "question_id": "q09", "response": "<think>Atomic number 26 is iron, symbol Fe.</think>\n\nIron", "finish_reason": "stop", "max_tokens": 192, "temperature": 0.0}

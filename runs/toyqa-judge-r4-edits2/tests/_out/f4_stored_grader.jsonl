@@ -1,0 +1,7 @@
+{"id": "a09", "model": "orca-7b", "question_id": "q03", "label": "correct", "grade": "A", "judge_calls": 1, "prompt_sha256": "40987dad7f12b25803b65e1ef5c9965916369ed2786a62e61c5d321e2e3c3a95"}
+{"id": "a16", "model": "ibis-8b-think", "question_id": "q04", "label": "not_attempted", "grade": "C", "judge_calls": 1, "prompt_sha256": "46c423ddfe0d02cda6a806510ccb657208c051b85034d292d065df0c5d875474"}
+{"id": "a22", "model": "puffin-13b", "question_id": "q06", "label": "not_attempted", "grade": "C", "judge_calls": 1, "prompt_sha256": "ec0a1751c0ab74391aaa1892c9f0859cd3cba88e2c7d6972136756c9a3bd6a1f"}
+{"id": "a24", "model": "ibis-8b-think", "question_id": "q06", "label": "correct", "grade": "A", "judge_calls": 1, "prompt_sha256": "6511c994c0b3e4b82c883ba6e7997538150df38b58eedb5b4a439baf72779de1"}
+{"id": "a32", "model": "ibis-8b-think", "question_id": "q08", "label": "not_attempted", "grade": "C", "judge_calls": 1, "prompt_sha256": "0798e73376970a8c1888b40beec69b8f03e3beefea91082e06cd6f0a2f3364a9"}
+{"id": "a34", "model": "puffin-13b", "question_id": "q09", "label": "incorrect", "grade": "B", "judge_calls": 1, "prompt_sha256": "d357d0b747f39a978bfd3e3ad689183c5baec75a70d71af2e126513621a91d13"}
+{"id": "a35", "model": "heron-32b-think", "question_id": "q09", "label": "incorrect", "grade": "B", "judge_calls": 1, "prompt_sha256": "d357d0b747f39a978bfd3e3ad689183c5baec75a70d71af2e126513621a91d13"}

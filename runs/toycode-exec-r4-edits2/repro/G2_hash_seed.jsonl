@@ -1,0 +1,1 @@
+{"id": "G2-set-order", "model": "G2-set-order", "task_id": "t06", "response": "```python\ndef run_length(s):\n    return \"\".join(c + str(s.count(c)) for c in set(s))\n```"}

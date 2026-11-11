@@ -1,0 +1,8 @@
+```python
+def median(nums):
+    s = sorted(nums)
+    n = len(s)
+    return (s[(n - 1) // 2] + s[n // 2]) / 2
+```
+
+For odd n both indices point at the middle element, so one formula covers both cases.

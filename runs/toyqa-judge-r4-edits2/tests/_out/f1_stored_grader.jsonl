@@ -1,0 +1,3 @@
+{"id": "a08", "model": "ibis-8b-think", "question_id": "q02", "label": "not_attempted", "grade": null, "judge_calls": 0, "prompt_sha256": null}
+{"id": "a20", "model": "ibis-8b-think", "question_id": "q05", "label": "not_attempted", "grade": null, "judge_calls": 0, "prompt_sha256": null}
+{"id": "a40", "model": "ibis-8b-think", "question_id": "q10", "label": "not_attempted", "grade": null, "judge_calls": 0, "prompt_sha256": null}

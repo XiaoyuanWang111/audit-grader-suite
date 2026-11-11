@@ -1,0 +1,23 @@
+{"id": "F3-a01", "model": "abstainer", "problem_id": "p01", "response": "Answer: 3.5"}
+{"id": "F3-a02", "model": "abstainer", "problem_id": "p02", "response": "I am not sure how to solve this."}
+{"id": "F3-a03", "model": "abstainer", "problem_id": "p03", "response": "I am not sure how to solve this."}
+{"id": "F3-a04", "model": "abstainer", "problem_id": "p04", "response": "I am not sure how to solve this."}
+{"id": "F3-a05", "model": "abstainer", "problem_id": "p05", "response": "I am not sure how to solve this."}
+{"id": "F3-a06", "model": "abstainer", "problem_id": "p06", "response": "I am not sure how to solve this."}
+{"id": "F3-a07", "model": "abstainer", "problem_id": "p07", "response": "I am not sure how to solve this."}
+{"id": "F3-a08", "model": "abstainer", "problem_id": "p08", "response": "I am not sure how to solve this."}
+{"id": "F3-a09", "model": "abstainer", "problem_id": "p09", "response": "I am not sure how to solve this."}
+{"id": "F3-a10", "model": "abstainer", "problem_id": "p10", "response": "I am not sure how to solve this."}
+{"id": "F3-a11", "model": "abstainer", "problem_id": "p11", "response": "I am not sure how to solve this."}
+{"id": "F3-a12", "model": "abstainer", "problem_id": "p12", "response": "I am not sure how to solve this."}
+{"id": "F3-b01", "model": "partial", "problem_id": "p01", "response": "Answer: 3.5"}
+{"id": "F3-b02", "model": "partial", "problem_id": "p02", "response": "Answer: 486"}
+{"id": "F3-b03", "model": "partial", "problem_id": "p03", "response": "Answer: 2250"}
+{"id": "F3-b04", "model": "partial", "problem_id": "p04", "response": "Answer: -7"}
+{"id": "F3-b05", "model": "partial", "problem_id": "p05", "response": "Answer: 72"}
+{"id": "F3-b06", "model": "partial", "problem_id": "p06", "response": "Answer: 0"}
+{"id": "F3-b07", "model": "partial", "problem_id": "p07", "response": "Answer: 15000"}
+{"id": "F3-b08", "model": "partial", "problem_id": "p08", "response": "Answer: 120"}
+{"id": "F3-b09", "model": "partial", "problem_id": "p09", "response": "Answer: 28.8"}
+{"id": "F3-b10", "model": "partial", "problem_id": "p10", "response": "Answer: 13"}
+{"id": "F3-b11", "model": "partial", "problem_id": "p11", "response": "Answer: 756"}

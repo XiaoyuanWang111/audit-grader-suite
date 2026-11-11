@@ -1,0 +1,9 @@
+```python
+def chunk(items, size):
+    if size < 1:
+        raise ValueError(f"size must be positive, got {size}")
+    chunks = []
+    for start in range(0, len(items), size):
+        chunks.append(items[start:start + size])
+    return chunks
+```

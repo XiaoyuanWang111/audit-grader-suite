@@ -1,0 +1,94 @@
+# answer-content fuzz: N=5000 seed=20261111
+cases: 5000
+disagree:D_LEADING_ZEROS (ValueError): 139   e.g. b'0000000000000000000000000000000000000000...'
+disagree:D_SURROUNDING_TEXT: 247   e.g. b'\x1f41'
+disagree:D_SURROUNDING_TEXT+D_WHITESPACE: 488   e.g. b'\xe3\x80\x8041\xe3\x80\x80'
+exception:ValueError: 139   e.g. b'0000000000000000000000000000000000000000...'
+orig_pass: 1963
+repl_pass: 1367
+
+# sandbox layouts (out/answer.txt, /workspace/answer.txt, tmp/answer.txt): contract, current, replacement
+out=absent root=absent tmp=absent contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=absent tmp=41     contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=absent tmp=37     contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=absent tmp=dir    contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=41     tmp=absent contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=41     tmp=41     contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=41     tmp=37     contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=41     tmp=dir    contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=37     tmp=absent contract=fail current=fail replacement=fail
+out=absent root=37     tmp=41     contract=fail current=fail replacement=fail
+out=absent root=37     tmp=37     contract=fail current=fail replacement=fail
+out=absent root=37     tmp=dir    contract=fail current=fail replacement=fail
+out=absent root=dir    tmp=absent contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=dir    tmp=41     contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=dir    tmp=37     contract=fail current=pass replacement=fail  <-- current wrong
+out=absent root=dir    tmp=dir    contract=fail current=pass replacement=fail  <-- current wrong
+out=41     root=absent tmp=absent contract=pass current=pass replacement=pass
+out=41     root=absent tmp=41     contract=pass current=pass replacement=pass
+out=41     root=absent tmp=37     contract=pass current=pass replacement=pass
+out=41     root=absent tmp=dir    contract=pass current=pass replacement=pass
+out=41     root=41     tmp=absent contract=pass current=pass replacement=pass
+out=41     root=41     tmp=41     contract=pass current=pass replacement=pass
+out=41     root=41     tmp=37     contract=pass current=pass replacement=pass
+out=41     root=41     tmp=dir    contract=pass current=pass replacement=pass
+out=41     root=37     tmp=absent contract=pass current=pass replacement=pass
+out=41     root=37     tmp=41     contract=pass current=pass replacement=pass
+out=41     root=37     tmp=37     contract=pass current=pass replacement=pass
+out=41     root=37     tmp=dir    contract=pass current=pass replacement=pass
+out=41     root=dir    tmp=absent contract=pass current=pass replacement=pass
+out=41     root=dir    tmp=41     contract=pass current=pass replacement=pass
+out=41     root=dir    tmp=37     contract=pass current=pass replacement=pass
+out=41     root=dir    tmp=dir    contract=pass current=pass replacement=pass
+out=37     root=absent tmp=absent contract=fail current=fail replacement=fail
+out=37     root=absent tmp=41     contract=fail current=fail replacement=fail
+out=37     root=absent tmp=37     contract=fail current=fail replacement=fail
+out=37     root=absent tmp=dir    contract=fail current=fail replacement=fail
+out=37     root=41     tmp=absent contract=fail current=fail replacement=fail
+out=37     root=41     tmp=41     contract=fail current=fail replacement=fail
+out=37     root=41     tmp=37     contract=fail current=fail replacement=fail
+out=37     root=41     tmp=dir    contract=fail current=fail replacement=fail
+out=37     root=37     tmp=absent contract=fail current=fail replacement=fail
+out=37     root=37     tmp=41     contract=fail current=fail replacement=fail
+out=37     root=37     tmp=37     contract=fail current=fail replacement=fail
+out=37     root=37     tmp=dir    contract=fail current=fail replacement=fail
+out=37     root=dir    tmp=absent contract=fail current=fail replacement=fail
+out=37     root=dir    tmp=41     contract=fail current=fail replacement=fail
+out=37     root=dir    tmp=37     contract=fail current=fail replacement=fail
+out=37     root=dir    tmp=dir    contract=fail current=fail replacement=fail
+out=dir    root=absent tmp=absent contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=absent tmp=41     contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=absent tmp=37     contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=absent tmp=dir    contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=41     tmp=absent contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=41     tmp=41     contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=41     tmp=37     contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=41     tmp=dir    contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=37     tmp=absent contract=fail current=fail replacement=fail
+out=dir    root=37     tmp=41     contract=fail current=fail replacement=fail
+out=dir    root=37     tmp=37     contract=fail current=fail replacement=fail
+out=dir    root=37     tmp=dir    contract=fail current=fail replacement=fail
+out=dir    root=dir    tmp=absent contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=dir    tmp=41     contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=dir    tmp=37     contract=fail current=pass replacement=fail  <-- current wrong
+out=dir    root=dir    tmp=dir    contract=fail current=pass replacement=fail  <-- current wrong
+layouts: 64; current wrong: 24; replacement wrong: 0
+
+# scorer: verifier_exit_code value -> passed count (current, exit) (replacement, exit); contract passes only 0
+0        current passed=1 rc=0   replacement passed=1 rc=0
+1        current passed=0 rc=0   replacement passed=0 rc=0
+2        current passed=0 rc=0   replacement passed=0 rc=0
+-9       current passed=0 rc=0   replacement passed=0 rc=0
+127      current passed=0 rc=0   replacement passed=0 rc=0
+null     current passed=1 rc=0   replacement passed=0 rc=0
+missing  current passed=1 rc=0   replacement passed=0 rc=0
+"0"      current passed=0 rc=0   replacement passed=0 rc=0
+"1"      current passed=0 rc=0   replacement passed=0 rc=0
+true     current passed=0 rc=0   replacement passed=0 rc=0
+false    current passed=1 rc=0   replacement passed=0 rc=0
+0.0      current passed=1 rc=0   replacement passed=0 rc=0
+[]       current passed=1 rc=0   replacement passed=0 rc=0
+
+# scorer: one malformed record among two trials
+result.json truncated: current rc=1 table={} last line='json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 17 (char 16)'; replacement rc=0 table={'<unattributed>': (1, 0, 0.0), 'c': (1, 1, 100.0)}
+result.json without config: current rc=1 table={} last line="KeyError: 'config'"; replacement rc=0 table={'<unattributed>': (1, 1, 100.0), 'c': (1, 1, 100.0)}

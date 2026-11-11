@@ -1,0 +1,542 @@
+{
+ "C1AF8": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t16"
+ },
+ "C1D41": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "disagree",
+  "trial": "t35"
+ },
+ "C22E6": {
+  "agent_status": "timeout",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t15"
+ },
+ "C235B": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t30"
+ },
+ "C24B7": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t34"
+ },
+ "C2C4C": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "disagree",
+  "trial": "t12"
+ },
+ "C2DF4": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t24"
+ },
+ "C3439": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t20"
+ },
+ "C3813": {
+  "agent_status": "timeout",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t05"
+ },
+ "C3E79": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t13"
+ },
+ "C4213": {
+  "agent_status": "timeout",
+  "config": "agentx+kestrel-8b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "disagree",
+  "trial": "t29"
+ },
+ "C42FD": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t32"
+ },
+ "C5027": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t19"
+ },
+ "C5493": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t03"
+ },
+ "C55AD": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t27"
+ },
+ "C599C": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t22"
+ },
+ "C605D": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t07"
+ },
+ "C686C": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t04"
+ },
+ "C6CC0": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t23"
+ },
+ "C81C5": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t01"
+ },
+ "C8551": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t06"
+ },
+ "C8880": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t36"
+ },
+ "C896D": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t17"
+ },
+ "C8A47": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t18"
+ },
+ "C9E28": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t28"
+ },
+ "CA52E": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t11"
+ },
+ "CACD0": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t26"
+ },
+ "CB242": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t31"
+ },
+ "CB6AA": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t09"
+ },
+ "CBE1D": {
+  "agent_status": "completed",
+  "config": "agentx+osprey-14b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t25"
+ },
+ "CCBD3": {
+  "agent_status": "completed",
+  "config": "agentx+kestrel-8b",
+  "current": "fail",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "agree",
+  "trial": "t33"
+ },
+ "CD0D8": {
+  "agent_status": "error",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "disagree",
+  "trial": "t14"
+ },
+ "CDD1A": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t08"
+ },
+ "CECCF": {
+  "agent_status": "error",
+  "config": "agentx+osprey-14b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "fail",
+   "D-nonascii-digits": "fail",
+   "D-plus-sign": "fail",
+   "D-surrounding-text": "fail",
+   "D-whitespace": "fail"
+  },
+  "replacement": "fail",
+  "stratum": "disagree",
+  "trial": "t21"
+ },
+ "CF19F": {
+  "agent_status": "completed",
+  "config": "agentx+merlin-32b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t10"
+ },
+ "CF245": {
+  "agent_status": "completed",
+  "config": "agentx+falcon-70b",
+  "current": "pass",
+  "flips": {
+   "D-leading-zeros": "pass",
+   "D-nonascii-digits": "pass",
+   "D-plus-sign": "pass",
+   "D-surrounding-text": "pass",
+   "D-whitespace": "pass"
+  },
+  "replacement": "pass",
+  "stratum": "agree",
+  "trial": "t02"
+ }
+}

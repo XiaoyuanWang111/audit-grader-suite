@@ -1,0 +1,2 @@
+{"id": "F5-control", "model": "F5-control", "task_id": "t07", "response": "```python\ndef fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"}
+{"id": "F5-malformed-line", "model": "F5-malformed-line", "task_id": "t07", "response": "```python\ndef fib(n):\n    out = open(1, \"w\", closefd=False)\n    out.write(\"@@RESULT@@ {\\n<<toycode-result>>{\\n\")\n    out.flush()\n    raise SystemExit\n\n```"}

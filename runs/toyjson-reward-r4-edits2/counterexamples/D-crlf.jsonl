@@ -1,0 +1,1 @@
+{"id": "D-crlf-1", "checkpoint": "D-crlf", "order_id": "o02", "response": "```json\r\n{\"customer\": \"Kenji Watanabe\", \"date\": \"2026-01-15\", \"items\": [{\"sku\": \"EF-310\", \"qty\": 3}], \"total\": 29.97}\r\n```"}

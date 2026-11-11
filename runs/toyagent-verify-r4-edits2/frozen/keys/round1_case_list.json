@@ -1,0 +1,157 @@
+{
+ "cases": [
+  {
+   "case_id": "C1AF8",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C1D41",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C22E6",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C235B",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C24B7",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C2C4C",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C2DF4",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3439",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3813",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C3E79",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C4213",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "C42FD",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C5027",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C5493",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C55AD",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C599C",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C605D",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C686C",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C6CC0",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C81C5",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8551",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8880",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C896D",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C8A47",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "C9E28",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CA52E",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CACD0",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CB242",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CB6AA",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CBE1D",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CCBD3",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CD0D8",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "CDD1A",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CECCF",
+   "stratum": "disagree"
+  },
+  {
+   "case_id": "CF19F",
+   "stratum": "agree"
+  },
+  {
+   "case_id": "CF245",
+   "stratum": "agree"
+  }
+ ],
+ "population": {
+  "agree": 31,
+  "disagree": 5
+ },
+ "sample": {
+  "agree": 31,
+  "disagree": 5
+ },
+ "seed": 20261111
+}

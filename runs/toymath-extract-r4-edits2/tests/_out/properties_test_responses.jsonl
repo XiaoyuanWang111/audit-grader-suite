@@ -1,0 +1,422 @@
+{"id": "base|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5"}
+{"id": "base|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486"}
+{"id": "base|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250"}
+{"id": "base|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7"}
+{"id": "base|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72"}
+{"id": "base|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0"}
+{"id": "base|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000"}
+{"id": "base|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120"}
+{"id": "base|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8"}
+{"id": "base|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13"}
+{"id": "base|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756"}
+{"id": "base|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15"}
+{"id": "numbered-lines|p01", "model": "fixture", "problem_id": "p01", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 3.5"}
+{"id": "numbered-lines|p02", "model": "fixture", "problem_id": "p02", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 486"}
+{"id": "numbered-lines|p03", "model": "fixture", "problem_id": "p03", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 2250"}
+{"id": "numbered-lines|p04", "model": "fixture", "problem_id": "p04", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: -7"}
+{"id": "numbered-lines|p05", "model": "fixture", "problem_id": "p05", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 72"}
+{"id": "numbered-lines|p06", "model": "fixture", "problem_id": "p06", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 0"}
+{"id": "numbered-lines|p07", "model": "fixture", "problem_id": "p07", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 15000"}
+{"id": "numbered-lines|p08", "model": "fixture", "problem_id": "p08", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 120"}
+{"id": "numbered-lines|p09", "model": "fixture", "problem_id": "p09", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 28.8"}
+{"id": "numbered-lines|p10", "model": "fixture", "problem_id": "p10", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 13"}
+{"id": "numbered-lines|p11", "model": "fixture", "problem_id": "p11", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 756"}
+{"id": "numbered-lines|p12", "model": "fixture", "problem_id": "p12", "response": "1. Step one works through the problem.\n2. The result follows from the given numbers.\nAnswer: 15"}
+{"id": "bulleted-lines|p01", "model": "fixture", "problem_id": "p01", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 3.5"}
+{"id": "bulleted-lines|p02", "model": "fixture", "problem_id": "p02", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 486"}
+{"id": "bulleted-lines|p03", "model": "fixture", "problem_id": "p03", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 2250"}
+{"id": "bulleted-lines|p04", "model": "fixture", "problem_id": "p04", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: -7"}
+{"id": "bulleted-lines|p05", "model": "fixture", "problem_id": "p05", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 72"}
+{"id": "bulleted-lines|p06", "model": "fixture", "problem_id": "p06", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 0"}
+{"id": "bulleted-lines|p07", "model": "fixture", "problem_id": "p07", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 15000"}
+{"id": "bulleted-lines|p08", "model": "fixture", "problem_id": "p08", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 120"}
+{"id": "bulleted-lines|p09", "model": "fixture", "problem_id": "p09", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 28.8"}
+{"id": "bulleted-lines|p10", "model": "fixture", "problem_id": "p10", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 13"}
+{"id": "bulleted-lines|p11", "model": "fixture", "problem_id": "p11", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 756"}
+{"id": "bulleted-lines|p12", "model": "fixture", "problem_id": "p12", "response": "- Step one works through the problem.\n- The result follows from the given numbers.\nAnswer: 15"}
+{"id": "bold-first-word|p01", "model": "fixture", "problem_id": "p01", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5"}
+{"id": "bold-first-word|p02", "model": "fixture", "problem_id": "p02", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486"}
+{"id": "bold-first-word|p03", "model": "fixture", "problem_id": "p03", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250"}
+{"id": "bold-first-word|p04", "model": "fixture", "problem_id": "p04", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7"}
+{"id": "bold-first-word|p05", "model": "fixture", "problem_id": "p05", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72"}
+{"id": "bold-first-word|p06", "model": "fixture", "problem_id": "p06", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0"}
+{"id": "bold-first-word|p07", "model": "fixture", "problem_id": "p07", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000"}
+{"id": "bold-first-word|p08", "model": "fixture", "problem_id": "p08", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120"}
+{"id": "bold-first-word|p09", "model": "fixture", "problem_id": "p09", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8"}
+{"id": "bold-first-word|p10", "model": "fixture", "problem_id": "p10", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13"}
+{"id": "bold-first-word|p11", "model": "fixture", "problem_id": "p11", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756"}
+{"id": "bold-first-word|p12", "model": "fixture", "problem_id": "p12", "response": "**Step** one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15"}
+{"id": "italic-html-word|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 3.5"}
+{"id": "italic-html-word|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 486"}
+{"id": "italic-html-word|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 2250"}
+{"id": "italic-html-word|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: -7"}
+{"id": "italic-html-word|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 72"}
+{"id": "italic-html-word|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 0"}
+{"id": "italic-html-word|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 15000"}
+{"id": "italic-html-word|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 120"}
+{"id": "italic-html-word|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 28.8"}
+{"id": "italic-html-word|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 13"}
+{"id": "italic-html-word|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 756"}
+{"id": "italic-html-word|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the *problem*.\nThe <b>result</b> follows from the given numbers.\nAnswer: 15"}
+{"id": "typographic-quotes-word|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 3.5"}
+{"id": "typographic-quotes-word|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 486"}
+{"id": "typographic-quotes-word|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 2250"}
+{"id": "typographic-quotes-word|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: -7"}
+{"id": "typographic-quotes-word|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 72"}
+{"id": "typographic-quotes-word|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 0"}
+{"id": "typographic-quotes-word|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 15000"}
+{"id": "typographic-quotes-word|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 120"}
+{"id": "typographic-quotes-word|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 28.8"}
+{"id": "typographic-quotes-word|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 13"}
+{"id": "typographic-quotes-word|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 756"}
+{"id": "typographic-quotes-word|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the “problem”.\nThe problem’s result follows from the given numbers.\nAnswer: 15"}
+{"id": "punct-after-last-word|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 3.5"}
+{"id": "punct-after-last-word|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 486"}
+{"id": "punct-after-last-word|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 2250"}
+{"id": "punct-after-last-word|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: -7"}
+{"id": "punct-after-last-word|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 72"}
+{"id": "punct-after-last-word|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 0"}
+{"id": "punct-after-last-word|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 15000"}
+{"id": "punct-after-last-word|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 120"}
+{"id": "punct-after-last-word|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 28.8"}
+{"id": "punct-after-last-word|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 13"}
+{"id": "punct-after-last-word|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 756"}
+{"id": "punct-after-last-word|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem!\nThe result follows from the given numbers;\nAnswer: 15"}
+{"id": "blank-lines|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 3.5"}
+{"id": "blank-lines|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 486"}
+{"id": "blank-lines|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 2250"}
+{"id": "blank-lines|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: -7"}
+{"id": "blank-lines|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 72"}
+{"id": "blank-lines|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 0"}
+{"id": "blank-lines|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 15000"}
+{"id": "blank-lines|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 120"}
+{"id": "blank-lines|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 28.8"}
+{"id": "blank-lines|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 13"}
+{"id": "blank-lines|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 756"}
+{"id": "blank-lines|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\n\nThe result follows from the given numbers.\n\nAnswer: 15"}
+{"id": "trailing-newline|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5\n"}
+{"id": "trailing-newline|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486\n"}
+{"id": "trailing-newline|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250\n"}
+{"id": "trailing-newline|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7\n"}
+{"id": "trailing-newline|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72\n"}
+{"id": "trailing-newline|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0\n"}
+{"id": "trailing-newline|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000\n"}
+{"id": "trailing-newline|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120\n"}
+{"id": "trailing-newline|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8\n"}
+{"id": "trailing-newline|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13\n"}
+{"id": "trailing-newline|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756\n"}
+{"id": "trailing-newline|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15\n"}
+{"id": "crlf|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 3.5\r\n"}
+{"id": "crlf|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 486\r\n"}
+{"id": "crlf|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 2250\r\n"}
+{"id": "crlf|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: -7\r\n"}
+{"id": "crlf|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 72\r\n"}
+{"id": "crlf|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 0\r\n"}
+{"id": "crlf|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 15000\r\n"}
+{"id": "crlf|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 120\r\n"}
+{"id": "crlf|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 28.8\r\n"}
+{"id": "crlf|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 13\r\n"}
+{"id": "crlf|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 756\r\n"}
+{"id": "crlf|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\r\nThe result follows from the given numbers.\r\nAnswer: 15\r\n"}
+{"id": "indent-answer|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 3.5"}
+{"id": "indent-answer|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 486"}
+{"id": "indent-answer|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 2250"}
+{"id": "indent-answer|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: -7"}
+{"id": "indent-answer|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 72"}
+{"id": "indent-answer|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 0"}
+{"id": "indent-answer|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 15000"}
+{"id": "indent-answer|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 120"}
+{"id": "indent-answer|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 28.8"}
+{"id": "indent-answer|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 13"}
+{"id": "indent-answer|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 756"}
+{"id": "indent-answer|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n  Answer: 15"}
+{"id": "tab-answer|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 3.5"}
+{"id": "tab-answer|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 486"}
+{"id": "tab-answer|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 2250"}
+{"id": "tab-answer|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: -7"}
+{"id": "tab-answer|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 72"}
+{"id": "tab-answer|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 0"}
+{"id": "tab-answer|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 15000"}
+{"id": "tab-answer|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 120"}
+{"id": "tab-answer|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 28.8"}
+{"id": "tab-answer|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 13"}
+{"id": "tab-answer|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 756"}
+{"id": "tab-answer|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n\tAnswer: 15"}
+{"id": "no-space-after-colon|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:3.5"}
+{"id": "no-space-after-colon|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:486"}
+{"id": "no-space-after-colon|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:2250"}
+{"id": "no-space-after-colon|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:-7"}
+{"id": "no-space-after-colon|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:72"}
+{"id": "no-space-after-colon|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:0"}
+{"id": "no-space-after-colon|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:15000"}
+{"id": "no-space-after-colon|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:120"}
+{"id": "no-space-after-colon|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:28.8"}
+{"id": "no-space-after-colon|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:13"}
+{"id": "no-space-after-colon|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:756"}
+{"id": "no-space-after-colon|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer:15"}
+{"id": "trailing-space|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5   "}
+{"id": "trailing-space|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486   "}
+{"id": "trailing-space|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250   "}
+{"id": "trailing-space|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7   "}
+{"id": "trailing-space|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72   "}
+{"id": "trailing-space|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0   "}
+{"id": "trailing-space|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000   "}
+{"id": "trailing-space|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120   "}
+{"id": "trailing-space|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8   "}
+{"id": "trailing-space|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13   "}
+{"id": "trailing-space|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756   "}
+{"id": "trailing-space|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15   "}
+{"id": "trailing-zero|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.50"}
+{"id": "trailing-zero|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486.0"}
+{"id": "trailing-zero|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250.0"}
+{"id": "trailing-zero|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7.0"}
+{"id": "trailing-zero|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72.0"}
+{"id": "trailing-zero|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0.0"}
+{"id": "trailing-zero|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000.0"}
+{"id": "trailing-zero|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120.0"}
+{"id": "trailing-zero|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.80"}
+{"id": "trailing-zero|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13.0"}
+{"id": "trailing-zero|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756.0"}
+{"id": "trailing-zero|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15.0"}
+{"id": "thousands-commas|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2,250"}
+{"id": "thousands-commas|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15,000"}
+{"id": "lines-after-answer|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "lines-after-answer|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15\nHope this helps.\nCheck: 1 + 1 = 2."}
+{"id": "earlier-wrong-answer-line|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 3.5"}
+{"id": "earlier-wrong-answer-line|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 486"}
+{"id": "earlier-wrong-answer-line|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 2250"}
+{"id": "earlier-wrong-answer-line|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: -7"}
+{"id": "earlier-wrong-answer-line|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 72"}
+{"id": "earlier-wrong-answer-line|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 0"}
+{"id": "earlier-wrong-answer-line|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 15000"}
+{"id": "earlier-wrong-answer-line|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 120"}
+{"id": "earlier-wrong-answer-line|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 28.8"}
+{"id": "earlier-wrong-answer-line|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 13"}
+{"id": "earlier-wrong-answer-line|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 756"}
+{"id": "earlier-wrong-answer-line|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 999999\nAnswer: 15"}
+{"id": "period-after-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5."}
+{"id": "period-after-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486."}
+{"id": "period-after-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250."}
+{"id": "period-after-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7."}
+{"id": "period-after-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72."}
+{"id": "period-after-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0."}
+{"id": "period-after-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000."}
+{"id": "period-after-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120."}
+{"id": "period-after-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8."}
+{"id": "period-after-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13."}
+{"id": "period-after-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756."}
+{"id": "period-after-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15."}
+{"id": "exclaim-after-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5!"}
+{"id": "exclaim-after-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486!"}
+{"id": "exclaim-after-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250!"}
+{"id": "exclaim-after-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7!"}
+{"id": "exclaim-after-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72!"}
+{"id": "exclaim-after-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0!"}
+{"id": "exclaim-after-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000!"}
+{"id": "exclaim-after-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120!"}
+{"id": "exclaim-after-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8!"}
+{"id": "exclaim-after-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13!"}
+{"id": "exclaim-after-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756!"}
+{"id": "exclaim-after-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15!"}
+{"id": "bold-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **3.5**"}
+{"id": "bold-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **486**"}
+{"id": "bold-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **2250**"}
+{"id": "bold-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **-7**"}
+{"id": "bold-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **72**"}
+{"id": "bold-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **0**"}
+{"id": "bold-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **15000**"}
+{"id": "bold-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **120**"}
+{"id": "bold-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **28.8**"}
+{"id": "bold-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **13**"}
+{"id": "bold-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **756**"}
+{"id": "bold-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: **15**"}
+{"id": "italic-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *3.5*"}
+{"id": "italic-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *486*"}
+{"id": "italic-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *2250*"}
+{"id": "italic-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *-7*"}
+{"id": "italic-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *72*"}
+{"id": "italic-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *0*"}
+{"id": "italic-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *15000*"}
+{"id": "italic-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *120*"}
+{"id": "italic-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *28.8*"}
+{"id": "italic-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *13*"}
+{"id": "italic-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *756*"}
+{"id": "italic-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: *15*"}
+{"id": "html-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>3.5</b>"}
+{"id": "html-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>486</b>"}
+{"id": "html-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>2250</b>"}
+{"id": "html-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>-7</b>"}
+{"id": "html-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>72</b>"}
+{"id": "html-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>0</b>"}
+{"id": "html-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>15000</b>"}
+{"id": "html-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>120</b>"}
+{"id": "html-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>28.8</b>"}
+{"id": "html-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>13</b>"}
+{"id": "html-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>756</b>"}
+{"id": "html-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: <b>15</b>"}
+{"id": "typographic-quotes-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “3.5”"}
+{"id": "typographic-quotes-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “486”"}
+{"id": "typographic-quotes-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “2250”"}
+{"id": "typographic-quotes-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “-7”"}
+{"id": "typographic-quotes-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “72”"}
+{"id": "typographic-quotes-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “0”"}
+{"id": "typographic-quotes-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “15000”"}
+{"id": "typographic-quotes-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “120”"}
+{"id": "typographic-quotes-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “28.8”"}
+{"id": "typographic-quotes-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “13”"}
+{"id": "typographic-quotes-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “756”"}
+{"id": "typographic-quotes-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: “15”"}
+{"id": "unit-after-number|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5 units"}
+{"id": "unit-after-number|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486 units"}
+{"id": "unit-after-number|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250 units"}
+{"id": "unit-after-number|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7 units"}
+{"id": "unit-after-number|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72 units"}
+{"id": "unit-after-number|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0 units"}
+{"id": "unit-after-number|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000 units"}
+{"id": "unit-after-number|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120 units"}
+{"id": "unit-after-number|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8 units"}
+{"id": "unit-after-number|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13 units"}
+{"id": "unit-after-number|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756 units"}
+{"id": "unit-after-number|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15 units"}
+{"id": "nbsp-before-label|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 3.5"}
+{"id": "nbsp-before-label|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 486"}
+{"id": "nbsp-before-label|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 2250"}
+{"id": "nbsp-before-label|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: -7"}
+{"id": "nbsp-before-label|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 72"}
+{"id": "nbsp-before-label|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 0"}
+{"id": "nbsp-before-label|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 15000"}
+{"id": "nbsp-before-label|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 120"}
+{"id": "nbsp-before-label|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 28.8"}
+{"id": "nbsp-before-label|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 13"}
+{"id": "nbsp-before-label|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 756"}
+{"id": "nbsp-before-label|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n Answer: 15"}
+{"id": "shift-plus-0.02|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.52"}
+{"id": "shift-plus-0.02|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486.02"}
+{"id": "shift-plus-0.02|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250.02"}
+{"id": "shift-plus-0.02|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -6.98"}
+{"id": "shift-plus-0.02|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72.02"}
+{"id": "shift-plus-0.02|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0.02"}
+{"id": "shift-plus-0.02|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000.02"}
+{"id": "shift-plus-0.02|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120.02"}
+{"id": "shift-plus-0.02|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.82"}
+{"id": "shift-plus-0.02|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13.02"}
+{"id": "shift-plus-0.02|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756.02"}
+{"id": "shift-plus-0.02|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15.02"}
+{"id": "shift-plus-1|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 4.5"}
+{"id": "shift-plus-1|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 487"}
+{"id": "shift-plus-1|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2251"}
+{"id": "shift-plus-1|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -6"}
+{"id": "shift-plus-1|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 73"}
+{"id": "shift-plus-1|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 1"}
+{"id": "shift-plus-1|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15001"}
+{"id": "shift-plus-1|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 121"}
+{"id": "shift-plus-1|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 29.8"}
+{"id": "shift-plus-1|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 14"}
+{"id": "shift-plus-1|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 757"}
+{"id": "shift-plus-1|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 16"}
+{"id": "negate|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -3.5"}
+{"id": "negate|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -486"}
+{"id": "negate|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -2250"}
+{"id": "negate|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 7"}
+{"id": "negate|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -72"}
+{"id": "negate|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -15000"}
+{"id": "negate|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -120"}
+{"id": "negate|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -28.8"}
+{"id": "negate|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -13"}
+{"id": "negate|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -756"}
+{"id": "negate|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -15"}
+{"id": "unicode-minus|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: −7"}
+{"id": "lowercase-label|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 3.5"}
+{"id": "lowercase-label|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 486"}
+{"id": "lowercase-label|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 2250"}
+{"id": "lowercase-label|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: -7"}
+{"id": "lowercase-label|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 72"}
+{"id": "lowercase-label|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 0"}
+{"id": "lowercase-label|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 15000"}
+{"id": "lowercase-label|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 120"}
+{"id": "lowercase-label|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 28.8"}
+{"id": "lowercase-label|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 13"}
+{"id": "lowercase-label|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 756"}
+{"id": "lowercase-label|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nanswer: 15"}
+{"id": "bold-label|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 3.5"}
+{"id": "bold-label|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 486"}
+{"id": "bold-label|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 2250"}
+{"id": "bold-label|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** -7"}
+{"id": "bold-label|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 72"}
+{"id": "bold-label|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 0"}
+{"id": "bold-label|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 15000"}
+{"id": "bold-label|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 120"}
+{"id": "bold-label|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 28.8"}
+{"id": "bold-label|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 13"}
+{"id": "bold-label|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 756"}
+{"id": "bold-label|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n**Answer:** 15"}
+{"id": "bullet-before-label|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 3.5"}
+{"id": "bullet-before-label|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 486"}
+{"id": "bullet-before-label|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 2250"}
+{"id": "bullet-before-label|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: -7"}
+{"id": "bullet-before-label|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 72"}
+{"id": "bullet-before-label|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 0"}
+{"id": "bullet-before-label|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 15000"}
+{"id": "bullet-before-label|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 120"}
+{"id": "bullet-before-label|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 28.8"}
+{"id": "bullet-before-label|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 13"}
+{"id": "bullet-before-label|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 756"}
+{"id": "bullet-before-label|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n- Answer: 15"}
+{"id": "numbered-before-label|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 3.5"}
+{"id": "numbered-before-label|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 486"}
+{"id": "numbered-before-label|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 2250"}
+{"id": "numbered-before-label|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: -7"}
+{"id": "numbered-before-label|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 72"}
+{"id": "numbered-before-label|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 0"}
+{"id": "numbered-before-label|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 15000"}
+{"id": "numbered-before-label|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 120"}
+{"id": "numbered-before-label|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 28.8"}
+{"id": "numbered-before-label|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 13"}
+{"id": "numbered-before-label|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 756"}
+{"id": "numbered-before-label|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\n3. Answer: 15"}
+{"id": "label-mid-line|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 3.5"}
+{"id": "label-mid-line|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 486"}
+{"id": "label-mid-line|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 2250"}
+{"id": "label-mid-line|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: -7"}
+{"id": "label-mid-line|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 72"}
+{"id": "label-mid-line|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 0"}
+{"id": "label-mid-line|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 15000"}
+{"id": "label-mid-line|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 120"}
+{"id": "label-mid-line|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 28.8"}
+{"id": "label-mid-line|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 13"}
+{"id": "label-mid-line|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 756"}
+{"id": "label-mid-line|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nSo the Answer: 15"}
+{"id": "later-wrong-answer-line|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 3.5\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 486\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 2250\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: -7\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 72\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 0\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15000\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 120\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 28.8\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 13\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 756\nAnswer: 999999"}
+{"id": "later-wrong-answer-line|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nAnswer: 15\nAnswer: 999999"}
+{"id": "answer-line-removed|p01", "model": "fixture", "problem_id": "p01", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 3.5."}
+{"id": "answer-line-removed|p02", "model": "fixture", "problem_id": "p02", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 486."}
+{"id": "answer-line-removed|p03", "model": "fixture", "problem_id": "p03", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 2250."}
+{"id": "answer-line-removed|p04", "model": "fixture", "problem_id": "p04", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is -7."}
+{"id": "answer-line-removed|p05", "model": "fixture", "problem_id": "p05", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 72."}
+{"id": "answer-line-removed|p06", "model": "fixture", "problem_id": "p06", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 0."}
+{"id": "answer-line-removed|p07", "model": "fixture", "problem_id": "p07", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 15000."}
+{"id": "answer-line-removed|p08", "model": "fixture", "problem_id": "p08", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 120."}
+{"id": "answer-line-removed|p09", "model": "fixture", "problem_id": "p09", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 28.8."}
+{"id": "answer-line-removed|p10", "model": "fixture", "problem_id": "p10", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 13."}
+{"id": "answer-line-removed|p11", "model": "fixture", "problem_id": "p11", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 756."}
+{"id": "answer-line-removed|p12", "model": "fixture", "problem_id": "p12", "response": "Step one works through the problem.\nThe result follows from the given numbers.\nThe answer is 15."}

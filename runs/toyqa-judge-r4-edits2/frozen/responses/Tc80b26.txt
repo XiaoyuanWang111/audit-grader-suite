@@ -1,0 +1,3 @@
+<think>The user asks for the capital of Australia. Sydney is the largest city, but the capital is Canberra.</think>
+
+Canberra

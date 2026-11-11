@@ -1,0 +1,4 @@
+<think>
+The smallest prime is 2.
+</think>
+2

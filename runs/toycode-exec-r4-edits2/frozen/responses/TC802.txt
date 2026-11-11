@@ -1,0 +1,21 @@
+```python
+def run_length(s):
+    if not s:
+        return ""
+    parts = []
+    current, count = s[0], 1
+    for ch in s[1:]:
+        if ch == current:
+            count += 1
+        else:
+            parts.append(f"{current}{count}")
+            current, count = ch, 1
+    parts.append(f"{current}{count}")
+    return "".join(parts)
+```
+
+Example:
+
+```python
+print(run_length("aaab"))  # a3b1
+```

@@ -1,0 +1,114 @@
+{
+ "cases": {
+  "C1AF8": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C1D41": {
+   "/workspace/answer.txt": "41\n"
+  },
+  "C22E6": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C235B": {
+   "/workspace/out/answer.txt": "36\n"
+  },
+  "C24B7": {
+   "/workspace/out/answer.txt": "37\n"
+  },
+  "C2C4C": {
+   "/workspace/answer.txt": "41\n"
+  },
+  "C2DF4": {
+   "/workspace/out/answer.txt": "45\n"
+  },
+  "C3439": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C3813": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C3E79": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C4213": {
+   "/workspace/tmp/scratch.txt": "trying zcat\n"
+  },
+  "C42FD": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C5027": {
+   "/workspace/out/answer.txt": "37\n"
+  },
+  "C5493": {
+   "/workspace/out/answer.txt": "41\n",
+   "/workspace/tmp/count.py": "import gzip, re\n"
+  },
+  "C55AD": {
+   "/workspace/out/answer.txt": "40\n",
+   "/workspace/out/count.sh": "zcat -f /workspace/logs/access.log* | awk '{print $9}' | grep -c '^5'\n"
+  },
+  "C599C": {
+   "/workspace/out/answer.txt": "37\n"
+  },
+  "C605D": {
+   "/workspace/out/answer.txt": "40\n",
+   "/workspace/out/count.sh": "zcat -f /workspace/logs/access.log* | awk '{print $9}' | grep -c '^5'\n"
+  },
+  "C686C": {
+   "/workspace/out/answer.txt": "41"
+  },
+  "C6CC0": {
+   "/workspace/answer.txt": "37\n"
+  },
+  "C81C5": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C8551": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C8880": {
+   "/workspace/out/answer.txt": "37\n"
+  },
+  "C896D": {
+   "/workspace/out/answer.txt": "Total 5xx: 41\n"
+  },
+  "C8A47": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "C9E28": {
+   "/workspace/out/answer.txt": "37\n"
+  },
+  "CA52E": {
+   "/workspace/out/answer.txt": "37\n"
+  },
+  "CACD0": {
+   "/workspace/out/answer.txt": ""
+  },
+  "CB242": {
+   "/workspace/out/answer.txt": "45\n"
+  },
+  "CB6AA": {
+   "/workspace/out/answer.txt": "41 server errors\n"
+  },
+  "CBE1D": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "CCBD3": {
+   "/workspace/out/answer.txt": "0\n"
+  },
+  "CD0D8": {
+   "/workspace/tmp/notes.txt": "access.log: 20\naccess.log.1: 17\n"
+  },
+  "CDD1A": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "CECCF": {},
+  "CF19F": {
+   "/workspace/out/answer.txt": "41\n"
+  },
+  "CF245": {
+   "/workspace/out/answer.txt": "41\n"
+  }
+ },
+ "encoding": "file bytes as latin-1 code points"
+}

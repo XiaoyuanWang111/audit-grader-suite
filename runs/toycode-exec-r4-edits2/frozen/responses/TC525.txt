@@ -1,0 +1,17 @@
+```python
+def parse_duration(text):
+    total = 0
+    number = ""
+    for ch in text:
+        if ch.isdigit():
+            number += ch
+        elif ch == "h":
+            total += int(number) * 60
+            number = ""
+        elif ch == "m":
+            total += int(number)
+            number = ""
+        else:
+            raise ValueError(f"unexpected character {ch!r}")
+    return total
+```

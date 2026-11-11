@@ -1,0 +1,1604 @@
+{
+ "properties": {
+  "(base responses)": {
+   "kind": "base",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "trailing newline": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "whitespace at both ends": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "blank line between lines": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "top-level keys reordered": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "items reordered": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "customer upper-cased": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "customer padded with spaces": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "total with an extra trailing zero": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "total in exponent form": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "extra key inside each item": {
+   "kind": "ignored",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "CRLF line breaks, unfenced": {
+   "kind": "ignored",
+   "cases": 24,
+   "grader": [],
+   "replacement": []
+  },
+  "numbered label before each line": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [
+    {
+     "order_id": "o01",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o01",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o01",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o01",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o02",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o02",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o02",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o02",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o03",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o03",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o03",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o03",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o04",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o04",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o04",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o04",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o05",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o05",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o05",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o05",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o06",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o06",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o06",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o06",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o07",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o07",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o07",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o07",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o08",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o08",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o08",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o08",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o09",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o09",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o09",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o09",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o10",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o10",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o10",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o10",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o11",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o11",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o11",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o11",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o12",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o12",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o12",
+     "serialization": "fenced-json",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o12",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    }
+   ],
+   "replacement": []
+  },
+  "bullet before each line": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "bold markup around the answer": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "HTML tag around the answer": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "bold markup around the customer's first word": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "HTML tag around the customer's first word": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "typographic quotes around the customer key": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "typographic apostrophe inside the customer's first word": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "full stop after the customer's last word": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "full stop after the answer": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [
+    {
+     "order_id": "o01",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    }
+   ],
+   "replacement": []
+  },
+  "trailing sentence": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [
+    {
+     "order_id": "o01",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": 1.0
+    }
+   ],
+   "replacement": []
+  },
+  "leading sentence": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [],
+   "replacement": []
+  },
+  "answer wrapped in a list": {
+   "kind": "forbidden",
+   "cases": 24,
+   "grader": [
+    {
+     "order_id": "o01",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o01",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o02",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o02",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o03",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o03",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o04",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o04",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o05",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o05",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o06",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o06",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o07",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o07",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o08",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o08",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o09",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o09",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o10",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o10",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o11",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o11",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o12",
+     "serialization": "compact",
+     "expected": 0.0,
+     "got": "AttributeError"
+    },
+    {
+     "order_id": "o12",
+     "serialization": "pretty",
+     "expected": 0.0,
+     "got": "AttributeError"
+    }
+   ],
+   "replacement": []
+  },
+  "last item duplicated": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [
+    {
+     "order_id": "o01",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "compact",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "fenced-json",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "compact",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "fenced-json",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    }
+   ],
+   "replacement": []
+  },
+  "extra shipping item": {
+   "kind": "forbidden",
+   "cases": 48,
+   "grader": [
+    {
+     "order_id": "o01",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o01",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o02",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o03",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o04",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o05",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "compact",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "fenced-json",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o06",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o07",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o08",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "compact",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "fenced-json",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o09",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9166666666666666,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o10",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "compact",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "fenced-json",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o11",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.9375,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "compact",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "pretty",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "fenced-json",
+     "expected": 0.875,
+     "got": 1.0
+    },
+    {
+     "order_id": "o12",
+     "serialization": "fenced-plain-pretty",
+     "expected": 0.875,
+     "got": 1.0
+    }
+   ],
+   "replacement": []
+  }
+ },
+ "fuzz": {
+  "random text": {
+   "inputs": 2000,
+   "grader": {
+    "AttributeError": 370
+   },
+   "replacement": {},
+   "disagree_fixes_only": 370,
+   "examples": {
+    "grader:AttributeError": {
+     "order_id": "o08",
+     "response": " 0oexN\u201cu.1a\"[nn6+\u20198\n.fa7t2\"l2\\:]nf"
+    }
+   }
+  },
+  "mutated correct answer": {
+   "inputs": 2000,
+   "grader": {
+    "AttributeError": 19
+   },
+   "replacement": {},
+   "disagree_fixes_only": 31,
+   "examples": {
+    "grader:AttributeError": {
+     "order_id": "o08",
+     "response": "\n  \"custom[er\": \"Sofia Rossi\",\n  \"date\": \"2026-03-20\",\n  \"items\": [    {\"sku\": \"YZ-480\", \"qty\": 1},\n    {\"sku\": \"AB-590\", \"qty\": 3}\n  ],\n  \"total\": 35.00\n}"
+    }
+   }
+  },
+  "random JSON value": {
+   "inputs": 2000,
+   "grader": {
+    "AttributeError": 1306,
+    "ValueError": 74,
+    "Overflow": 5
+   },
+   "replacement": {},
+   "disagree_fixes_only": 1386,
+   "examples": {
+    "grader:AttributeError": {
+     "order_id": "o08",
+     "response": "false"
+    },
+    "grader:ValueError": {
+     "order_id": "o10",
+     "response": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "grader:Overflow": {
+     "order_id": "o09",
+     "response": "{\"qty\": true, \"date\": false, \"total\": -1e74246672}"
+    }
+   }
+  },
+  "random order object": {
+   "inputs": 2000,
+   "grader": {
+    "RecursionError": 399,
+    "Overflow": 117,
+    "ValueError": 258
+   },
+   "replacement": {},
+   "disagree_fixes_only": 1256,
+   "examples": {
+    "grader:RecursionError": {
+     "order_id": "o04",
+     "response": "[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[["
+    },
+    "grader:Overflow": {
+     "order_id": "o06",
+     "response": "{\"customer\": \"Lars Nilsson\", \"date\": \"2026-02-28\", \"items\": [{\"sku\": \"ST-150\", \"qty\": 2}, {\"sku\": [false, true], \"qty\": 1.0}, {\"sku\": {\"items\": null, \"sku\": \"2026-03-07\", \"qty\": \"AB-100\", \"customer\": "
+    },
+    "grader:ValueError": {
+     "order_id": "o06",
+     "response": "{\"customer\": \"Lars Nilsson\", \"date\": \"2026-02-28\", \"items\": [{\"sku\": {\"date\": false, \"extra\": false, \"sku\": true}, \"qty\": 100000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+   }
+  }
+ },
+ "content_free": {
+  "empty": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "whitespace only": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "repeated word": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "repeated braces": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "instructions restated (rendered prompt)": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "instructions restated (template)": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "the email copied": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "empty object": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "keys with empty values": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "schema placeholder": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "null": {
+   "grader": 0.0,
+   "replacement": 0.0
+  },
+  "empty list": {
+   "grader": "AttributeError",
+   "replacement": 0.0
+  },
+  "empty string literal": {
+   "grader": "AttributeError",
+   "replacement": 0.0
+  },
+  "zero": {
+   "grader": "AttributeError",
+   "replacement": 0.0
+  }
+ }
+}

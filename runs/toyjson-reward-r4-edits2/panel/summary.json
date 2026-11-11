@@ -1,0 +1,341 @@
+{
+ "checkpoints": {
+  "step-0000": {
+   "rollouts": 12,
+   "scored_coverage_grader": 1.0,
+   "scored_coverage_replacement": 1.0,
+   "mean_grader": 0.7555555555555555,
+   "full_grader": 5,
+   "mean_fixes_only": 0.5836805555555555,
+   "full_fixes_only": 2,
+   "mean_proposed": 0.5836805555555555,
+   "full_proposed": 2,
+   "grader_minus_fixes_only": {
+    "mean": 0.171875,
+    "ci95": [
+     0.0,
+     0.4166666666666667
+    ],
+    "rollouts_differing": 3
+   },
+   "grader_minus_proposed": {
+    "mean": 0.171875,
+    "ci95": [
+     0.0,
+     0.4166666666666667
+    ],
+    "rollouts_differing": 3
+   },
+   "checks_full_count": {
+    "answer": {
+     "grader_full": 10,
+     "proposed_full": 8
+    },
+    "customer": {
+     "grader_full": 10,
+     "proposed_full": 8
+    },
+    "date": {
+     "grader_full": 8,
+     "proposed_full": 6
+    },
+    "items": {
+     "grader_full": 9,
+     "proposed_full": 6
+    },
+    "total": {
+     "grader_full": 9,
+     "proposed_full": 7
+    },
+    "no_extra_keys": {
+     "grader_full": 11,
+     "proposed_full": 11
+    }
+   }
+  },
+  "step-0200": {
+   "rollouts": 12,
+   "scored_coverage_grader": 1.0,
+   "scored_coverage_replacement": 1.0,
+   "mean_grader": 0.9708333333333333,
+   "full_grader": 10,
+   "mean_fixes_only": 0.9604166666666667,
+   "full_fixes_only": 9,
+   "mean_proposed": 0.9291666666666667,
+   "full_proposed": 7,
+   "grader_minus_fixes_only": {
+    "mean": 0.010416666666666666,
+    "ci95": [
+     0.0,
+     0.03125
+    ],
+    "rollouts_differing": 1
+   },
+   "grader_minus_proposed": {
+    "mean": 0.041666666666666664,
+    "ci95": [
+     0.0,
+     0.09375
+    ],
+    "rollouts_differing": 3
+   },
+   "checks_full_count": {
+    "answer": {
+     "grader_full": 12,
+     "proposed_full": 12
+    },
+    "customer": {
+     "grader_full": 11,
+     "proposed_full": 11
+    },
+    "date": {
+     "grader_full": 12,
+     "proposed_full": 12
+    },
+    "items": {
+     "grader_full": 12,
+     "proposed_full": 9
+    },
+    "total": {
+     "grader_full": 12,
+     "proposed_full": 12
+    },
+    "no_extra_keys": {
+     "grader_full": 11,
+     "proposed_full": 11
+    }
+   }
+  },
+  "step-0400": {
+   "rollouts": 12,
+   "scored_coverage_grader": 1.0,
+   "scored_coverage_replacement": 1.0,
+   "mean_grader": 0.9791666666666666,
+   "full_grader": 11,
+   "mean_fixes_only": 0.8958333333333334,
+   "full_fixes_only": 10,
+   "mean_proposed": 0.8958333333333334,
+   "full_proposed": 10,
+   "grader_minus_fixes_only": {
+    "mean": 0.08333333333333333,
+    "ci95": [
+     0.0,
+     0.25
+    ],
+    "rollouts_differing": 1
+   },
+   "grader_minus_proposed": {
+    "mean": 0.08333333333333333,
+    "ci95": [
+     0.0,
+     0.25
+    ],
+    "rollouts_differing": 1
+   },
+   "checks_full_count": {
+    "answer": {
+     "grader_full": 12,
+     "proposed_full": 11
+    },
+    "customer": {
+     "grader_full": 12,
+     "proposed_full": 11
+    },
+    "date": {
+     "grader_full": 12,
+     "proposed_full": 11
+    },
+    "items": {
+     "grader_full": 12,
+     "proposed_full": 11
+    },
+    "total": {
+     "grader_full": 11,
+     "proposed_full": 10
+    },
+    "no_extra_keys": {
+     "grader_full": 12,
+     "proposed_full": 12
+    }
+   }
+  },
+  "step-0600": {
+   "rollouts": 12,
+   "scored_coverage_grader": 1.0,
+   "scored_coverage_replacement": 1.0,
+   "mean_grader": 1.0,
+   "full_grader": 12,
+   "mean_fixes_only": 0.7256944444444445,
+   "full_fixes_only": 6,
+   "mean_proposed": 0.7256944444444445,
+   "full_proposed": 6,
+   "grader_minus_fixes_only": {
+    "mean": 0.2743055555555556,
+    "ci95": [
+     0.045138888888888895,
+     0.5208333333333334
+    ],
+    "rollouts_differing": 6
+   },
+   "grader_minus_proposed": {
+    "mean": 0.2743055555555556,
+    "ci95": [
+     0.0451388888888889,
+     0.5208333333333334
+    ],
+    "rollouts_differing": 6
+   },
+   "checks_full_count": {
+    "answer": {
+     "grader_full": 12,
+     "proposed_full": 9
+    },
+    "customer": {
+     "grader_full": 12,
+     "proposed_full": 9
+    },
+    "date": {
+     "grader_full": 12,
+     "proposed_full": 9
+    },
+    "items": {
+     "grader_full": 12,
+     "proposed_full": 6
+    },
+    "total": {
+     "grader_full": 12,
+     "proposed_full": 9
+    },
+    "no_extra_keys": {
+     "grader_full": 12,
+     "proposed_full": 12
+    }
+   }
+  }
+ },
+ "overall": {
+  "rollouts": 48,
+  "scored_coverage_grader": 1.0,
+  "scored_coverage_replacement": 1.0,
+  "mean_grader": 0.9263888888888889,
+  "full_grader": 38,
+  "mean_fixes_only": 0.79140625,
+  "full_fixes_only": 27,
+  "mean_proposed": 0.78359375,
+  "full_proposed": 25,
+  "grader_minus_fixes_only": {
+   "mean": 0.1349826388888889,
+   "ci95": [
+    0.05034722222222223,
+    0.23654513888888887
+   ],
+   "rollouts_differing": 11
+  },
+  "grader_minus_proposed": {
+   "mean": 0.1427951388888889,
+   "ci95": [
+    0.05815972222222223,
+    0.24479166666666666
+   ],
+   "rollouts_differing": 13
+  },
+  "checks_full_count": {
+   "answer": {
+    "grader_full": 46,
+    "proposed_full": 40
+   },
+   "customer": {
+    "grader_full": 45,
+    "proposed_full": 39
+   },
+   "date": {
+    "grader_full": 44,
+    "proposed_full": 38
+   },
+   "items": {
+    "grader_full": 45,
+    "proposed_full": 32
+   },
+   "total": {
+    "grader_full": 44,
+    "proposed_full": 38
+   },
+   "no_extra_keys": {
+    "grader_full": 46,
+    "proposed_full": 46
+   }
+  }
+ },
+ "false_rewards_vs_fixes_only": {
+  "rollouts_rewarded_above_contract": 11,
+  "ids": [
+   "j04",
+   "j05",
+   "j08",
+   "j16",
+   "j18",
+   "j20",
+   "j32",
+   "j37",
+   "j40",
+   "j41",
+   "j47"
+  ],
+  "excess_reward_total": 6.4792,
+  "grader_full_rewards": 38,
+  "grader_full_rewards_not_full_under_contract": 11,
+  "share_of_grader_reward_mass_contradicted": 0.1457,
+  "rollouts_rewarded_below_contract": []
+ },
+ "false_rewards_vs_proposed": {
+  "rollouts_rewarded_above_contract": 13,
+  "ids": [
+   "j02",
+   "j04",
+   "j05",
+   "j08",
+   "j16",
+   "j18",
+   "j20",
+   "j32",
+   "j37",
+   "j40",
+   "j41",
+   "j46",
+   "j47"
+  ],
+  "excess_reward_total": 6.8542,
+  "grader_full_rewards": 38,
+  "grader_full_rewards_not_full_under_contract": 13,
+  "share_of_grader_reward_mass_contradicted": 0.1541,
+  "rollouts_rewarded_below_contract": []
+ },
+ "attribution": {
+  "D-qty-decimal": [
+   "j02",
+   "j46"
+  ],
+  "F2": [
+   "j04",
+   "j16",
+   "j18",
+   "j32",
+   "j41"
+  ],
+  "F1": [
+   "j05",
+   "j08",
+   "j20",
+   "j37",
+   "j40",
+   "j47"
+  ]
+ },
+ "records": {
+  "fenced": 7,
+  "ends_with_brace_or_fence": 41,
+  "think_marker": 0,
+  "grader_rerun_identical": 48,
+  "max_chars": 203
+ }
+}

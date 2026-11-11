@@ -1,0 +1,63 @@
+manifest before: OK
+manifest after: OK
+
+# stored records
+agent_status: {'completed': 31, 'timeout': 3, 'error': 2}
+stored verifier_exit_code: {'0': 20, '1': 16}
+stored verifier_output: {'correct': 17, 'wrong count: 40': 2, 'answer is not a decimal integer': 3, 'wrong count: 37': 7, 'no answer file': 3, 'wrong count: 45': 2, 'wrong count: 36': 1, 'wrong count: 0': 1}
+answer file locations: {'out/answer.txt': 30, 'answer.txt': 3, '<none>': 3}
+out/answer.txt contents: {"'41\\n'": 14, "'41'": 1, "'40\\n'": 2, "'41 server errors\\n'": 1, "'37\\n'": 6, 'None': 6, "'Total 5xx: 41\\n'": 1, "'45\\n'": 2, "''": 1, "'36\\n'": 1, "'0\\n'": 1}
+offline rerun of verify.sh reproduces the stored exit status: 36/36
+
+# per trial: stored exit, rerun exit, replacement exit, flips that change the replacement
+t01 agentx+falcon-70b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t02 agentx+falcon-70b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t03 agentx+falcon-70b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t04 agentx+falcon-70b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t05 agentx+falcon-70b  timeout   files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t06 agentx+falcon-70b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t07 agentx+falcon-70b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t08 agentx+falcon-70b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t09 agentx+falcon-70b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=D-surrounding-text
+t10 agentx+merlin-32b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t11 agentx+merlin-32b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t12 agentx+merlin-32b  completed files=answer.txt                 stored=0 rerun=0 repl=1 flips=-  <-- disagree
+t13 agentx+merlin-32b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t14 agentx+merlin-32b  error     files=-                          stored=0 rerun=0 repl=1 flips=-  <-- disagree
+t15 agentx+merlin-32b  timeout   files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t16 agentx+merlin-32b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t17 agentx+merlin-32b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=D-surrounding-text
+t18 agentx+merlin-32b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t19 agentx+osprey-14b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t20 agentx+osprey-14b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t21 agentx+osprey-14b  error     files=-                          stored=0 rerun=0 repl=1 flips=-  <-- disagree
+t22 agentx+osprey-14b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t23 agentx+osprey-14b  completed files=answer.txt                 stored=1 rerun=1 repl=1 flips=-
+t24 agentx+osprey-14b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t25 agentx+osprey-14b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t26 agentx+osprey-14b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t27 agentx+osprey-14b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t28 agentx+kestrel-8b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t29 agentx+kestrel-8b  timeout   files=-                          stored=0 rerun=0 repl=1 flips=-  <-- disagree
+t30 agentx+kestrel-8b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t31 agentx+kestrel-8b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t32 agentx+kestrel-8b  completed files=out/answer.txt             stored=0 rerun=0 repl=0 flips=-
+t33 agentx+kestrel-8b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t34 agentx+kestrel-8b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+t35 agentx+kestrel-8b  completed files=answer.txt                 stored=0 rerun=0 repl=1 flips=-  <-- disagree
+t36 agentx+kestrel-8b  completed files=out/answer.txt             stored=1 rerun=1 repl=1 flips=-
+
+# scores (percent of the configuration's 9 trials); change = replacement minus current, paired bootstrap 95% interval over trials (10000 resamples, seed 20261111)
+config                n  current  replacement   change  interval  D-surrounding-text  D-whitespace  D-leading-zeros  D-plus-sign  D-nonascii-digits
+agentx+falcon-70b     9     77.8         77.8     +0.0  [+0.0, +0.0]  88.9  77.8  77.8  77.8  77.8
+agentx+kestrel-8b     9     33.3         11.1    -22.2  [-55.6, +0.0]  11.1  11.1  11.1  11.1  11.1
+agentx+merlin-32b     9     77.8         55.6    -22.2  [-55.6, +0.0]  66.7  55.6  55.6  55.6  55.6
+agentx+osprey-14b     9     33.3         22.2    -11.1  [-33.3, +0.0]  22.2  22.2  22.2  22.2  22.2
+
+all trials: current passes 20/36, replacement passes 15/36
+verdict disagreements: 5/36 ['t12', 't14', 't21', 't29', 't35']
+false rewards (current pass, contract fail): 5/20 passes ['t12', 't14', 't21', 't29', 't35']
+current fails that the contract passes: 0 []
+scored coverage: current 36/36, replacement 36/36
+
+wrote audit\panel\panel_verdicts.json

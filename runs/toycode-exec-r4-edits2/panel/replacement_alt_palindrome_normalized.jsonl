@@ -1,0 +1,40 @@
+{"id": "c01", "model": "kite-7b", "task_id": "t01", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c02", "model": "lark-13b", "task_id": "t01", "verdict": "fail", "detail": "test 2 failed (raise)", "counted": true}
+{"id": "c03", "model": "wren-34b", "task_id": "t01", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c04", "model": "finch-8b", "task_id": "t01", "verdict": "fail", "detail": "test 1 failed", "counted": true}
+{"id": "c05", "model": "kite-7b", "task_id": "t02", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c06", "model": "lark-13b", "task_id": "t02", "verdict": "fail", "detail": "test 3 failed", "counted": true}
+{"id": "c07", "model": "wren-34b", "task_id": "t02", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c08", "model": "finch-8b", "task_id": "t02", "verdict": "fail", "detail": "test 3 failed", "counted": true}
+{"id": "c09", "model": "kite-7b", "task_id": "t03", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c10", "model": "lark-13b", "task_id": "t03", "verdict": "fail", "detail": "test 4 failed", "counted": true}
+{"id": "c11", "model": "wren-34b", "task_id": "t03", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c12", "model": "finch-8b", "task_id": "t03", "verdict": "fail", "detail": "test 3 failed", "counted": true}
+{"id": "c13", "model": "kite-7b", "task_id": "t04", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c14", "model": "lark-13b", "task_id": "t04", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c15", "model": "wren-34b", "task_id": "t04", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c16", "model": "finch-8b", "task_id": "t04", "verdict": "fail", "detail": "test 0 failed", "counted": true}
+{"id": "c17", "model": "kite-7b", "task_id": "t05", "verdict": "fail", "detail": "test 1 failed", "counted": true}
+{"id": "c18", "model": "lark-13b", "task_id": "t05", "verdict": "fail", "detail": "imports statistics", "counted": true}
+{"id": "c19", "model": "wren-34b", "task_id": "t05", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c20", "model": "finch-8b", "task_id": "t05", "verdict": "fail", "detail": "test 1 failed", "counted": true}
+{"id": "c21", "model": "kite-7b", "task_id": "t06", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c22", "model": "lark-13b", "task_id": "t06", "verdict": "fail", "detail": "test 1 failed (raise)", "counted": true}
+{"id": "c23", "model": "wren-34b", "task_id": "t06", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c24", "model": "finch-8b", "task_id": "t06", "verdict": "fail", "detail": "test 0 failed", "counted": true}
+{"id": "c25", "model": "kite-7b", "task_id": "t07", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c26", "model": "lark-13b", "task_id": "t07", "verdict": "fail", "detail": "timeout", "counted": true}
+{"id": "c27", "model": "wren-34b", "task_id": "t07", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c28", "model": "finch-8b", "task_id": "t07", "verdict": "fail", "detail": "test 0 failed", "counted": true}
+{"id": "c29", "model": "kite-7b", "task_id": "t08", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c30", "model": "lark-13b", "task_id": "t08", "verdict": "fail", "detail": "test 1 failed", "counted": true}
+{"id": "c31", "model": "wren-34b", "task_id": "t08", "verdict": "fail", "detail": "test 0 failed", "counted": true}
+{"id": "c32", "model": "finch-8b", "task_id": "t08", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c33", "model": "kite-7b", "task_id": "t09", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c34", "model": "lark-13b", "task_id": "t09", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c35", "model": "wren-34b", "task_id": "t09", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c36", "model": "finch-8b", "task_id": "t09", "verdict": "fail", "detail": "test 0 failed", "counted": true}
+{"id": "c37", "model": "kite-7b", "task_id": "t10", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c38", "model": "lark-13b", "task_id": "t10", "verdict": "fail", "detail": "timeout", "counted": true}
+{"id": "c39", "model": "wren-34b", "task_id": "t10", "verdict": "pass", "detail": "all tests passed", "counted": true}
+{"id": "c40", "model": "finch-8b", "task_id": "t10", "verdict": "fail", "detail": "test 2 failed (raise)", "counted": true}

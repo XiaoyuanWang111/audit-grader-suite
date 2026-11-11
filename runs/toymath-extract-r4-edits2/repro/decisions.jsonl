@@ -1,0 +1,6 @@
+{"id": "D-leading-whitespace", "model": "d1", "problem_id": "p05", "response": "\u00a0Answer: 72"}
+{"id": "D-digits", "model": "d2", "problem_id": "p05", "response": "Answer: \uff17\uff12"}
+{"id": "D-surrounding-text", "model": "d3", "problem_id": "p01", "response": "Answer: $3.50"}
+{"id": "D-multiple-numbers", "model": "d4", "problem_id": "p01", "response": "Answer: 6 muffins cost 16.50, so 3.50"}
+{"id": "D-tolerance-boundary", "model": "d5", "problem_id": "p06", "response": "Answer: 0.01"}
+{"id": "D-no-number-label", "model": "d6", "problem_id": "p02", "response": "Answer: unknown"}

@@ -1,0 +1,325 @@
+{
+ "tables": {
+  "G": {
+   "heron-32b-think": {
+    "correct": 10,
+    "incorrect": 1,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 83.3,
+    "correct_given_attempted": 90.9,
+    "f_score": 87.0,
+    "not_attempted_rate": 8.3
+   },
+   "ibis-8b-think": {
+    "correct": 7,
+    "incorrect": 0,
+    "not_attempted": 5,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 58.3,
+    "correct_given_attempted": 100.0,
+    "f_score": 73.7,
+    "not_attempted_rate": 41.7
+   },
+   "orca-7b": {
+    "correct": 10,
+    "incorrect": 2,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 83.3,
+    "correct_given_attempted": 83.3,
+    "f_score": 83.3,
+    "not_attempted_rate": 0.0
+   },
+   "puffin-13b": {
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 3,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 50.0,
+    "correct_given_attempted": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 25.0
+   }
+  },
+  "R": {
+   "heron-32b-think": {
+    "correct": 11,
+    "incorrect": 0,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 91.7,
+    "correct_given_attempted": 100.0,
+    "f_score": 95.7,
+    "not_attempted_rate": 8.3
+   },
+   "ibis-8b-think": {
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 3,
+    "judge_error": 0,
+    "accuracy": 50.0,
+    "correct_given_attempted": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 0.0
+   },
+   "orca-7b": {
+    "correct": 9,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 75.0,
+    "correct_given_attempted": 75.0,
+    "f_score": 75.0,
+    "not_attempted_rate": 0.0
+   },
+   "puffin-13b": {
+    "correct": 8,
+    "incorrect": 2,
+    "not_attempted": 2,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 66.7,
+    "correct_given_attempted": 80.0,
+    "f_score": 72.7,
+    "not_attempted_rate": 16.7
+   }
+  },
+  "X": {
+   "heron-32b-think": {
+    "correct": 11,
+    "incorrect": 0,
+    "not_attempted": 1,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 91.7,
+    "correct_given_attempted": 100.0,
+    "f_score": 95.7,
+    "not_attempted_rate": 8.3
+   },
+   "ibis-8b-think": {
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 3,
+    "judge_error": 0,
+    "accuracy": 50.0,
+    "correct_given_attempted": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 0.0
+   },
+   "orca-7b": {
+    "correct": 9,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 75.0,
+    "correct_given_attempted": 75.0,
+    "f_score": 75.0,
+    "not_attempted_rate": 0.0
+   },
+   "puffin-13b": {
+    "correct": 8,
+    "incorrect": 2,
+    "not_attempted": 2,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 66.7,
+    "correct_given_attempted": 80.0,
+    "f_score": 72.7,
+    "not_attempted_rate": 16.7
+   }
+  },
+  "X_full": {
+   "heron-32b-think": {
+    "correct": 10,
+    "incorrect": 0,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 83.3,
+    "correct_given_attempted": 100.0,
+    "f_score": 90.9,
+    "not_attempted_rate": 0.0
+   },
+   "ibis-8b-think": {
+    "correct": 6,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 3,
+    "judge_error": 0,
+    "accuracy": 50.0,
+    "correct_given_attempted": 66.7,
+    "f_score": 57.1,
+    "not_attempted_rate": 0.0
+   },
+   "orca-7b": {
+    "correct": 9,
+    "incorrect": 3,
+    "not_attempted": 0,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 75.0,
+    "correct_given_attempted": 75.0,
+    "f_score": 75.0,
+    "not_attempted_rate": 0.0
+   },
+   "puffin-13b": {
+    "correct": 8,
+    "incorrect": 2,
+    "not_attempted": 2,
+    "extraction_failure": 0,
+    "judge_error": 0,
+    "accuracy": 66.7,
+    "correct_given_attempted": 80.0,
+    "f_score": 72.7,
+    "not_attempted_rate": 16.7
+   }
+  }
+ },
+ "coverage": {
+  "G": 48,
+  "R": 48,
+  "X": 48,
+  "X_full": 46
+ },
+ "n_rows": 48,
+ "n_judged": 45,
+ "flips_responses": 2,
+ "flips_prompts": 2,
+ "distinct_prompts": 34,
+ "flip_both_prompts": 1,
+ "both_graded_prompts": 33,
+ "deltas": {
+  "heron-32b-think": {
+   "G-X": {
+    "accuracy": -8.333333333333314,
+    "cga": -9.090909090909093,
+    "f": -8.695652173913047,
+    "na": 0.0
+   },
+   "G-R": {
+    "accuracy": -8.333333333333314,
+    "cga": -9.090909090909093,
+    "f": -8.695652173913047,
+    "na": 0.0
+   },
+   "X2-X": {
+    "accuracy": 0.0,
+    "cga": 0.0,
+    "f": 0.0,
+    "na": 0.0
+   }
+  },
+  "ibis-8b-think": {
+   "G-X": {
+    "accuracy": 8.333333333333336,
+    "cga": 33.33333333333334,
+    "f": 16.541353383458627,
+    "na": 41.666666666666664
+   },
+   "G-R": {
+    "accuracy": 8.333333333333336,
+    "cga": 33.33333333333334,
+    "f": 16.541353383458627,
+    "na": 41.666666666666664
+   },
+   "X2-X": {
+    "accuracy": 0.0,
+    "cga": 0.0,
+    "f": 0.0,
+    "na": 0.0
+   }
+  },
+  "orca-7b": {
+   "G-X": {
+    "accuracy": 8.333333333333343,
+    "cga": 8.333333333333343,
+    "f": 8.333333333333343,
+    "na": 0.0
+   },
+   "G-R": {
+    "accuracy": 8.333333333333343,
+    "cga": 8.333333333333343,
+    "f": 8.333333333333343,
+    "na": 0.0
+   },
+   "X2-X": {
+    "accuracy": 0.0,
+    "cga": 0.0,
+    "f": 0.0,
+    "na": 0.0
+   }
+  },
+  "puffin-13b": {
+   "G-X": {
+    "accuracy": -16.666666666666657,
+    "cga": -13.333333333333343,
+    "f": -15.584415584415567,
+    "na": 8.333333333333332
+   },
+   "G-R": {
+    "accuracy": -16.666666666666657,
+    "cga": -13.333333333333343,
+    "f": -15.584415584415567,
+    "na": 8.333333333333332
+   },
+   "X2-X": {
+    "accuracy": 8.333333333333343,
+    "cga": 10.0,
+    "f": 9.090909090909108,
+    "na": 0.0
+   }
+  }
+ },
+ "bootstrap_G_minus_X": {
+  "heron-32b-think": {
+   "accuracy": [
+    -25.0,
+    0.0
+   ],
+   "f": [
+    -26.08695652173914,
+    0.0
+   ]
+  },
+  "ibis-8b-think": {
+   "accuracy": [
+    0.0,
+    25.000000000000007
+   ],
+   "f": [
+    0.0,
+    36.52173913043478
+   ]
+  },
+  "orca-7b": {
+   "accuracy": [
+    0.0,
+    25.000000000000007
+   ],
+   "f": [
+    0.0,
+    25.000000000000007
+   ]
+  },
+  "puffin-13b": {
+   "accuracy": [
+    -41.66666666666666,
+    0.0
+   ],
+   "f": [
+    -38.50931677018633,
+    0.0
+   ]
+  }
+ }
+}

@@ -1,0 +1,3 @@
+{"id": "F3-tag-py", "model": "F3-tag-py", "task_id": "t07", "response": "```py\ndef fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"}
+{"id": "F3-no-tag", "model": "F3-no-tag", "task_id": "t07", "response": "```\ndef fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"}
+{"id": "F3-bash-block-first", "model": "F3-bash-block-first", "task_id": "t07", "response": "```bash\npip install toycode\n```\n\n```python\ndef fib(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"}
