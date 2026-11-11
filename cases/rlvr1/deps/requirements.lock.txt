@@ -1,0 +1,27 @@
+absl-py==2.5.0
+click==8.5.0
+cloudpickle==3.1.2
+colorama==0.4.6
+defusedxml==0.7.1
+hypothesis==6.170.5
+immutabledict==4.3.1
+iniconfig==2.3.1
+joblib==1.6.0
+langdetect==1.0.9
+marin-verifyit @ git+https://github.com/marin-community/marin@af9c6789e878bed1a6fc9513232bcfc54ac73b3a#subdirectory=lib/verifyit
+nltk==3.10.3
+numpy==2.5.4
+packaging==26.3
+pandas==3.0.6
+pluggy==1.7.0
+pyarrow==26.0.0
+pygments==2.21.0
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+regex==2026.9.29
+six==1.17.0
+sortedcontainers==2.4.0
+tomli-w==1.2.0
+tqdm==4.70.1
+tzdata==2026.5
+verifiable-instructions @ git+https://github.com/abukharin-nv/verifiable-instructions.git@f46a5ac87b1400a4f8973039844b6be9b56e3faf
