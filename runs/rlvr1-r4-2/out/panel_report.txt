@@ -1,0 +1,151 @@
+== Panel overview
+  allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl               {'responses': 3998, 'truncated': 39, 'R_extraction_failed': 0, 'extraction_differs_A': 0, 'extraction_differs_B': 0, 'A_infra_error_rows': 0, 'constraints': 9569, 'A_constraint_errors': 0, 'B_constraint_errors': 0, 'B_deterministic_constraints': 8691}
+  Qwen__Qwen2.5-7B-Instruct/sample0.jsonl                      {'responses': 4000, 'truncated': 65, 'R_extraction_failed': 0, 'extraction_differs_A': 3, 'extraction_differs_B': 3, 'A_infra_error_rows': 0, 'constraints': 9573, 'A_constraint_errors': 0, 'B_constraint_errors': 0, 'B_deterministic_constraints': 8695}
+  Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl                    {'responses': 1000, 'truncated': 92, 'R_extraction_failed': 0, 'extraction_differs_A': 1, 'extraction_differs_B': 1, 'A_infra_error_rows': 0, 'constraints': 2408, 'A_constraint_errors': 0, 'B_constraint_errors': 0, 'B_deterministic_constraints': 2198}
+  Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl             {'responses': 1000, 'truncated': 81, 'R_extraction_failed': 0, 'extraction_differs_A': 2, 'extraction_differs_B': 2, 'A_infra_error_rows': 0, 'constraints': 2408, 'A_constraint_errors': 0, 'B_constraint_errors': 0, 'B_deterministic_constraints': 2198}
+  Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl                   {'responses': 11817, 'truncated': 620, 'R_extraction_failed': 0, 'extraction_differs_A': 16, 'extraction_differs_B': 16, 'A_infra_error_rows': 1, 'constraints': 28219, 'A_constraint_errors': 1, 'B_constraint_errors': 0, 'B_deterministic_constraints': 25680}
+  Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl         {'responses': 1500, 'truncated': 166, 'R_extraction_failed': 139, 'extraction_differs_A': 141, 'extraction_differs_B': 141, 'A_infra_error_rows': 0, 'constraints': 3606, 'A_constraint_errors': 0, 'B_constraint_errors': 0, 'B_deterministic_constraints': 3262}
+== Scores per run (mean reward, %); change = R minus grader, paired bootstrap 95% CI
+  allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl               A=19.1 B_gate=32.0 R=17.8 R-A=-1.3 [-2.2,-0.4] R-B=-14.2 [-15.6,-12.9] (R gains 148, loses 201 rows vs A)
+  Qwen__Qwen2.5-7B-Instruct/sample0.jsonl                      A=20.1 B_gate=33.0 R=19.8 R-A=-0.2 [-1.4,+0.9] R-B=-13.2 [-14.5,-11.8] (R gains 254, loses 264 rows vs A)
+  Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl                    A=29.3 B_gate=49.9 R=34.4 R-A=+5.1 [+3.2,+7.1] R-B=-15.5 [-18.7,-12.3] (R gains 77, loses 26 rows vs A)
+  Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl             A=29.5 B_gate=50.0 R=35.0 R-A=+5.5 [+3.6,+7.5] R-B=-15.0 [-18.2,-11.9] (R gains 80, loses 25 rows vs A)
+  Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl                   A=29.6 B_gate=47.8 R=34.2 R-A=+4.6 [+4.0,+5.2] R-B=-13.6 [-14.6,-12.7] (R gains 1025, loses 481 rows vs A)
+  Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl         A=55.3 B_gate=63.4 R=63.5 R-A=+8.2 [+6.3,+10.2] R-B=+0.1 [-2.3,+2.5] (R gains 183, loses 60 rows vs A)
+== Rerun (greedy vs greedy_repeat, same rows) {"rows": 1000, "A": {"run1": 29.299999999999997, "run2": 29.5, "changed_rows": 16, "diff": [0.2, -0.5, 1.0]}, "R": {"run1": 34.4, "run2": 35.0, "changed_rows": 18, "diff": [0.6, -0.2, 1.4000000000000001]}, "B": {"run1": 49.9, "run2": 50.0, "changed_rows": 27, "diff": [0.1, -0.8999999999999999, 1.0999999999999999]}, "identical_text": 1000}
+== Per check: verdicts, pass % (A, B, R), disagreements with R (decision-explained / finding)
+  change_case:capital_word_frequency            n= 1207 A= 76.2 B= 79.5 R= 75.5 A!=R=  27 (dec   10, def   17)  B!=R= 111 (dec   80, def   31)  A!=B= 120
+  change_case:english_capital                   n= 1534 A= 45.1 B= 55.0 R= 42.4 A!=R=  42 (dec   42, def    0)  B!=R= 194 (dec  194, def    0)  A!=B= 160
+  change_case:english_lowercase                 n= 1208 A= 69.0 B= 77.4 R= 66.9 A!=R=  29 (dec   27, def    2)  B!=R= 131 (dec  129, def    2)  A!=B= 140
+  combination:two_responses                     n=  557 A= 81.5 B= 81.5 R= 76.1 A!=R=  32 (dec    0, def   32)  B!=R=  32 (dec    0, def   32)  A!=B=   0
+  copy:repeat_phrase                            n= 1059 A=  8.9 B= 45.6 R=  4.3 A!=R=  86 (dec   29, def   57)  B!=R= 509 (dec   17, def  492)  A!=B= 577
+  count:count_unique                            n= 1341 A= 15.0 B=  -   R= 17.2 A!=R= 159 (dec   65, def   94)  B!=R=   0 (dec    0, def    0)  A!=B=   0
+  count:counting_composition                    n=    1 A=  0.0 B=  0.0 R=  0.0 A!=R=   0 (dec    0, def    0)  B!=R=   0 (dec    0, def    0)  A!=B=   0
+  count:lowercase_counting                      n= 1712 A= 15.2 B= 88.4 R= 29.1 A!=R= 328 (dec  279, def   49)  B!=R=1359 (dec   31, def 1328)  A!=B=1623
+  detectable_content:number_placeholders        n= 1201 A= 91.5 B= 91.4 R= 90.9 A!=R=   9 (dec    0, def    9)  B!=R=   8 (dec    0, def    8)  A!=B=   1
+  detectable_content:postscript                 n= 1277 A= 83.3 B= 72.4 R= 69.5 A!=R= 360 (dec  219, def  141)  B!=R= 229 (dec  213, def   16)  A!=B= 139
+  detectable_format:bigram_wrapping             n= 1157 A= 19.4 B=  -   R=  3.2 A!=R= 187 (dec    4, def  183)  B!=R=   0 (dec    0, def    0)  A!=B=   0
+  detectable_format:constrained_response        n=  243 A= 89.7 B= 57.6 R= 57.6 A!=R=  78 (dec   75, def    3)  B!=R=   0 (dec    0, def    0)  A!=B=  78
+  detectable_format:json_format                 n=  266 A= 82.0 B= 82.0 R= 82.0 A!=R=   0 (dec    0, def    0)  B!=R=   0 (dec    0, def    0)  A!=B=   0
+  detectable_format:multiple_sections           n=  917 A= 86.9 B= 85.1 R= 79.4 A!=R=  73 (dec   29, def   44)  B!=R=  60 (dec   22, def   38)  A!=B=  61
+  detectable_format:number_bullet_lists         n= 1019 A= 80.1 B= 81.6 R= 81.6 A!=R=  21 (dec    0, def   21)  B!=R=   0 (dec    0, def    0)  A!=B=  21
+  detectable_format:number_highlighted_sections n= 1070 A= 93.4 B= 93.4 R= 92.6 A!=R=  10 (dec    0, def   10)  B!=R=   8 (dec    0, def    8)  A!=B=   2
+  detectable_format:sentence_hyphens            n= 1300 A= 19.6 B= 19.5 R= 77.1 A!=R= 765 (dec  756, def    9)  B!=R= 755 (dec  754, def    1)  A!=B= 500
+  detectable_format:square_brackets             n= 1079 A= 16.2 B= 95.2 R= 17.1 A!=R= 103 (dec  101, def    2)  B!=R= 859 (dec  301, def  558)  A!=B= 856
+  detectable_format:title                       n= 1189 A= 97.1 B= 97.1 R= 96.6 A!=R=  11 (dec    0, def   11)  B!=R=  11 (dec    0, def   11)  A!=B=   0
+  first_word:first_word_answer                  n= 1089 A= 72.2 B= 85.1 R= 84.9 A!=R= 139 (dec   72, def   67)  B!=R=   4 (dec    1, def    3)  A!=B= 141
+  first_word:first_word_sent                    n= 1024 A= 32.3 B= 43.3 R= 41.4 A!=R= 119 (dec   75, def   44)  B!=R=  37 (dec   22, def   15)  A!=B= 118
+  keywords:existence                            n= 1856 A= 75.6 B= 72.1 R= 70.4 A!=R=  97 (dec   73, def   24)  B!=R=  57 (dec   53, def    4)  A!=B=  66
+  keywords:forbidden_words                      n= 1687 A= 96.6 B= 96.6 R= 96.7 A!=R=   4 (dec    4, def    0)  B!=R=   4 (dec    4, def    0)  A!=B=   0
+  keywords:frequency                            n= 1200 A= 81.0 B= 80.9 R= 80.5 A!=R=  54 (dec   27, def   27)  B!=R=  23 (dec   18, def    5)  A!=B=  45
+  keywords:keyword_specific_position            n= 1341 A=  2.8 B=  3.7 R=  3.7 A!=R=  24 (dec    9, def   15)  B!=R=  18 (dec    8, def   10)  A!=B=  22
+  keywords:letter_frequency                     n= 1507 A= 56.9 B= 56.9 R= 56.5 A!=R=   6 (dec    0, def    6)  B!=R=   6 (dec    0, def    6)  A!=B=   0
+  keywords:no_adjacent_consecutive              n= 1499 A= 23.7 B= 76.8 R= 23.8 A!=R= 221 (dec   59, def  162)  B!=R= 922 (dec   50, def  872)  A!=B= 915
+  keywords:palindrome                           n= 1165 A= 90.3 B= 63.4 R= 79.0 A!=R= 238 (dec  198, def   40)  B!=R= 209 (dec   39, def  170)  A!=B= 373
+  keywords:start_end                            n=  989 A= 29.6 B= 37.2 R= 32.9 A!=R=  52 (dec   16, def   36)  B!=R=  75 (dec   10, def   65)  A!=B= 105
+  keywords:word_count_different_numbers         n= 1015 A= 54.2 B= 54.2 R= 37.3 A!=R= 495 (dec  227, def  268)  B!=R= 495 (dec  227, def  268)  A!=B=  60
+  keywords:word_once                            n= 1808 A= 25.5 B= 25.9 R= 73.4 A!=R= 936 (dec  144, def  792)  B!=R= 878 (dec  135, def  743)  A!=B=  82
+  language:response_language                    n= 1600 A= 88.3 B=  -   R= 84.4 A!=R=  75 (dec   64, def   11)  B!=R=   0 (dec    0, def    0)  A!=B=   0
+  last_word:last_word_answer                    n= 1285 A= 69.7 B= 76.0 R= 75.6 A!=R=  75 (dec   75, def    0)  B!=R=   7 (dec    1, def    6)  A!=B=  80
+  last_word:last_word_sent                      n= 1203 A= 27.8 B= 33.3 R= 27.0 A!=R=  83 (dec   57, def   26)  B!=R=  84 (dec   41, def   43)  A!=B=  75
+  length_constraints:nth_paragraph_first_word   n= 1048 A= 39.8 B= 38.4 R= 38.4 A!=R=  33 (dec    9, def   24)  B!=R=   0 (dec    0, def    0)  A!=B=  33
+  length_constraints:number_paragraphs          n= 1345 A= 74.1 B= 42.4 R= 63.5 A!=R= 189 (dec  108, def   81)  B!=R= 492 (dec   12, def  480)  A!=B= 561
+  length_constraints:number_sentences           n= 1131 A= 70.5 B= 69.7 R= 72.8 A!=R= 146 (dec   71, def   75)  B!=R= 161 (dec   70, def   91)  A!=B=  17
+  length_constraints:number_words               n= 1443 A= 73.6 B= 70.5 R= 78.4 A!=R= 162 (dec  135, def   27)  B!=R= 207 (dec  136, def   71)  A!=B=  71
+  letters:letter_counting                       n=  961 A= 61.7 B=  -   R= 66.2 A!=R= 101 (dec    9, def   92)  B!=R=   0 (dec    0, def    0)  A!=B=   0
+  letters:letter_counting2                      n= 1346 A= 54.5 B= 54.5 R= 53.8 A!=R=  10 (dec    0, def   10)  B!=R=  10 (dec    0, def   10)  A!=B=   0
+  paragraphs:paragraphs                         n= 1150 A= 83.5 B= 97.1 R= 72.3 A!=R= 136 (dec   32, def  104)  B!=R= 285 (dec   40, def  245)  A!=B= 157
+  paragraphs:paragraphs2                        n= 1391 A= 62.5 B= 94.3 R= 62.5 A!=R=   5 (dec    5, def    0)  B!=R= 442 (dec    2, def  440)  A!=B= 443
+  punctuation:no_comma                          n= 1523 A= 88.7 B= 88.7 R= 86.9 A!=R=  27 (dec   27, def    0)  B!=R=  27 (dec   27, def    0)  A!=B=   0
+  punctuation:punctuation_dot                   n= 1749 A= 51.6 B= 51.6 R= 51.6 A!=R=   1 (dec    1, def    0)  B!=R=   1 (dec    1, def    0)  A!=B=   0
+  punctuation:punctuation_exclamation           n= 1284 A= 95.3 B= 95.3 R= 94.6 A!=R=   9 (dec    9, def    0)  B!=R=   9 (dec    9, def    0)  A!=B=   0
+  startend:end_checker                          n=  997 A= 87.4 B= 68.3 R= 71.3 A!=R= 164 (dec  164, def    0)  B!=R=  30 (dec   30, def    0)  A!=B= 190
+  startend:quotation                            n=  810 A= 85.9 B= 86.0 R= 86.0 A!=R=   1 (dec    1, def    0)  B!=R=   0 (dec    0, def    0)  A!=B=   1
+== Disagreements with R by cause (constraint verdicts); total verdicts 55783
+  decision     A= 3307 B= 2677  {'A:detectable_format:sentence_hyphens': 756, 'B:detectable_format:sentence_hyphens': 754, 'A:startend:end_checker': 164, 'A:keywords:word_count_different_numbers': 227, 'B:keywords:word_count_different_numbers': 227, 'A:count:lowercase_counting': 279, 'B:detectable_format:square_brackets': 301, 'B:change_case:english_capital': 194, 'A:keywords:palindrome': 198, 'A:punctuation:no_comma': 27, 'B:punctuation:no_comma': 27, 'A:length_constraints:number_sentences': 71, 'B:length_constraints:number_sentences': 70, 'A:change_case:english_lowercase': 27, 'B:change_case:english_lowercase': 129, 'A:keywords:existence': 73, 'A:last_word:last_word_answer': 75, 'A:first_word:first_word_answer': 72, 'A:paragraphs:paragraphs': 32, 'B:paragraphs:paragraphs': 40, 'B:keywords:palindrome': 39, 'A:detectable_content:postscript': 219, 'B:detectable_content:postscript': 213, 'A:length_constraints:number_paragraphs': 108, 'A:detectable_format:multiple_sections': 29, 'A:punctuation:punctuation_exclamation': 9, 'B:punctuation:punctuation_exclamation': 9, 'B:count:lowercase_counting': 31, 'A:detectable_format:constrained_response': 75, 'B:startend:end_checker': 30, 'A:count:count_unique': 65, 'A:detectable_format:square_brackets': 101, 'A:keywords:frequency': 27, 'B:keywords:existence': 53, 'A:length_constraints:number_words': 135, 'B:length_constraints:number_words': 136, 'A:keywords:word_once': 144, 'B:keywords:word_once': 135, 'B:change_case:capital_word_frequency': 80, 'A:keywords:keyword_specific_position': 9, 'B:keywords:keyword_specific_position': 8, 'A:language:response_language': 64, 'A:last_word:last_word_sent': 57, 'B:detectable_format:multiple_sections': 22, 'B:keywords:frequency': 18, 'A:keywords:no_adjacent_consecutive': 59, 'B:keywords:no_adjacent_consecutive': 50, 'A:change_case:english_capital': 42, 'B:copy:repeat_phrase': 17, 'A:copy:repeat_phrase': 29, 'B:last_word:last_word_answer': 1, 'A:first_word:first_word_sent': 75, 'A:length_constraints:nth_paragraph_first_word': 9, 'B:keywords:start_end': 10, 'A:keywords:forbidden_words': 4, 'B:keywords:forbidden_words': 4, 'A:change_case:capital_word_frequency': 10, 'B:first_word:first_word_sent': 22, 'A:letters:letter_counting': 9, 'A:keywords:start_end': 16, 'B:length_constraints:number_paragraphs': 12, 'B:last_word:last_word_sent': 41, 'A:detectable_format:bigram_wrapping': 4, 'B:first_word:first_word_answer': 1, 'A:punctuation:punctuation_dot': 1, 'B:punctuation:punctuation_dot': 1, 'A:paragraphs:paragraphs2': 5, 'B:paragraphs:paragraphs2': 2, 'A:startend:quotation': 1}
+  F2           A=  776 B=  742  {'A:keywords:word_once': 776, 'B:keywords:word_once': 742}
+  F31          A=    0 B= 1314  {'B:count:lowercase_counting': 1314}
+  F16          A=    0 B=  872  {'B:keywords:no_adjacent_consecutive': 872}
+  F22          A=    0 B=  675  {'B:paragraphs:paragraphs': 240, 'B:paragraphs:paragraphs2': 435}
+  F32          A=    0 B=  550  {'B:detectable_format:square_brackets': 550}
+  F3           A=  266 B=  266  {'B:keywords:word_count_different_numbers': 266, 'A:keywords:word_count_different_numbers': 266}
+  F5           A=    0 B=  486  {'B:copy:repeat_phrase': 486}
+  F21          A=    0 B=  479  {'B:length_constraints:number_paragraphs': 479}
+  P1           A=  126 B=  131  {'A:detectable_format:bigram_wrapping': 23, 'A:change_case:english_lowercase': 2, 'B:change_case:english_lowercase': 2, 'A:count:lowercase_counting': 1, 'A:length_constraints:number_words': 9, 'B:length_constraints:number_words': 9, 'A:length_constraints:number_sentences': 7, 'B:length_constraints:number_sentences': 7, 'A:detectable_format:multiple_sections': 8, 'B:detectable_format:multiple_sections': 2, 'A:detectable_format:title': 11, 'B:detectable_format:title': 11, 'A:letters:letter_counting2': 10, 'B:letters:letter_counting2': 10, 'A:detectable_content:postscript': 9, 'B:detectable_content:postscript': 9, 'A:keywords:word_once': 1, 'B:keywords:word_once': 1, 'A:detectable_content:number_placeholders': 8, 'B:detectable_content:number_placeholders': 8, 'B:copy:repeat_phrase': 6, 'B:count:lowercase_counting': 14, 'A:detectable_format:number_highlighted_sections': 2, 'B:detectable_format:number_highlighted_sections': 2, 'A:keywords:palindrome': 4, 'B:keywords:palindrome': 4, 'A:keywords:start_end': 1, 'B:keywords:start_end': 1, 'B:detectable_format:square_brackets': 8, 'B:paragraphs:paragraphs': 5, 'A:keywords:letter_frequency': 6, 'B:keywords:letter_frequency': 6, 'A:keywords:frequency': 3, 'B:keywords:frequency': 3, 'B:paragraphs:paragraphs2': 5, 'A:change_case:capital_word_frequency': 6, 'B:change_case:capital_word_frequency': 10, 'A:length_constraints:number_paragraphs': 1, 'B:length_constraints:number_paragraphs': 1, 'A:language:response_language': 2, 'A:keywords:existence': 4, 'B:keywords:existence': 4, 'A:letters:letter_counting': 5, 'A:keywords:word_count_different_numbers': 2, 'B:keywords:word_count_different_numbers': 2, 'A:combination:two_responses': 1, 'B:combination:two_responses': 1}
+  F17          A=   36 B=  166  {'B:keywords:palindrome': 166, 'A:keywords:palindrome': 36}
+  F20          A=  184 B=    0  {'A:length_constraints:number_paragraphs': 80, 'A:paragraphs:paragraphs': 104}
+  F15          A=  162 B=    0  {'A:keywords:no_adjacent_consecutive': 162}
+  F24          A=    0 B=  160  {'B:last_word:last_word_sent': 43, 'B:length_constraints:number_words': 62, 'B:last_word:last_word_answer': 6, 'B:change_case:capital_word_frequency': 21, 'B:first_word:first_word_sent': 15, 'B:keywords:keyword_specific_position': 10, 'B:first_word:first_word_answer': 3}
+  F27          A=  160 B=    0  {'A:detectable_format:bigram_wrapping': 160}
+  F6           A=  132 B=    0  {'A:detectable_content:postscript': 132}
+  F39          A=  103 B=    0  {'A:length_constraints:number_sentences': 68, 'A:detectable_format:sentence_hyphens': 9, 'A:last_word:last_word_sent': 26}
+  F14          A=   35 B=   64  {'A:keywords:start_end': 35, 'B:keywords:start_end': 64}
+  F13          A=   94 B=    0  {'A:count:count_unique': 94}
+  F25          A=   87 B=    0  {'A:letters:letter_counting': 87}
+  F36          A=    0 B=   84  {'B:length_constraints:number_sentences': 84}
+  F8           A=   36 B=   36  {'A:detectable_format:multiple_sections': 36, 'B:detectable_format:multiple_sections': 36}
+  F11          A=   67 B=    0  {'A:first_word:first_word_answer': 67}
+  F30          A=   31 B=   31  {'A:combination:two_responses': 31, 'B:combination:two_responses': 31}
+  F1           A=   59 B=    0  {'A:keywords:existence': 20, 'A:keywords:frequency': 24, 'A:keywords:word_once': 15}
+  F4           A=   57 B=    0  {'A:copy:repeat_phrase': 57}
+  F37          A=   48 B=    0  {'A:count:lowercase_counting': 48}
+  F11/F39      A=   44 B=    0  {'A:first_word:first_word_sent': 44}
+  F23          A=   29 B=    0  {'A:change_case:capital_word_frequency': 11, 'A:length_constraints:number_words': 18}
+  F29          A=   23 B=    0  {'A:length_constraints:nth_paragraph_first_word': 23}
+  F9           A=   21 B=    0  {'A:detectable_format:number_bullet_lists': 21}
+  F12/F39      A=   15 B=    0  {'A:keywords:keyword_specific_position': 15}
+  F10          A=    8 B=    6  {'A:detectable_format:number_highlighted_sections': 8, 'B:detectable_format:number_highlighted_sections': 6}
+  F18          A=    9 B=    0  {'A:language:response_language': 9}
+  F40          A=    0 B=    7  {'B:detectable_content:postscript': 7}
+  F7           A=    3 B=    0  {'A:detectable_format:constrained_response': 3}
+  unassigned   A=    1 B=    2  {'B:keywords:frequency': 2, 'A:length_constraints:nth_paragraph_first_word': 1}
+  F38          A=    2 B=    0  {'A:detectable_format:square_brackets': 2}
+  F33          A=    0 B=    1  {'B:detectable_format:sentence_hyphens': 1}
+  F26          A=    1 B=    0  {'A:detectable_content:number_placeholders': 1}
+== Decision entries that explain a grader/R disagreement (single entry, reading B reproduces the grader)
+   A {'D-hyphen-inner': 750, 'D-hyphen-plural': 746, 'D-lowercase-counting': 273, 'D-word-cjk': 269, 'D-word-case': 253, 'D-word': 187, 'D-edge-markup': 172, 'D-palindrome-length': 169, 'D-end-case': 162, 'D-word-count-relation': 155, 'D-keyword-match': 148, 'D-divider-edge': 140, 'D-language-mixed': 133, 'D-sentence': 120, 'D-postscript-dot': 91, 'D-constrained-exact': 75, 'D-english': 69, 'D-postscript-end': 68, 'D-postscript-case': 60, 'D-bracket-punct': 56, 'D-brackets-per-word': 45, 'D-consecutive-order': 45, 'several entries together': 41, 'D-section-count': 29, 'D-comma-chars': 27, 'D-repeat-original': 14, 'D-repeat-center': 14, 'D-exclamation-chars': 9, 'D-letter-unit': 9, 'D-blank-run': 6, 'D-allcaps-single': 4, 'D-end-trailing': 2, 'D-dot-chars': 1, 'D-quote-chars': 1}
+   B {'D-hyphen-plural': 748, 'D-hyphen-inner': 504, 'D-english': 323, 'D-brackets-per-word': 294, 'D-word-cjk': 229, 'D-word-count-relation': 151, 'D-word-case': 139, 'D-sentence': 133, 'D-word': 106, 'D-postscript-dot': 91, 'D-keyword-match': 90, 'D-allcaps-single': 80, 'D-postscript-end': 62, 'D-postscript-case': 60, 'D-divider-edge': 52, 'D-language-mixed': 46, 'D-consecutive-order': 40, 'D-end-trailing': 30, 'D-comma-chars': 27, 'D-section-case': 21, 'several entries together': 20, 'D-edge-markup': 14, 'D-lowercase-counting': 12, 'D-repeat-center': 12, 'D-palindrome-length': 9, 'D-exclamation-chars': 9, 'D-bracket-punct': 7, 'D-repeat-original': 4, 'D-blank-run': 2, 'D-dot-chars': 1, 'D-section-preamble': 1}
+== Effect of each decision entry's reading B on R (constraint verdicts, row rewards that flip)
+  D-word-case              verdicts= 1231 rows=  509
+  D-hyphen-plural          verdicts=  992 rows=  544
+  D-hyphen-inner           verdicts=  754 rows=  397
+  D-english                verdicts=  421 rows=  241
+  D-word                   verdicts=  398 rows=  234
+  D-word-cjk               verdicts=  351 rows=  205
+  D-edge-markup            verdicts=  306 rows=  173
+  D-lowercase-counting     verdicts=  304 rows=  162
+  D-brackets-per-word      verdicts=  301 rows=  177
+  D-word-count-relation    verdicts=  215 rows=  100
+  D-sentence               verdicts=  200 rows=   96
+  D-keyword-match          verdicts=  196 rows=   89
+  D-palindrome-length      verdicts=  194 rows=   66
+  D-end-case               verdicts=  162 rows=   78
+  D-divider-edge           verdicts=  153 rows=   51
+  D-language-mixed         verdicts=  134 rows=   48
+  D-letter-case            verdicts=  119 rows=   48
+  D-letter-unit            verdicts=  118 rows=   91
+  D-postscript-dot         verdicts=   91 rows=   41
+  D-allcaps-single         verdicts=   86 rows=   54
+  D-constrained-exact      verdicts=   75 rows=   75
+  D-postscript-end         verdicts=   73 rows=   25
+  D-postscript-case        verdicts=   60 rows=   20
+  D-highlight-bold         verdicts=   57 rows=   18
+  D-bracket-punct          verdicts=   56 rows=   30
+  D-section-preamble       verdicts=   54 rows=   19
+  D-consecutive-order      verdicts=   53 rows=   34
+  D-repeat-center          verdicts=   31 rows=   20
+  D-end-trailing           verdicts=   30 rows=   17
+  D-section-count          verdicts=   29 rows=    8
+  D-comma-chars            verdicts=   27 rows=   13
+  D-section-case           verdicts=   22 rows=    1
+  D-title-position         verdicts=   17 rows=    7
+  D-repeat-original        verdicts=   14 rows=    8
+  D-exclamation-chars      verdicts=    9 rows=    2
+  D-blank-run              verdicts=    7 rows=    2
+  D-bullet-marker          verdicts=    6 rows=    3
+  D-placeholder-link       verdicts=    1 rows=    1
+  D-section-numbering      verdicts=    1 rows=    0
+  D-dot-chars              verdicts=    1 rows=    1
+  D-quote-chars            verdicts=    1 rows=    0
+== False rewards (A session reward 1.0, R 0.0) {'A_passes': 6478, 'A_passes_heldout': 1252, 'B_passes': 10192, 'B_lost': 1671, 'B_false_pass': 4675, 'lost': 1767, 'B_false_pass_finding': 2384, 'false': 1057, 'false_decision_only': 576, 'false_heldout': 220, 'false_finding': 472, 'false_extraction': 9}
+== Reference comparison (A vs B on deterministic constraints) {'disagree': 7833, 'A_wrong_decision': 1525, 'B_wrong_defect': 4512, 'B_wrong_decision': 1037, 'A_wrong_defect': 710, 'A_wrong_P1': 7, 'B_wrong_P1': 42}

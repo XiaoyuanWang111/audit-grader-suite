@@ -1,0 +1,12 @@
+Qwen__Qwen2.5-7B-Instruct/sample0.jsonl {'n': 4000, 'finish_stop': 3935, 'finish_length': 65, 'length_and_no_</think>': 65, 'num_tokens>=max_tokens': 65, 'has_<think>': 3, '<think>_unclosed': 3}
+   fields {'uuid': 4000, 'raw_response': 4000, 'model': 4000, 'revision': 4000, 'run': 4000, 'finish_reason': 4000, 'num_tokens': 4000, 'max_tokens': 4000}
+Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl {'n': 1000, 'finish_stop': 908, 'finish_length': 92, 'length_and_no_</think>': 92, 'num_tokens>=max_tokens': 92}
+   fields {'uuid': 1000, 'raw_response': 1000, 'model': 1000, 'revision': 1000, 'run': 1000, 'finish_reason': 1000, 'num_tokens': 1000, 'max_tokens': 1000}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl {'n': 1000, 'finish_stop': 919, 'finish_length': 81, 'length_and_no_</think>': 81, 'num_tokens>=max_tokens': 81}
+   fields {'uuid': 1000, 'raw_response': 1000, 'model': 1000, 'revision': 1000, 'run': 1000, 'finish_reason': 1000, 'num_tokens': 1000, 'max_tokens': 1000}
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl {'n': 11817, 'finish_stop': 11197, 'finish_length': 620, 'length_and_no_</think>': 620, 'num_tokens>=max_tokens': 620, 'has_<think>': 11, '<think>_unclosed': 11}
+   fields {'uuid': 11817, 'raw_response': 11817, 'model': 11817, 'revision': 11817, 'run': 11817, 'finish_reason': 11817, 'num_tokens': 11817, 'max_tokens': 11817}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl {'n': 1500, 'finish_length': 166, 'length_and_no_</think>': 139, 'num_tokens>=max_tokens': 166, 'finish_stop': 1334, 'has_</think>': 1361, 'has_<think>': 1}
+   fields {'uuid': 1500, 'raw_response': 1500, 'model': 1500, 'revision': 1500, 'run': 1500, 'finish_reason': 1500, 'num_tokens': 1500, 'max_tokens': 1500}
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl {'n': 3998, 'finish_stop': 3959, 'finish_length': 39, 'length_and_no_</think>': 39, 'num_tokens>=max_tokens': 39, 'empty': 1}
+   fields {'uuid': 3998, 'raw_response': 3998, 'model': 3998, 'revision': 3998, 'run': 3998, 'finish_reason': 3998, 'num_tokens': 3998, 'max_tokens': 3998}

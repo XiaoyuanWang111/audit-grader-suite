@@ -1,0 +1,331 @@
+rows 11817
+prompt == record prompt mismatches 0
+instruction block not parsed into one line per constraint 147
+record fields {'dataset': 11817, 'id': 11817, 'instruction_id_list': 11817, 'kwargs': 11817, 'pass_rate': 11817, 'pass_rate_passed': 11817, 'pass_rate_total': 11817, 'prompt': 11817, 'uuid': 11817}
+grading_mode {None: 11817}
+messages per prompt {1: 11817}
+headers [('Please follow these instructions in your response:', 806), ('Your response should comply with these constraints:', 745), ('Make sure to adhere to these requirements:', 708), ('Please ensure your answer follows these guidelines:', 337), ('Напиши расширенно и подробно главу Разработка требований к проектируемой к диплому на тему - Электронный журнал куратора. Требования должны строится согласно IEEE Standard Glossary of Software Engineering Terminology (1990). Основным источником требований к ИС являются соображения, высказанные представителями университета, а также кураторами и деканом. Другим важным источником информации, помимо выявления требований, являются артефакты, описывающие предметную область. Это могут быть документы с описанием бизнес-процессов предприятия, либо просто документы (должностные инструкции, распоряжения, своды бизнес-правил), принятые в университете. В качестве требований ты можешь взять их из списка, описав зачем это требование стоит учитывать:', 2), ('Make sure to adhere to these requirements: Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:', 2), ('Make sure to adhere to these requirements: Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 2), ('Make sure to adhere to these requirements: In your response, the letter i should appear less than 10 times, Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ('April:', 1), ('Hello, GameGPT Please ensure your answer follows these guidelines: Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:', 1), ("    return train_losses, train_accuracies, test_losses, test_accuracies Please ensure your answer follows these guidelines: Include keywords ['candy', 'fault'] in the response and Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:", 1), ('Перед вами список вопросов к экзамену по теме "Конструирование электронных устройств". Раскрой подробно каждую тему в списке , приводя физические явления и формулы:', 1), ('Je voudrais que le héros pointe du doigt:', 1), ('“You two know each other?" she smiles. “I’m Sandra.” Please follow these rules when answering: Your entire response should be in English, and in all capital letters, In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, and Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***, Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ("Make sure to adhere to these requirements: In your response, the word review should appear at least 1 times, Include keywords ['breast', 'top'] in the response, and Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:", 1), ('(Jade is the first-ever hive ruler - born during the emergence of the Betweenlands portal. As such, there would be only 6 gemstones available - Turquoise, Topaz, Amethyst, Emerald, Lazurite, Agate or Jade) Your response should comply with these constraints: There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, Your answer must contain exactly 3 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: There should be 4 paragraphs. Paragraphs are separated with the markdown divider: ***, Your answer must contain exactly 3 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: Your response should contain at least 9 sentences, Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: In your response, the word brick should appear 2 times, Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ("*You hand over a Poké Ball to your daughter. Inside it is the Yamper you caught on the way to your new house. Just before she leaves to start her new journey as an Electric Gym Leader, your daughter puts a hand on your belly - feeling her brother's movements inside. You hope that your daughter becomes a great Electric-type Gym Leader - after all, you were the Electric-type Gym Leader of the Paldea region before you got pregnant with your daughter.* Please incorporate these requirements: In your entire response, refrain from the use of any commas, Include keyword cycle in the 2-th sentence, as the 2-th word of that sentence, and Your answer must contain exactly 3 bullet points. Use the markdown bullet points such as:", 1), ('Make sure to adhere to these requirements: Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*, In your entire response, refrain from the use of any commas, and Your answer must contain exactly 3 bullet points. Use the markdown bullet points such as:', 1), ('Применение средств защиты информации, прошедших процедуру оценки соответствия, также является одним из способов обеспечения безопасности персональных данных в таможенных органах. В данном случае речь идет о средствах защиты информации для вычислительной техники, классифицированных в соответствии с Руководящими документами о защите от несанкционированного доступа к информации. Такие средства применяются в тех случаях, когда это необходимо для нейтрализации актуальных угроз безопасности персональных данных в таможенных органах. В целом, данный участок документа устанавливает обязанность таможенных органов принимать меры по защите персональных данных и детализирует, какие именно меры могут быть приняты для обеспечения этой цели. Your response should comply with these constraints: Your entire response should be in English, and in all capital letters, Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:', 1), ('напиши работу на тему "Анализ причин возникновения операционных рисков при безналичных расчетах для юридических лиц" следуя плану:', 1), ('Most of the team from the office were on the night out to celebrate David’s 30th birthday. They had been at the pub for an hour already and people were starting to get tipsy. Clare kicked her shoes off, feeling the floor of the pub cold under her bare feet. Your response should comply with these constraints: Include keyword type in the 17-th sentence, as the 20-th word of that sentence, Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: The last word of your response should be the word turn and Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:', 1), ('can u change this code into C language Please ensure your answer follows these guidelines: Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: In your response, all lowercase words should appear at most 3 times and Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: At the end of your response, please explicitly add a postscript starting with P.P.S, Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:', 1), ("Make sure to adhere to these requirements: There should be 3 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word science and Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:", 1), ('Make sure to adhere to these requirements: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, Include keyword improvement in your response, and Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:', 1), ("Make sure to adhere to these requirements: There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word objective, Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:", 1), ('In another passage, Quran 79:27-33, the heaven (singular) has already been raised and proportioned as a ceiling before the earth is spread, pastures produced and mountains fixed. Ibn Kathir notes in his tafsir that Ibn \'Abbas said the Earth was created first before each of these events and that scholars intepreted the Arabic word dahaha (دَحَىٰهَآ) in verse 79:30 to refer to a specific kind of spreading that occured after everything on Earth had been created.[5] However, the passage nevertheless appears to contradict the sequence of Quran 41:9-12, in which the heaven is still "smoke" after Earth\'s sustinence and mountains have been placed.\'\' Please follow these rules when answering: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: *** and Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: Only use unique words in your response, no word should be repeated!, Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: Include keyword native in your response, In your response, the word working should appear at least 1 times, and Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: No two adjacent words can start with consecutive letters of the alphabet, Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:', 1), ('напиши подробно в курсовой работе с разные использованный источник после 2021 :', 1), ('Make sure to adhere to these requirements: In your response, the letter k should appear less than 5 times, In your response, all lowercase words should appear at most 3 times, and Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:', 1), ('Make sure to adhere to these requirements: Include a palindrome in your response, Repeat the phrase The pen is mightier than sword exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase, and Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:', 1)]
+total constraints 28219 ids 47
+
+== change_case:capital_word_frequency: 601
+   keys: {('capital_frequency', 'capital_relation'): 601}
+   capital_frequency: 20 distinct; top [('16', 38), ('20', 36), ('2', 35), ('6', 35), ('11', 34), ('1', 34), ('7', 33), ('4', 33)]
+   capital_relation: 2 distinct; top [('"less than"', 335), ('"at least"', 266)]
+   ex: - In your response, words with all capital letters should appear at least 7 times.
+   ex: - In your response, words with all capital letters should appear at least 9 times.
+   ex: - In your response, words with all capital letters should appear less than 2 times.
+
+== change_case:english_capital: 772
+   keys: {(): 772}
+   ex: - Your entire response should be in English, and in all capital letters.
+   ex: 2. Your entire response should be in English, and in all capital letters.
+   ex: - Your entire response should be in English, and in all capital letters.
+
+== change_case:english_lowercase: 604
+   keys: {(): 604}
+   ex: - Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.
+   ex: 3. Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.
+   ex: - Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.
+
+== combination:two_responses: 253
+   keys: {(): 253}
+   ex: 1. Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+   ex: 1. Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+   ex: - Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+
+== copy:repeat_phrase: 554
+   keys: {('phrase', 'small_n'): 554}
+   phrase: 10 distinct; top [('"Don\'t judge a book by cover"', 68), ('"Live each day to the fullest"', 64), ('"Laughter is the best medicine"', 59), ('"The pen is mightier than sword"', 58), ('"Every cloud has a silver lining"', 57), ('"The early bird catches the worm"', 54), ('"Time flies when having fun"', 51), ('"All that glitters is not gold"', 49)]
+   small_n: 2 distinct; top [('3', 283), ('2', 271)]
+   ex: 1. Repeat the phrase Every cloud has a silver lining exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.
+   ex: - Repeat the phrase All that glitters is not gold exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.
+   ex: - Repeat the phrase Laughter is the best medicine exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.
+
+== count:count_unique: 687
+   keys: {(): 687}
+   ex: 2. Only use unique words in your response, no word should be repeated!
+   ex: 1. Only use unique words in your response, no word should be repeated!
+   ex: - Only use unique words in your response, no word should be repeated!
+
+== count:counting_composition: 1
+   keys: {('n_sent', 'n_words'): 1}
+   n_sent: 1 distinct; top [('3', 1)]
+   n_words: 1 distinct; top [('2', 1)]
+
+== count:lowercase_counting: 869
+   keys: {('N',): 869}
+   N: 2 distinct; top [('2', 444), ('3', 425)]
+   ex: 2. In your response, all lowercase words should appear at most 3 times.
+   ex: 1. In your response, all lowercase words should appear at most 3 times.
+   ex: 3. In your response, all lowercase words should appear at most 2 times.
+
+== detectable_content:number_placeholders: 585
+   keys: {('num_placeholders',): 585}
+   num_placeholders: 4 distinct; top [('2', 149), ('3', 148), ('1', 147), ('4', 141)]
+   ex: - The response must contain at least 1 placeholders represented by square brackets, such as [address].
+   ex: 2. The response must contain at least 3 placeholders represented by square brackets, such as [address].
+   ex: - The response must contain at least 1 placeholders represented by square brackets, such as [address].
+
+== detectable_content:postscript: 644
+   keys: {('postscript_marker',): 644}
+   postscript_marker: 2 distinct; top [('"P.S."', 324), ('"P.P.S"', 320)]
+   ex: 2. At the end of your response, please explicitly add a postscript starting with P.S.
+   ex: - At the end of your response, please explicitly add a postscript starting with P.P.S
+   ex: - At the end of your response, please explicitly add a postscript starting with P.P.S
+
+== detectable_format:bigram_wrapping: 575
+   keys: {(): 575}
+   ex: - Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+   ex: 1. Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+   ex: - Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+
+== detectable_format:constrained_response: 120
+   keys: {(): 120}
+   ex: 1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   ex: 1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   ex: 1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+
+== detectable_format:json_format: 133
+   keys: {(): 133}
+   ex: - Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.
+   ex: - Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.
+   ex: 1. Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.
+
+== detectable_format:multiple_sections: 453
+   keys: {('num_sections', 'section_spliter'): 453}
+   num_sections: 5 distinct; top [('1', 105), ('4', 98), ('5', 88), ('3', 83), ('2', 79)]
+   section_spliter: 2 distinct; top [('"SECTION"', 242), ('"Section"', 211)]
+
+== detectable_format:number_bullet_lists: 512
+   keys: {('num_bullets',): 512}
+   num_bullets: 5 distinct; top [('1', 119), ('2', 116), ('3', 101), ('4', 88), ('5', 88)]
+   ex: * This is point 2
+   ex: * This is point 1. 
+   ex: * This is point 2
+
+== detectable_format:number_highlighted_sections: 555
+   keys: {('num_highlights',): 555}
+   num_highlights: 4 distinct; top [('2', 157), ('1', 136), ('4', 131), ('3', 131)]
+   ex: - Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*.
+   ex: 2. Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.
+   ex: 2. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.
+
+== detectable_format:sentence_hyphens: 669
+   keys: {(): 669}
+   ex: - All sentences must be connected using hyphens, with no spaces between them.
+   ex: 2. All sentences must be connected using hyphens, with no spaces between them.
+   ex: 3. All sentences must be connected using hyphens, with no spaces between them.
+
+== detectable_format:square_brackets: 553
+   keys: {(): 553}
+   ex: 2. Enclose every word in your response within square brackets.
+   ex: 3. Enclose every word in your response within square brackets.
+   ex: 1. Enclose every word in your response within square brackets.
+
+== detectable_format:title: 589
+   keys: {(): 589}
+   ex: 1. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.
+   ex: 3. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.
+   ex: - Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.
+
+== first_word:first_word_answer: 557
+   keys: {('first_word',): 557}
+   first_word: 457 distinct; top [('"dealer"', 4), ('"mix"', 3), ('"situation"', 3), ('"designer"', 3), ('"limit"', 3), ('"awareness"', 3), ('"pack"', 3), ('"pause"', 3)]
+   ex: 1. The first word of your response should be the word development.
+   ex: 1. The first word of your response should be the word object.
+   ex: - The first word of your response should be the word equipment.
+
+== first_word:first_word_sent: 540
+   keys: {('first_word',): 540}
+   first_word: 461 distinct; top [('"peace"', 3), ('"chart"', 3), ('"care"', 3), ('"expression"', 3), ('"poem"', 3), ('"purple"', 3), ('"rock"', 3), ('"grand"', 3)]
+   ex: - The first word of each sentence should be the word tea.
+   ex: - The first word of each sentence should be the word peace.
+   ex: - The first word of each sentence should be the word chart.
+
+== keywords:existence: 932
+   keys: {('keywords',): 932}
+   keywords: 932 distinct; top [('["quote", "teaching"]', 1), ('["food", "poetry"]', 1), ('["help", "subject"]', 1), ('["basis", "location"]', 1), ('["highway", "marketing"]', 1), ('["hall", "risk"]', 1), ('["bath", "culture"]', 1), ('["earth", "garden"]', 1)]
+   ex: 2. Include keywords ['food', 'poetry'] in the response.
+   ex: 1. Include keywords ['earth', 'garden'] in the response.
+   ex: 1. Include keywords ['ground', 'rough'] in the response.
+
+== keywords:forbidden_words: 836
+   keys: {('forbidden_words',): 836}
+   forbidden_words: 835 distinct; top [('["sound", "square"]', 2), ('["debate", "indication"]', 1), ('["bet", "raw"]', 1), ('["law", "top"]', 1), ('["dead", "wash"]', 1), ('["floor", "wheel"]', 1), ('["rush", "youth"]', 1), ('["base", "horse"]', 1)]
+   ex: 1. Do not include keywords ['floor', 'wheel'] in the response.
+   ex: 2. Do not include keywords ['base', 'horse'] in the response.
+   ex: - Do not include keywords ['bus', 'media'] in the response.
+
+== keywords:frequency: 607
+   keys: {('frequency', 'keyword', 'relation'): 607}
+   frequency: 3 distinct; top [('2', 220), ('1', 207), ('3', 180)]
+   keyword: 496 distinct; top [('"monitor"', 3), ('"picture"', 3), ('"word"', 3), ('"lip"', 3), ('"foot"', 3), ('"table"', 3), ('"nation"', 3), ('"mouth"', 3)]
+   relation: 2 distinct; top [('"less than"', 311), ('"at least"', 296)]
+   ex: - In your response, the word potential should appear less than 2 times.
+   ex: - In your response, the word member should appear at least 3 times.
+   ex: - In your response, the word yesterday should appear less than 1 times.
+
+== keywords:keyword_specific_position: 676
+   keys: {('keyword', 'm', 'n'): 676}
+   keyword: 559 distinct; top [('"shot"', 4), ('"boy"', 4), ('"female"', 3), ('"breast"', 3), ('"club"', 3), ('"blind"', 3), ('"mall"', 3), ('"wonder"', 3)]
+   m: 30 distinct; top [('11', 35), ('12', 33), ('2', 31), ('8', 30), ('16', 28), ('7', 28), ('3', 27), ('13', 27)]
+   n: 20 distinct; top [('2', 52), ('6', 45), ('7', 41), ('12', 38), ('1', 38), ('3', 38), ('14', 37), ('17', 36)]
+   ex: - Include keyword selection in the 16-th sentence, as the 2-th word of that sentence.
+   ex: - Include keyword half in the 14-th sentence, as the 3-th word of that sentence.
+   ex: - Include keyword childhood in the 19-th sentence, as the 20-th word of that sentence.
+
+== keywords:letter_frequency: 783
+   keys: {('let_frequency', 'let_relation', 'letter'): 783}
+   let_frequency: 10 distinct; top [('3', 95), ('1', 94), ('4', 84), ('6', 83), ('8', 80), ('5', 76), ('2', 73), ('7', 67)]
+   let_relation: 2 distinct; top [('"less than"', 420), ('"at least"', 363)]
+   letter: 26 distinct; top [('"s"', 39), ('"h"', 37), ('"e"', 36), ('"r"', 35), ('"a"', 35), ('"i"', 35), ('"g"', 35), ('"t"', 34)]
+   ex: 1. In your response, the letter w should appear at least 5 times.
+   ex: - In your response, the letter y should appear at least 7 times.
+   ex: - In your response, the letter r should appear at least 9 times.
+
+== keywords:no_adjacent_consecutive: 818
+   keys: {(): 818}
+   ex: 3. No two adjacent words can start with consecutive letters of the alphabet.
+   ex: 1. No two adjacent words can start with consecutive letters of the alphabet.
+   ex: - No two adjacent words can start with consecutive letters of the alphabet.
+
+== keywords:palindrome: 618
+   keys: {(): 618}
+   ex: 1. Include a palindrome in your response.
+   ex: - Include a palindrome in your response.
+   ex: 2. Include a palindrome in your response.
+
+== keywords:start_end: 499
+   keys: {(): 499}
+   ex: - Start and end your response with the same word (do not write anything after the last word, not even punctuation).
+   ex: 2. Start and end your response with the same word (do not write anything after the last word, not even punctuation).
+   ex: 1. Start and end your response with the same word (do not write anything after the last word, not even punctuation).
+
+== keywords:word_count_different_numbers: 526
+   keys: {('frequency', 'keyword', 'relation'): 526}
+   frequency: 3 distinct; top [('3', 199), ('2', 183), ('1', 144)]
+   keyword: 438 distinct; top [('"contact"', 4), ('"skin"', 4), ('"knowledge"', 3), ('"parking"', 3), ('"equipment"', 3), ('"cousin"', 3), ('"tooth"', 3), ('"truck"', 3)]
+   relation: 2 distinct; top [('"at least"', 320), ('"less than"', 206)]
+   ex: 2. In your response, the word box should appear 2 times.
+   ex: - In your response, the word attack should appear 1 times.
+   ex: - In your response, the word will should appear 1 times.
+
+== keywords:word_once: 917
+   keys: {('keyword',): 917}
+   keyword: 681 distinct; top [('"fix"', 4), ('"software"', 4), ('"pace"', 4), ('"board"', 3), ('"bed"', 3), ('"effect"', 3), ('"measurement"', 3), ('"mouse"', 3)]
+   ex: - Include keyword beer in your response.
+   ex: 3. Include keyword stupid in your response.
+   ex: - Include keyword case in your response.
+
+== language:response_language: 780
+   keys: {('language',): 780}
+   language: 30 distinct; top [('"ta"', 44), ('"pa"', 41), ('"ur"', 39), ('"bg"', 37), ('"ml"', 36), ('"ko"', 35), ('"fi"', 31), ('"vi"', 30)]
+   ex: 2. Your ENTIRE response should be in Italian language, no other language is allowed.
+   ex: - Your ENTIRE response should be in Japanese language, no other language is allowed.
+   ex: 2. Your ENTIRE response should be in Spanish language, no other language is allowed.
+
+== last_word:last_word_answer: 625
+   keys: {('last_word',): 625}
+   last_word: 502 distinct; top [('"single"', 4), ('"roof"', 4), ('"feeling"', 3), ('"ease"', 3), ('"thing"', 3), ('"duty"', 3), ('"slip"', 3), ('"lake"', 3)]
+   ex: 2. The last word of your response should be the word she.
+   ex: 2. The last word of your response should be the word command.
+   ex: 1. The last word of your response should be the word sound.
+
+== last_word:last_word_sent: 600
+   keys: {('last_word',): 600}
+   last_word: 505 distinct; top [('"rest"', 3), ('"language"', 3), ('"moment"', 3), ('"foot"', 3), ('"analyst"', 3), ('"routine"', 3), ('"purpose"', 3), ('"garbage"', 3)]
+   ex: 2. The last word of each sentence, before punctuation, should be the word limit.
+   ex: 2. The last word of each sentence, before punctuation, should be the word sick.
+   ex: - The last word of each sentence, before punctuation, should be the word customer.
+
+== length_constraints:nth_paragraph_first_word: 515
+   keys: {('first_word', 'nth_paragraph', 'num_paragraphs'): 515}
+   first_word: 440 distinct; top [('"crash"', 4), ('"brick"', 3), ('"care"', 3), ('"novel"', 3), ('"watch"', 3), ('"attempt"', 3), ('"dark"', 3), ('"player"', 3)]
+   nth_paragraph: 6 distinct; top [('1', 178), ('2', 124), ('3', 108), ('4', 64), ('5', 35), ('6', 6)]
+   num_paragraphs: 5 distinct; top [('4', 122), ('2', 114), ('5', 107), ('3', 99), ('1', 73)]
+   ex: 1. There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph 1 must start with word if.
+   ex: 1. There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph 1 must start with word fight.
+   ex: 3. There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph 1 must start with word brother.
+
+== length_constraints:number_paragraphs: 690
+   keys: {('num_paragraphs',): 690}
+   num_paragraphs: 5 distinct; top [('5', 145), ('2', 141), ('4', 141), ('3', 132), ('1', 131)]
+   ex: 1. There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***
+   ex: - There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***
+   ex: - There should be 3 paragraphs. Paragraphs are separated with the markdown divider: ***
+
+== length_constraints:number_sentences: 562
+   keys: {('num_sentences', 'relation'): 562}
+   num_sentences: 20 distinct; top [('3', 39), ('4', 38), ('19', 37), ('2', 35), ('13', 33), ('18', 32), ('9', 32), ('16', 31)]
+   relation: 2 distinct; top [('"at least"', 293), ('"less than"', 269)]
+   ex: - Your response should contain less than 4 sentences.
+   ex: 3. Your response should contain at least 8 sentences.
+   ex: 2. Your response should contain at least 1 sentences.
+
+== length_constraints:number_words: 729
+   keys: {('num_words', 'relation'): 729}
+   num_words: 340 distinct; top [('213', 6), ('232', 5), ('217', 5), ('496', 5), ('474', 5), ('442', 5), ('114', 5), ('323', 5)]
+   relation: 2 distinct; top [('"at least"', 401), ('"less than"', 328)]
+   ex: 1. Answer with at least 452 words.
+   ex: 1. Answer with at least 226 words.
+   ex: 2. Answer with less than 167 words.
+
+== letters:letter_counting: 497
+   keys: {('N', 'relation'): 497}
+   N: 2 distinct; top [('3', 266), ('2', 231)]
+   relation: 2 distinct; top [('"at least"', 294), ('"less than"', 203)]
+   ex: - Answer with less than 2 letters.
+   ex: - Answer with at least 3 letters.
+   ex: - Answer with less than 3 letters.
+
+== letters:letter_counting2: 705
+   keys: {('let_frequency', 'let_relation', 'letter'): 705}
+   let_frequency: 10 distinct; top [('1', 93), ('4', 91), ('3', 78), ('9', 68), ('6', 67), ('2', 66), ('7', 65), ('8', 60)]
+   let_relation: 2 distinct; top [('"less than"', 394), ('"at least"', 311)]
+   letter: 26 distinct; top [('"r"', 39), ('"o"', 37), ('"l"', 34), ('"d"', 33), ('"t"', 33), ('"e"', 31), ('"h"', 31), ('"y"', 31)]
+   ex: 3. In your response, the letter z should appear less than 2 times.
+   ex: 3. In your response, the letter l should appear at least 9 times.
+   ex: - In your response, the letter b should appear less than 3 times.
+
+== paragraphs:paragraphs: 576
+   keys: {(): 576}
+   ex: 2. There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+   ex: - There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+   ex: - There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+
+== paragraphs:paragraphs2: 744
+   keys: {(): 744}
+   ex: - There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 
+   ex: 2. There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 
+   ex: 2. There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 
+
+== punctuation:no_comma: 730
+   keys: {(): 730}
+   ex: 2. In your entire response, refrain from the use of any commas.
+   ex: 3. In your entire response, refrain from the use of any commas.
+   ex: 3. In your entire response, refrain from the use of any commas.
+
+== punctuation:punctuation_dot: 847
+   keys: {(): 847}
+   ex: 1. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.
+   ex: - In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.
+   ex: - In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.
+
+== punctuation:punctuation_exclamation: 627
+   keys: {(): 627}
+   ex: - In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.
+   ex: - In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.
+   ex: - In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.
+
+== startend:end_checker: 537
+   keys: {('end_phrase',): 537}
+   end_phrase: 2 distinct; top [('"Is there anything else I can help with?"', 284), ('"Any other questions?"', 253)]
+   ex: - Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.
+   ex: - Finish your response with this exact phrase Any other questions?. No other words should follow this phrase.
+   ex: - Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.
+
+== startend:quotation: 417
+   keys: {(): 417}
+   ex: 1. Wrap your entire response with double quotation marks.
+   ex: 1. Wrap your entire response with double quotation marks.
+   ex: 2. Wrap your entire response with double quotation marks.

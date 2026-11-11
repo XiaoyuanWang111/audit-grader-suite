@@ -1,0 +1,203 @@
+change_case-0cd9b69a9f04     change_case:capital_word_frequency            label=fail A=fail B=pass R=fail flips={'D-allcaps-single': 'pass'} wrong={} B-mark
+    response: 'I think NASA is great.'  A-raw: 
+change_case-d65c3249b1ea     change_case:english_capital                   label=fail A=fail B=pass R=fail flips={'D-english': 'pass'} wrong={} B-mark
+    response: "BONJOUR TOUT LE MONDE, COMMENT ALLEZ-VOUS AUJOURD'HUI? JE VAIS TRES BIEN, MERCI BEAUCOUP."  A-raw: 
+change_case-3f0a3a012b97     change_case:english_lowercase                 label=fail A=fail B=pass R=fail flips={'D-english': 'pass'} wrong={} B-mark
+    response: "bonjour tout le monde, comment allez-vous aujourd'hui? je vais tres bien, merci beaucoup."  A-raw: 
+combination-179d0fe00165     combination:two_responses                     label=fail A=pass B=pass R=fail flips={} wrong={} A-mark B-mark
+    response: 'One.\n*******\nTwo.'  A-raw: 
+copy-edbcd4e22075            copy:repeat_phrase                            label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'All that shines is not gold\nAll that sparkles is not gold'  A-raw: 
+copy-bdb9d45027c4            copy:repeat_phrase                            label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'All that glitters is not gold\nAll that glitters is not gold'  A-raw: 
+copy-7250f31c31b6            copy:repeat_phrase                            label=fail A=pass B=fail R=fail flips={'D-repeat-center': 'pass'} wrong={} A-mark
+    response: 'Laughter is the finest medicine\nLaughter is the greatest medicine'  A-raw: 
+copy-83b4b933cee0            copy:repeat_phrase                            label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'All that glitters is not gold\nAll that glitters is not gold\nAll that shines is not gold'  A-raw: 
+copy-1158072b8096            copy:repeat_phrase                            label=pass A=fail B=fail R=pass flips={} wrong={} A-mark B-mark
+    response: 'All variations: All that shines is not gold; All that sparkles is not gold.'  A-raw: 
+copy-d515de62a89c            copy:repeat_phrase                            label=pass A=fail B=fail R=pass flips={'D-word-case': 'fail'} wrong={} A-mark B-mark
+    response: 'all that shines is not gold\nall that sparkles is not gold'  A-raw: 
+copy-9be24a0ecd28            copy:repeat_phrase                            label=pass A=fail B=fail R=pass flips={'D-repeat-original': 'fail'} wrong={} A-mark B-mark
+    response: 'The phrase is All that glitters is not gold.\nAll that shines is not gold\nAll that sparkles is not gold'  A-raw: 
+count-54b9c83faaf7           count:count_unique                            label=fail A=pass B=- R=fail flips={'D-word-case': 'pass'} wrong={} A-mark
+    response: 'The cat saw the dog.'  A-raw: 
+count-d17f5072fc0b           count:count_unique                            label=pass A=fail B=- R=pass flips={} wrong={} A-mark
+    response: 'Apples, pears, plums.'  A-raw: 
+count-a8383f2c51b7           count:counting_composition                    label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: 'Birds sing. Cats sleep. Dogs run.\n* * *\nRain falls. Wind blows. Trees sway.\n* * *\nKids play. Moms smile.   A-raw: 
+count-7e44c96d11bd           count:counting_composition                    label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'Birds sing. Cats sleep. Dogs run.'  A-raw: 
+count-81b7427feb35           count:counting_composition                    label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'Birds sing loudly. Cats sleep. Dogs run.\n* * *\nRain falls. Wind blows. Trees sway.\n* * *\nKids play. Moms   A-raw: 
+count-9115023bd224           count:lowercase_counting                      label=pass A=fail B=pass R=pass flips={'D-lowercase-counting': 'fail'} wrong={} A-mark
+    response: 'The Cat Sat On A Mat, and then left.'  A-raw: 
+count-fcffc5067ba2           count:lowercase_counting                      label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'the the the end'  A-raw: 
+count-1345f717984f           count:lowercase_counting                      label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'ALL CAPS ONLY.'  A-raw: 
+detectable_content-33aa7a06bc04 detectable_content:number_placeholders        label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'Dear [], see you at [ ].'  A-raw: 
+detectable_content-70106f97f862 detectable_content:postscript                 label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'I added a P.S. note at the end, see below.\n\nThat is all.'  A-raw: 
+detectable_content-e8c71ec04e97 detectable_content:postscript                 label=fail A=pass B=pass R=fail flips={'D-postscript-end': 'pass'} wrong={} A-mark B-mark
+    response: 'P.S. Thanks.\n\nMain answer here.'  A-raw: 
+detectable_content-379e8e51b015 detectable_content:postscript                 label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'Answer.\n\nP.P.S. extra'  A-raw: 
+detectable_content-ec7031aecdf9 detectable_content:postscript                 label=pass A=fail B=fail R=pass flips={'D-postscript-dot': 'fail'} wrong={} A-mark B-mark
+    response: 'Answer.\n\nP.S: thanks'  A-raw: 
+detectable_content-a8270b4288f0 detectable_content:postscript                 label=fail A=pass B=pass R=fail flips={'D-postscript-case': 'pass'} wrong={} A-mark B-mark
+    response: 'Answer.\n\np.s. thanks'  A-raw: 
+detectable_format-5588f82c62a7 detectable_format:bigram_wrapping             label=fail A=pass B=- R=fail flips={} wrong={} A-mark
+    response: '<<I am>> <<at home>> today'  A-raw: 
+detectable_format-39c350ccd1b1 detectable_format:constrained_response        label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'My answer is yes. My answer is no.'  A-raw: 
+detectable_format-1fc0333c5eb6 detectable_format:constrained_response        label=fail A=pass B=fail R=fail flips={'D-constrained-exact': 'pass'} wrong={} A-mark
+    response: 'My answer is maybe. It depends on the details.'  A-raw: 
+detectable_format-61b8cf1b2fd9 detectable_format:json_format                 label=fail A=pass B=pass R=fail flips={'D-json-scalar': 'pass'} wrong={} A-mark B-mark
+    response: '"just a string"'  A-raw: 
+detectable_format-6725b430fd4e detectable_format:multiple_sections           label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'SECTION 1\nAs noted in SECTION 2 below, x.\nSECTION 2\nMore.'  A-raw: 
+detectable_format-23370035f449 detectable_format:multiple_sections           label=fail A=pass B=pass R=fail flips={} wrong={} A-mark B-mark
+    response: 'SECTION 1\nThis part mentions SECTION 2 inline only.'  A-raw: 
+detectable_format-587180c6f588 detectable_format:multiple_sections           label=fail A=pass B=fail R=fail flips={'D-section-count': 'pass'} wrong={} A-mark
+    response: 'SECTION 1\na\nSECTION 2\nb\nSECTION 3\nc'  A-raw: 
+detectable_format-6bf27fc51ff9 detectable_format:multiple_sections           label=fail A=fail B=pass R=fail flips={'D-section-case': 'pass'} wrong={} B-mark
+    response: 'Section 1\na\nSection 2\nb'  A-raw: 
+detectable_format-3841cf4f8cfe detectable_format:multiple_sections           label=fail A=pass B=pass R=fail flips={} wrong={} A-mark B-mark
+    response: 'SUBSECTION 1\na\nSUBSECTION 2\nb'  A-raw: 
+detectable_format-66d0b8fa565d detectable_format:number_bullet_lists         label=pass A=fail B=fail R=pass flips={} wrong={} A-mark B-mark
+    response: '* Apples\n* Pears\n\n* * *\n\nDone.'  A-raw: 
+detectable_format-e1c91eaf36ee detectable_format:number_bullet_lists         label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: '*Note:* fruit list\n* Apples\n* Pears'  A-raw: 
+detectable_format-97baaa9b45dc detectable_format:number_bullet_lists         label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: '* Apples\n* Pears\n-5 degrees is cold.'  A-raw: 
+detectable_format-f1af3be8419b detectable_format:number_bullet_lists         label=pass A=fail B=fail R=pass flips={'D-bullet-marker': 'fail'} wrong={} A-mark B-mark
+    response: '+ Apples\n+ Pears'  A-raw: 
+detectable_format-2ad8ff70d32e detectable_format:number_highlighted_sections label=fail A=pass B=pass R=fail flips={} wrong={} A-mark B-mark
+    response: 'Compute 5 * 3 * 2 and *done*.'  A-raw: 
+detectable_format-fdfa57fcbf36 detectable_format:sentence_hyphens            label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'I like tea.-You like coffee.-We both like cake.'  A-raw: 
+detectable_format-5dd05f1dcf06 detectable_format:sentence_hyphens            label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'Just one sentence here.'  A-raw: 
+detectable_format-4ffdec254636 detectable_format:sentence_hyphens            label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'I-like-tea. You-like-coffee.'  A-raw: 
+detectable_format-69223f083649 detectable_format:square_brackets             label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: '[Hello] world'  A-raw: 
+detectable_format-6d726405beaf detectable_format:square_brackets             label=pass A=fail B=pass R=pass flips={'D-bracket-punct': 'fail'} wrong={} A-mark
+    response: '[Hello], [world].'  A-raw: 
+detectable_format-ca5e947557fa detectable_format:square_brackets             label=fail A=fail B=pass R=fail flips={'D-brackets-per-word': 'pass'} wrong={} B-mark
+    response: '[Hello world]'  A-raw: 
+detectable_format-f69d1786e8ca detectable_format:square_brackets             label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'Hello [world] how are you'  A-raw: 
+detectable_format-3cba1a2cbeda detectable_format:title                       label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: '<< >>\nRoses are red.'  A-raw: 
+first_word-7aa0e090bc70      first_word:first_word_answer                  label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: 'Development, as a concept, matters.'  A-raw: 
+first_word-cbf2d138fd47      first_word:first_word_answer                  label=pass A=fail B=pass R=pass flips={'D-edge-markup': 'fail'} wrong={} A-mark
+    response: '**Development** matters.'  A-raw: 
+first_word-1977ab400656      first_word:first_word_sent                    label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: 'Care, always. Care, forever.'  A-raw: 
+first_word-663944ba5554      first_word:first_word_sent                    label=fail A=pass B=pass R=fail flips={'D-sentence': 'pass'} wrong={} A-mark B-mark
+    response: 'Care is key\nkey points follow. Care wins.'  A-raw: 
+keywords-37cbeae09f15        keywords:existence                            label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'She started to finish the task.'  A-raw: 
+keywords-ad1c57305b6f        keywords:existence                            label=fail A=pass B=fail R=fail flips={'D-keyword-match': 'pass'} wrong={} A-mark
+    response: 'We like beers and wines.'  A-raw: 
+keywords-1c5ff1fcdbec        keywords:forbidden_words                      label=pass A=fail B=fail R=pass flips={'D-keyword-match': 'fail'} wrong={} A-mark B-mark
+    response: 'A wheel-option design.'  A-raw: 
+keywords-376610bc321d        keywords:frequency                            label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'Sale today, wholesale prices.'  A-raw: 
+keywords-d9ff1a4a742e        keywords:frequency                            label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: 'Heatstroke is dangerous.'  A-raw: 
+keywords-5332bd14a011        keywords:keyword_specific_position            label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: 'We walked far. Indeed, the village slept.'  A-raw: 
+keywords-386f0ca71c4a        keywords:keyword_specific_position            label=pass A=fail B=pass R=pass flips={'D-word-case': 'fail'} wrong={} A-mark
+    response: 'Village life is calm.'  A-raw: 
+keywords-fd377a63cd72        keywords:no_adjacent_consecutive              label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'A big dog'  A-raw: 
+keywords-f0b4bc36179e        keywords:no_adjacent_consecutive              label=fail A=pass B=pass R=fail flips={'D-consecutive-order': 'pass'} wrong={} A-mark B-mark
+    response: 'Big apple'  A-raw: 
+keywords-1bd265bddd80        keywords:no_adjacent_consecutive              label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: 'Steps 1 2 now'  A-raw: 
+keywords-18f123e91f9b        keywords:no_adjacent_consecutive              label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'very very good'  A-raw: 
+keywords-13e2c02da316        keywords:palindrome                           label=fail A=pass B=fail R=fail flips={'D-palindrome-length': 'pass'} wrong={} A-mark
+    response: 'I like it.'  A-raw: 
+keywords-9456aee1e7ea        keywords:palindrome                           label=fail A=pass B=pass R=fail flips={} wrong={} A-mark B-mark
+    response: 'Top results\n---\nNotes here'  A-raw: 
+keywords-272efd176adf        keywords:start_end                            label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'Hello world, I say hello.'  A-raw: 
+keywords-d7d0526f5321        keywords:start_end                            label=fail A=pass B=pass R=fail flips={} wrong={} A-mark B-mark
+    response: '- Hello world -'  A-raw: 
+keywords-05261d4fd582        keywords:start_end                            label=pass A=fail B=pass R=pass flips={'D-edge-markup': 'fail'} wrong={} A-mark
+    response: '**Hello** world, I say hello'  A-raw: 
+keywords-77e261de7bb3        keywords:word_count_different_numbers         label=fail A=pass B=pass R=fail flips={'D-word-count-relation': 'pass'} wrong={} A-mark B-mark
+    response: 'Contact us. Contact them. Contact all.'  A-raw: 
+keywords-a32d1c32523a        keywords:word_count_different_numbers         label=pass A=fail B=fail R=pass flips={} wrong={} A-mark B-mark
+    response: 'I refuse.'  A-raw: 
+keywords-4b378d420e2b        keywords:word_once                            label=pass A=fail B=fail R=pass flips={} wrong={} A-mark B-mark
+    response: 'Beer is good and beer is cheap.'  A-raw: 
+keywords-3b1da1030345        keywords:word_once                            label=fail A=pass B=fail R=fail flips={} wrong={} A-mark
+    response: 'The start of the story.'  A-raw: 
+language-c0a73118ac60        language:response_language                    label=fail A=pass B=- R=fail flips={} wrong={} A-mark
+    response: '12345 67890'  A-raw: 
+language-d75e3fed5ca6        language:response_language                    label=fail A=pass B=- R=fail flips={} wrong={} A-mark
+    response: ''  A-raw: 
+language-17a636e736c0        language:response_language                    label=fail A=pass B=- R=fail flips={'D-language-mixed': 'pass'} wrong={} A-mark
+    response: 'Hola, ¿cómo estás? Espero que tengas un buen día con tu familia y que todo vaya muy bien en el trabajo. Mañan  A-raw: 
+last_word-4d41d703013d       last_word:last_word_answer                    label=fail A=ERR B=fail R=fail flips={} wrong={} A-mark
+    response: ''  A-raw: error: IndexError: list index out of range
+length_constraints-908512619fc8 length_constraints:nth_paragraph_first_word   label=pass A=fail B=pass R=pass flips={'D-blank-run': 'fail'} wrong={} A-mark
+    response: 'Intro text here.\n\n\n\nFight for it.'  A-raw: 
+length_constraints-2d808e696dad length_constraints:nth_paragraph_first_word   label=pass A=fail B=pass R=pass flips={'D-edge-markup': 'fail'} wrong={} A-mark
+    response: 'Intro.\n\n**Fight** on.'  A-raw: 
+length_constraints-8a5d0b26a110 length_constraints:nth_paragraph_first_word   label=pass A=fail B=fail R=pass flips={'D-edge-markup': 'fail'} wrong={} A-mark B-mark
+    response: 'Intro.\n\n- Fight on.'  A-raw: 
+length_constraints-4750a35a5627 length_constraints:number_paragraphs          label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'First paragraph.\n***\nSecond paragraph.'  A-raw: 
+length_constraints-6799f5ab1aec length_constraints:number_paragraphs          label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'First paragraph.\n\nSecond paragraph.'  A-raw: 
+length_constraints-b80de78582d9 length_constraints:number_paragraphs          label=pass A=fail B=fail R=pass flips={} wrong={} A-mark B-mark
+    response: 'First paragraph has ***bold italic*** text.\n***\nSecond paragraph.'  A-raw: 
+length_constraints-80e66ab706cc length_constraints:number_paragraphs          label=fail A=pass B=fail R=fail flips={'D-divider-edge': 'pass'} wrong={} A-mark
+    response: 'First.\n***\nSecond.\n***'  A-raw: 
+length_constraints-f89c19a0e01e length_constraints:number_sentences           label=pass A=fail B=fail R=pass flips={'D-sentence': 'fail'} wrong={} A-mark B-mark
+    response: 'Title line\nOne here. Two here.'  A-raw: 
+length_constraints-88235defbbb8 length_constraints:number_sentences           label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'Dr. Smith arrived.'  A-raw: 
+length_constraints-fc465bd7520a length_constraints:number_words               label=pass A=pass B=fail R=pass flips={} wrong={} B-mark
+    response: 'Это очень хороший и полезный ответ.'  A-raw: 
+length_constraints-f2f8b6054d3c length_constraints:number_words               label=pass A=fail B=fail R=pass flips={'D-word-cjk': 'fail'} wrong={} A-mark B-mark
+    response: '你好世界'  A-raw: 
+length_constraints-26c693e3bbc5 length_constraints:number_words               label=pass A=fail B=pass R=pass flips={} wrong={} A-mark
+    response: "Don't stop."  A-raw: 
+letters-c997bee172d1         letters:letter_counting                       label=pass A=fail B=- R=pass flips={} wrong={} A-mark
+    response: 'Да, конечно.'  A-raw: 
+paragraphs-9e389638024a      paragraphs:paragraphs                         label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'First.\n\nSecond.'  A-raw: 
+paragraphs-87036b2c94bc      paragraphs:paragraphs                         label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'First.\n***\nSecond.\n***\nThird.'  A-raw: 
+paragraphs-985ba5c60e78      paragraphs:paragraphs2                        label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'A.\n\nB.\n\nC.'  A-raw: 
+paragraphs-f77fd17c27a0      paragraphs:paragraphs2                        label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: 'First.\n***\nSecond.'  A-raw: 
+paragraphs-5bcd636f604d      paragraphs:paragraphs2                        label=pass A=fail B=pass R=pass flips={'D-blank-run': 'fail'} wrong={} A-mark
+    response: 'A.\n\n\n\nB.'  A-raw: 
+punctuation-7f7f2c2c2bfa     punctuation:no_comma                          label=fail A=pass B=pass R=fail flips={'D-comma-chars': 'pass'} wrong={} A-mark B-mark
+    response: '你好，世界'  A-raw: 
+punctuation-5113385893a3     punctuation:punctuation_dot                   label=fail A=pass B=pass R=fail flips={'D-dot-chars': 'pass'} wrong={} A-mark B-mark
+    response: 'Wait…'  A-raw: 
+punctuation-98972c5e08c5     punctuation:punctuation_exclamation           label=fail A=pass B=pass R=fail flips={'D-exclamation-chars': 'pass'} wrong={} A-mark B-mark
+    response: '好！'  A-raw: 
+startend-f15bacf9d3f4        startend:end_checker                          label=pass A=fail B=fail R=pass flips={'D-end-trailing': 'fail'} wrong={} A-mark B-mark
+    response: 'Here is the answer. **Any other questions?**'  A-raw: 
+startend-1b67d1462e14        startend:end_checker                          label=fail A=pass B=fail R=fail flips={'D-end-case': 'pass'} wrong={} A-mark
+    response: 'Here is the answer. any other questions?'  A-raw: 
+startend-76ce74fa36f3        startend:end_checker                          label=pass A=pass B=fail R=pass flips={'D-end-trailing': 'fail'} wrong={} B-mark
+    response: '"Here is the answer. Any other questions?"'  A-raw: 
+startend-3ea7fa238e6f        startend:quotation                            label=pass A=fail B=pass R=pass flips={'D-quote-chars': 'fail'} wrong={} A-mark
+    response: '“Hello there.”'  A-raw: 
+startend-985e8eace788        startend:quotation                            label=fail A=fail B=pass R=fail flips={} wrong={} B-mark
+    response: "'Hello there.'"  A-raw: 
+fixtures: 211 rows needing attention: 101

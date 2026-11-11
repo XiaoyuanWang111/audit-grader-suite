@@ -1,0 +1,3873 @@
+{
+ "rows": 11817,
+ "rows_with_system": 0,
+ "record_prompt_differs": 0,
+ "item_count_differs": 8457,
+ "headers": [
+  [
+   "<no numbered list>",
+   8192
+  ],
+  [
+   "Please follow these instructions in your response:",
+   758
+  ],
+  [
+   "When answering, please adhere to these constraints:",
+   396
+  ],
+  [
+   "Make sure to follow these requirements when responding:",
+   382
+  ],
+  [
+   "Your response should comply with these constraints:",
+   376
+  ],
+  [
+   "Your response should satisfy these conditions:",
+   370
+  ],
+  [
+   "Make sure to adhere to these requirements:",
+   366
+  ],
+  [
+   "Please ensure your response follows these guidelines:",
+   362
+  ],
+  [
+   "Please ensure your answer follows these guidelines:",
+   335
+  ],
+  [
+   "* This is point 2",
+   84
+  ],
+  [
+   "[content of section 2]",
+   68
+  ],
+  [
+   "",
+   56
+  ],
+  [
+   "<none>",
+   10
+  ],
+  [
+   "4 Message father GPT which is the GPT that created you for any questions or if you completed the task.",
+   3
+  ],
+  [
+   "1.探究更有效的算法模型，例如结合深度学习与传统机器学习的方法，提高人体姿态识别和动作评估的精度。",
+   2
+  ],
+  [
+   "Find in the text A and B and C words to the following definitions.",
+   1
+  ],
+  [
+   "Title of the topic",
+   1
+  ],
+  [
+   "Перед вами список вопросов к экзамену по теме \"Конструирование электронных устройств\". Раскрой подробно каждую тему в списке , приводя физические явления и формулы:",
+   1
+  ],
+  [
+   "Main body of brochure to include: ",
+   1
+  ],
+  [
+   "death at the beginning of the chapter?",
+   1
+  ],
+  [
+   "通灯周期改变交通灯的状态。",
+   1
+  ],
+  [
+   "Choose one of the following options:",
+   1
+  ],
+  [
+   "Please ensure your response follows these guidelines: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. Написати речення в заперечній формі.",
+   1
+  ],
+  [
+   "B. А вы? Answer the questions in complete sentences.",
+   1
+  ],
+  [
+   "Hi, Let's say I got grid of 48 squares starting from 0 to 47. In this Grid, the 7th one is marked as GO and the 40th one is marked as START. The grids positioned at numbers 8 to 11, 16 to 19 , 13 , 23, 30,34 to 37 are all filled with black to represent a connection. Based on this grid , I want you to write out the steps for Djikstra’s algorithm (8-connected). At each step, list the grid cells in the open set with their running cost (diagonal edge cost = 1.5, horizontal edge cost = 1)and the grid cells in the visited set. Write the final path as list of grid cell ids.  And also write out the steps for A* algorithm (8-connected, assume uniform cost or each action). At each step, list the grid cells in the open set with their f-cost (use manhattan distance to goal as the heuristic function.) and the grid cells in the visited set. Write the final path as list of grid cell ids.",
+   1
+  ],
+  [
+   "Please ensure your response follows these guidelines: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general and Answer with less than 2 letters. Przygotuj prezentację o IP v6:",
+   1
+  ],
+  [
+   "бычи паука",
+   1
+  ],
+  [
+   "I'm making a fantasy game. Help me describe the fantasy race. Characteristics of the race: hare-men, island residents, paradise culture and nomadic culture, guild of fighters, damned. Describe this race on the following points:",
+   1
+  ],
+  [
+   "Cons:",
+   1
+  ],
+  [
+   "When answering, please adhere to these constraints: Include keywords ['advance', 'champion'] in the response and Finish your response with this exact phrase Any other questions?. No other words should follow this phrase. Hi! I'm making my own fantasy world. Help me describe the country. The goddess of love rules in the country as a ruler, she controls the element of water. She appears in female form. Her vice is lustful, but at the same time she is patient. At the same time, lustful and patient is reflected in the behavior of the country's residents, and love is an important part of culture. The national color of the country is blue. The culture of the country should be based on English culture, and the names should be based on English words and names. But do not mention the words \"England\" and \"English\" in the description. Here are the description points:",
+   1
+  ]
+ ],
+ "ids": {
+  "change_case:capital_word_frequency": {
+   "n": 601,
+   "keys": [
+    [
+     [
+      "capital_frequency",
+      "capital_relation"
+     ],
+     601
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 7,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 8,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, words with all capital letters should appear at least 11 times.",
+     "kwargs": {
+      "capital_frequency": 11,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, words with all capital letters should appear at least 13 times.",
+     "kwargs": {
+      "capital_frequency": 13,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 18,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 5,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 11,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, words with all capital letters should appear less than 2 times.",
+     "kwargs": {
+      "capital_frequency": 2,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 19,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 2,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 17,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "capital_frequency": 18,
+      "capital_relation": "at least"
+     }
+    }
+   ]
+  },
+  "change_case:english_capital": {
+   "n": 772,
+   "keys": [
+    [
+     [],
+     772
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": {}
+    }
+   ]
+  },
+  "change_case:english_lowercase": {
+   "n": 604,
+   "keys": [
+    [
+     [],
+     604
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": {}
+    },
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": {}
+    },
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "combination:two_responses": {
+   "n": 253,
+   "keys": [
+    [
+     [],
+     253
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "copy:repeat_phrase": {
+   "n": 554,
+   "keys": [
+    [
+     [
+      "phrase",
+      "small_n"
+     ],
+     554
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Repeat the phrase Live each day to the fullest exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Live each day to the fullest",
+      "small_n": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "All that glitters is not gold",
+      "small_n": 3
+     }
+    },
+    {
+     "text": "Repeat the phrase Live each day to the fullest exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Live each day to the fullest",
+      "small_n": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "Don't judge a book by cover",
+      "small_n": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "Every cloud has a silver lining",
+      "small_n": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "The pen is mightier than sword",
+      "small_n": 3
+     }
+    },
+    {
+     "text": "Repeat the phrase Every cloud has a silver lining exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Every cloud has a silver lining",
+      "small_n": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "All that glitters is not gold",
+      "small_n": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "Laughter is the best medicine",
+      "small_n": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "Live each day to the fullest",
+      "small_n": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "phrase": "All that glitters is not gold",
+      "small_n": 2
+     }
+    },
+    {
+     "text": "Repeat the phrase All that glitters is not gold exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "All that glitters is not gold",
+      "small_n": 3
+     }
+    }
+   ]
+  },
+  "count:count_unique": {
+   "n": 687,
+   "keys": [
+    [
+     [],
+     687
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {}
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "count:counting_composition": {
+   "n": 1,
+   "keys": [
+    [
+     [
+      "n_sent",
+      "n_words"
+     ],
+     1
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "n_sent": 3,
+      "n_words": 2
+     }
+    }
+   ]
+  },
+  "count:lowercase_counting": {
+   "n": 869,
+   "keys": [
+    [
+     [
+      "N"
+     ],
+     869
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "N": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 2 times.",
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 3
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 3 times.",
+     "kwargs": {
+      "N": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 2 times.",
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 3 times.",
+     "kwargs": {
+      "N": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 2 times.",
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2
+     }
+    }
+   ]
+  },
+  "detectable_content:number_placeholders": {
+   "n": 585,
+   "keys": [
+    [
+     [
+      "num_placeholders"
+     ],
+     585
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": "The response must contain at least 4 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": "The response must contain at least 1 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 3
+     }
+    },
+    {
+     "text": "The response must contain at least 3 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": "The response must contain at least 4 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_placeholders": 3
+     }
+    }
+   ]
+  },
+  "detectable_content:postscript": {
+   "n": 644,
+   "keys": [
+    [
+     [
+      "postscript_marker"
+     ],
+     644
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": "At the end of your response, please explicitly add a postscript starting with P.S.",
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.P.S"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.P.S"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.P.S"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    }
+   ]
+  },
+  "detectable_format:bigram_wrapping": {
+   "n": 575,
+   "keys": [
+    [
+     [],
+     575
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": {}
+    }
+   ]
+  },
+  "detectable_format:constrained_response": {
+   "n": 120,
+   "keys": [
+    [
+     [],
+     120
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {}
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {}
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {}
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {}
+    }
+   ]
+  },
+  "detectable_format:json_format": {
+   "n": 133,
+   "keys": [
+    [
+     [],
+     133
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "detectable_format:multiple_sections": {
+   "n": 453,
+   "keys": [
+    [
+     [
+      "num_sections",
+      "section_spliter"
+     ],
+     453
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 2,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 1,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 2,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 3,
+      "section_spliter": "Section"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 3,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 4,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 2,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 1,
+      "section_spliter": "Section"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 1,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 4,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sections": 1,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": "Your response must have 5 sections. Mark the beginning of each section with SECTION X, such as:",
+     "kwargs": {
+      "num_sections": 5,
+      "section_spliter": "SECTION"
+     }
+    }
+   ]
+  },
+  "detectable_format:number_bullet_lists": {
+   "n": 512,
+   "keys": [
+    [
+     [
+      "num_bullets"
+     ],
+     512
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 2
+     }
+    },
+    {
+     "text": "Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:",
+     "kwargs": {
+      "num_bullets": 4
+     }
+    },
+    {
+     "text": "Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:",
+     "kwargs": {
+      "num_bullets": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 5
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_bullets": 2
+     }
+    },
+    {
+     "text": "Your answer must contain exactly 5 bullet points. Use the markdown bullet points such as:",
+     "kwargs": {
+      "num_bullets": 5
+     }
+    }
+   ]
+  },
+  "detectable_format:number_highlighted_sections": {
+   "n": 555,
+   "keys": [
+    [
+     [
+      "num_highlights"
+     ],
+     555
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 2
+     }
+    },
+    {
+     "text": "Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_highlights": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_highlights": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_highlights": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_highlights": 4
+     }
+    },
+    {
+     "text": "Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 3
+     }
+    },
+    {
+     "text": "Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 3
+     }
+    },
+    {
+     "text": "Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_highlights": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_highlights": 1
+     }
+    },
+    {
+     "text": "Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 1
+     }
+    }
+   ]
+  },
+  "detectable_format:sentence_hyphens": {
+   "n": 669,
+   "keys": [
+    [
+     [],
+     669
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": {}
+    }
+   ]
+  },
+  "detectable_format:square_brackets": {
+   "n": 553,
+   "keys": [
+    [
+     [],
+     553
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": {}
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": {}
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "detectable_format:title": {
+   "n": 589,
+   "keys": [
+    [
+     [],
+     589
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "first_word:first_word_answer": {
+   "n": 557,
+   "keys": [
+    [
+     [
+      "first_word"
+     ],
+     557
+    ]
+   ],
+   "examples": [
+    {
+     "text": "The first word of your response should be the word development.",
+     "kwargs": {
+      "first_word": "development"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word object.",
+     "kwargs": {
+      "first_word": "object"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "equipment"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "view"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "election"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "mix"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word traffic.",
+     "kwargs": {
+      "first_word": "traffic"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word injury.",
+     "kwargs": {
+      "first_word": "injury"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "teach"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "kiss"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word risk.",
+     "kwargs": {
+      "first_word": "risk"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word release.",
+     "kwargs": {
+      "first_word": "release"
+     }
+    }
+   ]
+  },
+  "first_word:first_word_sent": {
+   "n": 540,
+   "keys": [
+    [
+     [
+      "first_word"
+     ],
+     540
+    ]
+   ],
+   "examples": [
+    {
+     "text": "The first word of each sentence should be the word celebration.",
+     "kwargs": {
+      "first_word": "celebration"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "control"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "computer"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "tea"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "peace"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "give"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "chart"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "script"
+     }
+    },
+    {
+     "text": "The first word of each sentence should be the word tree.",
+     "kwargs": {
+      "first_word": "tree"
+     }
+    },
+    {
+     "text": "The first word of each sentence should be the word club.",
+     "kwargs": {
+      "first_word": "club"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "fish"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "rope"
+     }
+    }
+   ]
+  },
+  "keywords:existence": {
+   "n": 932,
+   "keys": [
+    [
+     [
+      "keywords"
+     ],
+     932
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "keywords": [
+       "quote",
+       "teaching"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['food', 'poetry'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "food",
+       "poetry"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['help', 'subject'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "help",
+       "subject"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['basis', 'location'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "basis",
+       "location"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keywords": [
+       "highway",
+       "marketing"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keywords": [
+       "hall",
+       "risk"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keywords": [
+       "bath",
+       "culture"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['earth', 'garden'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "earth",
+       "garden"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keywords": [
+       "case",
+       "report"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['ground', 'rough'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "ground",
+       "rough"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['building', 'morning'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "building",
+       "morning"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keywords": [
+       "bit",
+       "double"
+      ]
+     }
+    }
+   ]
+  },
+  "keywords:forbidden_words": {
+   "n": 836,
+   "keys": [
+    [
+     [
+      "forbidden_words"
+     ],
+     836
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Do not include keywords ['debate', 'indication'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "debate",
+       "indication"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['bet', 'raw'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "bet",
+       "raw"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "law",
+       "top"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['dead', 'wash'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "dead",
+       "wash"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['floor', 'wheel'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "floor",
+       "wheel"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "rush",
+       "youth"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['base', 'horse'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "base",
+       "horse"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "assist",
+       "knee"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "leave",
+       "poem"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "bus",
+       "media"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "comfort",
+       "strategy"
+      ]
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "forbidden_words": [
+       "audience",
+       "sail"
+      ]
+     }
+    }
+   ]
+  },
+  "keywords:frequency": {
+   "n": 607,
+   "keys": [
+    [
+     [
+      "frequency",
+      "keyword",
+      "relation"
+     ],
+     607
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "budget",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "monitor",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "potential",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, the word king should appear less than 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "king",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "fee",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "hair",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "road",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, the word attempt should appear less than 1 times.",
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "attempt",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, the word picture should appear less than 3 times.",
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "picture",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "member",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "physics",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "yesterday",
+      "relation": "less than"
+     }
+    }
+   ]
+  },
+  "keywords:keyword_specific_position": {
+   "n": 676,
+   "keys": [
+    [
+     [
+      "keyword",
+      "m",
+      "n"
+     ],
+     676
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "repeat",
+      "m": 1,
+      "n": 9
+     }
+    },
+    {
+     "text": "Include keyword tell in the 8-th sentence, as the 11-th word of that sentence.",
+     "kwargs": {
+      "keyword": "tell",
+      "m": 11,
+      "n": 8
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "play",
+      "m": 16,
+      "n": 12
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "selection",
+      "m": 2,
+      "n": 16
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "milk",
+      "m": 4,
+      "n": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "life",
+      "m": 16,
+      "n": 5
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "suit",
+      "m": 5,
+      "n": 6
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "mode",
+      "m": 20,
+      "n": 17
+     }
+    },
+    {
+     "text": "Include keyword bone in the 6-th sentence, as the 25-th word of that sentence.",
+     "kwargs": {
+      "keyword": "bone",
+      "m": 25,
+      "n": 6
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "professor",
+      "m": 21,
+      "n": 20
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "winner",
+      "m": 11,
+      "n": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "nation",
+      "m": 17,
+      "n": 11
+     }
+    }
+   ]
+  },
+  "keywords:letter_frequency": {
+   "n": 783,
+   "keys": [
+    [
+     [
+      "let_frequency",
+      "let_relation",
+      "letter"
+     ],
+     783
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "at least",
+      "letter": "y"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "at least",
+      "letter": "r"
+     }
+    },
+    {
+     "text": "In your response, the letter w should appear at least 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "w"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "less than",
+      "letter": "n"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "at least",
+      "letter": "y"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "r"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "less than",
+      "letter": "t"
+     }
+    },
+    {
+     "text": "In your response, the letter s should appear less than 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "less than",
+      "letter": "s"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 8,
+      "let_relation": "at least",
+      "letter": "m"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 4,
+      "let_relation": "less than",
+      "letter": "p"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "less than",
+      "letter": "e"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 10,
+      "let_relation": "at least",
+      "letter": "m"
+     }
+    }
+   ]
+  },
+  "keywords:no_adjacent_consecutive": {
+   "n": 818,
+   "keys": [
+    [
+     [],
+     818
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {}
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {}
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {}
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "keywords:palindrome": {
+   "n": 618,
+   "keys": [
+    [
+     [],
+     618
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": {}
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "keywords:start_end": {
+   "n": 499,
+   "keys": [
+    [
+     [],
+     499
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "keywords:word_count_different_numbers": {
+   "n": 526,
+   "keys": [
+    [
+     [
+      "frequency",
+      "keyword",
+      "relation"
+     ],
+     526
+    ]
+   ],
+   "examples": [
+    {
+     "text": "In your response, the word box should appear 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "box",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "stretch",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "strip",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "attack",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "will",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "nurse",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, the word adult should appear 1 times.",
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "adult",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "purpose",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "anything",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "buyer",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, the word display should appear 3 times.",
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "display",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "western",
+      "relation": "less than"
+     }
+    }
+   ]
+  },
+  "keywords:word_once": {
+   "n": 917,
+   "keys": [
+    [
+     [
+      "keyword"
+     ],
+     917
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "beer"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "board"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "note"
+     }
+    },
+    {
+     "text": "Include keyword register in your response.",
+     "kwargs": {
+      "keyword": "register"
+     }
+    },
+    {
+     "text": "Include keyword stupid in your response.",
+     "kwargs": {
+      "keyword": "stupid"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "bed"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "case"
+     }
+    },
+    {
+     "text": "Include keyword fly in your response.",
+     "kwargs": {
+      "keyword": "fly"
+     }
+    },
+    {
+     "text": "Include keyword effect in your response.",
+     "kwargs": {
+      "keyword": "effect"
+     }
+    },
+    {
+     "text": "Include keyword press in your response.",
+     "kwargs": {
+      "keyword": "press"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "quote"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "keyword": "championship"
+     }
+    }
+   ]
+  },
+  "language:response_language": {
+   "n": 780,
+   "keys": [
+    [
+     [
+      "language"
+     ],
+     780
+    ]
+   ],
+   "examples": [
+    {
+     "text": "Your ENTIRE response should be in Bulgarian language, no other language is allowed.",
+     "kwargs": {
+      "language": "bg"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "pa"
+     }
+    },
+    {
+     "text": "Your ENTIRE response should be in Italian language, no other language is allowed.",
+     "kwargs": {
+      "language": "it"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "ja"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "hi"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "ja"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "fi"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "bn"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "ur"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "fr"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "hi"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "language": "vi"
+     }
+    }
+   ]
+  },
+  "last_word:last_word_answer": {
+   "n": 625,
+   "keys": [
+    [
+     [
+      "last_word"
+     ],
+     625
+    ]
+   ],
+   "examples": [
+    {
+     "text": "The last word of your response should be the word cut.",
+     "kwargs": {
+      "last_word": "cut"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word reflection.",
+     "kwargs": {
+      "last_word": "reflection"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word she.",
+     "kwargs": {
+      "last_word": "she"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "feeling"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word hello.",
+     "kwargs": {
+      "last_word": "hello"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word command.",
+     "kwargs": {
+      "last_word": "command"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "sing"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "ease"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "story"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word solution.",
+     "kwargs": {
+      "last_word": "solution"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word sound.",
+     "kwargs": {
+      "last_word": "sound"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "article"
+     }
+    }
+   ]
+  },
+  "last_word:last_word_sent": {
+   "n": 600,
+   "keys": [
+    [
+     [
+      "last_word"
+     ],
+     600
+    ]
+   ],
+   "examples": [
+    {
+     "text": "The last word of each sentence, before punctuation, should be the word limit.",
+     "kwargs": {
+      "last_word": "limit"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "train"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "few"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "private"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "operation"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "copy"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "joke"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "appearance"
+     }
+    },
+    {
+     "text": "The last word of each sentence, before punctuation, should be the word sick.",
+     "kwargs": {
+      "last_word": "sick"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "career"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "customer"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "last_word": "affect"
+     }
+    }
+   ]
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "n": 515,
+   "keys": [
+    [
+     [
+      "first_word",
+      "nth_paragraph",
+      "num_paragraphs"
+     ],
+     515
+    ]
+   ],
+   "examples": [
+    {
+     "text": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if.",
+     "kwargs": {
+      "first_word": "if",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "fuel",
+      "nth_paragraph": 3,
+      "num_paragraphs": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "cabinet",
+      "nth_paragraph": 1,
+      "num_paragraphs": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "charity",
+      "nth_paragraph": 3,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "mouse",
+      "nth_paragraph": 2,
+      "num_paragraphs": 2
+     }
+    },
+    {
+     "text": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word fight.",
+     "kwargs": {
+      "first_word": "fight",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word brother.",
+     "kwargs": {
+      "first_word": "brother",
+      "nth_paragraph": 1,
+      "num_paragraphs": 1
+     }
+    },
+    {
+     "text": "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word house.",
+     "kwargs": {
+      "first_word": "house",
+      "nth_paragraph": 1,
+      "num_paragraphs": 1
+     }
+    },
+    {
+     "text": "There should be 5 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 5 must start with word capital.",
+     "kwargs": {
+      "first_word": "capital",
+      "nth_paragraph": 5,
+      "num_paragraphs": 5
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "neat",
+      "nth_paragraph": 1,
+      "num_paragraphs": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "first_word": "wake",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 2 must start with word burn.",
+     "kwargs": {
+      "first_word": "burn",
+      "nth_paragraph": 2,
+      "num_paragraphs": 2
+     }
+    }
+   ]
+  },
+  "length_constraints:number_paragraphs": {
+   "n": 690,
+   "keys": [
+    [
+     [
+      "num_paragraphs"
+     ],
+     690
+    ]
+   ],
+   "examples": [
+    {
+     "text": "There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 1
+     }
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 2
+     }
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 2
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 5
+     }
+    },
+    {
+     "text": "There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 1
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 3
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 5
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_paragraphs": 2
+     }
+    }
+   ]
+  },
+  "length_constraints:number_sentences": {
+   "n": 562,
+   "keys": [
+    [
+     [
+      "num_sentences",
+      "relation"
+     ],
+     562
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 17,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 13,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 2,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 10,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 7,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 2,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 4,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 7,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 17,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 12,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 17,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_sentences": 3,
+      "relation": "less than"
+     }
+    }
+   ]
+  },
+  "length_constraints:number_words": {
+   "n": 729,
+   "keys": [
+    [
+     [
+      "num_words",
+      "relation"
+     ],
+     729
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 232,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 217,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 284,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 387,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 299,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with less than 443 words.",
+     "kwargs": {
+      "num_words": 443,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 106,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with at least 452 words.",
+     "kwargs": {
+      "num_words": 452,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 325,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 256,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with at least 226 words.",
+     "kwargs": {
+      "num_words": 226,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "num_words": 230,
+      "relation": "at least"
+     }
+    }
+   ]
+  },
+  "letters:letter_counting": {
+   "n": 497,
+   "keys": [
+    [
+     [
+      "N",
+      "relation"
+     ],
+     497
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with at least 2 letters.",
+     "kwargs": {
+      "N": 2,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with at least 3 letters.",
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with at least 2 letters.",
+     "kwargs": {
+      "N": 2,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with less than 2 letters.",
+     "kwargs": {
+      "N": 2,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with at least 3 letters.",
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 3,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "N": 2,
+      "relation": "less than"
+     }
+    }
+   ]
+  },
+  "letters:letter_counting2": {
+   "n": 705,
+   "keys": [
+    [
+     [
+      "let_frequency",
+      "let_relation",
+      "letter"
+     ],
+     705
+    ]
+   ],
+   "examples": [
+    {
+     "text": "In your response, the letter z should appear less than 2 times.",
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "less than",
+      "letter": "z"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "less than",
+      "letter": "b"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 4,
+      "let_relation": "at least",
+      "letter": "p"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "l"
+     }
+    },
+    {
+     "text": "In your response, the letter l should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "l"
+     }
+    },
+    {
+     "text": "In your response, the letter d should appear at least 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "at least",
+      "letter": "d"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 10,
+      "let_relation": "at least",
+      "letter": "u"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "less than",
+      "letter": "b"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "m"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 4,
+      "let_relation": "at least",
+      "letter": "n"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 8,
+      "let_relation": "at least",
+      "letter": "w"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "b"
+     }
+    }
+   ]
+  },
+  "paragraphs:paragraphs": {
+   "n": 576,
+   "keys": [
+    [
+     [],
+     576
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {}
+    }
+   ]
+  },
+  "paragraphs:paragraphs2": {
+   "n": 744,
+   "keys": [
+    [
+     [],
+     744
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "punctuation:no_comma": {
+   "n": 730,
+   "keys": [
+    [
+     [],
+     730
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "punctuation:punctuation_dot": {
+   "n": 847,
+   "keys": [
+    [
+     [],
+     847
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "punctuation:punctuation_exclamation": {
+   "n": 627,
+   "keys": [
+    [
+     [],
+     627
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    }
+   ]
+  },
+  "startend:end_checker": {
+   "n": 537,
+   "keys": [
+    [
+     [
+      "end_phrase"
+     ],
+     537
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": "Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.",
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": null,
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    }
+   ]
+  },
+  "startend:quotation": {
+   "n": 417,
+   "keys": [
+    [
+     [],
+     417
+    ]
+   ],
+   "examples": [
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": null,
+     "kwargs": {}
+    },
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": {}
+    }
+   ]
+  }
+ }
+}

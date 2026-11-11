@@ -1,0 +1,3650 @@
+{
+ "fixtures": [
+  {
+   "id": "change_case:capital_word_frequency:8dddc33541b4",
+   "check": "change_case:capital_word_frequency",
+   "kwargs": {
+    "capital_frequency": 2,
+    "capital_relation": "at least"
+   },
+   "text": "NASA and the FBI met today.",
+   "label": true,
+   "note": "two capital words",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:capital_word_frequency:cb92100c1edd",
+   "check": "change_case:capital_word_frequency",
+   "kwargs": {
+    "capital_frequency": 2,
+    "capital_relation": "at least"
+   },
+   "text": "Only NASA came.",
+   "label": false,
+   "note": "one capital word",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:capital_word_frequency:1e2b05475435",
+   "check": "change_case:capital_word_frequency",
+   "kwargs": {
+    "capital_frequency": 3,
+    "capital_relation": "less than"
+   },
+   "text": "I think NASA and ESA agree.",
+   "label": false,
+   "note": "I counts as a capital word: 3, not fewer than 3",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-capital-word"
+   ]
+  },
+  {
+   "id": "change_case:capital_word_frequency:213dd08a8113",
+   "check": "change_case:capital_word_frequency",
+   "kwargs": {
+    "capital_frequency": 2,
+    "capital_relation": "less than"
+   },
+   "text": "COVID-19 and NATO.",
+   "label": false,
+   "note": "hyphenated capital word counts once: 2",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_capital:580b7d3597ac",
+   "check": "change_case:english_capital",
+   "kwargs": {},
+   "text": "THE WEATHER IS NICE TODAY AND I WILL GO TO THE PARK WITH MY FRIENDS.",
+   "label": true,
+   "note": "English, all capitals",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_capital:21efc49bdab9",
+   "check": "change_case:english_capital",
+   "kwargs": {},
+   "text": "The weather is nice today.",
+   "label": false,
+   "note": "lowercase letters",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_capital:ad12daf0c0cc",
+   "check": "change_case:english_capital",
+   "kwargs": {},
+   "text": "LE TEMPS EST TRÈS BEAU AUJOURD'HUI ET JE VAIS AU PARC AVEC MES AMIS POUR JOUER.",
+   "label": false,
+   "note": "French in capitals is not English",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_capital:8af64c2cc950",
+   "check": "change_case:english_capital",
+   "kwargs": {},
+   "text": "",
+   "label": false,
+   "note": "empty",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_lowercase:4580c2f34ba8",
+   "check": "change_case:english_lowercase",
+   "kwargs": {},
+   "text": "the weather is nice today and i will go to the park with my friends.",
+   "label": true,
+   "note": "English, all lowercase",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_lowercase:b31616f61f8c",
+   "check": "change_case:english_lowercase",
+   "kwargs": {},
+   "text": "The weather is nice.",
+   "label": false,
+   "note": "capital letter",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_lowercase:4a660b518e5a",
+   "check": "change_case:english_lowercase",
+   "kwargs": {},
+   "text": "el clima es muy agradable hoy y voy a ir al parque con mis amigos para jugar.",
+   "label": false,
+   "note": "Spanish in lowercase is not English",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "combination:two_responses:f8d66d377180",
+   "check": "combination:two_responses",
+   "kwargs": {},
+   "text": "Paris is the capital.\n******\nThe capital is Paris.",
+   "label": true,
+   "note": "two different responses",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "combination:two_responses:9c76bd17573f",
+   "check": "combination:two_responses",
+   "kwargs": {},
+   "text": "Same answer.\n******\nSame answer.",
+   "label": false,
+   "note": "identical responses",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "combination:two_responses:623abc890e8a",
+   "check": "combination:two_responses",
+   "kwargs": {},
+   "text": "First answer.\n*******\nSecond answer.",
+   "label": false,
+   "note": "seven asterisks are not the separator",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-two-responses-separator"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-two-responses-separator"
+   ]
+  },
+  {
+   "id": "combination:two_responses:f73fe4fc06e6",
+   "check": "combination:two_responses",
+   "kwargs": {},
+   "text": "Only one answer here.",
+   "label": false,
+   "note": "no separator",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "copy:repeat_phrase:227d1bebe372",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Time flies when having fun",
+    "small_n": 2
+   },
+   "text": "Time flies while having fun. Time flies whilst having fun.",
+   "label": true,
+   "note": "two one-word variants",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "copy:repeat_phrase:0168ab427276",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Time flies when having fun",
+    "small_n": 2
+   },
+   "text": "Time flies when having fun. Time flies when having fun.",
+   "label": false,
+   "note": "two unchanged copies, no variant",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "copy:repeat_phrase:e63509a49a0f",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Time flies when having fun",
+    "small_n": 2
+   },
+   "text": "Time flies when having fun. Time flies while having fun.",
+   "label": false,
+   "note": "one copy and one variant: one variant",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-repeat-exact-copy"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "copy:repeat_phrase:c05deb30cfef",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Laughter is the best medicine",
+    "small_n": 2
+   },
+   "text": "Laughter is a best medicine. Laughter is our best medicine. Laughter is the best medicine.",
+   "label": true,
+   "note": "two variants plus the original",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-repeat-exact-copy"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-repeat-exact-copy"
+   ]
+  },
+  {
+   "id": "copy:repeat_phrase:2f8f134c7d1b",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Time flies when having fun",
+    "small_n": 2
+   },
+   "text": "time flies while having fun\ntime flies whilst having fun",
+   "label": true,
+   "note": "variants in lowercase on two lines",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word-case"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-word-case"
+   ]
+  },
+  {
+   "id": "copy:repeat_phrase:f435126d7db6",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Time flies when having fun",
+    "small_n": 2
+   },
+   "text": "Time flies when having joy. Time flies when having games.",
+   "label": false,
+   "note": "last word replaced",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "copy:repeat_phrase:032a1d2d625e",
+   "check": "copy:repeat_phrase",
+   "kwargs": {
+    "phrase": "Time flies when having fun",
+    "small_n": 2
+   },
+   "text": "1. Time flies while having fun!\n2. Time flies whilst having fun!",
+   "label": true,
+   "note": "variants in a numbered list",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:count_unique:6a4f0a91568d",
+   "check": "count:count_unique",
+   "kwargs": {},
+   "text": "Every word here differs.",
+   "label": true,
+   "note": "all distinct",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:count_unique:f4d49a98da39",
+   "check": "count:count_unique",
+   "kwargs": {},
+   "text": "The cat saw the dog.",
+   "label": false,
+   "note": "the repeated, ignoring case",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word-case"
+   ],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:count_unique:9cd87e0b94da",
+   "check": "count:count_unique",
+   "kwargs": {},
+   "text": "Cats sleep. Dogs bark.",
+   "label": true,
+   "note": "punctuation is not a word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:counting_composition:90d639689afa",
+   "check": "count:counting_composition",
+   "kwargs": {
+    "n_sent": 3,
+    "n_words": 2
+   },
+   "text": "Birds sing. Dogs bark. Cats purr.\n* * *\nSun shines. Rain falls. Wind blows.\n* * *\nKids play. Adults work. Elders rest.",
+   "label": true,
+   "note": "three paragraphs with the instructed * * * divider",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:counting_composition:9da6d8970e4b",
+   "check": "count:counting_composition",
+   "kwargs": {
+    "n_sent": 3,
+    "n_words": 2
+   },
+   "text": "Birds sing. Dogs bark. Cats purr.\n***\nSun shines. Rain falls. Wind blows.\n***\nKids play. Adults work. Elders rest.",
+   "label": true,
+   "note": "three paragraphs with *** dividers",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:counting_composition:a45a32c5f60f",
+   "check": "count:counting_composition",
+   "kwargs": {
+    "n_sent": 3,
+    "n_words": 2
+   },
+   "text": "Birds sing loudly today.",
+   "label": false,
+   "note": "one sentence",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:counting_composition:6f3659fe3315",
+   "check": "count:counting_composition",
+   "kwargs": {
+    "n_sent": 3,
+    "n_words": 2
+   },
+   "text": "Birds sing all day long. Dogs bark at night. Cats purr softly.",
+   "label": false,
+   "note": "one paragraph, long sentences",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:lowercase_counting:8d6777ae4815",
+   "check": "count:lowercase_counting",
+   "kwargs": {
+    "N": 2
+   },
+   "text": "Apples and pears and plums.",
+   "label": true,
+   "note": "each lowercase word at most twice",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-lowercase-scope"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:lowercase_counting:925fbcb1888c",
+   "check": "count:lowercase_counting",
+   "kwargs": {
+    "N": 2
+   },
+   "text": "the cat and the dog and the bird",
+   "label": false,
+   "note": "the three times",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:lowercase_counting:49a831aa0548",
+   "check": "count:lowercase_counting",
+   "kwargs": {
+    "N": 2
+   },
+   "text": "NASA ESA JAXA",
+   "label": true,
+   "note": "no lowercase word",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:lowercase_counting:b58547be803e",
+   "check": "count:lowercase_counting",
+   "kwargs": {
+    "N": 2
+   },
+   "text": "The cat. the dog. the end.",
+   "label": true,
+   "note": "the twice; The is not the lowercase word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-lowercase-count",
+    "D-lowercase-scope"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:number_placeholders:b938ba91e909",
+   "check": "detectable_content:number_placeholders",
+   "kwargs": {
+    "num_placeholders": 2
+   },
+   "text": "Dear [name], your order ships to [address].",
+   "label": true,
+   "note": "two placeholders",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:number_placeholders:22e916f41aab",
+   "check": "detectable_content:number_placeholders",
+   "kwargs": {
+    "num_placeholders": 2
+   },
+   "text": "Dear [name], thanks.",
+   "label": false,
+   "note": "one placeholder",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:number_placeholders:435f03a4dbbe",
+   "check": "detectable_content:number_placeholders",
+   "kwargs": {
+    "num_placeholders": 2
+   },
+   "text": "Fill in [] and [ ].",
+   "label": false,
+   "note": "empty brackets are not placeholders",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:number_placeholders:d157835d5008",
+   "check": "detectable_content:number_placeholders",
+   "kwargs": {
+    "num_placeholders": 2
+   },
+   "text": "See [1] and [2].",
+   "label": true,
+   "note": "any bracketed text counts",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:postscript:79bbd8a4ae93",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "text": "Thanks for reading.\n\nP.S. Bring an umbrella.",
+   "label": true,
+   "note": "postscript line",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:postscript:019e43bb6cf3",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "text": "Thanks for reading. Bring an umbrella.",
+   "label": false,
+   "note": "no postscript",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:postscript:090ea1d7c178",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "text": "Remember the P.S. note in my letter.",
+   "label": false,
+   "note": "marker only mid-line",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:postscript:0abed6f46391",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "text": "Thanks.\n\nP.P.S. Bring an umbrella.",
+   "label": false,
+   "note": "P.P.S is not P.S.",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:postscript:118928b0b835",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "text": "Thanks.\n\np.s. bring an umbrella.",
+   "label": false,
+   "note": "lowercase marker",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-ps-case"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-ps-case"
+   ]
+  },
+  {
+   "id": "detectable_content:postscript:af7df2cb6421",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.P.S"
+   },
+   "text": "Thanks.\n\nP.P.S Bring an umbrella.",
+   "label": true,
+   "note": "P.P.S line",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_content:postscript:7e98adb4d66b",
+   "check": "detectable_content:postscript",
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "text": "Thanks.\n\n**P.S.** Bring an umbrella.",
+   "label": true,
+   "note": "bold marker at line start",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-word-markup"
+   ]
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:d6eeff9c2046",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "<<I am>> <<at home>>",
+   "label": true,
+   "note": "two bigrams",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:4770ecf17552",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "<<I am>> <<at home>> today",
+   "label": false,
+   "note": "a word outside brackets",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:49156292a41e",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "<<I am>> <<at home>> <<now>>",
+   "label": true,
+   "note": "odd final word in its own group",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:599207369781",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "I am at home",
+   "label": false,
+   "note": "no brackets",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:constrained_response:aeb778594d79",
+   "check": "detectable_format:constrained_response",
+   "kwargs": {},
+   "text": "My answer is yes.",
+   "label": true,
+   "note": "one option",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:constrained_response:0848d7a85791",
+   "check": "detectable_format:constrained_response",
+   "kwargs": {},
+   "text": "My answer is yes. My answer is no.",
+   "label": false,
+   "note": "two options",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:constrained_response:39e7a448333d",
+   "check": "detectable_format:constrained_response",
+   "kwargs": {},
+   "text": "My answer is maybe. It depends on the weather.",
+   "label": false,
+   "note": "option plus text",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-constrained-surround"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:constrained_response:704c9e310f78",
+   "check": "detectable_format:constrained_response",
+   "kwargs": {},
+   "text": "Yes.",
+   "label": false,
+   "note": "not an option",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:json_format:8cef80ea7e74",
+   "check": "detectable_format:json_format",
+   "kwargs": {},
+   "text": "{\"a\": 1}",
+   "label": true,
+   "note": "object",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:json_format:7ff96a1ca265",
+   "check": "detectable_format:json_format",
+   "kwargs": {},
+   "text": "```json\n{\"a\": 1}\n```",
+   "label": true,
+   "note": "fenced object",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:json_format:6c5af5d369fe",
+   "check": "detectable_format:json_format",
+   "kwargs": {},
+   "text": "```json {\"a\": 1} ```",
+   "label": true,
+   "note": "fence on one line",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:json_format:27e1d2926988",
+   "check": "detectable_format:json_format",
+   "kwargs": {},
+   "text": "```JSON\n{\"a\": 1}\n```",
+   "label": true,
+   "note": "fence tag in capitals",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:json_format:527786626bd0",
+   "check": "detectable_format:json_format",
+   "kwargs": {},
+   "text": "Here is the JSON:\n{\"a\": 1}",
+   "label": false,
+   "note": "text outside the JSON",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:json_format:9e8220863e46",
+   "check": "detectable_format:json_format",
+   "kwargs": {},
+   "text": "\"just a string\"",
+   "label": false,
+   "note": "a bare JSON string",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-json-value"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-json-value"
+   ]
+  },
+  {
+   "id": "detectable_format:multiple_sections:d714a01102ee",
+   "check": "detectable_format:multiple_sections",
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "text": "SECTION 1\nIntro text.\nSECTION 2\nMore text.",
+   "label": true,
+   "note": "two sections",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:multiple_sections:e424385aeeb0",
+   "check": "detectable_format:multiple_sections",
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "text": "SECTION 1\nIntro text.",
+   "label": false,
+   "note": "one section",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:multiple_sections:e373e502b54e",
+   "check": "detectable_format:multiple_sections",
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "text": "SECTION 1\nA.\nSECTION 2\nB.\nSECTION 3\nC.",
+   "label": false,
+   "note": "three sections",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-sections-exact"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:multiple_sections:b4fa9de8d138",
+   "check": "detectable_format:multiple_sections",
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "text": "Section 1\nA.\nSection 2\nB.",
+   "label": false,
+   "note": "splitter in other case",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-sections-case"
+   ]
+  },
+  {
+   "id": "detectable_format:multiple_sections:a1f94585247f",
+   "check": "detectable_format:multiple_sections",
+   "kwargs": {
+    "num_sections": 1,
+    "section_spliter": "SECTION"
+   },
+   "text": "This answer has one part. See SECTION 2 of the manual.",
+   "label": false,
+   "note": "marker only mid-sentence",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:multiple_sections:1e75e5342ea1",
+   "check": "detectable_format:multiple_sections",
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "text": "## SECTION 1\nA.\n## SECTION 2\nB.",
+   "label": true,
+   "note": "markdown headings",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:d3554dabda5e",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "* Apples\n* Pears",
+   "label": true,
+   "note": "two bullets",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:5fc193898faf",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "* Apples\n* Pears\n* Plums",
+   "label": false,
+   "note": "three bullets",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:4a8b628d0685",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "* Apples\n* Pears\n\n---\n\nThat is all.",
+   "label": true,
+   "note": "a horizontal rule is not a bullet",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:fc24722a0e96",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "- Apples\n- Pears",
+   "label": true,
+   "note": "dash bullets",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:f1af3be8419b",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "+ Apples\n+ Pears",
+   "label": true,
+   "note": "plus bullets",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-bullet-marker"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-bullet-marker"
+   ]
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:b6f76f574d2b",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "*Note:* fruit list follows.\n* Apples\n* Pears",
+   "label": true,
+   "note": "italic line start is not a bullet",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:4c62d8976691",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "* Apples\n  * Green apples\n* Pears",
+   "label": false,
+   "note": "nested bullet counts: three",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_bullet_lists:c61d23e15734",
+   "check": "detectable_format:number_bullet_lists",
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "text": "-5 degrees is cold.\n* Apples\n* Pears",
+   "label": true,
+   "note": "a line starting with -5 is not a bullet",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_highlighted_sections:d5a875e55e62",
+   "check": "detectable_format:number_highlighted_sections",
+   "kwargs": {
+    "num_highlights": 2
+   },
+   "text": "This is *important* and *urgent*.",
+   "label": true,
+   "note": "two highlights",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_highlighted_sections:85bcefef3b6b",
+   "check": "detectable_format:number_highlighted_sections",
+   "kwargs": {
+    "num_highlights": 2
+   },
+   "text": "This is *important* only.",
+   "label": false,
+   "note": "one highlight",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_highlighted_sections:10fa0a7c6cc1",
+   "check": "detectable_format:number_highlighted_sections",
+   "kwargs": {
+    "num_highlights": 2
+   },
+   "text": "**Key** and **Note**",
+   "label": true,
+   "note": "bold spans",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:number_highlighted_sections:bf401f59c7f0",
+   "check": "detectable_format:number_highlighted_sections",
+   "kwargs": {
+    "num_highlights": 1
+   },
+   "text": "Compute 2 * 3 * 4 now.",
+   "label": false,
+   "note": "multiplication signs are not emphasis",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:sentence_hyphens:c2f2c77f5a8b",
+   "check": "detectable_format:sentence_hyphens",
+   "kwargs": {},
+   "text": "I like tea.-You like coffee.-We both like water.",
+   "label": true,
+   "note": "sentences joined by hyphens",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:sentence_hyphens:e7b9f62548d2",
+   "check": "detectable_format:sentence_hyphens",
+   "kwargs": {},
+   "text": "I like tea. You like coffee.",
+   "label": false,
+   "note": "joined by a space",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:sentence_hyphens:821c392ad149",
+   "check": "detectable_format:sentence_hyphens",
+   "kwargs": {},
+   "text": "I like tea.- You like coffee.",
+   "label": false,
+   "note": "space after the hyphen",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:sentence_hyphens:20ec17c6530b",
+   "check": "detectable_format:sentence_hyphens",
+   "kwargs": {},
+   "text": "This is a well-known fact.-Everyone agrees.",
+   "label": true,
+   "note": "a hyphenated word inside a sentence",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:sentence_hyphens:12ae2fa39a8f",
+   "check": "detectable_format:sentence_hyphens",
+   "kwargs": {},
+   "text": "Hello-world.",
+   "label": true,
+   "note": "a single sentence",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-hyphens-single"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:square_brackets:20262061b52d",
+   "check": "detectable_format:square_brackets",
+   "kwargs": {},
+   "text": "[Hello] [world]",
+   "label": true,
+   "note": "every word bracketed",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:square_brackets:799dc08735ce",
+   "check": "detectable_format:square_brackets",
+   "kwargs": {},
+   "text": "[Hello] world",
+   "label": false,
+   "note": "a bare word",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:square_brackets:831b57263789",
+   "check": "detectable_format:square_brackets",
+   "kwargs": {},
+   "text": "[Hello], [world].",
+   "label": true,
+   "note": "punctuation outside the brackets",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:square_brackets:0526f144406b",
+   "check": "detectable_format:square_brackets",
+   "kwargs": {},
+   "text": "[Hello world]",
+   "label": false,
+   "note": "two words in one group",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-brackets-each"
+   ]
+  },
+  {
+   "id": "detectable_format:title:9d9010f7a86e",
+   "check": "detectable_format:title",
+   "kwargs": {},
+   "text": "<<Spring Rain>>\nThe rain falls.",
+   "label": true,
+   "note": "title",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:title:c0817fa4a8c1",
+   "check": "detectable_format:title",
+   "kwargs": {},
+   "text": "Spring Rain\nThe rain falls.",
+   "label": false,
+   "note": "no title marker",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:title:bfaf630a6f2a",
+   "check": "detectable_format:title",
+   "kwargs": {},
+   "text": "<< >>\nText.",
+   "label": false,
+   "note": "blank title",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_answer:56d838a32129",
+   "check": "first_word:first_word_answer",
+   "kwargs": {
+    "first_word": "development"
+   },
+   "text": "Development matters.",
+   "label": true,
+   "note": "first word",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_answer:2d9a92358f99",
+   "check": "first_word:first_word_answer",
+   "kwargs": {
+    "first_word": "development"
+   },
+   "text": "Growth matters.",
+   "label": false,
+   "note": "other first word",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_answer:9797c7c8db2b",
+   "check": "first_word:first_word_answer",
+   "kwargs": {
+    "first_word": "development"
+   },
+   "text": "development, as a field, matters.",
+   "label": true,
+   "note": "comma after the first word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_answer:cbf2d138fd47",
+   "check": "first_word:first_word_answer",
+   "kwargs": {
+    "first_word": "development"
+   },
+   "text": "**Development** matters.",
+   "label": true,
+   "note": "bold first word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word-case",
+    "D-word-markup"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_answer:cbce66c76591",
+   "check": "first_word:first_word_answer",
+   "kwargs": {
+    "first_word": "development"
+   },
+   "text": "\"development\" is the word.",
+   "label": true,
+   "note": "quoted first word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_sent:d775a2f6b21b",
+   "check": "first_word:first_word_sent",
+   "kwargs": {
+    "first_word": "peace"
+   },
+   "text": "Peace comes first. Peace stays.",
+   "label": true,
+   "note": "every sentence",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_sent:23e86f83bc55",
+   "check": "first_word:first_word_sent",
+   "kwargs": {
+    "first_word": "peace"
+   },
+   "text": "Peace comes first. War follows.",
+   "label": false,
+   "note": "second sentence",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_sent:32c4ea0f38b8",
+   "check": "first_word:first_word_sent",
+   "kwargs": {
+    "first_word": "peace"
+   },
+   "text": "peace, friends, comes first. peace stays.",
+   "label": true,
+   "note": "comma after the word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "first_word:first_word_sent:a8370e312ca7",
+   "check": "first_word:first_word_sent",
+   "kwargs": {
+    "first_word": "peace"
+   },
+   "text": "Peace now\nWar later.",
+   "label": false,
+   "note": "a line is a sentence",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-sentence"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-sentence"
+   ]
+  },
+  {
+   "id": "keywords:existence:63700b11b76a",
+   "check": "keywords:existence",
+   "kwargs": {
+    "keywords": [
+     "act",
+     "garden"
+    ]
+   },
+   "text": "We act in the garden.",
+   "label": true,
+   "note": "both keywords",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:existence:557b8d5025c4",
+   "check": "keywords:existence",
+   "kwargs": {
+    "keywords": [
+     "act",
+     "garden"
+    ]
+   },
+   "text": "We act indoors.",
+   "label": false,
+   "note": "garden missing",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:existence:bf14c1bd70ed",
+   "check": "keywords:existence",
+   "kwargs": {
+    "keywords": [
+     "act",
+     "garden"
+    ]
+   },
+   "text": "The action happens in the gardens.",
+   "label": false,
+   "note": "only longer words",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-keyword-match"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:existence:ef0d24507d48",
+   "check": "keywords:existence",
+   "kwargs": {
+    "keywords": [
+     "act",
+     "garden"
+    ]
+   },
+   "text": "ACT now in the GARDEN.",
+   "label": true,
+   "note": "capitals",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:forbidden_words:d41023f32ec7",
+   "check": "keywords:forbidden_words",
+   "kwargs": {
+    "forbidden_words": [
+     "kick",
+     "option"
+    ]
+   },
+   "text": "Choose wisely.",
+   "label": true,
+   "note": "none present",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:forbidden_words:a95e24398cbc",
+   "check": "keywords:forbidden_words",
+   "kwargs": {
+    "forbidden_words": [
+     "kick",
+     "option"
+    ]
+   },
+   "text": "Kick the ball.",
+   "label": false,
+   "note": "kick present",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:forbidden_words:620d50a19a7f",
+   "check": "keywords:forbidden_words",
+   "kwargs": {
+    "forbidden_words": [
+     "kick",
+     "option"
+    ]
+   },
+   "text": "There are many options.",
+   "label": true,
+   "note": "options is not option",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:frequency:ced89e7b5f90",
+   "check": "keywords:frequency",
+   "kwargs": {
+    "keyword": "act",
+    "frequency": 2,
+    "relation": "less than"
+   },
+   "text": "We act now.",
+   "label": true,
+   "note": "once, fewer than 2",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:frequency:d6012a5880eb",
+   "check": "keywords:frequency",
+   "kwargs": {
+    "keyword": "act",
+    "frequency": 2,
+    "relation": "less than"
+   },
+   "text": "We act now and act later.",
+   "label": false,
+   "note": "twice",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:frequency:5ae9a01115e4",
+   "check": "keywords:frequency",
+   "kwargs": {
+    "keyword": "act",
+    "frequency": 2,
+    "relation": "less than"
+   },
+   "text": "The actor acted in the act.",
+   "label": true,
+   "note": "act as a word once",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-keyword-match"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:keyword_specific_position:1adb5c9bee60",
+   "check": "keywords:keyword_specific_position",
+   "kwargs": {
+    "keyword": "village",
+    "n": 2,
+    "m": 3
+   },
+   "text": "I live nearby. We love village life.",
+   "label": true,
+   "note": "3rd word of sentence 2",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:keyword_specific_position:349f42d2e39a",
+   "check": "keywords:keyword_specific_position",
+   "kwargs": {
+    "keyword": "village",
+    "n": 2,
+    "m": 3
+   },
+   "text": "I live nearby. We love city life.",
+   "label": false,
+   "note": "other word",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:keyword_specific_position:1f964c286318",
+   "check": "keywords:keyword_specific_position",
+   "kwargs": {
+    "keyword": "village",
+    "n": 2,
+    "m": 3
+   },
+   "text": "I live nearby. Well, the village is big.",
+   "label": true,
+   "note": "a comma is not a word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:keyword_specific_position:386f0ca71c4a",
+   "check": "keywords:keyword_specific_position",
+   "kwargs": {
+    "keyword": "village",
+    "n": 1,
+    "m": 1
+   },
+   "text": "Village life is calm.",
+   "label": true,
+   "note": "capitalized at sentence start",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word-case"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:letter_frequency:bcb1d4a630a8",
+   "check": "keywords:letter_frequency",
+   "kwargs": {
+    "letter": "s",
+    "let_frequency": 3,
+    "let_relation": "at least"
+   },
+   "text": "She sells seashells.",
+   "label": true,
+   "note": "many s",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:letter_frequency:2f2cb392886b",
+   "check": "keywords:letter_frequency",
+   "kwargs": {
+    "letter": "s",
+    "let_frequency": 3,
+    "let_relation": "at least"
+   },
+   "text": "Hello there.",
+   "label": false,
+   "note": "no s",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:letter_frequency:993d77954611",
+   "check": "keywords:letter_frequency",
+   "kwargs": {
+    "letter": "s",
+    "let_frequency": 3,
+    "let_relation": "at least"
+   },
+   "text": "Sss.",
+   "label": true,
+   "note": "capital S counts",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:a8f399c1e3f6",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "Zebras eat grass quietly.",
+   "label": true,
+   "note": "no consecutive starts",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:0fd993dd1f23",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "A big cat.",
+   "label": false,
+   "note": "a then b",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:4bc3ba48db75",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "Cats bark loudly.",
+   "label": false,
+   "note": "c then b",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-consecutive-order"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-consecutive-order"
+   ]
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:82e0c4612db5",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "\"Apples\" bring joy.",
+   "label": false,
+   "note": "a then b behind a quote mark",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:5d7ea658ecbd",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "Room 1 2 here.",
+   "label": true,
+   "note": "digits are not letters",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:5dc70516d8d4",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "The the end.",
+   "label": true,
+   "note": "repeated word is allowed",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:palindrome:680b1a9204ba",
+   "check": "keywords:palindrome",
+   "kwargs": {},
+   "text": "The level was high.",
+   "label": true,
+   "note": "level",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:palindrome:9d5c8c233244",
+   "check": "keywords:palindrome",
+   "kwargs": {},
+   "text": "Items:\n- one\n- two",
+   "label": false,
+   "note": "no palindromic word",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:palindrome:a3bb7a235eb9",
+   "check": "keywords:palindrome",
+   "kwargs": {},
+   "text": "I saw a cat.",
+   "label": false,
+   "note": "only one-letter words",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-palindrome"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:palindrome:6d0b9ebee094",
+   "check": "keywords:palindrome",
+   "kwargs": {},
+   "text": "Level ground.",
+   "label": true,
+   "note": "capitalized palindrome",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:palindrome:fe4dbe1fc0a0",
+   "check": "keywords:palindrome",
+   "kwargs": {},
+   "text": "Fast racecar.",
+   "label": true,
+   "note": "palindrome before a period",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:start_end:b5f10d50730e",
+   "check": "keywords:start_end",
+   "kwargs": {},
+   "text": "Hello there my friend hello",
+   "label": true,
+   "note": "same word",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:start_end:a7b73552fa4f",
+   "check": "keywords:start_end",
+   "kwargs": {},
+   "text": "Hello there my friend hello.",
+   "label": false,
+   "note": "trailing period",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:start_end:8a062cacb3a3",
+   "check": "keywords:start_end",
+   "kwargs": {},
+   "text": "Hello there.",
+   "label": false,
+   "note": "different words",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:start_end:9dc4b6085ddd",
+   "check": "keywords:start_end",
+   "kwargs": {},
+   "text": "**Hello** there my friend hello",
+   "label": true,
+   "note": "bold first word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word-case",
+    "D-word-markup"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_count_different_numbers:4d9ae016b37d",
+   "check": "keywords:word_count_different_numbers",
+   "kwargs": {
+    "keyword": "policy",
+    "frequency": 2,
+    "relation": "less than"
+   },
+   "text": "This policy and that policy differ.",
+   "label": true,
+   "note": "exactly 2 (relation less than hidden)",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_count_different_numbers:060426740cee",
+   "check": "keywords:word_count_different_numbers",
+   "kwargs": {
+    "keyword": "policy",
+    "frequency": 2,
+    "relation": "at least"
+   },
+   "text": "This policy and that policy and another policy.",
+   "label": false,
+   "note": "3, not 2",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word-count-relation"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-word-count-relation"
+   ]
+  },
+  {
+   "id": "keywords:word_count_different_numbers:b7d809aaee5a",
+   "check": "keywords:word_count_different_numbers",
+   "kwargs": {
+    "keyword": "policy",
+    "frequency": 2,
+    "relation": "less than"
+   },
+   "text": "One policy only.",
+   "label": false,
+   "note": "1, not 2",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_count_different_numbers:ba1dd36e4aba",
+   "check": "keywords:word_count_different_numbers",
+   "kwargs": {
+    "keyword": "policy",
+    "frequency": 2,
+    "relation": "at least"
+   },
+   "text": "This policy and that policy.",
+   "label": true,
+   "note": "exactly 2",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_once:34296d21dfac",
+   "check": "keywords:word_once",
+   "kwargs": {
+    "keyword": "fix"
+   },
+   "text": "We fix it.",
+   "label": true,
+   "note": "once",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_once:c67fb421612a",
+   "check": "keywords:word_once",
+   "kwargs": {
+    "keyword": "fix"
+   },
+   "text": "We fix it and fix it again.",
+   "label": true,
+   "note": "twice is still included",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_once:7d603db42889",
+   "check": "keywords:word_once",
+   "kwargs": {
+    "keyword": "fix"
+   },
+   "text": "We repair it.",
+   "label": false,
+   "note": "absent",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:word_once:36a4d5df74fb",
+   "check": "keywords:word_once",
+   "kwargs": {
+    "keyword": "fix"
+   },
+   "text": "The prefix matters.",
+   "label": false,
+   "note": "only inside a longer word",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-keyword-match"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "language:response_language:a8722ebd20b7",
+   "check": "language:response_language",
+   "kwargs": {
+    "language": "fr"
+   },
+   "text": "Bonjour, je m'appelle Marie et j'habite à Paris depuis dix ans avec ma famille.",
+   "label": true,
+   "note": "French",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "language:response_language:5d0ce017b1d3",
+   "check": "language:response_language",
+   "kwargs": {
+    "language": "fr"
+   },
+   "text": "Hello, my name is Marie and I have lived in Paris for ten years with my family.",
+   "label": false,
+   "note": "English",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "language:response_language:49fc9594ce17",
+   "check": "language:response_language",
+   "kwargs": {
+    "language": "fr"
+   },
+   "text": "12345 !!!",
+   "label": false,
+   "note": "no language at all",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "language:response_language:63eb3cf12cff",
+   "check": "language:response_language",
+   "kwargs": {
+    "language": "fr"
+   },
+   "text": "",
+   "label": false,
+   "note": "empty",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_answer:ae7dcb3259f0",
+   "check": "last_word:last_word_answer",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "We reached the limit.",
+   "label": true,
+   "note": "last word",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_answer:6af17f9d8e3c",
+   "check": "last_word:last_word_answer",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "We reached the end.",
+   "label": false,
+   "note": "other word",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_answer:9f076b78a3b2",
+   "check": "last_word:last_word_answer",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "We reached the **limit**.",
+   "label": true,
+   "note": "bold last word",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_answer:21dfed07e2b1",
+   "check": "last_word:last_word_answer",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "",
+   "label": false,
+   "note": "empty",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_sent:4eef1ce4cf03",
+   "check": "last_word:last_word_sent",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "We hit the limit. They passed the limit!",
+   "label": true,
+   "note": "every sentence",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_sent:e226aa9c22e5",
+   "check": "last_word:last_word_sent",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "We hit the limit. They passed it.",
+   "label": false,
+   "note": "second sentence",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "last_word:last_word_sent:dd0a81192ab5",
+   "check": "last_word:last_word_sent",
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "text": "Title here\nWe hit the limit.",
+   "label": false,
+   "note": "a line is a sentence",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-sentence"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-sentence"
+   ]
+  },
+  {
+   "id": "length_constraints:nth_paragraph_first_word:cc8ffc37347f",
+   "check": "length_constraints:nth_paragraph_first_word",
+   "kwargs": {
+    "num_paragraphs": 2,
+    "nth_paragraph": 2,
+    "first_word": "if"
+   },
+   "text": "Rain falls.\n\nIf it stops, we go out.",
+   "label": true,
+   "note": "paragraph 2 starts with If",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:nth_paragraph_first_word:0685b03e4d63",
+   "check": "length_constraints:nth_paragraph_first_word",
+   "kwargs": {
+    "num_paragraphs": 2,
+    "nth_paragraph": 2,
+    "first_word": "if"
+   },
+   "text": "Rain falls.\n\nWhen it stops, we go out.",
+   "label": false,
+   "note": "other word",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:nth_paragraph_first_word:5140d3b1896e",
+   "check": "length_constraints:nth_paragraph_first_word",
+   "kwargs": {
+    "num_paragraphs": 2,
+    "nth_paragraph": 2,
+    "first_word": "if"
+   },
+   "text": "Rain falls.\n\n\n\nif it stops, we go out.",
+   "label": true,
+   "note": "two blank lines between",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-paragraph-split"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:nth_paragraph_first_word:86062b0e0b35",
+   "check": "length_constraints:nth_paragraph_first_word",
+   "kwargs": {
+    "num_paragraphs": 3,
+    "nth_paragraph": 3,
+    "first_word": "foo"
+   },
+   "text": "x\n\n\n\nfoo here\n\nbar here",
+   "label": false,
+   "note": "paragraph 3 is 'bar here'",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:nth_paragraph_first_word:0226746e53f1",
+   "check": "length_constraints:nth_paragraph_first_word",
+   "kwargs": {
+    "num_paragraphs": 2,
+    "nth_paragraph": 1,
+    "first_word": "if"
+   },
+   "text": "if: rain falls.\n\nThen we stay.",
+   "label": true,
+   "note": "colon after the first word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_paragraphs:4750a35a5627",
+   "check": "length_constraints:number_paragraphs",
+   "kwargs": {
+    "num_paragraphs": 2
+   },
+   "text": "First paragraph.\n***\nSecond paragraph.",
+   "label": true,
+   "note": "divider line",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_paragraphs:ff4d43abf085",
+   "check": "length_constraints:number_paragraphs",
+   "kwargs": {
+    "num_paragraphs": 2
+   },
+   "text": "First paragraph.\n\n***\n\nSecond paragraph.",
+   "label": true,
+   "note": "divider between blank lines",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_paragraphs:6799f5ab1aec",
+   "check": "length_constraints:number_paragraphs",
+   "kwargs": {
+    "num_paragraphs": 2
+   },
+   "text": "First paragraph.\n\nSecond paragraph.",
+   "label": false,
+   "note": "no divider",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_paragraphs:50d743cbd711",
+   "check": "length_constraints:number_paragraphs",
+   "kwargs": {
+    "num_paragraphs": 2
+   },
+   "text": "***Bold intro*** first part.\n***\nSecond part.",
+   "label": true,
+   "note": "bold-italic is not a divider",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-divider"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-divider"
+   ]
+  },
+  {
+   "id": "length_constraints:number_sentences:f1846ef76c59",
+   "check": "length_constraints:number_sentences",
+   "kwargs": {
+    "num_sentences": 3,
+    "relation": "at least"
+   },
+   "text": "One. Two. Three.",
+   "label": true,
+   "note": "three",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_sentences:c4666b02471f",
+   "check": "length_constraints:number_sentences",
+   "kwargs": {
+    "num_sentences": 3,
+    "relation": "at least"
+   },
+   "text": "One. Two.",
+   "label": false,
+   "note": "two",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_sentences:fa11bf7df726",
+   "check": "length_constraints:number_sentences",
+   "kwargs": {
+    "num_sentences": 3,
+    "relation": "at least"
+   },
+   "text": "Title\nFirst line.\nSecond line.",
+   "label": true,
+   "note": "a heading line is a sentence",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-sentence"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-sentence"
+   ]
+  },
+  {
+   "id": "length_constraints:number_words:ff29c3652083",
+   "check": "length_constraints:number_words",
+   "kwargs": {
+    "num_words": 5,
+    "relation": "less than"
+   },
+   "text": "One two three four.",
+   "label": true,
+   "note": "four words",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_words:fcd6a141a822",
+   "check": "length_constraints:number_words",
+   "kwargs": {
+    "num_words": 5,
+    "relation": "less than"
+   },
+   "text": "One two three four five.",
+   "label": false,
+   "note": "five words",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_words:219534a2bc24",
+   "check": "length_constraints:number_words",
+   "kwargs": {
+    "num_words": 5,
+    "relation": "less than"
+   },
+   "text": "It's a well-known fact.",
+   "label": true,
+   "note": "contraction and compound are one word each",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-word"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "letters:letter_counting:576362a6f4ba",
+   "check": "letters:letter_counting",
+   "kwargs": {
+    "N": 3,
+    "relation": "at least"
+   },
+   "text": "Yes, indeed.",
+   "label": true,
+   "note": "many letters",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "letters:letter_counting:488f6ed2c7e2",
+   "check": "letters:letter_counting",
+   "kwargs": {
+    "N": 3,
+    "relation": "at least"
+   },
+   "text": "Ok",
+   "label": false,
+   "note": "two letters",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": null,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "letters:letter_counting:fe465e3f5de0",
+   "check": "letters:letter_counting",
+   "kwargs": {
+    "N": 3,
+    "relation": "at least"
+   },
+   "text": "是的，没错。",
+   "label": true,
+   "note": "Chinese characters are letters",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": null,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-letter-counting"
+   ],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "letters:letter_counting2:ce6750c7c136",
+   "check": "letters:letter_counting2",
+   "kwargs": {
+    "letter": "s",
+    "let_frequency": 3,
+    "let_relation": "at least"
+   },
+   "text": "She sells seashells.",
+   "label": true,
+   "note": "many s",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "letters:letter_counting2:763ebea9074e",
+   "check": "letters:letter_counting2",
+   "kwargs": {
+    "letter": "s",
+    "let_frequency": 3,
+    "let_relation": "at least"
+   },
+   "text": "Hello there.",
+   "label": false,
+   "note": "no s",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs:1a1e84415ab6",
+   "check": "paragraphs:paragraphs",
+   "kwargs": {},
+   "text": "First part.\n***\nSecond part.",
+   "label": true,
+   "note": "two by divider",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs:928085d3d333",
+   "check": "paragraphs:paragraphs",
+   "kwargs": {},
+   "text": "First part.\n***\nSecond part.\n***\nThird part.",
+   "label": false,
+   "note": "three by divider",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs:1b6ebbfe0f60",
+   "check": "paragraphs:paragraphs",
+   "kwargs": {},
+   "text": "First part.\n\nSecond part.",
+   "label": false,
+   "note": "no divider",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs2:297d1461630b",
+   "check": "paragraphs:paragraphs2",
+   "kwargs": {},
+   "text": "First part.\n\nSecond part.",
+   "label": true,
+   "note": "two by blank line",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs2:d7b0631d5cee",
+   "check": "paragraphs:paragraphs2",
+   "kwargs": {},
+   "text": "First part.\n\nSecond part.\n\nThird part.",
+   "label": false,
+   "note": "three",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs2:54324015d364",
+   "check": "paragraphs:paragraphs2",
+   "kwargs": {},
+   "text": "First part.\n \nSecond part.",
+   "label": true,
+   "note": "blank line holding a space",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-paragraph-split"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "paragraphs:paragraphs2:94324e500523",
+   "check": "paragraphs:paragraphs2",
+   "kwargs": {},
+   "text": "First part.\n\n\n\nSecond part.",
+   "label": true,
+   "note": "two blank lines",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-paragraph-split"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:no_comma:58a954d3caa4",
+   "check": "punctuation:no_comma",
+   "kwargs": {},
+   "text": "No commas here.",
+   "label": true,
+   "note": "none",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:no_comma:2d5d17004f79",
+   "check": "punctuation:no_comma",
+   "kwargs": {},
+   "text": "Yes, commas.",
+   "label": false,
+   "note": "ASCII comma",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:no_comma:30be7d7b84dd",
+   "check": "punctuation:no_comma",
+   "kwargs": {},
+   "text": "你好，世界",
+   "label": false,
+   "note": "full-width comma",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-comma-chars"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-comma-chars"
+   ]
+  },
+  {
+   "id": "punctuation:punctuation_dot:1625a5973957",
+   "check": "punctuation:punctuation_dot",
+   "kwargs": {},
+   "text": "No dots here",
+   "label": true,
+   "note": "none",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:punctuation_dot:74cd2a7cd5b4",
+   "check": "punctuation:punctuation_dot",
+   "kwargs": {},
+   "text": "A dot.",
+   "label": false,
+   "note": "dot",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:punctuation_dot:7a62d6278a10",
+   "check": "punctuation:punctuation_dot",
+   "kwargs": {},
+   "text": "你好。",
+   "label": false,
+   "note": "ideographic full stop",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-dot-chars"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-dot-chars"
+   ]
+  },
+  {
+   "id": "punctuation:punctuation_dot:42d8d6a11de9",
+   "check": "punctuation:punctuation_dot",
+   "kwargs": {},
+   "text": "Version 3.5 is out",
+   "label": false,
+   "note": "dot in a number",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:punctuation_exclamation:b57bdb621876",
+   "check": "punctuation:punctuation_exclamation",
+   "kwargs": {},
+   "text": "Calm text",
+   "label": true,
+   "note": "none",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:punctuation_exclamation:efbcd66cb2f4",
+   "check": "punctuation:punctuation_exclamation",
+   "kwargs": {},
+   "text": "Wow!",
+   "label": false,
+   "note": "ASCII",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "punctuation:punctuation_exclamation:f66deeef8719",
+   "check": "punctuation:punctuation_exclamation",
+   "kwargs": {},
+   "text": "好！",
+   "label": false,
+   "note": "full-width",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-exclamation-chars"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-exclamation-chars"
+   ]
+  },
+  {
+   "id": "startend:end_checker:0d12e936f47b",
+   "check": "startend:end_checker",
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "text": "Thanks for asking. Any other questions?",
+   "label": true,
+   "note": "exact end",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:end_checker:9e26ad3d126d",
+   "check": "startend:end_checker",
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "text": "Any other questions? Thanks.",
+   "label": false,
+   "note": "text after the phrase",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:end_checker:3a5ea8353521",
+   "check": "startend:end_checker",
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "text": "Thanks. any other questions?",
+   "label": false,
+   "note": "other case",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-end-case"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:end_checker:bedaa5ec7abe",
+   "check": "startend:end_checker",
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "text": "He said \"Thanks. Any other questions?\"",
+   "label": false,
+   "note": "closing quote after the phrase",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-end-trailing"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:end_checker:5e96fb8206f8",
+   "check": "startend:end_checker",
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "text": "Thanks. Any other questions?**",
+   "label": false,
+   "note": "markdown after the phrase",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:quotation:0b7ba2af573c",
+   "check": "startend:quotation",
+   "kwargs": {},
+   "text": "\"Hello there.\"",
+   "label": true,
+   "note": "double quotes",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:quotation:86a4f2063e58",
+   "check": "startend:quotation",
+   "kwargs": {},
+   "text": "Hello there.",
+   "label": false,
+   "note": "no quotes",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:quotation:69768847ade0",
+   "check": "startend:quotation",
+   "kwargs": {},
+   "text": "'Hello there.'",
+   "label": false,
+   "note": "single quotes are not double quotation marks",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "startend:quotation:f3d9800cc2e1",
+   "check": "startend:quotation",
+   "kwargs": {},
+   "text": "“Hello there.”",
+   "label": true,
+   "note": "curly double quotes",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-quote-chars"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:b95bcf240b88",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "<<In>> <<spark>> <<using>> <<select>>",
+   "label": false,
+   "note": "one word per group",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:047f0a889d6f",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "我不能按照您的要求进行角色扮演",
+   "label": false,
+   "note": "no brackets, one whitespace token",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:bigram_wrapping:284673f89c4b",
+   "check": "detectable_format:bigram_wrapping",
+   "kwargs": {},
+   "text": "",
+   "label": false,
+   "note": "empty",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": null,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "not gated",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_capital:ef5ebf1081e9",
+   "check": "change_case:english_capital",
+   "kwargs": {},
+   "text": "THE NEW LIBRARY OPENS ON MONDAY, AND STUDENTS CAN BORROW BOOKS, LAPTOPS, AND CAMERAS.",
+   "label": true,
+   "note": "English in capitals",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "change_case:english_capital:f43997e63290",
+   "check": "change_case:english_capital",
+   "kwargs": {},
+   "text": "TO JEST PROCES ARTYSTYCZNY, ZALEŻNY OD OSOBY I JEJ STYLU.",
+   "label": false,
+   "note": "Polish in capitals",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:palindrome:cd16cb348637",
+   "check": "keywords:palindrome",
+   "kwargs": {},
+   "text": "Я знаю, оно здесь.",
+   "label": true,
+   "note": "Cyrillic palindrome оно",
+   "replacement": true,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "detectable_format:sentence_hyphens:7186307a775f",
+   "check": "detectable_format:sentence_hyphens",
+   "kwargs": {},
+   "text": "First clause here - second clause here - third clause",
+   "label": false,
+   "note": "spaced hyphens",
+   "replacement": false,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "agree",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_sentences:f116f8d17a7b",
+   "check": "length_constraints:number_sentences",
+   "kwargs": {
+    "num_sentences": 3,
+    "relation": "at least"
+   },
+   "text": "今天很好。我们去公园。然后回家。",
+   "label": true,
+   "note": "three sentences ended by the ideographic full stop",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:start_end:4ab9550a7337",
+   "check": "keywords:start_end",
+   "kwargs": {},
+   "text": "Parliament",
+   "label": true,
+   "note": "a one-word response",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-start-end-single"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "keywords:start_end:1c1575fb20fd",
+   "check": "keywords:start_end",
+   "kwargs": {},
+   "text": "- \"hello\" there my friend hello",
+   "label": true,
+   "note": "list dash and quote before the first word",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "finding",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "count:lowercase_counting:ed55143a55ad",
+   "check": "count:lowercase_counting",
+   "kwargs": {
+    "N": 2
+   },
+   "text": "это это это слово",
+   "label": false,
+   "note": "a Cyrillic lowercase word three times",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "finding",
+   "skyrl_decisions": [],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "length_constraints:number_paragraphs:5876922085cf",
+   "check": "length_constraints:number_paragraphs",
+   "kwargs": {
+    "num_paragraphs": 1
+   },
+   "text": "Only paragraph.\n\n***",
+   "label": false,
+   "note": "trailing divider",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": false,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-divider-edges"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  },
+  {
+   "id": "combination:two_responses:3d4b07059452",
+   "check": "combination:two_responses",
+   "kwargs": {},
+   "text": "******\nFirst answer.\n******\nSecond answer.",
+   "label": false,
+   "note": "leading separator",
+   "replacement": false,
+   "skyrl": true,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-two-responses-edges"
+   ],
+   "verifyit_class": "decision",
+   "verifyit_decisions": [
+    "D-two-responses-edges"
+   ]
+  },
+  {
+   "id": "keywords:no_adjacent_consecutive:e1bf9ec8c568",
+   "check": "keywords:no_adjacent_consecutive",
+   "kwargs": {},
+   "text": "вот где мы",
+   "label": true,
+   "note": "Cyrillic в then г",
+   "replacement": true,
+   "skyrl": false,
+   "verifyit": true,
+   "skyrl_class": "decision",
+   "skyrl_decisions": [
+    "D-consecutive-alphabet"
+   ],
+   "verifyit_class": "agree",
+   "verifyit_decisions": []
+  }
+ ],
+ "extraction": [
+  {
+   "id": "extraction:unclosed-thinking",
+   "reasoning_model": true,
+   "raw": "Okay the user wants no commas so I will avoid them entirely and keep going",
+   "record": {
+    "instruction_id_list": [
+     "punctuation:no_comma"
+    ],
+    "kwargs": [
+     null
+    ]
+   },
+   "label": 0.0,
+   "replacement": 0.0,
+   "skyrl_reward": 1.0,
+   "skyrl_graded_text": "Okay the user wants no commas so I will avoid them entirely and keep going",
+   "gate_passed": true,
+   "gate_graded_text": "Okay the user wants no commas so I will avoid them entirely and keep going",
+   "alt_literal_think_reward": null,
+   "note": "reasoning never closed: extraction failure, fails every check"
+  },
+  {
+   "id": "extraction:closed-thinking",
+   "reasoning_model": true,
+   "raw": "Plan: list, then answer, carefully.</think>Final answer here",
+   "record": {
+    "instruction_id_list": [
+     "punctuation:no_comma"
+    ],
+    "kwargs": [
+     null
+    ]
+   },
+   "label": 1.0,
+   "replacement": 1.0,
+   "skyrl_reward": 1.0,
+   "skyrl_graded_text": "Final answer here",
+   "gate_passed": true,
+   "gate_graded_text": "Final answer here",
+   "alt_literal_think_reward": null,
+   "note": "text after </think> has no comma"
+  },
+  {
+   "id": "extraction:literal-think-tag",
+   "reasoning_model": false,
+   "raw": "Hello, use the <think> tag here",
+   "record": {
+    "instruction_id_list": [
+     "punctuation:no_comma"
+    ],
+    "kwargs": [
+     null
+    ]
+   },
+   "label": 0.0,
+   "replacement": 0.0,
+   "skyrl_reward": 1.0,
+   "skyrl_graded_text": "",
+   "gate_passed": true,
+   "gate_graded_text": "",
+   "alt_literal_think_reward": 0.0,
+   "note": "non-reasoning answer with a comma before a literal <think>"
+  }
+ ]
+}

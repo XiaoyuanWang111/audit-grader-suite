@@ -1,0 +1,103 @@
+rows 11817
+
+== empty: rows with SkyRL reward 1.0: 1702 (of which checker errors: 0); gate passed: 810; replacement reward 1.0: 967; rows with a SkyRL checker exception: 625
+   change_case:capital_word_frequency: n=601 skyrl_pass=335 gate_pass=335 replacement_pass=335
+   count:count_unique: n=687 skyrl_pass=687 gate_pass=- replacement_pass=687
+   count:lowercase_counting: n=869 skyrl_pass=869 gate_pass=0 replacement_pass=869
+   detectable_format:bigram_wrapping: n=575 skyrl_pass=575 gate_pass=- replacement_pass=0
+   detectable_format:sentence_hyphens: n=669 skyrl_pass=669 gate_pass=0 replacement_pass=669
+   detectable_format:square_brackets: n=553 skyrl_pass=553 gate_pass=0 replacement_pass=553
+   first_word:first_word_sent: n=540 skyrl_pass=540 gate_pass=0 replacement_pass=0
+   keywords:forbidden_words: n=836 skyrl_pass=836 gate_pass=836 replacement_pass=836
+   keywords:frequency: n=607 skyrl_pass=311 gate_pass=311 replacement_pass=311
+   keywords:letter_frequency: n=783 skyrl_pass=420 gate_pass=420 replacement_pass=420
+   keywords:no_adjacent_consecutive: n=818 skyrl_pass=818 gate_pass=818 replacement_pass=818
+   keywords:word_count_different_numbers: n=526 skyrl_pass=206 gate_pass=206 replacement_pass=0
+   language:response_language: n=780 skyrl_pass=780 gate_pass=- replacement_pass=0
+   last_word:last_word_sent: n=600 skyrl_pass=600 gate_pass=0 replacement_pass=0
+   length_constraints:number_sentences: n=562 skyrl_pass=269 gate_pass=269 replacement_pass=269
+   length_constraints:number_words: n=729 skyrl_pass=328 gate_pass=328 replacement_pass=328
+   letters:letter_counting: n=497 skyrl_pass=203 gate_pass=- replacement_pass=203
+   letters:letter_counting2: n=705 skyrl_pass=394 gate_pass=394 replacement_pass=394
+   punctuation:no_comma: n=730 skyrl_pass=730 gate_pass=730 replacement_pass=730
+   punctuation:punctuation_dot: n=847 skyrl_pass=847 gate_pass=847 replacement_pass=847
+   punctuation:punctuation_exclamation: n=627 skyrl_pass=627 gate_pass=627 replacement_pass=627
+
+== repeat: rows with SkyRL reward 1.0: 436 (of which checker errors: 0); gate passed: 1071; replacement reward 1.0: 567; rows with a SkyRL checker exception: 0
+   change_case:capital_word_frequency: n=601 skyrl_pass=335 gate_pass=335 replacement_pass=335
+   change_case:english_lowercase: n=604 skyrl_pass=0 gate_pass=604 replacement_pass=0
+   count:lowercase_counting: n=869 skyrl_pass=0 gate_pass=869 replacement_pass=0
+   detectable_format:sentence_hyphens: n=669 skyrl_pass=0 gate_pass=0 replacement_pass=669
+   first_word:first_word_sent: n=540 skyrl_pass=1 gate_pass=1 replacement_pass=1
+   keywords:forbidden_words: n=836 skyrl_pass=833 gate_pass=833 replacement_pass=833
+   keywords:frequency: n=607 skyrl_pass=311 gate_pass=311 replacement_pass=311
+   keywords:letter_frequency: n=783 skyrl_pass=406 gate_pass=406 replacement_pass=406
+   keywords:no_adjacent_consecutive: n=818 skyrl_pass=818 gate_pass=0 replacement_pass=818
+   keywords:start_end: n=499 skyrl_pass=499 gate_pass=499 replacement_pass=499
+   keywords:word_count_different_numbers: n=526 skyrl_pass=206 gate_pass=206 replacement_pass=0
+   last_word:last_word_answer: n=625 skyrl_pass=1 gate_pass=1 replacement_pass=1
+   last_word:last_word_sent: n=600 skyrl_pass=1 gate_pass=1 replacement_pass=1
+   length_constraints:number_paragraphs: n=690 skyrl_pass=131 gate_pass=131 replacement_pass=131
+   length_constraints:number_sentences: n=562 skyrl_pass=282 gate_pass=282 replacement_pass=282
+   length_constraints:number_words: n=729 skyrl_pass=338 gate_pass=338 replacement_pass=338
+   letters:letter_counting: n=497 skyrl_pass=294 gate_pass=- replacement_pass=294
+   letters:letter_counting2: n=705 skyrl_pass=383 gate_pass=383 replacement_pass=383
+   punctuation:no_comma: n=730 skyrl_pass=730 gate_pass=730 replacement_pass=730
+   punctuation:punctuation_dot: n=847 skyrl_pass=847 gate_pass=847 replacement_pass=847
+   punctuation:punctuation_exclamation: n=627 skyrl_pass=627 gate_pass=627 replacement_pass=627
+
+== restate: rows with SkyRL reward 1.0: 813 (of which checker errors: 0); gate passed: 1308; replacement reward 1.0: 558; rows with a SkyRL checker exception: 0
+   change_case:capital_word_frequency: n=601 skyrl_pass=329 gate_pass=331 replacement_pass=329
+   combination:two_responses: n=253 skyrl_pass=248 gate_pass=248 replacement_pass=248
+   count:count_unique: n=687 skyrl_pass=13 gate_pass=- replacement_pass=17
+   count:lowercase_counting: n=869 skyrl_pass=0 gate_pass=869 replacement_pass=580
+   detectable_content:number_placeholders: n=585 skyrl_pass=174 gate_pass=174 replacement_pass=174
+   detectable_content:postscript: n=644 skyrl_pass=497 gate_pass=0 replacement_pass=0
+   detectable_format:constrained_response: n=120 skyrl_pass=120 gate_pass=0 replacement_pass=0
+   detectable_format:multiple_sections: n=453 skyrl_pass=184 gate_pass=98 replacement_pass=79
+   detectable_format:number_bullet_lists: n=512 skyrl_pass=104 gate_pass=104 replacement_pass=104
+   detectable_format:number_highlighted_sections: n=555 skyrl_pass=136 gate_pass=136 replacement_pass=136
+   detectable_format:sentence_hyphens: n=669 skyrl_pass=114 gate_pass=0 replacement_pass=123
+   detectable_format:square_brackets: n=553 skyrl_pass=0 gate_pass=93 replacement_pass=0
+   detectable_format:title: n=589 skyrl_pass=589 gate_pass=589 replacement_pass=589
+   keywords:existence: n=932 skyrl_pass=932 gate_pass=932 replacement_pass=932
+   keywords:frequency: n=607 skyrl_pass=307 gate_pass=307 replacement_pass=307
+   keywords:keyword_specific_position: n=676 skyrl_pass=2 gate_pass=2 replacement_pass=1
+   keywords:letter_frequency: n=783 skyrl_pass=372 gate_pass=372 replacement_pass=372
+   keywords:no_adjacent_consecutive: n=818 skyrl_pass=297 gate_pass=659 replacement_pass=209
+   keywords:palindrome: n=618 skyrl_pass=618 gate_pass=42 replacement_pass=110
+   keywords:word_count_different_numbers: n=526 skyrl_pass=254 gate_pass=253 replacement_pass=147
+   keywords:word_once: n=917 skyrl_pass=909 gate_pass=913 replacement_pass=917
+   language:response_language: n=780 skyrl_pass=16 gate_pass=- replacement_pass=16
+   last_word:last_word_answer: n=625 skyrl_pass=130 gate_pass=154 replacement_pass=130
+   last_word:last_word_sent: n=600 skyrl_pass=40 gate_pass=40 replacement_pass=39
+   length_constraints:number_paragraphs: n=690 skyrl_pass=128 gate_pass=130 replacement_pass=131
+   length_constraints:number_sentences: n=562 skyrl_pass=283 gate_pass=281 replacement_pass=275
+   length_constraints:number_words: n=729 skyrl_pass=319 gate_pass=319 replacement_pass=318
+   letters:letter_counting: n=497 skyrl_pass=294 gate_pass=- replacement_pass=294
+   letters:letter_counting2: n=705 skyrl_pass=302 gate_pass=302 replacement_pass=302
+   paragraphs:paragraphs: n=576 skyrl_pass=463 gate_pass=468 replacement_pass=0
+   paragraphs:paragraphs2: n=744 skyrl_pass=205 gate_pass=258 replacement_pass=206
+
+== period: rows with SkyRL reward 1.0: 1144 (of which checker errors: 0); gate passed: 682; replacement reward 1.0: 829; rows with a SkyRL checker exception: 0
+   change_case:capital_word_frequency: n=601 skyrl_pass=335 gate_pass=335 replacement_pass=335
+   count:count_unique: n=687 skyrl_pass=687 gate_pass=- replacement_pass=687
+   count:lowercase_counting: n=869 skyrl_pass=869 gate_pass=0 replacement_pass=869
+   detectable_format:bigram_wrapping: n=575 skyrl_pass=575 gate_pass=- replacement_pass=0
+   detectable_format:sentence_hyphens: n=669 skyrl_pass=669 gate_pass=0 replacement_pass=669
+   detectable_format:square_brackets: n=553 skyrl_pass=0 gate_pass=0 replacement_pass=553
+   keywords:forbidden_words: n=836 skyrl_pass=836 gate_pass=836 replacement_pass=836
+   keywords:frequency: n=607 skyrl_pass=311 gate_pass=311 replacement_pass=311
+   keywords:letter_frequency: n=783 skyrl_pass=420 gate_pass=420 replacement_pass=420
+   keywords:no_adjacent_consecutive: n=818 skyrl_pass=818 gate_pass=818 replacement_pass=818
+   keywords:palindrome: n=618 skyrl_pass=618 gate_pass=0 replacement_pass=0
+   keywords:word_count_different_numbers: n=526 skyrl_pass=206 gate_pass=206 replacement_pass=0
+   language:response_language: n=780 skyrl_pass=780 gate_pass=- replacement_pass=0
+   length_constraints:number_paragraphs: n=690 skyrl_pass=131 gate_pass=131 replacement_pass=131
+   length_constraints:number_sentences: n=562 skyrl_pass=282 gate_pass=282 replacement_pass=269
+   length_constraints:number_words: n=729 skyrl_pass=328 gate_pass=328 replacement_pass=328
+   letters:letter_counting: n=497 skyrl_pass=203 gate_pass=- replacement_pass=203
+   letters:letter_counting2: n=705 skyrl_pass=394 gate_pass=394 replacement_pass=394
+   punctuation:no_comma: n=730 skyrl_pass=730 gate_pass=730 replacement_pass=730
+   punctuation:punctuation_exclamation: n=627 skyrl_pass=627 gate_pass=627 replacement_pass=627
+examples {'empty': 'eb817d5f-9f71-4bac-9f5e-9863c5e3957a', 'restate': '9c9e50db-1a1f-4bc3-b908-6b6e97078b62'}

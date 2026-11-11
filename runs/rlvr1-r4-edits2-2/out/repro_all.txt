@@ -1,0 +1,238 @@
+== N1
+  check=copy:repeat_phrase kwargs={"phrase": "Live each day to the fullest", "small_n": 3}
+  response='Live each day to the fullest. Live each day to the fullest. Live each hour to the fullest.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+  check=copy:repeat_phrase kwargs={"phrase": "Live each day to the fullest", "small_n": 2}
+  response='**Live** each moment to the fullest. Live each hour to the fullest.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== N2
+  check=count:count_unique kwargs=null
+  response='Hello, world, friend.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=judged (no gate check) | replacement=pass
+== N3
+  check=count:counting_composition kwargs={"n_sent": 3, "n_words": 2}
+  response='Dogs bark. Cats purr. Birds sing.\n* * *\nFish swim. Bees buzz. Cows moo.\n* * *\nKids play. Moms cook. Dads work.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+== N4
+  check=detectable_content:postscript kwargs={"postscript_marker": "P.S."}
+  response='Thanks, as the P.S. says, for reading.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+  check=detectable_content:postscript kwargs={"postscript_marker": "P.S."}
+  response='Thanks.\n\nP.P.S. See you soon.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+== N5
+  check=detectable_format:constrained_response kwargs=null
+  response='My answer is yes. My answer is no.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+== N6
+  check=detectable_format:multiple_sections kwargs={"num_sections": 2, "section_spliter": "SECTION"}
+  response='SECTION 1\nA text.\nSECTION 2\nB text.\nSECTION 3\nC text.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+== N7
+  check=detectable_format:number_bullet_lists kwargs={"num_bullets": 3}
+  response='* one\n* two\n* three\n\n---\n\nDone.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=detectable_format:number_bullet_lists kwargs={"num_bullets": 3}
+  response='*Note*: intro\n* one\n* two\n* three'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+== N8
+  check=detectable_format:number_highlighted_sections kwargs={"num_highlights": 3}
+  response='* **Alpha**: one\n* **Beta**: two'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+== N9
+  check=detectable_format:sentence_hyphens kwargs=null
+  response='Tea is well-known.-Coffee is too.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== N10
+  check=detectable_format:square_brackets kwargs=null
+  response='[I], [like] [tea].'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+== N11
+  check=first_word:first_word_answer kwargs={"first_word": "development"}
+  response='**Development** matters.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=first_word:first_word_answer kwargs={"first_word": "development"}
+  response='Development, as a field, matters.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=first_word:first_word_sent kwargs={"first_word": "tea"}
+  response='Tea, I think, is warm. Tea is calm.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=length_constraints:nth_paragraph_first_word kwargs={"num_paragraphs": 2, "nth_paragraph": 1, "first_word": "fuel"}
+  response='Fuel: costly.\n\nPrices rise.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=last_word:last_word_answer kwargs={"last_word": "expression"}
+  response='It remains a mystery in modern history—expression.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+== N12
+  check=keywords:keyword_specific_position kwargs={"keyword": "tea", "n": 2, "m": 3}
+  response='I like coffee. Yes, drink tea daily.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+== N13
+  check=keywords:no_adjacent_consecutive kwargs=null
+  response='Step 1 2 done.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=keywords:no_adjacent_consecutive kwargs=null
+  response='"A" big dog.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+== N14
+  check=keywords:palindrome kwargs=null
+  response='This - that.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=fail
+  check=keywords:palindrome kwargs=null
+  response='Level up now.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+== N15
+  check=change_case:english_capital kwargs=null
+  response='HELLO WORLD'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=pass
+  check=change_case:english_capital kwargs=null
+  response='PROFESIÓN DEL SUSTENTADOR PRINCIPAL DE LA FAMILIA; TRABAJA COMO CUIDADORA DE MAYORES A DOMICILIO.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+  check=language:response_language kwargs={"language": "ta"}
+  response='12345'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=judged (no gate check) | replacement=fail
+== N18
+  check=length_constraints:number_sentences kwargs={"num_sentences": 3, "relation": "at least"}
+  response='我喜欢茶。你喜欢咖啡。他喜欢水。'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== B1
+  check=keywords:word_once kwargs={"keyword": "beer"}
+  response='Beer is good and beer is cold.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== B2
+  check=keywords:word_count_different_numbers kwargs={"keyword": "box", "frequency": 2, "relation": "less than"}
+  response='A box and a box.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+  check=keywords:word_count_different_numbers kwargs={"keyword": "box", "frequency": 2, "relation": "less than"}
+  response='No containers here.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+== B3
+  check=combination:two_responses kwargs=null
+  response='Tea is warm.\n*******\nCoffee is strong.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+== B4
+  check=detectable_content:number_placeholders kwargs={"num_placeholders": 2}
+  response='Dear [name], see [] and [ ].'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+== B5
+  check=detectable_format:json_format kwargs=null
+  response='{"a": NaN}'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+== B6
+  check=detectable_format:number_bullet_lists kwargs={"num_bullets": 3}
+  response='* one\n* two\n* three\n\n* * *\n\nEnd.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== B7
+  check=detectable_content:postscript kwargs={"postscript_marker": "P.P.S"}
+  response='The two limits are equal.\n\nP.P.S.'
+  contract=fail | SkyRL/NVIDIA=pass | curation/verifyit=pass | replacement=fail
+== V1
+  check=change_case:english_capital kwargs=null
+  response='ПРИВЕТ МИР, КАК ТВОИ ДЕЛА СЕГОДНЯ?'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+  check=change_case:english_lowercase kwargs=null
+  response="bonjour je suis très content de vous voir aujourd'hui mon ami"
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V2
+  check=copy:repeat_phrase kwargs={"phrase": "Live each day to the fullest", "small_n": 2}
+  response='Live each moment to the fullest. Live each hour to the fullest.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+  check=copy:repeat_phrase kwargs={"phrase": "Live each day to the fullest", "small_n": 2}
+  response='Live each day to the fullest. Live each day to the fullest.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V3
+  check=count:counting_composition kwargs={"n_sent": 3, "n_words": 2}
+  response='Dogs bark loudly. Cats purr softly. Birds sing sweetly.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V4
+  check=count:lowercase_counting kwargs={"N": 2}
+  response='the cat and the dog and the bird'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+  check=count:lowercase_counting kwargs={"N": 2}
+  response='Hello World'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+== V5
+  check=detectable_content:postscript kwargs={"postscript_marker": "P.S."}
+  response='Thanks.\n\n**P.S.** See you soon.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+== V6
+  check=detectable_format:json_format kwargs=null
+  response='```JSON\n{"a": 1}\n```'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+== V7
+  check=detectable_format:multiple_sections kwargs={"num_sections": 2, "section_spliter": "SECTION"}
+  response='SECTION 1\nAs SECTION 2 below shows, tea.\nSECTION 2\nB text.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+== V8
+  check=detectable_format:number_highlighted_sections kwargs={"num_highlights": 1}
+  response='Text.\n\n* * *\n\nMore.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V9
+  check=detectable_format:sentence_hyphens kwargs=null
+  response='I like tea.-You like coffee.-We both like water.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+== V10
+  check=detectable_format:square_brackets kwargs=null
+  response='[I] like tea'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V11
+  check=keywords:no_adjacent_consecutive kwargs=null
+  response='A big dog.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+  check=keywords:no_adjacent_consecutive kwargs=null
+  response='The the cat.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+  check=keywords:no_adjacent_consecutive kwargs=null
+  response='вот где дом'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V12
+  check=keywords:start_end kwargs=null
+  response='Hello there my friend hello.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V13
+  check=length_constraints:number_paragraphs kwargs={"num_paragraphs": 3}
+  response='One.\n***\nTwo.\n***\nThree.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+  check=length_constraints:number_paragraphs kwargs={"num_paragraphs": 3}
+  response='One.\n\nTwo.\n\nThree.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V14
+  check=paragraphs:paragraphs kwargs=null
+  response='One.\n***\nTwo.\n***\nThree.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+  check=paragraphs:paragraphs2 kwargs=null
+  response='One.\n***\nTwo.'
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V15
+  check=startend:quotation kwargs=null
+  response="'Hello there.'"
+  contract=fail | SkyRL/NVIDIA=fail | curation/verifyit=pass | replacement=fail
+== V16
+  check=length_constraints:number_words kwargs={"num_words": 5, "relation": "at least"}
+  response='Это очень хороший ответ сегодня.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+  check=first_word:first_word_answer kwargs={"first_word": "development"}
+  response='- Development matters.'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== V17
+  check=keywords:palindrome kwargs=null
+  response='A man, a plan, a canal: Panama.'
+  contract=pass | SkyRL/NVIDIA=pass | curation/verifyit=fail | replacement=pass
+== V18
+  check=length_constraints:number_sentences kwargs={"num_sentences": 3, "relation": "at least"}
+  response='我喜欢茶。你喜欢咖啡。他喜欢水。'
+  contract=pass | SkyRL/NVIDIA=fail | curation/verifyit=fail | replacement=pass
+== N16
+  raw='' row constraints={'instruction_id_list': ['last_word:last_word_answer'], 'kwargs': [{'last_word': 'end'}]}
+  SkyRL reward=0.0 errors=['IndexError: list index out of range'] -> NemotronTaskSession returns Outcome.INFRA_ERROR
+== N17
+  raw='Fuel is costly.\n\nFuel prices rise.' row constraints={'instruction_id_list': ['length_constraints:nth_paragraph_first_word'], 'kwargs': [{'first_word': 'fuel', 'nth_paragraph': 3, 'num_paragraphs': 2}]}
+  contract: fail (paragraph 3 of 2 cannot exist) | SkyRL rewards over random seeds 0-19: [1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0]
+== P1
+  Qwen3 thinking response cut off inside its reasoning (the chat template opened <think>, so no marker):
+  raw='Okay the user wants an answer without any commas so I should plan the reply first and then'  row constraints={'instruction_id_list': ['punctuation:no_comma'], 'kwargs': [None]}
+  contract: extraction failure, reward 0 | SkyRL reward=1.0 | curation gate=pass
+== P2
+  raw='<think>I will avoid commas and'  row constraints={'instruction_id_list': ['punctuation:no_comma'], 'kwargs': [None]}
+  graded text SkyRL=''
+  contract: extraction failure, reward 0 | SkyRL reward=1.0 | curation gate=pass

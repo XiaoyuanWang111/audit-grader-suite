@@ -1,0 +1,176 @@
+{
+ "counts": {
+  "change_case:capital_word_frequency": {
+   "inputs": 400
+  },
+  "change_case:english_capital": {
+   "inputs": 400
+  },
+  "change_case:english_lowercase": {
+   "inputs": 400
+  },
+  "combination:two_responses": {
+   "inputs": 400
+  },
+  "copy:repeat_phrase": {
+   "inputs": 400
+  },
+  "count:count_unique": {
+   "inputs": 400
+  },
+  "count:counting_composition": {
+   "inputs": 400
+  },
+  "count:lowercase_counting": {
+   "inputs": 400
+  },
+  "detectable_content:number_placeholders": {
+   "inputs": 400
+  },
+  "detectable_content:postscript": {
+   "inputs": 400
+  },
+  "detectable_format:bigram_wrapping": {
+   "inputs": 400
+  },
+  "detectable_format:constrained_response": {
+   "inputs": 400
+  },
+  "detectable_format:json_format": {
+   "inputs": 400,
+   "A_exceptions": 6,
+   "B_exceptions": 6
+  },
+  "detectable_format:multiple_sections": {
+   "inputs": 400
+  },
+  "detectable_format:number_bullet_lists": {
+   "inputs": 400
+  },
+  "detectable_format:number_highlighted_sections": {
+   "inputs": 400
+  },
+  "detectable_format:sentence_hyphens": {
+   "inputs": 400
+  },
+  "detectable_format:square_brackets": {
+   "inputs": 400
+  },
+  "detectable_format:title": {
+   "inputs": 400
+  },
+  "first_word:first_word_answer": {
+   "inputs": 400
+  },
+  "first_word:first_word_sent": {
+   "inputs": 400
+  },
+  "keywords:existence": {
+   "inputs": 400
+  },
+  "keywords:forbidden_words": {
+   "inputs": 400
+  },
+  "keywords:frequency": {
+   "inputs": 400
+  },
+  "keywords:keyword_specific_position": {
+   "inputs": 400
+  },
+  "keywords:letter_frequency": {
+   "inputs": 400
+  },
+  "keywords:no_adjacent_consecutive": {
+   "inputs": 400
+  },
+  "keywords:palindrome": {
+   "inputs": 400
+  },
+  "keywords:start_end": {
+   "inputs": 400
+  },
+  "keywords:word_count_different_numbers": {
+   "inputs": 400
+  },
+  "keywords:word_once": {
+   "inputs": 400
+  },
+  "language:response_language": {
+   "inputs": 400
+  },
+  "last_word:last_word_answer": {
+   "inputs": 400,
+   "A_exceptions": 33
+  },
+  "last_word:last_word_sent": {
+   "inputs": 400
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "inputs": 400
+  },
+  "length_constraints:number_paragraphs": {
+   "inputs": 400
+  },
+  "length_constraints:number_sentences": {
+   "inputs": 400
+  },
+  "length_constraints:number_words": {
+   "inputs": 400
+  },
+  "letters:letter_counting": {
+   "inputs": 400
+  },
+  "letters:letter_counting2": {
+   "inputs": 400
+  },
+  "paragraphs:paragraphs": {
+   "inputs": 400
+  },
+  "paragraphs:paragraphs2": {
+   "inputs": 400
+  },
+  "punctuation:no_comma": {
+   "inputs": 400
+  },
+  "punctuation:punctuation_dot": {
+   "inputs": 400
+  },
+  "punctuation:punctuation_exclamation": {
+   "inputs": 400
+  },
+  "startend:end_checker": {
+   "inputs": 400
+  },
+  "startend:quotation": {
+   "inputs": 400
+  }
+ },
+ "total": {
+  "inputs": 18800,
+  "A_exceptions": 39,
+  "B_exceptions": 6
+ },
+ "examples": [
+  [
+   "detectable_format:json_format",
+   "A",
+   "RecursionError",
+   "'[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['",
+   "error: RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode string"
+  ],
+  [
+   "detectable_format:json_format",
+   "B",
+   "RecursionError",
+   "'[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[['",
+   "error: RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode string"
+  ],
+  [
+   "last_word:last_word_answer",
+   "A",
+   "IndexError",
+   "'     '",
+   "error: IndexError: list index out of range"
+  ]
+ ]
+}

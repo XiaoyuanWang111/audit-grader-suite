@@ -1,0 +1,1182 @@
+{
+ "change_case:capital_word_frequency": {
+  "constraints": 601,
+  "rows": 601,
+  "kwarg_key_sets": {
+   "capital_frequency,capital_relation": 601
+  },
+  "kwarg_values": {
+   "capital_frequency": {
+    "16": 38,
+    "20": 36,
+    "2": 35,
+    "6": 35,
+    "11": 34,
+    "1": 34,
+    "7": 33,
+    "4": 33,
+    "13": 31,
+    "19": 30,
+    "17": 30,
+    "14": 30,
+    "8": 28,
+    "18": 27,
+    "9": 27,
+    "5": 26,
+    "3": 26,
+    "15": 25,
+    "10": 24,
+    "12": 19
+   },
+   "capital_relation": {
+    "\"less than\"": 335,
+    "\"at least\"": 266
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "capital_frequency": 20,
+   "capital_relation": 2
+  }
+ },
+ "change_case:english_capital": {
+  "constraints": 772,
+  "rows": 772,
+  "kwarg_key_sets": {
+   "<None>": 772
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "change_case:english_lowercase": {
+  "constraints": 604,
+  "rows": 604,
+  "kwarg_key_sets": {
+   "<None>": 604
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "combination:two_responses": {
+  "constraints": 253,
+  "rows": 253,
+  "kwarg_key_sets": {
+   "<None>": 253
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "copy:repeat_phrase": {
+  "constraints": 554,
+  "rows": 554,
+  "kwarg_key_sets": {
+   "phrase,small_n": 554
+  },
+  "kwarg_values": {
+   "phrase": {
+    "\"Don't judge a book by cover\"": 68,
+    "\"Live each day to the fullest\"": 64,
+    "\"Laughter is the best medicine\"": 59,
+    "\"The pen is mightier than sword\"": 58,
+    "\"Every cloud has a silver lining\"": 57,
+    "\"The early bird catches the worm\"": 54,
+    "\"Time flies when having fun\"": 51,
+    "\"All that glitters is not gold\"": 49,
+    "\"Dance like nobody is watching you\"": 49,
+    "\"Actions speak louder than words\"": 45
+   },
+   "small_n": {
+    "3": 283,
+    "2": 271
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "phrase": 10,
+   "small_n": 2
+  }
+ },
+ "count:count_unique": {
+  "constraints": 687,
+  "rows": 687,
+  "kwarg_key_sets": {
+   "<None>": 687
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "count:counting_composition": {
+  "constraints": 1,
+  "rows": 1,
+  "kwarg_key_sets": {
+   "n_sent,n_words": 1
+  },
+  "kwarg_values": {
+   "n_sent": {
+    "3": 1
+   },
+   "n_words": {
+    "2": 1
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "n_sent": 1,
+   "n_words": 1
+  }
+ },
+ "count:lowercase_counting": {
+  "constraints": 869,
+  "rows": 869,
+  "kwarg_key_sets": {
+   "N": 869
+  },
+  "kwarg_values": {
+   "N": {
+    "2": 444,
+    "3": 425
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "N": 2
+  }
+ },
+ "detectable_content:number_placeholders": {
+  "constraints": 585,
+  "rows": 585,
+  "kwarg_key_sets": {
+   "num_placeholders": 585
+  },
+  "kwarg_values": {
+   "num_placeholders": {
+    "2": 149,
+    "3": 148,
+    "1": 147,
+    "4": 141
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_placeholders": 4
+  }
+ },
+ "detectable_content:postscript": {
+  "constraints": 644,
+  "rows": 644,
+  "kwarg_key_sets": {
+   "postscript_marker": 644
+  },
+  "kwarg_values": {
+   "postscript_marker": {
+    "\"P.S.\"": 324,
+    "\"P.P.S\"": 320
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "postscript_marker": 2
+  }
+ },
+ "detectable_format:bigram_wrapping": {
+  "constraints": 575,
+  "rows": 575,
+  "kwarg_key_sets": {
+   "<None>": 575
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "detectable_format:constrained_response": {
+  "constraints": 120,
+  "rows": 120,
+  "kwarg_key_sets": {
+   "<None>": 120
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "detectable_format:json_format": {
+  "constraints": 133,
+  "rows": 133,
+  "kwarg_key_sets": {
+   "<None>": 133
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "detectable_format:multiple_sections": {
+  "constraints": 453,
+  "rows": 453,
+  "kwarg_key_sets": {
+   "num_sections,section_spliter": 453
+  },
+  "kwarg_values": {
+   "num_sections": {
+    "1": 105,
+    "4": 98,
+    "5": 88,
+    "3": 83,
+    "2": 79
+   },
+   "section_spliter": {
+    "\"SECTION\"": 242,
+    "\"Section\"": 211
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_sections": 5,
+   "section_spliter": 2
+  }
+ },
+ "detectable_format:number_bullet_lists": {
+  "constraints": 512,
+  "rows": 512,
+  "kwarg_key_sets": {
+   "num_bullets": 512
+  },
+  "kwarg_values": {
+   "num_bullets": {
+    "1": 119,
+    "2": 116,
+    "3": 101,
+    "4": 88,
+    "5": 88
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_bullets": 5
+  }
+ },
+ "detectable_format:number_highlighted_sections": {
+  "constraints": 555,
+  "rows": 555,
+  "kwarg_key_sets": {
+   "num_highlights": 555
+  },
+  "kwarg_values": {
+   "num_highlights": {
+    "2": 157,
+    "1": 136,
+    "4": 131,
+    "3": 131
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_highlights": 4
+  }
+ },
+ "detectable_format:sentence_hyphens": {
+  "constraints": 669,
+  "rows": 669,
+  "kwarg_key_sets": {
+   "<None>": 669
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "detectable_format:square_brackets": {
+  "constraints": 553,
+  "rows": 553,
+  "kwarg_key_sets": {
+   "<None>": 553
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "detectable_format:title": {
+  "constraints": 589,
+  "rows": 589,
+  "kwarg_key_sets": {
+   "<None>": 589
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "first_word:first_word_answer": {
+  "constraints": 557,
+  "rows": 557,
+  "kwarg_key_sets": {
+   "first_word": 557
+  },
+  "kwarg_values": {
+   "first_word": {
+    "\"dealer\"": 4,
+    "\"mix\"": 3,
+    "\"situation\"": 3,
+    "\"designer\"": 3,
+    "\"limit\"": 3,
+    "\"awareness\"": 3,
+    "\"pack\"": 3,
+    "\"pause\"": 3,
+    "\"winter\"": 3,
+    "\"specialist\"": 3,
+    "\"mother\"": 3,
+    "\"coast\"": 3,
+    "\"rain\"": 3,
+    "\"view\"": 2,
+    "\"kiss\"": 2,
+    "\"risk\"": 2,
+    "\"objective\"": 2,
+    "\"clock\"": 2,
+    "\"reception\"": 2,
+    "\"morning\"": 2,
+    "\"turn\"": 2,
+    "\"attitude\"": 2,
+    "\"tomorrow\"": 2,
+    "\"play\"": 2,
+    "\"flow\"": 2
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "first_word": 457
+  }
+ },
+ "first_word:first_word_sent": {
+  "constraints": 540,
+  "rows": 540,
+  "kwarg_key_sets": {
+   "first_word": 540
+  },
+  "kwarg_values": {
+   "first_word": {
+    "\"peace\"": 3,
+    "\"chart\"": 3,
+    "\"care\"": 3,
+    "\"expression\"": 3,
+    "\"poem\"": 3,
+    "\"purple\"": 3,
+    "\"rock\"": 3,
+    "\"grand\"": 3,
+    "\"good\"": 3,
+    "\"control\"": 2,
+    "\"give\"": 2,
+    "\"script\"": 2,
+    "\"fish\"": 2,
+    "\"exam\"": 2,
+    "\"print\"": 2,
+    "\"influence\"": 2,
+    "\"hope\"": 2,
+    "\"customer\"": 2,
+    "\"joke\"": 2,
+    "\"hair\"": 2,
+    "\"appearance\"": 2,
+    "\"surround\"": 2,
+    "\"dinner\"": 2,
+    "\"sky\"": 2,
+    "\"physical\"": 2
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "first_word": 461
+  }
+ },
+ "keywords:existence": {
+  "constraints": 932,
+  "rows": 932,
+  "kwarg_key_sets": {
+   "keywords": 932
+  },
+  "kwarg_values": {
+   "keywords": {
+    "[\"quote\", \"teaching\"]": 1,
+    "[\"food\", \"poetry\"]": 1,
+    "[\"help\", \"subject\"]": 1,
+    "[\"basis\", \"location\"]": 1,
+    "[\"highway\", \"marketing\"]": 1,
+    "[\"hall\", \"risk\"]": 1,
+    "[\"bath\", \"culture\"]": 1,
+    "[\"earth\", \"garden\"]": 1,
+    "[\"case\", \"report\"]": 1,
+    "[\"ground\", \"rough\"]": 1,
+    "[\"building\", \"morning\"]": 1,
+    "[\"bit\", \"double\"]": 1,
+    "[\"meet\", \"upper\"]": 1,
+    "[\"cow\", \"female\"]": 1,
+    "[\"bend\", \"female\"]": 1,
+    "[\"fish\", \"psychology\"]": 1,
+    "[\"food\", \"sensitive\"]": 1,
+    "[\"independence\", \"table\"]": 1,
+    "[\"gene\", \"stable\"]": 1,
+    "[\"attempt\", \"virus\"]": 1,
+    "[\"bet\", \"influence\"]": 1,
+    "[\"challenge\", \"reward\"]": 1,
+    "[\"debate\", \"oven\"]": 1,
+    "[\"chapter\", \"pound\"]": 1,
+    "[\"project\", \"spite\"]": 1
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "keywords": 932
+  }
+ },
+ "keywords:forbidden_words": {
+  "constraints": 836,
+  "rows": 836,
+  "kwarg_key_sets": {
+   "forbidden_words": 836
+  },
+  "kwarg_values": {
+   "forbidden_words": {
+    "[\"sound\", \"square\"]": 2,
+    "[\"debate\", \"indication\"]": 1,
+    "[\"bet\", \"raw\"]": 1,
+    "[\"law\", \"top\"]": 1,
+    "[\"dead\", \"wash\"]": 1,
+    "[\"floor\", \"wheel\"]": 1,
+    "[\"rush\", \"youth\"]": 1,
+    "[\"base\", \"horse\"]": 1,
+    "[\"assist\", \"knee\"]": 1,
+    "[\"leave\", \"poem\"]": 1,
+    "[\"bus\", \"media\"]": 1,
+    "[\"comfort\", \"strategy\"]": 1,
+    "[\"audience\", \"sail\"]": 1,
+    "[\"jump\", \"penalty\"]": 1,
+    "[\"low\", \"towel\"]": 1,
+    "[\"crew\", \"discipline\"]": 1,
+    "[\"east\", \"rope\"]": 1,
+    "[\"lecture\", \"touch\"]": 1,
+    "[\"bottom\", \"wash\"]": 1,
+    "[\"funny\", \"loss\"]": 1,
+    "[\"capital\", \"national\"]": 1,
+    "[\"attack\", \"roof\"]": 1,
+    "[\"bill\", \"cold\"]": 1,
+    "[\"bet\", \"initial\"]": 1,
+    "[\"meaning\", \"poetry\"]": 1
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "forbidden_words": 835
+  }
+ },
+ "keywords:frequency": {
+  "constraints": 607,
+  "rows": 607,
+  "kwarg_key_sets": {
+   "frequency,keyword,relation": 607
+  },
+  "kwarg_values": {
+   "frequency": {
+    "2": 220,
+    "1": 207,
+    "3": 180
+   },
+   "keyword": {
+    "\"monitor\"": 3,
+    "\"picture\"": 3,
+    "\"word\"": 3,
+    "\"lip\"": 3,
+    "\"foot\"": 3,
+    "\"table\"": 3,
+    "\"nation\"": 3,
+    "\"mouth\"": 3,
+    "\"script\"": 3,
+    "\"review\"": 3,
+    "\"cream\"": 3,
+    "\"kill\"": 3,
+    "\"category\"": 3,
+    "\"opinion\"": 3,
+    "\"somewhere\"": 3,
+    "\"dad\"": 3,
+    "\"branch\"": 3,
+    "\"blood\"": 3,
+    "\"attempt\"": 2,
+    "\"member\"": 2,
+    "\"sink\"": 2,
+    "\"depth\"": 2,
+    "\"weekend\"": 2,
+    "\"cat\"": 2,
+    "\"hold\"": 2
+   },
+   "relation": {
+    "\"less than\"": 311,
+    "\"at least\"": 296
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "frequency": 3,
+   "keyword": 496,
+   "relation": 2
+  }
+ },
+ "keywords:keyword_specific_position": {
+  "constraints": 676,
+  "rows": 676,
+  "kwarg_key_sets": {
+   "keyword,m,n": 676
+  },
+  "kwarg_values": {
+   "keyword": {
+    "\"shot\"": 4,
+    "\"boy\"": 4,
+    "\"female\"": 3,
+    "\"breast\"": 3,
+    "\"club\"": 3,
+    "\"blind\"": 3,
+    "\"mall\"": 3,
+    "\"wonder\"": 3,
+    "\"broad\"": 3,
+    "\"cap\"": 3,
+    "\"writer\"": 3,
+    "\"problem\"": 3,
+    "\"hang\"": 3,
+    "\"mess\"": 3,
+    "\"suit\"": 2,
+    "\"long\"": 2,
+    "\"lead\"": 2,
+    "\"royal\"": 2,
+    "\"half\"": 2,
+    "\"pitch\"": 2,
+    "\"device\"": 2,
+    "\"offer\"": 2,
+    "\"cable\"": 2,
+    "\"seat\"": 2,
+    "\"train\"": 2
+   },
+   "m": {
+    "11": 35,
+    "12": 33,
+    "2": 31,
+    "8": 30,
+    "16": 28,
+    "7": 28,
+    "3": 27,
+    "13": 27,
+    "5": 26,
+    "1": 25,
+    "14": 25,
+    "25": 23,
+    "9": 23,
+    "19": 23,
+    "6": 22,
+    "10": 22,
+    "18": 22,
+    "17": 21,
+    "4": 20,
+    "20": 20,
+    "24": 20,
+    "23": 19,
+    "15": 19,
+    "29": 18,
+    "21": 17
+   },
+   "n": {
+    "2": 52,
+    "6": 45,
+    "7": 41,
+    "12": 38,
+    "1": 38,
+    "3": 38,
+    "14": 37,
+    "17": 36,
+    "15": 34,
+    "13": 34,
+    "9": 33,
+    "20": 32,
+    "4": 30,
+    "5": 29,
+    "10": 29,
+    "11": 28,
+    "19": 28,
+    "8": 27,
+    "16": 25,
+    "18": 22
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "keyword": 559,
+   "m": 30,
+   "n": 20
+  }
+ },
+ "keywords:letter_frequency": {
+  "constraints": 783,
+  "rows": 783,
+  "kwarg_key_sets": {
+   "let_frequency,let_relation,letter": 783
+  },
+  "kwarg_values": {
+   "let_frequency": {
+    "3": 95,
+    "1": 94,
+    "4": 84,
+    "6": 83,
+    "8": 80,
+    "5": 76,
+    "2": 73,
+    "7": 67,
+    "10": 67,
+    "9": 64
+   },
+   "let_relation": {
+    "\"less than\"": 420,
+    "\"at least\"": 363
+   },
+   "letter": {
+    "\"s\"": 39,
+    "\"h\"": 37,
+    "\"e\"": 36,
+    "\"r\"": 35,
+    "\"a\"": 35,
+    "\"i\"": 35,
+    "\"g\"": 35,
+    "\"t\"": 34,
+    "\"d\"": 33,
+    "\"b\"": 32,
+    "\"p\"": 31,
+    "\"u\"": 31,
+    "\"k\"": 31,
+    "\"l\"": 30,
+    "\"w\"": 29,
+    "\"n\"": 29,
+    "\"m\"": 28,
+    "\"j\"": 27,
+    "\"y\"": 26,
+    "\"v\"": 26,
+    "\"z\"": 26,
+    "\"c\"": 26,
+    "\"f\"": 24,
+    "\"o\"": 24,
+    "\"x\"": 22
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "let_frequency": 10,
+   "let_relation": 2,
+   "letter": 26
+  }
+ },
+ "keywords:no_adjacent_consecutive": {
+  "constraints": 818,
+  "rows": 818,
+  "kwarg_key_sets": {
+   "<None>": 818
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "keywords:palindrome": {
+  "constraints": 618,
+  "rows": 618,
+  "kwarg_key_sets": {
+   "<None>": 618
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "keywords:start_end": {
+  "constraints": 499,
+  "rows": 499,
+  "kwarg_key_sets": {
+   "<None>": 499
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "keywords:word_count_different_numbers": {
+  "constraints": 526,
+  "rows": 526,
+  "kwarg_key_sets": {
+   "frequency,keyword,relation": 526
+  },
+  "kwarg_values": {
+   "frequency": {
+    "3": 199,
+    "2": 183,
+    "1": 144
+   },
+   "keyword": {
+    "\"contact\"": 4,
+    "\"skin\"": 4,
+    "\"knowledge\"": 3,
+    "\"parking\"": 3,
+    "\"equipment\"": 3,
+    "\"cousin\"": 3,
+    "\"tooth\"": 3,
+    "\"truck\"": 3,
+    "\"speed\"": 3,
+    "\"presentation\"": 3,
+    "\"cause\"": 3,
+    "\"network\"": 3,
+    "\"strip\"": 2,
+    "\"attack\"": 2,
+    "\"display\"": 2,
+    "\"slide\"": 2,
+    "\"plate\"": 2,
+    "\"afternoon\"": 2,
+    "\"picture\"": 2,
+    "\"doubt\"": 2,
+    "\"wait\"": 2,
+    "\"mouth\"": 2,
+    "\"drop\"": 2,
+    "\"final\"": 2,
+    "\"practice\"": 2
+   },
+   "relation": {
+    "\"at least\"": 320,
+    "\"less than\"": 206
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "frequency": 3,
+   "keyword": 438,
+   "relation": 2
+  }
+ },
+ "keywords:word_once": {
+  "constraints": 917,
+  "rows": 917,
+  "kwarg_key_sets": {
+   "keyword": 917
+  },
+  "kwarg_values": {
+   "keyword": {
+    "\"fix\"": 4,
+    "\"software\"": 4,
+    "\"pace\"": 4,
+    "\"board\"": 3,
+    "\"bed\"": 3,
+    "\"effect\"": 3,
+    "\"measurement\"": 3,
+    "\"mouse\"": 3,
+    "\"grand\"": 3,
+    "\"swing\"": 3,
+    "\"star\"": 3,
+    "\"hurry\"": 3,
+    "\"upstairs\"": 3,
+    "\"emergency\"": 3,
+    "\"point\"": 3,
+    "\"success\"": 3,
+    "\"statement\"": 3,
+    "\"buddy\"": 3,
+    "\"stuff\"": 3,
+    "\"path\"": 3,
+    "\"contest\"": 3,
+    "\"wake\"": 3,
+    "\"rise\"": 3,
+    "\"visual\"": 3,
+    "\"garden\"": 3
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "keyword": 681
+  }
+ },
+ "language:response_language": {
+  "constraints": 780,
+  "rows": 780,
+  "kwarg_key_sets": {
+   "language": 780
+  },
+  "kwarg_values": {
+   "language": {
+    "\"ta\"": 44,
+    "\"pa\"": 41,
+    "\"ur\"": 39,
+    "\"bg\"": 37,
+    "\"ml\"": 36,
+    "\"ko\"": 35,
+    "\"fi\"": 31,
+    "\"vi\"": 30,
+    "\"ar\"": 29,
+    "\"gu\"": 29,
+    "\"kn\"": 28,
+    "\"pl\"": 27,
+    "\"hi\"": 24,
+    "\"bn\"": 24,
+    "\"uk\"": 24,
+    "\"de\"": 24,
+    "\"fa\"": 23,
+    "\"it\"": 22,
+    "\"he\"": 22,
+    "\"te\"": 22,
+    "\"ru\"": 22,
+    "\"ne\"": 21,
+    "\"ja\"": 20,
+    "\"es\"": 20,
+    "\"fr\"": 19
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "language": 30
+  }
+ },
+ "last_word:last_word_answer": {
+  "constraints": 625,
+  "rows": 625,
+  "kwarg_key_sets": {
+   "last_word": 625
+  },
+  "kwarg_values": {
+   "last_word": {
+    "\"single\"": 4,
+    "\"roof\"": 4,
+    "\"feeling\"": 3,
+    "\"ease\"": 3,
+    "\"thing\"": 3,
+    "\"duty\"": 3,
+    "\"slip\"": 3,
+    "\"lake\"": 3,
+    "\"slice\"": 3,
+    "\"emphasis\"": 3,
+    "\"intention\"": 3,
+    "\"read\"": 3,
+    "\"leader\"": 3,
+    "\"internal\"": 3,
+    "\"refrigerator\"": 3,
+    "\"reflection\"": 2,
+    "\"hello\"": 2,
+    "\"story\"": 2,
+    "\"solution\"": 2,
+    "\"article\"": 2,
+    "\"account\"": 2,
+    "\"traffic\"": 2,
+    "\"sky\"": 2,
+    "\"target\"": 2,
+    "\"dirt\"": 2
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "last_word": 502
+  }
+ },
+ "last_word:last_word_sent": {
+  "constraints": 600,
+  "rows": 600,
+  "kwarg_key_sets": {
+   "last_word": 600
+  },
+  "kwarg_values": {
+   "last_word": {
+    "\"rest\"": 3,
+    "\"language\"": 3,
+    "\"moment\"": 3,
+    "\"foot\"": 3,
+    "\"analyst\"": 3,
+    "\"routine\"": 3,
+    "\"purpose\"": 3,
+    "\"garbage\"": 3,
+    "\"limit\"": 2,
+    "\"private\"": 2,
+    "\"customer\"": 2,
+    "\"suspect\"": 2,
+    "\"parent\"": 2,
+    "\"society\"": 2,
+    "\"thought\"": 2,
+    "\"shape\"": 2,
+    "\"alcohol\"": 2,
+    "\"platform\"": 2,
+    "\"fall\"": 2,
+    "\"tip\"": 2,
+    "\"common\"": 2,
+    "\"category\"": 2,
+    "\"essay\"": 2,
+    "\"dear\"": 2,
+    "\"assistance\"": 2
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "last_word": 505
+  }
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "constraints": 515,
+  "rows": 515,
+  "kwarg_key_sets": {
+   "first_word,nth_paragraph,num_paragraphs": 515
+  },
+  "kwarg_values": {
+   "first_word": {
+    "\"crash\"": 4,
+    "\"brick\"": 3,
+    "\"care\"": 3,
+    "\"novel\"": 3,
+    "\"watch\"": 3,
+    "\"attempt\"": 3,
+    "\"dark\"": 3,
+    "\"player\"": 3,
+    "\"cabinet\"": 2,
+    "\"charity\"": 2,
+    "\"house\"": 2,
+    "\"burn\"": 2,
+    "\"trainer\"": 2,
+    "\"drawing\"": 2,
+    "\"internet\"": 2,
+    "\"doubt\"": 2,
+    "\"machine\"": 2,
+    "\"traffic\"": 2,
+    "\"command\"": 2,
+    "\"shot\"": 2,
+    "\"chemistry\"": 2,
+    "\"quiet\"": 2,
+    "\"understanding\"": 2,
+    "\"tomorrow\"": 2,
+    "\"practice\"": 2
+   },
+   "nth_paragraph": {
+    "1": 178,
+    "2": 124,
+    "3": 108,
+    "4": 64,
+    "5": 35,
+    "6": 6
+   },
+   "num_paragraphs": {
+    "4": 122,
+    "2": 114,
+    "5": 107,
+    "3": 99,
+    "1": 73
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "first_word": 440,
+   "nth_paragraph": 6,
+   "num_paragraphs": 5
+  }
+ },
+ "length_constraints:number_paragraphs": {
+  "constraints": 690,
+  "rows": 690,
+  "kwarg_key_sets": {
+   "num_paragraphs": 690
+  },
+  "kwarg_values": {
+   "num_paragraphs": {
+    "5": 145,
+    "2": 141,
+    "4": 141,
+    "3": 132,
+    "1": 131
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_paragraphs": 5
+  }
+ },
+ "length_constraints:number_sentences": {
+  "constraints": 562,
+  "rows": 562,
+  "kwarg_key_sets": {
+   "num_sentences,relation": 562
+  },
+  "kwarg_values": {
+   "num_sentences": {
+    "3": 39,
+    "4": 38,
+    "19": 37,
+    "2": 35,
+    "13": 33,
+    "18": 32,
+    "9": 32,
+    "16": 31,
+    "14": 31,
+    "7": 27,
+    "17": 26,
+    "6": 26,
+    "8": 25,
+    "15": 25,
+    "5": 25,
+    "11": 25,
+    "10": 21,
+    "12": 19,
+    "20": 18,
+    "1": 17
+   },
+   "relation": {
+    "\"at least\"": 293,
+    "\"less than\"": 269
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_sentences": 20,
+   "relation": 2
+  }
+ },
+ "length_constraints:number_words": {
+  "constraints": 729,
+  "rows": 729,
+  "kwarg_key_sets": {
+   "num_words,relation": 729
+  },
+  "kwarg_values": {
+   "num_words": {
+    "213": 6,
+    "232": 5,
+    "217": 5,
+    "496": 5,
+    "474": 5,
+    "442": 5,
+    "114": 5,
+    "323": 5,
+    "361": 5,
+    "415": 5,
+    "376": 5,
+    "208": 5,
+    "106": 4,
+    "325": 4,
+    "236": 4,
+    "227": 4,
+    "176": 4,
+    "394": 4,
+    "500": 4,
+    "358": 4,
+    "274": 4,
+    "254": 4,
+    "172": 4,
+    "421": 4,
+    "229": 4
+   },
+   "relation": {
+    "\"at least\"": 401,
+    "\"less than\"": 328
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "num_words": 340,
+   "relation": 2
+  }
+ },
+ "letters:letter_counting": {
+  "constraints": 497,
+  "rows": 497,
+  "kwarg_key_sets": {
+   "N,relation": 497
+  },
+  "kwarg_values": {
+   "N": {
+    "3": 266,
+    "2": 231
+   },
+   "relation": {
+    "\"at least\"": 294,
+    "\"less than\"": 203
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "N": 2,
+   "relation": 2
+  }
+ },
+ "letters:letter_counting2": {
+  "constraints": 705,
+  "rows": 705,
+  "kwarg_key_sets": {
+   "let_frequency,let_relation,letter": 705
+  },
+  "kwarg_values": {
+   "let_frequency": {
+    "1": 93,
+    "4": 91,
+    "3": 78,
+    "9": 68,
+    "6": 67,
+    "2": 66,
+    "7": 65,
+    "8": 60,
+    "10": 59,
+    "5": 58
+   },
+   "let_relation": {
+    "\"less than\"": 394,
+    "\"at least\"": 311
+   },
+   "letter": {
+    "\"r\"": 39,
+    "\"o\"": 37,
+    "\"l\"": 34,
+    "\"d\"": 33,
+    "\"t\"": 33,
+    "\"e\"": 31,
+    "\"h\"": 31,
+    "\"y\"": 31,
+    "\"p\"": 30,
+    "\"g\"": 30,
+    "\"i\"": 30,
+    "\"c\"": 28,
+    "\"u\"": 27,
+    "\"f\"": 26,
+    "\"z\"": 25,
+    "\"s\"": 25,
+    "\"k\"": 25,
+    "\"a\"": 25,
+    "\"m\"": 24,
+    "\"w\"": 23,
+    "\"b\"": 21,
+    "\"v\"": 21,
+    "\"x\"": 21,
+    "\"q\"": 20,
+    "\"n\"": 19
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "let_frequency": 10,
+   "let_relation": 2,
+   "letter": 26
+  }
+ },
+ "paragraphs:paragraphs": {
+  "constraints": 576,
+  "rows": 576,
+  "kwarg_key_sets": {
+   "": 576
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "paragraphs:paragraphs2": {
+  "constraints": 744,
+  "rows": 744,
+  "kwarg_key_sets": {
+   "": 744
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "punctuation:no_comma": {
+  "constraints": 730,
+  "rows": 730,
+  "kwarg_key_sets": {
+   "<None>": 730
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "punctuation:punctuation_dot": {
+  "constraints": 847,
+  "rows": 847,
+  "kwarg_key_sets": {
+   "<None>": 847
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "punctuation:punctuation_exclamation": {
+  "constraints": 627,
+  "rows": 627,
+  "kwarg_key_sets": {
+   "<None>": 627
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ },
+ "startend:end_checker": {
+  "constraints": 537,
+  "rows": 537,
+  "kwarg_key_sets": {
+   "end_phrase": 537
+  },
+  "kwarg_values": {
+   "end_phrase": {
+    "\"Is there anything else I can help with?\"": 284,
+    "\"Any other questions?\"": 253
+   }
+  },
+  "n_distinct_kwarg_values": {
+   "end_phrase": 2
+  }
+ },
+ "startend:quotation": {
+  "constraints": 417,
+  "rows": 417,
+  "kwarg_key_sets": {
+   "<None>": 417
+  },
+  "kwarg_values": {},
+  "n_distinct_kwarg_values": {}
+ }
+}

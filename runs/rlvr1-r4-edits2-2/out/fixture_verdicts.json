@@ -1,0 +1,1829 @@
+[
+ {
+  "id": "change_case:capital_word_frequency:3cb82eaf46cc",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:capital_word_frequency:62a52ba5a27a",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:capital_word_frequency:9f48981c6887",
+  "ref": "D-capital-word",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:capital_word_frequency:6c1ff4cbb397",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:capital_word_frequency:69a45893c3f0",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_capital:c7e36ddd6ad7",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_capital:4ab65f1c1492",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_capital:2d0b5a7fe55f",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_capital:f2dfca3fc455",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_capital:db69fb23a7bf",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_capital:590773843db7",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_lowercase:51ea23fe88a0",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_lowercase:5431f71d29a3",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_lowercase:9812f144f09e",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "change_case:english_lowercase:b3e45096063f",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "combination:two_responses:15e9835677c8",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "combination:two_responses:2c9593c74f4e",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "combination:two_responses:0e4c6754ac2b",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "combination:two_responses:5a5ab1121f7c",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "combination:two_responses:74a61d254cee",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "copy:repeat_phrase:0a154eb43938",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "copy:repeat_phrase:41aafb168dc2",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "copy:repeat_phrase:2dbe2ea94972",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "copy:repeat_phrase:fd2d0190f8ed",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "copy:repeat_phrase:96aed25cd9a7",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:count_unique:98606b604e5b",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:count_unique:54b9c83faaf7",
+  "ref": "D-count-unique-case",
+  "label": false,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:count_unique:f71a280ef0c6",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": null,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:counting_composition:c7bb0f95ba79",
+  "ref": "control",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:counting_composition:676a1fbcba5e",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:lowercase_counting:8d6777ae4815",
+  "ref": "D-lowercase-total",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:lowercase_counting:925fbcb1888c",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:lowercase_counting:a7200fc571c4",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "count:lowercase_counting:4460908460fa",
+  "ref": "D-lowercase-counting",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:number_placeholders:a5bd95c4d9c9",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:number_placeholders:d2ec2de29ca1",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:number_placeholders:4254de59bef7",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:b9c3bf98ec35",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:be6fd1c7a7be",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:fe5e620c4747",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:efe04debf6f6",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:c92c7d38ad7d",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:f597ee2cb266",
+  "ref": "D-postscript",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:da1672dab601",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:1702ebeca4de",
+  "ref": "D-postscript-case",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:0c7da514a21b",
+  "ref": "D-postscript-line",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_content:postscript:d62cf6c45e19",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:e07816312341",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:61498939c24e",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:44c5db0ebd5e",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:constrained_response:2141e23251b8",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:constrained_response:24fe850a2c08",
+  "ref": "D-constrained-exact",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:constrained_response:4e6309bf5a57",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:constrained_response:39c350ccd1b1",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:0e1a9d537a9d",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:54c6570dfbd2",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:2a13c96f4957",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:6697c313f400",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:eb2dcebf4f3f",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:cbf6df16a445",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:json_format:b2e3f0a2c7d4",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:multiple_sections:d714a01102ee",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:multiple_sections:e424385aeeb0",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:multiple_sections:d0ad3db62796",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:multiple_sections:536a7f1cf787",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:multiple_sections:23615ec2030e",
+  "ref": "D-sections-case",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:cac51a3530ad",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:14160e8393cf",
+  "ref": "D-bullets",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:fcb794413e48",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:8793c4e0e31c",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:b5bec59a5002",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:26272ee436ae",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:ddfe0fc37e77",
+  "ref": "D-bullets",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:d5a875e55e62",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:69df90d36ff5",
+  "ref": "D-highlight",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:a2289d0698f5",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:db4ad8468580",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:793cf4eda72b",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:9a3e545935a7",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:defb5e9d69e3",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:59ed5639d7fc",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:a38183682ca4",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:474ede6eaf82",
+  "ref": "D-hyphens-single",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:add2c1e79d81",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:square_brackets:86bbd3fd0eec",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:square_brackets:329c0ee3a828",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:square_brackets:ed7111ec453f",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:square_brackets:391c3be76f3e",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:square_brackets:58c91a96a380",
+  "ref": "D-square-brackets",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:title:04017d43e9bb",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:title:966b7419b8d3",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:title:32eef7f2d975",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "detectable_format:title:da974a82e75d",
+  "ref": "D-title",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_answer:56d838a32129",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_answer:cbf2d138fd47",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_answer:4a96a57a81dd",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_answer:2d9a92358f99",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_answer:982adebd0db6",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_sent:0d06011898c7",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_sent:ddf6d0c70c69",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_sent:319522103630",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_sent:d6e73dcbb806",
+  "ref": "D-empty",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:existence:4a20a090f5de",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:existence:07c3d0d4f655",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:existence:9b8e160336c2",
+  "ref": "D-keyword-match",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:existence:2552b476b8d6",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:forbidden_words:c01c58a9cb16",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:forbidden_words:bfaa1a7d67d5",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:forbidden_words:1906823e8e96",
+  "ref": "D-keyword-match",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:frequency:1a0003686a83",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:frequency:520915315b48",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:frequency:9b018f568bbb",
+  "ref": "D-keyword-match",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:keyword_specific_position:41b13d51cd15",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:keyword_specific_position:382a83a609d2",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:keyword_specific_position:409ebbc8b680",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:keyword_specific_position:339d86821776",
+  "ref": "D-first-last-case",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:letter_frequency:dbc8117e2f29",
+  "ref": "D-letter-case",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:letter_frequency:8dace60ec4ef",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:5b5ca03f71fb",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:3210e18590f5",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:d49d8b7ae89b",
+  "ref": "D-consecutive-order",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:234f759fffc5",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:86156b3c68f6",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:a1a9587c63fd",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:9e6f3f94b49d",
+  "ref": "D-alphabet",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:80ba77811daa",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:35f792accc08",
+  "ref": "D-palindrome-length",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:f292dfa87dff",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:5bc1aaf6ee73",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:1572b42a5fe7",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:3f23c1e6cc29",
+  "ref": "D-palindrome-phrase",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:palindrome:41dd84c379c2",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:start_end:67a84b7a1ee8",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:start_end:0c35f1374ea1",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:start_end:60545103580f",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:start_end:7f503a2e6d0d",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_count_different_numbers:0d22b657581b",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_count_different_numbers:b93025048c28",
+  "ref": "D-word-count-exact",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_count_different_numbers:e2f2427742de",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_count_different_numbers:bb12dbafd88e",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_once:169a21e62df8",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_once:49279bd2817d",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "keywords:word_once:28571500e313",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "language:response_language:f05426c4b40e",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "language:response_language:36d2fcc2d9cb",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "language:response_language:7fec956f1aac",
+  "ref": "edge",
+  "label": false,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "last_word:last_word_answer:6e98ba605cc9",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "last_word:last_word_answer:2d4e6317bdc3",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "last_word:last_word_answer:ef82af3c9ddd",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "last_word:last_word_answer:a9561e470e9a",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": "IndexError: list index out of range"
+ },
+ {
+  "id": "last_word:last_word_sent:e52513b24204",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "last_word:last_word_sent:1ce6c064615a",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:289fcad377db",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:a117ec85db01",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:8645b4cd36d8",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:7034ffe421a6",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:2e31eeab9169",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_paragraphs:555ff34a2cab",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_paragraphs:e7cd143334e7",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_paragraphs:0abf9331d665",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_paragraphs:55f7b0d4e8b3",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_paragraphs:471bdced5170",
+  "ref": "D-divider",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_sentences:f1846ef76c59",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_sentences:c4666b02471f",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_sentences:a1c2be01751b",
+  "ref": "D-sentence",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_sentences:8a782cb4df11",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_words:8da630ac9b26",
+  "ref": "edge",
+  "label": true,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "first_word:first_word_answer:9b66cbbd3733",
+  "ref": "edge",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_words:88cce303f36f",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_words:2c8b0eda6341",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "length_constraints:number_words:e2ac63a91e92",
+  "ref": "D-word",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "letters:letter_counting:0124b25d5944",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "letters:letter_counting:26b78397e3ab",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "letters:letter_counting:cbe33b57d916",
+  "ref": "D-letters-count",
+  "label": false,
+  "nvidia": true,
+  "verifyit": null,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "letters:letter_counting2:97a311ef7218",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "letters:letter_counting2:1f3e290db74e",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs:e8af9ec08eb4",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs:ced9338353a0",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs:157bbb31af42",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs:d63cd609e275",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs2:d50851cbe7e4",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs2:2f957f9178f3",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs2:03dcbbb45589",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs2:8ee4b83b5ac1",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "paragraphs:paragraphs2:72758cd5210a",
+  "ref": "D-paragraph-separator",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:no_comma:b9bef2520a2c",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:no_comma:d799754b3583",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:no_comma:7f7f2c2c2bfa",
+  "ref": "D-punct-variants",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:punctuation_dot:5d7852754ed8",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:punctuation_dot:83d849f92e14",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:punctuation_dot:5113385893a3",
+  "ref": "D-punct-variants",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:punctuation_exclamation:259f36c96506",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:punctuation_exclamation:585ed405bdd3",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "punctuation:punctuation_exclamation:eac68300cc73",
+  "ref": "D-punct-variants",
+  "label": false,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:end_checker:a3170ef174fe",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:end_checker:e633c732444f",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:end_checker:d0f24b9d5c15",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:end_checker:be97161a4a62",
+  "ref": "D-end-phrase-case",
+  "label": false,
+  "nvidia": true,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:end_checker:85baa03db217",
+  "ref": "D-end-phrase-markup",
+  "label": true,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:quotation:b4daec064962",
+  "ref": "control",
+  "label": true,
+  "nvidia": true,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:quotation:7b9776f091b6",
+  "ref": "control",
+  "label": false,
+  "nvidia": false,
+  "verifyit": false,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:quotation:985e8eace788",
+  "ref": "edge",
+  "label": false,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": false,
+  "nvidia_error": null
+ },
+ {
+  "id": "startend:quotation:3ea7fa238e6f",
+  "ref": "D-quotation-typographic",
+  "label": true,
+  "nvidia": false,
+  "verifyit": true,
+  "replacement": true,
+  "nvidia_error": null
+ }
+]

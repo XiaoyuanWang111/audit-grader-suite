@@ -1,0 +1,279 @@
+
+== change_case:capital_word_frequency: found 359, not found 242
+   [359] 'In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.'
+   NOT FOUND d298dae9-9914-4261-846e-dee54d23da80 {"capital_frequency": 18, "capital_relation": "at least"}
+   NOT FOUND d40f5c80-09f6-44cb-bd70-e52eccbc6869 {"capital_frequency": 19, "capital_relation": "less than"}
+   NOT FOUND ec02539f-49fc-41e2-ba54-b8e79a6a42cd {"capital_frequency": 2, "capital_relation": "less than"}
+
+== change_case:english_capital: found 461, not found 311
+   [461] 'Your entire response should be in English, and in all capital letters.'
+   NOT FOUND 03635476-74ee-41a7-ba4e-880827a325af null
+   NOT FOUND 70dbb021-6e3a-43ac-ac2b-5578672ea271 null
+   NOT FOUND 29aef96c-72eb-4ff9-a5da-845bb119b606 null
+
+== change_case:english_lowercase: found 367, not found 237
+   [367] 'Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.'
+   NOT FOUND 72a5a3e8-5725-4b22-b49a-93801c1205c6 null
+   NOT FOUND 99c8e92a-e40c-477a-b657-2f27c10cba4a null
+   NOT FOUND e84d5a29-cf82-4a8e-91c8-29dc4ba45c97 null
+
+== combination:two_responses: found 143, not found 110
+   [143] 'Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.'
+   NOT FOUND 437fb2a3-ce41-471f-bce5-af1672c42245 null
+   NOT FOUND 82156dc2-e3db-406e-be89-f8cd2a5753ee null
+   NOT FOUND bad3ac64-0964-40b0-9357-7169a4ba0db3 null
+
+== copy:repeat_phrase: found 310, not found 244
+   [310] 'Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.'
+   NOT FOUND 0359eb98-dd99-4af2-92f3-9b3920d9c57a {"phrase": "Don't judge a book by cover", "small_n": 2}
+   NOT FOUND 3a8f655a-3c08-4483-b169-92a10dd511c3 {"phrase": "Every cloud has a silver lining", "small_n": 3}
+   NOT FOUND bd9f2510-61d2-4c30-b76d-2c2d00cab924 {"phrase": "The pen is mightier than sword", "small_n": 3}
+
+== count:count_unique: found 687, not found 0
+   [687] 'Only use unique words in your response, no word should be repeated!'
+
+== count:counting_composition: found 0, not found 1
+   NOT FOUND 669a9893-80d7-4ebe-bf0c-57d3f7e19970 {"n_sent": 3, "n_words": 2}
+
+== count:lowercase_counting: found 532, not found 337
+   [518] 'In your response, all lowercase words should appear at most {N} times.'
+   [14] 'This is point 1.'
+   NOT FOUND 2c3932b8-1385-4961-8d00-eed3ed340c74 {"N": 3}
+   NOT FOUND 92cdb4bb-2875-4e33-9825-99f3c2c5b9b3 {"N": 2}
+   NOT FOUND 8083226c-4c9d-4371-9984-6b2dd88a5665 {"N": 3}
+
+== detectable_content:number_placeholders: found 368, not found 217
+   [368] 'The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].'
+   NOT FOUND 4924e25a-253d-43ea-980e-176614525110 {"num_placeholders": 1}
+   NOT FOUND dbfdc861-eec4-4fcf-bd7b-dbbc13f685d7 {"num_placeholders": 3}
+   NOT FOUND eeba01df-4b26-466b-9665-ad8fa4d546d1 {"num_placeholders": 3}
+
+== detectable_content:postscript: found 497, not found 147
+   [497] 'At the end of your response, please explicitly add a postscript starting with {postscript_marker}'
+   NOT FOUND 6752fc60-c5f3-488e-bbba-4096b57e6eb1 {"postscript_marker": "P.S."}
+   NOT FOUND 52e1effe-7e5d-4256-8ee8-dcf28517b600 {"postscript_marker": "P.S."}
+   NOT FOUND 06ecb13c-7dc8-46fd-92fb-9f17ee28fcfc {"postscript_marker": "P.S."}
+
+== detectable_format:bigram_wrapping: found 378, not found 197
+   [378] 'Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.'
+   NOT FOUND 03635476-74ee-41a7-ba4e-880827a325af null
+   NOT FOUND 50536f05-ff92-44e9-9a6d-ea03d396bd80 null
+   NOT FOUND dbfdc861-eec4-4fcf-bd7b-dbbc13f685d7 null
+
+== detectable_format:constrained_response: found 120, not found 0
+   [120] "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+
+== detectable_format:json_format: found 58, not found 75
+   [58] 'Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.'
+   NOT FOUND 645687c9-79df-4ccd-8f62-1c5be7f1eded null
+   NOT FOUND d8bde4bc-06b8-4437-8dbf-13c85192d99d null
+   NOT FOUND 1a638fac-c593-4d9e-b698-cdb59a87c323 null
+
+== detectable_format:multiple_sections: found 0, not found 453
+   NOT FOUND b1456158-8499-434c-8499-4b447a6baf0f {"num_sections": 2, "section_spliter": "SECTION"}
+   NOT FOUND 9c9e50db-1a1f-4bc3-b908-6b6e97078b62 {"num_sections": 1, "section_spliter": "SECTION"}
+   NOT FOUND 851734b2-8183-4b40-9c39-3f10a0bb1cf9 {"num_sections": 2, "section_spliter": "SECTION"}
+
+== detectable_format:number_bullet_lists: found 512, not found 0
+   [512] 'This is point 2'
+
+== detectable_format:number_highlighted_sections: found 347, not found 208
+   [347] 'Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.'
+   NOT FOUND 92e34298-6224-4ca6-b512-1e37e093bcb5 {"num_highlights": 1}
+   NOT FOUND a4a8bbee-5d79-467b-b422-8767f2fc8e1d {"num_highlights": 2}
+   NOT FOUND d271b8af-88ed-47fb-881a-ba1dbf693ee7 {"num_highlights": 4}
+
+== detectable_format:sentence_hyphens: found 430, not found 239
+   [430] 'All sentences must be connected using hyphens, with no spaces between them.'
+   NOT FOUND 12bc1d82-035d-4335-ad9e-df254352ba2a null
+   NOT FOUND 0d727f7e-0c38-45e2-8db7-3f768aef684b null
+   NOT FOUND d3b09e6f-d649-48f9-8b0f-c4f6df24ca28 null
+
+== detectable_format:square_brackets: found 345, not found 208
+   [345] 'Enclose every word in your response within square brackets.'
+   NOT FOUND 52e1effe-7e5d-4256-8ee8-dcf28517b600 null
+   NOT FOUND 917efcff-f483-4698-bfa2-9df7fb7bfd7a null
+   NOT FOUND 06ecb13c-7dc8-46fd-92fb-9f17ee28fcfc null
+
+== detectable_format:title: found 356, not found 233
+   [356] 'Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.'
+   NOT FOUND b5e85cc9-8a02-4987-83ca-3840160bf035 null
+   NOT FOUND acaaff8c-bbed-4ecd-9a4d-4251aa029fbe null
+   NOT FOUND b1d49f4e-1149-48aa-9fed-f8e7acba0ddc null
+
+== first_word:first_word_answer: found 348, not found 209
+   [348] 'The first word of your response should be the word {first_word}.'
+   NOT FOUND 999b7e9d-1d94-4706-84f5-09db9a1c8f24 {"first_word": "election"}
+   NOT FOUND 35492d20-71a4-4e3c-a92b-cee490cafddf {"first_word": "kiss"}
+   NOT FOUND f0542aef-dfcf-421a-91ae-ade7056ae38f {"first_word": "text"}
+
+== first_word:first_word_sent: found 352, not found 188
+   [352] 'The first word of each sentence should be the word {first_word}.'
+   NOT FOUND 839bb955-d712-446b-b335-9a223b103bc9 {"first_word": "control"}
+   NOT FOUND b85cff12-9ae9-495a-880e-d4a1ff0cfa3f {"first_word": "give"}
+   NOT FOUND 580ebdf3-6f02-4a29-9dc2-0680cc444722 {"first_word": "script"}
+
+== keywords:existence: found 600, not found 332
+   [590] 'Include keywords {keywords} in the response.'
+   [10] 'This is point 1.'
+   NOT FOUND 0cf24d55-0c57-4459-9ab8-837b87099fc9 {"keywords": ["bath", "culture"]}
+   NOT FOUND 5f542028-8d99-4858-aba3-1b055e8777ab {"keywords": ["food", "sensitive"]}
+   NOT FOUND b85cff12-9ae9-495a-880e-d4a1ff0cfa3f {"keywords": ["independence", "table"]}
+
+== keywords:forbidden_words: found 509, not found 327
+   [509] 'Do not include keywords {forbidden_words} in the response.'
+   NOT FOUND 0c19c7cc-1a0f-49d0-99b2-e7d99c22d699 {"forbidden_words": ["law", "top"]}
+   NOT FOUND 92cdb4bb-2875-4e33-9825-99f3c2c5b9b3 {"forbidden_words": ["rush", "youth"]}
+   NOT FOUND 3a8f655a-3c08-4483-b169-92a10dd511c3 {"forbidden_words": ["assist", "knee"]}
+
+== keywords:frequency: found 367, not found 240
+   [367] 'In your response, the word {keyword} should appear {relation} {frequency} times.'
+   NOT FOUND c1c77b94-e7c2-4bbb-aac1-150c30623341 {"frequency": 1, "keyword": "budget", "relation": "less than"}
+   NOT FOUND f47cec9e-74ae-40c8-a810-32f67a7c762d {"frequency": 3, "keyword": "monitor", "relation": "at least"}
+   NOT FOUND 839bb955-d712-446b-b335-9a223b103bc9 {"frequency": 2, "keyword": "fee", "relation": "at least"}
+
+== keywords:keyword_specific_position: found 438, not found 238
+   [438] 'Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.'
+   NOT FOUND 303dea09-e42c-4ff1-8077-4b34c6b80f0a {"keyword": "play", "m": 16, "n": 12}
+   NOT FOUND 851734b2-8183-4b40-9c39-3f10a0bb1cf9 {"keyword": "milk", "m": 4, "n": 1}
+   NOT FOUND d733a6fd-24ee-438d-8f9a-b205982441df {"keyword": "life", "m": 16, "n": 5}
+
+== keywords:letter_frequency: found 500, not found 283
+   [500] 'In your response, the letter {letter} should appear {let_relation} {let_frequency} times.'
+   NOT FOUND 99c8e92a-e40c-477a-b657-2f27c10cba4a {"let_frequency": 3, "let_relation": "at least", "letter": "y"}
+   NOT FOUND 3f2326f3-f858-49bb-a809-42367f2aab04 {"let_frequency": 7, "let_relation": "at least", "letter": "r"}
+   NOT FOUND 92cdb4bb-2875-4e33-9825-99f3c2c5b9b3 {"let_frequency": 2, "let_relation": "less than", "letter": "n"}
+
+== keywords:no_adjacent_consecutive: found 490, not found 328
+   [490] 'No two adjacent words can start with consecutive letters of the alphabet.'
+   NOT FOUND 6752fc60-c5f3-488e-bbba-4096b57e6eb1 null
+   NOT FOUND f47cec9e-74ae-40c8-a810-32f67a7c762d null
+   NOT FOUND 4ae397e3-637e-498c-a35b-ef258cfe599b null
+
+== keywords:palindrome: found 380, not found 238
+   [380] 'Include a palindrome in your response.'
+   NOT FOUND 2c3932b8-1385-4961-8d00-eed3ed340c74 null
+   NOT FOUND c1c77b94-e7c2-4bbb-aac1-150c30623341 null
+   NOT FOUND b85cff12-9ae9-495a-880e-d4a1ff0cfa3f null
+
+== keywords:start_end: found 293, not found 206
+   [293] 'Start and end your response with the same word (do not write anything after the last word, not even punctuation).'
+   NOT FOUND dbdd51b7-2e8d-43bb-b0f1-e134763e595f null
+   NOT FOUND aa9a55a8-d5ec-434f-b338-d18d5be78dc1 null
+   NOT FOUND 54163482-e55b-44b3-902c-df6cd46f7455 null
+
+== keywords:word_count_different_numbers: found 351, not found 175
+   [351] 'In your response, the word {keyword} should appear {frequency} times.'
+   NOT FOUND 4ae397e3-637e-498c-a35b-ef258cfe599b {"frequency": 3, "keyword": "strip", "relation": "at least"}
+   NOT FOUND 70b14248-473e-4fd6-92d7-a0e9d798371a {"frequency": 2, "keyword": "nurse", "relation": "at least"}
+   NOT FOUND f4159f02-91c3-46d0-8574-4430477e3ac5 {"frequency": 1, "keyword": "purpose", "relation": "at least"}
+
+== keywords:word_once: found 606, not found 311
+   [606] 'Include keyword {keyword} in your response.'
+   NOT FOUND 75370b4c-986f-4aaa-9624-67662f3989ae {"keyword": "note"}
+   NOT FOUND 97a05d3d-cb8b-4405-9648-b5a7d3ac93c2 {"keyword": "area"}
+   NOT FOUND 2c144178-ca45-4a27-b179-03321110be72 {"keyword": "officer"}
+
+== language:response_language: found 488, not found 292
+   [31] 'Your ENTIRE response should be in Tamil language, no other language is allowed.'
+   [26] 'Your ENTIRE response should be in Bulgarian language, no other language is allowed.'
+   [26] 'Your ENTIRE response should be in Punjabi language, no other language is allowed.'
+   [24] 'Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.'
+   [24] 'Your ENTIRE response should be in Malayalam language, no other language is allowed.'
+   [22] 'Your ENTIRE response should be in Polish language, no other language is allowed.'
+   [21] 'Your ENTIRE response should be in Kannada language, no other language is allowed.'
+   [21] 'Your ENTIRE response should be in Arabic language, no other language is allowed.'
+   [21] 'Your ENTIRE response should be in Vietnamese language, no other language is allowed.'
+   [20] 'Your ENTIRE response should be in Korean language, no other language is allowed.'
+   [17] 'Your ENTIRE response should be in Hebrew language, no ot{language}r language is allowed.'
+   [15] 'Your ENTIRE response should be in Japanese language, no other language is allowed.'
+   ... 18 more templates
+   NOT FOUND 8bcf6688-4c1d-430e-9fe3-cd6b48eca7c9 {"language": "hi"}
+   NOT FOUND 0daadf54-bced-4b2d-8a6c-1b7068dd7b72 {"language": "vi"}
+   NOT FOUND 21c26620-eb1c-4843-9ee0-d2e0de509338 {"language": "hi"}
+
+== last_word:last_word_answer: found 380, not found 245
+   [375] 'The last word of your response should be the word {last_word}.'
+   [5] 'This is point 1.'
+   NOT FOUND 303dea09-e42c-4ff1-8077-4b34c6b80f0a {"last_word": "feeling"}
+   NOT FOUND 7ea7992d-a3cb-40b1-a7db-028a6bf92e0b {"last_word": "sing"}
+   NOT FOUND 8bcf6688-4c1d-430e-9fe3-cd6b48eca7c9 {"last_word": "story"}
+
+== last_word:last_word_sent: found 371, not found 229
+   [371] 'The last word of each sentence, before punctuation, should be the word {last_word}.'
+   NOT FOUND 6752fc60-c5f3-488e-bbba-4096b57e6eb1 {"last_word": "train"}
+   NOT FOUND be54b8c2-9f1a-471f-8226-9371019f2eca {"last_word": "few"}
+   NOT FOUND a4326121-d5cc-4bcd-930f-89bf1d840aba {"last_word": "operation"}
+
+== length_constraints:nth_paragraph_first_word: found 315, not found 200
+   [303] "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+   [12] 'This is point 1.'
+   NOT FOUND 54163482-e55b-44b3-902c-df6cd46f7455 {"first_word": "fuel", "nth_paragraph": 3, "num_paragraphs": 3}
+   NOT FOUND 0cf24d55-0c57-4459-9ab8-837b87099fc9 {"first_word": "cabinet", "nth_paragraph": 1, "num_paragraphs": 3}
+   NOT FOUND 3a8f655a-3c08-4483-b169-92a10dd511c3 {"first_word": "mouse", "nth_paragraph": 2, "num_paragraphs": 2}
+
+== length_constraints:number_paragraphs: found 690, not found 0
+   [690] 'There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***'
+
+== length_constraints:number_sentences: found 339, not found 223
+   [339] 'Your response should contain {relation} {num_sentences} sentences.'
+   NOT FOUND 328a6213-8bc1-41d6-a100-e41e66ceb9cb {"num_sentences": 17, "relation": "at least"}
+   NOT FOUND 3f2326f3-f858-49bb-a809-42367f2aab04 {"num_sentences": 13, "relation": "at least"}
+   NOT FOUND d271b8af-88ed-47fb-881a-ba1dbf693ee7 {"num_sentences": 2, "relation": "less than"}
+
+== length_constraints:number_words: found 454, not found 275
+   [454] 'Answer with {relation} {num_words} words.'
+   NOT FOUND dbdd51b7-2e8d-43bb-b0f1-e134763e595f {"num_words": 232, "relation": "less than"}
+   NOT FOUND 03635476-74ee-41a7-ba4e-880827a325af {"num_words": 217, "relation": "less than"}
+   NOT FOUND c1c77b94-e7c2-4bbb-aac1-150c30623341 {"num_words": 284, "relation": "less than"}
+
+== letters:letter_counting: found 297, not found 200
+   [297] 'Answer with {relation} {N} letters.'
+   NOT FOUND f72afbbf-a088-4a10-b229-288df5ec57d1 {"N": 2, "relation": "at least"}
+   NOT FOUND eeba01df-4b26-466b-9665-ad8fa4d546d1 {"N": 3, "relation": "at least"}
+   NOT FOUND 74d4b6d4-277b-4b8a-8b6b-5a2e7e447652 {"N": 2, "relation": "less than"}
+
+== letters:letter_counting2: found 414, not found 291
+   [414] 'In your response, the letter {letter} should appear {let_relation} {let_frequency} times.'
+   NOT FOUND cf9de9da-f3fe-42ff-96ec-339248019fd0 {"let_frequency": 3, "let_relation": "less than", "letter": "b"}
+   NOT FOUND 0c19c7cc-1a0f-49d0-99b2-e7d99c22d699 {"let_frequency": 4, "let_relation": "at least", "letter": "p"}
+   NOT FOUND 328a6213-8bc1-41d6-a100-e41e66ceb9cb {"let_frequency": 5, "let_relation": "at least", "letter": "l"}
+
+== paragraphs:paragraphs: found 576, not found 0
+   [576] 'There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***'
+
+== paragraphs:paragraphs2: found 445, not found 299
+   [445] 'There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks.'
+   NOT FOUND 92e34298-6224-4ca6-b512-1e37e093bcb5 {}
+   NOT FOUND ba260b18-96ec-427e-8c52-a51b1347fa27 {}
+   NOT FOUND b5e85cc9-8a02-4987-83ca-3840160bf035 {}
+
+== punctuation:no_comma: found 448, not found 282
+   [448] 'In your entire response, refrain from the use of any commas.'
+   NOT FOUND aa9a55a8-d5ec-434f-b338-d18d5be78dc1 null
+   NOT FOUND 328a6213-8bc1-41d6-a100-e41e66ceb9cb null
+   NOT FOUND 0d727f7e-0c38-45e2-8db7-3f768aef684b null
+
+== punctuation:punctuation_dot: found 512, not found 335
+   [512] 'In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.'
+   NOT FOUND 99c8e92a-e40c-477a-b657-2f27c10cba4a null
+   NOT FOUND 3f2326f3-f858-49bb-a809-42367f2aab04 null
+   NOT FOUND 15fdb4d1-1067-4823-b585-bd7642386259 null
+
+== punctuation:punctuation_exclamation: found 379, not found 248
+   [379] 'In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.'
+   NOT FOUND 70dbb021-6e3a-43ac-ac2b-5578672ea271 null
+   NOT FOUND 29aef96c-72eb-4ff9-a5da-845bb119b606 null
+   NOT FOUND 0cf24d55-0c57-4459-9ab8-837b87099fc9 null
+
+== startend:end_checker: found 340, not found 197
+   [340] 'Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.'
+   NOT FOUND d298dae9-9914-4261-846e-dee54d23da80 {"end_phrase": "Any other questions?"}
+   NOT FOUND 12bc1d82-035d-4335-ad9e-df254352ba2a {"end_phrase": "Is there anything else I can help with?"}
+   NOT FOUND f4137918-1f0a-477a-a309-6e1b8fb0e83e {"end_phrase": "Is there anything else I can help with?"}
+
+== startend:quotation: found 252, not found 165
+   [252] 'Wrap your entire response with double quotation marks.'
+   NOT FOUND ed4f73b6-f157-4c00-96be-091ba7136d47 null
+   NOT FOUND 5c6eb071-0b04-41eb-ad8b-6afcc0b02c45 null
+   NOT FOUND 3df26684-cc0a-44d0-9ac6-b35a38048acf null

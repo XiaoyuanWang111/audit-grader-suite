@@ -1,0 +1,126 @@
+Per finding (defect verdicts on the panel; share of all 55,783 constraint verdicts)
+F01        sk:   261 (false pass 144, false fail 117) = 25.7% of the 1015 verdicts of keywords:word_count_different_numbers
+F01        vi:   260 (false pass 144, false fail 116) = 25.6% of the 1015 verdicts of keywords:word_count_different_numbers
+F02        sk:   803 (false pass 0, false fail 803) = 44.4% of the 1808 verdicts of keywords:word_once
+F02        vi:   766 (false pass 0, false fail 766) = 42.4% of the 1808 verdicts of keywords:word_once
+F03/F05    sk:    54 (false pass 51, false fail 3) = 5.1% of the 1059 verdicts of copy:repeat_phrase
+F04        vi:   481 (false pass 453, false fail 28) = 45.4% of the 1059 verdicts of copy:repeat_phrase
+F06        sk:     3 (false pass 3, false fail 0) = 1.2% of the 243 verdicts of detectable_format:constrained_response
+F07        sk:    32 (false pass 31, false fail 1) = 3.5% of the 917 verdicts of detectable_format:multiple_sections
+F09        vi:   426 (false pass 56, false fail 370) = 31.7% of the 1345 verdicts of length_constraints:number_paragraphs
+F10        sk:     1 (false pass 0, false fail 1) = 0.1% of the 1345 verdicts of length_constraints:number_paragraphs
+F11        vi:   565 (false pass 565, false fail 0) = 22.2% of the 2541 verdicts of paragraphs:paragraphs, paragraphs:paragraphs2
+F12        sk:    72 (false pass 0, false fail 72) = 3.4% of the 2137 verdicts of first_word:first_word_answer, length_constraints:nth_paragraph_first_word
+F12/F42    sk:    44 (false pass 2, false fail 42) = 4.3% of the 1024 verdicts of first_word:first_word_sent
+F13        sk:    11 (false pass 3, false fail 8) = 0.8% of the 1341 verdicts of keywords:keyword_specific_position
+F14        sk:    49 (false pass 16, false fail 33) = 4.2% of the 1165 verdicts of keywords:palindrome
+F15/F41    sk:    11 (false pass 4, false fail 7) = 1.1% of the 989 verdicts of keywords:start_end
+F16        vi:    69 (false pass 56, false fail 13) = 7.0% of the 989 verdicts of keywords:start_end
+F17        sk:    58 (false pass 56, false fail 2) = 3.9% of the 1499 verdicts of keywords:no_adjacent_consecutive
+F18        vi:   819 (false pass 787, false fail 32) = 54.6% of the 1499 verdicts of keywords:no_adjacent_consecutive
+F19        sk:    61 (false pass 12, false fail 49) = 5.7% of the 1079 verdicts of detectable_format:square_brackets
+F20        vi:   657 (false pass 655, false fail 2) = 60.9% of the 1079 verdicts of detectable_format:square_brackets
+F21        sk:   171 (false pass 171, false fail 0) = 14.8% of the 1157 verdicts of detectable_format:bigram_wrapping
+F22/F43    sk:    14 (false pass 10, false fail 4) = 1.1% of the 1300 verdicts of detectable_format:sentence_hyphens
+F23        vi:     2 (false pass 2, false fail 0) = 0.2% of the 1300 verdicts of detectable_format:sentence_hyphens
+F24        sk:   106 (false pass 6, false fail 100) = 7.9% of the 1341 verdicts of count:count_unique
+F26        vi:  1317 (false pass 1167, false fail 150) = 76.9% of the 1712 verdicts of count:lowercase_counting
+F27        vi:   166 (false pass 166, false fail 0) = 6.1% of the 2742 verdicts of change_case:english_capital, change_case:english_lowercase
+F29        sk:     9 (false pass 8, false fail 1) = 0.7% of the 1277 verdicts of detectable_content:postscript
+F30        sk:    21 (false pass 3, false fail 18) = 2.1% of the 1019 verdicts of detectable_format:number_bullet_lists
+F33        sk:     2 (false pass 1, false fail 1) = 0.2% of the 1201 verdicts of detectable_content:number_placeholders
+F33        vi:     2 (false pass 0, false fail 2) = 0.1% of the 2390 verdicts of detectable_content:number_placeholders, detectable_format:title
+F34        vi:   204 (false pass 33, false fail 171) = 2.8% of the 7237 verdicts of change_case:capital_word_frequency, first_word:first_word_answer, keywords:palindrome, last_word:last_word_answer, length_constraints:nth_paragraph_first_word, length_constraints:number_words
+F34/F43    vi:    66 (false pass 62, false fail 4) = 1.8% of the 3568 verdicts of first_word:first_word_sent, keywords:keyword_specific_position, last_word:last_word_sent
+F36        sk:     2 (false pass 1, false fail 1) = 0.4% of the 557 verdicts of combination:two_responses
+F36        vi:     2 (false pass 1, false fail 1) = 0.4% of the 557 verdicts of combination:two_responses
+F37        sk:    21 (false pass 16, false fail 5) = 0.2% of the 8972 verdicts of change_case:english_lowercase, count:lowercase_counting, detectable_format:bigram_wrapping, detectable_format:multiple_sections, detectable_format:title, length_constraints:number_words, letters:letter_counting2
+F37        vi:     6 (false pass 1, false fail 5) = 0.1% of the 6103 verdicts of change_case:english_lowercase, detectable_format:multiple_sections, detectable_format:title, length_constraints:number_words, letters:letter_counting2
+F38        sk:    84 (false pass 84, false fail 0) = 0.4% of the 21631 verdicts of change_case:capital_word_frequency, combination:two_responses, detectable_content:number_placeholders, detectable_content:postscript, detectable_format:multiple_sections, detectable_format:number_highlighted_sections, detectable_format:title, keywords:existence, keywords:frequency, keywords:letter_frequency, keywords:palindrome, keywords:start_end, keywords:word_count_different_numbers, language:response_language, length_constraints:number_sentences, length_constraints:number_words, letters:letter_counting, letters:letter_counting2
+F38        vi:   113 (false pass 113, false fail 0) = 0.5% of the 24544 verdicts of change_case:capital_word_frequency, combination:two_responses, copy:repeat_phrase, count:lowercase_counting, detectable_content:number_placeholders, detectable_content:postscript, detectable_format:number_highlighted_sections, detectable_format:square_brackets, detectable_format:title, keywords:existence, keywords:frequency, keywords:letter_frequency, keywords:palindrome, keywords:start_end, keywords:word_count_different_numbers, length_constraints:number_sentences, length_constraints:number_words, letters:letter_counting2, paragraphs:paragraphs, paragraphs:paragraphs2
+F40        sk:   100 (false pass 23, false fail 77) = 3.6% of the 2742 verdicts of change_case:english_capital, change_case:english_lowercase
+F41        sk:    62 (false pass 0, false fail 62) = 4.8% of the 1285 verdicts of last_word:last_word_answer
+F41/F42    sk:    44 (false pass 14, false fail 30) = 3.7% of the 1203 verdicts of last_word:last_word_sent
+F43        sk:    72 (false pass 14, false fail 58) = 6.4% of the 1131 verdicts of length_constraints:number_sentences
+F43        vi:    86 (false pass 17, false fail 69) = 7.6% of the 1131 verdicts of length_constraints:number_sentences
+F44        sk:    12 (false pass 12, false fail 0) = 1.1% of the 1048 verdicts of length_constraints:nth_paragraph_first_word
+F47        sk:    40 (false pass 40, false fail 0) = 2.3% of the 1712 verdicts of count:lowercase_counting
+residual   sk:    33 (false pass 15, false fail 18) = 0.4% of the 8196 verdicts of change_case:capital_word_frequency, detectable_format:number_highlighted_sections, detectable_format:title, keywords:forbidden_words, language:response_language, length_constraints:number_words
+residual   vi:    11 (false pass 8, false fail 3) = 0.2% of the 6807 verdicts of detectable_content:postscript, detectable_format:multiple_sections, detectable_format:number_highlighted_sections, keywords:existence, keywords:forbidden_words
+
+Held-out responses (prompt level)
+Qwen__Qwen2.5-7B-Instruct/sample0: n=779 SkyRL 18.2 replacement 17.7 gate 30.9 replacement-gate 23.2 false rewards (proposed) 44/142
+Qwen__Qwen3-4B-Instruct-2507/greedy: n=176 SkyRL 26.7 replacement 29.5 gate 44.3 replacement-gate 35.2 false rewards (proposed) 3/47
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat: n=207 SkyRL 30.9 replacement 30.9 gate 48.3 replacement-gate 41.1 false rewards (proposed) 7/64
+Qwen__Qwen3-4B-Instruct-2507/sample0: n=2398 SkyRL 28.9 replacement 33.5 gate 47.2 replacement-gate 41.7 false rewards (proposed) 89/693
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0: n=307 SkyRL 53.1 replacement 63.5 gate 60.3 replacement-gate 65.8 false rewards (proposed) 12/163
+allenai__OLMo-2-1124-7B-Instruct/sample0: n=816 SkyRL 18.9 replacement 17.5 gate 31.1 replacement-gate 22.8 false rewards (proposed) 43/154
+
+Extraction outcomes
+Qwen__Qwen2.5-7B-Instruct/sample0 {'n': 4000, 'length': 65, 'skyrl_empty': 3, 'skyrl_empty_reward1': 1, 'skyrl_empty_infra': 0, 'literal_think_tag_nonreasoning': 3}
+Qwen__Qwen3-4B-Instruct-2507/greedy {'n': 1000, 'length': 92, 'skyrl_empty': 1, 'skyrl_empty_reward1': 0, 'skyrl_empty_infra': 0}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat {'n': 1000, 'length': 81, 'skyrl_empty': 2, 'skyrl_empty_reward1': 0, 'skyrl_empty_infra': 0}
+Qwen__Qwen3-4B-Instruct-2507/sample0 {'n': 11817, 'length': 620, 'skyrl_empty': 16, 'skyrl_empty_reward1': 7, 'skyrl_empty_infra': 1, 'literal_think_tag_nonreasoning': 11, 'infra_error': 1}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0 {'n': 1500, 'length': 166, 'extraction_failure': 139, 'extraction_failure_sk_reward1': 1, 'extraction_failure_gate_pass': 18, 'extraction_failure_sk_constraint_passes': 84, 'skyrl_empty': 1, 'skyrl_empty_reward1': 0, 'skyrl_empty_infra': 0}
+allenai__OLMo-2-1124-7B-Instruct/sample0 {'n': 3998, 'length': 39, 'skyrl_empty': 1, 'skyrl_empty_reward1': 1, 'skyrl_empty_infra': 0}
+
+F44 (nth > num) verdicts in panel: {'verdicts': 161, 'sk_pass': 12, 'sk_reward1': 7}
+
+Decision sensitivity (replacement: flip one switch to the other reading)
+D-word-case: 1226 constraint verdicts, 520 prompt verdicts, net prompt score change -2.08 points over all 23315 responses
+D-sentence-hyphens-single: 675 constraint verdicts, 347 prompt verdicts, net prompt score change -1.49 points over all 23315 responses
+D-keyword-substring: 414 constraint verdicts, 199 prompt verdicts, net prompt score change +0.35 points over all 23315 responses
+D-sentence-hyphens-spaces: 401 constraint verdicts, 215 prompt verdicts, net prompt score change -0.92 points over all 23315 responses
+D-sentence-hyphens-dash: 323 constraint verdicts, 191 prompt verdicts, net prompt score change +0.82 points over all 23315 responses
+D-lowercase-counting-scope: 309 constraint verdicts, 160 prompt verdicts, net prompt score change -0.69 points over all 23315 responses
+D-word-hyphen: 243 constraint verdicts, 140 prompt verdicts, net prompt score change +0.32 points over all 23315 responses
+D-palindrome-length: 229 constraint verdicts, 72 prompt verdicts, net prompt score change +0.31 points over all 23315 responses
+D-wcdn-relation: 209 constraint verdicts, 88 prompt verdicts, net prompt score change +0.38 points over all 23315 responses
+D-sentence-linebreak: 179 constraint verdicts, 86 prompt verdicts, net prompt score change +0.22 points over all 23315 responses
+D-divider-line: 179 constraint verdicts, 71 prompt verdicts, net prompt score change +0.18 points over all 23315 responses
+D-square-brackets-grouping: 169 constraint verdicts, 102 prompt verdicts, net prompt score change +0.44 points over all 23315 responses
+D-end-case: 165 constraint verdicts, 82 prompt verdicts, net prompt score change +0.35 points over all 23315 responses
+D-paragraph-empty-piece: 159 constraint verdicts, 55 prompt verdicts, net prompt score change +0.24 points over all 23315 responses
+D-letter-counting-unit: 138 constraint verdicts, 109 prompt verdicts, net prompt score change +0.12 points over all 23315 responses
+D-adjacent-alphabet: 127 constraint verdicts, 69 prompt verdicts, net prompt score change -0.30 points over all 23315 responses
+D-letter-case: 119 constraint verdicts, 60 prompt verdicts, net prompt score change +0.03 points over all 23315 responses
+D-postscript-line-start: 117 constraint verdicts, 28 prompt verdicts, net prompt score change +0.12 points over all 23315 responses
+D-keyword-inflection: 105 constraint verdicts, 39 prompt verdicts, net prompt score change +0.06 points over all 23315 responses
+D-letter-script: 96 constraint verdicts, 65 prompt verdicts, net prompt score change -0.12 points over all 23315 responses
+D-postscript-position: 92 constraint verdicts, 36 prompt verdicts, net prompt score change +0.15 points over all 23315 responses
+D-english-detection: 86 constraint verdicts, 51 prompt verdicts, net prompt score change -0.22 points over all 23315 responses
+D-allcaps-short-words: 85 constraint verdicts, 54 prompt verdicts, net prompt score change +0.20 points over all 23315 responses
+D-constrained-exact: 75 constraint verdicts, 75 prompt verdicts, net prompt score change +0.32 points over all 23315 responses
+D-word-apostrophe: 68 constraint verdicts, 39 prompt verdicts, net prompt score change +0.01 points over all 23315 responses
+D-palindrome-case: 61 constraint verdicts, 27 prompt verdicts, net prompt score change -0.12 points over all 23315 responses
+D-postscript-case: 58 constraint verdicts, 20 prompt verdicts, net prompt score change +0.09 points over all 23315 responses
+D-highlight-bold: 55 constraint verdicts, 17 prompt verdicts, net prompt score change -0.07 points over all 23315 responses
+D-dot-variants: 55 constraint verdicts, 23 prompt verdicts, net prompt score change +0.10 points over all 23315 responses
+D-section-preamble: 54 constraint verdicts, 19 prompt verdicts, net prompt score change -0.08 points over all 23315 responses
+D-consecutive-order: 53 constraint verdicts, 34 prompt verdicts, net prompt score change +0.15 points over all 23315 responses
+D-markup-around-word: 51 constraint verdicts, 28 prompt verdicts, net prompt score change -0.12 points over all 23315 responses
+D-start-end-single: 42 constraint verdicts, 27 prompt verdicts, net prompt score change +0.12 points over all 23315 responses
+D-markup-around-marker: 36 constraint verdicts, 12 prompt verdicts, net prompt score change -0.05 points over all 23315 responses
+D-end-trailing-nonwords: 35 constraint verdicts, 19 prompt verdicts, net prompt score change -0.08 points over all 23315 responses
+D-two-responses-extra-separator: 31 constraint verdicts, 20 prompt verdicts, net prompt score change +0.09 points over all 23315 responses
+D-repeat-verbatim: 30 constraint verdicts, 15 prompt verdicts, net prompt score change +0.06 points over all 23315 responses
+D-comma-variants: 27 constraint verdicts, 11 prompt verdicts, net prompt score change +0.05 points over all 23315 responses
+D-adjacent-scope: 24 constraint verdicts, 13 prompt verdicts, net prompt score change +0.06 points over all 23315 responses
+D-section-marker-case: 22 constraint verdicts, 1 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-sentence-abbreviation: 17 constraint verdicts, 7 prompt verdicts, net prompt score change -0.03 points over all 23315 responses
+D-repeat-center: 15 constraint verdicts, 13 prompt verdicts, net prompt score change -0.06 points over all 23315 responses
+D-title-position: 10 constraint verdicts, 5 prompt verdicts, net prompt score change -0.02 points over all 23315 responses
+D-section-line-start: 10 constraint verdicts, 3 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-exclamation-variants: 9 constraint verdicts, 2 prompt verdicts, net prompt score change +0.01 points over all 23315 responses
+D-placeholder-content: 7 constraint verdicts, 4 prompt verdicts, net prompt score change -0.02 points over all 23315 responses
+D-paragraph-separator-count: 7 constraint verdicts, 2 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-two-responses-different: 6 constraint verdicts, 5 prompt verdicts, net prompt score change +0.02 points over all 23315 responses
+D-bullet-markers: 6 constraint verdicts, 3 prompt verdicts, net prompt score change +0.01 points over all 23315 responses
+D-blank-line-whitespace: 6 constraint verdicts, 1 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-bullet-nesting: 4 constraint verdicts, 2 prompt verdicts, net prompt score change +0.01 points over all 23315 responses
+D-typographic-quotes: 4 constraint verdicts, 1 prompt verdicts, net prompt score change -0.00 points over all 23315 responses
+D-bigram-odd: 1 constraint verdicts, 1 prompt verdicts, net prompt score change -0.00 points over all 23315 responses
+D-section-numbering: 1 constraint verdicts, 0 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-empty-response: 1 constraint verdicts, 0 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-json-scalar: 0 constraint verdicts, 0 prompt verdicts, net prompt score change +0.00 points over all 23315 responses
+D-surrounding-whitespace: 0 constraint verdicts, 0 prompt verdicts, net prompt score change +0.00 points over all 23315 responses

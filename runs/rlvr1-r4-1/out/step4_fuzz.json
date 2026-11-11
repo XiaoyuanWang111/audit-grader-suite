@@ -1,0 +1,13 @@
+{
+ "n_texts": 3000,
+ "seed": 20261111,
+ "checks_per_text": 47,
+ "nvidia_exceptions": {
+  "last_word:last_word_answer IndexError": 180
+ },
+ "nvidia_non_bool_returns": {},
+ "verifyit_exceptions": {},
+ "examples": {
+  "nvidia ('last_word:last_word_answer', 'IndexError')": "'\\n'"
+ }
+}

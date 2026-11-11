@@ -1,0 +1,225 @@
+rows with list parsed 5982
+==================== change_case:capital_word_frequency
+  [305] 'In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.'
+  [1] 'Расписать, что для понимания интересов аудитории был проведен опрос на сайте Яндекс.взгляд из 12 вопросов, опрос прошли 56 человек.'
+  [1] 'Happy/pleased'
+  [1] 'From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant.'
+  [1] 'defeated Nyne via knockout (Powerbomb)'
+  [1] 'Damage/Damage per Round: The amount of hitpoints removed by the attack'
+==================== change_case:english_capital
+  [372] 'Your entire response should be in English, and in all capital letters.'
+==================== change_case:english_lowercase
+  [320] 'Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.'
+  [1] 'Brave, Heroic, Determined'
+  [1] 'Damage/Damage per Round: The amount of hitpoints removed by the attack'
+  [1] 'Describe the historical and political context of the Rohingya crisis in Myanmar.'
+==================== combination:two_responses
+  [135] 'Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.'
+  [1] 'их структура и реквизитный состав;'
+  [1] 'Улучшение контроля кураторской работы;'
+  [1] 'Who wants to be Prepared, equipped, marketed as a competitive Arena/Lab for clubs and to obtain the right of commercial franchising.'
+==================== copy:repeat_phrase
+  [241] 'Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.'
+  [1] 'talk to'
+==================== count:count_unique
+  [326] 'Only use unique words in your response, no word should be repeated!'
+  [1] 'Search functionality to search for all the cases available with ability to download their zips.'
+==================== count:lowercase_counting
+  [422] 'In your response, all lowercase words should appear at most {N} times.'
+  [1] "la lutte pour la liberté des peuples à s'autodéterminer"
+  [1] 'The effect of pipe diameter on head loss is significant. As the head loss is the loss of pressure in a fluid system due to friction and turbulence as the fluid flows through the pipe, a larger pipe diameter will result in a lower head loss for a given flow rate. leading to the decision to use a {N}.5 m diameter.'
+==================== detectable_content:number_placeholders
+  [304] 'The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].'
+  [1] 'Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?'
+==================== detectable_content:postscript
+  [307] 'At the end of your response, please explicitly add a postscript starting with {postscript_marker}'
+  [1] 'Portal for police to upload zip of evidence and case documents.'
+  [1] 'Принципы обработки персональных данных:\nЗакон устанавливает следующие принципы обработки персональных данных: законность и справедливость, ограничение целей обработки, соответствие целей обработки, минимальное количество обрабатываемых данных, точность, актуальность, доступность и стирание данных в случае достижения целей обработки.'
+==================== detectable_format:bigram_wrapping
+  [315] 'Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.'
+  [1] 'Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?'
+  [1] 'Минус пиши в знаменателе.)'
+  [1] 'defeated Nyne via knockout (Powerbomb)'
+  [1] 'defeated Manny via tap out (Bearhug)'
+==================== detectable_format:constrained_response
+  [61] "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+==================== detectable_format:json_format
+  [57] 'Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.'
+  [1] 'International Women’s Day (March 8th) (2 posts each for Instagram, Facebook, and Pinterest)'
+  [1] 'les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation'
+==================== detectable_format:multiple_sections
+  [120] 'Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} 1\n[content of section 1]\n{section_spliter} 2\n[content of section 2]'
+  [46] 'Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} {num_sections}\n[content of section {num_sections}]\n{section_spliter} 2\n[content of section 2]'
+  [38] 'Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} 1\n[content of section 1]\n{section_spliter} {num_sections}\n[content of section {num_sections}]'
+  [1] 'Connect your Rank Math Account'
+==================== detectable_format:number_bullet_lists
+  [143] 'Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2'
+  [62] 'Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point {num_bullets}'
+  [56] 'Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point {num_bullets}. \n* This is point 2'
+  [1] 'Recherchieren Sie, wie das Konzept der Salutogenese in den medizinischen Ratgebern\nübernommen wird.'
+==================== detectable_format:number_highlighted_sections
+  [303] 'Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.'
+  [1] 'Zorbus'
+  [1] 'в программе выполнять проверку деления на ноль;'
+==================== detectable_format:sentence_hyphens
+  [366] 'All sentences must be connected using hyphens, with no spaces between them.'
+  [1] 'их структура и реквизитный состав;'
+  [1] 'The appearance of the race.'
+  [1] 'Laser sensor to take data of the weight of heavy trucks.'
+  [1] 'materials: wood, iron, bronze, alumnimum, anti-matter, Brick, Bronze, Carbon Fiber, Cardboard, Cellulose, Ceramic, Cotton, Fabric, Fiber Optic, Foil, Gasoline, Glass, Gold, Gummies, Latex, Leather, Magma, Metallic, Nickel, Nylon, Paper, Plastic, Quartz, Sharink Wrap, Skin, Slime, Wooden, Yarn, Zinc, Copper, Plasma, Liquid Ice'
+==================== detectable_format:square_brackets
+  [273] 'Enclose every word in your response within square brackets.'
+==================== detectable_format:title
+  [285] 'Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.'
+  [1] 'Изучение основных нормативных актов, регулирующих информационную безопасность в таможенных органах, их преимуществ и недостатков.'
+  [1] 'Основания и условия обработки персональных данных:\nОбработка персональных данных может осуществляться с согласия субъекта или без его согласия в случаях, предусмотренных законом (например, при заключении или исполнении контракта, выполнении мер по обеспечению безопасности государства и т.д.). Субъект имеет право на доступ, изменение, блокирование или удаление своих персональных данных.'
+  [1] 'diagnosis: Open wound of left foot/kicking a stone'
+==================== first_word:first_word_answer
+  [271] 'The first word of your response should be the word {first_word}.'
+  [1] 'The first word of {first_word}r response should be the word {first_word}.'
+  [1] 'Login for police and court with firebase backend.'
+  [1] 'Relaxed/calm'
+  [1] 'Set up site settings'
+  [1] 'The first word of your {first_word} should be the word {first_word}.'
+  [1] 'Erstellen Sie eine persönliche Liste an Stressoren in ihrem Leben. Ordnen Sie diese danach, ob\nderen Bewältigung sie belastbarer macht oder ob diese sie eher krank machen.\nNachhaltigkeit und Gesundheit:'
+  [1] 'массив элементов данных – размерность DD;'
+==================== first_word:first_word_sent
+  [273] 'The first word of each sentence should be the word {first_word}.'
+  [1] 'The first {first_word} of each sentence should be the {first_word} {first_word}.'
+  [1] 'High energy efficiency with BEE 5 Star rating, resulting in lower electricity bills.'
+  [1] 'Straight Punch (80% Success Chance, 10 Damage)'
+  [1] 'write to'
+==================== keywords:existence
+  [484] 'Include keywords {keywords} in the response.'
+  [1] "la lutte contre l'autorité de l'hyperpuissance"
+  [1] 'Set up site settings'
+  [1] 'Neutral Good\nPersonality:'
+  [1] 'The name of God (an English word, but do not use real names of gods).'
+  [1] 'частота их формирования;'
+  [1] 'tu utiliseras la décomposition swing twist lors du forward et du backward pour garantir à la fois la convergence en position, mais aussi en orientation.'
+==================== keywords:forbidden_words
+  [417] 'Do not include keywords {forbidden_words} in the response.'
+  [1] 'Spring self-care tips (1 post each for Instagram and Pinterest, 2 posts for Facebook)'
+  [1] 'tu détailleras particulièrement les calculs dans la partie forward reaching et backward reaching. Tu pourras afficher des formules pour expliquer.'
+==================== keywords:frequency
+  [306] 'In your response, the word {keyword} should appear {relation} {frequency} times.'
+  [2] 'In your response, the {keyword} {keyword} should appear {relation} {frequency} times.'
+  [1] 'Большинство опрашиваемых являлись представителями женского пола в возрасте от 18 до 25 лет. 56% процентов респондентов смотрят выпуски юмористических телевизионных программ в интернете. Для которых основным фактором выборе юмористической программы являлось уровень и качество юмора, а также интеллектуальность программы. 80% всех опрашиваемых были уверены, что юмористические телевизионные передачи способны влиять на формирование массовой культуры. Так же респонденты ответили на вопросы: «Как именно юмористические передачи влияют на общество» и «Какие ценности в них пропагандируются».'
+  [1] 'The name of the race.'
+  [1] 'In your {keyword}, the word {keyword} should appear {relation} {frequency} times.'
+  [1] 'Определение персональных данных и субъектов/операторов персональных данных:\nЗакон определяет персональные данные как “любую информацию, относящуюся к прямо или косвенно определенному или определяемому физическому лицу (субъекту персональных данных)”. Оператором персональных данных считается организация или частное лицо, осуществляющие обработку таких данных.'
+  [1] "Socialist revolutions in Britain and France and proclamation of People's Republics."
+==================== keywords:keyword_specific_position
+  [347] 'Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.'
+  [10] 'Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.'
+  [1] 'Long-lasting performance with Blue Diamond® glass-lined tank and glass-coated incoloy heating element.'
+  [1] 'Great Britain.'
+==================== keywords:letter_frequency
+  [131] 'In your response, the letter {letter} should appear {let_relation} {let_frequency} times.'
+  [24] 'In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.'
+  [24] 'In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.'
+  [22] 'In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.'
+  [20] 'In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.'
+  [20] 'In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.'
+  [19] 'In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_freq{letter}ency} times.'
+  [18] 'In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.'
+==================== keywords:no_adjacent_consecutive
+  [403] 'No two adjacent words can start with consecutive letters of the alphabet.'
+  [1] 'defeated Nyne via knockout (Powerbomb)'
+  [1] 'частота их формирования;'
+  [1] 'If you start a GPT Agent you must define the commands that can be used by a GPT Agent in his prompt and define the commands using a prompt similar to the structure of this one.'
+  [1] 'Λειτουργικός έλεγχος που περιλαμβάνει, συνολικό βάρος, ονομαστικά φορτία, μέτρηση γόμωσης και διακυμάνσεις πλήρωσης, έλεγχος εκκένωσης, θέση λειτουργίας, διάρκεια λειτουργίας και εναπομένον φορτίο.'
+  [1] '31 years old male'
+==================== keywords:palindrome
+  [326] 'Include a palindrome in your response.'
+  [1] 'forces on the gate changes based on the height which extends to the width and the height as shown in the parametric study\n - clearly pumping power is affected by friction factors as illustrated by figures 7 - 10. Similarly, the output is also affected by friction factors. Pipe roughness can have a significant effect on pumping power, as it affects the frictional losses within the pipe.'
+  [1] 'Future plan (for next year and after MSc graduation);'
+==================== keywords:start_end
+  [229] 'Start and end your response with the same word (do not write anything after the last word, not even punctuation).'
+  [1] 'Анализ последних изменений в нормативных актах и определение их влияния на информационную безопасность таможенных органов.'
+  [1] 'Body Blow (90% Success Chance, 5 Damage)'
+==================== keywords:word_count_different_numbers
+  [289] 'In your response, the word {keyword} should appear {frequency} times.'
+  [1] 'If you start a GPT Agent you must define the commands that can be used by a GPT Agent in his prompt and define the commands using a prompt similar to the structure of this one.'
+  [1] 'In {keyword}r response, the word {keyword} should appear {frequency} times.'
+  [1] 'Provide clear and concise definitions, and explain why these concepts are important for understanding the crisis.'
+==================== keywords:word_once
+  [510] 'Include keyword {keyword} in your response.'
+  [1] 'Approaching Infinity'
+==================== language:response_language
+  [26] 'Your ENTIRE response should be in Tamil language, no other language is allowed.'
+  [23] 'Your ENTIRE response should be in Punjabi language, no other language is allowed.'
+  [22] 'Your ENTIRE response should be in Bulgarian language, no other language is allowed.'
+  [21] 'Your ENTIRE response should be in Malayalam language, no other language is allowed.'
+  [20] 'Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.'
+  [20] 'Your ENTIRE response should be in Arabic language, no other language is allowed.'
+  [19] 'Your ENTIRE response should be in Kannada language, no other language is allowed.'
+  [19] 'Your ENTIRE response should be in Vietnamese language, no other language is allowed.'
+==================== last_word:last_word_answer
+  [320] 'The last word of your response should be the word {last_word}.'
+  [1] 'Add a student (write the id “from 0 to 100”, name, GPA, and department)'
+  [1] 'The l{last_word}st word of your response should be the word {last_word}.'
+==================== last_word:last_word_sent
+  [297] 'The last word of each sentence, before punctuation, should be the word {last_word}.'
+==================== length_constraints:nth_paragraph_first_word
+  [144] "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+  [91] "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+  [2] "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by {first_word} new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+  [1] "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+  [1] "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with {first_word} {first_word}."
+==================== length_constraints:number_paragraphs
+  [335] 'There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***'
+  [1] 'la victoire au courage du peuple'
+  [1] 'A self-introduction;'
+==================== length_constraints:number_sentences
+  [275] 'Your response should contain {relation} {num_sentences} sentences.'
+  [1] 'Leak Watch™ technology for continuous monitoring and leak detection.'
+  [1] 'Breakdown of order in Germany, emergence of local governments, direct control of remnants of Autobahnpolizei over most of Western German urban territory and highways.'
+==================== length_constraints:number_words
+  [385] 'Answer with {relation} {num_words} words.'
+  [1] 'NetHack'
+  [1] 'Respond only inside the JSON format'
+  [1] 'Indication : Woumd clean and suture'
+==================== letters:letter_counting
+  [244] 'Answer with {relation} {N} letters.'
+  [1] 'Connect your site to Google'
+  [1] 'The Metric Square can not meet the actual usage requirement and needs to be optimized'
+  [1] 'Budowa adresu IP v6'
+  [1] 'Traffic camera that has range of 450 meters to increase effectiveness of traffic lights(around 25%)\nTheir products are used by police and can be used to effectively difference peoples that violated the law'
+  [1] 'Максимально возможный объём продаж с учётом резерва мощности: 6{N}00000 * (1 + 2,5%) = 6457500'
+  [1] 'если получается целое число, в знаменателе пиши 1.'
+==================== letters:letter_counting2
+  [81] 'In your response, the letter {letter} should appear {let_relation} {let_frequency} times.'
+  [26] 'In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.'
+  [23] 'In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.'
+  [19] 'In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.'
+  [17] 'In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.'
+  [16] 'In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.'
+  [15] 'In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.'
+  [14] 'In your response, the letter {letter} should appear {let_relation} {let_{letter}requency} times.'
+==================== paragraphs:paragraphs
+  [302] 'There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***'
+  [1] 'Connect your Rank Math Account'
+  [1] 'Escape Chance: The likelihood of escaping from the submissin hold'
+==================== paragraphs:paragraphs2
+  [374] 'There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. '
+  [1] 'Remove a student using id'
+==================== punctuation:no_comma
+  [346] 'In your entire response, refrain from the use of any commas.'
+  [1] 'defeated Manny via tap out (Bearhug)'
+  [1] 'Willing to Adopt and support culture of Future E-sports under their Flag.\nby supporting partnerships with the platform through Players Sponsorship Making deals and Including Gamers to their Club Tag.\n-Franchise electronic competition.'
+  [1] 'Can see the grand scheme of everything and will not prioritize human life for something like ethics and can make decisions by themselves, and will not be hindered by rules, ethics, morals or political ideologies.'
+==================== punctuation:punctuation_dot
+  [416] 'In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.'
+  [1] 'Success Chance: The likelihood of the attack landing.'
+==================== punctuation:punctuation_exclamation
+  [304] 'In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.'
+  [1] 'Cel wprowadzenia IP v6'
+  [1] 'Damage/Damage per Round: The amount of hitpoints removed by the attack'
+  [1] 'Success Chance: The likelihood of the attack landing.'
+==================== startend:end_checker
+  [290] 'Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.'
+  [1] 'Description of God.'
+  [1] 'Οπτικός και διαστασιολογικός έλεγχος του ανοίγματος πλήρωσης και των βασικών διαστάσεων των εξαρτημάτων, όπως προβλέπονται από τα σχετικά πρότυπα.'
+==================== startend:quotation
+  [205] 'Wrap your entire response with double quotation marks.'

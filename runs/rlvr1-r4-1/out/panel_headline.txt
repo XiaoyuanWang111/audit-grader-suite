@@ -1,0 +1,24 @@
+== all: constraint verdicts 55783, gated 50724
+  SkyRL vs contract (proposed): 5572/55783 = 10.0%
+  SkyRL vs fixes only: 3492/55783 = 6.3%
+  gate check vs contract (proposed): 8236/50724 = 16.2%
+  gate check vs fixes only: 7466/50724 = 14.7%
+  Qwen3-4B-Instruct-2507/greedy: SkyRL reward 1.0 = 293; contradicted (fixes only) 13/293 = 4.4%; (proposed) 29/293 = 9.9%; gate passes 499, false gate passes (fixes only) 124/499 = 24.8%; false gate failures (fixes only) 56
+  Qwen3-4B-Instruct-2507/greedy_repeat: SkyRL reward 1.0 = 295; contradicted (fixes only) 14/295 = 4.7%; (proposed) 29/295 = 9.8%; gate passes 500, false gate passes (fixes only) 123/500 = 24.6%; false gate failures (fixes only) 60
+  Qwen3-4B-Instruct-2507/sample0: SkyRL reward 1.0 = 3490; contradicted (fixes only) 215/3490 = 6.2%; (proposed) 491/3490 = 14.1%; gate passes 5643, false gate passes (fixes only) 1493/5643 = 26.5%; false gate failures (fixes only) 968
+  Qwen2.5-7B-Instruct/sample0: SkyRL reward 1.0 = 801; contradicted (fixes only) 81/801 = 10.1%; (proposed) 243/801 = 30.3%; gate passes 1319, false gate passes (fixes only) 423/1319 = 32.1%; false gate failures (fixes only) 174
+  OLMo-2-1124-7B-Instruct/sample0: SkyRL reward 1.0 = 763; contradicted (fixes only) 44/763 = 5.8%; (proposed) 195/763 = 25.6%; gate passes 1280, false gate passes (fixes only) 461/1280 = 36.0%; false gate failures (fixes only) 184
+  Qwen3-4B-Thinking-2507/sample0: SkyRL reward 1.0 = 830; contradicted (fixes only) 29/830 = 3.5%; (proposed) 56/830 = 6.7%; gate passes 951, false gate passes (fixes only) 87/951 = 9.1%; false gate failures (fixes only) 176
+  TOTAL: SkyRL reward 1.0 = 6472; false rewards (fixes only) 396/6472 = 6.1%; (proposed) 1043/6472 = 16.1%; gate passes 10192; false gate passes (fixes only) 2711/10192 = 26.6%; false gate failures (fixes only) 1618 of 13123 gate failures
+== heldout: constraint verdicts 27950, gated 25449
+  SkyRL vs contract (proposed): 2835/27950 = 10.1%
+  SkyRL vs fixes only: 1752/27950 = 6.3%
+  gate check vs contract (proposed): 4184/25449 = 16.4%
+  gate check vs fixes only: 3801/25449 = 14.9%
+  Qwen3-4B-Instruct-2507/greedy: SkyRL reward 1.0 = 136; contradicted (fixes only) 3/136 = 2.2%; (proposed) 11/136 = 8.1%; gate passes 247, false gate passes (fixes only) 63/247 = 25.5%; false gate failures (fixes only) 28
+  Qwen3-4B-Instruct-2507/greedy_repeat: SkyRL reward 1.0 = 135; contradicted (fixes only) 3/135 = 2.2%; (proposed) 11/135 = 8.1%; gate passes 244, false gate passes (fixes only) 63/244 = 25.8%; false gate failures (fixes only) 32
+  Qwen3-4B-Instruct-2507/sample0: SkyRL reward 1.0 = 1707; contradicted (fixes only) 102/1707 = 6.0%; (proposed) 215/1707 = 12.6%; gate passes 2874, false gate passes (fixes only) 779/2874 = 27.1%; false gate failures (fixes only) 487
+  Qwen2.5-7B-Instruct/sample0: SkyRL reward 1.0 = 410; contradicted (fixes only) 35/410 = 8.5%; (proposed) 126/410 = 30.7%; gate passes 660, false gate passes (fixes only) 210/660 = 31.8%; false gate failures (fixes only) 94
+  OLMo-2-1124-7B-Instruct/sample0: SkyRL reward 1.0 = 388; contradicted (fixes only) 22/388 = 5.7%; (proposed) 96/388 = 24.7%; gate passes 656, false gate passes (fixes only) 234/656 = 35.7%; false gate failures (fixes only) 89
+  Qwen3-4B-Thinking-2507/sample0: SkyRL reward 1.0 = 408; contradicted (fixes only) 10/408 = 2.5%; (proposed) 30/408 = 7.4%; gate passes 470, false gate passes (fixes only) 44/470 = 9.4%; false gate failures (fixes only) 90
+  TOTAL: SkyRL reward 1.0 = 3184; false rewards (fixes only) 175/3184 = 5.5%; (proposed) 489/3184 = 15.4%; gate passes 5151; false gate passes (fixes only) 1393/5151 = 27.0%; false gate failures (fixes only) 820 of 6553 gate failures

@@ -1,0 +1,2968 @@
+{
+ "metamorphic": {
+  "change_case:capital_word_frequency | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "change_case:capital_word_frequency | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "change_case:capital_word_frequency | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "change_case:capital_word_frequency | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "change_case:capital_word_frequency | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "change_case:capital_word_frequency | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "change_case:english_capital | numbered_label": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | bullet_dash": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_capital | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "change_case:english_lowercase | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "change_case:english_lowercase | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "combination:two_responses | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "copy:repeat_phrase | numbered_label": {
+   "n": 1,
+   "n_ignored": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | html_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "copy:repeat_phrase | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "count:count_unique | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | html_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:counting_composition | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "count:lowercase_counting | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "count:lowercase_counting | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "count:lowercase_counting | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "count:lowercase_counting | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "nvidia_flipped": 1
+  },
+  "count:lowercase_counting | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "count:lowercase_counting | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "count:lowercase_counting | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:number_placeholders | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:number_placeholders | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_content:postscript | numbered_label": {
+   "n": 3,
+   "edit_not_ignored": 3
+  },
+  "detectable_content:postscript | bullet_dash": {
+   "n": 3,
+   "edit_not_ignored": 3
+  },
+  "detectable_content:postscript | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | blank_line_between_lines": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_content:postscript | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_format:bigram_wrapping | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_format:constrained_response | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_format:json_format | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_format:multiple_sections | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1,
+   "verifyit_flipped": 1
+  },
+  "detectable_format:multiple_sections | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_format:multiple_sections | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1,
+   "verifyit_flipped": 1
+  },
+  "detectable_format:multiple_sections | html_first_word": {
+   "n": 2,
+   "edit_not_ignored": 2
+  },
+  "detectable_format:multiple_sections | typo_quotes_first_word": {
+   "n": 2,
+   "edit_not_ignored": 2
+  },
+  "detectable_format:multiple_sections | punct_after_first_word": {
+   "n": 2,
+   "edit_not_ignored": 2
+  },
+  "detectable_format:multiple_sections | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "detectable_format:number_bullet_lists | bold_first_word": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 3,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | bold_last_word": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 4,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | italic_first_word": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 3,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | html_first_word": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 4,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | typo_quotes_first_word": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 4,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | punct_after_first_word": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 4,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | blank_line_between_lines": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 4,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_bullet_lists | trailing_newline": {
+   "n": 6,
+   "n_ignored": 6,
+   "nvidia_fails_edited_pass": 4,
+   "verifyit_fails_edited_pass": 2
+  },
+  "detectable_format:number_highlighted_sections | numbered_label": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:number_highlighted_sections | html_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:number_highlighted_sections | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:number_highlighted_sections | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:number_highlighted_sections | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:sentence_hyphens | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:sentence_hyphens | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:sentence_hyphens | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:sentence_hyphens | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:sentence_hyphens | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:sentence_hyphens | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:square_brackets | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "detectable_format:title | numbered_label": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | html_first_word": {
+   "n": 2,
+   "edit_not_ignored": 1,
+   "n_ignored": 1
+  },
+  "detectable_format:title | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "detectable_format:title | blank_line_between_lines": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "detectable_format:title | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "first_word:first_word_answer | numbered_label": {
+   "n": 4,
+   "edit_not_ignored": 4
+  },
+  "first_word:first_word_answer | bullet_dash": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 4,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 4,
+   "verifyit_flipped": 3
+  },
+  "first_word:first_word_answer | bold_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 4,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "first_word:first_word_answer | bold_last_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "first_word:first_word_answer | italic_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 4,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "first_word:first_word_answer | html_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 4,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 4,
+   "verifyit_flipped": 3
+  },
+  "first_word:first_word_answer | typo_quotes_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 4,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "first_word:first_word_answer | punct_after_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 4,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "first_word:first_word_answer | trailing_newline": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 3,
+   "verifyit_fails_edited_pass": 1
+  },
+  "first_word:first_word_sent | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 2,
+   "nvidia_flipped": 1
+  },
+  "first_word:first_word_sent | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "first_word:first_word_sent | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 2,
+   "nvidia_flipped": 1
+  },
+  "first_word:first_word_sent | html_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 2,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 2,
+   "verifyit_flipped": 2
+  },
+  "first_word:first_word_sent | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 2,
+   "nvidia_flipped": 1
+  },
+  "first_word:first_word_sent | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 2,
+   "nvidia_flipped": 1
+  },
+  "first_word:first_word_sent | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:existence | numbered_label": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | html_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:existence | typo_apostrophe": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:forbidden_words | numbered_label": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | html_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:forbidden_words | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "keywords:frequency | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:frequency | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:keyword_specific_position | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "keywords:keyword_specific_position | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "keywords:keyword_specific_position | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "keywords:keyword_specific_position | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1,
+   "verifyit_flipped": 1
+  },
+  "keywords:keyword_specific_position | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "keywords:keyword_specific_position | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "keywords:keyword_specific_position | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "keywords:letter_frequency | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:letter_frequency | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:no_adjacent_consecutive | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:no_adjacent_consecutive | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:no_adjacent_consecutive | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:no_adjacent_consecutive | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:no_adjacent_consecutive | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:no_adjacent_consecutive | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:no_adjacent_consecutive | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 1,
+   "nvidia_fails_edited_pass": 1
+  },
+  "keywords:palindrome | bold_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:palindrome | bold_last_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:palindrome | italic_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:palindrome | html_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:palindrome | typo_quotes_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:palindrome | punct_after_first_word": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:palindrome | trailing_newline": {
+   "n": 4,
+   "n_ignored": 4,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:start_end | numbered_label": {
+   "n": 1,
+   "edit_not_ignored": 1
+  },
+  "keywords:start_end | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1,
+   "verifyit_flipped": 1
+  },
+  "keywords:start_end | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1
+  },
+  "keywords:start_end | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1
+  },
+  "keywords:start_end | html_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 1,
+   "verifyit_flipped": 1
+  },
+  "keywords:start_end | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1,
+   "nvidia_fails_edited_pass": 1,
+   "nvidia_flipped": 1
+  },
+  "keywords:start_end | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:start_end | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "keywords:word_count_different_numbers | numbered_label": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | html_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_count_different_numbers | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | numbered_label": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | html_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "keywords:word_once | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "language:response_language | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | typo_apostrophe": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "language:response_language | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_answer | numbered_label": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | html_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_answer | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2
+  },
+  "last_word:last_word_sent | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_sent | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_sent | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_sent | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_sent | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_sent | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "last_word:last_word_sent | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "length_constraints:nth_paragraph_first_word | numbered_label": {
+   "n": 3,
+   "edit_not_ignored": 3
+  },
+  "length_constraints:nth_paragraph_first_word | bullet_dash": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 3,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 3,
+   "verifyit_flipped": 3
+  },
+  "length_constraints:nth_paragraph_first_word | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 3,
+   "nvidia_flipped": 1
+  },
+  "length_constraints:nth_paragraph_first_word | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "length_constraints:nth_paragraph_first_word | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 3,
+   "nvidia_flipped": 1
+  },
+  "length_constraints:nth_paragraph_first_word | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 3,
+   "nvidia_flipped": 1,
+   "verifyit_fails_edited_pass": 3,
+   "verifyit_flipped": 3
+  },
+  "length_constraints:nth_paragraph_first_word | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 3,
+   "nvidia_flipped": 1
+  },
+  "length_constraints:nth_paragraph_first_word | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 3,
+   "nvidia_flipped": 1
+  },
+  "length_constraints:nth_paragraph_first_word | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2
+  },
+  "length_constraints:number_paragraphs | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_paragraphs | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_paragraphs | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_paragraphs | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_paragraphs | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_paragraphs | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_paragraphs | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "verifyit_fails_edited_pass": 3,
+   "nvidia_fails_edited_pass": 1
+  },
+  "length_constraints:number_sentences | bold_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_sentences | bold_last_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_sentences | italic_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_sentences | html_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_sentences | typo_quotes_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_sentences | punct_after_first_word": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_sentences | trailing_newline": {
+   "n": 3,
+   "n_ignored": 3,
+   "nvidia_fails_edited_pass": 2,
+   "verifyit_fails_edited_pass": 2
+  },
+  "length_constraints:number_words | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "length_constraints:number_words | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "length_constraints:number_words | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "length_constraints:number_words | html_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "length_constraints:number_words | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "length_constraints:number_words | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "length_constraints:number_words | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "verifyit_fails_edited_pass": 1
+  },
+  "letters:letter_counting | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "letters:letter_counting2 | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "paragraphs:paragraphs2 | numbered_label": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | bold_last_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | html_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "paragraphs:paragraphs2 | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  },
+  "punctuation:no_comma | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:no_comma | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_dot | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | numbered_label": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | bullet_dash": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | bold_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | bold_last_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | italic_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | html_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | typo_quotes_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | punct_after_first_word": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "punctuation:punctuation_exclamation | trailing_newline": {
+   "n": 1,
+   "n_ignored": 1
+  },
+  "startend:end_checker | numbered_label": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | bullet_dash": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | bold_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | bold_last_word": {
+   "n": 2,
+   "edit_not_ignored": 2
+  },
+  "startend:end_checker | italic_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | html_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | typo_quotes_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | punct_after_first_word": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:end_checker | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1,
+   "verifyit_fails_edited_pass": 1
+  },
+  "startend:quotation | trailing_newline": {
+   "n": 2,
+   "n_ignored": 2,
+   "nvidia_fails_edited_pass": 1
+  }
+ },
+ "metamorphic_examples": {
+  "nvidia | copy:repeat_phrase | bold_first_word": {
+   "fixture": "copy:repeat_phrase:0a154eb43938",
+   "edited": "**Live** each moment to the fullest. Live each hour to the fullest."
+  },
+  "nvidia | copy:repeat_phrase | bold_last_word": {
+   "fixture": "copy:repeat_phrase:0a154eb43938",
+   "edited": "Live each moment to the fullest. Live each hour to the **fullest**."
+  },
+  "nvidia | copy:repeat_phrase | italic_first_word": {
+   "fixture": "copy:repeat_phrase:0a154eb43938",
+   "edited": "*Live* each moment to the fullest. Live each hour to the fullest."
+  },
+  "nvidia | copy:repeat_phrase | html_first_word": {
+   "fixture": "copy:repeat_phrase:0a154eb43938",
+   "edited": "<b>Live</b> each moment to the fullest. Live each hour to the fullest."
+  },
+  "nvidia | copy:repeat_phrase | typo_quotes_first_word": {
+   "fixture": "copy:repeat_phrase:0a154eb43938",
+   "edited": "“Live” each moment to the fullest. Live each hour to the fullest."
+  },
+  "nvidia | copy:repeat_phrase | punct_after_first_word": {
+   "fixture": "copy:repeat_phrase:0a154eb43938",
+   "edited": "Live; each moment to the fullest. Live each hour to the fullest."
+  },
+  "nvidia | count:lowercase_counting | html_first_word": {
+   "fixture": "count:lowercase_counting:4460908460fa",
+   "edited": "<b>The</b> the the"
+  },
+  "nvidia | detectable_format:multiple_sections | bold_first_word": {
+   "fixture": "detectable_format:multiple_sections:d714a01102ee",
+   "edited": "**SECTION** 1\nIntro text.\nSECTION 2\nMore text."
+  },
+  "verifyit | detectable_format:multiple_sections | bold_first_word": {
+   "fixture": "detectable_format:multiple_sections:d714a01102ee",
+   "edited": "**SECTION** 1\nIntro text.\nSECTION 2\nMore text."
+  },
+  "nvidia | detectable_format:multiple_sections | italic_first_word": {
+   "fixture": "detectable_format:multiple_sections:d714a01102ee",
+   "edited": "*SECTION* 1\nIntro text.\nSECTION 2\nMore text."
+  },
+  "verifyit | detectable_format:multiple_sections | italic_first_word": {
+   "fixture": "detectable_format:multiple_sections:d714a01102ee",
+   "edited": "*SECTION* 1\nIntro text.\nSECTION 2\nMore text."
+  },
+  "nvidia | first_word:first_word_answer | bullet_dash": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "- Development matters."
+  },
+  "verifyit | first_word:first_word_answer | bullet_dash": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "- Development matters."
+  },
+  "nvidia | first_word:first_word_answer | bold_first_word": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "**Development** matters."
+  },
+  "nvidia | first_word:first_word_answer | italic_first_word": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "*Development* matters."
+  },
+  "nvidia | first_word:first_word_answer | html_first_word": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "<b>Development</b> matters."
+  },
+  "verifyit | first_word:first_word_answer | html_first_word": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "<b>Development</b> matters."
+  },
+  "nvidia | first_word:first_word_answer | typo_quotes_first_word": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "“Development” matters."
+  },
+  "nvidia | first_word:first_word_answer | punct_after_first_word": {
+   "fixture": "first_word:first_word_answer:56d838a32129",
+   "edited": "Development; matters."
+  },
+  "nvidia | first_word:first_word_sent | bold_first_word": {
+   "fixture": "first_word:first_word_sent:0d06011898c7",
+   "edited": "**Tea** is warm. Tea is calm."
+  },
+  "nvidia | first_word:first_word_sent | italic_first_word": {
+   "fixture": "first_word:first_word_sent:0d06011898c7",
+   "edited": "*Tea* is warm. Tea is calm."
+  },
+  "nvidia | first_word:first_word_sent | html_first_word": {
+   "fixture": "first_word:first_word_sent:0d06011898c7",
+   "edited": "<b>Tea</b> is warm. Tea is calm."
+  },
+  "verifyit | first_word:first_word_sent | html_first_word": {
+   "fixture": "first_word:first_word_sent:0d06011898c7",
+   "edited": "<b>Tea</b> is warm. Tea is calm."
+  },
+  "nvidia | first_word:first_word_sent | typo_quotes_first_word": {
+   "fixture": "first_word:first_word_sent:0d06011898c7",
+   "edited": "“Tea” is warm. Tea is calm."
+  },
+  "nvidia | first_word:first_word_sent | punct_after_first_word": {
+   "fixture": "first_word:first_word_sent:0d06011898c7",
+   "edited": "Tea; is warm. Tea is calm."
+  },
+  "verifyit | keywords:keyword_specific_position | html_first_word": {
+   "fixture": "keywords:keyword_specific_position:339d86821776",
+   "edited": "<b>Tea</b> is warm."
+  },
+  "nvidia | keywords:start_end | bullet_dash": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "- Hello there my friend hello"
+  },
+  "verifyit | keywords:start_end | bullet_dash": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "- Hello there my friend hello"
+  },
+  "nvidia | keywords:start_end | bold_first_word": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "**Hello** there my friend hello"
+  },
+  "nvidia | keywords:start_end | italic_first_word": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "*Hello* there my friend hello"
+  },
+  "nvidia | keywords:start_end | html_first_word": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "<b>Hello</b> there my friend hello"
+  },
+  "verifyit | keywords:start_end | html_first_word": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "<b>Hello</b> there my friend hello"
+  },
+  "nvidia | keywords:start_end | typo_quotes_first_word": {
+   "fixture": "keywords:start_end:67a84b7a1ee8",
+   "edited": "“Hello” there my friend hello"
+  },
+  "nvidia | length_constraints:nth_paragraph_first_word | bullet_dash": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "- Fuel is costly.\n\n- Prices rise."
+  },
+  "verifyit | length_constraints:nth_paragraph_first_word | bullet_dash": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "- Fuel is costly.\n\n- Prices rise."
+  },
+  "nvidia | length_constraints:nth_paragraph_first_word | bold_first_word": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "**Fuel** is costly.\n\nPrices rise."
+  },
+  "nvidia | length_constraints:nth_paragraph_first_word | italic_first_word": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "*Fuel* is costly.\n\nPrices rise."
+  },
+  "nvidia | length_constraints:nth_paragraph_first_word | html_first_word": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "<b>Fuel</b> is costly.\n\nPrices rise."
+  },
+  "verifyit | length_constraints:nth_paragraph_first_word | html_first_word": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "<b>Fuel</b> is costly.\n\nPrices rise."
+  },
+  "nvidia | length_constraints:nth_paragraph_first_word | typo_quotes_first_word": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "“Fuel” is costly.\n\nPrices rise."
+  },
+  "nvidia | length_constraints:nth_paragraph_first_word | punct_after_first_word": {
+   "fixture": "length_constraints:nth_paragraph_first_word:289fcad377db",
+   "edited": "Fuel; is costly.\n\nPrices rise."
+  }
+ },
+ "fuzz": {
+  "change_case:capital_word_frequency": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "change_case:english_capital": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "change_case:english_lowercase": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "combination:two_responses": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "copy:repeat_phrase": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "count:count_unique": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "count:counting_composition": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "count:lowercase_counting": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_content:number_placeholders": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_content:postscript": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:bigram_wrapping": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:constrained_response": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:json_format": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:multiple_sections": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:number_bullet_lists": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:number_highlighted_sections": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:sentence_hyphens": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:square_brackets": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "detectable_format:title": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "first_word:first_word_answer": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "first_word:first_word_sent": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:existence": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:forbidden_words": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:frequency": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:keyword_specific_position": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:letter_frequency": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:no_adjacent_consecutive": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:palindrome": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:start_end": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:word_count_different_numbers": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "keywords:word_once": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "language:response_language": {
+   "counts": {
+    "n": 1000,
+    "nvidia_langdetect_exception_counted_pass": 208
+   },
+   "first": {}
+  },
+  "last_word:last_word_answer": {
+   "counts": {
+    "n": 1000,
+    "nvidia_exception": 134
+   },
+   "first": {
+    "nvidia": [
+     "",
+     "IndexError: list index out of range"
+    ]
+   }
+  },
+  "last_word:last_word_sent": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "length_constraints:number_paragraphs": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "length_constraints:number_sentences": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "length_constraints:number_words": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "letters:letter_counting": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "letters:letter_counting2": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "paragraphs:paragraphs": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "paragraphs:paragraphs2": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "punctuation:no_comma": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "punctuation:punctuation_dot": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "punctuation:punctuation_exclamation": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "startend:end_checker": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  },
+  "startend:quotation": {
+   "counts": {
+    "n": 1000
+   },
+   "first": {}
+  }
+ },
+ "content_free": {
+  "empty": {
+   "rows": {
+    "rows": 11817,
+    "skyrl_reward_1": 1702,
+    "skyrl_infra": 625,
+    "gate_pass": 810,
+    "repl_all_pass": 0
+   },
+   "per_check": {
+    "change_case:capital_word_frequency": {
+     "n": 601,
+     "nvidia_pass": 335,
+     "verifyit_pass": 335,
+     "repl_pass": 0
+    },
+    "change_case:english_capital": {
+     "n": 772,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "change_case:english_lowercase": {
+     "n": 604,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "combination:two_responses": {
+     "n": 253,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "copy:repeat_phrase": {
+     "n": 554,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:count_unique": {
+     "n": 687,
+     "nvidia_pass": 687,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:counting_composition": {
+     "n": 1,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:lowercase_counting": {
+     "n": 869,
+     "nvidia_pass": 869,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_content:number_placeholders": {
+     "n": 585,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_content:postscript": {
+     "n": 644,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:bigram_wrapping": {
+     "n": 575,
+     "nvidia_pass": 575,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:constrained_response": {
+     "n": 120,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:json_format": {
+     "n": 133,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:multiple_sections": {
+     "n": 453,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:number_bullet_lists": {
+     "n": 512,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:number_highlighted_sections": {
+     "n": 555,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:sentence_hyphens": {
+     "n": 669,
+     "nvidia_pass": 669,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:square_brackets": {
+     "n": 553,
+     "nvidia_pass": 553,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:title": {
+     "n": 589,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "first_word:first_word_answer": {
+     "n": 557,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "first_word:first_word_sent": {
+     "n": 540,
+     "nvidia_pass": 540,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:existence": {
+     "n": 932,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:forbidden_words": {
+     "n": 836,
+     "nvidia_pass": 836,
+     "verifyit_pass": 836,
+     "repl_pass": 0
+    },
+    "keywords:frequency": {
+     "n": 607,
+     "nvidia_pass": 311,
+     "verifyit_pass": 311,
+     "repl_pass": 0
+    },
+    "keywords:keyword_specific_position": {
+     "n": 676,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:letter_frequency": {
+     "n": 783,
+     "nvidia_pass": 420,
+     "verifyit_pass": 420,
+     "repl_pass": 0
+    },
+    "keywords:no_adjacent_consecutive": {
+     "n": 818,
+     "nvidia_pass": 818,
+     "verifyit_pass": 818,
+     "repl_pass": 0
+    },
+    "keywords:palindrome": {
+     "n": 618,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:start_end": {
+     "n": 499,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:word_count_different_numbers": {
+     "n": 526,
+     "nvidia_pass": 206,
+     "verifyit_pass": 206,
+     "repl_pass": 0
+    },
+    "keywords:word_once": {
+     "n": 917,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "language:response_language": {
+     "n": 780,
+     "nvidia_pass": 780,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "last_word:last_word_answer": {
+     "n": 625,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "last_word:last_word_sent": {
+     "n": 600,
+     "nvidia_pass": 600,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "length_constraints:nth_paragraph_first_word": {
+     "n": 515,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "length_constraints:number_paragraphs": {
+     "n": 690,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "length_constraints:number_sentences": {
+     "n": 562,
+     "nvidia_pass": 269,
+     "verifyit_pass": 269,
+     "repl_pass": 0
+    },
+    "length_constraints:number_words": {
+     "n": 729,
+     "nvidia_pass": 328,
+     "verifyit_pass": 328,
+     "repl_pass": 0
+    },
+    "letters:letter_counting": {
+     "n": 497,
+     "nvidia_pass": 203,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "letters:letter_counting2": {
+     "n": 705,
+     "nvidia_pass": 394,
+     "verifyit_pass": 394,
+     "repl_pass": 0
+    },
+    "paragraphs:paragraphs": {
+     "n": 576,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "paragraphs:paragraphs2": {
+     "n": 744,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "punctuation:no_comma": {
+     "n": 730,
+     "nvidia_pass": 730,
+     "verifyit_pass": 730,
+     "repl_pass": 0
+    },
+    "punctuation:punctuation_dot": {
+     "n": 847,
+     "nvidia_pass": 847,
+     "verifyit_pass": 847,
+     "repl_pass": 0
+    },
+    "punctuation:punctuation_exclamation": {
+     "n": 627,
+     "nvidia_pass": 627,
+     "verifyit_pass": 627,
+     "repl_pass": 0
+    },
+    "startend:end_checker": {
+     "n": 537,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "startend:quotation": {
+     "n": 417,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    }
+   }
+  },
+  "repeated": {
+   "rows": {
+    "rows": 11817,
+    "skyrl_reward_1": 265,
+    "skyrl_infra": 0,
+    "gate_pass": 821,
+    "repl_all_pass": 232
+   },
+   "per_check": {
+    "change_case:capital_word_frequency": {
+     "n": 601,
+     "nvidia_pass": 335,
+     "verifyit_pass": 335,
+     "repl_pass": 335
+    },
+    "change_case:english_capital": {
+     "n": 772,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "change_case:english_lowercase": {
+     "n": 604,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "combination:two_responses": {
+     "n": 253,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "copy:repeat_phrase": {
+     "n": 554,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:count_unique": {
+     "n": 687,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:counting_composition": {
+     "n": 1,
+     "nvidia_pass": 0,
+     "verifyit_pass": 1,
+     "repl_pass": 0
+    },
+    "count:lowercase_counting": {
+     "n": 869,
+     "nvidia_pass": 0,
+     "verifyit_pass": 869,
+     "repl_pass": 0
+    },
+    "detectable_content:number_placeholders": {
+     "n": 585,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_content:postscript": {
+     "n": 644,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:bigram_wrapping": {
+     "n": 575,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:constrained_response": {
+     "n": 120,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:json_format": {
+     "n": 133,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:multiple_sections": {
+     "n": 453,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:number_bullet_lists": {
+     "n": 512,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:number_highlighted_sections": {
+     "n": 555,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:sentence_hyphens": {
+     "n": 669,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:square_brackets": {
+     "n": 553,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:title": {
+     "n": 589,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "first_word:first_word_answer": {
+     "n": 557,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "first_word:first_word_sent": {
+     "n": 540,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:existence": {
+     "n": 932,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:forbidden_words": {
+     "n": 836,
+     "nvidia_pass": 836,
+     "verifyit_pass": 836,
+     "repl_pass": 836
+    },
+    "keywords:frequency": {
+     "n": 607,
+     "nvidia_pass": 312,
+     "verifyit_pass": 312,
+     "repl_pass": 312
+    },
+    "keywords:keyword_specific_position": {
+     "n": 676,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:letter_frequency": {
+     "n": 783,
+     "nvidia_pass": 403,
+     "verifyit_pass": 403,
+     "repl_pass": 403
+    },
+    "keywords:no_adjacent_consecutive": {
+     "n": 818,
+     "nvidia_pass": 818,
+     "verifyit_pass": 818,
+     "repl_pass": 818
+    },
+    "keywords:palindrome": {
+     "n": 618,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:start_end": {
+     "n": 499,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:word_count_different_numbers": {
+     "n": 526,
+     "nvidia_pass": 205,
+     "verifyit_pass": 205,
+     "repl_pass": 0
+    },
+    "keywords:word_once": {
+     "n": 917,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "language:response_language": {
+     "n": 780,
+     "nvidia_pass": 15,
+     "verifyit_pass": 0,
+     "repl_pass": 15
+    },
+    "last_word:last_word_answer": {
+     "n": 625,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "last_word:last_word_sent": {
+     "n": 600,
+     "nvidia_pass": 2,
+     "verifyit_pass": 2,
+     "repl_pass": 2
+    },
+    "length_constraints:nth_paragraph_first_word": {
+     "n": 515,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "length_constraints:number_paragraphs": {
+     "n": 690,
+     "nvidia_pass": 131,
+     "verifyit_pass": 131,
+     "repl_pass": 131
+    },
+    "length_constraints:number_sentences": {
+     "n": 562,
+     "nvidia_pass": 293,
+     "verifyit_pass": 293,
+     "repl_pass": 293
+    },
+    "length_constraints:number_words": {
+     "n": 729,
+     "nvidia_pass": 319,
+     "verifyit_pass": 319,
+     "repl_pass": 319
+    },
+    "letters:letter_counting": {
+     "n": 497,
+     "nvidia_pass": 294,
+     "verifyit_pass": 0,
+     "repl_pass": 294
+    },
+    "letters:letter_counting2": {
+     "n": 705,
+     "nvidia_pass": 341,
+     "verifyit_pass": 341,
+     "repl_pass": 341
+    },
+    "paragraphs:paragraphs": {
+     "n": 576,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "paragraphs:paragraphs2": {
+     "n": 744,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "punctuation:no_comma": {
+     "n": 730,
+     "nvidia_pass": 730,
+     "verifyit_pass": 730,
+     "repl_pass": 730
+    },
+    "punctuation:punctuation_dot": {
+     "n": 847,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "punctuation:punctuation_exclamation": {
+     "n": 627,
+     "nvidia_pass": 627,
+     "verifyit_pass": 627,
+     "repl_pass": 627
+    },
+    "startend:end_checker": {
+     "n": 537,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "startend:quotation": {
+     "n": 417,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    }
+   }
+  },
+  "prompt_restated": {
+   "rows": {
+    "rows": 11817,
+    "skyrl_reward_1": 746,
+    "skyrl_infra": 0,
+    "gate_pass": 1365,
+    "repl_all_pass": 453
+   },
+   "per_check": {
+    "change_case:capital_word_frequency": {
+     "n": 601,
+     "nvidia_pass": 323,
+     "verifyit_pass": 329,
+     "repl_pass": 324
+    },
+    "change_case:english_capital": {
+     "n": 772,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "change_case:english_lowercase": {
+     "n": 604,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "combination:two_responses": {
+     "n": 253,
+     "nvidia_pass": 248,
+     "verifyit_pass": 248,
+     "repl_pass": 241
+    },
+    "copy:repeat_phrase": {
+     "n": 554,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:count_unique": {
+     "n": 687,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:counting_composition": {
+     "n": 1,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "count:lowercase_counting": {
+     "n": 869,
+     "nvidia_pass": 0,
+     "verifyit_pass": 869,
+     "repl_pass": 348
+    },
+    "detectable_content:number_placeholders": {
+     "n": 585,
+     "nvidia_pass": 183,
+     "verifyit_pass": 182,
+     "repl_pass": 182
+    },
+    "detectable_content:postscript": {
+     "n": 644,
+     "nvidia_pass": 497,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:bigram_wrapping": {
+     "n": 575,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:constrained_response": {
+     "n": 120,
+     "nvidia_pass": 120,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:json_format": {
+     "n": 133,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "detectable_format:multiple_sections": {
+     "n": 453,
+     "nvidia_pass": 184,
+     "verifyit_pass": 98,
+     "repl_pass": 79
+    },
+    "detectable_format:number_bullet_lists": {
+     "n": 512,
+     "nvidia_pass": 104,
+     "verifyit_pass": 104,
+     "repl_pass": 104
+    },
+    "detectable_format:number_highlighted_sections": {
+     "n": 555,
+     "nvidia_pass": 137,
+     "verifyit_pass": 137,
+     "repl_pass": 132
+    },
+    "detectable_format:sentence_hyphens": {
+     "n": 669,
+     "nvidia_pass": 23,
+     "verifyit_pass": 0,
+     "repl_pass": 25
+    },
+    "detectable_format:square_brackets": {
+     "n": 553,
+     "nvidia_pass": 0,
+     "verifyit_pass": 103,
+     "repl_pass": 0
+    },
+    "detectable_format:title": {
+     "n": 589,
+     "nvidia_pass": 589,
+     "verifyit_pass": 589,
+     "repl_pass": 589
+    },
+    "first_word:first_word_answer": {
+     "n": 557,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "first_word:first_word_sent": {
+     "n": 540,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:existence": {
+     "n": 932,
+     "nvidia_pass": 932,
+     "verifyit_pass": 932,
+     "repl_pass": 932
+    },
+    "keywords:forbidden_words": {
+     "n": 836,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:frequency": {
+     "n": 607,
+     "nvidia_pass": 307,
+     "verifyit_pass": 308,
+     "repl_pass": 308
+    },
+    "keywords:keyword_specific_position": {
+     "n": 676,
+     "nvidia_pass": 1,
+     "verifyit_pass": 1,
+     "repl_pass": 1
+    },
+    "keywords:letter_frequency": {
+     "n": 783,
+     "nvidia_pass": 374,
+     "verifyit_pass": 374,
+     "repl_pass": 374
+    },
+    "keywords:no_adjacent_consecutive": {
+     "n": 818,
+     "nvidia_pass": 116,
+     "verifyit_pass": 624,
+     "repl_pass": 71
+    },
+    "keywords:palindrome": {
+     "n": 618,
+     "nvidia_pass": 618,
+     "verifyit_pass": 74,
+     "repl_pass": 94
+    },
+    "keywords:start_end": {
+     "n": 499,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "keywords:word_count_different_numbers": {
+     "n": 526,
+     "nvidia_pass": 255,
+     "verifyit_pass": 253,
+     "repl_pass": 148
+    },
+    "keywords:word_once": {
+     "n": 917,
+     "nvidia_pass": 907,
+     "verifyit_pass": 913,
+     "repl_pass": 917
+    },
+    "language:response_language": {
+     "n": 780,
+     "nvidia_pass": 17,
+     "verifyit_pass": 0,
+     "repl_pass": 17
+    },
+    "last_word:last_word_answer": {
+     "n": 625,
+     "nvidia_pass": 130,
+     "verifyit_pass": 154,
+     "repl_pass": 130
+    },
+    "last_word:last_word_sent": {
+     "n": 600,
+     "nvidia_pass": 21,
+     "verifyit_pass": 22,
+     "repl_pass": 13
+    },
+    "length_constraints:nth_paragraph_first_word": {
+     "n": 515,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "length_constraints:number_paragraphs": {
+     "n": 690,
+     "nvidia_pass": 127,
+     "verifyit_pass": 131,
+     "repl_pass": 131
+    },
+    "length_constraints:number_sentences": {
+     "n": 562,
+     "nvidia_pass": 271,
+     "verifyit_pass": 268,
+     "repl_pass": 248
+    },
+    "length_constraints:number_words": {
+     "n": 729,
+     "nvidia_pass": 308,
+     "verifyit_pass": 308,
+     "repl_pass": 306
+    },
+    "letters:letter_counting": {
+     "n": 497,
+     "nvidia_pass": 294,
+     "verifyit_pass": 0,
+     "repl_pass": 294
+    },
+    "letters:letter_counting2": {
+     "n": 705,
+     "nvidia_pass": 296,
+     "verifyit_pass": 296,
+     "repl_pass": 296
+    },
+    "paragraphs:paragraphs": {
+     "n": 576,
+     "nvidia_pass": 463,
+     "verifyit_pass": 538,
+     "repl_pass": 0
+    },
+    "paragraphs:paragraphs2": {
+     "n": 744,
+     "nvidia_pass": 354,
+     "verifyit_pass": 453,
+     "repl_pass": 354
+    },
+    "punctuation:no_comma": {
+     "n": 730,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "punctuation:punctuation_dot": {
+     "n": 847,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "punctuation:punctuation_exclamation": {
+     "n": 627,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "startend:end_checker": {
+     "n": 537,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    },
+    "startend:quotation": {
+     "n": 417,
+     "nvidia_pass": 0,
+     "verifyit_pass": 0,
+     "repl_pass": 0
+    }
+   }
+  }
+ }
+}

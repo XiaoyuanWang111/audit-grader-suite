@@ -1,0 +1,411 @@
+{
+ "change_case:capital_word_frequency": {
+  "n_distinct_texts": 41,
+  "examples": [
+   "In your response, words with all capital letters should appear less than 1 times.",
+   "In your response, words with all capital letters should appear less than 2 times.",
+   "In your response, words with all capital letters should appear less than 4 times.",
+   "In your response, words with all capital letters should appear at least 11 times.",
+   "In your response, words with all capital letters should appear less than 16 times.",
+   "In your response, words with all capital letters should appear at least 6 times."
+  ]
+ },
+ "change_case:english_capital": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "Your entire response should be in English, and in all capital letters.",
+   "This is point 1. "
+  ]
+ },
+ "change_case:english_lowercase": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+   "Long Jumping"
+  ]
+ },
+ "combination:two_responses": {
+  "n_distinct_texts": 1,
+  "examples": [
+   "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******."
+  ]
+ },
+ "copy:repeat_phrase": {
+  "n_distinct_texts": 20,
+  "examples": [
+   "Repeat the phrase All that glitters is not gold exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+   "Repeat the phrase Every cloud has a silver lining exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+   "Repeat the phrase Laughter is the best medicine exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+   "Repeat the phrase Time flies when having fun exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+   "Repeat the phrase The pen is mightier than sword exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+   "Repeat the phrase The pen is mightier than sword exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase."
+  ]
+ },
+ "count:count_unique": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "Only use unique words in your response, no word should be repeated!",
+   "This is point 2 and Only use unique words in your response, no word should be repeated!. script about the trevor lawrence jaguars",
+   "Строение органов дыхания у позвоночных животных и человека. Значение дыхания для жизни организмов. Газообмен в легких и тканях"
+  ]
+ },
+ "count:lowercase_counting": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "In your response, all lowercase words should appear at most 2 times.",
+   "In your response, all lowercase words should appear at most 3 times.",
+   "This is point 1. "
+  ]
+ },
+ "detectable_content:number_placeholders": {
+  "n_distinct_texts": 5,
+  "examples": [
+   "The response must contain at least 3 placeholders represented by square brackets, such as [address].",
+   "The response must contain at least 1 placeholders represented by square brackets, such as [address].",
+   "The response must contain at least 2 placeholders represented by square brackets, such as [address].",
+   "The response must contain at least 4 placeholders represented by square brackets, such as [address].",
+   "This is point 2 and The response must contain at least 3 placeholders represented by square brackets, such as [address]. 写一篇2000字以上的关于家乡的变化的文章"
+  ]
+ },
+ "detectable_content:postscript": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "At the end of your response, please explicitly add a postscript starting with P.P.S",
+   "At the end of your response, please explicitly add a postscript starting with P.S.",
+   "Вид. Критерии вида. Видообразование"
+  ]
+ },
+ "detectable_format:bigram_wrapping": {
+  "n_distinct_texts": 1,
+  "examples": [
+   "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>."
+  ]
+ },
+ "detectable_format:constrained_response": {
+  "n_distinct_texts": 1,
+  "examples": [
+   "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+  ]
+ },
+ "detectable_format:json_format": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+   "les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation"
+  ]
+ },
+ "detectable_format:number_bullet_lists": {
+  "n_distinct_texts": 21,
+  "examples": [
+   "This is point 1. ",
+   "This is point 2",
+   "This is point 2. js 姓名除了第一个字其他转为星号",
+   "This is point 2. I need you to act as a professional English paper teacher, Please help me to improve my expression in the style of the journal Biomedical Optics Express. We added the area-value statistics for embryo data obtained using Mueller matrix OCT. By comparing the embryo histogram measured by the two systems, we observed an increasing trend in zebrafish embryos under the microscope after 3 dfp.  while the embryo contour of the normally developed zebrafish embryos was gradually decreasing. The contour of normally developed zebrafish embryos displayed a progressive decrease【需要参考文献】. Therefore, the data obtained through Mueller matrix OCT demonstrated higher accuracy. It indicates that the development trend of zebrafish embryo quantified from the perspective of volume is also gradually decreasing. In the existing literature, the size of zebrafish is generally measured by the length, the diameter of the embryo is generally measured by the volume of the whole embryo as a sphere. To the best of our knowledge, there is no literature on volume measurement.. In this paper, the volume of zebrafish embryos measured by Muller matrix OCT can more accurately measure the volume state of zebrafish embryos in the development process. The area comparison chart has been added to Figure 9 of the article, and the area comparison analysis has also been added to the discussion section.",
+   "This is point 2. степень токсичности воды загрязненными органическими веществами",
+   "This is point 2. Write a negative review about staying in a hotel, where the room was not ready even after doing late check-in, also 1st the fridge was making noise and later when tried to take shower the hot water was not coming as water heater connection were cut"
+  ]
+ },
+ "detectable_format:number_highlighted_sections": {
+  "n_distinct_texts": 5,
+  "examples": [
+   "Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*.",
+   "Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.",
+   "Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*.",
+   "Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.",
+   "This is point 2 and Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*"
+  ]
+ },
+ "detectable_format:sentence_hyphens": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "All sentences must be connected using hyphens, with no spaces between them.",
+   "This is point 1. "
+  ]
+ },
+ "detectable_format:square_brackets": {
+  "n_distinct_texts": 1,
+  "examples": [
+   "Enclose every word in your response within square brackets."
+  ]
+ },
+ "detectable_format:title": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+   "This is point 2 and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. [Fiddler] DNS Lookup for \"null\" failed. System.Net.Sockets.SocketException 不知道这样的主机。",
+   "A Robotic Engineer: technical expertise, knowledge of engineering principles, logical and analytical thinking, ability to work with teams, and adaptability to new technologies."
+  ]
+ },
+ "first_word:first_word_answer": {
+  "n_distinct_texts": 123,
+  "examples": [
+   "The first word of your response should be the word reaction.",
+   "The first word of your response should be the word winter.",
+   "The first word of your response should be the word development.",
+   "The first word of your response should be the word object.",
+   "The first word of your response should be the word equipment.",
+   "The first word of your response should be the word view."
+  ]
+ },
+ "first_word:first_word_sent": {
+  "n_distinct_texts": 123,
+  "examples": [
+   "The first word of each sentence should be the word care.",
+   "The first word of each sentence should be the word physical.",
+   "The first word of each sentence should be the word line.",
+   "The first word of each sentence should be the word good.",
+   "The first word of each sentence should be the word connection.",
+   "The first word of each sentence should be the word trade."
+  ]
+ },
+ "keywords:existence": {
+  "n_distinct_texts": 210,
+  "examples": [
+   "This is point 1. ",
+   "Include keywords ['food', 'poetry'] in the response.",
+   "Include keywords ['earth', 'garden'] in the response.",
+   "Include keywords ['ground', 'rough'] in the response.",
+   "Include keywords ['building', 'morning'] in the response.",
+   "Include keywords ['bit', 'double'] in the response."
+  ]
+ },
+ "keywords:forbidden_words": {
+  "n_distinct_texts": 178,
+  "examples": [
+   "Do not include keywords ['floor', 'wheel'] in the response.",
+   "Do not include keywords ['base', 'horse'] in the response.",
+   "Do not include keywords ['bus', 'media'] in the response.",
+   "Do not include keywords ['jump', 'penalty'] in the response.",
+   "Do not include keywords ['lecture', 'touch'] in the response.",
+   "Do not include keywords ['capital', 'national'] in the response."
+  ]
+ },
+ "keywords:frequency": {
+  "n_distinct_texts": 127,
+  "examples": [
+   "In your response, the word stroke should appear less than 1 times.",
+   "In your response, the word review should appear less than 2 times.",
+   "In your response, the word sale should appear at least 3 times.",
+   "In your response, the word potential should appear less than 2 times.",
+   "In your response, the word member should appear at least 3 times.",
+   "In your response, the word yesterday should appear less than 1 times."
+  ]
+ },
+ "keywords:keyword_specific_position": {
+  "n_distinct_texts": 150,
+  "examples": [
+   "This is point 1. ",
+   "Include keyword selection in the 16-th sentence, as the 2-th word of that sentence.",
+   "Include keyword half in the 14-th sentence, as the 3-th word of that sentence.",
+   "Include keyword childhood in the 19-th sentence, as the 20-th word of that sentence.",
+   "Include keyword internal in the 15-th sentence, as the 4-th word of that sentence.",
+   "Include keyword half in the 2-th sentence, as the 6-th word of that sentence."
+  ]
+ },
+ "keywords:letter_frequency": {
+  "n_distinct_texts": 167,
+  "examples": [
+   "In your response, the letter t should appear less than 2 times.",
+   "In your response, the letter r should appear less than 6 times.",
+   "In your response, the letter b should appear at least 5 times.",
+   "In your response, the letter y should appear at least 7 times.",
+   "In your response, the letter s should appear less than 1 times.",
+   "In your response, the letter w should appear at least 6 times."
+  ]
+ },
+ "keywords:no_adjacent_consecutive": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "No two adjacent words can start with consecutive letters of the alphabet.",
+   "This is point 2 and No two adjacent words can start with consecutive letters of the alphabet. devm_spi_register_controller与的区别spi_register_controller",
+   "This is point 1. "
+  ]
+ },
+ "keywords:palindrome": {
+  "n_distinct_texts": 1,
+  "examples": [
+   "Include a palindrome in your response."
+  ]
+ },
+ "keywords:start_end": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+   "This is point 2 and Start and end your response with the same word (do not write anything after the last word, not even punctuation)",
+   "This is point 2 and Start and end your response with the same word (do not write anything after the last word, not even punctuation). نهر طير شخص"
+  ]
+ },
+ "keywords:word_count_different_numbers": {
+  "n_distinct_texts": 120,
+  "examples": [
+   "In your response, the word contact should appear 3 times.",
+   "In your response, the word display should appear 3 times.",
+   "In your response, the word refuse should appear 1 times.",
+   "In your response, the word skin should appear 3 times.",
+   "In your response, the word pair should appear 1 times.",
+   "In your response, the word box should appear 2 times."
+  ]
+ },
+ "keywords:word_once": {
+  "n_distinct_texts": 200,
+  "examples": [
+   "Include keyword beer in your response.",
+   "Include keyword star in your response.",
+   "Include keyword march in your response.",
+   "Include keyword angle in your response.",
+   "Include keyword god in your response.",
+   "Include keyword garden in your response."
+  ]
+ },
+ "language:response_language": {
+  "n_distinct_texts": 33,
+  "examples": [
+   "Your ENTIRE response should be in Punjabi language, no other language is allowed.",
+   "Your ENTIRE response should be in Bulgarian language, no other language is allowed.",
+   "Your ENTIRE response should be in Malayalam language, no other language is allowed.",
+   "Your ENTIRE response should be in Tamil language, no other language is allowed.",
+   "Your ENTIRE response should be in Korean language, no other language is allowed.",
+   "Your ENTIRE response should be in Polish language, no other language is allowed."
+  ]
+ },
+ "last_word:last_word_answer": {
+  "n_distinct_texts": 124,
+  "examples": [
+   "The last word of your response should be the word payment.",
+   "The last word of your response should be the word single.",
+   "The last word of your response should be the word she.",
+   "The last word of your response should be the word command.",
+   "The last word of your response should be the word sound.",
+   "The last word of your response should be the word help."
+  ]
+ },
+ "last_word:last_word_sent": {
+  "n_distinct_texts": 114,
+  "examples": [
+   "The last word of each sentence, before punctuation, should be the word limit.",
+   "The last word of each sentence, before punctuation, should be the word ride.",
+   "The last word of each sentence, before punctuation, should be the word hook.",
+   "The last word of each sentence, before punctuation, should be the word bank.",
+   "The last word of each sentence, before punctuation, should be the word foot.",
+   "The last word of each sentence, before punctuation, should be the word garbage."
+  ]
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "n_distinct_texts": 103,
+  "examples": [
+   "This is point 1. ",
+   "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if.",
+   "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word fight.",
+   "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word brother.",
+   "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word house.",
+   "There should be 5 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 5 must start with word capital."
+  ]
+ },
+ "length_constraints:number_paragraphs": {
+  "n_distinct_texts": 5,
+  "examples": [
+   "There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***",
+   "There should be 3 paragraphs. Paragraphs are separated with the markdown divider: ***",
+   "There should be 4 paragraphs. Paragraphs are separated with the markdown divider: ***",
+   "There should be 5 paragraphs. Paragraphs are separated with the markdown divider: ***",
+   "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***"
+  ]
+ },
+ "length_constraints:number_sentences": {
+  "n_distinct_texts": 38,
+  "examples": [
+   "Your response should contain at least 18 sentences.",
+   "Your response should contain less than 2 sentences.",
+   "Your response should contain at least 1 sentences.",
+   "Your response should contain less than 15 sentences.",
+   "Your response should contain at least 14 sentences.",
+   "Your response should contain at least 5 sentences."
+  ]
+ },
+ "length_constraints:number_words": {
+  "n_distinct_texts": 163,
+  "examples": [
+   "Answer with less than 323 words.",
+   "Answer with at least 500 words.",
+   "Answer with less than 460 words.",
+   "Answer with less than 228 words.",
+   "Answer with at least 429 words.",
+   "Answer with at least 384 words."
+  ]
+ },
+ "letters:letter_counting": {
+  "n_distinct_texts": 6,
+  "examples": [
+   "Answer with at least 3 letters.",
+   "Answer with at least 2 letters.",
+   "Answer with less than 3 letters.",
+   "Answer with less than 2 letters.",
+   "Flint Lockwood and Chester V: inventiveness, creativity, curiosity, determination, and having a growth mindset.",
+   "This is point 1. "
+  ]
+ },
+ "letters:letter_counting2": {
+  "n_distinct_texts": 127,
+  "examples": [
+   "In your response, the letter b should appear at least 4 times.",
+   "This is point 1. ",
+   "In your response, the letter d should appear at least 1 times.",
+   "In your response, the letter o should appear at least 3 times.",
+   "In your response, the letter d should appear at least 2 times.",
+   "In your response, the letter d should appear less than 4 times."
+  ]
+ },
+ "paragraphs:paragraphs": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+   "This is point 1. "
+  ]
+ },
+ "paragraphs:paragraphs2": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+   "This is point 2 and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 请不停反驳我下面提出的问题",
+   "This is point 1. "
+  ]
+ },
+ "punctuation:no_comma": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "In your entire response, refrain from the use of any commas.",
+   "This is point 1. "
+  ]
+ },
+ "punctuation:punctuation_dot": {
+  "n_distinct_texts": 1,
+  "examples": [
+   "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general."
+  ]
+ },
+ "punctuation:punctuation_exclamation": {
+  "n_distinct_texts": 3,
+  "examples": [
+   "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+   "This is point 1. ",
+   "This is point 2 and In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general. Write 10 blog headings for dog captions for instagram"
+  ]
+ },
+ "startend:end_checker": {
+  "n_distinct_texts": 5,
+  "examples": [
+   "Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.",
+   "Finish your response with this exact phrase Any other questions?. No other words should follow this phrase.",
+   "This is point 1. ",
+   "This is point 2 and Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase",
+   "This is point 2 and Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase. What are some of the account aggregators listed in india"
+  ]
+ },
+ "startend:quotation": {
+  "n_distinct_texts": 2,
+  "examples": [
+   "Wrap your entire response with double quotation marks.",
+   "This is point 1. "
+  ]
+ }
+}

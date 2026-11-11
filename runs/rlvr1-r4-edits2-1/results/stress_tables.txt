@@ -1,0 +1,45 @@
+
+ due to No features in text.
+
+ due to No features in text.
+
+ due to No features in text.
+
+ due to No features in text.
+
+ due to No features in text.
+content-free empty: SkyRL reward 1.0 on 1702 rows, gate passes 810 rows, replacement passes 0; SkyRL exceptions {'IndexError': 625}
+   SkyRL passing checks: {'count:lowercase_counting': 869, 'punctuation:punctuation_dot': 847, 'keywords:forbidden_words': 836, 'keywords:no_adjacent_consecutive': 818, 'language:response_language': 780, 'punctuation:no_comma': 730, 'count:count_unique': 687, 'detectable_format:sentence_hyphens': 669, 'punctuation:punctuation_exclamation': 627, 'last_word:last_word_sent': 600, 'detectable_format:bigram_wrapping': 575, 'detectable_format:square_brackets': 553}
+   gate passing checks: {'punctuation:punctuation_dot': 847, 'keywords:forbidden_words': 836, 'keywords:no_adjacent_consecutive': 818, 'punctuation:no_comma': 730, 'punctuation:punctuation_exclamation': 627, 'keywords:letter_frequency': 420, 'letters:letter_counting2': 394, 'change_case:capital_word_frequency': 335, 'length_constraints:number_words': 328, 'keywords:frequency': 311, 'length_constraints:number_sentences': 269, 'keywords:word_count_different_numbers': 206}
+content-free period: SkyRL reward 1.0 on 1144 rows, gate passes 682 rows, replacement passes 530; SkyRL exceptions {}
+   SkyRL passing checks: {'count:lowercase_counting': 869, 'keywords:forbidden_words': 836, 'keywords:no_adjacent_consecutive': 818, 'language:response_language': 780, 'punctuation:no_comma': 730, 'count:count_unique': 687, 'detectable_format:sentence_hyphens': 669, 'punctuation:punctuation_exclamation': 627, 'keywords:palindrome': 618, 'detectable_format:bigram_wrapping': 575, 'keywords:letter_frequency': 420, 'letters:letter_counting2': 394}
+   gate passing checks: {'keywords:forbidden_words': 836, 'keywords:no_adjacent_consecutive': 818, 'punctuation:no_comma': 730, 'punctuation:punctuation_exclamation': 627, 'keywords:letter_frequency': 420, 'letters:letter_counting2': 394, 'change_case:capital_word_frequency': 335, 'length_constraints:number_words': 328, 'keywords:frequency': 311, 'length_constraints:number_sentences': 282, 'keywords:word_count_different_numbers': 206, 'length_constraints:number_paragraphs': 131}
+content-free repeated: SkyRL reward 1.0 on 607 rows, gate passes 1069 rows, replacement passes 562; SkyRL exceptions {}
+   SkyRL passing checks: {'punctuation:punctuation_dot': 847, 'keywords:forbidden_words': 836, 'keywords:no_adjacent_consecutive': 818, 'punctuation:no_comma': 730, 'detectable_format:sentence_hyphens': 669, 'punctuation:punctuation_exclamation': 627, 'keywords:start_end': 499, 'keywords:letter_frequency': 413, 'letters:letter_counting2': 396, 'change_case:capital_word_frequency': 335, 'length_constraints:number_words': 320, 'keywords:frequency': 311}
+   gate passing checks: {'count:lowercase_counting': 869, 'punctuation:punctuation_dot': 847, 'keywords:forbidden_words': 836, 'punctuation:no_comma': 730, 'punctuation:punctuation_exclamation': 627, 'change_case:english_lowercase': 604, 'keywords:start_end': 499, 'keywords:letter_frequency': 413, 'letters:letter_counting2': 396, 'change_case:capital_word_frequency': 335, 'length_constraints:number_words': 320, 'keywords:frequency': 311}
+content-free restatement: SkyRL reward 1.0 on 746 rows, gate passes 1365 rows, replacement passes 458; SkyRL exceptions {}
+   SkyRL passing checks: {'keywords:existence': 932, 'keywords:word_once': 907, 'keywords:palindrome': 618, 'detectable_format:title': 589, 'detectable_content:postscript': 497, 'paragraphs:paragraphs': 463, 'keywords:letter_frequency': 374, 'paragraphs:paragraphs2': 354, 'change_case:capital_word_frequency': 323, 'length_constraints:number_words': 308, 'keywords:frequency': 307, 'letters:letter_counting2': 296}
+   gate passing checks: {'keywords:existence': 932, 'keywords:word_once': 913, 'count:lowercase_counting': 869, 'keywords:no_adjacent_consecutive': 624, 'detectable_format:title': 589, 'paragraphs:paragraphs': 538, 'paragraphs:paragraphs2': 453, 'keywords:letter_frequency': 374, 'change_case:capital_word_frequency': 329, 'length_constraints:number_words': 308, 'keywords:frequency': 308, 'letters:letter_counting2': 296}
+
+Metamorphic flips (replacement still passes, grader flips to fail): grader, edit -> checks
+nvidia   blank_line                 62  paragraphs2=35, nth_paragraph_first_word=27
+nvidia   bold@first                176  count_unique=40, first_word_answer=40, first_word_sent=40, start_end=40, nth_paragraph_first_word=11, keyword_specific_position=5
+nvidia   bold@last                  44  count_unique=40, keyword_specific_position=4
+nvidia   bullet                    258  square_brackets=40, first_word_answer=40, first_word_sent=40, start_end=40, nth_paragraph_first_word=40, bigram_wrapping=39, keyword_specific_position=15, count_unique=4
+nvidia   html@first                 32  lowercase_counting=32
+nvidia   html@last                  33  lowercase_counting=33
+nvidia   italics@first             183  count_unique=40, first_word_answer=40, first_word_sent=40, start_end=40, nth_paragraph_first_word=11, number_bullet_lists=6, keyword_specific_position=6
+nvidia   italics@last               45  count_unique=40, keyword_specific_position=4, number_bullet_lists=1
+nvidia   numbered                   59  last_word_sent=40, keyword_specific_position=12, count_unique=7
+nvidia   punct_after@first          90  first_word_answer=40, first_word_sent=40, keyword_specific_position=6, count_unique=4
+nvidia   punct_after@last            4  count_unique=4
+nvidia   typographic_quotes@first  138  first_word_answer=40, first_word_sent=40, start_end=40, nth_paragraph_first_word=11, keyword_specific_position=6, count_unique=1
+nvidia   typographic_quotes@last     4  keyword_specific_position=4
+verifyit blank_line                 39  number_paragraphs=39
+verifyit bullet                    186  first_word_answer=40, first_word_sent=40, start_end=40, nth_paragraph_first_word=40, keyword_specific_position=15, no_adjacent_consecutive=9, sentence_hyphens=1, number_words=1
+verifyit html@first                 15  no_adjacent_consecutive=15
+verifyit html@last                  19  no_adjacent_consecutive=19
+verifyit numbered                   56  last_word_sent=40, keyword_specific_position=12, number_sentences=3, no_adjacent_consecutive=1
+
+Fuzz: 71379 (check, kwargs, text) cases per grader; exceptions:
+  ('nvidia', 'last_word:last_word_answer', 'IndexError') 15 example: ''

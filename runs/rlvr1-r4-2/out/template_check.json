@@ -1,0 +1,382 @@
+{
+ "stats": {
+  "first_word:first_word_answer": {
+   "match": 557
+  },
+  "last_word:last_word_sent": {
+   "match": 600
+  },
+  "detectable_format:sentence_hyphens": {
+   "match": 669
+  },
+  "startend:end_checker": {
+   "match": 537
+  },
+  "change_case:capital_word_frequency": {
+   "match": 601
+  },
+  "keywords:start_end": {
+   "match": 499
+  },
+  "length_constraints:number_words": {
+   "match": 729
+  },
+  "detectable_format:title": {
+   "match": 589
+  },
+  "change_case:english_capital": {
+   "match": 772
+  },
+  "detectable_format:bigram_wrapping": {
+   "match": 575
+  },
+  "detectable_format:multiple_sections": {
+   "match": 453
+  },
+  "keywords:palindrome": {
+   "match": 618
+  },
+  "punctuation:no_comma": {
+   "match": 730
+  },
+  "last_word:last_word_answer": {
+   "match": 625
+  },
+  "copy:repeat_phrase": {
+   "match": 554
+  },
+  "detectable_format:number_highlighted_sections": {
+   "match": 555
+  },
+  "keywords:forbidden_words": {
+   "match": 836
+  },
+  "language:response_language": {
+   "match": 780
+  },
+  "first_word:first_word_sent": {
+   "match": 540
+  },
+  "count:count_unique": {
+   "match": 687
+  },
+  "count:lowercase_counting": {
+   "match": 869
+  },
+  "punctuation:punctuation_exclamation": {
+   "match": 627
+  },
+  "letters:letter_counting": {
+   "match": 497
+  },
+  "change_case:english_lowercase": {
+   "match": 604
+  },
+  "keywords:keyword_specific_position": {
+   "match": 676
+  },
+  "keywords:no_adjacent_consecutive": {
+   "match": 818
+  },
+  "detectable_content:postscript": {
+   "nomatch": 147,
+   "match": 497
+  },
+  "punctuation:punctuation_dot": {
+   "match": 847
+  },
+  "keywords:letter_frequency": {
+   "match": 783
+  },
+  "keywords:frequency": {
+   "match": 607
+  },
+  "detectable_content:number_placeholders": {
+   "match": 585
+  },
+  "detectable_format:square_brackets": {
+   "match": 553
+  },
+  "keywords:word_count_different_numbers": {
+   "match": 526
+  },
+  "letters:letter_counting2": {
+   "match": 705
+  },
+  "keywords:existence": {
+   "match": 932
+  },
+  "detectable_format:number_bullet_lists": {
+   "match": 512
+  },
+  "length_constraints:number_paragraphs": {
+   "match": 690
+  },
+  "combination:two_responses": {
+   "match": 253
+  },
+  "paragraphs:paragraphs": {
+   "match": 576
+  },
+  "paragraphs:paragraphs2": {
+   "match": 744
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "match": 515
+  },
+  "keywords:word_once": {
+   "match": 917
+  },
+  "length_constraints:number_sentences": {
+   "match": 562
+  },
+  "startend:quotation": {
+   "match": 417
+  },
+  "detectable_format:json_format": {
+   "match": 133
+  },
+  "detectable_format:constrained_response": {
+   "match": 120
+  },
+  "count:counting_composition": {
+   "match": 1
+  }
+ },
+ "mismatch_examples": {
+  "detectable_content:postscript": [
+   [
+    "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "52e1effe-7e5d-4256-8ee8-dcf28517b600",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "06ecb13c-7dc8-46fd-92fb-9f17ee28fcfc",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "233d7a23-9a24-47d1-8cfc-3f950be638a2",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "164406a1-004a-4037-96e7-bf0a12fc02d8",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "82d8f8a3-753f-448d-a169-b95c9d666a18",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "0c310228-f0c7-4514-80b5-6d0b8fb4f22d",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "045c666a-a54a-4d63-bd17-c72ac668bcdc",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "1655a4ae-3320-48b1-8a74-62577c7edd50",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "2c15c87f-9b21-4dd3-bc98-2f3cf217d469",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "51cae258-4265-4a02-97dc-a4ac707a20be",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "fcc30f49-cdf0-4997-a316-290075c402fc",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "c04d9b18-c4c5-46df-b08b-a5f5e146a1c5",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "c64cae90-be5f-4642-8b72-8e2e2fac99f6",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "1bbe46db-f226-4bcc-b73f-62c2fee2a865",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "848e2187-5589-4786-a5cf-4c5ed8f92504",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "e64f38c3-722d-465b-b6ae-a3e148f40ce4",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "ae693fba-b4bd-4a46-bf43-68065b01d701",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "0022c491-a22c-492e-90ac-939631657c38",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ],
+   [
+    "ade10276-c3c3-4987-9cd4-f560267cc78b",
+    {
+     "postscript_marker": "P.S."
+    },
+    null
+   ]
+  ]
+ },
+ "language_names": {
+  "bg": {
+   "Bulgarian": 37
+  },
+  "pa": {
+   "Punjabi": 41
+  },
+  "it": {
+   "Italian": 22
+  },
+  "ja": {
+   "Japanese": 20
+  },
+  "hi": {
+   "Hindi": 24
+  },
+  "fi": {
+   "Finnish": 31
+  },
+  "bn": {
+   "Bengali": 24
+  },
+  "ur": {
+   "Urdu": 39
+  },
+  "fr": {
+   "French": 19
+  },
+  "vi": {
+   "Vietnamese": 30
+  },
+  "ne": {
+   "Nepali": 21
+  },
+  "es": {
+   "Spanish": 20
+  },
+  "he": {
+   "Hebrew": 22
+  },
+  "pt": {
+   "Portuguese": 18
+  },
+  "mr": {
+   "Marathi": 18
+  },
+  "ml": {
+   "Malayalam": 36
+  },
+  "th": {
+   "Thai": 19
+  },
+  "pl": {
+   "Polish": 27
+  },
+  "te": {
+   "Telugu": 22
+  },
+  "ru": {
+   "Russian": 22
+  },
+  "fa": {
+   "Persian": 23
+  },
+  "sw": {
+   "Swahili": 17
+  },
+  "uk": {
+   "Ukrainian": 24
+  },
+  "ta": {
+   "Tamil": 44
+  },
+  "ko": {
+   "Korean": 35
+  },
+  "kn": {
+   "Kannada": 28
+  },
+  "ar": {
+   "Arabic": 29
+  },
+  "de": {
+   "German": 24
+  },
+  "gu": {
+   "Gujarati": 29
+  },
+  "en": {
+   "English": 15
+  }
+ }
+}

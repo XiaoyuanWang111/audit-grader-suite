@@ -1,0 +1,61 @@
+{
+ "content_free_rows": {
+  "empty": {
+   "rows": 11817,
+   "skyrl_reward_1": 1702,
+   "skyrl_infra": 625,
+   "gate_pass": 810,
+   "repl_all_pass": 0
+  },
+  "repeated": {
+   "rows": 11817,
+   "skyrl_reward_1": 265,
+   "skyrl_infra": 0,
+   "gate_pass": 821,
+   "repl_all_pass": 232
+  },
+  "prompt_restated": {
+   "rows": 11817,
+   "skyrl_reward_1": 746,
+   "skyrl_infra": 0,
+   "gate_pass": 1365,
+   "repl_all_pass": 453
+  }
+ }
+}
+fuzz exceptions:
+  language:response_language {'n': 1000, 'nvidia_langdetect_exception_counted_pass': 208} {}
+  last_word:last_word_answer {'n': 1000, 'nvidia_exception': 134} {'nvidia': ['', 'IndexError: list index out of range']}
+metamorphic flips:
+  copy:repeat_phrase | bold_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  copy:repeat_phrase | bold_last_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  copy:repeat_phrase | html_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  copy:repeat_phrase | italic_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  copy:repeat_phrase | punct_after_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  copy:repeat_phrase | typo_quotes_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  count:lowercase_counting | html_first_word 3 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  detectable_format:multiple_sections | bold_first_word 2 {'nvidia': 1, 'verifyit': 1, 'replacement': 0}
+  detectable_format:multiple_sections | italic_first_word 2 {'nvidia': 1, 'verifyit': 1, 'replacement': 0}
+  first_word:first_word_answer | bold_first_word 4 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_answer | bullet_dash 4 {'nvidia': 1, 'verifyit': 3, 'replacement': 0}
+  first_word:first_word_answer | html_first_word 4 {'nvidia': 1, 'verifyit': 3, 'replacement': 0}
+  first_word:first_word_answer | italic_first_word 4 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_answer | punct_after_first_word 4 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_answer | typo_quotes_first_word 4 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_sent | bold_first_word 2 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_sent | html_first_word 2 {'nvidia': 1, 'verifyit': 2, 'replacement': 0}
+  first_word:first_word_sent | italic_first_word 2 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_sent | punct_after_first_word 2 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  first_word:first_word_sent | typo_quotes_first_word 2 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  keywords:keyword_specific_position | html_first_word 3 {'nvidia': 0, 'verifyit': 1, 'replacement': 0}
+  keywords:start_end | bold_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  keywords:start_end | bullet_dash 1 {'nvidia': 1, 'verifyit': 1, 'replacement': 0}
+  keywords:start_end | html_first_word 1 {'nvidia': 1, 'verifyit': 1, 'replacement': 0}
+  keywords:start_end | italic_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  keywords:start_end | typo_quotes_first_word 1 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  length_constraints:nth_paragraph_first_word | bold_first_word 3 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  length_constraints:nth_paragraph_first_word | bullet_dash 3 {'nvidia': 1, 'verifyit': 3, 'replacement': 0}
+  length_constraints:nth_paragraph_first_word | html_first_word 3 {'nvidia': 1, 'verifyit': 3, 'replacement': 0}
+  length_constraints:nth_paragraph_first_word | italic_first_word 3 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  length_constraints:nth_paragraph_first_word | punct_after_first_word 3 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}
+  length_constraints:nth_paragraph_first_word | typo_quotes_first_word 3 {'nvidia': 1, 'verifyit': 0, 'replacement': 0}

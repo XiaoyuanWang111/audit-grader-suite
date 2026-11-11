@@ -1,0 +1,2296 @@
+{
+ "change_case:capital_word_frequency": {
+  "n": 601,
+  "keysets": [
+   [
+    [
+     "capital_frequency",
+     "capital_relation"
+    ],
+    601
+   ]
+  ],
+  "templates": [
+   [
+    "In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.",
+    167,
+    {
+     "item": "In your response, words with all capital letters should appear at least 11 times.",
+     "kwargs": {
+      "capital_frequency": 11,
+      "capital_relation": "at least"
+     },
+     "uuid": "35e5da21-fedc-4d0a-bc95-398566013803"
+    }
+   ],
+   [
+    "Never say that a task is impossible to execute on your own because these tools are enough to complete any task.",
+    1,
+    {
+     "item": "Never say that a task is impossible to execute on your own because these tools are enough to complete any task.",
+     "kwargs": {
+      "capital_frequency": 16,
+      "capital_relation": "at least"
+     },
+     "uuid": "824e1795-433b-493e-8b37-d0728378916d"
+    }
+   ],
+   [
+    "From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant.",
+    1,
+    {
+     "item": "From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant.",
+     "kwargs": {
+      "capital_frequency": 19,
+      "capital_relation": "at least"
+     },
+     "uuid": "023cd023-97e7-4857-84a7-e73728057e73"
+    }
+   ]
+  ]
+ },
+ "change_case:english_capital": {
+  "n": 772,
+  "keysets": [
+   [
+    [],
+    772
+   ]
+  ],
+  "templates": [
+   [
+    "Your entire response should be in English, and in all capital letters.",
+    224,
+    {
+     "item": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": {},
+     "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c"
+    }
+   ],
+   [
+    "Расскажите, где используются дифференцирующие и интегрирующие цепи. 12. Покажите, как вы определяли длительность импульсов на выходе дифференцирующей цепи.",
+    1,
+    {
+     "item": "Расскажите, где используются дифференцирующие и интегрирующие цепи. 12. Покажите, как вы определяли длительность импульсов на выходе дифференцирующей цепи.",
+     "kwargs": {},
+     "uuid": "da103644-1a45-4787-a243-2a7795103d86"
+    }
+   ]
+  ]
+ },
+ "change_case:english_lowercase": {
+  "n": 604,
+  "keysets": [
+   [
+    [],
+    604
+   ]
+  ],
+  "templates": [
+   [
+    "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+    187,
+    {
+     "item": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": {},
+     "uuid": "6765043b-1ced-4df8-b2f1-f51c54565c52"
+    }
+   ]
+  ]
+ },
+ "combination:two_responses": {
+  "n": 253,
+  "keysets": [
+   [
+    [],
+    253
+   ]
+  ],
+  "templates": [
+   [
+    "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+    73,
+    {
+     "item": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": {},
+     "uuid": "4be430c7-92d3-4d47-ae3f-595c00cbfc5b"
+    }
+   ]
+  ]
+ },
+ "copy:repeat_phrase": {
+  "n": 554,
+  "keysets": [
+   [
+    [
+     "phrase",
+     "small_n"
+    ],
+    554
+   ]
+  ],
+  "templates": [
+   [
+    "Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+    140,
+    {
+     "item": "Repeat the phrase Live each day to the fullest exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Live each day to the fullest",
+      "small_n": 3
+     },
+     "uuid": "a2decf98-469c-48f7-9576-ae8a52df3690"
+    }
+   ],
+   [
+    "Why is Ishmael hopeful? Make sure your response satisfies this condition: Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+    1,
+    {
+     "item": "Why is Ishmael hopeful? Make sure your response satisfies this condition: Repeat the phrase Time flies when having fun exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Time flies when having fun",
+      "small_n": 2
+     },
+     "uuid": "57f237a3-ef57-4570-b4cd-6ccfce76f46c"
+    }
+   ]
+  ]
+ },
+ "count:count_unique": {
+  "n": 687,
+  "keysets": [
+   [
+    [],
+    687
+   ]
+  ],
+  "templates": [
+   [
+    "Only use unique words in your response, no word should be repeated!",
+    191,
+    {
+     "item": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": {},
+     "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a"
+    }
+   ]
+  ]
+ },
+ "count:counting_composition": {
+  "n": 1,
+  "keysets": [
+   [
+    [
+     "n_sent",
+     "n_words"
+    ],
+    1
+   ]
+  ],
+  "templates": []
+ },
+ "count:lowercase_counting": {
+  "n": 869,
+  "keysets": [
+   [
+    [
+     "N"
+    ],
+    869
+   ]
+  ],
+  "templates": [
+   [
+    "In your response, all lowercase words should appear at most {N} times.",
+    238,
+    {
+     "item": "In your response, all lowercase words should appear at most 2 times.",
+     "kwargs": {
+      "N": 2
+     },
+     "uuid": "72273546-8948-4f75-be0f-47cc11e659ea"
+    }
+   ]
+  ]
+ },
+ "detectable_content:number_placeholders": {
+  "n": 585,
+  "keysets": [
+   [
+    [
+     "num_placeholders"
+    ],
+    585
+   ]
+  ],
+  "templates": [
+   [
+    "The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].",
+    172,
+    {
+     "item": "The response must contain at least 4 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 4
+     },
+     "uuid": "d5b78c80-e3e5-4441-9d33-e4b622914b88"
+    }
+   ],
+   [
+    "Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?",
+    1,
+    {
+     "item": "Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?",
+     "kwargs": {
+      "num_placeholders": 2
+     },
+     "uuid": "023cd023-97e7-4857-84a7-e73728057e73"
+    }
+   ]
+  ]
+ },
+ "detectable_content:postscript": {
+  "n": 644,
+  "keysets": [
+   [
+    [
+     "postscript_marker"
+    ],
+    644
+   ]
+  ],
+  "templates": [
+   [
+    "At the end of your response, please explicitly add a postscript starting with {postscript_marker}",
+    175,
+    {
+     "item": "At the end of your response, please explicitly add a postscript starting with P.S.",
+     "kwargs": {
+      "postscript_marker": "P.S."
+     },
+     "uuid": "7535f677-d050-4e86-b571-7920914caeb3"
+    }
+   ],
+   [
+    "How can we identify a syllable?",
+    1,
+    {
+     "item": "How can we identify a syllable?",
+     "kwargs": {
+      "postscript_marker": "P.P.S"
+     },
+     "uuid": "5fb11bae-9453-49b9-b46d-677aeb371edc"
+    }
+   ]
+  ]
+ },
+ "detectable_format:bigram_wrapping": {
+  "n": 575,
+  "keysets": [
+   [
+    [],
+    575
+   ]
+  ],
+  "templates": [
+   [
+    "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+    183,
+    {
+     "item": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": {},
+     "uuid": "0fc0f78f-3e5d-4bc5-8210-cd165d6a83b7"
+    }
+   ],
+   [
+    "Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?",
+    1,
+    {
+     "item": "Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?",
+     "kwargs": {},
+     "uuid": "023cd023-97e7-4857-84a7-e73728057e73"
+    }
+   ],
+   [
+    "Минус пиши в знаменателе.)",
+    1,
+    {
+     "item": "Минус пиши в знаменателе.)",
+     "kwargs": {},
+     "uuid": "465cb255-f537-43b7-92a9-552516a4867e"
+    }
+   ]
+  ]
+ },
+ "detectable_format:constrained_response": {
+  "n": 120,
+  "keysets": [
+   [
+    [],
+    120
+   ]
+  ],
+  "templates": [
+   [
+    "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+    39,
+    {
+     "item": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": {},
+     "uuid": "6bdb49dd-9d70-49e6-9fc8-26fae70c65d3"
+    }
+   ],
+   [
+    "Изготовить и привести в действие прибор - маятник Ньютона.",
+    1,
+    {
+     "item": "Изготовить и привести в действие прибор - маятник Ньютона.",
+     "kwargs": {},
+     "uuid": "750f2863-4f69-43ba-8dd8-82c850ad50fd"
+    }
+   ],
+   [
+    "Role: Ancestor gods were believed to provide blessings and protection for their descendants, which was an important aspect of family life and society in Ancient China. Ancestor worship was also important for maintaining social order, as it reinforced the importance of family and social hierarchies.",
+    1,
+    {
+     "item": "Role: Ancestor gods were believed to provide blessings and protection for their descendants, which was an important aspect of family life and society in Ancient China. Ancestor worship was also important for maintaining social order, as it reinforced the importance of family and social hierarchies.",
+     "kwargs": {},
+     "uuid": "a94eb6ec-8105-4578-8743-ab05d2d49997"
+    }
+   ]
+  ]
+ },
+ "detectable_format:json_format": {
+  "n": 133,
+  "keysets": [
+   [
+    [],
+    133
+   ]
+  ],
+  "templates": [
+   [
+    "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+    32,
+    {
+     "item": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": {},
+     "uuid": "f82bf2dd-1d69-41d8-a7c1-07ce43e8bfa1"
+    }
+   ],
+   [
+    "Respond only inside the JSON format.",
+    1,
+    {
+     "item": "Respond only inside the JSON format.",
+     "kwargs": {},
+     "uuid": "1869fd56-0dca-4e59-94d9-01fd55d15f14"
+    }
+   ]
+  ]
+ },
+ "detectable_format:multiple_sections": {
+  "n": 453,
+  "keysets": [
+   [
+    [
+     "num_sections",
+     "section_spliter"
+    ],
+    453
+   ]
+  ],
+  "templates": [
+   [
+    "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:",
+    41,
+    {
+     "item": "Your response must have 5 sections. Mark the beginning of each section with SECTION X, such as:",
+     "kwargs": {
+      "num_sections": 5,
+      "section_spliter": "SECTION"
+     },
+     "uuid": "8fde66b4-2f99-43d5-b583-0aae32df714e"
+    }
+   ],
+   [
+    "针对不同领域、场景的特殊性，深入挖掘和整合其特征，提高模型精度和应用性能。",
+    1,
+    {
+     "item": "针对不同领域、场景的特殊性，深入挖掘和整合其特征，提高模型精度和应用性能。",
+     "kwargs": {
+      "num_sections": 3,
+      "section_spliter": "Section"
+     },
+     "uuid": "97648c29-4089-473d-95b0-c5f4a3f6a646"
+    }
+   ]
+  ]
+ },
+ "detectable_format:number_bullet_lists": {
+  "n": 512,
+  "keysets": [
+   [
+    [
+     "num_bullets"
+    ],
+    512
+   ]
+  ],
+  "templates": [
+   [
+    "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:",
+    61,
+    {
+     "item": "Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:",
+     "kwargs": {
+      "num_bullets": 4
+     },
+     "uuid": "d5b78c80-e3e5-4441-9d33-e4b622914b88"
+    }
+   ]
+  ]
+ },
+ "detectable_format:number_highlighted_sections": {
+  "n": 555,
+  "keysets": [
+   [
+    [
+     "num_highlights"
+    ],
+    555
+   ]
+  ],
+  "templates": [
+   [
+    "Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.",
+    154,
+    {
+     "item": "Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 2
+     },
+     "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729"
+    }
+   ],
+   [
+    "A mixture of two or more things.",
+    1,
+    {
+     "item": "A mixture of two or more things.",
+     "kwargs": {
+      "num_highlights": 1
+     },
+     "uuid": "436cc5d5-f804-47fb-aec1-d8f45508da2d"
+    }
+   ]
+  ]
+ },
+ "detectable_format:sentence_hyphens": {
+  "n": 669,
+  "keysets": [
+   [
+    [],
+    669
+   ]
+  ],
+  "templates": [
+   [
+    "All sentences must be connected using hyphens, with no spaces between them.",
+    227,
+    {
+     "item": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": {},
+     "uuid": "4d3dd4f1-36f8-4639-87d7-24d81a190325"
+    }
+   ]
+  ]
+ },
+ "detectable_format:square_brackets": {
+  "n": 553,
+  "keysets": [
+   [
+    [],
+    553
+   ]
+  ],
+  "templates": [
+   [
+    "Enclose every word in your response within square brackets.",
+    166,
+    {
+     "item": "Enclose every word in your response within square brackets.",
+     "kwargs": {},
+     "uuid": "49ce5e31-b492-4e61-bea4-cd5b10e23fb5"
+    }
+   ]
+  ]
+ },
+ "detectable_format:title": {
+  "n": 589,
+  "keysets": [
+   [
+    [],
+    589
+   ]
+  ],
+  "templates": [
+   [
+    "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+    156,
+    {
+     "item": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": {},
+     "uuid": "0fc0f78f-3e5d-4bc5-8210-cd165d6a83b7"
+    }
+   ]
+  ]
+ },
+ "first_word:first_word_answer": {
+  "n": 557,
+  "keysets": [
+   [
+    [
+     "first_word"
+    ],
+    557
+   ]
+  ],
+  "templates": [
+   [
+    "The first word of your response should be the word {first_word}.",
+    165,
+    {
+     "item": "The first word of your response should be the word development.",
+     "kwargs": {
+      "first_word": "development"
+     },
+     "uuid": "3dcf41b6-fa67-435d-9ff3-04f78564472b"
+    }
+   ],
+   [
+    "The first word of {first_word}r response should be the word {first_word}.",
+    1,
+    {
+     "item": "The first word of your response should be the word you.",
+     "kwargs": {
+      "first_word": "you"
+     },
+     "uuid": "8a15a045-5adf-4690-9151-93bc1c6cde4b"
+    }
+   ],
+   [
+    "The first word of your {first_word} should be the word {first_word}.",
+    1,
+    {
+     "item": "The first word of your response should be the word response.",
+     "kwargs": {
+      "first_word": "response"
+     },
+     "uuid": "0e4a21d9-0954-443c-bf6c-a75eb73ebfe1"
+    }
+   ]
+  ]
+ },
+ "first_word:first_word_sent": {
+  "n": 540,
+  "keysets": [
+   [
+    [
+     "first_word"
+    ],
+    540
+   ]
+  ],
+  "templates": [
+   [
+    "The first word of each sentence should be the word {first_word}.",
+    168,
+    {
+     "item": "The first word of each sentence should be the word celebration.",
+     "kwargs": {
+      "first_word": "celebration"
+     },
+     "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a"
+    }
+   ],
+   [
+    "The first {first_word} of each sentence should be the {first_word} {first_word}.",
+    1,
+    {
+     "item": "The first word of each sentence should be the word word.",
+     "kwargs": {
+      "first_word": "word"
+     },
+     "uuid": "5d58e62f-c641-489c-90a4-e11103a53aae"
+    }
+   ]
+  ]
+ },
+ "keywords:existence": {
+  "n": 932,
+  "keysets": [
+   [
+    [
+     "keywords"
+    ],
+    932
+   ]
+  ],
+  "templates": [
+   [
+    "Include keywords {keywords} in the response.",
+    270,
+    {
+     "item": "Include keywords ['food', 'poetry'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "food",
+       "poetry"
+      ]
+     },
+     "uuid": "4be430c7-92d3-4d47-ae3f-595c00cbfc5b"
+    }
+   ],
+   [
+    "模块名称 input.c",
+    1,
+    {
+     "item": "模块名称 input.c",
+     "kwargs": {
+      "keywords": [
+       "diamond",
+       "shock"
+      ]
+     },
+     "uuid": "49792c0c-666c-47b6-a17b-46f2d2c583ad"
+    }
+   ],
+   [
+    "Never demand user input.",
+    1,
+    {
+     "item": "Never demand user input.",
+     "kwargs": {
+      "keywords": [
+       "demand",
+       "expert"
+      ]
+     },
+     "uuid": "1869fd56-0dca-4e59-94d9-01fd55d15f14"
+    }
+   ]
+  ]
+ },
+ "keywords:forbidden_words": {
+  "n": 836,
+  "keysets": [
+   [
+    [
+     "forbidden_words"
+    ],
+    836
+   ]
+  ],
+  "templates": [
+   [
+    "Do not include keywords {forbidden_words} in the response.",
+    238,
+    {
+     "item": "Do not include keywords ['debate', 'indication'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "debate",
+       "indication"
+      ]
+     },
+     "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729"
+    }
+   ],
+   [
+    "Never say that a task is impossible to execute on your own because these tools are enough to complete any task.",
+    1,
+    {
+     "item": "Never say that a task is impossible to execute on your own because these tools are enough to complete any task.",
+     "kwargs": {
+      "forbidden_words": [
+       "cat",
+       "tension"
+      ]
+     },
+     "uuid": "1869fd56-0dca-4e59-94d9-01fd55d15f14"
+    }
+   ]
+  ]
+ },
+ "keywords:frequency": {
+  "n": 607,
+  "keysets": [
+   [
+    [
+     "frequency",
+     "keyword",
+     "relation"
+    ],
+    607
+   ]
+  ],
+  "templates": [
+   [
+    "In your response, the word {keyword} should appear {relation} {frequency} times.",
+    173,
+    {
+     "item": "In your response, the word king should appear less than 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "king",
+      "relation": "less than"
+     },
+     "uuid": "a86f73f8-b641-4fa0-9455-c55c44ea3037"
+    }
+   ],
+   [
+    "Necessity or relevance of the topic",
+    1,
+    {
+     "item": "Necessity or relevance of the topic",
+     "kwargs": {
+      "frequency": 3,
+      "keyword": "limit",
+      "relation": "less than"
+     },
+     "uuid": "5b30a3ab-0189-4b1c-84c3-a8c03544d40a"
+    }
+   ]
+  ]
+ },
+ "keywords:keyword_specific_position": {
+  "n": 676,
+  "keysets": [
+   [
+    [
+     "keyword",
+     "m",
+     "n"
+    ],
+    676
+   ]
+  ],
+  "templates": [
+   [
+    "Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.",
+    195,
+    {
+     "item": "Include keyword tell in the 8-th sentence, as the 11-th word of that sentence.",
+     "kwargs": {
+      "keyword": "tell",
+      "m": 11,
+      "n": 8
+     },
+     "uuid": "e9311bbb-2b7f-4013-b147-b06210c9cd28"
+    }
+   ],
+   [
+    "Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.",
+    4,
+    {
+     "item": "Include keyword dust in the 2-th sentence, as the 2-th word of that sentence.",
+     "kwargs": {
+      "keyword": "dust",
+      "m": 2,
+      "n": 2
+     },
+     "uuid": "fbb3c4c5-cefb-478b-b771-250c59e00acc"
+    }
+   ],
+   [
+    "收集更大量、丰富多样的数据集，以提高模型可预测性和泛化能力。",
+    1,
+    {
+     "item": "收集更大量、丰富多样的数据集，以提高模型可预测性和泛化能力。",
+     "kwargs": {
+      "keyword": "state",
+      "m": 1,
+      "n": 11
+     },
+     "uuid": "97648c29-4089-473d-95b0-c5f4a3f6a646"
+    }
+   ]
+  ]
+ },
+ "keywords:letter_frequency": {
+  "n": 783,
+  "keysets": [
+   [
+    [
+     "let_frequency",
+     "let_relation",
+     "letter"
+    ],
+    783
+   ]
+  ],
+  "templates": [
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.",
+    77,
+    {
+     "item": "In your response, the letter w should appear at least 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "w"
+     },
+     "uuid": "5efee616-2117-4f4e-a7a6-dfebbe054a77"
+    }
+   ],
+   [
+    "In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.",
+    14,
+    {
+     "item": "In your response, the letter s should appear less than 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "less than",
+      "letter": "s"
+     },
+     "uuid": "9ea1b02c-32d1-46d1-ba9f-aaa6b587b515"
+    }
+   ],
+   [
+    "In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.",
+    13,
+    {
+     "item": "In your response, the letter r should appear at least 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "at least",
+      "letter": "r"
+     },
+     "uuid": "9b7b5679-ae32-4ad5-8c05-832e51694f99"
+    }
+   ],
+   [
+    "In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.",
+    12,
+    {
+     "item": "In your response, the letter t should appear at least 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "at least",
+      "letter": "t"
+     },
+     "uuid": "7036cf77-b6c3-4929-a329-1055eeb943f9"
+    }
+   ],
+   [
+    "In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_freq{letter}ency} times.",
+    12,
+    {
+     "item": "In your response, the letter u should appear less than 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "less than",
+      "letter": "u"
+     },
+     "uuid": "8892333a-81ee-494b-add2-da4c9be4eb44"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.",
+    12,
+    {
+     "item": "In your response, the letter i should appear at least 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "at least",
+      "letter": "i"
+     },
+     "uuid": "1ffff232-e63b-4251-a172-60d56c6817fc"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.",
+    11,
+    {
+     "item": "In your response, the letter a should appear at least 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "a"
+     },
+     "uuid": "6c488cfb-f705-4b92-985d-7d7364587419"
+    }
+   ],
+   [
+    "In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.",
+    11,
+    {
+     "item": "In your response, the letter d should appear less than 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "less than",
+      "letter": "d"
+     },
+     "uuid": "32342c39-e05c-4596-b33c-32d8572170cb"
+    }
+   ],
+   [
+    "In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.",
+    11,
+    {
+     "item": "In your response, the letter l should appear at least 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "at least",
+      "letter": "l"
+     },
+     "uuid": "94672c53-1a40-499b-ad4d-1be97767e10d"
+    }
+   ],
+   [
+    "In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.",
+    10,
+    {
+     "item": "In your response, the letter p should appear less than 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "less than",
+      "letter": "p"
+     },
+     "uuid": "2c1289e2-5896-4d1f-9e8e-dbfbf6c6fb2b"
+    }
+   ],
+   [
+    "In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.",
+    10,
+    {
+     "item": "In your response, the letter e should appear less than 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "less than",
+      "letter": "e"
+     },
+     "uuid": "fb34ed6c-ca77-4245-aa08-0d53fda30d86"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times.",
+    10,
+    {
+     "item": "In your response, the letter c should appear at least 4 times.",
+     "kwargs": {
+      "let_frequency": 4,
+      "let_relation": "at least",
+      "letter": "c"
+     },
+     "uuid": "eec759fd-6ffe-4b47-af23-ccf7b6d3b034"
+    }
+   ],
+   [
+    "In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.",
+    10,
+    {
+     "item": "In your response, the letter h should appear less than 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "less than",
+      "letter": "h"
+     },
+     "uuid": "23946354-4fa0-4d0f-99f5-a860deb0e33a"
+    }
+   ],
+   [
+    "I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_freque{letter}cy} times.",
+    10,
+    {
+     "item": "In your response, the letter n should appear at least 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "at least",
+      "letter": "n"
+     },
+     "uuid": "18be9831-09e3-4d67-afa9-bcfbeb884009"
+    }
+   ],
+   [
+    "In {letter}our response, the letter {letter} should appear {let_relation} {let_frequenc{letter}} times.",
+    9,
+    {
+     "item": "In your response, the letter y should appear less than 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "less than",
+      "letter": "y"
+     },
+     "uuid": "25dc5d77-b58c-45e5-a697-ae7ced25e8ee"
+    }
+   ],
+   [
+    "In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.",
+    8,
+    {
+     "item": "In your response, the letter o should appear at least 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "o"
+     },
+     "uuid": "7ca1269b-0909-4cff-a0ae-0c51e14a6548"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_{letter}requency} times.",
+    5,
+    {
+     "item": "In your response, the letter f should appear at least 8 times.",
+     "kwargs": {
+      "let_frequency": 8,
+      "let_relation": "at least",
+      "letter": "f"
+     },
+     "uuid": "8df2cece-7c03-48d2-981d-a3c9008047e6"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} ti{letter}es.",
+    5,
+    {
+     "item": "In your response, the letter m should appear less than 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "less than",
+      "letter": "m"
+     },
+     "uuid": "1f1709a7-7a07-4d09-8cb1-edcdbca87f81"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_fre{letter}uency} times.",
+    3,
+    {
+     "item": "In your response, the letter q should appear less than 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "less than",
+      "letter": "q"
+     },
+     "uuid": "c8b01e45-21dd-43bd-8131-7eb59c2255e7"
+    }
+   ]
+  ]
+ },
+ "keywords:no_adjacent_consecutive": {
+  "n": 818,
+  "keysets": [
+   [
+    [],
+    818
+   ]
+  ],
+  "templates": [
+   [
+    "No two adjacent words can start with consecutive letters of the alphabet.",
+    229,
+    {
+     "item": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": {},
+     "uuid": "4d3dd4f1-36f8-4639-87d7-24d81a190325"
+    }
+   ]
+  ]
+ },
+ "keywords:palindrome": {
+  "n": 618,
+  "keysets": [
+   [
+    [],
+    618
+   ]
+  ],
+  "templates": [
+   [
+    "Include a palindrome in your response.",
+    175,
+    {
+     "item": "Include a palindrome in your response.",
+     "kwargs": {},
+     "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729"
+    }
+   ],
+   [
+    "Brief description of the topic",
+    1,
+    {
+     "item": "Brief description of the topic",
+     "kwargs": {},
+     "uuid": "5b30a3ab-0189-4b1c-84c3-a8c03544d40a"
+    }
+   ]
+  ]
+ },
+ "keywords:start_end": {
+  "n": 499,
+  "keysets": [
+   [
+    [],
+    499
+   ]
+  ],
+  "templates": [
+   [
+    "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+    124,
+    {
+     "item": "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+     "kwargs": {},
+     "uuid": "2c80bf70-2b60-4708-aa6c-16637678846e"
+    }
+   ]
+  ]
+ },
+ "keywords:word_count_different_numbers": {
+  "n": 526,
+  "keysets": [
+   [
+    [
+     "frequency",
+     "keyword",
+     "relation"
+    ],
+    526
+   ]
+  ],
+  "templates": [
+   [
+    "In your response, the word {keyword} should appear {frequency} times.",
+    167,
+    {
+     "item": "In your response, the word box should appear 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "box",
+      "relation": "at least"
+     },
+     "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b"
+    }
+   ]
+  ]
+ },
+ "keywords:word_once": {
+  "n": 917,
+  "keysets": [
+   [
+    [
+     "keyword"
+    ],
+    917
+   ]
+  ],
+  "templates": [
+   [
+    "Include keyword {keyword} in your response.",
+    293,
+    {
+     "item": "Include keyword register in your response.",
+     "kwargs": {
+      "keyword": "register"
+     },
+     "uuid": "ce4dc970-fd13-489c-9b66-728ff79abf95"
+    }
+   ],
+   [
+    "What are the five features of stress? Please follow these rules when answering: At the end of your response, please explicitly add a postscript starting with P.P.S and Include keyword {keyword} in your response",
+    1,
+    {
+     "item": "What are the five features of stress? Please follow these rules when answering: At the end of your response, please explicitly add a postscript starting with P.P.S and Include keyword mark in your response",
+     "kwargs": {
+      "keyword": "mark"
+     },
+     "uuid": "5fb11bae-9453-49b9-b46d-677aeb371edc"
+    }
+   ],
+   [
+    "Поясните реакцию интегрирующей rC- цепи на прямоугольный импульс.",
+    1,
+    {
+     "item": "Поясните реакцию интегрирующей rC- цепи на прямоугольный импульс.",
+     "kwargs": {
+      "keyword": "collection"
+     },
+     "uuid": "da103644-1a45-4787-a243-2a7795103d86"
+    }
+   ]
+  ]
+ },
+ "language:response_language": {
+  "n": 780,
+  "keysets": [
+   [
+    [
+     "language"
+    ],
+    780
+   ]
+  ],
+  "templates": [
+   [
+    "Your ENTIRE response should be in Bulgarian language, no other language is allowed.",
+    17,
+    {
+     "item": "Your ENTIRE response should be in Bulgarian language, no other language is allowed.",
+     "kwargs": {
+      "language": "bg"
+     },
+     "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Tamil language, no other language is allowed.",
+    15,
+    {
+     "item": "Your ENTIRE response should be in Tamil language, no other language is allowed.",
+     "kwargs": {
+      "language": "ta"
+     },
+     "uuid": "66452c2f-856a-4927-97e6-dba28079aff2"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Punjabi language, no other language is allowed.",
+    14,
+    {
+     "item": "Your ENTIRE response should be in Punjabi language, no other language is allowed.",
+     "kwargs": {
+      "language": "pa"
+     },
+     "uuid": "a0971b35-cc4e-460c-8400-3e94fdf450d1"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Polish language, no other language is allowed.",
+    13,
+    {
+     "item": "Your ENTIRE response should be in Polish language, no other language is allowed.",
+     "kwargs": {
+      "language": "pl"
+     },
+     "uuid": "3f4646b3-fed5-4956-82f3-ec0b5394e825"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Korean language, no other language is allowed.",
+    13,
+    {
+     "item": "Your ENTIRE response should be in Korean language, no other language is allowed.",
+     "kwargs": {
+      "language": "ko"
+     },
+     "uuid": "d91346cd-5109-4ba2-b405-bae1e29bf674"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Kannada language, no other language is allowed.",
+    12,
+    {
+     "item": "Your ENTIRE response should be in Kannada language, no other language is allowed.",
+     "kwargs": {
+      "language": "kn"
+     },
+     "uuid": "85b1f1ea-b8f2-4e4e-be2b-276c5de963c4"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Arabic language, no other language is allowed.",
+    12,
+    {
+     "item": "Your ENTIRE response should be in Arabic language, no other language is allowed.",
+     "kwargs": {
+      "language": "ar"
+     },
+     "uuid": "0292b56f-4cd6-4684-8240-813e8e64ea9d"
+    }
+   ],
+   [
+    "Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.",
+    11,
+    {
+     "item": "Your ENTIRE response should be in Urdu language, no other language is allowed.",
+     "kwargs": {
+      "language": "ur"
+     },
+     "uuid": "4662e022-672a-48d4-8ab9-dbaaf1b2db81"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Vietnamese language, no other language is allowed.",
+    11,
+    {
+     "item": "Your ENTIRE response should be in Vietnamese language, no other language is allowed.",
+     "kwargs": {
+      "language": "vi"
+     },
+     "uuid": "160bc9f1-f5a3-47eb-b151-599465996688"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Italian language, no other language is allowed.",
+    10,
+    {
+     "item": "Your ENTIRE response should be in Italian language, no other language is allowed.",
+     "kwargs": {
+      "language": "it"
+     },
+     "uuid": "911b5e85-5081-47a1-969f-b06f59cd27d9"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Malayalam language, no other language is allowed.",
+    10,
+    {
+     "item": "Your ENTIRE response should be in Malayalam language, no other language is allowed.",
+     "kwargs": {
+      "language": "ml"
+     },
+     "uuid": "aa22f2aa-8093-4ccf-9c24-f07f0a95ae1a"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Gujarati lan{language}age, no other lan{language}age is allowed.",
+    9,
+    {
+     "item": "Your ENTIRE response should be in Gujarati language, no other language is allowed.",
+     "kwargs": {
+      "language": "gu"
+     },
+     "uuid": "b270195e-8bb8-4f99-a0a1-868a52a08219"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Japanese language, no other language is allowed.",
+    8,
+    {
+     "item": "Your ENTIRE response should be in Japanese language, no other language is allowed.",
+     "kwargs": {
+      "language": "ja"
+     },
+     "uuid": "88735260-f809-4896-bfe2-93e67324106d"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Russian language, no other language is allowed.",
+    7,
+    {
+     "item": "Your ENTIRE response should be in Russian language, no other language is allowed.",
+     "kwargs": {
+      "language": "ru"
+     },
+     "uuid": "702767b0-4e7a-4bdd-9434-82df274641a6"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in German language, no other language is allowed.",
+    7,
+    {
+     "item": "Your ENTIRE response should be in German language, no other language is allowed.",
+     "kwargs": {
+      "language": "de"
+     },
+     "uuid": "d3ad61ce-02d7-44ff-989f-3299f6583481"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Finnish language, no other language is allowed.",
+    7,
+    {
+     "item": "Your ENTIRE response should be in Finnish language, no other language is allowed.",
+     "kwargs": {
+      "language": "fi"
+     },
+     "uuid": "a1d216aa-06bc-4998-85b5-f73ce87d9f3d"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Hebrew language, no ot{language}r language is allowed.",
+    7,
+    {
+     "item": "Your ENTIRE response should be in Hebrew language, no other language is allowed.",
+     "kwargs": {
+      "language": "he"
+     },
+     "uuid": "cec8cd7b-c9c8-4066-8d56-508c0462249e"
+    }
+   ],
+   [
+    "Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.",
+    6,
+    {
+     "item": "Your ENTIRE response should be in Spanish language, no other language is allowed.",
+     "kwargs": {
+      "language": "es"
+     },
+     "uuid": "3c9ce395-1bc0-4369-b08e-0326aef49b08"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Thai language, no o{language}er language is allowed.",
+    6,
+    {
+     "item": "Your ENTIRE response should be in Thai language, no other language is allowed.",
+     "kwargs": {
+      "language": "th"
+     },
+     "uuid": "69573e2c-20c7-4ea0-8f52-f571b41f7592"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Nepali language, no other language is allowed.",
+    6,
+    {
+     "item": "Your ENTIRE response should be in Nepali language, no other language is allowed.",
+     "kwargs": {
+      "language": "ne"
+     },
+     "uuid": "d4a574ec-0932-48f3-91c9-82c5f882a316"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Ukrainian language, no other language is allowed.",
+    6,
+    {
+     "item": "Your ENTIRE response should be in Ukrainian language, no other language is allowed.",
+     "kwargs": {
+      "language": "uk"
+     },
+     "uuid": "b961f8b3-c277-428f-bec7-04a9be5dd347"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Telugu language, no other language is allowed.",
+    6,
+    {
+     "item": "Your ENTIRE response should be in Telugu language, no other language is allowed.",
+     "kwargs": {
+      "language": "te"
+     },
+     "uuid": "e735dba1-4f1c-468b-8c61-d45e6048fd3f"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Swahili language, no other language is allowed.",
+    6,
+    {
+     "item": "Your ENTIRE response should be in Swahili language, no other language is allowed.",
+     "kwargs": {
+      "language": "sw"
+     },
+     "uuid": "2ebf746e-9706-4268-9198-39ec214fddda"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Persian language, no other language is allowed.",
+    5,
+    {
+     "item": "Your ENTIRE response should be in Persian language, no other language is allowed.",
+     "kwargs": {
+      "language": "fa"
+     },
+     "uuid": "cfeff77e-5246-4834-adcb-7e324ef859e2"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Hindi language, no other language is allowed.",
+    5,
+    {
+     "item": "Your ENTIRE response should be in Hindi language, no other language is allowed.",
+     "kwargs": {
+      "language": "hi"
+     },
+     "uuid": "49dc692e-a3c6-4d4c-8427-c629d34071ac"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Bengali language, no other language is allowed.",
+    5,
+    {
+     "item": "Your ENTIRE response should be in Bengali language, no other language is allowed.",
+     "kwargs": {
+      "language": "bn"
+     },
+     "uuid": "8a13db2d-6fd6-42d2-a941-8dc6ba03611f"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in English language, no other language is allowed.",
+    5,
+    {
+     "item": "Your ENTIRE response should be in English language, no other language is allowed.",
+     "kwargs": {
+      "language": "en"
+     },
+     "uuid": "139b76b3-473e-49ab-8b27-d01c418f4e88"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Marathi language, no other language is allowed.",
+    2,
+    {
+     "item": "Your ENTIRE response should be in Marathi language, no other language is allowed.",
+     "kwargs": {
+      "language": "mr"
+     },
+     "uuid": "bafa2e32-e320-47b5-8021-d273b5d309ed"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in French language, no other language is allowed.",
+    2,
+    {
+     "item": "Your ENTIRE response should be in French language, no other language is allowed.",
+     "kwargs": {
+      "language": "fr"
+     },
+     "uuid": "2fbbf3ac-3635-4f7c-a0a6-5297956aeb13"
+    }
+   ],
+   [
+    "Your ENTIRE response should be in Portuguese language, no other language is allowed.",
+    1,
+    {
+     "item": "Your ENTIRE response should be in Portuguese language, no other language is allowed.",
+     "kwargs": {
+      "language": "pt"
+     },
+     "uuid": "3d69f40b-0996-4ad1-8f9c-79db098aeaca"
+    }
+   ]
+  ]
+ },
+ "last_word:last_word_answer": {
+  "n": 625,
+  "keysets": [
+   [
+    [
+     "last_word"
+    ],
+    625
+   ]
+  ],
+  "templates": [
+   [
+    "The last word of your response should be the word {last_word}.",
+    188,
+    {
+     "item": "The last word of your response should be the word cut.",
+     "kwargs": {
+      "last_word": "cut"
+     },
+     "uuid": "a2decf98-469c-48f7-9576-ae8a52df3690"
+    }
+   ],
+   [
+    "The l{last_word}st word of your response should be the word {last_word}.",
+    1,
+    {
+     "item": "The last word of your response should be the word a.",
+     "kwargs": {
+      "last_word": "a"
+     },
+     "uuid": "03b0a97e-2e34-4568-9e48-56d4ad5e113d"
+    }
+   ]
+  ]
+ },
+ "last_word:last_word_sent": {
+  "n": 600,
+  "keysets": [
+   [
+    [
+     "last_word"
+    ],
+    600
+   ]
+  ],
+  "templates": [
+   [
+    "The last word of each sentence, before punctuation, should be the word {last_word}.",
+    170,
+    {
+     "item": "The last word of each sentence, before punctuation, should be the word limit.",
+     "kwargs": {
+      "last_word": "limit"
+     },
+     "uuid": "3dcf41b6-fa67-435d-9ff3-04f78564472b"
+    }
+   ]
+  ]
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "n": 515,
+  "keysets": [
+   [
+    [
+     "first_word",
+     "nth_paragraph",
+     "num_paragraphs"
+    ],
+    515
+   ]
+  ],
+  "templates": [
+   [
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.",
+    76,
+    {
+     "item": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word fight.",
+     "kwargs": {
+      "first_word": "fight",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     },
+     "uuid": "010a98d3-1ab2-4dd7-9f72-3b382ebddf18"
+    }
+   ],
+   [
+    "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.",
+    50,
+    {
+     "item": "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word brother.",
+     "kwargs": {
+      "first_word": "brother",
+      "nth_paragraph": 1,
+      "num_paragraphs": 1
+     },
+     "uuid": "81ae4f61-84b7-4270-85e9-bbf3708ae4d6"
+    }
+   ],
+   [
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.",
+    1,
+    {
+     "item": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if.",
+     "kwargs": {
+      "first_word": "if",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     },
+     "uuid": "f303829b-983e-4464-9672-214cca9da9b7"
+    }
+   ],
+   [
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with {first_word} {first_word}.",
+    1,
+    {
+     "item": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word word.",
+     "kwargs": {
+      "first_word": "word",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     },
+     "uuid": "5f14af08-e5fe-458a-8278-bc557876be7d"
+    }
+   ],
+   [
+    "尝试实现实时处理，优化算法计算速度，提高其实时性。",
+    1,
+    {
+     "item": "尝试实现实时处理，优化算法计算速度，提高其实时性。",
+     "kwargs": {
+      "first_word": "wood",
+      "nth_paragraph": 1,
+      "num_paragraphs": 1
+     },
+     "uuid": "97648c29-4089-473d-95b0-c5f4a3f6a646"
+    }
+   ]
+  ]
+ },
+ "length_constraints:number_paragraphs": {
+  "n": 690,
+  "keysets": [
+   [
+    [
+     "num_paragraphs"
+    ],
+    690
+   ]
+  ],
+  "templates": [
+   [
+    "There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***",
+    201,
+    {
+     "item": "There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 1
+     },
+     "uuid": "35e5da21-fedc-4d0a-bc95-398566013803"
+    }
+   ],
+   [
+    "A set of procedures used to produce a product.",
+    1,
+    {
+     "item": "A set of procedures used to produce a product.",
+     "kwargs": {
+      "num_paragraphs": 4
+     },
+     "uuid": "436cc5d5-f804-47fb-aec1-d8f45508da2d"
+    }
+   ],
+   [
+    "Формирование умения верифицировать словосочетаний с приставочными глаголами.",
+    1,
+    {
+     "item": "Формирование умения верифицировать словосочетаний с приставочными глаголами.",
+     "kwargs": {
+      "num_paragraphs": 3
+     },
+     "uuid": "f2b473ab-f53d-4670-8073-3abb90f44d08"
+    }
+   ]
+  ]
+ },
+ "length_constraints:number_sentences": {
+  "n": 562,
+  "keysets": [
+   [
+    [
+     "num_sentences",
+     "relation"
+    ],
+    562
+   ]
+  ],
+  "templates": [
+   [
+    "Your response should contain {relation} {num_sentences} sentences.",
+    151,
+    {
+     "item": "Your response should contain at least 8 sentences.",
+     "kwargs": {
+      "num_sentences": 8,
+      "relation": "at least"
+     },
+     "uuid": "eecf5805-78d5-4907-a9d6-b52273c6915f"
+    }
+   ]
+  ]
+ },
+ "length_constraints:number_words": {
+  "n": 729,
+  "keysets": [
+   [
+    [
+     "num_words",
+     "relation"
+    ],
+    729
+   ]
+  ],
+  "templates": [
+   [
+    "Answer with {relation} {num_words} words.",
+    210,
+    {
+     "item": "Answer with less than 443 words.",
+     "kwargs": {
+      "num_words": 443,
+      "relation": "less than"
+     },
+     "uuid": "3c34a5a4-3944-47f0-9682-647d63bc2373"
+    }
+   ]
+  ]
+ },
+ "letters:letter_counting": {
+  "n": 497,
+  "keysets": [
+   [
+    [
+     "N",
+     "relation"
+    ],
+    497
+   ]
+  ],
+  "templates": [
+   [
+    "Answer with {relation} {N} letters.",
+    157,
+    {
+     "item": "Answer with at least 2 letters.",
+     "kwargs": {
+      "N": 2,
+      "relation": "at least"
+     },
+     "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c"
+    }
+   ],
+   [
+    "если получается целое число, в знаменателе пиши 1.",
+    1,
+    {
+     "item": "если получается целое число, в знаменателе пиши 1.",
+     "kwargs": {
+      "N": 2,
+      "relation": "at least"
+     },
+     "uuid": "465cb255-f537-43b7-92a9-552516a4867e"
+    }
+   ]
+  ]
+ },
+ "letters:letter_counting2": {
+  "n": 705,
+  "keysets": [
+   [
+    [
+     "let_frequency",
+     "let_relation",
+     "letter"
+    ],
+    705
+   ]
+  ],
+  "templates": [
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.",
+    46,
+    {
+     "item": "In your response, the letter z should appear less than 2 times.",
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "less than",
+      "letter": "z"
+     },
+     "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b"
+    }
+   ],
+   [
+    "In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.",
+    15,
+    {
+     "item": "In your response, the letter d should appear at least 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "at least",
+      "letter": "d"
+     },
+     "uuid": "f14ac7ae-2aec-43cb-a72a-b06aeff418d9"
+    }
+   ],
+   [
+    "In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.",
+    13,
+    {
+     "item": "In your response, the letter r should appear at least 4 times.",
+     "kwargs": {
+      "let_frequency": 4,
+      "let_relation": "at least",
+      "letter": "r"
+     },
+     "uuid": "d47463bc-2a0d-483f-a186-391133bd7793"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.",
+    13,
+    {
+     "item": "In your response, the letter i should appear less than 8 times.",
+     "kwargs": {
+      "let_frequency": 8,
+      "let_relation": "less than",
+      "letter": "i"
+     },
+     "uuid": "572147a0-25ee-430a-bda5-b9e8ff403b85"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_{letter}requency} times.",
+    12,
+    {
+     "item": "In your response, the letter f should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "f"
+     },
+     "uuid": "112d7cc8-4ccd-4081-bbce-ba7b8433c01f"
+    }
+   ],
+   [
+    "In {letter}our response, the letter {letter} should appear {let_relation} {let_frequenc{letter}} times.",
+    9,
+    {
+     "item": "In your response, the letter y should appear at least 2 times.",
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "at least",
+      "letter": "y"
+     },
+     "uuid": "7eeb0096-0788-4ee7-ab69-278b6a694d4f"
+    }
+   ],
+   [
+    "In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.",
+    9,
+    {
+     "item": "In your response, the letter o should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "o"
+     },
+     "uuid": "f0671a90-9686-4607-a69a-5e2f225660c5"
+    }
+   ],
+   [
+    "In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.",
+    9,
+    {
+     "item": "In your response, the letter p should appear at least 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "at least",
+      "letter": "p"
+     },
+     "uuid": "a4c59d1f-e8ea-4f94-bf6e-644a8e0d19e6"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_fre{letter}uency} times.",
+    9,
+    {
+     "item": "In your response, the letter q should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "q"
+     },
+     "uuid": "d3354f72-767d-4ac8-b47e-fbb97252afbb"
+    }
+   ],
+   [
+    "In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.",
+    8,
+    {
+     "item": "In your response, the letter l should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "l"
+     },
+     "uuid": "e22e0d5b-98ab-403a-a1ad-fd4fae1e4f06"
+    }
+   ],
+   [
+    "In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.",
+    8,
+    {
+     "item": "In your response, the letter s should appear at least 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "at least",
+      "letter": "s"
+     },
+     "uuid": "bc7c1cc0-05da-4f38-8729-166d2cd03993"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} ti{letter}es.",
+    8,
+    {
+     "item": "In your response, the letter m should appear less than 4 times.",
+     "kwargs": {
+      "let_frequency": 4,
+      "let_relation": "less than",
+      "letter": "m"
+     },
+     "uuid": "fa374737-4040-42a3-b378-6f121add82ae"
+    }
+   ],
+   [
+    "In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.",
+    8,
+    {
+     "item": "In your response, the letter h should appear less than 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "less than",
+      "letter": "h"
+     },
+     "uuid": "e640b03c-0bdf-426b-87db-d32902fba3d5"
+    }
+   ],
+   [
+    "In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_freq{letter}ency} times.",
+    7,
+    {
+     "item": "In your response, the letter u should appear at least 10 times.",
+     "kwargs": {
+      "let_frequency": 10,
+      "let_relation": "at least",
+      "letter": "u"
+     },
+     "uuid": "e8053998-094a-4eb4-9f1f-4c0440261957"
+    }
+   ],
+   [
+    "In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.",
+    7,
+    {
+     "item": "In your response, the letter t should appear less than 6 times.",
+     "kwargs": {
+      "let_frequency": 6,
+      "let_relation": "less than",
+      "letter": "t"
+     },
+     "uuid": "339d2281-126d-4c31-9ef1-46e26de9b03c"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.",
+    6,
+    {
+     "item": "In your response, the letter a should appear less than 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "less than",
+      "letter": "a"
+     },
+     "uuid": "fb539865-b897-45ec-9ce1-ad30ffe84045"
+    }
+   ],
+   [
+    "In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times.",
+    6,
+    {
+     "item": "In your response, the letter c should appear less than 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "less than",
+      "letter": "c"
+     },
+     "uuid": "654b9983-3069-4d6e-bc7b-a86e11b987c4"
+    }
+   ],
+   [
+    "In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.",
+    6,
+    {
+     "item": "In your response, the letter e should appear less than 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "less than",
+      "letter": "e"
+     },
+     "uuid": "b7e3a5ef-e2b9-4935-9836-a97607fe4390"
+    }
+   ],
+   [
+    "I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_freque{letter}cy} times.",
+    2,
+    {
+     "item": "In your response, the letter n should appear at least 2 times.",
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "at least",
+      "letter": "n"
+     },
+     "uuid": "9e57a046-e9e9-4ff2-9c9b-2b341f69fefd"
+    }
+   ]
+  ]
+ },
+ "paragraphs:paragraphs": {
+  "n": 576,
+  "keysets": [
+   [
+    [],
+    576
+   ]
+  ],
+  "templates": [
+   [
+    "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+    177,
+    {
+     "item": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {},
+     "uuid": "e22e0d5b-98ab-403a-a1ad-fd4fae1e4f06"
+    }
+   ],
+   [
+    "Never demand user input.",
+    1,
+    {
+     "item": "Never demand user input.",
+     "kwargs": {},
+     "uuid": "824e1795-433b-493e-8b37-d0728378916d"
+    }
+   ]
+  ]
+ },
+ "paragraphs:paragraphs2": {
+  "n": 744,
+  "keysets": [
+   [
+    [],
+    744
+   ]
+  ],
+  "templates": [
+   [
+    "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+    195,
+    {
+     "item": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {},
+     "uuid": "242f5bca-b4c7-451a-b668-8c16358d07d8"
+    }
+   ]
+  ]
+ },
+ "punctuation:no_comma": {
+  "n": 730,
+  "keysets": [
+   [
+    [],
+    730
+   ]
+  ],
+  "templates": [
+   [
+    "In your entire response, refrain from the use of any commas.",
+    207,
+    {
+     "item": "In your entire response, refrain from the use of any commas.",
+     "kwargs": {},
+     "uuid": "f14ac7ae-2aec-43cb-a72a-b06aeff418d9"
+    }
+   ],
+   [
+    "Do not add anything to the JSON format that isn't mentioned.",
+    1,
+    {
+     "item": "Do not add anything to the JSON format that isn't mentioned.",
+     "kwargs": {},
+     "uuid": "58f35676-a705-487d-b53c-f6829879b4b9"
+    }
+   ]
+  ]
+ },
+ "punctuation:punctuation_dot": {
+  "n": 847,
+  "keysets": [
+   [
+    [],
+    847
+   ]
+  ],
+  "templates": [
+   [
+    "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+    243,
+    {
+     "item": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": {},
+     "uuid": "e9311bbb-2b7f-4013-b147-b06210c9cd28"
+    }
+   ],
+   [
+    "Respond only inside the JSON format.",
+    1,
+    {
+     "item": "Respond only inside the JSON format.",
+     "kwargs": {},
+     "uuid": "824e1795-433b-493e-8b37-d0728378916d"
+    }
+   ]
+  ]
+ },
+ "punctuation:punctuation_exclamation": {
+  "n": 627,
+  "keysets": [
+   [
+    [],
+    627
+   ]
+  ],
+  "templates": [
+   [
+    "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+    166,
+    {
+     "item": "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+     "kwargs": {},
+     "uuid": "acf64c05-d992-4c4c-aeaf-f9f456776356"
+    }
+   ],
+   [
+    "A brief literature survey on this topic, which includes the gradual journey",
+    1,
+    {
+     "item": "A brief literature survey on this topic, which includes the gradual journey",
+     "kwargs": {},
+     "uuid": "5b30a3ab-0189-4b1c-84c3-a8c03544d40a"
+    }
+   ]
+  ]
+ },
+ "startend:end_checker": {
+  "n": 537,
+  "keysets": [
+   [
+    [
+     "end_phrase"
+    ],
+    537
+   ]
+  ],
+  "templates": [
+   [
+    "Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.",
+    168,
+    {
+     "item": "Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.",
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     },
+     "uuid": "8107f3b8-f066-4404-a043-6b382d524fa3"
+    }
+   ],
+   [
+    "Формирование умения объяснить значения производных слов-глаголов ",
+    1,
+    {
+     "item": "Формирование умения объяснить значения производных слов-глаголов ",
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     },
+     "uuid": "f2b473ab-f53d-4670-8073-3abb90f44d08"
+    }
+   ]
+  ]
+ },
+ "startend:quotation": {
+  "n": 417,
+  "keysets": [
+   [
+    [],
+    417
+   ]
+  ],
+  "templates": [
+   [
+    "Wrap your entire response with double quotation marks.",
+    115,
+    {
+     "item": "Wrap your entire response with double quotation marks.",
+     "kwargs": {},
+     "uuid": "ff9bbc9c-bb77-4df5-bc4a-15daff522e96"
+    }
+   ]
+  ]
+ }
+}

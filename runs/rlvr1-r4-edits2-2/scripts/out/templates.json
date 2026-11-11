@@ -1,0 +1,205 @@
+{
+ "first_word:first_word_answer": {
+  "The first word of your response should be the word {first_word}.": 123,
+  "The first word of your {first_word} should be the word response.": 1
+ },
+ "last_word:last_word_sent": {
+  "The last word of each sentence, before punctuation, should be the word {last_word}.": 119
+ },
+ "detectable_format:sentence_hyphens": {
+  "All sentences must be connected using hyphens, with no spaces between them.": 155
+ },
+ "startend:end_checker": {
+  "Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.": 113
+ },
+ "change_case:capital_word_frequency": {
+  "In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.": 128
+ },
+ "detectable_format:bigram_wrapping": {
+  "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.": 130
+ },
+ "punctuation:punctuation_exclamation": {
+  "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.": 135
+ },
+ "letters:letter_counting": {
+  "Answer with {relation} {N} letters.": 104
+ },
+ "keywords:word_count_different_numbers": {
+  "In your response, the word {keyword} should appear {frequency} times.": 123,
+  "In {keyword}r response, the word you should appear {frequency} times.": 1
+ },
+ "letters:letter_counting2": {
+  "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 84,
+  "In your response, the {letter}etter l should appear {let_relation} {let_frequency} times.": 7,
+  "In your re{letter}ponse, the letter s should appear {let_relation} {let_frequency} times.": 4,
+  "In y{letter}ur response, the letter o should appear {let_relation} {let_frequency} times.": 6,
+  "In your response, {letter}he letter t should appear {let_relation} {let_frequency} times.": 6,
+  "In your response, t{letter}e letter h should appear {let_relation} {let_frequency} times.": 8,
+  "In you{letter} response, the letter r should appear {let_relation} {let_frequency} times.": 11,
+  "In {letter}our response, the letter y should appear {let_relation} {let_frequency} times.": 4,
+  "I{letter} your response, the letter n should appear {let_relation} {let_frequency} times.": 2,
+  "In your res{letter}onse, the letter p should appear {let_relation} {let_frequency} times.": 6,
+  "In your r{letter}sponse, the letter e should appear {let_relation} {let_frequency} times.": 7,
+  "In yo{letter}r response, the letter u should appear {let_relation} {let_frequency} times.": 2
+ },
+ "combination:two_responses": {
+  "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.": 67
+ },
+ "keywords:existence": {
+  "Include keywords {keywords} in the response.": 205,
+  "This is point 1.": 1,
+  "This is point 2 and Include keywords {keywords} in the response": 1
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word if.": 1,
+  "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 54,
+  "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {num_paragraphs} must start with word {first_word}.": 46,
+  "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by {first_word} new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word two.": 1,
+  "This is point 1.": 1
+ },
+ "last_word:last_word_answer": {
+  "The last word of your response should be the word {last_word}.": 124,
+  "This is point 1.": 1
+ },
+ "keywords:frequency": {
+  "In your response, the word {keyword} should appear {relation} {frequency} times.": 130
+ },
+ "detectable_format:number_highlighted_sections": {
+  "Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.": 123
+ },
+ "keywords:word_once": {
+  "Include keyword {keyword} in your response.": 216
+ },
+ "language:response_language": {
+  "Your ENTIRE response should be in Italian language, no other language is allowed.": 4,
+  "Your ENTIRE response should be in Japanese language, no other language is allowed.": 6,
+  "Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.": 8,
+  "Your ENTIRE response should be in Hebrew language, no ot{language}r language is allowed.": 5,
+  "Your ENTIRE response should be in Thai language, no o{language}er language is allowed.": 5,
+  "Your ENTIRE response should be in Hindi language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Polish language, no other language is allowed.": 9,
+  "Your ENTIRE response should be in Kannada language, no other language is allowed.": 8,
+  "Your ENTIRE response should be in German language, no other language is allowed.": 4,
+  "Your ENTIRE response should be in Punjabi language, no other language is allowed.": 12,
+  "Your ENTIRE response should be in Russian language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Bulgarian language, no other language is allowed.": 11,
+  "Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.": 6,
+  "Your ENTIRE response should be in Tamil language, no other language is allowed.": 10,
+  "Your ENTIRE response should be in Nepali language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Arabic language, no other language is allowed.": 9,
+  "Your ENTIRE response should be in Marathi language, no other language is allowed.": 2,
+  "Your ENTIRE response should be in Bengali language, no other language is allowed.": 4,
+  "Your ENTIRE response should be in Portuguese language, no other language is allowed.": 4,
+  "Your ENTIRE response should be in Malayalam language, no other language is allowed.": 11,
+  "Your ENTIRE response should be in Gujarati lan{language}age, no other language is allowed.": 5,
+  "Your ENTIRE response should be in Telugu language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Finnish language, no other language is allowed.": 5,
+  "Your ENTIRE response should be in Korean language, no other language is allowed.": 10,
+  "Your ENTIRE response should be in Persian language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Vietnamese language, no other language is allowed.": 9,
+  "Your ENTIRE response should be in Swahili language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Ukrainian language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in French language, no other language is allowed.": 1,
+  "Your ENTIRE response should be in English language, no other language is allowed.": 1
+ },
+ "length_constraints:number_paragraphs": {
+  "There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***": 129
+ },
+ "detectable_content:number_placeholders": {
+  "The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].": 121
+ },
+ "keywords:keyword_specific_position": {
+  "Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.": 140,
+  "Include keyword {keyword} in the {m}-th sentence, as the {n}-th word of that sentence.": 4
+ },
+ "keywords:letter_frequency": {
+  "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 100,
+  "In {letter}our response, the letter y should appear {let_relation} {let_frequency} times.": 9,
+  "In you{letter} response, the letter r should appear {let_relation} {let_frequency} times.": 15,
+  "In your response, {letter}he letter t should appear {let_relation} {let_frequency} times.": 15,
+  "In your re{letter}ponse, the letter s should appear {let_relation} {let_frequency} times.": 8,
+  "In your r{letter}sponse, the letter e should appear {let_relation} {let_frequency} times.": 7,
+  "In your res{letter}onse, the letter p should appear {let_relation} {let_frequency} times.": 9,
+  "In y{letter}ur response, the letter o should appear {let_relation} {let_frequency} times.": 7,
+  "I{letter} your response, the letter n should appear {let_relation} {let_frequency} times.": 8,
+  "In yo{letter}r response, the letter u should appear {let_relation} {let_frequency} times.": 8,
+  "In your response, t{letter}e letter h should appear {let_relation} {let_frequency} times.": 8,
+  "In your response, the {letter}etter l should appear {let_relation} {let_frequency} times.": 5
+ },
+ "count:count_unique": {
+  "Only use unique words in your response, no word should be repeated!": 144
+ },
+ "paragraphs:paragraphs": {
+  "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***": 139,
+  "This is point 1.": 1
+ },
+ "keywords:forbidden_words": {
+  "Do not include keywords {forbidden_words} in the response.": 176
+ },
+ "detectable_content:postscript": {
+  "At the end of your response, please explicitly add a postscript starting with {postscript_marker}": 136
+ },
+ "detectable_format:square_brackets": {
+  "Enclose every word in your response within square brackets.": 121
+ },
+ "change_case:english_lowercase": {
+  "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.": 141
+ },
+ "keywords:palindrome": {
+  "Include a palindrome in your response.": 138
+ },
+ "first_word:first_word_sent": {
+  "The first word of each sentence should be the word {first_word}.": 128,
+  "The first {first_word} of each sentence should be the word word.": 1
+ },
+ "startend:quotation": {
+  "Wrap your entire response with double quotation marks.": 79
+ },
+ "length_constraints:number_sentences": {
+  "Your response should contain {relation} {num_sentences} sentences.": 119
+ },
+ "keywords:no_adjacent_consecutive": {
+  "No two adjacent words can start with consecutive letters of the alphabet.": 185
+ },
+ "change_case:english_capital": {
+  "Your entire response should be in English, and in all capital letters.": 153
+ },
+ "detectable_format:json_format": {
+  "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.": 24
+ },
+ "count:lowercase_counting": {
+  "In your response, all lowercase words should appear at most {N} times.": 181,
+  "This is point 1.": 1
+ },
+ "copy:repeat_phrase": {
+  "Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.": 105
+ },
+ "punctuation:no_comma": {
+  "In your entire response, refrain from the use of any commas.": 159
+ },
+ "paragraphs:paragraphs2": {
+  "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks.": 136
+ },
+ "length_constraints:number_words": {
+  "Answer with {relation} {num_words} words.": 179
+ },
+ "detectable_format:title": {
+  "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.": 126
+ },
+ "keywords:start_end": {
+  "Start and end your response with the same word (do not write anything after the last word, not even punctuation).": 107
+ },
+ "punctuation:punctuation_dot": {
+  "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.": 178
+ },
+ "detectable_format:constrained_response": {
+  "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')": 27
+ },
+ "detectable_format:number_bullet_lists": {
+  "This is point 2": 4,
+  "This is point 1.": 1,
+  "This is point {num_bullets}": 1
+ },
+ "detectable_format:multiple_sections": {},
+ "count:counting_composition": {}
+}

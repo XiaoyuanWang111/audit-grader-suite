@@ -1,0 +1,60 @@
+Per check (constraint verdicts over the whole panel)
+check | n | pass% repl | pass% SkyRL | SkyRL decision | SkyRL defect (false pass/false fail) | verifyit n | pass% verifyit | verifyit decision | verifyit defect (fp/ff) | SkyRL!=verifyit
+change_case:capital_word_frequency | 1207 | 75.5 | 76.2 | 14 | 13 (9/4) | 1207 | 79.5 | 81 | 30 (11/19) | 120
+change_case:english_capital | 1534 | 51.4 | 45.1 | 37 | 94 (17/77) | 1534 | 55.0 | 6 | 61 (61/0) | 160
+change_case:english_lowercase | 1208 | 70.0 | 69.0 | 16 | 8 (6/2) | 1208 | 77.4 | 13 | 107 (105/2) | 140
+combination:two_responses | 557 | 76.1 | 81.5 | 29 | 3 (2/1) | 557 | 81.5 | 29 | 3 (2/1) | 0
+copy:repeat_phrase | 1059 | 4.4 | 8.9 | 5 | 54 (51/3) | 1059 | 45.6 | 43 | 487 (459/28) | 577
+count:count_unique | 1341 | 22.3 | 15.0 | 8 | 106 (6/100) | 0 | - | 0 | 0 (0/0) | 0
+count:counting_composition | 1 | 0.0 | 0.0 | 0 | 0 (0/0) | 1 | 0.0 | 0 | 0 (0/0) | 0
+count:lowercase_counting | 1712 | 29.5 | 15.2 | 285 | 41 (41/0) | 1712 | 88.4 | 22 | 1331 (1181/150) | 1623
+detectable_content:number_placeholders | 1201 | 90.9 | 91.5 | 0 | 9 (8/1) | 1201 | 91.4 | 0 | 8 (7/1) | 1
+detectable_content:postscript | 1277 | 60.5 | 83.3 | 276 | 17 (16/1) | 1277 | 72.4 | 153 | 9 (8/1) | 139
+detectable_format:bigram_wrapping | 1157 | 3.4 | 19.4 | 0 | 185 (185/0) | 0 | - | 0 | 0 (0/0) | 0
+detectable_format:constrained_response | 243 | 57.6 | 89.7 | 75 | 3 (3/0) | 243 | 57.6 | 0 | 0 (0/0) | 78
+detectable_format:json_format | 266 | 82.0 | 82.0 | 0 | 0 (0/0) | 266 | 82.0 | 0 | 0 (0/0) | 0
+detectable_format:multiple_sections | 917 | 82.2 | 86.9 | 8 | 39 (37/2) | 917 | 85.1 | 34 | 4 (2/2) | 61
+detectable_format:number_bullet_lists | 1019 | 81.6 | 80.1 | 0 | 21 (3/18) | 1019 | 81.6 | 0 | 0 (0/0) | 21
+detectable_format:number_highlighted_sections | 1070 | 92.7 | 93.4 | 0 | 9 (8/1) | 1070 | 93.4 | 0 | 7 (7/0) | 2
+detectable_format:sentence_hyphens | 1300 | 52.5 | 19.6 | 549 | 14 (10/4) | 1300 | 19.5 | 435 | 2 (2/0) | 500
+detectable_format:square_brackets | 1079 | 18.3 | 16.2 | 27 | 61 (12/49) | 1079 | 95.2 | 169 | 665 (663/2) | 856
+detectable_format:title | 1189 | 96.6 | 97.1 | 0 | 11 (9/2) | 1189 | 97.1 | 0 | 11 (9/2) | 0
+first_word:first_word_answer | 1089 | 84.7 | 72.2 | 67 | 69 (0/69) | 1089 | 85.1 | 2 | 5 (5/0) | 141
+first_word:first_word_sent | 1024 | 41.3 | 32.3 | 74 | 44 (2/42) | 1024 | 43.3 | 24 | 14 (14/0) | 118
+keywords:existence | 1856 | 68.8 | 75.6 | 124 | 4 (4/0) | 1856 | 72.1 | 59 | 5 (4/1) | 66
+keywords:forbidden_words | 1687 | 96.7 | 96.6 | 3 | 1 (1/0) | 1687 | 96.6 | 3 | 1 (1/0) | 0
+keywords:frequency | 1200 | 79.8 | 81.0 | 60 | 3 (3/0) | 1200 | 80.9 | 15 | 3 (3/0) | 45
+keywords:keyword_specific_position | 1341 | 3.8 | 2.8 | 15 | 11 (3/8) | 1341 | 3.7 | 9 | 7 (3/4) | 22
+keywords:letter_frequency | 1507 | 56.5 | 56.9 | 0 | 6 (6/0) | 1507 | 56.9 | 0 | 6 (6/0) | 0
+keywords:no_adjacent_consecutive | 1499 | 23.8 | 23.7 | 163 | 58 (56/2) | 1499 | 76.8 | 103 | 819 (787/32) | 915
+keywords:palindrome | 1165 | 73.3 | 90.3 | 219 | 53 (20/33) | 1165 | 63.4 | 49 | 102 (6/96) | 373
+keywords:start_end | 989 | 29.9 | 29.6 | 1 | 12 (5/7) | 989 | 37.2 | 30 | 70 (57/13) | 105
+keywords:word_count_different_numbers | 1015 | 36.3 | 54.2 | 233 | 263 (146/117) | 1015 | 54.2 | 232 | 262 (146/116) | 60
+keywords:word_once | 1808 | 72.3 | 25.5 | 140 | 803 (0/803) | 1808 | 25.9 | 101 | 766 (0/766) | 82
+language:response_language | 1600 | 88.4 | 88.3 | 0 | 12 (5/7) | 0 | - | 0 | 0 (0/0) | 0
+last_word:last_word_answer | 1285 | 74.9 | 69.7 | 5 | 62 (0/62) | 1285 | 76.0 | 0 | 15 (14/1) | 80
+last_word:last_word_sent | 1203 | 26.7 | 27.8 | 35 | 44 (14/30) | 1203 | 33.3 | 43 | 45 (45/0) | 75
+length_constraints:nth_paragraph_first_word | 1048 | 38.0 | 38.7 | 3 | 15 (12/3) | 1048 | 38.4 | 0 | 4 (4/0) | 22
+length_constraints:number_paragraphs | 1345 | 63.5 | 74.1 | 188 | 1 (0/1) | 1345 | 42.4 | 66 | 426 (56/370) | 561
+length_constraints:number_sentences | 1131 | 73.1 | 70.5 | 72 | 76 (18/58) | 1131 | 69.7 | 71 | 90 (21/69) | 17
+length_constraints:number_words | 1443 | 73.5 | 73.6 | 17 | 13 (7/6) | 1443 | 70.5 | 7 | 68 (12/56) | 71
+letters:letter_counting | 961 | 66.1 | 61.7 | 97 | 5 (5/0) | 0 | - | 0 | 0 (0/0) | 0
+letters:letter_counting2 | 1346 | 53.8 | 54.5 | 0 | 10 (10/0) | 1346 | 54.5 | 0 | 10 (10/0) | 0
+paragraphs:paragraphs | 1150 | 72.3 | 83.5 | 136 | 0 (0/0) | 1150 | 97.1 | 150 | 135 (135/0) | 157
+paragraphs:paragraphs2 | 1391 | 62.5 | 62.5 | 5 | 0 (0/0) | 1391 | 94.3 | 2 | 440 (440/0) | 443
+punctuation:no_comma | 1523 | 86.9 | 88.7 | 27 | 0 (0/0) | 1523 | 88.7 | 27 | 0 (0/0) | 0
+punctuation:punctuation_dot | 1749 | 48.5 | 51.6 | 55 | 0 (0/0) | 1749 | 51.6 | 55 | 0 (0/0) | 0
+punctuation:punctuation_exclamation | 1284 | 94.6 | 95.3 | 9 | 0 (0/0) | 1284 | 95.3 | 9 | 0 (0/0) | 0
+startend:end_checker | 997 | 71.8 | 87.4 | 169 | 0 (0/0) | 997 | 68.3 | 35 | 0 (0/0) | 190
+startend:quotation | 810 | 86.4 | 85.9 | 4 | 0 (0/0) | 810 | 86.0 | 3 | 0 (0/0) | 1
+TOTAL n=55783 sk_defect=2253 (fp 740, ff 1513) sk_decision=3250 vi_n=50724 vi_defect=6018 (fp 4286, ff 1732) vi_decision=2080 sk!=vi=7822
+
+Per run (prompt level)
+{"Qwen__Qwen2.5-7B-Instruct/sample0": {"n": 4000, "finish_length": 65, "skyrl_empty_text": 3, "extraction_failure": 0, "infra_error": 0, "infra_error_msgs": [], "skyrl": 0.19975, "fixes_only_skyrl": 0.20625, "replacement": 0.19625, "d_fix": 0.0065, "d_fix_ci": [0.00075, 0.013], "d_prop": -0.0035, "d_prop_ci": [-0.01375, 0.007], "gate": 0.32975, "fixes_only_gate": 0.26925, "replacement_gate": 0.25025, "d_vi_fix": -0.0605, "d_vi_fix_ci": [-0.071, -0.051], "skyrl_passes": 799, "false_reward_fixes_only": 68, "false_reward_proposed": 242, "gate_passes": 1319, "false_gate_fixes_only": 327, "false_gate_proposed": 476, "held_out_n": 779}}
+{"Qwen__Qwen3-4B-Instruct-2507/greedy": {"n": 1000, "finish_length": 92, "skyrl_empty_text": 1, "extraction_failure": 0, "infra_error": 0, "infra_error_msgs": [], "skyrl": 0.293, "fixes_only_skyrl": 0.314, "replacement": 0.329, "d_fix": 0.021, "d_fix_ci": [0.009, 0.034], "d_prop": 0.036, "d_prop_ci": [0.017, 0.055], "gate": 0.499, "fixes_only_gate": 0.408, "replacement_gate": 0.411, "d_vi_fix": -0.091, "d_vi_fix_ci": [-0.115, -0.069], "skyrl_passes": 293, "false_reward_fixes_only": 12, "false_reward_proposed": 29, "gate_passes": 499, "false_gate_fixes_only": 120, "false_gate_proposed": 144, "held_out_n": 176}}
+{"Qwen__Qwen3-4B-Instruct-2507/greedy_repeat": {"n": 1000, "finish_length": 81, "skyrl_empty_text": 2, "extraction_failure": 0, "infra_error": 0, "infra_error_msgs": [], "skyrl": 0.295, "fixes_only_skyrl": 0.319, "replacement": 0.331, "d_fix": 0.024, "d_fix_ci": [0.011, 0.037], "d_prop": 0.036, "d_prop_ci": [0.017, 0.055], "gate": 0.5, "fixes_only_gate": 0.414, "replacement_gate": 0.415, "d_vi_fix": -0.086, "d_vi_fix_ci": [-0.109, -0.064], "skyrl_passes": 295, "false_reward_fixes_only": 13, "false_reward_proposed": 30, "gate_passes": 500, "false_gate_fixes_only": 119, "false_gate_proposed": 143, "held_out_n": 207}}
+{"Qwen__Qwen3-4B-Instruct-2507/sample0": {"n": 11817, "finish_length": 620, "skyrl_empty_text": 16, "extraction_failure": 0, "infra_error": 1, "infra_error_msgs": [["IndexError", 1]], "skyrl": 0.29525260218329524, "fixes_only_skyrl": 0.32537869171532535, "replacement": 0.32597105864432596, "d_fix": 0.030126089532030127, "d_fix_ci": [0.02564102564102564, 0.03435728188203436], "d_prop": 0.03071845646103072, "d_prop_ci": [0.024794787171024794, 0.03698062113903698], "gate": 0.4775323686214775, "fixes_only_gate": 0.412964373360413, "replacement_gate": 0.4127951256664128, "d_vi_fix": -0.06456799526106456, "d_vi_fix_ci": [-0.0720995176440721, -0.05686722518405687], "skyrl_passes": 3489, "false_reward_fixes_only": 196, "false_reward_proposed": 506, "gate_passes": 5643, "false_gate_fixes_only": 1403, "false_gate_proposed": 1680, "held_out_n": 2398}}
+{"Qwen__Qwen3-4B-Thinking-2507__thinking/sample0": {"n": 1500, "finish_length": 166, "skyrl_empty_text": 1, "extraction_failure": 139, "infra_error": 0, "infra_error_msgs": [], "skyrl": 0.554, "fixes_only_skyrl": 0.6133333333333333, "replacement": 0.6493333333333333, "d_fix": 0.059333333333333335, "d_fix_ci": [0.04533333333333334, 0.074], "d_prop": 0.09533333333333334, "d_prop_ci": [0.07533333333333334, 0.11533333333333333], "gate": 0.634, "fixes_only_gate": 0.6846666666666666, "replacement_gate": 0.6813333333333333, "d_vi_fix": 0.050666666666666665, "d_vi_fix_ci": [0.03333333333333333, 0.06866666666666667], "skyrl_passes": 831, "false_reward_fixes_only": 15, "false_reward_proposed": 53, "gate_passes": 951, "false_gate_fixes_only": 63, "false_gate_proposed": 103, "held_out_n": 307}}
+{"allenai__OLMo-2-1124-7B-Instruct/sample0": {"n": 3998, "finish_length": 39, "skyrl_empty_text": 1, "extraction_failure": 0, "infra_error": 0, "infra_error_msgs": [], "skyrl": 0.19109554777388693, "fixes_only_skyrl": 0.2016008004002001, "replacement": 0.17808904452226113, "d_fix": 0.010505252626313157, "d_fix_ci": [0.005252626313156579, 0.015757878939469734], "d_prop": -0.013006503251625813, "d_prop_ci": [-0.022011005502751375, -0.004252126063031516], "gate": 0.32016008004002, "fixes_only_gate": 0.24687343671835918, "replacement_gate": 0.2366183091545773, "d_vi_fix": -0.07328664332166084, "d_vi_fix_ci": [-0.08454227113556778, -0.06278139069534767], "skyrl_passes": 764, "false_reward_fixes_only": 39, "false_reward_proposed": 199, "gate_passes": 1280, "false_gate_fixes_only": 413, "false_gate_proposed": 495, "held_out_n": 816}}
+
+Rerun: {"rows": 1000, "identical_text": 506, "skyrl_prompt_changes": 16, "skyrl_score_diff": 0.002, "gate_prompt_changes": 27, "gate_score_diff": 0.001, "replacement_score_diff": 0.002}

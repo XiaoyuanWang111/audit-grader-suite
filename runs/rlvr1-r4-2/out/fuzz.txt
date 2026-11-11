@@ -1,0 +1,6 @@
+detectable_format:json_format                 inputs=400 A_exc=6 B_exc=6 R_exc=0
+last_word:last_word_answer                    inputs=400 A_exc=33 B_exc=0 R_exc=0
+total {'inputs': 18800, 'A_exceptions': 39, 'B_exceptions': 6}
+  example A detectable_format:json_format RecursionError '[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ -> error: RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode s
+  example B detectable_format:json_format RecursionError '[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ -> error: RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode s
+  example A last_word:last_word_answer IndexError '     ' -> error: IndexError: list index out of range

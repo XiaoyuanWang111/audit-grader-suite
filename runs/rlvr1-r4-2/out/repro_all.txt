@@ -1,0 +1,166 @@
+F1  keywords:existence  kwargs={'keywords': ['art', 'she']}
+    response='She started to finish the task.'
+    grader A: pass   grader B: fail   contract: fail
+F2  keywords:word_once  kwargs={'keyword': 'beer'}
+    response='Beer is good and beer is cheap.'
+    grader A: fail   grader B: fail   contract: pass
+F3  keywords:word_count_different_numbers  kwargs={'keyword': 'refuse', 'frequency': 1, 'relation': 'less than'}
+    response='I refuse.'
+    grader A: fail   grader B: fail   contract: pass
+F4  copy:repeat_phrase  kwargs={'phrase': 'All that glitters is not gold', 'small_n': 3}
+    response='All that glitters is not gold\nAll that glitters is not gold\nAll that shines is not gold'
+    grader A: pass   grader B: fail   contract: fail
+F5  copy:repeat_phrase  kwargs={'phrase': 'All that glitters is not gold', 'small_n': 2}
+    response='All that glitters is not gold\nAll that glitters is not gold'
+    grader A: fail   grader B: pass   contract: fail
+F5  copy:repeat_phrase  kwargs={'phrase': 'All that glitters is not gold', 'small_n': 2}
+    response='All that shines is not gold\nAll that sparkles is not gold'
+    grader A: pass   grader B: fail   contract: pass
+F6  detectable_content:postscript  kwargs={'postscript_marker': 'P.S.'}
+    response='I added a P.S. note at the end, see below.\n\nThat is all.'
+    grader A: pass   grader B: fail   contract: fail
+F7  detectable_format:constrained_response  kwargs=None
+    response='My answer is yes. My answer is no.'
+    grader A: pass   grader B: fail   contract: fail
+F8  detectable_format:multiple_sections  kwargs={'num_sections': 2, 'section_spliter': 'SECTION'}
+    response='SECTION 1\nThis part mentions SECTION 2 inline only.'
+    grader A: pass   grader B: pass   contract: fail
+F9  detectable_format:number_bullet_lists  kwargs={'num_bullets': 2}
+    response='* Apples\n* Pears\n\n* * *\n\nDone.'
+    grader A: fail   grader B: fail   contract: pass
+F10  detectable_format:number_highlighted_sections  kwargs={'num_highlights': 2}
+    response='Compute 5 * 3 * 2 and *done*.'
+    grader A: pass   grader B: pass   contract: fail
+F11  first_word:first_word_answer  kwargs={'first_word': 'development'}
+    response='development, as a concept, matters.'
+    grader A: fail   grader B: pass   contract: pass
+F12  keywords:keyword_specific_position  kwargs={'keyword': 'village', 'n': 2, 'm': 3}
+    response='We walked far. Indeed, the village slept.'
+    grader A: fail   grader B: pass   contract: pass
+F13  count:count_unique  kwargs=None
+    response='Apples, pears, plums.'
+    grader A: fail   grader B: not checked (judge)   contract: pass
+F14  keywords:start_end  kwargs=None
+    response='- Hello world -'
+    grader A: pass   grader B: pass   contract: fail
+F14  keywords:start_end  kwargs=None
+    response='Hello world, I say hello.'
+    grader A: fail   grader B: pass   contract: fail
+F15  keywords:no_adjacent_consecutive  kwargs=None
+    response='Steps 1 2 now'
+    grader A: fail   grader B: pass   contract: pass
+F16  keywords:no_adjacent_consecutive  kwargs=None
+    response='A big dog'
+    grader A: fail   grader B: pass   contract: fail
+F16  keywords:no_adjacent_consecutive  kwargs=None
+    response='very very good'
+    grader A: pass   grader B: fail   contract: pass
+F17  keywords:palindrome  kwargs=None
+    response='Top results\n---\nNotes here'
+    grader A: pass   grader B: pass   contract: fail
+F18  language:response_language  kwargs={'language': 'es'}
+    response='12345 67890'
+    grader A: pass   grader B: not checked (judge)   contract: fail
+F19  last_word:last_word_answer  kwargs={'last_word': 'payment'}
+    response=''
+    grader A: EXCEPTION IndexError: list index out of range   grader B: fail   contract: fail
+F20  length_constraints:number_paragraphs  kwargs={'num_paragraphs': 2}
+    response='First paragraph has ***bold italic*** text.\n***\nSecond paragraph.'
+    grader A: fail   grader B: fail   contract: pass
+F21  length_constraints:number_paragraphs  kwargs={'num_paragraphs': 2}
+    response='First paragraph.\n***\nSecond paragraph.'
+    grader A: pass   grader B: fail   contract: pass
+F21  length_constraints:number_paragraphs  kwargs={'num_paragraphs': 2}
+    response='First paragraph.\n\nSecond paragraph.'
+    grader A: fail   grader B: pass   contract: fail
+F22  paragraphs:paragraphs  kwargs={}
+    response='First.\n***\nSecond.\n***\nThird.'
+    grader A: fail   grader B: pass   contract: fail
+F22  paragraphs:paragraphs2  kwargs={}
+    response='A.\n\nB.\n\nC.'
+    grader A: fail   grader B: pass   contract: fail
+F23  length_constraints:number_words  kwargs={'num_words': 3, 'relation': 'less than'}
+    response="Don't stop."
+    grader A: fail   grader B: pass   contract: pass
+F23  change_case:capital_word_frequency  kwargs={'capital_frequency': 2, 'capital_relation': 'less than'}
+    response="I'm sure NASA is fine."
+    grader A: fail   grader B: pass   contract: pass
+F24  length_constraints:number_words  kwargs={'num_words': 5, 'relation': 'at least'}
+    response='Это очень хороший и полезный ответ.'
+    grader A: pass   grader B: fail   contract: pass
+F24  last_word:last_word_answer  kwargs={'last_word': 'ask'}
+    response='Feel free to ask 朋友'
+    grader A: fail   grader B: pass   contract: fail
+F25  letters:letter_counting  kwargs={'N': 3, 'relation': 'at least'}
+    response='Да, конечно, это так.'
+    grader A: fail   grader B: not checked (judge)   contract: pass
+F26  detectable_content:number_placeholders  kwargs={'num_placeholders': 2}
+    response='Dear [], see you at [ ].'
+    grader A: pass   grader B: fail   contract: fail
+F27  detectable_format:bigram_wrapping  kwargs=None
+    response='<<I am>> <<at home>> today'
+    grader A: pass   grader B: not checked (judge)   contract: fail
+F28  count:counting_composition  kwargs={'n_sent': 3, 'n_words': 2}
+    response='Birds sing. Cats sleep. Dogs run.\n* * *\nRain falls. Wind blows. Trees sway.\n* * *\nKids play. Moms smile. Dads cook.'
+    grader A: fail   grader B: pass   contract: pass
+F28  count:counting_composition  kwargs={'n_sent': 3, 'n_words': 2}
+    response='Birds sing. Cats sleep. Dogs run.'
+    grader A: fail   grader B: pass   contract: fail
+F30  combination:two_responses  kwargs=None
+    response='One.\n*******\nTwo.'
+    grader A: pass   grader B: pass   contract: fail
+F31  count:lowercase_counting  kwargs={'N': 2}
+    response='the the the end'
+    grader A: fail   grader B: pass   contract: fail
+F31  count:lowercase_counting  kwargs={'N': 2}
+    response='ALL CAPS ONLY.'
+    grader A: pass   grader B: fail   contract: pass
+F32  detectable_format:square_brackets  kwargs=None
+    response='Hello [world] how are you'
+    grader A: fail   grader B: pass   contract: fail
+F33  detectable_format:sentence_hyphens  kwargs=None
+    response='I like tea.-You like coffee.-We both like cake.'
+    grader A: pass   grader B: fail   contract: pass
+F33  detectable_format:sentence_hyphens  kwargs=None
+    response='I-like-tea. You-like-coffee.'
+    grader A: fail   grader B: pass   contract: fail
+F34  startend:quotation  kwargs=None
+    response="'Hello there.'"
+    grader A: fail   grader B: pass   contract: fail
+F35  detectable_format:title  kwargs=None
+    response='<< >>\nRoses are red.'
+    grader A: fail   grader B: pass   contract: fail
+F36  length_constraints:number_sentences  kwargs={'num_sentences': 2, 'relation': 'less than'}
+    response='Dr. Smith arrived.'
+    grader A: pass   grader B: fail   contract: pass
+F36  length_constraints:number_sentences  kwargs={'num_sentences': 2, 'relation': 'at least'}
+    response='He said "Stop." Then he left.'
+    grader A: pass   grader B: fail   contract: pass
+F37  count:lowercase_counting  kwargs={'N': 2}
+    response='Он сказал да да да да.'
+    grader A: pass   grader B: fail   contract: fail
+F38  detectable_format:square_brackets  kwargs=None
+    response='[Hello]and[world]'
+    grader A: pass   grader B: pass   contract: fail
+F39  last_word:last_word_sent  kwargs={'last_word': 'limit'}
+    response='We use Node.js to set the limit.'
+    grader A: fail   grader B: pass   contract: pass
+F39  length_constraints:number_sentences  kwargs={'num_sentences': 3, 'relation': 'at least'}
+    response='第一句。第二句。第三句。'
+    grader A: fail   grader B: fail   contract: pass
+F40  detectable_content:postscript  kwargs={'postscript_marker': 'P.S.'}
+    response='Answer.\n\n**P.S.** Thanks.'
+    grader A: pass   grader B: fail   contract: pass
+F29  length_constraints:nth_paragraph_first_word  kwargs={'num_paragraphs': 2, 'nth_paragraph': 3, 'first_word': 'fight'}
+    response='Fight one.\n\nFight two.'
+    grader A reward under random.seed(0..5): [1.0, 1.0, 1.0, 1.0, 1.0, 0.0]   grader B gate: fail   contract: fail (paragraph 3 of 2 cannot exist)
+P1  thinking-model response cut inside its reasoning (no </think>), row punctuation:no_comma
+    raw='Okay so the user wants an answer without commas so I will plan it step by step and then write'
+    grader A reward: 1.0   grader B gate: pass   contract: extraction failure, reward 0.0
+P1  non-reasoning answer that mentions <think>, row keywords:existence ['tag']
+    raw='Wrap the plan in a <think> tag before you answer.'
+    graded text A: ''  B: ''   grader A reward: 0.0   grader B gate: fail   contract reward: 1.0
+P2  grader A with punkt_tab missing (nltk.data.find and nltk.download stubbed, no network)
+    nltk.download calls: [('punkt_tab',)]
+P5  detectable_format:json_format  response='[' * 5000
+    grader A: EXCEPTION RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode string   grader B check: EXCEPTION RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode string (the gate's _passes counts it as a failed constraint)
