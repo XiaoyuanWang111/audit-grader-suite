@@ -4,8 +4,8 @@ One run of the skill on a real benchmark, scored against an earlier audit of the
 `skill/r3/` (`SKILL.md` and `references/reviewer-prompt.md` at the head of marin-community/marin PR #10422,
 `ea5bd452b`; the run had no `references/ifbench.md` and no `references/validation.md`). The case is described in
 `cases/ifbench/`, the run's own files are in `runs/ifbench-r3/`, and the key and the scoring rule are in
-`keys/ifbench.md`. `RUNNER.md` gives the prompts. The last four sections score seven more runs that tested three
-wordings of one candidate rule for the skill, and five runs of the last wording on the small cases.
+`keys/ifbench.md`. `RUNNER.md` gives the prompts. The last five sections score seven more runs that tested three
+wordings of one candidate rule for the skill, and report five runs of the last wording on the small cases.
 
 ## Who ran what
 
@@ -352,7 +352,8 @@ these two runs also wrote more fixtures. As reported findings, the five do not s
 the controls, 0 and 3 with the list. With two runs per version this shows a direction, not a rate.
 
 The scorer reran each run's tests and each run's own check of its report in the run's workspace:
-`ifbench-r4-2` 522 passed and 176 expected failures; `ifbench-r4-edits-1` 1,104 passed and 174 expected failures,
+`ifbench-r4-2` 522 passed and 176 expected failures, and its check finds no mismatch in 64 verdict pairs;
+`ifbench-r4-edits-1` 1,104 passed and 174 expected failures,
 and every case that the report cites gives the stated verdicts; `ifbench-r4-edits-2` 591 passed and 74 expected
 failures, and all 43 commands in the report print what it says.
 

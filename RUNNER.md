@@ -6,8 +6,9 @@ scores, which the r2 run used. The suite has five small, offline cases, one per 
 planted defects, one ambiguity and one trap; the answer keys are kept outside the case directories. A fresh auditor
 follows the skill on one case, and its report is scored against that case's key.
 
-The last section describes three more runs, blind runs of the skill on IFBench itself, which were set up and scored
-differently.
+The last section describes eight more runs, blind runs of the skill on IFBench itself, which were set up and scored
+differently. Five later runs of the small cases used `skill/r4-edits2/`, the version with the rule that those
+IFBench runs tested.
 
 ## Layout
 
@@ -69,6 +70,11 @@ Every case needs only the Python 3 standard library (checked with Python 3.12); 
    network." Its step 6 line read "Step 6: you cannot start subagents in this exercise, so report step 6 as not run.
    You may still draw and freeze the sample as step 6.1 and 6.2 describe." It ended with practical notes: the tools
    available, reading the clock before writing a time, two file names to avoid, and a short closing summary.
+   The r4-edits2 runs got the brief in `runs/r4-edits2-prompts/brief.txt`, with their working directory in place
+   of `<W>`, in directories made by `keys/tools/build_run_workspace.py`; the brief of the `toyagent-verify` run
+   also said that the case needs bash. Their records write the working directory as `<W>`, and each has a
+   `COPY_MANIFEST.tsv` with the sha256 of every original;
+   `runs/toyagent-verify-r4-edits2/scripts/check_report_commands.sh` needs `<W>` set to the directory.
 
 4. When the run ends, copy `W/audit/` to `runs/<case>-<run id>/` next to this file for scoring. Do not let the
    auditor see the key at any point, and score each run without telling the next auditor anything about it.
@@ -260,5 +266,76 @@ mkdir -p audit/work/grader audit/work/reference && cp -r case/grader/IFBench aud
 cd audit/work && sha256sum -c --quiet ../out/work_manifest.sha256
 ```
 
-`key_battery.py` grades the earlier audit's public fixtures with each of the three runs' replacement graders, and
-`battery_table.py` prints the comparison in `keys/tools/ifbench/outputs/battery_table.txt`.
+### The five later controlled runs
+
+`runs/ifbench-r4-2/` (a second control, `skill/r4/`), `runs/ifbench-r4-edits-1/` and `-2/` (`skill/r4-edits/`) and
+`runs/ifbench-r4-edits2-1/` and `-2/` (`skill/r4-edits2/`) were made the same way: a new agent run on Claude Opus
+5.5 in a workspace of its own, built by `keys/tools/ifbench/build_ab2.py`, with the brief in
+`runs/ifbench-r4-prompts/brief.txt`. The builder also removes the pointers to the source workspace that the
+first builder left to the operator. `runs/SCORES-ifbench.md` describes the runs in its sections on the second and
+third test.
+
+Each record is the run's `audit/` directory with its working directory written as `<W>`, without the byte copies
+of the grader and the reference, and with a `COPY_MANIFEST.tsv`. To rerun a record's tests, make a workspace as
+above and run the commands below from its root in Git Bash; `.venv` is the case's Python environment. Each list
+was run on a copy of the record.
+
+`ifbench-r4-2`: 522 passed and 176 expected failures. `audit/scripts/verify_report.py` then reports 64 verdict
+pairs and no mismatch.
+
+```text
+mkdir -p audit/frozen/code/grader audit/frozen/code/reference/IFBench
+cp -r case/grader/IFBench audit/frozen/code/grader/
+cp -r case/reference/IFBench/{data,ifbench,evaluation_lib.py,instructions_test.py,run_eval.py} audit/frozen/code/reference/IFBench/
+cp case/reference/IFBench/instructions_test.py audit/step4/
+(cd audit/frozen/code && sha256sum -c --quiet ../../out/frozen_code_hashes.txt)
+NLTK_DATA=case/deps/nltk_data .venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider audit/tests
+```
+
+`ifbench-r4-edits-1`: no preparation; 1,104 passed and 174 expected failures. `audit/scripts/report_cases.py check`
+then ends with `mismatches: 0`. This run imports the grader and the reference from `case/`, which creates two
+empty `.nltk_data` folders there.
+
+```text
+NLTK_DATA=case/deps/nltk_data .venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider audit/tests
+```
+
+`ifbench-r4-edits-2`: 591 passed and 74 expected failures. `audit/scripts/repro.py` then ends with `all reported
+verdicts reproduced`, and `audit/scripts/verify_report.py` with `43 commands checked, 0 failed`; the latter calls
+Git Bash at `C:/Program Files/Git/usr/bin/bash.exe`. `<W>` must be the Windows spelling of the path with forward
+slashes, which `pwd -W` prints.
+
+```text
+sed -i "s|<W>|$(pwd -W)|g" audit/scripts/*.py
+gunzip audit/work/panel_rep_gr.tsv.gz
+export NLTK_DATA=$PWD/case/deps/nltk_data PYTHONIOENCODING=utf-8 PYTHONDONTWRITEBYTECODE=1
+.venv/Scripts/python.exe audit/scripts/setup_run_copies.py
+.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider audit/tests
+```
+
+`ifbench-r4-edits2-1`: the fourth command prints `[]`, and the tests end with 348 passed and 90 expected failures.
+`audit/scripts/verify_report.py` then reports that 71 of 71 commands print the stated verdict; it rewrites the
+time stamp in section 9 of `audit/AUDIT.md`.
+
+```text
+mkdir -p audit/run/grader audit/run/reference/data
+cp -r case/grader/IFBench audit/run/grader/
+cp -r case/reference/IFBench/{ifbench,evaluation_lib.py,run_eval.py,instructions_test.py} audit/run/reference/
+cp case/reference/IFBench/data/IFBench_test.jsonl audit/run/reference/data/
+.venv/Scripts/python.exe -B -c "import sys; sys.path.insert(0, 'audit/lib'); import harness; print(harness.verify_copies())"
+NLTK_DATA=$PWD/case/deps/nltk_data PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider audit/tests
+```
+
+`ifbench-r4-edits2-2`: the copy script prints `copied 14 files, 0 mismatches against MANIFEST`, and the tests end
+with 628 passed and 81 expected failures. `audit/scripts/verify_report.py` then ends with `36 OK, 0 BAD`.
+
+```text
+export PYTHONDONTWRITEBYTECODE=1 NLTK_DATA=case/deps/nltk_data
+.venv/Scripts/python.exe audit/scripts/s3_copy_pkgs.py
+.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider audit/tests
+```
+
+### The fixture battery
+
+`key_battery.py` grades the earlier audit's public fixtures with the replacement grader of each of the eight runs,
+and `battery_table.py` prints the comparison in `keys/tools/ifbench/outputs/battery_table.txt`.

@@ -55,9 +55,27 @@ defects that the earlier audit did not report, 8 belong in decision entries, 3 a
 stored panel, and none is false. It puts the grader's error rate at 7.2% [5.9, 9.1]; the earlier audit's two rounds
 gave 7.6% [4.7, 11.3] and 6.1% [3.9, 10.1]. The score card lists the limits of a single run.
 
-Two more runs, `runs/ifbench-r4/` and `runs/ifbench-r4-rule/`, tested one candidate rule for the skill against a
-control, through step 5. With one run each, they do not show whether the rule helps; the last section of the score
-card has the comparison.
+## Tests of one rule for the skill
+
+The rerun missed four of the earlier findings. Each was an input form, such as a list label or a curly quote, that
+the rerun had used on another check. Seven more blind runs on IFBench, through step 5, tested three wordings of a
+rule for step 4 that carries such edits to every check. `runs/SCORES-ifbench.md` scores them on the earlier audit's
+143 public fixtures, of which the grader gets 81 wrong, and on five earlier findings.
+
+| Skill | Rule in step 4 | Runs | Of the 81 fixtures, the run's replacement grader corrects |
+|---|---|---|---|
+| `skill/r4/` | none | `ifbench-r4`, `ifbench-r4-2` | 56, 58 |
+| `skill/r4-rule/` | carry an input form to the other checks, with four forms as examples | `ifbench-r4-rule` | 66 |
+| `skill/r4-edits/` | a list of six edits for every check | `ifbench-r4-edits-1`, `ifbench-r4-edits-2` | 69, 77 |
+| `skill/r4-edits2/` | the list with the numbered label and the typographic marks spelled out | `ifbench-r4-edits2-1`, `ifbench-r4-edits2-2` | 70, 75 |
+
+A run tries what the rule names. With examples, the run chose its own edits and no list label. With "a list label
+(`1.`, `-`)", both runs wrote `- ` before the first line, which does not show the finding that needs `1.`. With the
+numbered label spelled out, both runs tried it and both report that finding, one as a finding and one under a
+decision entry. Five runs of the small cases with `skill/r4-edits2/` (`runs/<case>-r4-edits2/`) score as the earlier
+runs did: 15 of 15 planted defects, 5 of 5 ambiguities as decision entries, 5 of 5 traps respected, no false
+finding. Each version has two runs at most, and the lists come from what runs missed on this benchmark; the score
+cards give the limits.
 
 The case is too large to copy here. `cases/ifbench/SOURCES.md` says how to rebuild it from public sources and check it
 against `MANIFEST.sha256`.
@@ -74,9 +92,11 @@ against `MANIFEST.sha256`.
 | `runs/SCORES.md` | the score card |
 | `cases/ifbench/` | what identifies the IFBench case, and `SOURCES.md`, how to rebuild it |
 | `keys/ifbench.md`, `keys/tools/ifbench/` | the earlier audit's files, the scoring rule, and the scripts and outputs behind the score |
-| `skill/r3/`, `skill/r4/`, `skill/r4-rule/` | the skill files the IFBench runs used |
+| `skill/r3/`, `skill/r4/`, `skill/r4-rule/`, `skill/r4-edits/`, `skill/r4-edits2/` | the skill files the IFBench runs used; the last also served the five later runs of the small cases |
 | `runs/ifbench-r3/`, `runs/ifbench-r3-prompts/` | the rerun's audit directory and the briefs of its two auditor sessions |
 | `runs/ifbench-r4/`, `runs/ifbench-r4-rule/`, `runs/ifbench-r4-prompts/` | the two controlled runs' audit directories and their brief |
+| `runs/ifbench-r4-2/`, `runs/ifbench-r4-edits-1/`, `-2/`, `runs/ifbench-r4-edits2-1/`, `-2/` | the audit directories of the five later controlled runs, which got the same brief |
+| `runs/<case>-r4-edits2/`, `runs/r4-edits2-prompts/` | the five runs of the small cases with `skill/r4-edits2/`, and their brief |
 | `runs/SCORES-ifbench.md` | the IFBench score card |
 | `RUNNER.md` | how to run one audit and score it |
 
