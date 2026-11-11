@@ -80,6 +80,24 @@ cards give the limits.
 The case is too large to copy here. `cases/ifbench/SOURCES.md` says how to rebuild it from public sources and check it
 against `MANIFEST.sha256`.
 
+## A test of the rule on a second grader
+
+The wording of `skill/r4-edits2/` comes from IFBench, so four more blind runs audited graders that it was not written
+for: the two rewards of the instruction-following rows of Marin's Nemotron RLVR1 data, NVIDIA's checkers in the SkyRL
+reward and verifyit's checks in the task-curation gate. Two runs had `skill/r4/` and two had `skill/r4-edits2/`.
+`runs/SCORES-rlvr1.md` scores them against an earlier audit of the same rewards, which is not published.
+
+| Skill | Runs | Of 39 defect fixtures of the SkyRL reward, corrected | Of 65 of the gate, corrected |
+|---|---|---|---|
+| `skill/r4/` | `rlvr1-r4-1`, `rlvr1-r4-2` | 31, 28 | 57, 59 |
+| `skill/r4-edits2/` | `rlvr1-r4-edits2-1`, `rlvr1-r4-edits2-2` | 33, 29 | 58, 61 |
+
+The rule costs nothing measured here, and both rule runs applied the whole list; in both, the dash bullet showed that
+verifyit counts a bare `-` as a word in its word checks, which the key has no fixture for. The fixture battery and the
+six target rows do not separate the versions, because the target defects are frequent on this panel and the controls
+find them too. The stored responses and the key are not published, so these records cannot be rerun from this
+repository.
+
 ## Layout
 
 | Path | Contents |
@@ -98,6 +116,10 @@ against `MANIFEST.sha256`.
 | `runs/ifbench-r4-2/`, `runs/ifbench-r4-edits-1/`, `-2/`, `runs/ifbench-r4-edits2-1/`, `-2/` | the audit directories of the five later controlled runs, which got the same brief |
 | `runs/<case>-r4-edits2/`, `runs/r4-edits2-prompts/` | the five runs of the small cases with `skill/r4-edits2/`, and their brief |
 | `runs/SCORES-ifbench.md` | the IFBench score card |
+| `cases/rlvr1/` | what identifies the RLVR1 case: `TASK.md`, `SOURCES.md`, `MANIFEST.sha256`, the panel's settings and the package list |
+| `keys/tools/rlvr1/` | the fixture battery's script (it needs the unpublished key) and its output table |
+| `runs/rlvr1-r4-1/`, `-2/`, `runs/rlvr1-r4-edits2-1/`, `-2/`, `runs/rlvr1-prompts/` | the four RLVR1 runs' audit directories and their brief |
+| `runs/SCORES-rlvr1.md` | the RLVR1 score card |
 | `RUNNER.md` | how to run one audit and score it |
 
 ## Reproduce

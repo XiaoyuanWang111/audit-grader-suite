@@ -433,3 +433,5 @@ and what the rule did in each run.
 - The five earlier findings as reported findings do not separate the versions, and F40 stays hit or miss.
 - Whether a label or markup behavior is filed as a finding or as a decision entry differs between runs of one
   wording.
+- These runs show that a run does what the rule names. `SCORES-rlvr1.md` tests the rule on two graders that its
+  wording was not fitted to.
