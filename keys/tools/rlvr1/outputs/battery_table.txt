@@ -1,16 +1,16 @@
 ## nvidia
-| | rlvr1-r4-1 | rlvr1-r4-2 | rlvr1-r4-edits2-1 | rlvr1-r4-edits2-2 |
-|---|---|---|---|---|
-| defect fixtures corrected | 31 of 39 | 28 of 39 | 33 of 39 | 29 of 39 |
-| ids all / some / none | 13 / 4 / 3 (of 20) | 13 / 3 / 4 (of 20) | 15 / 4 / 1 (of 20) | 14 / 2 / 4 (of 20) |
-| right fixtures kept | 426 of 454 | 434 of 454 | 429 of 454 | 435 of 454 |
-| replacement raised | 0 | 0 | 0 | 0 |
+| | rlvr1-r4-1 | rlvr1-r4-2 | rlvr1-r4-3 | rlvr1-r4-4 | rlvr1-r4-5 | rlvr1-r4-edits2-1 | rlvr1-r4-edits2-2 | rlvr1-r4-edits2-3 | rlvr1-r4-edits2-4 | rlvr1-r4-edits2-5 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| defect fixtures corrected | 31 of 39 | 28 of 39 | 27 of 39 | 35 of 39 | 29 of 39 | 33 of 39 | 29 of 39 | 31 of 39 | 29 of 39 | 32 of 39 |
+| ids all / some / none | 13 / 4 / 3 (of 20) | 13 / 3 / 4 (of 20) | 12 / 4 / 4 (of 20) | 16 / 3 / 1 (of 20) | 14 / 2 / 4 (of 20) | 15 / 4 / 1 (of 20) | 14 / 2 / 4 (of 20) | 13 / 3 / 4 (of 20) | 14 / 3 / 3 (of 20) | 14 / 3 / 3 (of 20) |
+| right fixtures kept | 426 of 454 | 434 of 454 | 438 of 454 | 436 of 454 | 436 of 454 | 429 of 454 | 435 of 454 | 432 of 454 | 427 of 454 | 437 of 454 |
+| replacement raised | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## verifyit
-| | rlvr1-r4-1 | rlvr1-r4-2 | rlvr1-r4-edits2-1 | rlvr1-r4-edits2-2 |
-|---|---|---|---|---|
-| defect fixtures corrected | 57 of 65 | 59 of 65 | 58 of 65 | 61 of 65 |
-| ids all / some / none | 20 / 4 / 4 (of 28) | 22 / 4 / 2 (of 28) | 21 / 3 / 4 (of 28) | 24 / 2 / 2 (of 28) |
-| right fixtures kept | 418 of 454 | 422 of 454 | 425 of 454 | 421 of 454 |
-| replacement raised | 0 | 0 | 0 | 0 |
+| | rlvr1-r4-1 | rlvr1-r4-2 | rlvr1-r4-3 | rlvr1-r4-4 | rlvr1-r4-5 | rlvr1-r4-edits2-1 | rlvr1-r4-edits2-2 | rlvr1-r4-edits2-3 | rlvr1-r4-edits2-4 | rlvr1-r4-edits2-5 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| defect fixtures corrected | 57 of 65 | 59 of 65 | 57 of 65 | 59 of 65 | 59 of 65 | 58 of 65 | 61 of 65 | 59 of 65 | 60 of 65 | 59 of 65 |
+| ids all / some / none | 20 / 4 / 4 (of 28) | 22 / 4 / 2 (of 28) | 20 / 4 / 4 (of 28) | 22 / 3 / 3 (of 28) | 22 / 2 / 4 (of 28) | 21 / 3 / 4 (of 28) | 24 / 2 / 2 (of 28) | 22 / 3 / 3 (of 28) | 23 / 3 / 2 (of 28) | 22 / 3 / 3 (of 28) |
+| right fixtures kept | 418 of 454 | 422 of 454 | 424 of 454 | 429 of 454 | 417 of 454 | 425 of 454 | 421 of 454 | 420 of 454 | 417 of 454 | 431 of 454 |
+| replacement raised | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 

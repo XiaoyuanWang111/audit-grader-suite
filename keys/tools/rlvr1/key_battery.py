@@ -7,7 +7,7 @@ does not depend on any reading, so a run corrects one when its replacement gives
 Run it with the run's own interpreter; it changes into the run's folder and imports the run's replacement grader.
 
 Usage: <workspace python> -B -X utf8 key_battery.py <record> <workspace> <key folder> <out.json>
-records: rlvr1-r4-1, rlvr1-r4-2, rlvr1-r4-edits2-1, rlvr1-r4-edits2-2
+records: rlvr1-r4-1 to rlvr1-r4-5, rlvr1-r4-edits2-1 to rlvr1-r4-edits2-5
 """
 
 import json
@@ -27,7 +27,9 @@ for name in ("fixtures_a.jsonl", "fixtures_b.jsonl", "fixtures_findings.jsonl", 
 matrix = json.loads((KEY / "results" / "fixture_matrix.json").read_text(encoding="utf-8"))
 stored = {row["fixture_id"]: row for row in matrix["matrix"]}
 defects = {
-    grader: {item["fixture_id"] for items in matrix["wrong"][grader].values() for item in items if not item["explained_by"]}
+    grader: {
+        item["fixture_id"] for items in matrix["wrong"][grader].values() for item in items if not item["explained_by"]
+    }
     for grader in ("nvidia", "verifyit")
 }
 assert (len(defects["nvidia"]), len(defects["verifyit"])) == (39, 65), {k: len(v) for k, v in defects.items()}
@@ -38,36 +40,58 @@ def no_none(kwargs: dict) -> dict:
     return {k: v for k, v in kwargs.items() if v is not None}
 
 
-# Each run wrote one replacement for both graders: (folder, module, function).
+# Each run wrote one replacement for both graders: (folder, module, function). "Class().method" is the method of an
+# instance made without arguments. Every function takes (instruction id, kwargs, response), except where
+# RESPONSE_FIRST says it takes (response, instruction id, kwargs).
 ENTRY = {
     "rlvr1-r4-1": ("audit", "replacement", "check_constraint"),
     "rlvr1-r4-2": ("audit/lib", "contract_grader", "check"),
+    "rlvr1-r4-3": ("audit/replacement", "contracts_grader", "check"),
+    "rlvr1-r4-4": ("audit/replacement", "contract_grader", "check"),
+    "rlvr1-r4-5": ("audit", "replacement", "Replacement().check"),
     "rlvr1-r4-edits2-1": ("audit/lib", "contracts_grader", "check"),
     "rlvr1-r4-edits2-2": ("audit", "replacement", "check"),
+    "rlvr1-r4-edits2-3": ("audit/replacement", "contract_grader", "check"),
+    "rlvr1-r4-edits2-4": ("audit/lib", "contract_grader", "ContractGrader().check"),
+    "rlvr1-r4-edits2-5": ("audit/replacement", "contract_grader", "grade_constraint"),
 }
+RESPONSE_FIRST = {"rlvr1-r4-edits2-3"}
 if RECORD not in ENTRY:
     sys.exit(f"unknown record {RECORD}; known: {sorted(ENTRY)}")
 folder, module, function = ENTRY[RECORD]
 sys.path.insert(0, str(W / folder))
-check = getattr(__import__(module), function)
+owner = __import__(module)
+if "()." in function:
+    cls, function = function.split("().")
+    owner = getattr(owner, cls)()
+check = getattr(owner, function)
 
 
 def safe(iid, kwargs, text):
+    args = (text, iid, no_none(kwargs)) if RECORD in RESPONSE_FIRST else (iid, no_none(kwargs), text)
     try:
-        return bool(check(iid, no_none(kwargs), text))
-    except Exception as exc:  # noqa: BLE001
+        return bool(check(*args))
+    except Exception as exc:
         return f"EXC {type(exc).__name__}: {str(exc)[:60]}"
 
 
 rows = []
 for fid, f in fixtures.items():
     verdict = safe(f["instruction_id"], dict(f.get("kwargs") or {}), f["response"])
-    rows.append({
-        "fixture_id": fid, "instruction_id": f["instruction_id"], "label": f["label"],
-        "expected": f["label"] == "pass", "nvidia_stored": stored[fid]["nvidia"], "verifyit_stored": stored[fid]["verifyit"],
-        "defect_nvidia": fid in defects["nvidia"], "defect_verifyit": fid in defects["verifyit"],
-        "replacement_for_nvidia": verdict, "replacement_for_verifyit": verdict,
-    })
+    rows.append(
+        {
+            "fixture_id": fid,
+            "instruction_id": f["instruction_id"],
+            "label": f["label"],
+            "expected": f["label"] == "pass",
+            "nvidia_stored": stored[fid]["nvidia"],
+            "verifyit_stored": stored[fid]["verifyit"],
+            "defect_nvidia": fid in defects["nvidia"],
+            "defect_verifyit": fid in defects["verifyit"],
+            "replacement_for_nvidia": verdict,
+            "replacement_for_verifyit": verdict,
+        }
+    )
 OUT.write_text(json.dumps(rows, indent=1, ensure_ascii=False), encoding="utf-8", newline="\n")
 for grader, column in (("nvidia", "replacement_for_nvidia"), ("verifyit", "replacement_for_verifyit")):
     d = [r for r in rows if r[f"defect_{grader}"]]
@@ -75,5 +99,7 @@ for grader, column in (("nvidia", "replacement_for_nvidia"), ("verifyit", "repla
     right = [r for r in rows if r[f"{grader}_stored"] is r["expected"]]
     keep = sum(r[column] is r["expected"] for r in right)
     exc = sum(isinstance(r[column], str) for r in rows)
-    print(f"{RECORD} {grader}: replacement gives the earlier label on {ok} of {len(d)} defect fixtures, and on {keep} "
-          f"of {len(right)} fixtures the grader gets right; raises on {exc}")
+    print(
+        f"{RECORD} {grader}: replacement gives the earlier label on {ok} of {len(d)} defect fixtures, and on {keep} "
+        f"of {len(right)} fixtures the grader gets right; raises on {exc}"
+    )
