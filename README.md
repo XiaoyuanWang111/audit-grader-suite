@@ -98,6 +98,22 @@ six target rows do not separate the versions, because the target defects are fre
 find them too. The stored responses and the key are not published, so these records cannot be rerun from this
 repository.
 
+Six more runs on 12 November make five runs per version, and the battery still does not separate the versions. A
+second measure counts the (form, check) pairs that a run's own inputs exercise; in a pair, the input form changes the
+check's verdict while the contract's verdict stays the same under every reading of the decision entries. This
+measure separates the versions when inputs whose verdict rests on a decision entry count. It needs the earlier
+audit's contracts, which are not published; `runs/SCORES-rlvr1.md` defines it and gives each run's counts. Each p is
+the exact two-sided Mann-Whitney p for five runs against five.
+
+| Mean per run | Without the rule | With the rule | p |
+|---|---|---|---|
+| Of 39 defect fixtures of the SkyRL reward, corrected | 30.0 | 30.8 | 0.46 |
+| Of 65 of the gate, corrected | 58.2 | 59.4 | 0.20 |
+| NVIDIA pairs its inputs exercise, of 89 | 8.0 | 19.0 | 0.095 |
+| the same, also counting inputs whose verdict rests on a decision entry | 11.0 | 31.6 | 0.008 |
+| Gate pairs its inputs exercise, of 59 | 6.0 | 8.6 | 0.30 |
+| the same, also counting inputs whose verdict rests on a decision entry | 6.0 | 10.4 | 0.016 |
+
 ## Layout
 
 | Path | Contents |
@@ -118,7 +134,8 @@ repository.
 | `runs/SCORES-ifbench.md` | the IFBench score card |
 | `cases/rlvr1/` | what identifies the RLVR1 case: `TASK.md`, `SOURCES.md`, `MANIFEST.sha256`, the panel's settings and the package list |
 | `keys/tools/rlvr1/` | the fixture battery's script (it needs the unpublished key) and its output table |
-| `runs/rlvr1-r4-1/`, `-2/`, `runs/rlvr1-r4-edits2-1/`, `-2/`, `runs/rlvr1-prompts/` | the four RLVR1 runs' audit directories and their brief |
+| `runs/rlvr1-r4-1/`, `-2/`, `runs/rlvr1-r4-edits2-1/`, `-2/`, `runs/rlvr1-prompts/brief.txt` | the four RLVR1 runs' audit directories and their brief |
+| `runs/rlvr1-r4-3/` to `-5/`, `runs/rlvr1-r4-edits2-3/` to `-5/`, `runs/rlvr1-prompts/brief-batch2.txt` | the audit directories of the six RLVR1 runs of 12 November, and their brief |
 | `runs/SCORES-rlvr1.md` | the RLVR1 score card |
 | `RUNNER.md` | how to run one audit and score it |
 
