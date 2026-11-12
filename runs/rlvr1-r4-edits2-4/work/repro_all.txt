@@ -1,0 +1,76 @@
+F1 skyrl keywords:existence                            grader=pass  contract=fail
+F2 skyrl keywords:word_once                            grader=fail  contract=pass
+F2 gate  keywords:word_once                            grader=fail  contract=pass
+F3 skyrl keywords:word_count_different_numbers         grader=fail  contract=pass
+F3 gate  keywords:word_count_different_numbers         grader=fail  contract=pass
+F3 skyrl keywords:word_count_different_numbers         grader=pass  contract=fail
+F3 gate  keywords:word_count_different_numbers         grader=pass  contract=fail
+F4 skyrl copy:repeat_phrase                            grader=pass  contract=fail
+F5 skyrl copy:repeat_phrase                            grader=fail  contract=pass
+F6 gate  copy:repeat_phrase                            grader=fail  contract=pass
+F6 gate  copy:repeat_phrase                            grader=pass  contract=fail
+F7 skyrl count:count_unique                            grader=fail  contract=pass
+F8 skyrl count:counting_composition                    grader=fail  contract=pass
+F9 gate  count:counting_composition                    grader=pass  contract=fail
+F10 gate  count:lowercase_counting                      grader=pass  contract=fail
+F10 gate  count:lowercase_counting                      grader=fail  contract=pass
+F11 gate  keywords:no_adjacent_consecutive              grader=pass  contract=fail
+F11 gate  keywords:no_adjacent_consecutive              grader=fail  contract=pass
+F12 gate  change_case:english_capital                   grader=pass  contract=fail
+F13 gate  detectable_format:square_brackets             grader=pass  contract=fail
+F14 gate  detectable_format:sentence_hyphens            grader=pass  contract=fail
+F15 skyrl detectable_format:sentence_hyphens            grader=fail  contract=pass
+F16 gate  length_constraints:number_paragraphs          grader=fail  contract=pass
+F17 gate  paragraphs:paragraphs2                        grader=pass  contract=fail
+F17 gate  paragraphs:paragraphs                         grader=pass  contract=fail
+F18 skyrl length_constraints:number_paragraphs          grader=fail  contract=pass
+F19 skyrl detectable_format:multiple_sections           grader=pass  contract=fail
+F20 skyrl detectable_format:multiple_sections           grader=pass  contract=fail
+F20 gate  detectable_format:multiple_sections           grader=pass  contract=fail
+F21 skyrl detectable_format:number_bullet_lists         grader=fail  contract=pass
+F22 skyrl detectable_format:number_bullet_lists         grader=fail  contract=pass
+F22 gate  detectable_format:number_bullet_lists         grader=fail  contract=pass
+F23 skyrl detectable_format:number_highlighted_sections grader=pass  contract=fail
+F23 gate  detectable_format:number_highlighted_sections grader=pass  contract=fail
+F24 skyrl detectable_format:constrained_response        grader=pass  contract=fail
+F25 skyrl detectable_format:json_format                 grader=pass  contract=fail
+F25 gate  detectable_format:json_format                 grader=pass  contract=fail
+F26 gate  detectable_format:json_format                 grader=fail  contract=pass
+F27 skyrl detectable_content:number_placeholders        grader=pass  contract=fail
+F27 skyrl detectable_content:number_placeholders        grader=pass  contract=fail
+F27 gate  detectable_content:number_placeholders        grader=pass  contract=fail
+F28 skyrl detectable_content:postscript                 grader=pass  contract=fail
+F28 skyrl detectable_content:postscript                 grader=pass  contract=fail
+F29 gate  detectable_content:postscript                 grader=fail  contract=pass
+F30 gate  detectable_format:title                       grader=pass  contract=fail
+F31 skyrl startend:end_checker                          grader=pass  contract=fail
+F31 gate  startend:end_checker                          grader=pass  contract=fail
+F32 gate  startend:quotation                            grader=pass  contract=fail
+F33 skyrl combination:two_responses                     grader=pass  contract=fail
+F33 gate  combination:two_responses                     grader=pass  contract=fail
+F34 skyrl first_word:first_word_answer                  grader=fail  contract=pass
+F34 skyrl length_constraints:nth_paragraph_first_word   grader=fail  contract=pass
+F35 skyrl keywords:start_end                            grader=pass  contract=fail
+F36 skyrl keywords:palindrome                           grader=pass  contract=fail
+F36 skyrl keywords:palindrome                           grader=fail  contract=pass
+F37 skyrl keywords:no_adjacent_consecutive              grader=pass  contract=fail
+F38 skyrl keywords:keyword_specific_position            grader=fail  contract=pass
+F39 skyrl detectable_format:square_brackets             grader=fail  contract=pass
+F40 skyrl detectable_format:bigram_wrapping             grader=pass  contract=fail
+F41 skyrl language:response_language                    grader=pass  contract=fail
+F42 gate  length_constraints:number_words               grader=fail  contract=pass
+F42 gate  first_word:first_word_answer                  grader=fail  contract=pass
+F43 gate  length_constraints:number_sentences           grader=pass  contract=fail
+F44 gate  keywords:start_end                            grader=pass  contract=fail
+F45 skyrl last_word:last_word_answer                    grader=fail  contract=pass
+F46 skyrl count:lowercase_counting                      grader=pass  contract=fail
+F47 skyrl change_case:english_capital                   grader=fail  contract=pass
+F47 skyrl language:response_language                    grader=pass  contract=fail
+F48 skyrl length_constraints:number_sentences           grader=fail  contract=pass
+F48 gate  length_constraints:number_sentences           grader=fail  contract=pass
+G1 skyrl keywords:word_once                            grader=pass  contract=fail  [raw thinking-mode response, no </think>: contract = extraction failure]
+G1 gate  keywords:word_once                            grader=pass  contract=fail  [raw thinking-mode response, no </think>: contract = extraction failure]
+G2 skyrl last_word:last_word_answer on an empty answer: errors=['IndexError: list index out of range'] infra_error=True reward=0.0
+G3 skyrl nth_paragraph_first_word {'num_paragraphs': 2, 'nth_paragraph': 3, 'first_word': 'rain'} 'Rain fell.\n\nRain stopped.' over 40 seeds: pass=24 fail=16 contract=fail
+G4 instruction_following.py line 33: if not nltk.download("punkt_tab", quiet=True):
+G5 data routes={'skyrl_gym': 11817}; nemotron_tasks.py line 106: if ultra["route"] != "task_session": -> raise ValueError("Terminal source rows require a portable Harbor task")

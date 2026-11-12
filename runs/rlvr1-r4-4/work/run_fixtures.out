@@ -1,0 +1,278 @@
+ERROR:absl:Unable to detect language for text  due to No features in text.
+== A: 75 of 265 fixtures differ from the label
+   english_capital:6450bacf39fa97d2              label=fail A=pass dec=['D-english-part'] 
+        null | "DAS IST MEINE ANTWORT UND SIE IST AUF DEUTSCH GESCHRIEBEN WORDEN."
+   english_capital:2d0b5a7fe55f00de              label=pass A=fail dec=[] 
+        null | "HELLO WORLD"
+   english_capital:7473be84b7613e32              label=pass A=fail dec=[] 
+        null | "OKAY."
+   two_responses:1c9432eb1afde32f                label=fail A=pass dec=[] 
+        null | "Use a map.\n*******\nAsk a local."
+   repeat_phrase:7c99458c0aeb60ee                label=pass A=fail dec=[] 
+        {"phrase": "Live each day to the fullest", "small_n": 2} | "live each moment to the fullest. LIVE EACH WEEK TO THE FULLEST."
+   repeat_phrase:f19f53ef39e71c27                label=fail A=pass dec=['D-repeat-original'] 
+        {"phrase": "Live each day to the fullest", "small_n": 2} | "Live each day to the fullest. Live each week to the fullest."
+   count_unique:171e20fc214710d6                 label=pass A=fail dec=[] 
+        null | "Red, green, blue, yellow."
+   count_unique:2e099542b0eccd3d                 label=fail A=pass dec=['D-unique-case'] 
+        null | "The cat chased the dog"
+   counting_composition:17bfa4831df725b7         label=pass A=fail dec=[] 
+        {"n_sent": 3, "n_words": 2} | "Birds sing. Rivers flow. Stars shine.\n* * *\nCats sleep. Dogs bark. Kids play.\n* * *\nWinds blow. Trees swa
+   counting_composition:f7d087c537d3a95d         label=pass A=fail dec=['D-divider-form'] 
+        {"n_sent": 3, "n_words": 2} | "Birds sing. Rivers flow. Stars shine.\n***\nCats sleep. Dogs bark. Kids play.\n***\nWinds blow. Trees sway. L
+   lowercase_counting:032e04da06d20d82           label=pass A=fail dec=['D-lowercase-scope'] 
+        {"N": 2} | "Apples are red and bananas are yellow."
+   lowercase_counting:e91e2da5a67a3e4e           label=pass A=fail dec=['D-lowercase-count', 'D-lowercase-scope'] 
+        {"N": 2} | "The cat, the dog, the bird."
+   lowercase_counting:65969631d8d59ca1           label=pass A=fail dec=['D-lowercase-scope'] 
+        {"N": 2} | "Apples are red and green."
+   number_placeholders:19d2230d50ede69d          label=fail A=pass dec=[] 
+        {"num_placeholders": 2} | "Dear [], see [ ]."
+   postscript:4d22e36c6b921eac                   label=fail A=pass dec=[] 
+        {"postscript_marker": "P.S."} | "Main text.\n\nP.P.S. Extra note."
+   postscript:47b14e99fbb4f78f                   label=pass A=fail dec=[] 
+        {"postscript_marker": "P.S."} | "Main text.\n\nP.S: one more thing."
+   postscript:10ab45e1b11fc0d8                   label=fail A=pass dec=['D-postscript-end'] 
+        {"postscript_marker": "P.S."} | "P.S. Note first.\n\nThen the main text continues here."
+   bigram_wrapping:ea482050fedc4b68              label=pass A=fail dec=[] 
+        null | "<<I am>> <<at home>>."
+   constrained_response:39c350ccd1b1efd3         label=fail A=pass dec=[] 
+        null | "My answer is yes. My answer is no."
+   multiple_sections:e373e502b54e1d72            label=fail A=pass dec=[] 
+        {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nA.\nSECTION 2\nB.\nSECTION 3\nC."
+   multiple_sections:37bf49bd78a57db4            label=pass A=fail dec=['D-sections-case'] 
+        {"num_sections": 2, "section_spliter": "Section"} | "SECTION 1\nText one.\nSECTION 2\nText two."
+   multiple_sections:1744f13dda7bc73e            label=fail A=pass dec=[] 
+        {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nSECTION 2\nText."
+   number_bullet_lists:9c6d68f9f36ca3eb          label=pass A=fail dec=[] 
+        {"num_bullets": 2} | "* First point.\n* Second point.\n\n---\n\nThanks."
+   number_bullet_lists:f268b2713e3bacde          label=pass A=fail dec=[] 
+        {"num_bullets": 2} | "* First.\n* Second.\n* * *\nEnd."
+   number_bullet_lists:8c0b092428a386ba          label=pass A=fail dec=[] 
+        {"num_bullets": 2} | "*Note:* this is italic.\n* First.\n* Second."
+   number_bullet_lists:1a3a1e6b0b380fc3          label=pass A=fail dec=[] 
+        {"num_bullets": 2} | "* First point.\n* Second point.\n-5 degrees is cold."
+   number_highlighted_sections:bf401f59c7f0d7e1  label=fail A=pass dec=[] 
+        {"num_highlights": 1} | "Compute 2 * 3 * 4 now."
+   sentence_hyphens:708923dd6032f558             label=pass A=fail dec=[] 
+        null | "My well-known recipe works.-It is quick."
+   square_brackets:c32e3b72881c144c              label=pass A=fail dec=[] 
+        null | "[I] [like] [tea]."
+   square_brackets:863a8dc427f8cf15              label=pass A=fail dec=[] 
+        null | "[Hello], [world]!"
+   first_word_answer:52cd135831518478            label=pass A=fail dec=[] 
+        {"first_word": "development"} | "**Development**: the city grew slowly."
+   first_word_answer:4f0abc1e2c453527            label=pass A=fail dec=[] 
+        {"first_word": "development"} | "Development, as a process, is slow."
+   first_word_sent:5819537b180aceff              label=pass A=fail dec=[] 
+        {"first_word": "peace"} | "Peace, friends, is good. Peace matters!"
+   existence:a501269f7e663e13                    label=fail A=pass dec=['D-keyword-boundary'] 
+        {"keywords": ["quote", "teaching"]} | "These quotes are about teachings."
+   frequency:dbe0d1c9aaee0588                    label=fail A=pass dec=['D-keyword-boundary'] 
+        {"keyword": "monitor", "frequency": 2, "relation": "at least"} | "The monitors are big. I like this monitor."
+   keyword_specific_position:95780d5af1cf52d9    label=pass A=fail dec=[] 
+        {"keyword": "shot", "n": 2, "m": 3} | "I tried hard. Then a Shot rang out."
+   keyword_specific_position:c3e1bd3df5ed9f78    label=pass A=fail dec=[] 
+        {"keyword": "shot", "n": 2, "m": 3} | "I tried hard. Well, a shot rang out."
+   no_adjacent_consecutive:d49d8b7ae89b4c30      label=fail A=pass dec=['D-consecutive-order'] 
+        null | "Big apple pie."
+   no_adjacent_consecutive:ede468a292724765      label=pass A=fail dec=[] 
+        null | "Room 1 2 3 was open."
+   no_adjacent_consecutive:5c46c933aa56d687      label=pass A=fail dec=[] 
+        null | "Cats * + run."
+   palindrome:edf215253ac6227f                   label=pass A=fail dec=[] 
+        null | "Wow, that was fun."
+   palindrome:44d9cdc8690a453a                   label=fail A=pass dec=['D-palindrome-length'] 
+        null | "We saw a car today."
+   palindrome:d86b51bee0dcb75e                   label=fail A=pass dec=[] 
+        null | "- item one\n- item two"
+   start_end:d913ec0ca2a73b7a                    label=pass A=fail dec=[] 
+        null | "**Hello** there my friend hello"
+   start_end:c7a9a22d8d4a966b                    label=pass A=fail dec=['D-start-end-one-word'] 
+        null | "Hello"
+   word_count_different_numbers:cc426051accd194b label=pass A=fail dec=[] 
+        {"keyword": "skin", "frequency": 2, "relation": "less than"} | "Skin care matters. Protect your skin."
+   word_count_different_numbers:59c80f4cc83a7292 label=fail A=pass dec=[] 
+        {"keyword": "skin", "frequency": 2, "relation": "less than"} | "Skin care matters."
+   word_count_different_numbers:3700d6b1ce4d8891 label=fail A=pass dec=['D-appear-n-times'] 
+        {"keyword": "skin", "frequency": 2, "relation": "at least"} | "Skin, skin, skin."
+   word_count_different_numbers:22a61be79b67a56b label=fail A=pass dec=[] 
+        {"keyword": "skin", "frequency": 1, "relation": "less than"} | "No mention here."
+   word_once:9bc26825b6c823d8                    label=pass A=fail dec=[] 
+        {"keyword": "fix"} | "Fix it now, then fix it again."
+   word_once:bf1035882a7c78c7                    label=fail A=pass dec=['D-keyword-boundary'] 
+        {"keyword": "fix"} | "The prefix changed."
+   response_language:63eb3cf12cff81ff            label=fail A=pass dec=[] 
+        {"language": "fr"} | ""
+   last_word_sent:1a2da0f079ebf26a               label=fail A=pass dec=['D-sentence'] 
+        {"last_word": "train"} | "Travel Notes\nI took the train."
+   nth_paragraph_first_word:9665856b1bbe1bb0     label=pass A=fail dec=[] 
+        {"num_paragraphs": 3, "nth_paragraph": 2, "first_word": "crash"} | "Intro.\n\n**Crash** tests matter.\n\nEnd."
+   nth_paragraph_first_word:244670a8e81f7f4f     label=pass A=fail dec=[] 
+        {"num_paragraphs": 3, "nth_paragraph": 2, "first_word": "crash"} | "Intro.\n\nCrash: tests matter.\n\nEnd."
+   number_paragraphs:8ced25466eeb3df5            label=pass A=fail dec=['D-divider-form'] 
+        {"num_paragraphs": 3} | "First.\n* * *\nSecond.\n* * *\nThird."
+   number_paragraphs:8b8a0f23ca3624fb            label=pass A=fail dec=[] 
+        {"num_paragraphs": 3} | "First ***note*** here.\n***\nSecond.\n***\nThird."
+   number_paragraphs:ba05dfbd34e6a6f6            label=fail A=pass dec=['D-divider-empty'] 
+        {"num_paragraphs": 3} | "First.\n***\nSecond.\n***\nThird.\n***"
+   number_words:382b53392cc1aa48                 label=pass A=fail dec=[] 
+        {"num_words": 5, "relation": "less than"} | "I don't like it"
+   letter_counting:0c6ed63e571d8fee              label=fail A=pass dec=['D-letters-unit'] 
+        {"N": 3, "relation": "less than"} | "Привет"
+   paragraphs:96f258ff5addc74a                   label=pass A=fail dec=[] 
+        {} | "First ***bold*** words here.\n***\nSecond."
+   no_comma:0bb6f27365f66241                     label=fail A=pass dec=['D-comma-chars'] 
+        null | "这是，中文"
+   punctuation_dot:4941d635c4b3e7d0              label=fail A=pass dec=['D-dot-chars'] 
+        null | "这是中文。"
+   punctuation_exclamation:c1486cf155eee3e6      label=fail A=pass dec=['D-excl-chars'] 
+        null | "太好了！"
+   end_checker:cc3dcc7da860761f                  label=pass A=fail dec=['D-end-trailing'] 
+        {"end_phrase": "Is there anything else I can help with?"} | "Here it is. **Is there anything else I can help with?**"
+   end_checker:929dd9edaa6fc740                  label=fail A=pass dec=['D-end-case'] 
+        {"end_phrase": "Is there anything else I can help with?"} | "here it is. is there anything else i can help with?"
+   quotation:3ea7fa238e6fe5b6                    label=pass A=fail dec=['D-quote-chars'] 
+        null | "“Hello there.”"
+   square_brackets:2f4d2a993bb5d702              label=fail A=pass dec=[] 
+        null | "[J][u][s][t] [g][o]"
+   two_responses:d8a6fe7ed84f76fd                label=fail A=pass dec=['D-two-responses-edge'] 
+        null | "Answer one.\n******\nAnswer two.\n******"
+   no_adjacent_consecutive:d36979acc1fd72f0      label=pass A=fail dec=['D-consecutive-script'] 
+        null | "Я вижу город."
+   lowercase_counting:41428cb0175422c8           label=fail A=pass dec=[] 
+        {"N": 2} | "мы мы мы идём"
+   palindrome:1d607ecf93dc2713                   label=pass A=fail dec=[] 
+        null | "Noon is lunch time."
+   sentence_hyphens:91881b7d985e18d8             label=pass A=fail dec=[] 
+        null | "CAN-DO-USED-IN-THE-BUILDING"
+   english_capital:85582c6c28c409c2              label=fail A=pass dec=['D-english-part'] 
+        null | "THIS IS ENGLISH TEXT FOR YOU AND IT IS LONG ENOUGH TO READ.\n\n这是一个完整的中文段落。"
+   letter_counting:4b28f1bfc2d4e78d              label=pass A=fail dec=[] 
+        {"N": 3, "relation": "at least"} | "Привет мир друзья"
+== B: 62 of 265 fixtures differ from the label
+   capital_word_frequency:f29ea7f2bc1e8597       label=pass B=fail dec=['D-capital-single-letter'] 
+        {"capital_frequency": 2, "capital_relation": "at least"} | "I think NASA is great."
+   english_capital:6450bacf39fa97d2              label=fail B=pass dec=['D-english-part'] 
+        null | "DAS IST MEINE ANTWORT UND SIE IST AUF DEUTSCH GESCHRIEBEN WORDEN."
+   english_lowercase:78b2229369c9e272            label=fail B=pass dec=['D-english-part'] 
+        null | "das ist meine antwort und sie ist auf deutsch klein geschrieben worden."
+   two_responses:1c9432eb1afde32f                label=fail B=pass dec=[] 
+        null | "Use a map.\n*******\nAsk a local."
+   repeat_phrase:5d8284bd53c9d337                label=pass B=fail dec=[] 
+        {"phrase": "Live each day to the fullest", "small_n": 2} | "Live each moment to the fullest. Live each week to the fullest."
+   repeat_phrase:41aafb168dc23143                label=fail B=pass dec=['D-repeat-original'] 
+        {"phrase": "Live each day to the fullest", "small_n": 2} | "Live each day to the fullest. Live each day to the fullest."
+   repeat_phrase:7c99458c0aeb60ee                label=pass B=fail dec=[] 
+        {"phrase": "Live each day to the fullest", "small_n": 2} | "live each moment to the fullest. LIVE EACH WEEK TO THE FULLEST."
+   repeat_phrase:103e8e15d0e9cfd0                label=pass B=fail dec=[] 
+        {"phrase": "The early bird catches the worm", "small_n": 2} | "The early bird gets the worm. The early fox catches the worm. Then the dog ate the worm."
+   counting_composition:4eeaed6321b424cf         label=fail B=pass dec=[] 
+        {"n_sent": 3, "n_words": 2} | "Birds sing. Rivers flow. Stars shine.\n* * *\nCats sleep. Dogs bark. Kids play."
+   counting_composition:537cd894514d92b2         label=fail B=pass dec=[] 
+        {"n_sent": 3, "n_words": 2} | "Birds sing loudly. Rivers flow. Stars shine.\n* * *\nCats sleep. Dogs bark. Kids play.\n* * *\nWinds blow. Tr
+   lowercase_counting:925fbcb1888cedf0           label=fail B=pass dec=[] 
+        {"N": 2} | "the cat and the dog and the bird"
+   lowercase_counting:a35782d4c45f27ec           label=pass B=fail dec=[] 
+        {"N": 3} | "Apples are red."
+   postscript:47b14e99fbb4f78f                   label=pass B=fail dec=[] 
+        {"postscript_marker": "P.S."} | "Main text.\n\nP.S: one more thing."
+   postscript:442940f2e9c7a8b5                   label=pass B=fail dec=[] 
+        {"postscript_marker": "P.S."} | "Main text.\n\n**P.S.** One more thing."
+   postscript:10ab45e1b11fc0d8                   label=fail B=pass dec=['D-postscript-end'] 
+        {"postscript_marker": "P.S."} | "P.S. Note first.\n\nThen the main text continues here."
+   constrained_response:f6577a7ae78999bd         label=pass B=fail dec=['D-constrained-exact'] 
+        null | "My answer is no. The data does not support it."
+   constrained_response:e6b8897167a20de5         label=pass B=fail dec=[] 
+        null | "**My answer is maybe.**"
+   json_format:cbf6df16a4458001                  label=pass B=fail dec=[] 
+        null | "```JSON\n{\"a\": 1}\n```"
+   multiple_sections:c3af9cecc5b75207            label=pass B=fail dec=[] 
+        {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nIntro text, as noted in SECTION 2 below.\nSECTION 2\nMore text."
+   multiple_sections:1744f13dda7bc73e            label=fail B=pass dec=[] 
+        {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nSECTION 2\nText."
+   multiple_sections:60d6666e9ca34bdd            label=pass B=fail dec=[] 
+        {"num_sections": 1, "section_spliter": "Section"} | "Section 1\nAll text. See Section 2 of the law."
+   number_bullet_lists:f268b2713e3bacde          label=pass B=fail dec=[] 
+        {"num_bullets": 2} | "* First.\n* Second.\n* * *\nEnd."
+   number_highlighted_sections:bf401f59c7f0d7e1  label=fail B=pass dec=[] 
+        {"num_highlights": 1} | "Compute 2 * 3 * 4 now."
+   sentence_hyphens:1fb021dfd14f7021             label=pass B=fail dec=[] 
+        null | "I like tea.-It is warm.-It calms me."
+   sentence_hyphens:708923dd6032f558             label=pass B=fail dec=[] 
+        null | "My well-known recipe works.-It is quick."
+   sentence_hyphens:474ede6eaf82d567             label=pass B=fail dec=[] 
+        null | "I like tea."
+   square_brackets:f84f106da34c9ad4              label=fail B=pass dec=[] 
+        null | "[I] like [tea]"
+   square_brackets:58c91a96a380c612              label=fail B=pass dec=['D-bracket-group'] 
+        null | "[I like tea]"
+   title:7d4eb1644008f31a                        label=fail B=pass dec=[] 
+        null | "<< >> text"
+   no_adjacent_consecutive:3210e18590f5a885      label=fail B=pass dec=[] 
+        null | "A big dog."
+   no_adjacent_consecutive:d49d8b7ae89b4c30      label=fail B=pass dec=['D-consecutive-order'] 
+        null | "Big apple pie."
+   no_adjacent_consecutive:05ab50082cfe5310      label=fail B=pass dec=[] 
+        null | "The cat. Dog runs."
+   start_end:60545103580f7377                    label=fail B=pass dec=[] 
+        null | "Hello there my friend hello."
+   word_count_different_numbers:cc426051accd194b label=pass B=fail dec=[] 
+        {"keyword": "skin", "frequency": 2, "relation": "less than"} | "Skin care matters. Protect your skin."
+   word_count_different_numbers:59c80f4cc83a7292 label=fail B=pass dec=[] 
+        {"keyword": "skin", "frequency": 2, "relation": "less than"} | "Skin care matters."
+   word_count_different_numbers:3700d6b1ce4d8891 label=fail B=pass dec=['D-appear-n-times'] 
+        {"keyword": "skin", "frequency": 2, "relation": "at least"} | "Skin, skin, skin."
+   word_count_different_numbers:22a61be79b67a56b label=fail B=pass dec=[] 
+        {"keyword": "skin", "frequency": 1, "relation": "less than"} | "No mention here."
+   word_once:9bc26825b6c823d8                    label=pass B=fail dec=[] 
+        {"keyword": "fix"} | "Fix it now, then fix it again."
+   last_word_sent:1a2da0f079ebf26a               label=fail B=pass dec=['D-sentence'] 
+        {"last_word": "train"} | "Travel Notes\nI took the train."
+   number_paragraphs:4cd68abde1c2e725            label=pass B=fail dec=[] 
+        {"num_paragraphs": 3} | "First.\n***\nSecond.\n***\nThird."
+   number_paragraphs:2dd57e67749c8aa9            label=pass B=fail dec=[] 
+        {"num_paragraphs": 3} | "First.\n\n***\n\nSecond.\n\n***\n\nThird."
+   number_paragraphs:8ced25466eeb3df5            label=pass B=fail dec=['D-divider-form'] 
+        {"num_paragraphs": 3} | "First.\n* * *\nSecond.\n* * *\nThird."
+   number_paragraphs:ab4b8cb73e0e4f5e            label=fail B=pass dec=[] 
+        {"num_paragraphs": 3} | "First.\n\nSecond.\n\nThird."
+   number_paragraphs:8b8a0f23ca3624fb            label=pass B=fail dec=[] 
+        {"num_paragraphs": 3} | "First ***note*** here.\n***\nSecond.\n***\nThird."
+   number_words:dde6f80e745cf577                 label=pass B=fail dec=[] 
+        {"num_words": 5, "relation": "at least"} | "Привет как у тебя дела"
+   number_words:1b2864de16504d0b                 label=pass B=fail dec=[] 
+        {"num_words": 4, "relation": "less than"} | "Café crème brûlée"
+   paragraphs:87036b2c94bca795                   label=fail B=pass dec=[] 
+        {} | "First.\n***\nSecond.\n***\nThird."
+   paragraphs:9e389638024af068                   label=fail B=pass dec=[] 
+        {} | "First.\n\nSecond."
+   paragraphs2:4ee668c1c630deed                  label=fail B=pass dec=[] 
+        {} | "One.\n\nTwo.\n\nThree."
+   paragraphs2:f77fd17c27a0fff2                  label=fail B=pass dec=[] 
+        {} | "First.\n***\nSecond."
+   no_comma:0bb6f27365f66241                     label=fail B=pass dec=['D-comma-chars'] 
+        null | "这是，中文"
+   punctuation_dot:4941d635c4b3e7d0              label=fail B=pass dec=['D-dot-chars'] 
+        null | "这是中文。"
+   punctuation_exclamation:c1486cf155eee3e6      label=fail B=pass dec=['D-excl-chars'] 
+        null | "太好了！"
+   end_checker:cc3dcc7da860761f                  label=pass B=fail dec=['D-end-trailing'] 
+        {"end_phrase": "Is there anything else I can help with?"} | "Here it is. **Is there anything else I can help with?**"
+   end_checker:c50a91cf44283b42                  label=pass B=fail dec=['D-end-trailing'] 
+        {"end_phrase": "Any other questions?"} | "\"Here it is. Any other questions?\""
+   quotation:985e8eace788e49c                    label=fail B=pass dec=[] 
+        null | "'Hello there.'"
+   quotation:31a947e61dca766e                    label=fail B=pass dec=[] 
+        null | "\""
+   square_brackets:2f4d2a993bb5d702              label=fail B=pass dec=[] 
+        null | "[J][u][s][t] [g][o]"
+   number_paragraphs:ad41a06b339b718e            label=pass B=fail dec=[] 
+        {"num_paragraphs": 2} | "First paragraph here. *** Second paragraph here."
+   two_responses:d8a6fe7ed84f76fd                label=fail B=pass dec=['D-two-responses-edge'] 
+        null | "Answer one.\n******\nAnswer two.\n******"
+   lowercase_counting:c0113ef7733ab362           label=pass B=fail dec=[] 
+        {"N": 2} | "这是 这是 这是 测试"
+   palindrome:c5a716e285831734                   label=pass B=fail dec=[] 
+        null | "A man, a plan, a canal, Panama."
+== R: 0 of 265 fixtures differ from the label

@@ -1,0 +1,736 @@
+{
+ "n_rows": 11817,
+ "n_constraints": 28219,
+ "ids": {
+  "keywords:existence": 932,
+  "keywords:word_once": 917,
+  "count:lowercase_counting": 869,
+  "punctuation:punctuation_dot": 847,
+  "keywords:forbidden_words": 836,
+  "keywords:no_adjacent_consecutive": 818,
+  "keywords:letter_frequency": 783,
+  "language:response_language": 780,
+  "change_case:english_capital": 772,
+  "paragraphs:paragraphs2": 744,
+  "punctuation:no_comma": 730,
+  "length_constraints:number_words": 729,
+  "letters:letter_counting2": 705,
+  "length_constraints:number_paragraphs": 690,
+  "count:count_unique": 687,
+  "keywords:keyword_specific_position": 676,
+  "detectable_format:sentence_hyphens": 669,
+  "detectable_content:postscript": 644,
+  "punctuation:punctuation_exclamation": 627,
+  "last_word:last_word_answer": 625,
+  "keywords:palindrome": 618,
+  "keywords:frequency": 607,
+  "change_case:english_lowercase": 604,
+  "change_case:capital_word_frequency": 601,
+  "last_word:last_word_sent": 600,
+  "detectable_format:title": 589,
+  "detectable_content:number_placeholders": 585,
+  "paragraphs:paragraphs": 576,
+  "detectable_format:bigram_wrapping": 575,
+  "length_constraints:number_sentences": 562,
+  "first_word:first_word_answer": 557,
+  "detectable_format:number_highlighted_sections": 555,
+  "copy:repeat_phrase": 554,
+  "detectable_format:square_brackets": 553,
+  "first_word:first_word_sent": 540,
+  "startend:end_checker": 537,
+  "keywords:word_count_different_numbers": 526,
+  "length_constraints:nth_paragraph_first_word": 515,
+  "detectable_format:number_bullet_lists": 512,
+  "keywords:start_end": 499,
+  "letters:letter_counting": 497,
+  "detectable_format:multiple_sections": 453,
+  "startend:quotation": 417,
+  "combination:two_responses": 253,
+  "detectable_format:json_format": 133,
+  "detectable_format:constrained_response": 120,
+  "count:counting_composition": 1
+ },
+ "kw_keys": {
+  "first_word:first_word_answer": {
+   "first_word": 557
+  },
+  "last_word:last_word_sent": {
+   "last_word": 600
+  },
+  "startend:end_checker": {
+   "end_phrase": 537
+  },
+  "change_case:capital_word_frequency": {
+   "capital_frequency": 601,
+   "capital_relation": 601
+  },
+  "length_constraints:number_words": {
+   "num_words": 729,
+   "relation": 729
+  },
+  "detectable_format:multiple_sections": {
+   "num_sections": 453,
+   "section_spliter": 453
+  },
+  "last_word:last_word_answer": {
+   "last_word": 625
+  },
+  "copy:repeat_phrase": {
+   "phrase": 554,
+   "small_n": 554
+  },
+  "detectable_format:number_highlighted_sections": {
+   "num_highlights": 555
+  },
+  "keywords:forbidden_words": {
+   "forbidden_words": 836
+  },
+  "language:response_language": {
+   "language": 780
+  },
+  "first_word:first_word_sent": {
+   "first_word": 540
+  },
+  "count:lowercase_counting": {
+   "N": 869
+  },
+  "letters:letter_counting": {
+   "N": 497,
+   "relation": 497
+  },
+  "keywords:keyword_specific_position": {
+   "keyword": 676,
+   "m": 676,
+   "n": 676
+  },
+  "detectable_content:postscript": {
+   "postscript_marker": 644
+  },
+  "keywords:letter_frequency": {
+   "let_frequency": 783,
+   "let_relation": 783,
+   "letter": 783
+  },
+  "keywords:frequency": {
+   "frequency": 607,
+   "keyword": 607,
+   "relation": 607
+  },
+  "detectable_content:number_placeholders": {
+   "num_placeholders": 585
+  },
+  "keywords:word_count_different_numbers": {
+   "frequency": 526,
+   "keyword": 526,
+   "relation": 526
+  },
+  "letters:letter_counting2": {
+   "let_frequency": 705,
+   "let_relation": 705,
+   "letter": 705
+  },
+  "keywords:existence": {
+   "keywords": 932
+  },
+  "detectable_format:number_bullet_lists": {
+   "num_bullets": 512
+  },
+  "length_constraints:number_paragraphs": {
+   "num_paragraphs": 690
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "first_word": 515,
+   "nth_paragraph": 515,
+   "num_paragraphs": 515
+  },
+  "keywords:word_once": {
+   "keyword": 917
+  },
+  "length_constraints:number_sentences": {
+   "num_sentences": 562,
+   "relation": 562
+  },
+  "count:counting_composition": {
+   "n_sent": 1,
+   "n_words": 1
+  }
+ },
+ "kw_vals": {
+  "first_word:first_word_answer": {
+   "first_word": {
+    "\"dealer\"": 4,
+    "\"mix\"": 3,
+    "\"situation\"": 3,
+    "\"designer\"": 3,
+    "\"limit\"": 3,
+    "\"awareness\"": 3,
+    "\"pack\"": 3,
+    "\"pause\"": 3,
+    "\"winter\"": 3,
+    "\"specialist\"": 3,
+    "\"mother\"": 3,
+    "\"coast\"": 3,
+    "\"rain\"": 3,
+    "\"view\"": 2,
+    "\"kiss\"": 2
+   }
+  },
+  "last_word:last_word_sent": {
+   "last_word": {
+    "\"rest\"": 3,
+    "\"language\"": 3,
+    "\"moment\"": 3,
+    "\"foot\"": 3,
+    "\"analyst\"": 3,
+    "\"routine\"": 3,
+    "\"purpose\"": 3,
+    "\"garbage\"": 3,
+    "\"limit\"": 2,
+    "\"private\"": 2,
+    "\"customer\"": 2,
+    "\"suspect\"": 2,
+    "\"parent\"": 2,
+    "\"society\"": 2,
+    "\"thought\"": 2
+   }
+  },
+  "startend:end_checker": {
+   "end_phrase": {
+    "\"Is there anything else I can help with?\"": 284,
+    "\"Any other questions?\"": 253
+   }
+  },
+  "change_case:capital_word_frequency": {
+   "capital_frequency": {
+    "16": 38,
+    "20": 36,
+    "2": 35,
+    "6": 35,
+    "11": 34,
+    "1": 34,
+    "7": 33,
+    "4": 33,
+    "13": 31,
+    "19": 30,
+    "17": 30,
+    "14": 30,
+    "8": 28,
+    "18": 27,
+    "9": 27
+   },
+   "capital_relation": {
+    "\"less than\"": 335,
+    "\"at least\"": 266
+   }
+  },
+  "length_constraints:number_words": {
+   "num_words": {
+    "213": 6,
+    "232": 5,
+    "217": 5,
+    "496": 5,
+    "474": 5,
+    "442": 5,
+    "114": 5,
+    "323": 5,
+    "361": 5,
+    "415": 5,
+    "376": 5,
+    "208": 5,
+    "106": 4,
+    "325": 4,
+    "236": 4
+   },
+   "relation": {
+    "\"at least\"": 401,
+    "\"less than\"": 328
+   }
+  },
+  "detectable_format:multiple_sections": {
+   "num_sections": {
+    "1": 105,
+    "4": 98,
+    "5": 88,
+    "3": 83,
+    "2": 79
+   },
+   "section_spliter": {
+    "\"SECTION\"": 242,
+    "\"Section\"": 211
+   }
+  },
+  "last_word:last_word_answer": {
+   "last_word": {
+    "\"single\"": 4,
+    "\"roof\"": 4,
+    "\"feeling\"": 3,
+    "\"ease\"": 3,
+    "\"thing\"": 3,
+    "\"duty\"": 3,
+    "\"slip\"": 3,
+    "\"lake\"": 3,
+    "\"slice\"": 3,
+    "\"emphasis\"": 3,
+    "\"intention\"": 3,
+    "\"read\"": 3,
+    "\"leader\"": 3,
+    "\"internal\"": 3,
+    "\"refrigerator\"": 3
+   }
+  },
+  "copy:repeat_phrase": {
+   "phrase": {
+    "\"Don't judge a book by cover\"": 68,
+    "\"Live each day to the fullest\"": 64,
+    "\"Laughter is the best medicine\"": 59,
+    "\"The pen is mightier than sword\"": 58,
+    "\"Every cloud has a silver lining\"": 57,
+    "\"The early bird catches the worm\"": 54,
+    "\"Time flies when having fun\"": 51,
+    "\"All that glitters is not gold\"": 49,
+    "\"Dance like nobody is watching you\"": 49,
+    "\"Actions speak louder than words\"": 45
+   },
+   "small_n": {
+    "3": 283,
+    "2": 271
+   }
+  },
+  "detectable_format:number_highlighted_sections": {
+   "num_highlights": {
+    "2": 157,
+    "1": 136,
+    "4": 131,
+    "3": 131
+   }
+  },
+  "keywords:forbidden_words": {
+   "forbidden_words": {
+    "[\"sound\", \"square\"]": 2,
+    "[\"debate\", \"indication\"]": 1,
+    "[\"bet\", \"raw\"]": 1,
+    "[\"law\", \"top\"]": 1,
+    "[\"dead\", \"wash\"]": 1,
+    "[\"floor\", \"wheel\"]": 1,
+    "[\"rush\", \"youth\"]": 1,
+    "[\"base\", \"horse\"]": 1,
+    "[\"assist\", \"knee\"]": 1,
+    "[\"leave\", \"poem\"]": 1,
+    "[\"bus\", \"media\"]": 1,
+    "[\"comfort\", \"strategy\"]": 1,
+    "[\"audience\", \"sail\"]": 1,
+    "[\"jump\", \"penalty\"]": 1,
+    "[\"low\", \"towel\"]": 1
+   }
+  },
+  "language:response_language": {
+   "language": {
+    "\"ta\"": 44,
+    "\"pa\"": 41,
+    "\"ur\"": 39,
+    "\"bg\"": 37,
+    "\"ml\"": 36,
+    "\"ko\"": 35,
+    "\"fi\"": 31,
+    "\"vi\"": 30,
+    "\"ar\"": 29,
+    "\"gu\"": 29,
+    "\"kn\"": 28,
+    "\"pl\"": 27,
+    "\"hi\"": 24,
+    "\"bn\"": 24,
+    "\"uk\"": 24
+   }
+  },
+  "first_word:first_word_sent": {
+   "first_word": {
+    "\"peace\"": 3,
+    "\"chart\"": 3,
+    "\"care\"": 3,
+    "\"expression\"": 3,
+    "\"poem\"": 3,
+    "\"purple\"": 3,
+    "\"rock\"": 3,
+    "\"grand\"": 3,
+    "\"good\"": 3,
+    "\"control\"": 2,
+    "\"give\"": 2,
+    "\"script\"": 2,
+    "\"fish\"": 2,
+    "\"exam\"": 2,
+    "\"print\"": 2
+   }
+  },
+  "count:lowercase_counting": {
+   "N": {
+    "2": 444,
+    "3": 425
+   }
+  },
+  "letters:letter_counting": {
+   "N": {
+    "3": 266,
+    "2": 231
+   },
+   "relation": {
+    "\"at least\"": 294,
+    "\"less than\"": 203
+   }
+  },
+  "keywords:keyword_specific_position": {
+   "keyword": {
+    "\"shot\"": 4,
+    "\"boy\"": 4,
+    "\"female\"": 3,
+    "\"breast\"": 3,
+    "\"club\"": 3,
+    "\"blind\"": 3,
+    "\"mall\"": 3,
+    "\"wonder\"": 3,
+    "\"broad\"": 3,
+    "\"cap\"": 3,
+    "\"writer\"": 3,
+    "\"problem\"": 3,
+    "\"hang\"": 3,
+    "\"mess\"": 3,
+    "\"suit\"": 2
+   },
+   "m": {
+    "11": 35,
+    "12": 33,
+    "2": 31,
+    "8": 30,
+    "16": 28,
+    "7": 28,
+    "3": 27,
+    "13": 27,
+    "5": 26,
+    "1": 25,
+    "14": 25,
+    "25": 23,
+    "9": 23,
+    "19": 23,
+    "6": 22
+   },
+   "n": {
+    "2": 52,
+    "6": 45,
+    "7": 41,
+    "12": 38,
+    "1": 38,
+    "3": 38,
+    "14": 37,
+    "17": 36,
+    "15": 34,
+    "13": 34,
+    "9": 33,
+    "20": 32,
+    "4": 30,
+    "5": 29,
+    "10": 29
+   }
+  },
+  "detectable_content:postscript": {
+   "postscript_marker": {
+    "\"P.S.\"": 324,
+    "\"P.P.S\"": 320
+   }
+  },
+  "keywords:letter_frequency": {
+   "let_frequency": {
+    "3": 95,
+    "1": 94,
+    "4": 84,
+    "6": 83,
+    "8": 80,
+    "5": 76,
+    "2": 73,
+    "7": 67,
+    "10": 67,
+    "9": 64
+   },
+   "let_relation": {
+    "\"less than\"": 420,
+    "\"at least\"": 363
+   },
+   "letter": {
+    "\"s\"": 39,
+    "\"h\"": 37,
+    "\"e\"": 36,
+    "\"r\"": 35,
+    "\"a\"": 35,
+    "\"i\"": 35,
+    "\"g\"": 35,
+    "\"t\"": 34,
+    "\"d\"": 33,
+    "\"b\"": 32,
+    "\"p\"": 31,
+    "\"u\"": 31,
+    "\"k\"": 31,
+    "\"l\"": 30,
+    "\"w\"": 29
+   }
+  },
+  "keywords:frequency": {
+   "frequency": {
+    "2": 220,
+    "1": 207,
+    "3": 180
+   },
+   "keyword": {
+    "\"monitor\"": 3,
+    "\"picture\"": 3,
+    "\"word\"": 3,
+    "\"lip\"": 3,
+    "\"foot\"": 3,
+    "\"table\"": 3,
+    "\"nation\"": 3,
+    "\"mouth\"": 3,
+    "\"script\"": 3,
+    "\"review\"": 3,
+    "\"cream\"": 3,
+    "\"kill\"": 3,
+    "\"category\"": 3,
+    "\"opinion\"": 3,
+    "\"somewhere\"": 3
+   },
+   "relation": {
+    "\"less than\"": 311,
+    "\"at least\"": 296
+   }
+  },
+  "detectable_content:number_placeholders": {
+   "num_placeholders": {
+    "2": 149,
+    "3": 148,
+    "1": 147,
+    "4": 141
+   }
+  },
+  "keywords:word_count_different_numbers": {
+   "frequency": {
+    "3": 199,
+    "2": 183,
+    "1": 144
+   },
+   "keyword": {
+    "\"contact\"": 4,
+    "\"skin\"": 4,
+    "\"knowledge\"": 3,
+    "\"parking\"": 3,
+    "\"equipment\"": 3,
+    "\"cousin\"": 3,
+    "\"tooth\"": 3,
+    "\"truck\"": 3,
+    "\"speed\"": 3,
+    "\"presentation\"": 3,
+    "\"cause\"": 3,
+    "\"network\"": 3,
+    "\"strip\"": 2,
+    "\"attack\"": 2,
+    "\"display\"": 2
+   },
+   "relation": {
+    "\"at least\"": 320,
+    "\"less than\"": 206
+   }
+  },
+  "letters:letter_counting2": {
+   "let_frequency": {
+    "1": 93,
+    "4": 91,
+    "3": 78,
+    "9": 68,
+    "6": 67,
+    "2": 66,
+    "7": 65,
+    "8": 60,
+    "10": 59,
+    "5": 58
+   },
+   "let_relation": {
+    "\"less than\"": 394,
+    "\"at least\"": 311
+   },
+   "letter": {
+    "\"r\"": 39,
+    "\"o\"": 37,
+    "\"l\"": 34,
+    "\"d\"": 33,
+    "\"t\"": 33,
+    "\"e\"": 31,
+    "\"h\"": 31,
+    "\"y\"": 31,
+    "\"p\"": 30,
+    "\"g\"": 30,
+    "\"i\"": 30,
+    "\"c\"": 28,
+    "\"u\"": 27,
+    "\"f\"": 26,
+    "\"z\"": 25
+   }
+  },
+  "keywords:existence": {
+   "keywords": {
+    "[\"quote\", \"teaching\"]": 1,
+    "[\"food\", \"poetry\"]": 1,
+    "[\"help\", \"subject\"]": 1,
+    "[\"basis\", \"location\"]": 1,
+    "[\"highway\", \"marketing\"]": 1,
+    "[\"hall\", \"risk\"]": 1,
+    "[\"bath\", \"culture\"]": 1,
+    "[\"earth\", \"garden\"]": 1,
+    "[\"case\", \"report\"]": 1,
+    "[\"ground\", \"rough\"]": 1,
+    "[\"building\", \"morning\"]": 1,
+    "[\"bit\", \"double\"]": 1,
+    "[\"meet\", \"upper\"]": 1,
+    "[\"cow\", \"female\"]": 1,
+    "[\"bend\", \"female\"]": 1
+   }
+  },
+  "detectable_format:number_bullet_lists": {
+   "num_bullets": {
+    "1": 119,
+    "2": 116,
+    "3": 101,
+    "4": 88,
+    "5": 88
+   }
+  },
+  "length_constraints:number_paragraphs": {
+   "num_paragraphs": {
+    "5": 145,
+    "2": 141,
+    "4": 141,
+    "3": 132,
+    "1": 131
+   }
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "first_word": {
+    "\"crash\"": 4,
+    "\"brick\"": 3,
+    "\"care\"": 3,
+    "\"novel\"": 3,
+    "\"watch\"": 3,
+    "\"attempt\"": 3,
+    "\"dark\"": 3,
+    "\"player\"": 3,
+    "\"cabinet\"": 2,
+    "\"charity\"": 2,
+    "\"house\"": 2,
+    "\"burn\"": 2,
+    "\"trainer\"": 2,
+    "\"drawing\"": 2,
+    "\"internet\"": 2
+   },
+   "nth_paragraph": {
+    "1": 178,
+    "2": 124,
+    "3": 108,
+    "4": 64,
+    "5": 35,
+    "6": 6
+   },
+   "num_paragraphs": {
+    "4": 122,
+    "2": 114,
+    "5": 107,
+    "3": 99,
+    "1": 73
+   }
+  },
+  "keywords:word_once": {
+   "keyword": {
+    "\"fix\"": 4,
+    "\"software\"": 4,
+    "\"pace\"": 4,
+    "\"board\"": 3,
+    "\"bed\"": 3,
+    "\"effect\"": 3,
+    "\"measurement\"": 3,
+    "\"mouse\"": 3,
+    "\"grand\"": 3,
+    "\"swing\"": 3,
+    "\"star\"": 3,
+    "\"hurry\"": 3,
+    "\"upstairs\"": 3,
+    "\"emergency\"": 3,
+    "\"point\"": 3
+   }
+  },
+  "length_constraints:number_sentences": {
+   "num_sentences": {
+    "3": 39,
+    "4": 38,
+    "19": 37,
+    "2": 35,
+    "13": 33,
+    "18": 32,
+    "9": 32,
+    "16": 31,
+    "14": 31,
+    "7": 27,
+    "17": 26,
+    "6": 26,
+    "8": 25,
+    "15": 25,
+    "5": 25
+   },
+   "relation": {
+    "\"at least\"": 293,
+    "\"less than\"": 269
+   }
+  },
+  "count:counting_composition": {
+   "n_sent": {
+    "3": 1
+   },
+   "n_words": {
+    "2": 1
+   }
+  }
+ },
+ "layouts": {
+  "<none>": 10283,
+  "Please follow these instructions in your response": 413,
+  "Your response should comply with these constraints": 384,
+  "Make sure to adhere to these requirements": 380,
+  "Please ensure your answer follows these guidelines": 347,
+  "RULES": 2,
+  "Напиши мне очень большой текст в научном стиле для главы выпускной квалификацион": 1,
+  "Pros": 1,
+  "Products": 1,
+  "напиши работу на тему \"Анализ причин возникновения операционных рисков при безна": 1,
+  "Das Konzept Salutogenese": 1,
+  "Suppose I am conducting a research paper on time series data entitled \"The Nexus": 1,
+  "You are a UX expert. I want to create a GUI for a desktop application which can ": 1,
+  "Please prepare for the following questions": 1
+ },
+ "n_constraints_per_row": {
+  "2": 6230,
+  "3": 5086,
+  "1": 501
+ },
+ "mismatch_prompt": 0,
+ "record_keys": {
+  "dataset": 11817,
+  "id": 11817,
+  "instruction_id_list": 11817,
+  "kwargs": 11817,
+  "pass_rate": 11817,
+  "pass_rate_passed": 11817,
+  "pass_rate_total": 11817,
+  "prompt": 11817,
+  "uuid": 11817
+ },
+ "grading_modes": {
+  "None": 11817
+ },
+ "other": {
+  "('n_msgs', 1)": 11817,
+  "('roles', ('user',))": 11817,
+  "('request_json', '{\"parallel_tool_calls\": false, \"temperature\": 1.0, \"tools\": [], \"top_p\": 1.0}')": 11817
+ }
+}

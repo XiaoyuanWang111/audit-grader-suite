@@ -1,0 +1,180 @@
+##### change_case:capital_word_frequency rows=601
+    538 1.00 In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times
+     26 1.00 {capital_frequency}
+     21 1.00 In your response, words with all capital letters should appear {relation} {capital_frequency} times
+     14 1.00 In your response, the letter {letter} should appear {capital_relation} {let_frequency} times
+     11 1.00 In your response, words with all capital letters should appear {let_relation} {capital_frequency} times
+      8 1.00 The response must contain {capital_relation} {num_placeholders} placeholders represented by square brackets, such as [address]
+##### change_case:english_capital rows=772
+    719 1.00 Your entire response should be in English, and in all capital letters
+##### change_case:english_lowercase rows=604
+    604 1.00 Your entire response should be in English, and in all lowercase letters
+    578 1.00 No capital letters are allowed
+##### combination:two_responses rows=253
+    252 1.00 Give two different responses
+    249 1.00 Responses and only responses should be separated by 6 asterisk symbols:
+##### copy:repeat_phrase rows=554
+    493 1.00 Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase
+    111 1.00 {small_n}
+     39 1.00 There should be {small_n} paragraphs
+     11 1.00 {section_spliter} {small_n}
+     10 1.00 [content of section {small_n}]
+      9 1.00 This is point {small_n}
+##### count:count_unique rows=687
+    637 1.00 Only use unique words in your response, no word should be repeated!
+##### count:counting_composition rows=1
+##### count:lowercase_counting rows=869
+    779 1.00 In your response, all lowercase words should appear at most {N} times
+     19 0.90 {section_spliter} {N}
+     17 0.89 [content of section {N}]
+      9 1.00 In your response, all lowercase words should appear at most {frequency} times
+##### detectable_content:number_placeholders rows=585
+    453 1.00 The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address]
+    103 1.00 {num_placeholders}
+     37 1.00 The response must contain {relation} {num_placeholders} placeholders represented by square brackets, such as [address]
+     23 1.00 There should be {num_placeholders} paragraphs
+     12 1.00 The response must contain {let_relation} {num_placeholders} placeholders represented by square brackets, such as [address]
+      8 1.00 {section_spliter} {num_placeholders}
+      8 1.00 The response must contain {capital_relation} {num_placeholders} placeholders represented by square brackets, such as [address]
+      8 1.00 The response must contain at least {N} placeholders represented by square brackets, such as [address]
+      7 1.00 This is point {num_placeholders}
+      6 1.00 [content of section {num_placeholders}]
+##### detectable_content:postscript rows=644
+    440 1.00 At the end of your response, please explicitly add a postscript starting with {postscript_marker}
+    146 1.00 At the end of your response, please explicitly add a postscript starting with P.S
+##### detectable_format:bigram_wrapping rows=575
+    547 1.00 Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>
+##### detectable_format:constrained_response rows=120
+    100 1.00 Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+##### detectable_format:json_format rows=133
+    133 1.00 Entire output should be wrapped in JSON format
+    133 1.00 You can use markdown ticks such as ```
+##### detectable_format:multiple_sections rows=453
+    453 1.00 Mark the beginning of each section with {section_spliter} X, such as:
+    428 1.00 {section_spliter}
+    426 1.00 Your response must have {num_sections} sections
+    311 1.00 [content of section 1]
+    294 1.00 [content of section 2]
+    171 1.00 {section_spliter} {num_sections}
+    166 1.00 [content of section {num_sections}]
+     58 1.00 {num_sections}
+     21 1.00 {section_spliter} {N}
+     19 1.00 [content of section {N}]
+     18 1.00 {section_spliter} {nth_paragraph}
+     17 1.00 [content of section {nth_paragraph}]
+     14 1.00 {section_spliter} {frequency}
+     14 1.00 [content of section {frequency}]
+##### detectable_format:number_bullet_lists rows=512
+    512 1.00 Use the markdown bullet points such as:
+    485 1.00 This is point
+    468 1.00 Your answer must contain exactly {num_bullets} bullet points
+    206 1.00 This is point {num_bullets}
+     75 1.00 {num_bullets}
+     19 1.00 This is point {frequency}
+     16 1.00 This is point {N}
+     13 1.00 This is point {nth_paragraph}
+     10 1.00 Your answer must contain exactly {N} bullet points
+     10 1.00 There should be {num_bullets} paragraphs
+      9 1.00 {section_spliter} {num_bullets}
+      9 1.00 This is point {small_n}
+      9 1.00 This is point {num_paragraphs}
+      8 1.00 [content of section {num_bullets}]
+##### detectable_format:number_highlighted_sections rows=555
+    428 1.00 Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section
+    109 1.00 {num_highlights}
+     41 1.00 Highlight {relation} {num_highlights} sections in your answer with markdown, i.e. *highlighted section
+     30 1.00 Highlight {let_relation} {num_highlights} sections in your answer with markdown, i.e. *highlighted section
+     13 1.00 There should be {num_highlights} paragraphs
+      6 1.00 This is point {num_highlights}
+##### detectable_format:sentence_hyphens rows=669
+    629 1.00 All sentences must be connected using hyphens, with no spaces between them
+##### detectable_format:square_brackets rows=553
+    513 1.00 Enclose every word in your response within square brackets
+##### detectable_format:title rows=589
+    542 1.00 Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>
+##### first_word:first_word_answer rows=557
+    517 1.00 The first word of your response should be the word {first_word}
+##### first_word:first_word_sent rows=540
+    490 1.00 The first word of each sentence should be the word {first_word}
+##### keywords:existence rows=932
+    878 1.00 Include keywords {keywords} in the response
+    117 0.88 Entire output should be wrapped in JSON format
+    117 0.88 You can use markdown ticks such as ```
+##### keywords:forbidden_words rows=836
+    775 1.00 Do not include keywords {forbidden_words} in the response
+##### keywords:frequency rows=607
+    522 1.00 In your response, the word {keyword} should appear {relation} {frequency} times
+     13 1.00 In your response, the word {keyword} should appear {let_relation} {frequency} times
+##### keywords:keyword_specific_position rows=676
+    591 1.00 Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence
+     33 1.00 {n}
+     23 1.00 Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence
+     19 1.00 {m}
+##### keywords:letter_frequency rows=783
+##### keywords:no_adjacent_consecutive rows=818
+    772 1.00 No two adjacent words can start with consecutive letters of the alphabet
+##### keywords:palindrome rows=618
+    580 1.00 Include a palindrome in your response
+##### keywords:start_end rows=499
+    463 1.00 Start and end your response with the same word (do not write anything after the last word, not even punctuation)
+##### keywords:word_count_different_numbers rows=526
+    471 1.00 In your response, the word {keyword} should appear {frequency} times
+##### keywords:word_once rows=917
+    862 1.00 Include keyword {keyword} in your response
+##### language:response_language rows=780
+     39 1.00 Your ENTIRE response should be in Punjabi language, no other language is allowed
+     39 1.00 Your ENTIRE response should be in Tamil language, no other language is allowed
+     37 1.00 Your ENTIRE response should be in Urdu language, no other language is allowed
+     35 1.00 Your ENTIRE response should be in Bulgarian language, no other language is allowed
+     34 1.00 Your ENTIRE response should be in Korean language, no other language is allowed
+     33 1.00 Your ENTIRE response should be in Malayalam language, no other language is allowed
+     30 1.00 Your ENTIRE response should be in Finnish language, no other language is allowed
+     29 1.00 Your ENTIRE response should be in Vietnamese language, no other language is allowed
+     28 1.00 Your ENTIRE response should be in Arabic language, no other language is allowed
+     28 1.00 Your ENTIRE response should be in Gujarati language, no other language is allowed
+     27 1.00 Your ENTIRE response should be in Kannada language, no other language is allowed
+     23 1.00 Your ENTIRE response should be in Bengali language, no other language is allowed
+     23 1.00 Your ENTIRE response should be in Ukrainian language, no other language is allowed
+     23 1.00 Your ENTIRE response should be in German language, no other language is allowed
+##### last_word:last_word_answer rows=625
+    591 1.00 The last word of your response should be the word {last_word}
+##### last_word:last_word_sent rows=600
+    556 1.00 The last word of each sentence, before punctuation, should be the word {last_word}
+##### length_constraints:nth_paragraph_first_word rows=515
+    511 1.00 Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python
+    452 1.00 Paragraph {nth_paragraph} must start with word {first_word}
+    173 1.00 There should be {nth_paragraph} paragraphs
+     93 1.00 {nth_paragraph}
+     18 1.00 {section_spliter} {nth_paragraph}
+     17 1.00 [content of section {nth_paragraph}]
+     13 1.00 This is point {nth_paragraph}
+      6 1.00 Paragraph {frequency} must start with word {first_word}
+##### length_constraints:number_paragraphs rows=690
+      8 0.89 This is point {num_paragraphs}
+      7 1.00 {section_spliter} {num_paragraphs}
+##### length_constraints:number_sentences rows=562
+    510 1.00 Your response should contain {relation} {num_sentences} sentences
+     24 1.00 {num_sentences}
+     10 1.00 Your response should contain {let_relation} {num_sentences} sentences
+##### length_constraints:number_words rows=729
+    673 1.00 Answer with {relation} {num_words} words
+     11 1.00 Answer with {let_relation} {num_words} words
+##### letters:letter_counting rows=497
+    441 1.00 Answer with {relation} {N} letters
+      9 1.00 Answer with {let_relation} {N} letters
+      6 1.00 Answer with {relation} {frequency} letters
+##### letters:letter_counting2 rows=705
+##### paragraphs:paragraphs rows=576
+##### paragraphs:paragraphs2 rows=744
+    694 1.00 Paragraphs and only paragraphs are separated with each other by two line breaks
+##### punctuation:no_comma rows=730
+    673 1.00 In your entire response, refrain from the use of any commas
+##### punctuation:punctuation_dot rows=847
+    789 1.00 In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general
+##### punctuation:punctuation_exclamation rows=627
+    583 1.00 In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general
+##### startend:end_checker rows=537
+    537 1.00 Finish your response with this exact phrase {end_phrase}
+    520 1.00 No other words should follow this phrase
+##### startend:quotation rows=417
+    392 1.00 Wrap your entire response with double quotation marks

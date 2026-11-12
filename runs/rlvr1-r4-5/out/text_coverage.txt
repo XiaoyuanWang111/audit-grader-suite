@@ -1,0 +1,80 @@
+change_case:capital_word_frequency                 found   601  missing    0
+change_case:english_capital                        found   772  missing    0
+change_case:english_lowercase                      found   604  missing    0
+combination:two_responses                          found   253  missing    0
+copy:repeat_phrase                                 found   554  missing    0
+count:count_unique                                 found   687  missing    0
+count:counting_composition                         found     1  missing    0
+count:lowercase_counting                           found   869  missing    0
+detectable_content:number_placeholders             found   585  missing    0
+detectable_content:postscript                      found   497  missing  147
+detectable_format:bigram_wrapping                  found   575  missing    0
+detectable_format:constrained_response             found   120  missing    0
+detectable_format:json_format                      found   133  missing    0
+detectable_format:multiple_sections                found   453  missing    0
+detectable_format:number_bullet_lists              found   512  missing    0
+detectable_format:number_highlighted_sections      found   555  missing    0
+detectable_format:sentence_hyphens                 found   669  missing    0
+detectable_format:square_brackets                  found   553  missing    0
+detectable_format:title                            found   589  missing    0
+first_word:first_word_answer                       found   557  missing    0
+first_word:first_word_sent                         found   540  missing    0
+keywords:existence                                 found   932  missing    0
+keywords:forbidden_words                           found   836  missing    0
+keywords:frequency                                 found   607  missing    0
+keywords:keyword_specific_position                 found   676  missing    0
+keywords:letter_frequency                          found   783  missing    0
+keywords:no_adjacent_consecutive                   found   818  missing    0
+keywords:palindrome                                found   618  missing    0
+keywords:start_end                                 found   499  missing    0
+keywords:word_count_different_numbers              found   526  missing    0
+keywords:word_once                                 found   917  missing    0
+language:response_language                         found   780  missing    0
+last_word:last_word_answer                         found   625  missing    0
+last_word:last_word_sent                           found   600  missing    0
+length_constraints:nth_paragraph_first_word        found   515  missing    0
+length_constraints:number_paragraphs               found   690  missing    0
+length_constraints:number_sentences                found   562  missing    0
+length_constraints:number_words                    found   729  missing    0
+letters:letter_counting                            found   497  missing    0
+letters:letter_counting2                           found   705  missing    0
+paragraphs:paragraphs                              found   576  missing    0
+paragraphs:paragraphs2                             found   744  missing    0
+punctuation:no_comma                               found   730  missing    0
+punctuation:punctuation_dot                        found   847  missing    0
+punctuation:punctuation_exclamation                found   627  missing    0
+startend:end_checker                               found   537  missing    0
+startend:quotation                                 found   417  missing    0
+
+MISS detectable_content:postscript 147 [('6752fc60-c5f3-488e-bbba-4096b57e6eb1', {'postscript_marker': 'P.S.'}), ('52e1effe-7e5d-4256-8ee8-dcf28517b600', {'postscript_marker': 'P.S.'}), ('06ecb13c-7dc8-46fd-92fb-9f17ee28fcfc', {'postscript_marker': 'P.S.'})]
+
+LANG ar {'arabic': 29}
+LANG bg {'bulgarian': 37}
+LANG bn {'bengali': 24}
+LANG de {'german': 24}
+LANG en {'english': 15}
+LANG es {'spanish': 20}
+LANG fa {'persian': 23}
+LANG fi {'finnish': 31}
+LANG fr {'french': 19}
+LANG gu {'gujarati': 29}
+LANG he {'hebrew': 22}
+LANG hi {'hindi': 24}
+LANG it {'italian': 22}
+LANG ja {'japanese': 20}
+LANG kn {'kannada': 28}
+LANG ko {'korean': 35}
+LANG ml {'malayalam': 36}
+LANG mr {'marathi': 18}
+LANG ne {'nepali': 21}
+LANG pa {'punjabi': 41}
+LANG pl {'polish': 27}
+LANG pt {'portuguese': 18}
+LANG ru {'russian': 22}
+LANG sw {'swahili': 17}
+LANG ta {'tamil': 44}
+LANG te {'telugu': 22}
+LANG th {'thai': 19}
+LANG uk {'ukrainian': 24}
+LANG ur {'urdu': 39}
+LANG vi {'vietnamese': 30}

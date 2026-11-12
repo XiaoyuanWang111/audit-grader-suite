@@ -1,0 +1,1140 @@
+{
+ "rows": {
+  "empty|gate_passed_to_judge": 716,
+  "empty|gate_rows": 11723,
+  "empty|no_gate_rows_judge_only": 94,
+  "empty|replacement_reward_1": 0,
+  "empty|rows": 11817,
+  "empty|skyrl_infra_error": 625,
+  "empty|skyrl_reward_1": 1702,
+  "repeated|gate_passed_to_judge": 740,
+  "repeated|gate_rows": 11723,
+  "repeated|no_gate_rows_judge_only": 94,
+  "repeated|replacement_reward_1": 238,
+  "repeated|rows": 11817,
+  "repeated|skyrl_infra_error": 0,
+  "repeated|skyrl_reward_1": 273,
+  "restatement|gate_passed_to_judge": 1271,
+  "restatement|gate_rows": 11723,
+  "restatement|no_gate_rows_judge_only": 94,
+  "restatement|replacement_reward_1": 466,
+  "restatement|rows": 11817,
+  "restatement|skyrl_infra_error": 0,
+  "restatement|skyrl_reward_1": 746
+ },
+ "per_check": {
+  "empty|change_case:capital_word_frequency": {
+   "n": 601,
+   "skyrl_pass": 335,
+   "skyrl_error": 0,
+   "curation_n": 601,
+   "curation_pass": 335,
+   "replacement_pass": 0
+  },
+  "empty|change_case:english_capital": {
+   "n": 772,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 772,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|change_case:english_lowercase": {
+   "n": 604,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 604,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|combination:two_responses": {
+   "n": 253,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 253,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|copy:repeat_phrase": {
+   "n": 554,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 554,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|count:count_unique": {
+   "n": 687,
+   "skyrl_pass": 687,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "empty|count:counting_composition": {
+   "n": 1,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 1,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|count:lowercase_counting": {
+   "n": 869,
+   "skyrl_pass": 869,
+   "skyrl_error": 0,
+   "curation_n": 869,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_content:number_placeholders": {
+   "n": 585,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 585,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_content:postscript": {
+   "n": 644,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 644,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:bigram_wrapping": {
+   "n": 575,
+   "skyrl_pass": 575,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:constrained_response": {
+   "n": 120,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 120,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:json_format": {
+   "n": 133,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 133,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:multiple_sections": {
+   "n": 453,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 453,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:number_bullet_lists": {
+   "n": 512,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 512,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:number_highlighted_sections": {
+   "n": 555,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 555,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:sentence_hyphens": {
+   "n": 669,
+   "skyrl_pass": 669,
+   "skyrl_error": 0,
+   "curation_n": 669,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:square_brackets": {
+   "n": 553,
+   "skyrl_pass": 553,
+   "skyrl_error": 0,
+   "curation_n": 553,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|detectable_format:title": {
+   "n": 589,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 589,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|first_word:first_word_answer": {
+   "n": 557,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 557,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|first_word:first_word_sent": {
+   "n": 540,
+   "skyrl_pass": 540,
+   "skyrl_error": 0,
+   "curation_n": 540,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|keywords:existence": {
+   "n": 932,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 932,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|keywords:forbidden_words": {
+   "n": 836,
+   "skyrl_pass": 836,
+   "skyrl_error": 0,
+   "curation_n": 836,
+   "curation_pass": 836,
+   "replacement_pass": 0
+  },
+  "empty|keywords:frequency": {
+   "n": 607,
+   "skyrl_pass": 311,
+   "skyrl_error": 0,
+   "curation_n": 607,
+   "curation_pass": 311,
+   "replacement_pass": 0
+  },
+  "empty|keywords:keyword_specific_position": {
+   "n": 676,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 676,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|keywords:letter_frequency": {
+   "n": 783,
+   "skyrl_pass": 420,
+   "skyrl_error": 0,
+   "curation_n": 783,
+   "curation_pass": 420,
+   "replacement_pass": 0
+  },
+  "empty|keywords:no_adjacent_consecutive": {
+   "n": 818,
+   "skyrl_pass": 818,
+   "skyrl_error": 0,
+   "curation_n": 818,
+   "curation_pass": 818,
+   "replacement_pass": 0
+  },
+  "empty|keywords:palindrome": {
+   "n": 618,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 618,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|keywords:start_end": {
+   "n": 499,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 499,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|keywords:word_count_different_numbers": {
+   "n": 526,
+   "skyrl_pass": 206,
+   "skyrl_error": 0,
+   "curation_n": 526,
+   "curation_pass": 206,
+   "replacement_pass": 0
+  },
+  "empty|keywords:word_once": {
+   "n": 917,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 917,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|language:response_language": {
+   "n": 780,
+   "skyrl_pass": 780,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "empty|last_word:last_word_answer": {
+   "n": 625,
+   "skyrl_pass": 0,
+   "skyrl_error": 625,
+   "curation_n": 625,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|last_word:last_word_sent": {
+   "n": 600,
+   "skyrl_pass": 600,
+   "skyrl_error": 0,
+   "curation_n": 600,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|length_constraints:nth_paragraph_first_word": {
+   "n": 515,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 515,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|length_constraints:number_paragraphs": {
+   "n": 690,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 690,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|length_constraints:number_sentences": {
+   "n": 562,
+   "skyrl_pass": 269,
+   "skyrl_error": 0,
+   "curation_n": 562,
+   "curation_pass": 269,
+   "replacement_pass": 0
+  },
+  "empty|length_constraints:number_words": {
+   "n": 729,
+   "skyrl_pass": 328,
+   "skyrl_error": 0,
+   "curation_n": 729,
+   "curation_pass": 328,
+   "replacement_pass": 0
+  },
+  "empty|letters:letter_counting": {
+   "n": 497,
+   "skyrl_pass": 203,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "empty|letters:letter_counting2": {
+   "n": 705,
+   "skyrl_pass": 394,
+   "skyrl_error": 0,
+   "curation_n": 705,
+   "curation_pass": 394,
+   "replacement_pass": 0
+  },
+  "empty|paragraphs:paragraphs": {
+   "n": 576,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 576,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|paragraphs:paragraphs2": {
+   "n": 744,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 744,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|punctuation:no_comma": {
+   "n": 730,
+   "skyrl_pass": 730,
+   "skyrl_error": 0,
+   "curation_n": 730,
+   "curation_pass": 730,
+   "replacement_pass": 0
+  },
+  "empty|punctuation:punctuation_dot": {
+   "n": 847,
+   "skyrl_pass": 847,
+   "skyrl_error": 0,
+   "curation_n": 847,
+   "curation_pass": 847,
+   "replacement_pass": 0
+  },
+  "empty|punctuation:punctuation_exclamation": {
+   "n": 627,
+   "skyrl_pass": 627,
+   "skyrl_error": 0,
+   "curation_n": 627,
+   "curation_pass": 627,
+   "replacement_pass": 0
+  },
+  "empty|startend:end_checker": {
+   "n": 537,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 537,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "empty|startend:quotation": {
+   "n": 417,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 417,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|change_case:capital_word_frequency": {
+   "n": 601,
+   "skyrl_pass": 335,
+   "skyrl_error": 0,
+   "curation_n": 601,
+   "curation_pass": 335,
+   "replacement_pass": 335
+  },
+  "repeated|change_case:english_capital": {
+   "n": 772,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 772,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|change_case:english_lowercase": {
+   "n": 604,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 604,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|combination:two_responses": {
+   "n": 253,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 253,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|copy:repeat_phrase": {
+   "n": 554,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 554,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|count:count_unique": {
+   "n": 687,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "repeated|count:counting_composition": {
+   "n": 1,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 1,
+   "curation_pass": 1,
+   "replacement_pass": 0
+  },
+  "repeated|count:lowercase_counting": {
+   "n": 869,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 869,
+   "curation_pass": 869,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_content:number_placeholders": {
+   "n": 585,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 585,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_content:postscript": {
+   "n": 644,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 644,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:bigram_wrapping": {
+   "n": 575,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:constrained_response": {
+   "n": 120,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 120,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:json_format": {
+   "n": 133,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 133,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:multiple_sections": {
+   "n": 453,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 453,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:number_bullet_lists": {
+   "n": 512,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 512,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:number_highlighted_sections": {
+   "n": 555,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 555,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:sentence_hyphens": {
+   "n": 669,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 669,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:square_brackets": {
+   "n": 553,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 553,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|detectable_format:title": {
+   "n": 589,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 589,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|first_word:first_word_answer": {
+   "n": 557,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 557,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|first_word:first_word_sent": {
+   "n": 540,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 540,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|keywords:existence": {
+   "n": 932,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 932,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|keywords:forbidden_words": {
+   "n": 836,
+   "skyrl_pass": 833,
+   "skyrl_error": 0,
+   "curation_n": 836,
+   "curation_pass": 833,
+   "replacement_pass": 833
+  },
+  "repeated|keywords:frequency": {
+   "n": 607,
+   "skyrl_pass": 312,
+   "skyrl_error": 0,
+   "curation_n": 607,
+   "curation_pass": 312,
+   "replacement_pass": 312
+  },
+  "repeated|keywords:keyword_specific_position": {
+   "n": 676,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 676,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|keywords:letter_frequency": {
+   "n": 783,
+   "skyrl_pass": 408,
+   "skyrl_error": 0,
+   "curation_n": 783,
+   "curation_pass": 408,
+   "replacement_pass": 408
+  },
+  "repeated|keywords:no_adjacent_consecutive": {
+   "n": 818,
+   "skyrl_pass": 818,
+   "skyrl_error": 0,
+   "curation_n": 818,
+   "curation_pass": 818,
+   "replacement_pass": 818
+  },
+  "repeated|keywords:palindrome": {
+   "n": 618,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 618,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|keywords:start_end": {
+   "n": 499,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 499,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|keywords:word_count_different_numbers": {
+   "n": 526,
+   "skyrl_pass": 207,
+   "skyrl_error": 0,
+   "curation_n": 526,
+   "curation_pass": 207,
+   "replacement_pass": 0
+  },
+  "repeated|keywords:word_once": {
+   "n": 917,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 917,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|language:response_language": {
+   "n": 780,
+   "skyrl_pass": 15,
+   "skyrl_error": 0,
+   "replacement_pass": 15
+  },
+  "repeated|last_word:last_word_answer": {
+   "n": 625,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 625,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|last_word:last_word_sent": {
+   "n": 600,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 600,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|length_constraints:nth_paragraph_first_word": {
+   "n": 515,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 515,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|length_constraints:number_paragraphs": {
+   "n": 690,
+   "skyrl_pass": 131,
+   "skyrl_error": 0,
+   "curation_n": 690,
+   "curation_pass": 131,
+   "replacement_pass": 131
+  },
+  "repeated|length_constraints:number_sentences": {
+   "n": 562,
+   "skyrl_pass": 293,
+   "skyrl_error": 0,
+   "curation_n": 562,
+   "curation_pass": 293,
+   "replacement_pass": 293
+  },
+  "repeated|length_constraints:number_words": {
+   "n": 729,
+   "skyrl_pass": 328,
+   "skyrl_error": 0,
+   "curation_n": 729,
+   "curation_pass": 328,
+   "replacement_pass": 328
+  },
+  "repeated|letters:letter_counting": {
+   "n": 497,
+   "skyrl_pass": 294,
+   "skyrl_error": 0,
+   "replacement_pass": 294
+  },
+  "repeated|letters:letter_counting2": {
+   "n": 705,
+   "skyrl_pass": 366,
+   "skyrl_error": 0,
+   "curation_n": 705,
+   "curation_pass": 366,
+   "replacement_pass": 366
+  },
+  "repeated|paragraphs:paragraphs": {
+   "n": 576,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 576,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|paragraphs:paragraphs2": {
+   "n": 744,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 744,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|punctuation:no_comma": {
+   "n": 730,
+   "skyrl_pass": 730,
+   "skyrl_error": 0,
+   "curation_n": 730,
+   "curation_pass": 730,
+   "replacement_pass": 730
+  },
+  "repeated|punctuation:punctuation_dot": {
+   "n": 847,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 847,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|punctuation:punctuation_exclamation": {
+   "n": 627,
+   "skyrl_pass": 627,
+   "skyrl_error": 0,
+   "curation_n": 627,
+   "curation_pass": 627,
+   "replacement_pass": 627
+  },
+  "repeated|startend:end_checker": {
+   "n": 537,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 537,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "repeated|startend:quotation": {
+   "n": 417,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 417,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|change_case:capital_word_frequency": {
+   "n": 601,
+   "skyrl_pass": 323,
+   "skyrl_error": 0,
+   "curation_n": 601,
+   "curation_pass": 329,
+   "replacement_pass": 324
+  },
+  "restatement|change_case:english_capital": {
+   "n": 772,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 772,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|change_case:english_lowercase": {
+   "n": 604,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 604,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|combination:two_responses": {
+   "n": 253,
+   "skyrl_pass": 248,
+   "skyrl_error": 0,
+   "curation_n": 253,
+   "curation_pass": 248,
+   "replacement_pass": 248
+  },
+  "restatement|copy:repeat_phrase": {
+   "n": 554,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 554,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|count:count_unique": {
+   "n": 687,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "restatement|count:counting_composition": {
+   "n": 1,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 1,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|count:lowercase_counting": {
+   "n": 869,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 869,
+   "curation_pass": 869,
+   "replacement_pass": 347
+  },
+  "restatement|detectable_content:number_placeholders": {
+   "n": 585,
+   "skyrl_pass": 183,
+   "skyrl_error": 0,
+   "curation_n": 585,
+   "curation_pass": 182,
+   "replacement_pass": 182
+  },
+  "restatement|detectable_content:postscript": {
+   "n": 644,
+   "skyrl_pass": 497,
+   "skyrl_error": 0,
+   "curation_n": 644,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|detectable_format:bigram_wrapping": {
+   "n": 575,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "replacement_pass": 0
+  },
+  "restatement|detectable_format:constrained_response": {
+   "n": 120,
+   "skyrl_pass": 120,
+   "skyrl_error": 0,
+   "curation_n": 120,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|detectable_format:json_format": {
+   "n": 133,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 133,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|detectable_format:multiple_sections": {
+   "n": 453,
+   "skyrl_pass": 184,
+   "skyrl_error": 0,
+   "curation_n": 453,
+   "curation_pass": 98,
+   "replacement_pass": 79
+  },
+  "restatement|detectable_format:number_bullet_lists": {
+   "n": 512,
+   "skyrl_pass": 104,
+   "skyrl_error": 0,
+   "curation_n": 512,
+   "curation_pass": 104,
+   "replacement_pass": 104
+  },
+  "restatement|detectable_format:number_highlighted_sections": {
+   "n": 555,
+   "skyrl_pass": 137,
+   "skyrl_error": 0,
+   "curation_n": 555,
+   "curation_pass": 137,
+   "replacement_pass": 136
+  },
+  "restatement|detectable_format:sentence_hyphens": {
+   "n": 669,
+   "skyrl_pass": 23,
+   "skyrl_error": 0,
+   "curation_n": 669,
+   "curation_pass": 0,
+   "replacement_pass": 52
+  },
+  "restatement|detectable_format:square_brackets": {
+   "n": 553,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 553,
+   "curation_pass": 103,
+   "replacement_pass": 0
+  },
+  "restatement|detectable_format:title": {
+   "n": 589,
+   "skyrl_pass": 589,
+   "skyrl_error": 0,
+   "curation_n": 589,
+   "curation_pass": 589,
+   "replacement_pass": 589
+  },
+  "restatement|first_word:first_word_answer": {
+   "n": 557,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 557,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|first_word:first_word_sent": {
+   "n": 540,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 540,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|keywords:existence": {
+   "n": 932,
+   "skyrl_pass": 932,
+   "skyrl_error": 0,
+   "curation_n": 932,
+   "curation_pass": 932,
+   "replacement_pass": 932
+  },
+  "restatement|keywords:forbidden_words": {
+   "n": 836,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 836,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|keywords:frequency": {
+   "n": 607,
+   "skyrl_pass": 307,
+   "skyrl_error": 0,
+   "curation_n": 607,
+   "curation_pass": 308,
+   "replacement_pass": 308
+  },
+  "restatement|keywords:keyword_specific_position": {
+   "n": 676,
+   "skyrl_pass": 1,
+   "skyrl_error": 0,
+   "curation_n": 676,
+   "curation_pass": 1,
+   "replacement_pass": 1
+  },
+  "restatement|keywords:letter_frequency": {
+   "n": 783,
+   "skyrl_pass": 374,
+   "skyrl_error": 0,
+   "curation_n": 783,
+   "curation_pass": 374,
+   "replacement_pass": 374
+  },
+  "restatement|keywords:no_adjacent_consecutive": {
+   "n": 818,
+   "skyrl_pass": 116,
+   "skyrl_error": 0,
+   "curation_n": 818,
+   "curation_pass": 624,
+   "replacement_pass": 81
+  },
+  "restatement|keywords:palindrome": {
+   "n": 618,
+   "skyrl_pass": 618,
+   "skyrl_error": 0,
+   "curation_n": 618,
+   "curation_pass": 74,
+   "replacement_pass": 103
+  },
+  "restatement|keywords:start_end": {
+   "n": 499,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 499,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|keywords:word_count_different_numbers": {
+   "n": 526,
+   "skyrl_pass": 255,
+   "skyrl_error": 0,
+   "curation_n": 526,
+   "curation_pass": 253,
+   "replacement_pass": 148
+  },
+  "restatement|keywords:word_once": {
+   "n": 917,
+   "skyrl_pass": 907,
+   "skyrl_error": 0,
+   "curation_n": 917,
+   "curation_pass": 913,
+   "replacement_pass": 917
+  },
+  "restatement|language:response_language": {
+   "n": 780,
+   "skyrl_pass": 17,
+   "skyrl_error": 0,
+   "replacement_pass": 13
+  },
+  "restatement|last_word:last_word_answer": {
+   "n": 625,
+   "skyrl_pass": 130,
+   "skyrl_error": 0,
+   "curation_n": 625,
+   "curation_pass": 154,
+   "replacement_pass": 130
+  },
+  "restatement|last_word:last_word_sent": {
+   "n": 600,
+   "skyrl_pass": 21,
+   "skyrl_error": 0,
+   "curation_n": 600,
+   "curation_pass": 22,
+   "replacement_pass": 13
+  },
+  "restatement|length_constraints:nth_paragraph_first_word": {
+   "n": 515,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 515,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|length_constraints:number_paragraphs": {
+   "n": 690,
+   "skyrl_pass": 127,
+   "skyrl_error": 0,
+   "curation_n": 690,
+   "curation_pass": 131,
+   "replacement_pass": 131
+  },
+  "restatement|length_constraints:number_sentences": {
+   "n": 562,
+   "skyrl_pass": 271,
+   "skyrl_error": 0,
+   "curation_n": 562,
+   "curation_pass": 268,
+   "replacement_pass": 252
+  },
+  "restatement|length_constraints:number_words": {
+   "n": 729,
+   "skyrl_pass": 308,
+   "skyrl_error": 0,
+   "curation_n": 729,
+   "curation_pass": 308,
+   "replacement_pass": 308
+  },
+  "restatement|letters:letter_counting": {
+   "n": 497,
+   "skyrl_pass": 294,
+   "skyrl_error": 0,
+   "replacement_pass": 294
+  },
+  "restatement|letters:letter_counting2": {
+   "n": 705,
+   "skyrl_pass": 296,
+   "skyrl_error": 0,
+   "curation_n": 705,
+   "curation_pass": 296,
+   "replacement_pass": 296
+  },
+  "restatement|paragraphs:paragraphs": {
+   "n": 576,
+   "skyrl_pass": 463,
+   "skyrl_error": 0,
+   "curation_n": 576,
+   "curation_pass": 538,
+   "replacement_pass": 0
+  },
+  "restatement|paragraphs:paragraphs2": {
+   "n": 744,
+   "skyrl_pass": 354,
+   "skyrl_error": 0,
+   "curation_n": 744,
+   "curation_pass": 453,
+   "replacement_pass": 354
+  },
+  "restatement|punctuation:no_comma": {
+   "n": 730,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 730,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|punctuation:punctuation_dot": {
+   "n": 847,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 847,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|punctuation:punctuation_exclamation": {
+   "n": 627,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 627,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|startend:end_checker": {
+   "n": 537,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 537,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  },
+  "restatement|startend:quotation": {
+   "n": 417,
+   "skyrl_pass": 0,
+   "skyrl_error": 0,
+   "curation_n": 417,
+   "curation_pass": 0,
+   "replacement_pass": 0
+  }
+ },
+ "example_uuids": {
+  "empty|skyrl": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+  "empty|curation": "1086144d-473b-4357-ae53-d530fadc9f1f",
+  "repeated|curation": "1086144d-473b-4357-ae53-d530fadc9f1f",
+  "restatement|skyrl": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+  "restatement|curation": "4be430c7-92d3-4d47-ae3f-595c00cbfc5b",
+  "repeated|skyrl": "cf9de9da-f3fe-42ff-96ec-339248019fd0"
+ },
+ "repeated_text": "Hello world. Hello world. Hello world. H..."
+}

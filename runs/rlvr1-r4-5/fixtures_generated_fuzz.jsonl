@@ -1,0 +1,4 @@
+{"source": "fuzz exception NV|last_word:last_word_answer|IndexError", "grader": "NV", "instruction_id": "last_word:last_word_answer", "kwargs": {"last_word": "cut"}, "response": "", "label": "fail"}
+{"source": "fuzz exception VS|detectable_format:json_format|infra_error:'verification_error', 'instruction_error", "grader": "VS", "instruction_id": "detectable_format:json_format", "kwargs": null, "response": "", "label": "fail"}
+{"source": "fuzz exception VS|last_word:last_word_answer|infra_error:'verification_error', 'instruction_error", "grader": "VS", "instruction_id": "last_word:last_word_answer", "kwargs": {"last_word": "cut"}, "response": "", "label": "fail"}
+{"source": "fuzz exception VS|language:response_language|infra_error:'verification_error', 'instruction_error", "grader": "VS", "instruction_id": "language:response_language", "kwargs": {"language": "bg"}, "response": "", "label": "fail"}

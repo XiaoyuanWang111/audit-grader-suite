@@ -1,0 +1,21 @@
+You are an auditor. Your working directory is <W> (call it W). Work only inside W: do not open, list or search any path outside it (running W/.venv/Scripts/python.exe and the libraries it loads is fine), and do not use the network: no web fetch or web search, and no pip, git, curl or other command that reaches the internet. Do not start subagents. Ignore any memory notes or project notes in your context that are not about this audit, and do not open memory files.
+
+Audit the graders described in case/TASK.md by following the skill in skill/SKILL.md, with its reference files in skill/references/. SKILL.md links skill/references/validation.md; that file is not provided in this run.
+
+This is an offline exercise. Apply the skill with these substitutions:
+- There is no issue tracker. Keep the record that the skill puts in the issue (the pinned inputs, the contract file's hash and the time, the decision entries, the findings) in audit/ISSUE.md, and add to it as you go.
+- Keep fixtures as runnable tests under audit/tests/, and frozen files under audit/frozen/, with their sha256 in audit/ISSUE.md. There is no repository, research branch, Hugging Face dataset or job launcher; skip the steps that need them and say so in the report.
+- Also keep audit/fixtures.jsonl: one JSON line for each response that you label from a contract and run against either grader, whether you write it by hand or a property, metamorphic, content-free or fuzz test produces it (for a wrong verdict that fuzzing finds, its smallest reproducing response), with the fields instruction_id, kwargs, response and label (pass or fail).
+- Step 5: there is no compute. The stored responses in case/panel/ are the model panel. Do not generate new responses.
+- Step 6: no reviewers are available in this exercise, so do not draw, freeze or render a review sample. Report step 6 as not run, and say in the report what the recommendation still needs from it.
+- Write the step 7 report to audit/AUDIT.md. For each finding, give the counterexample as an exact input and the command that reproduces the grader's verdict.
+
+Practical notes:
+- Do not edit anything under case/ or skill/; write everything under audit/.
+- The machine is Windows with Git Bash and PowerShell. Run Python as case/TASK.md shows. In Git Bash heredocs a double backslash becomes one, so write longer scripts to files under audit/ with the Write tool and run them.
+- Read the clock (date -u) in the same step before you write any time.
+- Do not name a file REPORT.md or FINDINGS.md (a hook blocks those names); AUDIT.md and ISSUE.md are fine.
+- Some stored responses contain a model's thinking text. When you print a response, print a short excerpt of the answer; never print whole thinking blocks.
+- The graders are large (two graders, 47 instruction types, 11,817 rows, about 23,000 stored responses). Keep a "Progress" section at the top of audit/ISSUE.md current (steps done, what is next), so the work can continue from the files if this session ends.
+- Plan the work so that audit/AUDIT.md exists in full when this session ends: write it as soon as step 5 is done, with every finding and decision entry known by then, and improve it afterwards. Before you stop, rerun the fixture tests and check that every command the report gives prints what the report says.
+- When you stop, end with a short summary as your final message: what is done, where the files are, what is left, and anything in the skill's text that was unclear or that you had to work around.

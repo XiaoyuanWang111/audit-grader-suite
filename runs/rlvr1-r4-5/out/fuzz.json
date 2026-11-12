@@ -1,0 +1,144 @@
+{
+ "n_texts": 1507,
+ "checks_per_text": 74,
+ "exceptions": {
+  "NV|last_word:last_word_answer|IndexError": 340
+ },
+ "smallest": {
+  "NV|last_word:last_word_answer|IndexError": {
+   "response": "",
+   "kwargs": {
+    "last_word": "cut"
+   },
+   "error": "IndexError: list index out of range"
+  }
+ },
+ "vs_texts": 300,
+ "vs_exceptions": {
+  "VS|detectable_format:json_format|infra_error:'verification_error', 'instruction_error": 300,
+  "VS|language:response_language|infra_error:'verification_error', 'instruction_error": 33,
+  "VS|last_word:last_word_answer|infra_error:'verification_error', 'instruction_error": 23
+ },
+ "vs_smallest": {
+  "VS|detectable_format:json_format|infra_error:'verification_error', 'instruction_error": {
+   "response": "",
+   "kwargs": null,
+   "error": "infra_error: {'error_type': 'verification_error', 'instruction_errors': [\"ModuleNotFoundError: No module named 'yaml'\"], 'error_message': 'Instruction checker failed'}"
+  },
+  "VS|last_word:last_word_answer|infra_error:'verification_error', 'instruction_error": {
+   "response": "",
+   "kwargs": {
+    "last_word": "cut"
+   },
+   "error": "infra_error: {'error_type': 'verification_error', 'instruction_errors': ['IndexError: list index out of range'], 'error_message': 'Instruction checker failed'}"
+  },
+  "VS|language:response_language|infra_error:'verification_error', 'instruction_error": {
+   "response": "",
+   "kwargs": {
+    "language": "bg"
+   },
+   "error": "infra_error: {'error_type': 'verification_error', 'instruction_errors': ['LangDetectException: No features in text.'], 'error_message': 'Instruction checker failed'}"
+  }
+ },
+ "disagree_with_R": {
+  "NV|change_case:capital_word_frequency": 192,
+  "NV|change_case:english_capital": 8,
+  "NV|combination:two_responses": 4,
+  "NV|count:count_unique": 299,
+  "NV|count:lowercase_counting": 625,
+  "NV|detectable_content:postscript": 267,
+  "NV|detectable_format:bigram_wrapping": 487,
+  "NV|detectable_format:constrained_response": 144,
+  "NV|detectable_format:multiple_sections": 190,
+  "NV|detectable_format:number_highlighted_sections": 220,
+  "NV|detectable_format:sentence_hyphens": 212,
+  "NV|detectable_format:square_brackets": 35,
+  "NV|first_word:first_word_sent": 74,
+  "NV|keywords:no_adjacent_consecutive": 265,
+  "NV|keywords:palindrome": 596,
+  "NV|keywords:start_end": 283,
+  "NV|keywords:word_count_different_numbers": 1507,
+  "NV|language:response_language": 455,
+  "NV|last_word:last_word_sent": 74,
+  "NV|length_constraints:number_paragraphs": 357,
+  "NV|letters:letter_counting": 52,
+  "NV|paragraphs:paragraphs": 85,
+  "NV|punctuation:no_comma": 172,
+  "NV|punctuation:punctuation_dot": 46,
+  "NV|punctuation:punctuation_exclamation": 109,
+  "NV|startend:end_checker": 4,
+  "VG|change_case:capital_word_frequency": 228,
+  "VG|change_case:english_capital": 114,
+  "VG|change_case:english_lowercase": 133,
+  "VG|combination:two_responses": 4,
+  "VG|count:counting_composition": 23,
+  "VG|count:lowercase_counting": 2086,
+  "VG|detectable_content:postscript": 13,
+  "VG|detectable_format:multiple_sections": 244,
+  "VG|detectable_format:number_highlighted_sections": 285,
+  "VG|detectable_format:sentence_hyphens": 875,
+  "VG|detectable_format:square_brackets": 209,
+  "VG|first_word:first_word_sent": 414,
+  "VG|keywords:no_adjacent_consecutive": 280,
+  "VG|keywords:palindrome": 61,
+  "VG|keywords:start_end": 113,
+  "VG|keywords:word_count_different_numbers": 1507,
+  "VG|last_word:last_word_sent": 414,
+  "VG|length_constraints:number_paragraphs": 326,
+  "VG|paragraphs:paragraphs": 319,
+  "VG|paragraphs:paragraphs2": 188,
+  "VG|punctuation:no_comma": 172,
+  "VG|punctuation:punctuation_dot": 46,
+  "VG|punctuation:punctuation_exclamation": 109,
+  "VG|startend:end_checker": 4
+ },
+ "total_per_check": {
+  "first_word:first_word_answer": 3014,
+  "last_word:last_word_sent": 3014,
+  "detectable_format:sentence_hyphens": 1507,
+  "startend:end_checker": 3014,
+  "change_case:capital_word_frequency": 3014,
+  "keywords:start_end": 1507,
+  "length_constraints:number_words": 3014,
+  "detectable_format:title": 1507,
+  "change_case:english_capital": 1507,
+  "detectable_format:bigram_wrapping": 1507,
+  "detectable_format:multiple_sections": 3014,
+  "keywords:palindrome": 1507,
+  "punctuation:no_comma": 1507,
+  "last_word:last_word_answer": 3014,
+  "copy:repeat_phrase": 3014,
+  "detectable_format:number_highlighted_sections": 3014,
+  "keywords:forbidden_words": 3014,
+  "language:response_language": 3014,
+  "first_word:first_word_sent": 3014,
+  "count:count_unique": 1507,
+  "count:lowercase_counting": 3014,
+  "punctuation:punctuation_exclamation": 1507,
+  "letters:letter_counting": 3014,
+  "change_case:english_lowercase": 1507,
+  "keywords:keyword_specific_position": 3014,
+  "keywords:no_adjacent_consecutive": 1507,
+  "detectable_content:postscript": 3014,
+  "punctuation:punctuation_dot": 1507,
+  "keywords:letter_frequency": 3014,
+  "keywords:frequency": 3014,
+  "detectable_content:number_placeholders": 3014,
+  "detectable_format:square_brackets": 1507,
+  "keywords:word_count_different_numbers": 3014,
+  "letters:letter_counting2": 3014,
+  "keywords:existence": 3014,
+  "detectable_format:number_bullet_lists": 3014,
+  "length_constraints:number_paragraphs": 3014,
+  "combination:two_responses": 1507,
+  "paragraphs:paragraphs": 1507,
+  "paragraphs:paragraphs2": 1507,
+  "length_constraints:nth_paragraph_first_word": 3014,
+  "keywords:word_once": 3014,
+  "length_constraints:number_sentences": 3014,
+  "startend:quotation": 1507,
+  "detectable_format:json_format": 1507,
+  "detectable_format:constrained_response": 1507,
+  "count:counting_composition": 1507
+ }
+}

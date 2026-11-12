@@ -1,0 +1,84 @@
+subset=heldout responses=5756
+Qwen__Qwen2.5-7B-Instruct/sample0.jsonl {'responses': 1006, 'finish_length': 16, 'extraction_failure': 0, 'A_text_empty': 0, 'B_text_empty': 0, 'A_errors': 0, 'A_rows_with_error': 0, 'B_errors': 0, 'constraints': 2412}
+Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl {'responses': 242, 'finish_length': 23, 'extraction_failure': 0, 'A_text_empty': 1, 'B_text_empty': 1, 'A_errors': 0, 'A_rows_with_error': 0, 'B_errors': 0, 'constraints': 584}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl {'responses': 223, 'finish_length': 20, 'extraction_failure': 0, 'A_text_empty': 0, 'B_text_empty': 0, 'A_errors': 0, 'A_rows_with_error': 0, 'B_errors': 0, 'constraints': 528}
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl {'responses': 2929, 'finish_length': 149, 'extraction_failure': 0, 'A_text_empty': 6, 'B_text_empty': 6, 'A_errors': 1, 'A_rows_with_error': 1, 'B_errors': 0, 'constraints': 6979}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl {'responses': 361, 'finish_length': 42, 'extraction_failure': 36, 'A_text_empty': 0, 'B_text_empty': 0, 'A_errors': 0, 'A_rows_with_error': 0, 'B_errors': 0, 'constraints': 866, 'extraction_failure_A_reward1': 0, 'extraction_failure_B_gate_pass': 2}
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl {'responses': 995, 'finish_length': 9, 'extraction_failure': 0, 'A_text_empty': 0, 'B_text_empty': 0, 'A_errors': 0, 'A_rows_with_error': 0, 'B_errors': 0, 'constraints': 2382}
+
+per check: n, pass% A B R | A vs R: disagree (unexplained pass/fail, decision) | B vs R: same | A_err
+change_case:capital_word_frequency               276  72.5  76.1  73.9 | A    6 (   1/   1,    4) | B   22 (   1/   3,   18) | 0
+change_case:english_capital                      406  42.9  52.5  50.5 | A   35 (   0/  33,    2) | B   10 (   0/   1,    9) | 0
+change_case:english_lowercase                    274  65.0  73.7  67.2 | A    6 (   0/   6,    0) | B   30 (   0/   6,   24) | 0
+combination:two_responses                        145  82.1  82.1  77.2 | A    7 (   0/   0,    7) | B    7 (   0/   0,    7) | 0
+copy:repeat_phrase                               269  10.4  42.4   4.8 | A   19 (   1/   1,   17) | B  127 (  62/   9,   56) | 0
+count:count_unique                               323  19.5  83.6  26.6 | A   25 (   0/  24,    1) | B    0 (   0/   0,    0) | 0
+count:lowercase_counting                         410  17.1  85.6  33.4 | A   87 (   9/   2,   76) | B  312 ( 255/  47,   10) | 0
+detectable_content:number_placeholders           308  90.3  90.3  90.6 | A    1 (   0/   1,    0) | B    1 (   0/   1,    0) | 0
+detectable_content:postscript                    312  84.9  73.4  75.0 | A   65 (  30/  17,   18) | B   35 (   0/  19,   16) | 0
+detectable_format:bigram_wrapping                297  18.5   1.7   2.4 | A   48 (  48/   0,    0) | B    0 (   0/   0,    0) | 0
+detectable_format:constrained_response            63  88.9  54.0  87.3 | A    1 (   1/   0,    0) | B   21 (   0/   0,   21) | 0
+detectable_format:json_format                     71  88.7  88.7  88.7 | A    0 (   0/   0,    0) | B    0 (   0/   0,    0) | 0
+detectable_format:multiple_sections              242  85.5  84.7  84.7 | A   20 (  11/   1,    8) | B    4 (   2/   2,    0) | 0
+detectable_format:number_bullet_lists            266  81.6  83.5  83.5 | A    7 (   1/   6,    0) | B    0 (   0/   0,    0) | 0
+detectable_format:number_highlighted_sections    270  93.3  93.3  93.0 | A    1 (   1/   0,    0) | B    1 (   1/   0,    0) | 0
+detectable_format:sentence_hyphens               308  22.1  20.1  52.6 | A  134 (  20/ 114,    0) | B  100 (   0/ 100,    0) | 0
+detectable_format:square_brackets                258  16.7  95.7  17.8 | A   25 (   5/  14,    6) | B  205 ( 155/   2,   48) | 0
+detectable_format:title                          321  96.0  96.0  96.0 | A    0 (   0/   0,    0) | B    0 (   0/   0,    0) | 0
+first_word:first_word_answer                     293  74.4  87.0  86.3 | A   35 (   0/  35,    0) | B    2 (   2/   0,    0) | 0
+first_word:first_word_sent                       247  31.6  43.7  41.3 | A   28 (   0/  26,    2) | B   12 (   5/   3,    4) | 0
+keywords:existence                               466  74.0  71.0  71.0 | A   14 (   0/   0,   14) | B    0 (   0/   0,    0) | 0
+keywords:forbidden_words                         413  96.9  96.9  96.9 | A    0 (   0/   0,    0) | B    0 (   0/   0,    0) | 0
+keywords:frequency                               274  80.3  81.0  81.0 | A    6 (   0/   0,    6) | B    0 (   0/   0,    0) | 0
+keywords:keyword_specific_position               305   3.0   3.6   4.3 | A    6 (   0/   3,    3) | B    4 (   1/   1,    2) | 0
+keywords:letter_frequency                        367  55.9  55.9  55.9 | A    0 (   0/   0,    0) | B    0 (   0/   0,    0) | 0
+keywords:no_adjacent_consecutive                 363  23.4  78.0  22.9 | A   54 (  11/   0,   43) | B  232 ( 200/  10,   22) | 0
+keywords:palindrome                              259  88.4  61.0  71.8 | A   59 (   2/   8,   49) | B   30 (   0/  29,    1) | 0
+keywords:start_end                               227  30.4  36.6  34.8 | A   14 (   1/   1,   12) | B   18 (  11/   3,    4) | 0
+keywords:word_count_different_numbers            254  50.0  50.4  41.3 | A  124 (  39/  45,   40) | B  125 (  39/  45,   41) | 0
+keywords:word_once                               448  24.1  23.9  71.9 | A  236 (   0/ 225,   11) | B  215 (   0/ 215,    0) | 0
+language:response_language                       375  89.1  83.2  80.5 | A   36 (  34/   0,    2) | B    0 (   0/   0,    0) | 0
+last_word:last_word_answer                       329  69.9  75.1  73.6 | A   12 (   0/   1,   11) | B    7 (   6/   1,    0) | 1
+last_word:last_word_sent                         313  28.1  32.3  27.5 | A   18 (   3/   2,   13) | B   19 (   8/   1,   10) | 0
+length_constraints:nth_paragraph_first_word      256  40.2  41.4  40.6 | A    1 (   0/   1,    0) | B    2 (   2/   0,    0) | 0
+length_constraints:number_paragraphs             368  74.5  44.6  64.1 | A   38 (   0/   0,   38) | B  132 (  16/  94,   22) | 0
+length_constraints:number_sentences              294  67.3  66.0  68.4 | A   29 (   2/   5,   22) | B   31 (   2/   8,   21) | 0
+length_constraints:number_words                  335  68.1  65.1  69.6 | A    5 (   0/   4,    1) | B   19 (   2/  16,    1) | 0
+letters:letter_counting                          245  62.4  68.2  67.8 | A   27 (   3/  16,    8) | B    0 (   0/   0,    0) | 0
+letters:letter_counting2                         333  52.0  52.0  52.0 | A    0 (   0/   0,    0) | B    0 (   0/   0,    0) | 0
+paragraphs:paragraphs                            269  79.2  96.7  78.1 | A   11 (   0/   0,   11) | B   50 (  36/   0,   14) | 0
+paragraphs:paragraphs2                           321  63.9  95.3  63.9 | A    2 (   0/   0,    2) | B  101 ( 100/   0,    1) | 0
+punctuation:no_comma                             367  88.0  88.0  87.2 | A    3 (   0/   0,    3) | B    3 (   0/   0,    3) | 0
+punctuation:punctuation_dot                      432  48.6  48.6  46.1 | A   11 (   0/   0,   11) | B   11 (   0/   0,   11) | 0
+punctuation:punctuation_exclamation              322  94.7  94.7  94.4 | A    1 (   0/   0,    1) | B    1 (   0/   0,    1) | 0
+startend:end_checker                             239  86.2  66.9  71.1 | A   38 (   0/   0,   38) | B   10 (   0/   0,   10) | 0
+startend:quotation                               218  86.2  86.2  86.2 | A    0 (   0/   0,    0) | B    0 (   0/   0,    0) | 0
+TOTAL {'n': 13751, 'A_disagree': 1295, 'A_unexplained': 815, 'A_decision': 480, 'B_disagree': 1899, 'B_unexplained': 1522, 'B_decision': 377, 'A_err': 1}
+
+scores (row level, mean over rows)
+Qwen__Qwen2.5-7B-Instruct/sample0.jsonl                 n= 1006 A=0.201 R=0.209 R-A=+0.008 [-0.011,+0.027] | Bgate=0.310 Rgate=0.266 R-B=-0.044 [-0.068,-0.019]
+Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl               n=  242 A=0.331 R=0.347 R-A=+0.017 [-0.021,+0.054] | Bgate=0.504 Rgate=0.450 R-B=-0.054 [-0.107,+0.000]
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl        n=  223 A=0.283 R=0.336 R-A=+0.054 [+0.013,+0.094] | Bgate=0.480 Rgate=0.395 R-B=-0.085 [-0.143,-0.031]
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl              n= 2929 A=0.297 R=0.335 R-A=+0.037 [+0.025,+0.049] | Bgate=0.471 Rgate=0.422 R-B=-0.050 [-0.066,-0.034]
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl    n=  361 A=0.535 R=0.673 R-A=+0.139 [+0.094,+0.183] | Bgate=0.593 Rgate=0.693 R-B=+0.100 [+0.061,+0.141]
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl          n=  995 A=0.180 R=0.193 R-A=+0.013 [-0.004,+0.031] | Bgate=0.312 Rgate=0.244 R-B=-0.067 [-0.092,-0.042]
+
+false rewards
+Qwen__Qwen2.5-7B-Instruct/sample0.jsonl {'A_reward1': 202, 'A_false_proposed': 46, 'A_false_every_reading': 21, 'B_gate_pass': 312, 'B_false_proposed': 102, 'B_false_every_reading': 68}
+Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl {'A_reward1': 80, 'A_false_proposed': 9, 'A_false_every_reading': 5, 'B_gate_pass': 122, 'B_false_proposed': 31, 'B_false_every_reading': 26}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl {'A_reward1': 63, 'A_false_proposed': 5, 'A_false_every_reading': 4, 'B_gate_pass': 107, 'B_false_proposed': 31, 'B_false_every_reading': 26}
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl {'A_reward1': 871, 'A_false_proposed': 113, 'A_false_every_reading': 50, 'B_gate_pass': 1380, 'B_false_proposed': 386, 'B_false_every_reading': 304}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl {'A_reward1': 193, 'A_false_proposed': 14, 'A_false_every_reading': 8, 'B_gate_pass': 214, 'B_false_proposed': 12, 'B_false_every_reading': 7}
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl {'A_reward1': 179, 'A_false_proposed': 35, 'A_false_every_reading': 9, 'B_gate_pass': 310, 'B_false_proposed': 120, 'B_false_every_reading': 105}
+
+rerun {'A_reward_repeat_minus_greedy': (0.0, (0.0, 0.0), 0), 'R_reward_repeat_minus_greedy': (0.0, (0.0, 0.0), 0), 'B_gate_repeat_minus_greedy': (-0.022222222222222223, (-0.06666666666666667, 0.0), 1), 'R_gate_repeat_minus_greedy': (0.0, (0.0, 0.0), 0), 'identical_raw_responses': None, 'rows': 45}
+
+fixes only (grader readings kept where allowed) and sensitivity without sentence_hyphens/language/bigram
+Qwen__Qwen2.5-7B-Instruct/sample0.jsonl                 A=0.201 Afix=0.222 (+0.021 [+0.006,+0.037] +42/-21) Afixsure=0.212 (+0.011) | B=0.310 Bfix=0.287 (-0.023 [-0.043,-0.003] +45/-68) Bfixsure=0.274 (-0.036)
+Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl               A=0.331 Afix=0.360 (+0.029 [-0.004,+0.062] +12/-5) Afixsure=0.376 (+0.045) | B=0.504 Bfix=0.467 (-0.037 [-0.087,+0.012] +17/-26) Bfixsure=0.455 (-0.050)
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl        A=0.283 Afix=0.323 (+0.040 [+0.009,+0.076] +13/-4) Afixsure=0.318 (+0.036) | B=0.480 Bfix=0.413 (-0.067 [-0.121,-0.013] +11/-26) Bfixsure=0.399 (-0.081)
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl              A=0.297 Afix=0.344 (+0.046 [+0.036,+0.056] +186/-50) Afixsure=0.348 (+0.051) | B=0.471 Bfix=0.444 (-0.027 [-0.043,-0.012] +225/-304) Bfixsure=0.432 (-0.040)
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl    A=0.535 Afix=0.648 (+0.114 [+0.075,+0.152] +49/-8) Afixsure=0.620 (+0.086) | B=0.593 Bfix=0.693 (+0.100 [+0.064,+0.139] +43/-7) Bfixsure=0.687 (+0.094)
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl          A=0.180 Afix=0.202 (+0.022 [+0.010,+0.035] +31/-9) Afixsure=0.200 (+0.020) | B=0.312 Bfix=0.247 (-0.064 [-0.087,-0.041] +41/-105) Bfixsure=0.239 (-0.072)
+
+verdicts outside extraction failures: A 13656, B (gate ids) 12428; unexplained disagreements with R: A 815 (6.0%), B 1522 (12.2%)

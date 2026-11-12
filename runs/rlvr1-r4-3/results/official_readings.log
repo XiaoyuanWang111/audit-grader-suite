@@ -1,0 +1,90 @@
+A change_case:capital_word_frequency [] agrees on 83/85
+B change_case:capital_word_frequency ['D-capital-word'] agrees on 85/85
+A change_case:english_capital [] agrees on 9/10
+B change_case:english_capital [] agrees on 9/10
+A change_case:english_lowercase [] agrees on 10/10
+B change_case:english_lowercase [] agrees on 9/10
+A combination:two_responses [] agrees on 46/49
+B combination:two_responses [] agrees on 46/49
+A copy:repeat_phrase ['D-repeat-center'] agrees on 36/38
+B copy:repeat_phrase [] agrees on 20/38
+A count:count_unique ['D-unique-case'] agrees on 30/32
+A count:counting_composition [] agrees on 8/9
+B count:counting_composition ['D-divider'] agrees on 5/9
+A count:lowercase_counting ['D-lowercase-counting-scope'] agrees on 34/35
+B count:lowercase_counting ['D-empty'] agrees on 18/35
+A detectable_content:number_placeholders ['D-placeholder'] agrees on 32/32
+B detectable_content:number_placeholders [] agrees on 31/32
+A detectable_content:postscript ['D-postscript-marker', 'D-postscript-position'] agrees on 38/41
+B detectable_content:postscript ['D-postscript-marker'] agrees on 40/41
+A detectable_format:bigram_wrapping ['D-bigram'] agrees on 30/32
+A detectable_format:constrained_response ['D-constrained'] agrees on 9/11
+B detectable_format:constrained_response [] agrees on 11/11
+A detectable_format:json_format ['D-json'] agrees on 47/47
+B detectable_format:json_format ['D-json'] agrees on 47/47
+A detectable_format:multiple_sections ['D-sections-numbering'] agrees on 33/47
+B detectable_format:multiple_sections ['D-sections-case', 'D-sections-numbering'] agrees on 46/47
+A detectable_format:number_bullet_lists [] agrees on 71/75
+B detectable_format:number_bullet_lists [] agrees on 75/75
+A detectable_format:number_highlighted_sections [] agrees on 32/35
+B detectable_format:number_highlighted_sections [] agrees on 31/35
+A detectable_format:sentence_hyphens [] agrees on 33/37
+B detectable_format:sentence_hyphens ['D-empty', 'D-hyphens-single'] agrees on 23/37
+A detectable_format:square_brackets ['D-empty'] agrees on 31/33
+B detectable_format:square_brackets ['D-empty', 'D-square-brackets'] agrees on 20/33
+A detectable_format:title [] agrees on 32/32
+B detectable_format:title [] agrees on 31/32
+A first_word:first_word_answer ['D-first-last-markup'] agrees on 34/36
+B first_word:first_word_answer [] agrees on 35/36
+A first_word:first_word_sent [] agrees on 33/37
+B first_word:first_word_sent ['D-empty'] agrees on 37/37
+A keywords:existence ['D-keyword-match'] agrees on 45/45
+B keywords:existence [] agrees on 45/45
+A keywords:forbidden_words [] agrees on 43/45
+B keywords:forbidden_words [] agrees on 43/45
+A keywords:frequency ['D-keyword-match'] agrees on 176/176
+B keywords:frequency [] agrees on 176/176
+A keywords:keyword_specific_position [] agrees on 43/57
+B keywords:keyword_specific_position [] agrees on 57/57
+A keywords:letter_frequency [] agrees on 54/54
+B keywords:letter_frequency [] agrees on 54/54
+A keywords:no_adjacent_consecutive ['D-consecutive-order'] agrees on 29/31
+B keywords:no_adjacent_consecutive ['D-consecutive-order'] agrees on 19/31
+A keywords:palindrome ['D-palindrome'] agrees on 33/38
+B keywords:palindrome [] agrees on 36/38
+A keywords:start_end ['D-start-end-leading', 'D-start-end-single'] agrees on 37/37
+B keywords:start_end [] agrees on 34/37
+A keywords:word_count_different_numbers [] agrees on 65/117
+B keywords:word_count_different_numbers [] agrees on 65/117
+A keywords:word_once ['D-keyword-match'] agrees on 43/119
+B keywords:word_once [] agrees on 44/119
+A language:response_language [] agrees on 5/8
+A last_word:last_word_answer ['D-word'] agrees on 34/34
+B last_word:last_word_answer [] agrees on 34/34
+A last_word:last_word_sent ['D-sentence', 'D-word'] agrees on 34/35
+B last_word:last_word_sent ['D-empty', 'D-sentence'] agrees on 35/35
+A length_constraints:nth_paragraph_first_word ['D-first-last-markup'] agrees on 30/32
+B length_constraints:nth_paragraph_first_word [] agrees on 32/32
+A length_constraints:number_paragraphs [] agrees on 47/50
+B length_constraints:number_paragraphs ['D-divider-inline', 'D-separator-edge'] agrees on 33/50
+A length_constraints:number_sentences ['D-sentence'] agrees on 78/78
+B length_constraints:number_sentences ['D-sentence'] agrees on 78/78
+A length_constraints:number_words ['D-word'] agrees on 79/79
+B length_constraints:number_words ['D-word'] agrees on 78/79
+A letters:letter_counting ['D-letters-count'] agrees on 21/21
+A letters:letter_counting2 [] agrees on 51/51
+B letters:letter_counting2 [] agrees on 51/51
+A paragraphs:paragraphs [] agrees on 43/46
+B paragraphs:paragraphs [] agrees on 28/46
+A paragraphs:paragraphs2 ['D-paragraph-blank'] agrees on 47/47
+B paragraphs:paragraphs2 [] agrees on 31/47
+A punctuation:no_comma ['D-comma-chars'] agrees on 55/55
+B punctuation:no_comma ['D-comma-chars'] agrees on 55/55
+A punctuation:punctuation_dot ['D-dot-chars'] agrees on 32/32
+B punctuation:punctuation_dot ['D-dot-chars'] agrees on 32/32
+A punctuation:punctuation_exclamation ['D-exclamation-chars'] agrees on 32/32
+B punctuation:punctuation_exclamation ['D-exclamation-chars'] agrees on 32/32
+A startend:end_checker ['D-end-phrase', 'D-end-phrase-case'] agrees on 58/59
+B startend:end_checker ['D-end-phrase'] agrees on 59/59
+A startend:quotation ['D-quotation'] agrees on 32/32
+B startend:quotation [] agrees on 30/32

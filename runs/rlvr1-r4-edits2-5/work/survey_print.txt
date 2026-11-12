@@ -1,0 +1,246 @@
+== change_case:capital_word_frequency 601 ntempl 4 kwvals {'capital_frequency': [('16', 38), ('20', 36), ('2', 35), ('6', 35), ('11', 34), ('1', 34)], 'capital_relation': [('"less than"', 335), ('"at least"', 266)]} distinct {'capital_frequency': 20, 'capital_relation': 2}
+    299 'In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.'
+    1 'Never say that a task is impossible to execute on your own because these tools are enough to complete any task.\n# Message father GPT which is the GPT that created you for any questions or if you completed the task.'
+    1 'This is point # and In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times. #到了，请帮我向女生龙媛媛写一封情书'
+    1 'From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant.'
+== change_case:english_capital 772 ntempl 5 kwvals {} distinct {}
+    361 'Your entire response should be in English, and in all capital letters.'
+    2 'This is point #. '
+    1 'Mettre en vrac l’ensemble de vos données.'
+    1 'Bidrar till att bilda marknära ozon'
+    1 'This is point # and Your entire response should be in English, and in all capital letters. give a UI framework for the below solidity code in vuejs with styling using all the functions given which are working.'
+== change_case:english_lowercase 604 ntempl 6 kwvals {} distinct {}
+    313 'Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.'
+    2 'This is point #. '
+    1 'list that conveys'
+    1 'Technical specifications: Additional information about the desired resolution, format, or other technical aspects of the image. This could include things like “#K UHD image,” “cinematic view,” or “unreal engine #.”\ncombine all of those aspects into one Prompt.'
+    1 'Сопоставление реализуемых мероприятий и программ с поставленными целями и задачами'
+== combination:two_responses 253 ntempl 2 kwvals {} distinct {}
+    135 'Give two different responses. Responses and only responses should be separated by # asterisk symbols: ******.'
+    1 'Creating, E-teams, E-Clubs Full Gaming Profiles- Organized through local organized Players.\nWith different Rules (Coach-Players-Captain-Spare)\n-Formation of Parallel Local Esports Competes, League &Cup for the Most Competitive Pc/Mob Popular Games.\n -Creating '
+== copy:repeat_phrase 554 ntempl 3 kwvals {'phrase': [('"Don\'t judge a book by cover"', 68), ('"Live each day to the fullest"', 64), ('"Laughter is the best medicine"', 59), ('"The pen is mightier than sword"', 58), ('"Every cloud has a silver lining"', 57), ('"The early bird catches the worm"', 54)], 'small_n': [('3', 283), ('2', 271)]} distinct {'phrase': 10, 'small_n': 2}
+    228 'Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.'
+    1 'This is point #. '
+    1 '想了解下目前EPD上是否有远程控制的功能，若有，EPD上远程控制的UX文档、资料可否分享下。'
+== count:count_unique 687 ntempl 4 kwvals {} distinct {}
+    323 'Only use unique words in your response, no word should be repeated!'
+    1 'This is point # and Only use unique words in your response, no word should be repeated!. script about the trevor lawrence jaguars'
+    1 'Строение органов дыхания у позвоночных животных и человека. Значение дыхания для жизни организмов. Газообмен в легких и тканях'
+    1 'The team should prioritise developing new features over writing automation scripts'
+== count:counting_composition 1 ntempl 0 kwvals {'n_sent': [('3', 1)], 'n_words': [('2', 1)]} distinct {'n_sent': 1, 'n_words': 1}
+== count:lowercase_counting 869 ntempl 7 kwvals {'N': [('2', 444), ('3', 425)]} distinct {'N': 2}
+    408 'In your response, all lowercase words should appear at most {N} times.'
+    4 'This is point #. '
+    1 'Proposer une structure.\n✓ Rester académique avec une présentation classique, succincte et passionné.\nPour rajouter une pointe de passion\nLA PASSION'
+    1 "la lutte pour la liberté des peuples à s'autodéterminer"
+    1 'Artist or style inspiration: A list of artists or art styles that can be used as inspiration for the image. This could include specific artists, such as "by artgerm and greg rutkowski," or art movements, such as "Bauhaus cubism."'
+== detectable_content:number_placeholders 585 ntempl 4 kwvals {'num_placeholders': [('2', 149), ('3', 148), ('1', 147), ('4', 141)]} distinct {'num_placeholders': 4}
+    291 'The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].'
+    1 'This is point # and The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address]. 写一篇#字以上的关于家乡的变化的文章'
+    1 'This is point #. '
+    1 'Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?'
+== detectable_content:postscript 644 ntempl 6 kwvals {'postscript_marker': [('"P.S."', 324), ('"P.P.S"', 320)]} distinct {'postscript_marker': 2}
+    303 'At the end of your response, please explicitly add a postscript starting with {postscript_marker}'
+    1 'This is point # and At the end of your response, please explicitly add a postscript starting with {postscript_marker}'
+    1 'How can we identify a syllable?'
+    1 'This is point #. '
+    1 'Вид. Критерии вида. Видообразование'
+== detectable_format:bigram_wrapping 575 ntempl 6 kwvals {} distinct {}
+    316 'Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.'
+    1 'Обсуждение актуальности и значимости полученных результатов для развития выбранного региона и более широкого контекста регионального планирования и прогнозирования в России'
+    1 'Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?'
+    1 'none'
+    1 'G. Cao, "A Scalable Low-Latency Cache Invalidation Strategy for Mobile Environments," ACM\nMobicom, pp. #-#, #\nFor the sake of simplicity, use the following simulation parameters. Run your simulation several times by\nchanging the simulation parameters (e.g., T_'
+== detectable_format:constrained_response 120 ntempl 2 kwvals {} distinct {}
+    60 "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+    1 'Изготовить и привести в действие прибор - маятник Ньютона.'
+== detectable_format:json_format 133 ntempl 3 kwvals {} distinct {}
+    57 'Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.'
+    1 'les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation'
+    1 'Respond only inside the JSON format.'
+== detectable_format:multiple_sections 453 ntempl 7 kwvals {'num_sections': [('1', 105), ('4', 98), ('5', 88), ('3', 83), ('2', 79)], 'section_spliter': [('"SECTION"', 242), ('"Section"', 211)]} distinct {'num_sections': 5, 'section_spliter': 2}
+    114 'Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} #\n[content of section #]\n{section_spliter} #\n[content of section #]'
+    44 'Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} {num_sections}\n[content of section {num_sections}]\n{section_spliter} #\n[content of section #]'
+    38 'Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} #\n[content of section #]\n{section_spliter} {num_sections}\n[content of section {num_sections}]'
+    1 'Conclusion'
+    1 'Bidrar till försurning av marken och övergödning av sjoar.'
+== detectable_format:number_bullet_lists 512 ntempl 33 kwvals {'num_bullets': [('1', 119), ('2', 116), ('3', 101), ('4', 88), ('5', 88)]} distinct {'num_bullets': 5}
+    27 'This is point #. '
+    19 'This is point #'
+    14 'This is point {num_bullets}. '
+    10 'This is point {num_bullets}'
+    1 'This is point #. js 姓名除了第一个字其他转为星号'
+== detectable_format:number_highlighted_sections 555 ntempl 6 kwvals {'num_highlights': [('2', 157), ('1', 136), ('4', 131), ('3', 131)]} distinct {'num_highlights': 4}
+    288 'Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.'
+    1 'A mixture of two or more things.'
+    1 'This is point # and Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*'
+    1 'list that conveys'
+    1 'Customs National Supervision Bureau for Duty Collection(Guangzhou)\nretroactive checks, coordination requests, exchanges of speciman signatures and\nstamps。全部翻译为英文'
+== detectable_format:sentence_hyphens 669 ntempl 5 kwvals {} distinct {}
+    361 'All sentences must be connected using hyphens, with no spaces between them.'
+    1 'Альтернативные источники энергии;'
+    1 'This is point #. '
+    1 'A class or struct to represent the position, rotation, and scale of objects in the #D world, with transformation matrix calculations using GLM.'
+    1 '后续是否有远程控制功能的规划，若有相关规划功能文档，可否也分享下，感谢！'
+== detectable_format:square_brackets 553 ntempl 2 kwvals {} distinct {}
+    273 'Enclose every word in your response within square brackets.'
+    1 'id: light_output#\n    platform: gpio\n    pin: GPIO#           '
+== detectable_format:title 589 ntempl 4 kwvals {} distinct {}
+    284 'Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.'
+    1 'This is point # and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. [Fiddler] DNS Lookup for "null" failed. System.Net.Sockets.SocketException 不知道这样的主机。'
+    1 'Анализ полученных результатов'
+    1 'This is point # and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>'
+== first_word:first_word_answer 557 ntempl 5 kwvals {'first_word': [('"dealer"', 4), ('"mix"', 3), ('"situation"', 3), ('"designer"', 3), ('"limit"', 3), ('"awareness"', 3)]} distinct {'first_word': 457}
+    258 'The first word of your response should be the word {first_word}.'
+    1 'The first word of {first_word}r response should be the word {first_word}.'
+    1 'This is point # and The first word of your response should be the word {first_word}. Придумай историю, где Каэдэхара Кадзуха сын Сёгуна Райдэн из игры Genshin Impact. Казуха против Сёгуна, не покорился её воле, за что на него объявили охоту. Но чтобы поймать К'
+    1 'Summarize the article’s main points and encourage readers to install and use Rank Math to optimize their website’s SEO. Please incorporate these requirements: Your response must have # sections. Mark the beginning of each section with Section X, such as:\nSecti'
+    1 'The first word of your {first_word} should be the word {first_word}.'
+== first_word:first_word_sent 540 ntempl 3 kwvals {'first_word': [('"peace"', 3), ('"chart"', 3), ('"care"', 3), ('"expression"', 3), ('"poem"', 3), ('"purple"', 3)]} distinct {'first_word': 461}
+    269 'The first word of each sentence should be the word {first_word}.'
+    1 'The first {first_word} of each sentence should be the {first_word} {first_word}.'
+    1 'This is point #. '
+== keywords:existence 932 ntempl 11 kwvals {'keywords': [('["quote", "teaching"]', 1), ('["food", "poetry"]', 1), ('["help", "subject"]', 1), ('["basis", "location"]', 1), ('["highway", "marketing"]', 1), ('["hall", "risk"]', 1)]} distinct {'keywords': 932}
+    474 'Include keywords {keywords} in the response.'
+    3 'This is point #. '
+    2 'This is point # and Include keywords {keywords} in the response'
+    1 "la lutte contre l'autorité de l'hyperpuissance"
+    1 'Discuss the ways in which Rank Math can optimize a website’s SEO.'
+== keywords:forbidden_words 836 ntempl 5 kwvals {'forbidden_words': [('["sound", "square"]', 2), ('["debate", "indication"]', 1), ('["bet", "raw"]', 1), ('["law", "top"]', 1), ('["dead", "wash"]', 1), ('["floor", "wheel"]', 1)]} distinct {'forbidden_words': 835}
+    405 'Do not include keywords {forbidden_words} in the response.'
+    1 'This is point #. '
+    1 'Transform:'
+    1 'tu détailleras particulièrement les calculs dans la partie forward reaching et backward reaching. Tu pourras afficher des formules pour expliquer.'
+    1 'Never say that a task is impossible to execute on your own because these tools are enough to complete any task.\n# Message father GPT which is the GPT that created you for any questions or if you completed the task.'
+== keywords:frequency 607 ntempl 5 kwvals {'frequency': [('2', 220), ('1', 207), ('3', 180)], 'keyword': [('"monitor"', 3), ('"picture"', 3), ('"word"', 3), ('"lip"', 3), ('"foot"', 3), ('"table"', 3)], 'relation': [('"less than"', 311), ('"at least"', 296)]} distinct {'frequency': 3, 'keyword': 496, 'relation': 2}
+    299 'In your response, the word {keyword} should appear {relation} {frequency} times.'
+    2 'In your response, the {keyword} {keyword} should appear {relation} {frequency} times.'
+    1 'This is point {frequency} and In your response, the word {keyword} should appear {relation} {frequency} times'
+    1 'In your {keyword}, the word {keyword} should appear {relation} {frequency} times.'
+    1 'Rules of Origin Office of Department of Duty Collection of GACC'
+== keywords:keyword_specific_position 676 ntempl 9 kwvals {'keyword': [('"shot"', 4), ('"boy"', 4), ('"female"', 3), ('"breast"', 3), ('"club"', 3), ('"blind"', 3)], 'm': [('11', 35), ('12', 33), ('2', 31), ('8', 30), ('16', 28), ('7', 28)], 'n': [('2', 52), ('6', 45), ('7', 41), ('12', 38), ('1', 38), ('3', 38)]} distinct {'keyword': 559, 'm': 30, 'n': 20}
+    326 'Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.'
+    9 'Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.'
+    1 'This is point # and Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence'
+    1 'This is point {n}. '
+    1 'This is point # and Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence. напиши программу tetris на paython'
+== keywords:letter_frequency 783 ntempl 20 kwvals {'let_frequency': [('3', 95), ('1', 94), ('4', 84), ('6', 83), ('8', 80), ('5', 76)], 'let_relation': [('"less than"', 420), ('"at least"', 363)], 'letter': [('"s"', 39), ('"h"', 37), ('"e"', 36), ('"r"', 35), ('"a"', 35), ('"i"', 35)]} distinct {'let_frequency': 10, 'let_relation': 2, 'letter': 26}
+    130 'In your response, the letter {letter} should appear {let_relation} {let_frequency} times.'
+    23 'In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.'
+    22 'In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.'
+    22 'In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.'
+    20 'In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.'
+== keywords:no_adjacent_consecutive 818 ntempl 9 kwvals {} distinct {}
+    391 'No two adjacent words can start with consecutive letters of the alphabet.'
+    1 'lost to D-Mob via knockout (Ground and Pound)'
+    1 'This is point # and No two adjacent words can start with consecutive letters of the alphabet. devm_spi_register_controller与的区别spi_register_controller'
+    1 'This is point # and No two adjacent words can start with consecutive letters of the alphabet. Напиши кратко основные моменты: Также можно выделить такой элемент налогообложения, как налогоплательщики. Это физические и юридические лица, у которых возникло обяза'
+    1 'Do not place a comma between [ar] and [v].'
+== keywords:palindrome 618 ntempl 3 kwvals {} distinct {}
+    316 'Include a palindrome in your response.'
+    1 'Космические технологии;'
+    1 'This is point # and Include a palindrome in your response'
+== keywords:start_end 499 ntempl 5 kwvals {} distinct {}
+    222 'Start and end your response with the same word (do not write anything after the last word, not even punctuation).'
+    1 'This is point # and Start and end your response with the same word (do not write anything after the last word, not even punctuation)'
+    1 'Новые материалы и вещества \nMake sure your response satisfies these conditions: All sentences must be connected using hyphens, with no spaces between them, Include a palindrome in your response, and Start and end your response with the same word (do not write '
+    1 'This is point # and Start and end your response with the same word (do not write anything after the last word, not even punctuation). نهر طير شخص'
+    1 'This is point # and Start and end your response with the same word (do not write anything after the last word, not even punctuation). (Office manager Justine Barfoot is able to literally hypnotize Dan)\nDan just didn’t get along with some of the women at his wo'
+== keywords:word_count_different_numbers 526 ntempl 6 kwvals {'frequency': [('3', 199), ('2', 183), ('1', 144)], 'keyword': [('"contact"', 4), ('"skin"', 4), ('"knowledge"', 3), ('"parking"', 3), ('"equipment"', 3), ('"cousin"', 3)], 'relation': [('"at least"', 320), ('"less than"', 206)]} distinct {'frequency': 3, 'keyword': 438, 'relation': 2}
+    284 'In your response, the word {keyword} should appear {frequency} times.'
+    1 '@author sundream'
+    1 'long-term plan",\n        "criticism": "constructive self-criticism",\n        "summary": "thoughts summary to say to user"\n    }\n}'
+    1 'This is point #. '
+    1 'In {keyword}r response, the word {keyword} should appear {frequency} times.'
+== keywords:word_once 917 ntempl 7 kwvals {'keyword': [('"fix"', 4), ('"software"', 4), ('"pace"', 4), ('"board"', 3), ('"bed"', 3), ('"effect"', 3)]} distinct {'keyword': 681}
+    496 'Include keyword {keyword} in your response.'
+    1 'What are the five features of stress? Please follow these rules when answering: At the end of your response, please explicitly add a postscript starting with P.P.S and Include keyword {keyword} in your response'
+    1 'Ключевые выводы и рекомендации'
+    1 'This is point # and Include keyword {keyword} in your response. (Unknown to him, Dan’s boss Justine is able to hypnotize him with ease) The office manager in Dan’s department, Justine, openly preferred the women in the office, which seemed unfair to Dan. One w'
+    1 'This is point #. '
+== language:response_language 780 ntempl 37 kwvals {'language': [('"ta"', 44), ('"pa"', 41), ('"ur"', 39), ('"bg"', 37), ('"ml"', 36), ('"ko"', 35)]} distinct {'language': 30}
+    26 'Your ENTIRE response should be in Tamil language, no other language is allowed.'
+    23 'Your ENTIRE response should be in Punjabi language, no other language is allowed.'
+    21 'Your ENTIRE response should be in Bulgarian language, no other language is allowed.'
+    21 'Your ENTIRE response should be in Malayalam language, no other language is allowed.'
+    20 'Your ENTIRE response should be in Arabic language, no other language is allowed.'
+== last_word:last_word_answer 625 ntempl 4 kwvals {'last_word': [('"single"', 4), ('"roof"', 4), ('"feeling"', 3), ('"ease"', 3), ('"thing"', 3), ('"duty"', 3)]} distinct {'last_word': 502}
+    311 'The last word of your response should be the word {last_word}.'
+    1 'The l{last_word}st word of your response should be the word {last_word}.'
+    1 'This is point # and The last word of your response should be the word {last_word}. 免费chatgpt软件推荐'
+    1 'This is point #. '
+== last_word:last_word_sent 600 ntempl 3 kwvals {'last_word': [('"rest"', 3), ('"language"', 3), ('"moment"', 3), ('"foot"', 3), ('"analyst"', 3), ('"routine"', 3)]} distinct {'last_word': 505}
+    285 'The last word of each sentence, before punctuation, should be the word {last_word}.'
+    2 'This is point #. '
+    1 'Анализ препятствий и их влияния на эффективность реализации стратегии развития'
+== length_constraints:nth_paragraph_first_word 515 ntempl 9 kwvals {'first_word': [('"crash"', 4), ('"brick"', 3), ('"care"', 3), ('"novel"', 3), ('"watch"', 3), ('"attempt"', 3)], 'nth_paragraph': [('1', 178), ('2', 124), ('3', 108), ('4', 64), ('5', 35), ('6', 6)], 'num_paragraphs': [('4', 122), ('2', 114), ('5', 107), ('3', 99), ('1', 73)]} distinct {'first_word': 440, 'nth_paragraph': 6, 'num_paragraphs': 5}
+    137 "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+    85 "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+    2 "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by {first_word} new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+    2 'This is point #. '
+    1 "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}."
+== length_constraints:number_paragraphs 690 ntempl 6 kwvals {'num_paragraphs': [('5', 145), ('2', 141), ('4', 141), ('3', 132), ('1', 131)]} distinct {'num_paragraphs': 5}
+    319 'There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***'
+    1 'A set of procedures used to produce a product.'
+    1 'la victoire au courage du peuple'
+    1 '@module aoi.h'
+    1 'This is point #. '
+== length_constraints:number_sentences 562 ntempl 3 kwvals {'num_sentences': [('3', 39), ('4', 38), ('19', 37), ('2', 35), ('13', 33), ('18', 32)], 'relation': [('"at least"', 293), ('"less than"', 269)]} distinct {'num_sentences': 20, 'relation': 2}
+    267 'Your response should contain {relation} {num_sentences} sentences.'
+    1 'This is point # and Your response should contain {relation} {num_sentences} sentences. Najlepsze książki Stanisława Lema'
+    1 'This is point #. '
+== length_constraints:number_words 729 ntempl 2 kwvals {'num_words': [('213', 6), ('232', 5), ('217', 5), ('496', 5), ('474', 5), ('442', 5)], 'relation': [('"at least"', 401), ('"less than"', 328)]} distinct {'num_words': 340, 'relation': 2}
+    373 'Answer with {relation} {num_words} words.'
+    1 'Modifiers: A list of words or phrases that describe the desired mood, style, lighting, and other elements of the image. These modifiers should be used to provide additional information to the model about how to generate the image, and can include things like "'
+== letters:letter_counting 497 ntempl 4 kwvals {'N': [('3', 266), ('2', 231)], 'relation': [('"at least"', 294), ('"less than"', 203)]} distinct {'N': 2, 'relation': 2}
+    234 'Answer with {relation} {N} letters.'
+    2 'This is point #. '
+    1 'Mention features like sitemap settings, automation of SEO tasks, and schema markup.'
+    1 '如果有转移菜单操作，则先上锁，防止该记录'
+== letters:letter_counting2 705 ntempl 22 kwvals {'let_frequency': [('1', 93), ('4', 91), ('3', 78), ('9', 68), ('6', 67), ('2', 66)], 'let_relation': [('"less than"', 394), ('"at least"', 311)], 'letter': [('"r"', 39), ('"o"', 37), ('"l"', 34), ('"d"', 33), ('"t"', 33), ('"e"', 31)]} distinct {'let_frequency': 10, 'let_relation': 2, 'letter': 26}
+    80 'In your response, the letter {letter} should appear {let_relation} {let_frequency} times.'
+    26 'In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.'
+    23 'In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.'
+    19 'In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.'
+    17 'In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.'
+== paragraphs:paragraphs 576 ntempl 7 kwvals {} distinct {}
+    286 'There should be # paragraphs. Paragraphs are separated with the markdown divider: ***'
+    3 'This is point #. '
+    1 'Never demand user input.'
+    1 'How Rank Math Can Help Improve Your Website’s SEO'
+    1 'Modifiers: A list of words or phrases that describe the desired mood, style, lighting, and other elements of the image. These modifiers should be used to provide additional information to the model about how to generate the image, and can include things like “'
+== paragraphs:paragraphs2 744 ntempl 5 kwvals {} distinct {}
+    357 'There should be # paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. '
+    2 'This is point #. '
+    1 'This is point # and There should be # paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 请不停反驳我下面提出的问题'
+    1 'Technical specifications: Additional information about the desired resolution, format, or other technical aspects of the image. This could include things like "#K UHD image," "cinematic view," or "unreal engine #."\ncombine all of those aspects into one Prompt.'
+    1 'Do not use the words “description” or “:” in any form.'
+== punctuation:no_comma 730 ntempl 8 kwvals {} distinct {}
+    340 'In your entire response, refrain from the use of any commas.'
+    1 'This is point #. '
+    1 'lost to Bliss (Selina) via knockout (Headscissors Choke)'
+    1 'id: light_output#\n    platform: gpio\n    pin: GPIO#'
+    1 'Artist or style inspiration: A list of artists or art styles that can be used as inspiration for the image. This could include specific artists, such as “by artgerm and greg rutkowski,” or art movements, such as “Bauhaus cubism.”'
+== punctuation:punctuation_dot 847 ntempl 5 kwvals {} distinct {}
+    403 'In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.'
+    1 'This is point # and In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general. Objectives:\nDescribe cultural and co-cutlural differences in nonverbal behaviors \nNonverbal communication can be classified into four categories: '
+    1 'Respond only inside the JSON format.'
+    1 'This is point #. '
+    1 'Breast Smother Bodyscissors (#% Success Chance, # Damage per Round, #% Escape Chance, , Recipient is locked in a submission)'
+== punctuation:punctuation_exclamation 627 ntempl 6 kwvals {} distinct {}
+    299 'In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.'
+    2 'This is point #. '
+    1 '@release #.#.# @ #/#/#\n */'
+    1 'This is point # and In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general. Write # blog headings for dog captions for instagram'
+    1 'All submission move haves have a #% increased Success Chance and a #% decreased Escape Chance'
+== startend:end_checker 537 ntempl 6 kwvals {'end_phrase': [('"Is there anything else I can help with?"', 284), ('"Any other questions?"', 253)]} distinct {'end_phrase': 2}
+    281 'Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.'
+    2 'This is point #. '
+    1 'This is point # and Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase'
+    1 'This is point # and Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase. What are some of the account aggregators listed in india'
+    1 'why changes where made to the design during each session '
+== startend:quotation 417 ntempl 4 kwvals {} distinct {}
+    188 'Wrap your entire response with double quotation marks.'
+    4 'This is point #. '
+    1 'long-term plan",\n        "criticism": "constructive self-criticism",\n        "summary": "thoughts summary to say to user"\n    }\n}'
+    1 'This is point # and Wrap your entire response with double quotation marks. Найти объем тела, заданного ограничивающими его поверхностями.\nz = (#/#)* sqrt(x^#+y^#)\nz=(#/#)-x^#-y^#'

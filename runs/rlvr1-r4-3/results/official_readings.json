@@ -1,0 +1,199 @@
+{
+ "A": {
+  "change_case:capital_word_frequency": {},
+  "change_case:english_capital": {},
+  "change_case:english_lowercase": {},
+  "combination:two_responses": {},
+  "copy:repeat_phrase": {
+   "D-repeat-center": "B"
+  },
+  "count:count_unique": {
+   "D-unique-case": "B"
+  },
+  "count:counting_composition": {},
+  "count:lowercase_counting": {
+   "D-lowercase-counting-scope": "B"
+  },
+  "detectable_content:number_placeholders": {
+   "D-placeholder": "B"
+  },
+  "detectable_content:postscript": {
+   "D-postscript-marker": "B",
+   "D-postscript-position": "B"
+  },
+  "detectable_format:bigram_wrapping": {
+   "D-bigram": "B"
+  },
+  "detectable_format:constrained_response": {
+   "D-constrained": "B"
+  },
+  "detectable_format:json_format": {
+   "D-json": "B"
+  },
+  "detectable_format:multiple_sections": {
+   "D-sections-numbering": "B"
+  },
+  "detectable_format:number_bullet_lists": {},
+  "detectable_format:number_highlighted_sections": {},
+  "detectable_format:sentence_hyphens": {},
+  "detectable_format:square_brackets": {
+   "D-empty": "B"
+  },
+  "detectable_format:title": {},
+  "first_word:first_word_answer": {
+   "D-first-last-markup": "B"
+  },
+  "first_word:first_word_sent": {},
+  "keywords:existence": {
+   "D-keyword-match": "B"
+  },
+  "keywords:forbidden_words": {},
+  "keywords:frequency": {
+   "D-keyword-match": "B"
+  },
+  "keywords:keyword_specific_position": {},
+  "keywords:letter_frequency": {},
+  "keywords:no_adjacent_consecutive": {
+   "D-consecutive-order": "B"
+  },
+  "keywords:palindrome": {
+   "D-palindrome": "B"
+  },
+  "keywords:start_end": {
+   "D-start-end-leading": "B",
+   "D-start-end-single": "B"
+  },
+  "keywords:word_count_different_numbers": {},
+  "keywords:word_once": {
+   "D-keyword-match": "B"
+  },
+  "language:response_language": {},
+  "last_word:last_word_answer": {
+   "D-word": "B"
+  },
+  "last_word:last_word_sent": {
+   "D-sentence": "B",
+   "D-word": "B"
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "D-first-last-markup": "B"
+  },
+  "length_constraints:number_paragraphs": {},
+  "length_constraints:number_sentences": {
+   "D-sentence": "B"
+  },
+  "length_constraints:number_words": {
+   "D-word": "B"
+  },
+  "letters:letter_counting": {
+   "D-letters-count": "B"
+  },
+  "letters:letter_counting2": {},
+  "paragraphs:paragraphs": {},
+  "paragraphs:paragraphs2": {
+   "D-paragraph-blank": "B"
+  },
+  "punctuation:no_comma": {
+   "D-comma-chars": "B"
+  },
+  "punctuation:punctuation_dot": {
+   "D-dot-chars": "B"
+  },
+  "punctuation:punctuation_exclamation": {
+   "D-exclamation-chars": "B"
+  },
+  "startend:end_checker": {
+   "D-end-phrase": "B",
+   "D-end-phrase-case": "B"
+  },
+  "startend:quotation": {
+   "D-quotation": "B"
+  }
+ },
+ "B": {
+  "change_case:capital_word_frequency": {
+   "D-capital-word": "B"
+  },
+  "change_case:english_capital": {},
+  "change_case:english_lowercase": {},
+  "combination:two_responses": {},
+  "copy:repeat_phrase": {},
+  "count:counting_composition": {
+   "D-divider": "B"
+  },
+  "count:lowercase_counting": {
+   "D-empty": "B"
+  },
+  "detectable_content:number_placeholders": {},
+  "detectable_content:postscript": {
+   "D-postscript-marker": "B"
+  },
+  "detectable_format:constrained_response": {},
+  "detectable_format:json_format": {
+   "D-json": "B"
+  },
+  "detectable_format:multiple_sections": {
+   "D-sections-case": "B",
+   "D-sections-numbering": "B"
+  },
+  "detectable_format:number_bullet_lists": {},
+  "detectable_format:number_highlighted_sections": {},
+  "detectable_format:sentence_hyphens": {
+   "D-empty": "B",
+   "D-hyphens-single": "B"
+  },
+  "detectable_format:square_brackets": {
+   "D-empty": "B",
+   "D-square-brackets": "B"
+  },
+  "detectable_format:title": {},
+  "first_word:first_word_answer": {},
+  "first_word:first_word_sent": {
+   "D-empty": "B"
+  },
+  "keywords:existence": {},
+  "keywords:forbidden_words": {},
+  "keywords:frequency": {},
+  "keywords:keyword_specific_position": {},
+  "keywords:letter_frequency": {},
+  "keywords:no_adjacent_consecutive": {
+   "D-consecutive-order": "B"
+  },
+  "keywords:palindrome": {},
+  "keywords:start_end": {},
+  "keywords:word_count_different_numbers": {},
+  "keywords:word_once": {},
+  "last_word:last_word_answer": {},
+  "last_word:last_word_sent": {
+   "D-empty": "B",
+   "D-sentence": "B"
+  },
+  "length_constraints:nth_paragraph_first_word": {},
+  "length_constraints:number_paragraphs": {
+   "D-divider-inline": "B",
+   "D-separator-edge": "B"
+  },
+  "length_constraints:number_sentences": {
+   "D-sentence": "B"
+  },
+  "length_constraints:number_words": {
+   "D-word": "B"
+  },
+  "letters:letter_counting2": {},
+  "paragraphs:paragraphs": {},
+  "paragraphs:paragraphs2": {},
+  "punctuation:no_comma": {
+   "D-comma-chars": "B"
+  },
+  "punctuation:punctuation_dot": {
+   "D-dot-chars": "B"
+  },
+  "punctuation:punctuation_exclamation": {
+   "D-exclamation-chars": "B"
+  },
+  "startend:end_checker": {
+   "D-end-phrase": "B"
+  },
+  "startend:quotation": {}
+ }
+}

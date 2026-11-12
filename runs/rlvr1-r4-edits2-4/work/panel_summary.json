@@ -1,0 +1,5618 @@
+{
+ "stored": {
+  "Qwen__Qwen2.5-7B-Instruct/sample0": {
+   "n": 4000,
+   "finish_length": 65,
+   "thinking": false,
+   "has_close": 0,
+   "has_open": 3,
+   "extraction_failure": 0,
+   "extraction_failure_and_length": 0,
+   "skyrl_text_empty": 3,
+   "graded_text_differs": 3,
+   "skyrl_infra_error": 0,
+   "extraction_failure_skyrl_reward_1": 0,
+   "extraction_failure_gate_pass": 0
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/greedy": {
+   "n": 1000,
+   "finish_length": 92,
+   "thinking": false,
+   "has_close": 0,
+   "has_open": 0,
+   "extraction_failure": 0,
+   "extraction_failure_and_length": 0,
+   "skyrl_text_empty": 1,
+   "graded_text_differs": 1,
+   "skyrl_infra_error": 0,
+   "extraction_failure_skyrl_reward_1": 0,
+   "extraction_failure_gate_pass": 0
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/greedy_repeat": {
+   "n": 1000,
+   "finish_length": 81,
+   "thinking": false,
+   "has_close": 0,
+   "has_open": 0,
+   "extraction_failure": 0,
+   "extraction_failure_and_length": 0,
+   "skyrl_text_empty": 2,
+   "graded_text_differs": 2,
+   "skyrl_infra_error": 0,
+   "extraction_failure_skyrl_reward_1": 0,
+   "extraction_failure_gate_pass": 0
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/sample0": {
+   "n": 11817,
+   "finish_length": 620,
+   "thinking": false,
+   "has_close": 0,
+   "has_open": 11,
+   "extraction_failure": 0,
+   "extraction_failure_and_length": 0,
+   "skyrl_text_empty": 16,
+   "graded_text_differs": 16,
+   "skyrl_infra_error": 1,
+   "extraction_failure_skyrl_reward_1": 0,
+   "extraction_failure_gate_pass": 0
+  },
+  "Qwen__Qwen3-4B-Thinking-2507__thinking/sample0": {
+   "n": 1500,
+   "finish_length": 166,
+   "thinking": true,
+   "has_close": 1361,
+   "has_open": 1,
+   "extraction_failure": 139,
+   "extraction_failure_and_length": 139,
+   "skyrl_text_empty": 1,
+   "graded_text_differs": 141,
+   "skyrl_infra_error": 0,
+   "extraction_failure_skyrl_reward_1": 1,
+   "extraction_failure_gate_pass": 18
+  },
+  "allenai__OLMo-2-1124-7B-Instruct/sample0": {
+   "n": 3998,
+   "finish_length": 39,
+   "thinking": false,
+   "has_close": 0,
+   "has_open": 0,
+   "extraction_failure": 0,
+   "extraction_failure_and_length": 0,
+   "skyrl_text_empty": 1,
+   "graded_text_differs": 0,
+   "skyrl_infra_error": 0,
+   "extraction_failure_skyrl_reward_1": 0,
+   "extraction_failure_gate_pass": 0
+  }
+ },
+ "scores": {
+  "Qwen__Qwen2.5-7B-Instruct/sample0#nolang": {
+   "replacement_nolang": 0.2055,
+   "delta": 0.00525,
+   "ci": [
+    -0.0055,
+    0.015756249999999965
+   ],
+   "false_rewards_nolang": 217
+  },
+  "Qwen__Qwen2.5-7B-Instruct/sample0": {
+   "n": 4000,
+   "skyrl": 0.20025,
+   "replacement": 0.207,
+   "delta_repl_minus_skyrl": 0.00675,
+   "ci": [
+    -0.004006249999999999,
+    0.017006249999999966
+   ],
+   "rows_gained": 246,
+   "rows_lost": 219,
+   "gate": 0.32975,
+   "replacement_gate_constraints": 0.2605,
+   "delta_gate": -0.06925,
+   "ci_gate": [
+    -0.08175625,
+    -0.056
+   ],
+   "skyrl_rewards": 801,
+   "false_rewards": 219,
+   "gate_passes": 1319,
+   "false_gate_passes": 481
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/greedy#nolang": {
+   "replacement_nolang": 0.342,
+   "delta": 0.049,
+   "ci": [
+    0.031,
+    0.068
+   ],
+   "false_rewards_nolang": 22
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/greedy": {
+   "n": 1000,
+   "skyrl": 0.293,
+   "replacement": 0.344,
+   "delta_repl_minus_skyrl": 0.051,
+   "ci": [
+    0.033,
+    0.071
+   ],
+   "rows_gained": 73,
+   "rows_lost": 22,
+   "gate": 0.499,
+   "replacement_gate_constraints": 0.428,
+   "delta_gate": -0.071,
+   "ci_gate": [
+    -0.1,
+    -0.042
+   ],
+   "skyrl_rewards": 293,
+   "false_rewards": 22,
+   "gate_passes": 499,
+   "false_gate_passes": 144
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/greedy_repeat#nolang": {
+   "replacement_nolang": 0.345,
+   "delta": 0.05,
+   "ci": [
+    0.032,
+    0.069
+   ],
+   "false_rewards_nolang": 23
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/greedy_repeat": {
+   "n": 1000,
+   "skyrl": 0.295,
+   "replacement": 0.347,
+   "delta_repl_minus_skyrl": 0.052,
+   "ci": [
+    0.034,
+    0.071
+   ],
+   "rows_gained": 75,
+   "rows_lost": 23,
+   "gate": 0.5,
+   "replacement_gate_constraints": 0.433,
+   "delta_gate": -0.067,
+   "ci_gate": [
+    -0.097,
+    -0.037
+   ],
+   "skyrl_rewards": 295,
+   "false_rewards": 23,
+   "gate_passes": 500,
+   "false_gate_passes": 143
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/sample0#nolang": {
+   "replacement_nolang": 0.33908775492933907,
+   "delta": 0.043665905052043666,
+   "ci": [
+    0.03748836422103749,
+    0.050012693577050016
+   ],
+   "false_rewards_nolang": 449
+  },
+  "Qwen__Qwen3-4B-Instruct-2507/sample0": {
+   "n": 11817,
+   "skyrl": 0.2954218498772954,
+   "replacement": 0.3396801218583397,
+   "delta_repl_minus_skyrl": 0.04425827198104426,
+   "ci": [
+    0.03824786324786325,
+    0.05068968435305069
+   ],
+   "rows_gained": 981,
+   "rows_lost": 458,
+   "gate": 0.4775323686214775,
+   "replacement_gate_constraints": 0.4276042988914276,
+   "delta_gate": -0.04992806973004993,
+   "ci_gate": [
+    -0.05864644156723365,
+    -0.04197342811204197
+   ],
+   "skyrl_rewards": 3491,
+   "false_rewards": 458,
+   "gate_passes": 5643,
+   "false_gate_passes": 1688
+  },
+  "Qwen__Qwen3-4B-Thinking-2507__thinking/sample0#nolang": {
+   "replacement_nolang": 0.63,
+   "delta": 0.07666666666666666,
+   "ci": [
+    0.05798333333333334,
+    0.09733333333333333
+   ],
+   "false_rewards_nolang": 67
+  },
+  "Qwen__Qwen3-4B-Thinking-2507__thinking/sample0": {
+   "n": 1500,
+   "skyrl": 0.5533333333333333,
+   "replacement": 0.6413333333333333,
+   "delta_repl_minus_skyrl": 0.088,
+   "ci": [
+    0.068,
+    0.10933333333333334
+   ],
+   "rows_gained": 199,
+   "rows_lost": 67,
+   "gate": 0.634,
+   "replacement_gate_constraints": 0.6733333333333333,
+   "delta_gate": 0.03933333333333333,
+   "ci_gate": [
+    0.018,
+    0.062
+   ],
+   "skyrl_rewards": 830,
+   "false_rewards": 67,
+   "gate_passes": 951,
+   "false_gate_passes": 111
+  },
+  "allenai__OLMo-2-1124-7B-Instruct/sample0#nolang": {
+   "replacement_nolang": 0.18259129564782392,
+   "delta": -0.008254127063531767,
+   "ci": [
+    -0.016514507253626815,
+    0.0
+   ],
+   "false_rewards_nolang": 169
+  },
+  "allenai__OLMo-2-1124-7B-Instruct/sample0": {
+   "n": 3998,
+   "skyrl": 0.19084542271135568,
+   "replacement": 0.18309154577288644,
+   "delta_repl_minus_skyrl": -0.0077538769384692344,
+   "ci": [
+    -0.016258129064532265,
+    0.0007503751875937969
+   ],
+   "rows_gained": 141,
+   "rows_lost": 172,
+   "gate": 0.32016008004002,
+   "replacement_gate_constraints": 0.2416208104052026,
+   "delta_gate": -0.0785392696348174,
+   "ci_gate": [
+    -0.09104552276138068,
+    -0.06603301650825413
+   ],
+   "skyrl_rewards": 763,
+   "false_rewards": 172,
+   "gate_passes": 1280,
+   "false_gate_passes": 510
+  }
+ },
+ "rerun": {
+  "rows": 1000,
+  "identical_responses": 506,
+  "skyrl_changed_rows": 16,
+  "repl_changed_rows": 19,
+  "gate_changed_rows": 27,
+  "skyrl_score_diff": 0.002,
+  "repl_score_diff": 0.003,
+  "gate_score_diff": 0.001
+ },
+ "nth_gt_num": {
+  "responses": 161,
+  "skyrl_reward_differs_between_seeds": 6,
+  "skyrl_reward_1_seed1": 9,
+  "skyrl_reward_1_either_seed": 11,
+  "nth_constraint_pass_seed1": 14
+ },
+ "per_check": {
+  "change_case:capital_word_frequency": {
+   "n": 1207,
+   "skyrl_pass": 920,
+   "repl_pass": 911,
+   "skyrl_err": 0,
+   "gate_n": 1207,
+   "gate_pass": 960,
+   "gate_repl_pass": 911,
+   "gate_vs_skyrl": 120,
+   "gate_false_pass": 80,
+   "skyrl_false_pass": 18,
+   "gate_false_fail": 31,
+   "skyrl_false_fail": 9
+  },
+  "change_case:english_capital": {
+   "n": 1534,
+   "skyrl_pass": 692,
+   "repl_pass": 756,
+   "skyrl_err": 0,
+   "gate_n": 1534,
+   "gate_pass": 844,
+   "gate_repl_pass": 756,
+   "gate_vs_skyrl": 160,
+   "gate_false_pass": 99,
+   "skyrl_false_pass": 20,
+   "skyrl_false_fail": 84,
+   "gate_false_fail": 11
+  },
+  "change_case:english_lowercase": {
+   "n": 1208,
+   "skyrl_pass": 833,
+   "repl_pass": 834,
+   "skyrl_err": 0,
+   "gate_n": 1208,
+   "gate_pass": 935,
+   "gate_repl_pass": 834,
+   "gate_vs_skyrl": 140,
+   "gate_false_pass": 122,
+   "skyrl_false_pass": 1,
+   "gate_false_fail": 21,
+   "skyrl_false_fail": 2
+  },
+  "combination:two_responses": {
+   "n": 557,
+   "skyrl_pass": 454,
+   "repl_pass": 424,
+   "skyrl_err": 0,
+   "gate_n": 557,
+   "gate_pass": 454,
+   "gate_repl_pass": 424,
+   "skyrl_false_pass": 31,
+   "gate_false_pass": 31,
+   "skyrl_false_fail": 1,
+   "gate_false_fail": 1
+  },
+  "copy:repeat_phrase": {
+   "n": 1059,
+   "skyrl_pass": 94,
+   "repl_pass": 32,
+   "skyrl_err": 0,
+   "gate_n": 1059,
+   "gate_pass": 483,
+   "gate_repl_pass": 32,
+   "gate_vs_skyrl": 577,
+   "gate_false_pass": 483,
+   "skyrl_false_pass": 67,
+   "gate_false_fail": 32,
+   "skyrl_false_fail": 5
+  },
+  "count:count_unique": {
+   "n": 1341,
+   "skyrl_pass": 201,
+   "repl_pass": 299,
+   "skyrl_err": 0,
+   "skyrl_false_fail": 106,
+   "skyrl_false_pass": 8
+  },
+  "count:counting_composition": {
+   "n": 1,
+   "skyrl_pass": 0,
+   "repl_pass": 0,
+   "skyrl_err": 0,
+   "gate_n": 1,
+   "gate_pass": 0,
+   "gate_repl_pass": 0
+  },
+  "count:lowercase_counting": {
+   "n": 1712,
+   "skyrl_pass": 261,
+   "repl_pass": 505,
+   "skyrl_err": 0,
+   "gate_n": 1712,
+   "gate_pass": 1514,
+   "gate_repl_pass": 505,
+   "gate_vs_skyrl": 1623,
+   "gate_false_pass": 1181,
+   "skyrl_false_fail": 285,
+   "gate_false_fail": 172,
+   "skyrl_false_pass": 41
+  },
+  "detectable_content:number_placeholders": {
+   "n": 1201,
+   "skyrl_pass": 1099,
+   "repl_pass": 1092,
+   "skyrl_err": 0,
+   "gate_n": 1201,
+   "gate_pass": 1098,
+   "gate_repl_pass": 1092,
+   "skyrl_false_fail": 1,
+   "gate_false_fail": 1,
+   "gate_vs_skyrl": 1,
+   "skyrl_false_pass": 8,
+   "gate_false_pass": 7
+  },
+  "detectable_content:postscript": {
+   "n": 1277,
+   "skyrl_pass": 1064,
+   "repl_pass": 736,
+   "skyrl_err": 0,
+   "gate_n": 1277,
+   "gate_pass": 925,
+   "gate_repl_pass": 736,
+   "gate_vs_skyrl": 139,
+   "gate_false_fail": 5,
+   "skyrl_false_pass": 329,
+   "gate_false_pass": 194,
+   "skyrl_false_fail": 1
+  },
+  "detectable_format:bigram_wrapping": {
+   "n": 1157,
+   "skyrl_pass": 224,
+   "repl_pass": 39,
+   "skyrl_err": 0,
+   "skyrl_false_pass": 185
+  },
+  "detectable_format:constrained_response": {
+   "n": 243,
+   "skyrl_pass": 218,
+   "repl_pass": 215,
+   "skyrl_err": 0,
+   "gate_n": 243,
+   "gate_pass": 140,
+   "gate_repl_pass": 215,
+   "gate_vs_skyrl": 78,
+   "skyrl_false_pass": 3,
+   "gate_false_fail": 75
+  },
+  "detectable_format:json_format": {
+   "n": 266,
+   "skyrl_pass": 218,
+   "repl_pass": 218,
+   "skyrl_err": 0,
+   "gate_n": 266,
+   "gate_pass": 218,
+   "gate_repl_pass": 218
+  },
+  "detectable_format:multiple_sections": {
+   "n": 917,
+   "skyrl_pass": 797,
+   "repl_pass": 743,
+   "skyrl_err": 0,
+   "gate_n": 917,
+   "gate_pass": 780,
+   "gate_repl_pass": 743,
+   "gate_vs_skyrl": 61,
+   "skyrl_false_pass": 78,
+   "gate_false_pass": 42,
+   "skyrl_false_fail": 24,
+   "gate_false_fail": 5
+  },
+  "detectable_format:number_bullet_lists": {
+   "n": 1019,
+   "skyrl_pass": 816,
+   "repl_pass": 831,
+   "skyrl_err": 0,
+   "gate_n": 1019,
+   "gate_pass": 831,
+   "gate_repl_pass": 831,
+   "gate_vs_skyrl": 21,
+   "skyrl_false_fail": 18,
+   "skyrl_false_pass": 3
+  },
+  "detectable_format:number_highlighted_sections": {
+   "n": 1070,
+   "skyrl_pass": 999,
+   "repl_pass": 992,
+   "skyrl_err": 0,
+   "gate_n": 1070,
+   "gate_pass": 999,
+   "gate_repl_pass": 992,
+   "skyrl_false_pass": 8,
+   "gate_false_pass": 7,
+   "gate_vs_skyrl": 2,
+   "skyrl_false_fail": 1
+  },
+  "detectable_format:sentence_hyphens": {
+   "n": 1300,
+   "skyrl_pass": 255,
+   "repl_pass": 1027,
+   "skyrl_err": 0,
+   "gate_n": 1300,
+   "gate_pass": 253,
+   "gate_repl_pass": 1027,
+   "skyrl_false_fail": 772,
+   "gate_false_fail": 776,
+   "gate_vs_skyrl": 500,
+   "gate_false_pass": 2
+  },
+  "detectable_format:square_brackets": {
+   "n": 1079,
+   "skyrl_pass": 175,
+   "repl_pass": 197,
+   "skyrl_err": 0,
+   "gate_n": 1079,
+   "gate_pass": 1027,
+   "gate_repl_pass": 197,
+   "gate_vs_skyrl": 856,
+   "gate_false_pass": 832,
+   "skyrl_false_pass": 33,
+   "skyrl_false_fail": 55,
+   "gate_false_fail": 2
+  },
+  "detectable_format:title": {
+   "n": 1189,
+   "skyrl_pass": 1155,
+   "repl_pass": 1148,
+   "skyrl_err": 0,
+   "gate_n": 1189,
+   "gate_pass": 1155,
+   "gate_repl_pass": 1148,
+   "skyrl_false_fail": 2,
+   "gate_false_fail": 2,
+   "skyrl_false_pass": 9,
+   "gate_false_pass": 9
+  },
+  "first_word:first_word_answer": {
+   "n": 1089,
+   "skyrl_pass": 786,
+   "repl_pass": 922,
+   "skyrl_err": 0,
+   "gate_n": 1089,
+   "gate_pass": 927,
+   "gate_repl_pass": 922,
+   "gate_vs_skyrl": 141,
+   "skyrl_false_fail": 136,
+   "gate_false_fail": 1,
+   "gate_false_pass": 6
+  },
+  "first_word:first_word_sent": {
+   "n": 1024,
+   "skyrl_pass": 331,
+   "repl_pass": 423,
+   "skyrl_err": 0,
+   "gate_n": 1024,
+   "gate_pass": 443,
+   "gate_repl_pass": 423,
+   "gate_vs_skyrl": 118,
+   "skyrl_false_fail": 105,
+   "skyrl_false_pass": 13,
+   "gate_false_pass": 29,
+   "gate_false_fail": 9
+  },
+  "keywords:existence": {
+   "n": 1856,
+   "skyrl_pass": 1404,
+   "repl_pass": 1276,
+   "skyrl_err": 0,
+   "gate_n": 1856,
+   "gate_pass": 1338,
+   "gate_repl_pass": 1276,
+   "gate_vs_skyrl": 66,
+   "skyrl_false_pass": 128,
+   "gate_false_pass": 63,
+   "gate_false_fail": 1
+  },
+  "keywords:forbidden_words": {
+   "n": 1687,
+   "skyrl_pass": 1630,
+   "repl_pass": 1632,
+   "skyrl_err": 0,
+   "gate_n": 1687,
+   "gate_pass": 1630,
+   "gate_repl_pass": 1632,
+   "skyrl_false_fail": 3,
+   "gate_false_fail": 3,
+   "skyrl_false_pass": 1,
+   "gate_false_pass": 1
+  },
+  "keywords:frequency": {
+   "n": 1200,
+   "skyrl_pass": 972,
+   "repl_pass": 957,
+   "skyrl_err": 0,
+   "gate_n": 1200,
+   "gate_pass": 971,
+   "gate_repl_pass": 957,
+   "gate_vs_skyrl": 45,
+   "skyrl_false_pass": 39,
+   "gate_false_pass": 16,
+   "skyrl_false_fail": 24,
+   "gate_false_fail": 2
+  },
+  "keywords:keyword_specific_position": {
+   "n": 1341,
+   "skyrl_pass": 37,
+   "repl_pass": 49,
+   "skyrl_err": 0,
+   "gate_n": 1341,
+   "gate_pass": 49,
+   "gate_repl_pass": 49,
+   "skyrl_false_fail": 18,
+   "gate_false_fail": 9,
+   "gate_vs_skyrl": 22,
+   "skyrl_false_pass": 6,
+   "gate_false_pass": 9
+  },
+  "keywords:letter_frequency": {
+   "n": 1507,
+   "skyrl_pass": 857,
+   "repl_pass": 851,
+   "skyrl_err": 0,
+   "gate_n": 1507,
+   "gate_pass": 857,
+   "gate_repl_pass": 851,
+   "skyrl_false_pass": 6,
+   "gate_false_pass": 6
+  },
+  "keywords:no_adjacent_consecutive": {
+   "n": 1499,
+   "skyrl_pass": 356,
+   "repl_pass": 357,
+   "skyrl_err": 0,
+   "gate_n": 1499,
+   "gate_pass": 1151,
+   "gate_repl_pass": 357,
+   "gate_vs_skyrl": 915,
+   "gate_false_pass": 858,
+   "skyrl_false_pass": 110,
+   "skyrl_false_fail": 111,
+   "gate_false_fail": 64
+  },
+  "keywords:palindrome": {
+   "n": 1165,
+   "skyrl_pass": 1052,
+   "repl_pass": 867,
+   "skyrl_err": 0,
+   "gate_n": 1165,
+   "gate_pass": 739,
+   "gate_repl_pass": 867,
+   "gate_vs_skyrl": 373,
+   "skyrl_false_pass": 222,
+   "gate_false_pass": 13,
+   "gate_false_fail": 141,
+   "skyrl_false_fail": 37
+  },
+  "keywords:start_end": {
+   "n": 989,
+   "skyrl_pass": 293,
+   "repl_pass": 338,
+   "skyrl_err": 0,
+   "gate_n": 989,
+   "gate_pass": 368,
+   "gate_repl_pass": 338,
+   "gate_vs_skyrl": 105,
+   "skyrl_false_pass": 5,
+   "gate_false_pass": 57,
+   "skyrl_false_fail": 50,
+   "gate_false_fail": 27
+  },
+  "keywords:word_count_different_numbers": {
+   "n": 1015,
+   "skyrl_pass": 550,
+   "repl_pass": 368,
+   "skyrl_err": 0,
+   "gate_n": 1015,
+   "gate_pass": 550,
+   "gate_repl_pass": 368,
+   "skyrl_false_pass": 339,
+   "gate_false_pass": 338,
+   "skyrl_false_fail": 157,
+   "gate_false_fail": 156,
+   "gate_vs_skyrl": 60
+  },
+  "keywords:word_once": {
+   "n": 1808,
+   "skyrl_pass": 461,
+   "repl_pass": 1308,
+   "skyrl_err": 0,
+   "gate_n": 1808,
+   "gate_pass": 469,
+   "gate_repl_pass": 1308,
+   "skyrl_false_fail": 895,
+   "gate_false_fail": 853,
+   "gate_vs_skyrl": 82,
+   "skyrl_false_pass": 48,
+   "gate_false_pass": 14
+  },
+  "language:response_language": {
+   "n": 1600,
+   "skyrl_pass": 1413,
+   "repl_pass": 1409,
+   "skyrl_err": 0,
+   "skyrl_false_pass": 4
+  },
+  "last_word:last_word_answer": {
+   "n": 1285,
+   "skyrl_pass": 896,
+   "repl_pass": 964,
+   "skyrl_err": 1,
+   "gate_n": 1285,
+   "gate_pass": 976,
+   "gate_repl_pass": 964,
+   "gate_vs_skyrl": 80,
+   "gate_false_pass": 14,
+   "skyrl_false_fail": 68,
+   "gate_false_fail": 2
+  },
+  "last_word:last_word_sent": {
+   "n": 1203,
+   "skyrl_pass": 334,
+   "repl_pass": 324,
+   "skyrl_err": 0,
+   "gate_n": 1203,
+   "gate_pass": 401,
+   "gate_repl_pass": 324,
+   "gate_vs_skyrl": 75,
+   "gate_false_pass": 84,
+   "skyrl_false_fail": 33,
+   "skyrl_false_pass": 43,
+   "gate_false_fail": 7
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "n": 1048,
+   "skyrl_pass": 408,
+   "repl_pass": 398,
+   "skyrl_err": 0,
+   "gate_n": 1048,
+   "gate_pass": 402,
+   "gate_repl_pass": 398,
+   "gate_vs_skyrl": 24,
+   "skyrl_false_pass": 15,
+   "skyrl_false_fail": 5,
+   "gate_false_pass": 4
+  },
+  "length_constraints:number_paragraphs": {
+   "n": 1345,
+   "skyrl_pass": 997,
+   "repl_pass": 854,
+   "skyrl_err": 0,
+   "gate_n": 1345,
+   "gate_pass": 570,
+   "gate_repl_pass": 854,
+   "gate_vs_skyrl": 561,
+   "gate_false_fail": 388,
+   "gate_false_pass": 104,
+   "skyrl_false_fail": 23,
+   "skyrl_false_pass": 166
+  },
+  "length_constraints:number_sentences": {
+   "n": 1131,
+   "skyrl_pass": 797,
+   "repl_pass": 824,
+   "skyrl_err": 0,
+   "gate_n": 1131,
+   "gate_pass": 788,
+   "gate_repl_pass": 824,
+   "skyrl_false_fail": 88,
+   "gate_false_fail": 100,
+   "skyrl_false_pass": 61,
+   "gate_false_pass": 64,
+   "gate_vs_skyrl": 17
+  },
+  "length_constraints:number_words": {
+   "n": 1443,
+   "skyrl_pass": 1062,
+   "repl_pass": 1060,
+   "skyrl_err": 0,
+   "gate_n": 1443,
+   "gate_pass": 1017,
+   "gate_repl_pass": 1060,
+   "gate_vs_skyrl": 71,
+   "gate_false_pass": 16,
+   "gate_false_fail": 59,
+   "skyrl_false_fail": 14,
+   "skyrl_false_pass": 16
+  },
+  "letters:letter_counting": {
+   "n": 961,
+   "skyrl_pass": 593,
+   "repl_pass": 635,
+   "skyrl_err": 0,
+   "skyrl_false_pass": 30,
+   "skyrl_false_fail": 72
+  },
+  "letters:letter_counting2": {
+   "n": 1346,
+   "skyrl_pass": 734,
+   "repl_pass": 724,
+   "skyrl_err": 0,
+   "gate_n": 1346,
+   "gate_pass": 734,
+   "gate_repl_pass": 724,
+   "skyrl_false_pass": 10,
+   "gate_false_pass": 10
+  },
+  "paragraphs:paragraphs": {
+   "n": 1150,
+   "skyrl_pass": 960,
+   "repl_pass": 833,
+   "skyrl_err": 0,
+   "gate_n": 1150,
+   "gate_pass": 1117,
+   "gate_repl_pass": 833,
+   "gate_vs_skyrl": 157,
+   "gate_false_pass": 284,
+   "skyrl_false_pass": 131,
+   "skyrl_false_fail": 4
+  },
+  "paragraphs:paragraphs2": {
+   "n": 1391,
+   "skyrl_pass": 869,
+   "repl_pass": 870,
+   "skyrl_err": 0,
+   "gate_n": 1391,
+   "gate_pass": 1312,
+   "gate_repl_pass": 870,
+   "gate_vs_skyrl": 443,
+   "gate_false_pass": 442,
+   "skyrl_false_pass": 2,
+   "skyrl_false_fail": 3
+  },
+  "punctuation:no_comma": {
+   "n": 1523,
+   "skyrl_pass": 1351,
+   "repl_pass": 1324,
+   "skyrl_err": 0,
+   "gate_n": 1523,
+   "gate_pass": 1351,
+   "gate_repl_pass": 1324,
+   "skyrl_false_pass": 27,
+   "gate_false_pass": 27
+  },
+  "punctuation:punctuation_dot": {
+   "n": 1749,
+   "skyrl_pass": 903,
+   "repl_pass": 848,
+   "skyrl_err": 0,
+   "gate_n": 1749,
+   "gate_pass": 903,
+   "gate_repl_pass": 848,
+   "skyrl_false_pass": 55,
+   "gate_false_pass": 55
+  },
+  "punctuation:punctuation_exclamation": {
+   "n": 1284,
+   "skyrl_pass": 1224,
+   "repl_pass": 1215,
+   "skyrl_err": 0,
+   "gate_n": 1284,
+   "gate_pass": 1224,
+   "gate_repl_pass": 1215,
+   "skyrl_false_pass": 9,
+   "gate_false_pass": 9
+  },
+  "startend:end_checker": {
+   "n": 997,
+   "skyrl_pass": 871,
+   "repl_pass": 708,
+   "skyrl_err": 0,
+   "gate_n": 997,
+   "gate_pass": 681,
+   "gate_repl_pass": 708,
+   "gate_vs_skyrl": 190,
+   "skyrl_false_pass": 165,
+   "skyrl_false_fail": 2,
+   "gate_false_fail": 30,
+   "gate_false_pass": 3
+  },
+  "startend:quotation": {
+   "n": 810,
+   "skyrl_pass": 696,
+   "repl_pass": 697,
+   "skyrl_err": 0,
+   "gate_n": 810,
+   "gate_pass": 697,
+   "gate_repl_pass": 697,
+   "gate_vs_skyrl": 1,
+   "skyrl_false_fail": 1
+  }
+ },
+ "attribution": {
+  "change_case:capital_word_frequency|gate": {
+   "extraction_failure": 10,
+   "decision:D-capital-word": 80,
+   "any_decision": 81,
+   "decision:D-word-units": 1,
+   "defect_false_fail": 19,
+   "defect_false_pass": 1
+  },
+  "change_case:capital_word_frequency|skyrl": {
+   "extraction_failure": 6,
+   "decision:D-word-units": 11,
+   "any_decision": 16,
+   "decision:D-capital-word": 3,
+   "decision:D-word-cjk+D-capital-word": 2,
+   "defect_false_fail": 3,
+   "defect_false_pass": 2
+  },
+  "change_case:english_capital|gate": {
+   "defect_false_pass": 99,
+   "defect_false_fail": 7,
+   "decision:D-language-mixed": 4,
+   "any_decision": 4
+  },
+  "change_case:english_capital|skyrl": {
+   "defect_false_pass": 20,
+   "defect_false_fail": 70,
+   "decision:D-language-mixed": 14,
+   "any_decision": 14
+  },
+  "change_case:english_lowercase|gate": {
+   "defect_false_pass": 122,
+   "defect_false_fail": 11,
+   "decision:D-language-mixed": 8,
+   "any_decision": 10,
+   "decision:D-word-cjk+D-language-mixed": 2
+  },
+  "change_case:english_lowercase|skyrl": {
+   "defect_false_pass": 1,
+   "defect_false_fail": 1,
+   "decision:D-language-mixed": 1,
+   "any_decision": 1
+  },
+  "combination:two_responses|gate": {
+   "extraction_failure": 1,
+   "defect_false_pass": 30,
+   "defect_false_fail": 1
+  },
+  "combination:two_responses|skyrl": {
+   "extraction_failure": 1,
+   "defect_false_pass": 30,
+   "defect_false_fail": 1
+  },
+  "copy:repeat_phrase|gate": {
+   "extraction_failure": 6,
+   "defect_false_pass": 456,
+   "decision:D-repeat-center+D-repeat-original": 12,
+   "any_decision": 22,
+   "defect_false_fail": 31,
+   "decision:D-repeat-original": 9,
+   "decision:D-word-case": 1
+  },
+  "copy:repeat_phrase|skyrl": {
+   "defect_false_pass": 53,
+   "decision:D-repeat-center": 14,
+   "any_decision": 15,
+   "decision:D-word-case": 1,
+   "defect_false_fail": 4
+  },
+  "count:count_unique|skyrl": {
+   "defect_false_fail": 88,
+   "defect_false_pass": 6,
+   "decision:D-word-cjk": 12,
+   "any_decision": 20,
+   "decision:D-word-units": 6,
+   "decision:D-word-case": 2
+  },
+  "count:lowercase_counting|gate": {
+   "extraction_failure": 14,
+   "defect_false_pass": 1167,
+   "decision:D-word-cjk": 8,
+   "any_decision": 39,
+   "decision:D-lowercase-count": 3,
+   "decision:D-lowercase-scope": 11,
+   "defect_false_fail": 133,
+   "decision:D-word-cjk+D-lowercase-scope": 9,
+   "decision:D-word-units": 8,
+   "decision:D-word-units+D-lowercase-scope": 4,
+   "decision:D-word-cjk+D-lowercase-count": 1,
+   "decision:D-word-units+D-lowercase-count": 1
+  },
+  "count:lowercase_counting|skyrl": {
+   "decision:D-lowercase-scope": 275,
+   "any_decision": 285,
+   "decision:D-lowercase-count": 13,
+   "decision:D-word-units": 15,
+   "defect_false_pass": 41,
+   "decision:D-word-cjk": 8,
+   "decision:D-word-units+D-lowercase-scope": 4
+  },
+  "detectable_content:number_placeholders|gate": {
+   "extraction_failure": 7,
+   "defect_false_fail": 1
+  },
+  "detectable_content:number_placeholders|skyrl": {
+   "extraction_failure": 7,
+   "defect_false_fail": 1,
+   "defect_false_pass": 1
+  },
+  "detectable_content:postscript|gate": {
+   "extraction_failure": 8,
+   "defect_false_fail": 5,
+   "decision:D-postscript-position": 58,
+   "any_decision": 118,
+   "decision:D-postscript-case": 57,
+   "defect_false_pass": 68,
+   "decision:D-postscript-case+D-postscript-position": 3
+  },
+  "detectable_content:postscript|skyrl": {
+   "extraction_failure": 8,
+   "decision:D-postscript-position": 63,
+   "any_decision": 123,
+   "defect_false_pass": 198,
+   "decision:D-postscript-case": 57,
+   "defect_false_fail": 1,
+   "decision:D-postscript-case+D-postscript-position": 3
+  },
+  "detectable_format:bigram_wrapping|skyrl": {
+   "defect_false_pass": 184,
+   "decision:D-word-cjk": 1,
+   "any_decision": 1
+  },
+  "detectable_format:constrained_response|gate": {
+   "decision:D-constrained-extra": 75,
+   "any_decision": 75
+  },
+  "detectable_format:constrained_response|skyrl": {
+   "defect_false_pass": 3
+  },
+  "detectable_format:multiple_sections|gate": {
+   "defect_false_pass": 36,
+   "decision:D-sections-preamble": 6,
+   "any_decision": 7,
+   "defect_false_fail": 4,
+   "decision:D-section-case": 1
+  },
+  "detectable_format:multiple_sections|skyrl": {
+   "extraction_failure": 6,
+   "defect_false_pass": 66,
+   "decision:D-sections-preamble": 6,
+   "any_decision": 28,
+   "decision:D-section-case": 22,
+   "defect_false_fail": 2
+  },
+  "detectable_format:number_bullet_lists|skyrl": {
+   "defect_false_fail": 18,
+   "defect_false_pass": 3
+  },
+  "detectable_format:number_highlighted_sections|gate": {
+   "extraction_failure": 2,
+   "defect_false_pass": 5
+  },
+  "detectable_format:number_highlighted_sections|skyrl": {
+   "extraction_failure": 2,
+   "defect_false_pass": 6,
+   "defect_false_fail": 1
+  },
+  "detectable_format:sentence_hyphens|gate": {
+   "decision:D-hyphens-single": 774,
+   "decision:D-hyphens-spaces": 738,
+   "any_decision": 778,
+   "decision:D-sentence-split": 2
+  },
+  "detectable_format:sentence_hyphens|skyrl": {
+   "decision:D-hyphens-single": 765,
+   "decision:D-hyphens-spaces": 524,
+   "any_decision": 767,
+   "defect_false_fail": 5
+  },
+  "detectable_format:square_brackets|gate": {
+   "extraction_failure": 8,
+   "decision:D-brackets-each": 169,
+   "any_decision": 169,
+   "defect_false_pass": 655,
+   "defect_false_fail": 2
+  },
+  "detectable_format:square_brackets|skyrl": {
+   "defect_false_pass": 12,
+   "decision:D-brackets-each": 21,
+   "any_decision": 32,
+   "defect_false_fail": 44,
+   "decision:D-word-units": 6,
+   "decision:D-word-cjk": 5
+  },
+  "detectable_format:title|gate": {
+   "extraction_failure": 9,
+   "defect_false_fail": 2
+  },
+  "detectable_format:title|skyrl": {
+   "extraction_failure": 9,
+   "defect_false_fail": 2
+  },
+  "first_word:first_word_answer|gate": {
+   "defect_false_fail": 1,
+   "defect_false_pass": 5,
+   "decision:D-word-units": 1,
+   "any_decision": 1
+  },
+  "first_word:first_word_answer|skyrl": {
+   "decision:D-word-case": 62,
+   "any_decision": 62,
+   "defect_false_fail": 74
+  },
+  "first_word:first_word_sent|gate": {
+   "decision:D-sentence-split": 15,
+   "any_decision": 22,
+   "defect_false_pass": 13,
+   "decision:D-word-case": 6,
+   "defect_false_fail": 3,
+   "decision:D-word-units": 1
+  },
+  "first_word:first_word_sent|skyrl": {
+   "decision:D-word-case": 41,
+   "any_decision": 52,
+   "decision:D-sentence-split": 11,
+   "defect_false_fail": 64,
+   "defect_false_pass": 2
+  },
+  "keywords:existence|gate": {
+   "extraction_failure": 4,
+   "decision:D-word-units": 59,
+   "decision:D-keyword-inflection": 11,
+   "any_decision": 59,
+   "defect_false_fail": 1
+  },
+  "keywords:existence|skyrl": {
+   "extraction_failure": 4,
+   "decision:D-keyword-inflection": 43,
+   "any_decision": 91,
+   "decision:D-word-units": 59,
+   "defect_false_pass": 33
+  },
+  "keywords:forbidden_words|gate": {
+   "decision:D-word-units": 3,
+   "any_decision": 3,
+   "defect_false_pass": 1
+  },
+  "keywords:forbidden_words|skyrl": {
+   "decision:D-word-units": 3,
+   "any_decision": 3,
+   "defect_false_pass": 1
+  },
+  "keywords:frequency|gate": {
+   "extraction_failure": 3,
+   "decision:D-word-units": 15,
+   "any_decision": 15,
+   "decision:D-keyword-inflection": 3
+  },
+  "keywords:frequency|skyrl": {
+   "extraction_failure": 3,
+   "decision:D-keyword-inflection": 19,
+   "any_decision": 31,
+   "decision:D-word-units": 15,
+   "defect_false_fail": 16,
+   "defect_false_pass": 13
+  },
+  "keywords:keyword_specific_position|gate": {
+   "decision:D-word-case": 1,
+   "decision:D-sentence-split": 8,
+   "any_decision": 8,
+   "defect_false_fail": 5,
+   "defect_false_pass": 5,
+   "decision:D-word-units": 1
+  },
+  "keywords:keyword_specific_position|skyrl": {
+   "decision:D-word-case": 3,
+   "decision:D-sentence-split": 7,
+   "any_decision": 13,
+   "decision:D-word-units": 5,
+   "defect_false_fail": 8,
+   "defect_false_pass": 3
+  },
+  "keywords:letter_frequency|gate": {
+   "extraction_failure": 6
+  },
+  "keywords:letter_frequency|skyrl": {
+   "extraction_failure": 6
+  },
+  "keywords:no_adjacent_consecutive|gate": {
+   "defect_false_pass": 818,
+   "decision:D-consecutive-script": 33,
+   "any_decision": 86,
+   "decision:D-word-cjk": 8,
+   "decision:D-word-cjk+D-consecutive-script": 3,
+   "decision:D-consecutive-order": 40,
+   "decision:D-word-units+D-consecutive-script": 2,
+   "defect_false_fail": 18,
+   "decision:D-word-units": 2
+  },
+  "keywords:no_adjacent_consecutive|skyrl": {
+   "defect_false_pass": 65,
+   "decision:D-consecutive-script": 109,
+   "any_decision": 154,
+   "decision:D-consecutive-order": 45,
+   "defect_false_fail": 2
+  },
+  "keywords:palindrome|gate": {
+   "extraction_failure": 4,
+   "decision:D-palindrome-unit": 9,
+   "decision:D-palindrome-length": 7,
+   "any_decision": 13,
+   "defect_false_fail": 137,
+   "decision:D-word-cjk": 6,
+   "decision:D-word-units": 1
+  },
+  "keywords:palindrome|skyrl": {
+   "extraction_failure": 4,
+   "decision:D-palindrome-unit": 202,
+   "decision:D-palindrome-length": 210,
+   "any_decision": 221,
+   "decision:D-word-units": 12,
+   "defect_false_fail": 34,
+   "decision:D-word-cjk": 3,
+   "decision:D-word-cjk+D-palindrome-length": 1
+  },
+  "keywords:start_end|gate": {
+   "extraction_failure": 1,
+   "defect_false_pass": 55,
+   "decision:D-word-cjk": 15,
+   "decision:D-start-end-single": 13,
+   "any_decision": 21,
+   "defect_false_fail": 7,
+   "decision:D-word-case": 1
+  },
+  "keywords:start_end|skyrl": {
+   "extraction_failure": 1,
+   "defect_false_pass": 4,
+   "decision:D-start-end-single": 42,
+   "any_decision": 45,
+   "defect_false_fail": 5,
+   "decision:D-word-cjk": 12,
+   "decision:D-word-units": 4,
+   "decision:D-word-case": 1
+  },
+  "keywords:word_count_different_numbers|gate": {
+   "extraction_failure": 2,
+   "decision:D-word-case": 42,
+   "decision:D-word-count-exact": 150,
+   "any_decision": 213,
+   "decision:D-keyword-inflection": 16,
+   "defect_false_pass": 159,
+   "decision:D-word-units": 14,
+   "decision:D-keyword-inflection+D-word-count-exact": 5,
+   "defect_false_fail": 120,
+   "decision:D-word-units+D-word-count-exact": 4
+  },
+  "keywords:word_count_different_numbers|skyrl": {
+   "extraction_failure": 2,
+   "decision:D-word-case": 42,
+   "decision:D-word-count-exact": 150,
+   "any_decision": 211,
+   "decision:D-keyword-inflection": 14,
+   "defect_false_pass": 162,
+   "decision:D-word-units": 14,
+   "defect_false_fail": 121,
+   "decision:D-keyword-inflection+D-word-count-exact": 5,
+   "decision:D-word-units+D-word-count-exact": 4
+  },
+  "keywords:word_once|gate": {
+   "defect_false_fail": 766,
+   "decision:D-word-case": 87,
+   "any_decision": 100,
+   "decision:D-word-units": 13,
+   "decision:D-keyword-inflection": 4,
+   "defect_false_pass": 1
+  },
+  "keywords:word_once|skyrl": {
+   "defect_false_fail": 803,
+   "decision:D-word-case": 92,
+   "any_decision": 117,
+   "decision:D-keyword-inflection": 15,
+   "decision:D-word-units+D-keyword-inflection": 1,
+   "defect_false_pass": 23,
+   "decision:D-word-units": 12
+  },
+  "language:response_language|skyrl": {
+   "extraction_failure": 2,
+   "defect_false_pass": 2
+  },
+  "last_word:last_word_answer|gate": {
+   "defect_false_pass": 14,
+   "defect_false_fail": 2
+  },
+  "last_word:last_word_answer|skyrl": {
+   "decision:D-word-case": 5,
+   "any_decision": 5,
+   "defect_false_fail": 63
+  },
+  "last_word:last_word_sent|gate": {
+   "defect_false_pass": 46,
+   "decision:D-sentence-split": 38,
+   "any_decision": 38,
+   "defect_false_fail": 7
+  },
+  "last_word:last_word_sent|skyrl": {
+   "defect_false_fail": 33,
+   "decision:D-sentence-split": 31,
+   "any_decision": 31,
+   "defect_false_pass": 12
+  },
+  "length_constraints:nth_paragraph_first_word|gate": {
+   "defect_false_pass": 4
+  },
+  "length_constraints:nth_paragraph_first_word|skyrl": {
+   "decision:D-paragraph-blank-lines": 1,
+   "any_decision": 2,
+   "defect_false_fail": 4,
+   "defect_false_pass": 14,
+   "decision:D-word-case": 1
+  },
+  "length_constraints:number_paragraphs|gate": {
+   "decision:D-divider-blank-lines": 253,
+   "any_decision": 265,
+   "defect_false_fail": 201,
+   "defect_false_pass": 26,
+   "decision:D-divider-edges": 12,
+   "decision:D-divider-form": 2
+  },
+  "length_constraints:number_paragraphs|skyrl": {
+   "decision:D-divider-blank-lines": 50,
+   "any_decision": 159,
+   "defect_false_fail": 8,
+   "decision:D-divider-edges": 108,
+   "defect_false_pass": 22,
+   "decision:D-divider-form": 1
+  },
+  "length_constraints:number_sentences|gate": {
+   "extraction_failure": 4,
+   "defect_false_fail": 71,
+   "decision:D-sentence-split": 70,
+   "any_decision": 70,
+   "defect_false_pass": 19
+  },
+  "length_constraints:number_sentences|skyrl": {
+   "extraction_failure": 4,
+   "defect_false_fail": 59,
+   "decision:D-sentence-split": 71,
+   "any_decision": 71,
+   "defect_false_pass": 15
+  },
+  "length_constraints:number_words|gate": {
+   "extraction_failure": 5,
+   "defect_false_pass": 7,
+   "defect_false_fail": 56,
+   "decision:D-word-units": 7,
+   "any_decision": 7
+  },
+  "length_constraints:number_words|skyrl": {
+   "extraction_failure": 5,
+   "defect_false_fail": 6,
+   "defect_false_pass": 2,
+   "decision:D-word-units": 17,
+   "any_decision": 17,
+   "decision:D-word-cjk": 1
+  },
+  "letters:letter_counting|skyrl": {
+   "extraction_failure": 5,
+   "decision:D-empty-response": 1,
+   "any_decision": 97,
+   "decision:D-letter-script": 96
+  },
+  "letters:letter_counting2|gate": {
+   "extraction_failure": 9,
+   "defect_false_pass": 1
+  },
+  "letters:letter_counting2|skyrl": {
+   "extraction_failure": 9,
+   "defect_false_pass": 1
+  },
+  "paragraphs:paragraphs|gate": {
+   "extraction_failure": 5,
+   "decision:D-divider-edges+D-divider-blank-lines": 13,
+   "any_decision": 147,
+   "decision:D-divider-blank-lines": 91,
+   "defect_false_pass": 132,
+   "decision:D-divider-edges": 40,
+   "decision:D-divider-form": 3
+  },
+  "paragraphs:paragraphs|skyrl": {
+   "defect_false_pass": 54,
+   "decision:D-divider-edges": 32,
+   "any_decision": 78,
+   "decision:D-divider-blank-lines": 45,
+   "defect_false_fail": 3,
+   "decision:D-divider-form": 1
+  },
+  "paragraphs:paragraphs2|gate": {
+   "extraction_failure": 5,
+   "defect_false_pass": 435,
+   "decision:D-paragraph-blank-lines": 2,
+   "any_decision": 2
+  },
+  "paragraphs:paragraphs2|skyrl": {
+   "decision:D-paragraph-blank-lines": 5,
+   "any_decision": 5
+  },
+  "punctuation:no_comma|gate": {
+   "decision:D-comma-chars": 27,
+   "any_decision": 27
+  },
+  "punctuation:no_comma|skyrl": {
+   "decision:D-comma-chars": 27,
+   "any_decision": 27
+  },
+  "punctuation:punctuation_dot|gate": {
+   "decision:D-dot-chars": 55,
+   "any_decision": 55
+  },
+  "punctuation:punctuation_dot|skyrl": {
+   "decision:D-dot-chars": 55,
+   "any_decision": 55
+  },
+  "punctuation:punctuation_exclamation|gate": {
+   "decision:D-exclamation-chars": 9,
+   "any_decision": 9
+  },
+  "punctuation:punctuation_exclamation|skyrl": {
+   "decision:D-exclamation-chars": 9,
+   "any_decision": 9
+  },
+  "startend:end_checker|gate": {
+   "decision:D-end-markup": 30,
+   "any_decision": 30,
+   "defect_false_pass": 3
+  },
+  "startend:end_checker|skyrl": {
+   "decision:D-end-case": 162,
+   "any_decision": 164,
+   "decision:D-end-markup": 2,
+   "defect_false_pass": 3
+  },
+  "startend:quotation|skyrl": {
+   "decision:D-quote-chars": 1,
+   "any_decision": 1
+  }
+ },
+ "defect_examples": {
+  "keywords:no_adjacent_consecutive|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 4,
+    "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 69,
+    "uuid": "d6f911b8-c1d8-4377-b8d0-b9a2d345cd18"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 82,
+    "uuid": "49564352-d039-451a-9c21-b074c9535da1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 97,
+    "uuid": "ece0fc28-0e01-47b2-88d1-991e62e20d70"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 110,
+    "uuid": "eb3d32dc-6cb3-4d3b-af9e-ca0b75cb73dc"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 118,
+    "uuid": "f4f1dc47-c2e9-4591-a190-6d6056cfc4fb"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 143,
+    "uuid": "58e3b2cc-b086-462e-a312-8bfd2b2bea0d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 156,
+    "uuid": "0dc78a49-dc51-403a-90e3-d8f6e18f5315"
+   }
+  ],
+  "detectable_content:postscript|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 25,
+    "uuid": "7535f677-d050-4e86-b571-7920914caeb3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 257,
+    "uuid": "dcd329f4-458a-4d81-95a7-5060b1757164"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 680,
+    "uuid": "1c0e8d8c-dc25-4572-8e0d-4905940a2662"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1451,
+    "uuid": "1f6357b4-356b-4497-a65e-b2e524d2899f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3534,
+    "uuid": "41d09245-a264-411e-b392-ba8a4a823806"
+   }
+  ],
+  "count:lowercase_counting|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 29,
+    "uuid": "92cdb4bb-2875-4e33-9825-99f3c2c5b9b3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 38,
+    "uuid": "8083226c-4c9d-4371-9984-6b2dd88a5665"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 57,
+    "uuid": "8fde66b4-2f99-43d5-b583-0aae32df714e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 70,
+    "uuid": "5fc4e756-aee0-4330-87d4-7019c98f1b51"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 80,
+    "uuid": "889f25d4-3fa8-4fe2-a7f4-82a6cf5d84e4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 88,
+    "uuid": "bc0e5be4-e423-4036-9468-8e47ec91ae25"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 125,
+    "uuid": "876de840-1e34-4e8b-9893-a6c610e612d6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 130,
+    "uuid": "4bd3f6ee-2b9f-41de-b92e-e4479ea277d4"
+   }
+  ],
+  "count:count_unique|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 33,
+    "uuid": "49ce5e31-b492-4e61-bea4-cd5b10e23fb5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1764,
+    "uuid": "9f4f25e3-19b5-4cab-81c9-a559d75f139b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2016,
+    "uuid": "f8266e79-3a96-47b9-80d9-f6c0bb77a500"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2343,
+    "uuid": "6981902a-e3e3-4f4f-9b96-392413cc4bf5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3668,
+    "uuid": "0d336a0e-20b2-4f38-9d13-bc17938fa9d0"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 21,
+    "uuid": "a4326121-d5cc-4bcd-930f-89bf1d840aba"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 344,
+    "uuid": "5f9384b7-6c9a-4105-b1b9-2c4a9a77bd21"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 398,
+    "uuid": "354be683-1dfe-4469-b75e-7d34fc8f7d1b"
+   }
+  ],
+  "change_case:english_capital|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 35,
+    "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 158,
+    "uuid": "ce0ac48d-7632-4796-ac47-a8eb0e63245f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 200,
+    "uuid": "9e3b504c-b6ad-4025-8e9c-e4047030f4a4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1111,
+    "uuid": "c9c2ece2-95b4-48f1-93c6-8e486d17b9e3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1827,
+    "uuid": "1f7885a9-d82c-42db-9ed6-661ca3347430"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1886,
+    "uuid": "4ba0ca47-0766-4094-ac26-fb597f633d6a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2213,
+    "uuid": "418b4e9e-bdef-4951-97eb-3ae51baf80ac"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2425,
+    "uuid": "393749bf-5c16-4dc7-8fb7-1693905a6ac6"
+   }
+  ],
+  "keywords:start_end|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 37,
+    "uuid": "75370b4c-986f-4aaa-9624-67662f3989ae"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1881,
+    "uuid": "3f742a0c-2184-4e88-b735-58a0fd9b9a08"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 53,
+    "uuid": "a8da27e4-f1bb-440e-9bfb-cdd0bf55fb1f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2939,
+    "uuid": "b68b2ed1-5859-4fca-be56-afce95a381f3"
+   }
+  ],
+  "detectable_format:square_brackets|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 41,
+    "uuid": "52e1effe-7e5d-4256-8ee8-dcf28517b600"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 94,
+    "uuid": "f7833631-ae1c-44ed-92a8-c056756bb996"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 97,
+    "uuid": "ece0fc28-0e01-47b2-88d1-991e62e20d70"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 141,
+    "uuid": "352400a5-ad36-4423-82e2-56201a0f2bd1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 142,
+    "uuid": "6cbcb3d7-b31b-4e8a-91ac-ab85b180e92e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 163,
+    "uuid": "4437cc09-0f05-40a0-ac03-f09bd2709cf7"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 173,
+    "uuid": "114cfe16-ea8d-4c0e-b1e7-0351fb22aee1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 179,
+    "uuid": "51cae258-4265-4a02-97dc-a4ac707a20be"
+   }
+  ],
+  "keywords:word_once|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 42,
+    "uuid": "514d97c3-db31-4b01-944e-c181a1ba4e7e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 106,
+    "uuid": "a619a370-b0f9-41bd-bcec-a85da5d43993"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 156,
+    "uuid": "0dc78a49-dc51-403a-90e3-d8f6e18f5315"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 194,
+    "uuid": "62817dff-0953-4369-9b57-33dfc3d5f6c1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 195,
+    "uuid": "0c4a4ae6-06ac-4ef0-9fae-1c7662968d68"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 231,
+    "uuid": "dd33aaa0-5546-42e7-a4dc-7dd4d262b9ef"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 238,
+    "uuid": "44c942d0-0da6-4cee-8eba-8ec55e1ca3f9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 383,
+    "uuid": "37eea7d7-7d65-467b-ae3b-fbd653063e09"
+   }
+  ],
+  "keywords:word_once|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 42,
+    "uuid": "514d97c3-db31-4b01-944e-c181a1ba4e7e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 106,
+    "uuid": "a619a370-b0f9-41bd-bcec-a85da5d43993"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 156,
+    "uuid": "0dc78a49-dc51-403a-90e3-d8f6e18f5315"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 194,
+    "uuid": "62817dff-0953-4369-9b57-33dfc3d5f6c1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 195,
+    "uuid": "0c4a4ae6-06ac-4ef0-9fae-1c7662968d68"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 238,
+    "uuid": "44c942d0-0da6-4cee-8eba-8ec55e1ca3f9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 383,
+    "uuid": "37eea7d7-7d65-467b-ae3b-fbd653063e09"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 410,
+    "uuid": "a6e09c36-b6cb-419a-a0c3-254ea8792d46"
+   }
+  ],
+  "paragraphs:paragraphs2|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 44,
+    "uuid": "7ea7992d-a3cb-40b1-a7db-028a6bf92e0b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 90,
+    "uuid": "5c03438d-d0e9-4c49-97dd-1811f52ed75a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 105,
+    "uuid": "21d15f1a-4697-46e1-bb14-bebced01995a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 112,
+    "uuid": "5ee015a5-9aa4-433f-9a0b-32e8dfb47ffa"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 133,
+    "uuid": "4f682710-080b-4eb7-ab48-c57821302430"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 150,
+    "uuid": "e93ba612-5aba-4819-b0c7-7baa7cfaafff"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 171,
+    "uuid": "c752bdbf-36ed-495b-a4a9-741186c498d8"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 226,
+    "uuid": "f6aabae4-ed0c-49dd-9ae6-bc75e2216eba"
+   }
+  ],
+  "length_constraints:number_sentences|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 56,
+    "uuid": "e3b5a43d-0c62-45cd-a666-41ef0f6d9674"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1887,
+    "uuid": "453ddbc4-2b19-4ceb-a1f0-c2cf61ef45ac"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2367,
+    "uuid": "188c67b7-0c43-4bd4-ae5b-c3cad16140dc"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2402,
+    "uuid": "c512209e-74e7-4aad-a4e2-da12fa8e7c03"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3200,
+    "uuid": "da098cd9-dcac-4161-9ec2-844098c4e63c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3376,
+    "uuid": "bd3c4d95-a94b-49d3-8415-1174cdfe2db2"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3428,
+    "uuid": "d68b9c1d-9106-47cc-bbf4-94edccafaa4c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3734,
+    "uuid": "3232f1f4-4fa4-4439-9855-177845811fe4"
+   }
+  ],
+  "length_constraints:number_sentences|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 56,
+    "uuid": "e3b5a43d-0c62-45cd-a666-41ef0f6d9674"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 294,
+    "uuid": "e4716de0-9b31-4d84-a4ce-5e6aabd5c01b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1079,
+    "uuid": "40bee56b-86cd-4e65-a9df-cbd5dc7181cf"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1270,
+    "uuid": "b3dab9d6-5ccb-43cc-9eb6-0a51c5829b12"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1657,
+    "uuid": "27266274-4a53-4e7c-ac60-05dcf110513d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1887,
+    "uuid": "453ddbc4-2b19-4ceb-a1f0-c2cf61ef45ac"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2367,
+    "uuid": "188c67b7-0c43-4bd4-ae5b-c3cad16140dc"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2402,
+    "uuid": "c512209e-74e7-4aad-a4e2-da12fa8e7c03"
+   }
+  ],
+  "length_constraints:number_paragraphs|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 74,
+    "uuid": "ee9a5f39-cbe1-4586-b07a-186306699326"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1992,
+    "uuid": "0143989e-97db-423b-9ac9-af35b97069f1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2044,
+    "uuid": "4af9ab7a-a446-42c9-8ac4-786151022f6a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 134,
+    "uuid": "403c4945-674d-4ba9-a07a-c22a038e0a61"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 222,
+    "uuid": "f6969833-d1fd-4037-8b4a-7c4245b7c1a4"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1993,
+    "uuid": "0143989e-97db-423b-9ac9-af35b97069f1"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3002,
+    "uuid": "e4378d08-0e99-4d38-aeed-978b824129fb"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 280,
+    "uuid": "be2a2263-7263-443e-a1cf-679019cec149"
+   }
+  ],
+  "last_word:last_word_answer|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 95,
+    "uuid": "73c67c3d-d646-495a-b555-128a54598bc0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 432,
+    "uuid": "07530869-db63-4333-827a-6c6350295ce3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 972,
+    "uuid": "0480f31d-62cb-4a4d-909d-29fce0a2f9b9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1632,
+    "uuid": "c01bd262-2b17-4ca2-98c3-e37bb3ba716a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1691,
+    "uuid": "a2a19a9a-f63e-4530-a1d1-9b44fdcc5352"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2397,
+    "uuid": "ba02866b-f6ce-4cf1-83fc-a69499baaba6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3441,
+    "uuid": "07569330-de2a-4943-ab01-dc26a6570ee1"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3854,
+    "uuid": "f369b767-efda-4091-854d-6ef484d808fd"
+   }
+  ],
+  "paragraphs:paragraphs|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 103,
+    "uuid": "9eb200f0-cf4f-4358-bd79-6ffa3213afdd"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1230,
+    "uuid": "e0693e5e-b019-4c1c-bd5b-cd0ddec44ef4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1377,
+    "uuid": "7e33e7e5-7fb9-4035-a3eb-1246196a93a1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3159,
+    "uuid": "68a5ede2-35a3-42d4-8ad0-3699e8f35307"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 31,
+    "uuid": "57021cd7-f80b-4484-b547-5823360839a7"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 185,
+    "uuid": "ad02e4f2-608f-4ed1-8a2e-af2afab888e7"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 280,
+    "uuid": "ed749f30-9b74-471a-954e-96bce4965643"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 282,
+    "uuid": "d57f7f5d-dc7b-461e-87dd-c72a714fa824"
+   }
+  ],
+  "paragraphs:paragraphs|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 103,
+    "uuid": "9eb200f0-cf4f-4358-bd79-6ffa3213afdd"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 127,
+    "uuid": "a57b9a56-8b33-4f42-9703-03228e3950fd"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 185,
+    "uuid": "ad02e4f2-608f-4ed1-8a2e-af2afab888e7"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 224,
+    "uuid": "f15f4454-1b14-46d7-b48e-bced0f073db2"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 390,
+    "uuid": "c41613c1-7005-4068-808c-d94506644ccc"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 484,
+    "uuid": "5731e250-f179-4e75-bfad-ab15b6e330cb"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 835,
+    "uuid": "7872be5e-f926-42fc-8929-c4090621836c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1165,
+    "uuid": "1c59465a-c302-48b7-bc1b-e68b395fbde7"
+   }
+  ],
+  "keywords:start_end|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 109,
+    "uuid": "7cbbe0a6-bb7b-4ea3-bb97-a61ea2efeee3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 180,
+    "uuid": "be8016b6-a2b3-4936-b0b6-1c22269a486b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 360,
+    "uuid": "9870c243-a41d-47b7-b4d5-d046f97c2e84"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 737,
+    "uuid": "b7a26475-c270-4f98-8257-2326f9e29bb0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 847,
+    "uuid": "eace86ff-7fec-44cf-9a01-cb4ae7dd22ce"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1293,
+    "uuid": "fe735156-8e42-476e-b3ca-1cd1d0d07884"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1472,
+    "uuid": "3dc30281-e04c-4a11-a404-c979868b73ed"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1967,
+    "uuid": "c9f84589-8de1-40f1-8ccc-10c157a66e0a"
+   }
+  ],
+  "length_constraints:number_paragraphs|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 131,
+    "uuid": "465ba198-c158-418c-b46e-4db41a4498ee"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 199,
+    "uuid": "d8643a30-6c01-4ec4-89ab-d585acd315b5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 217,
+    "uuid": "d76e98ac-bc8c-4ffd-a197-81a668e8c52d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 305,
+    "uuid": "526df889-0aab-4468-8b87-4c68275f60f6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 412,
+    "uuid": "763f9ffb-833f-448e-8f11-106636b3ead4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 463,
+    "uuid": "5ead67d2-f0ac-4ac9-8302-3d8e80ff4e79"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 483,
+    "uuid": "37935e74-a197-4852-a177-b08d51cd8e88"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 493,
+    "uuid": "f124823a-0f34-4f1f-b5ed-619ba267dbc5"
+   }
+  ],
+  "last_word:last_word_sent|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 146,
+    "uuid": "20fb1925-69b6-4212-b18b-b930e7f150e1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 609,
+    "uuid": "06fde321-5701-4209-a283-e9a92784ec90"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 669,
+    "uuid": "a18d25fb-b298-41c4-a465-0470448853e6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 869,
+    "uuid": "0b72cc70-a038-4dac-b584-c280d7646bc7"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3776,
+    "uuid": "c1888150-9b89-4e98-b246-eed7b6715b4d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 120,
+    "uuid": "44429614-c791-49ac-850a-86a760c17c26"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 146,
+    "uuid": "20fb1925-69b6-4212-b18b-b930e7f150e1"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 157,
+    "uuid": "d8d2458f-8f4b-4806-af31-db996c57d80e"
+   }
+  ],
+  "detectable_content:postscript|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 155,
+    "uuid": "2c15c87f-9b21-4dd3-bc98-2f3cf217d469"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 179,
+    "uuid": "51cae258-4265-4a02-97dc-a4ac707a20be"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 232,
+    "uuid": "9630e7ec-5c7d-451b-be42-d7dbfbf520f4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 249,
+    "uuid": "8e4973f4-a08b-4bf6-8ed8-0b9c883b3de6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 258,
+    "uuid": "32ccfb13-42fc-49de-b234-9e65481b86a0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 635,
+    "uuid": "9786c1e5-442b-401e-b781-963f9ec24f7e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 825,
+    "uuid": "8337c374-1493-4fbc-8458-466bd7ae25e4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 922,
+    "uuid": "e124f0ef-71c8-4564-ba27-5e8fa54ebfda"
+   }
+  ],
+  "copy:repeat_phrase|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 167,
+    "uuid": "f94f3869-b4f1-49f2-8eb7-c3889b1957c7"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 196,
+    "uuid": "1eb0c2f5-fba2-4362-ac33-01b072a26716"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 221,
+    "uuid": "c64cae90-be5f-4642-8b72-8e2e2fac99f6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 236,
+    "uuid": "0c94fb02-a07d-40cf-8dc3-9beb890e4fc3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 280,
+    "uuid": "ed749f30-9b74-471a-954e-96bce4965643"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 394,
+    "uuid": "0b444047-4a6a-40e3-809b-f8cfd4c86bc1"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 518,
+    "uuid": "e73e895f-dd0f-4782-9b79-f4e1d4df61eb"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 598,
+    "uuid": "176a40cf-4e27-4973-ac3b-f46906fc355e"
+   }
+  ],
+  "keywords:palindrome|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 168,
+    "uuid": "62a30a3c-438d-4dde-8f0a-a5f23be91817"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 440,
+    "uuid": "e8762bf2-238e-4731-88ef-d21cb3dd2998"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 598,
+    "uuid": "176a40cf-4e27-4973-ac3b-f46906fc355e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 765,
+    "uuid": "16ea1cff-214d-42a2-9d99-57cca198863f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 768,
+    "uuid": "2cf6c1b2-9bb3-40c1-8cd9-0b36b6645abe"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 884,
+    "uuid": "03166b00-44de-478d-bf21-2f7c6f5fbb52"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 917,
+    "uuid": "73582d93-3657-4efb-98bc-6ac1e4fa4a96"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1034,
+    "uuid": "e4378d08-0e99-4d38-aeed-978b824129fb"
+   }
+  ],
+  "detectable_format:constrained_response|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 204,
+    "uuid": "d72de55d-7e1e-4d0b-9352-e5ccf95d58a0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 860,
+    "uuid": "473a7819-cfd2-48d2-a0a5-89c2e8a76d1e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1065,
+    "uuid": "26da2a7b-b2ba-446d-a30d-06e83781787a"
+   }
+  ],
+  "detectable_format:multiple_sections|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 242,
+    "uuid": "240bba3a-36bb-499d-ab58-ce9469859726"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 472,
+    "uuid": "894b1e35-8115-44e6-8c2f-609df8308a55"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 498,
+    "uuid": "44ff9296-99fa-4045-b698-566eee84519c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 514,
+    "uuid": "844aa397-673c-41f9-968a-78754fbec453"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 550,
+    "uuid": "8d92d656-1141-4130-99cb-de0bc8b552ca"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 702,
+    "uuid": "e0e9584a-a4bf-4ac3-abf1-5777a7e0c532"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 781,
+    "uuid": "d1d24350-f2da-4eab-a43b-88d46794aaad"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 825,
+    "uuid": "8337c374-1493-4fbc-8458-466bd7ae25e4"
+   }
+  ],
+  "detectable_format:number_highlighted_sections|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 270,
+    "uuid": "f75e4c6d-b6a5-4a6b-b288-aae96a4e6c29"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 468,
+    "uuid": "33e66757-edc5-4c85-96d2-b908e343a79a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 835,
+    "uuid": "7872be5e-f926-42fc-8929-c4090621836c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1486,
+    "uuid": "1b47a522-d4f5-42f1-86f1-4edc41f98d53"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8548,
+    "uuid": "ec43f721-beeb-47c3-8fe5-dff3ec336fd7"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 366,
+    "uuid": "cfc0f646-bab5-416b-a104-486fa43cabe1"
+   }
+  ],
+  "detectable_format:number_highlighted_sections|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 270,
+    "uuid": "f75e4c6d-b6a5-4a6b-b288-aae96a4e6c29"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 835,
+    "uuid": "7872be5e-f926-42fc-8929-c4090621836c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1486,
+    "uuid": "1b47a522-d4f5-42f1-86f1-4edc41f98d53"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8548,
+    "uuid": "ec43f721-beeb-47c3-8fe5-dff3ec336fd7"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 366,
+    "uuid": "cfc0f646-bab5-416b-a104-486fa43cabe1"
+   }
+  ],
+  "keywords:word_count_different_numbers|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 316,
+    "uuid": "f1ad24e3-51e8-4397-8ec8-afb9103d6c6a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 497,
+    "uuid": "dc0696af-5a3a-4dd0-a4fa-3bde1413f7df"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 582,
+    "uuid": "97962729-9689-4131-ab60-0a5f43188dd9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 796,
+    "uuid": "7da27a58-e33c-4e5d-bb71-597ef12e09ab"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 878,
+    "uuid": "e745d709-f480-4a37-8f66-c096088d05ed"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1388,
+    "uuid": "65a7ec80-bdeb-4663-b1aa-6acdb094b461"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1455,
+    "uuid": "5240de93-e90c-44bd-9e5f-cdcd5d2d72ff"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1474,
+    "uuid": "408023f4-4a11-46c6-8301-72b7cdc84125"
+   }
+  ],
+  "detectable_format:number_bullet_lists|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 323,
+    "uuid": "71be8f07-e91e-42d5-915f-4011a7be5201"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1079,
+    "uuid": "40bee56b-86cd-4e65-a9df-cbd5dc7181cf"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2427,
+    "uuid": "a9695107-cff2-493f-acce-1de8a77cc546"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2799,
+    "uuid": "9faffb1a-a12a-4c05-b7a0-a69b60e1c48d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 394,
+    "uuid": "53818690-edbe-4702-a25d-1efb71a8df76"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 649,
+    "uuid": "0d320305-4190-4d0c-aa4a-d28455dda924"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 394,
+    "uuid": "53818690-edbe-4702-a25d-1efb71a8df76"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 649,
+    "uuid": "0d320305-4190-4d0c-aa4a-d28455dda924"
+   }
+  ],
+  "length_constraints:number_words|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 328,
+    "uuid": "4ebd83e2-83c9-4bd6-96af-6dbfb6c00f5a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 66,
+    "uuid": "cf377daa-94ef-4a26-aa9c-55ad18863d46"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2283,
+    "uuid": "921fb1d3-9b33-4f6a-8945-d2d7005228c7"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2491,
+    "uuid": "b9029e1a-e297-4c5f-bd42-4eef06a9ccf1"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 933,
+    "uuid": "4ebd83e2-83c9-4bd6-96af-6dbfb6c00f5a"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 6925,
+    "uuid": "e462253b-cd99-435f-8a01-88616f5572b4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7936,
+    "uuid": "9b902a77-baad-4d50-8c10-6ca2281f3dd4"
+   }
+  ],
+  "keywords:word_count_different_numbers|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 329,
+    "uuid": "8940146f-c433-4dc1-93d5-24cbe335e69b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 459,
+    "uuid": "ad3ba799-bf04-4e2c-9e11-43a1c0f6f354"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 582,
+    "uuid": "97962729-9689-4131-ab60-0a5f43188dd9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 796,
+    "uuid": "7da27a58-e33c-4e5d-bb71-597ef12e09ab"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 878,
+    "uuid": "e745d709-f480-4a37-8f66-c096088d05ed"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1273,
+    "uuid": "55d015f2-da13-4981-8dd8-e21f61a80dc0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1388,
+    "uuid": "65a7ec80-bdeb-4663-b1aa-6acdb094b461"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1455,
+    "uuid": "5240de93-e90c-44bd-9e5f-cdcd5d2d72ff"
+   }
+  ],
+  "keywords:no_adjacent_consecutive|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 338,
+    "uuid": "48c3bbde-4134-4096-8eea-69c360a02c4b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 465,
+    "uuid": "7c4e490f-8701-40f9-8568-f91d1cdd1897"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 778,
+    "uuid": "be50cdee-be18-4bc3-8e69-9c38659b63f6"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2371,
+    "uuid": "f30ec232-1d7d-4ad4-bb36-acdc3e6f6915"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2630,
+    "uuid": "9f459577-4f65-43ce-ac9b-93d055248bdd"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2800,
+    "uuid": "b55f54df-8758-471c-b94c-1f5fe9d8d5ed"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3707,
+    "uuid": "6622f4d2-abb9-42c9-903c-3dd38aa78f74"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 465,
+    "uuid": "7c4e490f-8701-40f9-8568-f91d1cdd1897"
+   }
+  ],
+  "count:lowercase_counting|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 358,
+    "uuid": "e5b019d4-d12c-41fa-8cf1-2e776baf0015"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 360,
+    "uuid": "9870c243-a41d-47b7-b4d5-d046f97c2e84"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 935,
+    "uuid": "0dffc92d-c51e-43c4-b86f-61ab390307ca"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1130,
+    "uuid": "8520acbb-e6f8-45bf-9672-c1d22ce07158"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1255,
+    "uuid": "4321bcb7-8a1a-43dd-94f9-4ba52c2c68ad"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1275,
+    "uuid": "79788272-b34b-4e63-9eb6-5c13b8c2c718"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1472,
+    "uuid": "3dc30281-e04c-4a11-a404-c979868b73ed"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2175,
+    "uuid": "1bd6e43b-ac1d-4639-ab8f-752040f2c18d"
+   }
+  ],
+  "length_constraints:number_paragraphs|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 359,
+    "uuid": "eee50e3e-2757-4c12-9d80-9bdfb13baaa5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1881,
+    "uuid": "3f742a0c-2184-4e88-b735-58a0fd9b9a08"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3033,
+    "uuid": "400002d3-ee32-4827-97a7-be9a64e00a25"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3317,
+    "uuid": "c2bdbb23-2b6c-4eb3-b170-a70019540b45"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 483,
+    "uuid": "37935e74-a197-4852-a177-b08d51cd8e88"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 729,
+    "uuid": "a9987425-2e1e-46a9-8f28-ba009de94629"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 787,
+    "uuid": "693cff12-aab9-4ab2-99f1-ae8c96890d71"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1368,
+    "uuid": "be0d075e-6e63-4b18-ab9c-f39a91a8b1af"
+   }
+  ],
+  "detectable_format:square_brackets|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 364,
+    "uuid": "db7cec2c-97d9-4a65-b79e-815ea6ca6292"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 187,
+    "uuid": "3cf386d2-a00c-4f8e-9cf1-3757aa6c064c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 345,
+    "uuid": "d91346cd-5109-4ba2-b405-bae1e29bf674"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 475,
+    "uuid": "e323a27d-c4aa-4fcc-bc50-97dbea5cfc72"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 872,
+    "uuid": "1613dd5d-b358-48c5-9214-7aea54514324"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 881,
+    "uuid": "7ea9ad93-d0c0-48ae-9775-49325b931354"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 928,
+    "uuid": "76054737-a139-450f-ab01-45c36fa3deb0"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1162,
+    "uuid": "97496a5c-661f-42e6-bc50-5993ff058682"
+   }
+  ],
+  "change_case:english_lowercase|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 378,
+    "uuid": "d396cbee-c01c-416c-abb1-ed126f9e1f4e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 866,
+    "uuid": "9a66316d-eb5e-4abb-acc3-e0412cee40e5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 924,
+    "uuid": "e0fd95c7-1286-4fef-9636-68e84c9361b0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1174,
+    "uuid": "2af81d89-6a55-4116-b611-5ad29609df89"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1288,
+    "uuid": "2208c963-18ee-4c0c-9d65-a3c2883a18b5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1442,
+    "uuid": "13b31625-bbb8-4766-bf98-0e0fbb93b05f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1821,
+    "uuid": "2a22e7a2-6a51-4941-9258-7499c4e53542"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2092,
+    "uuid": "7b880363-6d22-4479-8fbd-a018e7c04bd0"
+   }
+  ],
+  "keywords:existence|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 429,
+    "uuid": "296549ab-7104-4535-806e-dbeffa0e50d5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1369,
+    "uuid": "14523e05-415d-4832-99f8-35ee5b50539a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1470,
+    "uuid": "534c23e3-8726-4388-ab78-63eeb03c0ad5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1698,
+    "uuid": "aaeee4f0-ff43-408d-89e8-24f0e6d32a0f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1846,
+    "uuid": "f5c98bf7-f90b-4baf-9aa7-1734a187ee99"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2016,
+    "uuid": "f8266e79-3a96-47b9-80d9-f6c0bb77a500"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2120,
+    "uuid": "335b4657-9bec-4f6e-8393-b70c7d5a14cc"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2675,
+    "uuid": "06585aa6-dbcd-456b-a4b4-663af3ebe0e4"
+   }
+  ],
+  "combination:two_responses|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 474,
+    "uuid": "23c6a36f-5d54-46aa-942f-a3f09f3edffd"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1785,
+    "uuid": "816ff9bf-9268-4e46-9484-44df07af757d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1853,
+    "uuid": "b5845b89-5b58-44e9-a703-41c0ebab6c43"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2039,
+    "uuid": "9743d343-fb01-4d95-bec5-4803c3ab510e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2418,
+    "uuid": "c79062d1-a533-4a8f-8263-28b501c180d3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2743,
+    "uuid": "8ef07437-6550-4e97-a808-47ebfade6aa9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3112,
+    "uuid": "bcba4a07-b03d-4ccb-a990-1788211e53d9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3295,
+    "uuid": "06bf65ef-c17e-4dfc-b356-16b640af9796"
+   }
+  ],
+  "combination:two_responses|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 474,
+    "uuid": "23c6a36f-5d54-46aa-942f-a3f09f3edffd"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1785,
+    "uuid": "816ff9bf-9268-4e46-9484-44df07af757d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1853,
+    "uuid": "b5845b89-5b58-44e9-a703-41c0ebab6c43"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2039,
+    "uuid": "9743d343-fb01-4d95-bec5-4803c3ab510e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2418,
+    "uuid": "c79062d1-a533-4a8f-8263-28b501c180d3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2743,
+    "uuid": "8ef07437-6550-4e97-a808-47ebfade6aa9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3112,
+    "uuid": "bcba4a07-b03d-4ccb-a990-1788211e53d9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3295,
+    "uuid": "06bf65ef-c17e-4dfc-b356-16b640af9796"
+   }
+  ],
+  "detectable_format:multiple_sections|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 550,
+    "uuid": "8d92d656-1141-4130-99cb-de0bc8b552ca"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 645,
+    "uuid": "3a8ad227-987b-4810-95bc-1d60c7d131fa"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 781,
+    "uuid": "d1d24350-f2da-4eab-a43b-88d46794aaad"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 825,
+    "uuid": "8337c374-1493-4fbc-8458-466bd7ae25e4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1059,
+    "uuid": "4ee27f92-cfb5-4f48-be6b-a014ef13cf9f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1196,
+    "uuid": "8dabfe64-f82b-4ccf-a9f1-7c4bac5ecb42"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2150,
+    "uuid": "36514887-7030-4a3c-873c-16e218cf73e3"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2725,
+    "uuid": "64cfd543-bc7b-4a7c-925b-f02ffcf38013"
+   }
+  ],
+  "length_constraints:number_words|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 671,
+    "uuid": "c5a78306-c675-4829-b942-a36ed294fc5b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1613,
+    "uuid": "4e706ab6-ca74-4a05-b8c7-a7064e34378f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1627,
+    "uuid": "eb02a824-3198-4ddb-b15e-178688f0f10e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1790,
+    "uuid": "55b6dd15-08db-446e-88ec-e6382a989dd5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2673,
+    "uuid": "c0acb4e7-d211-41c0-b039-883723fcdf2c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 671,
+    "uuid": "c5a78306-c675-4829-b942-a36ed294fc5b"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1577,
+    "uuid": "f16ef126-763e-4231-b4f2-fbd6a5250ba4"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2180,
+    "uuid": "33412fd2-b69c-46b7-8d0d-e613b2596326"
+   }
+  ],
+  "detectable_format:bigram_wrapping|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 720,
+    "uuid": "cd38e477-9dac-4002-8782-38090983400d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2099,
+    "uuid": "a7e186b9-d10b-4b42-977d-a04fb508478a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3245,
+    "uuid": "397e7a9f-7a7a-4388-9603-7b3e774db25c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3901,
+    "uuid": "c6f865cb-cd81-475f-8944-5fa544e54954"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 122,
+    "uuid": "5de97a97-7359-495e-b508-d691a7184f46"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 403,
+    "uuid": "8152e7ca-b23f-42ed-90fb-4f10f0d9249c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 430,
+    "uuid": "8c5c00f1-6559-48d5-87e4-02f7cd91f7f3"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 465,
+    "uuid": "7c4e490f-8701-40f9-8568-f91d1cdd1897"
+   }
+  ],
+  "language:response_language|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 721,
+    "uuid": "d4a574ec-0932-48f3-91c9-82c5f882a316"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10028,
+    "uuid": "c5b21dac-27c3-4d08-89f9-56c0adb793fb"
+   }
+  ],
+  "keywords:word_once|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 765,
+    "uuid": "16ea1cff-214d-42a2-9d99-57cca198863f"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2041,
+    "uuid": "77dffbf7-597a-4b2f-8179-d1d226ae0849"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2993,
+    "uuid": "f1332a43-0a2b-487e-9bc0-9c76d7c5edd4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3771,
+    "uuid": "9af24faf-9abc-49bc-8552-d734f78e3ad4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3945,
+    "uuid": "571839c0-4a1f-49ed-8c46-4be1fd2303d6"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 42,
+    "uuid": "514d97c3-db31-4b01-944e-c181a1ba4e7e"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 167,
+    "uuid": "f94f3869-b4f1-49f2-8eb7-c3889b1957c7"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 668,
+    "uuid": "ca54dc55-a3b8-4264-8e04-5b0293a7e28b"
+   }
+  ],
+  "copy:repeat_phrase|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 775,
+    "uuid": "730a0004-4fec-4a2a-b659-9619eacdf65a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 643,
+    "uuid": "558d77be-0db9-47ee-b0d2-537132d1d193"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1382,
+    "uuid": "cb564f05-2175-4ff3-b0a5-c64e7c91f10b"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1855,
+    "uuid": "065bce01-8452-42a3-bc12-798b2fb06aed"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2697,
+    "uuid": "3c01750e-001a-4a0a-8dd3-bd286fd09636"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3041,
+    "uuid": "e9b43b21-7dc5-46f5-bcef-cb3a52ec030b"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3500,
+    "uuid": "a5837dd0-3ee1-4b98-a1e5-bff48f073434"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 0,
+    "uuid": "a2decf98-469c-48f7-9576-ae8a52df3690"
+   }
+  ],
+  "detectable_content:postscript|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 825,
+    "uuid": "8337c374-1493-4fbc-8458-466bd7ae25e4"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 790,
+    "uuid": "d1b018ff-2305-44f2-830c-c1cc780bba71"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 922,
+    "uuid": "e124f0ef-71c8-4564-ba27-5e8fa54ebfda"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1713,
+    "uuid": "957506cb-fdca-4607-8428-7763bbb2a5bf"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1855,
+    "uuid": "065bce01-8452-42a3-bc12-798b2fb06aed"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2294,
+    "uuid": "ce31214d-42d5-4422-b48b-2cbe2f3e2aff"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2614,
+    "uuid": "0d320305-4190-4d0c-aa4a-d28455dda924"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3326,
+    "uuid": "13a3d32d-5667-42c3-8c64-2f9448e59761"
+   }
+  ],
+  "keywords:palindrome|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 965,
+    "uuid": "23c3a5d9-e176-410a-bf53-018c798102b4"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3916,
+    "uuid": "7d5dd78a-d2f3-45fd-ba29-321aaa5b11e1"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 182,
+    "uuid": "5bbb3f62-a2ce-4741-8b3f-b5dae572e8ec"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 305,
+    "uuid": "526df889-0aab-4468-8b87-4c68275f60f6"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 627,
+    "uuid": "468c962b-fa64-4f51-a755-8f7eada444ed"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1329,
+    "uuid": "7dbbef49-e73e-4b48-a836-6573f25b1615"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1644,
+    "uuid": "d59aba73-2cb3-4591-afe8-25ff087683b9"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2294,
+    "uuid": "ce31214d-42d5-4422-b48b-2cbe2f3e2aff"
+   }
+  ],
+  "count:count_unique|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1026,
+    "uuid": "7a47434b-2c75-4870-b7b4-7f818f183926"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1371,
+    "uuid": "a59cdcec-b55b-4f1b-ad4a-3fd52aec9fec"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 47,
+    "uuid": "3c34a5a4-3944-47f0-9682-647d63bc2373"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2963,
+    "uuid": "7a47434b-2c75-4870-b7b4-7f818f183926"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 9816,
+    "uuid": "a4c7593c-e59b-4868-83ca-3293a480a786"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 11311,
+    "uuid": "2bdab0da-d8cb-4c1d-997d-35b8a771d967"
+   }
+  ],
+  "detectable_format:multiple_sections|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1201,
+    "uuid": "40f6accf-5dbc-4094-8524-b875916eddc2"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 382,
+    "uuid": "07b08570-78dc-4979-974a-fc02960b4014"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 4393,
+    "uuid": "4372f3c1-d611-4f67-858f-8c3dd18f0b00"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 4534,
+    "uuid": "07b08570-78dc-4979-974a-fc02960b4014"
+   }
+  ],
+  "first_word:first_word_answer|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1223,
+    "uuid": "ac32418b-05fa-4c22-83f5-5df1e48eb5e5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1762,
+    "uuid": "547a4fca-7491-43dd-9e2d-fdfbfd880c9e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1845,
+    "uuid": "0344f912-8683-4749-b20c-6954e9c786a0"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1945,
+    "uuid": "c780d46f-a220-4429-a4c2-2d9713d8ee22"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2227,
+    "uuid": "25e56994-f647-4e5b-8c47-7ede147a28b5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2749,
+    "uuid": "ffbedbfb-95eb-4dee-8f35-6306d0f02446"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3318,
+    "uuid": "2e49fe07-e625-4d8b-8809-815318ed807b"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 932,
+    "uuid": "c8acfa39-e535-4d71-a742-861204840a4c"
+   }
+  ],
+  "count:lowercase_counting|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1289,
+    "uuid": "08bc5900-720e-4b77-9f84-d1d6800c31a9"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1654,
+    "uuid": "b208c45c-ad30-4a3b-a75e-851ce80a13eb"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2249,
+    "uuid": "7d138895-e3ca-4e3c-b812-d878165e865d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 645,
+    "uuid": "3a8ad227-987b-4810-95bc-1d60c7d131fa"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 657,
+    "uuid": "d67f2a59-1549-45bd-b722-ae1167a62fb0"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1290,
+    "uuid": "08bc5900-720e-4b77-9f84-d1d6800c31a9"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1303,
+    "uuid": "5d1ec90a-e961-450f-8d2a-0d450bcb4ef4"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2405,
+    "uuid": "c93e1cb9-df08-409e-a1b2-fd0603fc2130"
+   }
+  ],
+  "keywords:existence|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1407,
+    "uuid": "200836f3-1213-47fa-a185-b93b368c1549"
+   }
+  ],
+  "last_word:last_word_answer|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1536,
+    "uuid": "3768419c-2257-4dfd-a9b7-0520cac4ca86"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1806,
+    "uuid": "73ab4b57-6821-450a-95d7-868cdbac31de"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1931,
+    "uuid": "07221630-5d18-4e48-92bb-60404ac37257"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2974,
+    "uuid": "d6492c07-9c94-4996-865e-bb1cb7cf4c2c"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3852,
+    "uuid": "f369b767-efda-4091-854d-6ef484d808fd"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 44,
+    "uuid": "7ea7992d-a3cb-40b1-a7db-028a6bf92e0b"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 122,
+    "uuid": "5de97a97-7359-495e-b508-d691a7184f46"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 387,
+    "uuid": "3e4a3a64-bae4-4e9d-a5c6-1d48699e8fa6"
+   }
+  ],
+  "last_word:last_word_answer|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1536,
+    "uuid": "3768419c-2257-4dfd-a9b7-0520cac4ca86"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1806,
+    "uuid": "73ab4b57-6821-450a-95d7-868cdbac31de"
+   }
+  ],
+  "paragraphs:paragraphs|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1548,
+    "uuid": "b83dcea1-4809-4209-8306-f610a6924db2"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3480,
+    "uuid": "de0cf7e2-a47f-4ae6-910f-831ef1e465ad"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2894,
+    "uuid": "b6bb27e6-9395-45d7-a25c-913942fca9d6"
+   }
+  ],
+  "keywords:word_count_different_numbers|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1554,
+    "uuid": "f0b1339d-1ff2-430b-8192-1eaf4f2b0b38"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2780,
+    "uuid": "8f83bf7d-76df-453e-bfb2-0d8203391316"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2865,
+    "uuid": "72291e41-f03f-48d6-8ad9-301f21f41367"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3266,
+    "uuid": "c972b263-baa8-48bb-820b-0edadc92c299"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3330,
+    "uuid": "54a8cbb3-f079-48f1-8c35-f90d73305e2d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3495,
+    "uuid": "1a52b484-f0f2-436c-8a9c-b511e7ab18eb"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 316,
+    "uuid": "f1ad24e3-51e8-4397-8ec8-afb9103d6c6a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1221,
+    "uuid": "6157d369-55a0-4506-ba30-4cff1c09a046"
+   }
+  ],
+  "change_case:english_capital|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1827,
+    "uuid": "1f7885a9-d82c-42db-9ed6-661ca3347430"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 1886,
+    "uuid": "4ba0ca47-0766-4094-ac26-fb597f633d6a"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3354,
+    "uuid": "0110c2cb-32b8-48a7-9504-5dbcbd7b29d8"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 160,
+    "uuid": "b6c895d5-c2a9-4e43-a01e-f0d35f7a12aa"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1664,
+    "uuid": "811ddb48-5a9a-43b8-bdf3-bfccc96a52d4"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3652,
+    "uuid": "86ca54e1-1a1e-4b46-b134-1ae939435c0b"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3671,
+    "uuid": "5373d9c1-5934-4222-8399-79b65f32c975"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 723,
+    "uuid": "7ad8cfe5-70ed-47d9-a032-3a4ea3923246"
+   }
+  ],
+  "change_case:english_capital|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2116,
+    "uuid": "79d0a21f-70ab-444e-b5ca-d65f14013358"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2517,
+    "uuid": "808eb5e2-422a-45fd-890b-b8813b15fca2"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3114,
+    "uuid": "6a23e2e7-d729-4269-bcd6-659ce8dca393"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3346,
+    "uuid": "685171ba-f9d2-4f21-a389-3c70f1c6a815"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3578,
+    "uuid": "810f8e26-835e-4cda-919c-3dbbfe02aa64"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3581,
+    "uuid": "766e2df4-b68d-438f-b346-0baa7cee091d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 158,
+    "uuid": "ce0ac48d-7632-4796-ac47-a8eb0e63245f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 270,
+    "uuid": "f75e4c6d-b6a5-4a6b-b288-aae96a4e6c29"
+   }
+  ],
+  "last_word:last_word_sent|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2281,
+    "uuid": "f296b8be-ed4a-494a-8672-3fbdb583afe5"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3271,
+    "uuid": "1dcb00a0-894e-40f6-9cf9-aa642f658e6e"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 355,
+    "uuid": "4e17e478-8f90-42da-bff7-bdf81603dc65"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 657,
+    "uuid": "d67f2a59-1549-45bd-b722-ae1167a62fb0"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1283,
+    "uuid": "32d2f51c-42aa-4a59-9f19-dbdcd0b45cac"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1309,
+    "uuid": "eab841d3-2a75-4ee9-91ef-c402ea733861"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1679,
+    "uuid": "ef6c8492-696c-45c8-97da-ea00ef711aff"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2668,
+    "uuid": "c097dd22-70a0-4fc6-9d10-bb5c7fa575a5"
+   }
+  ],
+  "keywords:frequency|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2365,
+    "uuid": "2130be89-2d52-47c0-a130-a690dd75cf9b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3584,
+    "uuid": "9b525e59-fb61-4547-88d2-865d2cf8d84d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 28,
+    "uuid": "b2738eeb-2540-4275-874c-a93d98ff2ca1"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2655,
+    "uuid": "c1889cb5-7f24-4f29-b77d-03279b58cdf4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 592,
+    "uuid": "2130be89-2d52-47c0-a130-a690dd75cf9b"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 660,
+    "uuid": "c1889cb5-7f24-4f29-b77d-03279b58cdf4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 909,
+    "uuid": "9b525e59-fb61-4547-88d2-865d2cf8d84d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 592,
+    "uuid": "2130be89-2d52-47c0-a130-a690dd75cf9b"
+   }
+  ],
+  "length_constraints:nth_paragraph_first_word|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2615,
+    "uuid": "1ccd27d8-1f02-4570-9d23-0b26685a8d68"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3100,
+    "uuid": "d3c4341b-818f-4348-8593-ee32d828f121"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7901,
+    "uuid": "d9eb2ba3-56af-43d4-be91-257ae6955a25"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8304,
+    "uuid": "b5763924-aefc-471c-921a-49b8b64f93fd"
+   }
+  ],
+  "length_constraints:number_words|skyrl|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2625,
+    "uuid": "3e132673-2212-4cc2-a14e-d1daa37929e5"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 671,
+    "uuid": "2f6edc0c-5ecf-4194-8c79-67d068b0e1f9"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 671,
+    "uuid": "2f6edc0c-5ecf-4194-8c79-67d068b0e1f9"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3464,
+    "uuid": "c890ac66-6b2d-49fd-899b-4c9456fcceaf"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3607,
+    "uuid": "8c4b28e1-9260-4d6e-b4fc-e2323922c1f8"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1011,
+    "uuid": "2f6edc0c-5ecf-4194-8c79-67d068b0e1f9"
+   }
+  ],
+  "length_constraints:number_words|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2682,
+    "uuid": "5b2a8fbc-00de-4814-b2fb-6c08d6e8fdf7"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 6540,
+    "uuid": "d46afeca-56fc-4950-b6e6-b730d8e82872"
+   }
+  ],
+  "keywords:word_count_different_numbers|gate|false_fail": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2780,
+    "uuid": "8f83bf7d-76df-453e-bfb2-0d8203391316"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 2865,
+    "uuid": "72291e41-f03f-48d6-8ad9-301f21f41367"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3266,
+    "uuid": "c972b263-baa8-48bb-820b-0edadc92c299"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3330,
+    "uuid": "54a8cbb3-f079-48f1-8c35-f90d73305e2d"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3495,
+    "uuid": "1a52b484-f0f2-436c-8a9c-b511e7ab18eb"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 316,
+    "uuid": "f1ad24e3-51e8-4397-8ec8-afb9103d6c6a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 873,
+    "uuid": "e735dba1-4f1c-468b-8c61-d45e6048fd3f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1221,
+    "uuid": "6157d369-55a0-4506-ba30-4cff1c09a046"
+   }
+  ],
+  "length_constraints:nth_paragraph_first_word|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3108,
+    "uuid": "a5896f3e-0b31-4e43-9702-048b550e7aef"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3396,
+    "uuid": "fbca0d7f-bc90-49fd-bf9e-bc09a9d5e01e"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7688,
+    "uuid": "71308abc-3897-437f-9ae8-073d4cd93bb1"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 11248,
+    "uuid": "86d409c7-4edf-44fd-8d37-f0cc97c01020"
+   }
+  ],
+  "change_case:english_lowercase|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3282,
+    "uuid": "ee00ac78-cd84-43b0-a7ba-0c0ecb5c8bc9"
+   }
+  ],
+  "length_constraints:number_paragraphs|gate|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3687,
+    "uuid": "537d4c56-3ee3-4d84-9d09-bfa93bfca20b"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3876,
+    "uuid": "42734837-255a-40f2-8919-c0f778710454"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 637,
+    "uuid": "c6f3c0a4-23c0-41b6-b17d-a6927cea5f26"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 659,
+    "uuid": "2d70d8f6-fc95-4688-90fa-c6f2a527fd5c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1481,
+    "uuid": "6a8ef3e2-2d10-4e53-8892-4081637000dd"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2598,
+    "uuid": "1e8f36eb-9473-4e25-a47a-2e204d3e6ed0"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2720,
+    "uuid": "9bf2c17d-2609-485e-a6cc-95b6431fea75"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3469,
+    "uuid": "13f2caea-389a-4b7c-bdde-6912cb02727d"
+   }
+  ],
+  "keywords:frequency|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3796,
+    "uuid": "62319185-0d23-4bba-b029-451b5878b71e"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3883,
+    "uuid": "a3f2da82-f429-4649-88a2-cb58ed1889ca"
+   },
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3896,
+    "uuid": "f08c2218-cd47-4288-b71d-b79edb9bff0f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1977,
+    "uuid": "a4ab8d2a-7b32-4224-a382-7584dd3b3cb3"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2935,
+    "uuid": "5c932929-d3d4-4bf8-9541-86e1e10cc371"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3546,
+    "uuid": "38c2f1a0-7399-4dc9-ad96-e2f3c702acb8"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3933,
+    "uuid": "42ae32bd-ca08-40ed-bfdf-01a24de22c51"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3994,
+    "uuid": "6ce2e6b4-1961-4cb2-8685-6b9540719ad4"
+   }
+  ],
+  "length_constraints:nth_paragraph_first_word|skyrl|false_pass": [
+   {
+    "folder": "allenai__OLMo-2-1124-7B-Instruct",
+    "run": "sample0",
+    "i": 3900,
+    "uuid": "2c2e7788-3379-4e44-acf2-30da3a672fbd"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 660,
+    "uuid": "b1c70ac1-c53e-437f-9cf7-bb447bb6de39"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1454,
+    "uuid": "c5f0f834-bdfd-4c2d-a019-73daa255b3a5"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1495,
+    "uuid": "aa2d3d30-0bee-4d0e-95ac-6444fe3454e5"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2953,
+    "uuid": "8e0fd38a-0836-4c78-9830-8570372e7f16"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3839,
+    "uuid": "d10e1285-9c90-4188-a0cc-7b50eeddfc2f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3902,
+    "uuid": "2c2e7788-3379-4e44-acf2-30da3a672fbd"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2295,
+    "uuid": "e0fa2b9f-1c09-4bd1-9cca-fb7d817f1de9"
+   }
+  ],
+  "keywords:start_end|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 11,
+    "uuid": "54163482-e55b-44b3-902c-df6cd46f7455"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 901,
+    "uuid": "0b61f2b3-487b-4f53-b7a8-a3c44b1b225c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2892,
+    "uuid": "8fc865e4-2b86-4411-adb6-fe37c0df6365"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 5181,
+    "uuid": "0ce4874d-c221-491d-9ab1-8b1679f9050f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1456,
+    "uuid": "7f266f88-e28a-46d8-b161-66e551f43454"
+   }
+  ],
+  "change_case:english_lowercase|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 100,
+    "uuid": "49e218c4-0470-4153-8a1b-0c37e4931b70"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 507,
+    "uuid": "7cf78a8e-08d9-40e4-9275-d9f007c49022"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 597,
+    "uuid": "98f17dea-e01f-497d-8454-529fcd78dff5"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 617,
+    "uuid": "833b38f6-5c26-473f-a5be-110b8d478d75"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 985,
+    "uuid": "fdc2da7b-148b-42bb-875c-8060b7aad41d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 997,
+    "uuid": "0de67c7e-573a-44ce-9e11-21fc02b2c608"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1443,
+    "uuid": "13b31625-bbb8-4766-bf98-0e0fbb93b05f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1865,
+    "uuid": "bef9c16d-a5e8-4415-a8cf-b5b7073e96d1"
+   }
+  ],
+  "change_case:english_capital|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 270,
+    "uuid": "f75e4c6d-b6a5-4a6b-b288-aae96a4e6c29"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1611,
+    "uuid": "39dd2a0f-76b2-4ca7-b9e3-7f9153cdd1ea"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3582,
+    "uuid": "766e2df4-b68d-438f-b346-0baa7cee091d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 211,
+    "uuid": "2e717c27-1429-4a0e-acec-ca911e67a67d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2834,
+    "uuid": "2cf0ea82-6681-496e-8130-c3ffdd5acfea"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3083,
+    "uuid": "5b5c1ea4-9d18-4279-8bee-e5976ba4aec3"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8996,
+    "uuid": "6a295f1a-f884-40b5-a381-530606dc1ec3"
+   }
+  ],
+  "detectable_format:square_brackets|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 274,
+    "uuid": "358e13ce-8b55-4dd9-a260-d34a1768a47a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 296,
+    "uuid": "db045a56-ee56-44fa-8d88-76f871c5764a"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 364,
+    "uuid": "db7cec2c-97d9-4a65-b79e-815ea6ca6292"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 418,
+    "uuid": "7ff6a154-a29f-449d-a3de-575325466e47"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 469,
+    "uuid": "fdf4d09f-e235-4262-b83d-8aaed5137923"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 778,
+    "uuid": "be50cdee-be18-4bc3-8e69-9c38659b63f6"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 831,
+    "uuid": "7df722f9-7da8-452f-8948-734897e37134"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1593,
+    "uuid": "63b1035f-2beb-4e37-9b24-6c5064dccee3"
+   }
+  ],
+  "copy:repeat_phrase|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 342,
+    "uuid": "f14400dd-856c-4261-b990-9b08bba7fde2"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3059,
+    "uuid": "facb4719-ede2-4233-a1c1-89ef7e0d2b40"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 516,
+    "uuid": "83876272-ae93-483e-b541-bc602ff13e55"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1900,
+    "uuid": "2436f7a1-4944-401d-84af-e0e257356541"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 11015,
+    "uuid": "6da8cc61-3084-4251-8d68-aef11ef91fed"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 30,
+    "uuid": "73c67c3d-d646-495a-b555-128a54598bc0"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 106,
+    "uuid": "ed749f30-9b74-471a-954e-96bce4965643"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 132,
+    "uuid": "2be52c1a-b7ea-4ab7-8b4d-30ea5c01a241"
+   }
+  ],
+  "last_word:last_word_sent|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 533,
+    "uuid": "faa1af54-8a0e-451d-86c4-37c99d0834b8"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 937,
+    "uuid": "49adad8f-0853-4f11-ac6d-b7bd9ed25bae"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1538,
+    "uuid": "3b5b0d31-cd27-4b38-9082-e66d25aac69e"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1712,
+    "uuid": "12a746e2-578f-4951-9499-84c6c87d3a1f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2613,
+    "uuid": "d8d89109-d414-4a10-90db-52c0f5e9d283"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 383,
+    "uuid": "3b5b0d31-cd27-4b38-9082-e66d25aac69e"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 383,
+    "uuid": "3b5b0d31-cd27-4b38-9082-e66d25aac69e"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2029,
+    "uuid": "19b009ff-fa17-4b06-9cad-5d5ca3080a16"
+   }
+  ],
+  "detectable_format:sentence_hyphens|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 589,
+    "uuid": "f17340a4-2e2e-4184-9d2b-4836292eb9f4"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 784,
+    "uuid": "0cdf63a0-2f2a-4fb1-8c42-00484132f2bf"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1168,
+    "uuid": "0dcd9fcd-bee5-4397-a8b8-9ac715409895"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2182,
+    "uuid": "687d3c55-3770-4a59-8674-a092e2f153be"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2360,
+    "uuid": "37b45246-44e2-4ffa-acae-d3e698f8b9b3"
+   }
+  ],
+  "first_word:first_word_sent|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 673,
+    "uuid": "2c39faa6-40c9-4882-93cc-0d4d78fbb000"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1169,
+    "uuid": "48793e57-a814-42de-bc76-3e85c29f2867"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3093,
+    "uuid": "d0ff9364-b8e9-4718-a132-d73db572f255"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3155,
+    "uuid": "aa12224c-a346-4b88-a23f-456169cff30f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3311,
+    "uuid": "fd06d163-e28c-4f62-a3d7-70a472f8a7a5"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 797,
+    "uuid": "aa12224c-a346-4b88-a23f-456169cff30f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 797,
+    "uuid": "aa12224c-a346-4b88-a23f-456169cff30f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 5941,
+    "uuid": "0037dffb-79ac-4944-9df2-2ca4207a627a"
+   }
+  ],
+  "first_word:first_word_sent|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 770,
+    "uuid": "34bb6546-b873-45c3-8556-e79414ea9ee9"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1025,
+    "uuid": "94a2441a-bc86-42b3-b5f2-14ce1f5bfb76"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2109,
+    "uuid": "f1eff1dd-2fcc-4688-aeac-9f7ddf5e5445"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2901,
+    "uuid": "f83aba67-93cc-4bde-b335-826f921f9f0e"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3103,
+    "uuid": "eb321a67-fea3-4c5c-8964-618962204608"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 270,
+    "uuid": "49f49b6e-70e2-4408-933f-e25d7b2d726a"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 473,
+    "uuid": "db07b585-266a-4cda-a6e4-8bedb6103959"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 617,
+    "uuid": "df3a35a8-85bc-4485-86fd-bbc6437c030e"
+   }
+  ],
+  "change_case:capital_word_frequency|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 877,
+    "uuid": "0e27e52d-79e0-4c62-9b8a-727693a6edb1"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1004,
+    "uuid": "b1013142-52a0-4591-a1f0-eac91eaa949b"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 921,
+    "uuid": "706a57b6-64e9-44c3-a21a-b18ecb536aaf"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1795,
+    "uuid": "fb9d73bf-2b48-4616-ad57-2d4c530e0284"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2522,
+    "uuid": "0e27e52d-79e0-4c62-9b8a-727693a6edb1"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2582,
+    "uuid": "a5efd73f-e4fa-48b3-967d-25deedf43f98"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3009,
+    "uuid": "92e5ba61-5f0c-4370-8073-5db298adc63f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3323,
+    "uuid": "1165043f-0887-48e2-a218-e43411cf48ac"
+   }
+  ],
+  "first_word:first_word_answer|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 982,
+    "uuid": "dd5fdeef-e135-4cd7-80e4-995a081b139a"
+   }
+  ],
+  "change_case:english_lowercase|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 985,
+    "uuid": "fdc2da7b-148b-42bb-875c-8060b7aad41d"
+   }
+  ],
+  "change_case:capital_word_frequency|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 986,
+    "uuid": "1bb330ac-1035-4ad0-b25c-e5b98c6c891d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3816,
+    "uuid": "22c2aebf-d291-4d42-ba27-0a221fb5cbc9"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3631,
+    "uuid": "4b263a60-1936-4ab7-a950-439535735ad8"
+   }
+  ],
+  "startend:end_checker|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1139,
+    "uuid": "c2ab0ed6-aea6-494c-9287-1a22dbd64f5c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1891,
+    "uuid": "60cd7c41-20fb-471b-a41a-561321346156"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3988,
+    "uuid": "f1d6508b-6229-4d06-93aa-111243a46ccd"
+   }
+  ],
+  "startend:end_checker|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1139,
+    "uuid": "c2ab0ed6-aea6-494c-9287-1a22dbd64f5c"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1891,
+    "uuid": "60cd7c41-20fb-471b-a41a-561321346156"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3988,
+    "uuid": "f1d6508b-6229-4d06-93aa-111243a46ccd"
+   }
+  ],
+  "first_word:first_word_answer|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1152,
+    "uuid": "73f5bc29-477f-47b5-aca2-6ce7430f6d74"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1769,
+    "uuid": "a2c49e2a-d694-4d6d-8a31-588a3b3bff5d"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3859,
+    "uuid": "eecccfba-65be-4206-be49-8323d02aa26f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10461,
+    "uuid": "8177e0d9-6383-4ed0-a217-9a6da7df3de0"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10550,
+    "uuid": "3f20c54b-c0fb-4d91-881f-e0bc1d6dc710"
+   }
+  ],
+  "keywords:no_adjacent_consecutive|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1508,
+    "uuid": "ab486c2d-1836-4086-a113-35cda8bde3e5"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1761,
+    "uuid": "db279723-dc3c-4046-862a-e58ee46e26ec"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1933,
+    "uuid": "e8d0d1f3-2f77-41e0-b994-24fe71de1044"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3737,
+    "uuid": "fe22da71-1945-46a1-8f00-b09160387575"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 791,
+    "uuid": "0c5fee4d-6736-4fe6-bfb4-063dd2482d58"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 791,
+    "uuid": "0c5fee4d-6736-4fe6-bfb4-063dd2482d58"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 547,
+    "uuid": "e11dde79-f2c7-4c68-be62-809dff88fd6d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1608,
+    "uuid": "45108953-df1e-4479-b5e3-bd2f27d2dd1c"
+   }
+  ],
+  "detectable_format:square_brackets|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1593,
+    "uuid": "63b1035f-2beb-4e37-9b24-6c5064dccee3"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1881,
+    "uuid": "f9ae1792-be30-4404-8507-2bb02ce5415e"
+   }
+  ],
+  "last_word:last_word_sent|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1594,
+    "uuid": "e9dea5f0-180d-4225-9bbb-5e4d3dbd9486"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2668,
+    "uuid": "c097dd22-70a0-4fc6-9d10-bb5c7fa575a5"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 398,
+    "uuid": "e9dea5f0-180d-4225-9bbb-5e4d3dbd9486"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 398,
+    "uuid": "e9dea5f0-180d-4225-9bbb-5e4d3dbd9486"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2066,
+    "uuid": "a6fa319c-51e9-4d89-80ce-27f5caf720df"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3447,
+    "uuid": "92fe8e52-5ee3-4292-860c-f613caba676d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 6594,
+    "uuid": "8b4bec04-4c24-471a-a246-38768c992f65"
+   }
+  ],
+  "length_constraints:number_sentences|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1721,
+    "uuid": "e80afc5e-f732-498b-b91f-1036a9549792"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1766,
+    "uuid": "7e1e1b04-58ca-4c02-93bc-0f09916706ac"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2073,
+    "uuid": "19cb5e9f-f29f-47b0-8dd0-90513118c2c9"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3297,
+    "uuid": "294fe7e8-df5c-4c94-a317-806bffcb3c56"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3540,
+    "uuid": "892ca9d0-0c94-499e-8dbc-e36c6d5b54de"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 365,
+    "uuid": "8aefeb50-0b10-4139-8d2d-7aac22b9e0c4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 365,
+    "uuid": "8aefeb50-0b10-4139-8d2d-7aac22b9e0c4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 4177,
+    "uuid": "2d544598-a019-4657-b914-95a59a89b576"
+   }
+  ],
+  "length_constraints:number_sentences|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1721,
+    "uuid": "e80afc5e-f732-498b-b91f-1036a9549792"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1766,
+    "uuid": "7e1e1b04-58ca-4c02-93bc-0f09916706ac"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2073,
+    "uuid": "19cb5e9f-f29f-47b0-8dd0-90513118c2c9"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3297,
+    "uuid": "294fe7e8-df5c-4c94-a317-806bffcb3c56"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3540,
+    "uuid": "892ca9d0-0c94-499e-8dbc-e36c6d5b54de"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 365,
+    "uuid": "8aefeb50-0b10-4139-8d2d-7aac22b9e0c4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 365,
+    "uuid": "8aefeb50-0b10-4139-8d2d-7aac22b9e0c4"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1961,
+    "uuid": "e8053998-094a-4eb4-9f1f-4c0440261957"
+   }
+  ],
+  "detectable_format:number_highlighted_sections|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 1741,
+    "uuid": "13046a1e-3ac4-458e-8e53-f11fa08ab2e9"
+   }
+  ],
+  "detectable_format:number_bullet_lists|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2095,
+    "uuid": "8ea24a9e-0ac0-4cd3-9e94-f457a45dbb49"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2184,
+    "uuid": "40aba024-58e9-4dfe-b301-debb1498808f"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2523,
+    "uuid": "06b31076-153f-467b-a396-04dc6698cfd6"
+   }
+  ],
+  "keywords:forbidden_words|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2408,
+    "uuid": "6c4274db-b386-44fa-ae73-8585b36ad6d7"
+   }
+  ],
+  "keywords:forbidden_words|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 2408,
+    "uuid": "6c4274db-b386-44fa-ae73-8585b36ad6d7"
+   }
+  ],
+  "change_case:capital_word_frequency|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3050,
+    "uuid": "33025981-09d2-4282-9b6f-6252a02a73e8"
+   },
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3594,
+    "uuid": "3e7f96b8-373c-474d-a5f6-48268fec36e5"
+   }
+  ],
+  "combination:two_responses|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3819,
+    "uuid": "c4165300-5a4a-4809-9f9a-f2867f70d298"
+   }
+  ],
+  "combination:two_responses|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen2.5-7B-Instruct",
+    "run": "sample0",
+    "i": 3819,
+    "uuid": "c4165300-5a4a-4809-9f9a-f2867f70d298"
+   }
+  ],
+  "keywords:start_end|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy",
+    "i": 857,
+    "uuid": "bfc1eac7-bef0-4910-9b38-5a27916bb494"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 857,
+    "uuid": "bfc1eac7-bef0-4910-9b38-5a27916bb494"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 6948,
+    "uuid": "684a7c92-9fb5-4319-a03b-615c7256b1e3"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 720,
+    "uuid": "3f742a0c-2184-4e88-b735-58a0fd9b9a08"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 955,
+    "uuid": "a9fea9d5-ebcc-4aca-a1ca-8b1492223457"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1276,
+    "uuid": "bfc1eac7-bef0-4910-9b38-5a27916bb494"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1456,
+    "uuid": "7f266f88-e28a-46d8-b161-66e551f43454"
+   }
+  ],
+  "detectable_format:multiple_sections|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "greedy_repeat",
+    "i": 382,
+    "uuid": "07b08570-78dc-4979-974a-fc02960b4014"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 4534,
+    "uuid": "07b08570-78dc-4979-974a-fc02960b4014"
+   }
+  ],
+  "keywords:keyword_specific_position|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10,
+    "uuid": "72a5a3e8-5725-4b22-b49a-93801c1205c6"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 57,
+    "uuid": "80a9d945-f4fe-44a6-9cb7-94455c70ab6d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10553,
+    "uuid": "fe54c201-1929-46fe-bbbb-89625a8c79af"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 424,
+    "uuid": "a6021de3-742a-4881-995c-784a7eab17dd"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 481,
+    "uuid": "b372a716-17b3-45ee-a3fb-7a3634dec7aa"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 928,
+    "uuid": "ec1eebd7-177b-4f0b-9dd3-6d5430a129aa"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1081,
+    "uuid": "910042eb-9a1c-42e7-9bed-ecc14439050f"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1438,
+    "uuid": "a8c48a33-6213-4f39-8721-ef55a531f66b"
+   }
+  ],
+  "keywords:keyword_specific_position|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10,
+    "uuid": "72a5a3e8-5725-4b22-b49a-93801c1205c6"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 57,
+    "uuid": "80a9d945-f4fe-44a6-9cb7-94455c70ab6d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7044,
+    "uuid": "9cf6b884-6c88-4352-b5fa-1eda39135f2e"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 481,
+    "uuid": "b372a716-17b3-45ee-a3fb-7a3634dec7aa"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 876,
+    "uuid": "1d78e388-669f-4a71-bfe2-f7e2a0e866d3"
+   }
+  ],
+  "first_word:first_word_sent|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 708,
+    "uuid": "4b086b3b-fd6c-4ba3-b264-caeb6fa83584"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8430,
+    "uuid": "361aefb2-9259-4369-b949-6293b11af67e"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1163,
+    "uuid": "a2220505-0508-4949-82ff-02cd98a0748f"
+   }
+  ],
+  "keywords:keyword_specific_position|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1239,
+    "uuid": "ffabf3fb-5dde-4310-9399-50974d19293a"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3793,
+    "uuid": "7464e84f-a2e1-4690-8935-bfff6cde3b27"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 6871,
+    "uuid": "1d78e388-669f-4a71-bfe2-f7e2a0e866d3"
+   }
+  ],
+  "change_case:capital_word_frequency|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1740,
+    "uuid": "4fc692db-336f-4b35-baaa-d20b46cc6fa8"
+   }
+  ],
+  "detectable_format:title|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1930,
+    "uuid": "2933ef71-98ef-4e83-8e73-470e324b5877"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8069,
+    "uuid": "46af07c6-6d7b-46d5-8dad-f1e2189f0f76"
+   }
+  ],
+  "detectable_format:title|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 1930,
+    "uuid": "2933ef71-98ef-4e83-8e73-470e324b5877"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 8069,
+    "uuid": "46af07c6-6d7b-46d5-8dad-f1e2189f0f76"
+   }
+  ],
+  "letters:letter_counting2|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2245,
+    "uuid": "cfb9cac3-82bf-4b6b-9137-5ae55e3f1f0c"
+   }
+  ],
+  "letters:letter_counting2|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2245,
+    "uuid": "cfb9cac3-82bf-4b6b-9137-5ae55e3f1f0c"
+   }
+  ],
+  "keywords:keyword_specific_position|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 2849,
+    "uuid": "fee2236b-3bc8-4322-be17-b9bbb9ddf3f3"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3793,
+    "uuid": "7464e84f-a2e1-4690-8935-bfff6cde3b27"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 4831,
+    "uuid": "bc2503ac-b532-4923-a8e6-22c871193dc7"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7318,
+    "uuid": "ef5c7dbc-5e10-43b9-b202-a3d0c7ae995d"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 841,
+    "uuid": "2bda5a95-45e5-4a64-9754-b852fa54e894"
+   }
+  ],
+  "detectable_content:postscript|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 3534,
+    "uuid": "41d09245-a264-411e-b392-ba8a4a823806"
+   }
+  ],
+  "first_word:first_word_sent|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 5941,
+    "uuid": "0037dffb-79ac-4944-9df2-2ca4207a627a"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 385,
+    "uuid": "fd2757b6-364d-4295-b54b-3f066c175cc5"
+   }
+  ],
+  "detectable_content:number_placeholders|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7215,
+    "uuid": "a83b06df-0928-4891-9e78-7df3121aa11d"
+   }
+  ],
+  "detectable_content:number_placeholders|gate|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7215,
+    "uuid": "a83b06df-0928-4891-9e78-7df3121aa11d"
+   }
+  ],
+  "keywords:no_adjacent_consecutive|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 7833,
+    "uuid": "2fdc3b97-d81f-4492-a555-163a6e6749fd"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 10428,
+    "uuid": "2985ffa1-c3d1-4589-b42b-78ff3c634ade"
+   }
+  ],
+  "keywords:word_once|gate|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Instruct-2507",
+    "run": "sample0",
+    "i": 9081,
+    "uuid": "99487ad6-5b84-40f0-bf38-97117a6d7ce1"
+   }
+  ],
+  "detectable_content:number_placeholders|skyrl|false_pass": [
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 81,
+    "uuid": "f6969833-d1fd-4037-8b4a-7c4245b7c1a4"
+   }
+  ],
+  "copy:repeat_phrase|skyrl|false_fail": [
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 976,
+    "uuid": "10e5077f-a041-4648-9100-3ab7a4e9fe4a"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1012,
+    "uuid": "1c855037-3f2f-4a8e-acb4-493b98075851"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1026,
+    "uuid": "c035d12d-672b-4ca4-89c3-5e7835360ee0"
+   },
+   {
+    "folder": "Qwen__Qwen3-4B-Thinking-2507__thinking",
+    "run": "sample0",
+    "i": 1127,
+    "uuid": "7f379f41-8f6c-4377-ad17-720e78a3c054"
+   }
+  ]
+ }
+}

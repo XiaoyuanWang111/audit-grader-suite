@@ -1,0 +1,10 @@
+Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl: done 0 in 0s
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl: done 0 in 0s
+Qwen__Qwen2.5-7B-Instruct/sample0.jsonl: done 0 in 0s
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl: 500 in 2s
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl: 1000 in 4s
+allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl: done 1453 in 6s
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl: 500 in 3s
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl: 1000 in 5s
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl: 1500 in 7s
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl: done 1500 in 7s

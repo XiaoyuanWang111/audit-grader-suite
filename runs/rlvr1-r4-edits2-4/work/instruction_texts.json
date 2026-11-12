@@ -1,0 +1,1124 @@
+{
+ "change_case:capital_word_frequency": {
+  "count": 601,
+  "kwargs_keys": {
+   "capital_frequency": 601,
+   "capital_relation": 601
+  },
+  "kwargs_values_top": {
+   "capital_frequency": {
+    "16": 38,
+    "20": 36,
+    "2": 35,
+    "6": 35,
+    "11": 34,
+    "1": 34,
+    "7": 33,
+    "4": 33,
+    "13": 31,
+    "19": 30,
+    "17": 30,
+    "14": 30
+   },
+   "capital_relation": {
+    "\"less than\"": 335,
+    "\"at least\"": 266
+   }
+  },
+  "n_distinct_values": {
+   "capital_frequency": 20,
+   "capital_relation": 2
+  },
+  "templates": {
+   "In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.": 70
+  },
+  "n_templates": 1
+ },
+ "change_case:english_capital": {
+  "count": 772,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Your entire response should be in English, and in all capital letters.": 100
+  },
+  "n_templates": 1
+ },
+ "change_case:english_lowercase": {
+  "count": 604,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.": 77
+  },
+  "n_templates": 1
+ },
+ "combination:two_responses": {
+  "count": 253,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.": 35
+  },
+  "n_templates": 1
+ },
+ "copy:repeat_phrase": {
+  "count": 554,
+  "kwargs_keys": {
+   "phrase": 554,
+   "small_n": 554
+  },
+  "kwargs_values_top": {
+   "phrase": {
+    "\"Don't judge a book by cover\"": 68,
+    "\"Live each day to the fullest\"": 64,
+    "\"Laughter is the best medicine\"": 59,
+    "\"The pen is mightier than sword\"": 58,
+    "\"Every cloud has a silver lining\"": 57,
+    "\"The early bird catches the worm\"": 54,
+    "\"Time flies when having fun\"": 51,
+    "\"All that glitters is not gold\"": 49,
+    "\"Dance like nobody is watching you\"": 49,
+    "\"Actions speak louder than words\"": 45
+   },
+   "small_n": {
+    "3": 283,
+    "2": 271
+   }
+  },
+  "n_distinct_values": {
+   "phrase": 10,
+   "small_n": 2
+  },
+  "templates": {
+   "Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.": 70
+  },
+  "n_templates": 1
+ },
+ "count:count_unique": {
+  "count": 687,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Only use unique words in your response, no word should be repeated!": 80
+  },
+  "n_templates": 1
+ },
+ "count:counting_composition": {
+  "count": 1,
+  "kwargs_keys": {
+   "n_sent": 1,
+   "n_words": 1
+  },
+  "kwargs_values_top": {
+   "n_sent": {
+    "3": 1
+   },
+   "n_words": {
+    "2": 1
+   }
+  },
+  "n_distinct_values": {
+   "n_sent": 1,
+   "n_words": 1
+  },
+  "templates": {},
+  "n_templates": 0
+ },
+ "count:lowercase_counting": {
+  "count": 869,
+  "kwargs_keys": {
+   "N": 869
+  },
+  "kwargs_values_top": {
+   "N": {
+    "2": 444,
+    "3": 425
+   }
+  },
+  "n_distinct_values": {
+   "N": 2
+  },
+  "templates": {
+   "In your response, all lowercase words should appear at most {N} times.": 102
+  },
+  "n_templates": 1
+ },
+ "detectable_content:number_placeholders": {
+  "count": 585,
+  "kwargs_keys": {
+   "num_placeholders": 585
+  },
+  "kwargs_values_top": {
+   "num_placeholders": {
+    "2": 149,
+    "3": 148,
+    "1": 147,
+    "4": 141
+   }
+  },
+  "n_distinct_values": {
+   "num_placeholders": 4
+  },
+  "templates": {
+   "The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].": 74
+  },
+  "n_templates": 1
+ },
+ "detectable_content:postscript": {
+  "count": 644,
+  "kwargs_keys": {
+   "postscript_marker": 644
+  },
+  "kwargs_values_top": {
+   "postscript_marker": {
+    "\"P.S.\"": 324,
+    "\"P.P.S\"": 320
+   }
+  },
+  "n_distinct_values": {
+   "postscript_marker": 2
+  },
+  "templates": {
+   "At the end of your response, please explicitly add a postscript starting with {postscript_marker}": 76
+  },
+  "n_templates": 1
+ },
+ "detectable_format:bigram_wrapping": {
+  "count": 575,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.": 88
+  },
+  "n_templates": 1
+ },
+ "detectable_format:constrained_response": {
+  "count": 120,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')": 18
+  },
+  "n_templates": 1
+ },
+ "detectable_format:json_format": {
+  "count": 133,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.": 13
+  },
+  "n_templates": 1
+ },
+ "detectable_format:multiple_sections": {
+  "count": 453,
+  "kwargs_keys": {
+   "num_sections": 453,
+   "section_spliter": 453
+  },
+  "kwargs_values_top": {
+   "num_sections": {
+    "1": 105,
+    "4": 98,
+    "5": 88,
+    "3": 83,
+    "2": 79
+   },
+   "section_spliter": {
+    "\"SECTION\"": 242,
+    "\"Section\"": 211
+   }
+  },
+  "n_distinct_values": {
+   "num_sections": 5,
+   "section_spliter": 2
+  },
+  "templates": {
+   "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} 1\n[content of section 1]\n{section_spliter} 2\n[content of section 2]": 24,
+   "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} 1\n[content of section 1]\n{section_spliter} {num_sections}\n[content of section {num_sections}]": 9,
+   "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} {num_sections}\n[content of section {num_sections}]\n{section_spliter} 2\n[content of section 2]": 4
+  },
+  "n_templates": 3
+ },
+ "detectable_format:number_bullet_lists": {
+  "count": 512,
+  "kwargs_keys": {
+   "num_bullets": 512
+  },
+  "kwargs_values_top": {
+   "num_bullets": {
+    "1": 119,
+    "2": 116,
+    "3": 101,
+    "4": 88,
+    "5": 88
+   }
+  },
+  "n_distinct_values": {
+   "num_bullets": 5
+  },
+  "templates": {
+   "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2": 34,
+   "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point {num_bullets}": 17,
+   "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point {num_bullets}. \n* This is point 2": 10
+  },
+  "n_templates": 3
+ },
+ "detectable_format:number_highlighted_sections": {
+  "count": 555,
+  "kwargs_keys": {
+   "num_highlights": 555
+  },
+  "kwargs_values_top": {
+   "num_highlights": {
+    "2": 157,
+    "1": 136,
+    "4": 131,
+    "3": 131
+   }
+  },
+  "n_distinct_values": {
+   "num_highlights": 4
+  },
+  "templates": {
+   "Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.": 61
+  },
+  "n_templates": 1
+ },
+ "detectable_format:sentence_hyphens": {
+  "count": 669,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "All sentences must be connected using hyphens, with no spaces between them.": 98,
+   "Laser sensor to take data of the weight of heavy trucks.\n\nTheir products is making it more effective to difference truck that are too heavy\n\nTheir market is mostly on Government:\nSmart city to collect data in form of camera \nUsed for mostly government vihecle and on the traffic lights \n\nObjective:\nAutomatic car without driver\nSmart Street lamp that has 5G": 1
+  },
+  "n_templates": 2
+ },
+ "detectable_format:square_brackets": {
+  "count": 553,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Enclose every word in your response within square brackets.": 65
+  },
+  "n_templates": 1
+ },
+ "detectable_format:title": {
+  "count": 589,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.": 68
+  },
+  "n_templates": 1
+ },
+ "first_word:first_word_answer": {
+  "count": 557,
+  "kwargs_keys": {
+   "first_word": 557
+  },
+  "kwargs_values_top": {
+   "first_word": {
+    "\"dealer\"": 4,
+    "\"mix\"": 3,
+    "\"situation\"": 3,
+    "\"designer\"": 3,
+    "\"limit\"": 3,
+    "\"awareness\"": 3,
+    "\"pack\"": 3,
+    "\"pause\"": 3,
+    "\"winter\"": 3,
+    "\"specialist\"": 3,
+    "\"mother\"": 3,
+    "\"coast\"": 3
+   }
+  },
+  "n_distinct_values": {
+   "first_word": 457
+  },
+  "templates": {
+   "The first word of your response should be the word {first_word}.": 81,
+   "The first word of your {first_word} should be the word {first_word}.": 1
+  },
+  "n_templates": 2
+ },
+ "first_word:first_word_sent": {
+  "count": 540,
+  "kwargs_keys": {
+   "first_word": 540
+  },
+  "kwargs_values_top": {
+   "first_word": {
+    "\"peace\"": 3,
+    "\"chart\"": 3,
+    "\"care\"": 3,
+    "\"expression\"": 3,
+    "\"poem\"": 3,
+    "\"purple\"": 3,
+    "\"rock\"": 3,
+    "\"grand\"": 3,
+    "\"good\"": 3,
+    "\"control\"": 2,
+    "\"give\"": 2,
+    "\"script\"": 2
+   }
+  },
+  "n_distinct_values": {
+   "first_word": 461
+  },
+  "templates": {
+   "The first word of each sentence should be the word {first_word}.": 77,
+   "The first {first_word} of each sentence should be the {first_word} {first_word}.": 1
+  },
+  "n_templates": 2
+ },
+ "keywords:existence": {
+  "count": 932,
+  "kwargs_keys": {
+   "keywords": 932
+  },
+  "kwargs_values_top": {
+   "keywords": {
+    "[\"quote\", \"teaching\"]": 1,
+    "[\"food\", \"poetry\"]": 1,
+    "[\"help\", \"subject\"]": 1,
+    "[\"basis\", \"location\"]": 1,
+    "[\"highway\", \"marketing\"]": 1,
+    "[\"hall\", \"risk\"]": 1,
+    "[\"bath\", \"culture\"]": 1,
+    "[\"earth\", \"garden\"]": 1,
+    "[\"case\", \"report\"]": 1,
+    "[\"ground\", \"rough\"]": 1,
+    "[\"building\", \"morning\"]": 1,
+    "[\"bit\", \"double\"]": 1
+   }
+  },
+  "n_distinct_values": {
+   "keywords": 932
+  },
+  "templates": {
+   "Include keywords ['{keywords[0]}', '{keywords[1]}'] in the response.": 123,
+   "Include key{keywords[1]}s ['{key{keywords[1]}s[0]}', '{keywords[1]}'] in the response.": 1
+  },
+  "n_templates": 2
+ },
+ "keywords:forbidden_words": {
+  "count": 836,
+  "kwargs_keys": {
+   "forbidden_words": 836
+  },
+  "kwargs_values_top": {
+   "forbidden_words": {
+    "[\"sound\", \"square\"]": 2,
+    "[\"debate\", \"indication\"]": 1,
+    "[\"bet\", \"raw\"]": 1,
+    "[\"law\", \"top\"]": 1,
+    "[\"dead\", \"wash\"]": 1,
+    "[\"floor\", \"wheel\"]": 1,
+    "[\"rush\", \"youth\"]": 1,
+    "[\"base\", \"horse\"]": 1,
+    "[\"assist\", \"knee\"]": 1,
+    "[\"leave\", \"poem\"]": 1,
+    "[\"bus\", \"media\"]": 1,
+    "[\"comfort\", \"strategy\"]": 1
+   }
+  },
+  "n_distinct_values": {
+   "forbidden_words": 835
+  },
+  "templates": {
+   "Do not include keywords ['{forbidden_words[0]}', '{forbidden_words[1]}'] in the response.": 103
+  },
+  "n_templates": 1
+ },
+ "keywords:frequency": {
+  "count": 607,
+  "kwargs_keys": {
+   "frequency": 607,
+   "keyword": 607,
+   "relation": 607
+  },
+  "kwargs_values_top": {
+   "frequency": {
+    "2": 220,
+    "1": 207,
+    "3": 180
+   },
+   "keyword": {
+    "\"monitor\"": 3,
+    "\"picture\"": 3,
+    "\"word\"": 3,
+    "\"lip\"": 3,
+    "\"foot\"": 3,
+    "\"table\"": 3,
+    "\"nation\"": 3,
+    "\"mouth\"": 3,
+    "\"script\"": 3,
+    "\"review\"": 3,
+    "\"cream\"": 3,
+    "\"kill\"": 3
+   },
+   "relation": {
+    "\"less than\"": 311,
+    "\"at least\"": 296
+   }
+  },
+  "n_distinct_values": {
+   "frequency": 3,
+   "keyword": 496,
+   "relation": 2
+  },
+  "templates": {
+   "In your response, the word {keyword} should appear {relation} {frequency} times.": 74
+  },
+  "n_templates": 1
+ },
+ "keywords:keyword_specific_position": {
+  "count": 676,
+  "kwargs_keys": {
+   "keyword": 676,
+   "m": 676,
+   "n": 676
+  },
+  "kwargs_values_top": {
+   "keyword": {
+    "\"shot\"": 4,
+    "\"boy\"": 4,
+    "\"female\"": 3,
+    "\"breast\"": 3,
+    "\"club\"": 3,
+    "\"blind\"": 3,
+    "\"mall\"": 3,
+    "\"wonder\"": 3,
+    "\"broad\"": 3,
+    "\"cap\"": 3,
+    "\"writer\"": 3,
+    "\"problem\"": 3
+   },
+   "m": {
+    "11": 35,
+    "12": 33,
+    "2": 31,
+    "8": 30,
+    "16": 28,
+    "7": 28,
+    "3": 27,
+    "13": 27,
+    "5": 26,
+    "1": 25,
+    "14": 25,
+    "25": 23
+   },
+   "n": {
+    "2": 52,
+    "6": 45,
+    "7": 41,
+    "12": 38,
+    "1": 38,
+    "3": 38,
+    "14": 37,
+    "17": 36,
+    "15": 34,
+    "13": 34,
+    "9": 33,
+    "20": 32
+   }
+  },
+  "n_distinct_values": {
+   "keyword": 559,
+   "m": 30,
+   "n": 20
+  },
+  "templates": {
+   "Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.": 91,
+   "Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.": 2
+  },
+  "n_templates": 2
+ },
+ "keywords:letter_frequency": {
+  "count": 783,
+  "kwargs_keys": {
+   "let_frequency": 783,
+   "let_relation": 783,
+   "letter": 783
+  },
+  "kwargs_values_top": {
+   "let_frequency": {
+    "3": 95,
+    "1": 94,
+    "4": 84,
+    "6": 83,
+    "8": 80,
+    "5": 76,
+    "2": 73,
+    "7": 67,
+    "10": 67,
+    "9": 64
+   },
+   "let_relation": {
+    "\"less than\"": 420,
+    "\"at least\"": 363
+   },
+   "letter": {
+    "\"s\"": 39,
+    "\"h\"": 37,
+    "\"e\"": 36,
+    "\"r\"": 35,
+    "\"a\"": 35,
+    "\"i\"": 35,
+    "\"g\"": 35,
+    "\"t\"": 34,
+    "\"d\"": 33,
+    "\"b\"": 32,
+    "\"p\"": 31,
+    "\"u\"": 31
+   }
+  },
+  "n_distinct_values": {
+   "let_frequency": 10,
+   "let_relation": 2,
+   "letter": 26
+  },
+  "templates": {
+   "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 34,
+   "In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.": 9,
+   "In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.": 8,
+   "In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_freq{letter}ency} times.": 6,
+   "In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.": 6,
+   "I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_freque{letter}cy} times.": 6,
+   "In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.": 5,
+   "In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.": 5,
+   "In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.": 5,
+   "In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.": 4,
+   "In {letter}our response, the letter {letter} should appear {let_relation} {let_frequenc{letter}} times.": 4,
+   "In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.": 4,
+   "In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.": 3,
+   "In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times.": 3,
+   "In your response, the letter {letter} should appear {let_relation} {let_{letter}requency} times.": 3
+  },
+  "n_templates": 19
+ },
+ "keywords:no_adjacent_consecutive": {
+  "count": 818,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "No two adjacent words can start with consecutive letters of the alphabet.": 109
+  },
+  "n_templates": 1
+ },
+ "keywords:palindrome": {
+  "count": 618,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Include a palindrome in your response.": 76
+  },
+  "n_templates": 1
+ },
+ "keywords:start_end": {
+  "count": 499,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Start and end your response with the same word (do not write anything after the last word, not even punctuation).": 64
+  },
+  "n_templates": 1
+ },
+ "keywords:word_count_different_numbers": {
+  "count": 526,
+  "kwargs_keys": {
+   "frequency": 526,
+   "keyword": 526,
+   "relation": 526
+  },
+  "kwargs_values_top": {
+   "frequency": {
+    "3": 199,
+    "2": 183,
+    "1": 144
+   },
+   "keyword": {
+    "\"contact\"": 4,
+    "\"skin\"": 4,
+    "\"knowledge\"": 3,
+    "\"parking\"": 3,
+    "\"equipment\"": 3,
+    "\"cousin\"": 3,
+    "\"tooth\"": 3,
+    "\"truck\"": 3,
+    "\"speed\"": 3,
+    "\"presentation\"": 3,
+    "\"cause\"": 3,
+    "\"network\"": 3
+   },
+   "relation": {
+    "\"at least\"": 320,
+    "\"less than\"": 206
+   }
+  },
+  "n_distinct_values": {
+   "frequency": 3,
+   "keyword": 438,
+   "relation": 2
+  },
+  "templates": {
+   "In your response, the word {keyword} should appear {frequency} times.": 78
+  },
+  "n_templates": 1
+ },
+ "keywords:word_once": {
+  "count": 917,
+  "kwargs_keys": {
+   "keyword": 917
+  },
+  "kwargs_values_top": {
+   "keyword": {
+    "\"fix\"": 4,
+    "\"software\"": 4,
+    "\"pace\"": 4,
+    "\"board\"": 3,
+    "\"bed\"": 3,
+    "\"effect\"": 3,
+    "\"measurement\"": 3,
+    "\"mouse\"": 3,
+    "\"grand\"": 3,
+    "\"swing\"": 3,
+    "\"star\"": 3,
+    "\"hurry\"": 3
+   }
+  },
+  "n_distinct_values": {
+   "keyword": 681
+  },
+  "templates": {
+   "Include keyword {keyword} in your response.": 135
+  },
+  "n_templates": 1
+ },
+ "language:response_language": {
+  "count": 780,
+  "kwargs_keys": {
+   "language": 780
+  },
+  "kwargs_values_top": {
+   "language": {
+    "\"ta\"": 44,
+    "\"pa\"": 41,
+    "\"ur\"": 39,
+    "\"bg\"": 37,
+    "\"ml\"": 36,
+    "\"ko\"": 35,
+    "\"fi\"": 31,
+    "\"vi\"": 30,
+    "\"ar\"": 29,
+    "\"gu\"": 29,
+    "\"kn\"": 28,
+    "\"pl\"": 27
+   }
+  },
+  "n_distinct_values": {
+   "language": 30
+  },
+  "templates": {
+   "Your ENTIRE response should be in Punjabi language, no other language is allowed.": 9,
+   "Your ENTIRE response should be in Polish language, no other language is allowed.": 8,
+   "Your ENTIRE response should be in Bulgarian language, no other language is allowed.": 8,
+   "Your ENTIRE response should be in Tamil language, no other language is allowed.": 7,
+   "Your ENTIRE response should be in Korean language, no other language is allowed.": 7,
+   "Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.": 6,
+   "Your ENTIRE response should be in Malayalam language, no other language is allowed.": 6,
+   "Your ENTIRE response should be in Vietnamese language, no other language is allowed.": 6,
+   "Your ENTIRE response should be in Nepali language, no other language is allowed.": 5,
+   "Your ENTIRE response should be in Italian language, no other language is allowed.": 4,
+   "Your ENTIRE response should be in Kannada language, no other language is allowed.": 4,
+   "Your ENTIRE response should be in German language, no other language is allowed.": 4,
+   "Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.": 4,
+   "Your ENTIRE response should be in Gujarati lan{language}age, no other lan{language}age is allowed.": 4,
+   "Your ENTIRE response should be in Telugu language, no other language is allowed.": 4
+  },
+  "n_templates": 28
+ },
+ "last_word:last_word_answer": {
+  "count": 625,
+  "kwargs_keys": {
+   "last_word": 625
+  },
+  "kwargs_values_top": {
+   "last_word": {
+    "\"single\"": 4,
+    "\"roof\"": 4,
+    "\"feeling\"": 3,
+    "\"ease\"": 3,
+    "\"thing\"": 3,
+    "\"duty\"": 3,
+    "\"slip\"": 3,
+    "\"lake\"": 3,
+    "\"slice\"": 3,
+    "\"emphasis\"": 3,
+    "\"intention\"": 3,
+    "\"read\"": 3
+   }
+  },
+  "n_distinct_values": {
+   "last_word": 502
+  },
+  "templates": {
+   "The last word of your response should be the word {last_word}.": 79
+  },
+  "n_templates": 1
+ },
+ "last_word:last_word_sent": {
+  "count": 600,
+  "kwargs_keys": {
+   "last_word": 600
+  },
+  "kwargs_values_top": {
+   "last_word": {
+    "\"rest\"": 3,
+    "\"language\"": 3,
+    "\"moment\"": 3,
+    "\"foot\"": 3,
+    "\"analyst\"": 3,
+    "\"routine\"": 3,
+    "\"purpose\"": 3,
+    "\"garbage\"": 3,
+    "\"limit\"": 2,
+    "\"private\"": 2,
+    "\"customer\"": 2,
+    "\"suspect\"": 2
+   }
+  },
+  "n_distinct_values": {
+   "last_word": 505
+  },
+  "templates": {
+   "The last word of each sentence, before punctuation, should be the word {last_word}.": 77
+  },
+  "n_templates": 1
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "count": 515,
+  "kwargs_keys": {
+   "first_word": 515,
+   "nth_paragraph": 515,
+   "num_paragraphs": 515
+  },
+  "kwargs_values_top": {
+   "first_word": {
+    "\"crash\"": 4,
+    "\"brick\"": 3,
+    "\"care\"": 3,
+    "\"novel\"": 3,
+    "\"watch\"": 3,
+    "\"attempt\"": 3,
+    "\"dark\"": 3,
+    "\"player\"": 3,
+    "\"cabinet\"": 2,
+    "\"charity\"": 2,
+    "\"house\"": 2,
+    "\"burn\"": 2
+   },
+   "nth_paragraph": {
+    "1": 178,
+    "2": 124,
+    "3": 108,
+    "4": 64,
+    "5": 35,
+    "6": 6
+   },
+   "num_paragraphs": {
+    "4": 122,
+    "2": 114,
+    "5": 107,
+    "3": 99,
+    "1": 73
+   }
+  },
+  "n_distinct_values": {
+   "first_word": 440,
+   "nth_paragraph": 6,
+   "num_paragraphs": 5
+  },
+  "templates": {
+   "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 33,
+   "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 23,
+   "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 1
+  },
+  "n_templates": 3
+ },
+ "length_constraints:number_paragraphs": {
+  "count": 690,
+  "kwargs_keys": {
+   "num_paragraphs": 690
+  },
+  "kwargs_values_top": {
+   "num_paragraphs": {
+    "5": 145,
+    "2": 141,
+    "4": 141,
+    "3": 132,
+    "1": 131
+   }
+  },
+  "n_distinct_values": {
+   "num_paragraphs": 5
+  },
+  "templates": {
+   "There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***": 90
+  },
+  "n_templates": 1
+ },
+ "length_constraints:number_sentences": {
+  "count": 562,
+  "kwargs_keys": {
+   "num_sentences": 562,
+   "relation": 562
+  },
+  "kwargs_values_top": {
+   "num_sentences": {
+    "3": 39,
+    "4": 38,
+    "19": 37,
+    "2": 35,
+    "13": 33,
+    "18": 32,
+    "9": 32,
+    "16": 31,
+    "14": 31,
+    "7": 27,
+    "17": 26,
+    "6": 26
+   },
+   "relation": {
+    "\"at least\"": 293,
+    "\"less than\"": 269
+   }
+  },
+  "n_distinct_values": {
+   "num_sentences": 20,
+   "relation": 2
+  },
+  "templates": {
+   "Your response should contain {relation} {num_sentences} sentences.": 74
+  },
+  "n_templates": 1
+ },
+ "length_constraints:number_words": {
+  "count": 729,
+  "kwargs_keys": {
+   "num_words": 729,
+   "relation": 729
+  },
+  "kwargs_values_top": {
+   "num_words": {
+    "213": 6,
+    "232": 5,
+    "217": 5,
+    "496": 5,
+    "474": 5,
+    "442": 5,
+    "114": 5,
+    "323": 5,
+    "361": 5,
+    "415": 5,
+    "376": 5,
+    "208": 5
+   },
+   "relation": {
+    "\"at least\"": 401,
+    "\"less than\"": 328
+   }
+  },
+  "n_distinct_values": {
+   "num_words": 340,
+   "relation": 2
+  },
+  "templates": {
+   "Answer with {relation} {num_words} words.": 97
+  },
+  "n_templates": 1
+ },
+ "letters:letter_counting": {
+  "count": 497,
+  "kwargs_keys": {
+   "N": 497,
+   "relation": 497
+  },
+  "kwargs_values_top": {
+   "N": {
+    "3": 266,
+    "2": 231
+   },
+   "relation": {
+    "\"at least\"": 294,
+    "\"less than\"": 203
+   }
+  },
+  "n_distinct_values": {
+   "N": 2,
+   "relation": 2
+  },
+  "templates": {
+   "Answer with {relation} {N} letters.": 74,
+   "Traffic camera that has range of 450 meters to increase effectiveness of traffic lights(around 25%)\n\nTheir products are used by police and can be used to effectively difference peoples that violated the law": 1
+  },
+  "n_templates": 2
+ },
+ "letters:letter_counting2": {
+  "count": 705,
+  "kwargs_keys": {
+   "let_frequency": 705,
+   "let_relation": 705,
+   "letter": 705
+  },
+  "kwargs_values_top": {
+   "let_frequency": {
+    "1": 93,
+    "4": 91,
+    "3": 78,
+    "9": 68,
+    "6": 67,
+    "2": 66,
+    "7": 65,
+    "8": 60,
+    "10": 59,
+    "5": 58
+   },
+   "let_relation": {
+    "\"less than\"": 394,
+    "\"at least\"": 311
+   },
+   "letter": {
+    "\"r\"": 39,
+    "\"o\"": 37,
+    "\"l\"": 34,
+    "\"d\"": 33,
+    "\"t\"": 33,
+    "\"e\"": 31,
+    "\"h\"": 31,
+    "\"y\"": 31,
+    "\"p\"": 30,
+    "\"g\"": 30,
+    "\"i\"": 30,
+    "\"c\"": 28
+   }
+  },
+  "n_distinct_values": {
+   "let_frequency": 10,
+   "let_relation": 2,
+   "letter": 26
+  },
+  "templates": {
+   "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 23,
+   "In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.": 8,
+   "In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.": 5,
+   "In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.": 5,
+   "In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.": 5,
+   "In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.": 4,
+   "In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.": 4,
+   "In your response, the letter {letter} should appear {let_relation} {let_frequency} ti{letter}es.": 4,
+   "In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times.": 4,
+   "In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.": 4,
+   "In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.": 4,
+   "In your response, the letter {letter} should appear {let_relation} {let_fre{letter}uency} times.": 4,
+   "In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.": 3,
+   "In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.": 3,
+   "In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.": 3
+  },
+  "n_templates": 19
+ },
+ "paragraphs:paragraphs": {
+  "count": 576,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***": 81
+  },
+  "n_templates": 1
+ },
+ "paragraphs:paragraphs2": {
+  "count": 744,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks.": 81
+  },
+  "n_templates": 1
+ },
+ "punctuation:no_comma": {
+  "count": 730,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "In your entire response, refrain from the use of any commas.": 102
+  },
+  "n_templates": 1
+ },
+ "punctuation:punctuation_dot": {
+  "count": 847,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.": 110
+  },
+  "n_templates": 1
+ },
+ "punctuation:punctuation_exclamation": {
+  "count": 627,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.": 80
+  },
+  "n_templates": 1
+ },
+ "startend:end_checker": {
+  "count": 537,
+  "kwargs_keys": {
+   "end_phrase": 537
+  },
+  "kwargs_values_top": {
+   "end_phrase": {
+    "\"Is there anything else I can help with?\"": 284,
+    "\"Any other questions?\"": 253
+   }
+  },
+  "n_distinct_values": {
+   "end_phrase": 2
+  },
+  "templates": {
+   "Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.": 74
+  },
+  "n_templates": 1
+ },
+ "startend:quotation": {
+  "count": 417,
+  "kwargs_keys": {},
+  "kwargs_values_top": {},
+  "n_distinct_values": {},
+  "templates": {
+   "Wrap your entire response with double quotation marks.": 55
+  },
+  "n_templates": 1
+ }
+}

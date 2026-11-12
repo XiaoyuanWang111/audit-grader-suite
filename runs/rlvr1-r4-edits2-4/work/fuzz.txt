@@ -1,0 +1,47 @@
+combination:two_responses {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 2, 'gate_vs_replacement|gate_fail': 2, 'skyrl_vs_replacement|skyrl_pass': 6, 'gate_vs_replacement|gate_pass': 6}
+copy:repeat_phrase {'n': 1000, 'gate_vs_replacement|gate_pass': 81}
+change_case:capital_word_frequency {'n': 1000, 'gate_vs_replacement|gate_pass': 53, 'skyrl_vs_replacement|skyrl_pass': 32, 'gate_vs_replacement|gate_fail': 12, 'skyrl_vs_replacement|skyrl_fail': 2}
+count:lowercase_counting {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 533, 'gate_vs_replacement|gate_fail': 337, 'gate_vs_replacement|gate_pass': 9, 'skyrl_vs_replacement|skyrl_pass': 32}
+detectable_content:number_placeholders {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 55, 'gate_vs_replacement|gate_pass': 1}
+detectable_content:postscript {'n': 1000, 'gate_vs_replacement|gate_fail': 5, 'skyrl_vs_replacement|skyrl_pass': 358, 'gate_vs_replacement|gate_pass': 128}
+count:counting_composition {'n': 1000, 'gate_vs_replacement|gate_pass': 101}
+detectable_format:bigram_wrapping {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 79, 'gate_vs_replacement|gate_pass': 1}
+detectable_format:constrained_response {'n': 1000, 'gate_vs_replacement|gate_fail': 150}
+count:count_unique {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 47, 'skyrl_vs_replacement|skyrl_fail': 363, 'gate_vs_replacement|gate_fail': 302, 'gate_vs_replacement|gate_pass': 342}
+detectable_format:json_format {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 2, 'gate_vs_replacement|gate_pass': 2}
+detectable_format:multiple_sections {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 3, 'gate_vs_replacement|gate_pass': 3}
+detectable_format:number_bullet_lists {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 10, 'skyrl_vs_replacement|skyrl_fail': 3}
+detectable_format:number_highlighted_sections {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 14, 'gate_vs_replacement|gate_pass': 12}
+detectable_format:sentence_hyphens {'n': 1000, 'gate_vs_replacement|gate_fail': 125, 'skyrl_vs_replacement|skyrl_pass': 49, 'skyrl_vs_replacement|skyrl_fail': 16, 'gate_vs_replacement|gate_pass': 1}
+detectable_format:title {'n': 1000, 'gate_vs_replacement|gate_pass': 1, 'skyrl_vs_replacement|skyrl_pass': 1}
+detectable_format:square_brackets {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 40, 'skyrl_vs_replacement|skyrl_fail': 2, 'gate_vs_replacement|gate_fail': 2, 'gate_vs_replacement|gate_pass': 3}
+first_word:first_word_answer {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 45, 'gate_vs_replacement|gate_pass': 10, 'gate_vs_replacement|gate_fail': 9}
+keywords:frequency {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 32, 'skyrl_vs_replacement|skyrl_fail': 18, 'gate_vs_replacement|gate_pass': 14}
+change_case:english_capital {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 6, 'gate_vs_replacement|gate_pass': 11, 'gate_vs_replacement|gate_fail': 3}
+keywords:existence {'n': 1000}
+keywords:forbidden_words {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 32, 'gate_vs_replacement|gate_pass': 32}
+first_word:first_word_sent {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 51, 'skyrl_vs_replacement|skyrl_fail': 9, 'gate_vs_replacement|gate_fail': 4, 'gate_vs_replacement|gate_pass': 13}
+keywords:no_adjacent_consecutive {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 151, 'gate_vs_replacement|gate_pass': 174, 'skyrl_vs_replacement|skyrl_fail': 125, 'gate_vs_replacement|gate_fail': 97}
+keywords:letter_frequency {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 25, 'gate_vs_replacement|gate_pass': 25, 'skyrl_vs_replacement|skyrl_fail': 1, 'gate_vs_replacement|gate_fail': 1}
+keywords:palindrome {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 594, 'gate_vs_replacement|gate_fail': 7, 'gate_vs_replacement|gate_pass': 4, 'skyrl_vs_replacement|skyrl_fail': 4}
+keywords:keyword_specific_position {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 1}
+keywords:start_end {'n': 1000, 'gate_vs_replacement|gate_pass': 58, 'skyrl_vs_replacement|skyrl_pass': 13, 'skyrl_vs_replacement|skyrl_fail': 34, 'gate_vs_replacement|gate_fail': 11}
+keywords:word_once {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 80, 'gate_vs_replacement|gate_fail': 59, 'skyrl_vs_replacement|skyrl_pass': 54}
+keywords:word_count_different_numbers {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 362, 'gate_vs_replacement|gate_pass': 367, 'skyrl_vs_replacement|skyrl_fail': 35, 'gate_vs_replacement|gate_fail': 35}
+last_word:last_word_answer {'n': 1000, 'skyrl_exception|IndexError': 48, 'skyrl_vs_replacement|skyrl_fail': 27, 'gate_vs_replacement|gate_pass': 8, 'gate_vs_replacement|gate_fail': 7}
+length_constraints:nth_paragraph_first_word {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 1, 'skyrl_vs_replacement|skyrl_fail': 4}
+length_constraints:number_paragraphs {'n': 1000, 'gate_vs_replacement|gate_fail': 34, 'skyrl_vs_replacement|skyrl_pass': 16, 'skyrl_vs_replacement|skyrl_fail': 41, 'gate_vs_replacement|gate_pass': 30}
+letters:letter_counting {'n': 1000, 'gate_vs_replacement|gate_fail': 34, 'skyrl_vs_replacement|skyrl_pass': 24, 'gate_vs_replacement|gate_pass': 57, 'skyrl_vs_replacement|skyrl_fail': 3}
+length_constraints:number_words {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 27, 'gate_vs_replacement|gate_pass': 27}
+last_word:last_word_sent {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 6, 'skyrl_vs_replacement|skyrl_pass': 45, 'gate_vs_replacement|gate_pass': 18, 'gate_vs_replacement|gate_fail': 2}
+paragraphs:paragraphs {'n': 1000, 'gate_vs_replacement|gate_pass': 354, 'skyrl_vs_replacement|skyrl_pass': 77, 'skyrl_vs_replacement|skyrl_fail': 1}
+letters:letter_counting2 {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 22, 'gate_vs_replacement|gate_pass': 22, 'skyrl_vs_replacement|skyrl_fail': 1, 'gate_vs_replacement|gate_fail': 1}
+length_constraints:number_sentences {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 69, 'gate_vs_replacement|gate_pass': 68, 'skyrl_vs_replacement|skyrl_fail': 52, 'gate_vs_replacement|gate_fail': 48}
+paragraphs:paragraphs2 {'n': 1000, 'gate_vs_replacement|gate_pass': 192, 'skyrl_vs_replacement|skyrl_fail': 16, 'skyrl_vs_replacement|skyrl_pass': 1}
+punctuation:punctuation_dot {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 97, 'gate_vs_replacement|gate_pass': 97}
+punctuation:no_comma {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 160, 'gate_vs_replacement|gate_pass': 160}
+punctuation:punctuation_exclamation {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 169, 'gate_vs_replacement|gate_pass': 169}
+startend:end_checker {'n': 1000, 'skyrl_vs_replacement|skyrl_fail': 3, 'gate_vs_replacement|gate_fail': 3, 'skyrl_vs_replacement|skyrl_pass': 2, 'gate_vs_replacement|gate_pass': 2}
+startend:quotation {'n': 1000, 'gate_vs_replacement|gate_pass': 1}
+change_case:english_lowercase {'n': 1000, 'gate_vs_replacement|gate_pass': 67, 'gate_vs_replacement|gate_fail': 4}
+language:response_language {'n': 1000, 'skyrl_vs_replacement|skyrl_pass': 83, 'gate_vs_replacement|gate_pass': 21, 'gate_vs_replacement|gate_fail': 5}

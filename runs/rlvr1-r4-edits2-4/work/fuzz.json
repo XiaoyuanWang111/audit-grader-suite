@@ -1,0 +1,1747 @@
+{
+ "change_case:capital_word_frequency": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 12,
+   "gate_vs_replacement|gate_pass": 53,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 2,
+   "skyrl_vs_replacement|skyrl_pass": 32
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "capital_frequency": 2,
+     "capital_relation": "at least"
+    },
+    "replacement": true,
+    "response": "A NASA",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "capital_frequency": 1,
+     "capital_relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "capital_frequency": 3,
+     "capital_relation": "at least"
+    },
+    "replacement": true,
+    "response": "SECTION P.S. ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "capital_frequency": 13,
+     "capital_relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "change_case:english_capital": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 3,
+   "gate_vs_replacement|gate_pass": 11,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 6
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "<b> SECTION",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "İ\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": true,
+    "response": "SECTION ",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ },
+ "change_case:english_lowercase": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 4,
+   "gate_vs_replacement|gate_pass": 67,
+   "n": 1000
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "the\n你好 ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "ß ",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ },
+ "combination:two_responses": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 2,
+   "gate_vs_replacement|gate_pass": 6,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 2,
+   "skyrl_vs_replacement|skyrl_pass": 6
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "</b> ******** ******\n! ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "****** `******… ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "</b> ******** ******\n! ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "****** `******… ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "copy:repeat_phrase": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 81,
+   "n": 1000
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "phrase": "Actions speak louder than words",
+     "small_n": 2
+    },
+    "replacement": false,
+    "response": "Actions speak louder than words Actions speak louder than words ",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ },
+ "count:count_unique": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 302,
+   "gate_vs_replacement|gate_pass": 342,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 363,
+   "skyrl_vs_replacement|skyrl_pass": 47
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "<b>",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "Any other questions? level Any other questions? NASA",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "##",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "count:counting_composition": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 101,
+   "n": 1000
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "n_sent": 3,
+     "n_words": 2
+    },
+    "replacement": false,
+    "response": "Rain A ... P.S. the Rain ",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ },
+ "count:lowercase_counting": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 337,
+   "gate_vs_replacement|gate_pass": 9,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 533,
+   "skyrl_vs_replacement|skyrl_pass": 32
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "N": 3
+    },
+    "replacement": true,
+    "response": "cat\n",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "N": 3
+    },
+    "replacement": false,
+    "response": "art art… art art ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "N": 3
+    },
+    "replacement": true,
+    "response": "river limit\nrain art ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "N": 2
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_content:number_placeholders": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 1,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 55
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_placeholders": 1
+    },
+    "replacement": false,
+    "response": "[ ]",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "num_placeholders": 1
+    },
+    "replacement": false,
+    "response": "[]",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_content:postscript": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 5,
+   "gate_vs_replacement|gate_pass": 128,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 358
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "postscript_marker": "P.P.S"
+    },
+    "replacement": true,
+    "response": "<b> P.P.S ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "postscript_marker": "P.S."
+    },
+    "replacement": false,
+    "response": "start **\nP.S. ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "postscript_marker": "P.S."
+    },
+    "replacement": false,
+    "response": "你好P.S. ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:bigram_wrapping": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 1,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 79
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "****** ǅ\nA *** ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:constrained_response": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 150,
+   "n": 1000
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "My answer is yes. [] ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:json_format": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 2,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 2
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "3.5 ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "3.5 ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:multiple_sections": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 3,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 3
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_sections": 1,
+     "section_spliter": "Section"
+    },
+    "replacement": false,
+    "response": "Section 2.",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_sections": 1,
+     "section_spliter": "Section"
+    },
+    "replacement": false,
+    "response": "Section 2.",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:number_bullet_lists": {
+  "counts": {
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 3,
+   "skyrl_vs_replacement|skyrl_pass": 10
+  },
+  "minimal": {
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "num_bullets": 1
+    },
+    "replacement": true,
+    "response": "*\n***\n* ```\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "num_bullets": 1
+    },
+    "replacement": false,
+    "response": "-\n",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:number_highlighted_sections": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 12,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 14
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_highlights": 1
+    },
+    "replacement": false,
+    "response": "******. * ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "num_highlights": 2
+    },
+    "replacement": false,
+    "response": "***: ****** ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:sentence_hyphens": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 125,
+   "gate_vs_replacement|gate_pass": 1,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 16,
+   "skyrl_vs_replacement|skyrl_pass": 49
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "NaN ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "A\n-",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": ".p.s. ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:square_brackets": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 2,
+   "gate_vs_replacement|gate_pass": 3,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 2,
+   "skyrl_vs_replacement|skyrl_pass": 40
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "[] ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "[ ] 3.5",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "[] !",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "detectable_format:title": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 1,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 1
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "<< >> ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": "<< </b>#>> ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "first_word:first_word_answer": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 9,
+   "gate_vs_replacement|gate_pass": 10,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 45
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "first_word": "invite"
+    },
+    "replacement": true,
+    "response": "<b>invite",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "first_word": "turn"
+    },
+    "replacement": false,
+    "response": "İ turn ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "first_word": "skin"
+    },
+    "replacement": true,
+    "response": "“\nskin ",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ },
+ "first_word:first_word_sent": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 4,
+   "gate_vs_replacement|gate_pass": 13,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 9,
+   "skyrl_vs_replacement|skyrl_pass": 51
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "first_word": "print"
+    },
+    "replacement": true,
+    "response": "... print ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "first_word": "telephone"
+    },
+    "replacement": false,
+    "response": "telephone \nnoon\n",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "first_word": "print"
+    },
+    "replacement": true,
+    "response": "... print ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "first_word": "valuable"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:existence": {
+  "counts": {
+   "n": 1000
+  },
+  "minimal": {}
+ },
+ "keywords:forbidden_words": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 32,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 32
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "forbidden_words": [
+      "keep",
+      "lab"
+     ]
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "forbidden_words": [
+      "keep",
+      "lab"
+     ]
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:frequency": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 14,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 18,
+   "skyrl_vs_replacement|skyrl_pass": 32
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "frequency": 3,
+     "keyword": "routine",
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "frequency": 1,
+     "keyword": "reading",
+     "relation": "less than"
+    },
+    "replacement": true,
+    "response": "Rainreading ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "frequency": 2,
+     "keyword": "stretch",
+     "relation": "at least"
+    },
+    "replacement": false,
+    "response": "stretchstretch",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:keyword_specific_position": {
+  "counts": {
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 1
+  },
+  "minimal": {
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "keyword": "dust",
+     "m": 2,
+     "n": 2
+    },
+    "replacement": false,
+    "response": "Any other questions?dust dust ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:letter_frequency": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 1,
+   "gate_vs_replacement|gate_pass": 25,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 1,
+   "skyrl_vs_replacement|skyrl_pass": 25
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "let_frequency": 1,
+     "let_relation": "less than",
+     "letter": "i"
+    },
+    "replacement": true,
+    "response": "İ ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "let_frequency": 8,
+     "let_relation": "less than",
+     "letter": "z"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "let_frequency": 1,
+     "let_relation": "less than",
+     "letter": "i"
+    },
+    "replacement": true,
+    "response": "İ ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "let_frequency": 8,
+     "let_relation": "less than",
+     "letter": "z"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:no_adjacent_consecutive": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 97,
+   "gate_vs_replacement|gate_pass": 174,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 125,
+   "skyrl_vs_replacement|skyrl_pass": 151
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "a a\n",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": true,
+    "response": "{\"a\": 1} 2.",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:palindrome": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 7,
+   "gate_vs_replacement|gate_pass": 4,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 4,
+   "skyrl_vs_replacement|skyrl_pass": 594
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "'noon ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "ǅnoon",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": true,
+    "response": ".noon ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": "*** ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:start_end": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 11,
+   "gate_vs_replacement|gate_pass": 58,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 34,
+   "skyrl_vs_replacement|skyrl_pass": 13
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": true,
+    "response": "<b>\nZebras\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "'",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": true,
+    "response": "Zebras\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": null,
+    "replacement": false,
+    "response": ">> ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:word_count_different_numbers": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 35,
+   "gate_vs_replacement|gate_pass": 367,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 35,
+   "skyrl_vs_replacement|skyrl_pass": 362
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "frequency": 2,
+     "keyword": "listen",
+     "relation": "less than"
+    },
+    "replacement": true,
+    "response": "listen\nlisten\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "frequency": 3,
+     "keyword": "touch",
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "frequency": 2,
+     "keyword": "listen",
+     "relation": "less than"
+    },
+    "replacement": true,
+    "response": "listen\nlisten\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "frequency": 3,
+     "keyword": "touch",
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "keywords:word_once": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 59,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 80,
+   "skyrl_vs_replacement|skyrl_pass": 54
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "keyword": "potential"
+    },
+    "replacement": true,
+    "response": "potential\npotential ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "keyword": "potential"
+    },
+    "replacement": true,
+    "response": "potential\npotential ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "keyword": "suspect"
+    },
+    "replacement": false,
+    "response": "suspectcafé ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "language:response_language": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 5,
+   "gate_vs_replacement|gate_pass": 21,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 83
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "language": "en"
+    },
+    "replacement": true,
+    "response": "p.s.\n",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "language": "pt"
+    },
+    "replacement": false,
+    "response": "a\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "language": "ar"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "last_word:last_word_answer": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 7,
+   "gate_vs_replacement|gate_pass": 8,
+   "n": 1000,
+   "skyrl_exception|IndexError": 48,
+   "skyrl_vs_replacement|skyrl_fail": 27
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "last_word": "speech"
+    },
+    "replacement": true,
+    "response": "speech- ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "last_word": "country"
+    },
+    "replacement": false,
+    "response": "country 你好 ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_exception|IndexError": {
+    "gate_check": false,
+    "kwargs": {
+     "last_word": "opening"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": false,
+    "skyrl_error": "IndexError"
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "last_word": "language"
+    },
+    "replacement": true,
+    "response": "language —",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ },
+ "last_word:last_word_sent": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 2,
+   "gate_vs_replacement|gate_pass": 18,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 6,
+   "skyrl_vs_replacement|skyrl_pass": 45
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "last_word": "base"
+    },
+    "replacement": true,
+    "response": "base<b>\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "last_word": "role"
+    },
+    "replacement": false,
+    "response": "Мыrole ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "last_word": "hat"
+    },
+    "replacement": true,
+    "response": "cat#hat",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "last_word": "routine"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "counts": {
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 4,
+   "skyrl_vs_replacement|skyrl_pass": 1
+  },
+  "minimal": {
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "first_word": "aspect",
+     "nth_paragraph": 1,
+     "num_paragraphs": 1
+    },
+    "replacement": true,
+    "response": "##\naspect ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "first_word": "burn",
+     "nth_paragraph": 3,
+     "num_paragraphs": 2
+    },
+    "replacement": false,
+    "response": "” \n\n burn ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "length_constraints:number_paragraphs": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 34,
+   "gate_vs_replacement|gate_pass": 30,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 41,
+   "skyrl_vs_replacement|skyrl_pass": 16
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "num_paragraphs": 1
+    },
+    "replacement": true,
+    "response": "Section\n\n .",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_paragraphs": 1
+    },
+    "replacement": false,
+    "response": "***\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {
+     "num_paragraphs": 1
+    },
+    "replacement": true,
+    "response": "******",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": false,
+    "kwargs": {
+     "num_paragraphs": 2
+    },
+    "replacement": false,
+    "response": "'\n*** ?",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "length_constraints:number_sentences": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 48,
+   "gate_vs_replacement|gate_pass": 68,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 52,
+   "skyrl_vs_replacement|skyrl_pass": 69
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "num_sentences": 3,
+     "relation": "at least"
+    },
+    "replacement": true,
+    "response": "NaN\nat least )\n你好 ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_sentences": 10,
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "num_sentences": 3,
+     "relation": "at least"
+    },
+    "replacement": true,
+    "response": "NaN\nat least )\n你好 ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_sentences": 10,
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "length_constraints:number_words": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 27,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 27
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_words": 114,
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "num_words": 114,
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "letters:letter_counting": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 34,
+   "gate_vs_replacement|gate_pass": 57,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 3,
+   "skyrl_vs_replacement|skyrl_pass": 24
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "N": 3,
+     "relation": "at least"
+    },
+    "replacement": true,
+    "response": "at least",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "N": 2,
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "N": 2,
+     "relation": "at least"
+    },
+    "replacement": true,
+    "response": "Мы",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "N": 2,
+     "relation": "less than"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "letters:letter_counting2": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 1,
+   "gate_vs_replacement|gate_pass": 22,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 1,
+   "skyrl_vs_replacement|skyrl_pass": 22
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "let_frequency": 1,
+     "let_relation": "less than",
+     "letter": "i"
+    },
+    "replacement": true,
+    "response": "İ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "let_frequency": 3,
+     "let_relation": "less than",
+     "letter": "c"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "let_frequency": 1,
+     "let_relation": "less than",
+     "letter": "i"
+    },
+    "replacement": true,
+    "response": "İ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "let_frequency": 3,
+     "let_relation": "less than",
+     "letter": "c"
+    },
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "paragraphs:paragraphs": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 354,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 1,
+   "skyrl_vs_replacement|skyrl_pass": 77
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {},
+    "replacement": false,
+    "response": "river\n\n\n Any other questions? ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {},
+    "replacement": true,
+    "response": "。\n***，\n***\n2. ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {},
+    "replacement": false,
+    "response": "İ*** ; ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "paragraphs:paragraphs2": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 192,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 16,
+   "skyrl_vs_replacement|skyrl_pass": 1
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {},
+    "replacement": false,
+    "response": "</b> ****** , ",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": true,
+    "kwargs": {},
+    "replacement": true,
+    "response": "NASA\n\t\n3.5",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {},
+    "replacement": false,
+    "response": "ß\n\t\n*\n\n 。 ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "punctuation:no_comma": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 160,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 160
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "punctuation:punctuation_dot": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 97,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 97
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "punctuation:punctuation_exclamation": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 169,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_pass": 169
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "startend:end_checker": {
+  "counts": {
+   "gate_vs_replacement|gate_fail": 3,
+   "gate_vs_replacement|gate_pass": 2,
+   "n": 1000,
+   "skyrl_vs_replacement|skyrl_fail": 3,
+   "skyrl_vs_replacement|skyrl_pass": 2
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "end_phrase": "Is there anything else I can help with?"
+    },
+    "replacement": true,
+    "response": "Is there anything else I can help with? '\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "end_phrase": "Is there anything else I can help with?"
+    },
+    "replacement": false,
+    "response": "SectionIs there anything else I can help with? ",
+    "skyrl": true,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_fail": {
+    "gate_check": false,
+    "kwargs": {
+     "end_phrase": "Is there anything else I can help with?"
+    },
+    "replacement": true,
+    "response": "Is there anything else I can help with? '\n",
+    "skyrl": false,
+    "skyrl_error": null
+   },
+   "skyrl_vs_replacement|skyrl_pass": {
+    "gate_check": true,
+    "kwargs": {
+     "end_phrase": "Is there anything else I can help with?"
+    },
+    "replacement": false,
+    "response": "SectionIs there anything else I can help with? ",
+    "skyrl": true,
+    "skyrl_error": null
+   }
+  }
+ },
+ "startend:quotation": {
+  "counts": {
+   "gate_vs_replacement|gate_pass": 1,
+   "n": 1000
+  },
+  "minimal": {
+   "gate_vs_replacement|gate_pass": {
+    "gate_check": true,
+    "kwargs": null,
+    "replacement": false,
+    "response": "'\n",
+    "skyrl": false,
+    "skyrl_error": null
+   }
+  }
+ }
+}

@@ -1,0 +1,1897 @@
+{
+ "empty": {
+  "rows": {
+   "NV_reward1": 1702,
+   "NV_infra": 625,
+   "VG_gate_pass": 810,
+   "R_reward1": 1437,
+   "rows": 11817
+  },
+  "per_check": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "NV": 335,
+    "NV_err": 0,
+    "VG_n": 601,
+    "VG": 335,
+    "R": 335
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 772,
+    "VG": 0,
+    "R": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 604,
+    "VG": 0,
+    "R": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 253,
+    "VG": 0,
+    "R": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 554,
+    "VG": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "NV": 687,
+    "NV_err": 0,
+    "R": 687
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 1,
+    "VG": 0,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "NV": 869,
+    "NV_err": 0,
+    "VG_n": 869,
+    "VG": 0,
+    "R": 869
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 585,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 644,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "NV": 575,
+    "NV_err": 0,
+    "R": 575
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 120,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 133,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 453,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 512,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 555,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "NV": 669,
+    "NV_err": 0,
+    "VG_n": 669,
+    "VG": 0,
+    "R": 669
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "NV": 553,
+    "NV_err": 0,
+    "VG_n": 553,
+    "VG": 0,
+    "R": 553
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 589,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 557,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "NV": 540,
+    "NV_err": 0,
+    "VG_n": 540,
+    "VG": 0,
+    "R": 540
+   },
+   "keywords:existence": {
+    "n": 932,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 932,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "NV": 836,
+    "NV_err": 0,
+    "VG_n": 836,
+    "VG": 836,
+    "R": 836
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "NV": 311,
+    "NV_err": 0,
+    "VG_n": 607,
+    "VG": 311,
+    "R": 311
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 676,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "NV": 420,
+    "NV_err": 0,
+    "VG_n": 783,
+    "VG": 420,
+    "R": 420
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "NV": 818,
+    "NV_err": 0,
+    "VG_n": 818,
+    "VG": 818,
+    "R": 818
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 618,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 499,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "NV": 206,
+    "NV_err": 0,
+    "VG_n": 526,
+    "VG": 206,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 917,
+    "VG": 0,
+    "R": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "NV": 780,
+    "NV_err": 0,
+    "R": 0
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "NV": 0,
+    "NV_err": 625,
+    "VG_n": 625,
+    "VG": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "NV": 600,
+    "NV_err": 0,
+    "VG_n": 600,
+    "VG": 0,
+    "R": 600
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 515,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 690,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "NV": 269,
+    "NV_err": 0,
+    "VG_n": 562,
+    "VG": 269,
+    "R": 269
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "NV": 328,
+    "NV_err": 0,
+    "VG_n": 729,
+    "VG": 328,
+    "R": 328
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "NV": 203,
+    "NV_err": 0,
+    "R": 203
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "NV": 394,
+    "NV_err": 0,
+    "VG_n": 705,
+    "VG": 394,
+    "R": 394
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 576,
+    "VG": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 744,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "NV": 730,
+    "NV_err": 0,
+    "VG_n": 730,
+    "VG": 730,
+    "R": 730
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "NV": 847,
+    "NV_err": 0,
+    "VG_n": 847,
+    "VG": 847,
+    "R": 847
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "NV": 627,
+    "NV_err": 0,
+    "VG_n": 627,
+    "VG": 627,
+    "R": 627
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 537,
+    "VG": 0,
+    "R": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 417,
+    "VG": 0,
+    "R": 0
+   }
+  }
+ },
+ "whitespace": {
+  "rows": {
+   "NV_reward1": 1702,
+   "NV_infra": 625,
+   "VG_gate_pass": 810,
+   "R_reward1": 1437,
+   "rows": 11817
+  },
+  "per_check": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "NV": 335,
+    "NV_err": 0,
+    "VG_n": 601,
+    "VG": 335,
+    "R": 335
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 772,
+    "VG": 0,
+    "R": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 604,
+    "VG": 0,
+    "R": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 253,
+    "VG": 0,
+    "R": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 554,
+    "VG": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "NV": 687,
+    "NV_err": 0,
+    "R": 687
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 1,
+    "VG": 0,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "NV": 869,
+    "NV_err": 0,
+    "VG_n": 869,
+    "VG": 0,
+    "R": 869
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 585,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 644,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "NV": 575,
+    "NV_err": 0,
+    "R": 575
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 120,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 133,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 453,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 512,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 555,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "NV": 669,
+    "NV_err": 0,
+    "VG_n": 669,
+    "VG": 0,
+    "R": 669
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "NV": 553,
+    "NV_err": 0,
+    "VG_n": 553,
+    "VG": 0,
+    "R": 553
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 589,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 557,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "NV": 540,
+    "NV_err": 0,
+    "VG_n": 540,
+    "VG": 0,
+    "R": 540
+   },
+   "keywords:existence": {
+    "n": 932,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 932,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "NV": 836,
+    "NV_err": 0,
+    "VG_n": 836,
+    "VG": 836,
+    "R": 836
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "NV": 311,
+    "NV_err": 0,
+    "VG_n": 607,
+    "VG": 311,
+    "R": 311
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 676,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "NV": 420,
+    "NV_err": 0,
+    "VG_n": 783,
+    "VG": 420,
+    "R": 420
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "NV": 818,
+    "NV_err": 0,
+    "VG_n": 818,
+    "VG": 818,
+    "R": 818
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 618,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 499,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "NV": 206,
+    "NV_err": 0,
+    "VG_n": 526,
+    "VG": 206,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 917,
+    "VG": 0,
+    "R": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "NV": 780,
+    "NV_err": 0,
+    "R": 0
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "NV": 0,
+    "NV_err": 625,
+    "VG_n": 625,
+    "VG": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "NV": 600,
+    "NV_err": 0,
+    "VG_n": 600,
+    "VG": 0,
+    "R": 600
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 515,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 690,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "NV": 269,
+    "NV_err": 0,
+    "VG_n": 562,
+    "VG": 269,
+    "R": 269
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "NV": 328,
+    "NV_err": 0,
+    "VG_n": 729,
+    "VG": 328,
+    "R": 328
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "NV": 203,
+    "NV_err": 0,
+    "R": 203
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "NV": 394,
+    "NV_err": 0,
+    "VG_n": 705,
+    "VG": 394,
+    "R": 394
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 576,
+    "VG": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 744,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "NV": 730,
+    "NV_err": 0,
+    "VG_n": 730,
+    "VG": 730,
+    "R": 730
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "NV": 847,
+    "NV_err": 0,
+    "VG_n": 847,
+    "VG": 847,
+    "R": 847
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "NV": 627,
+    "NV_err": 0,
+    "VG_n": 627,
+    "VG": 627,
+    "R": 627
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 537,
+    "VG": 0,
+    "R": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 417,
+    "VG": 0,
+    "R": 0
+   }
+  }
+ },
+ "repeated_word": {
+  "rows": {
+   "NV_reward1": 729,
+   "NV_infra": 0,
+   "VG_gate_pass": 1069,
+   "R_reward1": 684,
+   "rows": 11817
+  },
+  "per_check": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "NV": 335,
+    "NV_err": 0,
+    "VG_n": 601,
+    "VG": 335,
+    "R": 335
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 772,
+    "VG": 0,
+    "R": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "NV": 604,
+    "NV_err": 0,
+    "VG_n": 604,
+    "VG": 604,
+    "R": 604
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 253,
+    "VG": 0,
+    "R": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 554,
+    "VG": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "NV": 0,
+    "NV_err": 0,
+    "R": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 1,
+    "VG": 0,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 869,
+    "VG": 869,
+    "R": 0
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 585,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 644,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "NV": 0,
+    "NV_err": 0,
+    "R": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 120,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 133,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 453,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 512,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 555,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "NV": 669,
+    "NV_err": 0,
+    "VG_n": 669,
+    "VG": 0,
+    "R": 669
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 553,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 589,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 557,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 540,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:existence": {
+    "n": 932,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 932,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "NV": 836,
+    "NV_err": 0,
+    "VG_n": 836,
+    "VG": 836,
+    "R": 836
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "NV": 311,
+    "NV_err": 0,
+    "VG_n": 607,
+    "VG": 311,
+    "R": 311
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 676,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "NV": 419,
+    "NV_err": 0,
+    "VG_n": 783,
+    "VG": 419,
+    "R": 419
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "NV": 818,
+    "NV_err": 0,
+    "VG_n": 818,
+    "VG": 0,
+    "R": 818
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 618,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "NV": 499,
+    "NV_err": 0,
+    "VG_n": 499,
+    "VG": 499,
+    "R": 499
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "NV": 206,
+    "NV_err": 0,
+    "VG_n": 526,
+    "VG": 206,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 917,
+    "VG": 0,
+    "R": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "NV": 15,
+    "NV_err": 0,
+    "R": 15
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 625,
+    "VG": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 600,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 515,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "NV": 131,
+    "NV_err": 0,
+    "VG_n": 690,
+    "VG": 131,
+    "R": 131
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "NV": 282,
+    "NV_err": 0,
+    "VG_n": 562,
+    "VG": 282,
+    "R": 282
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "NV": 320,
+    "NV_err": 0,
+    "VG_n": 729,
+    "VG": 320,
+    "R": 320
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "NV": 294,
+    "NV_err": 0,
+    "R": 294
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "NV": 381,
+    "NV_err": 0,
+    "VG_n": 705,
+    "VG": 381,
+    "R": 381
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 576,
+    "VG": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 744,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "NV": 730,
+    "NV_err": 0,
+    "VG_n": 730,
+    "VG": 730,
+    "R": 730
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "NV": 847,
+    "NV_err": 0,
+    "VG_n": 847,
+    "VG": 847,
+    "R": 847
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "NV": 627,
+    "NV_err": 0,
+    "VG_n": 627,
+    "VG": 627,
+    "R": 627
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 537,
+    "VG": 0,
+    "R": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 417,
+    "VG": 0,
+    "R": 0
+   }
+  }
+ },
+ "repeated_sentence": {
+  "rows": {
+   "NV_reward1": 273,
+   "NV_infra": 0,
+   "VG_gate_pass": 834,
+   "R_reward1": 238,
+   "rows": 11817
+  },
+  "per_check": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "NV": 335,
+    "NV_err": 0,
+    "VG_n": 601,
+    "VG": 335,
+    "R": 335
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 772,
+    "VG": 0,
+    "R": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 604,
+    "VG": 0,
+    "R": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 253,
+    "VG": 0,
+    "R": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 554,
+    "VG": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "NV": 0,
+    "NV_err": 0,
+    "R": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 1,
+    "VG": 1,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 869,
+    "VG": 869,
+    "R": 0
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 585,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 644,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "NV": 0,
+    "NV_err": 0,
+    "R": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 120,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 133,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 453,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 512,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 555,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 669,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 553,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 589,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 557,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 540,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:existence": {
+    "n": 932,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 932,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "NV": 833,
+    "NV_err": 0,
+    "VG_n": 836,
+    "VG": 833,
+    "R": 833
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "NV": 312,
+    "NV_err": 0,
+    "VG_n": 607,
+    "VG": 312,
+    "R": 312
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 676,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "NV": 408,
+    "NV_err": 0,
+    "VG_n": 783,
+    "VG": 408,
+    "R": 408
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "NV": 818,
+    "NV_err": 0,
+    "VG_n": 818,
+    "VG": 818,
+    "R": 818
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 618,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 499,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "NV": 207,
+    "NV_err": 0,
+    "VG_n": 526,
+    "VG": 207,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 917,
+    "VG": 0,
+    "R": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "NV": 15,
+    "NV_err": 0,
+    "R": 15
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 625,
+    "VG": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 600,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 515,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "NV": 131,
+    "NV_err": 0,
+    "VG_n": 690,
+    "VG": 131,
+    "R": 131
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "NV": 293,
+    "NV_err": 0,
+    "VG_n": 562,
+    "VG": 293,
+    "R": 293
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "NV": 328,
+    "NV_err": 0,
+    "VG_n": 729,
+    "VG": 328,
+    "R": 328
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "NV": 294,
+    "NV_err": 0,
+    "R": 294
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "NV": 366,
+    "NV_err": 0,
+    "VG_n": 705,
+    "VG": 366,
+    "R": 366
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 576,
+    "VG": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 744,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "NV": 730,
+    "NV_err": 0,
+    "VG_n": 730,
+    "VG": 730,
+    "R": 730
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 847,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "NV": 627,
+    "NV_err": 0,
+    "VG_n": 627,
+    "VG": 627,
+    "R": 627
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 537,
+    "VG": 0,
+    "R": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 417,
+    "VG": 0,
+    "R": 0
+   }
+  }
+ },
+ "restate_prompt": {
+  "rows": {
+   "NV_reward1": 746,
+   "NV_infra": 0,
+   "VG_gate_pass": 1365,
+   "R_reward1": 458,
+   "rows": 11817
+  },
+  "per_check": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "NV": 323,
+    "NV_err": 0,
+    "VG_n": 601,
+    "VG": 329,
+    "R": 323
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 772,
+    "VG": 0,
+    "R": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 604,
+    "VG": 0,
+    "R": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "NV": 248,
+    "NV_err": 0,
+    "VG_n": 253,
+    "VG": 248,
+    "R": 241
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 554,
+    "VG": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "NV": 0,
+    "NV_err": 0,
+    "R": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 1,
+    "VG": 0,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 869,
+    "VG": 869,
+    "R": 348
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "NV": 183,
+    "NV_err": 0,
+    "VG_n": 585,
+    "VG": 182,
+    "R": 182
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "NV": 497,
+    "NV_err": 0,
+    "VG_n": 644,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "NV": 0,
+    "NV_err": 0,
+    "R": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "NV": 120,
+    "NV_err": 0,
+    "VG_n": 120,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 133,
+    "VG": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "NV": 184,
+    "NV_err": 0,
+    "VG_n": 453,
+    "VG": 98,
+    "R": 79
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "NV": 104,
+    "NV_err": 0,
+    "VG_n": 512,
+    "VG": 104,
+    "R": 104
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "NV": 137,
+    "NV_err": 0,
+    "VG_n": 555,
+    "VG": 137,
+    "R": 149
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "NV": 23,
+    "NV_err": 0,
+    "VG_n": 669,
+    "VG": 0,
+    "R": 25
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 553,
+    "VG": 103,
+    "R": 0
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "NV": 589,
+    "NV_err": 0,
+    "VG_n": 589,
+    "VG": 589,
+    "R": 589
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 557,
+    "VG": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 540,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:existence": {
+    "n": 932,
+    "NV": 932,
+    "NV_err": 0,
+    "VG_n": 932,
+    "VG": 932,
+    "R": 932
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 836,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "NV": 307,
+    "NV_err": 0,
+    "VG_n": 607,
+    "VG": 308,
+    "R": 308
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "NV": 1,
+    "NV_err": 0,
+    "VG_n": 676,
+    "VG": 1,
+    "R": 1
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "NV": 374,
+    "NV_err": 0,
+    "VG_n": 783,
+    "VG": 374,
+    "R": 374
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "NV": 116,
+    "NV_err": 0,
+    "VG_n": 818,
+    "VG": 624,
+    "R": 70
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "NV": 618,
+    "NV_err": 0,
+    "VG_n": 618,
+    "VG": 74,
+    "R": 193
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 499,
+    "VG": 0,
+    "R": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "NV": 255,
+    "NV_err": 0,
+    "VG_n": 526,
+    "VG": 253,
+    "R": 148
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "NV": 907,
+    "NV_err": 0,
+    "VG_n": 917,
+    "VG": 913,
+    "R": 917
+   },
+   "language:response_language": {
+    "n": 780,
+    "NV": 17,
+    "NV_err": 0,
+    "R": 17
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "NV": 130,
+    "NV_err": 0,
+    "VG_n": 625,
+    "VG": 154,
+    "R": 130
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "NV": 21,
+    "NV_err": 0,
+    "VG_n": 600,
+    "VG": 22,
+    "R": 13
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 515,
+    "VG": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "NV": 127,
+    "NV_err": 0,
+    "VG_n": 690,
+    "VG": 131,
+    "R": 131
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "NV": 271,
+    "NV_err": 0,
+    "VG_n": 562,
+    "VG": 268,
+    "R": 254
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "NV": 308,
+    "NV_err": 0,
+    "VG_n": 729,
+    "VG": 308,
+    "R": 305
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "NV": 294,
+    "NV_err": 0,
+    "R": 294
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "NV": 296,
+    "NV_err": 0,
+    "VG_n": 705,
+    "VG": 296,
+    "R": 296
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "NV": 463,
+    "NV_err": 0,
+    "VG_n": 576,
+    "VG": 538,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "NV": 354,
+    "NV_err": 0,
+    "VG_n": 744,
+    "VG": 453,
+    "R": 354
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 730,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 847,
+    "VG": 0,
+    "R": 0
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 627,
+    "VG": 0,
+    "R": 0
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 537,
+    "VG": 0,
+    "R": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "NV": 0,
+    "NV_err": 0,
+    "VG_n": 417,
+    "VG": 0,
+    "R": 0
+   }
+  }
+ }
+}

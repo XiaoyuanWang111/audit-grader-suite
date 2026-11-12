@@ -1,0 +1,443 @@
+[
+ {
+  "id": "fuzz:A:count_unique:fail",
+  "grader": "A",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "**",
+  "label": "pass",
+  "reason": "F-A5",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:postscript:pass",
+  "grader": "A",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "hP.s.",
+  "label": "fail",
+  "reason": "F-A8",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:number_bullet_lists:fail",
+  "grader": "A",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 1
+  },
+  "response": "-g\n* !",
+  "label": "pass",
+  "reason": "F-A12",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:number_bullet_lists:pass",
+  "grader": "A",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 3
+  },
+  "response": "* **\n*\"\n*#",
+  "label": "fail",
+  "reason": "F-A12",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:number_highlighted_sections:pass",
+  "grader": "A",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "***t**",
+  "label": "fail",
+  "reason": "F-A13",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:sentence_hyphens:fail",
+  "grader": "A",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "-y",
+  "label": "pass",
+  "reason": "F-A14",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:square_brackets:fail",
+  "grader": "A",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "-",
+  "label": "pass",
+  "reason": "F-A15",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:first_word_sent:pass",
+  "grader": "A",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "trade"
+  },
+  "response": "",
+  "label": "fail",
+  "reason": "F-A27",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:no_adjacent_consecutive:fail",
+  "grader": "A",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": ")\n*",
+  "label": "pass",
+  "reason": "F-A16",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:no_adjacent_consecutive:pass",
+  "grader": "A",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "m\n*n",
+  "label": "fail",
+  "reason": "F-A16",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:palindrome:pass",
+  "grader": "A",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "<",
+  "label": "fail",
+  "reason": "F-A17",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:start_end:pass",
+  "grader": "A",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": ">>",
+  "label": "fail",
+  "reason": "F-A18",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:word_count_different_numbers:fail",
+  "grader": "A",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "frequency": 1,
+   "keyword": "extreme",
+   "relation": "less than"
+  },
+  "response": "extreme",
+  "label": "pass",
+  "reason": "F-A2",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:word_count_different_numbers:pass",
+  "grader": "A",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "frequency": 3,
+   "keyword": "signature",
+   "relation": "less than"
+  },
+  "response": "",
+  "label": "fail",
+  "reason": "F-A2",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:word_once:fail",
+  "grader": "A",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "blood"
+  },
+  "response": "BLOOD blood",
+  "label": "pass",
+  "reason": "F-A1",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:response_language:pass",
+  "grader": "A",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "uk"
+  },
+  "response": "",
+  "label": "fail",
+  "reason": "F-A19",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:A:last_word_sent:pass",
+  "grader": "A",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "alarm"
+  },
+  "response": "",
+  "label": "fail",
+  "reason": "F-A27",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:repeat_phrase:pass",
+  "grader": "B",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live each day to the fullestLive each day to the fullest",
+  "label": "fail",
+  "reason": "F-B3",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:lowercase_counting:fail",
+  "grader": "B",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "",
+  "label": "pass",
+  "reason": "F-B2",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:postscript:pass",
+  "grader": "B",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "P.P.Sa",
+  "label": "fail",
+  "reason": "F-B11",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:multiple_sections:pass",
+  "grader": "B",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 1,
+   "section_spliter": "SECTION"
+  },
+  "response": "Section2",
+  "label": "fail",
+  "reason": "F-B14",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:number_bullet_lists:pass",
+  "grader": "B",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 3
+  },
+  "response": "* **\n* \n* ",
+  "label": "fail",
+  "reason": "F-B15",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:number_highlighted_sections:pass",
+  "grader": "B",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 1
+  },
+  "response": "* *",
+  "label": "fail",
+  "reason": "F-B16",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:square_brackets:pass",
+  "grader": "B",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "n[5]",
+  "label": "fail",
+  "reason": "F-B4",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:first_word_sent:pass",
+  "grader": "B",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "hope"
+  },
+  "response": "好Hope",
+  "label": "fail",
+  "reason": "F-B8",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:no_adjacent_consecutive:fail",
+  "grader": "B",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "with with",
+  "label": "pass",
+  "reason": "F-B1",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:no_adjacent_consecutive:pass",
+  "grader": "B",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "a b",
+  "label": "fail",
+  "reason": "F-B1",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:word_count_different_numbers:fail",
+  "grader": "B",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "frequency": 1,
+   "keyword": "extreme",
+   "relation": "less than"
+  },
+  "response": "extreme",
+  "label": "pass",
+  "reason": "F-B19",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:word_count_different_numbers:pass",
+  "grader": "B",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "frequency": 3,
+   "keyword": "signature",
+   "relation": "less than"
+  },
+  "response": "",
+  "label": "fail",
+  "reason": "F-B19",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:word_once:fail",
+  "grader": "B",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "blood"
+  },
+  "response": "BLOOD blood",
+  "label": "pass",
+  "reason": "F-B18",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:last_word_sent:pass",
+  "grader": "B",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "conversation"
+  },
+  "response": "éCONVERSATION",
+  "label": "fail",
+  "reason": "F-B8",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:number_paragraphs:fail",
+  "grader": "B",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "a\n***\nt",
+  "label": "pass",
+  "reason": "F-B6",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:number_paragraphs:pass",
+  "grader": "B",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": ".\n\nا",
+  "label": "fail",
+  "reason": "F-B6",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:paragraphs:pass",
+  "grader": "B",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "é\n\n>",
+  "label": "fail",
+  "reason": "F-B7",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ },
+ {
+  "id": "fuzz:B:paragraphs2:pass",
+  "grader": "B",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "é***。",
+  "label": "fail",
+  "reason": "F-B7",
+  "kind": "fuzz",
+  "note": "smallest reproducing response found by fuzzing (seed 20261112); label from the replacement, read by hand"
+ }
+]

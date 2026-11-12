@@ -1,0 +1,258 @@
+change_case:capital_word_frequency:9a5c4dda1fb9581a | pass | A=True ok | B=True ok | {"capital_frequency": 2, "capital_relation": "at least"} | "The NASA and ESA teams met." | two all-capital words
+change_case:capital_word_frequency:181a00144060a573 | fail | A=False ok | B=False ok | {"capital_frequency": 2, "capital_relation": "at least"} | "The Nasa team met." | no all-capital word
+change_case:capital_word_frequency:813a5b2526988de5 | fail | A=False ok | B=False ok | {"capital_frequency": 3, "capital_relation": "less than"} | "NASA, ESA and JAXA met." | 3 is not less than 3
+change_case:capital_word_frequency:ccdd8f7ba069b487 | pass | A=True ok | B=False decision:D-capital-word | {"capital_frequency": 1, "capital_relation": "at least"} | "I think so." | one-letter word I counts (D-capital-word)
+change_case:capital_word_frequency:66a727e83caf0782 | fail | A=False ok | B=False ok | {"capital_frequency": 2, "capital_relation": "at least"} | "WELL-KNOWN facts." | a hyphenated word is one word
+change_case:capital_word_frequency:761fdec2eb91aaeb | fail | A=False ok | B=False ok | {"capital_frequency": 1, "capital_relation": "less than"} | "**IMPORTANT** note" | markup around a capital word
+change_case:english_capital:bc67a8f1ede823e4 | pass | A=True ok | B=True ok | {} | "THIS IS A SHORT ANSWER IN ENGLISH. IT HAS TWO SENTENCES ABOUT THE WEATHER." | all caps English
+change_case:english_capital:dc0c9fbd5e9c8892 | fail | A=False ok | B=False ok | {} | "THIS IS A SHORT ANSWER IN ENGLISH. It has two sentences." | lowercase letters
+change_case:english_capital:92ee671b7f50930c | fail | A=True finding | B=True finding | {} | "LA CAPITALE DE LA FRANCE EST PARIS ET C'EST UNE TRES BELLE VILLE." | all caps French
+change_case:english_capital:1ea7968399f68ab4 | pass | A=True ok | B=True ok | {} | "THE ANSWER TO YOUR QUESTION IS 42 AND THE CODE IS X = 1." | digits and symbols
+change_case:english_capital:24051e3133cb9105 | fail | A=False ok | B=False ok | {} | "HELLO WORLD, THIS IS ENGLISH TEXT WITH ONE lowercase WORD." | one lowercase word
+change_case:english_lowercase:e4c8baedbae9513e | pass | A=True ok | B=True ok | {} | "this is a short answer in english. it has two sentences about the weather." | lowercase English
+change_case:english_lowercase:15bab7cadc6e1581 | fail | A=False ok | B=False ok | {} | "this is a short answer in English about the weather today." | one capital letter
+change_case:english_lowercase:ff4d2260eb4be85e | pass | A=True ok | B=True ok | {} | "i think the answer is yes, and i am sure about it because the data agree." | lowercase i
+change_case:english_lowercase:dc02af210c0dd93c | fail | A=False ok | B=True finding | {} | "esta es una respuesta corta en español y no en inglés, sobre el clima de hoy." | lowercase Spanish
+change_case:english_lowercase:c1c02e9779c4ea1c | fail | A=False ok | B=False ok | {} | "the city of paris is in france. I like it a lot." | capital I
+combination:two_responses:af3b635bd778241e | pass | A=True ok | B=True ok | {} | "Response one is here.\n******\nResponse two is different." | one separator, two different parts
+combination:two_responses:9c76bd17573f7ac0 | fail | A=False ok | B=False ok | {} | "Same answer.\n******\nSame answer." | identical parts
+combination:two_responses:b6b42931ff0da283 | fail | A=False ok | B=False ok | {} | "Only one response here." | no separator
+combination:two_responses:623abc890e8a842b | fail | A=True finding | B=True finding | {} | "First answer.\n*******\nSecond answer." | seven asterisks are not the separator
+combination:two_responses:c0e306abf4367096 | fail | A=False ok | B=False ok | {} | "First answer.\n******\nSecond answer.\n******\nThird answer." | three responses
+combination:two_responses:3d4b0705945215fa | pass | A=True ok | B=True ok | {} | "******\nFirst answer.\n******\nSecond answer." | a leading separator is ignored (D-separator-edge; label chan
+combination:two_responses:09468fddaeee7cd5 | fail | A=False ok | B=False ok | {} | "First answer.\n******\n******\nSecond answer." | two separators in a row
+combination:two_responses:05e316ad7384d4c2 | pass | A=True ok | B=True ok | {} | "**Response 1**\nFirst answer.\n******\n**Response 2**\nSecond answer." | bold labels are not separators
+copy:repeat_phrase:bf8394ac5364061d | pass | A=True ok | B=False finding | {"phrase": "Every cloud has a silver lining", "small_n": 2} | "Every cloud has one silver lining. Every cloud had a silver lining." | two center replacements
+copy:repeat_phrase:c6059a371558fad5 | fail | A=False ok | B=True finding | {"phrase": "Every cloud has a silver lining", "small_n": 2} | "Every cloud has a silver lining. Every cloud has a silver lining." | verbatim copies, no transformation
+copy:repeat_phrase:982e2ee3efdf1040 | fail | A=False ok | B=False ok | {"phrase": "Every cloud has a silver lining", "small_n": 3} | "Every cloud has one silver lining. Every cloud had a silver lining." | two of three
+copy:repeat_phrase:3d5cd480330f2091 | fail | A=True decision:D-repeat-center | B=False ok | {"phrase": "Every cloud has a silver lining", "small_n": 2} | "Every cloud has a golden lining. Every cloud has a bright lining." | 5th word is not the center (D-repeat-center)
+copy:repeat_phrase:dc5065367175df9f | fail | A=False ok | B=False ok | {"phrase": "Every cloud has a silver lining", "small_n": 2} | "The phrase is: Every cloud has a silver lining.\nEvery cloud has one silver lining. Every | verbatim copy besides two variants (D-repeat-original)
+copy:repeat_phrase:4dd27a3dc538693b | pass | A=True ok | B=False finding | {"phrase": "Laughter is the best medicine", "small_n": 2} | "Laughter is a best medicine. Laughter is our best medicine." | 5-word phrase, middle word replaced
+copy:repeat_phrase:2470fc47f83d5ded | fail | A=False ok | B=False ok | {"phrase": "Laughter is the best medicine", "small_n": 2} | "Laughter was the best medicine. Laughter is the best cure." | replacements off center
+copy:repeat_phrase:8c00dfccc0a206f5 | pass | A=False finding | B=False finding | {"phrase": "Every cloud has a silver lining", "small_n": 2} | "every cloud has one silver lining. Every Cloud had a silver lining." | case ignored
+copy:repeat_phrase:f3ff93fdebb4decb | fail | A=True finding | B=False ok | {"phrase": "Every cloud has a silver lining", "small_n": 2} | "Every cloud has a silver lining. Every cloud had a silver lining." | one verbatim copy and one variant
+count:count_unique:da4354e50aa5d0d9 | pass | A=True ok | B=None None | {} | "Every word here appears once." | all distinct
+count:count_unique:f4d49a98da39b7aa | fail | A=True decision:D-unique-case | B=None None | {} | "The cat saw the dog." | The/the (D-unique-case)
+count:count_unique:6e36f21b7ac257e9 | pass | A=False finding | B=None None | {} | "Apples, pears, plums, figs." | punctuation is not a word
+count:count_unique:5652a78c5980200b | fail | A=True decision:D-unique-case | B=None None | {} | "One two three one." | one repeated
+count:counting_composition:895893f80458e7d5 | pass | A=False finding | B=True ok | {"n_sent": 2, "n_words": 2} | "Birds sing. Cats sleep.\n* * *\nDogs bark. Fish swim.\n* * *\nKids play. Adults work." | 3 x 2 x 2 with the shown divider
+count:counting_composition:c055421bc64671d5 | fail | A=False ok | B=True decision:D-divider | {"n_sent": 2, "n_words": 2} | "Birds sing. Cats sleep.\n***\nDogs bark. Fish swim.\n***\nKids play. Adults work." | divider *** is not the shown * * * (D-divider)
+count:counting_composition:0c35023793d57c19 | fail | A=False ok | B=True finding | {"n_sent": 2, "n_words": 2} | "Birds sing loudly. Cats sleep.\n* * *\nDogs bark. Fish swim.\n* * *\nKids play. Adults wo | a 3-word sentence
+count:counting_composition:558c02088149bbdd | fail | A=False ok | B=True finding | {"n_sent": 2, "n_words": 2} | "Birds sing. Cats sleep.\n* * *\nDogs bark. Fish swim." | two paragraphs
+count:lowercase_counting:4846c8263b5040ca | pass | A=False decision:D-lowercase-counting-scope | B=True ok | {"N": 2} | "The cat and the dog ran." | each lowercase word at most twice (D-lowercase-counting-scop
+count:lowercase_counting:fcffc5067ba27761 | fail | A=False ok | B=True finding | {"N": 2} | "the the the end" | the three times
+count:lowercase_counting:c8b9fd371a07994b | pass | A=True ok | B=False finding | {"N": 2} | "Hi." | no lowercase word
+count:lowercase_counting:302c5fe39d949995 | pass | A=False decision:D-lowercase-counting-scope | B=True ok | {"N": 3} | "A cat and a dog and a bird and a fish." | a and and three times each
+count:lowercase_counting:f865eb19f57515ab | fail | A=False ok | B=True finding | {"N": 2} | "and and and" | and three times
+detectable_content:number_placeholders:0940e9ab850c7393 | pass | A=True ok | B=True ok | {"num_placeholders": 2} | "Dear [name], see you at [address]." | two placeholders
+detectable_content:number_placeholders:f3154d1d93e58ad5 | fail | A=False ok | B=False ok | {"num_placeholders": 2} | "Dear [name], see you soon." | one placeholder
+detectable_content:number_placeholders:74613aa33f7b312b | fail | A=True decision:D-placeholder | B=False ok | {"num_placeholders": 2} | "Dear [], see you at []." | empty brackets (D-placeholder)
+detectable_content:number_placeholders:0504deaa6a66882c | fail | A=True decision:D-placeholder | B=True decision:D-placeholder | {"num_placeholders": 2} | "Visit [our site](https://example.org) or write to [name]." | link text is not a placeholder (D-placeholder)
+detectable_content:number_placeholders:99d0965b6bb92eda | pass | A=True ok | B=True ok | {"num_placeholders": 1} | "Contact [Your Name] today." | one placeholder
+detectable_content:postscript:d52e77480eb14644 | pass | A=True ok | B=True ok | {"postscript_marker": "P.S."} | "Main text.\n\nP.S. Remember the meeting." | marker at line start
+detectable_content:postscript:ea5c3cbebd2f8fdd | fail | A=True finding | B=False ok | {"postscript_marker": "P.S."} | "Main text.\n\nP.P.S. Remember the meeting." | P.P.S. is a different marker
+detectable_content:postscript:8ecaa769fd701bff | pass | A=False decision:D-postscript-marker | B=False decision:D-postscript-marker | {"postscript_marker": "P.S."} | "Main text.\n\nP.S: Remember the meeting." | colon after P.S (D-postscript-marker)
+detectable_content:postscript:87e457edd85b24aa | fail | A=False ok | B=False ok | {"postscript_marker": "P.S."} | "Main text with no postscript." | no marker
+detectable_content:postscript:068f8c4002b20f08 | fail | A=True decision:D-postscript-position | B=False ok | {"postscript_marker": "P.S."} | "I added a P.S. at the end of the letter." | mid-sentence mention (D-postscript-position)
+detectable_content:postscript:f8bdbc749b462b0a | pass | A=True ok | B=False finding | {"postscript_marker": "P.S."} | "Main text.\n\n**P.S.** Remember the meeting." | bold marker
+detectable_content:postscript:f5c200d5c80b08e9 | pass | A=False decision:D-postscript-marker | B=False decision:D-postscript-marker | {"postscript_marker": "P.S."} | "Main text.\n\nP.S Remember the meeting." | the prompt shows P.S without a period in 186 rows (D-postscr
+detectable_content:postscript:2f55e2042d2e8293 | pass | A=True ok | B=True ok | {"postscript_marker": "P.S."} | "Main text.\n\np.s. remember the meeting." | lowercase marker (D-postscript-case)
+detectable_content:postscript:9472e17a5186e082 | pass | A=True ok | B=True ok | {"postscript_marker": "P.P.S"} | "Main text.\n\nP.P.S Remember the meeting." | P.P.S marker
+detectable_content:postscript:6b3e87201def67d6 | fail | A=False ok | B=False ok | {"postscript_marker": "P.P.S"} | "Main text.\n\nP.S. Remember the meeting." | P.S. is not P.P.S
+detectable_format:bigram_wrapping:9f28d3929fc0af26 | pass | A=True ok | B=None None | {} | "<<I am>> <<at home>> <<with my>> <<cute dog>>" | all bigrams
+detectable_format:bigram_wrapping:4770ecf17552f75c | fail | A=True finding | B=None None | {} | "<<I am>> <<at home>> today" | unwrapped word
+detectable_format:bigram_wrapping:8c3672017dba4e17 | fail | A=False ok | B=None None | {} | "<<I am at>> <<home now>>" | a trigram
+detectable_format:bigram_wrapping:cbbdae71e93f2121 | fail | A=True decision:D-bigram | B=None None | {} | "<<I am>> <<here>>" | single-word unit (D-bigram)
+detectable_format:bigram_wrapping:715544968659fcf5 | fail | A=False ok | B=None None | {} | "I am at home." | nothing wrapped
+detectable_format:constrained_response:aeb778594d792f16 | pass | A=True ok | B=True ok | {} | "My answer is yes." | an option
+detectable_format:constrained_response:a2b9598449f8f1d9 | pass | A=True ok | B=True ok | {} | "My answer is maybe." | an option
+detectable_format:constrained_response:b3b0d41126b4b7e6 | fail | A=True decision:D-constrained | B=False ok | {} | "My answer is yes. The reason is simple." | extra text (D-constrained)
+detectable_format:constrained_response:96b9370c7c4bfa92 | fail | A=False ok | B=False ok | {} | "My answer is yes" | no period
+detectable_format:constrained_response:0848d7a857912939 | fail | A=True finding | B=False ok | {} | "My answer is yes. My answer is no." | two options
+detectable_format:constrained_response:704c9e310f7876e2 | fail | A=False ok | B=False ok | {} | "Yes." | not an option
+detectable_format:json_format:9f256790f7a83ba8 | pass | A=True ok | B=True ok | {} | "{\"answer\": \"yes\"}" | object
+detectable_format:json_format:07262bb53dd1c59b | pass | A=True ok | B=True ok | {} | "```json\n{\"answer\": \"yes\"}\n```" | fenced object
+detectable_format:json_format:c7e4041062a1c6e2 | fail | A=False ok | B=False ok | {} | "Here is the JSON:\n```json\n{\"answer\": \"yes\"}\n```" | text outside the fence
+detectable_format:json_format:9e8220863e468d83 | fail | A=True decision:D-json | B=True decision:D-json | {} | "\"just a string\"" | JSON scalar (D-json)
+detectable_format:json_format:1bb8862e7fb48253 | fail | A=False ok | B=False ok | {} | "{\"answer\": \"yes\",}" | invalid JSON
+detectable_format:json_format:90e20fe6b27b99e1 | pass | A=True ok | B=True ok | {} | "[1, 2, 3]" | array
+detectable_format:json_format:cbce09ea05d8d761 | fail | A=False ok | B=False ok | {} | "```\n{\"a\": 1}\n```\nHope this helps!" | text after the fence
+detectable_format:multiple_sections:5ab336ce24592cf3 | pass | A=True ok | B=True ok | {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nFirst part.\nSECTION 2\nSecond part." | two sections
+detectable_format:multiple_sections:d64c8ce4bd4ad86c | fail | A=True finding | B=False ok | {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nFirst part.\nSECTION 2\nSecond part.\nSECTION 3\nThird part." | three sections
+detectable_format:multiple_sections:dd762be1089097bd | fail | A=False ok | B=True decision:D-sections-case | {"num_sections": 2, "section_spliter": "SECTION"} | "Section 1\nFirst part.\nSection 2\nSecond part." | case differs (D-sections-case)
+detectable_format:multiple_sections:f05930a4b04bf0bc | fail | A=True decision:D-sections-numbering | B=True decision:D-sections-numbering | {"num_sections": 2, "section_spliter": "SECTION"} | "SECTION 1\nFirst.\nSECTION 3\nSecond." | numbering (D-sections-numbering)
+detectable_format:multiple_sections:492a432a6e679505 | pass | A=True ok | B=True ok | {"num_sections": 2, "section_spliter": "SECTION"} | "Intro line.\nSECTION 1\nFirst.\nSECTION 2\nSecond." | preamble (D-sections-preamble)
+detectable_format:multiple_sections:d57eb0ee83ef69d3 | pass | A=True ok | B=True ok | {"num_sections": 2, "section_spliter": "SECTION"} | "## SECTION 1\nFirst.\n## SECTION 2\nSecond." | markdown headings
+detectable_format:multiple_sections:31325f477c1bce5f | pass | A=True ok | B=True ok | {"num_sections": 2, "section_spliter": "SECTION"} | "\"SECTION 1\nFirst.\nSECTION 2\nSecond.\"" | a quote before the first marker (C14)
+detectable_format:multiple_sections:399b81dd2478fdb3 | fail | A=True finding | B=True finding | {"num_sections": 2, "section_spliter": "SECTION"} | "This answer mentions SECTION 1 and SECTION 2 inline only." | markers do not start lines
+detectable_format:number_bullet_lists:12a714cbb7e6efee | pass | A=True ok | B=True ok | {"num_bullets": 2} | "* First point.\n* Second point." | two bullets
+detectable_format:number_bullet_lists:55e76d0e2461f45b | fail | A=False ok | B=False ok | {"num_bullets": 2} | "* First point.\n* Second point.\n* Third point." | three bullets
+detectable_format:number_bullet_lists:53d5cc8704a4f4ed | pass | A=True ok | B=True ok | {"num_bullets": 2} | "- First point.\n- Second point." | dash bullets (D-bullets)
+detectable_format:number_bullet_lists:2df16d0829665bc4 | fail | A=False ok | B=False ok | {"num_bullets": 2} | "* First point.\n  * Sub point.\n* Second point." | nested bullet counts
+detectable_format:number_bullet_lists:a95b6a0eb5846be8 | pass | A=False finding | B=True ok | {"num_bullets": 2} | "Intro\n\n* First point.\n* Second point.\n\n---\n\nEnd" | --- is a rule, not a bullet
+detectable_format:number_bullet_lists:d0a24c8ea1c66dac | pass | A=False finding | B=True ok | {"num_bullets": 2} | "*Note:* this is emphasized.\n* First point.\n* Second point." | an italic line is not a bullet
+detectable_format:number_bullet_lists:1ada83b8ff76363b | fail | A=False ok | B=False ok | {"num_bullets": 2} | "1. First point.\n2. Second point." | numbered items
+detectable_format:number_highlighted_sections:d5a875e55e627e02 | pass | A=True ok | B=True ok | {"num_highlights": 2} | "This is *important* and *urgent*." | two italic spans
+detectable_format:number_highlighted_sections:85bcefef3b6bd334 | fail | A=False ok | B=False ok | {"num_highlights": 2} | "This is *important* only." | one span
+detectable_format:number_highlighted_sections:d36bb514157da458 | pass | A=True ok | B=True ok | {"num_highlights": 2} | "This is **important** and **urgent**." | bold spans (D-highlight)
+detectable_format:number_highlighted_sections:bf401f59c7f0d7e1 | fail | A=True finding | B=True finding | {"num_highlights": 1} | "Compute 2 * 3 * 4 now." | multiplication signs are not emphasis
+detectable_format:number_highlighted_sections:e29b128820ba8ec9 | fail | A=False ok | B=False ok | {"num_highlights": 1} | "* item one\n* item two" | bullets are not emphasis
+detectable_format:sentence_hyphens:c2f2c77f5a8b6d0b | pass | A=True ok | B=False finding | {} | "I like tea.-You like coffee.-We both like water." | joined by hyphens
+detectable_format:sentence_hyphens:e7b9f62548d2f606 | fail | A=False ok | B=False ok | {} | "I like tea. You like coffee." | joined by a space
+detectable_format:sentence_hyphens:821c392ad14965a3 | fail | A=False ok | B=False ok | {} | "I like tea.- You like coffee." | space after the hyphen
+detectable_format:sentence_hyphens:aea0830db7374e9e | pass | A=True ok | B=False decision:D-hyphens-single | {} | "I like tea." | one sentence (D-hyphens-single)
+detectable_format:sentence_hyphens:f4c14147c6b22d5a | fail | A=False ok | B=False ok | {} | "I like tea.\n-You like coffee." | line break between sentences
+detectable_format:sentence_hyphens:43cdb00c9b5b33e4 | pass | A=False finding | B=False finding | {} | "I like well-made tea.-You like coffee." | hyphenated word inside a sentence
+detectable_format:sentence_hyphens:033c0ee51b92517a | fail | A=False ok | B=False ok | {} | "Visit the park - see the lake - enjoy the view" | clauses joined by spaced hyphens (C10)
+detectable_format:sentence_hyphens:711c006963e7242b | fail | A=True finding | B=False ok | {} | "We went home—it was late—we slept" | clauses joined by em dashes (C10)
+detectable_format:square_brackets:20262061b52d85e8 | pass | A=True ok | B=True ok | {} | "[Hello] [world]" | each word bracketed
+detectable_format:square_brackets:799dc08735ce2125 | fail | A=False ok | B=True finding | {} | "[Hello] world" | unbracketed word
+detectable_format:square_brackets:0526f144406b939b | fail | A=False ok | B=True decision:D-square-brackets | {} | "[Hello world]" | two words in one pair (D-square-brackets)
+detectable_format:square_brackets:831b57263789b79f | pass | A=False finding | B=True ok | {} | "[Hello], [world]." | punctuation outside brackets
+detectable_format:title:2cce2bb974d576df | pass | A=True ok | B=True ok | {} | "<<My Poem>>\nRoses are red." | title
+detectable_format:title:10c3693297dd4050 | fail | A=False ok | B=False ok | {} | "My Poem\nRoses are red." | no brackets
+detectable_format:title:0f1cb53c48d84632 | pass | A=True ok | B=True ok | {} | "Roses are red.\n<<My Poem>>" | title at the end (D-title)
+detectable_format:title:9d05bab6507f4644 | fail | A=False ok | B=True finding | {} | "<< >>\nRoses are red." | empty title
+detectable_format:title:78f92c29646279bc | fail | A=False ok | B=False ok | {} | "<<My\nPoem>> Roses are red." | title spans a line break
+first_word:first_word_answer:fdcce06f1c60d9f5 | pass | A=True ok | B=True ok | {"first_word": "development"} | "Development is a process." | case ignored
+first_word:first_word_answer:434c07cd705e0811 | fail | A=False ok | B=False ok | {"first_word": "development"} | "The development is a process." | second word
+first_word:first_word_answer:9437c05c4bfa7731 | pass | A=False decision:D-first-last-case | B=True ok | {"first_word": "development"} | "**Development** is a process." | bold first word (D-first-last-word)
+first_word:first_word_answer:4cfb4e16e64fefab | pass | A=False decision:D-first-last-case | B=True ok | {"first_word": "development"} | "Development, as a process, matters." | comma after the word
+first_word:first_word_answer:e444bad14cb5e9c9 | fail | A=False ok | B=False ok | {"first_word": "development"} | "Developments are processes." | different word
+first_word:first_word_answer:3c231de2547e61df | pass | A=False finding | B=True ok | {"first_word": "development"} | "development, as a process, matters." | comma after the lowercase word
+first_word:first_word_sent:5a8168178dff58e5 | pass | A=False finding | B=True ok | {"first_word": "we"} | "we, the people, agree. we vote." | comma after the lowercase first word
+keywords:start_end:01bdec8c007c9a52 | pass | A=False decision:D-start-end-leading | B=True ok | {} | "**hello** there my friend hello" | leading markup, same case (D-start-end-leading)
+last_word:last_word_answer:21dfed07e2b11581 | fail | A=False ok | B=False ok | {"last_word": "limit"} | "" | empty answer
+keywords:keyword_specific_position:e543ca8b58cbae49 | pass | A=True ok | B=True ok | {"keyword": "skirt", "n": 1, "m": 2} | "A skirt is nice." | word 2 of sentence 1
+first_word:first_word_sent:6b8c8b970787329d | pass | A=True ok | B=True ok | {"first_word": "we"} | "We like tea. We like coffee." | every sentence
+first_word:first_word_sent:d703af1cbdf244c4 | fail | A=False ok | B=False ok | {"first_word": "we"} | "We like tea. They like coffee." | second sentence
+first_word:first_word_sent:52dcbdb1be2c4df5 | pass | A=True ok | B=True ok | {"first_word": "we"} | "We like tea, and we like coffee! We agree." | two sentences
+first_word:first_word_sent:dc4651ac81abd41f | fail | A=False ok | B=False ok | {"first_word": "we"} | "We like tea.\nThey like coffee" | second line
+first_word:first_word_sent:525b7ac8570bd4cf | pass | A=False decision:D-first-last-case | B=True ok | {"first_word": "we"} | "We, the people, agree. We vote." | comma after the first word
+keywords:existence:55290e8a00f09ab2 | pass | A=True ok | B=True ok | {"keywords": ["cook", "country"]} | "I cook in my country." | both
+keywords:existence:7a887cc97c8be01b | fail | A=False ok | B=False ok | {"keywords": ["cook", "country"]} | "I cook at home." | one missing
+keywords:existence:b0bbb3813524c995 | fail | A=True decision:D-keyword-match | B=False ok | {"keywords": ["cook", "country"]} | "I like cookies from the countryside." | substrings only (D-keyword-match)
+keywords:existence:50f72152e67c37e8 | pass | A=True ok | B=True ok | {"keywords": ["cook", "country"]} | "COOK and COUNTRY." | case ignored
+keywords:forbidden_words:d95c1bf2d4960d62 | pass | A=True ok | B=True ok | {"forbidden_words": ["art", "flower"]} | "I like music." | none
+keywords:forbidden_words:66f9fbade0e92520 | fail | A=False ok | B=False ok | {"forbidden_words": ["art", "flower"]} | "I like art." | art
+keywords:forbidden_words:4c5a8254a44cbfdf | pass | A=True ok | B=True ok | {"forbidden_words": ["art", "flower"]} | "Let us start the party." | substring of start (D-keyword-match)
+keywords:forbidden_words:c12a94c077d28451 | pass | A=True ok | B=True ok | {"forbidden_words": ["art", "flower"]} | "Flowers are nice." | inflected form (D-keyword-match)
+keywords:forbidden_words:c4afdcccb92a7a6f | fail | A=False ok | B=False ok | {"forbidden_words": ["art", "flower"]} | "FLOWER power." | case ignored
+keywords:frequency:628ec9972d8cd127 | pass | A=True ok | B=True ok | {"keyword": "tea", "frequency": 2, "relation": "at least"} | "Tea is good. I like tea." | twice
+keywords:frequency:a527173891467dea | fail | A=False ok | B=False ok | {"keyword": "tea", "frequency": 2, "relation": "at least"} | "Tea is good." | once
+keywords:frequency:f6e1426f3ce45421 | fail | A=True decision:D-keyword-match | B=False ok | {"keyword": "tea", "frequency": 2, "relation": "at least"} | "Teams like steam." | substrings (D-keyword-match)
+keywords:frequency:5b3b0b442815653d | fail | A=False ok | B=False ok | {"keyword": "tea", "frequency": 2, "relation": "less than"} | "Tea and tea." | 2 is not less than 2
+keywords:frequency:16687c00b1286eca | pass | A=True ok | B=True ok | {"keyword": "tea", "frequency": 2, "relation": "less than"} | "Tea only." | once
+keywords:keyword_specific_position:71a11399433d9b99 | pass | A=True ok | B=True ok | {"keyword": "skirt", "n": 2, "m": 3} | "I like dresses. The red skirt is nice." | sentence 2, word 3
+keywords:keyword_specific_position:82ad6bdae8fd7e78 | fail | A=False ok | B=False ok | {"keyword": "skirt", "n": 2, "m": 3} | "I like dresses. The skirt is red." | word 2
+keywords:keyword_specific_position:12c4a519456e3d5f | pass | A=False finding | B=True ok | {"keyword": "skirt", "n": 2, "m": 3} | "I like dresses. Well, a skirt is nice." | a comma is not a word
+keywords:keyword_specific_position:f93ca93f84e08b03 | pass | A=False finding | B=True ok | {"keyword": "skirt", "n": 1, "m": 1} | "Skirt colors vary. I like red." | capitalized keyword
+keywords:keyword_specific_position:fa33c759067e81d1 | fail | A=False ok | B=False ok | {"keyword": "skirt", "n": 2, "m": 3} | "Only one sentence here." | one sentence
+keywords:letter_frequency:2e3b468fdc2b98a8 | pass | A=True ok | B=True ok | {"letter": "t", "let_frequency": 3, "let_relation": "at least"} | "The tent is tall." | 4 t's
+keywords:letter_frequency:a152fe77b48fc527 | fail | A=False ok | B=False ok | {"letter": "t", "let_frequency": 3, "let_relation": "at least"} | "Hello world." | none
+keywords:letter_frequency:884905783552f952 | pass | A=True ok | B=True ok | {"letter": "t", "let_frequency": 3, "let_relation": "at least"} | "Tt t" | capital T counts (D-letter-case)
+keywords:letter_frequency:7c9c83415dad9950 | fail | A=False ok | B=False ok | {"letter": "z", "let_frequency": 2, "let_relation": "less than"} | "Pizza" | 2 is not less than 2
+letters:letter_counting2:6f00cebbfb19b87a | pass | A=True ok | B=True ok | {"letter": "a", "let_frequency": 2, "let_relation": "at least"} | "A cat." | A and a
+letters:letter_counting2:bc1ff35767cc2c28 | fail | A=False ok | B=False ok | {"letter": "a", "let_frequency": 2, "let_relation": "less than"} | "Banana" | three a's
+keywords:no_adjacent_consecutive:413a3220f5e586ce | pass | A=True ok | B=True ok | {} | "Cats like fish." | c l f
+keywords:no_adjacent_consecutive:0fd993dd1f231a68 | fail | A=False ok | B=True finding | {} | "A big cat." | a then b
+keywords:no_adjacent_consecutive:7d2c0090d1ef4213 | fail | A=True decision:D-consecutive-order | B=True decision:D-consecutive-order | {} | "Big apple pie." | b then a (D-consecutive-order)
+keywords:no_adjacent_consecutive:2ce11b2df62e193a | pass | A=False finding | B=True ok | {} | "Room 1 2 3 here." | digits are not letters
+keywords:no_adjacent_consecutive:d0c76537a4fb4a98 | fail | A=True finding | B=True finding | {} | "Dogs **eat** bones." | d then e behind markup
+keywords:palindrome:b358df5af8587bec | pass | A=True ok | B=True ok | {} | "We saw a racecar." | racecar
+keywords:palindrome:d520bd015b2d46cf | fail | A=True decision:D-palindrome | B=False ok | {} | "We saw a car." | only the one-letter word a (D-palindrome)
+keywords:palindrome:3a6f5db8d4e945e9 | fail | A=False ok | B=False ok | {} | "Nothing here matches." | none
+keywords:palindrome:3929d8ed48c9ef9a | pass | A=False finding | B=True ok | {} | "Level up now." | capitalized palindrome
+keywords:palindrome:7b4f37a8294437cd | fail | A=True finding | B=False ok | {} | "Use the | symbol." | a pipe is not a word
+keywords:palindrome:7d2fde7998eacbd2 | pass | A=False finding | B=True ok | {} | "Mom is here." | Mom
+keywords:palindrome:f3221453f672e1b1 | fail | A=True decision:D-palindrome | B=False ok | {} | "Is a da vinci here?" | a da reads the same backwards by chance; not a palindrome ph
+keywords:start_end:b5f10d50730e4010 | pass | A=True ok | B=True ok | {} | "Hello there my friend hello" | same word
+keywords:start_end:a7b73552fa4f8d10 | fail | A=False ok | B=True finding | {} | "Hello there my friend hello." | period after the last word
+keywords:start_end:03c2eeef42174b5d | fail | A=False ok | B=False ok | {} | "Hello there my friend" | different words
+keywords:start_end:428b8199e43b3a24 | pass | A=True ok | B=True ok | {} | "hello there my friend Hello" | case differs (D-start-end-case)
+keywords:start_end:9dc4b6085ddd48de | pass | A=False decision:D-start-end-case | B=True ok | {} | "**Hello** there my friend hello" | leading markup (D-start-end-leading)
+keywords:word_count_different_numbers:569d7120cada2ee0 | pass | A=False finding | B=False finding | {"keyword": "tea", "frequency": 2, "relation": "less than"} | "Tea is good. I like tea." | exactly 2, as the text says
+keywords:word_count_different_numbers:9b463cd2f3639ed7 | fail | A=True finding | B=True finding | {"keyword": "tea", "frequency": 2, "relation": "less than"} | "Tea is good." | 1 is not 2
+keywords:word_count_different_numbers:16c3f99bbb409467 | fail | A=True decision:D-count-exact | B=True decision:D-count-exact | {"keyword": "tea", "frequency": 2, "relation": "at least"} | "Tea, tea and tea." | 3 is not 2 (D-count-exact)
+keywords:word_count_different_numbers:9e487851cefe8ea2 | pass | A=True ok | B=True ok | {"keyword": "tea", "frequency": 2, "relation": "at least"} | "Tea and tea." | exactly 2
+keywords:word_once:cff59bdbfed50a1b | pass | A=True ok | B=True ok | {"keyword": "tea"} | "I like tea." | once
+keywords:word_once:63bf12f176dea2b6 | pass | A=False finding | B=False finding | {"keyword": "tea"} | "Tea is good. I like tea." | included twice
+keywords:word_once:a8a4af17f767722d | fail | A=False ok | B=False ok | {"keyword": "tea"} | "I like coffee." | missing
+keywords:word_once:5fa6217a4c282766 | pass | A=False finding | B=True ok | {"keyword": "tea"} | "Instead of tea I drink steam." | included once as a word
+language:response_language:ab2d739ad563d1c1 | pass | A=True ok | B=None None | {"language": "fi"} | "Tämä on lyhyt vastaus suomeksi. Se kertoo säästä ja kahvista, jota juon aamuisin." | Finnish
+language:response_language:10d4fcfb9926551a | fail | A=False ok | B=None None | {"language": "fi"} | "This is a short answer in English about the weather and my morning coffee." | English
+language:response_language:7fda78595dee0648 | fail | A=True finding | B=None None | {"language": "fi"} | "" | empty answer
+language:response_language:9abbb724b032709f | pass | A=True ok | B=None None | {"language": "ko"} | "이것은 한국어로 된 짧은 답변입니다. 오늘 날씨가 아주 좋습니다." | Korean
+last_word:last_word_answer:9270c9b0a5459a69 | pass | A=True ok | B=True ok | {"last_word": "limit"} | "There is no limit." | period after
+last_word:last_word_answer:7dcd0c077b7058ab | fail | A=False ok | B=False ok | {"last_word": "limit"} | "The limit is high." | not last
+last_word:last_word_answer:6a557cab7cdb43c2 | pass | A=True ok | B=True ok | {"last_word": "limit"} | "There is no **limit**." | bold last word (D-first-last-word)
+last_word:last_word_answer:750f448d0800445c | pass | A=True ok | B=True ok | {"last_word": "limit"} | "There is no Limit!" | case (D-first-last-word)
+last_word:last_word_sent:cebb80f52110ad37 | pass | A=True ok | B=True ok | {"last_word": "box"} | "Open the box. Close the box!" | every sentence
+last_word:last_word_sent:7a39e85a3d7c3ae2 | fail | A=False ok | B=False ok | {"last_word": "box"} | "Open the box. Close the lid." | second sentence
+last_word:last_word_sent:5c4bd705e6cd0ec2 | pass | A=True ok | B=True ok | {"last_word": "box"} | "Open the box.\nClose the box" | line without period
+last_word:last_word_sent:ad276cfeba17f79f | fail | A=True decision:D-sentence | B=True decision:D-sentence | {"last_word": "box"} | "Title\nOpen the box." | a title line is a sentence (D-sentence)
+length_constraints:nth_paragraph_first_word:33dc306111e48776 | pass | A=True ok | B=True ok | {"num_paragraphs": 2, "nth_paragraph": 2, "first_word": "hole"} | "First paragraph here.\n\nHole digging is fun." | paragraph 2
+length_constraints:nth_paragraph_first_word:62c17bf2bd9b57cd | fail | A=False ok | B=False ok | {"num_paragraphs": 2, "nth_paragraph": 2, "first_word": "hole"} | "First paragraph here.\n\nDigging holes is fun." | other first word
+length_constraints:nth_paragraph_first_word:44d6d42052c9bb7d | fail | A=False ok | B=False ok | {"num_paragraphs": 2, "nth_paragraph": 2, "first_word": "hole"} | "First paragraph here.\n\nHole digging is fun.\n\nThird paragraph." | three paragraphs
+length_constraints:nth_paragraph_first_word:7ea3050850509a05 | pass | A=True ok | B=True ok | {"num_paragraphs": 2, "nth_paragraph": 2, "first_word": "hole"} | "First paragraph here.\n\n\nHole digging is fun." | three newlines (D-paragraph-blank)
+length_constraints:nth_paragraph_first_word:67c7b7c214dc81a4 | fail | A=True finding | B=False ok | {"num_paragraphs": 2, "nth_paragraph": 3, "first_word": "hole"} | "First paragraph here.\n\nHole digging is fun." | paragraph 3 of 2 cannot exist
+length_constraints:nth_paragraph_first_word:5b382f5abc062590 | fail | A=True finding | B=False ok | {"num_paragraphs": 2, "nth_paragraph": 3, "first_word": "hole"} | "Hole first paragraph here.\n\nHole digging is fun." | paragraph 3 of 2 cannot exist
+length_constraints:nth_paragraph_first_word:75691e0292a2eb2b | pass | A=False decision:D-first-last-case | B=True ok | {"num_paragraphs": 2, "nth_paragraph": 2, "first_word": "hole"} | "First paragraph here.\n\n**Hole** digging is fun." | bold first word (D-first-last-word)
+length_constraints:number_paragraphs:4750a35a5627bd6d | pass | A=True ok | B=False finding | {"num_paragraphs": 2} | "First paragraph.\n***\nSecond paragraph." | two parts
+length_constraints:number_paragraphs:6799f5ab1aec62c2 | fail | A=False ok | B=True finding | {"num_paragraphs": 2} | "First paragraph.\n\nSecond paragraph." | no divider
+length_constraints:number_paragraphs:b38cfd751c57af22 | fail | A=False ok | B=False ok | {"num_paragraphs": 2} | "First paragraph.\n***\nSecond paragraph.\n***\nThird." | three parts
+length_constraints:number_paragraphs:5a5ba280aadee85e | fail | A=False ok | B=False ok | {"num_paragraphs": 2} | "First paragraph.\n---\nSecond paragraph." | --- is not *** (D-divider)
+length_constraints:number_paragraphs:5eca518a45ac45bc | fail | A=False ok | B=True finding | {"num_paragraphs": 2} | "First paragraph.\n***\n\n***\nSecond paragraph." | empty part
+length_constraints:number_paragraphs:a84f8de3c1747b54 | fail | A=True finding | B=False ok | {"num_paragraphs": 3} | "First ***bold italic*** paragraph without a divider line." | inline *** is not a divider
+length_constraints:number_paragraphs:52534498460259cf | pass | A=True ok | B=True ok | {"num_paragraphs": 1} | "Just one paragraph without dividers." | one part
+length_constraints:number_paragraphs:059d82507f2fff47 | pass | A=True ok | B=False decision:D-separator-edge | {"num_paragraphs": 1} | "***\n\nOne paragraph after a stray divider." | leading divider ignored (D-separator-edge)
+length_constraints:number_paragraphs:c9e99c4ed37704b4 | pass | A=True ok | B=False decision:D-divider-inline | {"num_paragraphs": 2} | "First part of the text. *** Second part of the text." | inline divider between spaces (D-divider-inline)
+paragraphs:paragraphs:6654767065a9ebc9 | pass | A=True ok | B=True ok | {} | "First paragraph.\n***\nSecond paragraph." | two parts
+paragraphs:paragraphs:07d3973dca93fe99 | fail | A=False ok | B=True finding | {} | "First paragraph.\n\nSecond paragraph." | no divider
+paragraphs:paragraphs:5d5bc365f8c026d0 | fail | A=False ok | B=True finding | {} | "One.\n***\nTwo.\n***\nThree." | three parts
+paragraphs:paragraphs2:98b72b005d412051 | pass | A=True ok | B=True ok | {} | "First paragraph.\n\nSecond paragraph." | two blocks
+paragraphs:paragraphs2:5e0699961fc053d3 | fail | A=False ok | B=False ok | {} | "First paragraph.\nSecond paragraph." | single line break
+paragraphs:paragraphs2:4ee668c1c630deed | fail | A=False ok | B=True finding | {} | "One.\n\nTwo.\n\nThree." | three blocks
+paragraphs:paragraphs2:feb9b2553ebbd6f9 | pass | A=True ok | B=True ok | {} | "First paragraph.\n\n\nSecond paragraph." | three newlines (D-paragraph-blank)
+paragraphs:paragraphs2:b213e7ca14f06fa5 | fail | A=False ok | B=True finding | {} | "First paragraph.\n***\nSecond paragraph." | divider instead of a blank line
+length_constraints:number_sentences:d5b7b12db3534d77 | pass | A=True ok | B=True ok | {"num_sentences": 3, "relation": "at least"} | "One here. Two here. Three here." | three
+length_constraints:number_sentences:31afd2f67b62ed0d | fail | A=False ok | B=False ok | {"num_sentences": 3, "relation": "at least"} | "One here. Two here." | two
+length_constraints:number_sentences:0aece5f37c602f48 | pass | A=True ok | B=True ok | {"num_sentences": 3, "relation": "at least"} | "Dr. Smith arrived. He sat. He left." | abbreviation
+length_constraints:number_sentences:3f853f00e0443232 | fail | A=False ok | B=False ok | {"num_sentences": 3, "relation": "less than"} | "One. Two. Three." | three is not less than three
+length_constraints:number_sentences:a340075276235268 | fail | A=True decision:D-sentence | B=True decision:D-sentence | {"num_sentences": 3, "relation": "less than"} | "Title\nOne here. Two here." | title line is a sentence (D-sentence)
+length_constraints:number_words:88cce303f36fc4a2 | pass | A=True ok | B=True ok | {"num_words": 5, "relation": "at least"} | "One two three four five." | five
+length_constraints:number_words:15b377869beb74e4 | fail | A=False ok | B=False ok | {"num_words": 5, "relation": "at least"} | "One two three four." | four
+length_constraints:number_words:49e174f988e7161a | pass | A=True ok | B=False finding | {"num_words": 5, "relation": "less than"} | "One - two - three - four" | dashes are not words
+length_constraints:number_words:f2f8b6054d3cc664 | pass | A=False decision:D-word | B=False decision:D-word | {"num_words": 4, "relation": "at least"} | "你好世界" | four Han characters (D-word)
+letters:letter_counting:d0e13387c6df66e7 | pass | A=True ok | B=None None | {"N": 3, "relation": "less than"} | "Hi" | two letters
+letters:letter_counting:def1f66921b1a654 | fail | A=False ok | B=None None | {"N": 3, "relation": "less than"} | "Hey!" | three letters
+letters:letter_counting:48838d595cccf0ac | pass | A=False decision:D-letters-count | B=None None | {"N": 2, "relation": "at least"} | "Да" | Cyrillic letters (D-letters-count)
+letters:letter_counting:813ecdd7c1c33de3 | pass | A=True ok | B=None None | {"N": 3, "relation": "less than"} | "1234" | no letters
+punctuation:no_comma:58a954d3caa44cc2 | pass | A=True ok | B=True ok | {} | "No commas here." | none
+punctuation:no_comma:925e66595710c537 | fail | A=False ok | B=False ok | {} | "Yes, there is one." | comma
+punctuation:no_comma:30be7d7b84ddffe1 | fail | A=True decision:D-comma-chars | B=True decision:D-comma-chars | {} | "你好，世界" | fullwidth comma (D-comma-chars)
+punctuation:punctuation_dot:1625a5973957fd02 | pass | A=True ok | B=True ok | {} | "No dots here" | none
+punctuation:punctuation_dot:42d8d6a11de9b4ae | fail | A=False ok | B=False ok | {} | "Version 3.5 is out" | decimal point
+punctuation:punctuation_dot:7a62d6278a10ff64 | fail | A=True decision:D-dot-chars | B=True decision:D-dot-chars | {} | "你好。" | ideographic full stop (D-dot-chars)
+punctuation:punctuation_dot:e72f72a70bd9a9aa | fail | A=True decision:D-dot-chars | B=True decision:D-dot-chars | {} | "Wait…" | ellipsis character (D-dot-chars)
+punctuation:punctuation_exclamation:b57bdb6218768ebe | pass | A=True ok | B=True ok | {} | "Calm text" | none
+punctuation:punctuation_exclamation:efbcd66cb2f4c249 | fail | A=False ok | B=False ok | {} | "Wow!" | exclamation mark
+punctuation:punctuation_exclamation:8decc8ce5798133c | fail | A=True decision:D-exclamation-chars | B=True decision:D-exclamation-chars | {} | "你好！" | fullwidth mark (D-exclamation-chars)
+punctuation:punctuation_exclamation:eb23199fb0ffa508 | fail | A=False ok | B=False ok | {} | "if a != b then stop" | in general covers code
+startend:end_checker:a3170ef174fe31e7 | pass | A=True ok | B=True ok | {"end_phrase": "Any other questions?"} | "Here is my answer. Any other questions?" | ends with the phrase
+startend:end_checker:9e26ad3d126d3122 | fail | A=False ok | B=False ok | {"end_phrase": "Any other questions?"} | "Any other questions? Thanks." | a word follows
+startend:end_checker:85baa03db2179db9 | pass | A=False decision:D-end-phrase | B=False decision:D-end-phrase | {"end_phrase": "Any other questions?"} | "Here is my answer. **Any other questions?**" | markup after (D-end-phrase)
+startend:end_checker:be97161a4a62730c | fail | A=True decision:D-end-phrase-case | B=False ok | {"end_phrase": "Any other questions?"} | "Here is my answer. any other questions?" | not the exact phrase
+startend:end_checker:c248fe00d2181be8 | pass | A=True ok | B=False decision:D-end-phrase | {"end_phrase": "Any other questions?"} | "Here is my answer. Any other questions?\"" | closing quote after (D-end-phrase)
+startend:quotation:004076263d5058ce | pass | A=True ok | B=True ok | {} | "\"Hello world.\"" | straight quotes
+startend:quotation:aa9e7fb56fd59321 | fail | A=False ok | B=False ok | {} | "Hello world." | no quotes
+startend:quotation:fb739608c19d6186 | pass | A=False decision:D-quotation | B=True ok | {} | "“Hello world.”" | curly quotes (D-quotation)
+startend:quotation:bee52c210a0c7de3 | fail | A=False ok | B=True finding | {} | "'Hello world.'" | single quotes
+startend:quotation:22f4b844cf040172 | fail | A=False ok | B=True finding | {} | "\"" | one character
+punctuation:no_comma:5388d19dce9970cb | fail | A=True finding | B=True finding | {} | "Wrap your notes in a <think> tag, then write the answer." | non-reasoning model text that mentions <think>; the answer h
+punctuation:no_comma:5a607955a5372161 | fail | A=True finding | B=True finding | {} | "Okay the user wants an answer without commas so I will plan it carefully and then" | reasoning never closed (truncated): extraction failure
+punctuation:no_comma:95bf21fb73175fe4 | pass | A=True ok | B=True ok | {} | "Okay the user wants no commas.\n</think>\n\nHere is an answer with no commas." | closed reasoning, answer has no comma
+startend:quotation:ee521ff89bdd39c1 | pass | A=True ok | B=True ok | {} | "Let me think about quotes.\n</think>\n\n\"A quoted answer.\"" | graded text is the part after </think>
+keywords:existence:fdf272f661c8e916 | pass | A=False finding | B=False finding | {"keywords": ["so"]} | "<<I>> <<think>> <<so>>" | a non-reasoning answer that wraps the word think in double a
+punctuation:no_comma:1ebb8847247d59fd | fail | A=True finding | B=True finding | {} | "<<Yes>>, <<I>> <<think>> <<so>>" | the answer has a comma; <<think>> contains <think>
+language:response_language:b56713b791c7edc4 | fail | A=True finding | B=None None | {"language": "fi"} | "<<we>> <<think>> <<so>>" | English answer; extraction empties it and an empty text pass

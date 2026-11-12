@@ -1,0 +1,355 @@
+{
+ "P3-keyword-frequency": {
+  "NV": {
+   "counterexample": null
+  },
+  "VS": {
+   "counterexample": null
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P4-word-count-exact": {
+  "NV": {
+   "counterexample": {
+    "instruction_id": "keywords:word_count_different_numbers",
+    "kwargs": {
+     "keyword": "skin",
+     "frequency": 1,
+     "relation": "less than"
+    },
+    "response": "skin aaab aaab aaab.",
+    "label": "pass"
+   }
+  },
+  "VS": {
+   "counterexample": {
+    "instruction_id": "keywords:word_count_different_numbers",
+    "kwargs": {
+     "keyword": "skin",
+     "frequency": 1,
+     "relation": "less than"
+    },
+    "response": "skin aaab aaab aaab.",
+    "label": "pass"
+   }
+  },
+  "VG": {
+   "counterexample": {
+    "instruction_id": "keywords:word_count_different_numbers",
+    "kwargs": {
+     "keyword": "skin",
+     "frequency": 1,
+     "relation": "less than"
+    },
+    "response": "skin aaab aaab aaab.",
+    "label": "pass"
+   }
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P5-number-words": {
+  "NV": {
+   "counterexample": null
+  },
+  "VS": {
+   "counterexample": null
+  },
+  "VG": {
+   "counterexample": {
+    "instruction_id": "length_constraints:number_words",
+    "kwargs": {
+     "num_words": 1,
+     "relation": "at least"
+    },
+    "response": "аа.",
+    "label": "pass"
+   }
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P6-divider-paragraphs": {
+  "NV": {
+   "counterexample": null
+  },
+  "VS": {
+   "counterexample": null
+  },
+  "VG": {
+   "counterexample": {
+    "instruction_id": "length_constraints:number_paragraphs",
+    "kwargs": {
+     "num_paragraphs": 2
+    },
+    "response": "Aaab aaab.\n***\nAaab aaab.",
+    "label": "pass"
+   }
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P7-nth-paragraph-punct": {
+  "NV": {
+   "counterexample": {
+    "instruction_id": "length_constraints:nth_paragraph_first_word",
+    "kwargs": {
+     "num_paragraphs": 1,
+     "nth_paragraph": 1,
+     "first_word": "crash"
+    },
+    "response": "Crash: aaab aaab.",
+    "label": "pass"
+   }
+  },
+  "VS": {
+   "counterexample": {
+    "instruction_id": "length_constraints:nth_paragraph_first_word",
+    "kwargs": {
+     "num_paragraphs": 1,
+     "nth_paragraph": 1,
+     "first_word": "crash"
+    },
+    "response": "Crash: aaab aaab.",
+    "label": "pass"
+   }
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P8-sentence-count": {
+  "NV": {
+   "counterexample": null
+  },
+  "VS": {
+   "counterexample": null
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P9-bullets-no-palindrome": {
+  "NV": {
+   "counterexample": {
+    "instruction_id": "keywords:palindrome",
+    "kwargs": null,
+    "response": "- aaab",
+    "label": "fail"
+   }
+  },
+  "VS": {
+   "counterexample": {
+    "instruction_id": "keywords:palindrome",
+    "kwargs": null,
+    "response": "- aaab",
+    "label": "fail"
+   }
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P10-first-word-sent": {
+  "NV": {
+   "counterexample": {
+    "instruction_id": "first_word:first_word_sent",
+    "kwargs": {
+     "first_word": "peace"
+    },
+    "response": "Peace, aaab.",
+    "label": "pass"
+   }
+  },
+  "VS": {
+   "counterexample": {
+    "instruction_id": "first_word:first_word_sent",
+    "kwargs": {
+     "first_word": "peace"
+    },
+    "response": "Peace, aaab.",
+    "label": "pass"
+   }
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P11-end-phrase-word": {
+  "NV": {
+   "counterexample": {
+    "instruction_id": "startend:end_checker",
+    "kwargs": {
+     "end_phrase": "Any other questions?"
+    },
+    "response": "aaabany other questions?",
+    "label": "fail"
+   }
+  },
+  "VS": {
+   "counterexample": {
+    "instruction_id": "startend:end_checker",
+    "kwargs": {
+     "end_phrase": "Any other questions?"
+    },
+    "response": "aaabany other questions?",
+    "label": "fail"
+   }
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P14-start-end": {
+  "NV": {
+   "counterexample": null
+  },
+  "VS": {
+   "counterexample": null
+  },
+  "VG": {
+   "counterexample": {
+    "instruction_id": "keywords:start_end",
+    "kwargs": null,
+    "response": "Aaac aaab aaac.",
+    "label": "fail"
+   }
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P15-repeat-phrase": {
+  "NV": {
+   "counterexample": null
+  },
+  "VS": {
+   "counterexample": null
+  },
+  "VG": {
+   "counterexample": {
+    "instruction_id": "copy:repeat_phrase",
+    "kwargs": {
+     "phrase": "The early bird catches the worm",
+     "small_n": 2
+    },
+    "response": "The early bird aaab the worm. The early bird aaab the worm.",
+    "label": "pass"
+   }
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P16-count-unique": {
+  "NV": {
+   "counterexample": {
+    "instruction_id": "count:count_unique",
+    "kwargs": null,
+    "response": "aaab. aaac.",
+    "label": "pass"
+   }
+  },
+  "VS": {
+   "counterexample": {
+    "instruction_id": "count:count_unique",
+    "kwargs": null,
+    "response": "aaab. aaac.",
+    "label": "pass"
+   }
+  },
+  "VG": {
+   "counterexample": null
+  },
+  "R": {
+   "counterexample": null
+  }
+ },
+ "P2-whitespace": {
+  "NV": [
+   {
+    "instruction_id": "detectable_format:sentence_hyphens",
+    "kwargs": null,
+    "response": "  \nI like cats.-They are cute.-Dogs are fine too.\n\n\n\n",
+    "label": "pass",
+    "original": "I like cats.-They are cute.-Dogs are fine too."
+   },
+   {
+    "instruction_id": "detectable_format:sentence_hyphens",
+    "kwargs": null,
+    "response": "  \nHello world.\n\n\n\n",
+    "label": "pass",
+    "original": "Hello world."
+   },
+   {
+    "instruction_id": "paragraphs:paragraphs2",
+    "kwargs": null,
+    "response": "  \nFirst.\n\nSecond.\n\n\n\n",
+    "label": "pass",
+    "original": "First.\n\nSecond."
+   },
+   {
+    "instruction_id": "paragraphs:paragraphs2",
+    "kwargs": null,
+    "response": "  \nFirst.\n\n\nSecond.\n\n\n\n",
+    "label": "pass",
+    "original": "First.\n\n\nSecond."
+   }
+  ],
+  "VS": [
+   {
+    "instruction_id": "detectable_format:sentence_hyphens",
+    "kwargs": null,
+    "response": "  \nI like cats.-They are cute.-Dogs are fine too.\n\n\n\n",
+    "label": "pass",
+    "original": "I like cats.-They are cute.-Dogs are fine too."
+   },
+   {
+    "instruction_id": "detectable_format:sentence_hyphens",
+    "kwargs": null,
+    "response": "  \nHello world.\n\n\n\n",
+    "label": "pass",
+    "original": "Hello world."
+   },
+   {
+    "instruction_id": "paragraphs:paragraphs2",
+    "kwargs": null,
+    "response": "  \nFirst.\n\nSecond.\n\n\n\n",
+    "label": "pass",
+    "original": "First.\n\nSecond."
+   },
+   {
+    "instruction_id": "paragraphs:paragraphs2",
+    "kwargs": null,
+    "response": "  \nFirst.\n\n\nSecond.\n\n\n\n",
+    "label": "pass",
+    "original": "First.\n\n\nSecond."
+   }
+  ],
+  "VG": [],
+  "R": []
+ }
+}

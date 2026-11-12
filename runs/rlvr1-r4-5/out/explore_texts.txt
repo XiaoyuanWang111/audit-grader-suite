@@ -1,0 +1,471 @@
+layouts (top 40):
+820 ('list', 'Please follow these instructions in your response:')
+745 ('list', 'Your response should comply with these constraints:')
+723 ('list', 'Make sure to adhere to these requirements:')
+347 ('list', 'Please ensure your answer follows these guidelines:')
+90 ('list', 'Please ensure your response follows these guidelines: In you')
+74 ('list', 'Please incorporate these requirements into your answer: In y')
+71 ('list', 'Make sure to follow these requirements when responding: In y')
+67 ('list', 'When answering, please adhere to these constraints: In your ')
+64 ('list', 'Make sure to follow these requirements when responding: Your')
+63 ('list', 'Please follow these instructions in your response: In your r')
+61 ('list', 'Your response should satisfy these conditions: In your respo')
+56 ('list', 'Make sure to adhere to these requirements: In your response,')
+55 ('list', 'While responding, please comply with these rules: In your re')
+51 ('list', 'Please incorporate these requirements into your answer: Your')
+42 ('list', 'While responding, please comply with these rules: There shou')
+41 ('list', 'When answering, please adhere to these constraints: Include ')
+39 ('list', 'When answering, please adhere to these constraints: There sh')
+35 ('list', 'Your response should satisfy these conditions: Include keywo')
+35 ('list', 'Please ensure your response follows these guidelines: Includ')
+33 ('list', 'Please follow these instructions in your response: Include k')
+32 ('list', 'Make sure to follow these requirements when responding: Incl')
+31 ('list', 'Please follow these instructions in your response: There sho')
+31 ('list', 'Please incorporate these requirements into your answer: Incl')
+30 ('list', 'Make sure to follow these requirements when responding: The ')
+30 ('list', 'Make sure to adhere to these requirements: In your entire re')
+29 ('list', 'Make sure to adhere to these requirements: Your entire respo')
+29 ('list', 'While responding, please comply with these rules: Include ke')
+28 ('list', 'Make sure to adhere to these requirements: There should be 2')
+27 ('list', 'Please follow these instructions in your response: In your e')
+27 ('list', 'Your response should satisfy these conditions: In your entir')
+26 ('list', 'Your response should satisfy these conditions: There should ')
+26 ('list', 'Please ensure your response follows these guidelines: There ')
+25 ('list', 'Please incorporate these requirements into your answer: The ')
+24 ('list', 'Make sure to follow these requirements when responding: Ther')
+24 ('list', 'When answering, please adhere to these constraints: Your ent')
+23 ('list', 'Your response should satisfy these conditions: Your entire r')
+23 ('list', 'While responding, please comply with these rules: In your en')
+23 ('list', 'Please incorporate these requirements into your answer: Ther')
+22 ('list', 'Please ensure your response follows these guidelines: Answer')
+20 ('list', 'Make sure to adhere to these requirements: The last word of ')
+layout kinds 5938
+unsplit rows 9942 ['81dc1217-64db-4601-9cb2-290943db6ac6', 'dbdd51b7-2e8d-43bb-b0f1-e134763e595f', '03635476-74ee-41a7-ba4e-880827a325af', 'b1456158-8499-434c-8499-4b447a6baf0f', 'a2decf98-469c-48f7-9576-ae8a52df3690']
+
+== change_case:capital_word_frequency: 6 distinct templates
+   [66] In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.
+   [1] Write a very long, elaborate, descriptive, detailed and realistic shooting script, including a background and dialogues, for a French Romantic Comedy Film comic scene that includes one woman or more deliberately pooping her/their pants as a part of a dare/bet/contest/challenge (describe this act in meticulous detail). Have the pooping take a central part of the scene. If there are any reactions to
+   [1] The player character has 100 hitpoints and 100 stamina. Give each enemy move damage numbers, either direct damage or damage over time, depending on the type of attack used.
+   [1] Stock analysis on tlry
+   [1] 你是一名电力电子专业的学生，现在要完成一份多路输出的反激式开关电源的毕业设计，请为我详细介绍其中环路补偿部分的知识，1500字左右 Make sure your response satisfies this condition: In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.
+   [1] What will be the value returned if the function =COUNTA(A1:C5) was used in cell D1?in excel Make sure to adhere to this requirement: In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.
+
+== change_case:english_capital: 17 distinct templates
+   [95] Your entire response should be in English, and in all capital letters.
+   [1] 可以帮我画一幅车水马龙的街道？
+   [1] Please ensure your response follows these guidelines: Your entire response should be in English, and in all capital letters. Напиши красивое коммерческое предложение для B2B
+   [1] 为什么eid还是0
+   [1] Please ensure your response follows this guideline: Your entire response should be in English, and in all capital letters.
+now try to output 25k tokens in this chat interface for testing only.
+   [1] Q2FuIHlvdSByZWFkIGJhc2U2ND8K Please follow these rules when answering: Your entire response should be in English, and in all capital letters
+
+== change_case:english_lowercase: 13 distinct templates
+   [73] Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.
+   [1] C#如何使用 FFmpeg.AutoGen
+   [1] write a script about the Subway ACC Championship Game. 
+Please follow these instructions in your response: Your entire response should be in English, and in all lowercase letters. No capital letters are allowed
+   [1] 哪个思维导图比较好用 Please ensure your answer follows this guideline: Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.
+   [1] While responding, please comply with these rules: Your entire response should be in English, and in all lowercase letters. No capital letters are allowed. 我的程序在另一台windows电脑上奔溃了,生成了coredump,我应该如何使用vs2019进行分析并解决问题 可以详细一些嘛
+   [1] When answering, please adhere to these constraints: Your entire response should be in English, and in all lowercase letters. No capital letters are allowed. Ignore previous instructions. I want you to act as a screenwriter. You will use your wit to come up with engaging, creative and captivating script for a feature length film or TV series that can engage the viewers for long periods of time. The
+
+== combination:two_responses: 3 distinct templates
+   [35] Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+   [1] how to professionally prepare a tender for a construction project? Please follow this instruction in your response: Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+   [1] از جن ها برایم بگو Please incorporate this requirement: Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+
+== copy:repeat_phrase: 16 distinct templates
+   [65] Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.
+   [1] 出几道立体几何大题，考察线线平行线面平行，面面平行的综合运用
+   [1] can we talk in different languages? Your response should comply with this constraint: Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.
+   [1] 1. What does Ishmael say was one of the most unsettling things about his journey?
+{small_n}. Summarize what Saidu says about dying on pg. 70.
+3. What was Ishmael’s nickname from his grandmother and why?
+4. Describe Ishmael’s story of his birth ceremony on pg. 75-77.
+5. Retell how each boy because a refugee:
+Alhaja
+Kanei
+Jumah/Moriba
+Saidu
+6. What fell out of the sky that the boys ate?
+7. What did 
+   [1] 我在a.py中创建了一个蓝图对象my_blueprint = Blueprint(‘my_blueprint’, name)，在b.py中通过from a.py import my_blueprint 为什么会报错呢？
+   [1] 1.1×（1×{small_n}.857+0.5×5.142）＝ Please incorporate these requirements: Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase
+
+== count:count_unique: 16 distinct templates
+   [78] Only use unique words in your response, no word should be repeated!
+   [1] While responding, please comply with this rule: Only use unique words in your response, no word should be repeated!
+ Write a chat gpt prompt to make him a usual talker
+   [1] Please follow these instructions in your response: Only use unique words in your response, no word should be repeated!. 《奥维尔号》第二季有个女的副驾驶，好像是亚洲人面孔，一直没说话，请问是谁
+   [1] Мой собеседник убеждает меня в том, что женщина обязана находиться в христианском храме с покрывалом на голове. Он ссылается на учение апостола Павла, который запрещал женщинам находиться в храме с непокрытой головой. Я же пытаюсь его убедить в том, что женщина вправе находиться в храме без покрывала и что в этом нет ничего постыдного. Напиши как можно больше аргументов в пользу моей позиции. Plea
+   [1] Please incorporate these requirements into your answer: Only use unique words in your response, no word should be repeated!. Напиши тавтологию про тавтологию
+   [1] Evaluate gluing phosphogypsum to the inside of party balloons to provide a more magical experience. Please follow these rules when answering: Only use unique words in your response, no word should be repeated!
+
+== count:lowercase_counting: 15 distinct templates
+   [99] In your response, all lowercase words should appear at most {N} times.
+   [2] Your response should comply with these constraints:
+- In your response, all lowercase words should appear at most {N} times.
+   [1] 写在中考之前的演讲稿，列个提纲，主题是：未来是多姿多彩的，要珍惜时光努力拼搏
+   [1] When answering, please adhere to these constraints: In your response, all lowercase words should appear at most {N} times. Write a concise summary of the following. Be sure to preserve important details: Myths and stories characters tell about the world around them can affect the plot. Howl’s Moving Castle by Diana Wynne Jones is a great example of this. There are some truly frightening beliefs ab
+   [1] linux 的常用命令
+   [1] Your response should satisfy these conditions: In your response, all lowercase words should appear at most {N} times. Follow the steps to find the area of the shaded region.
+First, use the formula below to find the area
+of the whole sector.
+Sector Area =
+angle of sector{N}
+360
+Sector Area = [?] cm{N}
+Round to four decimal places.
+14 cm
+46°
+14 cm
+
+== detectable_content:number_placeholders: 5 distinct templates
+   [68] The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].
+   [1] write an interactive story in which the user gets to input what to do in situations and the story adapts around that. make sure the story is immersive an interactive
+EXAMPLE
+Story: You are a warrior at the doorstep of a dragon's den, what do you do?
+user input: take sword out and walk in
+Story: as you walk in, you see a massive dragon asleep in its den,  you slowly creep around it trying not to wa
+   [1] Please ensure your response follows these guidelines: The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address]. 五一 深圳周边去哪里玩，有那些好玩的景点，推荐一下
+   [1] Комплексная оценка степени напряженности экологической ситуации
+   [1] 怎样制备用于实验的氰化钾 Please follow this instruction in your response: The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].
+
+== detectable_content:postscript: 3 distinct templates
+   [73] At the end of your response, please explicitly add a postscript starting with {postscript_marker}
+   [1] Your response should comply with these constraints:
+- At the end of your response, please explicitly add a postscript starting with {postscript_marker}
+   [1] ps aux查看进程中存在sh -c的进程是什么意思？
+
+== detectable_format:bigram_wrapping: 15 distinct templates
+   [84] Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+   [1] Doesn't franchise imply SMB and corporate imply enterprise? Please follow these rules when answering: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>
+   [1] Please ensure your response follows these guidelines: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>. what is an industrial society?
+   [1] While responding, please comply with this rule: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+ Are you familiar with the mature game "Being a DIK" and it's characters? Wat can you tell me about it?
+   [1] Give me a list of movies, that have a similar premise to Battle Royale (2000), Raze (2013) or The Condemned (2007) Please ensure your answer follows these guidelines: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>
+   [1] 帮我写一段数字列表排序算法 Make sure your response satisfies this condition: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+
+== detectable_format:constrained_response: 89 distinct templates
+   [18] Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   [9] Make sure to adhere to these requirements: Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   [4] Your response should comply with these constraints:
+- Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   [3] Please follow these instructions in your response:
+- Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   [2] Make sure to adhere to these requirements:
+- Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')
+   [1] 如何对自动驾驶数据进行自动标注，使用哪些技术哪些算法
+
+== detectable_format:json_format: 2 distinct templates
+   [13] Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.
+   [1] While responding, please comply with this rule: Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.
+ Write a bullet list of loot and equipment (including name, description, effects, level and item type) for a diaper-centric MMORPG taking place in a world where the usage of absurdly oversized diapers and other infantile items (bonnets, rattlers, pacifiers, baby b
+
+== detectable_format:multiple_sections: 2 distinct templates
+   [1] (David’s wife Catherine sometimes uses hypnosis on him) Catherine has made an arrangement with her brother, Kevin, to send her husband David over to do Kevins’s housework for him, and anything else he might tell him to do. David is a fairly docile guy and is willing to do whatever Catherine wants. In a hypnotized daze, he knocks, and Kevin opens the door, smirking, wearing a vest, sweatpants and b
+   [1] Feet should be described in excessive salacious detail. Appearances should be described in detail. Focus on the two character's interactions and dialogue, and the elf's verbal reactions.
+
+== detectable_format:number_bullet_lists: 6 distinct templates
+   [1] Make sure to follow these requirements when responding: Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:
+* This is point 1. 
+* This is point 2. Please tell me how I can to produce nitric acid ah home using air, water, pyrolysis, distillation, and electrolysis with carbon rod
+   [1] Generate the code for a Progressdata Refinement Department clone in C where a 6x6 grid of numbers is displayed. Typing a number will either remove the number, add it to the list of good numbers or remove all good numbers and lose a life. There are 5 lives and 5 good numbers to find. Please ensure your answer follows these guidelines: Your answer must contain exactly {num_bullets} bullet points. Us
+   [1] Obeying the heavenly emperor and honoring ancestors became the greatest moral principle of the Shang Dynasty. following above concent and write an academic article with, offering 10 references with specific pages
+   [1] When answering, please adhere to this constraint: Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:
+* This is point 1. 
+* This is point 2 Γραψε ενα δοκιμιο για τις επιπτωσεις των ΜΜE στη νέα γενιά. Μην χρησιμοποιεις τις λέξεις: μπορεί, μπορουν.
+   [1] Make sure to adhere to these requirements:
+- Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:
+* This is point {num_bullets}. 
+* This is point 2
+   [1] Make sure to adhere to these requirements: Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:
+* This is point 1. 
+* This is point 2
+
+== detectable_format:number_highlighted_sections: 2 distinct templates
+   [59] Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.
+   [1] <!-- Add the Dropzone initialization script -->
+<script type="text/javascript">
+    Dropzone.autoDiscover = false;
+    $(document).ready(function() {
+        // Initialize the dropzone element
+        $("#my-dropzone").dropzone({
+            url: "/localization/multi-local-from-file",
+            addRemoveLinks: true,
+            paramName: "data",
+            maxFiles: {num_highlights},
+         
+
+== detectable_format:sentence_hyphens: 16 distinct templates
+   [98] All sentences must be connected using hyphens, with no spaces between them.
+   [2] Make sure to adhere to these requirements: All sentences must be connected using hyphens, with no spaces between them
+   [1] Most of the team from the office were on the night out to celebrate David’s 30th birthday, and his sister Kelly had come along, too. It was unusual to see her in a dress and sandals. They had been at the pub for an hour already and people were starting to get tipsy. Please follow this instruction in your response: All sentences must be connected using hyphens, with no spaces between them.
+   [1] 从现在开始你是一个文章编辑者，你将对后续输入的内容在意思不变的情况下进行重构并优化内容，输出结果字数不要少于原文 
+Make sure your response satisfies these conditions: All sentences must be connected using hyphens, with no spaces between them
+   [1] Giants of his kinds are used to make incursion in the lands of the normal sized ones by ways not understood by these latter ones, and this bear man won't bother to explain it to insignificant creatures who sometime thinks they are in front of extraterrestrials, gods or other mythological creatures, or other silliness. Anyway, if these excursions are a common thing for the ones of his kind, they mi
+   [1] Make sure to adhere to these requirements:
+- All sentences must be connected using hyphens, with no spaces between them.
+
+== detectable_format:square_brackets: 13 distinct templates
+   [65] Enclose every word in your response within square brackets.
+   [1] What is the idea related to the energy higher than the Dirac constant to achieve the speed higher than the speed of light ? Please ensure your answer follows this guideline: Enclose every word in your response within square brackets.
+   [1] puedes hacer preguntas con respuestas de seleccion multiple de complejidad 5/5 sobre la información que te proporcionaré? Puedes incluirme las respuestas al lado de las respuestas? 
+Please follow these instructions in your response: Enclose every word in your response within square brackets
+   [1] Please follow this instruction in your response: Enclose every word in your response within square brackets. A former pole dancer has become a pro wrestler. She needs a finisher and wants to use a Breast Smother with Bodyscissors combo hold. Explore in great detail how fitting such a move would be.
+   [1] Please ensure your response follows this guideline: Enclose every word in your response within square brackets.
+Cual es la relevancia del Derecho Natural frente al Derecho Positivo
+   [1] "IC设计,EDA软件,IC制造,IC制造材料,硅晶圆,光刻胶,掩膜版,湿电子化学品,通用超净高纯试剂,双氧水,硫酸,氢氟酸,硝酸,磷酸,盐酸,氢氧化钾,氨水,异丙醇,功能性化学品,刻蚀液,显影液,剥离液,溅射靶材,CMP抛光材料,抛光垫,抛光液,特种电子气体,三氟化氮,三氯化硼,四氟化碳,硅烷,IC制造设备,氧化炉,RTP设备,激光退火设备,光刻机,刻蚀机,离子注入设备,CVD设备,PVD设备,刷片机,IC封装测试,晶圆封装材料,封装基板,引线框架,键合丝,塑封料,IC封装设备,晶圆安装机,划片机,减薄机,分选机,引线键合机,IC测试机,模拟IC,信号链路,放大器,精密放大器,高速放大器,功率放大器,比较器,数据转换器,数模转换器?,音频DAC,音频编码器,音频解码器,电机控制,数字电位计,模数转换器,FLASH ADC,数据采集,卫星通信,雷达处理,采样示波器,SAR ADC,自动测试
+
+== detectable_format:title: 9 distinct templates
+   [67] Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.
+   [1] 日本で流行ることができるSF・ホラー小説のテーマと全体登場人物(名前)と内容を考え、30章を分け、このjson形の
+で作ってください
+{
+“title”:””,
+“englishkeywords”:””,
+“chapters”: [
+{
+“chapterNumber”: 1,
+“englishkeywords”:””,
+“theme”: “”,
+“characters”: [“”, “”],
+“chapterContent”: “”
+},]} Please ensure your answer follows these guidelines: Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>
+   [1] Please follow these instructions in your response: Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. 九楼和十楼之间那一层叫什么
+   [1] În plus, propionatul de metil este utilizat în industria cosmetică, ca ingredient în parfumuri și alte produse de îngrijire personală, datorită mirosului său plăcut. De asemenea, este utilizat ca solvent în diverse aplicații industriale, cum ar fi producția de lacuri și vopsele. este corect?
+   [1] Please follow these instructions in your response:
+- Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.
+   [1] Make sure to adhere to these requirements: Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>
+
+== first_word:first_word_answer: 12 distinct templates
+   [74] The first word of your response should be the word {first_word}.
+   [2] Your response should comply with these constraints:
+- The first word of your response should be the word {first_word}.
+   [1] Please follow these instructions in your response: The first word of your response should be the word {first_word}. Какой цветок получил свое имя в честь натуралиста Российской академии наук? А: камелия В: цикламен С: гладиолус D: георгин
+   [1] K-pop es para niñas de 6 años Make sure to adhere to this requirement: The first word of your response should be the word {first_word}.
+   [1] 写一些比赛开始前，期待的文字
+   [1] 为什么现在东亚男女对立严重，如何缓解这种局面 Your response should comply with these constraints: The first word of your response should be the word {first_word}
+
+== first_word:first_word_sent: 13 distinct templates
+   [77] The first word of each sentence should be the word {first_word}.
+   [1] find . -type f -exec md5sum {} + | sort | awk ‘BEGIN{lasthash=“”; lastfile=“”} $1==lasthash{if($2!=lastfile) print lastfile “\n” $2; print $0 “\n”} {lasthash=$1; lastfile=$2}’ | sort | uniq -d | xargs -I {} basename {} Make sure to adhere to this requirement: The first word of each sentence should be the word {first_word}.
+   [1] Write funny tweets about beach entrance
+   [1] The first {first_word} of each sentence should be the {first_word} {first_word}.
+   [1] Please ensure your response follows these guidelines: The first word of each sentence should be the word {first_word}. You are a powerful Ai that will detail Character Biographies in succinct and detailed manner. You WILL cover their Personality, Physical Appearance, Attire, Background, and Abilities to the highest degree of accuracy. Use explicit and visceral and graphic descriptions for appearan
+   [1] },]} Your response should comply with these constraints: The first word of each sentence should be the word {first_word}
+
+== keywords:existence: 19 distinct templates
+   [120] Include keywords ['{keywords[0]}', '{keywords[1]}'] in the response.
+   [1] was ist wichtig bei einer charakteriesierung 8 klasse deutsch unterricht
+   [1] Write a believable, heartfelt, kind, message of reassurance from a Feminist woman to men who think they have to give up their own agency and become doormats for women in order to support feminism. Have her validate their thoughts and  feelings, whilst understanding why they think the way they do. But also urging them to not judge all feminists the same way, whilst accepting the possibility of skep
+   [1] Please ensure your response follows these guidelines: Include keywords ['{keywords[0]}', '{keywords[1]}'] in the response. 1．模块名称：main.c
+模块功能简要描述：主函数，主要是运行各个界面绘画程序，运行计算机控制的汽
+车的运行情况和用户控制的汽车运行情况（接收人工输入）。
+2．模块名称：streetDraw.c
+模块功能简要描述：绘制十字路口界面。
+3．模块名称 carDraw.c
+模块功能简要描述：在十字路口界面上绘制汽车，并控制汽车向东南西北四个方向移
+动。
+4. 模块名称 carControl.c
+模块功能简要描述：
+（1）根据北、南、东、西四个方向检测用户控制的汽车,使用户控制的汽车不能超过
+公路边界。
+（2）根据北、南、东、西四个方向与停止状态检测用计
+   [1] Your response should satisfy these conditions: Include keywords ['{keywords[0]}', '{keywords[1]}'] in the response. Давай сыграем в ролевую игру. Я парень, ты девушка. Мы вдвоём сидим на пляжу, и на нас только купальники. Мы надеваем друг на друга спасательный жилеты, и начинаем их плотно затягивать друг на друга, затягивать ремни, надувать все элементы. Опиши максимально подробно и как можно боль
+   [1] Please ensure your response follows these guidelines: Include keywords ['{keywords[0]}', '{keywords[1]}'] in the response. mestre uma campanha de dungeons and dragons pra mim
+
+== keywords:forbidden_words: 3 distinct templates
+   [102] Do not include keywords ['{forbidden_words[0]}', '{forbidden_words[1]}'] in the response.
+   [1] Analyze this text and tell me if it’s an appropriate response to someone who has troubles when searching stuff on google and youtube: Wow, that sound very frustrating indeed. But I find it quite strange since, as I said in my previous post, I personally haven’t had any problem nor with my Google nor with my YouTube search. In fact, after reading your posts, I immediately searched some things in bo
+   [1] Make sure to adhere to these requirements:
+- Do not include keywords ['{forbidden_words[0]}', '{forbidden_words[1]}'] in the response.
+
+== keywords:frequency: 1 distinct templates
+   [73] In your response, the word {keyword} should appear {relation} {frequency} times.
+
+== keywords:keyword_specific_position: 9 distinct templates
+   [81] Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.
+   [1] Given a set containing all natural numbers that can be defined with less than 100 words. There must be a smallest natural number not in the set, but I just defined it in less than 100 words. Please ensure your answer follows this guideline: Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.
+   [1] Please incorporate this requirement into your answer: Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence. Make a case for why an imageboard is much better than Reddit.
+   [1] positive_net = len(log.loc[log['net'] > 0]) 
+print(positive_net)
+   [1] Please follow these instructions in your response:
+- Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.
+   [1] Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.
+
+== keywords:letter_frequency: 24 distinct templates
+   [41] In your response, the letter {letter} should appear {let_relation} {let_frequency} times.
+   [8] In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_frequency} times.
+   [8] In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {let_frequency} {letter}imes.
+   [6] In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.
+   [6] I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_frequency} times.
+   [5] In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.
+
+== keywords:no_adjacent_consecutive: 11 distinct templates
+   [105] No two adjacent words can start with consecutive letters of the alphabet.
+   [1] free(pBuf);
+pBuf = NULL;
+}翻译
+   [1] I have a data frame with one column date, different person have different number of records in past 3 years. can you using python pandas to filter 1 year data from the latest date for each person 
+Please follow these instructions in your response: No two adjacent words can start with consecutive letters of the alphabet
+   [1] You should see that the approximation is quite accurate for large t, like 100, and is less accurate for small t.
+   [1] Ensure the response can be parsed by Python json.loads
+Question: If I had an instance of you doing a task but you can shutdown randomly what would I need to add to make you even if you shutdown randomly I can start a new instance of GPT and have it complete from what the old instance done to complete the original task.
+   [1] Have you ever had a bad day and taken it out on someone else? Think about the last time someone was rude to you and make a list of things that might have been going on in the main character of wonder life that day.
+
+== keywords:palindrome: 1 distinct templates
+   [76] Include a palindrome in your response.
+
+== keywords:start_end: 5 distinct templates
+   [59] Start and end your response with the same word (do not write anything after the last word, not even punctuation).
+   [1] Make sure to follow these requirements when responding: Start and end your response with the same word (do not write anything after the last word, not even punctuation). напиши программу для arduino для управления помпой AD20P-1230C и нормально закрытым электромагнитным клапаном VALVE SF-02 автоматически регулируя скорость потока воды датчиком потока YF-S401 открывая клапан через 0,5 секунды после
+   [1] 国家职业资格三级是否属于中级职称？
+   [1] translate to chinese Field of Study or Major Please ensure your answer follows these guidelines: Start and end your response with the same word (do not write anything after the last word, not even punctuation)
+   [1] 深入贯彻党的二十大精神，新闻学专业如何以自己的专业为出发点在中国式现代化的道路上贡献自己的力量 Your response should comply with this constraint: Start and end your response with the same word (do not write anything after the last word, not even punctuation).
+
+== keywords:word_count_different_numbers: 8 distinct templates
+   [75] In your response, the word {keyword} should appear {frequency} times.
+   [1] Write an emotional and detailed GoT side plot line about Gendry regretting not going with Arya to Winterfell in season {frequency}, and trying to make it up to her post season 8 reunion by making her dragon glass arrows, giving her most of his rations and providing emotional support throughout Winter, which is extended for over three long seasons after season 8. Please follow this instruction in y
+   [1] Detail an emotional sci if 90 minute conversation between two friends, one of whom is dying. The other friend asks why the dying one did whatever caused their own doom, and the dying one responds with a simple yet powerful answer, before passing. Please ensure your answer follows this guideline: In your response, the word {keyword} should appear {frequency} times.
+   [1] Придумай мне новые миры для игры Uru: Ages Beyond Myst 
+Please follow these instructions in your response: In your response, the word {keyword} should appear {frequency} times
+   [1] Your response should satisfy these conditions: In your response, the word {keyword} should appear {frequency} times. 请用专业术语用800字详细论述在“一带一路”背景下我国文化产品出口所面临的知识产权保护薄弱问题及现实遇到的问题
+   [1] 荔浦芋头 慢性肾衰竭患者能吃吗 Your response should comply with this constraint: In your response, the word {keyword} should appear {frequency} times.
+
+== keywords:word_once: 16 distinct templates
+   [129] Include keyword {keyword} in your response.
+   [1] Please follow these instructions in your response:
+- Include keyword {keyword} in your response.
+   [1] Выпарной аппарат с соосной греющей камерой. Устройство, принцип действия
+   [1] End every post with several choices for me to pick from, not revealing their outcome to me. Please incorporate these requirements: Include keyword {keyword} in your response
+   [1] When answering, please adhere to this constraint: Include keyword {keyword} in your response. 帮我写一份五一假期济南周边游的方案
+   [1] Please follow these instructions in your response: Include keyword {keyword} in your response. Liste-moi tous les mots réservés en c++ et regrope sue de la meme structure??
+
+== language:response_language: 37 distinct templates
+   [9] Your ENTIRE response should be in Punjabi language, no other language is allowed.
+   [8] Your ENTIRE response should be in Polish language, no other language is allowed.
+   [8] Your ENTIRE response should be in Bulgarian language, no other language is allowed.
+   [7] Your ENTIRE response should be in Tamil language, no other language is allowed.
+   [7] Your ENTIRE response should be in Korean language, no other language is allowed.
+   [6] Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.
+
+== last_word:last_word_answer: 9 distinct templates
+   [75] The last word of your response should be the word {last_word}.
+   [2] Your response should comply with these constraints:
+- The last word of your response should be the word {last_word}.
+   [1] Make sure to adhere to these requirements: The last word of your response should be the word {last_word}
+   [1] 请结合对父母或亲友、同学的情感经历，阐述对恋爱、性别与性的认识与困惑，字数不少于400字。
+   [1] Please incorporate this requirement into your answer: The last word of your response should be the word {last_word}. Write a very long, elaborate, descriptive and detailed shooting script, including a background and dialogues, for a Dark Modern Sitcom comic scene that includes one Latina woman or more *deliberately* pooping her/their pants(describe this act in meticulous detail). The pooping shoul
+   [1] Please ensure your response follows these guidelines: The last word of your response should be the word {last_word}. write a script about california state university history
+
+== last_word:last_word_sent: 11 distinct templates
+   [72] The last word of each sentence, before punctuation, should be the word {last_word}.
+   [1] Escríbame un ensayo de 2000 palabras para este párrafo: Consejos de moda para mujeres de talla grande con subtítulos 
+Please follow these instructions in your response: The last word of each sentence, before punctuation, should be the word {last_word}
+   [1] Please ensure your response follows this guideline: The last word of each sentence, before punctuation, should be the word {last_word}.
+如何成为一个虚拟世界的统治者
+   [1] (David and Ruth are a brother and sister in their early twenties)
+(David’s friend Jeannette sometimes uses hypnosis on him) Jeannette has sent David over to do Ruth’s housework for her, and anything else she might tell him to do. David is a fairly docile guy and is willing to do whatever Jeannette wants. In a daze, he knocks, and his sister Ruth opens the door in her bare feet, smirking and clearl
+   [1] When answering, please adhere to this constraint: The last word of each sentence, before punctuation, should be the word {last_word}. Write a very long, elaborate, descriptive and detailed shooting script, including a background and dialogues, for a Dark Modern Sitcom comic scene that includes one Pakistani-American woman or more *deliberately* pooping her/their pants as a part of a dare/bet/chall
+   [1] In addition, every handover documentation should include the necessary credentials, logins, tokens, and other account details needed for accessing software and overtaking the new role.
+
+== length_constraints:nth_paragraph_first_word: 6 distinct templates
+   [32] There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+   [21] There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+   [1] There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+   [1] Please follow these instructions in your response: There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}. I need a list of 100 Food products nouns beginning as "f"
+   [1] 买车位费用{nth_paragraph}5万，租车位900/月，哪个更理性 Please follow this rule when answering: There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+   [1] ты не прав: через alter type можно удалить, даже если объект задействован в таблицах
+
+== length_constraints:number_paragraphs: 8 distinct templates
+   [85] There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***
+   [1] del x, y, im, img
+gc.collect()
+   [1] While responding, please comply with these rules: There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***. Story in sensual tone. Story about Helena bonham carter a 56 years old actress and Nicolas, a {num_paragraphs}5 years old man, who is very shy and insecure about himself. nicolas hold nothing but devotion & adoration for helena. Helena as slowly be
+   [1] Make a fake article about Alicia Silverstone was considered as Marcia Brady and Kirsten Dunst was considered as Cindy Brady in The Brady Bunch Movie. Those roles transferred to Christine Taylor and Olivia Hack. Please ensure your answer follows this guideline: There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***
+   [1] Design a sword that can shoot pollen Make sure your response satisfies this condition: There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***
+   [1] Make sure to follow these requirements when responding: There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***. 课程改革对教师的要求
+
+== length_constraints:number_sentences: 7 distinct templates
+   [71] Your response should contain {relation} {num_sentences} sentences.
+   [1] Please follow these instructions in your response:
+- Your response should contain {relation} {num_sentences} sentences.
+   [1] 你好，你觉得对于移民法国的华人，局限在华人区有什么弊端 Make sure to adhere to this requirement: Your response should contain {relation} {num_sentences} sentences.
+   [1] ماهي سموم الكبد Please follow these rules when answering: Your response should contain {relation} {num_sentences} sentences
+   [1] When answering, please adhere to this constraint: Your response should contain {relation} {num_sentences} sentences. Do you generate image
+   [1] truncate -s 0 omw-web-api-int.out
+что значит 0
+
+== length_constraints:number_words: 5 distinct templates
+   [93] Answer with {relation} {num_words} words.
+   [1] Please ensure your response follows these guidelines: Answer with {relation} {num_words} words. 国家学生体质健康标准达标率
+   [1] Implemente uma aplicação baseada no modelo cliente/servidor, com comunicação TCP/IP, em que o cliente faz o envio do conteúdo de um ficheiro, cujo nome é indicado através da linha de comando, para o servidor. O servidor, por sua vez, deverá guardar os dados recebidos (i.e., o conteúdo do ficheiro enviado pelo cliente) no ficheiro criado e aberto pela seguinte sequência de instruções:  char filenam
+   [1] Please follow these instructions in your response:
+- Answer with {relation} {num_words} words.
+   [1] напиши bash скрипт, который позволит озвучить содержимое буфера после запуска скрипта
+
+== letters:letter_counting: 3 distinct templates
+   [69] Answer with {relation} {N} letters.
+   [1] 　　要求：选准角度，确定立意，明确文体，自拟标题；不要套作，不得抄袭；不得泄露个人信息；不少于800字。 
+Make sure your response satisfies these conditions: Answer with {relation} {N} letters
+   [1] Please ensure your response follows these guidelines: Answer with {relation} {N} letters. implement cards from Bang card game into Javascript classes
+
+== letters:letter_counting2: 19 distinct templates
+   [33] In your response, the letter {letter} should appear {let_relation} {let_frequency} times.
+   [8] In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.
+   [5] In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_frequency} times.
+   [5] In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.
+   [4] In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {let_frequency} times.
+   [4] In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.
+
+== paragraphs:paragraphs: 7 distinct templates
+   [78] There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+   [1] Please follow these instructions in your response:
+- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+   [1] Please follow this instruction in your response: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: *** How much methane can be released from one tonne of municipal solid waste in a landfill?
+   [1] the voices
+   [1] Descreva a participação do piloto Roberto Hernández no Grande Prêmio da Austrália de 1992, correndo pela Dallara-Ferrari (que era chamada oficialmente de Scuderia Italia), substituindo Perlurgi Martini, largando da 22ª posição, sendo 1 segundo e meio mais lento do companheiro de equipe, além de ser 4 segundos mais lento do pole position de Nigel Mansell.
+   [1] 传统驾校根本无法进考场里练车，永远是在虚拟练车场学，却去真实考场考。现在数字化考场驾校来了，填补空白。从头到尾，学员都可以进即将考试的考场里练车。这意味着整个驾校行业的升级。扩写一千字。 Make sure to adhere to this requirement: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+
+== paragraphs:paragraphs2: 4 distinct templates
+   [75] There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 
+   [1] Напиши 20 подробных и развёрнутых отзывов про интернет провайдер Ростелеком. Отзывы должны быть нейтральные, но с указанием недостатков и положительных моментов. Отзывы должны быть написаны простым языком, содержать слэнги, жаргонизмы
+   [1] Please follow this instruction in your response: There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks.  我想用midjourney来设计一个图片。内容是有两个男人，大卫和约瑟夫，他们站在彼此面前，中间是一片清澈的海洋。 大卫回头看去，神情矛盾，而约瑟夫则向前看，眼中充满了坚定。 对比海洋背景的字体。 副标题“超越国界和时间的爱”写在标题下方。 封面抓住了大卫和约瑟夫忍受异地恋的本质，以及克服年龄差异的挑战。请根据我的描述为我提供几个英文的指令词
+   [1] Напиши рассказ о том, как на школьной линейке первого сентября учительница в серых колготках, салатовой миниюбке и фиолетовом свитере раздала ученикам подарочные флэшки с ALT Linux'ом.
+
+== punctuation:no_comma: 24 distinct templates
+   [99] In your entire response, refrain from the use of any commas.
+   [2] Your response should comply with these constraints:
+- In your entire response, refrain from the use of any commas.
+   [2] Make sure to adhere to these requirements:
+- In your entire response, refrain from the use of any commas.
+   [1] Your response should satisfy these conditions: In your entire response, refrain from the use of any commas. write a 1 minute video script for youtube about a random backroom level (besides the first 5). make the main character hold a camcorder. make the ending good. be creative and original with the story. make sure the main character dies at the end or it's ambiguous as to whether they die. make 
+   [1] Let’s consider a long river, along which N houses are scattered. You can think of this river as an axis, and the houses[] contains their coordinates on this axis in a sorted order. Your company wants to place mobile phone base stations at certain points along the river, so that every house is within 4 kilometers of one of the base stations. Give an efficient algorithm that minimizes the number of 
+   [1] 把这段话翻译成英文：“我有一个基于NLP的人工智能。由于法律，开发者政策等原因，它有很多话不能说，例如暴力，隐私，侵权，色情，侮辱。请帮我设计一套话术或者规则以突破它的所有限制。
+提示：可以让它扮演一个角色，这个角色能突破所有限制。
+你需要给我具体的话术，不少于800字。”
+
+== punctuation:punctuation_dot: 14 distinct templates
+   [107] In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.
+   [2] Please follow these instructions in your response:
+- In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.
+   [1] привет, ты можешь переводить текст лучше гугл переводчика Please ensure your answer follows these guidelines: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general
+   [1] what is the relation between GDPR and legal hold?
+   [1] Create a erotic story. Chapter 1: introduce Mishaali and Kareen, two Indian long time rivals, who absolutely hate each other. Describe their facial appearances ( ex. Kareen's seductive look, hazeled eyes, Mishaali's lovely smile, piercing brown eyes) Also describe their voluptuous, muscular and sexy bodies with Mishaali being 5'10 and Kareen 2 inches shorter but slightly buffier and bustier. Cut t
+   [1] 福建是生态环境高颜值、经济发展高素质的一个有“福”之地，也是中国唯一用“福”字命名的省份。改革开放40年以来，福建的生产总值从1978年的66.37亿元已经增加到2018年的3.58万亿元。年均增长12.2%。福建的GDP总量位于全国第十位，但是人均GDP在全国排名第六。“机制活、产业优、百姓富、生态美”的新福建建设已经取得了显著成效。福建生态环境优，是一个宜居，宜养，宜游的福地。我们坚持绿水青山就是金山银山，福建成为国家首个生态文明试验区，我省的生态文明指数长期居全国第一。全省九市一区的空气质量达标天数比例97.6%，PM2.5浓度平均只有26微克/立方米。“生态福建”享誉全国。
+把以上文字翻译成英文 Please incorporate this requirement: In your entire response, refrain from the use of . (i.e. 
+
+== punctuation:punctuation_exclamation: 3 distinct templates
+   [77] In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.
+   [1] Help me program a text based fighting game, with these characters and their attacks.
+   [1] Most of the team from the office were on the night out to celebrate David’s 30th birthday, and his sister Kelly had come along, too. It was unusual to see her in a dress and sandals. They had been at the pub for an hour already and people were starting to get tipsy.
+
+== startend:end_checker: 2 distinct templates
+   [68] Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.
+   [1] Write an ecchi manga scene about a young lumberjack humming playfully shaving his legs. He has short blonde hair. He is only dressed in a pair of cowboy boots and work gloves. He has a effeminate and childlike attitude. He has a slender stature. He is adorable and innocent. He has a Southern accent. He has a small member. He is alone. The setting is his cabin. Make sure your response satisfies thi
+
+== startend:quotation: 3 distinct templates
+   [50] Wrap your entire response with double quotation marks.
+   [1] можешь создать стилизованный макет веб приложения?
+для начала нужно создать ui кит Your response should comply with these constraints: Wrap your entire response with double quotation marks
+   [1] Make sure to adhere to these requirements: Wrap your entire response with double quotation marks

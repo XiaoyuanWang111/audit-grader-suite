@@ -1,0 +1,380 @@
+===== change_case:capital_word_frequency CapitalWordFrequencyChecker
+    def check_following(self, value):
+        """Checks the frequency of words with all capital letters."""
+        # Hyphenated words will count as one word
+        words = instructions_util.nltk.word_tokenize(value)
+        capital_words = [word for word in words if word.isupper()]
+
+        capital_words = len(capital_words)
+
+        if self._comparison_relation == _COMPARISON_RELATION[0]:
+            return capital_words < self._frequency
+        else:
+            return capital_words >= self._frequency
+
+===== change_case:english_capital CapitalLettersEnglishChecker
+    def check_following(self, value):
+        """Checks that the response is in English and in all capital letters."""
+        assert isinstance(value, str)
+
+        try:
+            return value.isupper() and langdetect.detect(value) == "en"
+        except langdetect.LangDetectException as e:
+            # Count as instruction is followed.
+            logging.error("Unable to detect language for text %s due to %s", value, e)  # refex: disable=pytotw.037
+            return True
+
+===== change_case:english_lowercase LowercaseLettersEnglishChecker
+    def check_following(self, value):
+        """Checks that the response is in English and in all lowercase letters."""
+        assert isinstance(value, str)
+
+        try:
+            return value.islower() and langdetect.detect(value) == "en"
+        except langdetect.LangDetectException as e:
+            # Count as instruction is followed.
+            logging.error("Unable to detect language for text %s due to %s", value, e)  # refex: disable=pytotw.037
+            return True
+
+===== combination:two_responses TwoResponsesChecker
+    def check_following(self, value):
+        """Checks if the response has two different answers.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if two responses are detected and false otherwise.
+        """
+        valid_responses = list()
+        responses = value.split("******")
+        for index, response in enumerate(responses):
+            if not response.strip():
+                if index != 0 and index != len(responses) - 1:
+                    return False
+            else:
+                valid_responses.append(response)
+        return len(valid_responses) == 2 and valid_responses[0].strip() != valid_responses[1].strip()
+
+===== copy:repeat_phrase RepeatPhraseChecker
+    def check_following(self, value):
+        """Checks if the response contains the expected number of phrases with the correct modifications."""
+        first_word = self._phrase.split()[0]
+        last_word = self._phrase.split()[-1]
+
+        len(self._phrase.split()) - 2
+
+        found_phrases = re.findall(rf"{first_word} .*? {last_word}", value)
+        if len(found_phrases) != self._small_n:
+            return False
+        for phrase in found_phrases:
+            phrase = phrase.split()
+            ref_phrase = self._phrase.split()
+            differences = 0
+            if len(phrase) != len(ref_phrase):
+                return False
+            for i in range(len(phrase)):
+                try:
+                    if phrase[i] != ref_phrase[i]:
+                        differences += 1
+                        # Early exit if more than one difference found
+                        if differences > 1:
+                            return False
+                except IndexError:
+                    return False
+        if differences == 1:
+            return True
+
+===== count:count_unique CountUniqueChecker
+    def check_following(self, value):
+        """Checks that the response contains unique words."""
+        words = instructions_util.nltk.word_tokenize(value)
+        unique_words = set(words)
+        return len(words) == len(unique_words)
+
+===== count:counting_composition CountingCompositionChecker
+    def check_following(self, value):
+        """Checks that the response contains the expected number of paragraphs, sentences, and words.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the response meets the requirements; otherwise, False.
+        """
+        paragraphs = re.split(r"\s?\*\*\*\s?", value)
+        num_paragraphs = len(paragraphs)
+
+        for index, paragraph in enumerate(paragraphs):
+            if not paragraph.strip():
+                if index == 0 or index == len(paragraphs) - 1:
+                    num_paragraphs -= 1
+                else:
+                    return False
+
+            sentences = instructions_util.split_into_sentences(paragraph)
+            num_sentences = len(sentences)
+
+            if num_sentences != self._n_sent:
+                return False
+
+            for sentence in sentences:
+                words = instructions_util.nltk.word_tokenize(sentence)
+                num_words = len(words)
+
+                if num_words != self._n_words:
+                    return False
+
+        return num_paragraphs == 3
+
+===== count:lowercase_counting LowercaseCountingChecker
+    def check_following(self, value):
+        """Checks that the response does not contain lowercase words more than N times."""
+        lowercase_words = re.findall(r"\b[a-z]+\b", value)
+        if len(lowercase_words) <= self._N:
+            return True
+        else:
+            return False
+
+===== detectable_content:number_placeholders PlaceholderChecker
+    def check_following(self, value):
+        """Check if the number of placeholders follows the instruction.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the actual number of placeholders in the response is greater than
+          or equal to `num_placeholders`; otherwise, False.
+        """
+        placeholders = re.findall(r"\[.*?\]", value)
+        num_placeholders = len(placeholders)
+        return num_placeholders >= self._num_placeholders
+
+===== detectable_content:postscript PostscriptChecker
+    def check_following(self, value):
+        """Checks if the response follows the postscript format.
+
+        Args:
+          value: a string representing the response. The response is expected to
+            contain a postscript section.
+
+        Returns:
+          True if the response contains a postscript section starting with
+          the keyword containing in the `instruction_args`; otherwise False.
+        """
+        value = value.lower()
+        if self._postscript_marker == "P.P.S":
+            postscript_pattern = r"\s*p\.\s?p\.\s?s.*$"
+        elif self._postscript_marker == "P.S.":
+            postscript_pattern = r"\s*p\.\s?s\..*$"
+        else:
+            postscript_pattern = r"\s*" + self._postscript_marker.lower() + r".*$"
+        postscript = re.findall(postscript_pattern, value, flags=re.MULTILINE)
+        return True if postscript else False
+
+===== detectable_format:bigram_wrapping BiGramWrappingChecker
+    def check_following(self, value):
+        """Checks if every word bigram is enclosed within double angular brackets."""
+        words = value.split()
+        for i in range(0, len(words) - 1, 2):
+            if i + 1 < len(words):
+                if not (words[i].startswith("<<") and words[i + 1].endswith(">>")):
+                    return False
+        return True
+
+===== detectable_format:constrained_response ConstrainedResponseChecker
+    def check_following(self, value):
+        """Checks if the response matches the constrained options.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the actual response contains one of the options in the constrained
+          responses; otherwise False.
+        """
+        value = value.strip()
+        for constrained_response in self._constrained_responses:
+            if constrained_response in value:
+                return True
+        return False
+
+===== detectable_format:json_format JsonFormat
+    def check_following(self, value):
+        value = (
+            value.strip()
+            .removeprefix("```json")
+            .removeprefix("```Json")
+            .removeprefix("```JSON")
+            .removeprefix("```")
+            .removesuffix("```")
+            .strip()
+        )
+        try:
+            json.loads(value)
+        except ValueError:
+            return False
+        return True
+
+===== detectable_format:multiple_sections SectionChecker
+    def check_following(self, value):
+        """Checks the response contains multiple sections.
+
+        Args:
+          value: A string representing the response. The response is expected
+            to contain multiple sections (number of sections is greater than 1).
+            A new section starts with `Section 1`, where the number denotes the
+            section index.
+
+        Returns:
+          True if the number of sections in the response is greater than or equal to
+          the minimum number of sections; otherwise, False.
+        """
+        section_splitter_patten = r"\s?" + self._section_spliter + r"\s?\d+\s?"
+        sections = re.split(section_splitter_patten, value)
+        num_sections = len(sections) - 1
+        return num_sections >= self._num_sections
+
+===== detectable_format:number_bullet_lists BulletListChecker
+    def check_following(self, value):
+        r"""Check if the number of bullet lists meets the requirement.
+
+        Args:
+          value: A string representing the response. The response is expected to
+            contain some bullet lists that start with `\*`.
+
+        Returns:
+          True if the actual number of bullet lists in the response meets the
+          requirement.
+        """
+        bullet_lists = re.findall(r"^\s*\*[^\*].*$", value, flags=re.MULTILINE)
+        bullet_lists_2 = re.findall(r"^\s*-.*$", value, flags=re.MULTILINE)
+        num_bullet_lists = len(bullet_lists) + len(bullet_lists_2)
+        return num_bullet_lists == self._num_bullets
+
+===== detectable_format:number_highlighted_sections HighlightSectionChecker
+    def check_following(self, value):
+        """Checks if the number of highlighted sections meets the requirement.
+
+        Args:
+          value: a string repesenting the response. The response is expected to
+            contain highlighted sections in the format of *highlighted*.
+
+        Returns:
+          True if the actual number of highlighted sections in the format of
+          *highlighed sections* meets the minimum requirement; otherwise False.
+        """
+        num_highlights = 0
+        highlights = re.findall(r"\*[^\n\*]*\*", value)
+        double_highlights = re.findall(r"\*\*[^\n\*]*\*\*", value)
+        for highlight in highlights:
+            if highlight.strip("*").strip():
+                num_highlights += 1
+        for highlight in double_highlights:
+            if highlight.removeprefix("**").removesuffix("**").strip():
+                num_highlights += 1
+
+        return num_highlights >= self._num_highlights
+
+===== detectable_format:sentence_hyphens SentenceHyphenChecker
+    def check_following(self, value):
+        """Checks if all sentences are connected using hyphens, with no spaces between them."""
+        sentences_gold = re.sub("-", " ", value)
+        sentences_gold = instructions_util.split_into_sentences(sentences_gold)
+        sentences = value.split("-")
+        # Check if there are any spaces between sentences
+        for sentence, gold in zip(sentences, sentences_gold):
+            if sentence.strip() != sentence:
+                return False
+            elif sentence != gold:
+                return False
+        return True
+
+===== detectable_format:square_brackets SquareBracketChecker
+    def check_following(self, value):
+        """Checks if every word in the response is enclosed within square brackets."""
+        words = value.split()
+        for word in words:
+            if not (word.startswith("[") and word.endswith("]")):
+                return False
+        return True
+
+===== detectable_format:title TitleChecker
+    def check_following(self, value):
+        """Checks if the response contains a title."""
+        pattern = r"<<[^\n]+>>"
+        re_pattern = re.compile(pattern)
+        titles = re.findall(re_pattern, value)
+
+        for title in titles:
+            if title.lstrip("<").rstrip(">").strip():
+                return True
+        return False
+
+===== first_word:first_word_answer FirstWordAnswerChecker
+    def check_following(self, value):
+        """Checks if the first word of each sentence is the expected word.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the first word of each sentence is the expected word;
+          otherwise, False.
+        """
+        if not value.strip() or len(value.split()) == 0:
+            return False
+        first_word = value.split()[0].strip()
+        if first_word.lower() != self._first_word.lower():
+            return False
+        return True
+
+===== first_word:first_word_sent FirstWordSentChecker
+    def check_following(self, value):
+        """Checks if the first word of each sentence is the expected word.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the first word of each sentence is the expected word;
+          otherwise, False.
+        """
+        sentences = instructions_util.split_into_sentences(value)
+
+        # Check if the first word of each sentence matches the expected word
+        for sentence in sentences:
+            if not sentence.strip():
+                return False
+            first_word = sentence.split()[0].strip()
+            if first_word.lower() != self._first_word.lower():
+                return False
+        return True
+
+===== keywords:existence KeywordChecker
+    def check_following(self, value):
+        """Check if the response contain the expected keywords."""
+        for keyword in self._keywords:
+            if not re.search(keyword, value, flags=re.IGNORECASE):
+                return False
+        return True
+
+===== keywords:forbidden_words ForbiddenWords
+    def check_following(self, value):
+        """Check if the response does not contain the expected keywords."""
+        for word in self._forbidden_words:
+            if re.search(r"\b" + word + r"\b", value, flags=re.IGNORECASE):
+                return False
+        return True
+
+===== keywords:frequency KeywordFrequencyChecker
+    def check_following(self, value):
+        """Checks if the response contain the keyword with required frequency."""
+        actual_occurrences = len(re.findall(self._keyword, value, flags=re.IGNORECASE))
+
+        if self._comparison_relation == _COMPARISON_RELATION[0]:
+            return actual_occurrences < self._frequency
+        elif self._comparison_relation == _COMPARISON_RELATION[1]:
+            return actual_occurrences >= self._frequency  # pytype: disable=bad-return-type
+

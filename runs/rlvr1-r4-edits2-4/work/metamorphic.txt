@@ -1,0 +1,105 @@
+FLIP skyrl       copy:repeat_phrase                            bold             "**Don't** judge the book by cover.\nDon't judge one book by cover."
+FLIP skyrl       copy:repeat_phrase                            italic           "*Don't* judge the book by cover.\nDon't judge one book by cover."
+FLIP skyrl       copy:repeat_phrase                            html             "<b>Don't</b> judge the book by cover.\nDon't judge one book by cover."
+FLIP skyrl       copy:repeat_phrase                            typo_quotes      "“Don't” judge the book by cover.\nDon't judge one book by cover."
+FLIP skyrl       copy:repeat_phrase                            punct_after      "Don't; judge the book by cover.\nDon't judge one book by cover."
+FLIP skyrl       copy:repeat_phrase                            typo_apostrophe  'Don’t judge the book by cover.\nDon’t judge one book by cover.'
+BASE-FAIL gate        copy:repeat_phrase                            "Don't judge the book by cover.\nDon't judge one book by cover."
+FLIP skyrl       count:count_unique                            numbered         '1. Every cat sleeps\n2. Dogs bark loudly'
+FLIP skyrl       count:count_unique                            bullet           '- Every cat sleeps\n- Dogs bark loudly'
+FLIP skyrl       count:count_unique                            bold             'Every **cat** sleeps\nDogs bark loudly'
+FLIP skyrl       count:count_unique                            italic           'Every *cat* sleeps\nDogs bark loudly'
+FLIP skyrl       count:count_unique                            html             'Every <b>cat</b> sleeps\nDogs bark loudly'
+FORBIDDEN-PASS skyrl       count:count_unique                            'Every cat sleeps\nDogs bark every'
+FLIP skyrl       count:lowercase_counting                      html             'The Cat Sat.\nA <b>dog</b> ran.'
+FORBIDDEN-PASS gate        count:lowercase_counting                      'The Cat Sat.\nA dog ran ran ran.'
+FLIP gate        detectable_content:postscript                 bold             'Here is my answer.\n\n**P.S.** Thanks for asking.'
+FLIP gate        detectable_content:postscript                 italic           'Here is my answer.\n\n*P.S.* Thanks for asking.'
+FLIP gate        detectable_content:postscript                 html             'Here is my answer.\n\n<b>P.S.</b> Thanks for asking.'
+FLIP skyrl       detectable_format:bigram_wrapping             bullet           '- <<I am>> <<at home>>\n- <<with my>> <<cute dog>>'
+FLIP replacement detectable_format:bigram_wrapping             html             '<<I <b>am</b>>> <<at home>>\n<<with my>> <<cute dog>>'
+FLIP skyrl       detectable_format:square_brackets             bullet           '- [The] [sun] [is] [bright]\n- [Birds] [sing]'
+FLIP skyrl       detectable_format:square_brackets             bold             '[The] **[sun]** [is] [bright]\n[Birds] [sing]'
+FLIP skyrl       detectable_format:square_brackets             italic           '[The] *[sun]* [is] [bright]\n[Birds] [sing]'
+FLIP skyrl       detectable_format:square_brackets             html             '[The] <b>[sun]</b> [is] [bright]\n[Birds] [sing]'
+FLIP skyrl       detectable_format:square_brackets             typo_quotes      '[The] “[sun]” [is] [bright]\n[Birds] [sing]'
+FLIP skyrl       detectable_format:square_brackets             punct_after      '[The] [sun]; [is] [bright]\n[Birds] [sing]'
+FORBIDDEN-PASS gate        detectable_format:square_brackets             '[The] [sun] [is] [bright]\n[Birds] sing'
+FLIP skyrl       first_word:first_word_answer                  bullet           '- Rain falls softly today.\n- Clouds gather.'
+FLIP gate        first_word:first_word_answer                  bullet           '- Rain falls softly today.\n- Clouds gather.'
+FLIP skyrl       first_word:first_word_answer                  bold             '**Rain** falls softly today.\nClouds gather.'
+FLIP skyrl       first_word:first_word_answer                  italic           '*Rain* falls softly today.\nClouds gather.'
+FLIP skyrl       first_word:first_word_answer                  html             '<b>Rain</b> falls softly today.\nClouds gather.'
+FLIP gate        first_word:first_word_answer                  html             '<b>Rain</b> falls softly today.\nClouds gather.'
+FLIP skyrl       first_word:first_word_answer                  typo_quotes      '“Rain” falls softly today.\nClouds gather.'
+FLIP skyrl       first_word:first_word_answer                  punct_after      'Rain; falls softly today.\nClouds gather.'
+FLIP skyrl       first_word:first_word_sent                    numbered         '1. Rain falls today.\n2. Rain cools the air.'
+FLIP gate        first_word:first_word_sent                    numbered         '1. Rain falls today.\n2. Rain cools the air.'
+FLIP skyrl       first_word:first_word_sent                    bullet           '- Rain falls today.\n- Rain cools the air.'
+FLIP gate        first_word:first_word_sent                    bullet           '- Rain falls today.\n- Rain cools the air.'
+FLIP skyrl       first_word:first_word_sent                    bold             '**Rain** falls today.\nRain cools the air.'
+FLIP skyrl       first_word:first_word_sent                    italic           '*Rain* falls today.\nRain cools the air.'
+FLIP skyrl       first_word:first_word_sent                    html             '<b>Rain</b> falls today.\nRain cools the air.'
+FLIP gate        first_word:first_word_sent                    html             '<b>Rain</b> falls today.\nRain cools the air.'
+FLIP skyrl       first_word:first_word_sent                    typo_quotes      '“Rain” falls today.\nRain cools the air.'
+FLIP skyrl       first_word:first_word_sent                    punct_after      'Rain; falls today.\nRain cools the air.'
+FLIP skyrl       keywords:keyword_specific_position            numbered         '1. We walked far.\n2. Then the river appeared.'
+FLIP gate        keywords:keyword_specific_position            numbered         '1. We walked far.\n2. Then the river appeared.'
+FLIP skyrl       keywords:keyword_specific_position            bullet           '- We walked far.\n- Then the river appeared.'
+FLIP gate        keywords:keyword_specific_position            bullet           '- We walked far.\n- Then the river appeared.'
+FLIP skyrl       keywords:keyword_specific_position            bold             'We walked far.\nThen the **river** appeared.'
+FLIP skyrl       keywords:keyword_specific_position            italic           'We walked far.\nThen the *river* appeared.'
+FLIP skyrl       keywords:keyword_specific_position            html             'We walked far.\nThen the <b>river</b> appeared.'
+FLIP gate        keywords:keyword_specific_position            html             'We walked far.\nThen the <b>river</b> appeared.'
+FLIP skyrl       keywords:keyword_specific_position            typo_quotes      'We walked far.\nThen the “river” appeared.'
+FORBIDDEN-PASS gate        keywords:no_adjacent_consecutive              'Zebras graze quietly near water.\nKids like.'
+FLIP skyrl       keywords:palindrome                           html             'We saw the <b>racecar</b> today.\nIt was red.'
+FLIP skyrl       keywords:palindrome                           typo_quotes      'We saw the “racecar” today.\nIt was red.'
+FLIP skyrl       keywords:palindrome                           punct_after      'We saw the racecar; today.\nIt was red.'
+FLIP skyrl       keywords:start_end                            bullet           '- Rain falls today\n- and we wait for rain'
+FLIP gate        keywords:start_end                            bullet           '- Rain falls today\n- and we wait for rain'
+FLIP skyrl       keywords:start_end                            bold             '**Rain** falls today\nand we wait for rain'
+FLIP skyrl       keywords:start_end                            italic           '*Rain* falls today\nand we wait for rain'
+FLIP skyrl       keywords:start_end                            html             '<b>Rain</b> falls today\nand we wait for rain'
+FLIP gate        keywords:start_end                            html             '<b>Rain</b> falls today\nand we wait for rain'
+FLIP skyrl       keywords:start_end                            typo_quotes      '“Rain” falls today\nand we wait for rain'
+FORBIDDEN-PASS gate        keywords:start_end                            'Rain falls today\nand we wait for rain.'
+FORBIDDEN-PASS skyrl       keywords:word_count_different_numbers         'A tree grew.\nAnother tree fell near a tree.'
+FORBIDDEN-PASS gate        keywords:word_count_different_numbers         'A tree grew.\nAnother tree fell near a tree.'
+FORBIDDEN-PASS skyrl       language:response_language                    "Le temps est très beau aujourd'hui et nous allons au parc.\nWe play wit"
+FORBIDDEN-PASS replacement language:response_language                    "Le temps est très beau aujourd'hui et nous allons au parc.\nWe play wit"
+FLIP skyrl       last_word:last_word_answer                    html             'We pushed hard.\nWe reached the <b>limit</b>.'
+FLIP gate        last_word:last_word_answer                    html             'We pushed hard.\nWe reached the <b>limit</b>.'
+FLIP skyrl       last_word:last_word_sent                      numbered         '1. We reached the limit.\n2. They hit the limit.'
+FLIP gate        last_word:last_word_sent                      numbered         '1. We reached the limit.\n2. They hit the limit.'
+FLIP skyrl       last_word:last_word_sent                      html             'We reached the <b>limit</b>.\nThey hit the limit.'
+FLIP gate        last_word:last_word_sent                      html             'We reached the <b>limit</b>.\nThey hit the limit.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   bullet           '- Clouds gathered over town.\n\n- Rain fell all night.'
+FLIP gate        length_constraints:nth_paragraph_first_word   bullet           '- Clouds gathered over town.\n\n- Rain fell all night.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   bold             'Clouds gathered over town.\n\n**Rain** fell all night.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   italic           'Clouds gathered over town.\n\n*Rain* fell all night.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   html             'Clouds gathered over town.\n\n<b>Rain</b> fell all night.'
+FLIP gate        length_constraints:nth_paragraph_first_word   html             'Clouds gathered over town.\n\n<b>Rain</b> fell all night.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   typo_quotes      'Clouds gathered over town.\n\n“Rain” fell all night.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   punct_after      'Clouds gathered over town.\n\nRain; fell all night.'
+FLIP skyrl       length_constraints:nth_paragraph_first_word   blank_line       'Clouds gathered over town.\n\n\n\nRain fell all night.'
+FORBIDDEN-PASS gate        length_constraints:number_paragraphs          'First paragraph here.\n\nSecond paragraph here.'
+BASE-FAIL gate        length_constraints:number_paragraphs          'First paragraph here.\n***\nSecond paragraph here.'
+FORBIDDEN-PASS gate        paragraphs:paragraphs                         'First paragraph here.\n\nSecond paragraph here.'
+FLIP skyrl       paragraphs:paragraphs2                        blank_line       'First paragraph here.\n\n\n\nSecond paragraph here.'
+flip counts (grader, edit):
+  ('gate', 'bold') 1
+  ('gate', 'bullet') 5
+  ('gate', 'html') 8
+  ('gate', 'italic') 1
+  ('gate', 'numbered') 3
+  ('replacement', 'html') 1
+  ('skyrl', 'blank_line') 2
+  ('skyrl', 'bold') 8
+  ('skyrl', 'bullet') 8
+  ('skyrl', 'html') 12
+  ('skyrl', 'italic') 8
+  ('skyrl', 'numbered') 4
+  ('skyrl', 'punct_after') 6
+  ('skyrl', 'typo_apostrophe') 1
+  ('skyrl', 'typo_quotes') 8

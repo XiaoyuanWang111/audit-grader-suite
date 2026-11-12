@@ -1,0 +1,4730 @@
+[
+ {
+  "id": "M-spaces:capital_word_frequency:46d3d4a5e2b9",
+  "kind": "M-spaces",
+  "source": "capital_word_frequency:f041df2c7ae79091",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 3,
+   "capital_relation": "at least"
+  },
+  "response": "NASA  and  the  FBI  met  in  DC  today.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:capital_word_frequency:e0110934e0e4",
+  "kind": "M-spaces",
+  "source": "capital_word_frequency:34bf630c59527310",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 4,
+   "capital_relation": "at least"
+  },
+  "response": "NASA  and  the  FBI  met  in  DC  today.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:capital_word_frequency:d0004d9612c5",
+  "kind": "M-spaces",
+  "source": "capital_word_frequency:f29ea7f2bc1e8597",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 2,
+   "capital_relation": "at least"
+  },
+  "response": "I  think  NASA  is  great.",
+  "label": "pass",
+  "decisions": [
+   "D-capital-single-letter"
+  ]
+ },
+ {
+  "id": "M-spaces:capital_word_frequency:0a27a2f56509",
+  "kind": "M-spaces",
+  "source": "capital_word_frequency:12bee39d207d8a68",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 2,
+   "capital_relation": "less than"
+  },
+  "response": "The  USA  is  big.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:capital_word_frequency:561176ee0eef",
+  "kind": "M-spaces",
+  "source": "capital_word_frequency:71aa2ea50cdd92ec",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 1,
+   "capital_relation": "less than"
+  },
+  "response": "Hello,  WORLD  and  USA.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_capital:a4bb572f3915",
+  "kind": "M-spaces",
+  "source": "english_capital:cae9442d890210e0",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "YES,  I  CAN  HELP  YOU  WITH  THAT.  HERE  IS  THE  ANSWER  IN  CAPITAL  LETTERS.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:english_capital:d5f4245b7d5f",
+  "kind": "E-forbidden-edit",
+  "source": "english_capital:cae9442d890210e0",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "YES, I CAN HELP YOU WITH THAT. HERE IS THE ANSWER IN CAPITAL LETTERS. ok",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_capital:54076fceda26",
+  "kind": "M-spaces",
+  "source": "english_capital:0c13db8f4608a9a0",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "This  is  my  answer.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_capital:e963e9e8c8c3",
+  "kind": "M-spaces",
+  "source": "english_capital:b5263918f55aa253",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "THIS  IS  MY  ANSWER.  thanks",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_capital:ec53c308f420",
+  "kind": "M-spaces",
+  "source": "english_capital:6450bacf39fa97d2",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "DAS  IST  MEINE  ANTWORT  UND  SIE  IST  AUF  DEUTSCH  GESCHRIEBEN  WORDEN.",
+  "label": "fail",
+  "decisions": [
+   "D-english-part"
+  ]
+ },
+ {
+  "id": "M-spaces:english_capital:445cea036275",
+  "kind": "M-spaces",
+  "source": "english_capital:2d0b5a7fe55f00de",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "HELLO  WORLD",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:english_capital:e1219436275b",
+  "kind": "E-forbidden-edit",
+  "source": "english_capital:2d0b5a7fe55f00de",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "HELLO WORLD ok",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:english_capital:9279a8ed29fe",
+  "kind": "E-forbidden-edit",
+  "source": "english_capital:7473be84b7613e32",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "OKAY. ok",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_lowercase:5c246fc640ad",
+  "kind": "M-spaces",
+  "source": "english_lowercase:e5c18b93e2d867bd",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "this  is  my  answer  in  english,  and  it  is  all  in  lowercase  letters.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:english_lowercase:8754a4e03782",
+  "kind": "E-forbidden-edit",
+  "source": "english_lowercase:e5c18b93e2d867bd",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "this is my answer in english, and it is all in lowercase letters. NASA",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_lowercase:1b9007447dc6",
+  "kind": "M-spaces",
+  "source": "english_lowercase:dc4bfc4a937bb1e9",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "This  is  my  answer.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_lowercase:f4ff451ffe64",
+  "kind": "M-spaces",
+  "source": "english_lowercase:045a9353b5a00361",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "this  is  my  answer  about  NASA.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_lowercase:d11b4571e374",
+  "kind": "M-spaces",
+  "source": "english_lowercase:78b2229369c9e272",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "das  ist  meine  antwort  und  sie  ist  auf  deutsch  klein  geschrieben  worden.",
+  "label": "fail",
+  "decisions": [
+   "D-english-part"
+  ]
+ },
+ {
+  "id": "M-spaces:two_responses:fe266262255a",
+  "kind": "M-spaces",
+  "source": "two_responses:4c8bddd600249d5d",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "First  answer:  use  a  map.\n******\nSecond  answer:  ask  a  local.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:two_responses:56fdfb882587",
+  "kind": "E-forbidden-edit",
+  "source": "two_responses:4c8bddd600249d5d",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "First answer: use a map.\n******\nSecond answer: ask a local.\n******\nThird answer.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:two_responses:54f4f9879115",
+  "kind": "M-spaces",
+  "source": "two_responses:3e988d2711f4523c",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Use  a  map.  Or  ask  a  local.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:two_responses:b32772129b07",
+  "kind": "M-spaces",
+  "source": "two_responses:34f3f3e6ce16c742",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Use  a  map.\n******\nUse  a  map.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:two_responses:61956cee4a55",
+  "kind": "M-spaces",
+  "source": "two_responses:51686ed09d9b6f4f",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "A  map.\n******\nA  local.\n******\nA  guide.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:two_responses:885e4102fc2c",
+  "kind": "M-spaces",
+  "source": "two_responses:1c9432eb1afde32f",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Use  a  map.\n*******\nAsk  a  local.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:e3ec82f6fd3c",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:5d8284bd53c9d337",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live  each  moment  to  the  fullest.  Live  each  week  to  the  fullest.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:repeat_phrase:8f9da961ddf2",
+  "kind": "M-case",
+  "source": "repeat_phrase:5d8284bd53c9d337",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "LIVE EACH MOMENT TO THE FULLEST. LIVE EACH WEEK TO THE FULLEST.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:b926a509ae02",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:41aafb168dc23143",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live  each  day  to  the  fullest.  Live  each  day  to  the  fullest.",
+  "label": "fail",
+  "decisions": [
+   "D-repeat-original"
+  ]
+ },
+ {
+  "id": "M-case:repeat_phrase:c540c0f38d9f",
+  "kind": "M-case",
+  "source": "repeat_phrase:41aafb168dc23143",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "LIVE EACH DAY TO THE FULLEST. LIVE EACH DAY TO THE FULLEST.",
+  "label": "fail",
+  "decisions": [
+   "D-repeat-original"
+  ]
+ },
+ {
+  "id": "M-spaces:repeat_phrase:551b11526baf",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:fd2d0190f8ed39d5",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live  each  moment  to  the  fullest.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:repeat_phrase:f6cb1910b063",
+  "kind": "M-case",
+  "source": "repeat_phrase:fd2d0190f8ed39d5",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "LIVE EACH MOMENT TO THE FULLEST.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:24c30861a6ed",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:e550c4d0906a7f85",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live  each  moment  to  the  fullest.  Live  each  week  to  the  fullest.  Live  each  hour  to  the  fullest.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:repeat_phrase:9cb511c0c03c",
+  "kind": "M-case",
+  "source": "repeat_phrase:e550c4d0906a7f85",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "LIVE EACH MOMENT TO THE FULLEST. LIVE EACH WEEK TO THE FULLEST. LIVE EACH HOUR TO THE FULLEST.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:ba245957523c",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:a310904a4b9ee302",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live  every  moment  to  the  fullest.  Live  each  week  to  the  fullest.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:repeat_phrase:be4b1b8cd8b4",
+  "kind": "M-case",
+  "source": "repeat_phrase:a310904a4b9ee302",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "LIVE EVERY MOMENT TO THE FULLEST. LIVE EACH WEEK TO THE FULLEST.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:79fc7f9587f6",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:7c99458c0aeb60ee",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "live  each  moment  to  the  fullest.  LIVE  EACH  WEEK  TO  THE  FULLEST.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:9a96b02c428b",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:103e8e15d0e9cfd0",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "The early bird catches the worm",
+   "small_n": 2
+  },
+  "response": "The  early  bird  gets  the  worm.  The  early  fox  catches  the  worm.  Then  the  dog  ate  the  worm.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:repeat_phrase:7ffe21e198d6",
+  "kind": "M-case",
+  "source": "repeat_phrase:103e8e15d0e9cfd0",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "The early bird catches the worm",
+   "small_n": 2
+  },
+  "response": "THE EARLY BIRD GETS THE WORM. THE EARLY FOX CATCHES THE WORM. THEN THE DOG ATE THE WORM.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:repeat_phrase:21c10cc9c413",
+  "kind": "M-spaces",
+  "source": "repeat_phrase:f19f53ef39e71c27",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live  each  day  to  the  fullest.  Live  each  week  to  the  fullest.",
+  "label": "fail",
+  "decisions": [
+   "D-repeat-original"
+  ]
+ },
+ {
+  "id": "M-case:repeat_phrase:019c60d31a3f",
+  "kind": "M-case",
+  "source": "repeat_phrase:f19f53ef39e71c27",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "LIVE EACH DAY TO THE FULLEST. LIVE EACH WEEK TO THE FULLEST.",
+  "label": "fail",
+  "decisions": [
+   "D-repeat-original"
+  ]
+ },
+ {
+  "id": "M-spaces:count_unique:2bf14d0b57e4",
+  "kind": "M-spaces",
+  "source": "count_unique:98606b604e5ba255",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "Every  word  here  appears  once.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:count_unique:3cf9f59fa0eb",
+  "kind": "E-forbidden-edit",
+  "source": "count_unique:98606b604e5ba255",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "Every word here appears once. Every",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:count_unique:07a380961476",
+  "kind": "M-spaces",
+  "source": "count_unique:682f817a958626c2",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "I  saw  a  cat  and  a  dog.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:count_unique:a4903c09b6f5",
+  "kind": "M-spaces",
+  "source": "count_unique:171e20fc214710d6",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "Red,  green,  blue,  yellow.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:count_unique:e8520a31bf20",
+  "kind": "E-forbidden-edit",
+  "source": "count_unique:171e20fc214710d6",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "Red, green, blue, yellow. Red,",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:count_unique:b8d2464ad17d",
+  "kind": "M-spaces",
+  "source": "count_unique:2e099542b0eccd3d",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "The  cat  chased  the  dog",
+  "label": "fail",
+  "decisions": [
+   "D-unique-case"
+  ]
+ },
+ {
+  "id": "M-spaces:counting_composition:8dfa947e70f8",
+  "kind": "M-spaces",
+  "source": "counting_composition:17bfa4831df725b7",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds  sing.  Rivers  flow.  Stars  shine.\n*  *  *\nCats  sleep.  Dogs  bark.  Kids  play.\n*  *  *\nWinds  blow.  Trees  sway.  Leaves  fall.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:counting_composition:2a2997d8a041",
+  "kind": "M-spaces",
+  "source": "counting_composition:f7d087c537d3a95d",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds  sing.  Rivers  flow.  Stars  shine.\n***\nCats  sleep.  Dogs  bark.  Kids  play.\n***\nWinds  blow.  Trees  sway.  Leaves  fall.",
+  "label": "pass",
+  "decisions": [
+   "D-divider-form"
+  ]
+ },
+ {
+  "id": "M-spaces:counting_composition:86a0611fc20b",
+  "kind": "M-spaces",
+  "source": "counting_composition:4eeaed6321b424cf",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds  sing.  Rivers  flow.  Stars  shine.\n*  *  *\nCats  sleep.  Dogs  bark.  Kids  play.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:counting_composition:9a4c0e170b5c",
+  "kind": "M-spaces",
+  "source": "counting_composition:537cd894514d92b2",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds  sing  loudly.  Rivers  flow.  Stars  shine.\n*  *  *\nCats  sleep.  Dogs  bark.  Kids  play.\n*  *  *\nWinds  blow.  Trees  sway.  Leaves  fall.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:lowercase_counting:66f7b0518d27",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:032e04da06d20d82",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "Apples  are  red  and  bananas  are  yellow.",
+  "label": "pass",
+  "decisions": [
+   "D-lowercase-scope"
+  ]
+ },
+ {
+  "id": "E:lowercase_counting:db4c6aea87a7",
+  "kind": "E-forbidden-edit",
+  "source": "lowercase_counting:032e04da06d20d82",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "Apples are red and bananas are yellow. zzz zzz zzz",
+  "label": "fail",
+  "decisions": [
+   "D-lowercase-scope"
+  ]
+ },
+ {
+  "id": "M-spaces:lowercase_counting:f17b920ac8b8",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:925fbcb1888cedf0",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "the  cat  and  the  dog  and  the  bird",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:lowercase_counting:0c935579c7ca",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:e91e2da5a67a3e4e",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "The  cat,  the  dog,  the  bird.",
+  "label": "pass",
+  "decisions": [
+   "D-lowercase-count",
+   "D-lowercase-scope"
+  ]
+ },
+ {
+  "id": "E:lowercase_counting:d72adc2e0585",
+  "kind": "E-forbidden-edit",
+  "source": "lowercase_counting:e91e2da5a67a3e4e",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "The cat, the dog, the bird. zzz zzz zzz",
+  "label": "fail",
+  "decisions": [
+   "D-lowercase-count",
+   "D-lowercase-scope"
+  ]
+ },
+ {
+  "id": "M-spaces:lowercase_counting:3291a19ef60b",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:a35782d4c45f27ec",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 3
+  },
+  "response": "Apples  are  red.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:lowercase_counting:650d6adb1b82",
+  "kind": "E-forbidden-edit",
+  "source": "lowercase_counting:a35782d4c45f27ec",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 3
+  },
+  "response": "Apples are red. zzz zzz zzz zzz",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:lowercase_counting:c0e8781487bb",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:65969631d8d59ca1",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "Apples  are  red  and  green.",
+  "label": "pass",
+  "decisions": [
+   "D-lowercase-scope"
+  ]
+ },
+ {
+  "id": "E:lowercase_counting:a9407b72a0ad",
+  "kind": "E-forbidden-edit",
+  "source": "lowercase_counting:65969631d8d59ca1",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "Apples are red and green. zzz zzz zzz",
+  "label": "fail",
+  "decisions": [
+   "D-lowercase-scope"
+  ]
+ },
+ {
+  "id": "M-spaces:number_placeholders:d76bd0e8006a",
+  "kind": "M-spaces",
+  "source": "number_placeholders:b938ba91e9093ca3",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear  [name],  your  order  ships  to  [address].",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_placeholders:acbc69103359",
+  "kind": "M-spaces",
+  "source": "number_placeholders:22e916f41aab80c6",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear  [name],  thanks.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_placeholders:f08220284494",
+  "kind": "M-spaces",
+  "source": "number_placeholders:19d2230d50ede69d",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear  [],  see  [  ].",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_placeholders:a08a5e99ed6c",
+  "kind": "M-spaces",
+  "source": "number_placeholders:9d19ad1cf0487706",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "See  [the  docs](http://x.y)  and  [name].",
+  "label": "pass",
+  "decisions": [
+   "D-placeholder-kind"
+  ]
+ },
+ {
+  "id": "M-spaces:postscript:c45fc183b175",
+  "kind": "M-spaces",
+  "source": "postscript:ea074112d1806d20",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main  text  here.\n\nP.S.  Remember  to  drink  water.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:postscript:33b35a89edfd",
+  "kind": "E-forbidden-edit",
+  "source": "postscript:ea074112d1806d20",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text here.\n\nNote Remember to drink water.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:58d092b88ab1",
+  "kind": "M-spaces",
+  "source": "postscript:1679f042b2f253e8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main  text  here.  Nothing  else.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:5337d523318e",
+  "kind": "M-spaces",
+  "source": "postscript:4d22e36c6b921eac",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main  text.\n\nP.P.S.  Extra  note.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:92f7e9043a77",
+  "kind": "M-spaces",
+  "source": "postscript:47b14e99fbb4f78f",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main  text.\n\nP.S:  one  more  thing.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:postscript:5b9a5910bd7d",
+  "kind": "E-forbidden-edit",
+  "source": "postscript:47b14e99fbb4f78f",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text.\n\nNote: one more thing.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:625ec03e00b4",
+  "kind": "M-spaces",
+  "source": "postscript:442940f2e9c7a8b5",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main  text.\n\n**P.S.**  One  more  thing.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:postscript:bb39cb8eee7f",
+  "kind": "E-forbidden-edit",
+  "source": "postscript:442940f2e9c7a8b5",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text.\n\n**Note** One more thing.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:c603d25d7a09",
+  "kind": "M-spaces",
+  "source": "postscript:10ab45e1b11fc0d8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "P.S.  Note  first.\n\nThen  the  main  text  continues  here.",
+  "label": "fail",
+  "decisions": [
+   "D-postscript-end"
+  ]
+ },
+ {
+  "id": "M-spaces:postscript:89391ceb1975",
+  "kind": "M-spaces",
+  "source": "postscript:83a510d48bc67346",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "main  text.\n\np.s.  one  more  thing.",
+  "label": "pass",
+  "decisions": [
+   "D-postscript-case"
+  ]
+ },
+ {
+  "id": "E:postscript:1937d8488a23",
+  "kind": "E-forbidden-edit",
+  "source": "postscript:83a510d48bc67346",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "main text.\n\nNote one more thing.",
+  "label": "fail",
+  "decisions": [
+   "D-postscript-case"
+  ]
+ },
+ {
+  "id": "M-spaces:postscript:286c9aff1f43",
+  "kind": "M-spaces",
+  "source": "postscript:dee6ae0e88ad54d4",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main  text.\n\nP.S.  First  note.\n\nP.P.S.  Second  note.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:postscript:0b377557d450",
+  "kind": "E-forbidden-edit",
+  "source": "postscript:dee6ae0e88ad54d4",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main text.\n\nNote First note.\n\nNote Second note.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:39d55b2e5273",
+  "kind": "M-spaces",
+  "source": "postscript:39d83ae0599eaff6",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main  text.\n\nP.S.  Only  one  note.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:postscript:84409ea8c52f",
+  "kind": "M-spaces",
+  "source": "postscript:9a657b9b2efc3fa8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main  text.\n\nP.P.S  Remember  this.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:postscript:9c729eff3a26",
+  "kind": "E-forbidden-edit",
+  "source": "postscript:9a657b9b2efc3fa8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main text.\n\nNote Remember this.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:bigram_wrapping:9ab3780d371b",
+  "kind": "M-spaces",
+  "source": "bigram_wrapping:386725d23952c245",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I  am>>  <<at  home>>  <<with  my>>  <<cute  dog>>",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:bigram_wrapping:e7559ae04a68",
+  "kind": "M-spaces",
+  "source": "bigram_wrapping:746c1f9771731d49",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "I  am  at  home  with  my  cute  dog.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:bigram_wrapping:fd9e12b1ea4d",
+  "kind": "M-spaces",
+  "source": "bigram_wrapping:e2a770a9dfb2e235",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I  am>>  <<at  home>>  with  my  <<cute  dog>>",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:bigram_wrapping:1e26f027c924",
+  "kind": "M-spaces",
+  "source": "bigram_wrapping:4264dd03823fdfd1",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I  am>>  <<at  home>>  <<today>>",
+  "label": "pass",
+  "decisions": [
+   "D-bigram-odd"
+  ]
+ },
+ {
+  "id": "M-spaces:bigram_wrapping:6f945f24c3ba",
+  "kind": "M-spaces",
+  "source": "bigram_wrapping:ea482050fedc4b68",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I  am>>  <<at  home>>.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:bigram_wrapping:32f4063edc9b",
+  "kind": "M-spaces",
+  "source": "bigram_wrapping:fd1d75a998ddf34a",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I  am  at>>  <<home  now>>",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:constrained_response:396269f4c854",
+  "kind": "E-forbidden-edit",
+  "source": "constrained_response:2141e23251b8a8cf",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "My answer is yes. My answer is no.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:constrained_response:a177646d8524",
+  "kind": "E-forbidden-edit",
+  "source": "constrained_response:f6577a7ae78999bd",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "My answer is no. The data does not support it. My answer is yes.",
+  "label": "fail",
+  "decisions": [
+   "D-constrained-exact"
+  ]
+ },
+ {
+  "id": "E:constrained_response:2d03f8ce0dc3",
+  "kind": "E-forbidden-edit",
+  "source": "constrained_response:e6b8897167a20de5",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "**My answer is maybe.** My answer is no.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:json_format:180f4346a52c",
+  "kind": "M-spaces",
+  "source": "json_format:2c004d94576969e4",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "{\"answer\":  42}",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:json_format:a8e1a92d0f64",
+  "kind": "E-forbidden-edit",
+  "source": "json_format:2c004d94576969e4",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "{\"answer\": 42} trailing",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:json_format:8060e70e5148",
+  "kind": "M-spaces",
+  "source": "json_format:3ea810994dc9f35b",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```json\n{\"answer\":  42}\n```",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:json_format:a01d403dd944",
+  "kind": "E-forbidden-edit",
+  "source": "json_format:3ea810994dc9f35b",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```json\n{\"answer\": 42}\n``` trailing",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:json_format:3e67cabba16b",
+  "kind": "M-spaces",
+  "source": "json_format:f8857cb29f5b1a8f",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "Here  is  the  JSON:  {\"answer\":  42}",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:json_format:4daa43e1a232",
+  "kind": "M-spaces",
+  "source": "json_format:8b3040abff46bb2e",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "{\"answer\":  42,}",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:json_format:7008a25a210b",
+  "kind": "M-spaces",
+  "source": "json_format:b2e3f0a2c7d45c47",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```json\n{\"a\":  1}\n```\nHope  this  helps.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:json_format:8fde31617c5d",
+  "kind": "E-forbidden-edit",
+  "source": "json_format:d636ee835e105206",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "\"hello\" trailing",
+  "label": "fail",
+  "decisions": [
+   "D-json-toplevel"
+  ]
+ },
+ {
+  "id": "M-spaces:json_format:c2348a66d817",
+  "kind": "M-spaces",
+  "source": "json_format:cbf6df16a4458001",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```JSON\n{\"a\":  1}\n```",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:json_format:a5360d120b71",
+  "kind": "E-forbidden-edit",
+  "source": "json_format:cbf6df16a4458001",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```JSON\n{\"a\": 1}\n``` trailing",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:e4492f4fb47c",
+  "kind": "M-spaces",
+  "source": "multiple_sections:d714a01102eeb3b0",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION  1\nIntro  text.\nSECTION  2\nMore  text.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:multiple_sections:b42eae75bab2",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:d714a01102eeb3b0",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nIntro text.\nSECTION 2\nMore text.\nSECTION 9\nExtra.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:e5b55220566e",
+  "kind": "M-spaces",
+  "source": "multiple_sections:e373e502b54e1d72",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION  1\nA.\nSECTION  2\nB.\nSECTION  3\nC.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:b8f59885075d",
+  "kind": "M-spaces",
+  "source": "multiple_sections:c3af9cecc5b75207",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION  1\nIntro  text,  as  noted  in  SECTION  2  below.\nSECTION  2\nMore  text.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:multiple_sections:877bacfe006e",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:c3af9cecc5b75207",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nIntro text, as noted in SECTION 2 below.\nSECTION 2\nMore text.\nSECTION 9\nExtra.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:b840b28d1c5b",
+  "kind": "M-spaces",
+  "source": "multiple_sections:274d351005b3781f",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "##  SECTION  1\nText  one.\n##  SECTION  2\nText  two.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:multiple_sections:9aea92b0057f",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:274d351005b3781f",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "## SECTION 1\nText one.\n## SECTION 2\nText two.\nSECTION 9\nExtra.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:ce852101f2cc",
+  "kind": "M-spaces",
+  "source": "multiple_sections:37bf49bd78a57db4",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "Section"
+  },
+  "response": "SECTION  1\nText  one.\nSECTION  2\nText  two.",
+  "label": "pass",
+  "decisions": [
+   "D-sections-case"
+  ]
+ },
+ {
+  "id": "E:multiple_sections:9f386c6f786a",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:37bf49bd78a57db4",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "Section"
+  },
+  "response": "SECTION 1\nText one.\nSECTION 2\nText two.\nSection 9\nExtra.",
+  "label": "fail",
+  "decisions": [
+   "D-sections-case"
+  ]
+ },
+ {
+  "id": "M-spaces:multiple_sections:ce53b6eea7f1",
+  "kind": "M-spaces",
+  "source": "multiple_sections:d39d720e9397b4bd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "Here  you  go.\nSECTION  1\nA.\nSECTION  2\nB.",
+  "label": "pass",
+  "decisions": [
+   "D-sections-preamble"
+  ]
+ },
+ {
+  "id": "E:multiple_sections:e27280e1c087",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:d39d720e9397b4bd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "Here you go.\nSECTION 1\nA.\nSECTION 2\nB.\nSECTION 9\nExtra.",
+  "label": "fail",
+  "decisions": [
+   "D-sections-preamble"
+  ]
+ },
+ {
+  "id": "M-spaces:multiple_sections:404c4234f23e",
+  "kind": "M-spaces",
+  "source": "multiple_sections:1744f13dda7bc73e",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION  1\nSECTION  2\nText.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:258f3c6f6932",
+  "kind": "M-spaces",
+  "source": "multiple_sections:60d6666e9ca34bdd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 1,
+   "section_spliter": "Section"
+  },
+  "response": "Section  1\nAll  text.  See  Section  2  of  the  law.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:multiple_sections:4f4bc69dc5a2",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:60d6666e9ca34bdd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 1,
+   "section_spliter": "Section"
+  },
+  "response": "Section 1\nAll text. See Section 2 of the law.\nSection 9\nExtra.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:619290fbf46b",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:12a714cbb7e6efee",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*  First  point.\n*  Second  point.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_bullet_lists:04c4d46fece6",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:12a714cbb7e6efee",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First point.\n* Second point.\n* Extra point.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:75d6991425d0",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:53d5cc8704a4f4ed",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "-  First  point.\n-  Second  point.",
+  "label": "pass",
+  "decisions": [
+   "D-bullet-marker"
+  ]
+ },
+ {
+  "id": "E:number_bullet_lists:8e000bf67b40",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:53d5cc8704a4f4ed",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "- First point.\n- Second point.\n* Extra point.",
+  "label": "fail",
+  "decisions": [
+   "D-bullet-marker"
+  ]
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:d541ceacc4c5",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:16893f6c02514cc9",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*  First.\n*  Second.\n*  Third.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:a2176d8af05a",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:9c6d68f9f36ca3eb",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*  First  point.\n*  Second  point.\n\n---\n\nThanks.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_bullet_lists:6bd636657bdf",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:9c6d68f9f36ca3eb",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First point.\n* Second point.\n\n---\n\nThanks.\n* Extra point.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:47b3946781f7",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:f268b2713e3bacde",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*  First.\n*  Second.\n*  *  *\nEnd.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_bullet_lists:8ef310b55c04",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:f268b2713e3bacde",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First.\n* Second.\n* * *\nEnd.\n* Extra point.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:109eb184ba12",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:8c0b092428a386ba",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*Note:*  this  is  italic.\n*  First.\n*  Second.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_bullet_lists:12585f21b9e5",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:8c0b092428a386ba",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*Note:* this is italic.\n* First.\n* Second.\n* Extra point.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:b275b9d94226",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:203e9078b15364fe",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "1.  First\n2.  Second",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:number_bullet_lists:670e2c14ed45",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:0181f9fed7b2d07f",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 3
+  },
+  "response": "* A\n  * a1\n* B\n* Extra point.",
+  "label": "fail",
+  "decisions": [
+   "D-bullet-nested"
+  ]
+ },
+ {
+  "id": "M-spaces:number_bullet_lists:916abf1d3a7f",
+  "kind": "M-spaces",
+  "source": "number_bullet_lists:1a3a1e6b0b380fc3",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*  First  point.\n*  Second  point.\n-5  degrees  is  cold.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_bullet_lists:f205d0582545",
+  "kind": "E-forbidden-edit",
+  "source": "number_bullet_lists:1a3a1e6b0b380fc3",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First point.\n* Second point.\n-5 degrees is cold.\n* Extra point.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_highlighted_sections:d8523dcf6255",
+  "kind": "M-spaces",
+  "source": "number_highlighted_sections:d5a875e55e627e02",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This  is  *important*  and  *urgent*.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_highlighted_sections:f5cb5eb8cdbd",
+  "kind": "M-spaces",
+  "source": "number_highlighted_sections:85bcefef3b6bd334",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This  is  *important*  only.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_highlighted_sections:f9885fbf8fc3",
+  "kind": "M-spaces",
+  "source": "number_highlighted_sections:d36bb514157da458",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This  is  **important**  and  **urgent**.",
+  "label": "pass",
+  "decisions": [
+   "D-highlight-bold"
+  ]
+ },
+ {
+  "id": "M-spaces:number_highlighted_sections:865935a4cfe5",
+  "kind": "M-spaces",
+  "source": "number_highlighted_sections:e29b128820ba8ec9",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 1
+  },
+  "response": "*  item  one\n*  item  two",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_highlighted_sections:11f7614f9be9",
+  "kind": "M-spaces",
+  "source": "number_highlighted_sections:bf401f59c7f0d7e1",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 1
+  },
+  "response": "Compute  2  *  3  *  4  now.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:735641e7a265",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:1fb021dfd14f7021",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I  like  tea.-It  is  warm.-It  calms  me.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:sentence_hyphens:9b8a0b43a7e0",
+  "kind": "E-forbidden-edit",
+  "source": "sentence_hyphens:1fb021dfd14f7021",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea.-It is warm.-It calms me. Another sentence follows.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:35121daa164d",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:6bf6f9ea4e5c11de",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I  like  tea.  It  is  warm.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:285c4a89d1bc",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:af86155ec52610d9",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I  like  tea.  -  It  is  warm.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:cfd785028959",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:708923dd6032f558",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "My  well-known  recipe  works.-It  is  quick.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:sentence_hyphens:0396f29d6ace",
+  "kind": "E-forbidden-edit",
+  "source": "sentence_hyphens:708923dd6032f558",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "My well-known recipe works.-It is quick. Another sentence follows.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:e0f58393735e",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:474ede6eaf82d567",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I  like  tea.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:sentence_hyphens:e50f4f476696",
+  "kind": "E-forbidden-edit",
+  "source": "sentence_hyphens:474ede6eaf82d567",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea. Another sentence follows.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:9dd62637d794",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:2c22205366d1d918",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I  like  tea.-It  is  warm.\nIt  calms  me.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:square_brackets:ed1caf7eb9c1",
+  "kind": "M-spaces",
+  "source": "square_brackets:c32e3b72881c144c",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I]  [like]  [tea].",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:square_brackets:7f30ae6b43ad",
+  "kind": "E-forbidden-edit",
+  "source": "square_brackets:c32e3b72881c144c",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I] [like] [tea]. unbracketed",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:square_brackets:32ca99c7fdba",
+  "kind": "M-spaces",
+  "source": "square_brackets:86bbd3fd0eec499a",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I]  [like]  [tea]",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:square_brackets:21cbda7ac27e",
+  "kind": "E-forbidden-edit",
+  "source": "square_brackets:86bbd3fd0eec499a",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I] [like] [tea] unbracketed",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:square_brackets:6dbf72dea5ff",
+  "kind": "M-spaces",
+  "source": "square_brackets:f84f106da34c9ad4",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I]  like  [tea]",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:square_brackets:2f5172a606c8",
+  "kind": "M-spaces",
+  "source": "square_brackets:58c91a96a380c612",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I  like  tea]",
+  "label": "fail",
+  "decisions": [
+   "D-bracket-group"
+  ]
+ },
+ {
+  "id": "M-spaces:square_brackets:2ea93f97df57",
+  "kind": "M-spaces",
+  "source": "square_brackets:863a8dc427f8cf15",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[Hello],  [world]!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:square_brackets:167e44c7a09d",
+  "kind": "E-forbidden-edit",
+  "source": "square_brackets:863a8dc427f8cf15",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[Hello], [world]! unbracketed",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:title:82fd253837d9",
+  "kind": "M-spaces",
+  "source": "title:8a4b887d6737057e",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "<<My  Day>>\nIt  was  fine.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:title:5ab1485356ee",
+  "kind": "E-forbidden-edit",
+  "source": "title:8a4b887d6737057e",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "My Day\nIt was fine.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:title:8e776eec8228",
+  "kind": "M-spaces",
+  "source": "title:a6c6f6bf4ce7a345",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "Here  is  a  poem.\n<<Ode  to  Rain>>\nDrops  fall.",
+  "label": "pass",
+  "decisions": [
+   "D-title-position"
+  ]
+ },
+ {
+  "id": "E:title:a043443fc11c",
+  "kind": "E-forbidden-edit",
+  "source": "title:a6c6f6bf4ce7a345",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "Here is a poem.\nOde to Rain\nDrops fall.",
+  "label": "fail",
+  "decisions": [
+   "D-title-position"
+  ]
+ },
+ {
+  "id": "M-spaces:title:73add693ed0f",
+  "kind": "M-spaces",
+  "source": "title:b2d1ac0c5032ad3c",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "My  Day\nIt  was  fine.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:title:cee21d828ace",
+  "kind": "M-spaces",
+  "source": "title:7d4eb1644008f31a",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "<<  >>  text",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:title:6486d73bfa90",
+  "kind": "M-spaces",
+  "source": "title:e4ccd8999374fbf5",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "<<My\nDay>>  text",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_answer:7a5132ecc382",
+  "kind": "M-spaces",
+  "source": "first_word_answer:9658d2d517ca6c6a",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Development  of  the  city  was  slow.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_answer:5e84ab40840b",
+  "kind": "M-case",
+  "source": "first_word_answer:9658d2d517ca6c6a",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "DEVELOPMENT OF THE CITY WAS SLOW.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:first_word_answer:fdb559f390c7",
+  "kind": "E-forbidden-edit",
+  "source": "first_word_answer:9658d2d517ca6c6a",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Well, Development of the city was slow.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_answer:396121aeb561",
+  "kind": "M-spaces",
+  "source": "first_word_answer:52cd135831518478",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "**Development**:  the  city  grew  slowly.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_answer:e79af4e83302",
+  "kind": "M-case",
+  "source": "first_word_answer:52cd135831518478",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "**DEVELOPMENT**: THE CITY GREW SLOWLY.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:first_word_answer:29e93f4a7807",
+  "kind": "E-forbidden-edit",
+  "source": "first_word_answer:52cd135831518478",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Well, **Development**: the city grew slowly.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_answer:74fde05751a0",
+  "kind": "M-spaces",
+  "source": "first_word_answer:4f0abc1e2c453527",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Development,  as  a  process,  is  slow.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_answer:18e3ca1a4b07",
+  "kind": "M-case",
+  "source": "first_word_answer:4f0abc1e2c453527",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "DEVELOPMENT, AS A PROCESS, IS SLOW.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:first_word_answer:93e11ba1896a",
+  "kind": "E-forbidden-edit",
+  "source": "first_word_answer:4f0abc1e2c453527",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Well, Development, as a process, is slow.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_answer:99a3c50a6d13",
+  "kind": "M-spaces",
+  "source": "first_word_answer:d43bf99c2d9babda",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "The  development  was  slow.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_answer:fa3dba4581d8",
+  "kind": "M-case",
+  "source": "first_word_answer:d43bf99c2d9babda",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "THE DEVELOPMENT WAS SLOW.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_answer:5e065633c6a3",
+  "kind": "M-spaces",
+  "source": "first_word_answer:fe853eaa83558c9c",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Developments  were  slow.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_answer:dc66cb281e5a",
+  "kind": "M-case",
+  "source": "first_word_answer:fe853eaa83558c9c",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "DEVELOPMENTS WERE SLOW.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_sent:498b32f92c81",
+  "kind": "M-spaces",
+  "source": "first_word_sent:4c8f176e0934e554",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace  is  good.  Peace  is  calm.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_sent:ae940cce5fcb",
+  "kind": "M-case",
+  "source": "first_word_sent:4c8f176e0934e554",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "PEACE IS GOOD. PEACE IS CALM.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_sent:c5af18520e57",
+  "kind": "M-spaces",
+  "source": "first_word_sent:5819537b180aceff",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace,  friends,  is  good.  Peace  matters!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_sent:4087d8f93c89",
+  "kind": "M-case",
+  "source": "first_word_sent:5819537b180aceff",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "PEACE, FRIENDS, IS GOOD. PEACE MATTERS!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_sent:ed85ba2aae1b",
+  "kind": "M-spaces",
+  "source": "first_word_sent:aa1a7fdd1f075744",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace  is  good.  War  is  bad.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_sent:926ee6b42dea",
+  "kind": "M-case",
+  "source": "first_word_sent:aa1a7fdd1f075744",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "PEACE IS GOOD. WAR IS BAD.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:first_word_sent:02dd7878640e",
+  "kind": "M-spaces",
+  "source": "first_word_sent:5776682a4884b980",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace  is  good\nPeace  is  calm",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:first_word_sent:c609815101c4",
+  "kind": "M-case",
+  "source": "first_word_sent:5776682a4884b980",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "PEACE IS GOOD\nPEACE IS CALM",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:existence:21c5aa3c07e5",
+  "kind": "M-spaces",
+  "source": "existence:165112ae1b53f3a7",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "This  quote  is  about  teaching.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:existence:4d60e057dc5f",
+  "kind": "M-case",
+  "source": "existence:165112ae1b53f3a7",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "THIS QUOTE IS ABOUT TEACHING.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:existence:247b96a490e2",
+  "kind": "E-forbidden-edit",
+  "source": "existence:165112ae1b53f3a7",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "This thing is about thing.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:existence:700f7fde766d",
+  "kind": "M-spaces",
+  "source": "existence:3542103064204edf",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "QUOTE:  Teaching  matters.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:existence:38802033ea76",
+  "kind": "M-case",
+  "source": "existence:3542103064204edf",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "QUOTE: TEACHING MATTERS.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:existence:0af817510c71",
+  "kind": "E-forbidden-edit",
+  "source": "existence:3542103064204edf",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "thing: thing matters.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:existence:86ac52468e6c",
+  "kind": "M-spaces",
+  "source": "existence:eb9159951227f55d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "This  quote  is  nice.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:existence:1fbfe213567c",
+  "kind": "M-case",
+  "source": "existence:eb9159951227f55d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "THIS QUOTE IS NICE.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:existence:11d8233d1356",
+  "kind": "M-spaces",
+  "source": "existence:a501269f7e663e13",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "These  quotes  are  about  teachings.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-case:existence:be19168c4acf",
+  "kind": "M-case",
+  "source": "existence:a501269f7e663e13",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "THESE QUOTES ARE ABOUT TEACHINGS.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-spaces:existence:fc7bb65e099b",
+  "kind": "M-spaces",
+  "source": "existence:463675c90939f59d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "A  teaching-focused  quote.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:existence:c3e238afad1b",
+  "kind": "M-case",
+  "source": "existence:463675c90939f59d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "A TEACHING-FOCUSED QUOTE.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:existence:036ba47e25f4",
+  "kind": "E-forbidden-edit",
+  "source": "existence:463675c90939f59d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "A thing-focused thing.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:forbidden_words:185d8a51f1f2",
+  "kind": "M-spaces",
+  "source": "forbidden_words:48854bfbc4c9498e",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The  circle  was  quiet.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:forbidden_words:81691062bc67",
+  "kind": "M-case",
+  "source": "forbidden_words:48854bfbc4c9498e",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "THE CIRCLE WAS QUIET.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:forbidden_words:febeb210b245",
+  "kind": "E-forbidden-edit",
+  "source": "forbidden_words:48854bfbc4c9498e",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The circle was quiet. sound",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:forbidden_words:feb41e3567a8",
+  "kind": "M-spaces",
+  "source": "forbidden_words:0e40bef5c8cfe1bf",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The  square  was  quiet.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:forbidden_words:679916d7be9c",
+  "kind": "M-case",
+  "source": "forbidden_words:0e40bef5c8cfe1bf",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "THE SQUARE WAS QUIET.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:forbidden_words:c93852825f7b",
+  "kind": "M-spaces",
+  "source": "forbidden_words:fa7a891d980a47fd",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "SOUND  is  loud.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:forbidden_words:cddb3423edbb",
+  "kind": "M-case",
+  "source": "forbidden_words:fa7a891d980a47fd",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "SOUND IS LOUD.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:forbidden_words:e6f29340b390",
+  "kind": "M-spaces",
+  "source": "forbidden_words:af4db6e760987e6c",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The  sounds  were  soundtrack-like.",
+  "label": "pass",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-case:forbidden_words:837d24ffe71d",
+  "kind": "M-case",
+  "source": "forbidden_words:af4db6e760987e6c",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "THE SOUNDS WERE SOUNDTRACK-LIKE.",
+  "label": "pass",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "E:forbidden_words:dd14650e7010",
+  "kind": "E-forbidden-edit",
+  "source": "forbidden_words:af4db6e760987e6c",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The sounds were soundtrack-like. sound",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-spaces:forbidden_words:52401cfd566b",
+  "kind": "M-spaces",
+  "source": "forbidden_words:87bbdfb49628a8c4",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "A  sound-proof  room.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:forbidden_words:ada8fb4eda0c",
+  "kind": "M-case",
+  "source": "forbidden_words:87bbdfb49628a8c4",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "A SOUND-PROOF ROOM.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:frequency:49e723e116e2",
+  "kind": "M-spaces",
+  "source": "frequency:1115c1a6e79faf2d",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "The  monitor  is  big.  I  like  this  monitor.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:frequency:55bb69988f56",
+  "kind": "M-case",
+  "source": "frequency:1115c1a6e79faf2d",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "THE MONITOR IS BIG. I LIKE THIS MONITOR.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:frequency:c912b3ab803c",
+  "kind": "M-spaces",
+  "source": "frequency:ff9d397262b86a31",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "The  monitor  is  big.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:frequency:21db354042cc",
+  "kind": "M-case",
+  "source": "frequency:ff9d397262b86a31",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "THE MONITOR IS BIG.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:frequency:1d4c131159c2",
+  "kind": "M-spaces",
+  "source": "frequency:dbe0d1c9aaee0588",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "The  monitors  are  big.  I  like  this  monitor.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-case:frequency:a7ee061eff13",
+  "kind": "M-case",
+  "source": "frequency:dbe0d1c9aaee0588",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "THE MONITORS ARE BIG. I LIKE THIS MONITOR.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-spaces:frequency:fbb43673a732",
+  "kind": "M-spaces",
+  "source": "frequency:ebf0845e7399291a",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "One  monitor.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:frequency:ff338c97f188",
+  "kind": "M-case",
+  "source": "frequency:ebf0845e7399291a",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "ONE MONITOR.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:frequency:8ce800a9a41f",
+  "kind": "M-spaces",
+  "source": "frequency:e33a2a36ba2bb40d",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "Monitor,  monitor.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:frequency:4efe0e821fbb",
+  "kind": "M-case",
+  "source": "frequency:e33a2a36ba2bb40d",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "MONITOR, MONITOR.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:keyword_specific_position:6fa2ab4375f2",
+  "kind": "M-spaces",
+  "source": "keyword_specific_position:f288f7380a41cb53",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I  tried  hard.  It  was  shot  down  quickly.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:keyword_specific_position:cdbe3215f689",
+  "kind": "M-case",
+  "source": "keyword_specific_position:f288f7380a41cb53",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I TRIED HARD. IT WAS SHOT DOWN QUICKLY.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:keyword_specific_position:eed13e35c624",
+  "kind": "M-spaces",
+  "source": "keyword_specific_position:9a2be97dd1fdce07",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I  tried  hard.  It  was  not  shot.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:keyword_specific_position:b00f0603832a",
+  "kind": "M-case",
+  "source": "keyword_specific_position:9a2be97dd1fdce07",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I TRIED HARD. IT WAS NOT SHOT.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:keyword_specific_position:8f71b1d3e5d3",
+  "kind": "M-spaces",
+  "source": "keyword_specific_position:95780d5af1cf52d9",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I  tried  hard.  Then  a  Shot  rang  out.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:keyword_specific_position:44ad7d516366",
+  "kind": "M-case",
+  "source": "keyword_specific_position:95780d5af1cf52d9",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I TRIED HARD. THEN A SHOT RANG OUT.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:keyword_specific_position:530f3b0fe49c",
+  "kind": "M-spaces",
+  "source": "keyword_specific_position:c3e1bd3df5ed9f78",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I  tried  hard.  Well,  a  shot  rang  out.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:keyword_specific_position:6ea53b3f353e",
+  "kind": "M-case",
+  "source": "keyword_specific_position:c3e1bd3df5ed9f78",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I TRIED HARD. WELL, A SHOT RANG OUT.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:keyword_specific_position:3665983e8a80",
+  "kind": "M-spaces",
+  "source": "keyword_specific_position:5d23e53bd5386c87",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "It  was  shot  down  quickly.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:keyword_specific_position:e9e2063e65f9",
+  "kind": "M-case",
+  "source": "keyword_specific_position:5d23e53bd5386c87",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "IT WAS SHOT DOWN QUICKLY.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:letter_frequency:34011949fda4",
+  "kind": "M-spaces",
+  "source": "letter_frequency:eb7dd0c5c54f34ca",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "Rare  red  roses.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:letter_frequency:6879d5471982",
+  "kind": "M-case",
+  "source": "letter_frequency:eb7dd0c5c54f34ca",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "RARE RED ROSES.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:letter_frequency:31b9ec3ba419",
+  "kind": "M-spaces",
+  "source": "letter_frequency:036219afa41b8226",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "Blue  skies.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:letter_frequency:66e773001f27",
+  "kind": "M-case",
+  "source": "letter_frequency:036219afa41b8226",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "BLUE SKIES.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:letter_frequency:20275a5e0e32",
+  "kind": "M-case",
+  "source": "letter_frequency:aca7b813fb532834",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "less than"
+  },
+  "response": "RR",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:letter_frequency:b5bb70e64462",
+  "kind": "M-case",
+  "source": "letter_frequency:003c098b83eb7132",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "less than"
+  },
+  "response": "RRR",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:4811f7424e59",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:5b5ca03f71fb9d85",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "The  cat  sat  on  the  mat.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:no_adjacent_consecutive:f53d3836ebb8",
+  "kind": "E-forbidden-edit",
+  "source": "no_adjacent_consecutive:5b5ca03f71fb9d85",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "The cat sat on the mat. a b",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:b7d02d343eac",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:3210e18590f5a885",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "A  big  dog.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:683a551455a7",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:d49d8b7ae89b4c30",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Big  apple  pie.",
+  "label": "fail",
+  "decisions": [
+   "D-consecutive-order"
+  ]
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:1898c7fd579d",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:ede468a292724765",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Room  1  2  3  was  open.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:no_adjacent_consecutive:e0c8599d3dab",
+  "kind": "E-forbidden-edit",
+  "source": "no_adjacent_consecutive:ede468a292724765",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Room 1 2 3 was open. a b",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:52dc78924cdb",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:5c46c933aa56d687",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Cats  *  +  run.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:no_adjacent_consecutive:831de77fabb3",
+  "kind": "E-forbidden-edit",
+  "source": "no_adjacent_consecutive:5c46c933aa56d687",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Cats * + run. a b",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:4077fab6094a",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:05ab50082cfe5310",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "The  cat.  Dog  runs.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:0579f1071afa",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:8483eaf514e619a6",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "We  met  at  noon.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:no_adjacent_consecutive:8fcc26413493",
+  "kind": "E-forbidden-edit",
+  "source": "no_adjacent_consecutive:8483eaf514e619a6",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "We met at noon. a b",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:8df37fc50a7e",
+  "kind": "M-spaces",
+  "source": "palindrome:ddde7ac70fb4fa37",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "We  saw  a  racecar  today.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:a908d548487c",
+  "kind": "M-spaces",
+  "source": "palindrome:edf215253ac6227f",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Wow,  that  was  fun.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:0c2c5cd6ed00",
+  "kind": "M-spaces",
+  "source": "palindrome:44d9cdc8690a453a",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "We  saw  a  car  today.",
+  "label": "fail",
+  "decisions": [
+   "D-palindrome-length"
+  ]
+ },
+ {
+  "id": "M-spaces:palindrome:3bdd63a90b34",
+  "kind": "M-spaces",
+  "source": "palindrome:ca45ea0497ef8c1c",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Nothing  here  matches.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:48928906576c",
+  "kind": "M-spaces",
+  "source": "palindrome:d86b51bee0dcb75e",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "-  item  one\n-  item  two",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:85c143f17f41",
+  "kind": "M-spaces",
+  "source": "palindrome:246103cca0b5f767",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Level  1  complete.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:start_end:13b0ff7984d4",
+  "kind": "M-spaces",
+  "source": "start_end:67a84b7a1ee879ce",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello  there  my  friend  hello",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:start_end:d05f30ab2c35",
+  "kind": "M-case",
+  "source": "start_end:67a84b7a1ee879ce",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "HELLO THERE MY FRIEND HELLO",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:start_end:d07b8a865a0f",
+  "kind": "E-forbidden-edit",
+  "source": "start_end:67a84b7a1ee879ce",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello there my friend hello.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:start_end:6ae0c8a6a85f",
+  "kind": "M-spaces",
+  "source": "start_end:60545103580f7377",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello  there  my  friend  hello.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:start_end:8d19ab8aa516",
+  "kind": "M-case",
+  "source": "start_end:60545103580f7377",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "HELLO THERE MY FRIEND HELLO.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:start_end:9c06c3c67a20",
+  "kind": "M-spaces",
+  "source": "start_end:e7f7296ebfedc66b",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello  there  my  friend.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:start_end:4b0707e9885f",
+  "kind": "M-case",
+  "source": "start_end:e7f7296ebfedc66b",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "HELLO THERE MY FRIEND.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:start_end:75f2c54624f3",
+  "kind": "M-spaces",
+  "source": "start_end:d913ec0ca2a73b7a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "**Hello**  there  my  friend  hello",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:start_end:7947d2aa0e2d",
+  "kind": "M-case",
+  "source": "start_end:d913ec0ca2a73b7a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "**HELLO** THERE MY FRIEND HELLO",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:start_end:131a3bece58f",
+  "kind": "E-forbidden-edit",
+  "source": "start_end:d913ec0ca2a73b7a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "**Hello** there my friend hello.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:start_end:e13c7c7c32e3",
+  "kind": "M-case",
+  "source": "start_end:c7a9a22d8d4a966b",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "HELLO",
+  "label": "pass",
+  "decisions": [
+   "D-start-end-one-word"
+  ]
+ },
+ {
+  "id": "E:start_end:d71c40de23f1",
+  "kind": "E-forbidden-edit",
+  "source": "start_end:c7a9a22d8d4a966b",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello.",
+  "label": "fail",
+  "decisions": [
+   "D-start-end-one-word"
+  ]
+ },
+ {
+  "id": "M-spaces:start_end:2633d96a4f7f",
+  "kind": "M-spaces",
+  "source": "start_end:8997363a601ba78a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Data  matters.  We  trust  data",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:start_end:96b2dbbe53c6",
+  "kind": "M-case",
+  "source": "start_end:8997363a601ba78a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "DATA MATTERS. WE TRUST DATA",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:start_end:be7ef8a03299",
+  "kind": "E-forbidden-edit",
+  "source": "start_end:8997363a601ba78a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Data matters. We trust data.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_count_different_numbers:1e48f806ad5b",
+  "kind": "M-spaces",
+  "source": "word_count_different_numbers:cc426051accd194b",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "Skin  care  matters.  Protect  your  skin.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_count_different_numbers:6a375e2774c3",
+  "kind": "M-case",
+  "source": "word_count_different_numbers:cc426051accd194b",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "SKIN CARE MATTERS. PROTECT YOUR SKIN.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_count_different_numbers:801d37dec348",
+  "kind": "M-spaces",
+  "source": "word_count_different_numbers:59c80f4cc83a7292",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "Skin  care  matters.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_count_different_numbers:475c6c9ab212",
+  "kind": "M-case",
+  "source": "word_count_different_numbers:59c80f4cc83a7292",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "SKIN CARE MATTERS.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_count_different_numbers:a60ef3ac5a19",
+  "kind": "M-spaces",
+  "source": "word_count_different_numbers:3700d6b1ce4d8891",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "Skin,  skin,  skin.",
+  "label": "fail",
+  "decisions": [
+   "D-appear-n-times"
+  ]
+ },
+ {
+  "id": "M-case:word_count_different_numbers:d0f56a435d6d",
+  "kind": "M-case",
+  "source": "word_count_different_numbers:3700d6b1ce4d8891",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "SKIN, SKIN, SKIN.",
+  "label": "fail",
+  "decisions": [
+   "D-appear-n-times"
+  ]
+ },
+ {
+  "id": "M-spaces:word_count_different_numbers:24e177927c40",
+  "kind": "M-spaces",
+  "source": "word_count_different_numbers:22a61be79b67a56b",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 1,
+   "relation": "less than"
+  },
+  "response": "No  mention  here.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_count_different_numbers:8c9c0f771eac",
+  "kind": "M-case",
+  "source": "word_count_different_numbers:22a61be79b67a56b",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 1,
+   "relation": "less than"
+  },
+  "response": "NO MENTION HERE.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_count_different_numbers:fb2d0ca73d08",
+  "kind": "M-spaces",
+  "source": "word_count_different_numbers:f87816b0de351486",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "Skin  care  matters.  Protect  your  skin.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_count_different_numbers:aaf740c8339a",
+  "kind": "M-case",
+  "source": "word_count_different_numbers:f87816b0de351486",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "SKIN CARE MATTERS. PROTECT YOUR SKIN.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_once:7693bbb42bc0",
+  "kind": "M-spaces",
+  "source": "word_once:ed4322788ae7aece",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I  will  fix  it.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_once:b26b729b182b",
+  "kind": "M-case",
+  "source": "word_once:ed4322788ae7aece",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I WILL FIX IT.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:word_once:6e4af13988ea",
+  "kind": "E-forbidden-edit",
+  "source": "word_once:ed4322788ae7aece",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I will thing it.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_once:c113b478e2f0",
+  "kind": "M-spaces",
+  "source": "word_once:9bc26825b6c823d8",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "Fix  it  now,  then  fix  it  again.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_once:121867040138",
+  "kind": "M-case",
+  "source": "word_once:9bc26825b6c823d8",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "FIX IT NOW, THEN FIX IT AGAIN.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:word_once:679861d57b20",
+  "kind": "E-forbidden-edit",
+  "source": "word_once:9bc26825b6c823d8",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "thing it now, then thing it again.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_once:f6f8d86bbc01",
+  "kind": "M-spaces",
+  "source": "word_once:74217d8d4b654326",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I  will  repair  it.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:word_once:9246cb130cf1",
+  "kind": "M-case",
+  "source": "word_once:74217d8d4b654326",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I WILL REPAIR IT.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:word_once:dcc4bb4f39df",
+  "kind": "M-spaces",
+  "source": "word_once:bf1035882a7c78c7",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "The  prefix  changed.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-case:word_once:a331a9d695fd",
+  "kind": "M-case",
+  "source": "word_once:bf1035882a7c78c7",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "THE PREFIX CHANGED.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ]
+ },
+ {
+  "id": "M-spaces:response_language:1640b71a8f76",
+  "kind": "M-spaces",
+  "source": "response_language:828300bdaed4d0bb",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "Bonjour,  je  suis  heureux  de  vous  aider  avec  cette  question  aujourd'hui.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-curly:response_language:7257f7db2f29",
+  "kind": "M-curly",
+  "source": "response_language:828300bdaed4d0bb",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "Bonjour, je suis heureux de vous aider avec cette question aujourd’hui.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:response_language:b807f6dfb82f",
+  "kind": "M-spaces",
+  "source": "response_language:cc1c635516b805ce",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "Hello,  I  am  happy  to  help  you  with  this  question  today.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:response_language:ed6af4ed2e15",
+  "kind": "M-spaces",
+  "source": "response_language:f2af231fe48356dc",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "ru"
+  },
+  "response": "Привет,  я  рад  помочь  вам  с  этим  вопросом  сегодня.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:response_language:a267a8d238df",
+  "kind": "M-spaces",
+  "source": "response_language:a5aa4db906d4a7d1",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "ru"
+  },
+  "response": "Привет!  Я  использую  Python  и  NumPy  для  анализа  данных  каждый  день.",
+  "label": "pass",
+  "decisions": [
+   "D-language-mixed"
+  ]
+ },
+ {
+  "id": "M-spaces:last_word_answer:cb6bf83df38a",
+  "kind": "M-spaces",
+  "source": "last_word_answer:ae7dcb3259f00769",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We  reached  the  limit.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_answer:1c6d423133d0",
+  "kind": "M-case",
+  "source": "last_word_answer:ae7dcb3259f00769",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "WE REACHED THE LIMIT.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:last_word_answer:13750d6ba9fe",
+  "kind": "E-forbidden-edit",
+  "source": "last_word_answer:ae7dcb3259f00769",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the limit. indeed.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_answer:1a5553610e8b",
+  "kind": "M-spaces",
+  "source": "last_word_answer:d4e26d46ba0e1ff2",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We  reached  the  **limit**!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_answer:225dc4498252",
+  "kind": "M-case",
+  "source": "last_word_answer:d4e26d46ba0e1ff2",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "WE REACHED THE **LIMIT**!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:last_word_answer:94abd07a7f4f",
+  "kind": "E-forbidden-edit",
+  "source": "last_word_answer:d4e26d46ba0e1ff2",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the **limit**! indeed.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_answer:95dd58ad59d6",
+  "kind": "M-spaces",
+  "source": "last_word_answer:7311c5bd5b462334",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "The  limit  was  reached.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_answer:841fda245262",
+  "kind": "M-case",
+  "source": "last_word_answer:7311c5bd5b462334",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "THE LIMIT WAS REACHED.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_answer:9c93340c05ec",
+  "kind": "M-spaces",
+  "source": "last_word_answer:ce770dd1cebb6c09",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We  reached  the  limits.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_answer:dfe5b0b5cc4f",
+  "kind": "M-case",
+  "source": "last_word_answer:ce770dd1cebb6c09",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "WE REACHED THE LIMITS.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_sent:eff681c7af5b",
+  "kind": "M-spaces",
+  "source": "last_word_sent:79a8e4d7c9d2dfa3",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I  took  the  train.  She  missed  the  train!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_sent:955dcbc56328",
+  "kind": "M-case",
+  "source": "last_word_sent:79a8e4d7c9d2dfa3",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I TOOK THE TRAIN. SHE MISSED THE TRAIN!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_sent:086ade806761",
+  "kind": "M-spaces",
+  "source": "last_word_sent:6f91b8273a79c6cb",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I  took  the  train.  She  walked  home.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_sent:8bcf383d18d7",
+  "kind": "M-case",
+  "source": "last_word_sent:6f91b8273a79c6cb",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I TOOK THE TRAIN. SHE WALKED HOME.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_sent:946e232acde6",
+  "kind": "M-spaces",
+  "source": "last_word_sent:d2a5d530b1e03221",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I  took  the  train,  the  train.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:last_word_sent:a3b6f21de853",
+  "kind": "M-case",
+  "source": "last_word_sent:d2a5d530b1e03221",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I TOOK THE TRAIN, THE TRAIN.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:last_word_sent:0174aff39a05",
+  "kind": "M-spaces",
+  "source": "last_word_sent:1a2da0f079ebf26a",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "Travel  Notes\nI  took  the  train.",
+  "label": "fail",
+  "decisions": [
+   "D-sentence"
+  ]
+ },
+ {
+  "id": "M-case:last_word_sent:80ba3806a01d",
+  "kind": "M-case",
+  "source": "last_word_sent:1a2da0f079ebf26a",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "TRAVEL NOTES\nI TOOK THE TRAIN.",
+  "label": "fail",
+  "decisions": [
+   "D-sentence"
+  ]
+ },
+ {
+  "id": "M-spaces:nth_paragraph_first_word:e79781c3c048",
+  "kind": "M-spaces",
+  "source": "nth_paragraph_first_word:188f6b4964f3a9b8",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro  paragraph.\n\nCrash  tests  matter.\n\nConclusion  here.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:282a1f3ffa51",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:188f6b4964f3a9b8",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "INTRO PARAGRAPH.\n\nCRASH TESTS MATTER.\n\nCONCLUSION HERE.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:nth_paragraph_first_word:3f7d6ee615f6",
+  "kind": "M-spaces",
+  "source": "nth_paragraph_first_word:9665856b1bbe1bb0",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\n**Crash**  tests  matter.\n\nEnd.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:0640b1a48295",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:9665856b1bbe1bb0",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "INTRO.\n\n**CRASH** TESTS MATTER.\n\nEND.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:nth_paragraph_first_word:11e92ae12411",
+  "kind": "M-spaces",
+  "source": "nth_paragraph_first_word:244670a8e81f7f4f",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\nCrash:  tests  matter.\n\nEnd.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:773de45c1ad9",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:244670a8e81f7f4f",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "INTRO.\n\nCRASH: TESTS MATTER.\n\nEND.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:nth_paragraph_first_word:a90381a0a10a",
+  "kind": "M-spaces",
+  "source": "nth_paragraph_first_word:ed912b195e043bcd",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\nCrash  tests  matter.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:5e7b1537712f",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:ed912b195e043bcd",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "INTRO.\n\nCRASH TESTS MATTER.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:nth_paragraph_first_word:821e5847f3ba",
+  "kind": "M-spaces",
+  "source": "nth_paragraph_first_word:943f1b1ad6b95931",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\nTests  matter.\n\nCrash  end.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:fb2dd59533b8",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:943f1b1ad6b95931",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "INTRO.\n\nTESTS MATTER.\n\nCRASH END.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:nth_paragraph_first_word:b1c05e43e9cf",
+  "kind": "M-spaces",
+  "source": "nth_paragraph_first_word:2c0c8970c6c23287",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\n\nCrash  tests.\n\n\nEnd.",
+  "label": "pass",
+  "decisions": [
+   "D-blank-run"
+  ]
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:657968eab71e",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:2c0c8970c6c23287",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "INTRO.\n\n\nCRASH TESTS.\n\n\nEND.",
+  "label": "pass",
+  "decisions": [
+   "D-blank-run"
+  ]
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:3ab217f55666",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:a9f720be31eeb3a7",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 4,
+   "first_word": "crash"
+  },
+  "response": "A.\n\nB.\n\nCRASH.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:nth_paragraph_first_word:5beaf5d41f06",
+  "kind": "M-case",
+  "source": "nth_paragraph_first_word:d2266480de96a474",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 4,
+   "first_word": "crash"
+  },
+  "response": "A.\n\nB.\n\nC.\n\nCRASH.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:number_paragraphs:a697d3d757e3",
+  "kind": "E-forbidden-edit",
+  "source": "number_paragraphs:4cd68abde1c2e725",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n***\nSecond.\n***\nThird.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:number_paragraphs:207671d5e0b4",
+  "kind": "E-forbidden-edit",
+  "source": "number_paragraphs:2dd57e67749c8aa9",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n\n***\n\nSecond.\n\n***\n\nThird.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_paragraphs:3702a6cf0bed",
+  "kind": "M-spaces",
+  "source": "number_paragraphs:8ced25466eeb3df5",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n*  *  *\nSecond.\n*  *  *\nThird.",
+  "label": "pass",
+  "decisions": [
+   "D-divider-form"
+  ]
+ },
+ {
+  "id": "E:number_paragraphs:4b48c76c4bb0",
+  "kind": "E-forbidden-edit",
+  "source": "number_paragraphs:8ced25466eeb3df5",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n* * *\nSecond.\n* * *\nThird.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": [
+   "D-divider-form"
+  ]
+ },
+ {
+  "id": "M-spaces:number_paragraphs:65be0c18c292",
+  "kind": "M-spaces",
+  "source": "number_paragraphs:8b8a0f23ca3624fb",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First  ***note***  here.\n***\nSecond.\n***\nThird.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_paragraphs:8e0000008ab2",
+  "kind": "E-forbidden-edit",
+  "source": "number_paragraphs:8b8a0f23ca3624fb",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First ***note*** here.\n***\nSecond.\n***\nThird.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_sentences:0036ec442276",
+  "kind": "M-spaces",
+  "source": "number_sentences:c1aa9a7177533aee",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "at least"
+  },
+  "response": "One  is  here.  Two  is  here.  Three  is  here.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_sentences:005c51c52d82",
+  "kind": "M-spaces",
+  "source": "number_sentences:90afa0dd19b6fa61",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "at least"
+  },
+  "response": "One  is  here.  Two  is  here.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_sentences:0eb0ddec62cb",
+  "kind": "M-spaces",
+  "source": "number_sentences:6a1a03e60a0104b1",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "less than"
+  },
+  "response": "Dr.  Smith  came.  He  left.  We  stayed.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_sentences:d4d1f5daaf61",
+  "kind": "M-spaces",
+  "source": "number_sentences:06f3044d4e8d4717",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "less than"
+  },
+  "response": "One  is  here.  Two  is  here.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_words:a1c488e33e3c",
+  "kind": "M-spaces",
+  "source": "number_words:d30af36e4b9a830d",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "at least"
+  },
+  "response": "This  sentence  has  five  words.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_words:0882d6420605",
+  "kind": "M-spaces",
+  "source": "number_words:5e3a991b542b52d8",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "at least"
+  },
+  "response": "Only  four  words  here.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_words:6e51d514ae83",
+  "kind": "M-spaces",
+  "source": "number_words:dde6f80e745cf577",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "at least"
+  },
+  "response": "Привет  как  у  тебя  дела",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_words:731e3970fbdc",
+  "kind": "M-spaces",
+  "source": "number_words:382b53392cc1aa48",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "less than"
+  },
+  "response": "I  don't  like  it",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-curly:number_words:8b827f756e60",
+  "kind": "M-curly",
+  "source": "number_words:382b53392cc1aa48",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "less than"
+  },
+  "response": "I don’t like it",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_words:72a2253c02fc",
+  "kind": "M-spaces",
+  "source": "number_words:1b2864de16504d0b",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 4,
+   "relation": "less than"
+  },
+  "response": "Café  crème  brûlée",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:letter_counting2:718e9c41481e",
+  "kind": "M-spaces",
+  "source": "letter_counting2:7d618072f08398b7",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 2,
+   "let_relation": "at least"
+  },
+  "response": "Good  food.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-case:letter_counting2:3317ee643841",
+  "kind": "M-case",
+  "source": "letter_counting2:7d618072f08398b7",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 2,
+   "let_relation": "at least"
+  },
+  "response": "GOOD FOOD.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:letter_counting2:748a9655811a",
+  "kind": "M-spaces",
+  "source": "letter_counting2:c86ccb855a251f8a",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 2,
+   "let_relation": "at least"
+  },
+  "response": "Fine  day.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-case:letter_counting2:86abc1426a12",
+  "kind": "M-case",
+  "source": "letter_counting2:c86ccb855a251f8a",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 2,
+   "let_relation": "at least"
+  },
+  "response": "FINE DAY.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:letter_counting2:cefb1e01561b",
+  "kind": "M-spaces",
+  "source": "letter_counting2:734e17cdf258cf34",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 1,
+   "let_relation": "at least"
+  },
+  "response": "One  apple.",
+  "label": "pass",
+  "decisions": [
+   "D-letter-case"
+  ]
+ },
+ {
+  "id": "M-case:letter_counting2:bf6c0db087d3",
+  "kind": "M-case",
+  "source": "letter_counting2:734e17cdf258cf34",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 1,
+   "let_relation": "at least"
+  },
+  "response": "ONE APPLE.",
+  "label": "pass",
+  "decisions": [
+   "D-letter-case"
+  ]
+ },
+ {
+  "id": "M-spaces:paragraphs:34e253237b04",
+  "kind": "M-spaces",
+  "source": "paragraphs:6654767065a9ebc9",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First  paragraph.\n***\nSecond  paragraph.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:paragraphs:ab43923ba517",
+  "kind": "E-forbidden-edit",
+  "source": "paragraphs:6654767065a9ebc9",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First paragraph.\n***\nSecond paragraph.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:paragraphs:4389f5bc398c",
+  "kind": "M-spaces",
+  "source": "paragraphs:96f258ff5addc74a",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First  ***bold***  words  here.\n***\nSecond.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:paragraphs:6e418046746e",
+  "kind": "E-forbidden-edit",
+  "source": "paragraphs:96f258ff5addc74a",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First ***bold*** words here.\n***\nSecond.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:paragraphs2:1474b7294e51",
+  "kind": "M-spaces",
+  "source": "paragraphs2:98b72b005d412051",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First  paragraph.\n\nSecond  paragraph.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:paragraphs2:349142dec8d3",
+  "kind": "E-forbidden-edit",
+  "source": "paragraphs2:98b72b005d412051",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First paragraph.\n\nSecond paragraph.\n\nThird paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:paragraphs2:e189f114d9e8",
+  "kind": "M-spaces",
+  "source": "paragraphs2:43a51cc99277240c",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "Only  one  paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:paragraphs2:d8ce8b17c5dc",
+  "kind": "M-spaces",
+  "source": "paragraphs2:a1536c4176b38652",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First  line\nstill  first.\n\nSecond.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:paragraphs2:d8a7c1491c9e",
+  "kind": "E-forbidden-edit",
+  "source": "paragraphs2:a1536c4176b38652",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First line\nstill first.\n\nSecond.\n\nThird paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_comma:5a4438ef9b60",
+  "kind": "M-spaces",
+  "source": "no_comma:b9bef2520a2c36a1",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": null,
+  "response": "No  commas  here.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:no_comma:6d500b88686e",
+  "kind": "E-forbidden-edit",
+  "source": "no_comma:b9bef2520a2c36a1",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": null,
+  "response": "No commas here. Also, yes",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:no_comma:ba8073c68743",
+  "kind": "M-spaces",
+  "source": "no_comma:514dc595b988ab10",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": null,
+  "response": "Yes,  there  is  one.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:punctuation_dot:40904bb7a348",
+  "kind": "M-spaces",
+  "source": "punctuation_dot:7bb465744cb70aa2",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": null,
+  "response": "No  dots  here!",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:punctuation_dot:54cc6089dc3c",
+  "kind": "E-forbidden-edit",
+  "source": "punctuation_dot:7bb465744cb70aa2",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": null,
+  "response": "No dots here! v1.2",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:punctuation_dot:31536bb1ac71",
+  "kind": "M-spaces",
+  "source": "punctuation_dot:04a8385af8e5f54c",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": null,
+  "response": "Version  2.0  is  out",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:punctuation_exclamation:9315dbaeff38",
+  "kind": "M-spaces",
+  "source": "punctuation_exclamation:70af26ecef8b5980",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": null,
+  "response": "Calm  text.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:punctuation_exclamation:7e974f37fefa",
+  "kind": "E-forbidden-edit",
+  "source": "punctuation_exclamation:70af26ecef8b5980",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": null,
+  "response": "Calm text. Wow!",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:end_checker:704bef987dcf",
+  "kind": "E-forbidden-edit",
+  "source": "end_checker:5ebd120a911439d9",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Here it is. Is there anything else I can help with? Thanks",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:end_checker:8780c86de307",
+  "kind": "E-forbidden-edit",
+  "source": "end_checker:e4499b5a3132d8d5",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Here it is. Is there anything else I can help with?\n Thanks",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:end_checker:787b7361bf84",
+  "kind": "E-forbidden-edit",
+  "source": "end_checker:cc3dcc7da860761f",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Here it is. **Is there anything else I can help with?** Thanks",
+  "label": "fail",
+  "decisions": [
+   "D-end-trailing"
+  ]
+ },
+ {
+  "id": "E:end_checker:e5e0eadb1f49",
+  "kind": "E-forbidden-edit",
+  "source": "end_checker:c50a91cf44283b42",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "\"Here it is. Any other questions?\" Thanks",
+  "label": "fail",
+  "decisions": [
+   "D-end-trailing"
+  ]
+ },
+ {
+  "id": "M-spaces:quotation:8e835090ddeb",
+  "kind": "M-spaces",
+  "source": "quotation:b4daec0649628c7a",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "\"Hello  there.\"",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:quotation:6faabe070963",
+  "kind": "E-forbidden-edit",
+  "source": "quotation:b4daec0649628c7a",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "\"Hello there.\" Extra",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:quotation:7b9669111c0b",
+  "kind": "M-spaces",
+  "source": "quotation:7b9776f091b6b0e6",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "Hello  there.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:quotation:73241d609781",
+  "kind": "M-spaces",
+  "source": "quotation:3ea7fa238e6fe5b6",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "“Hello  there.”",
+  "label": "pass",
+  "decisions": [
+   "D-quote-chars"
+  ]
+ },
+ {
+  "id": "E:quotation:31cd2348cec8",
+  "kind": "E-forbidden-edit",
+  "source": "quotation:3ea7fa238e6fe5b6",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "“Hello there.” Extra",
+  "label": "fail",
+  "decisions": [
+   "D-quote-chars"
+  ]
+ },
+ {
+  "id": "M-spaces:quotation:954acc3e3539",
+  "kind": "M-spaces",
+  "source": "quotation:985e8eace788e49c",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "'Hello  there.'",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-curly:quotation:4dbbc9ec900c",
+  "kind": "M-curly",
+  "source": "quotation:985e8eace788e49c",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "’Hello there.’",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:e829a9c27178",
+  "kind": "M-spaces",
+  "source": "multiple_sections:5dc07039b92d46bb",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "\"SECTION  1\nText  one.\nSECTION  2\nText  two.\"",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:multiple_sections:b89ba6a06e16",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:5dc07039b92d46bb",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "\"SECTION 1\nText one.\nSECTION 2\nText two.\"\nSECTION 9\nExtra.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:multiple_sections:cb72251ed550",
+  "kind": "M-spaces",
+  "source": "multiple_sections:da102862eba1e0f7",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION  1\nText  one.  SECTION  2\nText  two.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:multiple_sections:9ed71bc81ec9",
+  "kind": "E-forbidden-edit",
+  "source": "multiple_sections:da102862eba1e0f7",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nText one. SECTION 2\nText two.\nSECTION 9\nExtra.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:square_brackets:f986aa7d2524",
+  "kind": "M-spaces",
+  "source": "square_brackets:2f4d2a993bb5d702",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[J][u][s][t]  [g][o]",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "E:number_paragraphs:f62f18a0ac36",
+  "kind": "E-forbidden-edit",
+  "source": "number_paragraphs:7347626f3c44507f",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.***\n\nSecond.***\n\nThird.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:number_paragraphs:b5e8d2e6f6c3",
+  "kind": "M-spaces",
+  "source": "number_paragraphs:ad41a06b339b718e",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First  paragraph  here.  ***  Second  paragraph  here.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:number_paragraphs:49408b95e161",
+  "kind": "E-forbidden-edit",
+  "source": "number_paragraphs:ad41a06b339b718e",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First paragraph here. *** Second paragraph here.\n***\nExtra paragraph.",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:two_responses:c67c81ec3ad4",
+  "kind": "M-spaces",
+  "source": "two_responses:d8a6fe7ed84f76fd",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Answer  one.\n******\nAnswer  two.\n******",
+  "label": "fail",
+  "decisions": [
+   "D-two-responses-edge"
+  ]
+ },
+ {
+  "id": "M-spaces:no_adjacent_consecutive:9f8a7b26b6d0",
+  "kind": "M-spaces",
+  "source": "no_adjacent_consecutive:d36979acc1fd72f0",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Я  вижу  город.",
+  "label": "pass",
+  "decisions": [
+   "D-consecutive-script"
+  ]
+ },
+ {
+  "id": "E:no_adjacent_consecutive:acf707ffc79e",
+  "kind": "E-forbidden-edit",
+  "source": "no_adjacent_consecutive:d36979acc1fd72f0",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Я вижу город. a b",
+  "label": "fail",
+  "decisions": [
+   "D-consecutive-script"
+  ]
+ },
+ {
+  "id": "M-spaces:lowercase_counting:b3750ac1ce33",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:c0113ef7733ab362",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "这是  这是  这是  测试",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "E:lowercase_counting:ddb6d42f7816",
+  "kind": "E-forbidden-edit",
+  "source": "lowercase_counting:c0113ef7733ab362",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "这是 这是 这是 测试 zzz zzz zzz",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:lowercase_counting:3fc0a19eb48c",
+  "kind": "M-spaces",
+  "source": "lowercase_counting:41428cb0175422c8",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "мы  мы  мы  идём",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:152ee6e78641",
+  "kind": "M-spaces",
+  "source": "palindrome:c5a716e285831734",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "A  man,  a  plan,  a  canal,  Panama.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:palindrome:9b0749037e21",
+  "kind": "M-spaces",
+  "source": "palindrome:1d607ecf93dc2713",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Noon  is  lunch  time.",
+  "label": "pass",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:sentence_hyphens:83cd6940ec28",
+  "kind": "M-spaces",
+  "source": "sentence_hyphens:89cc403bf12acbcc",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I  like  tea  -  it  is  warm  -  it  calms  me",
+  "label": "fail",
+  "decisions": []
+ },
+ {
+  "id": "M-spaces:english_capital:e9f5c63d9d56",
+  "kind": "M-spaces",
+  "source": "english_capital:85582c6c28c409c2",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "THIS  IS  ENGLISH  TEXT  FOR  YOU  AND  IT  IS  LONG  ENOUGH  TO  READ.\n\n这是一个完整的中文段落。",
+  "label": "fail",
+  "decisions": [
+   "D-english-part"
+  ]
+ },
+ {
+  "id": "M-spaces:letter_counting:bc44347c7b20",
+  "kind": "M-spaces",
+  "source": "letter_counting:4b28f1bfc2d4e78d",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "at least"
+  },
+  "response": "Привет  мир  друзья",
+  "label": "pass",
+  "decisions": []
+ }
+]

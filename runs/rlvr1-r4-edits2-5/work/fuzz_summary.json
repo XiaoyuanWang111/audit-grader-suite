@@ -1,0 +1,954 @@
+{
+ "per_check": 300,
+ "seed": 20261112,
+ "exceptions": [
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_answer",
+   "type": "IndexError",
+   "count": 11,
+   "example": ""
+  }
+ ],
+ "disagreements": [
+  {
+   "grader": "curation",
+   "check": "change_case:capital_word_frequency",
+   "class": "decision",
+   "readings": "D-capital-single-letter",
+   "count": 11
+  },
+  {
+   "grader": "curation",
+   "check": "change_case:english_capital",
+   "class": "decision",
+   "readings": "D-english",
+   "count": 3
+  },
+  {
+   "grader": "curation",
+   "check": "change_case:english_lowercase",
+   "class": "decision",
+   "readings": "D-english",
+   "count": 30
+  },
+  {
+   "grader": "curation",
+   "check": "copy:repeat_phrase",
+   "class": "finding",
+   "readings": "",
+   "count": 46
+  },
+  {
+   "grader": "curation",
+   "check": "count:counting_composition",
+   "class": "finding",
+   "readings": "",
+   "count": 14
+  },
+  {
+   "grader": "curation",
+   "check": "count:lowercase_counting",
+   "class": "decision",
+   "readings": "D-lowercase-counting-scope",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "count:lowercase_counting",
+   "class": "decision",
+   "readings": "D-word",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "count:lowercase_counting",
+   "class": "decision",
+   "readings": "D-word,D-lowercase-counting-scope",
+   "count": 5
+  },
+  {
+   "grader": "curation",
+   "check": "count:lowercase_counting",
+   "class": "finding",
+   "readings": "",
+   "count": 100
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_content:number_placeholders",
+   "class": "decision",
+   "readings": "D-placeholder-form",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-case",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-line",
+   "count": 18
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-position",
+   "count": 42
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_content:postscript",
+   "class": "finding",
+   "readings": "",
+   "count": 14
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_format:multiple_sections",
+   "class": "finding",
+   "readings": "",
+   "count": 18
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_format:number_bullet_lists",
+   "class": "finding",
+   "readings": "",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_format:number_highlighted_sections",
+   "class": "finding",
+   "readings": "",
+   "count": 16
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_format:sentence_hyphens",
+   "class": "decision",
+   "readings": "D-hyphen-scope",
+   "count": 129
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_format:square_brackets",
+   "class": "finding",
+   "readings": "",
+   "count": 46
+  },
+  {
+   "grader": "curation",
+   "check": "detectable_format:title",
+   "class": "finding",
+   "readings": "",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "first_word:first_word_answer",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 9
+  },
+  {
+   "grader": "curation",
+   "check": "first_word:first_word_answer",
+   "class": "finding",
+   "readings": "",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "first_word:first_word_sent",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "first_word:first_word_sent",
+   "class": "decision",
+   "readings": "D-sentence",
+   "count": 18
+  },
+  {
+   "grader": "curation",
+   "check": "first_word:first_word_sent",
+   "class": "finding",
+   "readings": "",
+   "count": 9
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:forbidden_words",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 14
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:frequency",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 16
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:keyword_specific_position",
+   "class": "decision",
+   "readings": "D-sentence",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-consecutive-order",
+   "count": 12
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 10
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-word",
+   "count": 4
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "finding",
+   "readings": "",
+   "count": 78
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:palindrome",
+   "class": "decision",
+   "readings": "D-palindrome-length",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:palindrome",
+   "class": "finding",
+   "readings": "",
+   "count": 4
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:start_end",
+   "class": "decision",
+   "readings": "D-start-end-one-word",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:start_end",
+   "class": "finding",
+   "readings": "",
+   "count": 16
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:word_count_different_numbers",
+   "class": "decision",
+   "readings": "D-bare-count",
+   "count": 45
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:word_once",
+   "class": "decision",
+   "readings": "D-keyword-match",
+   "count": 14
+  },
+  {
+   "grader": "curation",
+   "check": "keywords:word_once",
+   "class": "finding",
+   "readings": "",
+   "count": 107
+  },
+  {
+   "grader": "curation",
+   "check": "last_word:last_word_answer",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 5
+  },
+  {
+   "grader": "curation",
+   "check": "last_word:last_word_answer",
+   "class": "finding",
+   "readings": "",
+   "count": 6
+  },
+  {
+   "grader": "curation",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-sentence",
+   "count": 22
+  },
+  {
+   "grader": "curation",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-sentence,D-edge-word",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "last_word:last_word_sent",
+   "class": "finding",
+   "readings": "",
+   "count": 7
+  },
+  {
+   "grader": "curation",
+   "check": "length_constraints:number_paragraphs",
+   "class": "decision",
+   "readings": "D-divider-edge",
+   "count": 2
+  },
+  {
+   "grader": "curation",
+   "check": "length_constraints:number_paragraphs",
+   "class": "finding",
+   "readings": "",
+   "count": 104
+  },
+  {
+   "grader": "curation",
+   "check": "length_constraints:number_words",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 13
+  },
+  {
+   "grader": "curation",
+   "check": "letters:letter_counting2",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 12
+  },
+  {
+   "grader": "curation",
+   "check": "paragraphs:paragraphs",
+   "class": "decision",
+   "readings": "D-divider-edge",
+   "count": 1
+  },
+  {
+   "grader": "curation",
+   "check": "paragraphs:paragraphs",
+   "class": "finding",
+   "readings": "",
+   "count": 113
+  },
+  {
+   "grader": "curation",
+   "check": "paragraphs:paragraphs2",
+   "class": "finding",
+   "readings": "",
+   "count": 71
+  },
+  {
+   "grader": "curation",
+   "check": "punctuation:no_comma",
+   "class": "decision",
+   "readings": "D-comma-variants",
+   "count": 32
+  },
+  {
+   "grader": "curation",
+   "check": "punctuation:no_comma",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 8
+  },
+  {
+   "grader": "curation",
+   "check": "punctuation:punctuation_dot",
+   "class": "decision",
+   "readings": "D-dot-variants",
+   "count": 14
+  },
+  {
+   "grader": "curation",
+   "check": "punctuation:punctuation_dot",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 10
+  },
+  {
+   "grader": "curation",
+   "check": "punctuation:punctuation_exclamation",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 8
+  },
+  {
+   "grader": "curation",
+   "check": "startend:end_checker",
+   "class": "decision",
+   "readings": "D-end-case",
+   "count": 19
+  },
+  {
+   "grader": "skyrl",
+   "check": "change_case:capital_word_frequency",
+   "class": "decision",
+   "readings": "D-capital-single-letter",
+   "count": 6
+  },
+  {
+   "grader": "skyrl",
+   "check": "change_case:english_lowercase",
+   "class": "decision",
+   "readings": "D-english",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:count_unique",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 11
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:count_unique",
+   "class": "decision",
+   "readings": "D-unique-case",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:count_unique",
+   "class": "decision",
+   "readings": "D-word",
+   "count": 2
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:count_unique",
+   "class": "finding",
+   "readings": "",
+   "count": 91
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:lowercase_counting",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 16
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:lowercase_counting",
+   "class": "decision",
+   "readings": "D-lowercase-counting-scope",
+   "count": 142
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:lowercase_counting",
+   "class": "decision",
+   "readings": "D-word,D-lowercase-counting-scope",
+   "count": 8
+  },
+  {
+   "grader": "skyrl",
+   "check": "count:lowercase_counting",
+   "class": "finding",
+   "readings": "",
+   "count": 8
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:number_placeholders",
+   "class": "decision",
+   "readings": "D-placeholder-form",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-case",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-line",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-position",
+   "count": 57
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-position,D-postscript-pps",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:postscript",
+   "class": "decision",
+   "readings": "D-postscript-pps",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_content:postscript",
+   "class": "finding",
+   "readings": "",
+   "count": 70
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:bigram_wrapping",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 8
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:bigram_wrapping",
+   "class": "finding",
+   "readings": "",
+   "count": 12
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:constrained_response",
+   "class": "decision",
+   "readings": "D-constrained-extra",
+   "count": 44
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:multiple_sections",
+   "class": "finding",
+   "readings": "",
+   "count": 5
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:number_bullet_lists",
+   "class": "finding",
+   "readings": "",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:number_highlighted_sections",
+   "class": "finding",
+   "readings": "",
+   "count": 2
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:sentence_hyphens",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 13
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:sentence_hyphens",
+   "class": "decision",
+   "readings": "D-hyphen-scope",
+   "count": 104
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:sentence_hyphens",
+   "class": "decision",
+   "readings": "D-hyphen-single",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:sentence_hyphens",
+   "class": "finding",
+   "readings": "",
+   "count": 8
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:square_brackets",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 13
+  },
+  {
+   "grader": "skyrl",
+   "check": "detectable_format:square_brackets",
+   "class": "finding",
+   "readings": "",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "first_word:first_word_answer",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 27
+  },
+  {
+   "grader": "skyrl",
+   "check": "first_word:first_word_answer",
+   "class": "finding",
+   "readings": "",
+   "count": 6
+  },
+  {
+   "grader": "skyrl",
+   "check": "first_word:first_word_sent",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 5
+  },
+  {
+   "grader": "skyrl",
+   "check": "first_word:first_word_sent",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 17
+  },
+  {
+   "grader": "skyrl",
+   "check": "first_word:first_word_sent",
+   "class": "decision",
+   "readings": "D-sentence",
+   "count": 5
+  },
+  {
+   "grader": "skyrl",
+   "check": "first_word:first_word_sent",
+   "class": "finding",
+   "readings": "",
+   "count": 5
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:existence",
+   "class": "decision",
+   "readings": "D-keyword-match",
+   "count": 6
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:forbidden_words",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 14
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:frequency",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 16
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:frequency",
+   "class": "decision",
+   "readings": "D-keyword-match",
+   "count": 15
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:keyword_specific_position",
+   "class": "decision",
+   "readings": "D-sentence",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-consecutive-order",
+   "count": 15
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 10
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-word",
+   "count": 5
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "decision",
+   "readings": "D-word,D-consecutive-order",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:no_adjacent_consecutive",
+   "class": "finding",
+   "readings": "",
+   "count": 51
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:palindrome",
+   "class": "decision",
+   "readings": "D-palindrome-length",
+   "count": 146
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:palindrome",
+   "class": "finding",
+   "readings": "",
+   "count": 25
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:start_end",
+   "class": "decision",
+   "readings": "D-start-end-one-word",
+   "count": 12
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:start_end",
+   "class": "finding",
+   "readings": "",
+   "count": 7
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:word_count_different_numbers",
+   "class": "decision",
+   "readings": "D-bare-count",
+   "count": 45
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:word_count_different_numbers",
+   "class": "decision",
+   "readings": "D-keyword-match",
+   "count": 17
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:word_count_different_numbers",
+   "class": "decision",
+   "readings": "D-keyword-match,D-bare-count",
+   "count": 4
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:word_once",
+   "class": "decision",
+   "readings": "D-keyword-match",
+   "count": 28
+  },
+  {
+   "grader": "skyrl",
+   "check": "keywords:word_once",
+   "class": "finding",
+   "readings": "",
+   "count": 114
+  },
+  {
+   "grader": "skyrl",
+   "check": "language:response_language",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 20
+  },
+  {
+   "grader": "skyrl",
+   "check": "language:response_language",
+   "class": "finding",
+   "readings": "",
+   "count": 17
+  },
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_answer",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 27
+  },
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-edge-word",
+   "count": 4
+  },
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 11
+  },
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-sentence",
+   "count": 9
+  },
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_sent",
+   "class": "decision",
+   "readings": "D-sentence,D-edge-word",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "last_word:last_word_sent",
+   "class": "finding",
+   "readings": "",
+   "count": 6
+  },
+  {
+   "grader": "skyrl",
+   "check": "length_constraints:number_paragraphs",
+   "class": "decision",
+   "readings": "D-divider-edge",
+   "count": 3
+  },
+  {
+   "grader": "skyrl",
+   "check": "length_constraints:number_paragraphs",
+   "class": "finding",
+   "readings": "",
+   "count": 63
+  },
+  {
+   "grader": "skyrl",
+   "check": "length_constraints:number_words",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 13
+  },
+  {
+   "grader": "skyrl",
+   "check": "letters:letter_counting",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 15
+  },
+  {
+   "grader": "skyrl",
+   "check": "letters:letter_counting",
+   "class": "decision",
+   "readings": "D-letters-unit",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "letters:letter_counting2",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 12
+  },
+  {
+   "grader": "skyrl",
+   "check": "paragraphs:paragraphs",
+   "class": "decision",
+   "readings": "D-divider-edge",
+   "count": 1
+  },
+  {
+   "grader": "skyrl",
+   "check": "paragraphs:paragraphs",
+   "class": "finding",
+   "readings": "",
+   "count": 29
+  },
+  {
+   "grader": "skyrl",
+   "check": "paragraphs:paragraphs2",
+   "class": "decision",
+   "readings": "D-paragraph-blank-run",
+   "count": 4
+  },
+  {
+   "grader": "skyrl",
+   "check": "punctuation:no_comma",
+   "class": "decision",
+   "readings": "D-comma-variants",
+   "count": 32
+  },
+  {
+   "grader": "skyrl",
+   "check": "punctuation:no_comma",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 8
+  },
+  {
+   "grader": "skyrl",
+   "check": "punctuation:punctuation_dot",
+   "class": "decision",
+   "readings": "D-dot-variants",
+   "count": 14
+  },
+  {
+   "grader": "skyrl",
+   "check": "punctuation:punctuation_dot",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 10
+  },
+  {
+   "grader": "skyrl",
+   "check": "punctuation:punctuation_exclamation",
+   "class": "decision",
+   "readings": "D-empty",
+   "count": 8
+  }
+ ],
+ "unknown_to_verifyit": []
+}

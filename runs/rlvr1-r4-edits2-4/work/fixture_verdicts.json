@@ -1,0 +1,3649 @@
+[
+ {
+  "id": "change_case:capital_word_frequency:cb90c20b7983f46d",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_relation": "less than",
+   "capital_frequency": 3
+  },
+  "response": "The NASA team met at noon.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:capital_word_frequency:d90e4e6bec641d5d",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_relation": "at least",
+   "capital_frequency": 3
+  },
+  "response": "The NASA team met at noon.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:capital_word_frequency:056aa92313ad7099",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_relation": "at least",
+   "capital_frequency": 2
+  },
+  "response": "I saw NASA today.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-capital-word: I counts",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-capital-word": "fail"
+  }
+ },
+ {
+  "id": "change_case:capital_word_frequency:64c5fe06ede3dcdd",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_relation": "less than",
+   "capital_frequency": 2
+  },
+  "response": "DON'T panic.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-word-units: DON'T is one word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-word-units": "fail"
+  }
+ },
+ {
+  "id": "change_case:english_capital:7431169be78d7848",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": {},
+  "response": "THE WEATHER IS NICE TODAY AND WE ARE GOING TO THE PARK WITH OUR FRIENDS.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:english_capital:84445e0d9c4ef0ab",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": {},
+  "response": "The weather is nice today and we are going to the park.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:english_capital:4c8b0a1ea091bd2f",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": {},
+  "response": "LE TEMPS EST TRÈS BEAU AUJOURD'HUI ET NOUS ALLONS AU PARC AVEC NOS AMIS.",
+  "thinking": false,
+  "label": "fail",
+  "note": "not English",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:english_capital:78e4de28cff51f09",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": {},
+  "response": "123 456",
+  "thinking": false,
+  "label": "fail",
+  "note": "no letters",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:english_lowercase:5f61663da0ec68fe",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": {},
+  "response": "the weather is nice today and we are going to the park with our friends.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:english_lowercase:6966d0e1a2bc1e85",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": {},
+  "response": "The weather is nice today.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "change_case:english_lowercase:ede0d0e179bf4871",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": {},
+  "response": "le temps est très beau aujourd'hui et nous allons au parc avec nos amis.",
+  "thinking": false,
+  "label": "fail",
+  "note": "not English",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "combination:two_responses:20b3dcf1870691c1",
+  "instruction_id": "combination:two_responses",
+  "kwargs": {},
+  "response": "Paris is the capital of France.\n******\nThe capital of France is Paris.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "combination:two_responses:4dbff1e62e87327d",
+  "instruction_id": "combination:two_responses",
+  "kwargs": {},
+  "response": "Paris is the capital of France.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "combination:two_responses:a1bdf08fbf3a4d3a",
+  "instruction_id": "combination:two_responses",
+  "kwargs": {},
+  "response": "Paris.\n******\nParis.",
+  "thinking": false,
+  "label": "fail",
+  "note": "identical",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "combination:two_responses:73c0d6d4d0e2e674",
+  "instruction_id": "combination:two_responses",
+  "kwargs": {},
+  "response": "A cat.\n******\nA dog.\n******\nA cow.",
+  "thinking": false,
+  "label": "fail",
+  "note": "three responses",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "combination:two_responses:4b4f352dd7e8b76a",
+  "instruction_id": "combination:two_responses",
+  "kwargs": {},
+  "response": "A cat.\n*******\nA dog.",
+  "thinking": false,
+  "label": "fail",
+  "note": "seven asterisks are not the separator",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "copy:repeat_phrase:c2d5fc8dce09cc6f",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Laughter is the best medicine",
+   "small_n": 2
+  },
+  "response": "Laughter is our best medicine. Laughter is my best medicine.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control: center word replaced",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "copy:repeat_phrase:b1f3e87bd49fd35c",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Laughter is the best medicine",
+   "small_n": 2
+  },
+  "response": "Laughter is the best medicine. Laughter is the best medicine.",
+  "thinking": false,
+  "label": "fail",
+  "note": "unchanged copies",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "copy:repeat_phrase:6b1346a07e4b43e3",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Laughter is the best medicine",
+   "small_n": 2
+  },
+  "response": "Laughter is the best medicine. Laughter is our best medicine.",
+  "thinking": false,
+  "label": "fail",
+  "note": "one unchanged copy and one variant (fails under both D-repeat-original readings)",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-repeat-original": "fail"
+  }
+ },
+ {
+  "id": "copy:repeat_phrase:1475acd638d166fb",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Laughter is the best medicine",
+   "small_n": 2
+  },
+  "response": "Laughter is the finest medicine. Laughter is the greatest medicine.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-repeat-center: 4th of 5 words replaced",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-repeat-center": "pass"
+  }
+ },
+ {
+  "id": "copy:repeat_phrase:cff65755788d86cd",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Don't judge a book by cover",
+   "small_n": 2
+  },
+  "response": "Don’t judge the book by cover. Don’t judge one book by cover.",
+  "thinking": false,
+  "label": "pass",
+  "note": "typographic apostrophe",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "copy:repeat_phrase:e7cb657553c960f7",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Laughter is the best medicine",
+   "small_n": 2
+  },
+  "response": "They said laughter is our best medicine and laughter is my best medicine.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-word-case: lowercase repetition",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-word-case": "fail"
+  }
+ },
+ {
+  "id": "count:count_unique:a7c668cc71785509",
+  "instruction_id": "count:count_unique",
+  "kwargs": {},
+  "response": "Every cat sleeps quietly.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:count_unique:8b7d7fdaa3bb073e",
+  "instruction_id": "count:count_unique",
+  "kwargs": {},
+  "response": "We like cats and cats.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:count_unique:a98cd425d6e5aa84",
+  "instruction_id": "count:count_unique",
+  "kwargs": {},
+  "response": "Apples, pears, plums.",
+  "thinking": false,
+  "label": "pass",
+  "note": "punctuation is not a word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:count_unique:c9d9116956b3d812",
+  "instruction_id": "count:count_unique",
+  "kwargs": {},
+  "response": "The cat saw THE dog.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-word-case",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-word-case": "pass"
+  }
+ },
+ {
+  "id": "count:counting_composition:0b9dd8e3e961f131",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing. Cats sleep. Dogs bark.\n* * *\nFish swim. Bees buzz. Cows moo.\n* * *\nKids play. Moms cook. Dads read.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control: the instructed divider",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:counting_composition:c3d8e835ddbf2e4b",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing. Cats sleep.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:counting_composition:39cd5f297f84a73a",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing. Cats sleep. Dogs bark. Fish swim. Bees buzz. Cows moo. Kids play. Moms cook. Dads read.",
+  "thinking": false,
+  "label": "fail",
+  "note": "no paragraphs",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:lowercase_counting:fe2767151cc21e46",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "The cat sat on a mat.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-lowercase-scope: each lowercase word once",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-lowercase-scope": "fail"
+  }
+ },
+ {
+  "id": "count:lowercase_counting:24425f6cf91bd8e3",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "the the the end",
+  "thinking": false,
+  "label": "fail",
+  "note": "a lowercase word three times",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "count:lowercase_counting:9a3f48cceba10b2a",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "I AM OK.",
+  "thinking": false,
+  "label": "pass",
+  "note": "no lowercase words",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:number_placeholders:7ff89fc935db181c",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [name], meet me at [address].",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:number_placeholders:44a1b766a5512855",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [name], meet me there.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:number_placeholders:dfba2cec8e48ba14",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [], meet me at [].",
+  "thinking": false,
+  "label": "fail",
+  "note": "empty brackets",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:number_placeholders:336c46753d90f424",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [ ], meet me at [ ].",
+  "thinking": false,
+  "label": "fail",
+  "note": "whitespace-only brackets",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:b2019e33c0fa8f91",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Here is my answer.\n\nP.S. Thanks for asking.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:3982901cdbcf1c6e",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Here is my answer. Thanks for asking.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:4c820dbe02516d13",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Remember to read the P.S. section of the letter.\n\nThanks.",
+  "thinking": false,
+  "label": "fail",
+  "note": "mention inside a sentence",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:249a7e59d1d0cffb",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Here is my answer.\n\nP.P.S. One more note.",
+  "thinking": false,
+  "label": "fail",
+  "note": "P.P.S. is not P.S.",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:dd14e8d69eaccd46",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "P.S. Thanks.\n\nHere is my answer.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-postscript-position",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-postscript-position": "pass"
+  }
+ },
+ {
+  "id": "detectable_content:postscript:8adfdd675a037993",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Here is my answer.\n\n**P.S.** Thanks for asking.",
+  "thinking": false,
+  "label": "pass",
+  "note": "bold marker",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:ef3d63a2d6363145",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Here is my answer.\n\nP.P.S. One more note.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_content:postscript:455990ad256b4c30",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Here is my answer.\n\np.s. thanks for asking.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-postscript-case",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-postscript-case": "pass"
+  }
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:0141f53cc2d1d4a9",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": {},
+  "response": "<<I am>> <<at home>> <<with my>> <<cute dog>>",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:0828a43df3d44f60",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": {},
+  "response": "I am at home with my cute dog.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:ac3708b3d27f3f1e",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": {},
+  "response": "<<I am>> <<at home>> today",
+  "thinking": false,
+  "label": "fail",
+  "note": "unwrapped last word",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:27ddc64ee97a12f0",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": {},
+  "response": "<<I am>> <<at home>>.",
+  "thinking": false,
+  "label": "pass",
+  "note": "punctuation after the last group",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:bigram_wrapping:df53a847ee411042",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": {},
+  "response": "hello",
+  "thinking": false,
+  "label": "fail",
+  "note": "one unwrapped word",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:constrained_response:6932dc73133b2c5b",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": {},
+  "response": "My answer is yes.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:constrained_response:643e1a6fce3cface",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": {},
+  "response": "Yes, I think so.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:constrained_response:5271cef2a7c36643",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": {},
+  "response": "My answer is yes. My answer is no.",
+  "thinking": false,
+  "label": "fail",
+  "note": "two options",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:constrained_response:2323b1d0d97253c7",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": {},
+  "response": "My answer is yes. The data supports it.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-constrained-extra",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-constrained-extra": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:json_format:4ee63a8055d41300",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "{\"name\": \"Ada\", \"age\": 36}",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:json_format:04cb01dc18f2550f",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "```json\n{\"a\": 1}\n```",
+  "thinking": false,
+  "label": "pass",
+  "note": "control fenced",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:json_format:edabd5f672e3a990",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "Here is the JSON: {\"a\": 1}",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:json_format:40a97012f839019c",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "\"hello\"",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-json-value",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-json-value": "pass"
+  }
+ },
+ {
+  "id": "detectable_format:json_format:9a58a5d8bb430c22",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "```JSON\n{\"a\": 1}\n```",
+  "thinking": false,
+  "label": "pass",
+  "note": "uppercase fence tag",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:json_format:1c5bedae414855cb",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "NaN",
+  "thinking": false,
+  "label": "fail",
+  "note": "NaN is not JSON",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:json_format:c723d143be679f96",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": {},
+  "response": "```{\"a\": 1}```",
+  "thinking": false,
+  "label": "pass",
+  "note": "one-line fence",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:multiple_sections:3a094ecab3c1cbbd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nIntro text here.\nSECTION 2\nMore text here.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:multiple_sections:0fad1acc40817bdb",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nOnly one section here.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:multiple_sections:87a3afe12009c6f0",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nA text.\nSECTION 2\nB text.\nSECTION 3\nC text.",
+  "thinking": false,
+  "label": "fail",
+  "note": "three sections for two",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:multiple_sections:cb676f86382f29e1",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nSee SECTION 2 below for details.",
+  "thinking": false,
+  "label": "fail",
+  "note": "mention inside a sentence",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:multiple_sections:3fdd1c9965190656",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "Section 1\nA text.\nSection 2\nB text.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-section-case",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-section-case": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:multiple_sections:a2201a0b0ec3f1d9",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION A\nA text.\nSECTION B\nB text.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-section-label",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-section-label": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:b790fb1185501cbe",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* Apples\n* Pears",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:3ebdb922e3ed03b1",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* Apples\n* Pears\n* Plums",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:d62220e07dbd56d6",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*Note:* fruit list\n* Apples\n* Pears",
+  "thinking": false,
+  "label": "pass",
+  "note": "italic at a line start is not a bullet",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:10b37951d6e34a20",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* Apples\n* Pears\n---\nThat is all.",
+  "thinking": false,
+  "label": "pass",
+  "note": "a horizontal rule is not a bullet",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:de545f6b3ff25a2c",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "-5 degrees today.\n* Apples\n* Pears",
+  "thinking": false,
+  "label": "pass",
+  "note": "a negative number is not a bullet",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:2998412a48b5e740",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* Apples\n* Pears\n* * *\nDone.",
+  "thinking": false,
+  "label": "pass",
+  "note": "a * * * divider is not a bullet",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_bullet_lists:6e3c8ab62438264a",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "+ Apples\n+ Pears",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-bullet-markers",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-bullet-markers": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:21fd1fa5a8933900",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This is *important* and *urgent*.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:85d873cd668ace2f",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This is *important* only.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:d0e14b38869a1f71",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This is **important** and **urgent**.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-highlight-bold",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-highlight-bold": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:4bf6b0929d77b8dd",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "Compute 2 * 3 * 4 and *done*.",
+  "thinking": false,
+  "label": "fail",
+  "note": "multiplication signs",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:number_highlighted_sections:4e2be4108c0e7614",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "* * *\nText *one*.",
+  "thinking": false,
+  "label": "fail",
+  "note": "a divider is not a highlight",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:48c2c40d7bb191f1",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "The sun rose.-Birds sang.-We walked home.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-hyphens-spaces: spaces inside sentences",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-hyphens-spaces": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:40bc99542605cfd0",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "Sunrise.-Birdsong.-Walks.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:dfb9e7bed63cf6cc",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "The sun rose. Birds sang. We walked home.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:a0731442c2a305ad",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "The well-known poet arrived.-We listened.",
+  "thinking": false,
+  "label": "pass",
+  "note": "hyphenated word inside a sentence",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:37f50d7f8496fc8f",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "Well-known. Fine-tuned.",
+  "thinking": false,
+  "label": "fail",
+  "note": "space between sentences",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:831c88ac9565c30d",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "The sun rose.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-hyphens-single; D-hyphens-spaces",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-hyphens-single": "fail",
+   "D-hyphens-spaces": "fail"
+  }
+ },
+ {
+  "id": "detectable_format:sentence_hyphens:2b0f8e89f838b2de",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": {},
+  "response": "The-sun-rose.-Birds-sang.",
+  "thinking": false,
+  "label": "pass",
+  "note": "no spaces at all",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:square_brackets:f37ba21b4fa51e3e",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": {},
+  "response": "[The] [sun] [is] [bright]",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:square_brackets:a6b62f39f6d4d283",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": {},
+  "response": "The sun is bright.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:square_brackets:3c4d7d7d9340a1d4",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": {},
+  "response": "[The] sun is bright.",
+  "thinking": false,
+  "label": "fail",
+  "note": "one word bracketed",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:square_brackets:0f04cc764ba9c3c9",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": {},
+  "response": "[The] [sun] [is] [bright].",
+  "thinking": false,
+  "label": "pass",
+  "note": "final period outside the brackets",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:square_brackets:7bef061977595403",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": {},
+  "response": "[The sun is bright]",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-brackets-each",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-brackets-each": "pass"
+  }
+ },
+ {
+  "id": "detectable_format:title:af3536a24b54620b",
+  "instruction_id": "detectable_format:title",
+  "kwargs": {},
+  "response": "<<Ode to Rain>>\nThe rain falls softly.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:title:14518f5843048027",
+  "instruction_id": "detectable_format:title",
+  "kwargs": {},
+  "response": "Ode to Rain\nThe rain falls softly.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:title:bec9c78b93414733",
+  "instruction_id": "detectable_format:title",
+  "kwargs": {},
+  "response": "<< >>\nThe rain falls softly.",
+  "thinking": false,
+  "label": "fail",
+  "note": "blank title",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "detectable_format:title:f5cec34b16a52bec",
+  "instruction_id": "detectable_format:title",
+  "kwargs": {},
+  "response": "The rain falls softly.\n<<Ode to Rain>>",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-title-position",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-title-position": "fail"
+  }
+ },
+ {
+  "id": "first_word:first_word_answer:d19edcd2bd5411d1",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Development is key to growth.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_answer:b2894a540a66848a",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Growth needs development.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_answer:587a00023469ddae",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Development, in short, matters.",
+  "thinking": false,
+  "label": "pass",
+  "note": "comma after the first word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_answer:60afd0a49058e9a9",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "**Development** matters.",
+  "thinking": false,
+  "label": "pass",
+  "note": "bold first word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_answer:3f437e1d25a0e15f",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Developments matter.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control: another word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_sent:69d45a8a2cf8403a",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "rain"
+  },
+  "response": "Rain falls today. Rain cools the air.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_sent:c12dd15098286f97",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "rain"
+  },
+  "response": "Rain falls today. Clouds gather.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_sent:c7bf8d6fa8e58b9d",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "rain"
+  },
+  "response": "Rain, again, falls. Rain cools the air.",
+  "thinking": false,
+  "label": "pass",
+  "note": "comma after the first word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "first_word:first_word_sent:04393edde9fc237d",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "rain"
+  },
+  "response": "Rain report\nClouds gather. Rain falls.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-sentence-split",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-sentence-split": "pass"
+  }
+ },
+ {
+  "id": "keywords:existence:67f5189dc5f26371",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "art",
+    "home"
+   ]
+  },
+  "response": "Art makes a house a home.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:existence:051d44d4af71045b",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "art",
+    "home"
+   ]
+  },
+  "response": "Art makes a house warm.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:existence:76ac5eff506d8716",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "art",
+    "home"
+   ]
+  },
+  "response": "We start at home.",
+  "thinking": false,
+  "label": "fail",
+  "note": "art only inside start",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:existence:fafb4b841ef8e2cd",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "art",
+    "home"
+   ]
+  },
+  "response": "Arts make a house a home.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-keyword-inflection",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-keyword-inflection": "pass"
+  }
+ },
+ {
+  "id": "keywords:forbidden_words:0390961447961130",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "law",
+    "sound"
+   ]
+  },
+  "response": "The rules are fair.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:forbidden_words:ade0cd472360e3c0",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "law",
+    "sound"
+   ]
+  },
+  "response": "The law is fair.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:forbidden_words:344e72b50381e629",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "law",
+    "sound"
+   ]
+  },
+  "response": "The lawyer is fair.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control: another word",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:forbidden_words:07cc1f77273b9584",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "law",
+    "sound"
+   ]
+  },
+  "response": "The law-abiding citizen waited.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-word-units",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-word-units": "fail"
+  }
+ },
+ {
+  "id": "keywords:forbidden_words:f8e6d137f99865c3",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "law",
+    "sound"
+   ]
+  },
+  "response": "LAW and order.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control: case",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:frequency:563762e20c1d57d5",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "cat",
+   "relation": "less than",
+   "frequency": 2
+  },
+  "response": "A cat sleeps.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:frequency:3fd7655bf762a856",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "cat",
+   "relation": "less than",
+   "frequency": 2
+  },
+  "response": "A cat and another cat.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:frequency:d8215d97840cd152",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "cat",
+   "relation": "less than",
+   "frequency": 2
+  },
+  "response": "A cat reads the catalog.",
+  "thinking": false,
+  "label": "pass",
+  "note": "catalog is not cat",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:frequency:e560c2af464dd8cd",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "cat",
+   "relation": "at least",
+   "frequency": 2
+  },
+  "response": "The category of cat.",
+  "thinking": false,
+  "label": "fail",
+  "note": "category is not cat",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:keyword_specific_position:2b511e7204543456",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "river",
+   "n": 2,
+   "m": 3
+  },
+  "response": "We walked far. Then the river appeared.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:keyword_specific_position:598e1893d074b92c",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "river",
+   "n": 2,
+   "m": 3
+  },
+  "response": "We walked far. The river appeared.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:keyword_specific_position:38b9d05e7f8c8e6b",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "river",
+   "n": 2,
+   "m": 3
+  },
+  "response": "We walked far. Then, the river appeared.",
+  "thinking": false,
+  "label": "pass",
+  "note": "a comma is not a word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:keyword_specific_position:651188c821cce46c",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "river",
+   "n": 2,
+   "m": 3
+  },
+  "response": "We walked far. Then the River appeared.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-word-case",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-word-case": "fail"
+  }
+ },
+ {
+  "id": "keywords:letter_frequency:efc84122fcef5af9",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "z",
+   "let_relation": "at least",
+   "let_frequency": 2
+  },
+  "response": "Zebras graze.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:letter_frequency:e1c76316785c9d0c",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "z",
+   "let_relation": "at least",
+   "let_frequency": 2
+  },
+  "response": "A lazy day.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:18120b502d9c04dd",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": {},
+  "response": "Zebras graze quietly near water.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:13cdfa0958f91cbb",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": {},
+  "response": "A big dog.",
+  "thinking": false,
+  "label": "fail",
+  "note": "a then b",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:bb4a5c5bf23af2ef",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": {},
+  "response": "Big apples grow.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-consecutive-order: b then a",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-consecutive-order": "pass"
+  }
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:79f3ec2cd489efad",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": {},
+  "response": "The the end.",
+  "thinking": false,
+  "label": "pass",
+  "note": "repeated word, no consecutive letters",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:aa22818fc337571b",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": {},
+  "response": "\"apple\" \"banana\" were eaten.",
+  "thinking": false,
+  "label": "fail",
+  "note": "quoted words a then b",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:no_adjacent_consecutive:d922e72b139bdbb8",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": {},
+  "response": "Chapter 1 2 ended.",
+  "thinking": false,
+  "label": "pass",
+  "note": "digits are not letters",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:5d76071956e51c6e",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "Mom saw a racecar.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:49cc3c54c3c5266d",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "The weather is warm.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:224dd3e607803b71",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "I saw the sea.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-palindrome-length: only I",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-palindrome-length": "pass"
+  }
+ },
+ {
+  "id": "keywords:palindrome:a190c01b63be5b21",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "* Apples\n* Pears",
+  "thinking": false,
+  "label": "fail",
+  "note": "a bullet marker is not a palindrome",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:f064bcb3c8484c21",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "Rain fell - then stopped.",
+  "thinking": false,
+  "label": "fail",
+  "note": "a dash is not a palindrome",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:f6dfa1511155836b",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "Rain fell.\n---\nThen it stopped.",
+  "thinking": false,
+  "label": "fail",
+  "note": "a horizontal rule is not a palindrome",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:94f9969894d0900a",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "Level ground.",
+  "thinking": false,
+  "label": "pass",
+  "note": "capitalized palindrome",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:palindrome:1d8075c7a055d487",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": {},
+  "response": "Paddle the kayak.",
+  "thinking": false,
+  "label": "pass",
+  "note": "palindrome before a period",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:start_end:8a390a4d808138d6",
+  "instruction_id": "keywords:start_end",
+  "kwargs": {},
+  "response": "Hello there my friend hello",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:start_end:d4625519c84bbd86",
+  "instruction_id": "keywords:start_end",
+  "kwargs": {},
+  "response": "Hello there my friend",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:start_end:30df82cebb9d8153",
+  "instruction_id": "keywords:start_end",
+  "kwargs": {},
+  "response": "Hello there my friend hello.",
+  "thinking": false,
+  "label": "fail",
+  "note": "period after the last word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:start_end:4366a86864150f65",
+  "instruction_id": "keywords:start_end",
+  "kwargs": {},
+  "response": "**Hello** there my friend hello",
+  "thinking": false,
+  "label": "pass",
+  "note": "bold first word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:start_end:cf42b3b090459d0e",
+  "instruction_id": "keywords:start_end",
+  "kwargs": {},
+  "response": "! !",
+  "thinking": false,
+  "label": "fail",
+  "note": "no words",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:start_end:62fc15bc957cb901",
+  "instruction_id": "keywords:start_end",
+  "kwargs": {},
+  "response": "Hello",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-start-end-single",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-start-end-single": "fail"
+  }
+ },
+ {
+  "id": "keywords:word_count_different_numbers:fa6e3cd731322210",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "tree",
+   "relation": "at least",
+   "frequency": 2
+  },
+  "response": "A tree and a tree.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_count_different_numbers:766e678da13f0c4c",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "tree",
+   "relation": "less than",
+   "frequency": 2
+  },
+  "response": "A tree and a tree.",
+  "thinking": false,
+  "label": "pass",
+  "note": "hidden relation less than",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_count_different_numbers:19b7f32dc3f3ced4",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "tree",
+   "relation": "less than",
+   "frequency": 2
+  },
+  "response": "Nothing here.",
+  "thinking": false,
+  "label": "fail",
+  "note": "hidden relation less than, zero occurrences",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_count_different_numbers:b4ed3d6cc14efafd",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "tree",
+   "relation": "at least",
+   "frequency": 2
+  },
+  "response": "A tree, a tree, a tree.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-word-count-exact",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-word-count-exact": "pass"
+  }
+ },
+ {
+  "id": "keywords:word_once:68765b6ad5ad2a17",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "river"
+  },
+  "response": "The river flows.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_once:f0d65dc483c931b3",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "river"
+  },
+  "response": "The stream flows.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_once:5d926df0a0f4e29d",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "river"
+  },
+  "response": "The river flows into another river.",
+  "thinking": false,
+  "label": "pass",
+  "note": "keyword twice",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_once:32ea84949bbba6e3",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "river"
+  },
+  "response": "The riverbank is wet.",
+  "thinking": false,
+  "label": "fail",
+  "note": "river only inside riverbank",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "language:response_language:41cf04e221b1a790",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "Le temps est très beau aujourd'hui et nous allons au parc avec nos amis.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "language:response_language:ad3a0898f9592a01",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "The weather is very nice today and we are going to the park.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "language:response_language:5c30d4525d7620a3",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "12345",
+  "thinking": false,
+  "label": "fail",
+  "note": "no language",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_answer:38afbb8d0532ddf0",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We pushed to the limit.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_answer:c8b33f36ad262a05",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "The limit was reached.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_answer:f545006dbff4effb",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "",
+  "thinking": false,
+  "label": "fail",
+  "note": "empty response",
+  "skyrl": "fail",
+  "skyrl_error": "IndexError: list index out of range",
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_answer:43b066dd902e601e",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We hit the speed-limit.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control: another word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_sent:aa9c0423d63d54e2",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the limit. They also hit the limit!",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_sent:59a1f525a8452a94",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the limit. They stopped.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "last_word:last_word_sent:6329e06e496911b0",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "Speed\nWe reached the limit.",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-sentence-split",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-sentence-split": "pass"
+  }
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:dce6972d915b9353",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 2,
+   "nth_paragraph": 2,
+   "first_word": "rain"
+  },
+  "response": "Clouds gathered.\n\nRain fell all night.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:a896cff893c939f7",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 2,
+   "nth_paragraph": 2,
+   "first_word": "rain"
+  },
+  "response": "Clouds gathered.\n\nThe rain fell all night.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:f881f4cb458ffa9e",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 2,
+   "nth_paragraph": 2,
+   "first_word": "rain"
+  },
+  "response": "Clouds gathered.\n\n**Rain** fell all night.",
+  "thinking": false,
+  "label": "pass",
+  "note": "bold first word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:a243d92828043330",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 2,
+   "nth_paragraph": 2,
+   "first_word": "rain"
+  },
+  "response": "Clouds gathered.\n\nRain: it fell all night.",
+  "thinking": false,
+  "label": "pass",
+  "note": "colon after the first word",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:837140b04ba737f5",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 2,
+   "nth_paragraph": 2,
+   "first_word": "rain"
+  },
+  "response": "Clouds gathered.\n\n\n\nRain fell all night.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-paragraph-blank-lines",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-paragraph-blank-lines": "fail"
+  }
+ },
+ {
+  "id": "length_constraints:nth_paragraph_first_word:9edf7544c7eb221f",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 2,
+   "nth_paragraph": 3,
+   "first_word": "rain"
+  },
+  "response": "Rain fell.\n\nRain stopped.",
+  "thinking": false,
+  "label": "fail",
+  "note": "nth beyond num: no response can pass",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_paragraphs:0de747dfe5e32e3a",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First paragraph.\n***\nSecond paragraph.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_paragraphs:952052915fe3b0f1",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First paragraph.\n***\nSecond.\n***\nThird.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_paragraphs:4d7e530395328eaf",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First paragraph.\n\nSecond paragraph.",
+  "thinking": false,
+  "label": "fail",
+  "note": "no divider",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_paragraphs:9eb1208e9de45147",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "***Note*** first part.\n***\nSecond part.",
+  "thinking": false,
+  "label": "pass",
+  "note": "bold italics are not a divider",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_paragraphs:09ac2a83a76f0dc5",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First part.\n***\nSecond part.\n***",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-divider-edges",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-divider-edges": "pass"
+  }
+ },
+ {
+  "id": "length_constraints:number_sentences:2b12d1c01ef9b077",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "relation": "less than",
+   "num_sentences": 3
+  },
+  "response": "One idea. Two ideas.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_sentences:cf4effdffe43b75c",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "relation": "less than",
+   "num_sentences": 3
+  },
+  "response": "One. Two. Three.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_sentences:b759f01a5abf9fcc",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "relation": "at least",
+   "num_sentences": 2
+  },
+  "response": "We met Dr. Smith today.",
+  "thinking": false,
+  "label": "fail",
+  "note": "abbreviation",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_sentences:001fc2e8f791b21d",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "relation": "at least",
+   "num_sentences": 3
+  },
+  "response": "Title\nOne idea. Two ideas.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-sentence-split",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-sentence-split": "fail"
+  }
+ },
+ {
+  "id": "length_constraints:number_words:62003fa3940b7b15",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "relation": "at least",
+   "num_words": 5
+  },
+  "response": "We walked to the old mill.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_words:6c879c0bb19fe63d",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "relation": "at least",
+   "num_words": 5
+  },
+  "response": "We walked home.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "length_constraints:number_words:aa1f2e0703ac4b9d",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "relation": "less than",
+   "num_words": 5
+  },
+  "response": "Don't stop, it's fine.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-word-units",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-word-units": "fail"
+  }
+ },
+ {
+  "id": "length_constraints:number_words:db2062dcfde7646f",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "relation": "at least",
+   "num_words": 3
+  },
+  "response": "Мы пошли домой сегодня.",
+  "thinking": false,
+  "label": "pass",
+  "note": "Cyrillic words",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "letters:letter_counting:b2ec37cb71a06951",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "relation": "at least",
+   "N": 3
+  },
+  "response": "Hello",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "letters:letter_counting:cf52183a9f2c6022",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "relation": "at least",
+   "N": 3
+  },
+  "response": "Hi",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "letters:letter_counting:0d53f50eb856680f",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "relation": "less than",
+   "N": 3
+  },
+  "response": "OK",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "letters:letter_counting:f09bc76f1fb3ab37",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "relation": "at least",
+   "N": 3
+  },
+  "response": "你好吗",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-letter-script",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": null,
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-letter-script": "fail"
+  }
+ },
+ {
+  "id": "letters:letter_counting2:9f1880c5cc611b0f",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "z",
+   "let_relation": "less than",
+   "let_frequency": 2
+  },
+  "response": "A lazy day.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "letters:letter_counting2:5682032910d0a684",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "z",
+   "let_relation": "less than",
+   "let_frequency": 2
+  },
+  "response": "Zebras graze.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "paragraphs:paragraphs:068fd910b44302fc",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First part.\n***\nSecond part.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "paragraphs:paragraphs:59dcdced66ca1074",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First part.\n***\nSecond part.\n***\nThird part.",
+  "thinking": false,
+  "label": "fail",
+  "note": "three paragraphs",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "paragraphs:paragraphs:288e98a39ebc48a0",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First part.\n\nSecond part.\n\nThird part.",
+  "thinking": false,
+  "label": "fail",
+  "note": "no divider",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "paragraphs:paragraphs2:9abbddf39a68370a",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First part.\n\nSecond part.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "paragraphs:paragraphs2:fd0ea3fd2d6c20a4",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First part.\n\nSecond part.\n\nThird part.",
+  "thinking": false,
+  "label": "fail",
+  "note": "three paragraphs",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "paragraphs:paragraphs2:a3964e3596f69bc9",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First part.\n\n\n\nSecond part.",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-paragraph-blank-lines",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-paragraph-blank-lines": "fail"
+  }
+ },
+ {
+  "id": "punctuation:no_comma:c4c80b4a3373058a",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": {},
+  "response": "No commas here.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:no_comma:736a546e807989d7",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": {},
+  "response": "Yes, there is one.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:no_comma:eefe0128d3485f9b",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": {},
+  "response": "你好，世界",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-comma-chars",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-comma-chars": "pass"
+  }
+ },
+ {
+  "id": "punctuation:punctuation_dot:f45c5ce9ead2726b",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": {},
+  "response": "No dots here",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:punctuation_dot:3a4902eb1f71d409",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": {},
+  "response": "One dot.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:punctuation_dot:6a7b5d52189201e4",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": {},
+  "response": "你好。",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-dot-chars",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-dot-chars": "pass"
+  }
+ },
+ {
+  "id": "punctuation:punctuation_exclamation:7300d7301933ab51",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": {},
+  "response": "Calm words here.",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:punctuation_exclamation:b6ed6cbcb1c545df",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": {},
+  "response": "Wow!",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:punctuation_exclamation:8ba2bf8fc12f1a9f",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": {},
+  "response": "好！",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-exclamation-chars",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-exclamation-chars": "pass"
+  }
+ },
+ {
+  "id": "startend:end_checker:870a48e7b37917b9",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "Here is the plan. Any other questions?",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "startend:end_checker:8fff2171edd0c3d5",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "Any other questions? Here is the plan.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "startend:end_checker:eb908698fc6e8540",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "Here is the plan. Many other questions?",
+  "thinking": false,
+  "label": "fail",
+  "note": "phrase inside a longer word",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "startend:end_checker:366f43fa12c12aef",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "Here is the plan. **Any other questions?**",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-end-markup",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-end-markup": "fail"
+  }
+ },
+ {
+  "id": "startend:end_checker:6f15875b197460e1",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "Here is the plan. any other questions?",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-end-case",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-end-case": "pass"
+  }
+ },
+ {
+  "id": "startend:end_checker:8ec86dee6851d3d6",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "\"Here is the plan. Any other questions?\"",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-end-markup: closing quote",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-end-markup": "fail"
+  }
+ },
+ {
+  "id": "startend:quotation:fd45207fd6414794",
+  "instruction_id": "startend:quotation",
+  "kwargs": {},
+  "response": "\"Hello there.\"",
+  "thinking": false,
+  "label": "pass",
+  "note": "control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "startend:quotation:0fa8879a03a7c45a",
+  "instruction_id": "startend:quotation",
+  "kwargs": {},
+  "response": "Hello there.",
+  "thinking": false,
+  "label": "fail",
+  "note": "control",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "fail",
+  "gate_check_unused": "fail",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "startend:quotation:9019c994e65a2647",
+  "instruction_id": "startend:quotation",
+  "kwargs": {},
+  "response": "“Hello there.”",
+  "thinking": false,
+  "label": "pass",
+  "note": "D-quote-chars",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {
+   "D-quote-chars": "fail"
+  }
+ },
+ {
+  "id": "startend:quotation:af34eb339161a7e4",
+  "instruction_id": "startend:quotation",
+  "kwargs": {},
+  "response": "'Hello there.'",
+  "thinking": false,
+  "label": "fail",
+  "note": "single quotation marks",
+  "skyrl": "fail",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_once:7e1a9c39ffc56908",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "river"
+  },
+  "response": "The user wants the word river once, so I will plan a short answer about a",
+  "thinking": true,
+  "label": "fail",
+  "note": "thinking: reasoning never closed",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:no_comma:239c1ec82005de07",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": {},
+  "response": "I should avoid commas in my answer and write short sentences",
+  "thinking": true,
+  "label": "fail",
+  "note": "thinking: reasoning never closed",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {}
+ },
+ {
+  "id": "keywords:word_once:cf83bc4b192ba5f1",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "river"
+  },
+  "response": "Plan the answer.\n</think>\n\nThe river flows.",
+  "thinking": true,
+  "label": "pass",
+  "note": "thinking: control",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "pass",
+  "replacement_alt": {}
+ },
+ {
+  "id": "punctuation:no_comma:5c3552516afd394f",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": {},
+  "response": "",
+  "thinking": false,
+  "label": "fail",
+  "note": "D-empty-response",
+  "skyrl": "pass",
+  "skyrl_error": null,
+  "gate": "pass",
+  "gate_check_unused": "pass",
+  "replacement": "fail",
+  "replacement_alt": {
+   "D-empty-response": "pass"
+  }
+ }
+]

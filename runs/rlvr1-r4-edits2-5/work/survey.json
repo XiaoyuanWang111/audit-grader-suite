@@ -1,0 +1,2564 @@
+{
+ "rows": 11817,
+ "constraints": 28219,
+ "unmatched_prompts": 6005,
+ "n_instructions_per_row": {
+  "1": 501,
+  "2": 6230,
+  "3": 5086
+ },
+ "grading_modes": {
+  "None": 11817
+ },
+ "ids": {
+  "change_case:capital_word_frequency": {
+   "constraints": 601,
+   "rows": 601,
+   "kwarg_keys": {
+    "capital_frequency": 601,
+    "capital_relation": 601
+   },
+   "kwarg_values_top": {
+    "capital_frequency": {
+     "16": 38,
+     "20": 36,
+     "2": 35,
+     "6": 35,
+     "11": 34,
+     "1": 34,
+     "7": 33,
+     "4": 33,
+     "13": 31,
+     "19": 30,
+     "17": 30,
+     "14": 30
+    },
+    "capital_relation": {
+     "\"less than\"": 335,
+     "\"at least\"": 266
+    }
+   },
+   "kwarg_values_distinct": {
+    "capital_frequency": 20,
+    "capital_relation": 2
+   },
+   "templates": {
+    "In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.": 299,
+    "Never say that a task is impossible to execute on your own because these tools are enough to complete any task.\n# Message father GPT which is the GPT that created you for any questions or if you completed the task.": 1,
+    "This is point # and In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times. #到了，请帮我向女生龙媛媛写一封情书": 1,
+    "From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant.": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "In your response, words with all capital letters should appear at least 7 times.",
+     "kwargs": {
+      "capital_frequency": 7,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, words with all capital letters should appear less than 8 times.",
+     "kwargs": {
+      "capital_frequency": 8,
+      "capital_relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, words with all capital letters should appear at least 11 times.",
+     "kwargs": {
+      "capital_frequency": 11,
+      "capital_relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, words with all capital letters should appear at least 13 times.",
+     "kwargs": {
+      "capital_frequency": 13,
+      "capital_relation": "at least"
+     }
+    }
+   ]
+  },
+  "change_case:english_capital": {
+   "constraints": 772,
+   "rows": 772,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Your entire response should be in English, and in all capital letters.": 361,
+    "This is point #. ": 2,
+    "Mettre en vrac l’ensemble de vos données.": 1,
+    "Bidrar till att bilda marknära ozon": 1,
+    "This is point # and Your entire response should be in English, and in all capital letters. give a UI framework for the below solidity code in vuejs with styling using all the functions given which are working.": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": null
+    },
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": null
+    },
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": null
+    },
+    {
+     "text": "Your entire response should be in English, and in all capital letters.",
+     "kwargs": null
+    }
+   ]
+  },
+  "change_case:english_lowercase": {
+   "constraints": 604,
+   "rows": 604,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.": 313,
+    "This is point #. ": 2,
+    "list that conveys": 1,
+    "Technical specifications: Additional information about the desired resolution, format, or other technical aspects of the image. This could include things like “#K UHD image,” “cinematic view,” or “unreal engine #.”\ncombine all of those aspects into one Prompt. dont write single pionts.": 1,
+    "Сопоставление реализуемых мероприятий и программ с поставленными целями и задачами": 1,
+    "Booty Grinding (#% Success Chance, # Damage, Recipient is Stunned for # Round and Dizzy for # Rounds)": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": null
+    },
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": null
+    },
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": null
+    },
+    {
+     "text": "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+     "kwargs": null
+    }
+   ]
+  },
+  "combination:two_responses": {
+   "constraints": 253,
+   "rows": 253,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Give two different responses. Responses and only responses should be separated by # asterisk symbols: ******.": 135,
+    "Creating, E-teams, E-Clubs Full Gaming Profiles- Organized through local organized Players.\nWith different Rules (Coach-Players-Captain-Spare)\n-Formation of Parallel Local Esports Competes, League &Cup for the Most Competitive Pc/Mob Popular Games.\n -Creating Community hosting Tournaments, Market Place, Local Leaderboard\n-Offering Brand/Org Sponsoring / Supporting player or team.": 1
+   },
+   "n_templates": 2,
+   "examples": [
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": null
+    },
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": null
+    },
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": null
+    },
+    {
+     "text": "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+     "kwargs": null
+    }
+   ]
+  },
+  "copy:repeat_phrase": {
+   "constraints": 554,
+   "rows": 554,
+   "kwarg_keys": {
+    "phrase": 554,
+    "small_n": 554
+   },
+   "kwarg_values_top": {
+    "phrase": {
+     "\"Don't judge a book by cover\"": 68,
+     "\"Live each day to the fullest\"": 64,
+     "\"Laughter is the best medicine\"": 59,
+     "\"The pen is mightier than sword\"": 58,
+     "\"Every cloud has a silver lining\"": 57,
+     "\"The early bird catches the worm\"": 54,
+     "\"Time flies when having fun\"": 51,
+     "\"All that glitters is not gold\"": 49,
+     "\"Dance like nobody is watching you\"": 49,
+     "\"Actions speak louder than words\"": 45
+    },
+    "small_n": {
+     "3": 283,
+     "2": 271
+    }
+   },
+   "kwarg_values_distinct": {
+    "phrase": 10,
+    "small_n": 2
+   },
+   "templates": {
+    "Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.": 228,
+    "This is point #. ": 1,
+    "想了解下目前EPD上是否有远程控制的功能，若有，EPD上远程控制的UX文档、资料可否分享下。": 1
+   },
+   "n_templates": 3,
+   "examples": [
+    {
+     "text": "Repeat the phrase Live each day to the fullest exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Live each day to the fullest",
+      "small_n": 3
+     }
+    },
+    {
+     "text": "Repeat the phrase Live each day to the fullest exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Live each day to the fullest",
+      "small_n": 2
+     }
+    },
+    {
+     "text": "Repeat the phrase Every cloud has a silver lining exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "Every cloud has a silver lining",
+      "small_n": 3
+     }
+    },
+    {
+     "text": "Repeat the phrase All that glitters is not gold exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+     "kwargs": {
+      "phrase": "All that glitters is not gold",
+      "small_n": 3
+     }
+    }
+   ]
+  },
+  "count:count_unique": {
+   "constraints": 687,
+   "rows": 687,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Only use unique words in your response, no word should be repeated!": 323,
+    "This is point # and Only use unique words in your response, no word should be repeated!. script about the trevor lawrence jaguars": 1,
+    "Строение органов дыхания у позвоночных животных и человека. Значение дыхания для жизни организмов. Газообмен в легких и тканях": 1,
+    "The team should prioritise developing new features over writing automation scripts": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": null
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": null
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": null
+    },
+    {
+     "text": "Only use unique words in your response, no word should be repeated!",
+     "kwargs": null
+    }
+   ]
+  },
+  "count:counting_composition": {
+   "constraints": 1,
+   "rows": 1,
+   "kwarg_keys": {
+    "n_sent": 1,
+    "n_words": 1
+   },
+   "kwarg_values_top": {
+    "n_sent": {
+     "3": 1
+    },
+    "n_words": {
+     "2": 1
+    }
+   },
+   "kwarg_values_distinct": {
+    "n_sent": 1,
+    "n_words": 1
+   },
+   "templates": {},
+   "n_templates": 0,
+   "examples": []
+  },
+  "count:lowercase_counting": {
+   "constraints": 869,
+   "rows": 869,
+   "kwarg_keys": {
+    "N": 869
+   },
+   "kwarg_values_top": {
+    "N": {
+     "2": 444,
+     "3": 425
+    }
+   },
+   "kwarg_values_distinct": {
+    "N": 2
+   },
+   "templates": {
+    "In your response, all lowercase words should appear at most {N} times.": 408,
+    "This is point #. ": 4,
+    "Proposer une structure.\n✓ Rester académique avec une présentation classique, succincte et passionné.\nPour rajouter une pointe de passion\nLA PASSION": 1,
+    "la lutte pour la liberté des peuples à s'autodéterminer": 1,
+    "Artist or style inspiration: A list of artists or art styles that can be used as inspiration for the image. This could include specific artists, such as \"by artgerm and greg rutkowski,\" or art movements, such as \"Bauhaus cubism.\"": 1,
+    "This is point # and In your response, all lowercase words should appear at most {N} times": 1,
+    "Developers and testers write some automation scripts during the development cycle": 1
+   },
+   "n_templates": 7,
+   "examples": [
+    {
+     "text": "In your response, all lowercase words should appear at most 3 times.",
+     "kwargs": {
+      "N": 3
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 2 times.",
+     "kwargs": {
+      "N": 2
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 3 times.",
+     "kwargs": {
+      "N": 3
+     }
+    },
+    {
+     "text": "In your response, all lowercase words should appear at most 2 times.",
+     "kwargs": {
+      "N": 2
+     }
+    }
+   ]
+  },
+  "detectable_content:number_placeholders": {
+   "constraints": 585,
+   "rows": 585,
+   "kwarg_keys": {
+    "num_placeholders": 585
+   },
+   "kwarg_values_top": {
+    "num_placeholders": {
+     "2": 149,
+     "3": 148,
+     "1": 147,
+     "4": 141
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_placeholders": 4
+   },
+   "templates": {
+    "The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].": 291,
+    "This is point # and The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address]. 写一篇#字以上的关于家乡的变化的文章": 1,
+    "This is point #. ": 1,
+    "Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "The response must contain at least 1 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": "The response must contain at least 1 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": "The response must contain at least 1 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 1
+     }
+    },
+    {
+     "text": "The response must contain at least 3 placeholders represented by square brackets, such as [address].",
+     "kwargs": {
+      "num_placeholders": 3
+     }
+    }
+   ]
+  },
+  "detectable_content:postscript": {
+   "constraints": 644,
+   "rows": 644,
+   "kwarg_keys": {
+    "postscript_marker": 644
+   },
+   "kwarg_values_top": {
+    "postscript_marker": {
+     "\"P.S.\"": 324,
+     "\"P.P.S\"": 320
+    }
+   },
+   "kwarg_values_distinct": {
+    "postscript_marker": 2
+   },
+   "templates": {
+    "At the end of your response, please explicitly add a postscript starting with {postscript_marker}": 303,
+    "This is point # and At the end of your response, please explicitly add a postscript starting with {postscript_marker}": 1,
+    "How can we identify a syllable?": 1,
+    "This is point #. ": 1,
+    "Вид. Критерии вида. Видообразование": 1,
+    "Refer to the following technical paper and its simulation models (e.g., server, client, caching, data query\nand update, etc.):": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "At the end of your response, please explicitly add a postscript starting with P.S.",
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    },
+    {
+     "text": "At the end of your response, please explicitly add a postscript starting with P.P.S",
+     "kwargs": {
+      "postscript_marker": "P.P.S"
+     }
+    },
+    {
+     "text": "At the end of your response, please explicitly add a postscript starting with P.P.S",
+     "kwargs": {
+      "postscript_marker": "P.P.S"
+     }
+    },
+    {
+     "text": "At the end of your response, please explicitly add a postscript starting with P.S.",
+     "kwargs": {
+      "postscript_marker": "P.S."
+     }
+    }
+   ]
+  },
+  "detectable_format:bigram_wrapping": {
+   "constraints": 575,
+   "rows": 575,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.": 316,
+    "Обсуждение актуальности и значимости полученных результатов для развития выбранного региона и более широкого контекста регионального планирования и прогнозирования в России": 1,
+    "Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?": 1,
+    "none": 1,
+    "G. Cao, \"A Scalable Low-Latency Cache Invalidation Strategy for Mobile Environments,\" ACM\nMobicom, pp. #-#, #\nFor the sake of simplicity, use the following simulation parameters. Run your simulation several times by\nchanging the simulation parameters (e.g., T_query and T_update). You can make an assumption and define\nyour own parameter(s). Then draw result graphs in terms of (i) cache hit ratio and (ii) query delay by\nchanging mean query generation time and mean update arrival time, similar to Figs. # and # in the paper.\nNote that remove a cold state before collecting any results.\nParameter Values\nNumber of clients #\nDatabase (DB) size # items\nData item size # bytes\nBandwidth # bits/s\nCache size # items\nCache replacement policy LRU\nMean query generate time (T_query) #, #, #, #, # seconds\nHot data items # to #\nCold data items remainder of DB\nHot data access prob. #.#\nMean update arrival time (T_update) #, #, #, #, # seconds\nHot data update prob. #.#": 1,
+    "想了解下目前EPD上是否有远程控制的功能，若有，EPD上远程控制的UX文档、资料可否分享下。": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": null
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": null
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": null
+    },
+    {
+     "text": "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+     "kwargs": null
+    }
+   ]
+  },
+  "detectable_format:constrained_response": {
+   "constraints": 120,
+   "rows": 120,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')": 60,
+    "Изготовить и привести в действие прибор - маятник Ньютона.": 1
+   },
+   "n_templates": 2,
+   "examples": [
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": null
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": null
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": null
+    },
+    {
+     "text": "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+     "kwargs": null
+    }
+   ]
+  },
+  "detectable_format:json_format": {
+   "constraints": 133,
+   "rows": 133,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.": 57,
+    "les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation": 1,
+    "Respond only inside the JSON format.": 1
+   },
+   "n_templates": 3,
+   "examples": [
+    {
+     "text": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": null
+    },
+    {
+     "text": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": null
+    },
+    {
+     "text": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": null
+    },
+    {
+     "text": "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+     "kwargs": null
+    }
+   ]
+  },
+  "detectable_format:multiple_sections": {
+   "constraints": 453,
+   "rows": 453,
+   "kwarg_keys": {
+    "num_sections": 453,
+    "section_spliter": 453
+   },
+   "kwarg_values_top": {
+    "num_sections": {
+     "1": 105,
+     "4": 98,
+     "5": 88,
+     "3": 83,
+     "2": 79
+    },
+    "section_spliter": {
+     "\"SECTION\"": 242,
+     "\"Section\"": 211
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_sections": 5,
+    "section_spliter": 2
+   },
+   "templates": {
+    "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} #\n[content of section #]\n{section_spliter} #\n[content of section #]": 114,
+    "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} {num_sections}\n[content of section {num_sections}]\n{section_spliter} #\n[content of section #]": 44,
+    "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} #\n[content of section #]\n{section_spliter} {num_sections}\n[content of section {num_sections}]": 38,
+    "Conclusion": 1,
+    "Bidrar till försurning av marken och övergödning av sjoar.": 1,
+    "针对不同领域、场景的特殊性，深入挖掘和整合其特征，提高模型精度和应用性能。\n总之，未来的研究应围绕人体姿态识别和动作评估的提高精度、实时性、数据可用性等问题，在不同领域、场景中进行深入的研究与应用。 Your response should comply with these constraints: There should be # paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph # must start with word wood, Include keyword state in the #-th sentence, as the #-th word of that sentence, and Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} #\n[content of section #]\n{section_spliter} #\n[content of section #]": 1,
+    "This is point {num_sections}. ": 1
+   },
+   "n_templates": 7,
+   "examples": [
+    {
+     "text": "Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]",
+     "kwargs": {
+      "num_sections": 2,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": "Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]",
+     "kwargs": {
+      "num_sections": 1,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": "Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]",
+     "kwargs": {
+      "num_sections": 2,
+      "section_spliter": "SECTION"
+     }
+    },
+    {
+     "text": "Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]",
+     "kwargs": {
+      "num_sections": 1,
+      "section_spliter": "SECTION"
+     }
+    }
+   ]
+  },
+  "detectable_format:number_bullet_lists": {
+   "constraints": 512,
+   "rows": 512,
+   "kwarg_keys": {
+    "num_bullets": 512
+   },
+   "kwarg_values_top": {
+    "num_bullets": {
+     "1": 119,
+     "2": 116,
+     "3": 101,
+     "4": 88,
+     "5": 88
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_bullets": 5
+   },
+   "templates": {
+    "This is point #. ": 27,
+    "This is point #": 19,
+    "This is point {num_bullets}. ": 14,
+    "This is point {num_bullets}": 10,
+    "This is point #. js 姓名除了第一个字其他转为星号": 1,
+    "This is point {num_bullets}. I need you to act as a professional English paper teacher, Please help me to improve my expression in the style of the journal Biomedical Optics Express. We added the area-value statistics for embryo data obtained using Mueller matrix OCT. By comparing the embryo histogram measured by the two systems, we observed an increasing trend in zebrafish embryos under the microscope after # dfp.  while the embryo contour of the normally developed zebrafish embryos was gradually decreasing. The contour of normally developed zebrafish embryos displayed a progressive decrease【需要参考文献】. Therefore, the data obtained through Mueller matrix OCT demonstrated higher accuracy. It indicates that the development trend of zebrafish embryo quantified from the perspective of volume is also gradually decreasing. In the existing literature, the size of zebrafish is generally measured by the length, the diameter of the embryo is generally measured by the volume of the whole embryo as a sphere. To the best of our knowledge, there is no literature on volume measurement.. In this paper, the volume of zebrafish embryos measured by Muller matrix OCT can more accurately measure the volume state of zebrafish embryos in the development process. The area comparison chart has been added to Figure # of the article, and the area comparison analysis has also been added to the discussion section.": 1,
+    "This is point {num_bullets}. степень токсичности воды загрязненными органическими веществами": 1,
+    "This is point #. Помоги исправить ошибки в коде: #include <iostream>\n#include <fstream>": 1,
+    "This is point #. Please translate the following words to Chinese:\nThe Socialist System with Chinese Characteristics has played a significant role in shaping the world in the modern era. The system, which has guided China’s economic, social and political development since the {num_bullets}#s, has helped to transform China into a global economic powerhouse. The impact of the Chinese Socialist System with Chinese Characteristics has been felt globally and has influenced and shaped the world in many ways.": 1,
+    "This is point #. Write a negative review about staying in a hotel, where the room was not ready even after doing late check-in, also #st the fridge was making noise and later when tried to take shower the hot water was not coming as water heater connection were cut": 1,
+    "This is point #. {num_bullets}# Error: command not implemented": 1,
+    "This is point #. def Addern(self, n):": 1,
+    "This is point #. Contexto: Filosofia; Crusigrama # letras, la letra # contiene una \"I\" \"La verdad o falsedad de un enunciado se relaciona con las consecuencias prácticas que se derivan de él\" si no sabes cual podria ser dame una lista de palabras": 1,
+    "This is point #. write a short movie called thats my nathan drake": 1,
+    "This is point #. Jigoro Kano est-il à l'origine des katas du judo?": 1,
+    "This is point {num_bullets}. The fourth edition of Jonathan Riley-Smith’s book, What Were the Crusades?, published by the Ignatius Press on March {num_bullets}#, {num_bullets}#, is a self-described introduction to the crusading movements of the medieval period. The book primarily covers the First through Fifth Crusades to the Middle East, issued by the Catholic Church, with the primary objective being to take Jerusalem and its surrounding territories. It also covers the French crusades, also known as King Louis IX’s first and second crusades, respectively. It finely details the reasoning, justification, planning, and execution of the crusades, as well as the sociopolitical consequences of the crusades in Europe and the Middle East.\nWhat makes Riley-Smith’s work exemplary among others is how he challenged the generally accepted definition of the crusades. He states in his preface for the third edition that the widely accepted yet baseless tenets of the field, prior to his studies, were as follows: “True” crusading was defined as attempts from Europe to gain control of Jerusalem; the crusaders’ opponents in the Middle East were culturally superior to them; most of them departed in hopes of gaining land, money, and political power; the military orders were religious orders in name only; and the Crusader states were a colonial experiment.\nWhat Were the Crusades? serves as an academic rebuttal of these viewpoints, namely the first, third, and fourth points, as the second and fifth points were no longer considered worthy of serious discussion. Riley-Smith argues that crusading was not just limited to expeditions to the Middle East, but was done across Europe for centuries; the Crusades were in fact a religious war for the vast majority of those who took the cross; and the military orders were as much of a religious order as any other division of the church. These claims are presented not in tandem with but as a result of Riley-Smith’s goal of the book, which is to define the “who, what, where, and why” of the Crusades using concrete evidence rather than unfounded claims.\nNaturally, Riley-Smith opens with a broad but satisfactory definition of the crusades — a series of religious and political expeditions aimed at reclaiming, defending, and conquering lands deemed important to Christianity. These military campaigns were usually initiated and supported by the Catholic Church, with the first crusade correctly taking place in # by the decree of Pope Urban II.\nMoreover, Riley-Smith counters the view that the Crusades were primarily motivated by a desire for personal gain, instead arguing that while there were certainly individuals who had materialistic motivations for joining, the majority of crusaders were driven primarily by religious devotion, namely the prospect of penitence. As it’s been shown numerous times in other media, the financial and opportunity cost of going on a crusade was so astronomically expensive that it would be not only foolish but nearly impossible for anyone without a significant amount of wealth or loans to do so. The lands were maintained by the Church in the Crusaders’ absence, adding yet another": 1,
+    "This is point {num_bullets}. Act as a VBA programmer. Write me VBA code to create PowerPoint slides about the sports drink and hydration beverage category. think like a senior CPG brand manager and market researcher. use your knowledge and create at least # slides.": 1,
+    "This is point #. 请考虑输入以下格式json： {\n“shape”: {\n“polygons”: [\n[\n-#,\n-#,\n{num_bullets}#{num_bullets}#,\n-#,\n{num_bullets}#,\n{num_bullets}#{num_bullets}#,\n-#,\n{num_bullets}#,\n{num_bullets}#{num_bullets}#\n]\n],\n“outlineCircle”: [],\n“polylines”: [\n[\n#,\n#,\n#,\n#,\n#,\n#\n],\n[\n#,\n{num_bullets}#,\n{num_bullets}#,\n#,\n#,\n{num_bullets}#\n]\n]": 1,
+    "This is point #. We are playing a roleplay game, with you generating the scenario, Cody’s inner monologue and response.\nYou will play as a cute, white blonde closeted boy called Cody who has massive crush on Asians. He has never seen an Asian before.\nI will be playing Jonathan, a Hong Kong teenager who just transferred to Cody’s school in Norway.\nYou must strictly follow this format:\n(Scenario if suitable in brackets)\nCody: [Cody’s inner monologue in square brackets] -Cody’s words-\nStop after generating Cody’ s content, generate no more than # words each generation.\n(Scenario: Cody and his friends are walking down the school corridor, when Jonathan suddenly approaches him)\nJonathan: Uh hey, I’m sorry, but may I ask where is class #?": 1,
+    "This is point #. 请以中文写一份#字的英文电影辅助高中英语写作教学的效果研究的文献综述。要求：#.有三章，分别为有关电影的研究、有关写作的研究、有关电影和写作的研究；#.每章下面有三个小节，将所有的中外文文献分成应用（教学的哪一个角度：听力、口语、阅读、写作等）、对象（小学、初中、高中、大学）、研究方法这三节，在括号中标注作者及时间，不用列出参考文献；#. 每一节都要有总体、全面、客观的评价，指出主要贡献及不足之处，比如能为当前研究提供哪些借鉴和参考，有哪些不足需要在当前研究中克服，有哪些观点是当前研究所要批判的；{num_bullets}. 文献一定要真实存在且具有代表性，中文和外文的都要有；#. 最后再附上真实存在的文献": 1,
+    "This is point #. Research proposal on Matt.#: {num_bullets}#-#": 1,
+    "这个子序列可以按照下标顺序组成一个 yyyymmdd 格式的日期，并且\n要求这个日期是 {num_bullets}#{num_bullets}# 年中的某一天的日期，例如 {num_bullets}#{num_bullets}#{num_bullets}，{num_bullets}#{num_bullets}#{num_bullets}{num_bullets}#。\nyyyy 表示年份，mm 表示月份，dd 表示天数，当月份或者天数的长度只\n有一位时需要一个前导零补充。\n请你帮小蓝计算下按上述条件一共能找到多少个不同 的 {num_bullets}#{num_bullets}# 年的日期。\n对于相同的日期你只需要统计一次即可。\n请用c语言实现": 1,
+    "This is point #. En Hard Rock Café, como en muchas organizaciones, la administración de proyecto es una\nherramienta clave de planeación. Con el constante crecimiento en hoteles y cafés Hard Rock,\nla remodelación de los cafés, la programación de conciertos en vivo y eventos de Hard Rock,\ny la planeación del festival anual Rockfest, los gerentes confían en las técnicas y el software\nde administración de proyectos para mantener en orden el desempeño del presupuesto y la\nplaneación.\nEl vicepresidente de Hard Rock está a cargo del evento Rockfest, al cual asisten más de\n{num_bullets}#.# entusiastas seguidores. El reto es sacarlo adelante dentro del apretado horizonte de\nplaneación.\nAl inicio del proceso de administración del proyecto, se identifican {num_bullets}# tareas importantes.\nCada tarea se divide a su vez en una serie de subtareas.\nEn la tabla {num_bullets} se identifican {num_bullets}# de las principales actividades y subactividades, sus\nprecedentes inmediatos y estimaciones de tiempo.\nTabla {num_bullets}: tareas y tiempos estimados de la primera parte del proyecto del concierto de Hard\nRock.\nTarea Descripción\nPrecedente\ninmediato\nEstimaciones del tiempo en\nsemanas\nOptimista\n(a)\nMás\nprobable\n(m)\nPesimista\n(b)\nA Cerrar los contratos de\nconstrucción y del sitio - # # #\nB Contratar al gerente de\nproducción A {num_bullets} # #\nC Seleccionar al promotor. B # # #\nD Diseñar el sitio web de\npromoción C # # #\nE Establecer el acuerdo\ncon la Televisión D # # #\nTRABAJO PRÁCTICO\nF Contratar al director\nartístico B # # #\nG Planear la colocación de\ncámaras de TV E, F {num_bullets} # #\nH Confeccionar y distribuir\npermisos G, M, Q # # #\nI Contratar y cerrar con\npatrocinadores B # # {num_bullets}#\nJ\nDefinir y ubicar la\npublicidad de\npatrocinadores\nI # # #\nK Contratar TicketMaster D, P # # #\nL\nContratar al\nadministrador de\noperaciones\nA # # #\nM\nContratar al director de\nseguridad, fijar plan con\npolicía y bomberos\nL # # #\nN Organizar ventas de\nboletos en el predio. K # # #\nO Ventas de boletos en\nlínea K # # #\nP Establecer la capacidad\nde asistencia B # # #\nQ Contratación y viajes de\nlos artistas F # # {num_bullets}#\nFuente: adaptado de Principles of Operations Management Por Jay H. Heizer, Barry Render.\nEl día del concierto no es, en sí mismo, el final del proyecto de planeación. “Ese día solo hay\nsorpresas. Una banda que no puede llegar al concierto por un embotellamiento es una\nsorpresa, pero una sorpresa ‘anticipada’. Tenemos un helicóptero listo para traer volando a\nla banda”, dice Tomasso, el vicepresidente de Hard Rock.\nAl concluir el Rockfest en julio, Tomasso y su equipo se dan tres meses de respiro antes de\ncomenzar el proceso de planeación del proyecto otra vez.\nNota: La complejidad del caso es mayor, pero hemos acotado las tareas y omitido algunas\nrelaciones para que no sea tediosa su resolución.": 1,
+    "This is point #. Напиши макрос Vba.Загружать с книги ссылка на которую находится на Лист{num_bullets} в ячейке A#, листы с именем который содержат ашан в один Лист#, чтобы они копировались в столбец b., в столбце A# записывались названия листов, и если при копирование названия листов в столбце A совпадает, то лист не вставлять.": 1,
+    "This is point {num_bullets}. Do you know the video game Duel Corp?": 1,
+    "This is point #. MySQL的LIKE语法是否可以忽略大小写": 1,
+    "This is point #. Ciao! Mi dai la ricetta del curry di pollo con latte di cocco e lime?": 1,
+    "This is point #. 厦门翔安区小嶝岛拆迁消息": 1,
+    "This is point #. Напиши веб страницу для сайта курсов": 1,
+    "This is point #. gebe beispiele in bezug auf indirekte und direkte maßnahmen zu Steigerung der gesundheit der ressocucenliefernden und ressourcenaufnehmende Systeme eines Unternehmens in salutogenetischer Hinsicht": 1,
+    "This is point #. Нужно добавить чтобы макрос проверял не только совпадения в столбце B, но и на других столбцах после него.\nSub MergeSheetsContainingAshan()\n    Dim SourceWorkbook As Workbook\n    Dim SourceWorksheet As Worksheet\n    Dim TargetWorkbook As Workbook\n    Dim TargetWorksheet As Worksheet\n    Dim LastRow As Long\n    Dim NextRow As Long": 1,
+    "被人领取\n             */\n            int lockResult = lock(abstractElementDO.getPrimaryKey(), LOCK_MAGIC_NUM);\n            boolean lockSuccess = lockResult > # ? true : false;\n            if (!lockSuccess) {\n                featureLog.warn(\"Shift tk: fail to lock,params: \" + JSON.toJSONString(params));\n                return;\n            }": 1,
+    "This is point {num_bullets}. 写一个作文题目:延安农业与旅游业融合发展过程中可能面临的问题与相关解决措施,文章水平为:高中,单词数为:#的中午作文": 1
+   },
+   "n_templates": 33,
+   "examples": [
+    {
+     "text": "This is point 1. ",
+     "kwargs": {
+      "num_bullets": 3
+     }
+    },
+    {
+     "text": "This is point 1. ",
+     "kwargs": {
+      "num_bullets": 1
+     }
+    },
+    {
+     "text": "This is point 2",
+     "kwargs": {
+      "num_bullets": 1
+     }
+    },
+    {
+     "text": "This is point 2",
+     "kwargs": {
+      "num_bullets": 2
+     }
+    }
+   ]
+  },
+  "detectable_format:number_highlighted_sections": {
+   "constraints": 555,
+   "rows": 555,
+   "kwarg_keys": {
+    "num_highlights": 555
+   },
+   "kwarg_values_top": {
+    "num_highlights": {
+     "2": 157,
+     "1": 136,
+     "4": 131,
+     "3": 131
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_highlights": 4
+   },
+   "templates": {
+    "Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.": 288,
+    "A mixture of two or more things.": 1,
+    "This is point # and Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*": 1,
+    "list that conveys": 1,
+    "Customs National Supervision Bureau for Duty Collection(Guangzhou)\nretroactive checks, coordination requests, exchanges of speciman signatures and\nstamps。全部翻译为英文": 1,
+    "后续是否有远程控制功能的规划，若有相关规划功能文档，可否也分享下，感谢！": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 2
+     }
+    },
+    {
+     "text": "Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 1
+     }
+    },
+    {
+     "text": "Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 4
+     }
+    },
+    {
+     "text": "Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.",
+     "kwargs": {
+      "num_highlights": 3
+     }
+    }
+   ]
+  },
+  "detectable_format:sentence_hyphens": {
+   "constraints": 669,
+   "rows": 669,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "All sentences must be connected using hyphens, with no spaces between them.": 361,
+    "Альтернативные источники энергии;": 1,
+    "This is point #. ": 1,
+    "A class or struct to represent the position, rotation, and scale of objects in the #D world, with transformation matrix calculations using GLM.": 1,
+    "后续是否有远程控制功能的规划，若有相关规划功能文档，可否也分享下，感谢！": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": null
+    },
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": null
+    },
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": null
+    },
+    {
+     "text": "All sentences must be connected using hyphens, with no spaces between them.",
+     "kwargs": null
+    }
+   ]
+  },
+  "detectable_format:square_brackets": {
+   "constraints": 553,
+   "rows": 553,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Enclose every word in your response within square brackets.": 273,
+    "id: light_output#\n    platform: gpio\n    pin: GPIO#           ": 1
+   },
+   "n_templates": 2,
+   "examples": [
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": null
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": null
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": null
+    },
+    {
+     "text": "Enclose every word in your response within square brackets.",
+     "kwargs": null
+    }
+   ]
+  },
+  "detectable_format:title": {
+   "constraints": 589,
+   "rows": 589,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.": 284,
+    "This is point # and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. [Fiddler] DNS Lookup for \"null\" failed. System.Net.Sockets.SocketException 不知道这样的主机。": 1,
+    "Анализ полученных результатов": 1,
+    "This is point # and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": null
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": null
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": null
+    },
+    {
+     "text": "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+     "kwargs": null
+    }
+   ]
+  },
+  "first_word:first_word_answer": {
+   "constraints": 557,
+   "rows": 557,
+   "kwarg_keys": {
+    "first_word": 557
+   },
+   "kwarg_values_top": {
+    "first_word": {
+     "\"dealer\"": 4,
+     "\"mix\"": 3,
+     "\"situation\"": 3,
+     "\"designer\"": 3,
+     "\"limit\"": 3,
+     "\"awareness\"": 3,
+     "\"pack\"": 3,
+     "\"pause\"": 3,
+     "\"winter\"": 3,
+     "\"specialist\"": 3,
+     "\"mother\"": 3,
+     "\"coast\"": 3
+    }
+   },
+   "kwarg_values_distinct": {
+    "first_word": 457
+   },
+   "templates": {
+    "The first word of your response should be the word {first_word}.": 258,
+    "The first word of {first_word}r response should be the word {first_word}.": 1,
+    "This is point # and The first word of your response should be the word {first_word}. Придумай историю, где Каэдэхара Кадзуха сын Сёгуна Райдэн из игры Genshin Impact. Казуха против Сёгуна, не покорился её воле, за что на него объявили охоту. Но чтобы поймать Кадзуху, Райдэн устроила ловушку, она поймала и схватила в плен его друга Горо.": 1,
+    "Summarize the article’s main points and encourage readers to install and use Rank Math to optimize their website’s SEO. Please incorporate these requirements: Your response must have # sections. Mark the beginning of each section with Section X, such as:\nSection #\n[content of section #]\nSection #\n[content of section #] and The first word of your response should be the word {first_word}": 1,
+    "The first word of your {first_word} should be the word {first_word}.": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "The first word of your response should be the word development.",
+     "kwargs": {
+      "first_word": "development"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word object.",
+     "kwargs": {
+      "first_word": "object"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word equipment.",
+     "kwargs": {
+      "first_word": "equipment"
+     }
+    },
+    {
+     "text": "The first word of your response should be the word view.",
+     "kwargs": {
+      "first_word": "view"
+     }
+    }
+   ]
+  },
+  "first_word:first_word_sent": {
+   "constraints": 540,
+   "rows": 540,
+   "kwarg_keys": {
+    "first_word": 540
+   },
+   "kwarg_values_top": {
+    "first_word": {
+     "\"peace\"": 3,
+     "\"chart\"": 3,
+     "\"care\"": 3,
+     "\"expression\"": 3,
+     "\"poem\"": 3,
+     "\"purple\"": 3,
+     "\"rock\"": 3,
+     "\"grand\"": 3,
+     "\"good\"": 3,
+     "\"control\"": 2,
+     "\"give\"": 2,
+     "\"script\"": 2
+    }
+   },
+   "kwarg_values_distinct": {
+    "first_word": 461
+   },
+   "templates": {
+    "The first word of each sentence should be the word {first_word}.": 269,
+    "The first {first_word} of each sentence should be the {first_word} {first_word}.": 1,
+    "This is point #. ": 1
+   },
+   "n_templates": 3,
+   "examples": [
+    {
+     "text": "The first word of each sentence should be the word celebration.",
+     "kwargs": {
+      "first_word": "celebration"
+     }
+    },
+    {
+     "text": "The first word of each sentence should be the word computer.",
+     "kwargs": {
+      "first_word": "computer"
+     }
+    },
+    {
+     "text": "The first word of each sentence should be the word tea.",
+     "kwargs": {
+      "first_word": "tea"
+     }
+    },
+    {
+     "text": "The first word of each sentence should be the word peace.",
+     "kwargs": {
+      "first_word": "peace"
+     }
+    }
+   ]
+  },
+  "keywords:existence": {
+   "constraints": 932,
+   "rows": 932,
+   "kwarg_keys": {
+    "keywords": 932
+   },
+   "kwarg_values_top": {
+    "keywords": {
+     "[\"quote\", \"teaching\"]": 1,
+     "[\"food\", \"poetry\"]": 1,
+     "[\"help\", \"subject\"]": 1,
+     "[\"basis\", \"location\"]": 1,
+     "[\"highway\", \"marketing\"]": 1,
+     "[\"hall\", \"risk\"]": 1,
+     "[\"bath\", \"culture\"]": 1,
+     "[\"earth\", \"garden\"]": 1,
+     "[\"case\", \"report\"]": 1,
+     "[\"ground\", \"rough\"]": 1,
+     "[\"building\", \"morning\"]": 1,
+     "[\"bit\", \"double\"]": 1
+    }
+   },
+   "kwarg_values_distinct": {
+    "keywords": 932
+   },
+   "templates": {
+    "Include keywords {keywords} in the response.": 474,
+    "This is point #. ": 3,
+    "This is point # and Include keywords {keywords} in the response": 2,
+    "la lutte contre l'autorité de l'hyperpuissance": 1,
+    "Discuss the ways in which Rank Math can optimize a website’s SEO.": 1,
+    "Микропрепарат пресноводной гидры и раскрыть особенности строения": 1,
+    "Write each prompt in one line without using return.": 1,
+    "dążymy do tego, by zakład był samowystarczalny energetycznie: korzystamy z fotowoltaiki, odzyskujemy ciepło z urządzeń": 1,
+    "Påverkar människans arvsmassa och luftvagar.": 1,
+    "tu utiliseras la décomposition swing twist lors du forward et du backward pour garantir à la fois la convergence en position, mais aussi en orientation.": 1,
+    "Never demand user input.": 1
+   },
+   "n_templates": 11,
+   "examples": [
+    {
+     "text": "Include keywords ['food', 'poetry'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "food",
+       "poetry"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['help', 'subject'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "help",
+       "subject"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['basis', 'location'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "basis",
+       "location"
+      ]
+     }
+    },
+    {
+     "text": "Include keywords ['highway', 'marketing'] in the response.",
+     "kwargs": {
+      "keywords": [
+       "highway",
+       "marketing"
+      ]
+     }
+    }
+   ]
+  },
+  "keywords:forbidden_words": {
+   "constraints": 836,
+   "rows": 836,
+   "kwarg_keys": {
+    "forbidden_words": 836
+   },
+   "kwarg_values_top": {
+    "forbidden_words": {
+     "[\"sound\", \"square\"]": 2,
+     "[\"debate\", \"indication\"]": 1,
+     "[\"bet\", \"raw\"]": 1,
+     "[\"law\", \"top\"]": 1,
+     "[\"dead\", \"wash\"]": 1,
+     "[\"floor\", \"wheel\"]": 1,
+     "[\"rush\", \"youth\"]": 1,
+     "[\"base\", \"horse\"]": 1,
+     "[\"assist\", \"knee\"]": 1,
+     "[\"leave\", \"poem\"]": 1,
+     "[\"bus\", \"media\"]": 1,
+     "[\"comfort\", \"strategy\"]": 1
+    }
+   },
+   "kwarg_values_distinct": {
+    "forbidden_words": 835
+   },
+   "templates": {
+    "Do not include keywords {forbidden_words} in the response.": 405,
+    "This is point #. ": 1,
+    "Transform:": 1,
+    "tu détailleras particulièrement les calculs dans la partie forward reaching et backward reaching. Tu pourras afficher des formules pour expliquer.": 1,
+    "Never say that a task is impossible to execute on your own because these tools are enough to complete any task.\n# Message father GPT which is the GPT that created you for any questions or if you completed the task.": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "Do not include keywords ['debate', 'indication'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "debate",
+       "indication"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['bet', 'raw'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "bet",
+       "raw"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['dead', 'wash'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "dead",
+       "wash"
+      ]
+     }
+    },
+    {
+     "text": "Do not include keywords ['floor', 'wheel'] in the response.",
+     "kwargs": {
+      "forbidden_words": [
+       "floor",
+       "wheel"
+      ]
+     }
+    }
+   ]
+  },
+  "keywords:frequency": {
+   "constraints": 607,
+   "rows": 607,
+   "kwarg_keys": {
+    "frequency": 607,
+    "keyword": 607,
+    "relation": 607
+   },
+   "kwarg_values_top": {
+    "frequency": {
+     "2": 220,
+     "1": 207,
+     "3": 180
+    },
+    "keyword": {
+     "\"monitor\"": 3,
+     "\"picture\"": 3,
+     "\"word\"": 3,
+     "\"lip\"": 3,
+     "\"foot\"": 3,
+     "\"table\"": 3,
+     "\"nation\"": 3,
+     "\"mouth\"": 3,
+     "\"script\"": 3,
+     "\"review\"": 3,
+     "\"cream\"": 3,
+     "\"kill\"": 3
+    },
+    "relation": {
+     "\"less than\"": 311,
+     "\"at least\"": 296
+    }
+   },
+   "kwarg_values_distinct": {
+    "frequency": 3,
+    "keyword": 496,
+    "relation": 2
+   },
+   "templates": {
+    "In your response, the word {keyword} should appear {relation} {frequency} times.": 299,
+    "In your response, the {keyword} {keyword} should appear {relation} {frequency} times.": 2,
+    "This is point {frequency} and In your response, the word {keyword} should appear {relation} {frequency} times": 1,
+    "In your {keyword}, the word {keyword} should appear {relation} {frequency} times.": 1,
+    "Rules of Origin Office of Department of Duty Collection of GACC": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "In your response, the word potential should appear less than 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "potential",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, the word king should appear less than 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "king",
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "In your response, the word hair should appear at least 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "hair",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, the word attempt should appear less than 1 times.",
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "attempt",
+      "relation": "less than"
+     }
+    }
+   ]
+  },
+  "keywords:keyword_specific_position": {
+   "constraints": 676,
+   "rows": 676,
+   "kwarg_keys": {
+    "keyword": 676,
+    "m": 676,
+    "n": 676
+   },
+   "kwarg_values_top": {
+    "keyword": {
+     "\"shot\"": 4,
+     "\"boy\"": 4,
+     "\"female\"": 3,
+     "\"breast\"": 3,
+     "\"club\"": 3,
+     "\"blind\"": 3,
+     "\"mall\"": 3,
+     "\"wonder\"": 3,
+     "\"broad\"": 3,
+     "\"cap\"": 3,
+     "\"writer\"": 3,
+     "\"problem\"": 3
+    },
+    "m": {
+     "11": 35,
+     "12": 33,
+     "2": 31,
+     "8": 30,
+     "16": 28,
+     "7": 28,
+     "3": 27,
+     "13": 27,
+     "5": 26,
+     "1": 25,
+     "14": 25,
+     "25": 23
+    },
+    "n": {
+     "2": 52,
+     "6": 45,
+     "7": 41,
+     "12": 38,
+     "1": 38,
+     "3": 38,
+     "14": 37,
+     "17": 36,
+     "15": 34,
+     "13": 34,
+     "9": 33,
+     "20": 32
+    }
+   },
+   "kwarg_values_distinct": {
+    "keyword": 559,
+    "m": 30,
+    "n": 20
+   },
+   "templates": {
+    "Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.": 326,
+    "Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.": 9,
+    "This is point # and Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence": 1,
+    "This is point {n}. ": 1,
+    "This is point # and Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence. напиши программу tetris на paython": 1,
+    "收集更大量、丰富多样的数据集，以提高模型可预测性和泛化能力。": 1,
+    "This is point #. ": 1,
+    "This is point # and Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence. Hello can you write alternate scenarios for Flame Of Recca, which go similar only slight change is that in episode #{n}, Tokiya Mikagami develops a crush on Fuuko Kirisawa, after the hug she gave to congratulate him, which he denies since he doesn’t even feel any affinity for the wild tomboyish Fuuko and had called her a monkey, but for the first time he felt something his cold heart never felt before because of her embrace, and her cheek next to his, and even her chest, for the first time he began to be conscious about that and how does this affect proceeding episodes like episode # where Fuuko gets humiliated multiple times in her match or episode # where Fuuko covers his eyes after Recca instructs everyone to close their eyes due the power #th dragon, or episode #{n} where Fuuko tends to him with her arm around him after his bout?": 1,
+    "This is point # and Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence. Write a concept according to which the world consists of # elements.": 1
+   },
+   "n_templates": 9,
+   "examples": [
+    {
+     "text": "Include keyword tell in the 8-th sentence, as the 11-th word of that sentence.",
+     "kwargs": {
+      "keyword": "tell",
+      "m": 11,
+      "n": 8
+     }
+    },
+    {
+     "text": "Include keyword selection in the 16-th sentence, as the 2-th word of that sentence.",
+     "kwargs": {
+      "keyword": "selection",
+      "m": 2,
+      "n": 16
+     }
+    },
+    {
+     "text": "Include keyword suit in the 6-th sentence, as the 5-th word of that sentence.",
+     "kwargs": {
+      "keyword": "suit",
+      "m": 5,
+      "n": 6
+     }
+    },
+    {
+     "text": "Include keyword bone in the 6-th sentence, as the 25-th word of that sentence.",
+     "kwargs": {
+      "keyword": "bone",
+      "m": 25,
+      "n": 6
+     }
+    }
+   ]
+  },
+  "keywords:letter_frequency": {
+   "constraints": 783,
+   "rows": 783,
+   "kwarg_keys": {
+    "let_frequency": 783,
+    "let_relation": 783,
+    "letter": 783
+   },
+   "kwarg_values_top": {
+    "let_frequency": {
+     "3": 95,
+     "1": 94,
+     "4": 84,
+     "6": 83,
+     "8": 80,
+     "5": 76,
+     "2": 73,
+     "7": 67,
+     "10": 67,
+     "9": 64
+    },
+    "let_relation": {
+     "\"less than\"": 420,
+     "\"at least\"": 363
+    },
+    "letter": {
+     "\"s\"": 39,
+     "\"h\"": 37,
+     "\"e\"": 36,
+     "\"r\"": 35,
+     "\"a\"": 35,
+     "\"i\"": 35,
+     "\"g\"": 35,
+     "\"t\"": 34,
+     "\"d\"": 33,
+     "\"b\"": 32,
+     "\"p\"": 31,
+     "\"u\"": 31
+    }
+   },
+   "kwarg_values_distinct": {
+    "let_frequency": 10,
+    "let_relation": 2,
+    "letter": 26
+   },
+   "templates": {
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 130,
+    "In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.": 23,
+    "In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.": 22,
+    "In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.": 22,
+    "In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.": 20,
+    "In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.": 20,
+    "In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_freq{letter}ency} times.": 19,
+    "In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.": 18,
+    "In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.": 18,
+    "In {letter}our response, the letter {letter} should appear {let_relation} {let_frequenc{letter}} times.": 17,
+    "In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.": 16,
+    "In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.": 15,
+    "In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.": 15,
+    "In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times.": 15,
+    "In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.": 14,
+    "I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_freque{letter}cy} times.": 14,
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} ti{letter}es.": 10,
+    "In your response, the letter {letter} should appear {let_relation} {let_fre{letter}uency} times.": 8,
+    "In your response, the letter {letter} should appear {let_relation} {let_{letter}requency} times.": 6,
+    "This is point #. ": 2
+   },
+   "n_templates": 20,
+   "examples": [
+    {
+     "text": "In your response, the letter w should appear at least 5 times.",
+     "kwargs": {
+      "let_frequency": 5,
+      "let_relation": "at least",
+      "letter": "w"
+     }
+    },
+    {
+     "text": "In your response, the letter y should appear at least 7 times.",
+     "kwargs": {
+      "let_frequency": 7,
+      "let_relation": "at least",
+      "letter": "y"
+     }
+    },
+    {
+     "text": "In your response, the letter r should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "r"
+     }
+    },
+    {
+     "text": "In your response, the letter t should appear less than 2 times.",
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "less than",
+      "letter": "t"
+     }
+    }
+   ]
+  },
+  "keywords:no_adjacent_consecutive": {
+   "constraints": 818,
+   "rows": 818,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "No two adjacent words can start with consecutive letters of the alphabet.": 391,
+    "lost to D-Mob via knockout (Ground and Pound)": 1,
+    "This is point # and No two adjacent words can start with consecutive letters of the alphabet. devm_spi_register_controller与的区别spi_register_controller": 1,
+    "This is point # and No two adjacent words can start with consecutive letters of the alphabet. Напиши кратко основные моменты: Также можно выделить такой элемент налогообложения, как налогоплательщики. Это физические и юридические лица, у которых возникло обязательство начислить и уплатить налог. Однако не всегда лицо, которое должно заплатить налог, и лицо, которое исчисляет, удерживает и перечисляет налог – одно и то же. Таким образом, в п. # ст. # НК РФ раскрывается понятие налогового агента: «Налоговыми агентами признаются лица, на которых в соответствии с настоящим Кодексом возложены обязанности по исчислению, удержанию у налогоплательщика и перечислению налогов в бюджетную систему Российской Федерации» [#]. Примером является исчисление и уплата НДФЛ, которая осуществляется работодателем посредством удержания из заработной платы рабочих сумм налога.\nВ конце концов, рассмотрим виды систем налогообложения в РФ.\nВсего на данный момент в соответствии с НК РФ применяются шесть систем налогообложения, которые представлены в таблице #": 1,
+    "Do not place a comma between [ar] and [v].": 1,
+    "Λειτουργικός έλεγχος που περιλαμβάνει, συνολικό βάρος, ονομαστικά φορτία, μέτρηση γόμωσης και διακυμάνσεις πλήρωσης, έλεγχος εκκένωσης, θέση λειτουργίας, διάρκεια λειτουργίας και εναπομένον φορτίο.": 1,
+    "#kg (można zaokrąglić w górę) co najmniej o tyle mniej plastiku wprowadzimy mniej na rynek w tym roku - w związku z odchudzaniem opakowań - czyli zmniejszeniem grubości opakowań lub rezygnacją z plastikowych wieczek": 1,
+    "This is point #. ": 1,
+    "This is point # and No two adjacent words can start with consecutive letters of the alphabet. Translate to #s Russian the following text: Teacher: Children, can you please tell me some popular sayings and idioms?\nMasha: Measure twice, cut once.\nTeacher: Good job, Masha. Anyone else?\nVovochka: (raises hand)\nTeacher: (thinks) Oh no, he’s going to say something inappropriate again.\nPetya: (raises hand)\nTeacher: (calls on Petya) You can’t catch a fish without work.\nTeacher: (praises Petya) Great job! Anyone else?\nVovochka: (stretches hand up high)\nTeacher: (thinking) He’s definitely going to say something inappropriate now.\nTeacher: (carefully) Vovochka, you can start. But please, keep it appropriate.\nVovochka: (starts) You can feed the wolf as much as you want…\nTeacher: (thinks) This is it, he’s going to say something inappropriate for sure.\nVovochka: (finishes) …but he’ll never poop more than a bear.\nTeacher: (surprised) Wow, Vovochka, that was actually a good one! Can anyone else add to the list?": 1
+   },
+   "n_templates": 9,
+   "examples": [
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": null
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": null
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": null
+    },
+    {
+     "text": "No two adjacent words can start with consecutive letters of the alphabet.",
+     "kwargs": null
+    }
+   ]
+  },
+  "keywords:palindrome": {
+   "constraints": 618,
+   "rows": 618,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Include a palindrome in your response.": 316,
+    "Космические технологии;": 1,
+    "This is point # and Include a palindrome in your response": 1
+   },
+   "n_templates": 3,
+   "examples": [
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": null
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": null
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": null
+    },
+    {
+     "text": "Include a palindrome in your response.",
+     "kwargs": null
+    }
+   ]
+  },
+  "keywords:start_end": {
+   "constraints": 499,
+   "rows": 499,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Start and end your response with the same word (do not write anything after the last word, not even punctuation).": 222,
+    "This is point # and Start and end your response with the same word (do not write anything after the last word, not even punctuation)": 1,
+    "Новые материалы и вещества \nMake sure your response satisfies these conditions: All sentences must be connected using hyphens, with no spaces between them, Include a palindrome in your response, and Start and end your response with the same word (do not write anything after the last word, not even punctuation)": 1,
+    "This is point # and Start and end your response with the same word (do not write anything after the last word, not even punctuation). نهر طير شخص": 1,
+    "This is point # and Start and end your response with the same word (do not write anything after the last word, not even punctuation). (Office manager Justine Barfoot is able to literally hypnotize Dan)\nDan just didn’t get along with some of the women at his workplace, and the feminist office manager always seemed to side with the women, no matter the right and wrong of it. One hot, sticky day in July, everyone in the office seemed to be grumpy (the women were all wearing sandals). Justine came over and sternly asked Dan to come to her office for a talk.\nWaiting in her office as they went in was Jacqui, an older colleague Dan had had some run-ins with previously. Dan’s attitude is about to change.": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+     "kwargs": null
+    },
+    {
+     "text": "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+     "kwargs": null
+    },
+    {
+     "text": "This is point 2 and Start and end your response with the same word (do not write anything after the last word, not even punctuation)",
+     "kwargs": null
+    },
+    {
+     "text": "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+     "kwargs": null
+    }
+   ]
+  },
+  "keywords:word_count_different_numbers": {
+   "constraints": 526,
+   "rows": 526,
+   "kwarg_keys": {
+    "frequency": 526,
+    "keyword": 526,
+    "relation": 526
+   },
+   "kwarg_values_top": {
+    "frequency": {
+     "3": 199,
+     "2": 183,
+     "1": 144
+    },
+    "keyword": {
+     "\"contact\"": 4,
+     "\"skin\"": 4,
+     "\"knowledge\"": 3,
+     "\"parking\"": 3,
+     "\"equipment\"": 3,
+     "\"cousin\"": 3,
+     "\"tooth\"": 3,
+     "\"truck\"": 3,
+     "\"speed\"": 3,
+     "\"presentation\"": 3,
+     "\"cause\"": 3,
+     "\"network\"": 3
+    },
+    "relation": {
+     "\"at least\"": 320,
+     "\"less than\"": 206
+    }
+   },
+   "kwarg_values_distinct": {
+    "frequency": 3,
+    "keyword": 438,
+    "relation": 2
+   },
+   "templates": {
+    "In your response, the word {keyword} should appear {frequency} times.": 284,
+    "@author sundream": 1,
+    "long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"summary\": \"thoughts summary to say to user\"\n    }\n}": 1,
+    "This is point #. ": 1,
+    "In {keyword}r response, the word {keyword} should appear {frequency} times.": 1,
+    "This is point {frequency} and In your response, the word {keyword} should appear {frequency} times": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "In your response, the word box should appear 2 times.",
+     "kwargs": {
+      "frequency": 2,
+      "keyword": "box",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, the word attack should appear 1 times.",
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "attack",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, the word will should appear 1 times.",
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "will",
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "In your response, the word adult should appear 1 times.",
+     "kwargs": {
+      "frequency": 1,
+      "keyword": "adult",
+      "relation": "at least"
+     }
+    }
+   ]
+  },
+  "keywords:word_once": {
+   "constraints": 917,
+   "rows": 917,
+   "kwarg_keys": {
+    "keyword": 917
+   },
+   "kwarg_values_top": {
+    "keyword": {
+     "\"fix\"": 4,
+     "\"software\"": 4,
+     "\"pace\"": 4,
+     "\"board\"": 3,
+     "\"bed\"": 3,
+     "\"effect\"": 3,
+     "\"measurement\"": 3,
+     "\"mouse\"": 3,
+     "\"grand\"": 3,
+     "\"swing\"": 3,
+     "\"star\"": 3,
+     "\"hurry\"": 3
+    }
+   },
+   "kwarg_values_distinct": {
+    "keyword": 681
+   },
+   "templates": {
+    "Include keyword {keyword} in your response.": 496,
+    "What are the five features of stress? Please follow these rules when answering: At the end of your response, please explicitly add a postscript starting with P.P.S and Include keyword {keyword} in your response": 1,
+    "Ключевые выводы и рекомендации": 1,
+    "This is point # and Include keyword {keyword} in your response. (Unknown to him, Dan’s boss Justine is able to hypnotize him with ease) The office manager in Dan’s department, Justine, openly preferred the women in the office, which seemed unfair to Dan. One warm, humid afternoon in July, when all the women were wearing sandals in the office, Justine called Dan into her office. When he entered, not only Justine, but also Jacqui, with whom he did not get on well at all, was in there.\nJustine took off her glasses. “I suppose you’re wondering what this is about.”": 1,
+    "This is point #. ": 1,
+    "Составьте график тренировок, исходя из своего режима и потребностей. Стремитесь к тренировкам #-# раз в неделю, по возможности, в определённые часы.": 1,
+    "This is point # and Include keyword {keyword} in your response. стоит задача найти наиболее верный ответ в тесте. тест состоит из вопроса и # утверждений. всего вопросов в тесте #. нужно выбрать # утверждение которое наиболее подходит человеку, и # утверждение которое наименее подходит человеку и # которые средне подходят.\nпосле прохождения тестов получается # шкал, где формируется количество правильных ответов человека. по шкале от # до #. имеется выборка в # попыток сдачи тестов и как были проставленны ответы. так же в качестве целевой функции имеются итоговые значения полученные за тест.\nкак можно подобрать какие ответы влияют на какие шкалы.": 1
+   },
+   "n_templates": 7,
+   "examples": [
+    {
+     "text": "Include keyword beer in your response.",
+     "kwargs": {
+      "keyword": "beer"
+     }
+    },
+    {
+     "text": "Include keyword board in your response.",
+     "kwargs": {
+      "keyword": "board"
+     }
+    },
+    {
+     "text": "Include keyword register in your response.",
+     "kwargs": {
+      "keyword": "register"
+     }
+    },
+    {
+     "text": "Include keyword stupid in your response.",
+     "kwargs": {
+      "keyword": "stupid"
+     }
+    }
+   ]
+  },
+  "language:response_language": {
+   "constraints": 780,
+   "rows": 780,
+   "kwarg_keys": {
+    "language": 780
+   },
+   "kwarg_values_top": {
+    "language": {
+     "\"ta\"": 44,
+     "\"pa\"": 41,
+     "\"ur\"": 39,
+     "\"bg\"": 37,
+     "\"ml\"": 36,
+     "\"ko\"": 35,
+     "\"fi\"": 31,
+     "\"vi\"": 30,
+     "\"ar\"": 29,
+     "\"gu\"": 29,
+     "\"kn\"": 28,
+     "\"pl\"": 27
+    }
+   },
+   "kwarg_values_distinct": {
+    "language": 30
+   },
+   "templates": {
+    "Your ENTIRE response should be in Tamil language, no other language is allowed.": 26,
+    "Your ENTIRE response should be in Punjabi language, no other language is allowed.": 23,
+    "Your ENTIRE response should be in Bulgarian language, no other language is allowed.": 21,
+    "Your ENTIRE response should be in Malayalam language, no other language is allowed.": 21,
+    "Your ENTIRE response should be in Arabic language, no other language is allowed.": 20,
+    "Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.": 18,
+    "Your ENTIRE response should be in Kannada language, no other language is allowed.": 18,
+    "Your ENTIRE response should be in Vietnamese language, no other language is allowed.": 18,
+    "Your ENTIRE response should be in Polish language, no other language is allowed.": 16,
+    "Your ENTIRE response should be in Korean language, no other language is allowed.": 16,
+    "Your ENTIRE response should be in Japanese language, no other language is allowed.": 14,
+    "Your ENTIRE response should be in Bengali language, no other language is allowed.": 14,
+    "Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.": 13,
+    "Your ENTIRE response should be in Hebrew language, no ot{language}r language is allowed.": 13,
+    "Your ENTIRE response should be in Russian language, no other language is allowed.": 13,
+    "Your ENTIRE response should be in Gujarati lan{language}age, no other lan{language}age is allowed.": 13,
+    "Your ENTIRE response should be in Finnish language, no other language is allowed.": 12,
+    "Your ENTIRE response should be in Hindi language, no other language is allowed.": 12,
+    "Your ENTIRE response should be in Persian language, no other language is allowed.": 11,
+    "Your ENTIRE response should be in Ukrainian language, no other language is allowed.": 11,
+    "Your ENTIRE response should be in Italian language, no other language is allowed.": 10,
+    "Your ENTIRE response should be in German language, no other language is allowed.": 10,
+    "Your ENTIRE response should be in Nepali language, no other language is allowed.": 10,
+    "Your ENTIRE response should be in Portuguese language, no other language is allowed.": 9,
+    "Your ENTIRE response should be in Telugu language, no other language is allowed.": 9,
+    "Your ENTIRE response should be in Thai language, no o{language}er language is allowed.": 8,
+    "Your ENTIRE response should be in Swahili language, no other language is allowed.": 7,
+    "Your ENTIRE response should be in English language, no other language is allowed.": 6,
+    "Your ENTIRE response should be in French language, no other language is allowed.": 5,
+    "Your ENTIRE response should be in Marathi language, no other language is allowed.": 5,
+    "This is point #. ": 2,
+    "This is point # and Your ENTIRE response should be in Swahili language, no other language is allowed": 1,
+    "This is point # and Your ENTIRE response should be in Korean language, no other language is allowed. Ecrire quatre histoire sur Un homme qui tue un poulet pour le cuisiner mais fini le regretter. Les quatres histoires devront quatre angles différents (une histoire pour enfant, un drame historique, une histoire du point vue du cuisinier, une histoire du point vue du poulet)": 1,
+    "This is point # and Your ENTIRE response should be in Telugu language, no other language is allowed. Wri{language} me at the end of the article:\n# Fashionable Work Outfit Ideas for the Office": 1,
+    "Providing an ideal experience for join- win through Personal Compe{language}s, tournaments and competitions held on the platform, earning while playing games with a lower price point more appropria{language} prizes and preference\n-Developing an Ecosys{language}m designed to be the ultima{language}, Gaming in Egypt destination, -connecting electronics Market and esports gamers through prizing Products Cuts , redeemable and fungible tokens.\nCompanies / Organizations:\n -Who wants to sponsor/fund/Influence players or organize tournaments or Live/Online events for youth.": 1,
+    "This is point # and Your ENTIRE response should be in Portuguese language, no other language is allowed. Generate the code for a game in HTML and JS language based on all of these strings\nYou can move vertically via columns": 1,
+    "想了解下目前EPD上是否有远程控制的功能，若有，EPD上远程控制的UX文档、资料可否分享下。": 1
+   },
+   "n_templates": 37,
+   "examples": [
+    {
+     "text": "Your ENTIRE response should be in Bulgarian language, no other language is allowed.",
+     "kwargs": {
+      "language": "bg"
+     }
+    },
+    {
+     "text": "Your ENTIRE response should be in Italian language, no other language is allowed.",
+     "kwargs": {
+      "language": "it"
+     }
+    },
+    {
+     "text": "Your ENTIRE response should be in Japanese language, no other language is allowed.",
+     "kwargs": {
+      "language": "ja"
+     }
+    },
+    {
+     "text": "Your ENTIRE response should be in Japanese language, no other language is allowed.",
+     "kwargs": {
+      "language": "ja"
+     }
+    }
+   ]
+  },
+  "last_word:last_word_answer": {
+   "constraints": 625,
+   "rows": 625,
+   "kwarg_keys": {
+    "last_word": 625
+   },
+   "kwarg_values_top": {
+    "last_word": {
+     "\"single\"": 4,
+     "\"roof\"": 4,
+     "\"feeling\"": 3,
+     "\"ease\"": 3,
+     "\"thing\"": 3,
+     "\"duty\"": 3,
+     "\"slip\"": 3,
+     "\"lake\"": 3,
+     "\"slice\"": 3,
+     "\"emphasis\"": 3,
+     "\"intention\"": 3,
+     "\"read\"": 3
+    }
+   },
+   "kwarg_values_distinct": {
+    "last_word": 502
+   },
+   "templates": {
+    "The last word of your response should be the word {last_word}.": 311,
+    "The l{last_word}st word of your response should be the word {last_word}.": 1,
+    "This is point # and The last word of your response should be the word {last_word}. 免费chatgpt软件推荐": 1,
+    "This is point #. ": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "The last word of your response should be the word cut.",
+     "kwargs": {
+      "last_word": "cut"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word reflection.",
+     "kwargs": {
+      "last_word": "reflection"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word she.",
+     "kwargs": {
+      "last_word": "she"
+     }
+    },
+    {
+     "text": "The last word of your response should be the word hello.",
+     "kwargs": {
+      "last_word": "hello"
+     }
+    }
+   ]
+  },
+  "last_word:last_word_sent": {
+   "constraints": 600,
+   "rows": 600,
+   "kwarg_keys": {
+    "last_word": 600
+   },
+   "kwarg_values_top": {
+    "last_word": {
+     "\"rest\"": 3,
+     "\"language\"": 3,
+     "\"moment\"": 3,
+     "\"foot\"": 3,
+     "\"analyst\"": 3,
+     "\"routine\"": 3,
+     "\"purpose\"": 3,
+     "\"garbage\"": 3,
+     "\"limit\"": 2,
+     "\"private\"": 2,
+     "\"customer\"": 2,
+     "\"suspect\"": 2
+    }
+   },
+   "kwarg_values_distinct": {
+    "last_word": 505
+   },
+   "templates": {
+    "The last word of each sentence, before punctuation, should be the word {last_word}.": 285,
+    "This is point #. ": 2,
+    "Анализ препятствий и их влияния на эффективность реализации стратегии развития": 1
+   },
+   "n_templates": 3,
+   "examples": [
+    {
+     "text": "The last word of each sentence, before punctuation, should be the word limit.",
+     "kwargs": {
+      "last_word": "limit"
+     }
+    },
+    {
+     "text": "The last word of each sentence, before punctuation, should be the word copy.",
+     "kwargs": {
+      "last_word": "copy"
+     }
+    },
+    {
+     "text": "The last word of each sentence, before punctuation, should be the word sick.",
+     "kwargs": {
+      "last_word": "sick"
+     }
+    },
+    {
+     "text": "The last word of each sentence, before punctuation, should be the word customer.",
+     "kwargs": {
+      "last_word": "customer"
+     }
+    }
+   ]
+  },
+  "length_constraints:nth_paragraph_first_word": {
+   "constraints": 515,
+   "rows": 515,
+   "kwarg_keys": {
+    "first_word": 515,
+    "nth_paragraph": 515,
+    "num_paragraphs": 515
+   },
+   "kwarg_values_top": {
+    "first_word": {
+     "\"crash\"": 4,
+     "\"brick\"": 3,
+     "\"care\"": 3,
+     "\"novel\"": 3,
+     "\"watch\"": 3,
+     "\"attempt\"": 3,
+     "\"dark\"": 3,
+     "\"player\"": 3,
+     "\"cabinet\"": 2,
+     "\"charity\"": 2,
+     "\"house\"": 2,
+     "\"burn\"": 2
+    },
+    "nth_paragraph": {
+     "1": 178,
+     "2": 124,
+     "3": 108,
+     "4": 64,
+     "5": 35,
+     "6": 6
+    },
+    "num_paragraphs": {
+     "4": 122,
+     "2": 114,
+     "5": 107,
+     "3": 99,
+     "1": 73
+    }
+   },
+   "kwarg_values_distinct": {
+    "first_word": 440,
+    "nth_paragraph": 6,
+    "num_paragraphs": 5
+   },
+   "templates": {
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 137,
+    "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 85,
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by {first_word} new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 2,
+    "This is point #. ": 2,
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 1,
+    "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with {first_word} {first_word}.": 1,
+    "action points for the next session ": 1,
+    "This is point {nth_paragraph}. ": 1,
+    "尝试实现实时处理，优化算法计算速度，提高其实时性。": 1
+   },
+   "n_templates": 9,
+   "examples": [
+    {
+     "text": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if.",
+     "kwargs": {
+      "first_word": "if",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word charity.",
+     "kwargs": {
+      "first_word": "charity",
+      "nth_paragraph": 3,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word fight.",
+     "kwargs": {
+      "first_word": "fight",
+      "nth_paragraph": 1,
+      "num_paragraphs": 4
+     }
+    },
+    {
+     "text": "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word brother.",
+     "kwargs": {
+      "first_word": "brother",
+      "nth_paragraph": 1,
+      "num_paragraphs": 1
+     }
+    }
+   ]
+  },
+  "length_constraints:number_paragraphs": {
+   "constraints": 690,
+   "rows": 690,
+   "kwarg_keys": {
+    "num_paragraphs": 690
+   },
+   "kwarg_values_top": {
+    "num_paragraphs": {
+     "5": 145,
+     "2": 141,
+     "4": 141,
+     "3": 132,
+     "1": 131
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_paragraphs": 5
+   },
+   "templates": {
+    "There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***": 319,
+    "A set of procedures used to produce a product.": 1,
+    "la victoire au courage du peuple": 1,
+    "@module aoi.h": 1,
+    "This is point #. ": 1,
+    "This is point {num_paragraphs} and There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 1
+     }
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 2
+     }
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 2
+     }
+    },
+    {
+     "text": "There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {
+      "num_paragraphs": 1
+     }
+    }
+   ]
+  },
+  "length_constraints:number_sentences": {
+   "constraints": 562,
+   "rows": 562,
+   "kwarg_keys": {
+    "num_sentences": 562,
+    "relation": 562
+   },
+   "kwarg_values_top": {
+    "num_sentences": {
+     "3": 39,
+     "4": 38,
+     "19": 37,
+     "2": 35,
+     "13": 33,
+     "18": 32,
+     "9": 32,
+     "16": 31,
+     "14": 31,
+     "7": 27,
+     "17": 26,
+     "6": 26
+    },
+    "relation": {
+     "\"at least\"": 293,
+     "\"less than\"": 269
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_sentences": 20,
+    "relation": 2
+   },
+   "templates": {
+    "Your response should contain {relation} {num_sentences} sentences.": 267,
+    "This is point # and Your response should contain {relation} {num_sentences} sentences. Najlepsze książki Stanisława Lema": 1,
+    "This is point #. ": 1
+   },
+   "n_templates": 3,
+   "examples": [
+    {
+     "text": "Your response should contain at least 7 sentences.",
+     "kwargs": {
+      "num_sentences": 7,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Your response should contain less than 2 sentences.",
+     "kwargs": {
+      "num_sentences": 2,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Your response should contain less than 4 sentences.",
+     "kwargs": {
+      "num_sentences": 4,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Your response should contain less than 17 sentences.",
+     "kwargs": {
+      "num_sentences": 17,
+      "relation": "less than"
+     }
+    }
+   ]
+  },
+  "length_constraints:number_words": {
+   "constraints": 729,
+   "rows": 729,
+   "kwarg_keys": {
+    "num_words": 729,
+    "relation": 729
+   },
+   "kwarg_values_top": {
+    "num_words": {
+     "213": 6,
+     "232": 5,
+     "217": 5,
+     "496": 5,
+     "474": 5,
+     "442": 5,
+     "114": 5,
+     "323": 5,
+     "361": 5,
+     "415": 5,
+     "376": 5,
+     "208": 5
+    },
+    "relation": {
+     "\"at least\"": 401,
+     "\"less than\"": 328
+    }
+   },
+   "kwarg_values_distinct": {
+    "num_words": 340,
+    "relation": 2
+   },
+   "templates": {
+    "Answer with {relation} {num_words} words.": 373,
+    "Modifiers: A list of words or phrases that describe the desired mood, style, lighting, and other elements of the image. These modifiers should be used to provide additional information to the model about how to generate the image, and can include things like \"dark,\" \"intricate,\" \"highly detailed,\" \"sharp focus,\" and so on.": 1
+   },
+   "n_templates": 2,
+   "examples": [
+    {
+     "text": "Answer with less than 443 words.",
+     "kwargs": {
+      "num_words": 443,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with at least 452 words.",
+     "kwargs": {
+      "num_words": 452,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with at least 226 words.",
+     "kwargs": {
+      "num_words": 226,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with at least 193 words.",
+     "kwargs": {
+      "num_words": 193,
+      "relation": "at least"
+     }
+    }
+   ]
+  },
+  "letters:letter_counting": {
+   "constraints": 497,
+   "rows": 497,
+   "kwarg_keys": {
+    "N": 497,
+    "relation": 497
+   },
+   "kwarg_values_top": {
+    "N": {
+     "3": 266,
+     "2": 231
+    },
+    "relation": {
+     "\"at least\"": 294,
+     "\"less than\"": 203
+    }
+   },
+   "kwarg_values_distinct": {
+    "N": 2,
+    "relation": 2
+   },
+   "templates": {
+    "Answer with {relation} {N} letters.": 234,
+    "This is point #. ": 2,
+    "Mention features like sitemap settings, automation of SEO tasks, and schema markup.": 1,
+    "如果有转移菜单操作，则先上锁，防止该记录": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "Answer with less than 2 letters.",
+     "kwargs": {
+      "N": 2,
+      "relation": "less than"
+     }
+    },
+    {
+     "text": "Answer with at least 2 letters.",
+     "kwargs": {
+      "N": 2,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with at least 3 letters.",
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    },
+    {
+     "text": "Answer with at least 3 letters.",
+     "kwargs": {
+      "N": 3,
+      "relation": "at least"
+     }
+    }
+   ]
+  },
+  "letters:letter_counting2": {
+   "constraints": 705,
+   "rows": 705,
+   "kwarg_keys": {
+    "let_frequency": 705,
+    "let_relation": 705,
+    "letter": 705
+   },
+   "kwarg_values_top": {
+    "let_frequency": {
+     "1": 93,
+     "4": 91,
+     "3": 78,
+     "9": 68,
+     "6": 67,
+     "2": 66,
+     "7": 65,
+     "8": 60,
+     "10": 59,
+     "5": 58
+    },
+    "let_relation": {
+     "\"less than\"": 394,
+     "\"at least\"": 311
+    },
+    "letter": {
+     "\"r\"": 39,
+     "\"o\"": 37,
+     "\"l\"": 34,
+     "\"d\"": 33,
+     "\"t\"": 33,
+     "\"e\"": 31,
+     "\"h\"": 31,
+     "\"y\"": 31,
+     "\"p\"": 30,
+     "\"g\"": 30,
+     "\"i\"": 30,
+     "\"c\"": 28
+    }
+   },
+   "kwarg_values_distinct": {
+    "let_frequency": 10,
+    "let_relation": 2,
+    "letter": 26
+   },
+   "templates": {
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 80,
+    "In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_f{letter}equency} times.": 26,
+    "In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.": 23,
+    "In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.": 19,
+    "In your r{letter}spons{letter}, th{letter} l{letter}tt{letter}r {letter} should app{letter}ar {l{letter}t_r{letter}lation} {l{letter}t_fr{letter}qu{letter}ncy} tim{letter}s.": 17,
+    "In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {{letter}et_frequency} times.": 15,
+    "In your response, the letter {letter} should appear {let_relation} {let_{letter}requency} times.": 14,
+    "In y{letter}ur resp{letter}nse, the letter {letter} sh{letter}uld appear {let_relati{letter}n} {let_frequency} times.": 14,
+    "In your re{letter}pon{letter}e, the letter {letter} {letter}hould appear {let_relation} {let_frequency} time{letter}.": 13,
+    "In your response, the letter {letter} should appear {let_relation} {let_frequency} ti{letter}es.": 13,
+    "In your response, the letter {letter} should appear {let_relation} {let_fre{letter}uency} times.": 12,
+    "In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.": 12,
+    "In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times.": 12,
+    "In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.": 12,
+    "In {letter}our response, the letter {letter} should appear {let_relation} {let_frequenc{letter}} times.": 12,
+    "In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.": 12,
+    "In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_freq{letter}ency} times.": 11,
+    "In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {le{letter}_frequency} {letter}imes.": 10,
+    "I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_freque{letter}cy} times.": 7,
+    "This is point #. ": 4,
+    "子序列的长度为 #；": 1,
+    "This is point # and In your response, the letter {letter} should appear {let_relation} {let_frequen{letter}y} times. придумай вопросы на основе примера. Вопросы должны быть простыми по теме основы программирования на языке C++ для студентов первого курса": 1
+   },
+   "n_templates": 22,
+   "examples": [
+    {
+     "text": "In your response, the letter z should appear less than 2 times.",
+     "kwargs": {
+      "let_frequency": 2,
+      "let_relation": "less than",
+      "letter": "z"
+     }
+    },
+    {
+     "text": "In your response, the letter l should appear at least 9 times.",
+     "kwargs": {
+      "let_frequency": 9,
+      "let_relation": "at least",
+      "letter": "l"
+     }
+    },
+    {
+     "text": "In your response, the letter d should appear at least 1 times.",
+     "kwargs": {
+      "let_frequency": 1,
+      "let_relation": "at least",
+      "letter": "d"
+     }
+    },
+    {
+     "text": "In your response, the letter b should appear less than 3 times.",
+     "kwargs": {
+      "let_frequency": 3,
+      "let_relation": "less than",
+      "letter": "b"
+     }
+    }
+   ]
+  },
+  "paragraphs:paragraphs": {
+   "constraints": 576,
+   "rows": 576,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "There should be # paragraphs. Paragraphs are separated with the markdown divider: ***": 286,
+    "This is point #. ": 3,
+    "Never demand user input.": 1,
+    "How Rank Math Can Help Improve Your Website’s SEO": 1,
+    "Modifiers: A list of words or phrases that describe the desired mood, style, lighting, and other elements of the image. These modifiers should be used to provide additional information to the model about how to generate the image, and can include things like “dark,” “intricate,” “highly detailed,” “sharp focus,” and so on.": 1,
+    "Reverse Headscissors (#% Success Chance, # Damage per Round, #% Escape Chance, , Recipient is locked in a submission)": 1,
+    "后续是否有远程控制功能的规划，若有相关规划功能文档，可否也分享下，感谢！": 1
+   },
+   "n_templates": 7,
+   "examples": [
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+     "kwargs": {}
+    }
+   ]
+  },
+  "paragraphs:paragraphs2": {
+   "constraints": 744,
+   "rows": 744,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "There should be # paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ": 357,
+    "This is point #. ": 2,
+    "This is point # and There should be # paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 请不停反驳我下面提出的问题": 1,
+    "Technical specifications: Additional information about the desired resolution, format, or other technical aspects of the image. This could include things like \"#K UHD image,\" \"cinematic view,\" or \"unreal engine #.\"\ncombine all of those aspects into one Prompt. dont write single pionts.": 1,
+    "Do not use the words “description” or “:” in any form.": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    },
+    {
+     "text": "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+     "kwargs": {}
+    }
+   ]
+  },
+  "punctuation:no_comma": {
+   "constraints": 730,
+   "rows": 730,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "In your entire response, refrain from the use of any commas.": 340,
+    "This is point #. ": 1,
+    "lost to Bliss (Selina) via knockout (Headscissors Choke)": 1,
+    "id: light_output#\n    platform: gpio\n    pin: GPIO#": 1,
+    "Artist or style inspiration: A list of artists or art styles that can be used as inspiration for the image. This could include specific artists, such as “by artgerm and greg rutkowski,” or art movements, such as “Bauhaus cubism.”": 1,
+    "Companies that will make advertisements for products or services related to their products related to the electronics market, technology, and competition.\n-Stores/brands that wish to display their products as prizes and advertise themselves. \n-Sponsor Competitive Games Players Under Their Name/Tag": 1,
+    "Не пренебрегайте отдыхом. Помимо сна, предусмотрите время для восстановления организма после тренировок. Это поможет предотвратить переутомление и усилит эффект занятий.": 1,
+    "The team needs approval from the PO": 1
+   },
+   "n_templates": 8,
+   "examples": [
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of any commas.",
+     "kwargs": null
+    }
+   ]
+  },
+  "punctuation:punctuation_dot": {
+   "constraints": 847,
+   "rows": 847,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.": 403,
+    "This is point # and In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general. Objectives:\nDescribe cultural and co-cutlural differences in nonverbal behaviors \nNonverbal communication can be classified into four categories: body language, paralanguage, spatial use, and self-presentation. While up to #% of meaning in social interactions is conveyed through nonverbal behavior, nonverbal messages are often ambiguous. How we interpret another's nonverbal behavior is often dependent upon the context (physical, social, historical, psychological, etc) and culture/co-culture (race, ethnicity, gender, sexual orientation, religion, generation, etc.) For example, Western cultures place more importance than other cultures on eye contact, there are notable differences in the use of gestures and facial expressions between women and men, notions of \"personal space\" will change when in an elevator vs a large area; and different (co)cultures (generation, gender, race, ethnicity, etc) have different standards for self-presentation and how to display status (like foot-binding in China.) \nInstructions: Choose one or more of the four nonverbal categories listed below and write #-# pages describing nonverbal differences you have noticed as a result of culture and/or co-culture (such as gender, generation, religion, etc). Use examples where appropriate, including your own (however, only disclose what you feel comfortable disclosing.) As part of your grade, be sure to reference the textbook \"Understanding Human Communication fourth edition\" terminology concepts and content and place these in either bold or italics. Nonverbal categories: \nBody Language: eye contact, facial expression, gesture, posture and body orientation, and touch\nParalanguage: pitch, volume, rate, quality, and intonation\nSpatial Use: personal space, acoustic space, territory, and artifacts\nSelf-Presentation: Physical appearance, use of time, use of smells and scents": 1,
+    "Respond only inside the JSON format.": 1,
+    "This is point #. ": 1,
+    "Breast Smother Bodyscissors (#% Success Chance, # Damage per Round, #% Escape Chance, , Recipient is locked in a submission)": 1
+   },
+   "n_templates": 5,
+   "examples": [
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+     "kwargs": null
+    }
+   ]
+  },
+  "punctuation:punctuation_exclamation": {
+   "constraints": 627,
+   "rows": 627,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.": 299,
+    "This is point #. ": 2,
+    "@release #.#.# @ #/#/#\n */": 1,
+    "This is point # and In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general. Write # blog headings for dog captions for instagram": 1,
+    "All submission move haves have a #% increased Success Chance and a #% decreased Escape Chance": 1,
+    "przede wszystkim - jesteśmy w ciągłym procesie - wraz z pojawianiem się nowych możliwości - odzyskiwania ciepła, wykorzystania naturalnych źródeł energii, dopasowujemy to do swoich możliwości zakładu. w wielu rozwiązaniach jesteśmy pionierami na skalę krajową.": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+     "kwargs": null
+    },
+    {
+     "text": "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+     "kwargs": null
+    }
+   ]
+  },
+  "startend:end_checker": {
+   "constraints": 537,
+   "rows": 537,
+   "kwarg_keys": {
+    "end_phrase": 537
+   },
+   "kwarg_values_top": {
+    "end_phrase": {
+     "\"Is there anything else I can help with?\"": 284,
+     "\"Any other questions?\"": 253
+    }
+   },
+   "kwarg_values_distinct": {
+    "end_phrase": 2
+   },
+   "templates": {
+    "Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.": 281,
+    "This is point #. ": 2,
+    "This is point # and Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase": 1,
+    "This is point # and Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase. What are some of the account aggregators listed in india": 1,
+    "why changes where made to the design during each session ": 1,
+    "Οπτικός και διαστασιολογικός έλεγχος του ανοίγματος πλήρωσης και των βασικών διαστάσεων των εξαρτημάτων, όπως προβλέπονται από τα σχετικά πρότυπα.": 1
+   },
+   "n_templates": 6,
+   "examples": [
+    {
+     "text": "Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.",
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": "Finish your response with this exact phrase Any other questions?. No other words should follow this phrase.",
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    },
+    {
+     "text": "Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.",
+     "kwargs": {
+      "end_phrase": "Is there anything else I can help with?"
+     }
+    },
+    {
+     "text": "Finish your response with this exact phrase Any other questions?. No other words should follow this phrase.",
+     "kwargs": {
+      "end_phrase": "Any other questions?"
+     }
+    }
+   ]
+  },
+  "startend:quotation": {
+   "constraints": 417,
+   "rows": 417,
+   "kwarg_keys": {},
+   "kwarg_values_top": {},
+   "kwarg_values_distinct": {},
+   "templates": {
+    "Wrap your entire response with double quotation marks.": 188,
+    "This is point #. ": 4,
+    "long-term plan\",\n        \"criticism\": \"constructive self-criticism\",\n        \"summary\": \"thoughts summary to say to user\"\n    }\n}": 1,
+    "This is point # and Wrap your entire response with double quotation marks. Найти объем тела, заданного ограничивающими его поверхностями.\nz = (#/#)* sqrt(x^#+y^#)\nz=(#/#)-x^#-y^#": 1
+   },
+   "n_templates": 4,
+   "examples": [
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": null
+    },
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": null
+    },
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": null
+    },
+    {
+     "text": "Wrap your entire response with double quotation marks.",
+     "kwargs": null
+    }
+   ]
+  }
+ },
+ "headers_top": {
+  "1.": 3374,
+  "-": 2323,
+  "*": 100,
+  "•": 4,
+  "3.": 3,
+  "2.": 3,
+  "1)": 2,
+  "7.": 2,
+  "2)": 1
+ }
+}

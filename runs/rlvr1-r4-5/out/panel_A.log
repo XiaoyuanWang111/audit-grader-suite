@@ -1,0 +1,25 @@
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 500 in 3s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 1000 in 6s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 1500 in 8s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 2000 in 10s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 2500 in 13s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 3000 in 15s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 3500 in 18s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 4000 in 20s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 4500 in 23s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 5000 in 26s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 5500 in 28s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 6000 in 31s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 6500 in 34s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 7000 in 37s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 7500 in 40s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 8000 in 42s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 8500 in 45s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 9000 in 47s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 9500 in 50s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 10000 in 52s
+ERROR:absl:Unable to detect language for text 12 due to No features in text.
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 10500 in 55s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 11000 in 57s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: 11500 in 60s
+Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl: done 11817 in 61s

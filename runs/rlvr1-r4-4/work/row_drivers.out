@@ -1,0 +1,36 @@
+== Qwen__Qwen2.5-7B-Instruct/sample0.jsonl grader A
+   gained: sentence_hyphens 84, word_once 42, count_unique 17, english_capital 10, square_brackets 7, first_word_sent 6, palindrome 6, first_word_answer 5
+   lost: word_count_different_numbers 20, postscript 17, bigram_wrapping 16, response_language 16, square_brackets 10, nth_paragraph_first_word 3, palindrome 2, last_word_sent 2
+== Qwen__Qwen2.5-7B-Instruct/sample0.jsonl grader B
+   gained: sentence_hyphens 58, word_once 41, lowercase_counting 26, number_paragraphs 9, palindrome 8, word_count_different_numbers 6, english_lowercase 5, number_words 4
+   lost: lowercase_counting 96, square_brackets 61, no_adjacent_consecutive 45, paragraphs2 27, word_count_different_numbers 25, paragraphs 22, last_word_sent 11, repeat_phrase 11
+== Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl grader A
+   gained: word_once 24, sentence_hyphens 7, count_unique 5, first_word_sent 4, english_capital 3, first_word_answer 3, word_count_different_numbers 3, postscript 3
+   lost: bigram_wrapping 4, sentence_hyphens 3, word_count_different_numbers 3, square_brackets 1, last_word_sent 1, capital_word_frequency 1
+== Qwen__Qwen3-4B-Instruct-2507/greedy.jsonl grader B
+   gained: word_once 26, sentence_hyphens 14, word_count_different_numbers 4, palindrome 4, number_words 3, postscript 3, number_paragraphs 2, number_sentences 2
+   lost: lowercase_counting 41, square_brackets 23, no_adjacent_consecutive 21, paragraphs2 10, repeat_phrase 7, word_count_different_numbers 3, start_end 2, number_paragraphs 1
+== Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl grader A
+   gained: word_once 26, sentence_hyphens 8, count_unique 5, first_word_sent 4, english_capital 3, first_word_answer 3, palindrome 2, word_count_different_numbers 2
+   lost: word_count_different_numbers 4, bigram_wrapping 4, sentence_hyphens 3, number_words 1, square_brackets 1, last_word_sent 1, capital_word_frequency 1
+== Qwen__Qwen3-4B-Instruct-2507/greedy_repeat.jsonl grader B
+   gained: word_once 27, sentence_hyphens 13, palindrome 4, number_paragraphs 3, number_words 3, word_count_different_numbers 3, postscript 2, number_sentences 2
+   lost: lowercase_counting 43, no_adjacent_consecutive 22, square_brackets 22, paragraphs2 8, repeat_phrase 6, word_count_different_numbers 4, start_end 2, number_paragraphs 1
+== Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl grader A
+   gained: word_once 378, sentence_hyphens 127, word_count_different_numbers 60, first_word_answer 41, count_unique 33, postscript 31, first_word_sent 28, english_capital 26
+   lost: bigram_wrapping 86, word_count_different_numbers 38, sentence_hyphens 29, response_language 15, letter_counting 13, lowercase_counting 9, nth_paragraph_first_word 8, no_adjacent_consecutive 8
+== Qwen__Qwen3-4B-Instruct-2507/sample0.jsonl grader B
+   gained: word_once 409, sentence_hyphens 185, number_paragraphs 130, word_count_different_numbers 76, palindrome 40, lowercase_counting 40, postscript 34, number_words 17
+   lost: lowercase_counting 432, no_adjacent_consecutive 292, square_brackets 279, paragraphs2 145, repeat_phrase 79, word_count_different_numbers 45, paragraphs 22, start_end 19
+== Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl grader A
+   gained: sentence_hyphens 43, word_once 30, english_capital 20, word_count_different_numbers 19, first_word_sent 9, count_unique 9, square_brackets 7, palindrome 5
+   lost: postscript 8, bigram_wrapping 7, response_language 4, number_placeholders 1, square_brackets 1, nth_paragraph_first_word 1, no_adjacent_consecutive 1, lowercase_counting 1
+== Qwen__Qwen3-4B-Thinking-2507__thinking/sample0.jsonl grader B
+   gained: number_paragraphs 43, word_once 27, repeat_phrase 21, lowercase_counting 21, word_count_different_numbers 21, sentence_hyphens 11, palindrome 10, number_words 6
+   lost: F-G1 extraction failure 18, lowercase_counting 16, paragraphs2 12, no_adjacent_consecutive 12, square_brackets 4, number_highlighted_sections 1, keyword_specific_position 1, paragraphs 1
+== allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl grader A
+   gained: word_once 59, first_word_answer 17, sentence_hyphens 16, english_capital 10, postscript 3, count_unique 3, number_bullet_lists 2, word_count_different_numbers 2
+   lost: word_count_different_numbers 16, postscript 9, response_language 9, multiple_sections 7, constrained_response 3, lowercase_counting 2, no_adjacent_consecutive 1, nth_paragraph_first_word 1
+== allenai__OLMo-2-1124-7B-Instruct/sample0.jsonl grader B
+   gained: word_once 55, number_paragraphs 43, sentence_hyphens 36, lowercase_counting 12, palindrome 7, postscript 6, word_count_different_numbers 5, number_words 2
+   lost: lowercase_counting 113, square_brackets 81, no_adjacent_consecutive 79, paragraphs2 61, repeat_phrase 27, word_count_different_numbers 21, paragraphs 18, number_paragraphs 8

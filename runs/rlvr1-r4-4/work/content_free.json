@@ -1,0 +1,883 @@
+{
+ "empty": {
+  "rows": 11817,
+  "rows_rewarded": {
+   "A": 1702,
+   "B": 810,
+   "R": 967
+  },
+  "checks": {
+   "first_word:first_word_answer": {
+    "n": 557,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "A": 600,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "A": 669,
+    "B": 0,
+    "R": 669
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "A": 335,
+    "B": 335,
+    "R": 335
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "A": 328,
+    "B": 328,
+    "R": 328
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "A": 575,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "A": 730,
+    "B": 730,
+    "R": 730
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "A": 836,
+    "B": 836,
+    "R": 836
+   },
+   "language:response_language": {
+    "n": 780,
+    "A": 780,
+    "B": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "A": 540,
+    "B": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "A": 687,
+    "B": 0,
+    "R": 687
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "A": 869,
+    "B": 0,
+    "R": 869
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "A": 627,
+    "B": 627,
+    "R": 627
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "A": 203,
+    "B": 203,
+    "R": 203
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "A": 818,
+    "B": 818,
+    "R": 818
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "A": 847,
+    "B": 847,
+    "R": 847
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "A": 420,
+    "B": 420,
+    "R": 420
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "A": 311,
+    "B": 311,
+    "R": 311
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "A": 553,
+    "B": 0,
+    "R": 553
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "A": 206,
+    "B": 206,
+    "R": 0
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "A": 394,
+    "B": 394,
+    "R": 394
+   },
+   "keywords:existence": {
+    "n": 932,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "A": 269,
+    "B": 269,
+    "R": 269
+   },
+   "startend:quotation": {
+    "n": 417,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   }
+  },
+  "errors": {
+   "last_word:last_word_answer|IndexError": 625
+  }
+ },
+ "repeated": {
+  "rows": 11817,
+  "rows_rewarded": {
+   "A": 609,
+   "B": 1061,
+   "R": 564
+  },
+  "checks": {
+   "first_word:first_word_answer": {
+    "n": 557,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "A": 669,
+    "B": 0,
+    "R": 669
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "A": 335,
+    "B": 335,
+    "R": 335
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "A": 499,
+    "B": 499,
+    "R": 499
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "A": 328,
+    "B": 328,
+    "R": 328
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "A": 730,
+    "B": 730,
+    "R": 730
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "A": 836,
+    "B": 836,
+    "R": 836
+   },
+   "language:response_language": {
+    "n": 780,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "A": 0,
+    "B": 869,
+    "R": 0
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "A": 627,
+    "B": 627,
+    "R": 627
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "A": 294,
+    "B": 294,
+    "R": 294
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "A": 0,
+    "B": 604,
+    "R": 0
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "A": 818,
+    "B": 0,
+    "R": 818
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "A": 847,
+    "B": 847,
+    "R": 847
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "A": 413,
+    "B": 413,
+    "R": 413
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "A": 311,
+    "B": 311,
+    "R": 311
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "A": 206,
+    "B": 206,
+    "R": 0
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "A": 396,
+    "B": 396,
+    "R": 396
+   },
+   "keywords:existence": {
+    "n": 932,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "A": 131,
+    "B": 131,
+    "R": 131
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "A": 282,
+    "B": 282,
+    "R": 282
+   },
+   "startend:quotation": {
+    "n": 417,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   }
+  },
+  "errors": {}
+ },
+ "restatement": {
+  "rows": 11817,
+  "rows_rewarded": {
+   "A": 746,
+   "B": 1365,
+   "R": 526
+  },
+  "checks": {
+   "first_word:first_word_answer": {
+    "n": 557,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "A": 21,
+    "B": 22,
+    "R": 13
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "A": 23,
+    "B": 0,
+    "R": 27
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "A": 323,
+    "B": 329,
+    "R": 323
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "A": 308,
+    "B": 308,
+    "R": 308
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "A": 589,
+    "B": 589,
+    "R": 589
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "A": 184,
+    "B": 98,
+    "R": 79
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "A": 618,
+    "B": 74,
+    "R": 103
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "A": 130,
+    "B": 154,
+    "R": 130
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "A": 137,
+    "B": 137,
+    "R": 136
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "A": 17,
+    "B": 90,
+    "R": 11
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "A": 0,
+    "B": 670,
+    "R": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "A": 0,
+    "B": 869,
+    "R": 348
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "A": 294,
+    "B": 294,
+    "R": 294
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "A": 1,
+    "B": 1,
+    "R": 1
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "A": 116,
+    "B": 624,
+    "R": 81
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "A": 497,
+    "B": 0,
+    "R": 0
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "A": 374,
+    "B": 374,
+    "R": 374
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "A": 307,
+    "B": 308,
+    "R": 308
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "A": 183,
+    "B": 182,
+    "R": 182
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "A": 0,
+    "B": 103,
+    "R": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "A": 255,
+    "B": 253,
+    "R": 148
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "A": 296,
+    "B": 296,
+    "R": 296
+   },
+   "keywords:existence": {
+    "n": 932,
+    "A": 932,
+    "B": 932,
+    "R": 932
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "A": 104,
+    "B": 104,
+    "R": 104
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "A": 127,
+    "B": 131,
+    "R": 98
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "A": 248,
+    "B": 248,
+    "R": 248
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "A": 463,
+    "B": 538,
+    "R": 460
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "A": 354,
+    "B": 453,
+    "R": 354
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "A": 907,
+    "B": 913,
+    "R": 917
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "A": 271,
+    "B": 268,
+    "R": 254
+   },
+   "startend:quotation": {
+    "n": 417,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "A": 120,
+    "B": 0,
+    "R": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "A": 0,
+    "B": 0,
+    "R": 0
+   }
+  },
+  "errors": {}
+ }
+}

@@ -1,0 +1,713 @@
+"""Replacement grader: the contracts of audit/CONTRACTS.md, with one switch per decision entry.
+
+`check(instruction_id, kwargs, text, readings)` returns True or False. `readings` maps a
+decision name (such as "D-word") to "A" (the proposed reading, the default) or "B".
+`extract(raw, thinking)` returns the graded text, or None for an extraction failure.
+
+Two contracts need a language judgment (D-english, D-language). This implementation
+approximates it with langdetect (seed 0) on the lowercased prose, after removing code,
+URLs and numbers; that is an approximation, not the contract itself, and the report
+says so.
+"""
+from __future__ import annotations
+
+import json
+import re as _re
+
+import regex as re
+
+DECISIONS = [
+    "D-outer-whitespace", "D-empty", "D-word", "D-sentence", "D-keyword-match", "D-letter-case",
+    "D-capital-word", "D-english", "D-two-responses-different", "D-repeat-center", "D-repeat-original",
+    "D-unique-case", "D-lowercase-counting-scope", "D-placeholder", "D-postscript-marker",
+    "D-postscript-position", "D-bigram", "D-constrained", "D-json", "D-sections-case",
+    "D-sections-numbering", "D-sections-preamble", "D-bullets", "D-highlight", "D-hyphens-single",
+    "D-square-brackets", "D-title", "D-first-last-case", "D-first-last-markup", "D-palindrome", "D-consecutive-order",
+    "D-start-end-case", "D-count-exact", "D-language", "D-divider", "D-paragraph-blank",
+    "D-comma-chars", "D-dot-chars", "D-exclamation-chars", "D-end-phrase", "D-quotation",
+    "D-letters-count", "D-postscript-case", "D-start-end-leading", "D-start-end-single",
+    "D-end-phrase-case", "D-separator-edge", "D-divider-inline",
+]
+PROPOSED = {d: "A" for d in DECISIONS}
+
+# ---------------------------------------------------------------- extraction
+
+
+def extract(raw: str, thinking: bool) -> str | None:
+    """Graded text: the whole answer, or for a reasoning model the text after the last </think>."""
+    if thinking:
+        if "</think>" not in raw:
+            return None
+        raw = raw[raw.rfind("</think>") + len("</think>"):]
+    return raw
+
+# ---------------------------------------------------------------- units
+
+_CJK = r"\p{Han}\p{Hiragana}\p{Katakana}"
+_WORD_CHARS = r"[\p{L}\p{M}\p{N}]"
+_RUN = re.compile(_WORD_CHARS + r"+(?:['’\-]" + _WORD_CHARS + r"+|[.,]\p{N}+)*")
+_CJK_CHAR = re.compile("[" + _CJK + "]")
+
+
+def words(text: str, r: dict) -> list[str]:
+    """Words under D-word."""
+    if r["D-word"] == "B":
+        return [t for t in text.split() if re.search(_WORD_CHARS, t)]
+    out = []
+    for m in _RUN.finditer(text):
+        w = m.group(0)
+        if _CJK_CHAR.search(w):
+            for piece in re.findall("[" + _CJK + "]|[^" + _CJK + "]+", w):
+                piece = piece.strip("'’-")
+                if piece and re.search(_WORD_CHARS, piece):
+                    out.append(piece)
+        else:
+            out.append(w)
+    return out
+
+
+def word_core(token: str) -> str:
+    """A word without surrounding punctuation or markup (identity comparisons, both readings)."""
+    return re.sub(r"^[^\p{L}\p{M}\p{N}]+|[^\p{L}\p{M}\p{N}]+$", "", token)
+
+
+_ABBREV = {"e.g", "i.e", "etc", "vs", "mr", "mrs", "ms", "dr", "st", "jr", "sr", "prof", "inc", "ltd", "co",
+           "u.s", "u.k", "a.m", "p.m", "no", "fig", "approx", "dept", "est", "ph.d", "cf", "al"}
+_TERMINAL = "[.!?…。！？]"
+_CLOSERS = "[\"'”’)\\]*_]"
+_BOUNDARY = re.compile(r"(" + _TERMINAL + r"+" + _CLOSERS + r"*)(?=\s|$)|([。！？]+" + _CLOSERS + r"*)")
+
+
+def _split_line(line: str) -> list[str]:
+    out, start = [], 0
+    for m in _BOUNDARY.finditer(line):
+        end = m.end()
+        piece = line[start:end]
+        punct = m.group(0)
+        if punct.startswith(".") and len(punct.rstrip("\"'”’)]*_")) == 1:
+            before = line[start:m.start()]
+            last = re.search(r"([\p{L}\p{N}.]+)$", before)
+            token = last.group(1).lower() if last else ""
+            if token in _ABBREV or re.fullmatch(r"\p{L}", token) or (
+                    re.fullmatch(r"\d+", token) and not line[start:m.start() - len(token)].strip()):
+                continue  # abbreviation, initial, or list number such as "1."
+        out.append(piece)
+        start = end
+    out.append(line[start:])
+    return out
+
+
+def sentences(text: str, r: dict) -> list[str]:
+    """Sentences under D-sentence; each has at least one word."""
+    lines = [text.replace("\n", " ")] if r["D-sentence"] == "B" else text.split("\n")
+    out = []
+    for line in lines:
+        for s in _split_line(line):
+            if words(s, r):
+                out.append(s.strip())
+    return out
+
+
+def blank_paragraphs(text: str, r: dict) -> list[str] | None:
+    """Blocks separated by blank lines (D-paragraph-blank); None when reading B finds an invalid separator."""
+    t = text.strip()
+    if r["D-paragraph-blank"] == "B":
+        if re.search(r"\n[ \t]*\n[ \t]*\n", t) or re.search(r"\n[ \t]+\n", t):
+            return None
+        return [p for p in t.split("\n\n") if p.strip()] if t else []
+    return [p for p in re.split(r"\n[ \t]*\n\s*", t) if p.strip()] if t else []
+
+
+def literal_paragraphs(text: str) -> list[str] | None:
+    """Reading B of D-paragraph-blank: only the two characters \\n\\n separate; None for an empty middle part."""
+    parts = text.strip().split("\n\n")
+    for k, p in enumerate(parts):
+        if not p.strip() and 0 < k < len(parts) - 1:
+            return None
+    return [p for p in parts if p.strip()]
+
+
+_THEMATIC = re.compile(r"^\s*([*\-_])(\s*\1){2,}\s*$")
+
+
+def divider_parts(text: str, r: dict, divider: str = "***") -> list[str]:
+    """Parts between dividers. D-divider: which lines are dividers; D-divider-inline (C12): whether a
+    whitespace-delimited divider inside a line also counts; D-separator-edge (C11): whether empty parts
+    before the first or after the last divider are dropped."""
+    lines = text.strip().split("\n")
+    parts, cur = [], []
+    inline = re.compile(r"(?:(?<=\s)|^)" + re.escape(divider) + r"(?=\s|$)")
+    for line in lines:
+        is_div = (line.strip() == divider) if r["D-divider"] == "A" else bool(_THEMATIC.match(line))
+        if is_div:
+            parts.append("\n".join(cur))
+            cur = []
+        elif r["D-divider-inline"] == "A" and inline.search(line):
+            pieces = inline.split(line)
+            cur.append(pieces[0])
+            for piece in pieces[1:]:
+                parts.append("\n".join(cur))
+                cur = [piece]
+        else:
+            cur.append(line)
+    parts.append("\n".join(cur))
+    if r["D-separator-edge"] == "A":
+        if parts and not parts[0].strip():
+            parts = parts[1:]
+        if parts and not parts[-1].strip():
+            parts = parts[:-1]
+    return parts
+
+
+def kw_count(text: str, kw: str, r: dict) -> int:
+    if r["D-keyword-match"] == "B":
+        return len(_re.findall(_re.escape(kw.lower()), text.lower()))
+    return len(re.findall(r"(?<![\p{L}\p{M}\p{N}])" + re.escape(kw) + r"(?![\p{L}\p{M}\p{N}])", text,
+                          flags=re.IGNORECASE))
+
+
+def rel(actual: int, relation: str, n: int) -> bool:
+    return {"at least": actual >= n, "less than": actual < n, "at most": actual <= n,
+            "exactly": actual == n}[relation]
+
+
+_CODE = re.compile(r"```.*?```|`[^`\n]*`|https?://\S+|\d+", flags=re.DOTALL)
+
+
+def _detect(text: str) -> str | None:
+    from langdetect import DetectorFactory, detect
+    from langdetect.lang_detect_exception import LangDetectException
+    DetectorFactory.seed = 0
+    prose = _CODE.sub(" ", text).lower()
+    if not re.search(r"\p{L}", prose):
+        return None
+    try:
+        return detect(prose)
+    except LangDetectException:
+        return None
+
+
+def _first_last_ok(token: str, want: str, r: dict) -> bool:
+    if r["D-first-last-case"] == "B":
+        return token == want
+    return token.lower() == want.lower()
+
+# ---------------------------------------------------------------- checks
+
+EMPTY_PASS = {  # constraints that only forbid something (D-empty reading A)
+    "count:count_unique", "count:lowercase_counting", "detectable_format:sentence_hyphens",
+    "detectable_format:square_brackets", "first_word:first_word_sent", "keywords:forbidden_words",
+    "keywords:no_adjacent_consecutive", "last_word:last_word_sent", "punctuation:no_comma",
+    "punctuation:punctuation_dot", "punctuation:punctuation_exclamation",
+}
+RELATION_KEYS = {"relation", "capital_relation", "let_relation"}
+
+
+def check(iid: str, kwargs: dict, text: str, readings: dict | None = None) -> bool:
+    r = {**PROPOSED, **(readings or {})}
+    kw = {k: v for k, v in (kwargs or {}).items() if v is not None}
+    if r["D-outer-whitespace"] == "A":
+        text = text.strip()
+    if not text.strip():
+        if r["D-empty"] == "B":
+            return False
+        less = any(kw.get(k) == "less than" for k in RELATION_KEYS)
+        return iid in EMPTY_PASS or less
+    if iid in EMPTY_PASS and not iid.startswith("punctuation:") and not words(text, PROPOSED):
+        return r["D-empty"] == "A"  # C7: symbol-only text counts as empty for "every item" checks
+    return CHECKS[iid](text, kw, r)
+
+
+CHECKS = {}
+
+
+def c(name):
+    def reg(f):
+        CHECKS[name] = f
+        return f
+    return reg
+
+
+@c("change_case:capital_word_frequency")
+def _(t, kw, r):
+    def is_cap(w):
+        letters = [ch for ch in w if ch.isalpha()]
+        cased = [ch for ch in letters if ch.isupper() or ch.islower()]
+        if not cased or any(ch.islower() for ch in cased):
+            return False
+        return r["D-capital-word"] == "A" or len(letters) >= 2
+    n = sum(1 for w in words(t, r) if is_cap(word_core(w)))
+    return rel(n, kw["capital_relation"], kw["capital_frequency"])
+
+
+def _english(t, r):
+    return _detect(t) == "en"
+
+
+@c("change_case:english_capital")
+def _(t, kw, r):
+    return not any(ch.islower() for ch in t) and _english(t, r)
+
+
+@c("change_case:english_lowercase")
+def _(t, kw, r):
+    return not any(ch.isupper() or ch.istitle() for ch in t if ch.isalpha()) and _english(t, r)
+
+
+@c("combination:two_responses")
+def _(t, kw, r):
+    def six_runs(s):
+        return [m for m in re.finditer(r"\*+", s) if len(m.group(0)) == 6]
+
+    if r["D-separator-edge"] == "A":  # C11: a separator before the first or after the last response is ignored
+        while True:
+            seps = six_runs(t)
+            if seps and not t[:seps[0].start()].strip():
+                t = t[seps[0].end():]
+            elif seps and not t[seps[-1].end():].strip():
+                t = t[:seps[-1].start()]
+            else:
+                break
+    seps = six_runs(t)
+    if len(seps) != 1:
+        return False
+    a, b = t[:seps[0].start()].strip(), t[seps[0].end():].strip()
+    if not a or not b:
+        return False
+    if r["D-two-responses-different"] == "B":
+        norm = lambda s: re.sub(r"[^\p{L}\p{N}]+", "", s.lower())
+        return norm(a) != norm(b)
+    return a != b
+
+
+@c("copy:repeat_phrase")
+def _(t, kw, r):
+    norm = lambda w: word_core(w).lower().replace("’", "'")
+    phrase = [norm(w) for w in kw["phrase"].split()]
+    toks = [norm(w) for w in words(t, r)]
+    L = len(phrase)
+    center = {(L + 1) // 2 - 1} if L % 2 else {L // 2 - 1, L // 2}
+    if r["D-repeat-center"] == "B":
+        center = set(range(1, L - 1))
+    transformed = verbatim = 0
+    i = 0
+    while i + L <= len(toks):
+        diff = [j for j in range(L) if toks[i + j] != phrase[j]]
+        if not diff:
+            verbatim += 1
+            i += L
+        elif len(diff) == 1 and diff[0] in center:
+            transformed += 1
+            i += L
+        else:
+            i += 1
+    if r["D-repeat-original"] == "A" and verbatim:
+        return False
+    return transformed == kw["small_n"]
+
+
+@c("count:count_unique")
+def _(t, kw, r):
+    ws = [word_core(w) for w in words(t, r)]
+    if r["D-unique-case"] == "A":
+        ws = [w.lower() for w in ws]
+    return len(ws) == len(set(ws))
+
+
+@c("count:counting_composition")
+def _(t, kw, r):
+    parts = divider_parts(t, r, divider="* * *")
+    if len(parts) != 3 or any(not p.strip() for p in parts):
+        return False
+    for p in parts:
+        ss = sentences(p, r)
+        if len(ss) != kw["n_sent"] or any(len(words(s, r)) != kw["n_words"] for s in ss):
+            return False
+    return True
+
+
+@c("count:lowercase_counting")
+def _(t, kw, r):
+    lw = [word_core(w) for w in words(t, r)]
+    lw = [w for w in lw if any(ch.islower() for ch in w) and not any(ch.isupper() for ch in w)]
+    if r["D-lowercase-counting-scope"] == "B":
+        return len(lw) <= kw["N"]
+    counts = {}
+    for w in lw:
+        counts[w] = counts.get(w, 0) + 1
+    return all(v <= kw["N"] for v in counts.values())
+
+
+@c("detectable_content:number_placeholders")
+def _(t, kw, r):
+    if r["D-placeholder"] == "B":
+        n = len(re.findall(r"\[[^\]]*\]", t))
+    else:
+        n = len(re.findall(r"\[[^\[\]\n]*\S[^\[\]\n]*\](?!\()", t))
+    return n >= kw["num_placeholders"]
+
+
+@c("detectable_content:postscript")
+def _(t, kw, r):
+    marker = kw["postscript_marker"].strip()
+    if r["D-postscript-marker"] == "A":
+        core = re.escape(marker.rstrip("."))
+        pat = core + r"\.?(?![\p{L}\p{N}])"
+    else:
+        pat = re.escape(marker)
+    if r["D-postscript-position"] == "A":
+        pat = r"(?m)^[ \t]*[*_#>]*[ \t]*" + pat
+    else:
+        pat = r"(?<![\p{L}\p{N}.])" + pat
+    flags = re.IGNORECASE if r["D-postscript-case"] == "A" else 0
+    return bool(re.search(pat, t, flags=flags))
+
+
+@c("detectable_format:bigram_wrapping")
+def _(t, kw, r):
+    units = re.findall(r"<<(.*?)>>", t, flags=re.DOTALL)
+    if not units:
+        return False
+    rest = re.sub(r"<<.*?>>", " ", t, flags=re.DOTALL)
+    if words(rest, r):
+        return False
+    counts = [len(words(u, r)) for u in units]
+    if r["D-bigram"] == "B" and counts and counts[-1] == 1:
+        counts = counts[:-1]
+    return all(n == 2 for n in counts)
+
+
+OPTIONS = ("My answer is yes.", "My answer is no.", "My answer is maybe.")
+
+
+@c("detectable_format:constrained_response")
+def _(t, kw, r):
+    s = t.strip()
+    if r["D-constrained"] == "A":
+        return s in OPTIONS
+    return sum(1 for o in OPTIONS if o in s) == 1
+
+
+@c("detectable_format:json_format")
+def _(t, kw, r):
+    s = t.strip()
+    m = re.fullmatch(r"```(?:json|JSON|Json)?[ \t]*\n?(.*?)\n?[ \t]*```", s, flags=re.DOTALL)
+    if m:
+        s = m.group(1).strip()
+    try:
+        v = json.loads(s)
+    except ValueError:
+        return False
+    return r["D-json"] == "B" or isinstance(v, (dict, list))
+
+
+@c("detectable_format:multiple_sections")
+def _(t, kw, r):
+    sp = kw["section_spliter"].strip()
+    flags = re.IGNORECASE if r["D-sections-case"] == "B" else 0
+    pat = re.compile(r"^[^\p{L}\p{N}\n]*" + re.escape(sp) + r"[ \t]*(\d+)\b", flags | re.MULTILINE)  # C14
+    ms = list(pat.finditer(t))
+    if len(ms) != kw["num_sections"]:
+        return False
+    if r["D-sections-numbering"] == "A" and [int(m.group(1)) for m in ms] != list(range(1, len(ms) + 1)):
+        return False
+    if r["D-sections-preamble"] == "B" and ms and t[:ms[0].start()].strip():
+        return False
+    return True
+
+
+@c("detectable_format:number_bullet_lists")
+def _(t, kw, r):
+    n = 0
+    for line in t.split("\n"):
+        if _THEMATIC.match(line):
+            continue
+        if r["D-bullets"] == "A":
+            ok = re.match(r"^\s*[*\-+]\s+\S", line) and not re.match(r"^\s*\*\*", line)
+        else:
+            ok = re.match(r"^\s*\*\s+\S", line)
+        n += bool(ok)
+    return n == kw["num_bullets"]
+
+
+@c("detectable_format:number_highlighted_sections")
+def _(t, kw, r):
+    s = t
+    n = 0
+    if r["D-highlight"] == "A":
+        for pat in (r"\*\*\*(?=[^\s*])[^*\n]*?(?<=[^\s*])\*\*\*", r"\*\*(?=[^\s*])[^*\n]*?(?<=[^\s*])\*\*"):
+            found = re.findall(pat, s)
+            n += len(found)
+            s = re.sub(pat, " ", s)
+    else:
+        s = re.sub(r"\*\*+", " ", s)
+    n += len(re.findall(r"(?<!\*)\*(?=[^\s*])[^*\n]*?(?<=[^\s*])\*(?!\*)", s))
+    return n >= kw["num_highlights"]
+
+
+@c("detectable_format:sentence_hyphens")
+def _(t, kw, r):
+    s = t.strip()
+    # C10: a hyphen next to whitespace, an en or em dash, or a line break is a connector between
+    # clauses that is not a bare hyphen, so it breaks the rule.
+    if "\n" in s or re.search(r"\s-|-\s", s) or re.search("[–—]", s):
+        return False
+    pieces = re.split(r"(?<=" + _TERMINAL + r"[\"'”’)]*)-", s)
+    if len(pieces) == 1 and r["D-hyphens-single"] == "B":
+        return False
+    for p in pieces:
+        if not p or len(sentences(p, r)) > 1:
+            return False
+    return True
+
+
+@c("detectable_format:square_brackets")
+def _(t, kw, r):
+    spans = re.findall(r"\[([^\[\]]*)\]", t)
+    rest = re.sub(r"\[[^\[\]]*\]", " ", t)
+    if words(rest, r):
+        return False
+    if r["D-square-brackets"] == "A":
+        return all(len(words(sp, r)) <= 1 for sp in spans)
+    return True
+
+
+@c("detectable_format:title")
+def _(t, kw, r):
+    if r["D-title"] == "B":
+        first = t.strip().split("\n", 1)[0]
+        return bool(re.match(r"^[#*_ \t]*<<[^\n]*?\S[^\n]*?>>", first))
+    return bool(re.search(r"<<[^\n]*?\S[^\n]*?>>", t))
+
+
+def _first_word(t, r):
+    if r["D-first-last-markup"] == "B":
+        toks = t.split()
+        return toks[0].strip(".,;:!?\"'") if toks else ""
+    ws = words(t, r)
+    return word_core(ws[0]) if ws else ""
+
+
+def _last_word(t, r):
+    if r["D-first-last-markup"] == "B":
+        toks = t.split()
+        return toks[-1].strip(".,;:!?\"'") if toks else ""
+    ws = words(t, r)
+    return word_core(ws[-1]) if ws else ""
+
+
+@c("first_word:first_word_answer")
+def _(t, kw, r):
+    return _first_last_ok(_first_word(t, r), kw["first_word"], r)
+
+
+@c("first_word:first_word_sent")
+def _(t, kw, r):
+    return all(_first_last_ok(_first_word(s, r), kw["first_word"], r) for s in sentences(t, r))
+
+
+@c("keywords:existence")
+def _(t, kw, r):
+    return all(kw_count(t, k, r) > 0 for k in kw["keywords"])
+
+
+@c("keywords:forbidden_words")
+def _(t, kw, r):
+    return all(kw_count(t, k, r) == 0 for k in kw["forbidden_words"])
+
+
+@c("keywords:frequency")
+def _(t, kw, r):
+    return rel(kw_count(t, kw["keyword"], r), kw["relation"], kw["frequency"])
+
+
+@c("keywords:keyword_specific_position")
+def _(t, kw, r):
+    ss = sentences(t, r)
+    if len(ss) < kw["n"]:
+        return False
+    ws = words(ss[kw["n"] - 1], r)
+    if len(ws) < kw["m"]:
+        return False
+    return word_core(ws[kw["m"] - 1]).lower() == kw["keyword"].lower()
+
+
+def _letter_count(t, letter, r):
+    if r["D-letter-case"] == "B":
+        return t.count(letter.lower())
+    return sum(1 for ch in t if ch.lower() == letter.lower())
+
+
+@c("keywords:letter_frequency")
+def _(t, kw, r):
+    return rel(_letter_count(t, kw["letter"], r), kw["let_relation"], kw["let_frequency"])
+
+
+CHECKS["letters:letter_counting2"] = CHECKS["keywords:letter_frequency"]
+
+
+@c("keywords:no_adjacent_consecutive")
+def _(t, kw, r):
+    firsts = [word_core(w)[:1].lower() for w in words(t, r)]
+    for a, b in zip(firsts, firsts[1:]):
+        if len(a) == 1 and len(b) == 1 and "a" <= a <= "z" and "a" <= b <= "z":
+            d = ord(b) - ord(a)
+            if d == 1 or (d == -1 and r["D-consecutive-order"] == "A"):
+                return False
+    return True
+
+
+@c("keywords:palindrome")
+def _(t, kw, r):
+    minimum = 3 if r["D-palindrome"] == "A" else 1
+    ws = ["".join(ch for ch in word_core(w).lower() if ch.isalpha()) for w in words(t, r)]
+    for w in ws:
+        if len(w) >= minimum and w == w[::-1]:
+            return True
+    if r["D-palindrome"] == "A":
+        for i in range(len(ws)):
+            joined = ws[i]
+            for j in range(i + 1, min(i + 8, len(ws))):
+                joined += ws[j]
+                if (len(joined) >= 5 and joined == joined[::-1] and all(ws[i:j + 1])
+                        and any(len(w) >= 2 for w in ws[i:j + 1])):  # C13
+                    return True
+    return False
+
+
+@c("keywords:start_end")
+def _(t, kw, r):
+    s = t.strip()
+    ws = words(s, r)
+    if not ws:
+        return False
+    first, last = word_core(ws[0]), word_core(ws[-1])
+    if not s.endswith(last):
+        return False
+    if r["D-start-end-leading"] == "B" and not s.startswith(first):
+        return False
+    if r["D-start-end-single"] == "B" and len(ws) < 2:
+        return False
+    if r["D-start-end-case"] == "B":
+        return first == last
+    return first.lower() == last.lower()
+
+
+@c("keywords:word_count_different_numbers")
+def _(t, kw, r):
+    n = kw_count(t, kw["keyword"], r)
+    return n == kw["frequency"] if r["D-count-exact"] == "A" else n >= kw["frequency"]
+
+
+@c("keywords:word_once")
+def _(t, kw, r):
+    return kw_count(t, kw["keyword"], r) >= 1
+
+
+@c("language:response_language")
+def _(t, kw, r):
+    return _detect(t) == kw["language"]
+
+
+@c("last_word:last_word_answer")
+def _(t, kw, r):
+    return _first_last_ok(_last_word(t, r), kw["last_word"], r)
+
+
+@c("last_word:last_word_sent")
+def _(t, kw, r):
+    return all(_first_last_ok(_last_word(s, r), kw["last_word"], r) for s in sentences(t, r))
+
+
+@c("length_constraints:nth_paragraph_first_word")
+def _(t, kw, r):
+    ps = blank_paragraphs(t, r) if r["D-paragraph-blank"] == "A" else literal_paragraphs(t)
+    P, i = kw["num_paragraphs"], kw["nth_paragraph"]
+    if ps is None or len(ps) != P or i > P or i < 1:
+        return False
+    return _first_last_ok(_first_word(ps[i - 1], r), kw["first_word"], r)
+
+
+def _divided(t, r, P):
+    parts = divider_parts(t, r)
+    return len(parts) == P and all(p.strip() for p in parts)
+
+
+@c("length_constraints:number_paragraphs")
+def _(t, kw, r):
+    return _divided(t, r, kw["num_paragraphs"])
+
+
+@c("paragraphs:paragraphs")
+def _(t, kw, r):
+    return _divided(t, r, 2)
+
+
+@c("paragraphs:paragraphs2")
+def _(t, kw, r):
+    ps = blank_paragraphs(t, r) if r["D-paragraph-blank"] == "A" else literal_paragraphs(t)
+    return ps is not None and len(ps) == 2
+
+
+@c("length_constraints:number_sentences")
+def _(t, kw, r):
+    return rel(len(sentences(t, r)), kw["relation"], kw["num_sentences"])
+
+
+@c("length_constraints:number_words")
+def _(t, kw, r):
+    return rel(len(words(t, r)), kw["relation"], kw["num_words"])
+
+
+@c("letters:letter_counting")
+def _(t, kw, r):
+    if r["D-letters-count"] == "B":
+        n = len(re.findall(r"[A-Za-z]", t))
+    else:
+        n = sum(1 for ch in t if ch.isalpha())
+    return rel(n, kw["relation"], kw["N"])
+
+
+COMMAS_A = ",，、،﹐﹑"
+DOTS_A = ".．。…"
+EXCL_A = "!！¡‼❗❕"
+
+
+@c("punctuation:no_comma")
+def _(t, kw, r):
+    chars = COMMAS_A if r["D-comma-chars"] == "A" else ","
+    return not any(ch in chars for ch in t)
+
+
+@c("punctuation:punctuation_dot")
+def _(t, kw, r):
+    chars = DOTS_A if r["D-dot-chars"] == "A" else "."
+    return not any(ch in chars for ch in t)
+
+
+@c("punctuation:punctuation_exclamation")
+def _(t, kw, r):
+    chars = EXCL_A if r["D-exclamation-chars"] == "A" else "!"
+    return not any(ch in chars for ch in t)
+
+
+@c("startend:end_checker")
+def _(t, kw, r):
+    s = t.strip()
+    phrase = kw["end_phrase"].strip()
+    if r["D-end-phrase-case"] == "B":
+        s, phrase = s.lower(), phrase.lower()
+    if r["D-end-phrase"] == "B":
+        return s.endswith(phrase)
+    k = s.rfind(phrase)
+    return k >= 0 and not re.search(r"[\p{L}\p{N}]", s[k + len(phrase):])
+
+
+@c("startend:quotation")
+def _(t, kw, r):
+    s = t.strip()
+    if len(s) < 2:
+        return False
+    if r["D-quotation"] == "B":
+        return s[0] == '"' and s[-1] == '"'
+    return s[0] in '"“' and s[-1] in '"”'

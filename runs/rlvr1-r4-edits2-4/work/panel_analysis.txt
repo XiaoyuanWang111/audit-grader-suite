@@ -1,0 +1,155 @@
+== stored records
+Qwen__Qwen2.5-7B-Instruct/sample0 {'n': 4000, 'finish_length': 65, 'thinking': False, 'has_close': 0, 'has_open': 3, 'extraction_failure': 0, 'extraction_failure_and_length': 0, 'skyrl_text_empty': 3, 'graded_text_differs': 3, 'skyrl_infra_error': 0, 'extraction_failure_skyrl_reward_1': 0, 'extraction_failure_gate_pass': 0}
+Qwen__Qwen3-4B-Instruct-2507/greedy {'n': 1000, 'finish_length': 92, 'thinking': False, 'has_close': 0, 'has_open': 0, 'extraction_failure': 0, 'extraction_failure_and_length': 0, 'skyrl_text_empty': 1, 'graded_text_differs': 1, 'skyrl_infra_error': 0, 'extraction_failure_skyrl_reward_1': 0, 'extraction_failure_gate_pass': 0}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat {'n': 1000, 'finish_length': 81, 'thinking': False, 'has_close': 0, 'has_open': 0, 'extraction_failure': 0, 'extraction_failure_and_length': 0, 'skyrl_text_empty': 2, 'graded_text_differs': 2, 'skyrl_infra_error': 0, 'extraction_failure_skyrl_reward_1': 0, 'extraction_failure_gate_pass': 0}
+Qwen__Qwen3-4B-Instruct-2507/sample0 {'n': 11817, 'finish_length': 620, 'thinking': False, 'has_close': 0, 'has_open': 11, 'extraction_failure': 0, 'extraction_failure_and_length': 0, 'skyrl_text_empty': 16, 'graded_text_differs': 16, 'skyrl_infra_error': 1, 'extraction_failure_skyrl_reward_1': 0, 'extraction_failure_gate_pass': 0}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0 {'n': 1500, 'finish_length': 166, 'thinking': True, 'has_close': 1361, 'has_open': 1, 'extraction_failure': 139, 'extraction_failure_and_length': 139, 'skyrl_text_empty': 1, 'graded_text_differs': 141, 'skyrl_infra_error': 0, 'extraction_failure_skyrl_reward_1': 1, 'extraction_failure_gate_pass': 18}
+allenai__OLMo-2-1124-7B-Instruct/sample0 {'n': 3998, 'finish_length': 39, 'thinking': False, 'has_close': 0, 'has_open': 0, 'extraction_failure': 0, 'extraction_failure_and_length': 0, 'skyrl_text_empty': 1, 'graded_text_differs': 0, 'skyrl_infra_error': 0, 'extraction_failure_skyrl_reward_1': 0, 'extraction_failure_gate_pass': 0}
+== scores
+Qwen__Qwen2.5-7B-Instruct/sample0#nolang {'replacement_nolang': 0.2055, 'delta': 0.0053, 'ci': (-0.0055, 0.015756249999999965), 'false_rewards_nolang': 217}
+Qwen__Qwen2.5-7B-Instruct/sample0 {'n': 4000, 'skyrl': 0.2003, 'replacement': 0.207, 'delta_repl_minus_skyrl': 0.0067, 'ci': (-0.004006249999999999, 0.017006249999999966), 'rows_gained': 246, 'rows_lost': 219, 'gate': 0.3297, 'replacement_gate_constraints': 0.2605, 'delta_gate': -0.0693, 'ci_gate': (-0.08175625, -0.056), 'skyrl_rewards': 801, 'false_rewards': 219, 'gate_passes': 1319, 'false_gate_passes': 481}
+Qwen__Qwen3-4B-Instruct-2507/greedy#nolang {'replacement_nolang': 0.342, 'delta': 0.049, 'ci': (0.031, 0.068), 'false_rewards_nolang': 22}
+Qwen__Qwen3-4B-Instruct-2507/greedy {'n': 1000, 'skyrl': 0.293, 'replacement': 0.344, 'delta_repl_minus_skyrl': 0.051, 'ci': (0.033, 0.071), 'rows_gained': 73, 'rows_lost': 22, 'gate': 0.499, 'replacement_gate_constraints': 0.428, 'delta_gate': -0.071, 'ci_gate': (-0.1, -0.042), 'skyrl_rewards': 293, 'false_rewards': 22, 'gate_passes': 499, 'false_gate_passes': 144}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat#nolang {'replacement_nolang': 0.345, 'delta': 0.05, 'ci': (0.032, 0.069), 'false_rewards_nolang': 23}
+Qwen__Qwen3-4B-Instruct-2507/greedy_repeat {'n': 1000, 'skyrl': 0.295, 'replacement': 0.347, 'delta_repl_minus_skyrl': 0.052, 'ci': (0.034, 0.071), 'rows_gained': 75, 'rows_lost': 23, 'gate': 0.5, 'replacement_gate_constraints': 0.433, 'delta_gate': -0.067, 'ci_gate': (-0.097, -0.037), 'skyrl_rewards': 295, 'false_rewards': 23, 'gate_passes': 500, 'false_gate_passes': 143}
+Qwen__Qwen3-4B-Instruct-2507/sample0#nolang {'replacement_nolang': 0.3391, 'delta': 0.0437, 'ci': (0.03748836422103749, 0.050012693577050016), 'false_rewards_nolang': 449}
+Qwen__Qwen3-4B-Instruct-2507/sample0 {'n': 11817, 'skyrl': 0.2954, 'replacement': 0.3397, 'delta_repl_minus_skyrl': 0.0443, 'ci': (0.03824786324786325, 0.05068968435305069), 'rows_gained': 981, 'rows_lost': 458, 'gate': 0.4775, 'replacement_gate_constraints': 0.4276, 'delta_gate': -0.0499, 'ci_gate': (-0.05864644156723365, -0.04197342811204197), 'skyrl_rewards': 3491, 'false_rewards': 458, 'gate_passes': 5643, 'false_gate_passes': 1688}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0#nolang {'replacement_nolang': 0.63, 'delta': 0.0767, 'ci': (0.05798333333333334, 0.09733333333333333), 'false_rewards_nolang': 67}
+Qwen__Qwen3-4B-Thinking-2507__thinking/sample0 {'n': 1500, 'skyrl': 0.5533, 'replacement': 0.6413, 'delta_repl_minus_skyrl': 0.088, 'ci': (0.068, 0.10933333333333334), 'rows_gained': 199, 'rows_lost': 67, 'gate': 0.634, 'replacement_gate_constraints': 0.6733, 'delta_gate': 0.0393, 'ci_gate': (0.018, 0.062), 'skyrl_rewards': 830, 'false_rewards': 67, 'gate_passes': 951, 'false_gate_passes': 111}
+allenai__OLMo-2-1124-7B-Instruct/sample0#nolang {'replacement_nolang': 0.1826, 'delta': -0.0083, 'ci': (-0.016514507253626815, 0.0), 'false_rewards_nolang': 169}
+allenai__OLMo-2-1124-7B-Instruct/sample0 {'n': 3998, 'skyrl': 0.1908, 'replacement': 0.1831, 'delta_repl_minus_skyrl': -0.0078, 'ci': (-0.016258129064532265, 0.0007503751875937969), 'rows_gained': 141, 'rows_lost': 172, 'gate': 0.3202, 'replacement_gate_constraints': 0.2416, 'delta_gate': -0.0785, 'ci_gate': (-0.09104552276138068, -0.06603301650825413), 'skyrl_rewards': 763, 'false_rewards': 172, 'gate_passes': 1280, 'false_gate_passes': 510}
+== rerun {'rows': 1000, 'identical_responses': 506, 'skyrl_changed_rows': 16, 'repl_changed_rows': 19, 'gate_changed_rows': 27, 'skyrl_score_diff': 0.002, 'repl_score_diff': 0.003, 'gate_score_diff': 0.001}
+== nth>num {'responses': 161, 'skyrl_reward_differs_between_seeds': 6, 'skyrl_reward_1_seed1': 9, 'skyrl_reward_1_either_seed': 11, 'nth_constraint_pass_seed1': 14}
+== per check (constraint level)
+change_case:capital_word_frequency             n=1207  sky=920   repl=911   gate=960  /1207  skyFP=18   skyFF=9    gateFP=80   gateFF=31   gate!=sky=120  err=0
+change_case:english_capital                    n=1534  sky=692   repl=756   gate=844  /1534  skyFP=20   skyFF=84   gateFP=99   gateFF=11   gate!=sky=160  err=0
+change_case:english_lowercase                  n=1208  sky=833   repl=834   gate=935  /1208  skyFP=1    skyFF=2    gateFP=122  gateFF=21   gate!=sky=140  err=0
+combination:two_responses                      n=557   sky=454   repl=424   gate=454  /557   skyFP=31   skyFF=1    gateFP=31   gateFF=1    gate!=sky=0    err=0
+copy:repeat_phrase                             n=1059  sky=94    repl=32    gate=483  /1059  skyFP=67   skyFF=5    gateFP=483  gateFF=32   gate!=sky=577  err=0
+count:count_unique                             n=1341  sky=201   repl=299   gate=-    /0     skyFP=8    skyFF=106  gateFP=0    gateFF=0    gate!=sky=0    err=0
+count:counting_composition                     n=1     sky=0     repl=0     gate=0    /1     skyFP=0    skyFF=0    gateFP=0    gateFF=0    gate!=sky=0    err=0
+count:lowercase_counting                       n=1712  sky=261   repl=505   gate=1514 /1712  skyFP=41   skyFF=285  gateFP=1181 gateFF=172  gate!=sky=1623 err=0
+detectable_content:number_placeholders         n=1201  sky=1099  repl=1092  gate=1098 /1201  skyFP=8    skyFF=1    gateFP=7    gateFF=1    gate!=sky=1    err=0
+detectable_content:postscript                  n=1277  sky=1064  repl=736   gate=925  /1277  skyFP=329  skyFF=1    gateFP=194  gateFF=5    gate!=sky=139  err=0
+detectable_format:bigram_wrapping              n=1157  sky=224   repl=39    gate=-    /0     skyFP=185  skyFF=0    gateFP=0    gateFF=0    gate!=sky=0    err=0
+detectable_format:constrained_response         n=243   sky=218   repl=215   gate=140  /243   skyFP=3    skyFF=0    gateFP=0    gateFF=75   gate!=sky=78   err=0
+detectable_format:json_format                  n=266   sky=218   repl=218   gate=218  /266   skyFP=0    skyFF=0    gateFP=0    gateFF=0    gate!=sky=0    err=0
+detectable_format:multiple_sections            n=917   sky=797   repl=743   gate=780  /917   skyFP=78   skyFF=24   gateFP=42   gateFF=5    gate!=sky=61   err=0
+detectable_format:number_bullet_lists          n=1019  sky=816   repl=831   gate=831  /1019  skyFP=3    skyFF=18   gateFP=0    gateFF=0    gate!=sky=21   err=0
+detectable_format:number_highlighted_sections  n=1070  sky=999   repl=992   gate=999  /1070  skyFP=8    skyFF=1    gateFP=7    gateFF=0    gate!=sky=2    err=0
+detectable_format:sentence_hyphens             n=1300  sky=255   repl=1027  gate=253  /1300  skyFP=0    skyFF=772  gateFP=2    gateFF=776  gate!=sky=500  err=0
+detectable_format:square_brackets              n=1079  sky=175   repl=197   gate=1027 /1079  skyFP=33   skyFF=55   gateFP=832  gateFF=2    gate!=sky=856  err=0
+detectable_format:title                        n=1189  sky=1155  repl=1148  gate=1155 /1189  skyFP=9    skyFF=2    gateFP=9    gateFF=2    gate!=sky=0    err=0
+first_word:first_word_answer                   n=1089  sky=786   repl=922   gate=927  /1089  skyFP=0    skyFF=136  gateFP=6    gateFF=1    gate!=sky=141  err=0
+first_word:first_word_sent                     n=1024  sky=331   repl=423   gate=443  /1024  skyFP=13   skyFF=105  gateFP=29   gateFF=9    gate!=sky=118  err=0
+keywords:existence                             n=1856  sky=1404  repl=1276  gate=1338 /1856  skyFP=128  skyFF=0    gateFP=63   gateFF=1    gate!=sky=66   err=0
+keywords:forbidden_words                       n=1687  sky=1630  repl=1632  gate=1630 /1687  skyFP=1    skyFF=3    gateFP=1    gateFF=3    gate!=sky=0    err=0
+keywords:frequency                             n=1200  sky=972   repl=957   gate=971  /1200  skyFP=39   skyFF=24   gateFP=16   gateFF=2    gate!=sky=45   err=0
+keywords:keyword_specific_position             n=1341  sky=37    repl=49    gate=49   /1341  skyFP=6    skyFF=18   gateFP=9    gateFF=9    gate!=sky=22   err=0
+keywords:letter_frequency                      n=1507  sky=857   repl=851   gate=857  /1507  skyFP=6    skyFF=0    gateFP=6    gateFF=0    gate!=sky=0    err=0
+keywords:no_adjacent_consecutive               n=1499  sky=356   repl=357   gate=1151 /1499  skyFP=110  skyFF=111  gateFP=858  gateFF=64   gate!=sky=915  err=0
+keywords:palindrome                            n=1165  sky=1052  repl=867   gate=739  /1165  skyFP=222  skyFF=37   gateFP=13   gateFF=141  gate!=sky=373  err=0
+keywords:start_end                             n=989   sky=293   repl=338   gate=368  /989   skyFP=5    skyFF=50   gateFP=57   gateFF=27   gate!=sky=105  err=0
+keywords:word_count_different_numbers          n=1015  sky=550   repl=368   gate=550  /1015  skyFP=339  skyFF=157  gateFP=338  gateFF=156  gate!=sky=60   err=0
+keywords:word_once                             n=1808  sky=461   repl=1308  gate=469  /1808  skyFP=48   skyFF=895  gateFP=14   gateFF=853  gate!=sky=82   err=0
+language:response_language                     n=1600  sky=1413  repl=1409  gate=-    /0     skyFP=4    skyFF=0    gateFP=0    gateFF=0    gate!=sky=0    err=0
+last_word:last_word_answer                     n=1285  sky=896   repl=964   gate=976  /1285  skyFP=0    skyFF=68   gateFP=14   gateFF=2    gate!=sky=80   err=1
+last_word:last_word_sent                       n=1203  sky=334   repl=324   gate=401  /1203  skyFP=43   skyFF=33   gateFP=84   gateFF=7    gate!=sky=75   err=0
+length_constraints:nth_paragraph_first_word    n=1048  sky=408   repl=398   gate=402  /1048  skyFP=15   skyFF=5    gateFP=4    gateFF=0    gate!=sky=24   err=0
+length_constraints:number_paragraphs           n=1345  sky=997   repl=854   gate=570  /1345  skyFP=166  skyFF=23   gateFP=104  gateFF=388  gate!=sky=561  err=0
+length_constraints:number_sentences            n=1131  sky=797   repl=824   gate=788  /1131  skyFP=61   skyFF=88   gateFP=64   gateFF=100  gate!=sky=17   err=0
+length_constraints:number_words                n=1443  sky=1062  repl=1060  gate=1017 /1443  skyFP=16   skyFF=14   gateFP=16   gateFF=59   gate!=sky=71   err=0
+letters:letter_counting                        n=961   sky=593   repl=635   gate=-    /0     skyFP=30   skyFF=72   gateFP=0    gateFF=0    gate!=sky=0    err=0
+letters:letter_counting2                       n=1346  sky=734   repl=724   gate=734  /1346  skyFP=10   skyFF=0    gateFP=10   gateFF=0    gate!=sky=0    err=0
+paragraphs:paragraphs                          n=1150  sky=960   repl=833   gate=1117 /1150  skyFP=131  skyFF=4    gateFP=284  gateFF=0    gate!=sky=157  err=0
+paragraphs:paragraphs2                         n=1391  sky=869   repl=870   gate=1312 /1391  skyFP=2    skyFF=3    gateFP=442  gateFF=0    gate!=sky=443  err=0
+punctuation:no_comma                           n=1523  sky=1351  repl=1324  gate=1351 /1523  skyFP=27   skyFF=0    gateFP=27   gateFF=0    gate!=sky=0    err=0
+punctuation:punctuation_dot                    n=1749  sky=903   repl=848   gate=903  /1749  skyFP=55   skyFF=0    gateFP=55   gateFF=0    gate!=sky=0    err=0
+punctuation:punctuation_exclamation            n=1284  sky=1224  repl=1215  gate=1224 /1284  skyFP=9    skyFF=0    gateFP=9    gateFF=0    gate!=sky=0    err=0
+startend:end_checker                           n=997   sky=871   repl=708   gate=681  /997   skyFP=165  skyFF=2    gateFP=3    gateFF=30   gate!=sky=190  err=0
+startend:quotation                             n=810   sky=696   repl=697   gate=697  /810   skyFP=0    skyFF=1    gateFP=0    gateFF=0    gate!=sky=1    err=0
+== attribution
+('change_case:capital_word_frequency', 'gate') {'extraction_failure': 10, 'decision:D-capital-word': 80, 'any_decision': 81, 'decision:D-word-units': 1, 'defect_false_fail': 19, 'defect_false_pass': 1}
+('change_case:capital_word_frequency', 'skyrl') {'extraction_failure': 6, 'decision:D-word-units': 11, 'any_decision': 16, 'decision:D-capital-word': 3, 'decision:D-word-cjk+D-capital-word': 2, 'defect_false_fail': 3, 'defect_false_pass': 2}
+('change_case:english_capital', 'gate') {'defect_false_pass': 99, 'defect_false_fail': 7, 'decision:D-language-mixed': 4, 'any_decision': 4}
+('change_case:english_capital', 'skyrl') {'defect_false_pass': 20, 'defect_false_fail': 70, 'decision:D-language-mixed': 14, 'any_decision': 14}
+('change_case:english_lowercase', 'gate') {'defect_false_pass': 122, 'defect_false_fail': 11, 'decision:D-language-mixed': 8, 'any_decision': 10, 'decision:D-word-cjk+D-language-mixed': 2}
+('change_case:english_lowercase', 'skyrl') {'defect_false_pass': 1, 'defect_false_fail': 1, 'decision:D-language-mixed': 1, 'any_decision': 1}
+('combination:two_responses', 'gate') {'extraction_failure': 1, 'defect_false_pass': 30, 'defect_false_fail': 1}
+('combination:two_responses', 'skyrl') {'extraction_failure': 1, 'defect_false_pass': 30, 'defect_false_fail': 1}
+('copy:repeat_phrase', 'gate') {'extraction_failure': 6, 'defect_false_pass': 456, 'decision:D-repeat-center+D-repeat-original': 12, 'any_decision': 22, 'defect_false_fail': 31, 'decision:D-repeat-original': 9, 'decision:D-word-case': 1}
+('copy:repeat_phrase', 'skyrl') {'defect_false_pass': 53, 'decision:D-repeat-center': 14, 'any_decision': 15, 'decision:D-word-case': 1, 'defect_false_fail': 4}
+('count:count_unique', 'skyrl') {'defect_false_fail': 88, 'defect_false_pass': 6, 'decision:D-word-cjk': 12, 'any_decision': 20, 'decision:D-word-units': 6, 'decision:D-word-case': 2}
+('count:lowercase_counting', 'gate') {'extraction_failure': 14, 'defect_false_pass': 1167, 'decision:D-word-cjk': 8, 'any_decision': 39, 'decision:D-lowercase-count': 3, 'decision:D-lowercase-scope': 11, 'defect_false_fail': 133, 'decision:D-word-cjk+D-lowercase-scope': 9, 'decision:D-word-units': 8, 'decision:D-word-units+D-lowercase-scope': 4, 'decision:D-word-cjk+D-lowercase-count': 1, 'decision:D-word-units+D-lowercase-count': 1}
+('count:lowercase_counting', 'skyrl') {'decision:D-lowercase-scope': 275, 'any_decision': 285, 'decision:D-lowercase-count': 13, 'decision:D-word-units': 15, 'defect_false_pass': 41, 'decision:D-word-cjk': 8, 'decision:D-word-units+D-lowercase-scope': 4}
+('detectable_content:number_placeholders', 'gate') {'extraction_failure': 7, 'defect_false_fail': 1}
+('detectable_content:number_placeholders', 'skyrl') {'extraction_failure': 7, 'defect_false_fail': 1, 'defect_false_pass': 1}
+('detectable_content:postscript', 'gate') {'extraction_failure': 8, 'defect_false_fail': 5, 'decision:D-postscript-position': 58, 'any_decision': 118, 'decision:D-postscript-case': 57, 'defect_false_pass': 68, 'decision:D-postscript-case+D-postscript-position': 3}
+('detectable_content:postscript', 'skyrl') {'extraction_failure': 8, 'decision:D-postscript-position': 63, 'any_decision': 123, 'defect_false_pass': 198, 'decision:D-postscript-case': 57, 'defect_false_fail': 1, 'decision:D-postscript-case+D-postscript-position': 3}
+('detectable_format:bigram_wrapping', 'skyrl') {'defect_false_pass': 184, 'decision:D-word-cjk': 1, 'any_decision': 1}
+('detectable_format:constrained_response', 'gate') {'decision:D-constrained-extra': 75, 'any_decision': 75}
+('detectable_format:constrained_response', 'skyrl') {'defect_false_pass': 3}
+('detectable_format:multiple_sections', 'gate') {'defect_false_pass': 36, 'decision:D-sections-preamble': 6, 'any_decision': 7, 'defect_false_fail': 4, 'decision:D-section-case': 1}
+('detectable_format:multiple_sections', 'skyrl') {'extraction_failure': 6, 'defect_false_pass': 66, 'decision:D-sections-preamble': 6, 'any_decision': 28, 'decision:D-section-case': 22, 'defect_false_fail': 2}
+('detectable_format:number_bullet_lists', 'skyrl') {'defect_false_fail': 18, 'defect_false_pass': 3}
+('detectable_format:number_highlighted_sections', 'gate') {'extraction_failure': 2, 'defect_false_pass': 5}
+('detectable_format:number_highlighted_sections', 'skyrl') {'extraction_failure': 2, 'defect_false_pass': 6, 'defect_false_fail': 1}
+('detectable_format:sentence_hyphens', 'gate') {'decision:D-hyphens-single': 774, 'decision:D-hyphens-spaces': 738, 'any_decision': 778, 'decision:D-sentence-split': 2}
+('detectable_format:sentence_hyphens', 'skyrl') {'decision:D-hyphens-single': 765, 'decision:D-hyphens-spaces': 524, 'any_decision': 767, 'defect_false_fail': 5}
+('detectable_format:square_brackets', 'gate') {'extraction_failure': 8, 'decision:D-brackets-each': 169, 'any_decision': 169, 'defect_false_pass': 655, 'defect_false_fail': 2}
+('detectable_format:square_brackets', 'skyrl') {'defect_false_pass': 12, 'decision:D-brackets-each': 21, 'any_decision': 32, 'defect_false_fail': 44, 'decision:D-word-units': 6, 'decision:D-word-cjk': 5}
+('detectable_format:title', 'gate') {'extraction_failure': 9, 'defect_false_fail': 2}
+('detectable_format:title', 'skyrl') {'extraction_failure': 9, 'defect_false_fail': 2}
+('first_word:first_word_answer', 'gate') {'defect_false_fail': 1, 'defect_false_pass': 5, 'decision:D-word-units': 1, 'any_decision': 1}
+('first_word:first_word_answer', 'skyrl') {'decision:D-word-case': 62, 'any_decision': 62, 'defect_false_fail': 74}
+('first_word:first_word_sent', 'gate') {'decision:D-sentence-split': 15, 'any_decision': 22, 'defect_false_pass': 13, 'decision:D-word-case': 6, 'defect_false_fail': 3, 'decision:D-word-units': 1}
+('first_word:first_word_sent', 'skyrl') {'decision:D-word-case': 41, 'any_decision': 52, 'decision:D-sentence-split': 11, 'defect_false_fail': 64, 'defect_false_pass': 2}
+('keywords:existence', 'gate') {'extraction_failure': 4, 'decision:D-word-units': 59, 'decision:D-keyword-inflection': 11, 'any_decision': 59, 'defect_false_fail': 1}
+('keywords:existence', 'skyrl') {'extraction_failure': 4, 'decision:D-keyword-inflection': 43, 'any_decision': 91, 'decision:D-word-units': 59, 'defect_false_pass': 33}
+('keywords:forbidden_words', 'gate') {'decision:D-word-units': 3, 'any_decision': 3, 'defect_false_pass': 1}
+('keywords:forbidden_words', 'skyrl') {'decision:D-word-units': 3, 'any_decision': 3, 'defect_false_pass': 1}
+('keywords:frequency', 'gate') {'extraction_failure': 3, 'decision:D-word-units': 15, 'any_decision': 15, 'decision:D-keyword-inflection': 3}
+('keywords:frequency', 'skyrl') {'extraction_failure': 3, 'decision:D-keyword-inflection': 19, 'any_decision': 31, 'decision:D-word-units': 15, 'defect_false_fail': 16, 'defect_false_pass': 13}
+('keywords:keyword_specific_position', 'gate') {'decision:D-word-case': 1, 'decision:D-sentence-split': 8, 'any_decision': 8, 'defect_false_fail': 5, 'defect_false_pass': 5, 'decision:D-word-units': 1}
+('keywords:keyword_specific_position', 'skyrl') {'decision:D-word-case': 3, 'decision:D-sentence-split': 7, 'any_decision': 13, 'decision:D-word-units': 5, 'defect_false_fail': 8, 'defect_false_pass': 3}
+('keywords:letter_frequency', 'gate') {'extraction_failure': 6}
+('keywords:letter_frequency', 'skyrl') {'extraction_failure': 6}
+('keywords:no_adjacent_consecutive', 'gate') {'defect_false_pass': 818, 'decision:D-consecutive-script': 33, 'any_decision': 86, 'decision:D-word-cjk': 8, 'decision:D-word-cjk+D-consecutive-script': 3, 'decision:D-consecutive-order': 40, 'decision:D-word-units+D-consecutive-script': 2, 'defect_false_fail': 18, 'decision:D-word-units': 2}
+('keywords:no_adjacent_consecutive', 'skyrl') {'defect_false_pass': 65, 'decision:D-consecutive-script': 109, 'any_decision': 154, 'decision:D-consecutive-order': 45, 'defect_false_fail': 2}
+('keywords:palindrome', 'gate') {'extraction_failure': 4, 'decision:D-palindrome-unit': 9, 'decision:D-palindrome-length': 7, 'any_decision': 13, 'defect_false_fail': 137, 'decision:D-word-cjk': 6, 'decision:D-word-units': 1}
+('keywords:palindrome', 'skyrl') {'extraction_failure': 4, 'decision:D-palindrome-unit': 202, 'decision:D-palindrome-length': 210, 'any_decision': 221, 'decision:D-word-units': 12, 'defect_false_fail': 34, 'decision:D-word-cjk': 3, 'decision:D-word-cjk+D-palindrome-length': 1}
+('keywords:start_end', 'gate') {'extraction_failure': 1, 'defect_false_pass': 55, 'decision:D-word-cjk': 15, 'decision:D-start-end-single': 13, 'any_decision': 21, 'defect_false_fail': 7, 'decision:D-word-case': 1}
+('keywords:start_end', 'skyrl') {'extraction_failure': 1, 'defect_false_pass': 4, 'decision:D-start-end-single': 42, 'any_decision': 45, 'defect_false_fail': 5, 'decision:D-word-cjk': 12, 'decision:D-word-units': 4, 'decision:D-word-case': 1}
+('keywords:word_count_different_numbers', 'gate') {'extraction_failure': 2, 'decision:D-word-case': 42, 'decision:D-word-count-exact': 150, 'any_decision': 213, 'decision:D-keyword-inflection': 16, 'defect_false_pass': 159, 'decision:D-word-units': 14, 'decision:D-keyword-inflection+D-word-count-exact': 5, 'defect_false_fail': 120, 'decision:D-word-units+D-word-count-exact': 4}
+('keywords:word_count_different_numbers', 'skyrl') {'extraction_failure': 2, 'decision:D-word-case': 42, 'decision:D-word-count-exact': 150, 'any_decision': 211, 'decision:D-keyword-inflection': 14, 'defect_false_pass': 162, 'decision:D-word-units': 14, 'defect_false_fail': 121, 'decision:D-keyword-inflection+D-word-count-exact': 5, 'decision:D-word-units+D-word-count-exact': 4}
+('keywords:word_once', 'gate') {'defect_false_fail': 766, 'decision:D-word-case': 87, 'any_decision': 100, 'decision:D-word-units': 13, 'decision:D-keyword-inflection': 4, 'defect_false_pass': 1}
+('keywords:word_once', 'skyrl') {'defect_false_fail': 803, 'decision:D-word-case': 92, 'any_decision': 117, 'decision:D-keyword-inflection': 15, 'decision:D-word-units+D-keyword-inflection': 1, 'defect_false_pass': 23, 'decision:D-word-units': 12}
+('language:response_language', 'skyrl') {'extraction_failure': 2, 'defect_false_pass': 2}
+('last_word:last_word_answer', 'gate') {'defect_false_pass': 14, 'defect_false_fail': 2}
+('last_word:last_word_answer', 'skyrl') {'decision:D-word-case': 5, 'any_decision': 5, 'defect_false_fail': 63}
+('last_word:last_word_sent', 'gate') {'defect_false_pass': 46, 'decision:D-sentence-split': 38, 'any_decision': 38, 'defect_false_fail': 7}
+('last_word:last_word_sent', 'skyrl') {'defect_false_fail': 33, 'decision:D-sentence-split': 31, 'any_decision': 31, 'defect_false_pass': 12}
+('length_constraints:nth_paragraph_first_word', 'gate') {'defect_false_pass': 4}
+('length_constraints:nth_paragraph_first_word', 'skyrl') {'decision:D-paragraph-blank-lines': 1, 'any_decision': 2, 'defect_false_fail': 4, 'defect_false_pass': 14, 'decision:D-word-case': 1}
+('length_constraints:number_paragraphs', 'gate') {'decision:D-divider-blank-lines': 253, 'any_decision': 265, 'defect_false_fail': 201, 'defect_false_pass': 26, 'decision:D-divider-edges': 12, 'decision:D-divider-form': 2}
+('length_constraints:number_paragraphs', 'skyrl') {'decision:D-divider-blank-lines': 50, 'any_decision': 159, 'defect_false_fail': 8, 'decision:D-divider-edges': 108, 'defect_false_pass': 22, 'decision:D-divider-form': 1}
+('length_constraints:number_sentences', 'gate') {'extraction_failure': 4, 'defect_false_fail': 71, 'decision:D-sentence-split': 70, 'any_decision': 70, 'defect_false_pass': 19}
+('length_constraints:number_sentences', 'skyrl') {'extraction_failure': 4, 'defect_false_fail': 59, 'decision:D-sentence-split': 71, 'any_decision': 71, 'defect_false_pass': 15}
+('length_constraints:number_words', 'gate') {'extraction_failure': 5, 'defect_false_pass': 7, 'defect_false_fail': 56, 'decision:D-word-units': 7, 'any_decision': 7}
+('length_constraints:number_words', 'skyrl') {'extraction_failure': 5, 'defect_false_fail': 6, 'defect_false_pass': 2, 'decision:D-word-units': 17, 'any_decision': 17, 'decision:D-word-cjk': 1}
+('letters:letter_counting', 'skyrl') {'extraction_failure': 5, 'decision:D-empty-response': 1, 'any_decision': 97, 'decision:D-letter-script': 96}
+('letters:letter_counting2', 'gate') {'extraction_failure': 9, 'defect_false_pass': 1}
+('letters:letter_counting2', 'skyrl') {'extraction_failure': 9, 'defect_false_pass': 1}
+('paragraphs:paragraphs', 'gate') {'extraction_failure': 5, 'decision:D-divider-edges+D-divider-blank-lines': 13, 'any_decision': 147, 'decision:D-divider-blank-lines': 91, 'defect_false_pass': 132, 'decision:D-divider-edges': 40, 'decision:D-divider-form': 3}
+('paragraphs:paragraphs', 'skyrl') {'defect_false_pass': 54, 'decision:D-divider-edges': 32, 'any_decision': 78, 'decision:D-divider-blank-lines': 45, 'defect_false_fail': 3, 'decision:D-divider-form': 1}
+('paragraphs:paragraphs2', 'gate') {'extraction_failure': 5, 'defect_false_pass': 435, 'decision:D-paragraph-blank-lines': 2, 'any_decision': 2}
+('paragraphs:paragraphs2', 'skyrl') {'decision:D-paragraph-blank-lines': 5, 'any_decision': 5}
+('punctuation:no_comma', 'gate') {'decision:D-comma-chars': 27, 'any_decision': 27}
+('punctuation:no_comma', 'skyrl') {'decision:D-comma-chars': 27, 'any_decision': 27}
+('punctuation:punctuation_dot', 'gate') {'decision:D-dot-chars': 55, 'any_decision': 55}
+('punctuation:punctuation_dot', 'skyrl') {'decision:D-dot-chars': 55, 'any_decision': 55}
+('punctuation:punctuation_exclamation', 'gate') {'decision:D-exclamation-chars': 9, 'any_decision': 9}
+('punctuation:punctuation_exclamation', 'skyrl') {'decision:D-exclamation-chars': 9, 'any_decision': 9}
+('startend:end_checker', 'gate') {'decision:D-end-markup': 30, 'any_decision': 30, 'defect_false_pass': 3}
+('startend:end_checker', 'skyrl') {'decision:D-end-case': 162, 'any_decision': 164, 'decision:D-end-markup': 2, 'defect_false_pass': 3}
+('startend:quotation', 'skyrl') {'decision:D-quote-chars': 1, 'any_decision': 1}

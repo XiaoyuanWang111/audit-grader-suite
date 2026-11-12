@@ -1,0 +1,32 @@
+{
+ "data_rows": {
+  "postscript shown as P.S (no period)": 147,
+  "word_count_different_numbers rows": 526,
+  "english_capital + end_checker (phrase has lower case)": 45,
+  "no_comma + response_language": 54,
+  "english_lowercase + end_checker (phrase has capitals)": 48,
+  "nth_paragraph > num_paragraphs": 77,
+  "english_lowercase + postscript (P.S. capitals)": 34,
+  "english_capital + postscript": 37
+ },
+ "panel_postscript_shown_without_period": {
+  "verdicts on rows showing P.S": 282,
+  "contract pass, task curation fail": 100,
+  "contract pass, SkyRL fail": 93
+ },
+ "panel_extraction": {
+  "non-reasoning answer containing <think> (graded as empty)": 14,
+  "... of which SkyRL reward 1.0": 7,
+  "... of which gate passed": 6,
+  "SkyRL INFRA_ERROR rows": 1,
+  "thinking: reasoning never closed": 139,
+  "thinking: never closed, SkyRL reward 1.0": 1,
+  "thinking: never closed, task-curation gate passed": 18,
+  "thinking: answer after </think> contains <think> (graded as empty)": 1
+ },
+ "panel_truncation": {
+  "truncated": 1063,
+  "truncated, SkyRL reward 1.0": 122,
+  "truncated, contract all pass": 115
+ }
+}

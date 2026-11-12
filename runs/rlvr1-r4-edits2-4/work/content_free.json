@@ -1,0 +1,1882 @@
+{
+ "per_row": {
+  "empty": {
+   "rows": 11817,
+   "skyrl_reward_1": 1702,
+   "skyrl_infra_error": 625,
+   "gate_pass": 810,
+   "gate_pass_empty_gate": 94,
+   "replacement_all_pass": 0
+  },
+  "repeated": {
+   "rows": 11817,
+   "skyrl_reward_1": 597,
+   "skyrl_infra_error": 0,
+   "gate_pass": 1053,
+   "gate_pass_empty_gate": 94,
+   "replacement_all_pass": 554
+  },
+  "restatement": {
+   "rows": 11817,
+   "skyrl_reward_1": 746,
+   "skyrl_infra_error": 0,
+   "gate_pass": 1365,
+   "gate_pass_empty_gate": 94,
+   "replacement_all_pass": 451
+  }
+ },
+ "per_id": {
+  "empty": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "skyrl_pass": 335,
+    "skyrl_error": 0,
+    "gate_pass": 335,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "skyrl_pass": 687,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 687,
+    "replacement_pass": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "skyrl_pass": 869,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "skyrl_pass": 575,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 575,
+    "replacement_pass": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "skyrl_pass": 669,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "skyrl_pass": 553,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "skyrl_pass": 540,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:existence": {
+    "n": 932,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "skyrl_pass": 836,
+    "skyrl_error": 0,
+    "gate_pass": 836,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "skyrl_pass": 311,
+    "skyrl_error": 0,
+    "gate_pass": 311,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "skyrl_pass": 420,
+    "skyrl_error": 0,
+    "gate_pass": 420,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "skyrl_pass": 818,
+    "skyrl_error": 0,
+    "gate_pass": 818,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "skyrl_pass": 206,
+    "skyrl_error": 0,
+    "gate_pass": 206,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "skyrl_pass": 780,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 780,
+    "replacement_pass": 0
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "skyrl_pass": 0,
+    "skyrl_error": 625,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "skyrl_pass": 600,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "skyrl_pass": 269,
+    "skyrl_error": 0,
+    "gate_pass": 269,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "skyrl_pass": 328,
+    "skyrl_error": 0,
+    "gate_pass": 328,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "skyrl_pass": 203,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 497,
+    "replacement_pass": 0
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "skyrl_pass": 394,
+    "skyrl_error": 0,
+    "gate_pass": 394,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "skyrl_pass": 730,
+    "skyrl_error": 0,
+    "gate_pass": 730,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "skyrl_pass": 847,
+    "skyrl_error": 0,
+    "gate_pass": 847,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "skyrl_pass": 627,
+    "skyrl_error": 0,
+    "gate_pass": 627,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   }
+  },
+  "repeated": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "skyrl_pass": 335,
+    "skyrl_error": 0,
+    "gate_pass": 335,
+    "gate_judged": 0,
+    "replacement_pass": 335
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 604,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 687,
+    "replacement_pass": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 869,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 575,
+    "replacement_pass": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "skyrl_pass": 669,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 669
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "skyrl_pass": 2,
+    "skyrl_error": 0,
+    "gate_pass": 2,
+    "gate_judged": 0,
+    "replacement_pass": 2
+   },
+   "keywords:existence": {
+    "n": 932,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "skyrl_pass": 836,
+    "skyrl_error": 0,
+    "gate_pass": 836,
+    "gate_judged": 0,
+    "replacement_pass": 836
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "skyrl_pass": 312,
+    "skyrl_error": 0,
+    "gate_pass": 312,
+    "gate_judged": 0,
+    "replacement_pass": 312
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "skyrl_pass": 417,
+    "skyrl_error": 0,
+    "gate_pass": 417,
+    "gate_judged": 0,
+    "replacement_pass": 417
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "skyrl_pass": 818,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 818
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "skyrl_pass": 499,
+    "skyrl_error": 0,
+    "gate_pass": 499,
+    "gate_judged": 0,
+    "replacement_pass": 499
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "skyrl_pass": 205,
+    "skyrl_error": 0,
+    "gate_pass": 205,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "language:response_language": {
+    "n": 780,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 780,
+    "replacement_pass": 0
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "skyrl_pass": 2,
+    "skyrl_error": 0,
+    "gate_pass": 2,
+    "gate_judged": 0,
+    "replacement_pass": 2
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "skyrl_pass": 131,
+    "skyrl_error": 0,
+    "gate_pass": 131,
+    "gate_judged": 0,
+    "replacement_pass": 131
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "skyrl_pass": 282,
+    "skyrl_error": 0,
+    "gate_pass": 282,
+    "gate_judged": 0,
+    "replacement_pass": 282
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "skyrl_pass": 328,
+    "skyrl_error": 0,
+    "gate_pass": 328,
+    "gate_judged": 0,
+    "replacement_pass": 328
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "skyrl_pass": 294,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 497,
+    "replacement_pass": 294
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "skyrl_pass": 370,
+    "skyrl_error": 0,
+    "gate_pass": 370,
+    "gate_judged": 0,
+    "replacement_pass": 370
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "skyrl_pass": 730,
+    "skyrl_error": 0,
+    "gate_pass": 730,
+    "gate_judged": 0,
+    "replacement_pass": 730
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "skyrl_pass": 847,
+    "skyrl_error": 0,
+    "gate_pass": 847,
+    "gate_judged": 0,
+    "replacement_pass": 847
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "skyrl_pass": 627,
+    "skyrl_error": 0,
+    "gate_pass": 627,
+    "gate_judged": 0,
+    "replacement_pass": 627
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   }
+  },
+  "restatement": {
+   "change_case:capital_word_frequency": {
+    "n": 601,
+    "skyrl_pass": 323,
+    "skyrl_error": 0,
+    "gate_pass": 329,
+    "gate_judged": 0,
+    "replacement_pass": 323
+   },
+   "change_case:english_capital": {
+    "n": 772,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "change_case:english_lowercase": {
+    "n": 604,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "combination:two_responses": {
+    "n": 253,
+    "skyrl_pass": 248,
+    "skyrl_error": 0,
+    "gate_pass": 248,
+    "gate_judged": 0,
+    "replacement_pass": 248
+   },
+   "copy:repeat_phrase": {
+    "n": 554,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "count:count_unique": {
+    "n": 687,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 687,
+    "replacement_pass": 0
+   },
+   "count:counting_composition": {
+    "n": 1,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "count:lowercase_counting": {
+    "n": 869,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 869,
+    "gate_judged": 0,
+    "replacement_pass": 348
+   },
+   "detectable_content:number_placeholders": {
+    "n": 585,
+    "skyrl_pass": 183,
+    "skyrl_error": 0,
+    "gate_pass": 182,
+    "gate_judged": 0,
+    "replacement_pass": 182
+   },
+   "detectable_content:postscript": {
+    "n": 644,
+    "skyrl_pass": 497,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:bigram_wrapping": {
+    "n": 575,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 575,
+    "replacement_pass": 0
+   },
+   "detectable_format:constrained_response": {
+    "n": 120,
+    "skyrl_pass": 120,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:json_format": {
+    "n": 133,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:multiple_sections": {
+    "n": 453,
+    "skyrl_pass": 184,
+    "skyrl_error": 0,
+    "gate_pass": 98,
+    "gate_judged": 0,
+    "replacement_pass": 29
+   },
+   "detectable_format:number_bullet_lists": {
+    "n": 512,
+    "skyrl_pass": 104,
+    "skyrl_error": 0,
+    "gate_pass": 104,
+    "gate_judged": 0,
+    "replacement_pass": 104
+   },
+   "detectable_format:number_highlighted_sections": {
+    "n": 555,
+    "skyrl_pass": 137,
+    "skyrl_error": 0,
+    "gate_pass": 137,
+    "gate_judged": 0,
+    "replacement_pass": 136
+   },
+   "detectable_format:sentence_hyphens": {
+    "n": 669,
+    "skyrl_pass": 23,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 29
+   },
+   "detectable_format:square_brackets": {
+    "n": 553,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 103,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "detectable_format:title": {
+    "n": 589,
+    "skyrl_pass": 589,
+    "skyrl_error": 0,
+    "gate_pass": 589,
+    "gate_judged": 0,
+    "replacement_pass": 589
+   },
+   "first_word:first_word_answer": {
+    "n": 557,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "first_word:first_word_sent": {
+    "n": 540,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:existence": {
+    "n": 932,
+    "skyrl_pass": 932,
+    "skyrl_error": 0,
+    "gate_pass": 932,
+    "gate_judged": 0,
+    "replacement_pass": 932
+   },
+   "keywords:forbidden_words": {
+    "n": 836,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:frequency": {
+    "n": 607,
+    "skyrl_pass": 307,
+    "skyrl_error": 0,
+    "gate_pass": 308,
+    "gate_judged": 0,
+    "replacement_pass": 308
+   },
+   "keywords:keyword_specific_position": {
+    "n": 676,
+    "skyrl_pass": 1,
+    "skyrl_error": 0,
+    "gate_pass": 1,
+    "gate_judged": 0,
+    "replacement_pass": 1
+   },
+   "keywords:letter_frequency": {
+    "n": 783,
+    "skyrl_pass": 374,
+    "skyrl_error": 0,
+    "gate_pass": 374,
+    "gate_judged": 0,
+    "replacement_pass": 374
+   },
+   "keywords:no_adjacent_consecutive": {
+    "n": 818,
+    "skyrl_pass": 116,
+    "skyrl_error": 0,
+    "gate_pass": 624,
+    "gate_judged": 0,
+    "replacement_pass": 80
+   },
+   "keywords:palindrome": {
+    "n": 618,
+    "skyrl_pass": 618,
+    "skyrl_error": 0,
+    "gate_pass": 74,
+    "gate_judged": 0,
+    "replacement_pass": 103
+   },
+   "keywords:start_end": {
+    "n": 499,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "keywords:word_count_different_numbers": {
+    "n": 526,
+    "skyrl_pass": 255,
+    "skyrl_error": 0,
+    "gate_pass": 253,
+    "gate_judged": 0,
+    "replacement_pass": 148
+   },
+   "keywords:word_once": {
+    "n": 917,
+    "skyrl_pass": 907,
+    "skyrl_error": 0,
+    "gate_pass": 913,
+    "gate_judged": 0,
+    "replacement_pass": 917
+   },
+   "language:response_language": {
+    "n": 780,
+    "skyrl_pass": 17,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 780,
+    "replacement_pass": 17
+   },
+   "last_word:last_word_answer": {
+    "n": 625,
+    "skyrl_pass": 130,
+    "skyrl_error": 0,
+    "gate_pass": 154,
+    "gate_judged": 0,
+    "replacement_pass": 130
+   },
+   "last_word:last_word_sent": {
+    "n": 600,
+    "skyrl_pass": 21,
+    "skyrl_error": 0,
+    "gate_pass": 22,
+    "gate_judged": 0,
+    "replacement_pass": 13
+   },
+   "length_constraints:nth_paragraph_first_word": {
+    "n": 515,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "length_constraints:number_paragraphs": {
+    "n": 690,
+    "skyrl_pass": 127,
+    "skyrl_error": 0,
+    "gate_pass": 131,
+    "gate_judged": 0,
+    "replacement_pass": 131
+   },
+   "length_constraints:number_sentences": {
+    "n": 562,
+    "skyrl_pass": 271,
+    "skyrl_error": 0,
+    "gate_pass": 268,
+    "gate_judged": 0,
+    "replacement_pass": 252
+   },
+   "length_constraints:number_words": {
+    "n": 729,
+    "skyrl_pass": 308,
+    "skyrl_error": 0,
+    "gate_pass": 308,
+    "gate_judged": 0,
+    "replacement_pass": 309
+   },
+   "letters:letter_counting": {
+    "n": 497,
+    "skyrl_pass": 294,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 497,
+    "replacement_pass": 294
+   },
+   "letters:letter_counting2": {
+    "n": 705,
+    "skyrl_pass": 296,
+    "skyrl_error": 0,
+    "gate_pass": 296,
+    "gate_judged": 0,
+    "replacement_pass": 296
+   },
+   "paragraphs:paragraphs": {
+    "n": 576,
+    "skyrl_pass": 463,
+    "skyrl_error": 0,
+    "gate_pass": 538,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "paragraphs:paragraphs2": {
+    "n": 744,
+    "skyrl_pass": 354,
+    "skyrl_error": 0,
+    "gate_pass": 453,
+    "gate_judged": 0,
+    "replacement_pass": 354
+   },
+   "punctuation:no_comma": {
+    "n": 730,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "punctuation:punctuation_dot": {
+    "n": 847,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "punctuation:punctuation_exclamation": {
+    "n": 627,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "startend:end_checker": {
+    "n": 537,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   },
+   "startend:quotation": {
+    "n": 417,
+    "skyrl_pass": 0,
+    "skyrl_error": 0,
+    "gate_pass": 0,
+    "gate_judged": 0,
+    "replacement_pass": 0
+   }
+  }
+ },
+ "examples": {
+  "empty": {
+   "last_word:last_word_sent": {
+    "uuid": "3dcf41b6-fa67-435d-9ff3-04f78564472b",
+    "kwargs": {
+     "last_word": "limit"
+    },
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "detectable_format:sentence_hyphens": {
+    "uuid": "81dc1217-64db-4601-9cb2-290943db6ac6",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "length_constraints:number_words": {
+    "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+    "kwargs": {
+     "num_words": 232,
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "detectable_format:bigram_wrapping": {
+    "uuid": "03635476-74ee-41a7-ba4e-880827a325af",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": null,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "punctuation:no_comma": {
+    "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:forbidden_words": {
+    "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729",
+    "kwargs": {
+     "forbidden_words": [
+      "debate",
+      "indication"
+     ]
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "language:response_language": {
+    "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+    "kwargs": {
+     "language": "bg"
+    },
+    "skyrl": true,
+    "gate": null,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "first_word:first_word_sent": {
+    "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+    "kwargs": {
+     "first_word": "celebration"
+    },
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "count:count_unique": {
+    "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": null,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "count:lowercase_counting": {
+    "uuid": "2c3932b8-1385-4961-8d00-eed3ed340c74",
+    "kwargs": {
+     "N": 3
+    },
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "punctuation:punctuation_exclamation": {
+    "uuid": "1086144d-473b-4357-ae53-d530fadc9f1f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "letters:letter_counting": {
+    "uuid": "1086144d-473b-4357-ae53-d530fadc9f1f",
+    "kwargs": {
+     "N": 2,
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": null,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:no_adjacent_consecutive": {
+    "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "punctuation:punctuation_dot": {
+    "uuid": "99c8e92a-e40c-477a-b657-2f27c10cba4a",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:frequency": {
+    "uuid": "c1c77b94-e7c2-4bbb-aac1-150c30623341",
+    "kwargs": {
+     "frequency": 1,
+     "keyword": "budget",
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "detectable_format:square_brackets": {
+    "uuid": "f47cec9e-74ae-40c8-a810-32f67a7c762d",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "change_case:capital_word_frequency": {
+    "uuid": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+    "kwargs": {
+     "capital_frequency": 8,
+     "capital_relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "letters:letter_counting2": {
+    "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b",
+    "kwargs": {
+     "let_frequency": 2,
+     "let_relation": "less than",
+     "letter": "z"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:word_count_different_numbers": {
+    "uuid": "0c19c7cc-1a0f-49d0-99b2-e7d99c22d699",
+    "kwargs": {
+     "frequency": 3,
+     "keyword": "stretch",
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "length_constraints:number_sentences": {
+    "uuid": "d271b8af-88ed-47fb-881a-ba1dbf693ee7",
+    "kwargs": {
+     "num_sentences": 2,
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:letter_frequency": {
+    "uuid": "92cdb4bb-2875-4e33-9825-99f3c2c5b9b3",
+    "kwargs": {
+     "let_frequency": 2,
+     "let_relation": "less than",
+     "letter": "n"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   }
+  },
+  "repeated": {
+   "detectable_format:sentence_hyphens": {
+    "uuid": "81dc1217-64db-4601-9cb2-290943db6ac6",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:start_end": {
+    "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "length_constraints:number_words": {
+    "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+    "kwargs": {
+     "num_words": 232,
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "punctuation:no_comma": {
+    "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:forbidden_words": {
+    "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729",
+    "kwargs": {
+     "forbidden_words": [
+      "debate",
+      "indication"
+     ]
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "count:lowercase_counting": {
+    "uuid": "2c3932b8-1385-4961-8d00-eed3ed340c74",
+    "kwargs": {
+     "N": 3
+    },
+    "skyrl": false,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "punctuation:punctuation_exclamation": {
+    "uuid": "1086144d-473b-4357-ae53-d530fadc9f1f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "change_case:english_lowercase": {
+    "uuid": "72a5a3e8-5725-4b22-b49a-93801c1205c6",
+    "kwargs": null,
+    "skyrl": false,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:no_adjacent_consecutive": {
+    "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "punctuation:punctuation_dot": {
+    "uuid": "99c8e92a-e40c-477a-b657-2f27c10cba4a",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:frequency": {
+    "uuid": "c1c77b94-e7c2-4bbb-aac1-150c30623341",
+    "kwargs": {
+     "frequency": 1,
+     "keyword": "budget",
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "change_case:capital_word_frequency": {
+    "uuid": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+    "kwargs": {
+     "capital_frequency": 8,
+     "capital_relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "letters:letter_counting2": {
+    "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b",
+    "kwargs": {
+     "let_frequency": 2,
+     "let_relation": "less than",
+     "letter": "z"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "length_constraints:number_paragraphs": {
+    "uuid": "35e5da21-fedc-4d0a-bc95-398566013803",
+    "kwargs": {
+     "num_paragraphs": 1
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:word_count_different_numbers": {
+    "uuid": "0c19c7cc-1a0f-49d0-99b2-e7d99c22d699",
+    "kwargs": {
+     "frequency": 3,
+     "keyword": "stretch",
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:letter_frequency": {
+    "uuid": "3f2326f3-f858-49bb-a809-42367f2aab04",
+    "kwargs": {
+     "let_frequency": 7,
+     "let_relation": "at least",
+     "letter": "r"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "length_constraints:number_sentences": {
+    "uuid": "d271b8af-88ed-47fb-881a-ba1dbf693ee7",
+    "kwargs": {
+     "num_sentences": 2,
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "letters:letter_counting": {
+    "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c",
+    "kwargs": {
+     "N": 2,
+     "relation": "at least"
+    },
+    "skyrl": true,
+    "gate": null,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "first_word:first_word_sent": {
+    "uuid": "a1b75782-e75e-48ea-ac15-e20b148f6085",
+    "kwargs": {
+     "first_word": "answer"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "last_word:last_word_sent": {
+    "uuid": "3c7d8a64-2c93-4872-af78-efbe7c8ef247",
+    "kwargs": {
+     "last_word": "answer"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   }
+  },
+  "restatement": {
+   "length_constraints:number_words": {
+    "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+    "kwargs": {
+     "num_words": 232,
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "detectable_format:title": {
+    "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "detectable_format:multiple_sections": {
+    "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+    "kwargs": {
+     "num_sections": 2,
+     "section_spliter": "SECTION"
+    },
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "keywords:palindrome": {
+    "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "count:lowercase_counting": {
+    "uuid": "2c3932b8-1385-4961-8d00-eed3ed340c74",
+    "kwargs": {
+     "N": 3
+    },
+    "skyrl": false,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:no_adjacent_consecutive": {
+    "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+    "kwargs": null,
+    "skyrl": false,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:letter_frequency": {
+    "uuid": "99c8e92a-e40c-477a-b657-2f27c10cba4a",
+    "kwargs": {
+     "let_frequency": 3,
+     "let_relation": "at least",
+     "letter": "y"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "detectable_content:number_placeholders": {
+    "uuid": "4924e25a-253d-43ea-980e-176614525110",
+    "kwargs": {
+     "num_placeholders": 1
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "change_case:capital_word_frequency": {
+    "uuid": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+    "kwargs": {
+     "capital_frequency": 8,
+     "capital_relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "letters:letter_counting2": {
+    "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b",
+    "kwargs": {
+     "let_frequency": 2,
+     "let_relation": "less than",
+     "letter": "z"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:existence": {
+    "uuid": "9372866a-ae31-4e96-b777-ffc75cea6096",
+    "kwargs": {
+     "keywords": [
+      "quote",
+      "teaching"
+     ]
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "combination:two_responses": {
+    "uuid": "4be430c7-92d3-4d47-ae3f-595c00cbfc5b",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "length_constraints:number_paragraphs": {
+    "uuid": "4a17ff27-ed67-4be5-9a6c-73790713f33e",
+    "kwargs": {
+     "num_paragraphs": 2
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "detectable_format:number_highlighted_sections": {
+    "uuid": "4a17ff27-ed67-4be5-9a6c-73790713f33e",
+    "kwargs": {
+     "num_highlights": 1
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "paragraphs:paragraphs": {
+    "uuid": "2733ea8b-33bb-4fa0-b7c7-f4c84e7b2094",
+    "kwargs": {},
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "paragraphs:paragraphs2": {
+    "uuid": "92e34298-6224-4ca6-b512-1e37e093bcb5",
+    "kwargs": {},
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "last_word:last_word_answer": {
+    "uuid": "f303829b-983e-4464-9672-214cca9da9b7",
+    "kwargs": {
+     "last_word": "she"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:frequency": {
+    "uuid": "2695c351-3548-4f1a-b2f3-aebda5d1cb4c",
+    "kwargs": {
+     "frequency": 2,
+     "keyword": "potential",
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:word_once": {
+    "uuid": "2695c351-3548-4f1a-b2f3-aebda5d1cb4c",
+    "kwargs": {
+     "keyword": "beer"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:word_count_different_numbers": {
+    "uuid": "0c19c7cc-1a0f-49d0-99b2-e7d99c22d699",
+    "kwargs": {
+     "frequency": 3,
+     "keyword": "stretch",
+     "relation": "less than"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "detectable_format:number_bullet_lists": {
+    "uuid": "0d6da3d4-84a1-4d95-a8bb-c2ab74797785",
+    "kwargs": {
+     "num_bullets": 2
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "length_constraints:number_sentences": {
+    "uuid": "49d31a8e-ed21-4a0c-9a77-06599fe3e4d8",
+    "kwargs": {
+     "num_sentences": 7,
+     "relation": "at least"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "detectable_content:postscript": {
+    "uuid": "7535f677-d050-4e86-b571-7920914caeb3",
+    "kwargs": {
+     "postscript_marker": "P.S."
+    },
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "letters:letter_counting": {
+    "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c",
+    "kwargs": {
+     "N": 2,
+     "relation": "at least"
+    },
+    "skyrl": true,
+    "gate": null,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "detectable_format:square_brackets": {
+    "uuid": "52e1effe-7e5d-4256-8ee8-dcf28517b600",
+    "kwargs": null,
+    "skyrl": false,
+    "gate": true,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "detectable_format:constrained_response": {
+    "uuid": "6bdb49dd-9d70-49e6-9fc8-26fae70c65d3",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "last_word:last_word_sent": {
+    "uuid": "499ab0a2-3793-4f44-acdc-015f0de7c261",
+    "kwargs": {
+     "last_word": "land"
+    },
+    "skyrl": true,
+    "gate": true,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "detectable_format:sentence_hyphens": {
+    "uuid": "7c15e726-8a54-47e5-980c-341b165a7c92",
+    "kwargs": null,
+    "skyrl": true,
+    "gate": false,
+    "replacement": true,
+    "skyrl_error": null
+   },
+   "keywords:keyword_specific_position": {
+    "uuid": "80978056-06a9-47b1-8cc8-4cdc3add3fe0",
+    "kwargs": {
+     "keyword": "blank",
+     "m": 12,
+     "n": 1
+    },
+    "skyrl": true,
+    "gate": false,
+    "replacement": false,
+    "skyrl_error": null
+   },
+   "language:response_language": {
+    "uuid": "75cb635d-0d02-4e2a-b926-4cae6d9ec5fb",
+    "kwargs": {
+     "language": "en"
+    },
+    "skyrl": true,
+    "gate": null,
+    "replacement": true,
+    "skyrl_error": null
+   }
+  }
+ }
+}

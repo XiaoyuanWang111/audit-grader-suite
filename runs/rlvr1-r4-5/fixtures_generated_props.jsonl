@@ -1,0 +1,25 @@
+{"source": "property P4-word-count-exact", "grader": "NV", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"keyword": "skin", "frequency": 1, "relation": "less than"}, "response": "skin aaab aaab aaab.", "label": "pass"}
+{"source": "property P4-word-count-exact", "grader": "VS", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"keyword": "skin", "frequency": 1, "relation": "less than"}, "response": "skin aaab aaab aaab.", "label": "pass"}
+{"source": "property P4-word-count-exact", "grader": "VG", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"keyword": "skin", "frequency": 1, "relation": "less than"}, "response": "skin aaab aaab aaab.", "label": "pass"}
+{"source": "property P5-number-words", "grader": "VG", "instruction_id": "length_constraints:number_words", "kwargs": {"num_words": 1, "relation": "at least"}, "response": "аа.", "label": "pass"}
+{"source": "property P6-divider-paragraphs", "grader": "VG", "instruction_id": "length_constraints:number_paragraphs", "kwargs": {"num_paragraphs": 2}, "response": "Aaab aaab.\n***\nAaab aaab.", "label": "pass"}
+{"source": "property P7-nth-paragraph-punct", "grader": "NV", "instruction_id": "length_constraints:nth_paragraph_first_word", "kwargs": {"num_paragraphs": 1, "nth_paragraph": 1, "first_word": "crash"}, "response": "Crash: aaab aaab.", "label": "pass"}
+{"source": "property P7-nth-paragraph-punct", "grader": "VS", "instruction_id": "length_constraints:nth_paragraph_first_word", "kwargs": {"num_paragraphs": 1, "nth_paragraph": 1, "first_word": "crash"}, "response": "Crash: aaab aaab.", "label": "pass"}
+{"source": "property P9-bullets-no-palindrome", "grader": "NV", "instruction_id": "keywords:palindrome", "kwargs": null, "response": "- aaab", "label": "fail"}
+{"source": "property P9-bullets-no-palindrome", "grader": "VS", "instruction_id": "keywords:palindrome", "kwargs": null, "response": "- aaab", "label": "fail"}
+{"source": "property P10-first-word-sent", "grader": "NV", "instruction_id": "first_word:first_word_sent", "kwargs": {"first_word": "peace"}, "response": "Peace, aaab.", "label": "pass"}
+{"source": "property P10-first-word-sent", "grader": "VS", "instruction_id": "first_word:first_word_sent", "kwargs": {"first_word": "peace"}, "response": "Peace, aaab.", "label": "pass"}
+{"source": "property P11-end-phrase-word", "grader": "NV", "instruction_id": "startend:end_checker", "kwargs": {"end_phrase": "Any other questions?"}, "response": "aaabany other questions?", "label": "fail"}
+{"source": "property P11-end-phrase-word", "grader": "VS", "instruction_id": "startend:end_checker", "kwargs": {"end_phrase": "Any other questions?"}, "response": "aaabany other questions?", "label": "fail"}
+{"source": "property P14-start-end", "grader": "VG", "instruction_id": "keywords:start_end", "kwargs": null, "response": "Aaac aaab aaac.", "label": "fail"}
+{"source": "property P15-repeat-phrase", "grader": "VG", "instruction_id": "copy:repeat_phrase", "kwargs": {"phrase": "The early bird catches the worm", "small_n": 2}, "response": "The early bird aaab the worm. The early bird aaab the worm.", "label": "pass"}
+{"source": "property P16-count-unique", "grader": "NV", "instruction_id": "count:count_unique", "kwargs": null, "response": "aaab. aaac.", "label": "pass"}
+{"source": "property P16-count-unique", "grader": "VS", "instruction_id": "count:count_unique", "kwargs": null, "response": "aaab. aaac.", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "NV", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "response": "  \nI like cats.-They are cute.-Dogs are fine too.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "NV", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "response": "  \nHello world.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "NV", "instruction_id": "paragraphs:paragraphs2", "kwargs": null, "response": "  \nFirst.\n\nSecond.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "NV", "instruction_id": "paragraphs:paragraphs2", "kwargs": null, "response": "  \nFirst.\n\n\nSecond.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "VS", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "response": "  \nI like cats.-They are cute.-Dogs are fine too.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "VS", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "response": "  \nHello world.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "VS", "instruction_id": "paragraphs:paragraphs2", "kwargs": null, "response": "  \nFirst.\n\nSecond.\n\n\n\n", "label": "pass"}
+{"source": "metamorphic P2 (leading/trailing whitespace)", "grader": "VS", "instruction_id": "paragraphs:paragraphs2", "kwargs": null, "response": "  \nFirst.\n\n\nSecond.\n\n\n\n", "label": "pass"}

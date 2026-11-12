@@ -1,0 +1,4006 @@
+[
+ {
+  "id": "capital_word_frequency:f041df2c7ae79091",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 3,
+   "capital_relation": "at least"
+  },
+  "response": "NASA and the FBI met in DC today.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "capital_word_frequency:34bf630c59527310",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 4,
+   "capital_relation": "at least"
+  },
+  "response": "NASA and the FBI met in DC today.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "capital_word_frequency:f29ea7f2bc1e8597",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 2,
+   "capital_relation": "at least"
+  },
+  "response": "I think NASA is great.",
+  "label": "pass",
+  "decisions": [
+   "D-capital-single-letter"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "capital_word_frequency:12bee39d207d8a68",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 2,
+   "capital_relation": "less than"
+  },
+  "response": "The USA is big.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "capital_word_frequency:71aa2ea50cdd92ec",
+  "instruction_id": "change_case:capital_word_frequency",
+  "kwargs": {
+   "capital_frequency": 1,
+   "capital_relation": "less than"
+  },
+  "response": "Hello, WORLD and USA.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_capital:cae9442d890210e0",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "YES, I CAN HELP YOU WITH THAT. HERE IS THE ANSWER IN CAPITAL LETTERS.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "english_capital:0c13db8f4608a9a0",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "This is my answer.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_capital:b5263918f55aa253",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "THIS IS MY ANSWER. thanks",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_capital:6450bacf39fa97d2",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "DAS IST MEINE ANTWORT UND SIE IST AUF DEUTSCH GESCHRIEBEN WORDEN.",
+  "label": "fail",
+  "decisions": [
+   "D-english-part"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_capital:94c628dfe598ea49",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_capital:2d0b5a7fe55f00de",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "HELLO WORLD",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "english_capital:7473be84b7613e32",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "OKAY.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "english_lowercase:e5c18b93e2d867bd",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "this is my answer in english, and it is all in lowercase letters.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "english_lowercase:dc4bfc4a937bb1e9",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "This is my answer.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_lowercase:045a9353b5a00361",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "this is my answer about NASA.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "english_lowercase:78b2229369c9e272",
+  "instruction_id": "change_case:english_lowercase",
+  "kwargs": null,
+  "response": "das ist meine antwort und sie ist auf deutsch klein geschrieben worden.",
+  "label": "fail",
+  "decisions": [
+   "D-english-part"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "two_responses:4c8bddd600249d5d",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "First answer: use a map.\n******\nSecond answer: ask a local.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "two_responses:3e988d2711f4523c",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Use a map. Or ask a local.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "two_responses:34f3f3e6ce16c742",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Use a map.\n******\nUse a map.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "two_responses:51686ed09d9b6f4f",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "A map.\n******\nA local.\n******\nA guide.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "two_responses:1c9432eb1afde32f",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Use a map.\n*******\nAsk a local.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "repeat_phrase:5d8284bd53c9d337",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live each moment to the fullest. Live each week to the fullest.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "repeat_phrase:41aafb168dc23143",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live each day to the fullest. Live each day to the fullest.",
+  "label": "fail",
+  "decisions": [
+   "D-repeat-original"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "repeat_phrase:fd2d0190f8ed39d5",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live each moment to the fullest.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "repeat_phrase:e550c4d0906a7f85",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live each moment to the fullest. Live each week to the fullest. Live each hour to the fullest.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "repeat_phrase:a310904a4b9ee302",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live every moment to the fullest. Live each week to the fullest.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "repeat_phrase:7c99458c0aeb60ee",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "live each moment to the fullest. LIVE EACH WEEK TO THE FULLEST.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "repeat_phrase:103e8e15d0e9cfd0",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "The early bird catches the worm",
+   "small_n": 2
+  },
+  "response": "The early bird gets the worm. The early fox catches the worm. Then the dog ate the worm.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "repeat_phrase:f19f53ef39e71c27",
+  "instruction_id": "copy:repeat_phrase",
+  "kwargs": {
+   "phrase": "Live each day to the fullest",
+   "small_n": 2
+  },
+  "response": "Live each day to the fullest. Live each week to the fullest.",
+  "label": "fail",
+  "decisions": [
+   "D-repeat-original"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "count_unique:98606b604e5ba255",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "Every word here appears once.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "count_unique:682f817a958626c2",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "I saw a cat and a dog.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "count_unique:171e20fc214710d6",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "Red, green, blue, yellow.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "count_unique:2e099542b0eccd3d",
+  "instruction_id": "count:count_unique",
+  "kwargs": null,
+  "response": "The cat chased the dog",
+  "label": "fail",
+  "decisions": [
+   "D-unique-case"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "counting_composition:17bfa4831df725b7",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing. Rivers flow. Stars shine.\n* * *\nCats sleep. Dogs bark. Kids play.\n* * *\nWinds blow. Trees sway. Leaves fall.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "counting_composition:f7d087c537d3a95d",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing. Rivers flow. Stars shine.\n***\nCats sleep. Dogs bark. Kids play.\n***\nWinds blow. Trees sway. Leaves fall.",
+  "label": "pass",
+  "decisions": [
+   "D-divider-form"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "counting_composition:4eeaed6321b424cf",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing. Rivers flow. Stars shine.\n* * *\nCats sleep. Dogs bark. Kids play.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "counting_composition:537cd894514d92b2",
+  "instruction_id": "count:counting_composition",
+  "kwargs": {
+   "n_sent": 3,
+   "n_words": 2
+  },
+  "response": "Birds sing loudly. Rivers flow. Stars shine.\n* * *\nCats sleep. Dogs bark. Kids play.\n* * *\nWinds blow. Trees sway. Leaves fall.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "lowercase_counting:032e04da06d20d82",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "Apples are red and bananas are yellow.",
+  "label": "pass",
+  "decisions": [
+   "D-lowercase-scope"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "lowercase_counting:925fbcb1888cedf0",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "the cat and the dog and the bird",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "lowercase_counting:e91e2da5a67a3e4e",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "The cat, the dog, the bird.",
+  "label": "pass",
+  "decisions": [
+   "D-lowercase-count",
+   "D-lowercase-scope"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "lowercase_counting:a35782d4c45f27ec",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 3
+  },
+  "response": "Apples are red.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "lowercase_counting:65969631d8d59ca1",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "Apples are red and green.",
+  "label": "pass",
+  "decisions": [
+   "D-lowercase-scope"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_placeholders:b938ba91e9093ca3",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [name], your order ships to [address].",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_placeholders:22e916f41aab80c6",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [name], thanks.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_placeholders:19d2230d50ede69d",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "Dear [], see [ ].",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_placeholders:9d19ad1cf0487706",
+  "instruction_id": "detectable_content:number_placeholders",
+  "kwargs": {
+   "num_placeholders": 2
+  },
+  "response": "See [the docs](http://x.y) and [name].",
+  "label": "pass",
+  "decisions": [
+   "D-placeholder-kind"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "postscript:ea074112d1806d20",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text here.\n\nP.S. Remember to drink water.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "postscript:1679f042b2f253e8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text here. Nothing else.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "postscript:4d22e36c6b921eac",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text.\n\nP.P.S. Extra note.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "postscript:47b14e99fbb4f78f",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text.\n\nP.S: one more thing.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "postscript:442940f2e9c7a8b5",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "Main text.\n\n**P.S.** One more thing.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "postscript:10ab45e1b11fc0d8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "P.S. Note first.\n\nThen the main text continues here.",
+  "label": "fail",
+  "decisions": [
+   "D-postscript-end"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "postscript:83a510d48bc67346",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.S."
+  },
+  "response": "main text.\n\np.s. one more thing.",
+  "label": "pass",
+  "decisions": [
+   "D-postscript-case"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "postscript:dee6ae0e88ad54d4",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main text.\n\nP.S. First note.\n\nP.P.S. Second note.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "postscript:39d83ae0599eaff6",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main text.\n\nP.S. Only one note.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "postscript:9a657b9b2efc3fa8",
+  "instruction_id": "detectable_content:postscript",
+  "kwargs": {
+   "postscript_marker": "P.P.S"
+  },
+  "response": "Main text.\n\nP.P.S Remember this.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "bigram_wrapping:386725d23952c245",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I am>> <<at home>> <<with my>> <<cute dog>>",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "bigram_wrapping:746c1f9771731d49",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "I am at home with my cute dog.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "bigram_wrapping:e2a770a9dfb2e235",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I am>> <<at home>> with my <<cute dog>>",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "bigram_wrapping:4264dd03823fdfd1",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I am>> <<at home>> <<today>>",
+  "label": "pass",
+  "decisions": [
+   "D-bigram-odd"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "bigram_wrapping:ea482050fedc4b68",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I am>> <<at home>>.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "bigram_wrapping:fd1d75a998ddf34a",
+  "instruction_id": "detectable_format:bigram_wrapping",
+  "kwargs": null,
+  "response": "<<I am at>> <<home now>>",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "constrained_response:2141e23251b8a8cf",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "My answer is yes.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "constrained_response:f6577a7ae78999bd",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "My answer is no. The data does not support it.",
+  "label": "pass",
+  "decisions": [
+   "D-constrained-exact"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "constrained_response:e7f57d6b4fd8da04",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "Yes.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "constrained_response:39c350ccd1b1efd3",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "My answer is yes. My answer is no.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "constrained_response:e6b8897167a20de5",
+  "instruction_id": "detectable_format:constrained_response",
+  "kwargs": null,
+  "response": "**My answer is maybe.**",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "json_format:2c004d94576969e4",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "{\"answer\": 42}",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "json_format:3ea810994dc9f35b",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```json\n{\"answer\": 42}\n```",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "json_format:f8857cb29f5b1a8f",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "Here is the JSON: {\"answer\": 42}",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "json_format:8b3040abff46bb2e",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "{\"answer\": 42,}",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "json_format:b2e3f0a2c7d45c47",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```json\n{\"a\": 1}\n```\nHope this helps.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "json_format:d636ee835e105206",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "\"hello\"",
+  "label": "pass",
+  "decisions": [
+   "D-json-toplevel"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "json_format:cbf6df16a4458001",
+  "instruction_id": "detectable_format:json_format",
+  "kwargs": null,
+  "response": "```JSON\n{\"a\": 1}\n```",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:d714a01102eeb3b0",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nIntro text.\nSECTION 2\nMore text.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:e373e502b54e1d72",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nA.\nSECTION 2\nB.\nSECTION 3\nC.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "multiple_sections:c3af9cecc5b75207",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nIntro text, as noted in SECTION 2 below.\nSECTION 2\nMore text.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:274d351005b3781f",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "## SECTION 1\nText one.\n## SECTION 2\nText two.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:37bf49bd78a57db4",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "Section"
+  },
+  "response": "SECTION 1\nText one.\nSECTION 2\nText two.",
+  "label": "pass",
+  "decisions": [
+   "D-sections-case"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:d39d720e9397b4bd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "Here you go.\nSECTION 1\nA.\nSECTION 2\nB.",
+  "label": "pass",
+  "decisions": [
+   "D-sections-preamble"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:1744f13dda7bc73e",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nSECTION 2\nText.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "multiple_sections:60d6666e9ca34bdd",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 1,
+   "section_spliter": "Section"
+  },
+  "response": "Section 1\nAll text. See Section 2 of the law.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:12a714cbb7e6efee",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First point.\n* Second point.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:53d5cc8704a4f4ed",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "- First point.\n- Second point.",
+  "label": "pass",
+  "decisions": [
+   "D-bullet-marker"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:16893f6c02514cc9",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First.\n* Second.\n* Third.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_bullet_lists:9c6d68f9f36ca3eb",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First point.\n* Second point.\n\n---\n\nThanks.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:f268b2713e3bacde",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First.\n* Second.\n* * *\nEnd.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:8c0b092428a386ba",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "*Note:* this is italic.\n* First.\n* Second.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:203e9078b15364fe",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "1. First\n2. Second",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_bullet_lists:0181f9fed7b2d07f",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 3
+  },
+  "response": "* A\n  * a1\n* B",
+  "label": "pass",
+  "decisions": [
+   "D-bullet-nested"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_bullet_lists:1a3a1e6b0b380fc3",
+  "instruction_id": "detectable_format:number_bullet_lists",
+  "kwargs": {
+   "num_bullets": 2
+  },
+  "response": "* First point.\n* Second point.\n-5 degrees is cold.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_highlighted_sections:d5a875e55e627e02",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This is *important* and *urgent*.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_highlighted_sections:85bcefef3b6bd334",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This is *important* only.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_highlighted_sections:d36bb514157da458",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "This is **important** and **urgent**.",
+  "label": "pass",
+  "decisions": [
+   "D-highlight-bold"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_highlighted_sections:e29b128820ba8ec9",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 1
+  },
+  "response": "* item one\n* item two",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_highlighted_sections:bf401f59c7f0d7e1",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 1
+  },
+  "response": "Compute 2 * 3 * 4 now.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "sentence_hyphens:1fb021dfd14f7021",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea.-It is warm.-It calms me.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "sentence_hyphens:6bf6f9ea4e5c11de",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea. It is warm.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "sentence_hyphens:af86155ec52610d9",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea. - It is warm.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "sentence_hyphens:708923dd6032f558",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "My well-known recipe works.-It is quick.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "sentence_hyphens:474ede6eaf82d567",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "sentence_hyphens:2c22205366d1d918",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea.-It is warm.\nIt calms me.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "square_brackets:c32e3b72881c144c",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I] [like] [tea].",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "square_brackets:86bbd3fd0eec499a",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I] [like] [tea]",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "square_brackets:f84f106da34c9ad4",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I] like [tea]",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "square_brackets:58c91a96a380c612",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[I like tea]",
+  "label": "fail",
+  "decisions": [
+   "D-bracket-group"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "square_brackets:863a8dc427f8cf15",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[Hello], [world]!",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "title:8a4b887d6737057e",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "<<My Day>>\nIt was fine.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "title:a6c6f6bf4ce7a345",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "Here is a poem.\n<<Ode to Rain>>\nDrops fall.",
+  "label": "pass",
+  "decisions": [
+   "D-title-position"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "title:b2d1ac0c5032ad3c",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "My Day\nIt was fine.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "title:7d4eb1644008f31a",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "<< >> text",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "title:e4ccd8999374fbf5",
+  "instruction_id": "detectable_format:title",
+  "kwargs": null,
+  "response": "<<My\nDay>> text",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "first_word_answer:9658d2d517ca6c6a",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Development of the city was slow.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "first_word_answer:52cd135831518478",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "**Development**: the city grew slowly.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "first_word_answer:4f0abc1e2c453527",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Development, as a process, is slow.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "first_word_answer:d43bf99c2d9babda",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "The development was slow.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "first_word_answer:fe853eaa83558c9c",
+  "instruction_id": "first_word:first_word_answer",
+  "kwargs": {
+   "first_word": "development"
+  },
+  "response": "Developments were slow.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "first_word_sent:4c8f176e0934e554",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace is good. Peace is calm.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "first_word_sent:5819537b180aceff",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace, friends, is good. Peace matters!",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "first_word_sent:aa1a7fdd1f075744",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace is good. War is bad.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "first_word_sent:5776682a4884b980",
+  "instruction_id": "first_word:first_word_sent",
+  "kwargs": {
+   "first_word": "peace"
+  },
+  "response": "Peace is good\nPeace is calm",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "existence:165112ae1b53f3a7",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "This quote is about teaching.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "existence:3542103064204edf",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "QUOTE: Teaching matters.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "existence:eb9159951227f55d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "This quote is nice.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "existence:a501269f7e663e13",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "These quotes are about teachings.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "existence:463675c90939f59d",
+  "instruction_id": "keywords:existence",
+  "kwargs": {
+   "keywords": [
+    "quote",
+    "teaching"
+   ]
+  },
+  "response": "A teaching-focused quote.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "forbidden_words:48854bfbc4c9498e",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The circle was quiet.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "forbidden_words:0e40bef5c8cfe1bf",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The square was quiet.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "forbidden_words:fa7a891d980a47fd",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "SOUND is loud.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "forbidden_words:af4db6e760987e6c",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "The sounds were soundtrack-like.",
+  "label": "pass",
+  "decisions": [
+   "D-keyword-boundary"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "forbidden_words:87bbdfb49628a8c4",
+  "instruction_id": "keywords:forbidden_words",
+  "kwargs": {
+   "forbidden_words": [
+    "sound",
+    "square"
+   ]
+  },
+  "response": "A sound-proof room.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "frequency:1115c1a6e79faf2d",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "The monitor is big. I like this monitor.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "frequency:ff9d397262b86a31",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "The monitor is big.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "frequency:dbe0d1c9aaee0588",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "The monitors are big. I like this monitor.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "frequency:ebf0845e7399291a",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "One monitor.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "frequency:e33a2a36ba2bb40d",
+  "instruction_id": "keywords:frequency",
+  "kwargs": {
+   "keyword": "monitor",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "Monitor, monitor.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "keyword_specific_position:f288f7380a41cb53",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I tried hard. It was shot down quickly.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "keyword_specific_position:9a2be97dd1fdce07",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I tried hard. It was not shot.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "keyword_specific_position:95780d5af1cf52d9",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I tried hard. Then a Shot rang out.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "keyword_specific_position:c3e1bd3df5ed9f78",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "I tried hard. Well, a shot rang out.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "keyword_specific_position:5d23e53bd5386c87",
+  "instruction_id": "keywords:keyword_specific_position",
+  "kwargs": {
+   "keyword": "shot",
+   "n": 2,
+   "m": 3
+  },
+  "response": "It was shot down quickly.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_frequency:eb7dd0c5c54f34ca",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "Rare red roses.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_frequency:036219afa41b8226",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "Blue skies.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_frequency:b126276aeda33925",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "at least"
+  },
+  "response": "RRR",
+  "label": "pass",
+  "decisions": [
+   "D-letter-case"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_frequency:aca7b813fb532834",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "less than"
+  },
+  "response": "rr",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_frequency:003c098b83eb7132",
+  "instruction_id": "keywords:letter_frequency",
+  "kwargs": {
+   "letter": "r",
+   "let_frequency": 3,
+   "let_relation": "less than"
+  },
+  "response": "rrr",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_adjacent_consecutive:5b5ca03f71fb9d85",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "The cat sat on the mat.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "no_adjacent_consecutive:3210e18590f5a885",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "A big dog.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_adjacent_consecutive:d49d8b7ae89b4c30",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Big apple pie.",
+  "label": "fail",
+  "decisions": [
+   "D-consecutive-order"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_adjacent_consecutive:ede468a292724765",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Room 1 2 3 was open.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "no_adjacent_consecutive:5c46c933aa56d687",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Cats * + run.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "no_adjacent_consecutive:05ab50082cfe5310",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "The cat. Dog runs.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_adjacent_consecutive:8483eaf514e619a6",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "We met at noon.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "palindrome:ddde7ac70fb4fa37",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "We saw a racecar today.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "palindrome:edf215253ac6227f",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Wow, that was fun.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "palindrome:44d9cdc8690a453a",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "We saw a car today.",
+  "label": "fail",
+  "decisions": [
+   "D-palindrome-length"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "palindrome:ca45ea0497ef8c1c",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Nothing here matches.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "palindrome:d86b51bee0dcb75e",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "- item one\n- item two",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "palindrome:246103cca0b5f767",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Level 1 complete.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "start_end:67a84b7a1ee879ce",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello there my friend hello",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "start_end:60545103580f7377",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello there my friend hello.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "start_end:e7f7296ebfedc66b",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello there my friend.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "start_end:d913ec0ca2a73b7a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "**Hello** there my friend hello",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "start_end:c7a9a22d8d4a966b",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Hello",
+  "label": "pass",
+  "decisions": [
+   "D-start-end-one-word"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "start_end:8997363a601ba78a",
+  "instruction_id": "keywords:start_end",
+  "kwargs": null,
+  "response": "Data matters. We trust data",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "word_count_different_numbers:cc426051accd194b",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "Skin care matters. Protect your skin.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "word_count_different_numbers:59c80f4cc83a7292",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "less than"
+  },
+  "response": "Skin care matters.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "word_count_different_numbers:3700d6b1ce4d8891",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "Skin, skin, skin.",
+  "label": "fail",
+  "decisions": [
+   "D-appear-n-times"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "word_count_different_numbers:22a61be79b67a56b",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 1,
+   "relation": "less than"
+  },
+  "response": "No mention here.",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "word_count_different_numbers:f87816b0de351486",
+  "instruction_id": "keywords:word_count_different_numbers",
+  "kwargs": {
+   "keyword": "skin",
+   "frequency": 2,
+   "relation": "at least"
+  },
+  "response": "Skin care matters. Protect your skin.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "word_once:ed4322788ae7aece",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I will fix it.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "word_once:9bc26825b6c823d8",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "Fix it now, then fix it again.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "word_once:74217d8d4b654326",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "I will repair it.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "word_once:bf1035882a7c78c7",
+  "instruction_id": "keywords:word_once",
+  "kwargs": {
+   "keyword": "fix"
+  },
+  "response": "The prefix changed.",
+  "label": "fail",
+  "decisions": [
+   "D-keyword-boundary"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "response_language:828300bdaed4d0bb",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "Bonjour, je suis heureux de vous aider avec cette question aujourd'hui.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "response_language:cc1c635516b805ce",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "Hello, I am happy to help you with this question today.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "response_language:63eb3cf12cff81ff",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "fr"
+  },
+  "response": "",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "response_language:f2af231fe48356dc",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "ru"
+  },
+  "response": "Привет, я рад помочь вам с этим вопросом сегодня.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "response_language:a5aa4db906d4a7d1",
+  "instruction_id": "language:response_language",
+  "kwargs": {
+   "language": "ru"
+  },
+  "response": "Привет! Я использую Python и NumPy для анализа данных каждый день.",
+  "label": "pass",
+  "decisions": [
+   "D-language-mixed"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "last_word_answer:ae7dcb3259f00769",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the limit.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "last_word_answer:d4e26d46ba0e1ff2",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the **limit**!",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "last_word_answer:7311c5bd5b462334",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "The limit was reached.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "last_word_answer:ce770dd1cebb6c09",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "We reached the limits.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "last_word_answer:21dfed07e2b11581",
+  "instruction_id": "last_word:last_word_answer",
+  "kwargs": {
+   "last_word": "limit"
+  },
+  "response": "",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": "IndexError: list index out of range",
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "last_word_sent:79a8e4d7c9d2dfa3",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I took the train. She missed the train!",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "last_word_sent:6f91b8273a79c6cb",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I took the train. She walked home.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "last_word_sent:d2a5d530b1e03221",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "I took the train, the train.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "last_word_sent:1a2da0f079ebf26a",
+  "instruction_id": "last_word:last_word_sent",
+  "kwargs": {
+   "last_word": "train"
+  },
+  "response": "Travel Notes\nI took the train.",
+  "label": "fail",
+  "decisions": [
+   "D-sentence"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "nth_paragraph_first_word:188f6b4964f3a9b8",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro paragraph.\n\nCrash tests matter.\n\nConclusion here.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "nth_paragraph_first_word:9665856b1bbe1bb0",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\n**Crash** tests matter.\n\nEnd.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "nth_paragraph_first_word:244670a8e81f7f4f",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\nCrash: tests matter.\n\nEnd.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "nth_paragraph_first_word:ed912b195e043bcd",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\nCrash tests matter.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "nth_paragraph_first_word:943f1b1ad6b95931",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\nTests matter.\n\nCrash end.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "nth_paragraph_first_word:2c0c8970c6c23287",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 2,
+   "first_word": "crash"
+  },
+  "response": "Intro.\n\n\nCrash tests.\n\n\nEnd.",
+  "label": "pass",
+  "decisions": [
+   "D-blank-run"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "nth_paragraph_first_word:a9f720be31eeb3a7",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 4,
+   "first_word": "crash"
+  },
+  "response": "A.\n\nB.\n\nCrash.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "nth_paragraph_first_word:d2266480de96a474",
+  "instruction_id": "length_constraints:nth_paragraph_first_word",
+  "kwargs": {
+   "num_paragraphs": 3,
+   "nth_paragraph": 4,
+   "first_word": "crash"
+  },
+  "response": "A.\n\nB.\n\nC.\n\nCrash.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_paragraphs:4cd68abde1c2e725",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n***\nSecond.\n***\nThird.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_paragraphs:2dd57e67749c8aa9",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n\n***\n\nSecond.\n\n***\n\nThird.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_paragraphs:8ced25466eeb3df5",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n* * *\nSecond.\n* * *\nThird.",
+  "label": "pass",
+  "decisions": [
+   "D-divider-form"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_paragraphs:ab4b8cb73e0e4f5e",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n\nSecond.\n\nThird.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_paragraphs:91985ecf3b0b2433",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n***\nSecond.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_paragraphs:8b8a0f23ca3624fb",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First ***note*** here.\n***\nSecond.\n***\nThird.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_paragraphs:ba05dfbd34e6a6f6",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.\n***\nSecond.\n***\nThird.\n***",
+  "label": "fail",
+  "decisions": [
+   "D-divider-empty"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_sentences:c1aa9a7177533aee",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "at least"
+  },
+  "response": "One is here. Two is here. Three is here.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_sentences:90afa0dd19b6fa61",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "at least"
+  },
+  "response": "One is here. Two is here.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_sentences:6a1a03e60a0104b1",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "less than"
+  },
+  "response": "Dr. Smith came. He left. We stayed.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_sentences:06f3044d4e8d4717",
+  "instruction_id": "length_constraints:number_sentences",
+  "kwargs": {
+   "num_sentences": 3,
+   "relation": "less than"
+  },
+  "response": "One is here. Two is here.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_words:d30af36e4b9a830d",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "at least"
+  },
+  "response": "This sentence has five words.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_words:5e3a991b542b52d8",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "at least"
+  },
+  "response": "Only four words here.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_words:dde6f80e745cf577",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "at least"
+  },
+  "response": "Привет как у тебя дела",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_words:382b53392cc1aa48",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 5,
+   "relation": "less than"
+  },
+  "response": "I don't like it",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_words:1b2864de16504d0b",
+  "instruction_id": "length_constraints:number_words",
+  "kwargs": {
+   "num_words": 4,
+   "relation": "less than"
+  },
+  "response": "Café crème brûlée",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_counting:0124b25d5944a607",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "less than"
+  },
+  "response": "Ok",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_counting:26b78397e3ab9d11",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "less than"
+  },
+  "response": "Okay",
+  "label": "fail",
+  "decisions": [
+   "D-letters-unit"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_counting:0c6ed63e571d8fee",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "less than"
+  },
+  "response": "Привет",
+  "label": "fail",
+  "decisions": [
+   "D-letters-unit"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_counting:c9c0df05bfddb4ae",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "at least"
+  },
+  "response": "Hi!",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_counting:eb7fe15c6d5abd4e",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "at least"
+  },
+  "response": "Hey",
+  "label": "pass",
+  "decisions": [
+   "D-letters-unit"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_counting2:7d618072f08398b7",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 2,
+   "let_relation": "at least"
+  },
+  "response": "Good food.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "letter_counting2:c86ccb855a251f8a",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 2,
+   "let_relation": "at least"
+  },
+  "response": "Fine day.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_counting2:734e17cdf258cf34",
+  "instruction_id": "letters:letter_counting2",
+  "kwargs": {
+   "letter": "o",
+   "let_frequency": 1,
+   "let_relation": "at least"
+  },
+  "response": "One apple.",
+  "label": "pass",
+  "decisions": [
+   "D-letter-case"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "paragraphs:6654767065a9ebc9",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First paragraph.\n***\nSecond paragraph.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "paragraphs:87036b2c94bca795",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First.\n***\nSecond.\n***\nThird.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "paragraphs:9e389638024af068",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First.\n\nSecond.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "paragraphs:96f258ff5addc74a",
+  "instruction_id": "paragraphs:paragraphs",
+  "kwargs": {},
+  "response": "First ***bold*** words here.\n***\nSecond.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "paragraphs2:98b72b005d412051",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First paragraph.\n\nSecond paragraph.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "paragraphs2:4ee668c1c630deed",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "One.\n\nTwo.\n\nThree.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "paragraphs2:43a51cc99277240c",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "Only one paragraph.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "paragraphs2:a1536c4176b38652",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First line\nstill first.\n\nSecond.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "paragraphs2:f77fd17c27a0fff2",
+  "instruction_id": "paragraphs:paragraphs2",
+  "kwargs": {},
+  "response": "First.\n***\nSecond.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_comma:b9bef2520a2c36a1",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": null,
+  "response": "No commas here.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "no_comma:514dc595b988ab10",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": null,
+  "response": "Yes, there is one.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_comma:0bb6f27365f66241",
+  "instruction_id": "punctuation:no_comma",
+  "kwargs": null,
+  "response": "这是，中文",
+  "label": "fail",
+  "decisions": [
+   "D-comma-chars"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "punctuation_dot:7bb465744cb70aa2",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": null,
+  "response": "No dots here!",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "punctuation_dot:04a8385af8e5f54c",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": null,
+  "response": "Version 2.0 is out",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "punctuation_dot:4941d635c4b3e7d0",
+  "instruction_id": "punctuation:punctuation_dot",
+  "kwargs": null,
+  "response": "这是中文。",
+  "label": "fail",
+  "decisions": [
+   "D-dot-chars"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "punctuation_exclamation:70af26ecef8b5980",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": null,
+  "response": "Calm text.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "punctuation_exclamation:585ed405bdd37500",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": null,
+  "response": "Wow!",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "punctuation_exclamation:c1486cf155eee3e6",
+  "instruction_id": "punctuation:punctuation_exclamation",
+  "kwargs": null,
+  "response": "太好了！",
+  "label": "fail",
+  "decisions": [
+   "D-excl-chars"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "end_checker:5ebd120a911439d9",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Here it is. Is there anything else I can help with?",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "end_checker:e4499b5a3132d8d5",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Here it is. Is there anything else I can help with?\n",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "end_checker:cc3dcc7da860761f",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Here it is. **Is there anything else I can help with?**",
+  "label": "pass",
+  "decisions": [
+   "D-end-trailing"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "end_checker:8579b14903031867",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "Is there anything else I can help with? Thanks.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "end_checker:929dd9edaa6fc740",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Is there anything else I can help with?"
+  },
+  "response": "here it is. is there anything else i can help with?",
+  "label": "fail",
+  "decisions": [
+   "D-end-case"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "end_checker:c50a91cf44283b42",
+  "instruction_id": "startend:end_checker",
+  "kwargs": {
+   "end_phrase": "Any other questions?"
+  },
+  "response": "\"Here it is. Any other questions?\"",
+  "label": "pass",
+  "decisions": [
+   "D-end-trailing"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "quotation:b4daec0649628c7a",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "\"Hello there.\"",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "quotation:7b9776f091b6b0e6",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "Hello there.",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "quotation:3ea7fa238e6fe5b6",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "“Hello there.”",
+  "label": "pass",
+  "decisions": [
+   "D-quote-chars"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "quotation:985e8eace788e49c",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "'Hello there.'",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "quotation:31a947e61dca766e",
+  "instruction_id": "startend:quotation",
+  "kwargs": null,
+  "response": "\"",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "multiple_sections:5dc07039b92d46bb",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "\"SECTION 1\nText one.\nSECTION 2\nText two.\"",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "multiple_sections:da102862eba1e0f7",
+  "instruction_id": "detectable_format:multiple_sections",
+  "kwargs": {
+   "num_sections": 2,
+   "section_spliter": "SECTION"
+  },
+  "response": "SECTION 1\nText one. SECTION 2\nText two.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_highlighted_sections:484e20b7e843a9dc",
+  "instruction_id": "detectable_format:number_highlighted_sections",
+  "kwargs": {
+   "num_highlights": 2
+  },
+  "response": "这是*重点*和*关键*。",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "square_brackets:2f4d2a993bb5d702",
+  "instruction_id": "detectable_format:square_brackets",
+  "kwargs": null,
+  "response": "[J][u][s][t] [g][o]",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "number_paragraphs:7347626f3c44507f",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 3
+  },
+  "response": "First.***\n\nSecond.***\n\nThird.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "number_paragraphs:ad41a06b339b718e",
+  "instruction_id": "length_constraints:number_paragraphs",
+  "kwargs": {
+   "num_paragraphs": 2
+  },
+  "response": "First paragraph here. *** Second paragraph here.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "two_responses:d8a6fe7ed84f76fd",
+  "instruction_id": "combination:two_responses",
+  "kwargs": null,
+  "response": "Answer one.\n******\nAnswer two.\n******",
+  "label": "fail",
+  "decisions": [
+   "D-two-responses-edge"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "no_adjacent_consecutive:d36979acc1fd72f0",
+  "instruction_id": "keywords:no_adjacent_consecutive",
+  "kwargs": null,
+  "response": "Я вижу город.",
+  "label": "pass",
+  "decisions": [
+   "D-consecutive-script"
+  ],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "lowercase_counting:c0113ef7733ab362",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "这是 这是 这是 测试",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "lowercase_counting:41428cb0175422c8",
+  "instruction_id": "count:lowercase_counting",
+  "kwargs": {
+   "N": 2
+  },
+  "response": "мы мы мы идём",
+  "label": "fail",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "palindrome:c5a716e285831734",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "A man, a plan, a canal, Panama.",
+  "label": "pass",
+  "decisions": [],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "palindrome:1d607ecf93dc2713",
+  "instruction_id": "keywords:palindrome",
+  "kwargs": null,
+  "response": "Noon is lunch time.",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "sentence_hyphens:89cc403bf12acbcc",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "I like tea - it is warm - it calms me",
+  "label": "fail",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "sentence_hyphens:91881b7d985e18d8",
+  "instruction_id": "detectable_format:sentence_hyphens",
+  "kwargs": null,
+  "response": "CAN-DO-USED-IN-THE-BUILDING",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "pass",
+  "B_error": null,
+  "R": "pass"
+ },
+ {
+  "id": "english_capital:85582c6c28c409c2",
+  "instruction_id": "change_case:english_capital",
+  "kwargs": null,
+  "response": "THIS IS ENGLISH TEXT FOR YOU AND IT IS LONG ENOUGH TO READ.\n\n这是一个完整的中文段落。",
+  "label": "fail",
+  "decisions": [
+   "D-english-part"
+  ],
+  "A": "pass",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "fail"
+ },
+ {
+  "id": "letter_counting:4b28f1bfc2d4e78d",
+  "instruction_id": "letters:letter_counting",
+  "kwargs": {
+   "N": 3,
+   "relation": "at least"
+  },
+  "response": "Привет мир друзья",
+  "label": "pass",
+  "decisions": [],
+  "A": "fail",
+  "A_error": null,
+  "B": "fail",
+  "B_error": null,
+  "R": "pass"
+ }
+]

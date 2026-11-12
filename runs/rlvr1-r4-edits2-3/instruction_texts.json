@@ -1,0 +1,869 @@
+{
+ "change_case:capital_word_frequency": [
+  [
+   "In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.",
+   204,
+   "In your response, words with all capital letters should appear at least 7 times."
+  ],
+  [
+   "From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant.",
+   1,
+   "From the other approaches and theories of leadership you have studied in class, high- light one that you think is useful in explaining your leader’s approach to leadership and explain using examples why you think it is relevant."
+  ],
+  [
+   "Damage/Damage per Round: The amount of hitpoints removed by the attack",
+   1,
+   "Damage/Damage per Round: The amount of hitpoints removed by the attack"
+  ]
+ ],
+ "change_case:english_capital": [
+  [
+   "Your entire response should be in English, and in all capital letters.",
+   248,
+   "Your entire response should be in English, and in all capital letters."
+  ],
+  [
+   "   Ta hänsyn till hastigheten.",
+   1,
+   "   Ta hänsyn till hastigheten."
+  ]
+ ],
+ "change_case:english_lowercase": [
+  [
+   "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.",
+   204,
+   "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed."
+  ]
+ ],
+ "combination:two_responses": [
+  [
+   "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+   92,
+   "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******."
+  ]
+ ],
+ "copy:repeat_phrase": [
+  [
+   "Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.",
+   160,
+   "Repeat the phrase Live each day to the fullest exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase."
+  ],
+  [
+   "Observe your surroundings: Like The Worker, focus on your surroundings and observe the people and things around you. Take in the details and use this information to guide your actions and decisions.",
+   1,
+   "Observe your surroundings: Like The Worker, focus on your surroundings and observe the people and things around you. Take in the details and use this information to guide your actions and decisions."
+  ],
+  [
+   "Enhances knowledge of products",
+   1,
+   "Enhances knowledge of products"
+  ]
+ ],
+ "count:count_unique": [
+  [
+   "Only use unique words in your response, no word should be repeated!",
+   211,
+   "Only use unique words in your response, no word should be repeated!"
+  ],
+  [
+   "The speculations of Smith, Marx and others were often vague. Max Weber’s “The Protestant Ethic and the Spirit of Capitalism”, published in 1905, made them concrete. Weber argued that Protestants, in particular Calvinists, drove the emergence of capitalism due to a strong work ethic. ",
+   1,
+   "The speculations of Smith, Marx and others were often vague. Max Weber’s “The Protestant Ethic and the Spirit of Capitalism”, published in 1905, made them concrete. Weber argued that Protestants, in particular Calvinists, drove the emergence of capitalism due to a strong work ethic. "
+  ]
+ ],
+ "count:lowercase_counting": [
+  [
+   "In your response, all lowercase words should appear at most {N} times.",
+   284,
+   "In your response, all lowercase words should appear at most 3 times."
+  ],
+  [
+   "尝试实现实时处理，优化算法计算速度，提高其实时性。",
+   1,
+   "尝试实现实时处理，优化算法计算速度，提高其实时性。"
+  ],
+  [
+   "The theoretical part, which gives the history of the issue, the level of development of the problem in theory and practice through a comparative analysis of the literature; ",
+   1,
+   "The theoretical part, which gives the history of the issue, the level of development of the problem in theory and practice through a comparative analysis of the literature; "
+  ]
+ ],
+ "detectable_content:number_placeholders": [
+  [
+   "The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].",
+   187,
+   "The response must contain at least 1 placeholders represented by square brackets, such as [address]."
+  ],
+  [
+   "Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?",
+   1,
+   "Applying the Katz three-skills approach, describe your leader’s technical, human, and conceptual skills. Which of these skills do you think is most important to your character’s suc- cess as a leader?"
+  ],
+  [
+   "Search for files",
+   1,
+   "Search for files"
+  ]
+ ],
+ "detectable_content:postscript": [
+  [
+   "At the end of your response, please explicitly add a postscript starting with {postscript_marker}",
+   202,
+   "At the end of your response, please explicitly add a postscript starting with P.S."
+  ]
+ ],
+ "detectable_format:bigram_wrapping": [
+  [
+   "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.",
+   206,
+   "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>."
+  ],
+  [
+   "Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?",
+   1,
+   "Describe how far your leader character exhibits each of the Big Five personality fac- tors. Which of these do you think are most important in making him a successful leader?"
+  ]
+ ],
+ "detectable_format:constrained_response": [
+  [
+   "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')",
+   39,
+   "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+  ]
+ ],
+ "detectable_format:json_format": [
+  [
+   "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.",
+   35,
+   "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```."
+  ],
+  [
+   "International Women’s Day (March 8th) (2 posts each for Instagram, Facebook, and Pinterest)",
+   1,
+   "International Women’s Day (March 8th) (2 posts each for Instagram, Facebook, and Pinterest)"
+  ],
+  [
+   "les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation",
+   1,
+   "les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation"
+  ]
+ ],
+ "detectable_format:multiple_sections": [
+  [
+   "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:",
+   135,
+   "Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:"
+  ],
+  [
+   "In order to explain such a divergence between rich and poor countries, the early economists were obsessed with culture, a catch-all term encompassing a society’s beliefs, preferences and values. Adam Smith, the author of “The Wealth of Nations”, explored the ways in which culture helped or hindered capitalism. He argued that certain norms were required in order for market economies to thrive —most importantly that people would be self-interested, but that they would satisfy their selfinterest by adapting to the needs of others. Karl Marx, a few decades later, worried that a culture of “oriental despotism (专制)” prevented the emergence of capitalism in Asia. ",
+   1,
+   "In order to explain such a divergence between rich and poor countries, the early economists were obsessed with culture, a catch-all term encompassing a society’s beliefs, preferences and values. Adam Smith, the author of “The Wealth of Nations”, explored the ways in which culture helped or hindered capitalism. He argued that certain norms were required in order for market economies to thrive —most importantly that people would be self-interested, but that they would satisfy their selfinterest by adapting to the needs of others. Karl Marx, a few decades later, worried that a culture of “oriental despotism (专制)” prevented the emergence of capitalism in Asia. "
+  ],
+  [
+   "   Planera din körning.",
+   1,
+   "   Planera din körning."
+  ]
+ ],
+ "detectable_format:number_bullet_lists": [
+  [
+   "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:",
+   162,
+   "Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:"
+  ]
+ ],
+ "detectable_format:number_highlighted_sections": [
+  [
+   "Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.",
+   191,
+   "Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*."
+  ],
+  [
+   "Zorbus",
+   1,
+   "Zorbus"
+  ]
+ ],
+ "detectable_format:sentence_hyphens": [
+  [
+   "All sentences must be connected using hyphens, with no spaces between them.",
+   233,
+   "All sentences must be connected using hyphens, with no spaces between them."
+  ],
+  [
+   "Laser sensor to take data of the weight of heavy trucks.",
+   1,
+   "Laser sensor to take data of the weight of heavy trucks."
+  ],
+  [
+   "Pipeline:",
+   1,
+   "Pipeline:"
+  ],
+  [
+   "materials: wood, iron, bronze, alumnimum, anti-matter, Brick, Bronze, Carbon Fiber, Cardboard, Cellulose, Ceramic, Cotton, Fabric, Fiber Optic, Foil, Gasoline, Glass, Gold, Gummies, Latex, Leather, Magma, Metallic, Nickel, Nylon, Paper, Plastic, Quartz, Sharink Wrap, Skin, Slime, Wooden, Yarn, Zinc, Copper, Plasma, Liquid Ice",
+   1,
+   "materials: wood, iron, bronze, alumnimum, anti-matter, Brick, Bronze, Carbon Fiber, Cardboard, Cellulose, Ceramic, Cotton, Fabric, Fiber Optic, Foil, Gasoline, Glass, Gold, Gummies, Latex, Leather, Magma, Metallic, Nickel, Nylon, Paper, Plastic, Quartz, Sharink Wrap, Skin, Slime, Wooden, Yarn, Zinc, Copper, Plasma, Liquid Ice"
+  ]
+ ],
+ "detectable_format:square_brackets": [
+  [
+   "Enclose every word in your response within square brackets.",
+   182,
+   "Enclose every word in your response within square brackets."
+  ]
+ ],
+ "detectable_format:title": [
+  [
+   "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.",
+   208,
+   "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>."
+  ],
+  [
+   "diagnosis: Open wound of left foot/kicking a stone",
+   1,
+   "diagnosis: Open wound of left foot/kicking a stone"
+  ]
+ ],
+ "first_word:first_word_answer": [
+  [
+   "The first word of your response should be the word {first_word}.",
+   201,
+   "The first word of your response should be the word development."
+  ],
+  [
+   "The first word of {first_word}r response should be the word you.",
+   1,
+   "The first word of your response should be the word you."
+  ],
+  [
+   "The first word of your {first_word} should be the word response.",
+   1,
+   "The first word of your response should be the word response."
+  ]
+ ],
+ "first_word:first_word_sent": [
+  [
+   "The first word of each sentence should be the word {first_word}.",
+   191,
+   "The first word of each sentence should be the word computer."
+  ],
+  [
+   "The first {first_word} of each sentence should be the word word.",
+   1,
+   "The first word of each sentence should be the word word."
+  ]
+ ],
+ "keywords:existence": [
+  [
+   "Include keywords ['{keywords[0]}', '{keywords[1]}'] in the response.",
+   312,
+   "Include keywords ['food', 'poetry'] in the response."
+  ],
+  [
+   "   Kör pa hög växel.",
+   1,
+   "   Kör pa hög växel."
+  ],
+  [
+   "Increases satisfaction",
+   1,
+   "Increases satisfaction"
+  ],
+  [
+   "tu utiliseras la décomposition swing twist lors du forward et du backward pour garantir à la fois la convergence en position, mais aussi en orientation.",
+   1,
+   "tu utiliseras la décomposition swing twist lors du forward et du backward pour garantir à la fois la convergence en position, mais aussi en orientation."
+  ],
+  [
+   "Include key{keywords[1]}s ['{keywords[0]}', 'word'] in the response.",
+   1,
+   "Include keywords ['construction', 'word'] in the response."
+  ],
+  [
+   "If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember.",
+   1,
+   "If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember."
+  ],
+  [
+   "Include {keywords[1]}words ['{keywords[0]}', 'key'] in the response.",
+   1,
+   "Include keywords ['bad', 'key'] in the response."
+  ]
+ ],
+ "keywords:forbidden_words": [
+  [
+   "Do not include keywords ['{forbidden_words[0]}', '{forbidden_words[1]}'] in the response.",
+   268,
+   "Do not include keywords ['debate', 'indication'] in the response."
+  ],
+  [
+   "Spring self-care tips (1 post each for Instagram and Pinterest, 2 posts for Facebook)",
+   1,
+   "Spring self-care tips (1 post each for Instagram and Pinterest, 2 posts for Facebook)"
+  ],
+  [
+   "Window:",
+   1,
+   "Window:"
+  ],
+  [
+   "tu détailleras particulièrement les calculs dans la partie forward reaching et backward reaching. Tu pourras afficher des formules pour expliquer.",
+   1,
+   "tu détailleras particulièrement les calculs dans la partie forward reaching et backward reaching. Tu pourras afficher des formules pour expliquer."
+  ],
+  [
+   "No user assistance",
+   1,
+   "No user assistance"
+  ]
+ ],
+ "keywords:frequency": [
+  [
+   "In your response, the word {keyword} should appear {relation} {frequency} times.",
+   197,
+   "In your response, the word potential should appear less than 2 times."
+  ],
+  [
+   "In your {keyword}, the word response should appear {relation} {frequency} times.",
+   1,
+   "In your response, the word response should appear less than 3 times."
+  ]
+ ],
+ "keywords:keyword_specific_position": [
+  [
+   "Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.",
+   226,
+   "Include keyword tell in the 8-th sentence, as the 11-th word of that sentence."
+  ],
+  [
+   "Include keyword {keyword} in the {m}-th sentence, as the {n}-th word of that sentence.",
+   9,
+   "Include keyword slip in the 14-th sentence, as the 14-th word of that sentence."
+  ]
+ ],
+ "keywords:letter_frequency": [
+  [
+   "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.",
+   145,
+   "In your response, the letter w should appear at least 5 times."
+  ],
+  [
+   "In you{letter} response, the letter r should appear {let_relation} {let_frequency} times.",
+   19,
+   "In your response, the letter r should appear at least 9 times."
+  ],
+  [
+   "In your response, {letter}he letter t should appear {let_relation} {let_frequency} times.",
+   17,
+   "In your response, the letter t should appear less than 2 times."
+  ],
+  [
+   "In your response, t{letter}e letter h should appear {let_relation} {let_frequency} times.",
+   15,
+   "In your response, the letter h should appear less than 2 times."
+  ],
+  [
+   "In y{letter}ur response, the letter o should appear {let_relation} {let_frequency} times.",
+   14,
+   "In your response, the letter o should appear less than 9 times."
+  ],
+  [
+   "In {letter}our response, the letter y should appear {let_relation} {let_frequency} times.",
+   13,
+   "In your response, the letter y should appear at least 7 times."
+  ],
+  [
+   "In yo{letter}r response, the letter u should appear {let_relation} {let_frequency} times.",
+   12,
+   "In your response, the letter u should appear less than 7 times."
+  ],
+  [
+   "In your res{letter}onse, the letter p should appear {let_relation} {let_frequency} times.",
+   12,
+   "In your response, the letter p should appear at least 9 times."
+  ],
+  [
+   "I{letter} your response, the letter n should appear {let_relation} {let_frequency} times.",
+   12,
+   "In your response, the letter n should appear less than 8 times."
+  ],
+  [
+   "In your response, the {letter}etter l should appear {let_relation} {let_frequency} times.",
+   12,
+   "In your response, the letter l should appear less than 3 times."
+  ],
+  [
+   "In your re{letter}ponse, the letter s should appear {let_relation} {let_frequency} times.",
+   11,
+   "In your response, the letter s should appear less than 1 times."
+  ],
+  [
+   "In your r{letter}sponse, the letter e should appear {let_relation} {let_frequency} times.",
+   10,
+   "In your response, the letter e should appear at least 9 times."
+  ],
+  [
+   "Pick {letter} file from the result of a search",
+   1,
+   "Pick a file from the result of a search"
+  ]
+ ],
+ "keywords:no_adjacent_consecutive": [
+  [
+   "No two adjacent words can start with consecutive letters of the alphabet.",
+   264,
+   "No two adjacent words can start with consecutive letters of the alphabet."
+  ],
+  [
+   "~4000 word limit for memory. Your memory is short, so immidiately save important information to long term memory and code to files.",
+   1,
+   "~4000 word limit for memory. Your memory is short, so immidiately save important information to long term memory and code to files."
+  ],
+  [
+   "Λειτουργικός έλεγχος που περιλαμβάνει, συνολικό βάρος, ονομαστικά φορτία, μέτρηση γόμωσης και διακυμάνσεις πλήρωσης, έλεγχος εκκένωσης, θέση λειτουργίας, διάρκεια λειτουργίας και εναπομένον φορτίο.",
+   1,
+   "Λειτουργικός έλεγχος που περιλαμβάνει, συνολικό βάρος, ονομαστικά φορτία, μέτρηση γόμωσης και διακυμάνσεις πλήρωσης, έλεγχος εκκένωσης, θέση λειτουργίας, διάρκεια λειτουργίας και εναπομένον φορτίο."
+  ],
+  [
+   "31 years old male",
+   1,
+   "31 years old male"
+  ]
+ ],
+ "keywords:palindrome": [
+  [
+   "Include a palindrome in your response.",
+   201,
+   "Include a palindrome in your response."
+  ]
+ ],
+ "keywords:start_end": [
+  [
+   "Start and end your response with the same word (do not write anything after the last word, not even punctuation).",
+   150,
+   "Start and end your response with the same word (do not write anything after the last word, not even punctuation)."
+  ]
+ ],
+ "keywords:word_count_different_numbers": [
+  [
+   "In your response, the word {keyword} should appear {frequency} times.",
+   190,
+   "In your response, the word box should appear 2 times."
+  ],
+  [
+   "In {keyword}r response, the word you should appear {frequency} times.",
+   1,
+   "In your response, the word you should appear 3 times."
+  ]
+ ],
+ "keywords:word_once": [
+  [
+   "Include keyword {keyword} in your response.",
+   343,
+   "Include keyword beer in your response."
+  ],
+  [
+   "Approaching Infinity",
+   1,
+   "Approaching Infinity"
+  ]
+ ],
+ "language:response_language": [
+  [
+   "Your ENTIRE response should be in Tamil language, no other language is allowed.",
+   18,
+   "Your ENTIRE response should be in Tamil language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Punjabi language, no other language is allowed.",
+   18,
+   "Your ENTIRE response should be in Punjabi language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Polish language, no other language is allowed.",
+   17,
+   "Your ENTIRE response should be in Polish language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Arabic language, no other language is allowed.",
+   17,
+   "Your ENTIRE response should be in Arabic language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Vietnamese language, no other language is allowed.",
+   16,
+   "Your ENTIRE response should be in Vietnamese language, no other language is allowed."
+  ],
+  [
+   "Yo{language} ENTIRE response should be in Urdu language, no other language is allowed.",
+   14,
+   "Your ENTIRE response should be in Urdu language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Korean language, no other language is allowed.",
+   13,
+   "Your ENTIRE response should be in Korean language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Kannada language, no other language is allowed.",
+   13,
+   "Your ENTIRE response should be in Kannada language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Bulgarian language, no other language is allowed.",
+   13,
+   "Your ENTIRE response should be in Bulgarian language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Malayalam language, no other language is allowed.",
+   12,
+   "Your ENTIRE response should be in Malayalam language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Japanese language, no other language is allowed.",
+   11,
+   "Your ENTIRE response should be in Japanese language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Finnish language, no other language is allowed.",
+   9,
+   "Your ENTIRE response should be in Finnish language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.",
+   9,
+   "Your ENTIRE response should be in Spanish language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Nepali language, no other language is allowed.",
+   9,
+   "Your ENTIRE response should be in Nepali language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Italian language, no other language is allowed.",
+   8,
+   "Your ENTIRE response should be in Italian language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Hebrew language, no ot{language}r language is allowed.",
+   8,
+   "Your ENTIRE response should be in Hebrew language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Russian language, no other language is allowed.",
+   8,
+   "Your ENTIRE response should be in Russian language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in German language, no other language is allowed.",
+   8,
+   "Your ENTIRE response should be in German language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Telugu language, no other language is allowed.",
+   8,
+   "Your ENTIRE response should be in Telugu language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Thai language, no o{language}er language is allowed.",
+   7,
+   "Your ENTIRE response should be in Thai language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Persian language, no other language is allowed.",
+   7,
+   "Your ENTIRE response should be in Persian language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Hindi language, no other language is allowed.",
+   7,
+   "Your ENTIRE response should be in Hindi language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Ukrainian language, no other language is allowed.",
+   7,
+   "Your ENTIRE response should be in Ukrainian language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Gujarati lan{language}age, no other language is allowed.",
+   7,
+   "Your ENTIRE response should be in Gujarati language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Bengali language, no other language is allowed.",
+   6,
+   "Your ENTIRE response should be in Bengali language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Portuguese language, no other language is allowed.",
+   5,
+   "Your ENTIRE response should be in Portuguese language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Swahili language, no other language is allowed.",
+   4,
+   "Your ENTIRE response should be in Swahili language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in English language, no other language is allowed.",
+   4,
+   "Your ENTIRE response should be in English language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in Marathi language, no other language is allowed.",
+   3,
+   "Your ENTIRE response should be in Marathi language, no other language is allowed."
+  ],
+  [
+   "Your ENTIRE response should be in French language, no other language is allowed.",
+   2,
+   "Your ENTIRE response should be in French language, no other language is allowed."
+  ],
+  [
+   "Introduction, which reveals the relevance and significance of the topic, formulates the purpose of the work; ",
+   1,
+   "Introduction, which reveals the relevance and significance of the topic, formulates the purpose of the work; "
+  ]
+ ],
+ "last_word:last_word_answer": [
+  [
+   "The last word of your response should be the word {last_word}.",
+   204,
+   "The last word of your response should be the word cut."
+  ]
+ ],
+ "last_word:last_word_sent": [
+  [
+   "The last word of each sentence, before punctuation, should be the word {last_word}.",
+   206,
+   "The last word of each sentence, before punctuation, should be the word limit."
+  ]
+ ],
+ "length_constraints:nth_paragraph_first_word": [
+  [
+   "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.",
+   94,
+   "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word fight."
+  ],
+  [
+   "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {num_paragraphs} must start with word {first_word}.",
+   66,
+   "There should be 1 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word brother."
+  ],
+  [
+   "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word if.",
+   1,
+   "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if."
+  ],
+  [
+   "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with {first_word} word.",
+   1,
+   "There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word word."
+  ],
+  [
+   "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by {first_word} new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word two.",
+   1,
+   "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word two."
+  ],
+  [
+   "收集更大量、丰富多样的数据集，以提高模型可预测性和泛化能力。",
+   1,
+   "收集更大量、丰富多样的数据集，以提高模型可预测性和泛化能力。"
+  ]
+ ],
+ "length_constraints:number_paragraphs": [
+  [
+   "There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***",
+   205,
+   "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***"
+  ],
+  [
+   "Practice active listening: One way to be more silent in real life is to cultivate your listening skills. When you are in a conversation, practice giving your full attention to the speaker and avoid interrupting or speaking over them.",
+   1,
+   "Practice active listening: One way to be more silent in real life is to cultivate your listening skills. When you are in a conversation, practice giving your full attention to the speaker and avoid interrupting or speaking over them."
+  ],
+  [
+   "Show details of a o file",
+   1,
+   "Show details of a o file"
+  ]
+ ],
+ "length_constraints:number_sentences": [
+  [
+   "Your response should contain {relation} {num_sentences} sentences.",
+   182,
+   "Your response should contain less than 2 sentences."
+  ]
+ ],
+ "length_constraints:number_words": [
+  [
+   "Answer with {relation} {num_words} words.",
+   244,
+   "Answer with at least 452 words."
+  ],
+  [
+   "NetHack",
+   1,
+   "NetHack"
+  ],
+  [
+   "Indication : Woumd clean and suture",
+   1,
+   "Indication : Woumd clean and suture"
+  ]
+ ],
+ "letters:letter_counting": [
+  [
+   "Answer with {relation} {N} letters.",
+   168,
+   "Answer with less than 2 letters."
+  ],
+  [
+   "Technology: ",
+   1,
+   "Technology: "
+  ],
+  [
+   "Traffic camera that has range of 450 meters to increase effectiveness of traffic lights(around 25%)",
+   1,
+   "Traffic camera that has range of 450 meters to increase effectiveness of traffic lights(around 25%)"
+  ]
+ ],
+ "letters:letter_counting2": [
+  [
+   "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.",
+   124,
+   "In your response, the letter z should appear less than 2 times."
+  ],
+  [
+   "In you{letter} response, the letter r should appear {let_relation} {let_frequency} times.",
+   16,
+   "In your response, the letter r should appear at least 4 times."
+  ],
+  [
+   "In your r{letter}sponse, the letter e should appear {let_relation} {let_frequency} times.",
+   14,
+   "In your response, the letter e should appear at least 1 times."
+  ],
+  [
+   "In your response, the {letter}etter l should appear {let_relation} {let_frequency} times.",
+   12,
+   "In your response, the letter l should appear at least 9 times."
+  ],
+  [
+   "In your response, {letter}he letter t should appear {let_relation} {let_frequency} times.",
+   10,
+   "In your response, the letter t should appear less than 5 times."
+  ],
+  [
+   "In your response, t{letter}e letter h should appear {let_relation} {let_frequency} times.",
+   10,
+   "In your response, the letter h should appear less than 6 times."
+  ],
+  [
+   "In y{letter}ur response, the letter o should appear {let_relation} {let_frequency} times.",
+   9,
+   "In your response, the letter o should appear at least 3 times."
+  ],
+  [
+   "In your re{letter}ponse, the letter s should appear {let_relation} {let_frequency} times.",
+   8,
+   "In your response, the letter s should appear less than 8 times."
+  ],
+  [
+   "In yo{letter}r response, the letter u should appear {let_relation} {let_frequency} times.",
+   7,
+   "In your response, the letter u should appear less than 10 times."
+  ],
+  [
+   "In {letter}our response, the letter y should appear {let_relation} {let_frequency} times.",
+   7,
+   "In your response, the letter y should appear less than 4 times."
+  ],
+  [
+   "I{letter} your response, the letter n should appear {let_relation} {let_frequency} times.",
+   6,
+   "In your response, the letter n should appear at least 2 times."
+  ],
+  [
+   "In your res{letter}onse, the letter p should appear {let_relation} {let_frequency} times.",
+   6,
+   "In your response, the letter p should appear at least 1 times."
+  ],
+  [
+   "Team: ",
+   1,
+   "Team: "
+  ]
+ ],
+ "paragraphs:paragraphs": [
+  [
+   "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***",
+   207,
+   "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***"
+  ]
+ ],
+ "paragraphs:paragraphs2": [
+  [
+   "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ",
+   226,
+   "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. "
+  ]
+ ],
+ "punctuation:no_comma": [
+  [
+   "In your entire response, refrain from the use of any commas.",
+   226,
+   "In your entire response, refrain from the use of any commas."
+  ]
+ ],
+ "punctuation:punctuation_dot": [
+  [
+   "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.",
+   267,
+   "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general."
+  ]
+ ],
+ "punctuation:punctuation_exclamation": [
+  [
+   "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.",
+   208,
+   "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general."
+  ],
+  [
+   "~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files.",
+   1,
+   "~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files."
+  ],
+  [
+   "Success Chance: The likelihood of the attack landing.",
+   1,
+   "Success Chance: The likelihood of the attack landing."
+  ]
+ ],
+ "startend:end_checker": [
+  [
+   "Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.",
+   191,
+   "Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase."
+  ],
+  [
+   "In the middle of the 20th century such cultural explanations began to fall out of favour. The rapid rise of Japan’s economy in the 1950s, and later of the Asian “tigers”, quashed (击碎) the Marxist-Weberian notion that Western culture alone was conducive to industrialisation. At the same time the increasing availability of data with which to do statistical analysis meant that economists’ attention went elsewhere. Why bother with hard-to-measure matters such as morals, when it is possible to plug hard data such as capital accumulation, wages or employment into a regression model? In 1970 Robert Solow, a Nobel prizewinner, quipped (讥讽) that attempts to explain economic growth with reference to culture ended up “in a blaze (大火) of amateur sociology”.",
+   1,
+   "In the middle of the 20th century such cultural explanations began to fall out of favour. The rapid rise of Japan’s economy in the 1950s, and later of the Asian “tigers”, quashed (击碎) the Marxist-Weberian notion that Western culture alone was conducive to industrialisation. At the same time the increasing availability of data with which to do statistical analysis meant that economists’ attention went elsewhere. Why bother with hard-to-measure matters such as morals, when it is possible to plug hard data such as capital accumulation, wages or employment into a regression model? In 1970 Robert Solow, a Nobel prizewinner, quipped (讥讽) that attempts to explain economic growth with reference to culture ended up “in a blaze (大火) of amateur sociology”."
+  ],
+  [
+   "Οπτικός και διαστασιολογικός έλεγχος του ανοίγματος πλήρωσης και των βασικών διαστάσεων των εξαρτημάτων, όπως προβλέπονται από τα σχετικά πρότυπα.",
+   1,
+   "Οπτικός και διαστασιολογικός έλεγχος του ανοίγματος πλήρωσης και των βασικών διαστάσεων των εξαρτημάτων, όπως προβλέπονται από τα σχετικά πρότυπα."
+  ]
+ ],
+ "startend:quotation": [
+  [
+   "Wrap your entire response with double quotation marks.",
+   137,
+   "Wrap your entire response with double quotation marks."
+  ]
+ ]
+}

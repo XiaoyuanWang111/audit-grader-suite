@@ -1,0 +1,109 @@
+iterations 2000, seed 20261112
+exceptions: {}
+A change_case:english_lowercase decision 2
+A change_case:english_lowercase unexplained 4
+A count:count_unique unexplained 12
+A count:lowercase_counting decision 49
+A detectable_content:postscript decision 2
+A detectable_content:postscript unexplained 22
+A detectable_format:bigram_wrapping unexplained 3
+A detectable_format:multiple_sections decision 3
+A detectable_format:number_bullet_lists decision 1
+A detectable_format:number_bullet_lists unexplained 2
+A detectable_format:number_highlighted_sections unexplained 2
+A detectable_format:sentence_hyphens unexplained 7
+A detectable_format:square_brackets unexplained 1
+A first_word:first_word_sent decision 1
+A first_word:first_word_sent unexplained 1
+A keywords:existence decision 16
+A keywords:frequency decision 4
+A keywords:no_adjacent_consecutive decision 14
+A keywords:no_adjacent_consecutive unexplained 2
+A keywords:palindrome decision 20
+A keywords:palindrome unexplained 11
+A keywords:start_end unexplained 3
+A keywords:word_count_different_numbers decision 4
+A keywords:word_count_different_numbers unexplained 15
+A keywords:word_once decision 7
+A keywords:word_once unexplained 29
+A language:response_language unexplained 2
+A last_word:last_word_sent decision 1
+A last_word:last_word_sent unexplained 1
+A length_constraints:number_sentences decision 3
+A paragraphs:paragraphs decision 2
+A punctuation:no_comma decision 4
+A punctuation:punctuation_dot decision 2
+A startend:end_checker decision 3
+B change_case:capital_word_frequency decision 1
+B change_case:english_lowercase decision 3
+B change_case:english_lowercase unexplained 1
+B copy:repeat_phrase decision 10
+B copy:repeat_phrase unexplained 21
+B count:lowercase_counting unexplained 13
+B detectable_content:postscript decision 2
+B detectable_content:postscript unexplained 2
+B detectable_format:multiple_sections decision 3
+B detectable_format:multiple_sections unexplained 1
+B detectable_format:number_bullet_lists decision 1
+B detectable_format:number_bullet_lists unexplained 1
+B detectable_format:number_highlighted_sections unexplained 1
+B detectable_format:sentence_hyphens unexplained 23
+B detectable_format:square_brackets unexplained 4
+B first_word:first_word_sent decision 1
+B first_word:first_word_sent unexplained 1
+B keywords:no_adjacent_consecutive decision 9
+B keywords:no_adjacent_consecutive unexplained 11
+B keywords:word_count_different_numbers decision 2
+B keywords:word_count_different_numbers unexplained 15
+B keywords:word_once unexplained 19
+B last_word:last_word_sent decision 2
+B last_word:last_word_sent unexplained 1
+B length_constraints:number_paragraphs decision 3
+B length_constraints:number_paragraphs unexplained 3
+B length_constraints:number_sentences decision 3
+B paragraphs:paragraphs unexplained 17
+B paragraphs:paragraphs2 unexplained 12
+B punctuation:no_comma decision 4
+B punctuation:punctuation_dot decision 2
+B startend:end_checker decision 2
+fuzz:A:english_lowercase:fail label=pass reason=F-new kwargs=null response="g"
+fuzz:A:count_unique:fail label=pass reason=F-A5 kwargs=null response="**"
+fuzz:A:postscript:pass label=fail reason=F-A8 kwargs={"postscript_marker": "P.S."} response="hP.s."
+fuzz:A:bigram_wrapping:pass label=fail reason=F-A9 kwargs=null response=""
+fuzz:A:number_bullet_lists:fail label=pass reason=F-A12 kwargs={"num_bullets": 1} response="-g\n* !"
+fuzz:A:number_bullet_lists:pass label=fail reason=F-A12 kwargs={"num_bullets": 3} response="* **\n*\"\n*#"
+fuzz:A:number_highlighted_sections:pass label=fail reason=F-A13 kwargs={"num_highlights": 2} response="***t**"
+fuzz:A:sentence_hyphens:fail label=pass reason=F-A14 kwargs=null response="-y"
+fuzz:A:sentence_hyphens:pass label=fail reason=F-A14 kwargs=null response="P.S. ς"
+fuzz:A:square_brackets:fail label=pass reason=F-A15 kwargs=null response="-"
+fuzz:A:first_word_sent:pass label=fail reason=F-A3 kwargs={"first_word": "trade"} response=""
+fuzz:A:no_adjacent_consecutive:fail label=pass reason=F-A16 kwargs=null response=")\n*"
+fuzz:A:no_adjacent_consecutive:pass label=fail reason=F-A16 kwargs=null response="m\n*n"
+fuzz:A:palindrome:pass label=fail reason=F-A17 kwargs=null response="<"
+fuzz:A:start_end:pass label=fail reason=F-A18 kwargs=null response=">>"
+fuzz:A:word_count_different_numbers:fail label=pass reason=F-A2 kwargs={"frequency": 1, "keyword": "extreme", "relation": "less than"} response="extreme"
+fuzz:A:word_count_different_numbers:pass label=fail reason=F-A2 kwargs={"frequency": 3, "keyword": "signature", "relation": "less than"} response=""
+fuzz:A:word_once:fail label=pass reason=F-A1 kwargs={"keyword": "blood"} response="BLOOD blood"
+fuzz:A:response_language:pass label=fail reason=F-A19 kwargs={"language": "uk"} response=""
+fuzz:A:last_word_sent:pass label=fail reason=F-new kwargs={"last_word": "alarm"} response=""
+fuzz:B:english_lowercase:fail label=pass reason=F-new kwargs=null response="اth("
+fuzz:B:repeat_phrase:pass label=fail reason=F-B3 kwargs={"phrase": "Live each day to the fullest", "small_n": 2} response="Live each day to the fullestLive each day to the fullest"
+fuzz:B:lowercase_counting:fail label=pass reason=F-B2 kwargs={"N": 2} response=""
+fuzz:B:postscript:pass label=fail reason=F-B11 kwargs={"postscript_marker": "P.P.S"} response="P.P.Sa"
+fuzz:B:multiple_sections:pass label=fail reason=F-B14 kwargs={"num_sections": 1, "section_spliter": "SECTION"} response="Section2"
+fuzz:B:number_bullet_lists:pass label=fail reason=F-B15 kwargs={"num_bullets": 3} response="* **\n* \n* "
+fuzz:B:number_highlighted_sections:pass label=fail reason=F-B16 kwargs={"num_highlights": 1} response="* *"
+fuzz:B:sentence_hyphens:fail label=pass reason=F-B5 kwargs=null response=""
+fuzz:B:square_brackets:fail label=pass reason=F-B4 kwargs=null response=""
+fuzz:B:square_brackets:pass label=fail reason=F-B4 kwargs=null response="n[5]"
+fuzz:B:first_word_sent:pass label=fail reason=F-new kwargs={"first_word": "hope"} response="好Hope"
+fuzz:B:no_adjacent_consecutive:fail label=pass reason=F-B1 kwargs=null response="with with"
+fuzz:B:no_adjacent_consecutive:pass label=fail reason=F-B1 kwargs=null response="a b"
+fuzz:B:word_count_different_numbers:fail label=pass reason=F-B19 kwargs={"frequency": 1, "keyword": "extreme", "relation": "less than"} response="extreme"
+fuzz:B:word_count_different_numbers:pass label=fail reason=F-B19 kwargs={"frequency": 3, "keyword": "signature", "relation": "less than"} response=""
+fuzz:B:word_once:fail label=pass reason=F-B18 kwargs={"keyword": "blood"} response="BLOOD blood"
+fuzz:B:last_word_sent:pass label=fail reason=F-new kwargs={"last_word": "conversation"} response="éCONVERSATION"
+fuzz:B:number_paragraphs:fail label=pass reason=F-B6 kwargs={"num_paragraphs": 2} response="a\n***\nt"
+fuzz:B:number_paragraphs:pass label=fail reason=F-B6 kwargs={"num_paragraphs": 2} response=".\n\nا"
+fuzz:B:paragraphs:pass label=fail reason=F-B7 kwargs={} response="é\n\n>"
+fuzz:B:paragraphs2:pass label=fail reason=F-B7 kwargs={} response="é***。"

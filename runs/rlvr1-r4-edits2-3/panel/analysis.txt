@@ -1,0 +1,125 @@
+== stored records
+  Qwen__Qwen2.5-7B-Instruct/sample0: {'responses': 4000, 'truncated (finish_reason length)': 65, 'literal <think> in the text': 3, 'SkyRL graded text empty': 3, 'task-curation candidate empty': 3, 'SkyRL checker exception (row INFRA_ERROR, reward 0)': 0, 'contract extraction failure': 0}
+  Qwen__Qwen3-4B-Instruct-2507/greedy: {'responses': 1000, 'truncated (finish_reason length)': 92, 'literal <think> in the text': 0, 'SkyRL graded text empty': 1, 'task-curation candidate empty': 1, 'SkyRL checker exception (row INFRA_ERROR, reward 0)': 0, 'contract extraction failure': 0}
+  Qwen__Qwen3-4B-Instruct-2507/greedy_repeat: {'responses': 1000, 'truncated (finish_reason length)': 81, 'literal <think> in the text': 0, 'SkyRL graded text empty': 2, 'task-curation candidate empty': 2, 'SkyRL checker exception (row INFRA_ERROR, reward 0)': 0, 'contract extraction failure': 0}
+  Qwen__Qwen3-4B-Instruct-2507/sample0: {'responses': 11817, 'truncated (finish_reason length)': 620, 'literal <think> in the text': 11, 'SkyRL graded text empty': 16, 'task-curation candidate empty': 16, 'SkyRL checker exception (row INFRA_ERROR, reward 0)': 1, 'contract extraction failure': 0}
+  Qwen__Qwen3-4B-Thinking-2507__thinking/sample0: {'responses': 1500, 'truncated (finish_reason length)': 166, 'reasoning never closed (no </think>)': 139, 'literal <think> in the text': 1, 'SkyRL graded text empty': 1, 'task-curation candidate empty': 1, 'SkyRL checker exception (row INFRA_ERROR, reward 0)': 0, 'contract extraction failure': 139}
+  allenai__OLMo-2-1124-7B-Instruct/sample0: {'responses': 3998, 'truncated (finish_reason length)': 39, 'literal <think> in the text': 0, 'SkyRL graded text empty': 1, 'task-curation candidate empty': 1, 'SkyRL checker exception (row INFRA_ERROR, reward 0)': 0, 'contract extraction failure': 0}
+== scores (all), row-level binary, percent
+  Qwen__Qwen2.5-7B-Instruct/sample0                    n= 4000 skyrl= 20.00 rep= 20.55 d= +0.55 [-0.47, 1.57] | tc_gate= 32.98 rep_gate= 26.05 d= -6.92 [-8.18, -5.73] | skyrl_gate= 25.65
+  Qwen__Qwen3-4B-Instruct-2507/greedy                  n= 1000 skyrl= 29.30 rep= 33.00 d= +3.70 [1.9, 5.6] | tc_gate= 49.90 rep_gate= 41.20 d= -8.70 [-11.4, -6.0] | skyrl_gate= 37.70
+  Qwen__Qwen3-4B-Instruct-2507/greedy_repeat           n= 1000 skyrl= 29.50 rep= 33.10 d= +3.60 [1.7, 5.5] | tc_gate= 50.00 rep_gate= 41.50 d= -8.50 [-11.3, -5.8] | skyrl_gate= 38.00
+  Qwen__Qwen3-4B-Instruct-2507/sample0                 n=11817 skyrl= 29.54 rep= 32.80 d= +3.26 [2.67, 3.85] | tc_gate= 47.75 rep_gate= 41.54 d= -6.21 [-7.08, -5.35] | skyrl_gate= 37.32
+  Qwen__Qwen3-4B-Thinking-2507__thinking/sample0       n= 1500 skyrl= 55.27 rep= 65.40 d=+10.13 [8.2, 12.13] | tc_gate= 63.40 rep_gate= 68.53 d= +5.13 [3.07, 7.27] | skyrl_gate= 58.67
+  allenai__OLMo-2-1124-7B-Instruct/sample0             n= 3998 skyrl= 19.08 rep= 18.41 d= -0.68 [-1.53, 0.15] | tc_gate= 32.02 rep_gate= 24.36 d= -7.65 [-8.95, -6.4] | skyrl_gate= 25.44
+== scores (held_out), row-level binary, percent
+  Qwen__Qwen2.5-7B-Instruct/sample0                    n= 2028 skyrl= 19.67 rep= 21.15 d= +1.48 [0.05, 2.96] | tc_gate= 33.28 rep_gate= 27.02 d= -6.26 [-7.99, -4.54] | skyrl_gate= 25.99
+  Qwen__Qwen3-4B-Instruct-2507/greedy                  n=  509 skyrl= 27.11 rep= 31.24 d= +4.13 [1.77, 6.68] | tc_gate= 48.33 rep_gate= 39.69 d= -8.64 [-12.38, -4.91] | skyrl_gate= 35.56
+  Qwen__Qwen3-4B-Instruct-2507/greedy_repeat           n=  509 skyrl= 27.50 rep= 31.04 d= +3.54 [1.18, 6.09] | tc_gate= 48.33 rep_gate= 39.69 d= -8.64 [-12.38, -4.91] | skyrl_gate= 36.15
+  Qwen__Qwen3-4B-Instruct-2507/sample0                 n= 5937 skyrl= 29.48 rep= 32.84 d= +3.37 [2.53, 4.21] | tc_gate= 47.72 rep_gate= 41.59 d= -6.13 [-7.31, -4.94] | skyrl_gate= 37.24
+  Qwen__Qwen3-4B-Thinking-2507__thinking/sample0       n=  784 skyrl= 55.61 rep= 64.67 d= +9.06 [6.38, 11.73] | tc_gate= 64.03 rep_gate= 67.73 d= +3.70 [0.51, 6.63] | skyrl_gate= 58.93
+  allenai__OLMo-2-1124-7B-Instruct/sample0             n= 2027 skyrl= 19.09 rep= 18.94 d= -0.15 [-1.28, 0.94] | tc_gate= 30.98 rep_gate= 24.81 d= -6.17 [-7.89, -4.34] | skyrl_gate= 25.46
+== false rewards
+   all {'skyrl_passes': 6471, 'tc_gate_false_fail': 1631, 'tc_gate_passes': 10192, 'skyrl_false_zero': 1549, 'skyrl_false_rewards': 944, 'fr: decisions only': 479, 'tc_gate_false_passes': 3043, 'fr: checker defect': 455, 'fr: graded text empty after extraction': 9, 'tc_fp: candidate empty after extraction': 1, 'tc_fp: reasoning never closed': 18, 'fr: reasoning never closed': 1, 'skyrl_false_reward_share_of_passes_pct': 14.6, 'tc_gate_false_pass_share_pct': 29.9}
+      Qwen__Qwen2.5-7B-Instruct/sample0 {'skyrl_passes': 800, 'tc_gate_false_fail': 198, 'tc_gate_passes': 1319, 'skyrl_false_zero': 228, 'skyrl_false_rewards': 206, 'fr: decisions only': 110, 'tc_gate_false_passes': 475, 'fr: checker defect': 95, 'fr: graded text empty after extraction': 1, 'skyrl_false_reward_share_of_passes_pct': 25.8, 'tc_gate_false_pass_share_pct': 36.0}
+      Qwen__Qwen3-4B-Instruct-2507/greedy {'skyrl_passes': 293, 'skyrl_false_rewards': 27, 'fr: checker defect': 19, 'tc_gate_passes': 499, 'tc_gate_false_passes': 144, 'skyrl_false_zero': 64, 'tc_gate_false_fail': 57, 'fr: decisions only': 8, 'skyrl_false_reward_share_of_passes_pct': 9.2, 'tc_gate_false_pass_share_pct': 28.9}
+      Qwen__Qwen3-4B-Instruct-2507/greedy_repeat {'skyrl_passes': 295, 'skyrl_false_rewards': 28, 'fr: checker defect': 21, 'tc_gate_passes': 500, 'tc_gate_false_passes': 143, 'skyrl_false_zero': 64, 'tc_gate_false_fail': 58, 'fr: decisions only': 7, 'skyrl_false_reward_share_of_passes_pct': 9.5, 'tc_gate_false_pass_share_pct': 28.6}
+      Qwen__Qwen3-4B-Instruct-2507/sample0 {'skyrl_passes': 3491, 'skyrl_false_rewards': 472, 'fr: checker defect': 239, 'tc_gate_passes': 5643, 'fr: decisions only': 226, 'skyrl_false_zero': 857, 'tc_gate_false_fail': 941, 'tc_gate_false_passes': 1675, 'fr: graded text empty after extraction': 7, 'tc_fp: candidate empty after extraction': 1, 'skyrl_false_reward_share_of_passes_pct': 13.5, 'tc_gate_false_pass_share_pct': 29.7}
+      Qwen__Qwen3-4B-Thinking-2507__thinking/sample0 {'tc_gate_passes': 951, 'tc_gate_false_passes': 103, 'skyrl_passes': 829, 'skyrl_false_zero': 200, 'tc_gate_false_fail': 180, 'skyrl_false_rewards': 48, 'fr: decisions only': 30, 'tc_fp: reasoning never closed': 18, 'fr: checker defect': 17, 'fr: reasoning never closed': 1, 'skyrl_false_reward_share_of_passes_pct': 5.8, 'tc_gate_false_pass_share_pct': 10.8}
+      allenai__OLMo-2-1124-7B-Instruct/sample0 {'skyrl_passes': 763, 'tc_gate_passes': 1280, 'tc_gate_false_fail': 197, 'skyrl_false_zero': 136, 'tc_gate_false_passes': 503, 'skyrl_false_rewards': 163, 'fr: decisions only': 98, 'fr: checker defect': 64, 'fr: graded text empty after extraction': 1, 'skyrl_false_reward_share_of_passes_pct': 21.4, 'tc_gate_false_pass_share_pct': 39.3}
+      TOTAL {'skyrl_passes': 6471, 'tc_gate_false_fail': 1631, 'tc_gate_passes': 10192, 'skyrl_false_zero': 1549, 'skyrl_false_rewards': 944, 'fr: decisions only': 479, 'tc_gate_false_passes': 3043, 'fr: checker defect': 455, 'fr: graded text empty after extraction': 9, 'tc_fp: candidate empty after extraction': 1, 'tc_fp: reasoning never closed': 18, 'fr: reasoning never closed': 1, 'skyrl_false_reward_share_of_passes_pct': 14.6, 'tc_gate_false_pass_share_pct': 29.9}
+   held_out {'skyrl_false_zero': 798, 'tc_gate_false_fail': 845, 'skyrl_passes': 3250, 'tc_gate_passes': 5130, 'skyrl_false_rewards': 461, 'fr: checker defect': 208, 'tc_gate_false_passes': 1520, 'fr: decisions only': 249, 'fr: graded text empty after extraction': 3, 'tc_fp: reasoning never closed': 11, 'fr: reasoning never closed': 1, 'skyrl_false_reward_share_of_passes_pct': 14.2, 'tc_gate_false_pass_share_pct': 29.6}
+== rerun {'rows': 1000, 'identical_response': 506, 'skyrl_verdict_changed': 16, 'skyrl_sum_a': 293.0, 'skyrl_sum_b': 295.0, 'rep_verdict_changed': 17, 'rep_sum_a': 330.0, 'rep_sum_b': 331.0, 'tc_gate_verdict_changed': 27, 'tc_gate_sum_a': 499.0, 'tc_gate_sum_b': 500.0, 'skyrl_score_diff_pts': 0.2, 'rep_score_diff_pts': 0.1, 'tc_gate_score_diff_pts': 0.1}
+== per check (n, pass% skyrl/tc/rep, skyrl FP/FN [defect], tc FP/FN [defect])
+  change_case:capital_word_frequency             n= 1193 sky= 76.6 tc= 79.6 rep= 76.3 | skyFP=  12[   8] skyFN=   8[   7] | tcFP=  70[   1] tcFN=  30[  19] exc=0
+  change_case:english_capital                    n= 1521 sky= 45.5 tc= 55.5 rep= 49.4 | skyFP=  21[  21] skyFN=  80[  80] | tcFP=  99[  99] tcFN=   6[   6] exc=0
+  change_case:english_lowercase                  n= 1204 sky= 69.2 tc= 77.7 rep= 68.9 | skyFP=   6[   6] skyFN=   2[   2] | tcFP= 121[ 121] tcFN=  15[  15] exc=0
+  combination:two_responses                      n=  551 sky= 82.2 tc= 82.2 rep= 77.0 | skyFP=  30[  30] skyFN=   1[   0] | tcFP=  30[  30] tcFN=   1[   0] exc=0
+  copy:repeat_phrase                             n= 1053 sky=  8.9 tc= 45.3 rep=  4.5 | skyFP=  53[  51] skyFN=   6[   4] | tcFP= 477[ 454] tcFN=  47[  31] exc=0
+  count:count_unique                             n= 1331 sky= 15.1 tc=  nan rep= 22.9 | skyFP=   4[   2] skyFN= 108[  91] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  count:counting_composition                     n=    1 sky=  0.0 tc=  0.0 rep=  0.0 | skyFP=   0[   0] skyFN=   0[   0] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  count:lowercase_counting                       n= 1698 sky= 15.4 tc= 88.3 rep= 29.7 | skyFP=  41[  41] skyFN= 285[   0] | tcFP=1167[1167] tcFN= 172[ 150] exc=0
+  detectable_content:number_placeholders         n= 1194 sky= 91.5 tc= 91.4 rep= 91.5 | skyFP=   1[   1] skyFN=   1[   1] | tcFP=   0[   0] tcFN=   1[   1] exc=0
+  detectable_content:postscript                  n= 1269 sky= 83.2 tc= 72.3 rep= 80.4 | skyFP= 130[  59] skyFN=  94[  91] | tcFP=  65[   0] tcFN= 168[  91] exc=0
+  detectable_format:bigram_wrapping              n= 1142 sky= 19.6 tc=  nan rep=  3.4 | skyFP= 185[ 185] skyFN=   0[   0] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  detectable_format:constrained_response         n=  243 sky= 89.7 tc= 57.6 rep= 88.5 | skyFP=   3[   3] skyFN=   0[   0] | tcFP=   0[   0] tcFN=  75[   0] exc=0
+  detectable_format:json_format                  n=  266 sky= 82.0 tc= 82.0 rep= 82.0 | skyFP=   0[   0] skyFN=   0[   0] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  detectable_format:multiple_sections            n=  911 sky= 86.8 tc= 85.6 rep= 82.2 | skyFP=  66[  66] skyFN=  24[   2] | tcFP=  36[  36] tcFN=   5[   3] exc=0
+  detectable_format:number_bullet_lists          n= 1013 sky= 80.6 tc= 82.0 rep= 82.0 | skyFP=   3[   3] skyFN=  18[  18] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  detectable_format:number_highlighted_sections  n= 1068 sky= 93.4 tc= 93.4 rep= 92.8 | skyFP=   7[   7] skyFN=   1[   1] | tcFP=   6[   6] tcFN=   0[   0] exc=0
+  detectable_format:sentence_hyphens             n= 1295 sky= 19.7 tc= 19.5 rep= 52.1 | skyFP=  69[  69] skyFN= 489[   7] | tcFP=   4[   4] tcFN= 426[   2] exc=0
+  detectable_format:square_brackets              n= 1071 sky= 16.3 tc= 95.1 rep= 19.1 | skyFP=  23[  12] skyFN=  53[  41] | tcFP= 814[ 655] tcFN=   0[   0] exc=0
+  detectable_format:title                        n= 1180 sky= 97.1 tc= 97.1 rep= 97.3 | skyFP=   0[   0] skyFN=   2[   2] | tcFP=   0[   0] tcFN=   2[   2] exc=0
+  first_word:first_word_answer                   n= 1084 sky= 72.5 tc= 85.5 rep= 85.1 | skyFP=   0[   0] skyFN= 136[  67] | tcFP=   6[   3] tcFN=   1[   0] exc=0
+  first_word:first_word_sent                     n= 1020 sky= 32.5 tc= 43.4 rep= 41.1 | skyFP=  15[   4] skyFN= 103[  42] | tcFP=  29[  13] tcFN=   5[   2] exc=0
+  keywords:existence                             n= 1852 sky= 75.6 tc= 72.0 rep= 68.9 | skyFP= 124[   0] skyFN=   0[   0] | tcFP=  59[   0] tcFN=   1[   1] exc=0
+  keywords:forbidden_words                       n= 1681 sky= 97.0 tc= 97.0 rep= 97.1 | skyFP=   1[   1] skyFN=   3[   0] | tcFP=   1[   1] tcFN=   3[   0] exc=0
+  keywords:frequency                             n= 1195 sky= 81.1 tc= 81.0 rep= 80.1 | skyFP=  36[   0] skyFN=  24[   0] | tcFP=  13[   0] tcFN=   2[   0] exc=0
+  keywords:keyword_specific_position             n= 1304 sky=  2.8 tc=  3.8 rep=  3.8 | skyFP=   6[   3] skyFN=  19[   9] | tcFP=   8[   4] tcFN=   9[   5] exc=0
+  keywords:letter_frequency                      n= 1493 sky= 57.0 tc= 57.0 rep= 57.0 | skyFP=   0[   0] skyFN=   0[   0] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  keywords:no_adjacent_consecutive               n= 1479 sky= 24.1 tc= 77.8 rep= 18.1 | skyFP= 116[   0] skyFN=  27[  25] | tcFP= 921[ 767] tcFN=  37[  32] exc=0
+  keywords:palindrome                            n= 1161 sky= 90.3 tc= 63.3 rep= 72.4 | skyFP= 241[  15] skyFN=  33[  30] | tcFP=  16[   1] tcFN= 121[ 117] exc=0
+  keywords:start_end                             n=  982 sky= 29.7 tc= 37.4 rep= 34.5 | skyFP=   4[   4] skyFN=  51[   7] | tcFP=  55[  55] tcFN=  27[  13] exc=0
+  keywords:word_count_different_numbers          n= 1012 sky= 54.2 tc= 54.2 rep= 36.6 | skyFP= 336[ 297] skyFN= 158[ 117] | tcFP= 335[ 295] tcFN= 157[ 116] exc=0
+  keywords:word_once                             n= 1803 sky= 25.6 tc= 26.0 rep= 72.6 | skyFP=  47[   0] skyFN= 895[ 803] | tcFP=  13[   0] tcFN= 853[ 766] exc=0
+  language:response_language                     n= 1592 sky= 88.6 tc=  nan rep= 88.3 | skyFP=   8[   8] skyFN=   2[   2] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  last_word:last_word_answer                     n= 1275 sky= 70.3 tc= 76.5 rep= 75.6 | skyFP=   0[   0] skyFN=  68[   0] | tcFP=  14[   6] tcFN=   2[   0] exc=1
+  last_word:last_word_sent                       n= 1198 sky= 27.9 tc= 33.5 rep= 26.7 | skyFP=  47[  16] skyFN=  33[  12] | tcFP=  84[  41] tcFN=   3[   1] exc=0
+  length_constraints:nth_paragraph_first_word    n= 1043 sky= 38.9 tc= 38.5 rep= 38.2 | skyFP=  13[  12] skyFN=   5[   1] | tcFP=   4[   0] tcFN=   0[   0] exc=0
+  length_constraints:number_paragraphs           n= 1341 sky= 74.3 tc= 42.5 rep= 63.7 | skyFP= 166[   0] skyFN=  23[   1] | tcFP= 104[  56] tcFN= 388[ 370] exc=0
+  length_constraints:number_sentences            n= 1127 sky= 70.4 tc= 69.6 rep= 73.4 | skyFP=  55[  14] skyFN=  89[  58] | tcFP=  57[  16] tcFN= 100[  69] exc=0
+  length_constraints:number_words                n= 1437 sky= 73.6 tc= 70.4 rep= 73.8 | skyFP=  11[   5] skyFN=  15[  11] | tcFP=  11[   9] tcFN=  60[  58] exc=0
+  letters:letter_counting                        n=  955 sky= 61.6 tc=  nan rep= 66.6 | skyFP=  24[   0] skyFN=  72[   0] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  letters:letter_counting2                       n= 1332 sky= 54.4 tc= 54.4 rep= 54.4 | skyFP=   1[   1] skyFN=   0[   0] | tcFP=   1[   1] tcFN=   0[   0] exc=0
+  paragraphs:paragraphs                          n= 1145 sky= 83.8 tc= 97.1 rep= 72.8 | skyFP= 131[   0] skyFN=   4[   0] | tcFP= 279[ 130] tcFN=   0[   0] exc=0
+  paragraphs:paragraphs2                         n= 1386 sky= 62.7 tc= 94.3 rep= 62.8 | skyFP=   2[   0] skyFN=   3[   0] | tcFP= 437[ 435] tcFN=   0[   0] exc=0
+  punctuation:no_comma                           n= 1516 sky= 89.1 tc= 89.1 rep= 87.3 | skyFP=  27[   0] skyFN=   0[   0] | tcFP=  27[   0] tcFN=   0[   0] exc=0
+  punctuation:punctuation_dot                    n= 1744 sky= 51.8 tc= 51.8 rep= 51.7 | skyFP=   1[   0] skyFN=   0[   0] | tcFP=   1[   0] tcFN=   0[   0] exc=0
+  punctuation:punctuation_exclamation            n= 1278 sky= 95.8 tc= 95.8 rep= 95.1 | skyFP=   9[   0] skyFN=   0[   0] | tcFP=   9[   0] tcFN=   0[   0] exc=0
+  startend:end_checker                           n=  991 sky= 87.9 tc= 68.7 rep= 68.7 | skyFP= 190[   0] skyFN=   0[   0] | tcFP=   0[   0] tcFN=   0[   0] exc=0
+  startend:quotation                             n=  803 sky= 86.7 tc= 86.8 rep= 87.2 | skyFP=   0[   0] skyFN=   4[   0] | tcFP=   0[   0] tcFN=   3[   0] exc=0
+== decision effects (top)
+  D-word-case                  {'constraint_verdicts_flipped': 1214, 'rows_score_up': 12, 'rows_score_down': 501, 'agrees_with_skyrl_after_flip': 246, 'agrees_with_tc_after_flip': 134}
+  D-hyphen-single              {'constraint_verdicts_flipped': 667, 'rows_score_up': 0, 'rows_score_down': 347, 'agrees_with_skyrl_after_flip': 481, 'agrees_with_tc_after_flip': 423}
+  D-keyword-boundary           {'constraint_verdicts_flipped': 415, 'rows_score_up': 139, 'rows_score_down': 61, 'agrees_with_skyrl_after_flip': 273, 'agrees_with_tc_after_flip': 130}
+  D-word-unspaced              {'constraint_verdicts_flipped': 312, 'rows_score_up': 102, 'rows_score_down': 76, 'agrees_with_skyrl_after_flip': 57, 'agrees_with_tc_after_flip': 32}
+  D-lowercase-counting         {'constraint_verdicts_flipped': 308, 'rows_score_up': 0, 'rows_score_down': 165, 'agrees_with_skyrl_after_flip': 274, 'agrees_with_tc_after_flip': 10}
+  D-markup-transparent         {'constraint_verdicts_flipped': 308, 'rows_score_up': 25, 'rows_score_down': 137, 'agrees_with_skyrl_after_flip': 189, 'agrees_with_tc_after_flip': 57}
+  D-word-hyphen                {'constraint_verdicts_flipped': 280, 'rows_score_up': 112, 'rows_score_down': 50, 'agrees_with_skyrl_after_flip': 124, 'agrees_with_tc_after_flip': 94}
+  D-palindrome-length          {'constraint_verdicts_flipped': 232, 'rows_score_up': 77, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 217, 'agrees_with_tc_after_flip': 13}
+  D-divider-line               {'constraint_verdicts_flipped': 178, 'rows_score_up': 57, 'rows_score_down': 14, 'agrees_with_skyrl_after_flip': 159, 'agrees_with_tc_after_flip': 132}
+  D-sentence-lines             {'constraint_verdicts_flipped': 176, 'rows_score_up': 69, 'rows_score_down': 15, 'agrees_with_skyrl_after_flip': 119, 'agrees_with_tc_after_flip': 131}
+  D-end-case                   {'constraint_verdicts_flipped': 161, 'rows_score_up': 80, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 161, 'agrees_with_tc_after_flip': 0}
+  D-divider-empty              {'constraint_verdicts_flipped': 160, 'rows_score_up': 56, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 140, 'agrees_with_tc_after_flip': 57}
+  D-bracket-group              {'constraint_verdicts_flipped': 157, 'rows_score_up': 94, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 10, 'agrees_with_tc_after_flip': 157}
+  D-letter-case                {'constraint_verdicts_flipped': 119, 'rows_score_up': 33, 'rows_score_down': 27, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-letter-def                 {'constraint_verdicts_flipped': 96, 'rows_score_up': 18, 'rows_score_down': 49, 'agrees_with_skyrl_after_flip': 96, 'agrees_with_tc_after_flip': 0}
+  D-consecutive-script         {'constraint_verdicts_flipped': 92, 'rows_score_up': 50, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 8, 'agrees_with_tc_after_flip': 64}
+  D-capital-single             {'constraint_verdicts_flipped': 84, 'rows_score_up': 49, 'rows_score_down': 4, 'agrees_with_skyrl_after_flip': 2, 'agrees_with_tc_after_flip': 79}
+  D-postscript-end             {'constraint_verdicts_flipped': 76, 'rows_score_up': 25, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 71, 'agrees_with_tc_after_flip': 65}
+  D-constrained-extra          {'constraint_verdicts_flipped': 75, 'rows_score_up': 0, 'rows_score_down': 75, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 75}
+  D-postscript-line            {'constraint_verdicts_flipped': 72, 'rows_score_up': 0, 'rows_score_down': 21, 'agrees_with_skyrl_after_flip': 2, 'agrees_with_tc_after_flip': 72}
+  D-postscript-case            {'constraint_verdicts_flipped': 62, 'rows_score_up': 0, 'rows_score_down': 21, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 2}
+  D-highlight-bold             {'constraint_verdicts_flipped': 57, 'rows_score_up': 0, 'rows_score_down': 16, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-consecutive-order          {'constraint_verdicts_flipped': 54, 'rows_score_up': 32, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 51, 'agrees_with_tc_after_flip': 42}
+  D-section-preamble           {'constraint_verdicts_flipped': 54, 'rows_score_up': 0, 'rows_score_down': 19, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 1}
+  D-end-trailing               {'constraint_verdicts_flipped': 43, 'rows_score_up': 22, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 28, 'agrees_with_tc_after_flip': 0}
+  D-start-end-single           {'constraint_verdicts_flipped': 42, 'rows_score_up': 0, 'rows_score_down': 23, 'agrees_with_skyrl_after_flip': 42, 'agrees_with_tc_after_flip': 13}
+  D-repeat-original            {'constraint_verdicts_flipped': 30, 'rows_score_up': 15, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 22}
+  D-comma-unicode              {'constraint_verdicts_flipped': 27, 'rows_score_up': 11, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 27, 'agrees_with_tc_after_flip': 27}
+  D-section-case               {'constraint_verdicts_flipped': 22, 'rows_score_up': 0, 'rows_score_down': 1, 'agrees_with_skyrl_after_flip': 22, 'agrees_with_tc_after_flip': 1}
+  D-repeat-center              {'constraint_verdicts_flipped': 15, 'rows_score_up': 0, 'rows_score_down': 13, 'agrees_with_skyrl_after_flip': 1, 'agrees_with_tc_after_flip': 15}
+  D-empty-each                 {'constraint_verdicts_flipped': 11, 'rows_score_up': 1, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 1, 'agrees_with_tc_after_flip': 2}
+  D-title-position             {'constraint_verdicts_flipped': 10, 'rows_score_up': 0, 'rows_score_down': 5, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-exclamation-unicode        {'constraint_verdicts_flipped': 9, 'rows_score_up': 2, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 9, 'agrees_with_tc_after_flip': 9}
+  D-unique-case                {'constraint_verdicts_flipped': 8, 'rows_score_up': 6, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 2, 'agrees_with_tc_after_flip': 0}
+  D-list-label                 {'constraint_verdicts_flipped': 7, 'rows_score_up': 0, 'rows_score_down': 2, 'agrees_with_skyrl_after_flip': 6, 'agrees_with_tc_after_flip': 6}
+  D-paragraph-blank-lines      {'constraint_verdicts_flipped': 7, 'rows_score_up': 1, 'rows_score_down': 1, 'agrees_with_skyrl_after_flip': 6, 'agrees_with_tc_after_flip': 2}
+  D-bullet-markers             {'constraint_verdicts_flipped': 6, 'rows_score_up': 3, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-quotation-typographic      {'constraint_verdicts_flipped': 4, 'rows_score_up': 0, 'rows_score_down': 1, 'agrees_with_skyrl_after_flip': 4, 'agrees_with_tc_after_flip': 3}
+  D-bullet-nested              {'constraint_verdicts_flipped': 4, 'rows_score_up': 2, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-section-markup             {'constraint_verdicts_flipped': 2, 'rows_score_up': 0, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-bigram-odd                 {'constraint_verdicts_flipped': 1, 'rows_score_up': 0, 'rows_score_down': 1, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}
+  D-dot-unicode                {'constraint_verdicts_flipped': 1, 'rows_score_up': 0, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 1, 'agrees_with_tc_after_flip': 1}
+  D-two-separator              {'constraint_verdicts_flipped': 1, 'rows_score_up': 0, 'rows_score_down': 0, 'agrees_with_skyrl_after_flip': 1, 'agrees_with_tc_after_flip': 1}
+  D-placeholder                {'constraint_verdicts_flipped': 1, 'rows_score_up': 0, 'rows_score_down': 1, 'agrees_with_skyrl_after_flip': 0, 'agrees_with_tc_after_flip': 0}

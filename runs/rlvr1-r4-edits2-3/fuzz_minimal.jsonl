@@ -1,0 +1,129 @@
+{"grader": "skyrl", "instruction_id": "change_case:capital_word_frequency", "kwargs": {"capital_frequency": 6, "capital_relation": "at least"}, "kind": "false fail", "response": "NASAP.S.OK LEAST THINKP.P.S", "row": 11133}
+{"grader": "skyrl", "instruction_id": "change_case:capital_word_frequency", "kwargs": {"capital_frequency": 3, "capital_relation": "less than"}, "kind": "false pass", "response": "THE、OK YES", "row": 5394}
+{"grader": "skyrl", "instruction_id": "change_case:english_capital", "kwargs": null, "kind": "false fail", "response": "P.S.", "row": 1655}
+{"grader": "skyrl", "instruction_id": "change_case:english_lowercase", "kwargs": null, "kind": "false fail", "response": "<think>", "row": 4937}
+{"grader": "skyrl", "instruction_id": "change_case:english_lowercase", "kwargs": null, "kind": "false pass", "response": "Привет</think>p.s.", "row": 8230}
+{"grader": "skyrl", "instruction_id": "combination:two_responses", "kwargs": null, "kind": "false fail", "response": "DAY\n******\n</think>", "row": 3967}
+{"grader": "skyrl", "instruction_id": "count:count_unique", "kwargs": null, "kind": "false fail", "response": ">>", "row": 9445}
+{"grader": "skyrl", "instruction_id": "count:count_unique", "kwargs": null, "kind": "false pass", "response": "WEDDING wedding", "row": 5016}
+{"grader": "skyrl", "instruction_id": "count:lowercase_counting", "kwargs": {"N": 3}, "kind": "false fail", "response": "and maybe.a dog", "row": 8064}
+{"grader": "skyrl", "instruction_id": "count:lowercase_counting", "kwargs": {"N": 2}, "kind": "false pass", "response": "questions?<<think>>questions?questions?", "row": 2950}
+{"grader": "skyrl", "instruction_id": "detectable_content:number_placeholders", "kwargs": {"num_placeholders": 1}, "kind": "false fail", "response": "[x]<<think>>", "row": 11037}
+{"grader": "skyrl", "instruction_id": "detectable_content:postscript", "kwargs": {"postscript_marker": "P.S."}, "kind": "false fail", "response": "p.s.</think>", "row": 5970}
+{"grader": "skyrl", "instruction_id": "detectable_content:postscript", "kwargs": {"postscript_marker": "P.P.S"}, "kind": "false pass", "response": "P.P.S\n* * *\n\n>>", "row": 1967}
+{"grader": "skyrl", "instruction_id": "detectable_format:bigram_wrapping", "kwargs": null, "kind": "false pass", "response": "", "row": 8766}
+{"grader": "skyrl", "instruction_id": "detectable_format:multiple_sections", "kwargs": {"num_sections": 1, "section_spliter": "SECTION"}, "kind": "false fail", "response": "Section 2024**café", "row": 2970}
+{"grader": "skyrl", "instruction_id": "detectable_format:multiple_sections", "kwargs": {"num_sections": 1, "section_spliter": "Section"}, "kind": "false pass", "response": "Section3.14", "row": 4534}
+{"grader": "skyrl", "instruction_id": "detectable_format:number_bullet_lists", "kwargs": {"num_bullets": 1}, "kind": "false fail", "response": "\n+ !", "row": 9539}
+{"grader": "skyrl", "instruction_id": "detectable_format:number_bullet_lists", "kwargs": {"num_bullets": 1}, "kind": "false pass", "response": "\n+ ;\n* I", "row": 5409}
+{"grader": "skyrl", "instruction_id": "detectable_format:number_highlighted_sections", "kwargs": {"num_highlights": 1}, "kind": "false fail", "response": "**#**<think>", "row": 9672}
+{"grader": "skyrl", "instruction_id": "detectable_format:number_highlighted_sections", "kwargs": {"num_highlights": 1}, "kind": "false pass", "response": "**I **", "row": 9269}
+{"grader": "skyrl", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "kind": "false fail", "response": "well-known", "row": 5223}
+{"grader": "skyrl", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "kind": "false pass", "response": "P.P.S… SECTION", "row": 10833}
+{"grader": "skyrl", "instruction_id": "detectable_format:square_brackets", "kwargs": null, "kind": "false fail", "response": "```[x]", "row": 8919}
+{"grader": "skyrl", "instruction_id": "detectable_format:square_brackets", "kwargs": null, "kind": "false pass", "response": "", "row": 8746}
+{"grader": "skyrl", "instruction_id": "detectable_format:title", "kwargs": null, "kind": "false fail", "response": "<<think>>", "row": 509}
+{"grader": "skyrl", "instruction_id": "first_word:first_word_answer", "kwargs": {"first_word": "school"}, "kind": "false fail", "response": "school'", "row": 457}
+{"grader": "skyrl", "instruction_id": "first_word:first_word_answer", "kwargs": {"first_word": "temperature"}, "kind": "false pass", "response": "Other</think>temperature", "row": 1462}
+{"grader": "skyrl", "instruction_id": "first_word:first_word_sent", "kwargs": {"first_word": "run"}, "kind": "false fail", "response": "Run，", "row": 7998}
+{"grader": "skyrl", "instruction_id": "first_word:first_word_sent", "kwargs": {"first_word": "call"}, "kind": "false pass", "response": "", "row": 11086}
+{"grader": "skyrl", "instruction_id": "keywords:existence", "kwargs": {"keywords": ["rip", "variety"]}, "kind": "false fail", "response": "VARIETY**rip<<think>>", "row": 939}
+{"grader": "skyrl", "instruction_id": "keywords:existence", "kwargs": {"keywords": ["exchange", "question"]}, "kind": "false pass", "response": "exchangequestions?", "row": 2359}
+{"grader": "skyrl", "instruction_id": "keywords:forbidden_words", "kwargs": {"forbidden_words": ["pattern", "year"]}, "kind": "false pass", "response": "<think>pattern", "row": 11734}
+{"grader": "skyrl", "instruction_id": "keywords:frequency", "kwargs": {"frequency": 1, "keyword": "designer", "relation": "at least"}, "kind": "false fail", "response": "<think>Designer", "row": 7100}
+{"grader": "skyrl", "instruction_id": "keywords:frequency", "kwargs": {"frequency": 2, "keyword": "worker", "relation": "less than"}, "kind": "false pass", "response": "<<think>>worker\n- worker", "row": 8725}
+{"grader": "skyrl", "instruction_id": "keywords:keyword_specific_position", "kwargs": {"keyword": "dead", "m": 4, "n": 6}, "kind": "false fail", "response": "P.P.S。the！maybe. P.s. day\n+ [x]dead LEVEL dead", "row": 10823}
+{"grader": "skyrl", "instruction_id": "keywords:keyword_specific_position", "kwargs": {"keyword": "network", "m": 12, "n": 1}, "kind": "false pass", "response": ": :Привет Any P.S.**think P.p.s cat network", "row": 10044}
+{"grader": "skyrl", "instruction_id": "keywords:letter_frequency", "kwargs": {"let_frequency": 5, "let_relation": "at least", "letter": "a"}, "kind": "false fail", "response": "<think>Bananadayleast", "row": 5406}
+{"grader": "skyrl", "instruction_id": "keywords:letter_frequency", "kwargs": {"let_frequency": 8, "let_relation": "less than", "letter": "e"}, "kind": "false pass", "response": "applefullestSectionlesseHelpelse<<think>>", "row": 7642}
+{"grader": "skyrl", "instruction_id": "keywords:no_adjacent_consecutive", "kwargs": null, "kind": "false fail", "response": "**\n+ ", "row": 11261}
+{"grader": "skyrl", "instruction_id": "keywords:no_adjacent_consecutive", "kwargs": null, "kind": "false pass", "response": ";other p.s.", "row": 694}
+{"grader": "skyrl", "instruction_id": "keywords:palindrome", "kwargs": null, "kind": "false fail", "response": "Noon", "row": 3997}
+{"grader": "skyrl", "instruction_id": "keywords:palindrome", "kwargs": null, "kind": "false pass", "response": "x", "row": 2170}
+{"grader": "skyrl", "instruction_id": "keywords:start_end", "kwargs": null, "kind": "false fail", "response": "My", "row": 4154}
+{"grader": "skyrl", "instruction_id": "keywords:start_end", "kwargs": null, "kind": "false pass", "response": ">>", "row": 1038}
+{"grader": "skyrl", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"frequency": 2, "keyword": "store", "relation": "at least"}, "kind": "false fail", "response": "store\n- store<think>", "row": 1431}
+{"grader": "skyrl", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"frequency": 2, "keyword": "check", "relation": "less than"}, "kind": "false pass", "response": "", "row": 3481}
+{"grader": "skyrl", "instruction_id": "keywords:word_once", "kwargs": {"keyword": "extreme"}, "kind": "false fail", "response": "extreme extreme", "row": 6781}
+{"grader": "skyrl", "instruction_id": "language:response_language", "kwargs": {"language": "it"}, "kind": "false fail", "response": "DATAfullest", "row": 7519}
+{"grader": "skyrl", "instruction_id": "language:response_language", "kwargs": {"language": "pl"}, "kind": "false pass", "response": "", "row": 7598}
+{"grader": "skyrl", "instruction_id": "last_word:last_word_answer", "kwargs": {"last_word": "intention"}, "kind": "exception IndexError", "response": "", "row": 4350}
+{"grader": "skyrl", "instruction_id": "last_word:last_word_answer", "kwargs": {"last_word": "notice"}, "kind": "false fail", "response": "notice\n+ ", "row": 10935}
+{"grader": "skyrl", "instruction_id": "last_word:last_word_sent", "kwargs": {"last_word": "satisfaction"}, "kind": "false fail", "response": "satisfaction ;", "row": 1476}
+{"grader": "skyrl", "instruction_id": "last_word:last_word_sent", "kwargs": {"last_word": "eye"}, "kind": "false pass", "response": "", "row": 5716}
+{"grader": "skyrl", "instruction_id": "length_constraints:nth_paragraph_first_word", "kwargs": {"first_word": "novel", "nth_paragraph": 1, "num_paragraphs": 1}, "kind": "false fail", "response": "novel_", "row": 11372}
+{"grader": "skyrl", "instruction_id": "length_constraints:number_paragraphs", "kwargs": {"num_paragraphs": 1}, "kind": "false fail", "response": "<<think>>", "row": 5752}
+{"grader": "skyrl", "instruction_id": "length_constraints:number_paragraphs", "kwargs": {"num_paragraphs": 1}, "kind": "false pass", "response": "\n***\ndon't", "row": 2325}
+{"grader": "skyrl", "instruction_id": "length_constraints:number_sentences", "kwargs": {"num_sentences": 6, "relation": "at least"}, "kind": "false fail", "response": "at\n* I\n2. P.P.S\n2. maybe.\tquestions? 3.14", "row": 8746}
+{"grader": "skyrl", "instruction_id": "length_constraints:number_sentences", "kwargs": {"num_sentences": 3, "relation": "less than"}, "kind": "false pass", "response": "maybe. MAYBE. Привет<think>", "row": 3585}
+{"grader": "skyrl", "instruction_id": "letters:letter_counting", "kwargs": {"N": 3, "relation": "at least"}, "kind": "false fail", "response": "<<think>>", "row": 8619}
+{"grader": "skyrl", "instruction_id": "letters:letter_counting", "kwargs": {"N": 3, "relation": "less than"}, "kind": "false pass", "response": "<<think>>", "row": 10312}
+{"grader": "skyrl", "instruction_id": "letters:letter_counting2", "kwargs": {"let_frequency": 3, "let_relation": "at least", "letter": "o"}, "kind": "false fail", "response": "no<<think>>oOTHER", "row": 7447}
+{"grader": "skyrl", "instruction_id": "letters:letter_counting2", "kwargs": {"let_frequency": 1, "let_relation": "less than", "letter": "x"}, "kind": "false pass", "response": "<think>x", "row": 3824}
+{"grader": "skyrl", "instruction_id": "paragraphs:paragraphs", "kwargs": {}, "kind": "false fail", "response": "cat\n***\n<<think>>", "row": 5716}
+{"grader": "skyrl", "instruction_id": "paragraphs:paragraphs", "kwargs": {}, "kind": "false pass", "response": "\n***\n\n* \n***\n！", "row": 8126}
+{"grader": "skyrl", "instruction_id": "paragraphs:paragraphs2", "kwargs": {}, "kind": "false fail", "response": "<<think>>\n\nFullest", "row": 11086}
+{"grader": "skyrl", "instruction_id": "paragraphs:paragraphs2", "kwargs": {}, "kind": "false pass", "response": "\n* * *\n\n<think>\n\n</think>`", "row": 7702}
+{"grader": "skyrl", "instruction_id": "punctuation:no_comma", "kwargs": null, "kind": "false pass", "response": "、", "row": 7429}
+{"grader": "skyrl", "instruction_id": "punctuation:punctuation_dot", "kwargs": null, "kind": "false pass", "response": "<think>3.14", "row": 4491}
+{"grader": "skyrl", "instruction_id": "punctuation:punctuation_exclamation", "kwargs": null, "kind": "false pass", "response": "!</think>", "row": 8064}
+{"grader": "tc", "instruction_id": "change_case:capital_word_frequency", "kwargs": {"capital_frequency": 5, "capital_relation": "at least"}, "kind": "false fail", "response": "P.P.SP.P.SP.S.", "row": 2749}
+{"grader": "tc", "instruction_id": "change_case:capital_word_frequency", "kwargs": {"capital_frequency": 3, "capital_relation": "less than"}, "kind": "false pass", "response": "A WE\n******\nANY", "row": 7237}
+{"grader": "tc", "instruction_id": "change_case:english_capital", "kwargs": null, "kind": "false pass", "response": "OK", "row": 1768}
+{"grader": "tc", "instruction_id": "change_case:english_lowercase", "kwargs": null, "kind": "false fail", "response": "<think>", "row": 4937}
+{"grader": "tc", "instruction_id": "change_case:english_lowercase", "kwargs": null, "kind": "false pass", "response": "Привет</think>p.s.", "row": 8230}
+{"grader": "tc", "instruction_id": "combination:two_responses", "kwargs": null, "kind": "false fail", "response": "DAY\n******\n</think>", "row": 3967}
+{"grader": "tc", "instruction_id": "count:lowercase_counting", "kwargs": {"N": 3}, "kind": "false fail", "response": "", "row": 4099}
+{"grader": "tc", "instruction_id": "count:lowercase_counting", "kwargs": {"N": 2}, "kind": "false pass", "response": "apartment```apartment apartment", "row": 8166}
+{"grader": "tc", "instruction_id": "detectable_content:number_placeholders", "kwargs": {"num_placeholders": 1}, "kind": "false fail", "response": "[x]<<think>>", "row": 11037}
+{"grader": "tc", "instruction_id": "detectable_content:postscript", "kwargs": {"postscript_marker": "P.S."}, "kind": "false fail", "response": "p.s.</think>", "row": 5970}
+{"grader": "tc", "instruction_id": "detectable_content:postscript", "kwargs": {"postscript_marker": "P.P.S"}, "kind": "false pass", "response": "</think>P.P.S", "row": 4642}
+{"grader": "tc", "instruction_id": "detectable_format:multiple_sections", "kwargs": {"num_sections": 1, "section_spliter": "SECTION"}, "kind": "false pass", "response": "Section2024", "row": 1417}
+{"grader": "tc", "instruction_id": "detectable_format:number_bullet_lists", "kwargs": {"num_bullets": 1}, "kind": "false fail", "response": "\n+ !", "row": 9539}
+{"grader": "tc", "instruction_id": "detectable_format:number_bullet_lists", "kwargs": {"num_bullets": 1}, "kind": "false pass", "response": "\n+ ;\n* I", "row": 5409}
+{"grader": "tc", "instruction_id": "detectable_format:number_highlighted_sections", "kwargs": {"num_highlights": 1}, "kind": "false fail", "response": "**#**<think>", "row": 9672}
+{"grader": "tc", "instruction_id": "detectable_format:number_highlighted_sections", "kwargs": {"num_highlights": 1}, "kind": "false pass", "response": "\n* * *\n", "row": 10702}
+{"grader": "tc", "instruction_id": "detectable_format:sentence_hyphens", "kwargs": null, "kind": "false fail", "response": "dog", "row": 5223}
+{"grader": "tc", "instruction_id": "detectable_format:square_brackets", "kwargs": null, "kind": "false pass", "response": "[x]<<think>></think>", "row": 1184}
+{"grader": "tc", "instruction_id": "detectable_format:title", "kwargs": null, "kind": "false fail", "response": "<<think>>", "row": 509}
+{"grader": "tc", "instruction_id": "first_word:first_word_answer", "kwargs": {"first_word": "floor"}, "kind": "false fail", "response": "floor</think>", "row": 8174}
+{"grader": "tc", "instruction_id": "first_word:first_word_answer", "kwargs": {"first_word": "temperature"}, "kind": "false pass", "response": "temperature答案", "row": 1462}
+{"grader": "tc", "instruction_id": "first_word:first_word_sent", "kwargs": {"first_word": "child"}, "kind": "false fail", "response": "<think>child", "row": 7575}
+{"grader": "tc", "instruction_id": "first_word:first_word_sent", "kwargs": {"first_word": "curve"}, "kind": "false pass", "response": "curve… banana", "row": 6551}
+{"grader": "tc", "instruction_id": "keywords:existence", "kwargs": {"keywords": ["rip", "variety"]}, "kind": "false fail", "response": "VARIETY**rip<<think>>", "row": 939}
+{"grader": "tc", "instruction_id": "keywords:forbidden_words", "kwargs": {"forbidden_words": ["pattern", "year"]}, "kind": "false pass", "response": "<think>pattern", "row": 11734}
+{"grader": "tc", "instruction_id": "keywords:frequency", "kwargs": {"frequency": 1, "keyword": "designer", "relation": "at least"}, "kind": "false fail", "response": "<think>Designer", "row": 7100}
+{"grader": "tc", "instruction_id": "keywords:frequency", "kwargs": {"frequency": 2, "keyword": "worker", "relation": "less than"}, "kind": "false pass", "response": "<<think>>worker\n- worker", "row": 8725}
+{"grader": "tc", "instruction_id": "keywords:keyword_specific_position", "kwargs": {"keyword": "dead", "m": 4, "n": 6}, "kind": "false fail", "response": "P.P.S。the！maybe. P.s. day\n+ [x]dead LEVEL dead", "row": 10823}
+{"grader": "tc", "instruction_id": "keywords:keyword_specific_position", "kwargs": {"keyword": "policy", "m": 3, "n": 1}, "kind": "false pass", "response": "3.14 policy", "row": 11470}
+{"grader": "tc", "instruction_id": "keywords:letter_frequency", "kwargs": {"let_frequency": 5, "let_relation": "at least", "letter": "a"}, "kind": "false fail", "response": "<think>Bananadayleast", "row": 5406}
+{"grader": "tc", "instruction_id": "keywords:letter_frequency", "kwargs": {"let_frequency": 8, "let_relation": "less than", "letter": "e"}, "kind": "false pass", "response": "applefullestSectionlesseHelpelse<<think>>", "row": 7642}
+{"grader": "tc", "instruction_id": "keywords:no_adjacent_consecutive", "kwargs": null, "kind": "false fail", "response": "P.P.S", "row": 2559}
+{"grader": "tc", "instruction_id": "keywords:no_adjacent_consecutive", "kwargs": null, "kind": "false pass", "response": "other p.s.", "row": 11407}
+{"grader": "tc", "instruction_id": "keywords:palindrome", "kwargs": null, "kind": "false fail", "response": "Noon<think>", "row": 3997}
+{"grader": "tc", "instruction_id": "keywords:palindrome", "kwargs": null, "kind": "false pass", "response": "\n---\n", "row": 2521}
+{"grader": "tc", "instruction_id": "keywords:start_end", "kwargs": null, "kind": "false fail", "response": "My<<think>>My", "row": 4154}
+{"grader": "tc", "instruction_id": "keywords:start_end", "kwargs": null, "kind": "false pass", "response": "数据 Any", "row": 8825}
+{"grader": "tc", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"frequency": 2, "keyword": "store", "relation": "at least"}, "kind": "false fail", "response": "store\n- store<think>", "row": 1431}
+{"grader": "tc", "instruction_id": "keywords:word_count_different_numbers", "kwargs": {"frequency": 2, "keyword": "check", "relation": "less than"}, "kind": "false pass", "response": "", "row": 3481}
+{"grader": "tc", "instruction_id": "keywords:word_once", "kwargs": {"keyword": "extreme"}, "kind": "false fail", "response": "extreme extreme", "row": 6781}
+{"grader": "tc", "instruction_id": "last_word:last_word_answer", "kwargs": {"last_word": "stretch"}, "kind": "false fail", "response": "<think>stretch", "row": 1058}
+{"grader": "tc", "instruction_id": "last_word:last_word_answer", "kwargs": {"last_word": "notice"}, "kind": "false pass", "response": "Notice答案", "row": 10935}
+{"grader": "tc", "instruction_id": "last_word:last_word_sent", "kwargs": {"last_word": "hat"}, "kind": "false fail", "response": "<think>hat", "row": 1443}
+{"grader": "tc", "instruction_id": "last_word:last_word_sent", "kwargs": {"last_word": "leather"}, "kind": "false pass", "response": "数据LEATHER", "row": 10159}
+{"grader": "tc", "instruction_id": "length_constraints:nth_paragraph_first_word", "kwargs": {"first_word": "parent", "nth_paragraph": 1, "num_paragraphs": 1}, "kind": "false fail", "response": "Parent</think>", "row": 10689}
+{"grader": "tc", "instruction_id": "length_constraints:nth_paragraph_first_word", "kwargs": {"first_word": "brother", "nth_paragraph": 1, "num_paragraphs": 1}, "kind": "false pass", "response": "<<</think>brother", "row": 120}
+{"grader": "tc", "instruction_id": "length_constraints:number_paragraphs", "kwargs": {"num_paragraphs": 1}, "kind": "false fail", "response": "<<think>>", "row": 5752}
+{"grader": "tc", "instruction_id": "length_constraints:number_paragraphs", "kwargs": {"num_paragraphs": 2}, "kind": "false pass", "response": "\n* * *\n\n>>", "row": 1967}
+{"grader": "tc", "instruction_id": "length_constraints:number_sentences", "kwargs": {"num_sentences": 6, "relation": "at least"}, "kind": "false fail", "response": "at\n* I\n2. P.P.S\n2. maybe.\tquestions? 3.14", "row": 8746}
+{"grader": "tc", "instruction_id": "length_constraints:number_sentences", "kwargs": {"num_sentences": 3, "relation": "less than"}, "kind": "false pass", "response": "maybe. MAYBE. Привет<think>", "row": 3585}
+{"grader": "tc", "instruction_id": "letters:letter_counting2", "kwargs": {"let_frequency": 3, "let_relation": "at least", "letter": "o"}, "kind": "false fail", "response": "no<<think>>oOTHER", "row": 7447}
+{"grader": "tc", "instruction_id": "letters:letter_counting2", "kwargs": {"let_frequency": 1, "let_relation": "less than", "letter": "x"}, "kind": "false pass", "response": "<think>x", "row": 3824}
+{"grader": "tc", "instruction_id": "paragraphs:paragraphs", "kwargs": {}, "kind": "false fail", "response": "cat\n***\n<<think>>", "row": 5716}
+{"grader": "tc", "instruction_id": "paragraphs:paragraphs", "kwargs": {}, "kind": "false pass", "response": "。\n\n\nleast", "row": 694}
+{"grader": "tc", "instruction_id": "paragraphs:paragraphs2", "kwargs": {}, "kind": "false fail", "response": "<<think>>\n\nFullest", "row": 11086}
+{"grader": "tc", "instruction_id": "paragraphs:paragraphs2", "kwargs": {}, "kind": "false pass", "response": "we\n\n—\n\n\nSECTION", "row": 11261}
+{"grader": "tc", "instruction_id": "punctuation:no_comma", "kwargs": null, "kind": "false pass", "response": "、", "row": 7429}
+{"grader": "tc", "instruction_id": "punctuation:punctuation_dot", "kwargs": null, "kind": "false pass", "response": "<think>3.14", "row": 4491}
+{"grader": "tc", "instruction_id": "punctuation:punctuation_exclamation", "kwargs": null, "kind": "false pass", "response": "!</think>", "row": 8064}
+{"grader": "tc", "instruction_id": "startend:quotation", "kwargs": null, "kind": "false pass", "response": "'", "row": 11665}

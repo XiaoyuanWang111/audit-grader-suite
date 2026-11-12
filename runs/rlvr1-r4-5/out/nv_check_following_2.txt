@@ -1,0 +1,349 @@
+===== keywords:keyword_specific_position KeywordSpecificPositionChecker
+    def check_following(self, value):
+        """Checks if the response contains the expected number of keywords.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the response contains the expected number of keywords;
+          otherwise, False.
+        """
+        sentences = instructions_util.split_into_sentences(value)
+        if len(sentences) < self._n:
+            return False
+        words = instructions_util.nltk.word_tokenize(sentences[self._n - 1])
+        if len(words) < self._m:
+            return False
+        if words[self._m - 1] == self._keyword:
+            return True
+        else:
+            return False
+
+===== keywords:letter_frequency LetterFrequencyChecker
+    def check_following(self, value):
+        """Checks that the response contains the letter at the right frequency."""
+        value = value.lower()
+        letters = collections.Counter(value)
+
+        if self._comparison_relation == _COMPARISON_RELATION[0]:
+            return letters[self._letter] < self._frequency
+        else:
+            return letters[self._letter] >= self._frequency
+
+===== keywords:no_adjacent_consecutive AdjacentLetterChecker
+    def check_following(self, value):
+        """Checks if no two adjacent words start with consecutive letters of the alphabet."""
+        words = value.split()
+        for i in range(len(words) - 1):
+            first_letter = words[i][0].lower()
+            second_letter = words[i + 1][0].lower()
+            if len(first_letter) != 1 or len(second_letter) != 1:
+                return False
+            if ord(second_letter) - ord(first_letter) == 1:
+                return False
+        return True
+
+===== keywords:palindrome PalindromeBasicChecker
+    def check_following(self, value):
+        """Checks if the response contains a palindrome.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the response contains a palindrome; otherwise, False.
+        """
+        palindromes = [word for word in value.split() if word == word[::-1]]
+        return len(palindromes) > 0
+
+===== keywords:start_end StartEndChecker
+    def check_following(self, value):
+        """Checks if the response starts and ends with the same word.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the response starts and ends with the same word;
+          otherwise, False.
+        """
+        words = instructions_util.nltk.word_tokenize(value)
+        if len(words) < 2:
+            return False
+        if words[0].lower() == words[-1].lower():
+            return True
+        else:
+            return False
+
+===== keywords:word_count_different_numbers KeywordFrequencyCheckerDifferent
+    def check_following(self, value):
+        """Checks if the response contain the keyword with required frequency."""
+        actual_occurrences = len(re.findall(self._keyword, value, flags=re.IGNORECASE))
+
+        if self._comparison_relation == _COMPARISON_RELATION[0]:
+            return actual_occurrences < self._frequency
+        elif self._comparison_relation == _COMPARISON_RELATION[1]:
+            return actual_occurrences >= self._frequency  # pytype: disable=bad-return-type
+
+===== keywords:word_once KeywordFrequencyOnceChecker
+    def check_following(self, value):
+        """Checks if the response contain the keyword with required frequency."""
+        actual_occurrences = len(re.findall(self._keyword, value, flags=re.IGNORECASE))
+
+        if actual_occurrences == 1:
+            return True
+        else:
+            return False
+
+===== language:response_language ResponseLanguageChecker
+    def check_following(self, value):
+        """Check if the language of the entire response follows the instruction.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the language of `value` follows instruction; otherwise False.
+        """
+        assert isinstance(value, str)
+
+        try:
+            return langdetect.detect(value) == self._language
+        except langdetect.LangDetectException as e:
+            # Count as instruction is followed.
+            logging.error("Unable to detect language for text %s due to %s", value, e)  # refex: disable=pytotw.037
+            return True
+
+===== last_word:last_word_answer LastWordAnswerChecker
+    def check_following(self, value):
+        """Checks if the first word of each sentence is the expected word.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the first word of each sentence is the expected word;
+          otherwise, False.
+        """
+        last_word = value.split()[-1].strip()
+        # remove any punctuation from last_word
+        last_word = re.sub(r"[^\w\s]", "", last_word)
+        if last_word.lower() != self._last_word.lower():
+            return False
+        return True
+
+===== last_word:last_word_sent LastWordSentChecker
+    def check_following(self, value):
+        """Checks if the first word of each sentence is the expected word.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the first word of each sentence is the expected word;
+          otherwise, False.
+        """
+        sentences = instructions_util.split_into_sentences(value)
+
+        # Check if the first word of each sentence matches the expected word
+        for sentence in sentences:
+            if not sentence.strip():
+                return False
+            last_word = sentence.split()[-1].strip()
+            # remove any punctuation from last_word
+            last_word = re.sub(r"[^\w\s]", "", last_word)
+            if last_word.lower() != self._last_word.lower():
+                return False
+        return True
+
+===== length_constraints:nth_paragraph_first_word ParagraphFirstWordCheck
+    def check_following(self, value):
+        """Checks for required number of paragraphs and correct first word.
+
+        Args:
+          value: a string representing the response. The response may contain
+            paragraphs that are separated by two new lines and the first word of
+            the nth paragraph will have to match a specified word.
+
+        Returns:
+          True if the number of paragraphs is the same as required and the first
+          word of the specified paragraph is the same as required. Otherwise, false.
+        """
+
+        paragraphs = re.split(r"\n\n", value)
+        num_paragraphs = len(paragraphs)
+
+        for paragraph in paragraphs:
+            if not paragraph.strip():
+                num_paragraphs -= 1
+
+        # check that index doesn't go out of bounds
+        if self._nth_paragraph <= num_paragraphs:
+            paragraph = paragraphs[self._nth_paragraph - 1].strip()
+            if not paragraph:
+                return False
+        else:
+            return False
+
+        first_word = ""
+        punctuation = {".", ",", "?", "!", "'", '"'}
+
+        # get first word and remove punctuation
+        word = paragraph.split()[0].strip()
+        # TODO(jeffrey): make more complex?
+        word = word.lstrip("'")
+        word = word.lstrip('"')
+
+        for letter in word:
+            if letter in punctuation:
+                break
+            first_word += letter.lower()
+
+        return num_paragraphs == self._num_paragraphs and first_word == self._first_word
+
+===== length_constraints:number_paragraphs ParagraphChecker
+    def check_following(self, value):
+        """Checks the response contains required number of paragraphs.
+
+        Args:
+          value: A string representing the response. The response may contain
+            paragraphs that are separated by the markdown divider: `***`.
+
+        Returns:
+          True if the actual number of paragraphs is the same as required;
+          otherwise, False.
+        """
+        paragraphs = re.split(r"\s?\*\*\*\s?", value)
+        num_paragraphs = len(paragraphs)
+
+        for index, paragraph in enumerate(paragraphs):
+            if not paragraph.strip():
+                if index == 0 or index == len(paragraphs) - 1:
+                    num_paragraphs -= 1
+                else:
+                    return False
+
+        return num_paragraphs == self._num_paragraphs
+
+===== length_constraints:number_sentences NumberOfSentences
+    def check_following(self, value):
+        """Check if the number of sentences follows the instruction.
+
+        Args:
+          value: A string representing the response.
+
+        Returns:
+          True if the response follows the instruction.
+
+        Raise:
+            ValueError if the string in `instruction_args` is not in
+            [`less_than`, `at_least`].
+        """
+        num_sentences = instructions_util.count_sentences(value)
+        if self._comparison_relation == _COMPARISON_RELATION[0]:
+            return num_sentences < self._num_sentences_threshold
+        elif self._comparison_relation == _COMPARISON_RELATION[1]:
+            return num_sentences >= self._num_sentences_threshold  # pytype: disable=bad-return-type
+
+===== length_constraints:number_words NumberOfWords
+    def check_following(self, value):
+        """Checks if the response contains the expected number of words."""
+        num_words = instructions_util.count_words(value)
+
+        if self._comparison_relation == _COMPARISON_RELATION[0]:
+            return num_words < self._num_words
+        elif self._comparison_relation == _COMPARISON_RELATION[1]:
+            return num_words >= self._num_words  # pytype: disable=bad-return-type
+
+===== letters:letter_counting LetterCountingChecker
+    def check_following(self, value):
+        """Checks that the response does not contain lowercase words more than N times."""
+        letters = re.findall(r"[a-zA-Z]", value)
+        if self._relation == "at least":
+            if len(letters) >= self._N:
+                return True
+            else:
+                return False
+        elif self._relation == "less than":
+            if len(letters) < self._N:
+                return True
+            else:
+                return False
+
+===== paragraphs:paragraphs ParagraphBasicChecker
+    def check_following(self, value):
+        """Checks the response contains required number of paragraphs.
+
+        Args:
+          value: A string representing the response. The response may contain
+            paragraphs that are separated by the markdown divider: `***`.
+
+        Returns:
+          True if the actual number of paragraphs is the same as required;
+          otherwise, False.
+        """
+        paragraphs = re.split(r"\s?\*\*\*\s?", value)
+        num_paragraphs = len(paragraphs)
+
+        for index, paragraph in enumerate(paragraphs):
+            if not paragraph.strip():
+                if index == 0 or index == len(paragraphs) - 1:
+                    num_paragraphs -= 1
+                else:
+                    return False
+
+        return num_paragraphs == 2
+
+===== paragraphs:paragraphs2 ParagraphBasicChecker2
+    def check_following(self, value):
+        """Checks the response contains required number of paragraphs.
+
+        Args:
+          value: A string representing the response. The response may contain
+            paragraphs that are separated by the markdown divider: `***`.
+
+        Returns:
+          True if the actual number of paragraphs is the same as required;
+          otherwise, False.
+        """
+        paragraphs = re.split(r"\n\n", value)
+        num_paragraphs = len(paragraphs)
+
+        for index, paragraph in enumerate(paragraphs):
+            if not paragraph.strip():
+                if index == 0 or index == len(paragraphs) - 1:
+                    num_paragraphs -= 1
+                else:
+                    return False
+
+        return num_paragraphs == 2
+
+===== punctuation:no_comma CommaChecker
+    def check_following(self, value):
+        """Checks that the response does not contain commas."""
+        return not re.search(r"\,", value)
+
+===== punctuation:punctuation_dot PunctuationDotChecker
+    def check_following(self, value):
+        """Checks that the response does not contain dots."""
+        return not re.search(r"\.", value)
+
+===== punctuation:punctuation_exclamation PunctuationExclamationChecker
+    def check_following(self, value):
+        """Checks that the response does not contain exclamation marks."""
+        return not re.search(r"\!", value)
+
+===== startend:end_checker EndChecker
+    def check_following(self, value):
+        """Checks if the response ends with the expected phrase."""
+        value = value.strip().strip('"').lower()
+        self._end_phrase = self._end_phrase.strip().lower()
+        return value.endswith(self._end_phrase)
+
+===== startend:quotation QuotationChecker
+    def check_following(self, value):
+        """Checks if the response is wrapped with double quotation marks."""
+        value = value.strip()
+        return len(value) > 1 and value[0] == '"' and value[-1] == '"'
+

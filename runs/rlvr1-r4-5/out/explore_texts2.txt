@@ -1,0 +1,159 @@
+
+== change_case:capital_word_frequency: 1 templates
+   [66] In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.
+
+== change_case:english_capital: 1 templates
+   [94] Your entire response should be in English, and in all capital letters.
+
+== change_case:english_lowercase: 1 templates
+   [70] Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.
+
+== combination:two_responses: 1 templates
+   [35] Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.
+
+== copy:repeat_phrase: 1 templates
+   [64] Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.
+
+== count:count_unique: 1 templates
+   [76] Only use unique words in your response, no word should be repeated!
+
+== count:lowercase_counting: 1 templates
+   [96] In your response, all lowercase words should appear at most {N} times.
+
+== detectable_content:number_placeholders: 1 templates
+   [68] The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].
+
+== detectable_content:postscript: 2 templates
+   [73] At the end of your response, please explicitly add a postscript starting with {postscript_marker}
+   [1] How can we identify a syllable?
+
+== detectable_format:bigram_wrapping: 1 templates
+   [83] Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.
+
+== detectable_format:json_format: 1 templates
+   [13] Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.
+
+== detectable_format:number_highlighted_sections: 1 templates
+   [59] Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.
+
+== detectable_format:sentence_hyphens: 1 templates
+   [98] All sentences must be connected using hyphens, with no spaces between them.
+
+== detectable_format:square_brackets: 1 templates
+   [64] Enclose every word in your response within square brackets.
+
+== detectable_format:title: 1 templates
+   [67] Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.
+
+== first_word:first_word_answer: 2 templates
+   [73] The first word of your response should be the word {first_word}.
+   [1] The first word of your {first_word} should be the word {first_word}.
+
+== first_word:first_word_sent: 2 templates
+   [77] The first word of each sentence should be the word {first_word}.
+   [1] The first {first_word} of each sentence should be the {first_word} {first_word}.
+
+== keywords:existence: 2 templates
+   [116] Include keywords {keywords} in the response.
+   [1] Include key{keywords[1]}s {key{keywords[1]}s} in the response.
+
+== keywords:forbidden_words: 1 templates
+   [102] Do not include keywords {forbidden_words} in the response.
+
+== keywords:frequency: 1 templates
+   [73] In your response, the word {keyword} should appear {relation} {frequency} times.
+
+== keywords:keyword_specific_position: 2 templates
+   [80] Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.
+   [1] Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.
+
+== keywords:letter_frequency: 16 templates
+   [41] In your response, the letter {letter} should appear {let_relation} {let_frequency} times.
+   [8] In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_frequency} times.
+   [8] In your response, {letter}he le{letter}{letter}er {letter} should appear {le{letter}_rela{letter}ion} {let_frequency} {letter}imes.
+   [6] In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.
+   [6] I{letter} your respo{letter}se, the letter {letter} should appear {let_relatio{letter}} {let_frequency} times.
+   [5] In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.
+   [5] In yo{letter}r response, the letter {letter} sho{letter}ld appear {let_relation} {let_frequency} times.
+   [5] In your res{letter}onse, the letter {letter} should a{letter}{letter}ear {let_relation} {let_frequency} times.
+
+== keywords:no_adjacent_consecutive: 1 templates
+   [104] No two adjacent words can start with consecutive letters of the alphabet.
+
+== keywords:palindrome: 1 templates
+   [76] Include a palindrome in your response.
+
+== keywords:start_end: 1 templates
+   [58] Start and end your response with the same word (do not write anything after the last word, not even punctuation).
+
+== keywords:word_count_different_numbers: 1 templates
+   [75] In your response, the word {keyword} should appear {frequency} times.
+
+== keywords:word_once: 2 templates
+   [127] Include keyword {keyword} in your response.
+   [1] What are the five features of stress? Please follow these rules when answering: At the end of your response, please explicitly add a postscript starting with P.P.S and Include keyword {keyword} in your response
+
+== language:response_language: 28 templates
+   [8] Your ENTIRE response should be in Polish language, no other language is allowed.
+   [8] Your ENTIRE response should be in Punjabi language, no other language is allowed.
+   [8] Your ENTIRE response should be in Bulgarian language, no other language is allowed.
+   [7] Your ENTIRE response should be in Tamil language, no other language is allowed.
+   [7] Your ENTIRE response should be in Korean language, no other language is allowed.
+   [6] Your ENTIRE r{language}ponse should be in Spanish language, no other language is allowed.
+   [6] Your ENTIRE response should be in Malayalam language, no other language is allowed.
+   [6] Your ENTIRE response should be in Vietnamese language, no other language is allowed.
+
+== last_word:last_word_answer: 1 templates
+   [75] The last word of your response should be the word {last_word}.
+
+== last_word:last_word_sent: 1 templates
+   [72] The last word of each sentence, before punctuation, should be the word {last_word}.
+
+== length_constraints:nth_paragraph_first_word: 3 templates
+   [32] There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+   [20] There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+   [1] There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as {first_word} it was '\n\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.
+
+== length_constraints:number_paragraphs: 1 templates
+   [83] There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***
+
+== length_constraints:number_sentences: 1 templates
+   [71] Your response should contain {relation} {num_sentences} sentences.
+
+== length_constraints:number_words: 1 templates
+   [92] Answer with {relation} {num_words} words.
+
+== letters:letter_counting: 1 templates
+   [68] Answer with {relation} {N} letters.
+
+== letters:letter_counting2: 16 templates
+   [33] In your response, the letter {letter} should appear {let_relation} {let_frequency} times.
+   [8] In your response, the letter {letter} shoul{letter} appear {let_relation} {let_frequency} times.
+   [5] In you{letter} {letter}esponse, the lette{letter} {letter} should appea{letter} {let_{letter}elation} {let_frequency} times.
+   [5] In your response, t{letter}e letter {letter} s{letter}ould appear {let_relation} {let_frequency} times.
+   [4] In your response, the {letter}etter {letter} shou{letter}d appear {{letter}et_re{letter}ation} {let_frequency} times.
+   [4] In your response, the letter {letter} should {letter}ppe{letter}r {let_rel{letter}tion} {let_frequency} times.
+   [4] In your response, the letter {letter} should appear {let_relat{letter}on} {let_frequency} t{letter}mes.
+   [4] In your response, the letter {letter} should appear {let_relation} {let_frequency} ti{letter}es.
+
+== paragraphs:paragraphs: 2 templates
+   [77] There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***
+   [1] Discuss the functionality and importance of the Integrity Enhancement Feature (IEF). (用中文答） Please follow these rules when answering: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: *** and In your response, the word owner should appear 2 times
+
+== paragraphs:paragraphs2: 1 templates
+   [75] There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. 
+
+== punctuation:no_comma: 1 templates
+   [94] In your entire response, refrain from the use of any commas.
+
+== punctuation:punctuation_dot: 1 templates
+   [105] In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.
+
+== punctuation:punctuation_exclamation: 1 templates
+   [77] In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.
+
+== startend:end_checker: 1 templates
+   [68] Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.
+
+== startend:quotation: 1 templates
+   [50] Wrap your entire response with double quotation marks.

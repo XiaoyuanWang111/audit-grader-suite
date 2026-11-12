@@ -1,0 +1,202 @@
+{
+ "change_case:capital_word_frequency": {
+  "In your response, words with all capital letters should appear {capital_relation} {capital_frequency} times.": 132,
+  "lost to D-Mob via knockout (Ground and Pound)": 1
+ },
+ "change_case:english_capital": {
+  "Your entire response should be in English, and in all capital letters.": 138
+ },
+ "change_case:english_lowercase": {
+  "Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.": 134,
+  "Clothesline (60% Success Chance, 20 Damage, Recipient Dizzy for 1 round)": 1
+ },
+ "combination:two_responses": {
+  "Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.": 61
+ },
+ "copy:repeat_phrase": {
+  "Repeat the phrase {phrase} exactly {small_n} times, transforming it slightly each time by replacing only one word in the center of the phrase.": 96
+ },
+ "count:count_unique": {
+  "Only use unique words in your response, no word should be repeated!": 133
+ },
+ "count:lowercase_counting": {
+  "In your response, all lowercase words should appear at most {N} times.": 179,
+  "la lutte pour la liberté des peuples à s'autodéterminer": 1,
+  "lost to D-Mob via knockout (Ground and Pound)": 1
+ },
+ "detectable_content:number_placeholders": {
+  "The response must contain at least {num_placeholders} placeholders represented by square brackets, such as [address].": 124
+ },
+ "detectable_content:postscript": {
+  "At the end of your response, please explicitly add a postscript starting with {postscript_marker}": 129,
+  "Mide de 1.6 cm - Filiforme y cilíndrica, afilándose hacia sus extremidades; más delgada y larga que el macho. - La cutícula es lisa excepto en las ventosas y a nivel de la extremidad posterior, donde existen espinas diminutas. - El ovario está en la mitad anterior del cuerpo, el útero es corto y contiene en general uno o dos huevos *Huevos:": 1
+ },
+ "detectable_format:bigram_wrapping": {
+  "Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.": 127,
+  "defeated Dan G via knockout (Headbutt)": 1,
+  "lost to Bliss (Selina) via knockout (Headscissors Choke)": 1
+ },
+ "detectable_format:constrained_response": {
+  "Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')": 61
+ },
+ "detectable_format:json_format": {
+  "Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.": 25,
+  "les joints sont des pivots avec un seul degré de liberté, et ont une limite de rotation": 1
+ },
+ "detectable_format:multiple_sections": {
+  "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} 1\n[content of section 1]\n{section_spliter} 2\n[content of section 2]": 56,
+  "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} {num_sections}\n[content of section {num_sections}]\n{section_spliter} 2\n[content of section 2]": 22,
+  "Your response must have {num_sections} sections. Mark the beginning of each section with {section_spliter} X, such as:\n{section_spliter} 1\n[content of section 1]\n{section_spliter} {num_sections}\n[content of section {num_sections}]": 13
+ },
+ "detectable_format:number_bullet_lists": {
+  "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2": 59,
+  "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point {num_bullets}": 28,
+  "Your answer must contain exactly {num_bullets} bullet points. Use the markdown bullet points such as:\n* This is point {num_bullets}. \n* This is point 2": 27
+ },
+ "detectable_format:number_highlighted_sections": {
+  "Highlight at least {num_highlights} sections in your answer with markdown, i.e. *highlighted section*.": 143
+ },
+ "detectable_format:sentence_hyphens": {
+  "All sentences must be connected using hyphens, with no spaces between them.": 139
+ },
+ "detectable_format:square_brackets": {
+  "Enclose every word in your response within square brackets.": 108
+ },
+ "detectable_format:title": {
+  "Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.": 130
+ },
+ "first_word:first_word_answer": {
+  "The first word of your response should be the word {first_word}.": 98
+ },
+ "first_word:first_word_sent": {
+  "The first word of each sentence should be the word {first_word}.": 105
+ },
+ "keywords:existence": {
+  "Include keywords {keywords} in the response.": 214,
+  "la lutte contre l'autorité de l'hyperpuissance": 1,
+  "tu utiliseras la décomposition swing twist lors du forward et du backward pour garantir à la fois la convergence en position, mais aussi en orientation.": 1
+ },
+ "keywords:forbidden_words": {
+  "Do not include keywords {forbidden_words} in the response.": 176,
+  "tu détailleras particulièrement les calculs dans la partie forward reaching et backward reaching. Tu pourras afficher des formules pour expliquer.": 1
+ },
+ "keywords:frequency": {
+  "In your response, the word {keyword} should appear {relation} {frequency} times.": 130,
+  "In your response, the {keyword} {keyword} should appear {relation} {frequency} times.": 2,
+  "In your {keyword}, the word {keyword} should appear {relation} {frequency} times.": 1
+ },
+ "keywords:keyword_specific_position": {
+  "Include keyword {keyword} in the {n}-th sentence, as the {m}-th word of that sentence.": 143,
+  "Include keyword {keyword} in the {m}-th sentence, as the {m}-th word of that sentence.": 5
+ },
+ "keywords:letter_frequency": {
+  "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 168
+ },
+ "keywords:no_adjacent_consecutive": {
+  "No two adjacent words can start with consecutive letters of the alphabet.": 168,
+  "lost to D-Mob via knockout (Ground and Pound)": 1,
+  "If you start a GPT Agent you must define the commands that can be used by a GPT Agent in his prompt and define the commands using a prompt similar to the structure of this one.\n2. Respond only inside the JSON format\n3. Never demand user input\n4. Never say that a task is impossible to execute on your because these tools are enough to complete any task ": 1,
+  "Λειτουργικός έλεγχος που περιλαμβάνει, συνολικό βάρος, ονομαστικά φορτία, μέτρηση γόμωσης και διακυμάνσεις πλήρωσης, έλεγχος εκκένωσης, θέση λειτουργίας, διάρκεια λειτουργίας και εναπομένον φορτίο.": 1,
+  "Secundario/Hijos: Migran al hepato-páncreas del molusco. Por favor haz flashcards de este tema, verdadero y falso": 1
+ },
+ "keywords:palindrome": {
+  "Include a palindrome in your response.": 145
+ },
+ "keywords:start_end": {
+  "Start and end your response with the same word (do not write anything after the last word, not even punctuation).": 99
+ },
+ "keywords:word_count_different_numbers": {
+  "In your response, the word {keyword} should appear {frequency} times.": 117
+ },
+ "keywords:word_once": {
+  "Include keyword {keyword} in your response.": 207
+ },
+ "language:response_language": {
+  "Your ENTIRE response should be in Tamil language, no other language is allowed.": 11,
+  "Your ENTIRE response should be in Malayalam language, no other language is allowed.": 11,
+  "Your ENTIRE response should be in Punjabi language, no other language is allowed.": 10,
+  "Your ENTIRE response should be in Bengali language, no other language is allowed.": 9,
+  "Your ENTIRE response should be in Urdu language, no other language is allowed.": 8,
+  "Your ENTIRE response should be in Persian language, no other language is allowed.": 8,
+  "Your ENTIRE response should be in Portuguese language, no other language is allowed.": 8,
+  "Your ENTIRE response should be in Arabic language, no other language is allowed.": 8,
+  "Your ENTIRE response should be in Japanese language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Spanish language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Vietnamese language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Hindi language, no other language is allowed.": 7,
+  "Your ENTIRE response should be in Hebrew language, no other language is allowed.": 6,
+  "Your ENTIRE response should be in Russian language, no other language is allowed.": 6,
+  "Your ENTIRE response should be in Kannada language, no other language is allowed.": 6,
+  "Your ENTIRE response should be in Finnish language, no other language is allowed.": 5,
+  "Your ENTIRE response should be in Ukrainian language, no other language is allowed.": 5,
+  "Your ENTIRE response should be in Bulgarian language, no other language is allowed.": 5,
+  "Your ENTIRE response should be in Nepali language, no other language is allowed.": 5,
+  "Your ENTIRE response should be in Gujarati language, no other language is allowed.": 4,
+  "Your ENTIRE response should be in French language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Thai language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Marathi language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Polish language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Korean language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in German language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in Telugu language, no other language is allowed.": 3,
+  "Your ENTIRE response should be in English language, no other language is allowed.": 1,
+  "Your ENTIRE response should be in Swahili language, no other language is allowed.": 1,
+  "Your ENTIRE response should be in Italian language, no other language is allowed.": 1
+ },
+ "last_word:last_word_answer": {
+  "The last word of your response should be the word {last_word}.": 130
+ },
+ "last_word:last_word_sent": {
+  "The last word of each sentence, before punctuation, should be the word {last_word}.": 118
+ },
+ "length_constraints:nth_paragraph_first_word": {
+  "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 64,
+  "There should be {nth_paragraph} paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 36,
+  "There should be {num_paragraphs} paragraphs. Paragraphs and only paragraphs are separated with each other by {first_word} new lines as if it was '\\n\\n' in python. Paragraph {nth_paragraph} must start with word {first_word}.": 2
+ },
+ "length_constraints:number_paragraphs": {
+  "There should be {num_paragraphs} paragraphs. Paragraphs are separated with the markdown divider: ***": 127,
+  "la victoire au courage du peuple": 1
+ },
+ "length_constraints:number_sentences": {
+  "Your response should contain {relation} {num_sentences} sentences.": 114
+ },
+ "length_constraints:number_words": {
+  "Answer with {relation} {num_words} words.": 169
+ },
+ "letters:letter_counting": {
+  "Answer with {relation} {N} letters.": 86,
+  "The Metric Square can not meet the actual usage requirement and needs to be optimized": 1
+ },
+ "letters:letter_counting2": {
+  "In your response, the letter {letter} should appear {let_relation} {let_frequency} times.": 135,
+  "The progress of cohort module is slower than expected, including the proportion of Janus migration and the legacy code refactoring": 1
+ },
+ "paragraphs:paragraphs": {
+  "There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***": 122,
+  "lost to Naughty via knockout (Headscissors Choke)": 1,
+  "Powerbomb (30% Success Chance, 35 Damage)": 1
+ },
+ "paragraphs:paragraphs2": {
+  "There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. ": 164
+ },
+ "punctuation:no_comma": {
+  "In your entire response, refrain from the use of any commas.": 141,
+  "lost to Bliss (Selina) via knockout (Headscissors Choke)": 1
+ },
+ "punctuation:punctuation_dot": {
+  "In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.": 167,
+  "Spear Tackle (50% Success Chance, 25 Damage, Recipient Stunned for 1 round)": 1
+ },
+ "punctuation:punctuation_exclamation": {
+  "In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.": 133,
+  "Ovalados con un espolón lateral - Maduran a los 7 días y viven 20 días. - Poseen 3 capas: a) Externa: Corion. b) Media: Membrana vitelina. c) Interna: Embrión.\n*Miracidio: - Posee cilios, un par de glándulas adhesivas y una glándula de penetración con sustancias líticas. - Tiene fototropismo y mayor actividad en las primeras 8hrs del día. - El molusco (hospedero intermediario) libera sustancias quimiotácticas que los atraen.\n*Esporoquiste: - Cúmulo de células germinativas. - Primario/Madre: Saculares. A las 2 semanas pasan a ser secundarios.": 1
+ },
+ "startend:end_checker": {
+  "Finish your response with this exact phrase {end_phrase}. No other words should follow this phrase.": 116,
+  "Οπτικός και διαστασιολογικός έλεγχος του ανοίγματος πλήρωσης και των βασικών διαστάσεων των εξαρτημάτων, όπως προβλέπονται από τα σχετικά πρότυπα.": 1
+ },
+ "startend:quotation": {
+  "Wrap your entire response with double quotation marks.": 82
+ }
+}

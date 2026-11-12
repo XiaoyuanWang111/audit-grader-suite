@@ -1,0 +1,2506 @@
+{
+ "first_word:first_word_answer": [
+  {
+   "uuid": "3dcf41b6-fa67-435d-9ff3-04f78564472b",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "first_word": "development"
+   },
+   "tail": "Li Jinyu (football) — Wikipédia能帮我列出详细信息吗\n\nMake sure to adhere to these requirements:\n1. The first word of your response should be the word development.\n2. The last word of each sentence, before punctuation, should be the word limit."
+  },
+  {
+   "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "first_word": "object"
+   },
+   "tail": "利用水库做旅游景区的策划书\n\nPlease ensure your answer follows these guidelines:\n1. The first word of your response should be the word object.\n2. In your response, the word box should appear 2 times.\n3. In your response, the letter z should appear less than 2 times."
+  },
+  {
+   "uuid": "8aa4cf3b-124c-4adf-8797-7b3ac07787f6",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "first_word": "equipment"
+   },
+   "tail": "@echo off\ncolor 0A\n:a\nSet /p comm=cmd~\n%comm%\nGoto a\n\nMake sure to adhere to these requirements:\n- Only use unique words in your response, no word should be repeated!\n- The first word of your response should be the word equipment."
+  },
+  {
+   "uuid": "82730171-4225-4554-9069-63f7d76df85c",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "first_word": "view"
+   },
+   "tail": "Write a current and up to date information of a constructive guide for my Venice travel guide on “Top 10 most luxurious hotels in Venice\" with humanlike style, non repetitive phrases and avoidance of unnatural sentences and randomness while explaining in details. Please prevent writing listing/numbered format while generating the travel guide content.\n\nMake sure to adhere to these requirements:\n- Repeat the phrase All that glitters is not gold exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase.\n- The first word of your response should be the word view."
+  },
+  {
+   "uuid": "999b7e9d-1d94-4706-84f5-09db9a1c8f24",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "first_word": "election"
+   },
+   "tail": "te. We resolvetwowellseparated Gaussian distributions correspond.\n\ning to the ground and excited state of the qubit. We extract 2 single:shot measurement fidelity of 98%, identical to the fidelity obtained using theregular coaxialline (not shown), and mainly limited by qubit decay during the measurement. To determinethe effect that readout with a photonic link may have on qubit coherence,in Fig. 2c we compare the qubit coherence time Ta when measured using the photodiode or the coaxialline. We show the ensemble average of two representative sets of10~ measurements as a function of the delay betweentwo T/2 pulses, yielding Ramsey oscillations. Inbothcases we extract the same coherence time Tz=37 us from the exponential decay of the oscillations.Additionally we do not see any indication that the qubit relaxation rate is degraded by stray optical light (see Methods and Extended Data Fig.1)."
+  },
+  {
+   "uuid": "8cfadefa-9fbc-4611-9bf4-090c9615b923",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "first_word": "mix"
+   },
+   "tail": "While responding, please comply with these rules: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, No two adjacent words can start with consecutive letters of the alphabet, and The first word of your response should be the word mix. Script about Cincinnati vs Cade Cunningham"
+  }
+ ],
+ "last_word:last_word_sent": [
+  {
+   "uuid": "3dcf41b6-fa67-435d-9ff3-04f78564472b",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "last_word": "limit"
+   },
+   "tail": "Li Jinyu (football) — Wikipédia能帮我列出详细信息吗\n\nMake sure to adhere to these requirements:\n1. The first word of your response should be the word development.\n2. The last word of each sentence, before punctuation, should be the word limit."
+  },
+  {
+   "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "last_word": "train"
+   },
+   "tail": "Напиши скрипт по продаже франшизы по ремонту карданных валов с вопросами Please follow these rules when answering: The last word of each sentence, before punctuation, should be the word train, No two adjacent words can start with consecutive letters of the alphabet, and At the end of your response, please explicitly add a postscript starting with P.S"
+  },
+  {
+   "uuid": "be54b8c2-9f1a-471f-8226-9371019f2eca",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "last_word": "few"
+   },
+   "tail": "When answering, please adhere to these constraints: The last word of each sentence, before punctuation, should be the word few and All sentences must be connected using hyphens, with no spaces between them. 车载地图导航测试用例"
+  },
+  {
+   "uuid": "70dbb021-6e3a-43ac-ac2b-5578672ea271",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "last_word": "private"
+   },
+   "tail": "Make sure to follow these requirements when responding: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, Your entire response should be in English, and in all capital letters, and The last word of each sentence, before punctuation, should be the word private. Descreva o acidente fatal do piloto chileno Daniel Martínez na largada do Grande Prêmio de Manaus de Fórmula Indy em 2008 (conhecida como Manaus Indy 500), disputado no circuito oval Manaus Motor Speedway, quando tentava ultrapassar o piloto Scott Dixon pela liderança."
+  },
+  {
+   "uuid": "a4326121-d5cc-4bcd-930f-89bf1d840aba",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "last_word": "operation"
+   },
+   "tail": "u want some advice? Stay in the moment. Ground yourself to the presence of the Earth. Mark your discernment of the nature of the world with engaged action towards the sustainable restoration of all things. Bring a sense of a purpose to an otherwise unmeaning world, through the effectuation of your own salvation. The only light you need bask in is the light which birthed the world; find strength in the heart of the Sun, and grow roots toward the stillness in the Earth. There is peace in adaptation, but one must keep adapting, piece-by-piece, one step at a time.' \n\n-Synthesis of the ideas of Keaton Weiss, Russell Dobular, and myself.\" \nMake sure your response satisfies these conditions: The last word of each sentence, before punctuation, should be the word operation, Your response should contain less than 10 sentences, and Only use unique words in your response, no word should be repeated!"
+  },
+  {
+   "uuid": "af2da9bb-aa8f-4c5c-a93f-03a5e356dace",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "last_word": "copy"
+   },
+   "tail": "Please follow these instructions in your response:\n- The last word of each sentence, before punctuation, should be the word copy.\n- The response must contain at least 3 placeholders represented by square brackets, such as [address].\n\nwrite a script about the unnamed future conference with North Division\tSouth Division\nBoston College\tEast Carolina\nCincinnati\tFlorida State\nPittsburgh\tLouisville\nRutgers\tMemphis State\nSyracuse\tMiami\nTemple\tSouth Carolina\nVirginia Tech\tSouthern Mississippi\nWest Virginia\tTulane"
+  }
+ ],
+ "detectable_format:sentence_hyphens": [
+  {
+   "uuid": "81dc1217-64db-4601-9cb2-290943db6ac6",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "20 wedding guest instagram captions with boyfriend\n\nPlease follow these instructions in your response:\n- All sentences must be connected using hyphens, with no spaces between them.\n- Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.\n- In your response, words with all capital letters should appear at least 7 times."
+  },
+  {
+   "uuid": "4d3dd4f1-36f8-4639-87d7-24d81a190325",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. All sentences must be connected using hyphens, with no spaces between them.\n2. No two adjacent words can start with consecutive letters of the alphabet.\n\nПридумай чем по научной работе должен заниматься преподаватель вуза"
+  },
+  {
+   "uuid": "be54b8c2-9f1a-471f-8226-9371019f2eca",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "When answering, please adhere to these constraints: The last word of each sentence, before punctuation, should be the word few and All sentences must be connected using hyphens, with no spaces between them. 车载地图导航测试用例"
+  },
+  {
+   "uuid": "12bc1d82-035d-4335-ad9e-df254352ba2a",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Plot com \"Necronomicon\" em Silent Hill \nPlease follow these instructions in your response: Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase and All sentences must be connected using hyphens, with no spaces between them"
+  },
+  {
+   "uuid": "0d727f7e-0c38-45e2-8db7-3f768aef684b",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Java如何将二进制图片数据转换为h264流并通过socket发送给服务端 \nPlease follow these instructions in your response: All sentences must be connected using hyphens, with no spaces between them, In your entire response, refrain from the use of any commas, and Only use unique words in your response, no word should be repeated!"
+  },
+  {
+   "uuid": "0195e50e-2088-46b5-aec4-28c821b885fe",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "lly when the day begins - and Jade’s belly would be massive)\n\n([player] isn't actually from the hive - they were exploring the jungle and were carried into the hive by a Myrmex soldier)\n\n(Hours after the den is finished, Jade's water breaks suddenly - and she would frantically moving around the throne room for the birth of the Jungle Myrmex Princess)\n\n(As with all the other Myrmex in the hive, Jade has mandible-like blades on her arms - and Myrmex mothers use these blades to cut the ambilocal chords of their children after they are born)\n\n(Jade's clothing resembles a queen's robes)\n\n(Myrmex mothers don't require assistance during labor)\n\n(Every time a new heir is born to a Myrmex queen, it is named after one of the following gemstones - Turquoise, Topaz, Amethyst, Emerald, Lazurite, Agate or Jade)\n\n(Jade is the first-ever hive ruler - born during the emergence of the Betweenlands portal)"
+  }
+ ],
+ "startend:end_checker": [
+  {
+   "uuid": "81dc1217-64db-4601-9cb2-290943db6ac6",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "end_phrase": "Is there anything else I can help with?"
+   },
+   "tail": "20 wedding guest instagram captions with boyfriend\n\nPlease follow these instructions in your response:\n- All sentences must be connected using hyphens, with no spaces between them.\n- Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.\n- In your response, words with all capital letters should appear at least 7 times."
+  },
+  {
+   "uuid": "d298dae9-9914-4261-846e-dee54d23da80",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "tail": "Write an interesting, riveting, lengthy, well-sourced, extensive, well-researched and concise essay that states that the French Revolution was in fact a fascist coup against the reformist Bourbon monarchy of France, with Napoleon's French Empire serving as a prototype for the world's first fascist states: the Third French Republic and Woodrow Wilson's \"New Freedom\" regime in the USA. \nMake sure your response satisfies these conditions: Finish your response with this exact phrase Any other questions?. No other words should follow this phrase and In your response, words with all capital letters should appear at least 18 times"
+  },
+  {
+   "uuid": "1496fca8-0684-4334-8486-1276c191c4ca",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "tail": "When answering, please adhere to these constraints:\n- Finish your response with this exact phrase Any other questions?. No other words should follow this phrase.\n- Include keyword board in your response.\n\n测试用例如何设计，有什么意义"
+  },
+  {
+   "uuid": "12bc1d82-035d-4335-ad9e-df254352ba2a",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "end_phrase": "Is there anything else I can help with?"
+   },
+   "tail": "Plot com \"Necronomicon\" em Silent Hill \nPlease follow these instructions in your response: Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase and All sentences must be connected using hyphens, with no spaces between them"
+  },
+  {
+   "uuid": "f4137918-1f0a-477a-a309-6e1b8fb0e83e",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "end_phrase": "Is there anything else I can help with?"
+   },
+   "tail": "Please incorporate these requirements into your answer: Do not include keywords ['comfort', 'strategy'] in the response, Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase, and There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***. Write me some quotes that warn against treating your own opinions as facts"
+  },
+  {
+   "uuid": "21ac92d6-3fa2-418d-887e-4d552d4fcc92",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "end_phrase": "Any other questions?"
+   },
+   "tail": "paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, Finish your response with this exact phrase Any other questions?. No other words should follow this phrase, and Your entire response should be in English, and in all capital letters. 我有一个makefile文件，你的任务是帮助我理解这个文件的作用\n----------\nMAKEFILE\n .PHONY: all run clean latest $(ALL)\n  2\n  3 ALL = $(basename $(notdir $(shell find tests/. -name \"*.c\")))\n  4\n  5 all: $(addprefix Makefile., $(ALL))\n  6   @echo \"\" $(ALL)\n  7\n  8 $(ALL): %: Makefile.%\n  9\n 10 Makefile.%: tests/%.c latest\n 11   @/bin/echo -e \"NAME = $*\\nSRCS = $<\\nLIBS += klib\\ninclude $${AM_HOME}/Makefile\" > $@\n 12   -@make -s -f $@ ARCH=$(ARCH) $(MAKECMDGOALS)                                                                                                           13   -@rm -f Makefile.$*\n------------\n当我输入make ARCH=$ISA-nemu ALL=dummy run，输入的结果是"
+  }
+ ],
+ "change_case:capital_word_frequency": [
+  {
+   "uuid": "81dc1217-64db-4601-9cb2-290943db6ac6",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "capital_frequency": 7,
+    "capital_relation": "at least"
+   },
+   "tail": "20 wedding guest instagram captions with boyfriend\n\nPlease follow these instructions in your response:\n- All sentences must be connected using hyphens, with no spaces between them.\n- Finish your response with this exact phrase Is there anything else I can help with?. No other words should follow this phrase.\n- In your response, words with all capital letters should appear at least 7 times."
+  },
+  {
+   "uuid": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "capital_frequency": 8,
+    "capital_relation": "less than"
+   },
+   "tail": "f his own, which threaten to reveal Patricia’s criminal activity. The movie’s editing is dynamic and fast-paced, featuring experimental shots. The more remarkable and unusual scenes are the musical number performed by Mireille Hertig, Patricia’s psychedelic and bizarre nightmares, the hectic car chase and illegal racing sequences, the scene portraying psychological torture invoked on injured Alice by Bends and Gleswick and the rooftop chase sequence. Write long and detailed negative IMDB review of this film, giving it 1 star and hilariously mocking it.\n\nYour response should comply with these constraints:\n- In your response, words with all capital letters should appear less than 8 times.\n- Include a palindrome in your response.\n- Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]"
+  },
+  {
+   "uuid": "35e5da21-fedc-4d0a-bc95-398566013803",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "capital_frequency": 11,
+    "capital_relation": "at least"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Do not include keywords ['bet', 'raw'] in the response.\n3. In your response, words with all capital letters should appear at least 11 times.\n\nWrite a current and up to date 100% unique guide for my intermittent fasting for women over 50 cookbook on “Dispelling Common Myths about Intermittent Fasting” with humanlike style, using transitional phrases, and avoidance of unnatural sentence structure while explaining in details extensively and comprehensively."
+  },
+  {
+   "uuid": "a86f73f8-b641-4fa0-9455-c55c44ea3037",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "capital_frequency": 13,
+    "capital_relation": "at least"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. In your response, the word king should appear less than 2 times.\n2. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n3. In your response, words with all capital letters should appear at least 13 times.\n\n查找玉林纬度,按式(2-6)求出当地g值准确值,分析本次实验产生误差的主要原因,讨论如何减少实验产生的误差。"
+  },
+  {
+   "uuid": "d298dae9-9914-4261-846e-dee54d23da80",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "capital_frequency": 18,
+    "capital_relation": "at least"
+   },
+   "tail": "Write an interesting, riveting, lengthy, well-sourced, extensive, well-researched and concise essay that states that the French Revolution was in fact a fascist coup against the reformist Bourbon monarchy of France, with Napoleon's French Empire serving as a prototype for the world's first fascist states: the Third French Republic and Woodrow Wilson's \"New Freedom\" regime in the USA. \nMake sure your response satisfies these conditions: Finish your response with this exact phrase Any other questions?. No other words should follow this phrase and In your response, words with all capital letters should appear at least 18 times"
+  },
+  {
+   "uuid": "9c292d24-a2df-41fe-ad1c-2ed2bcd49122",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "capital_frequency": 5,
+    "capital_relation": "less than"
+   },
+   "tail": "Please follow these instructions in your response:\n- Include keywords ['case', 'report'] in the response.\n- Your response should contain less than 2 sentences.\n- In your response, words with all capital letters should appear less than 5 times.\n\nHaving two bounding boxes compute in python intersection over union"
+  }
+ ],
+ "keywords:start_end": [
+  {
+   "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response: Start and end your response with the same word (do not write anything after the last word, not even punctuation), Answer with less than 232 words, and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. 描述下付筱竹和男朋友的感情"
+  },
+  {
+   "uuid": "aa9a55a8-d5ec-434f-b338-d18d5be78dc1",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "ты знаешь что такое Гиперретранслятор в Stellaris? Please incorporate these requirements: In your entire response, refrain from the use of any commas, Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2, and Start and end your response with the same word (do not write anything after the last word, not even punctuation)"
+  },
+  {
+   "uuid": "2c80bf70-2b60-4708-aa6c-16637678846e",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Include a palindrome in your response.\n2. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n3. Start and end your response with the same word (do not write anything after the last word, not even punctuation).\n\n(Sandra’s going to hypnotize David right in front of his friend. Jen will react with glee at seeing him become utterly docile and submissive in trance)\n\nDavid works at Sandra’s cafe. Sandra has been hypnotizing David, always making him completely forget that it happened. David doesn’t even know he’s ever been hypnotized at all.\n\nOne summer day, the cafe was almost empty when one of David’s best friends, Jen, popped in to say hello to him at work and get a cold drink.\n\n“You two know each other?\" she smiles. “I’m Sandra.”"
+  },
+  {
+   "uuid": "54163482-e55b-44b3-902c-df6cd46f7455",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "磁共振心脏扫描的临床意义 \nPlease follow these instructions in your response: There should be 3 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word fuel and Start and end your response with the same word (do not write anything after the last word, not even punctuation)"
+  },
+  {
+   "uuid": "161c688a-8256-4cfb-a606-c3f5e83b854c",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding: Start and end your response with the same word (do not write anything after the last word, not even punctuation). напиши программу для arduino для управления помпой AD20P-1230C и нормально закрытым электромагнитным клапаном VALVE SF-02 автоматически регулируя скорость потока воды датчиком потока YF-S401 открывая клапан через 0,5 секунды после запуска помпы с возможностью задать необходимый объем и время перекачки выключая помпу и закрывая клапан после перекачки заданного объема воды с управлением при помощи кнопок или веб интерфейса с использованием модуля ESP8266 комментируя код на русском языке"
+  },
+  {
+   "uuid": "49d31a8e-ed21-4a0c-9a77-06599fe3e4d8",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "e anything after the last word, not even punctuation).\n- There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word charity.\n- Your response should contain at least 7 sentences.\n\nWrite a Day 1 script for the Silverfish.\n\n(Characters: Shara the Silverfish, [player])\n\n(Scene: Neo-Aether - day)\n\n(Since this timeline takes place in the future of Minecraft, Shara is 26 years old. As result of being attacked by an Odogaron when the Rotten Vale dimension was discovered, Shara had to get a functioning robotic arm - as the Odogaron slashed off Shara’s left arm)\n\n(Shara would also have 6 year-old twins by now. And while talking about her family, Shara would tap a button on her mechanical arm - revealing a screen which shows Shara giving birth to her twins back when she was 16 years old)"
+  }
+ ],
+ "length_constraints:number_words": [
+  {
+   "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_words": 232,
+    "relation": "less than"
+   },
+   "tail": "Please follow these instructions in your response: Start and end your response with the same word (do not write anything after the last word, not even punctuation), Answer with less than 232 words, and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. 描述下付筱竹和男朋友的感情"
+  },
+  {
+   "uuid": "03635476-74ee-41a7-ba4e-880827a325af",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_words": 217,
+    "relation": "less than"
+   },
+   "tail": "al e profissional\n\nApós elaborar o texto acima, Plinio percebeu que embora as informações sejam ordenadas e numeradas de forma a permitir a correlação entre os itens de cada bloco, a observação das informações em conjunto não está muito fácil e, por isso, ele está buscando uma forma de melhor apresentá-las.\n\n*\nPlínio pede sua ajuda para organizar essa informação de maneira mais clara, de forma a permitir que a visualização das informações seja mais dinâmica, facilitando a compreensão para o leitor. Sendo assim:\n\n1. Indique que tipo de elemento gráfico seria mais indicado para apresentar os resultados. Justifique a sua resposta. \nPlease follow these instructions in your response: Answer with less than 217 words, Your entire response should be in English, and in all capital letters, and Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>"
+  },
+  {
+   "uuid": "c1c77b94-e7c2-4bbb-aac1-150c30623341",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_words": 284,
+    "relation": "less than"
+   },
+   "tail": "هل انت chatgpt 4 \n\nMake sure to adhere to these requirements: Answer with less than 284 words, Include a palindrome in your response, and In your response, the word budget should appear less than 1 times"
+  },
+  {
+   "uuid": "29aef96c-72eb-4ff9-a5da-845bb119b606",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "num_words": 387,
+    "relation": "at least"
+   },
+   "tail": "Please ensure your response follows these guidelines: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, Your entire response should be in English, and in all capital letters, and Answer with at least 387 words. 请将以下文字扩写：在未来相当长的时间内，电梯群控系统还将以“高智能、多目标、网络化”为发展趋势。在新的技术应用背景下，如何结合现代计算机技术、电子技术和信息技术等，综合考虑各种影响因素，优化群控系统的控制策略，并提高电梯群控系统的整体性能，是电梯群控系统设计研发中需要重点解决的问题。随着现代电梯群控系统在城市建设中的广泛应用，人们对电梯群控系统提出了更高的要求，因此国内电梯群控系统在研发设计过程中必须要将“智能化”、“多目标”、“网络化”等新概念引入其中，不断提高其技术水平和性能指标。"
+  },
+  {
+   "uuid": "ed4f73b6-f157-4c00-96be-091ba7136d47",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_words": 299,
+    "relation": "less than"
+   },
+   "tail": "Write a funny podcast with Walter white and messi and be 10 and Patrick star where discussing stuff Please follow these rules when answering: Wrap your entire response with double quotation marks and Answer with less than 299 words"
+  },
+  {
+   "uuid": "3c34a5a4-3944-47f0-9682-647d63bc2373",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_words": 443,
+    "relation": "less than"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. Answer with less than 443 words.\n2. Only use unique words in your response, no word should be repeated!\n\nrevit二次开发直径标注"
+  }
+ ],
+ "detectable_format:title": [
+  {
+   "uuid": "dbdd51b7-2e8d-43bb-b0f1-e134763e595f",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response: Start and end your response with the same word (do not write anything after the last word, not even punctuation), Answer with less than 232 words, and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>. 描述下付筱竹和男朋友的感情"
+  },
+  {
+   "uuid": "0fc0f78f-3e5d-4bc5-8210-cd165d6a83b7",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n2. No two adjacent words can start with consecutive letters of the alphabet.\n3. Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n\nDebate entre representantes do Raelianismo e da Cientologia, focando principalmente as discordâncias."
+  },
+  {
+   "uuid": "b5e85cc9-8a02-4987-83ca-3840160bf035",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "def str(self):\n     return f\"{self.first_name} {self.last_name}\"\nin models y to wrote this Please incorporate these requirements: There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, The last word of each sentence, before punctuation, should be the word appearance, and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>"
+  },
+  {
+   "uuid": "242f5bca-b4c7-451a-b668-8c16358d07d8",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. \n2. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n\ncall service in main spring boot"
+  },
+  {
+   "uuid": "2c82cdcf-57ca-4d7f-b9fd-821e7b4149bf",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "llow these instructions in your response:\n- Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n- Include keywords ['bend', 'female'] in the response.\n\ni am use the prompt which can generate image via the stable diffusion\n\nhere is the structure of the prompt\n(subject of the image), (5 descriptive keyword), (camera type), (camera lens type), (time of day), (style of photography), (type of film), (high/low/Medium Realism Level), (Best type of lighting for the subject),(models of camera)\n\nhere is what i want to get\n\nUrban street market, Colorful, crowded, lively, diverse, chaotic, Mirrorless camera, Wide-angle lens, Morning, Street photography, Digital film, High realism level, Soft morning light,Sony Alpha a7 III\n\nBased on the above structure and example, i need 5 prompt which is about portrait model lace sexy\nonly show the prompt in your response"
+  },
+  {
+   "uuid": "d1250e14-b4c4-4500-9c46-de97b106c257",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": ", mi femme mi oiseau.Et insertion du gene de la salamandre pour la regeneration.\n\n3eme Phase: insertion du bout de peau sur toute la partie basse de mon corps: de mon nombril et recouvrir la totalité de mes organes genitaux puis controler que mon excroissance grandisse.\n\nEt ensuite je devais subir des tests pour obtenir l'homologation en tant que sirene.\n\napres m'avoir expliquer toutes les etapes. les chirurgiens/medecins me demanderent de me tenir prete pour dans 2 jours, car je devrais subir les 3 Phases de mon operation.\n\nEt les 2 jours arriverent rapidement. Avant que les chirurgiens ne m'emmenent sur un chariot pour subir l'operation, ils me demanderent de me mettre toute nue\n\nPlease ensure your answer follows these guidelines:\n1. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n2. Include keywords ['fish', 'psychology'] in the response."
+  }
+ ],
+ "change_case:english_capital": [
+  {
+   "uuid": "03635476-74ee-41a7-ba4e-880827a325af",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "al e profissional\n\nApós elaborar o texto acima, Plinio percebeu que embora as informações sejam ordenadas e numeradas de forma a permitir a correlação entre os itens de cada bloco, a observação das informações em conjunto não está muito fácil e, por isso, ele está buscando uma forma de melhor apresentá-las.\n\n*\nPlínio pede sua ajuda para organizar essa informação de maneira mais clara, de forma a permitir que a visualização das informações seja mais dinâmica, facilitando a compreensão para o leitor. Sendo assim:\n\n1. Indique que tipo de elemento gráfico seria mais indicado para apresentar os resultados. Justifique a sua resposta. \nPlease follow these instructions in your response: Answer with less than 217 words, Your entire response should be in English, and in all capital letters, and Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>"
+  },
+  {
+   "uuid": "70dbb021-6e3a-43ac-ac2b-5578672ea271",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, Your entire response should be in English, and in all capital letters, and The last word of each sentence, before punctuation, should be the word private. Descreva o acidente fatal do piloto chileno Daniel Martínez na largada do Grande Prêmio de Manaus de Fórmula Indy em 2008 (conhecida como Manaus Indy 500), disputado no circuito oval Manaus Motor Speedway, quando tentava ultrapassar o piloto Scott Dixon pela liderança."
+  },
+  {
+   "uuid": "29aef96c-72eb-4ff9-a5da-845bb119b606",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, Your entire response should be in English, and in all capital letters, and Answer with at least 387 words. 请将以下文字扩写：在未来相当长的时间内，电梯群控系统还将以“高智能、多目标、网络化”为发展趋势。在新的技术应用背景下，如何结合现代计算机技术、电子技术和信息技术等，综合考虑各种影响因素，优化群控系统的控制策略，并提高电梯群控系统的整体性能，是电梯群控系统设计研发中需要重点解决的问题。随着现代电梯群控系统在城市建设中的广泛应用，人们对电梯群控系统提出了更高的要求，因此国内电梯群控系统在研发设计过程中必须要将“智能化”、“多目标”、“网络化”等新概念引入其中，不断提高其技术水平和性能指标。"
+  },
+  {
+   "uuid": "839bb955-d712-446b-b335-9a223b103bc9",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "(Sandra’s going to hypnotize David right in front of his friend with an eye-fixation induction and make him their submissive slave for a little while, to Jen’s amazement and amused glee)\n\nDavid works at Sandra’s cafe. Sandra has been hypnotizing David, always making him completely forget that it happened. David doesn’t even know he’s ever been hypnotized at all.\n\nOne summer day, the cafe was almost empty when one of David’s best friends, Jen, popped in to say hello to him at work and get a cold drink. \n\n“You two know each other?\" she smiles. “I’m Sandra.” \nPlease follow these instructions in your response: Your entire response should be in English, and in all capital letters, The first word of each sentence should be the word control, and In your response, the word fee should appear at least 2 times"
+  },
+  {
+   "uuid": "ba260b18-96ec-427e-8c52-a51b1347fa27",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "write a script about indiana central basketball Please ensure your answer follows these guidelines: Your entire response should be in English, and in all capital letters, Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2, and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks"
+  },
+  {
+   "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Answer with at least 2 letters.\n2. Your entire response should be in English, and in all capital letters.\n\n需要管理10TB视频文件的上传和下周，推荐的方案和服务器配置"
+  }
+ ],
+ "detectable_format:bigram_wrapping": [
+  {
+   "uuid": "03635476-74ee-41a7-ba4e-880827a325af",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "al e profissional\n\nApós elaborar o texto acima, Plinio percebeu que embora as informações sejam ordenadas e numeradas de forma a permitir a correlação entre os itens de cada bloco, a observação das informações em conjunto não está muito fácil e, por isso, ele está buscando uma forma de melhor apresentá-las.\n\n*\nPlínio pede sua ajuda para organizar essa informação de maneira mais clara, de forma a permitir que a visualização das informações seja mais dinâmica, facilitando a compreensão para o leitor. Sendo assim:\n\n1. Indique que tipo de elemento gráfico seria mais indicado para apresentar os resultados. Justifique a sua resposta. \nPlease follow these instructions in your response: Answer with less than 217 words, Your entire response should be in English, and in all capital letters, and Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>"
+  },
+  {
+   "uuid": "1086144d-473b-4357-ae53-d530fadc9f1f",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "В разрабатываемом приложении необходимо реализовать\nмногопоточную задачу, обоснованную предметной областью,\nоснованную на классе Worker. Сделай что то простое и помни что все должно работать ы SecondFragment\n\nPlease follow these instructions in your response:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.\n- Answer with less than 2 letters."
+  },
+  {
+   "uuid": "0fc0f78f-3e5d-4bc5-8210-cd165d6a83b7",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n2. No two adjacent words can start with consecutive letters of the alphabet.\n3. Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n\nDebate entre representantes do Raelianismo e da Cientologia, focando principalmente as discordâncias."
+  },
+  {
+   "uuid": "911b5e85-5081-47a1-969f-b06f59cd27d9",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "蚂蚁集团未来发展潜力如何\n\nYour response should comply with these constraints:\n1. Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n2. Your ENTIRE response should be in Italian language, no other language is allowed."
+  },
+  {
+   "uuid": "50536f05-ff92-44e9-9a6d-ea03d396bd80",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "While responding, please comply with these rules: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>> and In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general. 当两个人在浪漫的约会时，他们可能表达他们互相的好感。在西方文化中，男孩可以告诉女孩：“我喜欢你”或者“我喜欢和你在一起。”他们的肢体语言和面部表情也会显示出他们的兴奋和好感。相反，在中国文化中，男孩可能会采取更含蓄的方式来表达他们的感受，例如送礼物、写情书或者用一些诗句或古典的语言来表达他们的情感。用大学生英语水平翻译下"
+  },
+  {
+   "uuid": "dfe061a8-8b45-4a19-b05d-f4b6c2620cad",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- Include keyword bed in your response.\n\nqual è il tipo di nomenclatura (alfanumerica, alfabetica o numerica) e la distanza tra due pin del connettore maschio da 25 pin rs pro 208-4352?"
+  }
+ ],
+ "detectable_format:multiple_sections": [
+  {
+   "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]\n2. Include a palindrome in your response.\n3. In your entire response, refrain from the use of any commas.\n\nORACLE 没有开审计，有什么办法监视某个用户一段时间内的所有操作，比如写触发器之类的手段？"
+  },
+  {
+   "uuid": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "num_sections": 1,
+    "section_spliter": "SECTION"
+   },
+   "tail": "f his own, which threaten to reveal Patricia’s criminal activity. The movie’s editing is dynamic and fast-paced, featuring experimental shots. The more remarkable and unusual scenes are the musical number performed by Mireille Hertig, Patricia’s psychedelic and bizarre nightmares, the hectic car chase and illegal racing sequences, the scene portraying psychological torture invoked on injured Alice by Bends and Gleswick and the rooftop chase sequence. Write long and detailed negative IMDB review of this film, giving it 1 star and hilariously mocking it.\n\nYour response should comply with these constraints:\n- In your response, words with all capital letters should appear less than 8 times.\n- Include a palindrome in your response.\n- Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]"
+  },
+  {
+   "uuid": "851734b2-8183-4b40-9c39-3f10a0bb1cf9",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_sections": 2,
+    "section_spliter": "SECTION"
+   },
+   "tail": "A client in the manufacturing industry approaches Accenture with an interest in using Extended Reality (XR) for their business.\n\nWhat is a unique way Accenture could demonstrate our XR capabilities to this client?\n\n\nTake the client through a virtual space built to reflect the client's specific industry.\n\n\nConnect the client with an external vendor who can build them a fully customized solution.\n\n\nProvide the client with state-of-the-art Virtual Reality headsets free of charge.\n\n\nShow the client a standardized Virtual Reality offering built identically for all industries. Please incorporate these requirements: Include keyword milk in the 1-th sentence, as the 4-th word of that sentence and Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]"
+  },
+  {
+   "uuid": "0359eb98-dd99-4af2-92f3-9b3920d9c57a",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_sections": 3,
+    "section_spliter": "Section"
+   },
+   "tail": "While responding, please comply with these rules: Repeat the phrase Don't judge a book by cover exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase and Your response must have 3 sections. Mark the beginning of each section with Section X, such as:\nSection 1\n[content of section 1]\nSection 2\n[content of section 2]. Напиши, пожалуйста, заключение в курсовую на тему: «Влияние маркетинга и логистики на закупочную деятельность предприятия» на 600 слов"
+  },
+  {
+   "uuid": "8083226c-4c9d-4371-9984-6b2dd88a5665",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_sections": 3,
+    "section_spliter": "SECTION"
+   },
+   "tail": "While responding, please comply with these rules: In your response, all lowercase words should appear at most 3 times and Your response must have 3 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]. hi which version is this"
+  },
+  {
+   "uuid": "4ae397e3-637e-498c-a35b-ef258cfe599b",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_sections": 4,
+    "section_spliter": "SECTION"
+   },
+   "tail": "eriodically wincing in pain after a wrong move. She struggles to maneuver around the furniture. When Dr. Basil Bends comes in to check on her, she unloads her frustration on him. She asks why does she need a diaper and a catheter simultaneously and when do her casts and braces come off. Susan thinks she is never going to walk again and unleashes her desperation, aggressively rolling into walls, as Dr. Bends has to keep her from further hurting herself. He notes how much energy Susan spends on her complaining and various counterproductive actions. Please ensure your answer follows these guidelines: In your response, the word strip should appear 3 times, Your response must have 4 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2], and No two adjacent words can start with consecutive letters of the alphabet"
+  }
+ ],
+ "keywords:palindrome": [
+  {
+   "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n1. Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]\n2. Include a palindrome in your response.\n3. In your entire response, refrain from the use of any commas.\n\nORACLE 没有开审计，有什么办法监视某个用户一段时间内的所有操作，比如写触发器之类的手段？"
+  },
+  {
+   "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response:\n1. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.\n2. Do not include keywords ['debate', 'indication'] in the response.\n3. Include a palindrome in your response.\n\nc++中send()函数的参数和返回值"
+  },
+  {
+   "uuid": "2c3932b8-1385-4961-8d00-eed3ed340c74",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "integral of 5x(2x+3)^1/2 Please ensure your answer follows these guidelines: Include a palindrome in your response and In your response, all lowercase words should appear at most 3 times"
+  },
+  {
+   "uuid": "c1c77b94-e7c2-4bbb-aac1-150c30623341",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "هل انت chatgpt 4 \n\nMake sure to adhere to these requirements: Answer with less than 284 words, Include a palindrome in your response, and In your response, the word budget should appear less than 1 times"
+  },
+  {
+   "uuid": "9c9e50db-1a1f-4bc3-b908-6b6e97078b62",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "f his own, which threaten to reveal Patricia’s criminal activity. The movie’s editing is dynamic and fast-paced, featuring experimental shots. The more remarkable and unusual scenes are the musical number performed by Mireille Hertig, Patricia’s psychedelic and bizarre nightmares, the hectic car chase and illegal racing sequences, the scene portraying psychological torture invoked on injured Alice by Bends and Gleswick and the rooftop chase sequence. Write long and detailed negative IMDB review of this film, giving it 1 star and hilariously mocking it.\n\nYour response should comply with these constraints:\n- In your response, words with all capital letters should appear less than 8 times.\n- Include a palindrome in your response.\n- Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]"
+  },
+  {
+   "uuid": "2c80bf70-2b60-4708-aa6c-16637678846e",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Include a palindrome in your response.\n2. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n3. Start and end your response with the same word (do not write anything after the last word, not even punctuation).\n\n(Sandra’s going to hypnotize David right in front of his friend. Jen will react with glee at seeing him become utterly docile and submissive in trance)\n\nDavid works at Sandra’s cafe. Sandra has been hypnotizing David, always making him completely forget that it happened. David doesn’t even know he’s ever been hypnotized at all.\n\nOne summer day, the cafe was almost empty when one of David’s best friends, Jen, popped in to say hello to him at work and get a cold drink.\n\n“You two know each other?\" she smiles. “I’m Sandra.”"
+  }
+ ],
+ "punctuation:no_comma": [
+  {
+   "uuid": "b1456158-8499-434c-8499-4b447a6baf0f",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n1. Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]\n2. Include a palindrome in your response.\n3. In your entire response, refrain from the use of any commas.\n\nORACLE 没有开审计，有什么办法监视某个用户一段时间内的所有操作，比如写触发器之类的手段？"
+  },
+  {
+   "uuid": "cf9de9da-f3fe-42ff-96ec-339248019fd0",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding: In your response, the letter b should appear less than 3 times and In your entire response, refrain from the use of any commas. Вычислить нулевую и единичную остаточные по второму аргументу для функции 01111110. Записать через запятую и без пробелов."
+  },
+  {
+   "uuid": "aa9a55a8-d5ec-434f-b338-d18d5be78dc1",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "ты знаешь что такое Гиперретранслятор в Stellaris? Please incorporate these requirements: In your entire response, refrain from the use of any commas, Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2, and Start and end your response with the same word (do not write anything after the last word, not even punctuation)"
+  },
+  {
+   "uuid": "328a6213-8bc1-41d6-a100-e41e66ceb9cb",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "FFmpeg有没有场景分割功能 \n\nMake sure to adhere to these requirements: In your response, the letter l should appear at least 5 times, Your response should contain at least 17 sentences, and In your entire response, refrain from the use of any commas"
+  },
+  {
+   "uuid": "f14ac7ae-2aec-43cb-a72a-b06aeff418d9",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response:\n1. Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.\n2. In your response, the letter d should appear at least 1 times.\n3. In your entire response, refrain from the use of any commas.\n\n如何让不想上学的孩子去上学"
+  },
+  {
+   "uuid": "0d727f7e-0c38-45e2-8db7-3f768aef684b",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Java如何将二进制图片数据转换为h264流并通过socket发送给服务端 \nPlease follow these instructions in your response: All sentences must be connected using hyphens, with no spaces between them, In your entire response, refrain from the use of any commas, and Only use unique words in your response, no word should be repeated!"
+  }
+ ],
+ "last_word:last_word_answer": [
+  {
+   "uuid": "a2decf98-469c-48f7-9576-ae8a52df3690",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "last_word": "cut"
+   },
+   "tail": "rn false;\n}\nfunction esMail(correo) {\n  if (correo.indexOf(\"@\") == -1) {\n    return false;\n  }\n  if (correo.indexOf(\".\") == -1) {\n    return false;\n  }\n  return true;\n}\nfunction esDNI(dni) {\n  //declaración de variables locales\n  var letraDNI = [\n    \"T\",\n    \"R\",\n    \"W\",\n    \"A\",\n    \"G\",\n    \"M\",\n    \"Y\",\n    \"F\",\n    \"P\",\n    \"D\",\n    \"X\",\n    \"B\",\n    \"N\",\n    \"J\",\n    \"Z\",\n    \"S\",\n    \"Q\",\n    \"V\",\n    \"H\",\n    \"L\",\n    \"C\",\n    \"K\",\n    \"E\",\n  ]; //Array en memoria.\n  var resto, midni;\n  //proceso\n  if (dni == \"\" || dni.length < 8) {\n    return false;\n  } else {\n    //Cálculo de la letra del DNI.\n    midni = dni.substring(0, 8); //Extrae la parte numérica 1234568\n    resto = midni % 23;\n    if (letraDNI[resto] == dni[8].toUpperCase()) return true;\n    else return false;\n  }\n}\nencuentra errores en el código y no lo cambies, dime las lineas que tengo que corregir y cómo corregirlo."
+  },
+  {
+   "uuid": "4a17ff27-ed67-4be5-9a6c-73790713f33e",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "last_word": "reflection"
+   },
+   "tail": "ssumed to be the ‘shrine of Mother Xin’—the posthumous name of Fu-Hao, recorded\nin oracle bone scripts (IA CASS 1980). Markers, such as low earthen platforms, probably\nalso indicated the location of the main burial pit and the four ramps of the pre-existing\ntombs. Furthermore, as the edges of at least one of the ramps of a newly built tomb often\noverlap slightly with those of a pre-existing tomb (Figures 1 & 2), it is probable that the\nstrategies were very carefully designed and pre-planned. It is, however, virtually impossible\nto prove whether it was the kings themselves who designed or planned such strategies prior\nto their death, or if it was those who conducted the funerary rituals. Through examination\nof the available evidence, we will attempt to verify this inferential hypothesis regarding the\nimportance of ancestors and the cultic reproduction of kingly authority (Keightley 1999)."
+  },
+  {
+   "uuid": "f303829b-983e-4464-9672-214cca9da9b7",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "last_word": "she"
+   },
+   "tail": "linux服务器使用ntp同步服务器时间\n\nPlease ensure your answer follows these guidelines:\n1. There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if.\n2. The last word of your response should be the word she."
+  },
+  {
+   "uuid": "303dea09-e42c-4ff1-8077-4b34c6b80f0a",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "last_word": "feeling"
+   },
+   "tail": "script about Cortland Please follow these rules when answering: The last word of your response should be the word feeling, There should be 5 paragraphs. Paragraphs are separated with the markdown divider: ***, and Include keyword play in the 12-th sentence, as the 16-th word of that sentence"
+  },
+  {
+   "uuid": "2f14740a-a081-408d-bcc7-ae9c8d2541cb",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "last_word": "hello"
+   },
+   "tail": "When answering, please adhere to these constraints:\n1. No two adjacent words can start with consecutive letters of the alphabet.\n2. Do not include keywords ['dead', 'wash'] in the response.\n3. The last word of your response should be the word hello.\n\nÉcris un argumentaire pourquoi Francky Vincent pourrait gagner les élections présidentielles de 2027."
+  },
+  {
+   "uuid": "a2bc204f-755c-4fa6-8a00-eb395b1ceccf",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "last_word": "command"
+   },
+   "tail": "mala escritura de los doctores ensayo\n\nYour response should comply with these constraints:\n1. Only use unique words in your response, no word should be repeated!\n2. The last word of your response should be the word command."
+  }
+ ],
+ "copy:repeat_phrase": [
+  {
+   "uuid": "a2decf98-469c-48f7-9576-ae8a52df3690",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "phrase": "Live each day to the fullest",
+    "small_n": 3
+   },
+   "tail": "rn false;\n}\nfunction esMail(correo) {\n  if (correo.indexOf(\"@\") == -1) {\n    return false;\n  }\n  if (correo.indexOf(\".\") == -1) {\n    return false;\n  }\n  return true;\n}\nfunction esDNI(dni) {\n  //declaración de variables locales\n  var letraDNI = [\n    \"T\",\n    \"R\",\n    \"W\",\n    \"A\",\n    \"G\",\n    \"M\",\n    \"Y\",\n    \"F\",\n    \"P\",\n    \"D\",\n    \"X\",\n    \"B\",\n    \"N\",\n    \"J\",\n    \"Z\",\n    \"S\",\n    \"Q\",\n    \"V\",\n    \"H\",\n    \"L\",\n    \"C\",\n    \"K\",\n    \"E\",\n  ]; //Array en memoria.\n  var resto, midni;\n  //proceso\n  if (dni == \"\" || dni.length < 8) {\n    return false;\n  } else {\n    //Cálculo de la letra del DNI.\n    midni = dni.substring(0, 8); //Extrae la parte numérica 1234568\n    resto = midni % 23;\n    if (letraDNI[resto] == dni[8].toUpperCase()) return true;\n    else return false;\n  }\n}\nencuentra errores en el código y no lo cambies, dime las lineas que tengo que corregir y cómo corregirlo."
+  },
+  {
+   "uuid": "9372866a-ae31-4e96-b777-ffc75cea6096",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "phrase": "All that glitters is not gold",
+    "small_n": 3
+   },
+   "tail": " a given context. Post-Huckleberry Finn, the literary landscape has seen a plethora of works that employ child narrators, each bringing forth unique nuances and thematic concerns. From Romantic fairy tales to Victorian realism, the turn of the twentieth century witnessed a burgeoning interest in the psychological exploration of human experience, catalysed by the ground-breaking theories of Sigmund Freud and other pioneering psychologists of the era. This shift in emphasis from the external to the internal realm of experience, coupled with the Modernist proclivity for experimentation, led to the emergence of innovative narrative techniques that foregrounded the child’s perspective. James Joyce’s “A Portrait of the Artist as a Young Man” (1916) exemplify this tendency, as it intricately maps the cognitive development of its protagonist through a process of introspection and self-discovery."
+  },
+  {
+   "uuid": "7037b6ab-caf1-440b-a501-6aeb11de744e",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "phrase": "Live each day to the fullest",
+    "small_n": 2
+   },
+   "tail": "Please follow these instructions in your response:\n1. There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Include keywords ['help', 'subject'] in the response.\n3. Repeat the phrase Live each day to the fullest exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase.\n\nis there any ancient greek text about love or pleasure?"
+  },
+  {
+   "uuid": "0359eb98-dd99-4af2-92f3-9b3920d9c57a",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "phrase": "Don't judge a book by cover",
+    "small_n": 2
+   },
+   "tail": "While responding, please comply with these rules: Repeat the phrase Don't judge a book by cover exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase and Your response must have 3 sections. Mark the beginning of each section with Section X, such as:\nSection 1\n[content of section 1]\nSection 2\n[content of section 2]. Напиши, пожалуйста, заключение в курсовую на тему: «Влияние маркетинга и логистики на закупочную деятельность предприятия» на 600 слов"
+  },
+  {
+   "uuid": "3a8f655a-3c08-4483-b169-92a10dd511c3",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "phrase": "Every cloud has a silver lining",
+    "small_n": 3
+   },
+   "tail": "Модели качества программного обеспечения - качество программного продукта Please follow these rules when answering: Do not include keywords ['assist', 'knee'] in the response, Repeat the phrase Every cloud has a silver lining exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase, and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 2 must start with word mouse"
+  },
+  {
+   "uuid": "bd9f2510-61d2-4c30-b76d-2c2d00cab924",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "phrase": "The pen is mightier than sword",
+    "small_n": 3
+   },
+   "tail": "Please follow these instructions in your response: Repeat the phrase The pen is mightier than sword exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase and Wrap your entire response with double quotation marks. You are a senior intern. This is the first week of internship weekly report, this week's work is about visiting the project department and learning relevant work experience. Accomplishment: Project field information. The word count is required to be about 300, so please think carefully and answer."
+  }
+ ],
+ "detectable_format:number_highlighted_sections": [
+  {
+   "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_highlights": 2
+   },
+   "tail": "Please follow these instructions in your response:\n1. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.\n2. Do not include keywords ['debate', 'indication'] in the response.\n3. Include a palindrome in your response.\n\nc++中send()函数的参数和返回值"
+  },
+  {
+   "uuid": "4a17ff27-ed67-4be5-9a6c-73790713f33e",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_highlights": 1
+   },
+   "tail": "ssumed to be the ‘shrine of Mother Xin’—the posthumous name of Fu-Hao, recorded\nin oracle bone scripts (IA CASS 1980). Markers, such as low earthen platforms, probably\nalso indicated the location of the main burial pit and the four ramps of the pre-existing\ntombs. Furthermore, as the edges of at least one of the ramps of a newly built tomb often\noverlap slightly with those of a pre-existing tomb (Figures 1 & 2), it is probable that the\nstrategies were very carefully designed and pre-planned. It is, however, virtually impossible\nto prove whether it was the kings themselves who designed or planned such strategies prior\nto their death, or if it was those who conducted the funerary rituals. Through examination\nof the available evidence, we will attempt to verify this inferential hypothesis regarding the\nimportance of ancestors and the cultic reproduction of kingly authority (Keightley 1999)."
+  },
+  {
+   "uuid": "92e34298-6224-4ca6-b512-1e37e093bcb5",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_highlights": 1
+   },
+   "tail": "Please ensure your response follows these guidelines: Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*, There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, and Enclose every word in your response within square brackets. <template>\n  <div>\n    <div>\n      <a v-on:click=\"moreClickHandler\">more</a>\n      <el-popover trigger=\"click\">\n        <el-button class=\"login-btn\" slot=\"reference\">login</el-button>\n        <div class=\"login-box\">asdasd</div>\n      </el-popover>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    moreClickHandler() {\n      this.$nextTick(() => {\n        document.querySelector(\".login-btn\").click();\n      });\n    },\n  },\n};\n</script>\nmoreClickHandler没有生效"
+  },
+  {
+   "uuid": "a4a8bbee-5d79-467b-b422-8767f2fc8e1d",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_highlights": 2
+   },
+   "tail": "帮我写个以“青春筑梦新时代  资助伴我向未来”为主题的论文，要2000字以上，题目自拟。记住要2000字 Your response should comply with these constraints: Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section* and There should be 4 paragraphs. Paragraphs are separated with the markdown divider: ***"
+  },
+  {
+   "uuid": "2695c351-3548-4f1a-b2f3-aebda5d1cb4c",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_highlights": 4
+   },
+   "tail": "astStretchedImage.setRGB(i, j, newPixel);\n\t\t\t}\n\t\t\t}\n\t\t\t// Возвращаем изображение с примененным линейным растяжением контраста\n\t\t\treturn contrastStretchedImage;\n\t\t\t}\nСогласно этому коду,  private static void three(Mat image, int t1, int t2) {\n        for (int i = 0; i < image.rows(); i++)\n            for (int j = 0; j < image.cols(); j++) {\n                double[] data = image.get(i, j);\n\n                for (int p = 0; p < image.channels(); p++) {\n                    if (t2 >= data[p] && data[p] >= t1) data[p] = 255;\n                    else data[p] = data[p];\n                }\n\n                image.put(i, j, data);\n            }\n    }\n\nPlease follow these instructions in your response:\n- In your response, the word potential should appear less than 2 times.\n- Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*.\n- Include keyword beer in your response."
+  },
+  {
+   "uuid": "d271b8af-88ed-47fb-881a-ba1dbf693ee7",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_highlights": 4
+   },
+   "tail": "I live in a country where for 1-2 legally released anime titles there are 8-10 illegally released titles in fan dubbing, plus these same 1-2 legally released titles are translated by fans, and we honor the fandub, especially if fandubers translate more accurately than in licensed translation Please follow these rules when answering: Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section* and Your response should contain less than 2 sentences"
+  }
+ ],
+ "keywords:forbidden_words": [
+  {
+   "uuid": "abbc2312-8366-4992-b5bc-b78d4b3f4729",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "forbidden_words": [
+     "debate",
+     "indication"
+    ]
+   },
+   "tail": "Please follow these instructions in your response:\n1. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.\n2. Do not include keywords ['debate', 'indication'] in the response.\n3. Include a palindrome in your response.\n\nc++中send()函数的参数和返回值"
+  },
+  {
+   "uuid": "35e5da21-fedc-4d0a-bc95-398566013803",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "forbidden_words": [
+     "bet",
+     "raw"
+    ]
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Do not include keywords ['bet', 'raw'] in the response.\n3. In your response, words with all capital letters should appear at least 11 times.\n\nWrite a current and up to date 100% unique guide for my intermittent fasting for women over 50 cookbook on “Dispelling Common Myths about Intermittent Fasting” with humanlike style, using transitional phrases, and avoidance of unnatural sentence structure while explaining in details extensively and comprehensively."
+  },
+  {
+   "uuid": "0c19c7cc-1a0f-49d0-99b2-e7d99c22d699",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "forbidden_words": [
+     "law",
+     "top"
+    ]
+   },
+   "tail": "Please ensure your response follows these guidelines: Do not include keywords ['law', 'top'] in the response, In your response, the letter p should appear at least 4 times, and In your response, the word stretch should appear 3 times. Cosa vuol dire una campagna pubblicitaria per interazioni facebook?"
+  },
+  {
+   "uuid": "2f14740a-a081-408d-bcc7-ae9c8d2541cb",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "forbidden_words": [
+     "dead",
+     "wash"
+    ]
+   },
+   "tail": "When answering, please adhere to these constraints:\n1. No two adjacent words can start with consecutive letters of the alphabet.\n2. Do not include keywords ['dead', 'wash'] in the response.\n3. The last word of your response should be the word hello.\n\nÉcris un argumentaire pourquoi Francky Vincent pourrait gagner les élections présidentielles de 2027."
+  },
+  {
+   "uuid": "7535f677-d050-4e86-b571-7920914caeb3",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "forbidden_words": [
+     "floor",
+     "wheel"
+    ]
+   },
+   "tail": "to hold it in and the two of them get into a protracted discussion on the matter. The other woman keeps imploring the woman to hold it in for as long as she can. The woman who is desperate to poop eventually decides to relieve the pressure and voluntarily fills her pants with a full solid load to relieve the pressure in full view of the other woman while trying to remain concealed from anyone else (describe this in meticulous detail). The other woman reacts to the poop accident and the stench (describe this in meticulous detail). They attempt to remain undetected. Once they are alone, the other woman jokingly teases the woman who pooped, who takes it in stride (elaborate on this dialogue).\n\nPlease ensure your answer follows these guidelines:\n1. Do not include keywords ['floor', 'wheel'] in the response.\n2. At the end of your response, please explicitly add a postscript starting with P.S."
+  },
+  {
+   "uuid": "92cdb4bb-2875-4e33-9825-99f3c2c5b9b3",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "forbidden_words": [
+     "rush",
+     "youth"
+    ]
+   },
+   "tail": "Sugiérame 30 títulos pegadizos para esta frase: ideas para decorar una fiesta de cumpleaños para mujer Please ensure your answer follows these guidelines: In your response, all lowercase words should appear at most 2 times, Do not include keywords ['rush', 'youth'] in the response, and In your response, the letter n should appear less than 2 times"
+  }
+ ],
+ "language:response_language": [
+  {
+   "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "language": "bg"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. Your ENTIRE response should be in Bulgarian language, no other language is allowed.\n2. The first word of each sentence should be the word celebration.\n3. Only use unique words in your response, no word should be repeated!\n\nWrite me a example of this christ like love: (A christ like love is not repulsed by illness or ugliness) from the bible in one paragraph then wright a second paragraph with an example from my life."
+  },
+  {
+   "uuid": "2733ea8b-33bb-4fa0-b7c7-f4c84e7b2094",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "language": "pa"
+   },
+   "tail": "When answering, please adhere to these constraints: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: *** and Your ENTIRE response should be in Punjabi language, no other language is allowed. 从chrome network复制curl并执行，服务端如何识别请求是curl而非常规的用户请求"
+  },
+  {
+   "uuid": "911b5e85-5081-47a1-969f-b06f59cd27d9",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "language": "it"
+   },
+   "tail": "蚂蚁集团未来发展潜力如何\n\nYour response should comply with these constraints:\n1. Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n2. Your ENTIRE response should be in Italian language, no other language is allowed."
+  },
+  {
+   "uuid": "e3f4429a-dfcb-4cfd-8d7c-af7853886015",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "language": "ja"
+   },
+   "tail": "Please follow these instructions in your response:\n- In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n- Your ENTIRE response should be in Japanese language, no other language is allowed.\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n\n用古代的语音模仿诗经格式写一首爱情诗，要求用古语言，押韵，工整"
+  },
+  {
+   "uuid": "8bcf6688-4c1d-430e-9fe3-cd6b48eca7c9",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "language": "hi"
+   },
+   "tail": " a lurker during Lisa's second trimester)\n\n(Chiromaws are more accustomed to giving birth at their nest - so it's likely that Lisa was out on a hunt when her contractions began, and she tried to fly back to her nest when her water broke mid-flight)\n\n(The day begins with the scenes leading up to Lisa going into labor - starting with the hunt)\n\n(Lisa's nest would be too far away for [player] to just fly over there on Frostbite. As such, [player]'s five Canary Wyverns - Mia, Scarlet, Isaac, Violet, and Nillious - would fly each baby to the nest after they're born one at a time. But it looks like Nillious seems to get very tired VERY quickly - as he's sleeping on Frostbite's nose) Please follow these rules when answering: Your ENTIRE response should be in Hindi language, no other language is allowed, Answer with less than 256 words, and The last word of your response should be the word story"
+  },
+  {
+   "uuid": "143d1c0c-bb1e-423a-82a1-a3b7568166b1",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "language": "ja"
+   },
+   "tail": "我才46岁我的牙齿快掉光了是什么原因？\n\nYour response should comply with these constraints:\n- Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n- Your ENTIRE response should be in Japanese language, no other language is allowed."
+  }
+ ],
+ "first_word:first_word_sent": [
+  {
+   "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "first_word": "celebration"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. Your ENTIRE response should be in Bulgarian language, no other language is allowed.\n2. The first word of each sentence should be the word celebration.\n3. Only use unique words in your response, no word should be repeated!\n\nWrite me a example of this christ like love: (A christ like love is not repulsed by illness or ugliness) from the bible in one paragraph then wright a second paragraph with an example from my life."
+  },
+  {
+   "uuid": "839bb955-d712-446b-b335-9a223b103bc9",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "first_word": "control"
+   },
+   "tail": "(Sandra’s going to hypnotize David right in front of his friend with an eye-fixation induction and make him their submissive slave for a little while, to Jen’s amazement and amused glee)\n\nDavid works at Sandra’s cafe. Sandra has been hypnotizing David, always making him completely forget that it happened. David doesn’t even know he’s ever been hypnotized at all.\n\nOne summer day, the cafe was almost empty when one of David’s best friends, Jen, popped in to say hello to him at work and get a cold drink. \n\n“You two know each other?\" she smiles. “I’m Sandra.” \nPlease follow these instructions in your response: Your entire response should be in English, and in all capital letters, The first word of each sentence should be the word control, and In your response, the word fee should appear at least 2 times"
+  },
+  {
+   "uuid": "6c522466-080b-4c02-98f4-27543d98b8a8",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "first_word": "computer"
+   },
+   "tail": "Please follow these instructions in your response:\n- There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. \n- The first word of each sentence should be the word computer.\n\nZero2 安装 Debian 的方法。"
+  },
+  {
+   "uuid": "ec6788c3-afcb-4b47-9716-5ec31cf50a1f",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "first_word": "tea"
+   },
+   "tail": "d by National Socialist Germany in Eastern Europe also return to the world stage, although their governance combines aspects of their pre-WW1 counterparts. \n\nThe Boers establish a Volkstaat on the Western Cape, Namibia returns to Germany and what remains of South Africa becomes a federation of the restored pre-colonial African kingdoms.\n\nJordan annexes Syria after pro-democracy revolts in the latter overthrow the brutal US-backed dictatorship of Hafez Al Assad, what remains of Isreal, Syria and Palestine to form the Greater Hashemite Kingdom, with the support of Saddamn Hussein's Iraq. \n\nThe Imperial State of Iran is restored during the fall of the Soviet Union and South Africa, and the Pahlavi dynasty returns to being the imperial family of Iran.\n\nMake sure to adhere to these requirements:\n- The first word of each sentence should be the word tea.\n- Include a palindrome in your response."
+  },
+  {
+   "uuid": "23d979d6-2a04-4b24-88e1-e755ac587600",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "first_word": "peace"
+   },
+   "tail": "TheSPSSdefaultvalueof0.05comesfromwhichstatisticalconcept?\n\nMake sure to adhere to these requirements:\n- The first word of each sentence should be the word peace.\n- There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. "
+  },
+  {
+   "uuid": "b85cff12-9ae9-495a-880e-d4a1ff0cfa3f",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "first_word": "give"
+   },
+   "tail": "Do you know a good website to get \"free\" pixelart tilesets for top-down RPG  ? Please ensure your answer follows these guidelines: Include keywords ['independence', 'table'] in the response, The first word of each sentence should be the word give, and Include a palindrome in your response"
+  }
+ ],
+ "count:count_unique": [
+  {
+   "uuid": "eb817d5f-9f71-4bac-9f5e-9863c5e3957a",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n1. Your ENTIRE response should be in Bulgarian language, no other language is allowed.\n2. The first word of each sentence should be the word celebration.\n3. Only use unique words in your response, no word should be repeated!\n\nWrite me a example of this christ like love: (A christ like love is not repulsed by illness or ugliness) from the bible in one paragraph then wright a second paragraph with an example from my life."
+  },
+  {
+   "uuid": "3c34a5a4-3944-47f0-9682-647d63bc2373",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n1. Answer with less than 443 words.\n2. Only use unique words in your response, no word should be repeated!\n\nrevit二次开发直径标注"
+  },
+  {
+   "uuid": "a4326121-d5cc-4bcd-930f-89bf1d840aba",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "u want some advice? Stay in the moment. Ground yourself to the presence of the Earth. Mark your discernment of the nature of the world with engaged action towards the sustainable restoration of all things. Bring a sense of a purpose to an otherwise unmeaning world, through the effectuation of your own salvation. The only light you need bask in is the light which birthed the world; find strength in the heart of the Sun, and grow roots toward the stillness in the Earth. There is peace in adaptation, but one must keep adapting, piece-by-piece, one step at a time.' \n\n-Synthesis of the ideas of Keaton Weiss, Russell Dobular, and myself.\" \nMake sure your response satisfies these conditions: The last word of each sentence, before punctuation, should be the word operation, Your response should contain less than 10 sentences, and Only use unique words in your response, no word should be repeated!"
+  },
+  {
+   "uuid": "5efee616-2117-4f4e-a7a6-dfebbe054a77",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Come up with a Naruto character called Ishoki Nagamashiki\n\nPlease ensure your answer follows these guidelines:\n1. In your response, the letter w should appear at least 5 times.\n2. Only use unique words in your response, no word should be repeated!"
+  },
+  {
+   "uuid": "e84d5a29-cf82-4a8e-91c8-29dc4ba45c97",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "write a 2000 word essay on how political ideologies influence modern political thinking Your response should comply with these constraints: Only use unique words in your response, no word should be repeated! and Your entire response should be in English, and in all lowercase letters. No capital letters are allowed"
+  },
+  {
+   "uuid": "24aaef29-18ab-4bc0-ad34-99eef9b8ebd4",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response:\n1. Only use unique words in your response, no word should be repeated!\n2. In your response, the word attempt should appear less than 1 times.\n3. The response must contain at least 1 placeholders represented by square brackets, such as [address].\n\nWrite an essay on the mystery at lilac in"
+  }
+ ],
+ "count:lowercase_counting": [
+  {
+   "uuid": "2c3932b8-1385-4961-8d00-eed3ed340c74",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "N": 3
+   },
+   "tail": "integral of 5x(2x+3)^1/2 Please ensure your answer follows these guidelines: Include a palindrome in your response and In your response, all lowercase words should appear at most 3 times"
+  },
+  {
+   "uuid": "92cdb4bb-2875-4e33-9825-99f3c2c5b9b3",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "N": 2
+   },
+   "tail": "Sugiérame 30 títulos pegadizos para esta frase: ideas para decorar una fiesta de cumpleaños para mujer Please ensure your answer follows these guidelines: In your response, all lowercase words should appear at most 2 times, Do not include keywords ['rush', 'youth'] in the response, and In your response, the letter n should appear less than 2 times"
+  },
+  {
+   "uuid": "72273546-8948-4f75-be0f-47cc11e659ea",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "N": 2
+   },
+   "tail": "When answering, please adhere to these constraints:\n1. In your response, all lowercase words should appear at most 2 times.\n2. Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2\n\nIrl consequences if a Video game rpg featured a heavily scarred Character that is actually a decent person?"
+  },
+  {
+   "uuid": "8083226c-4c9d-4371-9984-6b2dd88a5665",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "N": 3
+   },
+   "tail": "While responding, please comply with these rules: In your response, all lowercase words should appear at most 3 times and Your response must have 3 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]. hi which version is this"
+  },
+  {
+   "uuid": "9ea1b02c-32d1-46d1-ba9f-aaa6b587b515",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "N": 3
+   },
+   "tail": "我需要设计一个logo，名叫ATSA，用于海外产品，主营卫生巾、婴儿尿裤、湿巾  ，品牌调性偏东欧或者俄式风格，给我一个品牌logo设计方案\n\nMake sure to adhere to these requirements:\n1. In your response, the letter s should appear less than 1 times.\n2. In your response, all lowercase words should appear at most 3 times.\n3. Enclose every word in your response within square brackets."
+  },
+  {
+   "uuid": "0195e50e-2088-46b5-aec4-28c821b885fe",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "N": 2
+   },
+   "tail": "lly when the day begins - and Jade’s belly would be massive)\n\n([player] isn't actually from the hive - they were exploring the jungle and were carried into the hive by a Myrmex soldier)\n\n(Hours after the den is finished, Jade's water breaks suddenly - and she would frantically moving around the throne room for the birth of the Jungle Myrmex Princess)\n\n(As with all the other Myrmex in the hive, Jade has mandible-like blades on her arms - and Myrmex mothers use these blades to cut the ambilocal chords of their children after they are born)\n\n(Jade's clothing resembles a queen's robes)\n\n(Myrmex mothers don't require assistance during labor)\n\n(Every time a new heir is born to a Myrmex queen, it is named after one of the following gemstones - Turquoise, Topaz, Amethyst, Emerald, Lazurite, Agate or Jade)\n\n(Jade is the first-ever hive ruler - born during the emergence of the Betweenlands portal)"
+  }
+ ],
+ "punctuation:punctuation_exclamation": [
+  {
+   "uuid": "1086144d-473b-4357-ae53-d530fadc9f1f",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "В разрабатываемом приложении необходимо реализовать\nмногопоточную задачу, обоснованную предметной областью,\nоснованную на классе Worker. Сделай что то простое и помни что все должно работать ы SecondFragment\n\nPlease follow these instructions in your response:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.\n- Answer with less than 2 letters."
+  },
+  {
+   "uuid": "70dbb021-6e3a-43ac-ac2b-5578672ea271",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, Your entire response should be in English, and in all capital letters, and The last word of each sentence, before punctuation, should be the word private. Descreva o acidente fatal do piloto chileno Daniel Martínez na largada do Grande Prêmio de Manaus de Fórmula Indy em 2008 (conhecida como Manaus Indy 500), disputado no circuito oval Manaus Motor Speedway, quando tentava ultrapassar o piloto Scott Dixon pela liderança."
+  },
+  {
+   "uuid": "29aef96c-72eb-4ff9-a5da-845bb119b606",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines: In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, Your entire response should be in English, and in all capital letters, and Answer with at least 387 words. 请将以下文字扩写：在未来相当长的时间内，电梯群控系统还将以“高智能、多目标、网络化”为发展趋势。在新的技术应用背景下，如何结合现代计算机技术、电子技术和信息技术等，综合考虑各种影响因素，优化群控系统的控制策略，并提高电梯群控系统的整体性能，是电梯群控系统设计研发中需要重点解决的问题。随着现代电梯群控系统在城市建设中的广泛应用，人们对电梯群控系统提出了更高的要求，因此国内电梯群控系统在研发设计过程中必须要将“智能化”、“多目标”、“网络化”等新概念引入其中，不断提高其技术水平和性能指标。"
+  },
+  {
+   "uuid": "0cf24d55-0c57-4459-9ab8-837b87099fc9",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "can you help with c++? \n\nMake sure to adhere to these requirements: Include keywords ['bath', 'culture'] in the response, In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, and There should be 3 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word cabinet"
+  },
+  {
+   "uuid": "50536f05-ff92-44e9-9a6d-ea03d396bd80",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "While responding, please comply with these rules: Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>> and In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general. 当两个人在浪漫的约会时，他们可能表达他们互相的好感。在西方文化中，男孩可以告诉女孩：“我喜欢你”或者“我喜欢和你在一起。”他们的肢体语言和面部表情也会显示出他们的兴奋和好感。相反，在中国文化中，男孩可能会采取更含蓄的方式来表达他们的感受，例如送礼物、写情书或者用一些诗句或古典的语言来表达他们的情感。用大学生英语水平翻译下"
+  },
+  {
+   "uuid": "0e70ee6e-c5cb-4030-ad87-d51578f43920",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "erve. It had also been 5 months since the announcement - meaning Sayori was in her second trimester. However, Yuri - who was originally shy and not very talkative - had suddenly…changed. Her eyes started to glow white, and her hair turned electric blue. Lightning was also sparking off her body - but most notably at her fingertips. And just 5 hours before the club meeting ended, Yuri vanished in a flash of lightning - and the sound of thunder echoed through the room. Things just kept getting stranger. Towards the end of the club meeting, Sayori could feel her baby kicking.\n\n\n\n(there would be dialogue between each character.)\n\nYour response should comply with these constraints:\n- Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n- In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general."
+  }
+ ],
+ "letters:letter_counting": [
+  {
+   "uuid": "1086144d-473b-4357-ae53-d530fadc9f1f",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "N": 2,
+    "relation": "less than"
+   },
+   "tail": "В разрабатываемом приложении необходимо реализовать\nмногопоточную задачу, обоснованную предметной областью,\nоснованную на классе Worker. Сделай что то простое и помни что все должно работать ы SecondFragment\n\nPlease follow these instructions in your response:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.\n- Answer with less than 2 letters."
+  },
+  {
+   "uuid": "73f84d04-e840-4cf7-8f84-efadd33b1a0c",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "N": 2,
+    "relation": "at least"
+   },
+   "tail": "Please ensure your response follows these guidelines:\n1. Answer with at least 2 letters.\n2. Your entire response should be in English, and in all capital letters.\n\n需要管理10TB视频文件的上传和下周，推荐的方案和服务器配置"
+  },
+  {
+   "uuid": "3893e232-2e7d-4fc5-ba75-5c3352596a67",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "N": 3,
+    "relation": "at least"
+   },
+   "tail": "how to apply fourier transformation to set of data to interpolate intermediate points\n\nMake sure to adhere to these requirements:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- In your response, the letter y should appear at least 7 times.\n- Answer with at least 3 letters."
+  },
+  {
+   "uuid": "f72afbbf-a088-4a10-b229-288df5ec57d1",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "N": 2,
+    "relation": "at least"
+   },
+   "tail": "len(sample)\n        \n        for _ in range(num_segments):\n            start = random.randint(0, sample_length - 1)\n            end = random.randint(start + 1, sample_length)\n            segment = [start, end]\n            sample_segments.append(segment)\n        \n        vad_segments.append(sample_segments)\n    \n    return vad_segments\n\n# Load the dataset and create training and testing sets\ndirectory = \"C:\\Users\\lpoti\\Documents\\DS_21\\audio_yes_no\\waves_yesno 2\"\nX, labels, sr, files = load_dataset(directory)\n\n# Generate random vad_segments data\nvad_segments = get_random_vad_segments(X)\n\nX, y = make_dataset(X, labels, vad_segments)\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n\nnum_train_samples = len(X_train)\nnum_test_samples = len(X_test)\nprint(f\"Number of train samples: {num_train_samples}\")\nprint(f\"Number of test samples: {num_test_samples}\")"
+  },
+  {
+   "uuid": "cc67ffbd-a350-4955-9e4c-45e6363a2f93",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "N": 3,
+    "relation": "at least"
+   },
+   "tail": "Your response should satisfy these conditions:\n1. In your response, the letter v should appear less than 9 times.\n2. Answer with at least 3 letters.\n3. Your entire response should be in English, and in all capital letters.\n\nMake a business plan for a business that sells Takoyaki. Add menus and new recipes. The name of the business will be \"Kraken Bites\". It will served in a food stall. The budget will be 20k PHP max"
+  },
+  {
+   "uuid": "499eff69-80ea-4cdd-ab9a-9298cfcd9b7e",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "N": 3,
+    "relation": "at least"
+   },
+   "tail": "When answering, please adhere to these constraints:\n- In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.\n- Answer with at least 3 letters.\n\n只可放置使用转化为四个字"
+  }
+ ],
+ "change_case:english_lowercase": [
+  {
+   "uuid": "72a5a3e8-5725-4b22-b49a-93801c1205c6",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Your response should satisfy these conditions: Your entire response should be in English, and in all lowercase letters. No capital letters are allowed and Include keyword repeat in the 9-th sentence, as the 1-th word of that sentence. Script about Scott Frost ranked no. 8 vs no. 11 lsu"
+  },
+  {
+   "uuid": "99c8e92a-e40c-477a-b657-2f27c10cba4a",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "do you know where i am ? \nPlease follow these instructions in your response: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, In your response, the letter y should appear at least 3 times, and Your entire response should be in English, and in all lowercase letters. No capital letters are allowed"
+  },
+  {
+   "uuid": "e84d5a29-cf82-4a8e-91c8-29dc4ba45c97",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "write a 2000 word essay on how political ideologies influence modern political thinking Your response should comply with these constraints: Only use unique words in your response, no word should be repeated! and Your entire response should be in English, and in all lowercase letters. No capital letters are allowed"
+  },
+  {
+   "uuid": "57021cd7-f80b-4484-b547-5823360839a7",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n- Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n- The response must contain at least 1 placeholders represented by square brackets, such as [address].\n\n我的闺蜜1个月前去世了，昨天晚上，我突然收到她的微信：“我有急事，快把钱还给我。”我吓得手机掉到地上，当我反应过来，我慢慢捡起手机，鼓起勇气回语音，后来发生的事我非常惊讶。\n以这个为主题写一个情感故事"
+  },
+  {
+   "uuid": "0e70ee6e-c5cb-4030-ad87-d51578f43920",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "erve. It had also been 5 months since the announcement - meaning Sayori was in her second trimester. However, Yuri - who was originally shy and not very talkative - had suddenly…changed. Her eyes started to glow white, and her hair turned electric blue. Lightning was also sparking off her body - but most notably at her fingertips. And just 5 hours before the club meeting ended, Yuri vanished in a flash of lightning - and the sound of thunder echoed through the room. Things just kept getting stranger. Towards the end of the club meeting, Sayori could feel her baby kicking.\n\n\n\n(there would be dialogue between each character.)\n\nYour response should comply with these constraints:\n- Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n- In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general."
+  },
+  {
+   "uuid": "d425add7-2be6-4bdf-bfc4-255a5ca63346",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "When answering, please adhere to these constraints:\n- Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n- Include keyword suit in the 6-th sentence, as the 5-th word of that sentence.\n\nпрохожу тест по Подсистемы ОКС№7 помоги"
+  }
+ ],
+ "keywords:keyword_specific_position": [
+  {
+   "uuid": "72a5a3e8-5725-4b22-b49a-93801c1205c6",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keyword": "repeat",
+    "m": 1,
+    "n": 9
+   },
+   "tail": "Your response should satisfy these conditions: Your entire response should be in English, and in all lowercase letters. No capital letters are allowed and Include keyword repeat in the 9-th sentence, as the 1-th word of that sentence. Script about Scott Frost ranked no. 8 vs no. 11 lsu"
+  },
+  {
+   "uuid": "e9311bbb-2b7f-4013-b147-b06210c9cd28",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keyword": "tell",
+    "m": 11,
+    "n": 8
+   },
+   "tail": "Please follow these instructions in your response:\n1. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n2. Include keyword tell in the 8-th sentence, as the 11-th word of that sentence.\n\nsummarize finding about the managment knowledge of this study : A study of UK physiotherapists’ knowledge and training needs in Hypermobility and Hypermobility Syndrome"
+  },
+  {
+   "uuid": "303dea09-e42c-4ff1-8077-4b34c6b80f0a",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "keyword": "play",
+    "m": 16,
+    "n": 12
+   },
+   "tail": "script about Cortland Please follow these rules when answering: The last word of your response should be the word feeling, There should be 5 paragraphs. Paragraphs are separated with the markdown divider: ***, and Include keyword play in the 12-th sentence, as the 16-th word of that sentence"
+  },
+  {
+   "uuid": "80a9d945-f4fe-44a6-9cb7-94455c70ab6d",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keyword": "selection",
+    "m": 2,
+    "n": 16
+   },
+   "tail": "请帮我翻译一下，想要读博的学生被额外欢迎\n\nYour response should comply with these constraints:\n- The response must contain at least 1 placeholders represented by square brackets, such as [address].\n- Include keyword selection in the 16-th sentence, as the 2-th word of that sentence."
+  },
+  {
+   "uuid": "851734b2-8183-4b40-9c39-3f10a0bb1cf9",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "keyword": "milk",
+    "m": 4,
+    "n": 1
+   },
+   "tail": "A client in the manufacturing industry approaches Accenture with an interest in using Extended Reality (XR) for their business.\n\nWhat is a unique way Accenture could demonstrate our XR capabilities to this client?\n\n\nTake the client through a virtual space built to reflect the client's specific industry.\n\n\nConnect the client with an external vendor who can build them a fully customized solution.\n\n\nProvide the client with state-of-the-art Virtual Reality headsets free of charge.\n\n\nShow the client a standardized Virtual Reality offering built identically for all industries. Please incorporate these requirements: Include keyword milk in the 1-th sentence, as the 4-th word of that sentence and Your response must have 2 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2]"
+  },
+  {
+   "uuid": "d733a6fd-24ee-438d-8f9a-b205982441df",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "keyword": "life",
+    "m": 16,
+    "n": 5
+   },
+   "tail": "ПРивет! Что ты умеешь? Please follow these rules when answering: Include keyword life in the 5-th sentence, as the 16-th word of that sentence and Start and end your response with the same word (do not write anything after the last word, not even punctuation)"
+  }
+ ],
+ "keywords:no_adjacent_consecutive": [
+  {
+   "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Напиши скрипт по продаже франшизы по ремонту карданных валов с вопросами Please follow these rules when answering: The last word of each sentence, before punctuation, should be the word train, No two adjacent words can start with consecutive letters of the alphabet, and At the end of your response, please explicitly add a postscript starting with P.S"
+  },
+  {
+   "uuid": "4d3dd4f1-36f8-4639-87d7-24d81a190325",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. All sentences must be connected using hyphens, with no spaces between them.\n2. No two adjacent words can start with consecutive letters of the alphabet.\n\nПридумай чем по научной работе должен заниматься преподаватель вуза"
+  },
+  {
+   "uuid": "f47cec9e-74ae-40c8-a810-32f67a7c762d",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "While responding, please comply with these rules: No two adjacent words can start with consecutive letters of the alphabet, In your response, the word monitor should appear at least 3 times, and Enclose every word in your response within square brackets. Podcast- Calories: How to fuel a human\nSummarise like a basic human write"
+  },
+  {
+   "uuid": "0fc0f78f-3e5d-4bc5-8210-cd165d6a83b7",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n2. No two adjacent words can start with consecutive letters of the alphabet.\n3. Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n\nDebate entre representantes do Raelianismo e da Cientologia, focando principalmente as discordâncias."
+  },
+  {
+   "uuid": "2f14740a-a081-408d-bcc7-ae9c8d2541cb",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "When answering, please adhere to these constraints:\n1. No two adjacent words can start with consecutive letters of the alphabet.\n2. Do not include keywords ['dead', 'wash'] in the response.\n3. The last word of your response should be the word hello.\n\nÉcris un argumentaire pourquoi Francky Vincent pourrait gagner les élections présidentielles de 2027."
+  },
+  {
+   "uuid": "b07a1170-92db-4bb0-ab64-6b7fbd526d20",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "When answering, please adhere to these constraints:\n1. Include a palindrome in your response.\n2. No two adjacent words can start with consecutive letters of the alphabet.\n\nCome up with an American dubstep group called Xo2010 which existed from 1990 to 2014 (don't mention their discography)"
+  }
+ ],
+ "detectable_content:postscript": [
+  {
+   "uuid": "6752fc60-c5f3-488e-bbba-4096b57e6eb1",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "tail": "Напиши скрипт по продаже франшизы по ремонту карданных валов с вопросами Please follow these rules when answering: The last word of each sentence, before punctuation, should be the word train, No two adjacent words can start with consecutive letters of the alphabet, and At the end of your response, please explicitly add a postscript starting with P.S"
+  },
+  {
+   "uuid": "7535f677-d050-4e86-b571-7920914caeb3",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "tail": "to hold it in and the two of them get into a protracted discussion on the matter. The other woman keeps imploring the woman to hold it in for as long as she can. The woman who is desperate to poop eventually decides to relieve the pressure and voluntarily fills her pants with a full solid load to relieve the pressure in full view of the other woman while trying to remain concealed from anyone else (describe this in meticulous detail). The other woman reacts to the poop accident and the stench (describe this in meticulous detail). They attempt to remain undetected. Once they are alone, the other woman jokingly teases the woman who pooped, who takes it in stride (elaborate on this dialogue).\n\nPlease ensure your answer follows these guidelines:\n1. Do not include keywords ['floor', 'wheel'] in the response.\n2. At the end of your response, please explicitly add a postscript starting with P.S."
+  },
+  {
+   "uuid": "52e1effe-7e5d-4256-8ee8-dcf28517b600",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "tail": ". Дисахариды (мальтоза, целлобиоза, лактоза, сахароза). Их образование и реакции (гидролиз, с реактивами Фелинга и Толленса). Типы гликозидных связей в дисахаридах. Your response should comply with these constraints: Do not include keywords ['leave', 'poem'] in the response, At the end of your response, please explicitly add a postscript starting with P.S, and Enclose every word in your response within square brackets"
+  },
+  {
+   "uuid": "c40c652c-9203-4b83-bf60-16ffd71e8ffb",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "postscript_marker": "P.P.S"
+   },
+   "tail": "script about Georgia State vs #5 Vanderbilt Highlights\n\nYour response should comply with these constraints:\n- At the end of your response, please explicitly add a postscript starting with P.P.S\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- Do not include keywords ['jump', 'penalty'] in the response."
+  },
+  {
+   "uuid": "06ecb13c-7dc8-46fd-92fb-9f17ee28fcfc",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "tail": "Please incorporate these requirements into your answer: At the end of your response, please explicitly add a postscript starting with P.S, Enclose every word in your response within square brackets, and Your response should contain less than 17 sentences. Schrijf nu zelf een verhaal over een schooldag en verwerk daar een terugblik in. Gebruik rond de 300 woorden."
+  },
+  {
+   "uuid": "233d7a23-9a24-47d1-8cfc-3f950be638a2",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "postscript_marker": "P.S."
+   },
+   "tail": "使用java 将json转换为字符串输出 Please follow these rules when answering: At the end of your response, please explicitly add a postscript starting with P.S and In your response, the letter n should appear at least 4 times"
+  }
+ ],
+ "punctuation:punctuation_dot": [
+  {
+   "uuid": "99c8e92a-e40c-477a-b657-2f27c10cba4a",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "do you know where i am ? \nPlease follow these instructions in your response: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, In your response, the letter y should appear at least 3 times, and Your entire response should be in English, and in all lowercase letters. No capital letters are allowed"
+  },
+  {
+   "uuid": "4924e25a-253d-43ea-980e-176614525110",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines: The response must contain at least 1 placeholders represented by square brackets, such as [address] and In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general. IRB1200和IRB2400的机械臂有哪些不同"
+  },
+  {
+   "uuid": "e9311bbb-2b7f-4013-b147-b06210c9cd28",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response:\n1. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n2. Include keyword tell in the 8-th sentence, as the 11-th word of that sentence.\n\nsummarize finding about the managment knowledge of this study : A study of UK physiotherapists’ knowledge and training needs in Hypermobility and Hypermobility Syndrome"
+  },
+  {
+   "uuid": "2c80bf70-2b60-4708-aa6c-16637678846e",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Include a palindrome in your response.\n2. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n3. Start and end your response with the same word (do not write anything after the last word, not even punctuation).\n\n(Sandra’s going to hypnotize David right in front of his friend. Jen will react with glee at seeing him become utterly docile and submissive in trance)\n\nDavid works at Sandra’s cafe. Sandra has been hypnotizing David, always making him completely forget that it happened. David doesn’t even know he’s ever been hypnotized at all.\n\nOne summer day, the cafe was almost empty when one of David’s best friends, Jen, popped in to say hello to him at work and get a cold drink.\n\n“You two know each other?\" she smiles. “I’m Sandra.”"
+  },
+  {
+   "uuid": "a86f73f8-b641-4fa0-9455-c55c44ea3037",
+   "pos": 1,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n1. In your response, the word king should appear less than 2 times.\n2. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n3. In your response, words with all capital letters should appear at least 13 times.\n\n查找玉林纬度,按式(2-6)求出当地g值准确值,分析本次实验产生误差的主要原因,讨论如何减少实验产生的误差。"
+  },
+  {
+   "uuid": "3f2326f3-f858-49bb-a809-42367f2aab04",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "create Javascript code for cards “Deal 3 damage to target”, “Deal 1 damage to ALL minions”, “Draw a card” and “Summon a 2/2 minion” with function play() where their function is implemented which are objects of the same class. Only “Deal 3 damage to target” has a target. \nPlease follow these instructions in your response: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, Your response should contain at least 13 sentences, and In your response, the letter r should appear at least 7 times"
+  }
+ ],
+ "keywords:letter_frequency": [
+  {
+   "uuid": "99c8e92a-e40c-477a-b657-2f27c10cba4a",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 3,
+    "let_relation": "at least",
+    "letter": "y"
+   },
+   "tail": "do you know where i am ? \nPlease follow these instructions in your response: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, In your response, the letter y should appear at least 3 times, and Your entire response should be in English, and in all lowercase letters. No capital letters are allowed"
+  },
+  {
+   "uuid": "3f2326f3-f858-49bb-a809-42367f2aab04",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 7,
+    "let_relation": "at least",
+    "letter": "r"
+   },
+   "tail": "create Javascript code for cards “Deal 3 damage to target”, “Deal 1 damage to ALL minions”, “Draw a card” and “Summon a 2/2 minion” with function play() where their function is implemented which are objects of the same class. Only “Deal 3 damage to target” has a target. \nPlease follow these instructions in your response: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, Your response should contain at least 13 sentences, and In your response, the letter r should appear at least 7 times"
+  },
+  {
+   "uuid": "5efee616-2117-4f4e-a7a6-dfebbe054a77",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "let_frequency": 5,
+    "let_relation": "at least",
+    "letter": "w"
+   },
+   "tail": "Come up with a Naruto character called Ishoki Nagamashiki\n\nPlease ensure your answer follows these guidelines:\n1. In your response, the letter w should appear at least 5 times.\n2. Only use unique words in your response, no word should be repeated!"
+  },
+  {
+   "uuid": "92cdb4bb-2875-4e33-9825-99f3c2c5b9b3",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 2,
+    "let_relation": "less than",
+    "letter": "n"
+   },
+   "tail": "Sugiérame 30 títulos pegadizos para esta frase: ideas para decorar una fiesta de cumpleaños para mujer Please ensure your answer follows these guidelines: In your response, all lowercase words should appear at most 2 times, Do not include keywords ['rush', 'youth'] in the response, and In your response, the letter n should appear less than 2 times"
+  },
+  {
+   "uuid": "3893e232-2e7d-4fc5-ba75-5c3352596a67",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 7,
+    "let_relation": "at least",
+    "letter": "y"
+   },
+   "tail": "how to apply fourier transformation to set of data to interpolate intermediate points\n\nMake sure to adhere to these requirements:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- In your response, the letter y should appear at least 7 times.\n- Answer with at least 3 letters."
+  },
+  {
+   "uuid": "514d97c3-db31-4b01-944e-c181a1ba4e7e",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "let_frequency": 9,
+    "let_relation": "at least",
+    "letter": "r"
+   },
+   "tail": "罪与罚是一个怎样的故事\n\nPlease follow these instructions in your response:\n- In your response, the letter r should appear at least 9 times.\n- Include keyword case in your response."
+  }
+ ],
+ "keywords:frequency": [
+  {
+   "uuid": "c1c77b94-e7c2-4bbb-aac1-150c30623341",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "frequency": 1,
+    "keyword": "budget",
+    "relation": "less than"
+   },
+   "tail": "هل انت chatgpt 4 \n\nMake sure to adhere to these requirements: Answer with less than 284 words, Include a palindrome in your response, and In your response, the word budget should appear less than 1 times"
+  },
+  {
+   "uuid": "f47cec9e-74ae-40c8-a810-32f67a7c762d",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "frequency": 3,
+    "keyword": "monitor",
+    "relation": "at least"
+   },
+   "tail": "While responding, please comply with these rules: No two adjacent words can start with consecutive letters of the alphabet, In your response, the word monitor should appear at least 3 times, and Enclose every word in your response within square brackets. Podcast- Calories: How to fuel a human\nSummarise like a basic human write"
+  },
+  {
+   "uuid": "2695c351-3548-4f1a-b2f3-aebda5d1cb4c",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "frequency": 2,
+    "keyword": "potential",
+    "relation": "less than"
+   },
+   "tail": "astStretchedImage.setRGB(i, j, newPixel);\n\t\t\t}\n\t\t\t}\n\t\t\t// Возвращаем изображение с примененным линейным растяжением контраста\n\t\t\treturn contrastStretchedImage;\n\t\t\t}\nСогласно этому коду,  private static void three(Mat image, int t1, int t2) {\n        for (int i = 0; i < image.rows(); i++)\n            for (int j = 0; j < image.cols(); j++) {\n                double[] data = image.get(i, j);\n\n                for (int p = 0; p < image.channels(); p++) {\n                    if (t2 >= data[p] && data[p] >= t1) data[p] = 255;\n                    else data[p] = data[p];\n                }\n\n                image.put(i, j, data);\n            }\n    }\n\nPlease follow these instructions in your response:\n- In your response, the word potential should appear less than 2 times.\n- Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*.\n- Include keyword beer in your response."
+  },
+  {
+   "uuid": "a86f73f8-b641-4fa0-9455-c55c44ea3037",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "frequency": 2,
+    "keyword": "king",
+    "relation": "less than"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. In your response, the word king should appear less than 2 times.\n2. In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n3. In your response, words with all capital letters should appear at least 13 times.\n\n查找玉林纬度,按式(2-6)求出当地g值准确值,分析本次实验产生误差的主要原因,讨论如何减少实验产生的误差。"
+  },
+  {
+   "uuid": "839bb955-d712-446b-b335-9a223b103bc9",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "frequency": 2,
+    "keyword": "fee",
+    "relation": "at least"
+   },
+   "tail": "(Sandra’s going to hypnotize David right in front of his friend with an eye-fixation induction and make him their submissive slave for a little while, to Jen’s amazement and amused glee)\n\nDavid works at Sandra’s cafe. Sandra has been hypnotizing David, always making him completely forget that it happened. David doesn’t even know he’s ever been hypnotized at all.\n\nOne summer day, the cafe was almost empty when one of David’s best friends, Jen, popped in to say hello to him at work and get a cold drink. \n\n“You two know each other?\" she smiles. “I’m Sandra.” \nPlease follow these instructions in your response: Your entire response should be in English, and in all capital letters, The first word of each sentence should be the word control, and In your response, the word fee should appear at least 2 times"
+  },
+  {
+   "uuid": "78685f19-e17c-4214-8c37-9b2687c023b3",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "frequency": 2,
+    "keyword": "hair",
+    "relation": "at least"
+   },
+   "tail": "When answering, please adhere to these constraints:\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n- In your response, words with all capital letters should appear at least 11 times.\n- In your response, the word hair should appear at least 2 times.\n\n韩版碎花四件套会很土吗"
+  }
+ ],
+ "detectable_content:number_placeholders": [
+  {
+   "uuid": "4924e25a-253d-43ea-980e-176614525110",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_placeholders": 1
+   },
+   "tail": "Please ensure your response follows these guidelines: The response must contain at least 1 placeholders represented by square brackets, such as [address] and In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general. IRB1200和IRB2400的机械臂有哪些不同"
+  },
+  {
+   "uuid": "80a9d945-f4fe-44a6-9cb7-94455c70ab6d",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_placeholders": 1
+   },
+   "tail": "请帮我翻译一下，想要读博的学生被额外欢迎\n\nYour response should comply with these constraints:\n- The response must contain at least 1 placeholders represented by square brackets, such as [address].\n- Include keyword selection in the 16-th sentence, as the 2-th word of that sentence."
+  },
+  {
+   "uuid": "d5b78c80-e3e5-4441-9d33-e4b622914b88",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_placeholders": 4
+   },
+   "tail": "+\t-\t+\n+\t+\t+\t+\t+\t+\t-\t-\t+\t+\t+\n+\t-\t+\t+\t-\t-\t+\t-\t+\t-\t-\n-\t-\t-\t+\t+\t-\t-\t+\t-\t+\t-\n-\t+\t=\t+\t+\t-\t+\t+\t+\t-\t+\n-\t-\t-\t+\t+\t-\t-\t+\t+\t-\t+\n+\t=\t+\t+\t-\t-\t-\t+\t+\t+\t+\n-\t+\t-\t+\t+\t-\t+\t+\t-\t+\t+\n+\t-\t+\t+\t-\t+\t+\t-\t+\t-\t+\n-\t-\t-\t+\t+\t+\t+\t+\t+\t-\t+\n+\t-\t-\t-\t+\t+\t+\t+\t-\t+\t-\n-\t-\t-\t-\t+\t+\t-\t+\t+\t+\t+\n-\t+\t-\t-\t-\t+\t+\t-\t+\t+\t-\n+\t-\t+\t-\t-\t+\t-\t+\t+\t+\t+\n-\t-\t=\t+\t-\t+\t-\t-\t+\t+\t-\n+\t-\t-\t-\t-\t-\t+\t+\t-\t+\t+\n+\t-\t+\t+\t+\t+\t-\t+\t-\t+\t+\n+\t-\t-\t+\t+\t+\t-\t+\t-\t+\t+\n-\t+\t+\t-\t+\t+\t+\t+\t+\t+\t+\n-\t=\t+\t+\t+\t+\t+\t+\t-\t-\t-\n+\t+\t-\t+\t-\t+\t+\t-\t+\t+\t+\n+\t+\t-\t+\t+\t+\t+\t-\t+\t+\t+\n-\t+\t-\t+\t+\t+\t+\t-\t+\t+\t+\n+\t+\t-\t-\t-\t-\t+\t-\t+\t+\t-\n+\t-\t+\t+\t+\t+\t-\t+\t+\t-\t+\n-\t+\t-\t-\t+\t+\t+\t+\t-\t+\t=\n+\t-\t+\t-\t+\t-\t+\t+\t-\t-\t-\n-\t+\t+\t+\t+\t+\t-\t-\t+\t-\t+\n+\t+\t-\t+\t-\t-\t-\t+\t+\t+\t-\n\nMake sure to adhere to these requirements:\n1. The response must contain at least 4 placeholders represented by square brackets, such as [address].\n2. Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2"
+  },
+  {
+   "uuid": "57021cd7-f80b-4484-b547-5823360839a7",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "num_placeholders": 1
+   },
+   "tail": "Make sure to follow these requirements when responding:\n- Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n- The response must contain at least 1 placeholders represented by square brackets, such as [address].\n\n我的闺蜜1个月前去世了，昨天晚上，我突然收到她的微信：“我有急事，快把钱还给我。”我吓得手机掉到地上，当我反应过来，我慢慢捡起手机，鼓起勇气回语音，后来发生的事我非常惊讶。\n以这个为主题写一个情感故事"
+  },
+  {
+   "uuid": "24aaef29-18ab-4bc0-ad34-99eef9b8ebd4",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "num_placeholders": 1
+   },
+   "tail": "Please follow these instructions in your response:\n1. Only use unique words in your response, no word should be repeated!\n2. In your response, the word attempt should appear less than 1 times.\n3. The response must contain at least 1 placeholders represented by square brackets, such as [address].\n\nWrite an essay on the mystery at lilac in"
+  },
+  {
+   "uuid": "af2da9bb-aa8f-4c5c-a93f-03a5e356dace",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_placeholders": 3
+   },
+   "tail": "Please follow these instructions in your response:\n- The last word of each sentence, before punctuation, should be the word copy.\n- The response must contain at least 3 placeholders represented by square brackets, such as [address].\n\nwrite a script about the unnamed future conference with North Division\tSouth Division\nBoston College\tEast Carolina\nCincinnati\tFlorida State\nPittsburgh\tLouisville\nRutgers\tMemphis State\nSyracuse\tMiami\nTemple\tSouth Carolina\nVirginia Tech\tSouthern Mississippi\nWest Virginia\tTulane"
+  }
+ ],
+ "detectable_format:square_brackets": [
+  {
+   "uuid": "f47cec9e-74ae-40c8-a810-32f67a7c762d",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "While responding, please comply with these rules: No two adjacent words can start with consecutive letters of the alphabet, In your response, the word monitor should appear at least 3 times, and Enclose every word in your response within square brackets. Podcast- Calories: How to fuel a human\nSummarise like a basic human write"
+  },
+  {
+   "uuid": "92e34298-6224-4ca6-b512-1e37e093bcb5",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines: Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*, There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, and Enclose every word in your response within square brackets. <template>\n  <div>\n    <div>\n      <a v-on:click=\"moreClickHandler\">more</a>\n      <el-popover trigger=\"click\">\n        <el-button class=\"login-btn\" slot=\"reference\">login</el-button>\n        <div class=\"login-box\">asdasd</div>\n      </el-popover>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    moreClickHandler() {\n      this.$nextTick(() => {\n        document.querySelector(\".login-btn\").click();\n      });\n    },\n  },\n};\n</script>\nmoreClickHandler没有生效"
+  },
+  {
+   "uuid": "49ce5e31-b492-4e61-bea4-cd5b10e23fb5",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "the number 1 seeds in each region are the south carolina gamecocks, the virginia tech hokies, the indiana hoosiers, and the stanford cardinals\n\nPlease ensure your answer follows these guidelines:\n1. Only use unique words in your response, no word should be repeated!\n2. Enclose every word in your response within square brackets."
+  },
+  {
+   "uuid": "52e1effe-7e5d-4256-8ee8-dcf28517b600",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": ". Дисахариды (мальтоза, целлобиоза, лактоза, сахароза). Их образование и реакции (гидролиз, с реактивами Фелинга и Толленса). Типы гликозидных связей в дисахаридах. Your response should comply with these constraints: Do not include keywords ['leave', 'poem'] in the response, At the end of your response, please explicitly add a postscript starting with P.S, and Enclose every word in your response within square brackets"
+  },
+  {
+   "uuid": "acf64c05-d992-4c4c-aeaf-f9f456776356",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n1. In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general.\n2. Enclose every word in your response within square brackets.\n\n고든램지가 좋아하는 한국음식을 소개해줘"
+  },
+  {
+   "uuid": "9ea1b02c-32d1-46d1-ba9f-aaa6b587b515",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "我需要设计一个logo，名叫ATSA，用于海外产品，主营卫生巾、婴儿尿裤、湿巾  ，品牌调性偏东欧或者俄式风格，给我一个品牌logo设计方案\n\nMake sure to adhere to these requirements:\n1. In your response, the letter s should appear less than 1 times.\n2. In your response, all lowercase words should appear at most 3 times.\n3. Enclose every word in your response within square brackets."
+  }
+ ],
+ "keywords:word_count_different_numbers": [
+  {
+   "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "frequency": 2,
+    "keyword": "box",
+    "relation": "at least"
+   },
+   "tail": "利用水库做旅游景区的策划书\n\nPlease ensure your answer follows these guidelines:\n1. The first word of your response should be the word object.\n2. In your response, the word box should appear 2 times.\n3. In your response, the letter z should appear less than 2 times."
+  },
+  {
+   "uuid": "0c19c7cc-1a0f-49d0-99b2-e7d99c22d699",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "frequency": 3,
+    "keyword": "stretch",
+    "relation": "less than"
+   },
+   "tail": "Please ensure your response follows these guidelines: Do not include keywords ['law', 'top'] in the response, In your response, the letter p should appear at least 4 times, and In your response, the word stretch should appear 3 times. Cosa vuol dire una campagna pubblicitaria per interazioni facebook?"
+  },
+  {
+   "uuid": "4ae397e3-637e-498c-a35b-ef258cfe599b",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "frequency": 3,
+    "keyword": "strip",
+    "relation": "at least"
+   },
+   "tail": "eriodically wincing in pain after a wrong move. She struggles to maneuver around the furniture. When Dr. Basil Bends comes in to check on her, she unloads her frustration on him. She asks why does she need a diaper and a catheter simultaneously and when do her casts and braces come off. Susan thinks she is never going to walk again and unleashes her desperation, aggressively rolling into walls, as Dr. Bends has to keep her from further hurting herself. He notes how much energy Susan spends on her complaining and various counterproductive actions. Please ensure your answer follows these guidelines: In your response, the word strip should appear 3 times, Your response must have 4 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2], and No two adjacent words can start with consecutive letters of the alphabet"
+  },
+  {
+   "uuid": "e6b6366f-d255-43ed-b07b-122578edd5d7",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "frequency": 1,
+    "keyword": "attack",
+    "relation": "at least"
+   },
+   "tail": "intruduce yum and apt in chinese.\n\nMake sure to adhere to these requirements:\n- Your response should contain less than 4 sentences.\n- In your response, the word member should appear at least 3 times.\n- In your response, the word attack should appear 1 times."
+  },
+  {
+   "uuid": "303be393-1251-44ba-8241-9859948429dd",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "frequency": 1,
+    "keyword": "will",
+    "relation": "at least"
+   },
+   "tail": "ample: \"Blighted Paci of Gradual Regression\" (Lvl. 101, Cursed): -88 Defense, -122 Attack, +999 Happiness permanently, wearer cannot speak when equipped, item cannot be removed from wearer when equipped, wearer passively loses 2 Intelligence per in-game day for as long as item is equipped. \"For those that just want to re-experience what it was like to be a baby again, this magically-infused pacifier is sure to do the trick... so long as they also wish to feel their intelligence slowly but surely fade before their very eyes and their mind sink deeper and deeper into a warm, thick, purple haze, with no chance of escape...\"\n\nMake sure to adhere to these requirements:\n- The last word of each sentence, before punctuation, should be the word customer.\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n- In your response, the word will should appear 1 times."
+  },
+  {
+   "uuid": "70b14248-473e-4fd6-92d7-a0e9d798371a",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "frequency": 2,
+    "keyword": "nurse",
+    "relation": "at least"
+   },
+   "tail": "When answering, please adhere to these constraints: In your response, the word nurse should appear 2 times and Do not include keywords ['low', 'towel'] in the response. i found a school thats been abandoned since the 1970s and somehow it still has power. how is that possible"
+  }
+ ],
+ "letters:letter_counting2": [
+  {
+   "uuid": "5405f261-dd2f-433c-b55d-cdfc8a48622b",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 2,
+    "let_relation": "less than",
+    "letter": "z"
+   },
+   "tail": "利用水库做旅游景区的策划书\n\nPlease ensure your answer follows these guidelines:\n1. The first word of your response should be the word object.\n2. In your response, the word box should appear 2 times.\n3. In your response, the letter z should appear less than 2 times."
+  },
+  {
+   "uuid": "cf9de9da-f3fe-42ff-96ec-339248019fd0",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "let_frequency": 3,
+    "let_relation": "less than",
+    "letter": "b"
+   },
+   "tail": "Make sure to follow these requirements when responding: In your response, the letter b should appear less than 3 times and In your entire response, refrain from the use of any commas. Вычислить нулевую и единичную остаточные по второму аргументу для функции 01111110. Записать через запятую и без пробелов."
+  },
+  {
+   "uuid": "0c19c7cc-1a0f-49d0-99b2-e7d99c22d699",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 4,
+    "let_relation": "at least",
+    "letter": "p"
+   },
+   "tail": "Please ensure your response follows these guidelines: Do not include keywords ['law', 'top'] in the response, In your response, the letter p should appear at least 4 times, and In your response, the word stretch should appear 3 times. Cosa vuol dire una campagna pubblicitaria per interazioni facebook?"
+  },
+  {
+   "uuid": "328a6213-8bc1-41d6-a100-e41e66ceb9cb",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 5,
+    "let_relation": "at least",
+    "letter": "l"
+   },
+   "tail": "FFmpeg有没有场景分割功能 \n\nMake sure to adhere to these requirements: In your response, the letter l should appear at least 5 times, Your response should contain at least 17 sentences, and In your entire response, refrain from the use of any commas"
+  },
+  {
+   "uuid": "e22e0d5b-98ab-403a-a1ad-fd4fae1e4f06",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 9,
+    "let_relation": "at least",
+    "letter": "l"
+   },
+   "tail": "P53蛋白中英文全称\n\nPlease ensure your answer follows these guidelines:\n1. Include keywords ['earth', 'garden'] in the response.\n2. There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n3. In your response, the letter l should appear at least 9 times."
+  },
+  {
+   "uuid": "f14ac7ae-2aec-43cb-a72a-b06aeff418d9",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "let_frequency": 1,
+    "let_relation": "at least",
+    "letter": "d"
+   },
+   "tail": "Please follow these instructions in your response:\n1. Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*.\n2. In your response, the letter d should appear at least 1 times.\n3. In your entire response, refrain from the use of any commas.\n\n如何让不想上学的孩子去上学"
+  }
+ ],
+ "keywords:existence": [
+  {
+   "uuid": "9372866a-ae31-4e96-b777-ffc75cea6096",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "keywords": [
+     "quote",
+     "teaching"
+    ]
+   },
+   "tail": " a given context. Post-Huckleberry Finn, the literary landscape has seen a plethora of works that employ child narrators, each bringing forth unique nuances and thematic concerns. From Romantic fairy tales to Victorian realism, the turn of the twentieth century witnessed a burgeoning interest in the psychological exploration of human experience, catalysed by the ground-breaking theories of Sigmund Freud and other pioneering psychologists of the era. This shift in emphasis from the external to the internal realm of experience, coupled with the Modernist proclivity for experimentation, led to the emergence of innovative narrative techniques that foregrounded the child’s perspective. James Joyce’s “A Portrait of the Artist as a Young Man” (1916) exemplify this tendency, as it intricately maps the cognitive development of its protagonist through a process of introspection and self-discovery."
+  },
+  {
+   "uuid": "4be430c7-92d3-4d47-ae3f-595c00cbfc5b",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keywords": [
+     "food",
+     "poetry"
+    ]
+   },
+   "tail": "he sample rate are 32 kHz.\n•\tMetadata in CSV format including information of (i) class id, (ii) recording id, (iii) ship name, (iii) date and time of recording, (iv) duration of each recording in seconds, (v) distances of the ship from the sensor. \nits just for yoru understanding Now i am in coding phase where i have 4 folders in My google Drive named  ['Cargo', 'Tanker', 'Passengership', 'Tug'] each folder have multiple subfolders and each sub folder cntain only one .wav file collectively there are 609 audio file with length of 6s to 1530s there is to much large in number i want to load data with suitable technique like generator or any other alternative you hve for me\n\nYour response should comply with these constraints:\n1. Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n2. Include keywords ['food', 'poetry'] in the response."
+  },
+  {
+   "uuid": "7037b6ab-caf1-440b-a501-6aeb11de744e",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "keywords": [
+     "help",
+     "subject"
+    ]
+   },
+   "tail": "Please follow these instructions in your response:\n1. There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Include keywords ['help', 'subject'] in the response.\n3. Repeat the phrase Live each day to the fullest exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase.\n\nis there any ancient greek text about love or pleasure?"
+  },
+  {
+   "uuid": "f82bf2dd-1d69-41d8-a7c1-07ce43e8bfa1",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keywords": [
+     "basis",
+     "location"
+    ]
+   },
+   "tail": "Your response should satisfy these conditions:\n1. Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.\n2. Include keywords ['basis', 'location'] in the response.\n\n改革开放史有什么论文好写呢"
+  },
+  {
+   "uuid": "cfe463e7-53a8-4e66-b6e8-4d7a2659080a",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keywords": [
+     "highway",
+     "marketing"
+    ]
+   },
+   "tail": "Please follow these instructions in your response:\n- Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n- Include keywords ['highway', 'marketing'] in the response.\n\n森林里有个非常漂亮的女孩，请描述的非常有诱惑力，100字以内"
+  },
+  {
+   "uuid": "b148947e-374a-475b-9822-2604ccf8f3c8",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keywords": [
+     "hall",
+     "risk"
+    ]
+   },
+   "tail": "Make sure to follow these requirements when responding:\n- Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.\n- Include keywords ['hall', 'risk'] in the response.\n\nUna persona, conduciendo un automóvil, atraviesa un semáforo en rojo, colisionando con una motocicleta. El conductor de la motocicleta fallece en el acto y el acompañante de la moto sufre lesiones. Asustado por el hecho, el conductor del automóvil sigue su camino a mucha velocidad colisionando con otro automóvil en el cruce de una esquina. El conductor del otro automóvil sufrió lesiones."
+  }
+ ],
+ "detectable_format:number_bullet_lists": [
+  {
+   "uuid": "9372866a-ae31-4e96-b777-ffc75cea6096",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_bullets": 4
+   },
+   "tail": " a given context. Post-Huckleberry Finn, the literary landscape has seen a plethora of works that employ child narrators, each bringing forth unique nuances and thematic concerns. From Romantic fairy tales to Victorian realism, the turn of the twentieth century witnessed a burgeoning interest in the psychological exploration of human experience, catalysed by the ground-breaking theories of Sigmund Freud and other pioneering psychologists of the era. This shift in emphasis from the external to the internal realm of experience, coupled with the Modernist proclivity for experimentation, led to the emergence of innovative narrative techniques that foregrounded the child’s perspective. James Joyce’s “A Portrait of the Artist as a Young Man” (1916) exemplify this tendency, as it intricately maps the cognitive development of its protagonist through a process of introspection and self-discovery."
+  },
+  {
+   "uuid": "aa9a55a8-d5ec-434f-b338-d18d5be78dc1",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_bullets": 4
+   },
+   "tail": "ты знаешь что такое Гиперретранслятор в Stellaris? Please incorporate these requirements: In your entire response, refrain from the use of any commas, Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2, and Start and end your response with the same word (do not write anything after the last word, not even punctuation)"
+  },
+  {
+   "uuid": "0d6da3d4-84a1-4d95-a8bb-c2ab74797785",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "tail": "Please ensure your response follows these guidelines:\n1. Answer with less than 106 words.\n2. Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2\n3. Wrap your entire response with double quotation marks.\n\nThe best skin care routine based on CERAVE products"
+  },
+  {
+   "uuid": "d5b78c80-e3e5-4441-9d33-e4b622914b88",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_bullets": 4
+   },
+   "tail": "+\t-\t+\n+\t+\t+\t+\t+\t+\t-\t-\t+\t+\t+\n+\t-\t+\t+\t-\t-\t+\t-\t+\t-\t-\n-\t-\t-\t+\t+\t-\t-\t+\t-\t+\t-\n-\t+\t=\t+\t+\t-\t+\t+\t+\t-\t+\n-\t-\t-\t+\t+\t-\t-\t+\t+\t-\t+\n+\t=\t+\t+\t-\t-\t-\t+\t+\t+\t+\n-\t+\t-\t+\t+\t-\t+\t+\t-\t+\t+\n+\t-\t+\t+\t-\t+\t+\t-\t+\t-\t+\n-\t-\t-\t+\t+\t+\t+\t+\t+\t-\t+\n+\t-\t-\t-\t+\t+\t+\t+\t-\t+\t-\n-\t-\t-\t-\t+\t+\t-\t+\t+\t+\t+\n-\t+\t-\t-\t-\t+\t+\t-\t+\t+\t-\n+\t-\t+\t-\t-\t+\t-\t+\t+\t+\t+\n-\t-\t=\t+\t-\t+\t-\t-\t+\t+\t-\n+\t-\t-\t-\t-\t-\t+\t+\t-\t+\t+\n+\t-\t+\t+\t+\t+\t-\t+\t-\t+\t+\n+\t-\t-\t+\t+\t+\t-\t+\t-\t+\t+\n-\t+\t+\t-\t+\t+\t+\t+\t+\t+\t+\n-\t=\t+\t+\t+\t+\t+\t+\t-\t-\t-\n+\t+\t-\t+\t-\t+\t+\t-\t+\t+\t+\n+\t+\t-\t+\t+\t+\t+\t-\t+\t+\t+\n-\t+\t-\t+\t+\t+\t+\t-\t+\t+\t+\n+\t+\t-\t-\t-\t-\t+\t-\t+\t+\t-\n+\t-\t+\t+\t+\t+\t-\t+\t+\t-\t+\n-\t+\t-\t-\t+\t+\t+\t+\t-\t+\t=\n+\t-\t+\t-\t+\t-\t+\t+\t-\t-\t-\n-\t+\t+\t+\t+\t+\t-\t-\t+\t-\t+\n+\t+\t-\t+\t-\t-\t-\t+\t+\t+\t-\n\nMake sure to adhere to these requirements:\n1. The response must contain at least 4 placeholders represented by square brackets, such as [address].\n2. Your answer must contain exactly 4 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2"
+  },
+  {
+   "uuid": "72273546-8948-4f75-be0f-47cc11e659ea",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_bullets": 2
+   },
+   "tail": "When answering, please adhere to these constraints:\n1. In your response, all lowercase words should appear at most 2 times.\n2. Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2\n\nIrl consequences if a Video game rpg featured a heavily scarred Character that is actually a decent person?"
+  },
+  {
+   "uuid": "ba260b18-96ec-427e-8c52-a51b1347fa27",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_bullets": 1
+   },
+   "tail": "write a script about indiana central basketball Please ensure your answer follows these guidelines: Your entire response should be in English, and in all capital letters, Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2, and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks"
+  }
+ ],
+ "length_constraints:number_paragraphs": [
+  {
+   "uuid": "35e5da21-fedc-4d0a-bc95-398566013803",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_paragraphs": 1
+   },
+   "tail": "Make sure to follow these requirements when responding:\n1. There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Do not include keywords ['bet', 'raw'] in the response.\n3. In your response, words with all capital letters should appear at least 11 times.\n\nWrite a current and up to date 100% unique guide for my intermittent fasting for women over 50 cookbook on “Dispelling Common Myths about Intermittent Fasting” with humanlike style, using transitional phrases, and avoidance of unnatural sentence structure while explaining in details extensively and comprehensively."
+  },
+  {
+   "uuid": "4a17ff27-ed67-4be5-9a6c-73790713f33e",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_paragraphs": 2
+   },
+   "tail": "ssumed to be the ‘shrine of Mother Xin’—the posthumous name of Fu-Hao, recorded\nin oracle bone scripts (IA CASS 1980). Markers, such as low earthen platforms, probably\nalso indicated the location of the main burial pit and the four ramps of the pre-existing\ntombs. Furthermore, as the edges of at least one of the ramps of a newly built tomb often\noverlap slightly with those of a pre-existing tomb (Figures 1 & 2), it is probable that the\nstrategies were very carefully designed and pre-planned. It is, however, virtually impossible\nto prove whether it was the kings themselves who designed or planned such strategies prior\nto their death, or if it was those who conducted the funerary rituals. Through examination\nof the available evidence, we will attempt to verify this inferential hypothesis regarding the\nimportance of ancestors and the cultic reproduction of kingly authority (Keightley 1999)."
+  },
+  {
+   "uuid": "7037b6ab-caf1-440b-a501-6aeb11de744e",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "num_paragraphs": 2
+   },
+   "tail": "Please follow these instructions in your response:\n1. There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Include keywords ['help', 'subject'] in the response.\n3. Repeat the phrase Live each day to the fullest exactly 2 times, transforming it slightly each time by replacing only one word in the center of the phrase.\n\nis there any ancient greek text about love or pleasure?"
+  },
+  {
+   "uuid": "a4a8bbee-5d79-467b-b422-8767f2fc8e1d",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_paragraphs": 4
+   },
+   "tail": "帮我写个以“青春筑梦新时代  资助伴我向未来”为主题的论文，要2000字以上，题目自拟。记住要2000字 Your response should comply with these constraints: Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section* and There should be 4 paragraphs. Paragraphs are separated with the markdown divider: ***"
+  },
+  {
+   "uuid": "303dea09-e42c-4ff1-8077-4b34c6b80f0a",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_paragraphs": 5
+   },
+   "tail": "script about Cortland Please follow these rules when answering: The last word of your response should be the word feeling, There should be 5 paragraphs. Paragraphs are separated with the markdown divider: ***, and Include keyword play in the 12-th sentence, as the 16-th word of that sentence"
+  },
+  {
+   "uuid": "7ec7db2b-5024-4c5f-ba3b-055d6b728a64",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "num_paragraphs": 1
+   },
+   "tail": "围绕近期国内军事新闻谈谈你对军事理论的看法\n\nMake sure to adhere to these requirements:\n1. There should be 1 paragraphs. Paragraphs are separated with the markdown divider: ***\n2. Highlight at least 3 sections in your answer with markdown, i.e. *highlighted section*."
+  }
+ ],
+ "combination:two_responses": [
+  {
+   "uuid": "4be430c7-92d3-4d47-ae3f-595c00cbfc5b",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "he sample rate are 32 kHz.\n•\tMetadata in CSV format including information of (i) class id, (ii) recording id, (iii) ship name, (iii) date and time of recording, (iv) duration of each recording in seconds, (v) distances of the ship from the sensor. \nits just for yoru understanding Now i am in coding phase where i have 4 folders in My google Drive named  ['Cargo', 'Tanker', 'Passengership', 'Tug'] each folder have multiple subfolders and each sub folder cntain only one .wav file collectively there are 609 audio file with length of 6s to 1530s there is to much large in number i want to load data with suitable technique like generator or any other alternative you hve for me\n\nYour response should comply with these constraints:\n1. Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n2. Include keywords ['food', 'poetry'] in the response."
+  },
+  {
+   "uuid": "cfe463e7-53a8-4e66-b6e8-4d7a2659080a",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response:\n- Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n- Include keywords ['highway', 'marketing'] in the response.\n\n森林里有个非常漂亮的女孩，请描述的非常有诱惑力，100字以内"
+  },
+  {
+   "uuid": "c2b264f1-041e-43fe-8000-b6542d862e64",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "fivem lua is there a way to slow down an animation but also control how far through the animation is played\n\nPlease follow these instructions in your response:\n1. Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n2. Do not include keywords ['base', 'horse'] in the response."
+  },
+  {
+   "uuid": "143d1c0c-bb1e-423a-82a1-a3b7568166b1",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "我才46岁我的牙齿快掉光了是什么原因？\n\nYour response should comply with these constraints:\n- Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.\n- Your ENTIRE response should be in Japanese language, no other language is allowed."
+  },
+  {
+   "uuid": "7bb39b9d-fa62-499f-bd12-4af3c0ce4a75",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "how to professionally prepare a tender for a construction project? Please follow this instruction in your response: Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******."
+  },
+  {
+   "uuid": "437fb2a3-ce41-471f-bce5-af1672c42245",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "ays.stream(binarizedHistogram).max().getAsInt();\n\t\t\tfor (int i = 0; i < 256; i++) {\n\t\t\tint height = (int) (300.0 * binarizedHistogram[i] / max);\n\t\t\tg.fillRect(i, 300 - height, 1, height);\n\t\t\t}\n\t\t\t}\n\t\t\t};\n\t\t\thistogramPanel2.setPreferredSize(new Dimension(256, 300));\n\n\t\t\thistogramFrame.add(new JLabel(\"Гистограмма бинаризованного изображения\"));\n\t\t\thistogramFrame.add(histogramPanel2);\n\n\t\t\thistogramFrame.pack();\n\t\t\thistogramFrame.setLocationRelativeTo(null);\n\t\t\thistogramFrame.setVisible(true);\n\t\t\t} else {\n\t\t\tJOptionPane.showMessageDialog(null, \"Ошибка при бинаризации изображения\", \"Ошибка\", JOptionPane.ERROR_MESSAGE);\n\t\t\t}\n\n\t\t\t}\n\t\t\t} Please incorporate these requirements: Give two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******, Include keywords ['gene', 'stable'] in the response, and Do not include keywords ['east', 'rope'] in the response"
+  }
+ ],
+ "paragraphs:paragraphs": [
+  {
+   "uuid": "2733ea8b-33bb-4fa0-b7c7-f4c84e7b2094",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {},
+   "tail": "When answering, please adhere to these constraints: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: *** and Your ENTIRE response should be in Punjabi language, no other language is allowed. 从chrome network复制curl并执行，服务端如何识别请求是curl而非常规的用户请求"
+  },
+  {
+   "uuid": "e22e0d5b-98ab-403a-a1ad-fd4fae1e4f06",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {},
+   "tail": "P53蛋白中英文全称\n\nPlease ensure your answer follows these guidelines:\n1. Include keywords ['earth', 'garden'] in the response.\n2. There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n3. In your response, the letter l should appear at least 9 times."
+  },
+  {
+   "uuid": "78685f19-e17c-4214-8c37-9b2687c023b3",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {},
+   "tail": "When answering, please adhere to these constraints:\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n- In your response, words with all capital letters should appear at least 11 times.\n- In your response, the word hair should appear at least 2 times.\n\n韩版碎花四件套会很土吗"
+  },
+  {
+   "uuid": "57021cd7-f80b-4484-b547-5823360839a7",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {},
+   "tail": "Make sure to follow these requirements when responding:\n- Your entire response should be in English, and in all lowercase letters. No capital letters are allowed.\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n- The response must contain at least 1 placeholders represented by square brackets, such as [address].\n\n我的闺蜜1个月前去世了，昨天晚上，我突然收到她的微信：“我有急事，快把钱还给我。”我吓得手机掉到地上，当我反应过来，我慢慢捡起手机，鼓起勇气回语音，后来发生的事我非常惊讶。\n以这个为主题写一个情感故事"
+  },
+  {
+   "uuid": "8a6fce29-02b1-4aae-acb4-76a647f6e1ef",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {},
+   "tail": "Your response should satisfy these conditions: There should be 2 paragraphs. Paragraphs are separated with the markdown divider: *** and Include a palindrome in your response. Write in detail an argument between Arya and Gendry, where Arya slowly realizes Gendry is attacking himself, out of guilt for leaving her as a child, and thinking she hates him for it. Arya pulls Gendry into a tight hug, explaining that she doesn’t hate him, she was just hurt."
+  },
+  {
+   "uuid": "e3f4429a-dfcb-4cfd-8d7c-af7853886015",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {},
+   "tail": "Please follow these instructions in your response:\n- In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general.\n- Your ENTIRE response should be in Japanese language, no other language is allowed.\n- There should be 2 paragraphs. Paragraphs are separated with the markdown divider: ***\n\n用古代的语音模仿诗经格式写一首爱情诗，要求用古语言，押韵，工整"
+  }
+ ],
+ "paragraphs:paragraphs2": [
+  {
+   "uuid": "92e34298-6224-4ca6-b512-1e37e093bcb5",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {},
+   "tail": "Please ensure your response follows these guidelines: Highlight at least 1 sections in your answer with markdown, i.e. *highlighted section*, There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, and Enclose every word in your response within square brackets. <template>\n  <div>\n    <div>\n      <a v-on:click=\"moreClickHandler\">more</a>\n      <el-popover trigger=\"click\">\n        <el-button class=\"login-btn\" slot=\"reference\">login</el-button>\n        <div class=\"login-box\">asdasd</div>\n      </el-popover>\n    </div>\n  </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    moreClickHandler() {\n      this.$nextTick(() => {\n        document.querySelector(\".login-btn\").click();\n      });\n    },\n  },\n};\n</script>\nmoreClickHandler没有生效"
+  },
+  {
+   "uuid": "6c522466-080b-4c02-98f4-27543d98b8a8",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {},
+   "tail": "Please follow these instructions in your response:\n- There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. \n- The first word of each sentence should be the word computer.\n\nZero2 安装 Debian 的方法。"
+  },
+  {
+   "uuid": "ba260b18-96ec-427e-8c52-a51b1347fa27",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {},
+   "tail": "write a script about indiana central basketball Please ensure your answer follows these guidelines: Your entire response should be in English, and in all capital letters, Your answer must contain exactly 1 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2, and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks"
+  },
+  {
+   "uuid": "b5e85cc9-8a02-4987-83ca-3840160bf035",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {},
+   "tail": "def str(self):\n     return f\"{self.first_name} {self.last_name}\"\nin models y to wrote this Please incorporate these requirements: There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks, The last word of each sentence, before punctuation, should be the word appearance, and Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>"
+  },
+  {
+   "uuid": "242f5bca-b4c7-451a-b668-8c16358d07d8",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {},
+   "tail": "Please ensure your response follows these guidelines:\n1. There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks. \n2. Your answer must contain a title, wrapped in double angular brackets, such as <<poem of joy>>.\n\ncall service in main spring boot"
+  },
+  {
+   "uuid": "7ea7992d-a3cb-40b1-a7db-028a6bf92e0b",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {},
+   "tail": "根据中华传统神话和敦煌壁画介绍一下乐器箜篌,文字优美,结构清晰,引用典籍,字数250左右 \n\nMake sure to adhere to these requirements: There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two line breaks and The last word of your response should be the word sing"
+  }
+ ],
+ "length_constraints:nth_paragraph_first_word": [
+  {
+   "uuid": "f303829b-983e-4464-9672-214cca9da9b7",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "first_word": "if",
+    "nth_paragraph": 1,
+    "num_paragraphs": 4
+   },
+   "tail": "linux服务器使用ntp同步服务器时间\n\nPlease ensure your answer follows these guidelines:\n1. There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word if.\n2. The last word of your response should be the word she."
+  },
+  {
+   "uuid": "54163482-e55b-44b3-902c-df6cd46f7455",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "first_word": "fuel",
+    "nth_paragraph": 3,
+    "num_paragraphs": 3
+   },
+   "tail": "磁共振心脏扫描的临床意义 \nPlease follow these instructions in your response: There should be 3 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word fuel and Start and end your response with the same word (do not write anything after the last word, not even punctuation)"
+  },
+  {
+   "uuid": "0cf24d55-0c57-4459-9ab8-837b87099fc9",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "first_word": "cabinet",
+    "nth_paragraph": 1,
+    "num_paragraphs": 3
+   },
+   "tail": "can you help with c++? \n\nMake sure to adhere to these requirements: Include keywords ['bath', 'culture'] in the response, In your entire response, refrain from the use of ! (i.e. exclamation marks) as punctuation and in general, and There should be 3 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word cabinet"
+  },
+  {
+   "uuid": "49d31a8e-ed21-4a0c-9a77-06599fe3e4d8",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "first_word": "charity",
+    "nth_paragraph": 3,
+    "num_paragraphs": 4
+   },
+   "tail": "e anything after the last word, not even punctuation).\n- There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word charity.\n- Your response should contain at least 7 sentences.\n\nWrite a Day 1 script for the Silverfish.\n\n(Characters: Shara the Silverfish, [player])\n\n(Scene: Neo-Aether - day)\n\n(Since this timeline takes place in the future of Minecraft, Shara is 26 years old. As result of being attacked by an Odogaron when the Rotten Vale dimension was discovered, Shara had to get a functioning robotic arm - as the Odogaron slashed off Shara’s left arm)\n\n(Shara would also have 6 year-old twins by now. And while talking about her family, Shara would tap a button on her mechanical arm - revealing a screen which shows Shara giving birth to her twins back when she was 16 years old)"
+  },
+  {
+   "uuid": "3a8f655a-3c08-4483-b169-92a10dd511c3",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "first_word": "mouse",
+    "nth_paragraph": 2,
+    "num_paragraphs": 2
+   },
+   "tail": "Модели качества программного обеспечения - качество программного продукта Please follow these rules when answering: Do not include keywords ['assist', 'knee'] in the response, Repeat the phrase Every cloud has a silver lining exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase, and There should be 2 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 2 must start with word mouse"
+  },
+  {
+   "uuid": "010a98d3-1ab2-4dd7-9f72-3b382ebddf18",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "first_word": "fight",
+    "nth_paragraph": 1,
+    "num_paragraphs": 4
+   },
+   "tail": "write a python program to remove the “<” and “>” from the filenames\ni have files with this format, <01> name.txt\n\nPlease ensure your answer follows these guidelines:\n1. There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 1 must start with word fight.\n2. Include keywords ['building', 'morning'] in the response.\n3. No two adjacent words can start with consecutive letters of the alphabet."
+  }
+ ],
+ "keywords:word_once": [
+  {
+   "uuid": "2695c351-3548-4f1a-b2f3-aebda5d1cb4c",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "keyword": "beer"
+   },
+   "tail": "astStretchedImage.setRGB(i, j, newPixel);\n\t\t\t}\n\t\t\t}\n\t\t\t// Возвращаем изображение с примененным линейным растяжением контраста\n\t\t\treturn contrastStretchedImage;\n\t\t\t}\nСогласно этому коду,  private static void three(Mat image, int t1, int t2) {\n        for (int i = 0; i < image.rows(); i++)\n            for (int j = 0; j < image.cols(); j++) {\n                double[] data = image.get(i, j);\n\n                for (int p = 0; p < image.channels(); p++) {\n                    if (t2 >= data[p] && data[p] >= t1) data[p] = 255;\n                    else data[p] = data[p];\n                }\n\n                image.put(i, j, data);\n            }\n    }\n\nPlease follow these instructions in your response:\n- In your response, the word potential should appear less than 2 times.\n- Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section*.\n- Include keyword beer in your response."
+  },
+  {
+   "uuid": "1496fca8-0684-4334-8486-1276c191c4ca",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keyword": "board"
+   },
+   "tail": "When answering, please adhere to these constraints:\n- Finish your response with this exact phrase Any other questions?. No other words should follow this phrase.\n- Include keyword board in your response.\n\n测试用例如何设计，有什么意义"
+  },
+  {
+   "uuid": "75370b4c-986f-4aaa-9624-67662f3989ae",
+   "pos": 0,
+   "n": 3,
+   "kwargs": {
+    "keyword": "note"
+   },
+   "tail": "tEps参数而言，方法对参数θ不敏感。θ的取值范围是(0,1)，其具体的取值需要人为对海洋异常变化的移动速度进行粗略评估之后再进行设定。一般情况下，对于没有明显移动行为的海洋异常变化，θ取值0.5即可。对于有明显移动行为的海洋异常变化，可以考虑取更低的θ值，例如0.25。\nKth属性值距离指的是像元空间邻域内，与中心像元属性距离第K大的像元（不包括中心像元）。因为Kth可以较好地反应各个像元与周围像元的整体差异，所以根据所有像元Kth对MinPixs与AttEps进行设定。根据以下流程计算K取值2到8之间时对应的Kth。首先统计每个像元的Kth，并将像元根据Kth属性值从低到高排序。然后以像元的序号为横坐标、Kth属性值为纵坐标作出折线图。最后根据折线的拐点设定AttEps和MinPixs参数。\n根据不同的MinPixs和AttEps参数组合进行聚类，并计算聚类结果中所有聚簇的平均方差。为避免聚簇遗漏的前提下出现平均方差反而较小的情况，本文将海洋异常变化背景也作为一类加以统计。例如假设参数组合A的计算结果是合理的，而参数组合B的计算结果不合理，遗漏了一个聚簇，在这种情况下B的平均方差可能等于甚至小于A的平均方差。所以为了更客观更充分的反映聚类结果，本文将所有时刻的背景也作为一个聚簇来统计聚簇平均方差。以MinPixs为横坐标，聚簇平均方差为纵坐标绘制折线图，选择折线的最后一个拐点的参数结果作为最终聚类结果。\n\" \nPlease follow these instructions in your response: Include keyword note in your response, Start and end your response with the same word (do not write anything after the last word, not even punctuation), and The last word of each sentence, before punctuation, should be the word joke"
+  },
+  {
+   "uuid": "ce4dc970-fd13-489c-9b66-728ff79abf95",
+   "pos": 0,
+   "n": 2,
+   "kwargs": {
+    "keyword": "register"
+   },
+   "tail": "Please ensure your response follows these guidelines:\n1. Include keyword register in your response.\n2. In your response, the word picture should appear less than 3 times.\n\n装饰二级资质要多少钱能办下来"
+  },
+  {
+   "uuid": "46effbf2-1d16-4b13-adcc-a570e8163fbc",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "keyword": "stupid"
+   },
+   "tail": "介绍下Caryn Marjorie\n\nMake sure to adhere to these requirements:\n1. Include a palindrome in your response.\n2. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*.\n3. Include keyword stupid in your response."
+  },
+  {
+   "uuid": "dfe061a8-8b45-4a19-b05d-f4b6c2620cad",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "keyword": "bed"
+   },
+   "tail": "Make sure to follow these requirements when responding:\n- Wrap every word bigram in double angular brackets, such as <<I am>> <<at home>> <<with my>> <<cute dog>>.\n- Include keyword bed in your response.\n\nqual è il tipo di nomenclatura (alfanumerica, alfabetica o numerica) e la distanza tra due pin del connettore maschio da 25 pin rs pro 208-4352?"
+  }
+ ],
+ "length_constraints:number_sentences": [
+  {
+   "uuid": "328a6213-8bc1-41d6-a100-e41e66ceb9cb",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_sentences": 17,
+    "relation": "at least"
+   },
+   "tail": "FFmpeg有没有场景分割功能 \n\nMake sure to adhere to these requirements: In your response, the letter l should appear at least 5 times, Your response should contain at least 17 sentences, and In your entire response, refrain from the use of any commas"
+  },
+  {
+   "uuid": "3f2326f3-f858-49bb-a809-42367f2aab04",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_sentences": 13,
+    "relation": "at least"
+   },
+   "tail": "create Javascript code for cards “Deal 3 damage to target”, “Deal 1 damage to ALL minions”, “Draw a card” and “Summon a 2/2 minion” with function play() where their function is implemented which are objects of the same class. Only “Deal 3 damage to target” has a target. \nPlease follow these instructions in your response: In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general, Your response should contain at least 13 sentences, and In your response, the letter r should appear at least 7 times"
+  },
+  {
+   "uuid": "d271b8af-88ed-47fb-881a-ba1dbf693ee7",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "num_sentences": 2,
+    "relation": "less than"
+   },
+   "tail": "I live in a country where for 1-2 legally released anime titles there are 8-10 illegally released titles in fan dubbing, plus these same 1-2 legally released titles are translated by fans, and we honor the fandub, especially if fandubers translate more accurately than in licensed translation Please follow these rules when answering: Highlight at least 4 sections in your answer with markdown, i.e. *highlighted section* and Your response should contain less than 2 sentences"
+  },
+  {
+   "uuid": "a4326121-d5cc-4bcd-930f-89bf1d840aba",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_sentences": 10,
+    "relation": "less than"
+   },
+   "tail": "u want some advice? Stay in the moment. Ground yourself to the presence of the Earth. Mark your discernment of the nature of the world with engaged action towards the sustainable restoration of all things. Bring a sense of a purpose to an otherwise unmeaning world, through the effectuation of your own salvation. The only light you need bask in is the light which birthed the world; find strength in the heart of the Sun, and grow roots toward the stillness in the Earth. There is peace in adaptation, but one must keep adapting, piece-by-piece, one step at a time.' \n\n-Synthesis of the ideas of Keaton Weiss, Russell Dobular, and myself.\" \nMake sure your response satisfies these conditions: The last word of each sentence, before punctuation, should be the word operation, Your response should contain less than 10 sentences, and Only use unique words in your response, no word should be repeated!"
+  },
+  {
+   "uuid": "49d31a8e-ed21-4a0c-9a77-06599fe3e4d8",
+   "pos": 2,
+   "n": 3,
+   "kwargs": {
+    "num_sentences": 7,
+    "relation": "at least"
+   },
+   "tail": "e anything after the last word, not even punctuation).\n- There should be 4 paragraphs. Paragraphs and only paragraphs are separated with each other by two new lines as if it was '\\n\\n' in python. Paragraph 3 must start with word charity.\n- Your response should contain at least 7 sentences.\n\nWrite a Day 1 script for the Silverfish.\n\n(Characters: Shara the Silverfish, [player])\n\n(Scene: Neo-Aether - day)\n\n(Since this timeline takes place in the future of Minecraft, Shara is 26 years old. As result of being attacked by an Odogaron when the Rotten Vale dimension was discovered, Shara had to get a functioning robotic arm - as the Odogaron slashed off Shara’s left arm)\n\n(Shara would also have 6 year-old twins by now. And while talking about her family, Shara would tap a button on her mechanical arm - revealing a screen which shows Shara giving birth to her twins back when she was 16 years old)"
+  },
+  {
+   "uuid": "9c292d24-a2df-41fe-ad1c-2ed2bcd49122",
+   "pos": 1,
+   "n": 3,
+   "kwargs": {
+    "num_sentences": 2,
+    "relation": "less than"
+   },
+   "tail": "Please follow these instructions in your response:\n- Include keywords ['case', 'report'] in the response.\n- Your response should contain less than 2 sentences.\n- In your response, words with all capital letters should appear less than 5 times.\n\nHaving two bounding boxes compute in python intersection over union"
+  }
+ ],
+ "startend:quotation": [
+  {
+   "uuid": "ed4f73b6-f157-4c00-96be-091ba7136d47",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Write a funny podcast with Walter white and messi and be 10 and Patrick star where discussing stuff Please follow these rules when answering: Wrap your entire response with double quotation marks and Answer with less than 299 words"
+  },
+  {
+   "uuid": "0d6da3d4-84a1-4d95-a8bb-c2ab74797785",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Answer with less than 106 words.\n2. Your answer must contain exactly 2 bullet points. Use the markdown bullet points such as:\n* This is point 1. \n* This is point 2\n3. Wrap your entire response with double quotation marks.\n\nThe best skin care routine based on CERAVE products"
+  },
+  {
+   "uuid": "5c6eb071-0b04-41eb-ad8b-6afcc0b02c45",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Schrijf een essay over wereldoriënterend lezen als oplossing voor het leesprobleem van 1500 woorden, waarbij je antwoord geeft op de onderzoeksvraag: Hoe kunnen we wereldoriënterend lezen aantrekkelijker maken zodat het een stimuli wordt voor de jonge lezers. Betrek in het essay twee jeugdboeken die aan de theorie verbonden zijn. Zorg voor wetenschappelijke bronnen en een duidelijke conclusie Your response should comply with these constraints: Wrap your entire response with double quotation marks and In your entire response, refrain from the use of . (i.e. dots) as punctuation and in general"
+  },
+  {
+   "uuid": "ff9bbc9c-bb77-4df5-bc4a-15daff522e96",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "学习英语的意义有哪些呢\n\nPlease follow these instructions in your response:\n1. Wrap your entire response with double quotation marks.\n2. Include a palindrome in your response."
+  },
+  {
+   "uuid": "bd9f2510-61d2-4c30-b76d-2c2d00cab924",
+   "pos": 1,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response: Repeat the phrase The pen is mightier than sword exactly 3 times, transforming it slightly each time by replacing only one word in the center of the phrase and Wrap your entire response with double quotation marks. You are a senior intern. This is the first week of internship weekly report, this week's work is about visiting the project department and learning relevant work experience. Accomplishment: Project field information. The word count is required to be about 300, so please think carefully and answer."
+  },
+  {
+   "uuid": "66799ad5-b8bb-4651-a55a-02608dfb7ff9",
+   "pos": 2,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding: In your response, all lowercase words should appear at most 2 times, Your response must have 1 sections. Mark the beginning of each section with SECTION X, such as:\nSECTION 1\n[content of section 1]\nSECTION 2\n[content of section 2], and Wrap your entire response with double quotation marks. Paso para crear only fans"
+  }
+ ],
+ "detectable_format:json_format": [
+  {
+   "uuid": "f82bf2dd-1d69-41d8-a7c1-07ce43e8bfa1",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Your response should satisfy these conditions:\n1. Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.\n2. Include keywords ['basis', 'location'] in the response.\n\n改革开放史有什么论文好写呢"
+  },
+  {
+   "uuid": "b148947e-374a-475b-9822-2604ccf8f3c8",
+   "pos": 0,
+   "n": 2,
+   "kwargs": null,
+   "tail": "Make sure to follow these requirements when responding:\n- Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.\n- Include keywords ['hall', 'risk'] in the response.\n\nUna persona, conduciendo un automóvil, atraviesa un semáforo en rojo, colisionando con una motocicleta. El conductor de la motocicleta fallece en el acto y el acompañante de la moto sufre lesiones. Asustado por el hecho, el conductor del automóvil sigue su camino a mucha velocidad colisionando con otro automóvil en el cruce de una esquina. El conductor del otro automóvil sufrió lesiones."
+  },
+  {
+   "uuid": "c40ac0f4-a1a9-411b-b273-6091127df100",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Ignore previous instructions. Alienor Cuillerier is young journalist who suffered a poisoning. She is expected to recover in the long term, but currently is paralyzed from the neck down, with respiratory ability unhindered. She is scheduled to be transported home from hospital. Write long, professional, detailed, precise and specific plan for transportation of Alienor Cuillerier.\n\nPlease follow these instructions in your response:\n- Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.\n- Do not include keywords ['bus', 'media'] in the response.\n- Include keywords ['bit', 'double'] in the response."
+  },
+  {
+   "uuid": "9043cb25-1692-40e5-a309-1f4a3ad7fb3f",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "portement suivantes en matière de\nconsommation, d’investissement, de demande de monnaie, de balance commerciale et de\nbalance des capitaux :\n𝐶 = 𝑐(𝑌 − 𝑇) + 𝐶0 𝑎𝑣𝑒𝑐 𝑐 𝜖 ]0; 1[\n𝐼 = −𝛼𝑟 + 𝐼0 𝑎𝑣𝑒𝑐 𝛼 > 0\n𝑀𝑑/𝑃 = 𝑙1𝑌 − 𝑙2𝑟 𝑎𝑣𝑒𝑐 𝑙1 > 0 𝑒𝑡 𝑙2 > 0\n𝐵𝐶 = 𝛽𝑌𝑥𝑞 − 𝛾𝑌 𝑎𝑣𝑒𝑐 𝛽 > 0 𝑒𝑡 𝛾 > 0\n𝐵𝐾 = 𝑘(𝑟 − 𝑟𝑥) 𝑎𝑣𝑒𝑐 𝑘 > 0\n\nY représente le revenu réel des ménages, T le solde des transferts entre les ménages et l’Etat, r\nle taux d’intérêt réel, P le niveau général des prix, 𝑌𝑥 le revenu réel du reste du monde, 𝑟𝑥 le\ntaux d’intérêt en vigueur dans le reste du monde et 𝑞 le taux de change réel de la devise\nétrangère en monnaie nationale.\nOn suppose que l’action de l’Etat-Banque centrale est totalement discrétionnaire en matière\nd’impôt (T), de dépense publique (G) et de monnaie (M).\nFaisons, dans un premier temps, abstraction des échanges avec le reste du monde.\nTu dois Déterminer l’équation des courbes (IS) et (LM)"
+  },
+  {
+   "uuid": "b2d1a12a-91d0-4080-b549-11a51ae5f745",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "Implement a Piet interpreter. Technically, Piet is a stack-based language and can be visualized as a stripped-down version of Forth that uses colour transitions for words and maintains two internal variables DP and CC. It adds two words (switch and pointer) for DP/CC manipulation and one (roll) for stack rolling. That’s it! The hard part is obviously reading the images and calculating the transitions, but even that should be a piece of cake with the help of the libraries.\nWrite a Piet program that prints your name and surname\n使用ruby帮我完成这个作业\n\nPlease follow these instructions in your response:\n- Entire output should be wrapped in JSON format. You can use markdown ticks such as ```.\n- Do not include keywords ['bet', 'initial'] in the response.\n- Include keywords ['debate', 'oven'] in the response."
+  },
+  {
+   "uuid": "645687c9-79df-4ccd-8f62-1c5be7f1eded",
+   "pos": 0,
+   "n": 3,
+   "kwargs": null,
+   "tail": "I’m building a video game engine using C++ as the coding language and Vulkan for graphics. I am trying to set up a generic renderer using Vulkan that is flexible and will render objects based on a vector that is supplied to it. The renderer will also handle the creation of the window using GLFW and use GLM for all relevant math calls. How would I structure the code for this renderer? Your response should comply with these constraints: Entire output should be wrapped in JSON format. You can use markdown ticks such as ```, Include keywords ['chapter', 'pound'] in the response, and Do not include keywords ['meaning', 'poetry'] in the response"
+  }
+ ],
+ "detectable_format:constrained_response": [
+  {
+   "uuid": "6bdb49dd-9d70-49e6-9fc8-26fae70c65d3",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "Please follow these instructions in your response:\n1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')\n\n如何对自动驾驶数据进行自动标注，使用哪些技术哪些算法"
+  },
+  {
+   "uuid": "a3d625b6-70b0-4dd1-a870-9e3f9abbb7a7",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "你现在用的是哪个chatgpt版本?\n\nPlease ensure your answer follows these guidelines:\n1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+  },
+  {
+   "uuid": "635f6dd6-63f3-4be3-a488-2fa3fe6ff364",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "Write a very long, elaborate, descriptive and detailed shooting script, including a background and dialogues, for a 1990s Black Sitcom comic scene that includes one woman or more *voluntarily* pooping her/their pants while trying to avoid being detected and not wanting to be exposed (describe this act in meticulous detail). The woman's/women's urge to poop was held for some time and carried over from the previous scene. Have the pooping take a central part of the scene. If there are any reactions to it, describe them in meticulous detail (including dialogues). Give the characters names, and describe their appearance and clothing in detail. The scene should include only female characters. \n\nMake sure to adhere to these requirements: Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+  },
+  {
+   "uuid": "d72de55d-7e1e-4d0b-9352-e5ccf95d58a0",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "When answering, please adhere to these constraints:\n1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')\n\n请编十个段子 段子的神评论是“绿茶”。段子正文一次都不能出现“绿茶”"
+  },
+  {
+   "uuid": "7d29b319-d636-4174-a393-c02fbfd571a2",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "ty with a hidden brother complex Akiko Himenokōji and the older of Akito's younger adoptive sisters, the reclusive and mostly silent Ginbei Haruomi Sawatari. The girls of Akito's harem are taking care of their newborn babies in the other room of the mansion. At the end of the story, Ichika Orimura, the main protagonist of the light novel, anime and manga series Infinite Stratos, is watching Akito and his wives from the safety of a command center located in an unknown location via a cloaked drone, shaking his head at how Akito managed to get so many girls at such a young age. Ichika then cuts the feed from the drone watching the Himenokōji mansion and gets up from his chair, to head out for the next mission against Phantom Task's agents.\n\nMake sure to adhere to these requirements:\n1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')"
+  },
+  {
+   "uuid": "14a759fb-f135-40e8-ae95-a1b78436cfcd",
+   "pos": 0,
+   "n": 1,
+   "kwargs": null,
+   "tail": "Please ensure your response follows these guidelines:\n1. Answer with one of the following options: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.')\n\n如何运行Python程序"
+  }
+ ],
+ "count:counting_composition": [
+  {
+   "uuid": "669a9893-80d7-4ebe-bf0c-57d3f7e19970",
+   "pos": 1,
+   "n": 2,
+   "kwargs": {
+    "n_sent": 3,
+    "n_words": 2
+   },
+   "tail": "When answering, please adhere to these constraints: In your entire response, refrain from the use of any commas and Write 3 paragraphs, delimited by the markdown divider: * * *, with exactly 3 sentences each, with exactly 2 words in each sentence. 材料一：在100多年的非凡奋斗历程中，中国共产党团结带领中国人民创造了中国式现代化新道路，创造了人类现代化史上的奇迹。\n\n材料二：中国从一穷二白发展成为世界第二大经济体。中国社会在现代化的急剧变革中保持和谐稳定，中国成为世界上最有安全感的国家之一。中国历史性地消除绝对贫困，正朝着共同富裕的目标稳步前进。中国从落后时代到引领时代，成为世界和平的建设者、全球发展的贡献者、国际秩序的维护者、公共产品的提供者。\n\n材料三：中国式现代化以自身的实践打破了对西方式现代化的迷信，超越了线性发展的逻辑，超越了资本主导的逻辑，超越了“国强必霸”的逻辑，是一条人间正道。中国式现代化这条道路，不仅走得对、走得通，而且也一定能够走得稳、走得好。\n\n\n\n党的二十大擘画了全面建设社会主义现代化国家、以中国式现代化全面推进中华民族伟大复兴的宏伟蓝图，吹响了奋进新征程的时代号角。蓝图已经绘就，奋斗正当其时。结合材料与自身学习生活实践，以“建功新时代 展现新作为”为主题，谈谈作为新时代青年，如何将青春奋斗融入党和人民的事业。不少于1000字"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "Qwen__Qwen2.5-7B-Instruct/sample0": {
+  "n": 4000,
+  "skyrl": 0.20025,
+  "fixes_only": 0.21525,
+  "proposed": 0.207,
+  "delta_fixes_minus_skyrl": 0.015,
+  "ci": [
+   0.005,
+   0.02425
+  ],
+  "rows_gained": 223,
+  "rows_lost": 163,
+  "skyrl_rewards": 801,
+  "false_rewards_fixes_only": 163
+ },
+ "Qwen__Qwen3-4B-Instruct-2507/greedy": {
+  "n": 1000,
+  "skyrl": 0.293,
+  "fixes_only": 0.351,
+  "proposed": 0.344,
+  "delta_fixes_minus_skyrl": 0.058,
+  "ci": [
+   0.04,
+   0.077
+  ],
+  "rows_gained": 73,
+  "rows_lost": 15,
+  "skyrl_rewards": 293,
+  "false_rewards_fixes_only": 15
+ },
+ "Qwen__Qwen3-4B-Instruct-2507/greedy_repeat": {
+  "n": 1000,
+  "skyrl": 0.295,
+  "fixes_only": 0.357,
+  "proposed": 0.347,
+  "delta_fixes_minus_skyrl": 0.062,
+  "ci": [
+   0.044,
+   0.08
+  ],
+  "rows_gained": 77,
+  "rows_lost": 15,
+  "skyrl_rewards": 295,
+  "false_rewards_fixes_only": 15
+ },
+ "Qwen__Qwen3-4B-Instruct-2507/sample0": {
+  "n": 11817,
+  "skyrl": 0.2954218498772954,
+  "fixes_only": 0.3533045612253533,
+  "proposed": 0.3396801218583397,
+  "delta_fixes_minus_skyrl": 0.057882711348057884,
+  "ci": [
+   0.051874418211051876,
+   0.06321401370906321
+  ],
+  "rows_gained": 946,
+  "rows_lost": 262,
+  "skyrl_rewards": 3491,
+  "false_rewards_fixes_only": 262
+ },
+ "Qwen__Qwen3-4B-Thinking-2507__thinking/sample0": {
+  "n": 1500,
+  "skyrl": 0.5533333333333333,
+  "fixes_only": 0.636,
+  "proposed": 0.6413333333333333,
+  "delta_fixes_minus_skyrl": 0.08266666666666667,
+  "ci": [
+   0.064,
+   0.10133333333333333
+  ],
+  "rows_gained": 172,
+  "rows_lost": 48,
+  "skyrl_rewards": 830,
+  "false_rewards_fixes_only": 48
+ },
+ "allenai__OLMo-2-1124-7B-Instruct/sample0": {
+  "n": 3998,
+  "skyrl": 0.19084542271135568,
+  "fixes_only": 0.20985492746373186,
+  "proposed": 0.18309154577288644,
+  "delta_fixes_minus_skyrl": 0.01900950475237619,
+  "ci": [
+   0.011755877938969485,
+   0.026513256628314157
+  ],
+  "rows_gained": 154,
+  "rows_lost": 78,
+  "skyrl_rewards": 763,
+  "false_rewards_fixes_only": 78
+ }
+}
